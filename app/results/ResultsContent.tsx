@@ -19,6 +19,8 @@ export default function ResultsContent() {
   const [cityName, setCityName] = useState("");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [linkCopied, setLinkCopied] = useState(false);
+  const [showMap, setShowMap] = useState(false);
 
   useEffect(() => {
     if (!zip) {
@@ -92,12 +94,41 @@ export default function ResultsContent() {
         </Link>
         <h1 className="text-3xl font-bold text-gray-900">
           {results.length} College{results.length !== 1 ? "s" : ""} Near{" "}
-          {cityName ? `${cityName} (${zip})` : zip}
+          {cityName && cityName.toLowerCase() !== zip.toLowerCase()
+            ? `${cityName} (${zip})`
+            : cityName || zip}
         </h1>
-        <p className="text-gray-600 mt-1">
-          Within {radius} miles &middot; Showing colleges with course listings
-          this term
-        </p>
+        <div className="flex items-center gap-4 mt-1">
+          <p className="text-gray-600">
+            Within {radius} miles &middot; Showing colleges with course listings
+            this term
+          </p>
+          <button
+            type="button"
+            onClick={async () => {
+              try {
+                await navigator.clipboard.writeText(window.location.href);
+                setLinkCopied(true);
+                setTimeout(() => setLinkCopied(false), 2000);
+              } catch {
+                // fallback
+              }
+            }}
+            className="shrink-0 inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-2.5 py-1 text-xs font-medium text-gray-600 hover:bg-gray-50 transition"
+          >
+            {linkCopied ? (
+              <>
+                <svg className="h-3.5 w-3.5 text-emerald-500" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
+                Copied!
+              </>
+            ) : (
+              <>
+                <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" /></svg>
+                Share
+              </>
+            )}
+          </button>
+        </div>
       </div>
 
       {results.length === 0 ? (
@@ -131,17 +162,32 @@ export default function ResultsContent() {
 
           {/* Right panel — map */}
           <div className="lg:col-span-2">
-            <div className="sticky top-24 h-[500px] lg:h-[calc(100vh-8rem)]">
-              {center && (
-                <MapViewWrapper
-                  institutions={results.map((r) => ({
-                    institution: r.institution,
-                    distance: r.distance,
-                  }))}
-                  center={center}
-                  zoom={radius <= 10 ? 11 : radius <= 25 ? 9 : 8}
-                />
-              )}
+            {/* Mobile: toggleable */}
+            <div className="lg:hidden mb-4">
+              <button
+                type="button"
+                onClick={() => setShowMap(!showMap)}
+                className="w-full flex items-center justify-center gap-2 rounded-lg border border-gray-300 bg-white px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 transition"
+              >
+                <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                </svg>
+                {showMap ? "Hide Map" : "Show Map"}
+              </button>
+            </div>
+            <div className={`${showMap ? "block" : "hidden"} lg:block`}>
+              <div className="sticky top-24 h-[350px] lg:h-[calc(100vh-8rem)]">
+                {center && (
+                  <MapViewWrapper
+                    institutions={results.map((r) => ({
+                      institution: r.institution,
+                      distance: r.distance,
+                    }))}
+                    center={center}
+                    zoom={radius <= 10 ? 11 : radius <= 25 ? 9 : 8}
+                  />
+                )}
+              </div>
             </div>
           </div>
         </div>

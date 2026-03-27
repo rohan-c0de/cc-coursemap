@@ -7,6 +7,8 @@ interface CourseTableProps {
   courses: CourseSection[];
   collegeSisUrl: string;
   onAuditClick?: (course: CourseSection) => void;
+  pinnedCRNs?: Set<string>;
+  onTogglePin?: (crn: string) => void;
 }
 
 const MODE_STYLES: Record<CourseMode, { bg: string; text: string; label: string }> = {
@@ -27,15 +29,39 @@ function getUniqueModes(courses: CourseSection[]): CourseMode[] {
 }
 
 function formatSchedule(course: CourseSection): string {
-  if (!course.days && !course.start_time) return "TBA";
-  const days = course.days || "TBA";
-  if (!course.start_time || !course.end_time) return days;
-  return `${days} ${course.start_time}\u2013${course.end_time}`;
+  if (!course.days && (!course.start_time || course.start_time === "TBA")) {
+    return "Asynchronous / Online";
+  }
+  const days = course.days || "";
+  const time =
+    course.start_time && course.start_time !== "TBA" && course.end_time && course.end_time !== "TBA"
+      ? `${course.start_time}\u2013${course.end_time}`
+      : "";
+  if (days && time) return `${days} ${time}`;
+  if (days) return days;
+  if (time) return time;
+  return "Asynchronous / Online";
 }
 
-const DAY_OPTIONS = ["M", "T", "W", "R", "F", "S"] as const;
+// Day filter options matching the actual data format (M, Tu, W, Th, F, Sa)
+const DAY_OPTIONS = [
+  { value: "M", label: "Monday" },
+  { value: "Tu", label: "Tuesday" },
+  { value: "W", label: "Wednesday" },
+  { value: "Th", label: "Thursday" },
+  { value: "F", label: "Friday" },
+  { value: "Sa", label: "Saturday" },
+] as const;
 
-export default function CourseTable({ courses, collegeSisUrl, onAuditClick }: CourseTableProps) {
+/** Check if a course meets on a given day, using word-boundary matching */
+function courseMatchesDay(courseDays: string, filterDay: string): boolean {
+  if (!courseDays) return false;
+  // Split on spaces and match exactly to avoid "Th" matching "Tu Th" for "T"
+  const parts = courseDays.split(" ");
+  return parts.includes(filterDay);
+}
+
+export default function CourseTable({ courses, collegeSisUrl, onAuditClick, pinnedCRNs, onTogglePin }: CourseTableProps) {
   const [subjectFilter, setSubjectFilter] = useState("");
   const [dayFilter, setDayFilter] = useState("");
   const [modeFilter, setModeFilter] = useState("");
@@ -46,7 +72,7 @@ export default function CourseTable({ courses, collegeSisUrl, onAuditClick }: Co
   const filtered = useMemo(() => {
     return courses.filter((c) => {
       if (subjectFilter && c.course_prefix !== subjectFilter) return false;
-      if (dayFilter && !c.days.includes(dayFilter)) return false;
+      if (dayFilter && !courseMatchesDay(c.days, dayFilter)) return false;
       if (modeFilter && c.mode !== modeFilter) return false;
       return true;
     });
@@ -87,8 +113,8 @@ export default function CourseTable({ courses, collegeSisUrl, onAuditClick }: Co
           >
             <option value="">Any Day</option>
             {DAY_OPTIONS.map((d) => (
-              <option key={d} value={d}>
-                {d === "R" ? "Thursday" : d === "M" ? "Monday" : d === "T" ? "Tuesday" : d === "W" ? "Wednesday" : d === "F" ? "Friday" : "Saturday"}
+              <option key={d.value} value={d.value}>
+                {d.label}
               </option>
             ))}
           </select>
@@ -192,7 +218,23 @@ export default function CourseTable({ courses, collegeSisUrl, onAuditClick }: Co
                           {style.label}
                         </span>
                       </td>
-                      <td className="px-4 py-3 text-right space-x-3">
+                      <td className="px-4 py-3 text-right space-x-2">
+                        {onTogglePin && (
+                          <button
+                            type="button"
+                            onClick={() => onTogglePin(course.crn)}
+                            className={`inline-flex items-center justify-center w-7 h-7 rounded-md border transition ${
+                              pinnedCRNs?.has(course.crn)
+                                ? "bg-teal-100 border-teal-300 text-teal-700"
+                                : "bg-white border-gray-300 text-gray-400 hover:text-teal-600 hover:border-teal-300"
+                            }`}
+                            title={pinnedCRNs?.has(course.crn) ? "Remove from schedule" : "Add to schedule"}
+                          >
+                            <svg className="h-3.5 w-3.5" fill={pinnedCRNs?.has(course.crn) ? "currentColor" : "none"} stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                          </button>
+                        )}
                         {onAuditClick && (
                           <button
                             type="button"
@@ -249,14 +291,34 @@ export default function CourseTable({ courses, collegeSisUrl, onAuditClick }: Co
                       Schedule: <span className="text-gray-700">{formatSchedule(course)}</span>
                     </span>
                   </div>
-                  <a
-                    href={collegeSisUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-3 block text-center text-xs font-medium text-teal-600 hover:underline"
-                  >
-                    Check live availability &rarr;
-                  </a>
+                  <div className="mt-3 flex items-center justify-center gap-4 border-t border-gray-100 pt-3">
+                    {onTogglePin && (
+                      <button
+                        type="button"
+                        onClick={() => onTogglePin(course.crn)}
+                        className={`text-xs font-medium ${pinnedCRNs?.has(course.crn) ? "text-teal-700" : "text-gray-400 hover:text-teal-600"}`}
+                      >
+                        {pinnedCRNs?.has(course.crn) ? "Pinned" : "Pin to schedule"}
+                      </button>
+                    )}
+                    {onAuditClick && (
+                      <button
+                        type="button"
+                        onClick={() => onAuditClick(course)}
+                        className="text-xs font-medium text-teal-600 hover:text-teal-800 hover:underline"
+                      >
+                        How to Audit
+                      </button>
+                    )}
+                    <a
+                      href={collegeSisUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs font-medium text-gray-500 hover:text-gray-700 hover:underline"
+                    >
+                      Check availability &rarr;
+                    </a>
+                  </div>
                 </div>
               );
             })}

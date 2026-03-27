@@ -32,6 +32,53 @@ export function getZipCoordinates(
 }
 
 /**
+ * Find zip codes matching a city name (case-insensitive).
+ * Returns the first match's zip code, or null if not found.
+ */
+export function findZipByCity(
+  cityQuery: string
+): { zip: string; lat: number; lng: number; city: string } | null {
+  const data = loadZipData();
+  const query = cityQuery.trim().toLowerCase();
+  if (!query) return null;
+
+  // Exact match first
+  for (const [zip, entry] of Object.entries(data)) {
+    if (entry.city.toLowerCase() === query) {
+      return { zip, ...entry };
+    }
+  }
+
+  // Prefix match as fallback
+  for (const [zip, entry] of Object.entries(data)) {
+    if (entry.city.toLowerCase().startsWith(query)) {
+      return { zip, ...entry };
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Resolve a user query (zip code or city name) to coordinates.
+ * Returns zip, coordinates, and city name, or null if not found.
+ */
+export function resolveLocation(
+  query: string
+): { zip: string; lat: number; lng: number; city: string } | null {
+  const trimmed = query.trim();
+
+  // If it looks like a zip code, try that first
+  if (/^\d{5}$/.test(trimmed)) {
+    const coords = getZipCoordinates(trimmed);
+    if (coords) return { zip: trimmed, ...coords };
+  }
+
+  // Otherwise try city name lookup
+  return findZipByCity(trimmed);
+}
+
+/**
  * Calculate the great-circle distance between two points using the Haversine
  * formula.
  * @returns distance in miles
@@ -62,19 +109,15 @@ export function calculateDistance(
 }
 
 /**
- * Find institutions within a given radius of a ZIP code, sorted by distance
+ * Find institutions within a given radius of coordinates, sorted by distance
  * to the nearest campus.
  */
 export function findNearbyInstitutions(
-  zip: string,
+  lat: number,
+  lng: number,
   radiusMiles: number,
   institutions: Institution[]
 ): SearchResult[] {
-  const coords = getZipCoordinates(zip);
-  if (!coords) {
-    return [];
-  }
-
   const results: SearchResult[] = [];
 
   for (const institution of institutions) {
@@ -83,8 +126,8 @@ export function findNearbyInstitutions(
 
     for (const campus of institution.campuses) {
       const dist = calculateDistance(
-        coords.lat,
-        coords.lng,
+        lat,
+        lng,
         campus.lat,
         campus.lng
       );

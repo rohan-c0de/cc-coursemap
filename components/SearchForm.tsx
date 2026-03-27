@@ -16,12 +16,23 @@ export default function SearchForm() {
     setError(null);
 
     const trimmed = zip.trim();
-    if (!/^\d{5}$/.test(trimmed)) {
+    if (!trimmed) {
+      setError("Please enter a zip code or city name.");
+      return;
+    }
+
+    // Accept either a 5-digit zip or a city name (2+ chars)
+    if (/^\d+$/.test(trimmed) && trimmed.length !== 5) {
       setError("Please enter a valid 5-digit zip code.");
       return;
     }
 
-    router.push(`/results?zip=${trimmed}&radius=${radius}`);
+    if (trimmed.length < 2) {
+      setError("Please enter at least 2 characters.");
+      return;
+    }
+
+    router.push(`/results?zip=${encodeURIComponent(trimmed)}&radius=${radius}`);
   }
 
   return (
@@ -34,7 +45,7 @@ export default function SearchForm() {
         Find Colleges Near You
       </h3>
       <p className="mb-6 text-center text-sm text-gray-500">
-        Enter your zip code to discover audit-friendly courses nearby.
+        Enter your zip code or city name to discover audit-friendly courses nearby.
       </p>
 
       {/* Zip code input */}
@@ -43,17 +54,16 @@ export default function SearchForm() {
           htmlFor="zip"
           className="mb-1.5 block text-sm font-medium text-gray-700"
         >
-          Zip Code
+          Zip Code or City
         </label>
         <input
           id="zip"
           type="text"
-          inputMode="numeric"
-          maxLength={5}
-          placeholder="e.g. 22903"
+          maxLength={30}
+          placeholder="e.g. 22903 or Stafford"
           value={zip}
           onChange={(e) => {
-            setZip(e.target.value.replace(/\D/g, "").slice(0, 5));
+            setZip(e.target.value);
             if (error) setError(null);
           }}
           className={`w-full rounded-lg border px-4 py-3 text-lg tracking-widest placeholder:tracking-normal placeholder:text-gray-400 focus:outline-none focus:ring-2 ${

@@ -5,6 +5,7 @@ import institutionsData from "@/data/institutions.json";
 import { loadCoursesForCollege, isDataStale } from "@/lib/courses";
 import type { Institution } from "@/lib/types";
 import CollegeDetailClient from "./CollegeDetailClient";
+import CollegeMap from "./CollegeMap";
 
 const institutions = institutionsData as Institution[];
 const CURRENT_TERM = "2026SP";
@@ -84,6 +85,13 @@ export default async function CollegeDetailPage(props: PageProps) {
           )}
         </div>
       </div>
+
+      {/* Campus map */}
+      {institution.campuses.length > 0 && (
+        <div className="mb-8 h-[250px] rounded-lg overflow-hidden border border-gray-200">
+          <CollegeMap institution={institution} />
+        </div>
+      )}
 
       {/* Staleness warning */}
       {stale && courses.length > 0 && (

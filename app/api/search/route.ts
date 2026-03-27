@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getZipCoordinates, findNearbyInstitutions } from "@/lib/geo";
+import { resolveLocation, findNearbyInstitutions } from "@/lib/geo";
 import { getCourseCount } from "@/lib/courses";
 import type { Institution } from "@/lib/types";
 import institutionsData from "@/data/institutions.json";
@@ -11,27 +11,32 @@ const CURRENT_TERM = "2026SP";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
-  const zip = searchParams.get("zip");
+  const query = searchParams.get("zip") || searchParams.get("q") || "";
   const radius = parseInt(searchParams.get("radius") || "25", 10);
 
-  if (!zip || !/^\d{5}$/.test(zip)) {
+  if (!query.trim()) {
     return NextResponse.json(
-      { error: "Please provide a valid 5-digit Virginia zip code." },
+      { error: "Please provide a zip code or city name." },
       { status: 400 }
     );
   }
 
-  const coords = getZipCoordinates(zip);
-  if (!coords) {
+  const location = resolveLocation(query);
+  if (!location) {
     return NextResponse.json(
       {
-        error: `Zip code ${zip} not found in our Virginia database. Please try a different zip code.`,
+        error: `"${query}" not found in our Virginia database. Try a 5-digit zip code or a Virginia city name.`,
       },
       { status: 404 }
     );
   }
 
-  const results = findNearbyInstitutions(zip, radius, institutions);
+  const results = findNearbyInstitutions(
+    location.lat,
+    location.lng,
+    radius,
+    institutions
+  );
 
   // Populate course counts
   const resultsWithCounts = results.map((result) => ({
@@ -41,9 +46,9 @@ export async function GET(request: NextRequest) {
 
   return NextResponse.json({
     results: resultsWithCounts,
-    center: { lat: coords.lat, lng: coords.lng },
-    city: coords.city,
-    zip,
+    center: { lat: location.lat, lng: location.lng },
+    city: location.city,
+    zip: location.zip,
     radius,
     term: CURRENT_TERM,
   });
