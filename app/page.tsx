@@ -1,65 +1,106 @@
-import Image from "next/image";
+import SeniorBanner from "@/components/SeniorBanner";
+import SearchForm from "@/components/SearchForm";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div>
+      <SeniorBanner />
+
+      {/* Search section */}
+      <section id="search" className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-2xl mx-auto text-center">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+            Find Virginia Community College Courses to Audit
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-lg text-gray-600 mb-8">
+            Search by zip code to discover which VCCS colleges near you allow
+            course auditing, what it costs, and exactly how to apply.
           </p>
+          <SearchForm />
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* How it works */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 text-center mb-12">
+            How Course Auditing Works
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-12 h-12 bg-teal-100 text-teal-700 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                1
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Find a College
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Enter your zip code to find nearby community colleges that allow
+                auditing. We show you which ones have verified audit policies.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-teal-100 text-teal-700 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                2
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Choose a Course
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Browse current course listings with schedules, locations, and
+                delivery modes. Filter by subject, day, or format.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-teal-100 text-teal-700 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                3
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Apply to Audit
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Follow the college-specific steps we provide — including forms,
+                contacts, and a pre-written email template.
+              </p>
+            </div>
+          </div>
         </div>
-      </main>
+      </section>
+
+      {/* What is auditing */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            What is Course Auditing?
+          </h2>
+          <div className="space-y-4">
+            <p className="text-gray-600">
+              Auditing a college course means attending classes without receiving
+              a grade or academic credit. You get to learn the material,
+              participate in lectures, and engage with the subject — without
+              exams, homework pressure, or GPA impact.
+            </p>
+            <p className="text-gray-600">
+              Virginia&apos;s 23 community colleges (the VCCS system) generally
+              allow community members to audit courses, though policies vary by
+              college. Most require you to complete an admission application and
+              submit an audit request form during the add/drop period.
+            </p>
+            <div className="bg-teal-50 border border-teal-200 rounded-lg p-4 mt-6">
+              <h3 className="font-semibold text-teal-900 mb-2">
+                Virginia 60+ Tuition Waiver
+              </h3>
+              <p className="text-teal-800 text-sm">
+                Virginia Code 23.1-638 provides a tuition waiver for Virginia
+                residents aged 60 and older at VCCS colleges. This may make
+                auditing free — but whether the waiver applies specifically to
+                audit enrollment varies by college. We flag this on every college
+                page and link to the source so you can verify.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -1,0 +1,268 @@
+"use client";
+
+import { useState, useMemo } from "react";
+import type { CourseSection, CourseMode } from "@/lib/types";
+
+interface CourseTableProps {
+  courses: CourseSection[];
+  collegeSisUrl: string;
+  onAuditClick?: (course: CourseSection) => void;
+}
+
+const MODE_STYLES: Record<CourseMode, { bg: string; text: string; label: string }> = {
+  "in-person": { bg: "bg-emerald-50", text: "text-emerald-700", label: "In-Person" },
+  online: { bg: "bg-blue-50", text: "text-blue-700", label: "Online" },
+  hybrid: { bg: "bg-purple-50", text: "text-purple-700", label: "Hybrid" },
+  zoom: { bg: "bg-orange-50", text: "text-orange-700", label: "Zoom" },
+};
+
+function getUniqueSubjects(courses: CourseSection[]): string[] {
+  const subjects = new Set(courses.map((c) => c.course_prefix));
+  return Array.from(subjects).sort();
+}
+
+function getUniqueModes(courses: CourseSection[]): CourseMode[] {
+  const modes = new Set(courses.map((c) => c.mode));
+  return Array.from(modes).sort() as CourseMode[];
+}
+
+function formatSchedule(course: CourseSection): string {
+  if (!course.days && !course.start_time) return "TBA";
+  const days = course.days || "TBA";
+  if (!course.start_time || !course.end_time) return days;
+  return `${days} ${course.start_time}\u2013${course.end_time}`;
+}
+
+const DAY_OPTIONS = ["M", "T", "W", "R", "F", "S"] as const;
+
+export default function CourseTable({ courses, collegeSisUrl, onAuditClick }: CourseTableProps) {
+  const [subjectFilter, setSubjectFilter] = useState("");
+  const [dayFilter, setDayFilter] = useState("");
+  const [modeFilter, setModeFilter] = useState("");
+
+  const subjects = useMemo(() => getUniqueSubjects(courses), [courses]);
+  const modes = useMemo(() => getUniqueModes(courses), [courses]);
+
+  const filtered = useMemo(() => {
+    return courses.filter((c) => {
+      if (subjectFilter && c.course_prefix !== subjectFilter) return false;
+      if (dayFilter && !c.days.includes(dayFilter)) return false;
+      if (modeFilter && c.mode !== modeFilter) return false;
+      return true;
+    });
+  }, [courses, subjectFilter, dayFilter, modeFilter]);
+
+  const activeFilters = [subjectFilter, dayFilter, modeFilter].filter(Boolean).length;
+
+  return (
+    <div>
+      {/* Filter bar */}
+      <div className="mb-4 flex flex-wrap items-end gap-3 rounded-lg border border-gray-200 bg-gray-50 p-4">
+        <div className="min-w-[140px]">
+          <label className="mb-1 block text-xs font-medium text-gray-600">
+            Subject
+          </label>
+          <select
+            value={subjectFilter}
+            onChange={(e) => setSubjectFilter(e.target.value)}
+            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+          >
+            <option value="">All Subjects</option>
+            {subjects.map((s) => (
+              <option key={s} value={s}>
+                {s}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="min-w-[120px]">
+          <label className="mb-1 block text-xs font-medium text-gray-600">
+            Day
+          </label>
+          <select
+            value={dayFilter}
+            onChange={(e) => setDayFilter(e.target.value)}
+            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+          >
+            <option value="">Any Day</option>
+            {DAY_OPTIONS.map((d) => (
+              <option key={d} value={d}>
+                {d === "R" ? "Thursday" : d === "M" ? "Monday" : d === "T" ? "Tuesday" : d === "W" ? "Wednesday" : d === "F" ? "Friday" : "Saturday"}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="min-w-[130px]">
+          <label className="mb-1 block text-xs font-medium text-gray-600">
+            Mode
+          </label>
+          <select
+            value={modeFilter}
+            onChange={(e) => setModeFilter(e.target.value)}
+            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+          >
+            <option value="">All Modes</option>
+            {modes.map((m) => (
+              <option key={m} value={m}>
+                {MODE_STYLES[m].label}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        {activeFilters > 0 && (
+          <button
+            type="button"
+            onClick={() => {
+              setSubjectFilter("");
+              setDayFilter("");
+              setModeFilter("");
+            }}
+            className="rounded-md px-3 py-2 text-sm font-medium text-teal-600 hover:bg-teal-50"
+          >
+            Clear filters
+          </button>
+        )}
+
+        <span className="ml-auto text-sm text-gray-500">
+          {filtered.length} {filtered.length === 1 ? "section" : "sections"}
+        </span>
+      </div>
+
+      {filtered.length === 0 ? (
+        <div className="rounded-lg border border-dashed border-gray-300 py-12 text-center">
+          <p className="text-gray-500">No courses match your filters.</p>
+          <button
+            type="button"
+            onClick={() => {
+              setSubjectFilter("");
+              setDayFilter("");
+              setModeFilter("");
+            }}
+            className="mt-2 text-sm font-medium text-teal-600 hover:underline"
+          >
+            Reset all filters
+          </button>
+        </div>
+      ) : (
+        <>
+          {/* Desktop table */}
+          <div className="hidden overflow-x-auto rounded-lg border border-gray-200 md:block">
+            <table className="w-full text-left text-sm">
+              <thead className="border-b border-gray-200 bg-gray-50 text-xs uppercase tracking-wider text-gray-500">
+                <tr>
+                  <th className="px-4 py-3 font-medium">CRN</th>
+                  <th className="px-4 py-3 font-medium">Course</th>
+                  <th className="px-4 py-3 font-medium">Title</th>
+                  <th className="px-4 py-3 font-medium">Schedule</th>
+                  <th className="px-4 py-3 font-medium">Campus</th>
+                  <th className="px-4 py-3 font-medium">Mode</th>
+                  <th className="px-4 py-3 font-medium" />
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                {filtered.map((course) => {
+                  const style = MODE_STYLES[course.mode];
+                  return (
+                    <tr
+                      key={course.crn}
+                      className="transition hover:bg-gray-50"
+                    >
+                      <td className="whitespace-nowrap px-4 py-3 font-mono text-xs text-gray-600">
+                        {course.crn}
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-3 font-medium text-gray-900">
+                        {course.course_prefix} {course.course_number}
+                      </td>
+                      <td className="px-4 py-3 text-gray-700">
+                        {course.course_title}
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-3 text-gray-600">
+                        {formatSchedule(course)}
+                      </td>
+                      <td className="px-4 py-3 text-gray-600">
+                        {course.campus || "---"}
+                      </td>
+                      <td className="px-4 py-3">
+                        <span
+                          className={`inline-block rounded-full px-2.5 py-0.5 text-xs font-medium ${style.bg} ${style.text}`}
+                        >
+                          {style.label}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3 text-right space-x-3">
+                        {onAuditClick && (
+                          <button
+                            type="button"
+                            onClick={() => onAuditClick(course)}
+                            className="text-xs font-medium text-teal-600 hover:text-teal-800 hover:underline"
+                          >
+                            How to Audit
+                          </button>
+                        )}
+                        <a
+                          href={collegeSisUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs font-medium text-gray-500 hover:text-gray-700 hover:underline"
+                        >
+                          Check availability &rarr;
+                        </a>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile cards */}
+          <div className="flex flex-col gap-3 md:hidden">
+            {filtered.map((course) => {
+              const style = MODE_STYLES[course.mode];
+              return (
+                <div
+                  key={course.crn}
+                  className="rounded-lg border border-gray-200 bg-white p-4"
+                >
+                  <div className="mb-2 flex items-start justify-between gap-2">
+                    <div>
+                      <p className="font-medium text-gray-900">
+                        {course.course_prefix} {course.course_number}
+                      </p>
+                      <p className="text-sm text-gray-600">
+                        {course.course_title}
+                      </p>
+                    </div>
+                    <span
+                      className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${style.bg} ${style.text}`}
+                    >
+                      {style.label}
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-2 gap-y-1 text-xs text-gray-500">
+                    <span>CRN: <span className="font-mono text-gray-700">{course.crn}</span></span>
+                    <span>Campus: <span className="text-gray-700">{course.campus || "---"}</span></span>
+                    <span className="col-span-2">
+                      Schedule: <span className="text-gray-700">{formatSchedule(course)}</span>
+                    </span>
+                  </div>
+                  <a
+                    href={collegeSisUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 block text-center text-xs font-medium text-teal-600 hover:underline"
+                  >
+                    Check live availability &rarr;
+                  </a>
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
