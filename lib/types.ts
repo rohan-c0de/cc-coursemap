@@ -76,3 +76,49 @@ export interface SearchResult {
   distance: number; // miles
   courseCount: number;
 }
+
+// ---------------------------------------------------------------------------
+// Smart Schedule Builder types
+// ---------------------------------------------------------------------------
+
+export interface ScheduleRequest {
+  subjects: string[]; // e.g. ["ART", "PSY"] or ["PSY 200", "ART 101"]
+  daysAvailable: string[]; // e.g. ["M", "Tu", "W", "Th"]
+  timeWindowStart: string; // "9:00 AM" or bucket like "morning"
+  timeWindowEnd: string; // "1:00 PM" or bucket like "afternoon"
+  maxCourses: 1 | 2 | 3;
+  zip?: string;
+  maxDistance?: number; // miles; undefined means no limit
+  mode?: CourseMode | "any";
+  minBreakMinutes: 0 | 30 | 60;
+}
+
+export interface ScoreBreakdown {
+  timeCompactness: number; // 0-25
+  distanceScore: number; // 0-25
+  dayConsolidation: number; // 0-25
+  varietyScore: number; // 0-25
+}
+
+export interface ScheduleSection extends CourseSection {
+  collegeName: string;
+  distance: number | null;
+}
+
+export interface GeneratedSchedule {
+  id: string;
+  score: number; // 0-100
+  sections: ScheduleSection[];
+  scoreBreakdown: ScoreBreakdown;
+}
+
+export interface ScheduleResponse {
+  schedules: GeneratedSchedule[];
+  meta: {
+    candidateSections: number;
+    candidateCourses: number;
+    combinationsEvaluated: number;
+    timeTakenMs: number;
+    message?: string;
+  };
+}

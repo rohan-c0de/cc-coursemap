@@ -59,6 +59,12 @@ export default function RootLayout({
                 Find a Course
               </Link>
               <Link
+                href="/schedule"
+                className="hover:text-teal-600 transition-colors"
+              >
+                Schedule Builder
+              </Link>
+              <Link
                 href="/colleges"
                 className="hover:text-teal-600 transition-colors"
               >

@@ -1,0 +1,294 @@
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
+import type { GeneratedSchedule, ScheduleResponse } from "@/lib/types";
+import WeeklyCalendar from "./WeeklyCalendar";
+import ScoreBar from "./ScoreBar";
+import { isValidTime } from "@/lib/time-utils";
+
+interface Props {
+  response: ScheduleResponse;
+}
+
+const MODE_STYLES: Record<string, { bg: string; text: string; label: string }> = {
+  "in-person": { bg: "bg-emerald-50", text: "text-emerald-700", label: "In-Person" },
+  online: { bg: "bg-blue-50", text: "text-blue-700", label: "Online" },
+  hybrid: { bg: "bg-purple-50", text: "text-purple-700", label: "Hybrid" },
+  zoom: { bg: "bg-orange-50", text: "text-orange-700", label: "Zoom" },
+};
+
+function formatSchedule(days: string, startTime: string, endTime: string): string {
+  const hasTime = isValidTime(startTime) && isValidTime(endTime);
+  if (!days && !hasTime) return "Async / Online";
+  const time = hasTime ? `${startTime}\u2013${endTime}` : "";
+  if (days && time) return `${days} ${time}`;
+  return days || time || "Async / Online";
+}
+
+function scoreColor(score: number): string {
+  if (score >= 80) return "bg-emerald-100 text-emerald-800 border-emerald-200";
+  if (score >= 60) return "bg-amber-100 text-amber-800 border-amber-200";
+  return "bg-red-100 text-red-800 border-red-200";
+}
+
+export default function ScheduleResults({ response }: Props) {
+  const [expandedId, setExpandedId] = useState<string | null>(
+    response.schedules.length > 0 ? response.schedules[0].id : null
+  );
+  const [displayLimit, setDisplayLimit] = useState(10);
+
+  const { schedules, meta } = response;
+  const displayed = schedules.slice(0, displayLimit);
+
+  if (meta.message && schedules.length === 0) {
+    return (
+      <div className="rounded-lg border border-dashed border-gray-300 py-12 text-center">
+        <svg className="mx-auto h-8 w-8 text-gray-300 mb-3" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+        </svg>
+        <p className="text-gray-500 font-medium">{meta.message}</p>
+        <p className="mt-1 text-sm text-gray-400">
+          Try adjusting your constraints and search again.
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      {/* Summary bar */}
+      <div className="mb-6 flex flex-wrap items-center gap-3">
+        <p className="text-sm text-gray-700">
+          Found{" "}
+          <span className="font-semibold text-gray-900">{schedules.length}</span>{" "}
+          conflict-free {schedules.length === 1 ? "schedule" : "schedules"} from{" "}
+          <span className="font-semibold text-gray-900">{meta.candidateSections}</span>{" "}
+          sections of{" "}
+          <span className="font-semibold text-gray-900">{meta.candidateCourses}</span>{" "}
+          courses
+        </p>
+        <span className="text-xs text-gray-400">
+          ({meta.timeTakenMs}ms)
+        </span>
+      </div>
+
+      {meta.message && (
+        <div className="mb-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-2.5 text-sm text-amber-800">
+          {meta.message}
+        </div>
+      )}
+
+      {/* Schedule cards */}
+      <div className="space-y-4">
+        {displayed.map((schedule, idx) => (
+          <ScheduleCard
+            key={schedule.id}
+            schedule={schedule}
+            rank={idx + 1}
+            isExpanded={expandedId === schedule.id}
+            onToggle={() =>
+              setExpandedId(expandedId === schedule.id ? null : schedule.id)
+            }
+          />
+        ))}
+      </div>
+
+      {/* Load more */}
+      {displayLimit < schedules.length && (
+        <div className="mt-6 text-center">
+          <button
+            type="button"
+            onClick={() => setDisplayLimit((prev) => prev + 10)}
+            className="rounded-lg border border-gray-300 bg-white px-6 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 transition"
+          >
+            Show more ({schedules.length - displayLimit} remaining)
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Individual schedule card
+// ---------------------------------------------------------------------------
+
+function ScheduleCard({
+  schedule,
+  rank,
+  isExpanded,
+  onToggle,
+}: {
+  schedule: GeneratedSchedule;
+  rank: number;
+  isExpanded: boolean;
+  onToggle: () => void;
+}) {
+  const { sections, score, scoreBreakdown } = schedule;
+
+  // Group sections by college for display
+  const colleges = new Map<string, typeof sections>();
+  for (const s of sections) {
+    const key = s.college_code;
+    if (!colleges.has(key)) colleges.set(key, []);
+    colleges.get(key)!.push(s);
+  }
+
+  return (
+    <div className="rounded-xl border border-gray-200 bg-white overflow-hidden">
+      {/* Header (always visible) */}
+      <button
+        type="button"
+        onClick={onToggle}
+        className="w-full px-5 py-4 flex items-start gap-4 text-left hover:bg-gray-50/50 transition"
+      >
+        {/* Rank */}
+        <div className="shrink-0 flex items-center justify-center h-8 w-8 rounded-full bg-gray-100 text-sm font-bold text-gray-500">
+          {rank}
+        </div>
+
+        {/* Course pills */}
+        <div className="flex-1 min-w-0">
+          <div className="flex flex-wrap gap-2 mb-2">
+            {sections.map((s) => {
+              const modeStyle = MODE_STYLES[s.mode] || MODE_STYLES["in-person"];
+              return (
+                <div
+                  key={s.crn}
+                  className="rounded-lg border border-gray-200 bg-gray-50 px-3 py-1.5 text-xs"
+                >
+                  <span className="font-semibold text-gray-900">
+                    {s.course_prefix} {s.course_number}
+                  </span>
+                  <span className="text-gray-500 ml-1.5">
+                    {formatSchedule(s.days, s.start_time, s.end_time)}
+                  </span>
+                  <span className={`ml-1.5 inline-block rounded-full px-1.5 py-0 text-[10px] font-medium ${modeStyle.bg} ${modeStyle.text}`}>
+                    {modeStyle.label}
+                  </span>
+                  {s.distance !== null && (
+                    <span className="ml-1 text-gray-400">{s.distance} mi</span>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+          <div className="flex flex-wrap items-center gap-2 text-[11px] text-gray-500">
+            {Array.from(colleges.entries()).map(([slug, secs]) => (
+              <span key={slug}>
+                {secs[0].collegeName}
+                {secs.length > 1 && ` (${secs.length})`}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Score badge */}
+        <div className="shrink-0 flex flex-col items-center gap-1">
+          <span
+            className={`inline-flex items-center rounded-lg border px-2.5 py-1 text-sm font-bold ${scoreColor(score)}`}
+          >
+            {score}
+          </span>
+          <span className="text-[10px] text-gray-400">/ 100</span>
+        </div>
+
+        {/* Chevron */}
+        <svg
+          className={`shrink-0 h-5 w-5 text-gray-400 transition-transform mt-1.5 ${isExpanded ? "rotate-180" : ""}`}
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={2}
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      {/* Expanded content */}
+      {isExpanded && (
+        <div className="border-t border-gray-100 px-5 py-4 space-y-4">
+          {/* Score breakdown */}
+          <ScoreBar breakdown={scoreBreakdown} total={score} />
+
+          {/* Weekly calendar */}
+          <WeeklyCalendar sections={sections} />
+
+          {/* Section details table */}
+          <div className="rounded-lg border border-gray-100 overflow-hidden">
+            <table className="w-full text-left text-xs">
+              <thead className="bg-gray-50 text-[10px] uppercase tracking-wider text-gray-500">
+                <tr>
+                  <th className="px-3 py-2 font-medium">Course</th>
+                  <th className="px-3 py-2 font-medium">Schedule</th>
+                  <th className="px-3 py-2 font-medium">College</th>
+                  <th className="px-3 py-2 font-medium">Campus</th>
+                  <th className="px-3 py-2 font-medium">Mode</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-50">
+                {sections.map((s) => {
+                  const modeStyle = MODE_STYLES[s.mode] || MODE_STYLES["in-person"];
+                  return (
+                    <tr key={s.crn} className="hover:bg-gray-50">
+                      <td className="px-3 py-2">
+                        <span className="font-semibold text-gray-900">
+                          {s.course_prefix} {s.course_number}
+                        </span>
+                        <span className="block text-[10px] text-gray-500 truncate max-w-[200px]">
+                          {s.course_title}
+                        </span>
+                      </td>
+                      <td className="px-3 py-2 text-gray-700">
+                        {formatSchedule(s.days, s.start_time, s.end_time)}
+                      </td>
+                      <td className="px-3 py-2 text-gray-600">
+                        <Link
+                          href={`/college/${s.college_code}`}
+                          className="text-teal-600 hover:underline"
+                        >
+                          {s.collegeName}
+                        </Link>
+                        {s.distance !== null && (
+                          <span className="block text-[10px] text-gray-400">
+                            {s.distance} mi away
+                          </span>
+                        )}
+                      </td>
+                      <td className="px-3 py-2 text-gray-600">{s.campus || "---"}</td>
+                      <td className="px-3 py-2">
+                        <span
+                          className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-medium ${modeStyle.bg} ${modeStyle.text}`}
+                        >
+                          {modeStyle.label}
+                        </span>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Prerequisite warnings */}
+          {sections.some((s) => s.prerequisite_text) && (
+            <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
+              <p className="text-xs font-medium text-amber-800 mb-1">Prerequisite Notice</p>
+              {sections
+                .filter((s) => s.prerequisite_text)
+                .map((s) => (
+                  <p key={s.crn} className="text-xs text-amber-700">
+                    <span className="font-medium">
+                      {s.course_prefix} {s.course_number}
+                    </span>
+                    {" "}requires: {s.prerequisite_text}
+                  </p>
+                ))}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
