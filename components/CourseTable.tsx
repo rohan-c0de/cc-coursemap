@@ -5,10 +5,18 @@ import type { CourseSection, CourseMode } from "@/lib/types";
 
 interface CourseTableProps {
   courses: CourseSection[];
-  collegeSisUrl: string;
+  vccsSlug: string;
   onAuditClick?: (course: CourseSection) => void;
   pinnedCRNs?: Set<string>;
   onTogglePin?: (crn: string) => void;
+}
+
+/** Build a courses.vccs.edu URL for a specific course section */
+function buildCourseUrl(vccsSlug: string, course: CourseSection): string {
+  // courses.vccs.edu uses: /colleges/{slug}/courses/{PREFIX}{NUMBER}-{TitleNoSpaces}
+  // e.g. /colleges/nova/courses/ENG111-CollegeCompositionI
+  const titleSlug = course.course_title.replace(/[^a-zA-Z0-9]/g, "");
+  return `https://courses.vccs.edu/colleges/${vccsSlug}/courses/${course.course_prefix}${course.course_number}-${titleSlug}`;
 }
 
 const MODE_STYLES: Record<CourseMode, { bg: string; text: string; label: string }> = {
@@ -61,7 +69,7 @@ function courseMatchesDay(courseDays: string, filterDay: string): boolean {
   return parts.includes(filterDay);
 }
 
-export default function CourseTable({ courses, collegeSisUrl, onAuditClick, pinnedCRNs, onTogglePin }: CourseTableProps) {
+export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRNs, onTogglePin }: CourseTableProps) {
   const [subjectFilter, setSubjectFilter] = useState("");
   const [dayFilter, setDayFilter] = useState("");
   const [modeFilter, setModeFilter] = useState("");
@@ -245,12 +253,12 @@ export default function CourseTable({ courses, collegeSisUrl, onAuditClick, pinn
                           </button>
                         )}
                         <a
-                          href={collegeSisUrl}
+                          href={buildCourseUrl(vccsSlug, course)}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-xs font-medium text-gray-500 hover:text-gray-700 hover:underline"
                         >
-                          Check availability &rarr;
+                          View on VCCS &rarr;
                         </a>
                       </td>
                     </tr>
@@ -311,12 +319,12 @@ export default function CourseTable({ courses, collegeSisUrl, onAuditClick, pinn
                       </button>
                     )}
                     <a
-                      href={collegeSisUrl}
+                      href={buildCourseUrl(vccsSlug, course)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-xs font-medium text-gray-500 hover:text-gray-700 hover:underline"
                     >
-                      Check availability &rarr;
+                      View on VCCS &rarr;
                     </a>
                   </div>
                 </div>

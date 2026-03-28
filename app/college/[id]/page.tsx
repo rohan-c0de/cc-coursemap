@@ -44,8 +44,8 @@ export default async function CollegeDetailPage(props: PageProps) {
   const courses = loadCoursesForCollege(institution.vccs_slug, CURRENT_TERM);
   const stale = isDataStale(institution.vccs_slug, CURRENT_TERM);
 
-  // SIS URL for "check live availability"
-  const sisUrl = `https://m.sis.vccs.edu/`;
+  // VCCS slug for building per-course URLs
+  const vccsSlug = institution.vccs_slug;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -322,7 +322,7 @@ export default async function CollegeDetailPage(props: PageProps) {
           <CollegeDetailClient
             courses={courses}
             institution={institution}
-            sisUrl={sisUrl}
+            vccsSlug={vccsSlug}
           />
         )}
       </section>

@@ -10,13 +10,13 @@ import type { Institution, CourseSection } from "@/lib/types";
 interface Props {
   courses: CourseSection[];
   institution: Institution;
-  sisUrl: string;
+  vccsSlug: string;
 }
 
 export default function CollegeDetailClient({
   courses,
   institution,
-  sisUrl,
+  vccsSlug,
 }: Props) {
   const [selectedCourse, setSelectedCourse] = useState<CourseSection | null>(
     null
@@ -37,7 +37,7 @@ export default function CollegeDetailClient({
     <div>
       <CourseTable
         courses={courses}
-        collegeSisUrl={sisUrl}
+        vccsSlug={vccsSlug}
         onAuditClick={(course) => {
           setSelectedCourse(course);
           setShowInstructions(true);
