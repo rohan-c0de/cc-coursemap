@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { href: "/courses", label: "Find a Course" },
   { href: "/starting-soon", label: "Starting Soon" },
   { href: "/schedule", label: "Schedule Builder" },
+  { href: "/transfer", label: "Transfer" },
   { href: "/colleges", label: "All Colleges" },
   { href: "/about", label: "About Auditing" },
 ];

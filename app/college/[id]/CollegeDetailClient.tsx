@@ -7,16 +7,23 @@ import PrintInstructions from "@/components/PrintInstructions";
 import ScheduleBuilder from "@/components/ScheduleBuilder";
 import type { Institution, CourseSection } from "@/lib/types";
 
+type TransferLookup = Record<
+  string,
+  { university: string; type: "direct" | "elective" | "no-credit" }[]
+>;
+
 interface Props {
   courses: CourseSection[];
   institution: Institution;
   vccsSlug: string;
+  transferLookup?: TransferLookup;
 }
 
 export default function CollegeDetailClient({
   courses,
   institution,
   vccsSlug,
+  transferLookup,
 }: Props) {
   const [selectedCourse, setSelectedCourse] = useState<CourseSection | null>(
     null
@@ -44,6 +51,7 @@ export default function CollegeDetailClient({
         }}
         pinnedCRNs={pinnedCRNs}
         onTogglePin={togglePin}
+        transferLookup={transferLookup}
       />
 
       <ScheduleBuilder

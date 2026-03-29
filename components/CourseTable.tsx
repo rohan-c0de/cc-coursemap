@@ -4,12 +4,18 @@ import { useState, useMemo, useCallback } from "react";
 import type { CourseSection, CourseMode } from "@/lib/types";
 import { getCourseStatus, formatStartInfo, isInProgress, type CourseStatus } from "@/lib/course-status";
 
+type TransferLookup = Record<
+  string,
+  { university: string; type: "direct" | "elective" | "no-credit" }[]
+>;
+
 interface CourseTableProps {
   courses: CourseSection[];
   vccsSlug: string;
   onAuditClick?: (course: CourseSection) => void;
   pinnedCRNs?: Set<string>;
   onTogglePin?: (crn: string) => void;
+  transferLookup?: TransferLookup;
 }
 
 /** Build a courses.vccs.edu URL for a specific course section */
@@ -136,7 +142,43 @@ function ShareButton({ course, vccsSlug }: { course: CourseSection; vccsSlug: st
   );
 }
 
-export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRNs, onTogglePin }: CourseTableProps) {
+function TransferBadge({ prefix, number, lookup }: { prefix: string; number: string; lookup: TransferLookup }) {
+  const key = `${prefix}-${number}`;
+  const info = lookup[key];
+  if (!info || info.length === 0) return null;
+
+  const entry = info[0];
+  if (entry.type === "no-credit") {
+    return (
+      <span className="inline-flex items-center gap-0.5 text-[10px] text-gray-400">
+        <svg className="h-2.5 w-2.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+        No VT credit
+      </span>
+    );
+  }
+  if (entry.type === "elective") {
+    return (
+      <span className="inline-flex items-center gap-0.5 text-[10px] text-gray-500">
+        <svg className="h-2.5 w-2.5 text-teal-500" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+        </svg>
+        VT elective credit
+      </span>
+    );
+  }
+  return (
+    <span className="inline-flex items-center gap-0.5 text-[10px] text-teal-700 font-medium">
+      <svg className="h-2.5 w-2.5 text-teal-500" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+      </svg>
+      Transfers to VT
+    </span>
+  );
+}
+
+export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRNs, onTogglePin, transferLookup }: CourseTableProps) {
   const [subjectFilter, setSubjectFilter] = useState("");
   const [dayFilter, setDayFilter] = useState("");
   const [modeFilter, setModeFilter] = useState("");
@@ -302,6 +344,11 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
                       </td>
                       <td className="px-4 py-3 text-gray-700 max-w-[300px]">
                         <div>{course.course_title}</div>
+                        {transferLookup && (
+                          <div className="mt-0.5">
+                            <TransferBadge prefix={course.course_prefix} number={course.course_number} lookup={transferLookup} />
+                          </div>
+                        )}
                         {course.prerequisite_text && (
                           <div className="mt-1">
                             <span
@@ -400,6 +447,11 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
                       <p className="text-sm text-gray-600">
                         {course.course_title}
                       </p>
+                      {transferLookup && (
+                        <div className="mt-0.5">
+                          <TransferBadge prefix={course.course_prefix} number={course.course_number} lookup={transferLookup} />
+                        </div>
+                      )}
                       {course.prerequisite_text && (
                         <p className="mt-1 text-[10px] text-amber-700 bg-amber-50 border border-amber-200 rounded px-1.5 py-0.5 inline-block">
                           Requires: {course.prerequisite_text}

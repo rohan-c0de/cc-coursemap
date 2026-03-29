@@ -9,6 +9,7 @@ import { getCurrentTerm, termLabel } from "@/lib/terms";
 import CollegeDetailClient from "./CollegeDetailClient";
 import CollegeMap from "./CollegeMap";
 import TermSelector from "./TermSelector";
+import { buildTransferLookup } from "@/lib/transfer";
 
 const institutions = institutionsData as Institution[];
 
@@ -409,6 +410,7 @@ export default async function CollegeDetailPage(props: PageProps) {
             courses={courses}
             institution={institution}
             vccsSlug={vccsSlug}
+            transferLookup={buildTransferLookup()}
           />
         )}
       </section>

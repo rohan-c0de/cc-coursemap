@@ -114,6 +114,26 @@ export interface GeneratedSchedule {
   scoreBreakdown: ScoreBreakdown;
 }
 
+// ---------------------------------------------------------------------------
+// Transfer Equivalency types
+// ---------------------------------------------------------------------------
+
+export interface TransferMapping {
+  vccs_prefix: string;
+  vccs_number: string;
+  vccs_course: string;
+  vccs_title: string;
+  vccs_credits: string;
+  university: string;
+  university_name: string;
+  univ_course: string;
+  univ_title: string;
+  univ_credits: string;
+  notes: string;
+  no_credit: boolean;
+  is_elective: boolean;
+}
+
 export interface ScheduleResponse {
   schedules: GeneratedSchedule[];
   meta: {
