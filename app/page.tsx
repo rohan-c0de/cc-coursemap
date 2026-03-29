@@ -1,5 +1,6 @@
 import SeniorBanner from "@/components/SeniorBanner";
 import SearchForm from "@/components/SearchForm";
+import NotifyBanner from "@/components/NotifyBanner";
 
 export default function HomePage() {
   return (
@@ -64,6 +65,13 @@ export default function HomePage() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Notify banner */}
+      <section className="px-4 sm:px-6 lg:px-8 pb-8">
+        <div className="max-w-2xl mx-auto">
+          <NotifyBanner />
         </div>
       </section>
 

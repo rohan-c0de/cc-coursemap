@@ -51,8 +51,32 @@ export default async function CollegeDetailPage(props: PageProps) {
   // VCCS slug for building per-course URLs
   const vccsSlug = institution.vccs_slug;
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://auditmap.virginia.example.com";
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    name: institution.name,
+    url: `${siteUrl}/college/${institution.id}`,
+    address: {
+      "@type": "PostalAddress",
+      addressRegion: "VA",
+      addressCountry: "US",
+    },
+    ...(institution.campuses?.[0] && {
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: institution.campuses[0].lat,
+        longitude: institution.campuses[0].lng,
+      },
+    }),
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Breadcrumb */}
       <Link
         href="/"

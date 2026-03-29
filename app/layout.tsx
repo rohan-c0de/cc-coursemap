@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
+import AdSenseScript from "@/components/AdSenseScript";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -54,6 +56,29 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white text-gray-900">
+        <GoogleAnalytics />
+        <AdSenseScript />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "AuditMap Virginia",
+              url: process.env.NEXT_PUBLIC_SITE_URL || "https://auditmap.virginia.example.com",
+              description:
+                "Find Virginia community college courses to audit. Compare audit policies, schedules, and costs across all 23 VCCS colleges.",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate: `${process.env.NEXT_PUBLIC_SITE_URL || "https://auditmap.virginia.example.com"}/courses?q={search_term_string}`,
+                },
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
         <Header />
 
         {/* Main content */}
@@ -67,10 +92,25 @@ export default function RootLayout({
                 AuditMap Virginia — Helping Virginians discover course auditing
                 opportunities.
               </p>
-              <p className="text-xs text-gray-400">
-                Policy data is manually verified. Always confirm with the
-                college before enrolling.
-              </p>
+              <div className="flex flex-wrap items-center gap-3 text-xs text-gray-400">
+                <a href="/privacy" className="underline hover:text-gray-600">
+                  Privacy Policy
+                </a>
+                <span>|</span>
+                <p>
+                  Policy data is manually verified. Always confirm with the
+                  college before enrolling.
+                </p>
+                <span>|</span>
+                <a
+                  href="https://buymeacoffee.com/auditmap"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 rounded-md bg-amber-400 px-2.5 py-1 text-xs font-medium text-amber-900 hover:bg-amber-500 transition-colors"
+                >
+                  <span>&#9749;</span> Support this project
+                </a>
+              </div>
             </div>
             <p className="mt-4 text-center text-[11px] text-gray-400">
               This is an independent project and is not affiliated with,
