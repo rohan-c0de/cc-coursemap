@@ -1,12 +1,21 @@
 import { NextResponse } from "next/server";
 import type { ScheduleRequest } from "@/lib/types";
 import { generateSchedules } from "@/lib/schedule";
+import { rateLimit, getClientKey } from "@/lib/rate-limit";
 import institutionsData from "@/data/institutions.json";
 import type { Institution } from "@/lib/types";
 
 const institutions = institutionsData as Institution[];
 
 export async function POST(req: Request) {
+  const { allowed } = rateLimit(getClientKey(req), 20);
+  if (!allowed) {
+    return NextResponse.json(
+      { error: "Too many requests. Please try again in a minute." },
+      { status: 429, headers: { "Retry-After": "60" } }
+    );
+  }
+
   try {
     const body = await req.json();
 
@@ -51,6 +60,7 @@ export async function POST(req: Request) {
       maxDistance: body.maxDistance || undefined,
       mode: body.mode || "any",
       minBreakMinutes: body.minBreakMinutes ?? 0,
+      includeInProgress: body.includeInProgress ?? false,
     };
 
     const result = generateSchedules(request, institutions);

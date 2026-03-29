@@ -4,11 +4,15 @@ import type { Metadata } from "next";
 import institutionsData from "@/data/institutions.json";
 import { loadCoursesForCollege, isDataStale } from "@/lib/courses";
 import type { Institution } from "@/lib/types";
+import { isInProgress } from "@/lib/course-status";
 import CollegeDetailClient from "./CollegeDetailClient";
 import CollegeMap from "./CollegeMap";
 
 const institutions = institutionsData as Institution[];
 const CURRENT_TERM = "2026SP";
+
+// Revalidate every 24 hours — course data only changes when re-scraped
+export const revalidate = 86400;
 
 type PageProps = {
   params: Promise<{ id: string }>;
@@ -303,6 +307,31 @@ export default async function CollegeDetailPage(props: PageProps) {
             View on VCCS &rarr;
           </a>
         </div>
+
+        {/* Registration status summary */}
+        {courses.length > 0 && (() => {
+          const upcoming = courses.filter((c) => !isInProgress(c.start_date)).length;
+          const started = courses.length - upcoming;
+          return upcoming > 0 ? (
+            <div className="mb-4 flex items-center gap-2 rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-2.5 text-sm">
+              <span className="inline-block h-2 w-2 rounded-full bg-emerald-400" />
+              <span className="text-emerald-800">
+                <strong>{upcoming}</strong> {upcoming === 1 ? "section" : "sections"} still open for registration
+              </span>
+              <span className="text-emerald-600">·</span>
+              <span className="text-emerald-600">
+                {started} already in progress
+              </span>
+            </div>
+          ) : (
+            <div className="mb-4 flex items-center gap-2 rounded-lg border border-gray-200 bg-gray-50 px-4 py-2.5 text-sm">
+              <span className="inline-block h-2 w-2 rounded-full bg-gray-300" />
+              <span className="text-gray-600">
+                All {started} sections have already started
+              </span>
+            </div>
+          );
+        })()}
 
         {courses.length === 0 ? (
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-8 text-center">

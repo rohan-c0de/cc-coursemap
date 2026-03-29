@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
-import type { GeneratedSchedule, ScheduleResponse } from "@/lib/types";
+import type { GeneratedSchedule, ScheduleResponse, ScheduleSection } from "@/lib/types";
 import WeeklyCalendar from "./WeeklyCalendar";
 import ScoreBar from "./ScoreBar";
 import { isValidTime } from "@/lib/time-utils";
@@ -32,14 +32,86 @@ function scoreColor(score: number): string {
   return "bg-red-100 text-red-800 border-red-200";
 }
 
+// ---------------------------------------------------------------------------
+// Schedule grouping — collapse visually identical schedules that only
+// differ by which college offers the course(s).
+// ---------------------------------------------------------------------------
+
+interface CollegeOption {
+  collegeName: string;
+  college_code: string;
+  distance: number | null;
+}
+
+interface ScheduleGroup {
+  representative: GeneratedSchedule;
+  collegeOptions: Map<string, CollegeOption[]>;
+  count: number;
+}
+
+function patternKey(schedule: GeneratedSchedule): string {
+  return schedule.sections
+    .map(
+      (s) =>
+        `${s.course_prefix}-${s.course_number}:${s.mode}:${s.days || "ASYNC"}:${s.start_time}:${s.end_time}`
+    )
+    .sort()
+    .join("|");
+}
+
+function groupSchedules(schedules: GeneratedSchedule[]): ScheduleGroup[] {
+  const map = new Map<string, GeneratedSchedule[]>();
+
+  for (const s of schedules) {
+    const key = patternKey(s);
+    if (!map.has(key)) map.set(key, []);
+    map.get(key)!.push(s);
+  }
+
+  const groups: ScheduleGroup[] = [];
+
+  for (const variants of map.values()) {
+    variants.sort((a, b) => b.score - a.score);
+    const representative = variants[0];
+
+    const collegeOptions = new Map<string, CollegeOption[]>();
+    for (const variant of variants) {
+      for (const sec of variant.sections) {
+        const courseLabel = `${sec.course_prefix} ${sec.course_number}`;
+        if (!collegeOptions.has(courseLabel)) collegeOptions.set(courseLabel, []);
+        const list = collegeOptions.get(courseLabel)!;
+        if (!list.some((c) => c.college_code === sec.college_code)) {
+          list.push({
+            collegeName: sec.collegeName,
+            college_code: sec.college_code,
+            distance: sec.distance,
+          });
+        }
+      }
+    }
+
+    groups.push({ representative, collegeOptions, count: variants.length });
+  }
+
+  groups.sort((a, b) => b.representative.score - a.representative.score);
+  return groups;
+}
+
+// ---------------------------------------------------------------------------
+// Main component
+// ---------------------------------------------------------------------------
+
 export default function ScheduleResults({ response }: Props) {
+  const { schedules, meta } = response;
+  const groups = useMemo(() => groupSchedules(schedules), [schedules]);
+
   const [expandedId, setExpandedId] = useState<string | null>(
-    response.schedules.length > 0 ? response.schedules[0].id : null
+    groups.length > 0 ? groups[0].representative.id : null
   );
   const [displayLimit, setDisplayLimit] = useState(10);
 
-  const { schedules, meta } = response;
-  const displayed = schedules.slice(0, displayLimit);
+  const displayed = groups.slice(0, displayLimit);
+  const wasGrouped = groups.length < schedules.length;
 
   if (meta.message && schedules.length === 0) {
     return (
@@ -62,7 +134,15 @@ export default function ScheduleResults({ response }: Props) {
         <p className="text-sm text-gray-700">
           Found{" "}
           <span className="font-semibold text-gray-900">{schedules.length}</span>{" "}
-          conflict-free {schedules.length === 1 ? "schedule" : "schedules"} from{" "}
+          conflict-free {schedules.length === 1 ? "schedule" : "schedules"}
+          {wasGrouped && (
+            <span className="text-gray-500">
+              {" "}grouped into{" "}
+              <span className="font-semibold text-gray-900">{groups.length}</span>{" "}
+              unique {groups.length === 1 ? "pattern" : "patterns"}
+            </span>
+          )}
+          {" "}from{" "}
           <span className="font-semibold text-gray-900">{meta.candidateSections}</span>{" "}
           sections of{" "}
           <span className="font-semibold text-gray-900">{meta.candidateCourses}</span>{" "}
@@ -81,28 +161,32 @@ export default function ScheduleResults({ response }: Props) {
 
       {/* Schedule cards */}
       <div className="space-y-4">
-        {displayed.map((schedule, idx) => (
+        {displayed.map((group, idx) => (
           <ScheduleCard
-            key={schedule.id}
-            schedule={schedule}
+            key={group.representative.id}
+            group={group}
             rank={idx + 1}
-            isExpanded={expandedId === schedule.id}
+            isExpanded={expandedId === group.representative.id}
             onToggle={() =>
-              setExpandedId(expandedId === schedule.id ? null : schedule.id)
+              setExpandedId(
+                expandedId === group.representative.id
+                  ? null
+                  : group.representative.id
+              )
             }
           />
         ))}
       </div>
 
       {/* Load more */}
-      {displayLimit < schedules.length && (
+      {displayLimit < groups.length && (
         <div className="mt-6 text-center">
           <button
             type="button"
             onClick={() => setDisplayLimit((prev) => prev + 10)}
             className="rounded-lg border border-gray-300 bg-white px-6 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 transition"
           >
-            Show more ({schedules.length - displayLimit} remaining)
+            Show more ({groups.length - displayLimit} remaining)
           </button>
         </div>
       )}
@@ -115,24 +199,31 @@ export default function ScheduleResults({ response }: Props) {
 // ---------------------------------------------------------------------------
 
 function ScheduleCard({
-  schedule,
+  group,
   rank,
   isExpanded,
   onToggle,
 }: {
-  schedule: GeneratedSchedule;
+  group: ScheduleGroup;
   rank: number;
   isExpanded: boolean;
   onToggle: () => void;
 }) {
-  const { sections, score, scoreBreakdown } = schedule;
+  const { representative, collegeOptions, count } = group;
+  const { sections, score, scoreBreakdown } = representative;
 
-  // Group sections by college for display
-  const colleges = new Map<string, typeof sections>();
+  // Total unique colleges across all courses in this group
+  const allCollegeCodes = new Set<string>();
+  for (const opts of collegeOptions.values()) {
+    for (const o of opts) allCollegeCodes.add(o.college_code);
+  }
+  const totalColleges = allCollegeCodes.size;
+
+  // For single-variant groups, show colleges the old way
+  const colleges = new Map<string, ScheduleSection[]>();
   for (const s of sections) {
-    const key = s.college_code;
-    if (!colleges.has(key)) colleges.set(key, []);
-    colleges.get(key)!.push(s);
+    if (!colleges.has(s.college_code)) colleges.set(s.college_code, []);
+    colleges.get(s.college_code)!.push(s);
   }
 
   return (
@@ -175,12 +266,18 @@ function ScheduleCard({
             })}
           </div>
           <div className="flex flex-wrap items-center gap-2 text-[11px] text-gray-500">
-            {Array.from(colleges.entries()).map(([slug, secs]) => (
-              <span key={slug}>
-                {secs[0].collegeName}
-                {secs.length > 1 && ` (${secs.length})`}
+            {count > 1 ? (
+              <span className="text-teal-600 font-medium">
+                Available at {totalColleges} {totalColleges === 1 ? "college" : "colleges"}
               </span>
-            ))}
+            ) : (
+              Array.from(colleges.entries()).map(([slug, secs]) => (
+                <span key={slug}>
+                  {secs[0].collegeName}
+                  {secs.length > 1 && ` (${secs.length})`}
+                </span>
+              ))
+            )}
           </div>
         </div>
 
@@ -215,23 +312,27 @@ function ScheduleCard({
           {/* Weekly calendar */}
           <WeeklyCalendar sections={sections} />
 
-          {/* Section details table */}
+          {/* Section details with college alternatives */}
           <div className="rounded-lg border border-gray-100 overflow-hidden">
             <table className="w-full text-left text-xs">
               <thead className="bg-gray-50 text-[10px] uppercase tracking-wider text-gray-500">
                 <tr>
                   <th className="px-3 py-2 font-medium">Course</th>
                   <th className="px-3 py-2 font-medium">Schedule</th>
-                  <th className="px-3 py-2 font-medium">College</th>
-                  <th className="px-3 py-2 font-medium">Campus</th>
+                  <th className="px-3 py-2 font-medium">
+                    {count > 1 ? "Available Colleges" : "College"}
+                  </th>
                   <th className="px-3 py-2 font-medium">Mode</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-50">
                 {sections.map((s) => {
                   const modeStyle = MODE_STYLES[s.mode] || MODE_STYLES["in-person"];
+                  const courseLabel = `${s.course_prefix} ${s.course_number}`;
+                  const options = collegeOptions.get(courseLabel) || [];
+
                   return (
-                    <tr key={s.crn} className="hover:bg-gray-50">
+                    <tr key={s.crn} className="hover:bg-gray-50 align-top">
                       <td className="px-3 py-2">
                         <span className="font-semibold text-gray-900">
                           {s.course_prefix} {s.course_number}
@@ -244,19 +345,24 @@ function ScheduleCard({
                         {formatSchedule(s.days, s.start_time, s.end_time)}
                       </td>
                       <td className="px-3 py-2 text-gray-600">
-                        <Link
-                          href={`/college/${s.college_code}`}
-                          className="text-teal-600 hover:underline"
-                        >
-                          {s.collegeName}
-                        </Link>
-                        {s.distance !== null && (
-                          <span className="block text-[10px] text-gray-400">
-                            {s.distance} mi away
-                          </span>
+                        {options.length <= 1 ? (
+                          <>
+                            <Link
+                              href={`/college/${s.college_code}`}
+                              className="text-teal-600 hover:underline"
+                            >
+                              {s.collegeName}
+                            </Link>
+                            {s.distance !== null && (
+                              <span className="block text-[10px] text-gray-400">
+                                {s.distance} mi away
+                              </span>
+                            )}
+                          </>
+                        ) : (
+                          <CollegeOptionsList options={options} />
                         )}
                       </td>
-                      <td className="px-3 py-2 text-gray-600">{s.campus || "---"}</td>
                       <td className="px-3 py-2">
                         <span
                           className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-medium ${modeStyle.bg} ${modeStyle.text}`}
@@ -288,6 +394,50 @@ function ScheduleCard({
             </div>
           )}
         </div>
+      )}
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// College options list (shown when multiple colleges offer the same course)
+// ---------------------------------------------------------------------------
+
+const INITIAL_SHOW = 4;
+
+function CollegeOptionsList({ options }: { options: CollegeOption[] }) {
+  const [showAll, setShowAll] = useState(false);
+  const visible = showAll ? options : options.slice(0, INITIAL_SHOW);
+  const remaining = options.length - INITIAL_SHOW;
+
+  return (
+    <div className="space-y-0.5">
+      {visible.map((o) => (
+        <div key={o.college_code} className="leading-tight">
+          <Link
+            href={`/college/${o.college_code}`}
+            className="text-teal-600 hover:underline"
+          >
+            {o.collegeName}
+          </Link>
+          {o.distance !== null && (
+            <span className="text-[10px] text-gray-400 ml-1">
+              {o.distance} mi
+            </span>
+          )}
+        </div>
+      ))}
+      {remaining > 0 && !showAll && (
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            setShowAll(true);
+          }}
+          className="text-[10px] text-teal-600 hover:underline font-medium"
+        >
+          +{remaining} more {remaining === 1 ? "college" : "colleges"}
+        </button>
       )}
     </div>
   );

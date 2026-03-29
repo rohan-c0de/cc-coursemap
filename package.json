@@ -8,7 +8,11 @@
     "start": "next start",
     "lint": "eslint",
     "scrape": "tsx scripts/scrape-vccs.ts",
-    "scrape:college": "tsx scripts/scrape-vccs.ts --college"
+    "scrape:college": "tsx scripts/scrape-vccs.ts --college",
+    "discover:ps": "tsx scripts/discover-ps-responses.ts",
+    "enrich": "tsx scripts/enrich-peoplesoft.ts",
+    "enrich:college": "tsx scripts/enrich-peoplesoft.ts --slug",
+    "enrich:dry-run": "tsx scripts/enrich-peoplesoft.ts --dry-run"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
@@ -26,6 +30,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
+    "playwright": "^1.58.2",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5"

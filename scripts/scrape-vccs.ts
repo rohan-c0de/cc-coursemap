@@ -80,7 +80,7 @@ function parseTimes(timeStr: string): [string, string] {
   return [start, end];
 }
 
-function parseDays($: cheerio.CheerioAPI, daysDiv: cheerio.Cheerio<cheerio.Element>): string {
+function parseDays($: cheerio.CheerioAPI, daysDiv: cheerio.Cheerio<any>): string {
   const active: string[] = [];
   daysDiv.find("span.s").each((_, el) => {
     const t = $(el).text().trim();

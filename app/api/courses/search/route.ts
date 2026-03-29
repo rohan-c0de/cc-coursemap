@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { searchCoursesAcrossColleges } from "@/lib/courses";
+import { rateLimit, getClientKey } from "@/lib/rate-limit";
 import institutionsData from "@/data/institutions.json";
 import type { Institution } from "@/lib/types";
 
@@ -7,6 +8,14 @@ const institutions = institutionsData as Institution[];
 const CURRENT_TERM = "2026SP";
 
 export async function GET(request: NextRequest) {
+  const { allowed, remaining } = rateLimit(getClientKey(request));
+  if (!allowed) {
+    return NextResponse.json(
+      { error: "Too many requests. Please try again in a minute." },
+      { status: 429, headers: { "Retry-After": "60", "X-RateLimit-Remaining": "0" } }
+    );
+  }
+
   const { searchParams } = request.nextUrl;
   const q = searchParams.get("q")?.trim() || "";
   const zip = searchParams.get("zip")?.trim() || undefined;

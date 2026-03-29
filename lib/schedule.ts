@@ -20,6 +20,7 @@ import type {
 import { loadAllCourses } from "./courses";
 import { getZipCoordinates, calculateDistance } from "./geo";
 import { parseTimeToMinutes, daysToBitmask } from "./time-utils";
+import { isInProgress } from "./course-status";
 
 const CURRENT_TERM = "2026SP";
 const MAX_RESULTS = 20;
@@ -105,7 +106,8 @@ export function generateSchedules(
     request.mode || "any",
     request.maxDistance ?? Infinity,
     distanceMap,
-    instMap
+    instMap,
+    request.includeInProgress ?? false
   );
 
   // Stage 2: Group by course, deduplicate by schedule signature
@@ -267,7 +269,8 @@ function filterSections(
   modeFilter: string,
   maxDistance: number,
   distanceMap: Map<string, number>,
-  instMap: Map<string, Institution>
+  instMap: Map<string, Institution>,
+  includeInProgress: boolean
 ): EnrichedSection[] {
   const exactSet = new Set(exactCourses);
   const prefixSet = new Set(subjectPrefixes);
@@ -298,6 +301,9 @@ function filterSections(
       }
     }
     if (!matched) continue;
+
+    // Date filter: skip sections that already started (unless opted in)
+    if (!includeInProgress && isInProgress(s.start_date)) continue;
 
     // Mode filter
     if (modeFilter !== "any" && s.mode !== modeFilter) continue;

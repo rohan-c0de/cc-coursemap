@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import type { CourseSection, CourseMode } from "@/lib/types";
+import { getCourseStatus, formatStartInfo, isInProgress, type CourseStatus } from "@/lib/course-status";
 
 interface CourseTableProps {
   courses: CourseSection[];
@@ -13,8 +14,6 @@ interface CourseTableProps {
 
 /** Build a courses.vccs.edu URL for a specific course section */
 function buildCourseUrl(vccsSlug: string, course: CourseSection): string {
-  // courses.vccs.edu uses: /colleges/{slug}/courses/{PREFIX}{NUMBER}-{TitleNoSpaces}
-  // e.g. /colleges/nova/courses/ENG111-CollegeCompositionI
   const titleSlug = course.course_title.replace(/[^a-zA-Z0-9]/g, "");
   return `https://courses.vccs.edu/colleges/${vccsSlug}/courses/${course.course_prefix}${course.course_number}-${titleSlug}`;
 }
@@ -24,6 +23,12 @@ const MODE_STYLES: Record<CourseMode, { bg: string; text: string; label: string 
   online: { bg: "bg-blue-50", text: "text-blue-700", label: "Online" },
   hybrid: { bg: "bg-purple-50", text: "text-purple-700", label: "Hybrid" },
   zoom: { bg: "bg-orange-50", text: "text-orange-700", label: "Zoom" },
+};
+
+const STATUS_STYLES: Record<CourseStatus, { dot: string; text: string }> = {
+  "in-progress": { dot: "bg-gray-300", text: "text-gray-400" },
+  "starting-soon": { dot: "bg-emerald-400", text: "text-emerald-600" },
+  "upcoming": { dot: "bg-teal-400", text: "text-teal-600" },
 };
 
 function getUniqueSubjects(courses: CourseSection[]): string[] {
@@ -53,7 +58,6 @@ function formatSchedule(course: CourseSection): string {
   return "Asynchronous / Online";
 }
 
-// Day filter options matching the actual data format (M, Tu, W, Th, F, Sa)
 const DAY_OPTIONS = [
   { value: "M", label: "Monday" },
   { value: "Tu", label: "Tuesday" },
@@ -63,32 +67,55 @@ const DAY_OPTIONS = [
   { value: "Sa", label: "Saturday" },
 ] as const;
 
-/** Check if a course meets on a given day, using word-boundary matching */
 function courseMatchesDay(courseDays: string, filterDay: string): boolean {
   if (!courseDays) return false;
-  // Split on spaces and match exactly to avoid "Th" matching "Tu Th" for "T"
   const parts = courseDays.split(" ");
   return parts.includes(filterDay);
+}
+
+/** Sort: upcoming first (soonest start), then in-progress (most recent start first) */
+function sortByStartDate(courses: CourseSection[]): CourseSection[] {
+  return [...courses].sort((a, b) => {
+    const aStarted = isInProgress(a.start_date);
+    const bStarted = isInProgress(b.start_date);
+    // Upcoming/starting-soon before in-progress
+    if (aStarted !== bStarted) return aStarted ? 1 : -1;
+    // Within upcoming: soonest first
+    if (!aStarted) return (a.start_date || "").localeCompare(b.start_date || "");
+    // Within in-progress: most recently started first
+    return (b.start_date || "").localeCompare(a.start_date || "");
+  });
 }
 
 export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRNs, onTogglePin }: CourseTableProps) {
   const [subjectFilter, setSubjectFilter] = useState("");
   const [dayFilter, setDayFilter] = useState("");
   const [modeFilter, setModeFilter] = useState("");
+  const [statusFilter, setStatusFilter] = useState("");
 
   const subjects = useMemo(() => getUniqueSubjects(courses), [courses]);
   const modes = useMemo(() => getUniqueModes(courses), [courses]);
 
   const filtered = useMemo(() => {
-    return courses.filter((c) => {
+    const result = courses.filter((c) => {
       if (subjectFilter && c.course_prefix !== subjectFilter) return false;
       if (dayFilter && !courseMatchesDay(c.days, dayFilter)) return false;
       if (modeFilter && c.mode !== modeFilter) return false;
+      if (statusFilter === "upcoming" && isInProgress(c.start_date)) return false;
+      if (statusFilter === "in-progress" && !isInProgress(c.start_date)) return false;
       return true;
     });
-  }, [courses, subjectFilter, dayFilter, modeFilter]);
+    return sortByStartDate(result);
+  }, [courses, subjectFilter, dayFilter, modeFilter, statusFilter]);
 
-  const activeFilters = [subjectFilter, dayFilter, modeFilter].filter(Boolean).length;
+  const activeFilters = [subjectFilter, dayFilter, modeFilter, statusFilter].filter(Boolean).length;
+
+  const clearFilters = () => {
+    setSubjectFilter("");
+    setDayFilter("");
+    setModeFilter("");
+    setStatusFilter("");
+  };
 
   return (
     <div>
@@ -148,14 +175,25 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
           </select>
         </div>
 
+        <div className="min-w-[170px]">
+          <label className="mb-1 block text-xs font-medium text-gray-600">
+            Status
+          </label>
+          <select
+            value={statusFilter}
+            onChange={(e) => setStatusFilter(e.target.value)}
+            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+          >
+            <option value="">All Sections</option>
+            <option value="upcoming">Open for Registration</option>
+            <option value="in-progress">Already Started</option>
+          </select>
+        </div>
+
         {activeFilters > 0 && (
           <button
             type="button"
-            onClick={() => {
-              setSubjectFilter("");
-              setDayFilter("");
-              setModeFilter("");
-            }}
+            onClick={clearFilters}
             className="rounded-md px-3 py-2 text-sm font-medium text-teal-600 hover:bg-teal-50"
           >
             Clear filters
@@ -172,11 +210,7 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
           <p className="text-gray-500">No courses match your filters.</p>
           <button
             type="button"
-            onClick={() => {
-              setSubjectFilter("");
-              setDayFilter("");
-              setModeFilter("");
-            }}
+            onClick={clearFilters}
             className="mt-2 text-sm font-medium text-teal-600 hover:underline"
           >
             Reset all filters
@@ -193,6 +227,8 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
                   <th className="px-4 py-3 font-medium">Course</th>
                   <th className="px-4 py-3 font-medium">Title</th>
                   <th className="px-4 py-3 font-medium">Schedule</th>
+                  <th className="px-4 py-3 font-medium">Starts</th>
+                  <th className="px-4 py-3 font-medium">Instructor</th>
                   <th className="px-4 py-3 font-medium">Campus</th>
                   <th className="px-4 py-3 font-medium">Mode</th>
                   <th className="px-4 py-3 font-medium w-32" />
@@ -201,10 +237,13 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
               <tbody className="divide-y divide-gray-100">
                 {filtered.map((course) => {
                   const style = MODE_STYLES[course.mode];
+                  const status = getCourseStatus(course.start_date);
+                  const statusStyle = STATUS_STYLES[status];
+                  const started = status === "in-progress";
                   return (
                     <tr
                       key={course.crn}
-                      className="transition hover:bg-gray-50"
+                      className={`transition hover:bg-gray-50 ${started ? "opacity-50" : ""}`}
                     >
                       <td className="whitespace-nowrap px-4 py-3 font-mono text-xs text-gray-600">
                         {course.crn}
@@ -229,6 +268,15 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
                       </td>
                       <td className="whitespace-nowrap px-4 py-3 text-gray-600">
                         {formatSchedule(course)}
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-3">
+                        <span className={`inline-flex items-center gap-1.5 text-xs ${statusStyle.text}`}>
+                          <span className={`inline-block h-1.5 w-1.5 rounded-full ${statusStyle.dot}`} />
+                          {formatStartInfo(course.start_date)}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3 text-gray-600">
+                        {course.instructor || <span className="text-gray-300">&mdash;</span>}
                       </td>
                       <td className="px-4 py-3 text-gray-600">
                         {course.campus || "---"}
@@ -286,10 +334,13 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
           <div className="flex flex-col gap-3 md:hidden">
             {filtered.map((course) => {
               const style = MODE_STYLES[course.mode];
+              const status = getCourseStatus(course.start_date);
+              const statusStyle = STATUS_STYLES[status];
+              const started = status === "in-progress";
               return (
                 <div
                   key={course.crn}
-                  className="rounded-lg border border-gray-200 bg-white p-4"
+                  className={`rounded-lg border border-gray-200 bg-white p-4 ${started ? "opacity-50" : ""}`}
                 >
                   <div className="mb-2 flex items-start justify-between gap-2">
                     <div>
@@ -317,6 +368,17 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
                     <span className="col-span-2">
                       Schedule: <span className="text-gray-700">{formatSchedule(course)}</span>
                     </span>
+                    <span className="col-span-2">
+                      <span className={`inline-flex items-center gap-1 ${statusStyle.text}`}>
+                        <span className={`inline-block h-1.5 w-1.5 rounded-full ${statusStyle.dot}`} />
+                        {formatStartInfo(course.start_date)}
+                      </span>
+                    </span>
+                    {course.instructor && (
+                      <span className="col-span-2">
+                        Instructor: <span className="text-gray-700">{course.instructor}</span>
+                      </span>
+                    )}
                   </div>
                   <div className="mt-3 flex items-center justify-center gap-4 border-t border-gray-100 pt-3">
                     {onTogglePin && (

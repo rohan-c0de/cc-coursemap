@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
+import Header from "@/components/Header";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -24,6 +24,23 @@ export const metadata: Metadata = {
     "free college courses seniors Virginia",
     "Virginia 60+ tuition waiver",
   ],
+  openGraph: {
+    title: "AuditMap Virginia",
+    description:
+      "Find Virginia community college courses to audit. Free for residents 60+.",
+    siteName: "AuditMap Virginia",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AuditMap Virginia",
+    description:
+      "Find Virginia community college courses to audit. Free for residents 60+.",
+  },
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://auditmap.virginia.example.com"
+  ),
 };
 
 export default function RootLayout({
@@ -37,48 +54,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white text-gray-900">
-        {/* Header */}
-        <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-teal-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">AM</span>
-              </div>
-              <span className="text-xl font-semibold text-gray-900">
-                AuditMap <span className="text-teal-600">Virginia</span>
-              </span>
-            </Link>
-            <nav className="hidden sm:flex items-center gap-6 text-sm text-gray-600">
-              <Link href="/" className="hover:text-teal-600 transition-colors">
-                Search
-              </Link>
-              <Link
-                href="/courses"
-                className="hover:text-teal-600 transition-colors"
-              >
-                Find a Course
-              </Link>
-              <Link
-                href="/schedule"
-                className="hover:text-teal-600 transition-colors"
-              >
-                Schedule Builder
-              </Link>
-              <Link
-                href="/colleges"
-                className="hover:text-teal-600 transition-colors"
-              >
-                All Colleges
-              </Link>
-              <Link
-                href="/about"
-                className="hover:text-teal-600 transition-colors"
-              >
-                About Auditing
-              </Link>
-            </nav>
-          </div>
-        </header>
+        <Header />
 
         {/* Main content */}
         <main className="flex-1">{children}</main>
@@ -96,6 +72,20 @@ export default function RootLayout({
                 college before enrolling.
               </p>
             </div>
+            <p className="mt-4 text-center text-[11px] text-gray-400">
+              This is an independent project and is not affiliated with,
+              endorsed by, or sponsored by the Virginia Community College System
+              (VCCS). For official information visit{" "}
+              <a
+                href="https://www.vccs.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-gray-600"
+              >
+                vccs.edu
+              </a>
+              .
+            </p>
           </div>
         </footer>
       </body>

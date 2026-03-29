@@ -91,6 +91,7 @@ export interface ScheduleRequest {
   maxDistance?: number; // miles; undefined means no limit
   mode?: CourseMode | "any";
   minBreakMinutes: 0 | 30 | 60;
+  includeInProgress?: boolean; // default false — exclude sections that already started
 }
 
 export interface ScoreBreakdown {

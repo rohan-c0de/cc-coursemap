@@ -30,6 +30,7 @@ export default function ScheduleClient() {
           maxDistance: data.maxDistance,
           mode: data.mode,
           minBreakMinutes: data.minBreakMinutes,
+          includeInProgress: data.includeInProgress,
         }),
       });
 

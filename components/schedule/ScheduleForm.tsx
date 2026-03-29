@@ -12,6 +12,7 @@ export interface ScheduleFormData {
   maxDistance: number | undefined;
   mode: string;
   minBreakMinutes: 0 | 30 | 60;
+  includeInProgress: boolean;
 }
 
 interface Props {
@@ -55,6 +56,7 @@ export default function ScheduleForm({ onSubmit, loading }: Props) {
   const [maxDistance, setMaxDistance] = useState<number | undefined>(undefined);
   const [mode, setMode] = useState("any");
   const [minBreak, setMinBreak] = useState<0 | 30 | 60>(0);
+  const [includeInProgress, setIncludeInProgress] = useState(false);
 
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -103,6 +105,7 @@ export default function ScheduleForm({ onSubmit, loading }: Props) {
       maxDistance,
       mode,
       minBreakMinutes: minBreak,
+      includeInProgress,
     });
   }
 
@@ -316,6 +319,19 @@ export default function ScheduleForm({ onSubmit, loading }: Props) {
             </select>
           </div>
         </div>
+
+        {/* Include in-progress toggle */}
+        <label className="flex items-center gap-2 cursor-pointer">
+          <input
+            type="checkbox"
+            checked={includeInProgress}
+            onChange={(e) => setIncludeInProgress(e.target.checked)}
+            className="h-4 w-4 rounded border-gray-300 text-teal-600 focus:ring-teal-500"
+          />
+          <span className="text-sm text-gray-600">
+            Include sections that already started
+          </span>
+        </label>
 
         {/* Submit */}
         <div className="flex items-center justify-between pt-1">
