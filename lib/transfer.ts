@@ -98,12 +98,12 @@ export function getUniversities(): { slug: string; name: string }[] {
  */
 export function buildTransferLookup(): Record<
   string,
-  { university: string; type: "direct" | "elective" | "no-credit" }[]
+  { university: string; type: "direct" | "elective" | "no-credit"; course: string }[]
 > {
   const mappings = loadTransferMappings();
   const lookup: Record<
     string,
-    { university: string; type: "direct" | "elective" | "no-credit" }[]
+    { university: string; type: "direct" | "elective" | "no-credit"; course: string }[]
   > = {};
 
   for (const m of mappings) {
@@ -112,6 +112,7 @@ export function buildTransferLookup(): Record<
     lookup[key].push({
       university: m.university,
       type: m.no_credit ? "no-credit" : m.is_elective ? "elective" : "direct",
+      course: m.univ_course || "",
     });
   }
 

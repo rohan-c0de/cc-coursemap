@@ -6,7 +6,7 @@ import { getCourseStatus, formatStartInfo, isInProgress, type CourseStatus } fro
 
 type TransferLookup = Record<
   string,
-  { university: string; type: "direct" | "elective" | "no-credit" }[]
+  { university: string; type: "direct" | "elective" | "no-credit"; course: string }[]
 >;
 
 interface CourseTableProps {
@@ -154,7 +154,7 @@ function TransferBadge({ prefix, number, lookup }: { prefix: string; number: str
   if (!info || info.length === 0) return null;
 
   // Deduplicate by university (keep best type: direct > elective)
-  const byUni = new Map<string, { university: string; type: "direct" | "elective" | "no-credit" }>();
+  const byUni = new Map<string, { university: string; type: "direct" | "elective" | "no-credit"; course: string }>();
   for (const e of info) {
     if (e.type === "no-credit") continue;
     const existing = byUni.get(e.university);
@@ -206,14 +206,17 @@ function TransferBadge({ prefix, number, lookup }: { prefix: string; number: str
       </button>
       {expanded && (
         <div className="mt-1 rounded border border-gray-200 bg-gray-50 px-2 py-1.5 text-[10px] text-gray-600 space-y-0.5">
-          {direct.length > 0 && direct.map((e) => (
-            <div key={e.university} className="text-teal-700">
-              {SHORT_NAMES[e.university] || e.university}: direct
-            </div>
-          ))}
+          {direct.length > 0 && direct.map((e) => {
+            const courseName = e.course && !e.course.includes("*") ? e.course : "direct equivalent";
+            return (
+              <div key={e.university} className="text-teal-700">
+                {SHORT_NAMES[e.university] || e.university}: {courseName}
+              </div>
+            );
+          })}
           {elective.length > 0 && elective.map((e) => (
             <div key={e.university} className="text-gray-500">
-              {SHORT_NAMES[e.university] || e.university}: elective
+              {SHORT_NAMES[e.university] || e.university}: elective credit
             </div>
           ))}
         </div>
@@ -358,15 +361,15 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
             <table className="w-full text-left text-sm">
               <thead className="border-b border-gray-200 bg-gray-50 text-xs uppercase tracking-wider text-gray-500">
                 <tr>
-                  <th className="px-4 py-3 font-medium">CRN</th>
-                  <th className="px-4 py-3 font-medium">Course</th>
-                  <th className="px-4 py-3 font-medium">Title</th>
-                  <th className="px-4 py-3 font-medium">Schedule</th>
-                  <th className="px-4 py-3 font-medium">Starts</th>
-                  <th className="px-4 py-3 font-medium">Instructor</th>
-                  <th className="px-4 py-3 font-medium">Campus</th>
-                  <th className="px-4 py-3 font-medium">Mode</th>
-                  <th className="px-4 py-3 font-medium w-32" />
+                  <th className="px-3 py-3 font-medium w-[60px]">CRN</th>
+                  <th className="px-3 py-3 font-medium w-[80px]">Course</th>
+                  <th className="px-3 py-3 font-medium">Title</th>
+                  <th className="px-3 py-3 font-medium w-[150px]">Schedule</th>
+                  <th className="px-3 py-3 font-medium w-[100px]">Starts</th>
+                  <th className="px-3 py-3 font-medium w-[90px]">Instructor</th>
+                  <th className="px-3 py-3 font-medium w-[70px]">Campus</th>
+                  <th className="px-3 py-3 font-medium w-[60px]">Mode</th>
+                  <th className="px-2 py-3 font-medium" />
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
@@ -380,13 +383,13 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
                       key={`${course.crn}-${course.course_prefix}${course.course_number}-${course.days}-${course.start_time}`}
                       className={`transition hover:bg-gray-50 ${started ? "opacity-50" : ""}`}
                     >
-                      <td className="whitespace-nowrap px-4 py-3 font-mono text-xs text-gray-600">
+                      <td className="whitespace-nowrap px-3 py-3 font-mono text-xs text-gray-600">
                         {course.crn}
                       </td>
-                      <td className="whitespace-nowrap px-4 py-3 font-medium text-gray-900">
+                      <td className="whitespace-nowrap px-3 py-3 font-medium text-gray-900">
                         {course.course_prefix} {course.course_number}
                       </td>
-                      <td className="px-4 py-3 text-gray-700 max-w-[300px]">
+                      <td className="px-3 py-3 text-gray-700">
                         <div>{course.course_title}</div>
                         {transferLookup && (
                           <div className="mt-0.5">
@@ -406,29 +409,29 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
                           </div>
                         )}
                       </td>
-                      <td className="whitespace-nowrap px-4 py-3 text-gray-600">
+                      <td className="whitespace-nowrap px-3 py-3 text-gray-600">
                         {formatSchedule(course)}
                       </td>
-                      <td className="whitespace-nowrap px-4 py-3">
+                      <td className="whitespace-nowrap px-3 py-3">
                         <span className={`inline-flex items-center gap-1.5 text-xs ${statusStyle.text}`}>
                           <span className={`inline-block h-1.5 w-1.5 rounded-full ${statusStyle.dot}`} />
                           {formatStartInfo(course.start_date)}
                         </span>
                       </td>
-                      <td className="px-4 py-3 text-gray-600">
+                      <td className="px-3 py-3 text-gray-600 truncate max-w-[90px]">
                         {course.instructor || <span className="text-gray-300">&mdash;</span>}
                       </td>
-                      <td className="px-4 py-3 text-gray-600">
+                      <td className="px-3 py-3 text-gray-600 truncate max-w-[70px]">
                         {course.campus || "---"}
                       </td>
-                      <td className="px-4 py-3">
+                      <td className="px-3 py-3">
                         <span
                           className={`inline-block rounded-full px-2.5 py-0.5 text-xs font-medium ${style.bg} ${style.text}`}
                         >
                           {style.label}
                         </span>
                       </td>
-                      <td className="whitespace-nowrap px-4 py-3 text-right space-x-2">
+                      <td className="whitespace-nowrap px-2 py-3 text-right space-x-1">
                         <ShareButton course={course} vccsSlug={vccsSlug} />
                         {onTogglePin && (
                           <button
@@ -452,7 +455,7 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
                             onClick={() => onAuditClick(course)}
                             className="text-xs font-medium text-teal-600 hover:text-teal-800 hover:underline"
                           >
-                            How to Audit
+                            Audit
                           </button>
                         )}
                         <a
@@ -461,7 +464,7 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
                           rel="noopener noreferrer"
                           className="text-xs font-medium text-gray-500 hover:text-gray-700 hover:underline"
                         >
-                          View on VCCS &rarr;
+                          VCCS &rarr;
                         </a>
                       </td>
                     </tr>

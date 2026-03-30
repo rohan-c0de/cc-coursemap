@@ -9,7 +9,7 @@ import type { Institution, CourseSection } from "@/lib/types";
 
 type TransferLookup = Record<
   string,
-  { university: string; type: "direct" | "elective" | "no-credit" }[]
+  { university: string; type: "direct" | "elective" | "no-credit"; course: string }[]
 >;
 
 interface Props {
