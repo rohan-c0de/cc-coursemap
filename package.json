@@ -20,7 +20,8 @@
     "scrape:transfer:umw": "tsx scripts/scrape-transfer-umw.ts",
     "scrape:ps": "tsx scripts/scrape-peoplesoft.ts",
     "scrape:ps:summer": "tsx scripts/scrape-peoplesoft.ts --term \"Summer 2026\"",
-    "scrape:ps:fall": "tsx scripts/scrape-peoplesoft.ts --term \"Fall 2026\""
+    "scrape:ps:fall": "tsx scripts/scrape-peoplesoft.ts --term \"Fall 2026\"",
+    "scrape:transfer:vsu": "tsx scripts/scrape-transfer-vsu.ts"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

@@ -2,24 +2,25 @@
  * Scrape Old Dominion University VCCS Transfer Equivalency data.
  *
  * Source: https://courses.odu.edu/equivalency/
- * Uses Playwright to drive the form. The form has:
- *   - State: #sel1 (VA pre-selected)
- *   - School: #school (populated via AJAX from data.php)
- *   - Subject: #subject (populated via AJAX from subject.php)
- *   - Course: #course (populated via AJAX from courseselect.php)
- *   - Submit: button[name="landing_submit"]
+ * Uses the backend AJAX endpoint table_content.php which returns all VCCS
+ * equivalencies as HTML table rows in a single request. No browser needed!
  *
- * Strategy: Select school "00VCCS", then for each subject, select each course
- * number individually and submit the form to get the equivalency result.
+ * Table columns (per row):
+ *   1. Checkbox (skip)
+ *   2. VCCS Course # (e.g. "ENG 111")
+ *   3. VCCS Course Name
+ *   4. Credits
+ *   5. ODU Equivalent Course # (e.g. "ENGL 110")
+ *   6. ODU Equivalent Course Name
+ *   7. ODU Equivalent Credits
  *
  * Merges ODU mappings into data/transfer-equiv.json alongside existing data.
  *
  * Usage:
  *   npx tsx scripts/scrape-transfer-odu.ts
- *   npx tsx scripts/scrape-transfer-odu.ts --headed
  */
 
-import { chromium, type Page } from "playwright";
+import * as cheerio from "cheerio";
 import fs from "fs";
 import path from "path";
 
@@ -39,249 +40,169 @@ interface TransferMapping {
   is_elective: boolean;
 }
 
-const ODU_URL = "https://courses.odu.edu/equivalency/";
-const headed = process.argv.includes("--headed");
+const TABLE_CONTENT_URL =
+  "https://courses.odu.edu/equivalency/table_content.php";
 
-// Only process standard VCCS subject codes
-function isVccsSubject(code: string): boolean {
-  return /^[A-Z]{2,4}$/.test(code);
-}
-
-/**
- * Get VCCS subject list from the backend directly (faster than form interaction).
- */
-async function getSubjects(): Promise<string[]> {
-  const res = await fetch("https://courses.odu.edu/equivalency/subject.php", {
+async function fetchOduData(): Promise<string> {
+  console.log("Fetching all VCCS equivalencies from ODU backend...");
+  const res = await fetch(TABLE_CONTENT_URL, {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: "school_id=00VCCS",
   });
-  const html = await res.text();
-  const matches = [...html.matchAll(/value\s*=\s*"([^"]+)"/g)];
-  return matches
-    .map((m) => m[1].trim())
-    .filter((v) => v && isVccsSubject(v));
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+  }
+  return res.text();
 }
 
-/**
- * Get course numbers for a subject from the backend.
- */
-async function getCourseNumbers(subjectCode: string): Promise<string[]> {
-  const res = await fetch("https://courses.odu.edu/equivalency/courseselect.php", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: `school_id=00VCCS&subject_id=${subjectCode}`,
-  });
-  const html = await res.text();
-  const matches = [...html.matchAll(/value\s*=\s*"([^"]+)"/g)];
-  return matches.map((m) => m[1].trim()).filter((v) => v);
-}
+function parseRows(html: string): TransferMapping[] {
+  // Wrap in a table so cheerio can parse it properly
+  const $ = cheerio.load(`<table>${html}</table>`);
+  const mappings: TransferMapping[] = [];
 
-/**
- * Navigate to the equivalency page with form fields pre-set and extract results.
- */
-async function getEquivalency(
-  page: Page,
-  subject: string,
-  courseNum: string
-): Promise<TransferMapping | null> {
-  // Use the form: set values and submit
-  try {
-    // Navigate with GET params approach
-    await page.goto(ODU_URL, { waitUntil: "domcontentloaded", timeout: 15000 });
+  $("tr").each((_, row) => {
+    const tds = $(row).find("td");
+    if (tds.length < 6) return;
 
-    // Virginia is pre-selected. Wait for page, then trigger school load.
-    await page.waitForSelector("#sel1", { timeout: 5000 });
+    // The HTML has a quirk: the first <td> (checkbox) doesn't always close
+    // properly before the next <td>. Cheerio handles this, but the cell
+    // indices may shift. We look for the pattern:
+    //   td[0] = checkbox (contains <input>)
+    //   td[1] = VCCS Course # (e.g. "ACC 100")
+    //   td[2] = VCCS Course Name
+    //   td[3] = Credits
+    //   td[4] = ODU Equivalent Course #
+    //   td[5] = ODU Equivalent Course Name
+    //   td[6] = ODU Equivalent Credits (may be empty)
 
-    // Trigger the state change to load schools
-    await page.evaluate(() => {
-      const stateEl = document.querySelector("#sel1") as HTMLSelectElement;
-      if (stateEl) {
-        stateEl.value = "VA";
-        stateEl.dispatchEvent(new Event("change", { bubbles: true }));
-      }
-    });
-    await page.waitForTimeout(1500);
+    // Find the first td that looks like a course number (has letters + numbers)
+    let offset = 0;
+    const firstText = $(tds[0]).text().trim();
+    if (firstText.match(/^[A-Z]{2,4}\s+\d/)) {
+      offset = 0; // No checkbox column or it was merged
+    } else {
+      offset = 1; // Skip checkbox
+    }
 
-    // Wait for school dropdown to be populated
-    await page.waitForFunction(
-      () => {
-        const el = document.querySelector("#school") as HTMLSelectElement;
-        return el && el.options.length > 2;
-      },
-      { timeout: 10000 }
-    );
+    const vccsRaw = $(tds[offset]).text().trim();
+    const vccsTitle = $(tds[offset + 1])
+      .text()
+      .trim();
+    const vccsCredits = $(tds[offset + 2])
+      .text()
+      .trim();
+    const oduCourseRaw = $(tds[offset + 3])
+      .text()
+      .trim();
+    const oduTitle = $(tds[offset + 4])
+      .text()
+      .trim()
+      .replace(/<BR>/gi, "");
+    const oduCredits =
+      tds.length > offset + 5
+        ? $(tds[offset + 5])
+            .text()
+            .trim()
+        : "";
 
-    // Select VCCS
-    await page.selectOption("#school", "00VCCS");
-    await page.waitForTimeout(1000);
+    if (!vccsRaw) return;
 
-    // Wait for subject dropdown
-    await page.waitForFunction(
-      () => {
-        const el = document.querySelector("#subject") as HTMLSelectElement;
-        return el && el.options.length > 2;
-      },
-      { timeout: 10000 }
-    );
+    // Parse VCCS course: "ENG 111" → prefix="ENG", number="111"
+    const vccsParts = vccsRaw.match(/^([A-Z]{2,4})\s+(\S+)$/);
+    if (!vccsParts) return;
 
-    // Select subject
-    await page.selectOption("#subject", subject);
-    await page.waitForTimeout(1000);
+    const prefix = vccsParts[1];
+    const number = vccsParts[2];
 
-    // Wait for course dropdown
-    await page.waitForFunction(
-      () => {
-        const el = document.querySelector("#course") as HTMLSelectElement;
-        return el && el.options.length > 1;
-      },
-      { timeout: 10000 }
-    );
+    // Detect elective: patterns like "ENGL 1ELE", "XXXX XELE", "1ELE", "2ELE"
+    const isElective =
+      oduCourseRaw.includes("ELE") ||
+      oduCourseRaw.includes("XELE") ||
+      oduTitle.toLowerCase() === "elective";
 
-    // Select course
-    await page.selectOption("#course", courseNum);
-    await page.waitForTimeout(500);
+    // Detect no credit
+    const noCredit =
+      oduCourseRaw.toUpperCase().includes("NO CREDIT") ||
+      oduTitle.toUpperCase().includes("NO CREDIT") ||
+      oduCourseRaw.toUpperCase().includes("NOCR") ||
+      (!oduCourseRaw && !oduTitle);
 
-    // Click search
-    await page.click('button[name="landing_submit"]');
-    await page.waitForTimeout(2000);
-
-    // Extract results from the page
-    const result = await page.evaluate(() => {
-      // Look for result content — could be table, div, or other
-      const body = document.body.innerText;
-
-      // Look for patterns like ODU equivalency display
-      // The result usually shows: VCCS course → ODU course with credits
-      const tables = document.querySelectorAll("table");
-      for (const table of tables) {
-        const rows = table.querySelectorAll("tr");
-        for (const row of rows) {
-          const cells = row.querySelectorAll("td");
-          if (cells.length >= 2) {
-            return {
-              col1: cells[0]?.textContent?.trim() || "",
-              col2: cells[1]?.textContent?.trim() || "",
-              col3: cells[2]?.textContent?.trim() || "",
-              col4: cells[3]?.textContent?.trim() || "",
-              col5: cells[4]?.textContent?.trim() || "",
-              col6: cells[5]?.textContent?.trim() || "",
-              allText: body.slice(0, 2000),
-            };
-          }
-        }
-      }
-
-      return { col1: "", col2: "", col3: "", col4: "", col5: "", col6: "", allText: body.slice(0, 2000) };
-    });
-
-    if (!result.col1 && !result.col4) return null;
-
-    // Parse the result
-    const oduCourse = result.col4 || result.col2 || "";
-    const oduTitle = result.col5 || result.col3 || "";
-    const oduCredits = result.col6 || "";
-
-    const isElective = oduCourse.includes("XX") || oduCourse.includes("TREL") || oduCourse.includes("ELEC");
-    const noCredit = oduCourse.toUpperCase().includes("NO CREDIT") || oduTitle.toUpperCase().includes("NO CREDIT");
-
-    return {
-      vccs_prefix: subject,
-      vccs_number: courseNum,
-      vccs_course: `${subject} ${courseNum}`,
-      vccs_title: result.col2 || "",
-      vccs_credits: result.col3 || "",
+    mappings.push({
+      vccs_prefix: prefix,
+      vccs_number: number,
+      vccs_course: `${prefix} ${number}`,
+      vccs_title: vccsTitle,
+      vccs_credits: vccsCredits,
       university: "odu",
       university_name: "Old Dominion University",
-      univ_course: noCredit ? "" : oduCourse,
-      univ_title: noCredit ? "No ODU credit" : oduTitle,
-      univ_credits: noCredit ? "" : oduCredits,
+      univ_course: noCredit ? "" : oduCourseRaw,
+      univ_title: noCredit ? "No ODU credit" : oduTitle || oduCourseRaw,
+      univ_credits: noCredit ? "" : oduCredits || vccsCredits,
       notes: "",
       no_credit: noCredit,
       is_elective: isElective,
-    };
-  } catch {
-    return null;
-  }
-}
+    });
+  });
 
-async function scrapeOdu(): Promise<TransferMapping[]> {
-  // Step 1: Get subject list via direct API (no browser needed)
-  console.log("Fetching VCCS subject list from ODU backend...");
-  const allSubjects = await getSubjects();
-  console.log(`Found ${allSubjects.length} VCCS subjects\n`);
-
-  // Step 2: For each subject, get course numbers via direct API
-  const subjectCourses: Map<string, string[]> = new Map();
-  let totalCourses = 0;
-
-  for (const subj of allSubjects) {
-    const courses = await getCourseNumbers(subj);
-    if (courses.length > 0) {
-      subjectCourses.set(subj, courses);
-      totalCourses += courses.length;
-    }
-  }
-
-  console.log(`Total: ${subjectCourses.size} subjects with ${totalCourses} courses to scrape`);
-  console.log("This will take a while — each course requires a form submission.\n");
-
-  // Step 3: Use Playwright to get actual equivalency results
-  console.log("Launching browser...");
-  const browser = await chromium.launch({ headless: !headed });
-  const page = await browser.newPage();
-
-  const allMappings: TransferMapping[] = [];
-  let processed = 0;
-  let failed = 0;
-
-  for (const [subject, courses] of subjectCourses) {
-    process.stdout.write(`  ${subject} (${courses.length} courses)...`);
-    let subjectMappings = 0;
-
-    for (const courseNum of courses) {
-      const mapping = await getEquivalency(page, subject, courseNum);
-      if (mapping) {
-        allMappings.push(mapping);
-        subjectMappings++;
-      } else {
-        failed++;
-      }
-      processed++;
-    }
-
-    console.log(` ${subjectMappings} mapped`);
-  }
-
-  await browser.close();
-
-  console.log(`\nProcessed ${processed} courses, mapped ${allMappings.length}, failed ${failed}`);
-  return allMappings;
+  return mappings;
 }
 
 async function main() {
   console.log("ODU Transfer Equivalency Scraper\n");
 
-  const oduMappings = await scrapeOdu();
+  const html = await fetchOduData();
+  console.log(`  Received ${html.length} bytes of HTML`);
 
-  if (oduMappings.length === 0) {
-    console.log("\n⚠ No mappings scraped! The page structure may have changed.");
-    console.log("Try running with --headed to inspect the page visually.");
+  const mappings = parseRows(html);
+
+  if (mappings.length === 0) {
+    console.log("⚠ No mappings found! Check if the endpoint changed.");
     process.exit(1);
   }
 
   // Stats
-  const directEquiv = oduMappings.filter((m) => !m.no_credit && !m.is_elective).length;
-  const electives = oduMappings.filter((m) => !m.no_credit && m.is_elective).length;
-  const noCredit = oduMappings.filter((m) => m.no_credit).length;
-  const prefixes = new Set(oduMappings.map((m) => m.vccs_prefix));
+  const directEquiv = mappings.filter(
+    (m) => !m.no_credit && !m.is_elective
+  ).length;
+  const electives = mappings.filter(
+    (m) => !m.no_credit && m.is_elective
+  ).length;
+  const noCredit = mappings.filter((m) => m.no_credit).length;
+  const prefixes = new Set(mappings.map((m) => m.vccs_prefix));
 
   console.log(`\nODU Summary:`);
-  console.log(`  Total mappings: ${oduMappings.length}`);
+  console.log(`  Total mappings: ${mappings.length}`);
   console.log(`  Direct equivalencies: ${directEquiv}`);
   console.log(`  Elective credit: ${electives}`);
   console.log(`  No credit: ${noCredit}`);
   console.log(`  Subject areas: ${prefixes.size}`);
+
+  // Spot checks
+  const eng111 = mappings.find(
+    (m) => m.vccs_prefix === "ENG" && m.vccs_number === "111"
+  );
+  if (eng111) {
+    console.log(
+      `\n  Spot check — ENG 111: → ${eng111.univ_course} (${eng111.univ_title})`
+    );
+  }
+  const mth263 = mappings.find(
+    (m) => m.vccs_prefix === "MTH" && m.vccs_number === "263"
+  );
+  if (mth263) {
+    console.log(
+      `  Spot check — MTH 263: → ${mth263.univ_course} (${mth263.univ_title})`
+    );
+  }
+  const bio101 = mappings.find(
+    (m) => m.vccs_prefix === "BIO" && m.vccs_number === "101"
+  );
+  if (bio101) {
+    console.log(
+      `  Spot check — BIO 101: → ${bio101.univ_course} (${bio101.univ_title})`
+    );
+  }
 
   // Merge with existing data
   const outPath = path.join(process.cwd(), "data", "transfer-equiv.json");
@@ -295,10 +216,10 @@ async function main() {
   }
 
   const nonOdu = existing.filter((m) => m.university !== "odu");
-  const merged = [...nonOdu, ...oduMappings];
+  const merged = [...nonOdu, ...mappings];
 
   console.log(
-    `Merged: ${nonOdu.length} existing (non-ODU) + ${oduMappings.length} ODU = ${merged.length} total`
+    `Merged: ${nonOdu.length} existing (non-ODU) + ${mappings.length} ODU = ${merged.length} total`
   );
 
   fs.writeFileSync(outPath, JSON.stringify(merged, null, 2));

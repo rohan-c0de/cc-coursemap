@@ -2,17 +2,31 @@
  * Scrape George Mason University VCCS Transfer Equivalency data.
  *
  * Source: https://transfermatrix.admissions.gmu.edu/
- * WordPress-based form with cascading dropdowns (state → school → course).
- * Select VA → USVCCS → "View All" to get the full results table.
+ * The "View All" option for VCCS returns all equivalencies in a single HTML
+ * table — no JavaScript needed, just a GET request.
+ *
+ * URL: ?state=VA&school=USVCCS&course=View%20All
+ *
+ * Table columns:
+ *   Transferring Institution:
+ *     Course Number | Course Name | Credits
+ *   GMU Equivalent:
+ *     Course Number | Course Name | Credits
+ *
+ * GMU patterns:
+ *   - "ACCT ----" = department elective
+ *   - "GENL ----" = general elective
+ *   - "UNIV XXX" + "Does Not Transfer" = no credit
+ *   - "ENGL 101" = direct equivalency
+ *   - "L" prefix on level (e.g., "BIOL L311") = lower-level transfer
  *
  * Merges GMU mappings into data/transfer-equiv.json alongside existing data.
  *
  * Usage:
  *   npx tsx scripts/scrape-transfer-gmu.ts
- *   npx tsx scripts/scrape-transfer-gmu.ts --headed
  */
 
-import { chromium } from "playwright";
+import * as cheerio from "cheerio";
 import fs from "fs";
 import path from "path";
 
@@ -32,221 +46,156 @@ interface TransferMapping {
   is_elective: boolean;
 }
 
-const GMU_URL = "https://transfermatrix.admissions.gmu.edu/";
-const headed = process.argv.includes("--headed");
+const GMU_URL =
+  "https://transfermatrix.admissions.gmu.edu/?state=VA&school=USVCCS&course=View%20All";
 
-async function scrapeGmu(): Promise<TransferMapping[]> {
-  console.log("Launching browser...");
-  const browser = await chromium.launch({ headless: !headed });
-  const page = await browser.newPage();
+async function fetchGmuData(): Promise<string> {
+  console.log("Fetching all VCCS equivalencies from GMU...");
+  const res = await fetch(GMU_URL);
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+  }
+  return res.text();
+}
 
-  console.log(`Navigating to ${GMU_URL}`);
-  await page.goto(GMU_URL, { waitUntil: "networkidle", timeout: 30000 });
+function parseRows(html: string): TransferMapping[] {
+  const $ = cheerio.load(html);
+  const mappings: TransferMapping[] = [];
 
-  // Step 1: Select Virginia
-  console.log("Selecting state: VA");
-  await page.selectOption("#state", "VA");
-  await page.waitForTimeout(2000);
-
-  // Wait for school dropdown to populate
-  await page.waitForFunction(() => {
-    const el = document.querySelector("#school") as HTMLSelectElement;
-    return el && el.options.length > 2;
-  }, { timeout: 15000 });
-
-  // Step 2: Select VCCS
-  console.log("Selecting school: USVCCS (Virginia Community College System)");
-  await page.selectOption("#school", "USVCCS");
-  await page.waitForTimeout(2000);
-
-  // Wait for course dropdown to populate
-  await page.waitForFunction(() => {
-    const el = document.querySelector("#course") as HTMLSelectElement;
-    return el && el.options.length > 5;
-  }, { timeout: 15000 });
-
-  // Step 3: Select "View All"
-  console.log('Selecting course: "View All"');
-  await page.selectOption("#course", "View All");
-  await page.waitForTimeout(3000);
-
-  // Wait for results to render
-  console.log("Waiting for results to render...");
-  // The results might be in a table, div, or other container
-  // Wait for significant content to appear
-  await page.waitForFunction(() => {
-    const body = document.body.innerText;
-    return body.length > 5000; // Should have lots of content once loaded
-  }, { timeout: 30000 });
-
-  // Give extra time for large result set to fully render
-  await page.waitForTimeout(3000);
-
-  // Step 4: Parse results
-  console.log("Parsing results...");
-
-  const mappings = await page.evaluate(() => {
-    const results: Array<{
-      vccsCourse: string;
-      vccsTitle: string;
-      vccsCredits: string;
-      gmuCourse: string;
-      gmuTitle: string;
-      gmuCredits: string;
-    }> = [];
-
-    // Strategy 1: Look for tables
-    const tables = document.querySelectorAll("table");
-    for (const table of tables) {
-      const rows = table.querySelectorAll("tr");
-      for (const row of rows) {
-        const cells = row.querySelectorAll("td");
-        if (cells.length >= 4) {
-          results.push({
-            vccsCourse: cells[0]?.textContent?.trim() || "",
-            vccsTitle: cells.length >= 6 ? cells[1]?.textContent?.trim() || "" : "",
-            vccsCredits: cells.length >= 6 ? cells[2]?.textContent?.trim() || "" : "",
-            gmuCourse: cells.length >= 6 ? cells[3]?.textContent?.trim() || "" : cells[1]?.textContent?.trim() || "",
-            gmuTitle: cells.length >= 6 ? cells[4]?.textContent?.trim() || "" : cells[2]?.textContent?.trim() || "",
-            gmuCredits: cells.length >= 6 ? cells[5]?.textContent?.trim() || "" : cells[3]?.textContent?.trim() || "",
-          });
-        }
-      }
+  // Find the results table — it's the one with "All Transferrable Courses" header
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let resultsTable: any = null;
+  $("table").each((_, table) => {
+    const text = $(table).text();
+    if (text.includes("All Transferrable Courses")) {
+      resultsTable = $(table);
     }
-
-    // Strategy 2: Look for divs with course info
-    if (results.length === 0) {
-      // Look for any structured content with course patterns
-      const allText = document.body.innerText;
-      const lines = allText.split("\n").map((l) => l.trim()).filter(Boolean);
-
-      for (const line of lines) {
-        // Look for patterns like "ACC 211 → ACCT 203" or "ACC 211 = ACCT 203"
-        const match = line.match(
-          /([A-Z]{2,4})\s+(\d{3}\S*)\s*(?:→|->|=|:)\s*([A-Z]{2,4})\s+(\d{3}\S*)/
-        );
-        if (match) {
-          results.push({
-            vccsCourse: `${match[1]} ${match[2]}`,
-            vccsTitle: "",
-            vccsCredits: "",
-            gmuCourse: `${match[3]} ${match[4]}`,
-            gmuTitle: "",
-            gmuCredits: "",
-          });
-        }
-      }
-    }
-
-    // Strategy 3: Get the raw page HTML for analysis if no results found
-    if (results.length === 0) {
-      // Return page structure info for debugging
-      const body = document.body.innerHTML;
-      const truncated = body.slice(0, 5000);
-      results.push({
-        vccsCourse: "__DEBUG__",
-        vccsTitle: `Page length: ${body.length}`,
-        vccsCredits: `Tables: ${tables.length}`,
-        gmuCourse: truncated,
-        gmuTitle: "",
-        gmuCredits: "",
-      });
-    }
-
-    return results;
   });
 
-  await browser.close();
+  if (!resultsTable) {
+    const tables = $("table");
+    if (tables.length > 0) {
+      resultsTable = $(tables[tables.length - 1]);
+    }
+  }
 
-  // Check for debug output
-  if (mappings.length === 1 && mappings[0].vccsCourse === "__DEBUG__") {
-    console.log("\n⚠ Could not find structured results. Debug info:");
-    console.log(`  ${mappings[0].vccsTitle}`);
-    console.log(`  ${mappings[0].vccsCredits}`);
-    console.log("\n  Page HTML preview:");
-    console.log(mappings[0].gmuCourse?.slice(0, 2000));
+  if (!resultsTable) {
+    console.log("  ⚠ No results table found!");
     return [];
   }
 
-  // Transform to TransferMapping
-  const transferMappings: TransferMapping[] = [];
+  // Iterate data rows (skip header rows with <th>)
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  resultsTable.find("tr").each((_: number, row: any) => {
+    const tds = $(row).find("td");
+    if (tds.length < 6) return;
 
-  for (const r of mappings) {
-    if (!r.vccsCourse) continue;
+    const vccsRaw = $(tds[0]).text().trim();
+    const vccsTitle = $(tds[1]).text().trim();
+    const vccsCredits = $(tds[2]).text().trim();
+    const gmuCourseRaw = $(tds[3]).text().trim();
+    const gmuTitle = $(tds[4]).text().trim();
+    const gmuCredits = $(tds[5]).text().trim();
 
-    const vccsMatch = r.vccsCourse.match(/^([A-Z]{2,4})\s*[-\s]*(\d+\S*)/);
-    if (!vccsMatch) continue;
+    if (!vccsRaw) return;
 
-    const vccsPrefix = vccsMatch[1];
-    const vccsNumber = vccsMatch[2];
+    // Skip combo courses like "ACC 211 & ACC 212" — too complex to map
+    if (vccsRaw.includes("&")) return;
 
-    // GMU patterns:
-    // "COMM----" = elective (four dashes)
-    // "ENGH 101" = direct
-    // "L" designation = lower-level
-    const isElective =
-      r.gmuCourse.includes("----") ||
-      r.gmuCourse.includes("XXX") ||
-      r.gmuCourse.includes("ELEC");
+    // Parse VCCS course: "ENG 111" → prefix + number
+    const vccsParts = vccsRaw.match(/^([A-Z]{2,4})\s+(\S+)$/);
+    if (!vccsParts) return;
 
+    const prefix = vccsParts[1];
+    const number = vccsParts[2];
+
+    // Detect no credit: "UNIV XXX" + "Does Not Transfer"
     const noCredit =
-      r.gmuCourse.toUpperCase().includes("NO CREDIT") ||
-      r.gmuCourse.toUpperCase().includes("NO GMU CREDIT") ||
-      r.gmuTitle.toUpperCase().includes("NO CREDIT");
+      gmuCourseRaw.includes("UNIV XXX") ||
+      gmuTitle.includes("Does Not Transfer") ||
+      gmuCredits === "0";
 
-    transferMappings.push({
-      vccs_prefix: vccsPrefix,
-      vccs_number: vccsNumber,
-      vccs_course: `${vccsPrefix} ${vccsNumber}`,
-      vccs_title: r.vccsTitle || "",
-      vccs_credits: r.vccsCredits || "",
+    // Detect elective: "----" pattern (e.g., "ACCT ----", "GENL ----")
+    const isElective =
+      gmuCourseRaw.includes("----") ||
+      gmuCourseRaw.includes("GENL") ||
+      gmuTitle.toLowerCase().includes("elective");
+
+    mappings.push({
+      vccs_prefix: prefix,
+      vccs_number: number,
+      vccs_course: `${prefix} ${number}`,
+      vccs_title: vccsTitle,
+      vccs_credits: vccsCredits,
       university: "gmu",
       university_name: "George Mason University",
-      univ_course: noCredit ? "" : r.gmuCourse,
-      univ_title: noCredit ? "No GMU credit" : r.gmuTitle,
-      univ_credits: noCredit ? "" : r.gmuCredits,
+      univ_course: noCredit ? "" : gmuCourseRaw,
+      univ_title: noCredit ? "No GMU credit" : gmuTitle || gmuCourseRaw,
+      univ_credits: noCredit ? "" : gmuCredits || vccsCredits,
       notes: "",
       no_credit: noCredit,
-      is_elective: isElective,
+      is_elective: isElective && !noCredit,
     });
-  }
-
-  // Deduplicate
-  const seen = new Set<string>();
-  const deduped = transferMappings.filter((m) => {
-    const key = `${m.vccs_prefix}-${m.vccs_number}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
   });
 
-  console.log(`Raw: ${transferMappings.length}, deduplicated: ${deduped.length}`);
-  return deduped;
+  return mappings;
 }
 
 async function main() {
   console.log("GMU Transfer Equivalency Scraper\n");
 
-  const gmuMappings = await scrapeGmu();
+  const html = await fetchGmuData();
+  console.log(`  Received ${html.length} bytes of HTML`);
 
-  if (gmuMappings.length === 0) {
-    console.log("\n⚠ No mappings scraped! The page structure may have changed.");
-    console.log("Try running with --headed to inspect the page visually.");
+  const mappings = parseRows(html);
+
+  if (mappings.length === 0) {
+    console.log("⚠ No mappings found! Check if the page structure changed.");
     process.exit(1);
   }
 
   // Stats
-  const directEquiv = gmuMappings.filter((m) => !m.no_credit && !m.is_elective).length;
-  const electives = gmuMappings.filter((m) => !m.no_credit && m.is_elective).length;
-  const noCredit = gmuMappings.filter((m) => m.no_credit).length;
-  const prefixes = new Set(gmuMappings.map((m) => m.vccs_prefix));
+  const directEquiv = mappings.filter(
+    (m) => !m.no_credit && !m.is_elective
+  ).length;
+  const electives = mappings.filter(
+    (m) => !m.no_credit && m.is_elective
+  ).length;
+  const noCredit = mappings.filter((m) => m.no_credit).length;
+  const prefixes = new Set(mappings.map((m) => m.vccs_prefix));
 
   console.log(`\nGMU Summary:`);
-  console.log(`  Total mappings: ${gmuMappings.length}`);
+  console.log(`  Total mappings: ${mappings.length}`);
   console.log(`  Direct equivalencies: ${directEquiv}`);
   console.log(`  Elective credit: ${electives}`);
   console.log(`  No credit: ${noCredit}`);
   console.log(`  Subject areas: ${prefixes.size}`);
+
+  // Spot checks
+  const eng111 = mappings.find(
+    (m) => m.vccs_prefix === "ENG" && m.vccs_number === "111"
+  );
+  if (eng111) {
+    console.log(
+      `\n  Spot check — ENG 111: → ${eng111.univ_course} (${eng111.univ_title})`
+    );
+  }
+  const mth263 = mappings.find(
+    (m) => m.vccs_prefix === "MTH" && m.vccs_number === "263"
+  );
+  if (mth263) {
+    console.log(
+      `  Spot check — MTH 263: → ${mth263.univ_course} (${mth263.univ_title})`
+    );
+  }
+  const bio101 = mappings.find(
+    (m) => m.vccs_prefix === "BIO" && m.vccs_number === "101"
+  );
+  if (bio101) {
+    console.log(
+      `  Spot check — BIO 101: → ${bio101.univ_course} (${bio101.univ_title})`
+    );
+  }
 
   // Merge with existing data
   const outPath = path.join(process.cwd(), "data", "transfer-equiv.json");
@@ -260,10 +209,10 @@ async function main() {
   }
 
   const nonGmu = existing.filter((m) => m.university !== "gmu");
-  const merged = [...nonGmu, ...gmuMappings];
+  const merged = [...nonGmu, ...mappings];
 
   console.log(
-    `Merged: ${nonGmu.length} existing (non-GMU) + ${gmuMappings.length} GMU = ${merged.length} total`
+    `Merged: ${nonGmu.length} existing (non-GMU) + ${mappings.length} GMU = ${merged.length} total`
   );
 
   fs.writeFileSync(outPath, JSON.stringify(merged, null, 2));
