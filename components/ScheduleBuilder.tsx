@@ -159,7 +159,7 @@ export default function ScheduleBuilder({ courses, pinnedCRNs, onTogglePin }: Pr
                   const hasConflict = conflicts.has(course.crn);
                   return (
                     <div
-                      key={course.crn}
+                      key={`${course.crn}-${course.course_prefix}${course.course_number}`}
                       className={`flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium ${color.bg} ${color.border} ${color.text} ${hasConflict ? "ring-2 ring-red-400" : ""}`}
                     >
                       <span>

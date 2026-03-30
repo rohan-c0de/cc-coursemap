@@ -246,7 +246,7 @@ function ScheduleCard({
               const modeStyle = MODE_STYLES[s.mode] || MODE_STYLES["in-person"];
               return (
                 <div
-                  key={s.crn}
+                  key={`${s.crn}-${s.course_prefix}${s.course_number}`}
                   className="rounded-lg border border-gray-200 bg-gray-50 px-3 py-1.5 text-xs"
                 >
                   <span className="font-semibold text-gray-900">
@@ -332,7 +332,7 @@ function ScheduleCard({
                   const options = collegeOptions.get(courseLabel) || [];
 
                   return (
-                    <tr key={s.crn} className="hover:bg-gray-50 align-top">
+                    <tr key={`${s.crn}-${s.course_prefix}${s.course_number}`} className="hover:bg-gray-50 align-top">
                       <td className="px-3 py-2">
                         <span className="font-semibold text-gray-900">
                           {s.course_prefix} {s.course_number}
@@ -384,7 +384,7 @@ function ScheduleCard({
               {sections
                 .filter((s) => s.prerequisite_text)
                 .map((s) => (
-                  <p key={s.crn} className="text-xs text-amber-700">
+                  <p key={`${s.crn}-${s.course_prefix}${s.course_number}-prereq`} className="text-xs text-amber-700">
                     <span className="font-medium">
                       {s.course_prefix} {s.course_number}
                     </span>

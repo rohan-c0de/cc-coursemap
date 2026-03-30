@@ -150,7 +150,7 @@ export default function WeeklyCalendar({ sections }: Props) {
             const color = colorMap.get(key)!;
             return (
               <span
-                key={s.crn}
+                key={`${s.crn}-${s.course_prefix}${s.course_number}`}
                 className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium ${color.bg} ${color.border} ${color.text}`}
               >
                 {key} — Online/Async

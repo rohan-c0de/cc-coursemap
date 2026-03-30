@@ -523,7 +523,7 @@ export default function CourseSearchClient() {
                                     {college.sections.map((s) => {
                                       const style = MODE_STYLES[s.mode];
                                       return (
-                                        <tr key={s.crn} className="hover:bg-gray-50">
+                                        <tr key={`${s.crn}-${s.course_prefix}${s.course_number}-${s.start_time}`} className="hover:bg-gray-50">
                                           <td className="px-3 py-2 font-mono text-gray-600">
                                             {s.crn}
                                           </td>

@@ -333,7 +333,7 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
                   const started = status === "in-progress";
                   return (
                     <tr
-                      key={course.crn}
+                      key={`${course.crn}-${course.course_prefix}${course.course_number}-${course.days}-${course.start_time}`}
                       className={`transition hover:bg-gray-50 ${started ? "opacity-50" : ""}`}
                     >
                       <td className="whitespace-nowrap px-4 py-3 font-mono text-xs text-gray-600">
@@ -436,7 +436,7 @@ export default function CourseTable({ courses, vccsSlug, onAuditClick, pinnedCRN
               const started = status === "in-progress";
               return (
                 <div
-                  key={course.crn}
+                  key={`${course.crn}-${course.course_prefix}${course.course_number}-${course.days}-${course.start_time}`}
                   className={`rounded-lg border border-gray-200 bg-white p-4 ${started ? "opacity-50" : ""}`}
                 >
                   <div className="mb-2 flex items-start justify-between gap-2">

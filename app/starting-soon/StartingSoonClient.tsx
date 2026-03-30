@@ -425,7 +425,7 @@ export default function StartingSoonClient() {
                                     {college.sections.map((s) => {
                                       const mStyle = MODE_STYLES[s.mode];
                                       return (
-                                        <tr key={s.crn}>
+                                        <tr key={`${s.crn}-${s.course_prefix}${s.course_number}-${s.start_time}`}>
                                           <td className="px-3 py-1.5 font-mono text-gray-600">
                                             {s.crn}
                                           </td>
