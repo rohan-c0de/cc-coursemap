@@ -6,7 +6,13 @@ export const metadata = {
   description: "Community colleges near you that offer course auditing.",
 };
 
-export default function ResultsPage() {
+export default async function ResultsPage({
+  params,
+}: {
+  params: Promise<{ state: string }>;
+}) {
+  const { state } = await params;
+
   return (
     <Suspense
       fallback={
@@ -26,7 +32,7 @@ export default function ResultsPage() {
         </div>
       }
     >
-      <ResultsContent />
+      <ResultsContent state={state} />
     </Suspense>
   );
 }

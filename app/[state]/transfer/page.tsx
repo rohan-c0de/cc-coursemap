@@ -11,7 +11,12 @@ export const metadata: Metadata = {
     "Find which Virginia community college courses transfer to Virginia Tech, VCU, and other universities. See direct equivalencies, elective credit, and course availability.",
 };
 
-export default function TransferPage() {
+export default async function TransferPage({
+  params,
+}: {
+  params: Promise<{ state: string }>;
+}) {
+  const { state } = await params;
   const universities = getUniversities();
   const defaultUni = universities[0]?.slug || "vt";
   // Pass ALL mappings — client filters by selected university
@@ -34,7 +39,7 @@ export default function TransferPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <Link
-        href="/"
+        href={`/${state}`}
         className="text-sm text-teal-600 hover:text-teal-700 mb-6 inline-block"
       >
         &larr; Back to search
@@ -53,6 +58,7 @@ export default function TransferPage() {
         mappings={mappings}
         courseAvailability={courseAvailability}
         defaultUniversity={defaultUni}
+        state={state}
       />
     </div>
   );

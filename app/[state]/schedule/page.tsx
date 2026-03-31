@@ -7,6 +7,12 @@ export const metadata: Metadata = {
     "Build conflict-free course schedules across all 23 Virginia community colleges. Set your constraints and get personalized schedule suggestions.",
 };
 
-export default function SchedulePage() {
-  return <ScheduleClient />;
+export default async function SchedulePage({
+  params,
+}: {
+  params: Promise<{ state: string }>;
+}) {
+  const { state } = await params;
+
+  return <ScheduleClient state={state} />;
 }

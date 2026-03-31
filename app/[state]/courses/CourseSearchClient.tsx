@@ -95,7 +95,7 @@ function buildCourseUrl(slug: string, s: SectionResult): string {
 // Component
 // ---------------------------------------------------------------------------
 
-export default function CourseSearchClient() {
+export default function CourseSearchClient({ state }: { state: string }) {
   const [query, setQuery] = useState("");
   const [zip, setZip] = useState("");
   const [mode, setMode] = useState("");
@@ -113,7 +113,7 @@ export default function CourseSearchClient() {
 
   // Fetch transfer lookup data on mount (small, cached 24h)
   useEffect(() => {
-    fetch("/api/transfer/lookup")
+    fetch(`/api/${state}/transfer/lookup`)
       .then((r) => r.json())
       .then((data) => {
         setTransferLookup(data.lookup);
@@ -147,7 +147,7 @@ export default function CourseSearchClient() {
       if (day) params.set("day", day);
       if (timeOfDay) params.set("timeOfDay", timeOfDay);
 
-      const res = await fetch(`/api/courses/search?${params}`);
+      const res = await fetch(`/api/${state}/courses/search?${params}`);
       if (!res.ok) {
         const data = await res.json();
         setError(data.error || "Search failed.");
@@ -549,7 +549,7 @@ export default function CourseSearchClient() {
                               {/* Actions */}
                               <div className="mt-2 flex gap-4">
                                 <Link
-                                  href={`/college/${college.slug}`}
+                                  href={`/${state}/college/${college.slug}`}
                                   className="text-xs font-medium text-teal-600 hover:text-teal-800 hover:underline"
                                 >
                                   How to Audit

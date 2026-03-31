@@ -11,9 +11,10 @@ interface Props {
   terms: TermOption[];
   currentTerm: string;
   collegeId: string;
+  state: string;
 }
 
-export default function TermSelector({ terms, currentTerm, collegeId }: Props) {
+export default function TermSelector({ terms, currentTerm, collegeId, state }: Props) {
   const router = useRouter();
 
   // Sort terms newest first
@@ -24,7 +25,7 @@ export default function TermSelector({ terms, currentTerm, collegeId }: Props) {
       value={currentTerm}
       onChange={(e) => {
         const term = e.target.value;
-        router.push(`/college/${collegeId}?term=${term}`);
+        router.push(`/${state}/college/${collegeId}?term=${term}`);
       }}
       className="text-sm border border-gray-300 rounded-lg px-3 py-1.5 bg-white text-gray-700 hover:border-teal-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 cursor-pointer"
       aria-label="Select term"

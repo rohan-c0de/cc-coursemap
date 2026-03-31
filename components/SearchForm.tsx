@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 const RADIUS_OPTIONS = [10, 25, 50] as const;
 
-export default function SearchForm() {
+export default function SearchForm({ state = "va" }: { state?: string }) {
   const router = useRouter();
   const [zip, setZip] = useState("");
   const [radius, setRadius] = useState<number>(25);
@@ -32,7 +32,7 @@ export default function SearchForm() {
       return;
     }
 
-    router.push(`/results?zip=${encodeURIComponent(trimmed)}&radius=${radius}`);
+    router.push(`/${state}/results?zip=${encodeURIComponent(trimmed)}&radius=${radius}`);
   }
 
   return (

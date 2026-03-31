@@ -17,12 +17,13 @@ const institutions = institutionsData as Institution[];
 export const revalidate = 86400;
 
 type PageProps = {
-  params: Promise<{ id: string }>;
+  params: Promise<{ state: string; id: string }>;
   searchParams: Promise<{ term?: string }>;
 };
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const { id } = await props.params;
+
   const institution = institutions.find((i) => i.id === id);
   if (!institution) return { title: "College Not Found" };
 
@@ -37,11 +38,11 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 }
 
 export function generateStaticParams() {
-  return institutions.map((i) => ({ id: i.id }));
+  return institutions.map((i) => ({ state: "va", id: i.id }));
 }
 
 export default async function CollegeDetailPage(props: PageProps) {
-  const { id } = await props.params;
+  const { state, id } = await props.params;
   const { term: requestedTerm } = await props.searchParams;
   const institution = institutions.find((i) => i.id === id);
 
@@ -81,7 +82,7 @@ export default async function CollegeDetailPage(props: PageProps) {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
     name: institution.name,
-    url: `${siteUrl}/college/${institution.id}`,
+    url: `${siteUrl}/${state}/college/${institution.id}`,
     address: {
       "@type": "PostalAddress",
       addressRegion: "VA",
@@ -104,7 +105,7 @@ export default async function CollegeDetailPage(props: PageProps) {
       />
       {/* Breadcrumb */}
       <Link
-        href="/"
+        href={`/${state}`}
         className="text-sm text-teal-600 hover:text-teal-700 mb-4 inline-block"
       >
         &larr; Back to search
@@ -353,6 +354,7 @@ export default async function CollegeDetailPage(props: PageProps) {
                 terms={termsWithData.map((t) => ({ code: t, label: termLabel(t) }))}
                 currentTerm={currentTerm}
                 collegeId={institution.id}
+                state={state}
               />
             )}
           </div>

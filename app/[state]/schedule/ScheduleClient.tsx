@@ -6,7 +6,7 @@ import ScheduleResults from "@/components/schedule/ScheduleResults";
 import type { ScheduleFormData } from "@/components/schedule/ScheduleForm";
 import type { ScheduleResponse } from "@/lib/types";
 
-export default function ScheduleClient() {
+export default function ScheduleClient({ state }: { state: string }) {
   const [response, setResponse] = useState<ScheduleResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -17,7 +17,7 @@ export default function ScheduleClient() {
     setResponse(null);
 
     try {
-      const res = await fetch("/api/schedule/build", {
+      const res = await fetch(`/api/${state}/schedule/build`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -86,7 +86,7 @@ export default function ScheduleClient() {
       )}
 
       {/* Results */}
-      {!loading && response && <ScheduleResults response={response} />}
+      {!loading && response && <ScheduleResults response={response} state={state} />}
 
       {/* Empty state */}
       {!loading && !response && !error && (

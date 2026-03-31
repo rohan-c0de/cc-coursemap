@@ -12,6 +12,7 @@ interface Props {
     { colleges: string[]; totalSections: number }
   >;
   defaultUniversity: string;
+  state: string;
 }
 
 export default function TransferClient({
@@ -19,6 +20,7 @@ export default function TransferClient({
   mappings,
   courseAvailability,
   defaultUniversity,
+  state,
 }: Props) {
   const [selectedUniversity, setSelectedUniversity] = useState(defaultUniversity);
   const [subjectFilter, setSubjectFilter] = useState("");
@@ -275,7 +277,7 @@ export default function TransferClient({
                           )}
                           {availability && !m.no_credit && (
                             <Link
-                              href={`/courses?q=${m.vccs_prefix}+${m.vccs_number}`}
+                              href={`/${state}/courses?q=${m.vccs_prefix}+${m.vccs_number}`}
                               className="text-[10px] text-teal-600 hover:text-teal-800 hover:underline whitespace-nowrap"
                             >
                               {availability.totalSections} sections at{" "}

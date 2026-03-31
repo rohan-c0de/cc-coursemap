@@ -7,6 +7,12 @@ export const metadata: Metadata = {
     "Search for courses across all 23 Virginia community colleges at once. Find the best schedule, location, and format for auditing.",
 };
 
-export default function CoursesPage() {
-  return <CourseSearchClient />;
+export default async function CoursesPage({
+  params,
+}: {
+  params: Promise<{ state: string }>;
+}) {
+  const { state } = await params;
+
+  return <CourseSearchClient state={state} />;
 }

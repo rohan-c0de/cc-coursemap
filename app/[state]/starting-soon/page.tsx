@@ -8,11 +8,17 @@ export const metadata: Metadata = {
     "Find late-start courses, mini-sessions, and upcoming classes across all 23 Virginia community colleges. Don't miss registration deadlines.",
 };
 
-export default function StartingSoonPage() {
+export default async function StartingSoonPage({
+  params,
+}: {
+  params: Promise<{ state: string }>;
+}) {
+  const { state } = await params;
+
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <Link
-        href="/"
+        href={`/${state}`}
         className="text-sm text-teal-600 hover:text-teal-700 mb-6 inline-block"
       >
         &larr; Back to search
@@ -26,7 +32,7 @@ export default function StartingSoonPage() {
         Virginia community colleges. Find sections still open for registration.
       </p>
 
-      <StartingSoonClient />
+      <StartingSoonClient state={state} />
     </div>
   );
 }

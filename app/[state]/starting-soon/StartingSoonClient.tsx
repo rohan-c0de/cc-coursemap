@@ -111,7 +111,7 @@ function daysAwayLabel(days: number): string {
 // Component
 // ---------------------------------------------------------------------------
 
-export default function StartingSoonClient() {
+export default function StartingSoonClient({ state }: { state: string }) {
   const [window, setWindow] = useState(60);
   const [subject, setSubject] = useState("");
   const [mode, setMode] = useState("");
@@ -133,7 +133,7 @@ export default function StartingSoonClient() {
       if (mode) params.set("mode", mode);
       if (zip) params.set("zip", zip);
 
-      const res = await fetch(`/api/courses/starting-soon?${params}`);
+      const res = await fetch(`/api/${state}/courses/starting-soon?${params}`);
       if (!res.ok) throw new Error("Failed to load courses");
       const json: ApiResponse = await res.json();
       setData(json);
@@ -364,7 +364,7 @@ export default function StartingSoonClient() {
                                 />
                               </svg>
                               <Link
-                                href={`/college/${college.slug}`}
+                                href={`/${state}/college/${college.slug}`}
                                 onClick={(e) => e.stopPropagation()}
                                 className="font-medium text-sm text-gray-900 hover:text-teal-700 truncate"
                               >

@@ -7,11 +7,17 @@ export const metadata: Metadata = {
     "Learn what course auditing is, how it works at Virginia community colleges, and whether you're eligible.",
 };
 
-export default function AboutPage() {
+export default async function AboutPage({
+  params,
+}: {
+  params: Promise<{ state: string }>;
+}) {
+  const { state } = await params;
+
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <Link
-        href="/"
+        href={`/${state}`}
         className="text-sm text-teal-600 hover:text-teal-700 mb-6 inline-block"
       >
         &larr; Back to search
@@ -190,7 +196,7 @@ export default function AboutPage() {
       {/* CTA */}
       <div className="mt-12 text-center">
         <Link
-          href="/"
+          href={`/${state}`}
           className="inline-flex items-center px-6 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700 transition-colors"
         >
           Find Colleges Near You

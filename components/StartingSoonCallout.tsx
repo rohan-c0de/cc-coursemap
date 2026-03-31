@@ -5,7 +5,7 @@ import { daysUntilStart } from "@/lib/course-status";
 
 const WINDOW_DAYS = 14;
 
-export default function StartingSoonCallout() {
+export default function StartingSoonCallout({ state }: { state: string }) {
   const allCourses = loadAllCourses(getCurrentTerm());
 
   const upcoming = allCourses.filter((s) => {
@@ -23,7 +23,7 @@ export default function StartingSoonCallout() {
 
   return (
     <Link
-      href="/starting-soon"
+      href={`/${state}/starting-soon`}
       className="group block rounded-xl border border-teal-200 bg-teal-50 px-5 py-4 mt-8 transition hover:border-teal-300 hover:bg-teal-100/60"
     >
       <div className="flex items-center gap-3">

@@ -7,7 +7,7 @@ import CollegeCard from "@/components/CollegeCard";
 import MapViewWrapper from "@/components/MapViewWrapper";
 import type { Institution, SearchResult } from "@/lib/types";
 
-export default function ResultsContent() {
+export default function ResultsContent({ state }: { state: string }) {
   const searchParams = useSearchParams();
   const zip = searchParams.get("zip") || "";
   const radius = parseInt(searchParams.get("radius") || "25", 10);
@@ -32,7 +32,7 @@ export default function ResultsContent() {
     async function fetchResults() {
       try {
         const res = await fetch(
-          `/api/search?zip=${encodeURIComponent(zip)}&radius=${radius}`
+          `/api/${state}/search?zip=${encodeURIComponent(zip)}&radius=${radius}`
         );
         if (!res.ok) {
           const data = await res.json();
@@ -73,7 +73,7 @@ export default function ResultsContent() {
         </h1>
         <p className="text-gray-600 mb-6">{error}</p>
         <Link
-          href="/"
+          href={`/${state}`}
           className="inline-flex items-center px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors"
         >
           Try Again
@@ -87,7 +87,7 @@ export default function ResultsContent() {
       {/* Header */}
       <div className="mb-8">
         <Link
-          href="/"
+          href={`/${state}`}
           className="text-sm text-teal-600 hover:text-teal-700 mb-2 inline-block"
         >
           &larr; New search
@@ -140,7 +140,7 @@ export default function ResultsContent() {
             Try increasing the search radius or checking a different zip code.
           </p>
           <Link
-            href="/"
+            href={`/${state}`}
             className="inline-flex items-center px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors"
           >
             Search Again
@@ -156,6 +156,7 @@ export default function ResultsContent() {
                 institution={result.institution}
                 distance={result.distance}
                 courseCount={result.courseCount}
+                state={state}
               />
             ))}
           </div>

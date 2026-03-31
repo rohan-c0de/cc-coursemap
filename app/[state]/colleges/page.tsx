@@ -3,17 +3,28 @@ import type { Metadata } from "next";
 import institutionsData from "@/data/va/institutions.json";
 import { getCourseCount } from "@/lib/courses";
 import { getCurrentTerm } from "@/lib/terms";
+import { getStateConfig } from "@/lib/states/registry";
 import type { Institution } from "@/lib/types";
 
 const institutions = institutionsData as Institution[];
 
-export const metadata: Metadata = {
-  title: "All 23 VCCS Colleges — AuditMap Virginia",
-  description:
-    "Browse all Virginia community colleges and their course auditing policies.",
+type Props = {
+  params: Promise<{ state: string }>;
 };
 
-export default function CollegesPage() {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { state } = await params;
+  const config = getStateConfig(state);
+  return {
+    title: `All ${config.collegeCount} ${config.systemName} Colleges — ${config.branding.siteName}`,
+    description: `Browse all ${config.name} community colleges and their course auditing policies.`,
+  };
+}
+
+export default async function CollegesPage({ params }: Props) {
+  const { state } = await params;
+  const config = getStateConfig(state);
+
   // Sort alphabetically
   const sorted = [...institutions].sort((a, b) =>
     a.name.localeCompare(b.name)
@@ -29,14 +40,14 @@ export default function CollegesPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <Link
-        href="/"
+        href={`/${state}`}
         className="text-sm text-teal-600 hover:text-teal-700 mb-6 inline-block"
       >
         &larr; Back to search
       </Link>
 
       <h1 className="text-3xl font-bold text-gray-900 mb-2">
-        All 23 VCCS Colleges
+        All {config.collegeCount} {config.systemName} Colleges
       </h1>
       <p className="text-gray-600 mb-8">
         {verifiedCount} with verified audit policies · {unverifiedCount} pending
@@ -47,14 +58,15 @@ export default function CollegesPage() {
         {sorted.map((institution) => {
           const courseCount = getCourseCount(
             institution.vccs_slug,
-            getCurrentTerm()
+            getCurrentTerm(state),
+            state
           );
           const allowed = institution.audit_policy.allowed;
 
           return (
             <Link
               key={institution.id}
-              href={`/college/${institution.id}`}
+              href={`/${state}/college/${institution.id}`}
               className="group block rounded-lg border border-gray-200 bg-white p-4 transition hover:shadow-md hover:border-teal-300"
             >
               <div className="flex items-start justify-between gap-2 mb-2">

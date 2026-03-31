@@ -5,12 +5,14 @@ interface CollegeCardProps {
   institution: Institution;
   distance: number;
   courseCount: number;
+  state: string;
 }
 
 export default function CollegeCard({
   institution,
   distance,
   courseCount,
+  state,
 }: CollegeCardProps) {
   const { audit_policy } = institution;
   const allowed = audit_policy.allowed;
@@ -67,7 +69,7 @@ export default function CollegeCard({
           {courseCount === 1 ? "course" : "courses"} this term
         </p>
         <Link
-          href={`/college/${institution.id}`}
+          href={`/${state}/college/${institution.id}`}
           className="inline-flex items-center text-sm font-semibold text-teal-600 transition hover:text-teal-800"
         >
           Browse Courses

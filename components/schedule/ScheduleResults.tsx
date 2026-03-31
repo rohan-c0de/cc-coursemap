@@ -9,6 +9,7 @@ import { isValidTime } from "@/lib/time-utils";
 
 interface Props {
   response: ScheduleResponse;
+  state: string;
 }
 
 const MODE_STYLES: Record<string, { bg: string; text: string; label: string }> = {
@@ -101,7 +102,7 @@ function groupSchedules(schedules: GeneratedSchedule[]): ScheduleGroup[] {
 // Main component
 // ---------------------------------------------------------------------------
 
-export default function ScheduleResults({ response }: Props) {
+export default function ScheduleResults({ response, state }: Props) {
   const { schedules, meta } = response;
   const groups = useMemo(() => groupSchedules(schedules), [schedules]);
 
@@ -174,6 +175,7 @@ export default function ScheduleResults({ response }: Props) {
                   : group.representative.id
               )
             }
+            state={state}
           />
         ))}
       </div>
@@ -203,11 +205,13 @@ function ScheduleCard({
   rank,
   isExpanded,
   onToggle,
+  state,
 }: {
   group: ScheduleGroup;
   rank: number;
   isExpanded: boolean;
   onToggle: () => void;
+  state: string;
 }) {
   const { representative, collegeOptions, count } = group;
   const { sections, score, scoreBreakdown } = representative;
@@ -348,7 +352,7 @@ function ScheduleCard({
                         {options.length <= 1 ? (
                           <>
                             <Link
-                              href={`/college/${s.college_code}`}
+                              href={`/${state}/college/${s.college_code}`}
                               className="text-teal-600 hover:underline"
                             >
                               {s.collegeName}
@@ -360,7 +364,7 @@ function ScheduleCard({
                             )}
                           </>
                         ) : (
-                          <CollegeOptionsList options={options} />
+                          <CollegeOptionsList options={options} state={state} />
                         )}
                       </td>
                       <td className="px-3 py-2">
@@ -405,7 +409,7 @@ function ScheduleCard({
 
 const INITIAL_SHOW = 4;
 
-function CollegeOptionsList({ options }: { options: CollegeOption[] }) {
+function CollegeOptionsList({ options, state }: { options: CollegeOption[]; state: string }) {
   const [showAll, setShowAll] = useState(false);
   const visible = showAll ? options : options.slice(0, INITIAL_SHOW);
   const remaining = options.length - INITIAL_SHOW;
@@ -415,7 +419,7 @@ function CollegeOptionsList({ options }: { options: CollegeOption[] }) {
       {visible.map((o) => (
         <div key={o.college_code} className="leading-tight">
           <Link
-            href={`/college/${o.college_code}`}
+            href={`/${state}/college/${o.college_code}`}
             className="text-teal-600 hover:underline"
           >
             {o.collegeName}

@@ -3,23 +3,28 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const NAV_LINKS = [
-  { href: "/", label: "Search" },
-  { href: "/courses", label: "Find a Course" },
-  { href: "/starting-soon", label: "Starting Soon" },
-  { href: "/schedule", label: "Schedule Builder" },
-  { href: "/transfer", label: "Transfer" },
-  { href: "/colleges", label: "All Colleges" },
-  { href: "/about", label: "About Auditing" },
+const NAV_ITEMS = [
+  { path: "", label: "Search" },
+  { path: "/courses", label: "Find a Course" },
+  { path: "/starting-soon", label: "Starting Soon" },
+  { path: "/schedule", label: "Schedule Builder" },
+  { path: "/transfer", label: "Transfer" },
+  { path: "/colleges", label: "All Colleges" },
+  { path: "/about", label: "About Auditing" },
 ];
 
-export default function Header() {
+export default function Header({ state = "va" }: { state?: string }) {
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  const links = NAV_ITEMS.map((item) => ({
+    href: `/${state}${item.path}`,
+    label: item.label,
+  }));
 
   return (
     <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href={`/${state}`} className="flex items-center gap-2">
           <div className="w-8 h-8 bg-teal-600 rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-sm">AM</span>
           </div>
@@ -30,7 +35,7 @@ export default function Header() {
 
         {/* Desktop nav */}
         <nav className="hidden sm:flex items-center gap-6 text-sm text-gray-600">
-          {NAV_LINKS.map((link) => (
+          {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -64,7 +69,7 @@ export default function Header() {
       {/* Mobile dropdown */}
       {mobileOpen && (
         <nav className="sm:hidden border-t border-gray-100 bg-white px-4 pb-4 pt-2">
-          {NAV_LINKS.map((link) => (
+          {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}

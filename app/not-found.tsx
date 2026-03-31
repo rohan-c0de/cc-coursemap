@@ -13,13 +13,13 @@ export default function NotFound() {
       </p>
       <div className="mt-6 flex gap-3">
         <Link
-          href="/"
+          href="/va"
           className="rounded-lg bg-teal-600 px-4 py-2 text-sm font-medium text-white hover:bg-teal-700 transition"
         >
           Go Home
         </Link>
         <Link
-          href="/colleges"
+          href="/va/colleges"
           className="rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 transition"
         >
           Browse Colleges
