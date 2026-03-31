@@ -41,11 +41,11 @@ const SEARCH_WAIT = 20_000; // max wait for search results
 const INTER_SEARCH_DELAY = 2000; // ms between subject searches
 const MAX_RETRIES = 2;
 
-const DATA_DIR = path.join(process.cwd(), "data", "courses");
+const DATA_DIR = path.join(process.cwd(), "data", "va", "courses");
 
 // Load institution codes
 const PS_CODES: Record<string, string> = JSON.parse(
-  fs.readFileSync(path.join(process.cwd(), "data", "peoplesoft-codes.json"), "utf-8")
+  fs.readFileSync(path.join(process.cwd(), "data", "va", "peoplesoft-codes.json"), "utf-8")
 );
 delete (PS_CODES as Record<string, unknown>)["_comment"];
 delete (PS_CODES as Record<string, unknown>)["_url_pattern"];
@@ -643,7 +643,7 @@ async function main() {
   console.log(`${"=".repeat(60)}\n`);
 
   // Write summary
-  const summaryPath = path.join(process.cwd(), "data", "ps-enrichment-summary.json");
+  const summaryPath = path.join(process.cwd(), "data", "va", "ps-enrichment-summary.json");
   fs.writeFileSync(
     summaryPath,
     JSON.stringify(

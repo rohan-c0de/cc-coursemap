@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { searchCoursesAcrossColleges } from "@/lib/courses";
 import { rateLimit, getClientKey } from "@/lib/rate-limit";
-import institutionsData from "@/data/institutions.json";
+import institutionsData from "@/data/va/institutions.json";
 import type { Institution } from "@/lib/types";
 
 import { getCurrentTerm } from "@/lib/terms";

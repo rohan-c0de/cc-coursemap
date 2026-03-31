@@ -1,22 +1,24 @@
+import fs from "fs";
+import path from "path";
 import type { Institution, SearchResult } from "./types";
 
-// Static zip code data loaded once at module level
-let zipData: Record<string, { lat: number; lng: number; city: string }> | null =
-  null;
+// Static zip code data cache (keyed by state)
+const zipDataCache: Record<string, Record<string, { lat: number; lng: number; city: string }>> = {};
 
-function loadZipData(): Record<
+function loadZipData(state = "va"): Record<
   string,
   { lat: number; lng: number; city: string }
 > {
-  if (!zipData) {
+  if (!zipDataCache[state]) {
     try {
-      // eslint-disable-next-line @typescript-eslint/no-require-imports
-      zipData = require("@/data/virginia-zipcodes.json");
+      const filePath = path.join(process.cwd(), "data", state, "zipcodes.json");
+      const raw = fs.readFileSync(filePath, "utf-8");
+      zipDataCache[state] = JSON.parse(raw);
     } catch {
-      zipData = {};
+      zipDataCache[state] = {};
     }
   }
-  return zipData!;
+  return zipDataCache[state];
 }
 
 /**
@@ -24,9 +26,10 @@ function loadZipData(): Record<
  * Returns null if the ZIP code is not found in the static dataset.
  */
 export function getZipCoordinates(
-  zip: string
+  zip: string,
+  state = "va"
 ): { lat: number; lng: number; city: string } | null {
-  const data = loadZipData();
+  const data = loadZipData(state);
   const entry = data[zip];
   return entry ?? null;
 }
@@ -36,9 +39,10 @@ export function getZipCoordinates(
  * Returns the first match's zip code, or null if not found.
  */
 export function findZipByCity(
-  cityQuery: string
+  cityQuery: string,
+  state = "va"
 ): { zip: string; lat: number; lng: number; city: string } | null {
-  const data = loadZipData();
+  const data = loadZipData(state);
   const query = cityQuery.trim().toLowerCase();
   if (!query) return null;
 
@@ -64,18 +68,19 @@ export function findZipByCity(
  * Returns zip, coordinates, and city name, or null if not found.
  */
 export function resolveLocation(
-  query: string
+  query: string,
+  state = "va"
 ): { zip: string; lat: number; lng: number; city: string } | null {
   const trimmed = query.trim();
 
   // If it looks like a zip code, try that first
   if (/^\d{5}$/.test(trimmed)) {
-    const coords = getZipCoordinates(trimmed);
+    const coords = getZipCoordinates(trimmed, state);
     if (coords) return { zip: trimmed, ...coords };
   }
 
   // Otherwise try city name lookup
-  return findZipByCity(trimmed);
+  return findZipByCity(trimmed, state);
 }
 
 /**

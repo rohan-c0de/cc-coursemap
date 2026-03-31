@@ -23,11 +23,11 @@ import * as path from "path";
 const PS_BASE = "https://ps-sis.vccs.edu";
 const TERM_CODE = "2262"; // Spring 2026
 const NAV_TIMEOUT = 30_000;
-const SCREENSHOT_DIR = path.join(process.cwd(), "data", "ps-discovery");
+const SCREENSHOT_DIR = path.join(process.cwd(), "data", "va", "ps-discovery");
 
 // Load institution codes
 const PS_CODES_RAW: Record<string, string> = JSON.parse(
-  fs.readFileSync(path.join(process.cwd(), "data", "peoplesoft-codes.json"), "utf-8")
+  fs.readFileSync(path.join(process.cwd(), "data", "va", "peoplesoft-codes.json"), "utf-8")
 );
 // Remove metadata keys
 const PS_CODES: Record<string, string> = Object.fromEntries(

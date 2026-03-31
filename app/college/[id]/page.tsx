@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import institutionsData from "@/data/institutions.json";
+import institutionsData from "@/data/va/institutions.json";
 import { loadCoursesForCollege, isDataStale, getAvailableTerms } from "@/lib/courses";
 import type { Institution } from "@/lib/types";
 import { isInProgress } from "@/lib/course-status";

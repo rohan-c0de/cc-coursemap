@@ -1,0 +1,85 @@
+/**
+ * State registry — central configuration for multi-state expansion.
+ *
+ * Each state is defined by a StateConfig that encapsulates all state-specific
+ * data: college system details, policies, branding, and external URLs.
+ * Shared library code uses the state slug to load the right config + data.
+ */
+
+export interface SeniorWaiverConfig {
+  ageThreshold: number;
+  legalCitation: string;
+  description: string;
+  bannerTitle: string;
+  bannerSummary: string;
+  bannerDetail: string;
+}
+
+export interface StateConfig {
+  /** Two-letter lowercase state slug, e.g. "va", "md", "nc" */
+  slug: string;
+  /** Full state name, e.g. "Virginia" */
+  name: string;
+  /** Name of the community college system, e.g. "VCCS" */
+  systemName: string;
+  /** Full name of the system, e.g. "Virginia Community College System" */
+  systemFullName: string;
+  /** System website URL */
+  systemUrl: string;
+  /** Number of colleges in the system */
+  collegeCount: number;
+  /** Senior tuition waiver config, or null if no waiver exists */
+  seniorWaiver: SeniorWaiverConfig | null;
+  /** Whether transfer equivalency data is available */
+  transferSupported: boolean;
+  /** Build the external course discovery URL for a section */
+  courseDiscoveryUrl: (collegeSlug: string, prefix: string, number: string) => string;
+  /** Branding and SEO */
+  branding: {
+    siteName: string;
+    tagline: string;
+    footerText: string;
+    disclaimer: string;
+    metaKeywords: string[];
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Registry — import each state's config lazily
+// ---------------------------------------------------------------------------
+
+const configs: Record<string, StateConfig> = {};
+
+function ensureLoaded(): void {
+  if (Object.keys(configs).length > 0) return;
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const va = require("./va/config").default as StateConfig;
+  configs[va.slug] = va;
+}
+
+/** Get the config for a specific state. Throws if unknown. */
+export function getStateConfig(slug: string): StateConfig {
+  ensureLoaded();
+  const cfg = configs[slug];
+  if (!cfg) {
+    throw new Error(`Unknown state: "${slug}". Available: ${Object.keys(configs).join(", ")}`);
+  }
+  return cfg;
+}
+
+/** Get all registered state configs. */
+export function getAllStates(): StateConfig[] {
+  ensureLoaded();
+  return Object.values(configs);
+}
+
+/** Check if a state slug is valid. */
+export function isValidState(slug: string): boolean {
+  ensureLoaded();
+  return slug in configs;
+}
+
+/** Get the default state slug (used for redirects / single-state mode). */
+export function getDefaultState(): string {
+  return "va";
+}

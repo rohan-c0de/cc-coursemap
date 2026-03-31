@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import type { ScheduleRequest } from "@/lib/types";
 import { generateSchedules } from "@/lib/schedule";
 import { rateLimit, getClientKey } from "@/lib/rate-limit";
-import institutionsData from "@/data/institutions.json";
+import institutionsData from "@/data/va/institutions.json";
 import type { Institution } from "@/lib/types";
 
 const institutions = institutionsData as Institution[];

@@ -25,7 +25,7 @@ const NAV_TIMEOUT = 30_000;
 const SEARCH_WAIT = 20_000;
 const INTER_SEARCH_DELAY = 2000;
 const MAX_RETRIES = 2;
-const DATA_DIR = path.join(process.cwd(), "data", "courses");
+const DATA_DIR = path.join(process.cwd(), "data", "va", "courses");
 
 // Term name → PS term code mapping
 const TERM_CODES: Record<string, string> = {
@@ -45,7 +45,7 @@ const TERM_FILE_CODES: Record<string, string> = {
 
 // Load institution codes
 const PS_CODES: Record<string, string> = JSON.parse(
-  fs.readFileSync(path.join(process.cwd(), "data", "peoplesoft-codes.json"), "utf-8")
+  fs.readFileSync(path.join(process.cwd(), "data", "va", "peoplesoft-codes.json"), "utf-8")
 );
 delete (PS_CODES as Record<string, unknown>)["_comment"];
 delete (PS_CODES as Record<string, unknown>)["_url_pattern"];

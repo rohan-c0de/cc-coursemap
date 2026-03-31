@@ -402,7 +402,7 @@ async function main() {
   console.log(`🔍 Scraping ${targetSlugs.length} college(s) for: ${targetTerm} (${termCode})`);
   console.log(`   Delay: ${DELAY_MS}ms | Timeout: ${FETCH_TIMEOUT_MS}ms\n`);
 
-  const dataDir = path.join(process.cwd(), "data", "courses");
+  const dataDir = path.join(process.cwd(), "data", "va", "courses");
   let totalSections = 0;
 
   for (const slug of targetSlugs) {

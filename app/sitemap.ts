@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import institutionsData from "@/data/institutions.json";
+import institutionsData from "@/data/va/institutions.json";
 import type { Institution } from "@/lib/types";
 
 const institutions = institutionsData as Institution[];

@@ -198,7 +198,7 @@ async function main() {
   }
 
   // Merge with existing data
-  const outPath = path.join(process.cwd(), "data", "transfer-equiv.json");
+  const outPath = path.join(process.cwd(), "data", "va", "transfer-equiv.json");
   let existing: TransferMapping[] = [];
   try {
     const raw = fs.readFileSync(outPath, "utf-8");

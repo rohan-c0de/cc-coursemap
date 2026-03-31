@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import institutionsData from "@/data/institutions.json";
+import institutionsData from "@/data/va/institutions.json";
 import { getCourseCount } from "@/lib/courses";
 import { getCurrentTerm } from "@/lib/terms";
 import type { Institution } from "@/lib/types";

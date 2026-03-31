@@ -160,7 +160,7 @@ async function main() {
   }
 
   // Save
-  const outPath = path.join(process.cwd(), "data", "transfer-equiv.json");
+  const outPath = path.join(process.cwd(), "data", "va", "transfer-equiv.json");
   fs.writeFileSync(outPath, JSON.stringify(vtMappings, null, 2));
   console.log(`\nSaved to ${outPath}`);
 }

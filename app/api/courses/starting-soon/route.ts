@@ -4,7 +4,7 @@ import { daysUntilStart } from "@/lib/course-status";
 import { rateLimit, getClientKey } from "@/lib/rate-limit";
 import { getCurrentTerm } from "@/lib/terms";
 import { getZipCoordinates, calculateDistance } from "@/lib/geo";
-import institutionsData from "@/data/institutions.json";
+import institutionsData from "@/data/va/institutions.json";
 import type { Institution, CourseSection } from "@/lib/types";
 
 const institutions = institutionsData as Institution[];

@@ -3,10 +3,12 @@ import path from "path";
 import type { CourseSection, Institution } from "./types";
 import { getZipCoordinates, calculateDistance } from "./geo";
 
-const DATA_DIR = path.join(process.cwd(), "data", "courses");
+function dataDir(state = "va"): string {
+  return path.join(process.cwd(), "data", state, "courses");
+}
 
-// Module-level cache for all-college data
-let allCoursesCache: { term: string; data: CourseSection[] } | null = null;
+// Module-level cache for all-college data (keyed by state+term)
+let allCoursesCache: { key: string; data: CourseSection[] } | null = null;
 
 /**
  * Load all course sections for a given college and term from the static JSON
@@ -14,9 +16,10 @@ let allCoursesCache: { term: string; data: CourseSection[] } | null = null;
  */
 export function loadCoursesForCollege(
   collegeSlug: string,
-  term: string
+  term: string,
+  state = "va"
 ): CourseSection[] {
-  const filePath = path.join(DATA_DIR, collegeSlug, `${term}.json`);
+  const filePath = path.join(dataDir(state), collegeSlug, `${term}.json`);
 
   try {
     const raw = fs.readFileSync(filePath, "utf-8");
@@ -30,14 +33,14 @@ export function loadCoursesForCollege(
  * Scan the data/courses directory tree and return all term identifiers that
  * have at least one JSON file present across any college.
  */
-export function getAvailableTerms(): string[] {
+export function getAvailableTerms(state = "va"): string[] {
   const terms = new Set<string>();
 
   try {
-    const slugs = fs.readdirSync(DATA_DIR);
+    const slugs = fs.readdirSync(dataDir(state));
 
     for (const slug of slugs) {
-      const slugDir = path.join(DATA_DIR, slug);
+      const slugDir = path.join(dataDir(state), slug);
       if (!fs.statSync(slugDir).isDirectory()) continue;
 
       const files = fs.readdirSync(slugDir);
@@ -58,8 +61,8 @@ export function getAvailableTerms(): string[] {
  * Return the number of course sections for a college/term combination without
  * loading the full array into the caller's scope.
  */
-export function getCourseCount(collegeSlug: string, term: string): number {
-  return loadCoursesForCollege(collegeSlug, term).length;
+export function getCourseCount(collegeSlug: string, term: string, state = "va"): number {
+  return loadCoursesForCollege(collegeSlug, term, state).length;
 }
 
 /**
@@ -91,8 +94,8 @@ export function filterCourses(
  * Check whether the data file for a college/term is stale (more than 8 days
  * old based on file modification time).
  */
-export function isDataStale(collegeSlug: string, term: string): boolean {
-  const filePath = path.join(DATA_DIR, collegeSlug, `${term}.json`);
+export function isDataStale(collegeSlug: string, term: string, state = "va"): boolean {
+  const filePath = path.join(dataDir(state), collegeSlug, `${term}.json`);
 
   try {
     const stat = fs.statSync(filePath);
@@ -127,25 +130,26 @@ export function getUniqueSubjects(courses: CourseSection[]): string[] {
  * Load all courses from all colleges for a given term.
  * Uses a module-level cache to avoid re-reading files on repeated calls.
  */
-export function loadAllCourses(term: string): CourseSection[] {
-  if (allCoursesCache && allCoursesCache.term === term) {
+export function loadAllCourses(term: string, state = "va"): CourseSection[] {
+  const cacheKey = `${state}:${term}`;
+  if (allCoursesCache && allCoursesCache.key === cacheKey) {
     return allCoursesCache.data;
   }
 
   const all: CourseSection[] = [];
   try {
-    const slugs = fs.readdirSync(DATA_DIR);
+    const slugs = fs.readdirSync(dataDir(state));
     for (const slug of slugs) {
-      const slugDir = path.join(DATA_DIR, slug);
+      const slugDir = path.join(dataDir(state), slug);
       if (!fs.statSync(slugDir).isDirectory()) continue;
-      const courses = loadCoursesForCollege(slug, term);
+      const courses = loadCoursesForCollege(slug, term, state);
       all.push(...courses);
     }
   } catch {
     // data directory may not exist
   }
 
-  allCoursesCache = { term, data: all };
+  allCoursesCache = { key: cacheKey, data: all };
   return all;
 }
 
@@ -236,14 +240,15 @@ export function searchCoursesAcrossColleges(
     zip?: string;
   } = {},
   limit = 10,
-  offset = 0
+  offset = 0,
+  state = "va"
 ): {
   courses: CourseGroup[];
   totalCourses: number;
   totalSections: number;
   totalColleges: number;
 } {
-  const allCourses = loadAllCourses(term);
+  const allCourses = loadAllCourses(term, state);
   const { prefix, number, keyword } = parseQuery(query);
 
   // Build institution lookup

@@ -2,18 +2,21 @@ import fs from "fs";
 import path from "path";
 import type { TransferMapping } from "./types";
 
-const DATA_PATH = path.join(process.cwd(), "data", "transfer-equiv.json");
+function dataPath(state = "va"): string {
+  return path.join(process.cwd(), "data", state, "transfer-equiv.json");
+}
 
-// Module-level cache
-let cache: TransferMapping[] | null = null;
+// Module-level cache (keyed by state)
+let cache: { state: string; data: TransferMapping[] } | null = null;
 
 /** Load all transfer mappings from the JSON file. Cached after first load. */
-export function loadTransferMappings(): TransferMapping[] {
-  if (cache) return cache;
+export function loadTransferMappings(state = "va"): TransferMapping[] {
+  if (cache && cache.state === state) return cache.data;
   try {
-    const raw = fs.readFileSync(DATA_PATH, "utf-8");
-    cache = JSON.parse(raw) as TransferMapping[];
-    return cache;
+    const raw = fs.readFileSync(dataPath(state), "utf-8");
+    const data = JSON.parse(raw) as TransferMapping[];
+    cache = { state, data };
+    return data;
   } catch {
     return [];
   }
@@ -22,9 +25,10 @@ export function loadTransferMappings(): TransferMapping[] {
 /** Get all transfer mappings for a specific VCCS course. */
 export function getTransferInfo(
   prefix: string,
-  number: string
+  number: string,
+  state = "va"
 ): TransferMapping[] {
-  const mappings = loadTransferMappings();
+  const mappings = loadTransferMappings(state);
   return mappings.filter(
     (m) => m.vccs_prefix === prefix && m.vccs_number === number
   );
@@ -39,9 +43,10 @@ export function getTransferInfo(
  */
 export function transferSummaryLine(
   prefix: string,
-  number: string
+  number: string,
+  state = "va"
 ): { text: string; type: "direct" | "elective" | "no-credit" } | null {
-  const info = getTransferInfo(prefix, number);
+  const info = getTransferInfo(prefix, number, state);
   if (info.length === 0) return null;
 
   // Use first mapping (usually one per course per university)
@@ -64,9 +69,10 @@ export function transferSummaryLine(
 /** Get all universities that accept a given VCCS course (excludes no-credit). */
 export function getAcceptingUniversities(
   prefix: string,
-  number: string
+  number: string,
+  state = "va"
 ): string[] {
-  const info = getTransferInfo(prefix, number);
+  const info = getTransferInfo(prefix, number, state);
   return info
     .filter((m) => !m.no_credit)
     .map((m) => m.university_name);
@@ -74,15 +80,16 @@ export function getAcceptingUniversities(
 
 /** Get all mappings for a specific university. */
 export function getCoursesForUniversity(
-  university: string
+  university: string,
+  state = "va"
 ): TransferMapping[] {
-  const mappings = loadTransferMappings();
+  const mappings = loadTransferMappings(state);
   return mappings.filter((m) => m.university === university);
 }
 
 /** Get the list of all universities in the dataset. */
-export function getUniversities(): { slug: string; name: string }[] {
-  const mappings = loadTransferMappings();
+export function getUniversities(state = "va"): { slug: string; name: string }[] {
+  const mappings = loadTransferMappings(state);
   const seen = new Map<string, string>();
   for (const m of mappings) {
     if (!seen.has(m.university)) {
@@ -96,11 +103,11 @@ export function getUniversities(): { slug: string; name: string }[] {
  * Build a lookup map for client-side filtering:
  * { "ENG-111": [{ university: "vt", type: "direct" }], ... }
  */
-export function buildTransferLookup(): Record<
+export function buildTransferLookup(state = "va"): Record<
   string,
   { university: string; type: "direct" | "elective" | "no-credit"; course: string }[]
 > {
-  const mappings = loadTransferMappings();
+  const mappings = loadTransferMappings(state);
   const lookup: Record<
     string,
     { university: string; type: "direct" | "elective" | "no-credit"; course: string }[]
