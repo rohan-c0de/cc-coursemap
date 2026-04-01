@@ -1,5 +1,51 @@
 import type { StateConfig } from "../registry";
 
+// Maps college slug → Colleague Self-Service base URL for course catalog links
+const SELF_SERVICE_URLS: Record<string, string> = {
+  "wake-technical": "https://selfserve.waketech.edu",
+  "fayetteville-technical": "https://selfserv.faytechcc.edu",
+  "durham-technical": "https://selfservice.durhamtech.edu",
+  "central-piedmont": "https://mycollegess.cpcc.edu",
+  "asheville-buncombe-technical": "https://selfservice.abtech.edu",
+  "forsyth-technical": "https://my.forsythtech.edu",
+  "guilford-technical": "https://selfservice.gtcc.edu",
+  "pitt": "https://sscourses.pittcc.edu",
+  "rowan-cabarrus": "https://ss-prod.cloud.rccc.edu",
+  "alamance": "https://ss-prod.cloud.alamancecc.edu",
+  "beaufort-county": "https://ss-prod.cloud.beaufortccc.edu",
+  "bladen": "https://selfservice.bladencc.edu",
+  "blue-ridge": "https://ss-prod.cloud.blueridge.edu",
+  "caldwell": "https://selfservice.cccti.edu",
+  "central-carolina": "https://ss-prod.cloud.cccc.edu",
+  "craven": "https://selfservice.cravencc.edu",
+  "haywood": "https://selfservice.haywood.edu",
+  "isothermal": "https://ss-prod.cloud.isothermal.edu",
+  "james-sprunt": "https://ss.jamessprunt.edu",
+  "johnston": "https://selfserv.johnstoncc.edu",
+  "lenoir": "https://ss.lenoircc.edu",
+  "mcdowell-technical": "https://ss-prod.cloud.mcdowelltech.edu",
+  "mitchell": "https://selfservice.mitchellcc.edu",
+  "montgomery": "https://ss-prod.cloud.montgomery.edu",
+  "piedmont": "https://ss.piedmontcc.edu",
+  "randolph": "https://ss-prod.cloud.randolph.edu",
+  "richmond": "https://ss-prod.cloud.richmondcc.edu",
+  "roanoke-chowan": "https://selfservice.roanokechowan.edu",
+  "robeson": "https://selfservice.robeson.edu",
+  "rockingham": "https://ss-prod.cloud.rockinghamcc.edu",
+  "sampson": "https://ss.sampsoncc.edu",
+  "south-piedmont": "https://selfservice.spcc.edu",
+  "southwestern": "https://ss.southwesterncc.edu",
+  "stanly": "https://selfservice.stanly.edu",
+  "vance-granville": "https://ss-prod.cloud.vgcc.edu",
+  "wayne": "https://selfserv.waynecc.edu",
+  "western-piedmont": "https://selfservice.wpcc.edu",
+  "catawba-valley": "https://ss-prod-cloud.cvcc.edu",
+  "gaston": "https://ss-prod-cloud.gaston.edu",
+  "coastal-carolina": "https://ss-prod-cloud.coastalcarolina.edu",
+  "nash": "https://ss-prod-cloud.nashcc.edu",
+  "surry": "https://ssprod.surry.edu",
+};
+
 const ncConfig: StateConfig = {
   slug: "nc",
   name: "North Carolina",
@@ -22,11 +68,17 @@ const ncConfig: StateConfig = {
 
   transferSupported: true,
 
-  courseDiscoveryUrl: (collegeSlug: string, _prefix: string, _number: string) =>
-    `https://www.nccommunitycolleges.edu/colleges/${collegeSlug}`,
+  courseDiscoveryUrl: (collegeSlug: string, prefix: string, number: string) => {
+    const base = SELF_SERVICE_URLS[collegeSlug];
+    if (base) return `${base}/Student/Courses`;
+    return `https://www.nccommunitycolleges.edu/colleges/${collegeSlug}`;
+  },
 
-  collegeCoursesUrl: (collegeSlug: string) =>
-    `https://www.nccommunitycolleges.edu/colleges/${collegeSlug}`,
+  collegeCoursesUrl: (collegeSlug: string) => {
+    const base = SELF_SERVICE_URLS[collegeSlug];
+    if (base) return `${base}/Student/Courses`;
+    return `https://www.nccommunitycolleges.edu/colleges/${collegeSlug}`;
+  },
 
   branding: {
     siteName: "AuditMap North Carolina",
