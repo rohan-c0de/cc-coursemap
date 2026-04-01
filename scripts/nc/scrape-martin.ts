@@ -7,6 +7,8 @@
  *
  * Usage:
  *   npx tsx scripts/nc/scrape-martin.ts
+ *   npx tsx scripts/nc/scrape-martin.ts --term 2026SU
+ *   npx tsx scripts/nc/scrape-martin.ts --term 2026FA
  */
 
 import { execSync } from "child_process";
@@ -36,14 +38,28 @@ interface CourseSection {
 }
 
 const COLLEGE_CODE = "martin";
-const PDF_URL = "https://www.martincc.edu/sites/default/files/SpringSchedule2026%28NEW%29.pdf";
+
+const PDF_URLS: Record<string, string> = {
+  "2026SP": "https://www.martincc.edu/sites/default/files/SpringSchedule2026%28NEW%29.pdf",
+  "2026SU": "https://www.martincc.edu/sites/default/files/2026SummerSchedule.pdf",
+  "2026FA": "https://www.martincc.edu/sites/default/files/Fall2026Schedule%28Final%29.pdf",
+};
 
 async function main() {
-  console.log("Martin Community College PDF Schedule Scraper\n");
+  const termIdx = process.argv.indexOf("--term");
+  const term = termIdx >= 0 ? process.argv[termIdx + 1] : "2026SP";
+  const pdfUrl = PDF_URLS[term];
+  if (!pdfUrl) {
+    console.error(`No PDF URL configured for term ${term}. Available: ${Object.keys(PDF_URLS).join(", ")}`);
+    process.exit(1);
+  }
+
+  console.log(`Martin Community College PDF Schedule Scraper`);
+  console.log(`Term: ${term}\n`);
 
   const tmpPdf = "/tmp/martin-schedule.pdf";
-  console.log("Downloading PDF...");
-  const res = await fetch(PDF_URL);
+  console.log(`Downloading PDF from ${pdfUrl}...`);
+  const res = await fetch(pdfUrl);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const buf = Buffer.from(await res.arrayBuffer());
   fs.writeFileSync(tmpPdf, buf);
@@ -127,7 +143,7 @@ print(json.dumps(rows))
 
     sections.push({
       college_code: COLLEGE_CODE,
-      term: "2026SP",
+      term,
       course_prefix: prefix,
       course_number: number,
       course_title: title,
@@ -166,7 +182,7 @@ print(json.dumps(rows))
 
   const outDir = path.join(process.cwd(), "data", "nc", "courses", COLLEGE_CODE);
   fs.mkdirSync(outDir, { recursive: true });
-  const outPath = path.join(outDir, "2026SP.json");
+  const outPath = path.join(outDir, `${term}.json`);
   fs.writeFileSync(outPath, JSON.stringify(sections, null, 2));
   console.log(`\nSaved to ${outPath}`);
 
