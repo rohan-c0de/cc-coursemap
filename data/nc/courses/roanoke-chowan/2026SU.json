@@ -36,7 +36,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Staff, R",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -99,7 +99,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Hardee, D",
-    "seats_open": 26,
+    "seats_open": 25,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -162,7 +162,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Goninan, J",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -267,7 +267,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Whitaker, D",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -288,7 +288,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Miller, G",
-    "seats_open": 14,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -330,7 +330,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Wren, C",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 23,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -477,7 +477,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Vaughan, K",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
