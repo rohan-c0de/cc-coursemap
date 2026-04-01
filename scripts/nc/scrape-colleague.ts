@@ -70,6 +70,7 @@ const COLLEAGUE_COLLEGES: Record<string, string> = {
   "coastal-carolina": "https://ss-prod-cloud.coastalcarolina.edu",
   "nash": "https://ss-prod-cloud.nashcc.edu",
   "surry": "https://ssprod.surry.edu",
+  "wilkes": "https://selfservice.cloud.wilkescc.edu",
 };
 
 type CourseMode = "in-person" | "online" | "hybrid" | "zoom";
