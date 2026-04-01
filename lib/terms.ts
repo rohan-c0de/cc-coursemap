@@ -1,3 +1,5 @@
+import fs from "fs";
+import path from "path";
 import { getAvailableTerms } from "./courses";
 
 /**
@@ -39,15 +41,38 @@ export function getAvailableTermsForDisplay(state = "va"): {
 }
 
 /**
- * Get the current (latest) term code by scanning the data directory.
- * Returns the most recent term that has data, e.g. "2026SU" if Summer data exists.
+ * Get the current term code by scanning the data directory.
+ * Returns the term with the most college data files (i.e. the term most
+ * colleges are actively publishing), breaking ties by recency.
  * Falls back to "2026SP" if no data is found.
  */
 export function getCurrentTerm(state = "va"): string {
   const terms = getAvailableTerms(state);
   if (terms.length === 0) return "2026SP";
-  // Sort by term key and return the latest
-  return terms.sort((a, b) => termSortKey(b) - termSortKey(a))[0];
+
+  const coursesDir = path.join(process.cwd(), "data", state, "courses");
+  let bestTerm = terms[0];
+  let bestCount = 0;
+
+  try {
+    const slugs = fs.readdirSync(coursesDir);
+    for (const term of terms) {
+      let count = 0;
+      for (const slug of slugs) {
+        const filePath = path.join(coursesDir, slug, `${term}.json`);
+        if (fs.existsSync(filePath)) count++;
+      }
+      if (count > bestCount || (count === bestCount && termSortKey(term) > termSortKey(bestTerm))) {
+        bestTerm = term;
+        bestCount = count;
+      }
+    }
+  } catch {
+    // Fall back to latest term if directory doesn't exist
+    return terms.sort((a, b) => termSortKey(b) - termSortKey(a))[0];
+  }
+
+  return bestTerm;
 }
 
 /**
