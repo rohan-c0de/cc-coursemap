@@ -18,9 +18,66 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function AboutPage({ params }: Props) {
   const { state } = await params;
   const config = getStateConfig(state);
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.auditmap.com";
+
+  const faqLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What is course auditing?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Auditing a college course means attending classes without receiving a grade or academic credit. You participate in lectures and follow the material alongside enrolled students, but without exams, graded assignments, or GPA impact.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Who audits courses?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Career explorers testing a field before committing, lifelong learners pursuing interests, professionals brushing up on skills, students previewing challenging courses, and retirees or seniors who may qualify for free tuition.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: `How does course auditing work at ${config.name} community colleges?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Apply for admission at the college, browse available courses, submit a Course Audit Request form during add/drop, get instructor approval, then attend classes and participate without exams or grades.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What does auditing a course cost?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `At most ${config.systemName} colleges, audit students pay the same tuition and fees as credit students.${config.seniorWaiver ? ` ${config.name} residents aged ${config.seniorWaiver.ageThreshold}+ may qualify for free tuition under state law.` : ""}`,
+        },
+      },
+    ],
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/${state}` },
+      { "@type": "ListItem", position: 2, name: "About Course Auditing" },
+    ],
+  };
 
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <Link
         href={`/${state}`}
         className="text-sm text-teal-600 hover:text-teal-700 mb-6 inline-block"

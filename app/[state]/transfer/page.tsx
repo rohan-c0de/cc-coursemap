@@ -40,8 +40,23 @@ export default async function TransferPage({ params }: Props) {
     }
   }
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.auditmap.com";
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/${state}` },
+      { "@type": "ListItem", position: 2, name: "Transfer Course Finder" },
+    ],
+  };
+
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <Link
         href={`/${state}`}
         className="text-sm text-teal-600 hover:text-teal-700 mb-6 inline-block"

@@ -19,6 +19,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function CoursesPage({ params }: Props) {
   const { state } = await params;
   const config = getStateConfig(state);
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.auditmap.com";
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/${state}` },
+      { "@type": "ListItem", position: 2, name: "Find a Course" },
+    ],
+  };
+
+  const searchActionLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `Find a Course — Search All ${config.collegeCount} ${config.systemName} Colleges`,
+    url: `${siteUrl}/${state}/courses`,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${siteUrl}/${state}/courses?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
 
   // Build college slug → course URL map for client-side link building
   const institutions = loadInstitutions(state);
@@ -28,11 +53,21 @@ export default async function CoursesPage({ params }: Props) {
   }
 
   return (
-    <CourseSearchClient
-      state={state}
-      systemName={config.systemName}
-      collegeCount={config.collegeCount}
-      courseUrlMap={courseUrlMap}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(searchActionLd) }}
+      />
+      <CourseSearchClient
+        state={state}
+        systemName={config.systemName}
+        collegeCount={config.collegeCount}
+        courseUrlMap={courseUrlMap}
+      />
+    </>
   );
 }

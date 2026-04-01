@@ -35,8 +35,45 @@ export default async function CollegesPage({ params }: Props) {
     (i) => i.audit_policy.allowed === null
   ).length;
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.auditmap.com";
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/${state}` },
+      { "@type": "ListItem", position: 2, name: "All Colleges" },
+    ],
+  };
+
+  const collectionLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `All ${config.collegeCount} ${config.systemName} Colleges`,
+    description: `Browse all ${config.name} community colleges and their course auditing policies.`,
+    url: `${siteUrl}/${state}/colleges`,
+    numberOfItems: sorted.length,
+    itemListElement: sorted.map((inst, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "EducationalOrganization",
+        name: inst.name,
+        url: `${siteUrl}/${state}/college/${inst.id}`,
+      },
+    })),
+  };
+
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }}
+      />
       <Link
         href={`/${state}`}
         className="text-sm text-teal-600 hover:text-teal-700 mb-6 inline-block"

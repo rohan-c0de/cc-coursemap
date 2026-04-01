@@ -78,7 +78,8 @@ export default async function CollegeDetailPage(props: PageProps) {
 
   const collegeSlug = institution.college_slug;
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://auditmap.virginia.example.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.auditmap.com";
+  const stateAbbr = state.toUpperCase();
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
@@ -86,7 +87,7 @@ export default async function CollegeDetailPage(props: PageProps) {
     url: `${siteUrl}/${state}/college/${institution.id}`,
     address: {
       "@type": "PostalAddress",
-      addressRegion: "VA",
+      addressRegion: stateAbbr,
       addressCountry: "US",
     },
     ...(institution.campuses?.[0] && {
@@ -97,12 +98,25 @@ export default async function CollegeDetailPage(props: PageProps) {
       },
     }),
   };
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/${state}` },
+      { "@type": "ListItem", position: 2, name: "Colleges", item: `${siteUrl}/${state}/colleges` },
+      { "@type": "ListItem", position: 3, name: institution.name },
+    ],
+  };
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
       {/* Breadcrumb */}
       <Link

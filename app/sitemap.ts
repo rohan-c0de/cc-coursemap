@@ -5,7 +5,7 @@ import { loadInstitutions } from "@/lib/institutions";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl =
     process.env.NEXT_PUBLIC_SITE_URL ||
-    "https://auditmap.virginia.example.com";
+    "https://www.auditmap.com";
 
   const entries: MetadataRoute.Sitemap = [
     { url: baseUrl, changeFrequency: "weekly", priority: 1 },

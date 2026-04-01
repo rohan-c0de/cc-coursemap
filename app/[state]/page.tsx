@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import SeniorBanner from "@/components/SeniorBanner";
 import SearchForm from "@/components/SearchForm";
 import StartingSoonCallout from "@/components/StartingSoonCallout";
@@ -8,6 +9,17 @@ import { getStateConfig } from "@/lib/states/registry";
 type Props = {
   params: Promise<{ state: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { state } = await params;
+  const config = getStateConfig(state);
+  const b = config.branding;
+  return {
+    title: `${b.siteName} — Find Community College Courses to Audit`,
+    description: b.tagline,
+    keywords: b.metaKeywords,
+  };
+}
 
 export default async function HomePage({ params }: Props) {
   const { state } = await params;
