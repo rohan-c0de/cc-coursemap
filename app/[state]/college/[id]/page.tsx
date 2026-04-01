@@ -414,6 +414,7 @@ export default async function CollegeDetailPage(props: PageProps) {
             institution={institution}
             collegeSlug={collegeSlug}
             transferLookup={buildTransferLookup(state)}
+            systemName={config.systemName}
           />
         )}
       </section>

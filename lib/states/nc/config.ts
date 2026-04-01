@@ -20,7 +20,7 @@ const ncConfig: StateConfig = {
       "NC law allows residents aged 65+ to audit up to 6 credit hours per semester at community colleges for free, space permitting. Lecture courses only.",
   },
 
-  transferSupported: false, // UNC CAA data to be added later
+  transferSupported: true,
 
   courseDiscoveryUrl: (collegeSlug: string, _prefix: string, _number: string) =>
     `https://www.nccommunitycolleges.edu/colleges/${collegeSlug}`,

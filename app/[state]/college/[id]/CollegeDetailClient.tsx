@@ -17,12 +17,14 @@ interface Props {
   institution: Institution;
   collegeSlug: string;
   transferLookup?: TransferLookup;
+  systemName?: string;
 }
 
 export default function CollegeDetailClient({
   courses,
   institution,
   collegeSlug,
+  systemName,
   transferLookup,
 }: Props) {
   const [selectedCourse, setSelectedCourse] = useState<CourseSection | null>(
@@ -45,6 +47,7 @@ export default function CollegeDetailClient({
       <CourseTable
         courses={courses}
         collegeSlug={collegeSlug}
+        systemName={systemName}
         onAuditClick={(course) => {
           setSelectedCourse(course);
           setShowInstructions(true);

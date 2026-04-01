@@ -13,11 +13,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -28,14 +28,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions-records@alamancecc.edu",
+        "contact_phone": "336-506-4270"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -53,11 +65,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Auditing requires payment of standard tuition and fees, same as credit enrollment. Senior citizens 65+ have tuition waived.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -68,15 +80,27 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Register for the course through standard registration procedures",
+          "Submit a completed Request for Audit form to the Records and Registration Office within the first 15 days of the term",
+          "Obtain instructor approval (instructor must sign the form)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "registrar@abtech.edu",
+        "contact_phone": "828-398-7900"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Must be enrolled at A-B Tech as a curriculum student to audit",
+        "Physical Education and Health/Fitness Science courses cannot be audited",
+        "Audit students receive AU grade — no credit toward diploma or degree",
+        "All prerequisites must be satisfied",
+        "Changing from credit to audit must be done within first 15 days of term",
+        "Changing from audit to credit must be done within first 5 days of term",
+        "Financial aid does not cover audited courses"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://abtech.edu/future-students/student-records/auditing-courses"
     }
   },
   {
@@ -93,11 +117,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -108,14 +132,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@beaufortccc.edu",
+        "contact_phone": "252-940-6233"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -133,11 +169,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -148,14 +184,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@bladencc.edu",
+        "contact_phone": "910-879-5500"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -173,11 +221,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -188,14 +236,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@blueridge.edu",
+        "contact_phone": "828-694-1700"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -213,11 +273,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -228,14 +288,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@brunswickcc.edu",
+        "contact_phone": "910-755-7300"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -253,11 +325,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -268,14 +340,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@cccti.edu",
+        "contact_phone": "828-726-2200"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -293,11 +377,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same fees as regular enrollment. Senior citizens 65+ receive tuition waiver; local fees may apply.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -308,15 +392,29 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Follow regular admissions and registration procedures",
+          "Complete the audit form online, indicating which course(s) to audit",
+          "Have the audit form approved by the course instructor",
+          "Submit the approved form to the Registrar's Office on or before the course start date (no later than the 10% date)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "registrar@cfcc.edu",
+        "contact_phone": "910-362-7555"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Instructor approval required",
+        "Auditing students must meet all course prerequisites",
+        "Students receive a grade of AU or SR (Senior Audit) — no credit awarded",
+        "Auditing students are not required to participate in discussion or take tests",
+        "A student auditing shall not displace a student enrolling for credit",
+        "An auditing student may be administratively dropped by the 10% date if a credit-seeking student needs the seat",
+        "Audit courses may be repeated a maximum of two times unless an exception is made",
+        "Financial aid does not cover audited courses"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://catalog.cfcc.edu/pages/j9kX3EWMAgYxRlatVf9r"
     }
   },
   {
@@ -333,11 +431,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -348,14 +446,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@carteret.edu",
+        "contact_phone": "252-222-6000"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -373,11 +483,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Persons may audit courses by special permission, paying full tuition, but not receiving credit. Senior citizens 65+ have tuition waived.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -388,15 +498,27 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "studentservices@cvcc.edu",
+        "contact_phone": "828-327-7000"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://www.cvcc.edu/About_Us/Policies-and-Procedures.cfm"
     }
   },
   {
@@ -408,16 +530,16 @@
       {
         "name": "Main Campus (Lee County)",
         "lat": 35.4657,
-        "lng": -79.1710,
+        "lng": -79.171,
         "address": "1105 Kelly Drive, Sanford, NC 27330"
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -428,14 +550,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "studentrecords@cccc.edu",
+        "contact_phone": "919-718-7201"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -447,17 +581,17 @@
     "campuses": [
       {
         "name": "Central Campus",
-        "lat": 35.2270,
+        "lat": 35.227,
         "lng": -80.8387,
         "address": "1201 Elizabeth Avenue, Charlotte, NC 28204"
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "You register and pay for an audited class the same as you would for a credit class. Senior citizens 65+ have tuition waived; local fees may apply.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -468,15 +602,27 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an audit agreement form (available as PDF from the Registrar's Office)",
+          "Have the form signed by the course instructor",
+          "Submit the signed form to the Registrar's office at any Central Piedmont campus before the census date"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "registrar@cpcc.edu",
+        "contact_phone": "704-330-2722"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Instructor approval required — audit agreement form must be signed by instructor",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Students must meet all prerequisites to audit credit courses",
+        "Non-degree courses may not be audited without permission from the appropriate dean",
+        "No change from audit to credit (or credit to audit) after the census date",
+        "Audited course hours count as part of your course load and are subject to overload restrictions",
+        "Financial aid does not cover audited courses"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://www.cpcc.edu/about-central-piedmont/policies-and-procedures/policies/education-programs/310-audits-substitutions-waivers"
     }
   },
   {
@@ -493,11 +639,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -508,14 +654,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@clevelandcc.edu",
+        "contact_phone": "704-669-4000"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -533,11 +691,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -548,14 +706,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@coastalcarolina.edu",
+        "contact_phone": "910-938-6332"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -573,11 +743,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -588,14 +758,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@albemarle.edu",
+        "contact_phone": "252-335-0821"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -607,17 +789,17 @@
     "campuses": [
       {
         "name": "Main Campus (New Bern)",
-        "lat": 35.0960,
+        "lat": 35.096,
         "lng": -77.0555,
         "address": "800 College Court, New Bern, NC 28562"
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -628,14 +810,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@cravencc.edu",
+        "contact_phone": "252-638-7200"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -653,11 +847,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -668,14 +862,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@davidsonccc.edu",
+        "contact_phone": "336-249-8186"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -693,11 +899,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Students pay to audit courses per the College's tuition and fees schedule. Senior citizens 65+ are exempt from tuition and registration fees per Session Law 2017-57.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -708,15 +914,27 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Consult with your program director at least 10 working days prior to the first day of the term",
+          "Complete and submit an Audit Request Form (available from registration@durhamtech.edu)",
+          "Obtain necessary approvals as directed by the program director",
+          "Register for the course and pay tuition and applicable fees"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "registration@durhamtech.edu",
+        "contact_phone": "919-536-7200"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Must consult program director at least 10 working days before term starts",
+        "Audit students receive AU grade — no credit, CEU, or certificate of completion",
+        "An audit student may not supplant a student taking the course for credit",
+        "Subject to standard attendance requirements; may be required to complete coursework",
+        "Self-supporting courses are not eligible for auditing",
+        "Financial aid and veterans' benefits do not cover audited courses"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://www.durhamtech.edu/policies-and-procedures/course-auditing"
     }
   },
   {
@@ -733,11 +951,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -748,14 +966,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@edgecombe.edu",
+        "contact_phone": "252-823-5166"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -773,11 +1003,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens 65+ have tuition waived.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -788,15 +1018,25 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@faytechcc.edu",
+        "contact_phone": "910-678-8400"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Developmental classes may not be audited",
+        "To receive AU grade, the student must meet all course requirements",
+        "AU grade is permanent and cannot be converted to a letter grade",
+        "Financial aid does not cover audited courses"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://www.faytechcc.edu/college-student-resources/"
     }
   },
   {
@@ -813,11 +1053,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Students who audit a course pay applicable tuition, registration fee, and other fees. Senior citizens 65+ are exempt from tuition per Session Law 2017-57.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -828,15 +1068,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Register for the course through the normal registration process",
+          "Submit a completed Audit Request Form to the Admissions and Records Office",
+          "Requests to audit must be submitted before the 10% point of the class"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@forsythtech.edu",
+        "contact_phone": "336-723-0371"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Audit Request Form must be submitted before the 10% point of the class",
+        "Students receive a grade of AU — no credit hours or grade points awarded",
+        "An audit may not be changed to credit (or credit to audit) after the 10% point",
+        "Students must meet prerequisites, co-requisites, and attendance policies",
+        "Financial aid does not cover audited courses",
+        "A course may not be repeated (for credit or audit) more than three times without dean approval"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://catalog.forsythtech.edu/2526/page/academic-information"
     }
   },
   {
@@ -853,11 +1104,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -868,15 +1119,27 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "registration@gaston.edu",
+        "contact_phone": "704-922-6200"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://www.gaston.edu/records-registration/policies-procedures/"
     }
   },
   {
@@ -888,16 +1151,16 @@
       {
         "name": "Main Campus (Jamestown)",
         "lat": 35.9966,
-        "lng": -79.9260,
+        "lng": -79.926,
         "address": "601 East Main Street, Jamestown, NC 27282"
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay standard tuition and fees. Senior citizens 65+ have tuition waived per Session Law 2017-57; student fees and DayOne access fees still apply.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -908,15 +1171,27 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "studentsuccess@gtcc.edu",
+        "contact_phone": "336-334-4822"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://catalog.gtcc.edu/content.php?catoid=10&navoid=871"
     }
   },
   {
@@ -933,11 +1208,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -948,14 +1223,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@halifaxcc.edu",
+        "contact_phone": "252-536-4221"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -973,11 +1260,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -988,14 +1275,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@haywood.edu",
+        "contact_phone": "828-627-2821"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1013,11 +1312,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1028,14 +1327,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@isothermal.edu",
+        "contact_phone": "828-286-3636"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1053,11 +1364,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1068,14 +1379,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@jamessprunt.edu",
+        "contact_phone": "910-296-2400"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1093,11 +1416,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "The rate of tuition charged for auditing is the same as for taking the course for credit. Senior citizens 65+ have tuition waived.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1108,15 +1431,27 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@johnstoncc.edu",
+        "contact_phone": "919-209-2228"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://courseleaf.johnstoncc.edu/academic-services-procedures/grading-system/"
     }
   },
   {
@@ -1133,11 +1468,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1148,14 +1483,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@lenoircc.edu",
+        "contact_phone": "252-527-6223"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1173,11 +1520,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1188,14 +1535,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@martincc.edu",
+        "contact_phone": "252-792-1521"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1213,11 +1572,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1228,14 +1587,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@mayland.edu",
+        "contact_phone": "828-765-7351"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1248,16 +1619,16 @@
       {
         "name": "Main Campus",
         "lat": 35.6979,
-        "lng": -82.0090,
+        "lng": -82.009,
         "address": "54 College Drive, Marion, NC 28752"
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1268,14 +1639,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@mcdowelltech.edu",
+        "contact_phone": "828-652-6021"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1293,11 +1676,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1308,14 +1691,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@mitchellcc.edu",
+        "contact_phone": "704-878-3200"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1333,11 +1728,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1348,14 +1743,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@montgomery.edu",
+        "contact_phone": "910-576-6222"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1373,11 +1780,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1388,14 +1795,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@nashcc.edu",
+        "contact_phone": "252-443-4011"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1408,16 +1827,16 @@
       {
         "name": "Main Campus",
         "lat": 35.1626,
-        "lng": -76.8360,
+        "lng": -76.836,
         "address": "5049 Highway 306 South, Grantsboro, NC 28529"
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1428,14 +1847,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@pamlicocc.edu",
+        "contact_phone": "252-249-1851"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1453,11 +1884,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1468,14 +1899,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@piedmontcc.edu",
+        "contact_phone": "336-599-1181"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1488,16 +1931,16 @@
       {
         "name": "Main Campus",
         "lat": 35.5663,
-        "lng": -77.3890,
+        "lng": -77.389,
         "address": "1986 Pitt Tech Road, Winterville, NC 28590"
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1508,15 +1951,27 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@pittcc.edu",
+        "contact_phone": "252-493-7245"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://catalog.pittcc.edu/content.php?catoid=4&navoid=151"
     }
   },
   {
@@ -1533,11 +1988,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1548,14 +2003,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@randolph.edu",
+        "contact_phone": "336-633-0200"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1573,11 +2040,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1588,14 +2055,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@richmondcc.edu",
+        "contact_phone": "910-410-1700"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1613,11 +2092,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1628,14 +2107,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@roanokechowan.edu",
+        "contact_phone": "252-862-1200"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1653,11 +2144,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1668,14 +2159,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@robeson.edu",
+        "contact_phone": "910-272-3700"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1693,11 +2196,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1708,14 +2211,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@rockinghamcc.edu",
+        "contact_phone": "336-342-4261"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1733,11 +2248,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Fees for audits are the same as regular enrollment. Senior citizens 65+ have tuition waived; applicable fees still apply.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1748,15 +2263,24 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Register for the course through the normal registration process",
+          "Declare audit status at time of registration, or obtain instructor approval and submit a drop/add form to Student Services by the 10% point"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "studentservices@rccc.edu",
+        "contact_phone": "704-216-7222"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "If audit not declared at registration, must be approved by instructor and submitted by 10% point",
+        "Audit students receive no academic credit",
+        "Audited coursework will not be considered for transfer credit",
+        "Normal attendance policies apply",
+        "Financial aid does not cover audited courses"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://www.rccc.edu/recordsregistration/grading/"
     }
   },
   {
@@ -1773,11 +2297,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1788,14 +2312,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@sampsoncc.edu",
+        "contact_phone": "910-592-8081"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1813,11 +2349,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Courses may be audited with standard tuition. Senior citizens 65+ receive tuition waiver; local fees still apply. Grade of SR for senior audit.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1828,15 +2364,27 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@sandhills.edu",
+        "contact_phone": "910-695-3725"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://www.sandhills.edu/catalog/current/about/policies-and-procedures.html"
     }
   },
   {
@@ -1853,11 +2401,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1868,14 +2416,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@spcc.edu",
+        "contact_phone": "704-272-5300"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1893,11 +2453,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1908,14 +2468,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@sccnc.edu",
+        "contact_phone": "910-642-7141"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1927,17 +2499,17 @@
     "campuses": [
       {
         "name": "Main Campus",
-        "lat": 35.3940,
+        "lat": 35.394,
         "lng": -83.2177,
         "address": "447 College Drive, Sylva, NC 28779"
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1948,14 +2520,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@southwesterncc.edu",
+        "contact_phone": "828-339-4000"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -1973,11 +2557,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -1988,14 +2572,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@stanly.edu",
+        "contact_phone": "704-991-0200"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -2013,11 +2609,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -2028,14 +2624,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@surry.edu",
+        "contact_phone": "336-386-8121"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -2053,11 +2661,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -2068,14 +2676,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@tricountycc.edu",
+        "contact_phone": "828-837-6810"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -2093,11 +2713,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -2108,14 +2728,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@vgcc.edu",
+        "contact_phone": "252-492-2061"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -2133,11 +2765,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "free",
+      "cost_note": "Tuition and registration fees are waived for auditing students. Local fees associated with course selections may be charged.",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -2148,15 +2780,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Obtain an Audit Form from the Registration and Records office",
+          "Submit the completed form along with a copy of a driver's license or state ID to Registration & Records",
+          "Registration staff will process the Audit Form"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "registration@waketech.edu",
+        "contact_phone": "919-866-5500"
       },
-      "restrictions": [],
-      "last_verified": "",
-      "source_url": ""
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
+      "source_url": "https://www.waketech.edu/catalog/registration-and-student-records"
     }
   },
   {
@@ -2173,11 +2816,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -2188,14 +2831,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@waynecc.edu",
+        "contact_phone": "919-735-5151"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -2213,11 +2868,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -2228,14 +2883,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@wpcc.edu",
+        "contact_phone": "828-438-6000"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -2253,11 +2920,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -2268,14 +2935,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@wilkescc.edu",
+        "contact_phone": "336-838-6100"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   },
@@ -2293,11 +2972,11 @@
       }
     ],
     "audit_policy": {
-      "allowed": null,
-      "cost_model": null,
-      "cost_note": "Contact the college for audit cost information.",
+      "allowed": true,
+      "cost_model": "same_as_credit",
+      "cost_note": "Audit students pay the same tuition and fees as credit students. Senior citizens age 65+ may audit for free (tuition waived; local fees may apply).",
       "eligibility": {
-        "minimum_age": 0,
+        "minimum_age": 18,
         "residency_required": false,
         "senior_discount": {
           "available": true,
@@ -2308,14 +2987,26 @@
         }
       },
       "application_process": {
-        "steps": [],
-        "timing": "",
+        "steps": [
+          "Complete an admissions application if not already enrolled as a student",
+          "Register for the course through the normal registration process",
+          "Complete an Audit Request Form and obtain instructor approval",
+          "Submit the signed Audit Request Form to the Registrar or Records office before the census date (typically the 10% point of the course)"
+        ],
+        "timing": "Audit requests must be submitted before the census date (typically the 10% point of the course)",
         "form_url": "",
-        "contact_email": "",
-        "contact_phone": ""
+        "contact_email": "admissions@wilsoncc.edu",
+        "contact_phone": "252-291-1195"
       },
-      "restrictions": [],
-      "last_verified": "",
+      "restrictions": [
+        "Instructor approval may be required",
+        "Audit students receive a grade of AU — no credit or grade points awarded",
+        "Financial aid and veterans' benefits do not cover audited courses",
+        "A student auditing a course shall not displace a student enrolling for credit",
+        "Changing from audit to credit (or vice versa) must be done before the census date",
+        "All course prerequisites must be met"
+      ],
+      "last_verified": "2026-03-31",
       "source_url": ""
     }
   }
