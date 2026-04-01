@@ -5,6 +5,11 @@ import { useRouter } from "next/navigation";
 
 const RADIUS_OPTIONS = [10, 25, 50] as const;
 
+const PLACEHOLDER_BY_STATE: Record<string, string> = {
+  va: "e.g. 22903 or Stafford",
+  nc: "e.g. 27601 or Raleigh",
+};
+
 export default function SearchForm({ state = "va" }: { state?: string }) {
   const router = useRouter();
   const [zip, setZip] = useState("");
@@ -60,7 +65,7 @@ export default function SearchForm({ state = "va" }: { state?: string }) {
           id="zip"
           type="text"
           maxLength={30}
-          placeholder="e.g. 22903 or Stafford"
+          placeholder={PLACEHOLDER_BY_STATE[state] || "e.g. 22903 or Stafford"}
           value={zip}
           onChange={(e) => {
             setZip(e.target.value);
