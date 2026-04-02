@@ -59,7 +59,8 @@ async function scrape(): Promise<TransferMapping[]> {
     "table tbody tr",
   ];
 
-  let rows: cheerio.Cheerio<cheerio.Element> | null = null;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let rows: ReturnType<typeof $> | null = null;
   for (const sel of tableSelectors) {
     const found = $(sel);
     if (found.length > 10) {
