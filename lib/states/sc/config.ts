@@ -13,8 +13,11 @@ const SELF_SERVICE_URLS: Record<string, string> = {
   "trident": "https://selfservice.tridenttech.edu",
   "midlands": "https://collselfserve.midlandstech.edu",
   "northeastern": "https://selfservice.netc.edu",
-  // Banner SSB
+  "orangeburg-calhoun": "https://collssprod.octech.edu",
+  // Banner SSB 9
   "piedmont": "https://banner.ptc.edu/StudentRegistrationSsb/ssb/classSearch",
+  "tri-county": "https://prodban.tctc.edu/StudentRegistrationSsb/ssb/classSearch",
+  // Banner 8
   "horry-georgetown": "https://ssb.hgtc.edu/PROD9/bwckschd.p_disp_dyn_sched",
   // Cygnet
   "greenville": "https://cygnet.gvltec.edu/courselist/courselist.cfm",
