@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import type { CourseMode } from "@/lib/types";
 
@@ -112,7 +113,10 @@ interface CourseSearchProps {
 }
 
 export default function CourseSearchClient({ state, systemName = "VCCS", collegeCount = 23, courseUrlMap }: CourseSearchProps) {
-  const [query, setQuery] = useState("");
+  const searchParams = useSearchParams();
+  const initialQuery = searchParams.get("q")?.replace(/\+/g, " ") || "";
+
+  const [query, setQuery] = useState(initialQuery);
   const [zip, setZip] = useState("");
   const [mode, setMode] = useState("");
   const [day, setDay] = useState("");
@@ -144,9 +148,8 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
   // Pagination
   const [displayLimit, setDisplayLimit] = useState(10);
 
-  async function handleSearch(e: React.FormEvent) {
-    e.preventDefault();
-    if (!query.trim() || query.trim().length < 2) {
+  const doSearch = useCallback(async (searchQuery: string) => {
+    if (!searchQuery.trim() || searchQuery.trim().length < 2) {
       setError("Enter at least 2 characters to search.");
       return;
     }
@@ -157,7 +160,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
     setDisplayLimit(10);
 
     try {
-      const params = new URLSearchParams({ q: query.trim(), limit: "50" });
+      const params = new URLSearchParams({ q: searchQuery.trim(), limit: "50" });
       if (zip) params.set("zip", zip);
       if (mode) params.set("mode", mode);
       if (day) params.set("day", day);
@@ -190,7 +193,19 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
       setResults(null);
     }
     setLoading(false);
+  }, [state, zip, mode, day, timeOfDay]);
+
+  async function handleSearch(e: React.FormEvent) {
+    e.preventDefault();
+    doSearch(query);
   }
+
+  // Auto-search when loaded with ?q= parameter
+  useEffect(() => {
+    if (initialQuery) {
+      doSearch(initialQuery);
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   function toggleExpand(courseKey: string, slug: string) {
     const id = `${courseKey}::${slug}`;
@@ -269,7 +284,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                 type="text"
                 value={zip}
                 onChange={(e) => setZip(e.target.value.replace(/\D/g, "").slice(0, 5))}
-                placeholder={state === "nc" ? "27601" : "22030"}
+                placeholder={state === "nc" ? "27601" : state === "sc" ? "29201" : "22030"}
                 className="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
                 maxLength={5}
               />

@@ -2,7 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { loadTransferMappings, getUniversities } from "@/lib/transfer";
-import { loadAllCourses, getAvailableTerms } from "@/lib/courses";
+import { loadAllCourses } from "@/lib/courses";
+import { getCurrentTerm } from "@/lib/terms";
 import { getStateConfig } from "@/lib/states/registry";
 import TransferClient from "./TransferClient";
 
@@ -29,8 +30,8 @@ export default async function TransferPage({ params }: Props) {
   // Pass ALL mappings — client filters by selected university
   const mappings = loadTransferMappings(state);
 
-  // Get course availability across all terms for cross-referencing
-  const allCourses = getAvailableTerms(state).flatMap((t) => loadAllCourses(t, state));
+  // Get course availability for current term (matches what course search shows)
+  const allCourses = loadAllCourses(getCurrentTerm(state), state);
   const courseAvailability: Record<string, { colleges: string[]; totalSections: number }> = {};
   for (const c of allCourses) {
     const key = `${c.course_prefix}-${c.course_number}`;

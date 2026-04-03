@@ -1,8 +1,7 @@
 import type { StateConfig } from "../registry";
 
-// Maps college slug → course catalog base URL
-const SELF_SERVICE_URLS: Record<string, string> = {
-  // Colleague Self-Service
+// Colleague Self-Service base URLs (need /Student/Courses appended)
+const COLLEAGUE_URLS: Record<string, string> = {
   "aiken": "https://courses.atc.edu",
   "denmark": "https://selfservice.denmarktech.edu",
   "florence-darlington": "https://selfservice.fdtc.edu",
@@ -14,9 +13,13 @@ const SELF_SERVICE_URLS: Record<string, string> = {
   "midlands": "https://collselfserve.midlandstech.edu",
   "northeastern": "https://selfservice.netc.edu",
   "orangeburg-calhoun": "https://collssprod.octech.edu",
+};
+
+// Non-Colleague platforms — URLs are already full paths to course search
+const OTHER_PLATFORM_URLS: Record<string, string> = {
   // Banner SSB 9
-  "piedmont": "https://banner.ptc.edu/StudentRegistrationSsb/ssb/classSearch",
-  "tri-county": "https://prodban.tctc.edu/StudentRegistrationSsb/ssb/classSearch",
+  "piedmont": "https://banner.ptc.edu/StudentRegistrationSsb/ssb/classSearch/classSearch",
+  "tri-county": "https://prodban.tctc.edu/StudentRegistrationSsb/ssb/classSearch/classSearch",
   // Banner 8
   "horry-georgetown": "https://ssb.hgtc.edu/PROD9/bwckschd.p_disp_dyn_sched",
   // Cygnet
@@ -46,17 +49,27 @@ const scConfig: StateConfig = {
   transferSupported: true,
 
   courseDiscoveryUrl: (collegeSlug: string, prefix: string, number: string) => {
-    const base = SELF_SERVICE_URLS[collegeSlug];
-    if (base && prefix && number) {
-      return `${base}/Student/Courses/Search?keyword=${encodeURIComponent(prefix + " " + number)}`;
+    // Colleague: append search path
+    const colleague = COLLEAGUE_URLS[collegeSlug];
+    if (colleague && prefix && number) {
+      return `${colleague}/Student/Courses/Search?keyword=${encodeURIComponent(prefix + " " + number)}`;
     }
-    if (base) return `${base}/Student/Courses`;
+    if (colleague) return `${colleague}/Student/Courses`;
+
+    // Non-Colleague platforms: URL is already a full course search path
+    const other = OTHER_PLATFORM_URLS[collegeSlug];
+    if (other) return other;
+
     return `https://www.sctechsystem.edu`;
   },
 
   collegeCoursesUrl: (collegeSlug: string) => {
-    const base = SELF_SERVICE_URLS[collegeSlug];
-    if (base) return `${base}/Student/Courses`;
+    const colleague = COLLEAGUE_URLS[collegeSlug];
+    if (colleague) return `${colleague}/Student/Courses`;
+
+    const other = OTHER_PLATFORM_URLS[collegeSlug];
+    if (other) return other;
+
     return `https://www.sctechsystem.edu`;
   },
 
