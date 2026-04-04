@@ -30,7 +30,7 @@ const COLLEAGUE_COLLEGES: Record<string, string> = {
   "florence-darlington": "https://selfservice.fdtc.edu",
   "spartanburg": "https://selfserviceprod.sccsc.edu:8172",
   "lowcountry": "https://selfservice.tcl.edu",
-  "central-carolina": "https://ssb.cctech.edu",
+  "orangeburg-calhoun": "https://collssprod.octech.edu",
   "york": "https://coll-ss.yorktech.edu:8473",
   "trident": "https://selfservice.tridenttech.edu",
   "midlands": "https://collselfserve.midlandstech.edu",
@@ -380,12 +380,14 @@ async function scrapeCollege(
       (t) => {
         const label = t.label.toLowerCase();
         const value = t.value;
+        // Exact term code match first (highest priority)
+        if (expectedTermCode && value === expectedTermCode) return true;
         // Exact label match
         if (label === termNameLower) return true;
-        // All parts of the search term appear in the label (e.g., "spring" and "2026" both in "Spring Semester 2026")
-        if (termParts.every((part) => label.includes(part)) && !label.includes("ce")) return true;
-        // Match by term code (e.g., value "2026SP" or label "2026SP")
-        if (expectedTermCode && (value === expectedTermCode || label === expectedTermCode.toLowerCase())) return true;
+        // All parts of the search term appear in the label, excluding reporting/CE terms
+        if (termParts.every((part) => label.includes(part)) && !label.includes("ce") && !label.includes("reporting")) return true;
+        // Match by term code in label
+        if (expectedTermCode && label === expectedTermCode.toLowerCase()) return true;
         return false;
       }
     );

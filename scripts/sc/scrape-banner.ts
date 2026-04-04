@@ -24,6 +24,7 @@ const DELAY_MS = 300;
 const BANNER_COLLEGES: Record<string, string> = {
   "piedmont": "https://banner.ptc.edu",
   "tri-county": "https://prodban.tctc.edu",
+  "central-carolina": "https://selfservice.cctech.edu",
 };
 
 type CourseMode = "in-person" | "online" | "hybrid" | "zoom";

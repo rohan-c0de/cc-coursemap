@@ -38,8 +38,13 @@
     "instructor": "Crosby, C, Collins, S",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "DHG 154 and DHG 115 and DHG 165 and DHG 121",
+    "prerequisite_courses": [
+      "DHG 154",
+      "DHG 115",
+      "DHG 165",
+      "DHG 121"
+    ]
   },
   {
     "college_code": "york",
@@ -59,8 +64,10 @@
     "instructor": "Paul, K",
     "seats_open": 0,
     "seats_total": 16,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 120",
+    "prerequisite_courses": [
+      "AHS 120"
+    ]
   },
   {
     "college_code": "york",
@@ -80,8 +87,10 @@
     "instructor": "Paul, K",
     "seats_open": 5,
     "seats_total": 16,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 120",
+    "prerequisite_courses": [
+      "AHS 120"
+    ]
   },
   {
     "college_code": "york",
@@ -101,8 +110,10 @@
     "instructor": "Campbell, T",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 120",
+    "prerequisite_courses": [
+      "AHS 120"
+    ]
   },
   {
     "college_code": "york",
@@ -122,8 +133,10 @@
     "instructor": "Roesch, K",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 120",
+    "prerequisite_courses": [
+      "AHS 120"
+    ]
   },
   {
     "college_code": "york",
@@ -143,8 +156,10 @@
     "instructor": "Roesch, K",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 120",
+    "prerequisite_courses": [
+      "AHS 120"
+    ]
   },
   {
     "college_code": "york",
@@ -164,8 +179,10 @@
     "instructor": "Smith, M",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 120",
+    "prerequisite_courses": [
+      "AHS 120"
+    ]
   },
   {
     "college_code": "york",
@@ -185,8 +202,10 @@
     "instructor": "Beauchamp, M",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 120",
+    "prerequisite_courses": [
+      "AHS 120"
+    ]
   },
   {
     "college_code": "york",
@@ -206,8 +225,10 @@
     "instructor": "Rodden, S",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 120",
+    "prerequisite_courses": [
+      "AHS 120"
+    ]
   },
   {
     "college_code": "york",
@@ -477,7 +498,7 @@
     "campus": "HYBRH",
     "mode": "hybrid",
     "instructor": "Stewart, J, Freeman, R",
-    "seats_open": 4,
+    "seats_open": 5,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -540,7 +561,7 @@
     "campus": "HYBRH",
     "mode": "hybrid",
     "instructor": "Stewart, J, Freeman, R",
-    "seats_open": 5,
+    "seats_open": 6,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -668,8 +689,11 @@
     "instructor": "Stewart, J, Sigmon, J",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 161 and RWR 032",
+    "prerequisite_courses": [
+      "AUT 161",
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -689,8 +713,11 @@
     "instructor": "Brodfuehrer, M",
     "seats_open": 3,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and AUT 161",
+    "prerequisite_courses": [
+      "RWR 032",
+      "AUT 161"
+    ]
   },
   {
     "college_code": "york",
@@ -710,8 +737,11 @@
     "instructor": "Brodfuehrer, M",
     "seats_open": 8,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and AUT 161",
+    "prerequisite_courses": [
+      "RWR 032",
+      "AUT 161"
+    ]
   },
   {
     "college_code": "york",
@@ -731,8 +761,12 @@
     "instructor": "Brodfuehrer, M",
     "seats_open": 8,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 161 and RWR 032 and AUT 131",
+    "prerequisite_courses": [
+      "AUT 161",
+      "RWR 032",
+      "AUT 131"
+    ]
   },
   {
     "college_code": "york",
@@ -752,8 +786,11 @@
     "instructor": "Griffin, B",
     "seats_open": 4,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 161 and RWR 032",
+    "prerequisite_courses": [
+      "AUT 161",
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -773,8 +810,11 @@
     "instructor": "Griffin, B",
     "seats_open": 13,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 161 and RWR 032",
+    "prerequisite_courses": [
+      "AUT 161",
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -794,8 +834,11 @@
     "instructor": "Abercrombie, J",
     "seats_open": 8,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 161 and RWR 032",
+    "prerequisite_courses": [
+      "AUT 161",
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -815,8 +858,11 @@
     "instructor": "Stewart, J, Sigmon, J",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 161 and RWR 032",
+    "prerequisite_courses": [
+      "AUT 161",
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -836,8 +882,11 @@
     "instructor": "Stewart, J, Sigmon, J",
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 161 and RWR 032",
+    "prerequisite_courses": [
+      "AUT 161",
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -857,8 +906,11 @@
     "instructor": "Abercrombie, J",
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 161 and RWR 032",
+    "prerequisite_courses": [
+      "AUT 161",
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -878,8 +930,11 @@
     "instructor": "Abercrombie, J",
     "seats_open": 8,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 161 and RWR 032",
+    "prerequisite_courses": [
+      "AUT 161",
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -899,8 +954,10 @@
     "instructor": "Boulware, J",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 100",
+    "prerequisite_courses": [
+      "RWR 100"
+    ]
   },
   {
     "college_code": "york",
@@ -920,8 +977,10 @@
     "instructor": "Pirtle, C",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 100",
+    "prerequisite_courses": [
+      "RWR 100"
+    ]
   },
   {
     "college_code": "york",
@@ -941,8 +1000,10 @@
     "instructor": "Pirtle, C",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 100",
+    "prerequisite_courses": [
+      "RWR 100"
+    ]
   },
   {
     "college_code": "york",
@@ -962,8 +1023,10 @@
     "instructor": "Boulware, J",
     "seats_open": 10,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 210",
+    "prerequisite_courses": [
+      "BIO 210"
+    ]
   },
   {
     "college_code": "york",
@@ -983,8 +1046,10 @@
     "instructor": "Lesane, S",
     "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 210",
+    "prerequisite_courses": [
+      "BIO 210"
+    ]
   },
   {
     "college_code": "york",
@@ -1025,8 +1090,10 @@
     "instructor": "McCloud, D",
     "seats_open": 18,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECE 211",
+    "prerequisite_courses": [
+      "ECE 211"
+    ]
   },
   {
     "college_code": "york",
@@ -1046,8 +1113,10 @@
     "instructor": "McCloud, D",
     "seats_open": 19,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECE 221",
+    "prerequisite_courses": [
+      "ECE 221"
+    ]
   },
   {
     "college_code": "york",
@@ -1067,8 +1136,11 @@
     "instructor": "Anand, M",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CPT 168 and IST 188",
+    "prerequisite_courses": [
+      "CPT 168",
+      "IST 188"
+    ]
   },
   {
     "college_code": "york",
@@ -1088,8 +1160,11 @@
     "instructor": "Arrington, C",
     "seats_open": 12,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CPT 230 or CPT 236",
+    "prerequisite_courses": [
+      "CPT 230",
+      "CPT 236"
+    ]
   },
   {
     "college_code": "york",
@@ -1277,8 +1352,12 @@
     "instructor": "Stewart, J",
     "seats_open": 3,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 131 and AUT 133 and AUT 143",
+    "prerequisite_courses": [
+      "AUT 131",
+      "AUT 133",
+      "AUT 143"
+    ]
   },
   {
     "college_code": "york",
@@ -1298,8 +1377,12 @@
     "instructor": "Stewart, J",
     "seats_open": 3,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 131 and AUT 133 and AUT 143",
+    "prerequisite_courses": [
+      "AUT 131",
+      "AUT 133",
+      "AUT 143"
+    ]
   },
   {
     "college_code": "york",
@@ -1319,8 +1402,11 @@
     "instructor": "Stewart, J",
     "seats_open": 3,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 131 and AUT 131 and AUT 143",
+    "prerequisite_courses": [
+      "AUT 131",
+      "AUT 143"
+    ]
   },
   {
     "college_code": "york",
@@ -1340,8 +1426,11 @@
     "instructor": "Stewart, J",
     "seats_open": 3,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 131 and AUT 131 and AUT 143",
+    "prerequisite_courses": [
+      "AUT 131",
+      "AUT 143"
+    ]
   },
   {
     "college_code": "york",
@@ -1361,8 +1450,12 @@
     "instructor": "Stewart, J",
     "seats_open": 3,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AUT 131 and AUT 133 and AUT 143",
+    "prerequisite_courses": [
+      "AUT 131",
+      "AUT 133",
+      "AUT 143"
+    ]
   },
   {
     "college_code": "york",
@@ -1382,8 +1475,11 @@
     "instructor": "Mikolajczak, A",
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 or ENG 031",
+    "prerequisite_courses": [
+      "RWR 032",
+      "ENG 031"
+    ]
   },
   {
     "college_code": "york",
@@ -1401,10 +1497,13 @@
     "campus": "HYBRH",
     "mode": "hybrid",
     "instructor": "Jordan, A",
-    "seats_open": 10,
+    "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 or ENG 031",
+    "prerequisite_courses": [
+      "RWR 032",
+      "ENG 031"
+    ]
   },
   {
     "college_code": "york",
@@ -1424,8 +1523,10 @@
     "instructor": "Mikolajczak, A",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032",
+    "prerequisite_courses": [
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -1445,8 +1546,10 @@
     "instructor": "Mikolajczak, A",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032",
+    "prerequisite_courses": [
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -1466,8 +1569,16 @@
     "instructor": "Jordan, A",
     "seats_open": 7,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECD 101 and ECD 105 and ECD 132 and ECD 203 and ENG 101 or ENG 155 and MAT 013",
+    "prerequisite_courses": [
+      "ECD 101",
+      "ECD 105",
+      "ECD 132",
+      "ECD 203",
+      "ENG 101",
+      "ENG 155",
+      "MAT 013"
+    ]
   },
   {
     "college_code": "york",
@@ -1550,8 +1661,11 @@
     "instructor": "Sotudeh-Chafi, M",
     "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 105",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 105"
+    ]
   },
   {
     "college_code": "york",
@@ -1571,8 +1685,11 @@
     "instructor": "Padmanabhan, V",
     "seats_open": 12,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EET 113 and MAT 112",
+    "prerequisite_courses": [
+      "EET 113",
+      "MAT 112"
+    ]
   },
   {
     "college_code": "york",
@@ -1592,8 +1709,11 @@
     "instructor": "McCloud, D",
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EET 113 and MAT 112",
+    "prerequisite_courses": [
+      "EET 113",
+      "MAT 112"
+    ]
   },
   {
     "college_code": "york",
@@ -1613,8 +1733,12 @@
     "instructor": "McCloud, D",
     "seats_open": 9,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and EET 113 and MAT 112",
+    "prerequisite_courses": [
+      "RWR 032",
+      "EET 113",
+      "MAT 112"
+    ]
   },
   {
     "college_code": "york",
@@ -1634,8 +1758,11 @@
     "instructor": "Padmanabhan, V",
     "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EET 142 and RDG 100",
+    "prerequisite_courses": [
+      "EET 142",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "york",
@@ -1739,8 +1866,12 @@
     "instructor": "Riechmann, A",
     "seats_open": 9,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EGT 110 and RWR 032 and MAT 033",
+    "prerequisite_courses": [
+      "EGT 110",
+      "RWR 032",
+      "MAT 033"
+    ]
   },
   {
     "college_code": "york",
@@ -1760,8 +1891,10 @@
     "instructor": "Riechmann, A",
     "seats_open": null,
     "seats_total": null,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EGT 115",
+    "prerequisite_courses": [
+      "EGT 115"
+    ]
   },
   {
     "college_code": "york",
@@ -1781,8 +1914,11 @@
     "instructor": "Sotudeh-Chafi, M",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 112 and RWR 032",
+    "prerequisite_courses": [
+      "MAT 112",
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -1802,8 +1938,10 @@
     "instructor": "Towles, E",
     "seats_open": 2,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032",
+    "prerequisite_courses": [
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -1823,8 +1961,10 @@
     "instructor": "Towles, E",
     "seats_open": null,
     "seats_total": null,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EGR 260",
+    "prerequisite_courses": [
+      "EGR 260"
+    ]
   },
   {
     "college_code": "york",
@@ -1844,8 +1984,10 @@
     "instructor": "Sotudeh-Chafi, M",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 141",
+    "prerequisite_courses": [
+      "MAT 141"
+    ]
   },
   {
     "college_code": "york",
@@ -1865,8 +2007,11 @@
     "instructor": "Riechmann, A",
     "seats_open": 6,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 112",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 112"
+    ]
   },
   {
     "college_code": "york",
@@ -1886,8 +2031,11 @@
     "instructor": "Towles, E",
     "seats_open": null,
     "seats_total": null,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 112",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 112"
+    ]
   },
   {
     "college_code": "york",
@@ -1907,8 +2055,11 @@
     "instructor": "Riechmann, A",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 013",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 013"
+    ]
   },
   {
     "college_code": "york",
@@ -1928,8 +2079,12 @@
     "instructor": "Padmanabhan, V",
     "seats_open": 17,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101 and RDG 101 and MAT 140",
+    "prerequisite_courses": [
+      "ENG 101",
+      "RDG 101",
+      "MAT 140"
+    ]
   },
   {
     "college_code": "york",
@@ -1949,8 +2104,10 @@
     "instructor": "Patterson, E",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 100",
+    "prerequisite_courses": [
+      "RWR 100"
+    ]
   },
   {
     "college_code": "york",
@@ -1970,8 +2127,10 @@
     "instructor": "Patterson, E",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 100",
+    "prerequisite_courses": [
+      "RWR 100"
+    ]
   },
   {
     "college_code": "york",
@@ -1991,8 +2150,10 @@
     "instructor": "Patterson, E",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "york",
@@ -2012,8 +2173,10 @@
     "instructor": "Loyst, R",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "york",
@@ -2033,8 +2196,11 @@
     "instructor": "Ray, E",
     "seats_open": 6,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EEM 117 or EEM 118",
+    "prerequisite_courses": [
+      "EEM 117",
+      "EEM 118"
+    ]
   },
   {
     "college_code": "york",
@@ -2054,8 +2220,10 @@
     "instructor": "Streeter, A",
     "seats_open": 7,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EEM 145",
+    "prerequisite_courses": [
+      "EEM 145"
+    ]
   },
   {
     "college_code": "york",
@@ -2075,8 +2243,11 @@
     "instructor": "Childers, R",
     "seats_open": 6,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 013",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 013"
+    ]
   },
   {
     "college_code": "york",
@@ -2096,8 +2267,11 @@
     "instructor": "Hollinger, J",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 013",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 013"
+    ]
   },
   {
     "college_code": "york",
@@ -2117,8 +2291,11 @@
     "instructor": "Hollinger, J",
     "seats_open": null,
     "seats_total": null,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 013",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 013"
+    ]
   },
   {
     "college_code": "york",
@@ -2138,8 +2315,10 @@
     "instructor": "Streeter, A",
     "seats_open": 13,
     "seats_total": 21,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 013",
+    "prerequisite_courses": [
+      "MAT 013"
+    ]
   },
   {
     "college_code": "york",
@@ -2159,8 +2338,14 @@
     "instructor": "Hollinger, J",
     "seats_open": 21,
     "seats_total": 21,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 033 and IMT 104 and IMT 131 and IMT 161",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 033",
+      "IMT 104",
+      "IMT 131",
+      "IMT 161"
+    ]
   },
   {
     "college_code": "york",
@@ -2180,8 +2365,11 @@
     "instructor": "Nayfeh, K",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 013",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 013"
+    ]
   },
   {
     "college_code": "york",
@@ -2201,8 +2389,11 @@
     "instructor": "Warren, C",
     "seats_open": 5,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 013",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 013"
+    ]
   },
   {
     "college_code": "york",
@@ -2222,8 +2413,11 @@
     "instructor": "Torres, E",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 013",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 013"
+    ]
   },
   {
     "college_code": "york",
@@ -2243,8 +2437,11 @@
     "instructor": "Torres, E",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and MAT 013",
+    "prerequisite_courses": [
+      "RWR 032",
+      "MAT 013"
+    ]
   },
   {
     "college_code": "york",
@@ -2285,8 +2482,11 @@
     "instructor": "Amarasinghe, K",
     "seats_open": 26,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "IST 202 and IST 291",
+    "prerequisite_courses": [
+      "IST 202",
+      "IST 291"
+    ]
   },
   {
     "college_code": "york",
@@ -2306,8 +2506,11 @@
     "instructor": "Torres, E",
     "seats_open": 24,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "IST 202 and IST 291",
+    "prerequisite_courses": [
+      "IST 202",
+      "IST 291"
+    ]
   },
   {
     "college_code": "york",
@@ -2327,8 +2530,11 @@
     "instructor": "Amarasinghe, K",
     "seats_open": 25,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "IST 292 and IST 293",
+    "prerequisite_courses": [
+      "IST 292",
+      "IST 293"
+    ]
   },
   {
     "college_code": "york",
@@ -2369,8 +2575,11 @@
     "instructor": "Nichols, T",
     "seats_open": 9,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032 and EGT 128",
+    "prerequisite_courses": [
+      "RWR 032",
+      "EGT 128"
+    ]
   },
   {
     "college_code": "york",
@@ -2390,8 +2599,10 @@
     "instructor": "Logan, B",
     "seats_open": 4,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MTT 111",
+    "prerequisite_courses": [
+      "MTT 111"
+    ]
   },
   {
     "college_code": "york",
@@ -2411,8 +2622,11 @@
     "instructor": "Nichols, T",
     "seats_open": 10,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MTT 254 and MTT 255",
+    "prerequisite_courses": [
+      "MTT 254",
+      "MTT 255"
+    ]
   },
   {
     "college_code": "york",
@@ -2453,8 +2667,10 @@
     "instructor": "Schemine, K",
     "seats_open": 23,
     "seats_total": 29,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 013",
+    "prerequisite_courses": [
+      "MAT 013"
+    ]
   },
   {
     "college_code": "york",
@@ -2474,8 +2690,11 @@
     "instructor": "Riechmann, A",
     "seats_open": 15,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHY 201 and EGR 190",
+    "prerequisite_courses": [
+      "PHY 201",
+      "EGR 190"
+    ]
   },
   {
     "college_code": "york",
@@ -2495,8 +2714,12 @@
     "instructor": "Towles, E",
     "seats_open": 18,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 112 and EGR 190 and PHY 201",
+    "prerequisite_courses": [
+      "MAT 112",
+      "EGR 190",
+      "PHY 201"
+    ]
   },
   {
     "college_code": "york",
@@ -2516,8 +2739,13 @@
     "instructor": "Towles, E",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EGR 190 and MAT 112 and PHY 201 and MTT 101",
+    "prerequisite_courses": [
+      "EGR 190",
+      "MAT 112",
+      "PHY 201",
+      "MTT 101"
+    ]
   },
   {
     "college_code": "york",
@@ -2537,8 +2765,12 @@
     "instructor": "Mazhari, S",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAP 150 and MAP 128 and MAP 276",
+    "prerequisite_courses": [
+      "MAP 150",
+      "MAP 128",
+      "MAP 276"
+    ]
   },
   {
     "college_code": "york",
@@ -2558,8 +2790,11 @@
     "instructor": "Collins, E",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CGC 115 and MAP 122",
+    "prerequisite_courses": [
+      "CGC 115",
+      "MAP 122"
+    ]
   },
   {
     "college_code": "york",
@@ -2579,8 +2814,11 @@
     "instructor": "Collins, E",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAP 122 and MAP 277",
+    "prerequisite_courses": [
+      "MAP 122",
+      "MAP 277"
+    ]
   },
   {
     "college_code": "york",
@@ -2642,8 +2880,11 @@
     "instructor": "Gagan, M, Ware, K",
     "seats_open": 10,
     "seats_total": 19,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MLT 253 and MLT 254",
+    "prerequisite_courses": [
+      "MLT 253",
+      "MLT 254"
+    ]
   },
   {
     "college_code": "york",
@@ -2663,8 +2904,11 @@
     "instructor": "Gagan, M, Ware, K",
     "seats_open": 10,
     "seats_total": 19,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MLT 243 and MLT 254",
+    "prerequisite_courses": [
+      "MLT 243",
+      "MLT 254"
+    ]
   },
   {
     "college_code": "york",
@@ -2684,8 +2928,11 @@
     "instructor": "Gagan, M, Ware, K",
     "seats_open": 10,
     "seats_total": 19,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MLT 243 and MLT 253",
+    "prerequisite_courses": [
+      "MLT 243",
+      "MLT 253"
+    ]
   },
   {
     "college_code": "york",
@@ -2705,8 +2952,12 @@
     "instructor": "Ware, K",
     "seats_open": 9,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 102 and BIO 112 and ENG 155",
+    "prerequisite_courses": [
+      "AHS 102",
+      "BIO 112",
+      "ENG 155"
+    ]
   },
   {
     "college_code": "york",
@@ -2726,8 +2977,13 @@
     "instructor": "Huneycutt, H",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 102 and BIO 112 and MAT 013 and ENG 155",
+    "prerequisite_courses": [
+      "AHS 102",
+      "BIO 112",
+      "MAT 013",
+      "ENG 155"
+    ]
   },
   {
     "college_code": "york",
@@ -2747,8 +3003,16 @@
     "instructor": "Bennett, T, Kurtz, J, Murensky, S, Rabon, A",
     "seats_open": 9,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NUR 104 and NUR 206 and NUR 106 and BIO 210 and ENG 101 and BIO 211 and PSY 201",
+    "prerequisite_courses": [
+      "NUR 104",
+      "NUR 206",
+      "NUR 106",
+      "BIO 210",
+      "ENG 101",
+      "BIO 211",
+      "PSY 201"
+    ]
   },
   {
     "college_code": "york",
@@ -2768,8 +3032,16 @@
     "instructor": "Bennett, T, Kurtz, J, Murensky, S, Baker, R",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NUR 104 and NUR 206 and NUR 106 and BIO 210 and ENG 101 and BIO 211 and PSY 201",
+    "prerequisite_courses": [
+      "NUR 104",
+      "NUR 206",
+      "NUR 106",
+      "BIO 210",
+      "ENG 101",
+      "BIO 211",
+      "PSY 201"
+    ]
   },
   {
     "college_code": "york",
@@ -2789,8 +3061,13 @@
     "instructor": "Newton, R, Clark, O, Leslie, Q",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NUR 211 and PSY 201 and BIO 211 and ENG 102",
+    "prerequisite_courses": [
+      "NUR 211",
+      "PSY 201",
+      "BIO 211",
+      "ENG 102"
+    ]
   },
   {
     "college_code": "york",
@@ -2810,8 +3087,13 @@
     "instructor": "Newton, R, Clark, O, Leslie, Q",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NUR 211 and PSY 201 and BIO 211 and ENG 102",
+    "prerequisite_courses": [
+      "NUR 211",
+      "PSY 201",
+      "BIO 211",
+      "ENG 102"
+    ]
   },
   {
     "college_code": "york",
@@ -2831,8 +3113,12 @@
     "instructor": "Cardoza, J",
     "seats_open": 7,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 110 or MAT 112 and RWR 100",
+    "prerequisite_courses": [
+      "MAT 110",
+      "MAT 112",
+      "RWR 100"
+    ]
   },
   {
     "college_code": "york",
@@ -2852,8 +3138,12 @@
     "instructor": "Curley, J",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 130 or MAT 140 and ENG 101",
+    "prerequisite_courses": [
+      "MAT 130",
+      "MAT 140",
+      "ENG 101"
+    ]
   },
   {
     "college_code": "york",
@@ -2873,8 +3163,18 @@
     "instructor": "Deadwyler, J",
     "seats_open": 5,
     "seats_total": 14,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RAD 101 and RAD 102 and RAD 105 and RAD 112 and RAD 130 and RAD 152 and RAD 165 and RAD 136 and RAD 175",
+    "prerequisite_courses": [
+      "RAD 101",
+      "RAD 102",
+      "RAD 105",
+      "RAD 112",
+      "RAD 130",
+      "RAD 152",
+      "RAD 165",
+      "RAD 136",
+      "RAD 175"
+    ]
   },
   {
     "college_code": "york",
@@ -2894,8 +3194,18 @@
     "instructor": "Deadwyler, J",
     "seats_open": 7,
     "seats_total": 14,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RAD 101 and RAD 102 and RAD 105 and RAD 112 and RAD 130 and RAD 152 and RAD 165 and RAD 136 and RAD 175",
+    "prerequisite_courses": [
+      "RAD 101",
+      "RAD 102",
+      "RAD 105",
+      "RAD 112",
+      "RAD 130",
+      "RAD 152",
+      "RAD 165",
+      "RAD 136",
+      "RAD 175"
+    ]
   },
   {
     "college_code": "york",
@@ -2978,8 +3288,28 @@
     "instructor": "Jadidian, C, Graham, A, Deadwyler, J",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RAD 101 and RAD 102 and RAD 152 and RAD 112 and RAD 130 and RAD 165 and RAD 105 and BIO 210 and BIO 211 and RAD 114 and RAD 121 and RAD 136 and RAD 175 and RAD 201 and RAD 210 and RAD 230 and RAD 256 and RAD 268 and RAD 278",
+    "prerequisite_courses": [
+      "RAD 101",
+      "RAD 102",
+      "RAD 152",
+      "RAD 112",
+      "RAD 130",
+      "RAD 165",
+      "RAD 105",
+      "BIO 210",
+      "BIO 211",
+      "RAD 114",
+      "RAD 121",
+      "RAD 136",
+      "RAD 175",
+      "RAD 201",
+      "RAD 210",
+      "RAD 230",
+      "RAD 256",
+      "RAD 268",
+      "RAD 278"
+    ]
   },
   {
     "college_code": "york",
@@ -3020,8 +3350,18 @@
     "instructor": "Payseur, D",
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SFT 109 and SFT 110 and SFT 112 and SFT 125 and AHS 120 and SFT 101 and SFT 105 and SFT 107 and SFT 201",
+    "prerequisite_courses": [
+      "SFT 109",
+      "SFT 110",
+      "SFT 112",
+      "SFT 125",
+      "AHS 120",
+      "SFT 101",
+      "SFT 105",
+      "SFT 107",
+      "SFT 201"
+    ]
   },
   {
     "college_code": "york",
@@ -3041,8 +3381,17 @@
     "instructor": "Hall, W, Koppelmann, Y",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SUR 101 and SUR 102 and SUR 103 and SUR 104 and SUR 123 and SUR 125 and SUR 110 and SUR 111",
+    "prerequisite_courses": [
+      "SUR 101",
+      "SUR 102",
+      "SUR 103",
+      "SUR 104",
+      "SUR 123",
+      "SUR 125",
+      "SUR 110",
+      "SUR 111"
+    ]
   },
   {
     "college_code": "york",
@@ -3062,8 +3411,12 @@
     "instructor": "Koppelmann, Y",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SUR 101 and SUR 102 and SUR 103",
+    "prerequisite_courses": [
+      "SUR 101",
+      "SUR 102",
+      "SUR 103"
+    ]
   },
   {
     "college_code": "york",
@@ -3083,8 +3436,14 @@
     "instructor": "Koppelmann, Y, Brown, W",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SUR 101 and SUR 102 and SUR 103 and SUR 104 and SUR 123",
+    "prerequisite_courses": [
+      "SUR 101",
+      "SUR 102",
+      "SUR 103",
+      "SUR 104",
+      "SUR 123"
+    ]
   },
   {
     "college_code": "york",
@@ -3104,8 +3463,10 @@
     "instructor": "Broome, M",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032",
+    "prerequisite_courses": [
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -3125,8 +3486,10 @@
     "instructor": "Broome, M",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "WLD 111",
+    "prerequisite_courses": [
+      "WLD 111"
+    ]
   },
   {
     "college_code": "york",
@@ -3146,8 +3509,10 @@
     "instructor": "Livengood, R, Osborne, B",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032",
+    "prerequisite_courses": [
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -3167,8 +3532,10 @@
     "instructor": "Stevens, A",
     "seats_open": 4,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032",
+    "prerequisite_courses": [
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -3188,8 +3555,10 @@
     "instructor": "Osborne, B, Livengood, R",
     "seats_open": 2,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032",
+    "prerequisite_courses": [
+      "RWR 032"
+    ]
   },
   {
     "college_code": "york",
@@ -3209,7 +3578,9 @@
     "instructor": "Livengood, R",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RWR 032",
+    "prerequisite_courses": [
+      "RWR 032"
+    ]
   }
 ]

@@ -17,8 +17,10 @@
     "instructor": "Tony Beck",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100",
+    "prerequisite_courses": [
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -38,8 +40,10 @@
     "instructor": "Laura E. Myers",
     "seats_open": 2,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100",
+    "prerequisite_courses": [
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -59,8 +63,10 @@
     "instructor": "Mrs. Jennifer E. Brown",
     "seats_open": 7,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACC 101",
+    "prerequisite_courses": [
+      "ACC 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -80,8 +86,10 @@
     "instructor": "Mrs. Jennifer E. Brown",
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACC 101",
+    "prerequisite_courses": [
+      "ACC 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -143,8 +151,13 @@
     "instructor": "Mr. Stephen Logan",
     "seats_open": 12,
     "seats_total": 17,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACR 102 or ACR 108 or ACR 140 or ACR 231",
+    "prerequisite_courses": [
+      "ACR 102",
+      "ACR 108",
+      "ACR 140",
+      "ACR 231"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -227,8 +240,13 @@
     "instructor": "Jeffrey L. Kolb",
     "seats_open": 7,
     "seats_total": 17,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACR 102 or ACR 107 or ACR 108 or ACR 140",
+    "prerequisite_courses": [
+      "ACR 102",
+      "ACR 107",
+      "ACR 108",
+      "ACR 140"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -248,8 +266,10 @@
     "instructor": "Jeffrey L. Kolb",
     "seats_open": 12,
     "seats_total": 17,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACR 140",
+    "prerequisite_courses": [
+      "ACR 140"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -269,8 +289,11 @@
     "instructor": "Jaclyn Valenti",
     "seats_open": 3,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 100 and RDG 100",
+    "prerequisite_courses": [
+      "ENG 100",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -290,8 +313,11 @@
     "instructor": "Ms. Katlin B. Green",
     "seats_open": 2,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 100 and RDG 100",
+    "prerequisite_courses": [
+      "ENG 100",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -311,8 +337,11 @@
     "instructor": "Jaclyn Valenti",
     "seats_open": 8,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 100 and RDG 100",
+    "prerequisite_courses": [
+      "ENG 100",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -395,8 +424,16 @@
     "instructor": "Ms. Dawn M. Walz",
     "seats_open": 0,
     "seats_total": 6,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 103 or AHS 130 or BIO 112 or SUR 101 or SUR 110 and CPT 101 or CPT 170",
+    "prerequisite_courses": [
+      "AHS 103",
+      "AHS 130",
+      "BIO 112",
+      "SUR 101",
+      "SUR 110",
+      "CPT 101",
+      "CPT 170"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -416,8 +453,10 @@
     "instructor": "Ms. Mary A. Johnson",
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AHS 102",
+    "prerequisite_courses": [
+      "AHS 102"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -521,8 +560,10 @@
     "instructor": "Ms. Erika H. Johnson",
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100",
+    "prerequisite_courses": [
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -794,8 +835,10 @@
     "instructor": "Mr. Timothy S. Newsome",
     "seats_open": 3,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EEM 171",
+    "prerequisite_courses": [
+      "EEM 171"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -815,8 +858,10 @@
     "instructor": "Mr. Timothy S. Newsome",
     "seats_open": 4,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EEM 171",
+    "prerequisite_courses": [
+      "EEM 171"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1067,8 +1112,10 @@
     "instructor": "Richard L. Jackson",
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 101",
+    "prerequisite_courses": [
+      "BIO 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1088,8 +1135,10 @@
     "instructor": "Richard L. Jackson",
     "seats_open": 8,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 101",
+    "prerequisite_courses": [
+      "BIO 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1214,8 +1263,12 @@
     "instructor": "Ms. Lakesha L. Allen",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 101 or BIO 112 or CHM 105",
+    "prerequisite_courses": [
+      "BIO 101",
+      "BIO 112",
+      "CHM 105"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1235,8 +1288,12 @@
     "instructor": "Ms. Stacee N. Phillips",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 101 or BIO 112 or CHM 105",
+    "prerequisite_courses": [
+      "BIO 101",
+      "BIO 112",
+      "CHM 105"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1256,8 +1313,12 @@
     "instructor": "Ms. Lakesha L. Allen",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 101 or BIO 112 or CHM 105",
+    "prerequisite_courses": [
+      "BIO 101",
+      "BIO 112",
+      "CHM 105"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1277,8 +1338,12 @@
     "instructor": "Ms. Lakesha L. Allen",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 101 or BIO 112 or CHM 105",
+    "prerequisite_courses": [
+      "BIO 101",
+      "BIO 112",
+      "CHM 105"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1298,8 +1363,12 @@
     "instructor": "Jeana Obryant",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 101 or BIO 112 or CHM 105",
+    "prerequisite_courses": [
+      "BIO 101",
+      "BIO 112",
+      "CHM 105"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1319,8 +1388,12 @@
     "instructor": "Jeana Obryant",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 101 or BIO 112 or CHM 105",
+    "prerequisite_courses": [
+      "BIO 101",
+      "BIO 112",
+      "CHM 105"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1340,8 +1413,12 @@
     "instructor": "Mr. David Little",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 101 or BIO 112 or CHM 105",
+    "prerequisite_courses": [
+      "BIO 101",
+      "BIO 112",
+      "CHM 105"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1361,8 +1438,10 @@
     "instructor": "Ms. Stacee N. Phillips",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 210",
+    "prerequisite_courses": [
+      "BIO 210"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1382,8 +1461,10 @@
     "instructor": "Lawrence Coleman",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 210",
+    "prerequisite_courses": [
+      "BIO 210"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1403,8 +1484,10 @@
     "instructor": "Ms. Lakesha L. Allen",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 210",
+    "prerequisite_courses": [
+      "BIO 210"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1424,8 +1507,10 @@
     "instructor": "Ms. Lakesha L. Allen",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 210",
+    "prerequisite_courses": [
+      "BIO 210"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1445,8 +1530,10 @@
     "instructor": "Ms. Stacee N. Phillips",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 210",
+    "prerequisite_courses": [
+      "BIO 210"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1466,8 +1553,10 @@
     "instructor": "Matthew J. Plantinga",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 210",
+    "prerequisite_courses": [
+      "BIO 210"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1487,8 +1576,11 @@
     "instructor": "Ms. Stacee N. Phillips",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 102 or BIO 210",
+    "prerequisite_courses": [
+      "BIO 102",
+      "BIO 210"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1508,8 +1600,11 @@
     "instructor": "Ms. Stacee N. Phillips",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 102 or BIO 210",
+    "prerequisite_courses": [
+      "BIO 102",
+      "BIO 210"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1529,8 +1624,11 @@
     "instructor": "Richard L. Jackson",
     "seats_open": 7,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 102 or BIO 210",
+    "prerequisite_courses": [
+      "BIO 102",
+      "BIO 210"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1550,8 +1648,10 @@
     "instructor": "Ms. Kylyn N. Mondor",
     "seats_open": 0,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 100",
+    "prerequisite_courses": [
+      "ENG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1571,8 +1671,10 @@
     "instructor": "Mrs. Tracy Cheatham",
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHM 110",
+    "prerequisite_courses": [
+      "CHM 110"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1739,8 +1841,11 @@
     "instructor": "Ms. Zandra D. Mungin",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 032 or RDG 100",
+    "prerequisite_courses": [
+      "MAT 032",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1760,8 +1865,11 @@
     "instructor": "Charles Boyles",
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 032 or RDG 100",
+    "prerequisite_courses": [
+      "MAT 032",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1781,8 +1889,11 @@
     "instructor": "Ms. Patricia Riley",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 032 or RDG 100",
+    "prerequisite_courses": [
+      "MAT 032",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1802,8 +1913,11 @@
     "instructor": "Ms. Latesha C. Smith",
     "seats_open": 4,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 032 or RDG 100",
+    "prerequisite_courses": [
+      "MAT 032",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1823,8 +1937,11 @@
     "instructor": "Charles Boyles",
     "seats_open": 3,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 032 or RDG 100",
+    "prerequisite_courses": [
+      "MAT 032",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1844,8 +1961,11 @@
     "instructor": "Ms. Latesha C. Smith",
     "seats_open": 2,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 032 or RDG 100",
+    "prerequisite_courses": [
+      "MAT 032",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1865,8 +1985,11 @@
     "instructor": "Charles Boyles",
     "seats_open": 2,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 032 or RDG 100",
+    "prerequisite_courses": [
+      "MAT 032",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1886,8 +2009,11 @@
     "instructor": "Ms. Amanda L. Curry",
     "seats_open": 6,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 032 and RDG 100",
+    "prerequisite_courses": [
+      "MAT 032",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1907,8 +2033,11 @@
     "instructor": "Ms. Amanda L. Curry",
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 032 and RDG 100",
+    "prerequisite_courses": [
+      "MAT 032",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1928,8 +2057,12 @@
     "instructor": "Ms. Latesha C. Smith",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 100 or MAT 101 or RDG 100",
+    "prerequisite_courses": [
+      "ENG 100",
+      "MAT 101",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1949,8 +2082,11 @@
     "instructor": "Angela F. Kern",
     "seats_open": 7,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100 or MAT 032",
+    "prerequisite_courses": [
+      "RDG 100",
+      "MAT 032"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1970,8 +2106,10 @@
     "instructor": "Mr. Orlando M. Macias Sanchez",
     "seats_open": 11,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CPT 242",
+    "prerequisite_courses": [
+      "CPT 242"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -1991,8 +2129,10 @@
     "instructor": "Samuel T. Akers",
     "seats_open": 6,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100",
+    "prerequisite_courses": [
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2012,8 +2152,11 @@
     "instructor": "Samuel T. Akers",
     "seats_open": 1,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRJ 101 or RDG 100",
+    "prerequisite_courses": [
+      "CRJ 101",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2054,8 +2197,11 @@
     "instructor": "Ms. Latasha D. Robinson",
     "seats_open": 10,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRJ 230 or RDG 100",
+    "prerequisite_courses": [
+      "CRJ 230",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2075,8 +2221,11 @@
     "instructor": "Samuel T. Akers",
     "seats_open": 12,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRJ 101 or RDG 100",
+    "prerequisite_courses": [
+      "CRJ 101",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2096,8 +2245,11 @@
     "instructor": "Samuel T. Akers",
     "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRJ 101 or RDG 100",
+    "prerequisite_courses": [
+      "CRJ 101",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2117,8 +2269,11 @@
     "instructor": "Samuel T. Akers",
     "seats_open": 10,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRJ 101 or RDG 100",
+    "prerequisite_courses": [
+      "CRJ 101",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2159,8 +2314,11 @@
     "instructor": "David R. Bustamante",
     "seats_open": 3,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100 or MAT 032",
+    "prerequisite_courses": [
+      "RDG 100",
+      "MAT 032"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2180,8 +2338,11 @@
     "instructor": "David R. Bustamante",
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100 or MAT 032",
+    "prerequisite_courses": [
+      "RDG 100",
+      "MAT 032"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2201,8 +2362,11 @@
     "instructor": "Mr. Brant Huff",
     "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100 or MAT 032",
+    "prerequisite_courses": [
+      "RDG 100",
+      "MAT 032"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2222,8 +2386,11 @@
     "instructor": "David R. Bustamante",
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100 or MAT 032",
+    "prerequisite_courses": [
+      "RDG 100",
+      "MAT 032"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2243,8 +2410,10 @@
     "instructor": "David R. Bustamante",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100",
+    "prerequisite_courses": [
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2264,8 +2433,10 @@
     "instructor": "David R. Bustamante",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CYB 110",
+    "prerequisite_courses": [
+      "CYB 110"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2327,8 +2498,10 @@
     "instructor": "David R. Bustamante",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CYB 293",
+    "prerequisite_courses": [
+      "CYB 293"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2348,8 +2521,11 @@
     "instructor": "Kelli L. Boniecki",
     "seats_open": 2,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECD 101 or RDG 100",
+    "prerequisite_courses": [
+      "ECD 101",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2369,8 +2545,11 @@
     "instructor": "Kelli L. Boniecki",
     "seats_open": 2,
     "seats_total": 9,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECD 106 or ECD 237",
+    "prerequisite_courses": [
+      "ECD 106",
+      "ECD 237"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2558,8 +2737,10 @@
     "instructor": "Robert A. Beach",
     "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100",
+    "prerequisite_courses": [
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2873,8 +3054,10 @@
     "instructor": "Daniel F. Herrin",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2894,8 +3077,10 @@
     "instructor": "Daniel F. Herrin",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2915,8 +3100,10 @@
     "instructor": "Mrs. Erin McCoy",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2936,8 +3123,10 @@
     "instructor": "Mrs. Heather L. Weiss",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2957,8 +3146,10 @@
     "instructor": "Mr. Russell D. Keevy",
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2978,8 +3169,10 @@
     "instructor": "Mr. Russell D. Keevy",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -2999,8 +3192,10 @@
     "instructor": "Mr. Russell D. Keevy",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3020,8 +3215,10 @@
     "instructor": "Shana M.Hirsch",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3041,8 +3238,10 @@
     "instructor": "Mrs. Erin McCoy",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3062,8 +3261,10 @@
     "instructor": "Matthew Turner",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3083,8 +3284,10 @@
     "instructor": "Shana M.Hirsch",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3102,10 +3305,12 @@
     "campus": "ONL",
     "mode": "online",
     "instructor": "Jeffrey A. McQuillen",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3125,8 +3330,10 @@
     "instructor": "Mr. Russell D. Keevy",
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 102",
+    "prerequisite_courses": [
+      "ENG 102"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3146,8 +3353,10 @@
     "instructor": "Mrs. Heather L. Weiss",
     "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 102",
+    "prerequisite_courses": [
+      "ENG 102"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3167,8 +3376,10 @@
     "instructor": "Mrs. Heather L. Weiss",
     "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3356,8 +3567,11 @@
     "instructor": "Robert Rusnak",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 100 and RDG 100",
+    "prerequisite_courses": [
+      "ENG 100",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3377,8 +3591,11 @@
     "instructor": "Robert Rusnak",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 100 and RDG 100",
+    "prerequisite_courses": [
+      "ENG 100",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3398,8 +3615,11 @@
     "instructor": "Mr. Gregory Mauriocourt",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 100 and RDG 100",
+    "prerequisite_courses": [
+      "ENG 100",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3419,8 +3639,11 @@
     "instructor": "David R. Bustamante",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100 or MAT 032",
+    "prerequisite_courses": [
+      "RDG 100",
+      "MAT 032"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3461,8 +3684,11 @@
     "instructor": "Robert A. Beach",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100 or MAT 032",
+    "prerequisite_courses": [
+      "RDG 100",
+      "MAT 032"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3482,8 +3708,11 @@
     "instructor": "Robert A. Beach",
     "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100 or MAT 032",
+    "prerequisite_courses": [
+      "RDG 100",
+      "MAT 032"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3503,8 +3732,11 @@
     "instructor": "Mr. James W. Springer",
     "seats_open": 20,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RDG 100 or MAT 032",
+    "prerequisite_courses": [
+      "RDG 100",
+      "MAT 032"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3524,8 +3756,11 @@
     "instructor": "Mr. Walter N. Gnann",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "IST 190 or IST 191",
+    "prerequisite_courses": [
+      "IST 190",
+      "IST 191"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3545,8 +3780,12 @@
     "instructor": "Ms. Amanda L. Curry",
     "seats_open": 15,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 100 or MAT 101 or RDG 100",
+    "prerequisite_courses": [
+      "ENG 100",
+      "MAT 101",
+      "RDG 100"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3566,8 +3805,10 @@
     "instructor": "Mr. James W. Springer",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "IST 291",
+    "prerequisite_courses": [
+      "IST 291"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3587,8 +3828,11 @@
     "instructor": "Mr. Brian D. McDaniel",
     "seats_open": 14,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101 and LEG 135",
+    "prerequisite_courses": [
+      "ENG 101",
+      "LEG 135"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3608,8 +3852,11 @@
     "instructor": "Mr. Brian D. McDaniel",
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101 and LEG 120",
+    "prerequisite_courses": [
+      "ENG 101",
+      "LEG 120"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3650,8 +3897,11 @@
     "instructor": "Mr. Brian D. McDaniel",
     "seats_open": 15,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101 and LEG 135",
+    "prerequisite_courses": [
+      "ENG 101",
+      "LEG 135"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3671,8 +3921,13 @@
     "instructor": "Mr. Brian D. McDaniel",
     "seats_open": 15,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEG 120 and LEG 213 and LEG 214 and LEG 233",
+    "prerequisite_courses": [
+      "LEG 120",
+      "LEG 213",
+      "LEG 214",
+      "LEG 233"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -3965,8 +4220,10 @@
     "instructor": "Andrew Passarello",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 110",
+    "prerequisite_courses": [
+      "MAT 110"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -4175,8 +4432,10 @@
     "instructor": "Mr. James D. Daniels",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 110",
+    "prerequisite_courses": [
+      "MAT 110"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -4196,8 +4455,10 @@
     "instructor": "Mr. James D. Daniels",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 111",
+    "prerequisite_courses": [
+      "MAT 111"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -4217,8 +4478,10 @@
     "instructor": "Andrew Passarello",
     "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 140",
+    "prerequisite_courses": [
+      "MAT 140"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -4280,8 +4543,15 @@
     "instructor": "Jaclyn Valenti",
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MED 103 and MED 104 and MED 113 and MED 114 and ENG 101 and CPT 101",
+    "prerequisite_courses": [
+      "MED 103",
+      "MED 104",
+      "MED 113",
+      "MED 114",
+      "ENG 101",
+      "CPT 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -4322,8 +4592,16 @@
     "instructor": "Jaclyn Valenti",
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MED 103 and MED 104 and MED 112 and MED 109 and MED 114 and ENG 101 and CPT 101",
+    "prerequisite_courses": [
+      "MED 103",
+      "MED 104",
+      "MED 112",
+      "MED 109",
+      "MED 114",
+      "ENG 101",
+      "CPT 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -4364,8 +4642,16 @@
     "instructor": "Jaclyn Valenti",
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MED 103 and MED 104 and MED 112 and MED 109 and MED 113 and ENG 101 and CPT 101",
+    "prerequisite_courses": [
+      "MED 103",
+      "MED 104",
+      "MED 112",
+      "MED 109",
+      "MED 113",
+      "ENG 101",
+      "CPT 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -4406,8 +4692,16 @@
     "instructor": "Denise M. Van Nostran",
     "seats_open": 2,
     "seats_total": 11,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MTH 120 and MTH 121 and BIO 112 and MTH 132 and MTH 123 and MTH 126 and MTH 137",
+    "prerequisite_courses": [
+      "MTH 120",
+      "MTH 121",
+      "BIO 112",
+      "MTH 132",
+      "MTH 123",
+      "MTH 126",
+      "MTH 137"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -4448,8 +4742,16 @@
     "instructor": "Denise M. Van Nostran, Gaven A. Ruiz",
     "seats_open": 3,
     "seats_total": 6,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 112 and MTH 120 and MTH 121 and MTH 132 and MTH 122 and MTH 126 and MTH 137",
+    "prerequisite_courses": [
+      "BIO 112",
+      "MTH 120",
+      "MTH 121",
+      "MTH 132",
+      "MTH 122",
+      "MTH 126",
+      "MTH 137"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -4469,8 +4771,16 @@
     "instructor": "Denise M. Van Nostran, Ms. Chrystie L. Goody",
     "seats_open": 0,
     "seats_total": 6,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 112 and MTH 120 and MTH 121 and MTH 132 and MTH 122 and MTH 126 and MTH 137",
+    "prerequisite_courses": [
+      "BIO 112",
+      "MTH 120",
+      "MTH 121",
+      "MTH 132",
+      "MTH 122",
+      "MTH 126",
+      "MTH 137"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -4490,8 +4800,16 @@
     "instructor": "Denise M. Van Nostran",
     "seats_open": 2,
     "seats_total": 11,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 112 and MTH 120 and MTH 121 and MTH 132 and MTH 122 and MTH 123 and MTH 137",
+    "prerequisite_courses": [
+      "BIO 112",
+      "MTH 120",
+      "MTH 121",
+      "MTH 132",
+      "MTH 122",
+      "MTH 123",
+      "MTH 137"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -4532,8 +4850,17 @@
     "instructor": "Denise M. Van Nostran",
     "seats_open": 2,
     "seats_total": 11,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 112 and MTH 120 and MTH 121 and MTH 132 and MTH 122 and MTH 123 and MTH 126 and MTH 137",
+    "prerequisite_courses": [
+      "BIO 112",
+      "MTH 120",
+      "MTH 121",
+      "MTH 132",
+      "MTH 122",
+      "MTH 123",
+      "MTH 126",
+      "MTH 137"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -5435,8 +5762,10 @@
     "instructor": "Mr. Mikhail Agrest",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHY 201",
+    "prerequisite_courses": [
+      "PHY 201"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -5855,8 +6184,10 @@
     "instructor": "Christa Guicherit",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 201",
+    "prerequisite_courses": [
+      "PSY 201"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -5876,8 +6207,10 @@
     "instructor": "Christa Guicherit",
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 201",
+    "prerequisite_courses": [
+      "PSY 201"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -5897,8 +6230,10 @@
     "instructor": "Morgan A. Barnett",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 201",
+    "prerequisite_courses": [
+      "PSY 201"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -5918,8 +6253,10 @@
     "instructor": "Morgan A. Barnett",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 201",
+    "prerequisite_courses": [
+      "PSY 201"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -5939,8 +6276,10 @@
     "instructor": "Christa Guicherit",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 201",
+    "prerequisite_courses": [
+      "PSY 201"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -5960,8 +6299,10 @@
     "instructor": "Christa Guicherit",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 201",
+    "prerequisite_courses": [
+      "PSY 201"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -6212,8 +6553,13 @@
     "instructor": "Mr. Corey M. Johnson",
     "seats_open": 2,
     "seats_total": 17,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RAD 101 and RAD 130 and RAD 150 and MAT 110 and RAD 101",
+    "prerequisite_courses": [
+      "RAD 101",
+      "RAD 130",
+      "RAD 150",
+      "MAT 110"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -6401,8 +6747,12 @@
     "instructor": "Heather T. Elmquist, Mr. Corey M. Johnson, Mrs. Nakia R. Williams, Miss Constance E. Ginn",
     "seats_open": 0,
     "seats_total": 13,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RAD 176 and RAD 205 and RAD 230",
+    "prerequisite_courses": [
+      "RAD 176",
+      "RAD 205",
+      "RAD 230"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -6506,8 +6856,10 @@
     "instructor": "Samuel R. Brown",
     "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SOC 101",
+    "prerequisite_courses": [
+      "SOC 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -6569,8 +6921,10 @@
     "instructor": "Ms. Rosemary R. Hunt",
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPA 101",
+    "prerequisite_courses": [
+      "SPA 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -6590,8 +6944,10 @@
     "instructor": "Ms. Rosemary R. Hunt",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPA 101",
+    "prerequisite_courses": [
+      "SPA 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -6611,8 +6967,10 @@
     "instructor": "Joy H. Locke",
     "seats_open": 2,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -6632,8 +6990,10 @@
     "instructor": "Joy H. Locke",
     "seats_open": 0,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -6653,8 +7013,10 @@
     "instructor": "Joy H. Locke",
     "seats_open": 2,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -6674,8 +7036,10 @@
     "instructor": "Joy H. Locke",
     "seats_open": 2,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -6695,8 +7059,10 @@
     "instructor": "Ms. Allison J. Bailey",
     "seats_open": 0,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
@@ -6716,8 +7082,10 @@
     "instructor": "Ms. Allison J. Bailey",
     "seats_open": 0,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
   },
   {
     "college_code": "lowcountry",
