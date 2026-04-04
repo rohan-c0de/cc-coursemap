@@ -27,7 +27,14 @@ export async function GET(request: NextRequest, context: RouteContext) {
   const q = searchParams.get("q")?.trim() || "";
   const zip = searchParams.get("zip")?.trim() || undefined;
   const mode = searchParams.get("mode")?.trim() || undefined;
-  const day = searchParams.get("day")?.trim() || undefined;
+  // Support multi-day param (comma-separated) with backward compat for single "day" param
+  const daysParam = searchParams.get("days")?.trim();
+  const singleDay = searchParams.get("day")?.trim();
+  const days = daysParam
+    ? daysParam.split(",").map((d) => d.trim()).filter(Boolean)
+    : singleDay
+      ? [singleDay]
+      : undefined;
   const timeOfDay = searchParams.get("timeOfDay")?.trim() as
     | "morning"
     | "afternoon"
@@ -47,7 +54,7 @@ export async function GET(request: NextRequest, context: RouteContext) {
     await getCurrentTerm(state),
     q,
     institutions,
-    { mode, day, timeOfDay, zip },
+    { mode, days, timeOfDay, zip },
     limit,
     offset,
     state

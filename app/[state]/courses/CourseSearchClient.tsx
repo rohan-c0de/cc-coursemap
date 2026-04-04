@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import type { CourseMode } from "@/lib/types";
 import { expandDays } from "@/lib/time-utils";
+import DayToggle from "@/components/DayToggle";
 
 // ---------------------------------------------------------------------------
 // Types matching the API response
@@ -61,15 +62,7 @@ const MODE_STYLES: Record<CourseMode, { bg: string; text: string; label: string 
   zoom: { bg: "bg-orange-50", text: "text-orange-700", label: "Zoom" },
 };
 
-const DAY_OPTIONS = [
-  { value: "", label: "Any Day" },
-  { value: "M", label: "Monday" },
-  { value: "Tu", label: "Tuesday" },
-  { value: "W", label: "Wednesday" },
-  { value: "Th", label: "Thursday" },
-  { value: "F", label: "Friday" },
-  { value: "Sa", label: "Saturday" },
-];
+// DAY_OPTIONS removed — replaced by DayToggle component
 
 function isValidTime(t: string): boolean {
   return !!t && t !== "TBA" && t !== "0:00 AM" && t !== "0:00 PM";
@@ -114,7 +107,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
   const [query, setQuery] = useState(initialQuery);
   const [zip, setZip] = useState("");
   const [mode, setMode] = useState("");
-  const [day, setDay] = useState("");
+  const [days, setDays] = useState<string[]>([]);
   const [timeOfDay, setTimeOfDay] = useState("");
 
   const [transferTo, setTransferTo] = useState("");
@@ -158,7 +151,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
       const params = new URLSearchParams({ q: searchQuery.trim(), limit: "50" });
       if (zip) params.set("zip", zip);
       if (mode) params.set("mode", mode);
-      if (day) params.set("day", day);
+      if (days.length > 0) params.set("days", days.join(","));
       if (timeOfDay) params.set("timeOfDay", timeOfDay);
 
       const res = await fetch(`/api/${state}/courses/search?${params}`);
@@ -188,7 +181,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
       setResults(null);
     }
     setLoading(false);
-  }, [state, zip, mode, day, timeOfDay]);
+  }, [state, zip, mode, days, timeOfDay]);
 
   async function handleSearch(e: React.FormEvent) {
     e.preventDefault();
@@ -303,17 +296,11 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
               </select>
             </div>
 
-            <div className="min-w-[120px]">
-              <label className="block text-xs font-medium text-gray-500 mb-1">Day</label>
-              <select
-                value={day}
-                onChange={(e) => setDay(e.target.value)}
-                className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
-              >
-                {DAY_OPTIONS.map((d) => (
-                  <option key={d.value} value={d.value}>{d.label}</option>
-                ))}
-              </select>
+            <div>
+              <label className="block text-xs font-medium text-gray-500 mb-1">
+                {days.length > 0 ? "Days" : "Day"}
+              </label>
+              <DayToggle selectedDays={days} onChange={setDays} />
             </div>
 
             <div className="min-w-[130px]">

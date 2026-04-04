@@ -264,10 +264,11 @@ function matchesTimeOfDay(
   }
 }
 
-/** Check if a course meets on a given day */
-function sectionMatchesDay(days: string, filterDay: string): boolean {
+/** Check if a course meets on ANY of the given filter days (OR logic) */
+function sectionMatchesDays(days: string, filterDays: string[]): boolean {
   if (!days) return false;
-  return days.split(" ").includes(filterDay);
+  const tokens = days.split(" ");
+  return filterDays.some((fd) => tokens.includes(fd));
 }
 
 export interface CourseGroup {
@@ -299,7 +300,7 @@ export async function searchCoursesAcrossColleges(
   institutions: Institution[],
   filters: {
     mode?: string;
-    day?: string;
+    days?: string[];
     timeOfDay?: "morning" | "afternoon" | "evening";
     zip?: string;
   } = {},
@@ -337,7 +338,7 @@ export async function searchCoursesAcrossColleges(
 
     // Filters
     if (filters.mode && s.mode !== filters.mode) return false;
-    if (filters.day && !sectionMatchesDay(s.days, filters.day)) return false;
+    if (filters.days && filters.days.length > 0 && !sectionMatchesDays(s.days, filters.days)) return false;
     if (filters.timeOfDay && !matchesTimeOfDay(s.start_time, filters.timeOfDay))
       return false;
 

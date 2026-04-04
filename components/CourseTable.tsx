@@ -4,6 +4,7 @@ import { useState, useMemo, useCallback } from "react";
 import type { CourseSection, CourseMode } from "@/lib/types";
 import { getCourseStatus, formatStartInfo, isInProgress, type CourseStatus } from "@/lib/course-status";
 import { expandDays } from "@/lib/time-utils";
+import DayToggle from "@/components/DayToggle";
 
 type TransferLookup = Record<
   string,
@@ -73,23 +74,15 @@ function formatSchedule(course: CourseSection): string {
   return "Asynchronous / Online";
 }
 
-const DAY_OPTIONS = [
-  { value: "M", label: "Monday" },
-  { value: "Tu", label: "Tuesday" },
-  { value: "W", label: "Wednesday" },
-  { value: "Th", label: "Thursday" },
-  { value: "F", label: "Friday" },
-  { value: "Sa", label: "Saturday" },
-] as const;
-
-function courseMatchesDay(courseDays: string, filterDay: string): boolean {
+function courseMatchesDays(courseDays: string, filterDays: string[]): boolean {
   if (!courseDays) return false;
   // Extract day tokens — handles "M Tu W", "M T W Th", and "MTuWThF" formats
   const tokens = courseDays.match(/[A-Z][a-z]?/g);
   if (!tokens) return false;
   // Normalize: standalone "T" → "Tu" (some scrapers use T for Tuesday)
   const normalized = tokens.map((t) => (t === "T" ? "Tu" : t));
-  return normalized.includes(filterDay);
+  // OR logic: course matches if it meets on ANY selected day
+  return filterDays.some((fd) => normalized.includes(fd));
 }
 
 /** Sort: upcoming first (soonest start), then in-progress (most recent start first) */
@@ -237,7 +230,7 @@ function TransferBadge({ prefix, number, lookup }: { prefix: string; number: str
 
 export default function CourseTable({ courses, collegeSlug, courseListingUrl, systemName = "VCCS", onAuditClick, pinnedCRNs, onTogglePin, transferLookup }: CourseTableProps) {
   const [subjectFilter, setSubjectFilter] = useState("");
-  const [dayFilter, setDayFilter] = useState("");
+  const [dayFilters, setDayFilters] = useState<string[]>([]);
   const [modeFilter, setModeFilter] = useState("");
   const [statusFilter, setStatusFilter] = useState("");
 
@@ -247,20 +240,20 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
   const filtered = useMemo(() => {
     const result = courses.filter((c) => {
       if (subjectFilter && c.course_prefix !== subjectFilter) return false;
-      if (dayFilter && !courseMatchesDay(c.days, dayFilter)) return false;
+      if (dayFilters.length > 0 && !courseMatchesDays(c.days, dayFilters)) return false;
       if (modeFilter && c.mode !== modeFilter) return false;
       if (statusFilter === "upcoming" && isInProgress(c.start_date)) return false;
       if (statusFilter === "in-progress" && !isInProgress(c.start_date)) return false;
       return true;
     });
     return sortByStartDate(result);
-  }, [courses, subjectFilter, dayFilter, modeFilter, statusFilter]);
+  }, [courses, subjectFilter, dayFilters, modeFilter, statusFilter]);
 
-  const activeFilters = [subjectFilter, dayFilter, modeFilter, statusFilter].filter(Boolean).length;
+  const activeFilters = [subjectFilter, dayFilters.length > 0 ? "days" : "", modeFilter, statusFilter].filter(Boolean).length;
 
   const clearFilters = () => {
     setSubjectFilter("");
-    setDayFilter("");
+    setDayFilters([]);
     setModeFilter("");
     setStatusFilter("");
   };
@@ -287,22 +280,11 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
           </select>
         </div>
 
-        <div className="min-w-[120px]">
+        <div>
           <label className="mb-1 block text-xs font-medium text-gray-600">
-            Day
+            {dayFilters.length > 0 ? "Days" : "Day"}
           </label>
-          <select
-            value={dayFilter}
-            onChange={(e) => setDayFilter(e.target.value)}
-            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
-          >
-            <option value="">Any Day</option>
-            {DAY_OPTIONS.map((d) => (
-              <option key={d.value} value={d.value}>
-                {d.label}
-              </option>
-            ))}
-          </select>
+          <DayToggle selectedDays={dayFilters} onChange={setDayFilters} />
         </div>
 
         <div className="min-w-[130px]">
