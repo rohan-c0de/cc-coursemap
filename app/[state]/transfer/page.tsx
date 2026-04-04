@@ -25,10 +25,10 @@ export default async function TransferPage({ params }: Props) {
   const { state } = await params;
   const config = getStateConfig(state);
   if (!config.transferSupported) notFound();
-  const universities = getUniversities(state);
+  const universities = await getUniversities(state);
   const defaultUni = universities[0]?.slug || "";
   // Pass ALL mappings — client filters by selected university
-  const mappings = loadTransferMappings(state);
+  const mappings = await loadTransferMappings(state);
 
   // Get course availability for current term (matches what course search shows)
   const allCourses = await loadAllCourses(await getCurrentTerm(state), state);

@@ -306,6 +306,13 @@ async function main() {
     console.log(`\nNo sections found for ${termName}`);
   }
 
+  // Auto-import into Supabase (skip with --no-import)
+  const cliArgs = process.argv.slice(2);
+  if (!cliArgs.includes("--no-import")) {
+    const { importCoursesToSupabase } = await import("../lib/supabase-import");
+    await importCoursesToSupabase("sc");
+  }
+
   console.log("Done.");
 }
 

@@ -702,6 +702,13 @@ async function main() {
   }
 
   await browser.close();
+
+  // Auto-import into Supabase (skip with --no-import)
+  if (!args.includes("--no-import")) {
+    const { importCoursesToSupabase } = await import("../lib/supabase-import");
+    await importCoursesToSupabase("nc");
+  }
+
   console.log("\nDone.");
 }
 

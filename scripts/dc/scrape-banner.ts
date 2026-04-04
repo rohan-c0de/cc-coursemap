@@ -367,6 +367,12 @@ async function main() {
     totalSections += converted.length;
   }
 
+  // Auto-import into Supabase (skip with --no-import)
+  if (!process.argv.includes("--no-import")) {
+    const { importCoursesToSupabase } = await import("../lib/supabase-import");
+    await importCoursesToSupabase("dc");
+  }
+
   console.log(`\nDone! ${totalSections} total sections across ${targetTerms.length} terms.`);
 }
 

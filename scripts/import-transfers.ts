@@ -1,15 +1,14 @@
 /**
- * import-courses.ts
+ * import-transfers.ts
  *
- * Bulk import course data from JSON files into Supabase.
- * This is a thin wrapper around the shared import module.
+ * Bulk import transfer equivalency data from JSON files into Supabase.
  *
  * Usage:
- *   npx tsx scripts/import-courses.ts --state va
- *   npx tsx scripts/import-courses.ts --all
+ *   npx tsx scripts/import-transfers.ts --state va
+ *   npx tsx scripts/import-transfers.ts --all
  */
 
-import { importCoursesToSupabase } from "./lib/supabase-import";
+import { importTransfersToSupabase } from "./lib/supabase-import";
 
 const ALL_STATES = ["va", "nc", "sc", "dc"];
 
@@ -31,21 +30,21 @@ async function main() {
   } else {
     console.log(
       "Usage:\n" +
-        "  npx tsx scripts/import-courses.ts --state va\n" +
-        "  npx tsx scripts/import-courses.ts --all"
+        "  npx tsx scripts/import-transfers.ts --state va\n" +
+        "  npx tsx scripts/import-transfers.ts --all"
     );
     return;
   }
 
-  console.log(`Importing courses for: ${states.join(", ")}`);
+  console.log(`Importing transfers for: ${states.join(", ")}`);
 
   let grandTotal = 0;
   for (const state of states) {
-    const count = await importCoursesToSupabase(state);
+    const count = await importTransfersToSupabase(state);
     grandTotal += count || 0;
   }
 
-  console.log(`\nDone. Total: ${grandTotal} sections imported.`);
+  console.log(`\nDone. Total: ${grandTotal} transfer mappings imported.`);
 }
 
 main().catch((err) => {

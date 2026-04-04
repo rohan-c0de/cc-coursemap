@@ -422,6 +422,12 @@ async function main() {
 
   console.log(`\n${"=".repeat(50)}`);
   console.log(`✅ Done! ${totalSections} total sections across ${targetSlugs.length} colleges`);
+
+  // Auto-import into Supabase (skip with --no-import)
+  if (!args.includes("--no-import")) {
+    const { importCoursesToSupabase } = await import("../lib/supabase-import");
+    await importCoursesToSupabase("va");
+  }
 }
 
 main().catch((err) => {

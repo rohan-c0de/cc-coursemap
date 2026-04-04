@@ -15,8 +15,8 @@ export async function GET(_request: NextRequest, context: RouteContext) {
   }
 
   if (!cachedResponses[state]) {
-    const lookup = buildTransferLookup(state);
-    const universities = getUniversities(state);
+    const lookup = await buildTransferLookup(state);
+    const universities = await getUniversities(state);
     cachedResponses[state] = JSON.stringify({ lookup, universities });
   }
 

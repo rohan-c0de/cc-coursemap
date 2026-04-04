@@ -430,7 +430,7 @@ export default async function CollegeDetailPage(props: PageProps) {
             courses={courses}
             institution={institution}
             collegeSlug={collegeSlug}
-            transferLookup={buildTransferLookup(state)}
+            transferLookup={await buildTransferLookup(state)}
             systemName={config.systemName}
             courseListingUrl={config.courseDiscoveryUrl(collegeSlug, "__PREFIX__", "__NUMBER__")}
           />

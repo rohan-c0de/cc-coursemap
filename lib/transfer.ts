@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import type { TransferMapping } from "./types";
+import { supabase } from "./supabase";
 
 function dataPath(state = "va"): string {
   return path.join(process.cwd(), "data", state, "transfer-equiv.json");
@@ -9,9 +10,49 @@ function dataPath(state = "va"): string {
 // Module-level cache (keyed by state)
 let cache: { state: string; data: TransferMapping[] } | null = null;
 
-/** Load all transfer mappings from the JSON file. Cached after first load. */
-export function loadTransferMappings(state = "va"): TransferMapping[] {
+const PAGE_SIZE = 5000;
+
+/**
+ * Load all transfer mappings from Supabase (with local JSON fallback).
+ * Cached after first load.
+ */
+export async function loadTransferMappings(
+  state = "va"
+): Promise<TransferMapping[]> {
   if (cache && cache.state === state) return cache.data;
+
+  // Try Supabase first
+  try {
+    const allData: TransferMapping[] = [];
+    let offset = 0;
+    let hasMore = true;
+
+    while (hasMore) {
+      const { data, error } = await supabase
+        .from("transfers")
+        .select(
+          "cc_prefix, cc_number, cc_course, cc_title, cc_credits, university, university_name, univ_course, univ_title, univ_credits, notes, no_credit, is_elective"
+        )
+        .eq("state", state)
+        .range(offset, offset + PAGE_SIZE - 1);
+
+      if (error) throw error;
+      if (!data || data.length === 0) break;
+
+      allData.push(...(data as TransferMapping[]));
+      hasMore = data.length === PAGE_SIZE;
+      offset += PAGE_SIZE;
+    }
+
+    if (allData.length > 0) {
+      cache = { state, data: allData };
+      return allData;
+    }
+  } catch {
+    // Supabase unavailable or table doesn't exist yet — fall through
+  }
+
+  // Fallback to local JSON file
   try {
     const raw = fs.readFileSync(dataPath(state), "utf-8");
     const data = JSON.parse(raw) as TransferMapping[];
@@ -22,13 +63,13 @@ export function loadTransferMappings(state = "va"): TransferMapping[] {
   }
 }
 
-/** Get all transfer mappings for a specific VCCS course. */
-export function getTransferInfo(
+/** Get all transfer mappings for a specific community college course. */
+export async function getTransferInfo(
   prefix: string,
   number: string,
   state = "va"
-): TransferMapping[] {
-  const mappings = loadTransferMappings(state);
+): Promise<TransferMapping[]> {
+  const mappings = await loadTransferMappings(state);
   return mappings.filter(
     (m) => m.cc_prefix === prefix && m.cc_number === number
   );
@@ -41,12 +82,12 @@ export function getTransferInfo(
  *   "✗ No VT credit"
  *   null if no data
  */
-export function transferSummaryLine(
+export async function transferSummaryLine(
   prefix: string,
   number: string,
   state = "va"
-): { text: string; type: "direct" | "elective" | "no-credit" } | null {
-  const info = getTransferInfo(prefix, number, state);
+): Promise<{ text: string; type: "direct" | "elective" | "no-credit" } | null> {
+  const info = await getTransferInfo(prefix, number, state);
   if (info.length === 0) return null;
 
   // Use first mapping (usually one per course per university)
@@ -66,30 +107,30 @@ export function transferSummaryLine(
   };
 }
 
-/** Get all universities that accept a given VCCS course (excludes no-credit). */
-export function getAcceptingUniversities(
+/** Get all universities that accept a given course (excludes no-credit). */
+export async function getAcceptingUniversities(
   prefix: string,
   number: string,
   state = "va"
-): string[] {
-  const info = getTransferInfo(prefix, number, state);
-  return info
-    .filter((m) => !m.no_credit)
-    .map((m) => m.university_name);
+): Promise<string[]> {
+  const info = await getTransferInfo(prefix, number, state);
+  return info.filter((m) => !m.no_credit).map((m) => m.university_name);
 }
 
 /** Get all mappings for a specific university. */
-export function getCoursesForUniversity(
+export async function getCoursesForUniversity(
   university: string,
   state = "va"
-): TransferMapping[] {
-  const mappings = loadTransferMappings(state);
+): Promise<TransferMapping[]> {
+  const mappings = await loadTransferMappings(state);
   return mappings.filter((m) => m.university === university);
 }
 
 /** Get the list of all universities in the dataset. */
-export function getUniversities(state = "va"): { slug: string; name: string }[] {
-  const mappings = loadTransferMappings(state);
+export async function getUniversities(
+  state = "va"
+): Promise<{ slug: string; name: string }[]> {
+  const mappings = await loadTransferMappings(state);
   const seen = new Map<string, string>();
   for (const m of mappings) {
     if (!seen.has(m.university)) {
@@ -103,14 +144,24 @@ export function getUniversities(state = "va"): { slug: string; name: string }[] 
  * Build a lookup map for client-side filtering:
  * { "ENG-111": [{ university: "vt", type: "direct" }], ... }
  */
-export function buildTransferLookup(state = "va"): Record<
-  string,
-  { university: string; type: "direct" | "elective" | "no-credit"; course: string }[]
+export async function buildTransferLookup(state = "va"): Promise<
+  Record<
+    string,
+    {
+      university: string;
+      type: "direct" | "elective" | "no-credit";
+      course: string;
+    }[]
+  >
 > {
-  const mappings = loadTransferMappings(state);
+  const mappings = await loadTransferMappings(state);
   const lookup: Record<
     string,
-    { university: string; type: "direct" | "elective" | "no-credit"; course: string }[]
+    {
+      university: string;
+      type: "direct" | "elective" | "no-credit";
+      course: string;
+    }[]
   > = {};
 
   for (const m of mappings) {

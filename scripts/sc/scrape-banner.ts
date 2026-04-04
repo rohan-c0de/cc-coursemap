@@ -587,6 +587,12 @@ async function main() {
     await sleep(DELAY_MS);
   }
 
+  // Auto-import into Supabase (skip with --no-import)
+  if (!args.includes("--no-import")) {
+    const { importCoursesToSupabase } = await import("../lib/supabase-import");
+    await importCoursesToSupabase("sc");
+  }
+
   console.log("\nDone.");
 }
 
