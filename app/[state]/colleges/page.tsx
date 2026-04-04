@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const config = getStateConfig(state);
   return {
     title: `All ${config.collegeCount} ${config.systemName} Colleges — ${config.branding.siteName}`,
-    description: `Browse all ${config.name} community colleges and their course auditing policies.`,
+    description: `Browse all ${config.name} community colleges — see course counts, transfer data, and campus locations.`,
   };
 }
 
@@ -43,7 +43,7 @@ export default async function CollegesPage({ params }: Props) {
     courseCountMap.set(inst.college_slug, count);
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.auditmap.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://cc-coursemap.vercel.app";
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -58,7 +58,7 @@ export default async function CollegesPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: `All ${config.collegeCount} ${config.systemName} Colleges`,
-    description: `Browse all ${config.name} community colleges and their course auditing policies.`,
+    description: `Browse all ${config.name} community colleges — see course counts, transfer data, and campus locations.`,
     url: `${siteUrl}/${state}/colleges`,
     numberOfItems: sorted.length,
     itemListElement: sorted.map((inst, i) => ({
@@ -93,8 +93,8 @@ export default async function CollegesPage({ params }: Props) {
         All {config.collegeCount} {config.systemName} Colleges
       </h1>
       <p className="text-gray-600 mb-8">
-        {verifiedCount} with verified audit policies · {unverifiedCount} pending
-        verification
+        Browse courses, check transfers, and find audit policies across all{" "}
+        {config.collegeCount} colleges.
       </p>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

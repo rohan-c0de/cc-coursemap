@@ -10,20 +10,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
   const config = getStateConfig(state);
   return {
-    title: `About Course Auditing — ${config.branding.siteName}`,
-    description: `Learn what course auditing is, how it works at ${config.name} community colleges, and whether you're eligible.`,
+    title: `About — ${config.branding.siteName}`,
+    description: `Learn about ${config.branding.siteName} — search courses, check transfer equivalencies, build schedules, and find auditing info for ${config.name} community colleges.`,
   };
 }
 
 export default async function AboutPage({ params }: Props) {
   const { state } = await params;
   const config = getStateConfig(state);
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.auditmap.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://cc-coursemap.vercel.app";
 
   const faqLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
+      {
+        "@type": "Question",
+        name: "What is CC CourseMap?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "CC CourseMap is a free course finder for community colleges. Search courses across all colleges, check transfer equivalencies, build schedules, and find auditing info.",
+        },
+      },
       {
         "@type": "Question",
         name: "What is course auditing?",
@@ -86,10 +94,24 @@ export default async function AboutPage({ params }: Props) {
       </Link>
 
       <h1 className="text-3xl font-bold text-gray-900 mb-8">
-        About Course Auditing
+        About CC CourseMap
       </h1>
 
       <div className="space-y-8">
+        {/* What is CC CourseMap */}
+        <section>
+          <h2 className="text-xl font-semibold text-gray-900 mb-3">
+            What is CC CourseMap?
+          </h2>
+          <p className="text-gray-600">
+            CC CourseMap is a free tool for finding and comparing community
+            college courses across {config.name}. Search by subject or keyword,
+            check which courses transfer to your target university, build a
+            weekly schedule, and find late-start classes still open for
+            registration.
+          </p>
+        </section>
+
         {/* What is auditing */}
         <section>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">
@@ -238,11 +260,11 @@ export default async function AboutPage({ params }: Props) {
             About {config.branding.siteName}
           </h2>
           <p className="text-gray-600 mb-3">
-            {config.branding.siteName} is a free tool that helps you find and
-            navigate course auditing opportunities at {config.name} community
-            colleges. We aggregate course listings from the {config.systemName}{" "}
-            system and pair them with manually researched audit policies for each
-            college.
+            {config.branding.siteName} is a free tool that helps you search,
+            compare, and plan community college courses across {config.name}. We
+            aggregate course listings from the {config.systemName} system and
+            pair them with transfer equivalency data and manually researched
+            audit policies.
           </p>
           <p className="text-gray-600 mb-3">
             Every audit policy on this site includes a &quot;last verified&quot;

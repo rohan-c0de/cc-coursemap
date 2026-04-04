@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const config = getStateConfig(state);
   const b = config.branding;
   return {
-    title: `${b.siteName} — Find Community College Courses to Audit`,
+    title: `${b.siteName} — Community College Course Finder`,
     description: b.tagline,
     keywords: b.metaKeywords,
   };
@@ -28,14 +28,6 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <div>
-      {config.seniorWaiver && (
-        <SeniorBanner
-          bannerTitle={config.seniorWaiver.bannerTitle}
-          bannerSummary={config.seniorWaiver.bannerSummary}
-          bannerDetail={config.seniorWaiver.bannerDetail}
-        />
-      )}
-
       {/* Search section */}
       <section id="search" className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
@@ -56,7 +48,7 @@ export default async function HomePage({ params }: Props) {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-12">
-            How Course Auditing Works
+            How It Works
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
@@ -67,8 +59,8 @@ export default async function HomePage({ params }: Props) {
                 Find a College
               </h3>
               <p className="text-gray-600 text-sm">
-                Enter your zip code to find nearby community colleges that allow
-                auditing. We show you which ones have verified audit policies.
+                Enter your zip code to find nearby community colleges. Browse
+                courses, check transfer info, and compare schedules.
               </p>
             </div>
             <div className="text-center">
@@ -88,16 +80,25 @@ export default async function HomePage({ params }: Props) {
                 3
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">
-                Apply to Audit
+                Enroll or Audit
               </h3>
               <p className="text-gray-600 text-sm">
-                Follow the college-specific steps we provide — including forms,
-                contacts, and a pre-written email template.
+                Enroll for credit, or audit without grades. We provide
+                college-specific steps, contacts, and email templates.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      {/* Senior waiver banner — secondary position */}
+      {config.seniorWaiver && (
+        <SeniorBanner
+          bannerTitle={config.seniorWaiver.bannerTitle}
+          bannerSummary={config.seniorWaiver.bannerSummary}
+          bannerDetail={config.seniorWaiver.bannerDetail}
+        />
+      )}
 
       {/* Notify banner */}
       <section className="px-4 sm:px-6 lg:px-8 pb-8">

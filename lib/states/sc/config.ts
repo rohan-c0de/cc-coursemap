@@ -77,7 +77,7 @@ const scConfig: StateConfig = {
   branding: {
     siteName: "CC CourseMap South Carolina",
     tagline:
-      "Search South Carolina technical college courses, check transfer equivalencies, and build your schedule. Tuition waived for SC residents 60+.",
+      "Search South Carolina technical college courses, check transfer equivalencies, and build your schedule.",
     footerText:
       "CC CourseMap South Carolina — Find courses across all 16 SCTCS colleges.",
     disclaimer:
@@ -86,8 +86,8 @@ const scConfig: StateConfig = {
       "South Carolina technical college courses",
       "SCTCS course search",
       "SC technical college transfer",
-      "free college courses seniors SC",
-      "South Carolina 60+ tuition waiver",
+      "community college courses near me",
+      "SC technical college schedule",
       "SC schedule builder",
     ],
   },

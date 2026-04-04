@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.auditmap.com"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://cc-coursemap.vercel.app"
   ),
 };
 

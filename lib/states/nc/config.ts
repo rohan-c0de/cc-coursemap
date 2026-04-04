@@ -91,7 +91,7 @@ const ncConfig: StateConfig = {
   branding: {
     siteName: "CC CourseMap North Carolina",
     tagline:
-      "Search North Carolina community college courses, check transfer equivalencies, and build your schedule. Free tuition for NC residents 65+.",
+      "Search North Carolina community college courses, check transfer equivalencies, and build your schedule.",
     footerText:
       "CC CourseMap North Carolina — Find courses across all 58 NCCCS colleges.",
     disclaimer:
@@ -100,8 +100,8 @@ const ncConfig: StateConfig = {
       "North Carolina community college courses",
       "NCCCS course search",
       "NC community college transfer",
-      "free college courses seniors NC",
-      "North Carolina 65+ tuition waiver",
+      "community college courses near me",
+      "NC community college schedule",
       "NC schedule builder",
     ],
   },

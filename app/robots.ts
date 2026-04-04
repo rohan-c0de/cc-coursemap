@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
     },
     sitemap:
       (process.env.NEXT_PUBLIC_SITE_URL ||
-        "https://www.auditmap.com") + "/sitemap.xml",
+        "https://cc-coursemap.vercel.app") + "/sitemap.xml",
   };
 }

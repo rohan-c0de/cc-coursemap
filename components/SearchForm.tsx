@@ -51,7 +51,7 @@ export default function SearchForm({ state = "va" }: { state?: string }) {
         Find Colleges Near You
       </h3>
       <p className="mb-6 text-center text-sm text-gray-500">
-        Enter your zip code or city name to discover audit-friendly courses nearby.
+        Enter your zip code or city name to find nearby community colleges.
       </p>
 
       {/* Zip code input */}

@@ -10,7 +10,7 @@ const NAV_ITEMS = [
   { path: "/schedule", label: "Schedule Builder" },
   { path: "/transfer", label: "Transfer" },
   { path: "/colleges", label: "All Colleges" },
-  { path: "/about", label: "About Auditing" },
+  { path: "/about", label: "About" },
 ];
 
 export default function Header({ state = "va", stateName = "Virginia", transferSupported = true }: { state?: string; stateName?: string; transferSupported?: boolean }) {

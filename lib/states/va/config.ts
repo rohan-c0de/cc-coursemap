@@ -32,7 +32,7 @@ const vaConfig: StateConfig = {
   branding: {
     siteName: "CC CourseMap Virginia",
     tagline:
-      "Search Virginia community college courses, check transfer equivalencies, and build your schedule. Free tuition for Virginia residents 60+.",
+      "Search Virginia community college courses, check transfer equivalencies, and build your schedule.",
     footerText:
       "CC CourseMap Virginia — Find courses across all 23 VCCS colleges.",
     disclaimer:
@@ -41,8 +41,8 @@ const vaConfig: StateConfig = {
       "Virginia community college courses",
       "VCCS course search",
       "Virginia community college transfer",
-      "free college courses seniors Virginia",
-      "Virginia 60+ tuition waiver",
+      "community college courses near me",
+      "Virginia community college schedule",
       "VCCS schedule builder",
     ],
   },
