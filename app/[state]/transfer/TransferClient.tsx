@@ -109,23 +109,23 @@ export default function TransferClient({
 
       {/* Stats banner */}
       <div className="mb-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <div className="rounded-lg border border-gray-200 bg-white p-4 text-center">
-          <p className="text-2xl font-bold text-gray-900">{stats.total}</p>
-          <p className="text-xs text-gray-500">Total Mappings</p>
-        </div>
         <div className="rounded-lg border border-teal-200 bg-teal-50 p-4 text-center">
           <p className="text-2xl font-bold text-teal-700">{stats.direct}</p>
-          <p className="text-xs text-teal-600">Direct Equivalencies</p>
+          <p className="text-xs text-teal-600">Direct Matches</p>
         </div>
-        <div className="rounded-lg border border-blue-200 bg-blue-50 p-4 text-center">
-          <p className="text-2xl font-bold text-blue-700">{stats.elective}</p>
-          <p className="text-xs text-blue-600">Elective Credit</p>
+        <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-center">
+          <p className="text-2xl font-bold text-amber-700">{stats.elective}</p>
+          <p className="text-xs text-amber-600">Elective Only</p>
+        </div>
+        <div className="rounded-lg border border-rose-200 bg-rose-50 p-4 text-center">
+          <p className="text-2xl font-bold text-rose-700">{stats.noCredit}</p>
+          <p className="text-xs text-rose-600">No Credit</p>
         </div>
         <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-center">
           <p className="text-2xl font-bold text-emerald-700">
             {stats.available}
           </p>
-          <p className="text-xs text-emerald-600">Available This Term</p>
+          <p className="text-xs text-emerald-600">Available Now</p>
         </div>
       </div>
 
@@ -163,7 +163,7 @@ export default function TransferClient({
             className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
           >
             <option value="">All Types</option>
-            <option value="direct">Direct Equivalencies Only</option>
+            <option value="direct">Direct Matches Only</option>
             <option value="elective">Elective Credit Only</option>
             <option value="no-credit">No Credit</option>
           </select>
@@ -184,6 +184,16 @@ export default function TransferClient({
         <span className="ml-auto text-sm text-gray-500">
           {filtered.length} courses
         </span>
+      </div>
+
+      {/* Glossary */}
+      <div className="mb-6 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3">
+        <p className="text-xs text-gray-500 leading-relaxed">
+          <span className="font-medium text-teal-700">Direct match</span> — Transfers as a specific equivalent course.{" "}
+          <span className="font-medium text-amber-700">Elective credit only</span> — Credit transfers as general elective, not a specific course.{" "}
+          <span className="font-medium text-rose-700">No credit</span> — Does not transfer for credit.{" "}
+          <span className="text-gray-400">Always confirm with your destination school.</span>
+        </p>
       </div>
 
       {/* Results grouped by subject */}
@@ -228,7 +238,7 @@ export default function TransferClient({
                                 <span
                                   className={`font-medium ${
                                     m.is_elective
-                                      ? "text-blue-700"
+                                      ? "text-amber-700"
                                       : "text-teal-700"
                                   }`}
                                 >
@@ -237,7 +247,7 @@ export default function TransferClient({
                               </>
                             )}
                             {m.no_credit && (
-                              <span className="text-xs text-red-500 font-medium">
+                              <span className="text-xs text-rose-600 font-medium">
                                 No {uniName} credit
                               </span>
                             )}
@@ -266,13 +276,18 @@ export default function TransferClient({
                             </span>
                           )}
                           {m.is_elective && !m.no_credit && (
-                            <span className="inline-flex items-center rounded-full bg-blue-50 px-2 py-0.5 text-[10px] font-medium text-blue-700 ring-1 ring-inset ring-blue-200">
-                              Elective
+                            <span className="inline-flex items-center rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-medium text-amber-700 ring-1 ring-inset ring-amber-200">
+                              Elective credit only
                             </span>
                           )}
                           {!m.is_elective && !m.no_credit && (
                             <span className="inline-flex items-center rounded-full bg-teal-50 px-2 py-0.5 text-[10px] font-medium text-teal-700 ring-1 ring-inset ring-teal-200">
-                              Direct
+                              Direct match
+                            </span>
+                          )}
+                          {m.no_credit && (
+                            <span className="inline-flex items-center rounded-full bg-rose-50 px-2 py-0.5 text-[10px] font-medium text-rose-700 ring-1 ring-inset ring-rose-200">
+                              No credit
                             </span>
                           )}
                           {availability && !m.no_credit && (
