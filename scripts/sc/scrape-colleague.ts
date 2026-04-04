@@ -116,18 +116,132 @@ function formatDays(daysOfWeekDisplay: string): string {
     .trim();
 }
 
-function parsePrerequisites(requisites: Array<{ CorequisiteCourseId?: string; IsRequired?: boolean }>): {
+interface RequisiteItem {
+  DisplayText: string;
+  DisplayTextExtension?: string;
+  IsRequired: boolean;
+}
+
+function parseRequisiteDisplayText(items: RequisiteItem[]): {
   text: string | null;
   courses: string[];
 } {
-  if (!requisites || requisites.length === 0) return { text: null, courses: [] };
-  const courses = requisites
-    .filter((r) => r.CorequisiteCourseId)
-    .map((r) => r.CorequisiteCourseId!);
+  if (!items || items.length === 0) return { text: null, courses: [] };
+
+  // Extract course groups from each item
+  const itemGroups: { courses: string[]; gradeNote: string; hasOr: boolean }[] = [];
+
+  for (const item of items) {
+    if (!item.DisplayText) continue;
+    const dt = item.DisplayText;
+
+    // Extract course codes like "RUS-111", "BIOL-111C", "ENG-111"
+    const courseRegex = /([A-Z]{2,4})-(\d{3,4}[A-Z]*)/g;
+    let match;
+    const coursesInItem: string[] = [];
+    while ((match = courseRegex.exec(dt)) !== null) {
+      coursesInItem.push(`${match[1]} ${match[2]}`);
+    }
+    if (coursesInItem.length === 0) continue;
+
+    const gradeMatch = dt.match(/[Mm]inimum grade\s+([A-Z])/);
+    const gradeNote = gradeMatch ? ` (min ${gradeMatch[1]})` : "";
+    const hasOr = /\bor\b/i.test(dt);
+
+    itemGroups.push({ courses: coursesInItem, gradeNote, hasOr });
+  }
+
+  if (itemGroups.length === 0) return { text: null, courses: [] };
+
+  // Deduplicate: if same course(s) appear with and without grade, keep graded version
+  const seen = new Map<string, { courses: string[]; gradeNote: string; hasOr: boolean }>();
+  for (const group of itemGroups) {
+    const key = [...group.courses].sort().join("+");
+    const existing = seen.get(key);
+    if (!existing || group.gradeNote) {
+      seen.set(key, group);
+    }
+  }
+
+  const allCourses: string[] = [];
+  const parts: string[] = [];
+
+  for (const group of seen.values()) {
+    const connector = group.hasOr ? " or " : " and ";
+    const partText = group.courses.map((c) => {
+      if (!allCourses.includes(c)) allCourses.push(c);
+      return `${c}${group.gradeNote}`;
+    }).join(connector);
+    parts.push(partText);
+  }
+
+  if (parts.length === 0) return { text: null, courses: [] };
+
   return {
-    text: courses.length > 0 ? `Prerequisites: ${courses.join(", ")}` : null,
-    courses,
+    text: parts.join(" and "),
+    courses: allCourses,
   };
+}
+
+async function fetchSectionPrerequisites(
+  page: Page,
+  baseUrl: string,
+  csrfToken: string,
+  coursesWithRequisites: Map<string, string>
+): Promise<Map<string, { text: string | null; courses: string[] }>> {
+  console.log(`  Fetching prerequisites for ${coursesWithRequisites.size} courses with requisites...`);
+
+  const prereqMap = new Map<string, { text: string | null; courses: string[] }>();
+  const entries = Array.from(coursesWithRequisites.entries());
+  const BATCH_SIZE = 10;
+  let fetched = 0;
+
+  for (let i = 0; i < entries.length; i += BATCH_SIZE) {
+    const batch = entries.slice(i, i + BATCH_SIZE);
+    const results = await Promise.all(
+      batch.map(async ([courseKey, sectionId]) => {
+        try {
+          const detail = await page.evaluate(
+            async ({ url, id, token }: { url: string; id: string; token: string }) => {
+              const resp = await fetch(url, {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json, charset=UTF-8",
+                  Accept: "application/json, text/javascript, */*; q=0.01",
+                  "X-Requested-With": "XMLHttpRequest",
+                  __RequestVerificationToken: token,
+                  __IsGuestUser: "true",
+                },
+                body: JSON.stringify({ sectionId: id }),
+              });
+              return await resp.json();
+            },
+            { url: `${baseUrl}/Student/Courses/SectionDetails`, id: sectionId, token: csrfToken }
+          );
+
+          return { courseKey, items: (detail?.RequisiteItems || []) as RequisiteItem[] };
+        } catch {
+          return { courseKey, items: [] as RequisiteItem[] };
+        }
+      })
+    );
+
+    for (const { courseKey, items } of results) {
+      const parsed = parseRequisiteDisplayText(items);
+      if (parsed.text) {
+        prereqMap.set(courseKey, parsed);
+      }
+    }
+
+    fetched += batch.length;
+    if (fetched % 50 === 0 || fetched === entries.length) {
+      console.log(`    prereqs: ${fetched}/${entries.length} (${prereqMap.size} with prereqs)`);
+    }
+
+    if (i + BATCH_SIZE < entries.length) await sleep(100);
+  }
+
+  return prereqMap;
 }
 
 // ---------------------------------------------------------------------------
@@ -140,7 +254,7 @@ interface ColleagueSection {
     Number: string;
     Title: string;
     MinimumCredits: number;
-    Requisites: Array<{ CorequisiteCourseId?: string; IsRequired?: boolean }>;
+    Requisites: Array<{ RequirementCode?: string; IsRequired?: boolean; CompletionOrder?: string; CorequisiteCourseId?: string }>;
   };
   SectionNameDisplay: string;
   FacultyDisplay: string[];
@@ -315,6 +429,9 @@ async function scrapeCollege(
     const cookies = await context.cookies();
     const cookieHeader = cookies.map((c) => `${c.name}=${c.value}`).join("; ");
 
+    // Track courses with requisites for batch prerequisite fetch
+    const coursesWithRequisites = new Map<string, string>();
+
     for (let i = 0; i < subjects.length; i++) {
       const subject = subjects[i];
       process.stdout.write(
@@ -408,7 +525,13 @@ async function scrapeCollege(
             for (const s of data.Sections) {
               const meeting = s.FormattedMeetingTimes?.[0];
               const isOnline = meeting?.IsOnline || false;
-              const prereqs = parsePrerequisites(s.Course?.Requisites || []);
+              // Track courses with requisites for batch fetch later
+              if (s.Course?.Requisites?.length > 0) {
+                const key = `${s.Course.SubjectCode} ${s.Course.Number}`;
+                if (!coursesWithRequisites.has(key)) {
+                  coursesWithRequisites.set(key, s.Id);
+                }
+              }
 
               allSections.push({
                 college_code: slug,
@@ -433,8 +556,8 @@ async function scrapeCollege(
                 instructor: s.FacultyDisplay?.join(", ") || null,
                 seats_open: s.Available ?? null,
                 seats_total: s.Capacity ?? null,
-                prerequisite_text: prereqs.text,
-                prerequisite_courses: prereqs.courses,
+                prerequisite_text: null,
+                prerequisite_courses: [],
               });
               subjectCount++;
             }
@@ -454,6 +577,20 @@ async function scrapeCollege(
         `${subjectCount} sections${totalPages > 1 ? ` (${totalPages} pages)` : ""}`
       );
       await sleep(DELAY_MS);
+    }
+
+    // Step 3: Fetch detailed prerequisites for courses that have them
+    if (coursesWithRequisites.size > 0) {
+      const prereqMap = await fetchSectionPrerequisites(page, baseUrl, csrfToken, coursesWithRequisites);
+      for (const section of allSections) {
+        const key = `${section.course_prefix} ${section.course_number}`;
+        const prereq = prereqMap.get(key);
+        if (prereq) {
+          section.prerequisite_text = prereq.text;
+          section.prerequisite_courses = prereq.courses;
+        }
+      }
+      console.log(`  Updated ${prereqMap.size} courses with prerequisite info`);
     }
   } catch (e) {
     console.error(`  Error scraping ${slug}: ${e}`);
