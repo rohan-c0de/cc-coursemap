@@ -51,12 +51,6 @@ export default function CollegeDetailClient({
         collegeSlug={collegeSlug}
         systemName={systemName}
         courseListingUrl={courseListingUrl}
-        courseUrlBuilder={
-          courseListingUrl?.includes("/Student/Courses")
-            ? (slug, prefix, number) =>
-                `${courseListingUrl}/Search?keyword=${encodeURIComponent(prefix + " " + number)}`
-            : undefined
-        }
         onAuditClick={(course) => {
           setSelectedCourse(course);
           setShowInstructions(true);

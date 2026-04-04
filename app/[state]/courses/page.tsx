@@ -49,7 +49,7 @@ export default async function CoursesPage({ params }: Props) {
   const institutions = loadInstitutions(state);
   const courseUrlMap: Record<string, string> = {};
   for (const inst of institutions) {
-    courseUrlMap[inst.college_slug] = config.courseDiscoveryUrl(inst.college_slug, "", "");
+    courseUrlMap[inst.college_slug] = config.courseDiscoveryUrl(inst.college_slug, "__PREFIX__", "__NUMBER__");
   }
 
   return (
