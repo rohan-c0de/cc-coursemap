@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
 
   return {
-    title: `${meta.title} — CC CourseMap Blog`,
+    title: `${meta.title} — Community College Path Blog`,
     description: meta.description,
     openGraph: {
       title: meta.title,
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       publishedTime: meta.date,
       url: `${siteUrl}/blog/${meta.slug}`,
-      siteName: "CC CourseMap",
+      siteName: "Community College Path",
     },
     twitter: {
       card: "summary_large_image",
@@ -72,12 +72,12 @@ export default async function BlogPostPage({ params }: Props) {
     datePublished: meta.date,
     author: {
       "@type": "Organization",
-      name: "CC CourseMap",
+      name: "Community College Path",
       url: siteUrl,
     },
     publisher: {
       "@type": "Organization",
-      name: "CC CourseMap",
+      name: "Community College Path",
       url: siteUrl,
     },
     mainEntityOfPage: {

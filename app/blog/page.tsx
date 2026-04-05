@@ -10,7 +10,7 @@ import {
 } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog — CC CourseMap",
+  title: "Blog — Community College Path",
   description:
     "Practical guides for community college course planning, transfer credits, scheduling, and senior tuition waivers.",
 };

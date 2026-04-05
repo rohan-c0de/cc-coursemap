@@ -4,7 +4,7 @@ import { getAllStates } from "@/lib/states/registry";
 import ThemeToggle from "@/components/ThemeToggle";
 
 export const metadata: Metadata = {
-  title: "CC CourseMap — Your Community College Course Finder",
+  title: "Community College Path — Your Community College Course Finder",
   description:
     "Search courses, plan transfers, and build schedules across community colleges in Virginia, North Carolina, South Carolina, DC, Maryland, and Georgia.",
   keywords: [
@@ -177,7 +177,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="mt-auto border-t border-gray-200 dark:border-slate-700 py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500 dark:text-slate-400">
-          <p>&copy; {new Date().getFullYear()} CC CourseMap</p>
+          <p>&copy; {new Date().getFullYear()} Community College Path</p>
           <div className="flex gap-4">
             <Link href="/blog" className="hover:text-teal-600 transition-colors">
               Blog

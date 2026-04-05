@@ -21,7 +21,7 @@ export function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CC CourseMap Blog</title>
+    <title>Community College Path Blog</title>
     <link>${siteUrl}/blog</link>
     <description>Practical guides for community college course planning, transfer credits, scheduling, and senior tuition waivers.</description>
     <language>en-us</language>

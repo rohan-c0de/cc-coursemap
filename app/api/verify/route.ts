@@ -11,16 +11,16 @@ function htmlPage(title: string, body: string, state?: string): Response {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${title} — CC CourseMap</title>
+  <title>${title} — Community College Path</title>
 </head>
 <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 480px; margin: 60px auto; padding: 24px; text-align: center; color: #1a1a1a;">
   <div style="margin-bottom: 24px;">
-    <span style="font-size: 22px; font-weight: 700; color: #0d9488;">CC CourseMap</span>
+    <span style="font-size: 22px; font-weight: 700; color: #0d9488;">Community College Path</span>
   </div>
   ${body}
   <p style="margin-top: 28px;">
     <a href="${backLink}" style="color: #0d9488; text-decoration: underline; font-size: 14px;">
-      Back to CC CourseMap
+      Back to Community College Path
     </a>
   </p>
 </body>

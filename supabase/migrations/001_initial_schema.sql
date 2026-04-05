@@ -1,5 +1,5 @@
 -- ============================================================
--- CC CourseMap — Initial Supabase Schema
+-- Community College Path — Initial Supabase Schema
 -- Run via Supabase Dashboard → SQL Editor, or supabase db push
 -- ============================================================
 

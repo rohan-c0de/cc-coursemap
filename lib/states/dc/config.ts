@@ -35,11 +35,11 @@ const dcConfig: StateConfig = {
   },
 
   branding: {
-    siteName: "CC CourseMap DC",
+    siteName: "Community College Path DC",
     tagline:
       "Search UDC Community College courses and build your schedule.",
     footerText:
-      "CC CourseMap DC — Find courses at UDC Community College.",
+      "Community College Path DC — Find courses at UDC Community College.",
     disclaimer:
       "This is an independent project and is not affiliated with, endorsed by, or sponsored by the University of the District of Columbia.",
     metaKeywords: [

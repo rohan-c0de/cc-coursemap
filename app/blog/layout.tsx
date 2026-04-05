@@ -56,7 +56,7 @@ export default function BlogLayout({
       <footer className="border-t border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 py-8">
           <div className="flex flex-wrap items-center justify-between gap-4 text-sm text-gray-500 dark:text-slate-400">
-            <p>CC CourseMap — Community college course finder.</p>
+            <p>Community College Path — Community college course finder.</p>
             <div className="flex items-center gap-4">
               <Link
                 href="/blog/feed.xml"

@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { getArticleBySlug, categoryLabel } from "@/lib/blog";
 
 export const runtime = "nodejs";
-export const alt = "CC CourseMap Blog";
+export const alt = "Community College Path Blog";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -63,7 +63,7 @@ export default async function Image({
               fontWeight: 600,
             }}
           >
-            CC CourseMap Blog
+            Community College Path Blog
           </div>
 
           <div

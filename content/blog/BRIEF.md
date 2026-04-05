@@ -1,18 +1,18 @@
-# CC CourseMap Blog Article Generation Brief
+# Community College Path Blog Article Generation Brief
 
 ## Purpose
-Use this file when creating blog articles for CC CourseMap.
+Use this file when creating blog articles for Community College Path.
 
 The goal is **not** to create generic student-advice blog posts.
 
-The goal is to create **meaningful, SEO-worthy, product-aligned articles** that attract the right visitors and naturally connect to CC CourseMap’s actual utility:
+The goal is to create **meaningful, SEO-worthy, product-aligned articles** that attract the right visitors and naturally connect to Community College Path’s actual utility:
 - searching community college courses
 - transfer planning
 - schedule-building
 - senior tuition-waiver / auditing discovery
 - reducing wasted credits, confusion, and decision friction
 
-CC CourseMap currently helps users across multiple states, including Virginia, North Carolina, South Carolina, and DC.
+Community College Path currently helps users across multiple states, including Virginia, North Carolina, South Carolina, and DC.
 
 ---
 
@@ -139,7 +139,7 @@ When selecting or writing an article, think beyond clicks.
 
 Consider:
 - Is the search intent high quality?
-- Is this visitor likely to use CC CourseMap?
+- Is this visitor likely to use Community College Path?
 - Does this topic naturally lead to course search, transfer lookup, schedule building, or senior waiver discovery?
 - Could this article build trust and authority over time?
 - Could this article earn backlinks from advisors, parents, nonprofits, schools, or community forums?
@@ -160,7 +160,7 @@ Unless there is a strong reason not to, structure each article like this:
 4. **Practical explanation**
 5. **Examples or scenarios**
 6. **State-specific nuance**, if relevant
-7. **How CC CourseMap helps**, naturally and non-spammy
+7. **How Community College Path helps**, naturally and non-spammy
 8. **Conclusion / next step**
 
 The article should feel like it was written by someone who understands the problem deeply, not by a generic content writer.
@@ -182,7 +182,7 @@ The goal is density, not volume.
 Every article should link to other content on the site. This helps SEO, keeps readers engaged, and makes the product more discoverable.
 
 **Article-to-tool links:**
-- Each article should include at least 1 natural link to a CC CourseMap tool page (course search, transfer lookup, schedule builder, starting soon, etc.)
+- Each article should include at least 1 natural link to a Community College Path tool page (course search, transfer lookup, schedule builder, starting soon, etc.)
 - Use the `<ProductCallout>` component for prominent in-article CTAs. Use regular markdown links for lighter inline mentions.
 
 **Article-to-article links:**
@@ -248,10 +248,10 @@ Instead:
 - keep the product mention practical, not promotional
 
 Bad:
-- “Use CC CourseMap today for all your education needs!”
+- “Use Community College Path today for all your education needs!”
 
 Good:
-- “If you are comparing multiple community colleges or trying to see what is available now, a tool like CC CourseMap can reduce that back-and-forth.”
+- “If you are comparing multiple community colleges or trying to see what is available now, a tool like Community College Path can reduce that back-and-forth.”
 
 ---
 
@@ -320,7 +320,7 @@ Before writing, briefly state:
 - target reader
 - search intent
 - why this topic is worth publishing
-- how it connects to CC CourseMap
+- how it connects to Community College Path
 
 ### Step 3: Write the article
 Write the full draft with:
@@ -356,4 +356,4 @@ Do not create filler.
 Do not create fluff.
 Do not create a generic college blog.
 
-Create articles that make CC CourseMap more useful, more discoverable, and more trusted.
+Create articles that make Community College Path more useful, more discoverable, and more trusted.

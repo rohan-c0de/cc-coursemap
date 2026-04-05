@@ -102,7 +102,7 @@ export default function PrintInstructions({ institution, course }: Props) {
   ${restrictionsHtml}
 
   <div class="footer">
-    <p>Generated from CC CourseMap · Last verified: ${audit_policy.last_verified}</p>
+    <p>Generated from Community College Path · Last verified: ${audit_policy.last_verified}</p>
     ${audit_policy.source_url ? `<p>Source: ${audit_policy.source_url}</p>` : ""}
     <p>Always confirm directly with the college before enrolling.</p>
   </div>

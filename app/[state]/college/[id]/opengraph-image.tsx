@@ -5,7 +5,7 @@ import { getCourseCount } from "@/lib/courses";
 import { getCurrentTerm } from "@/lib/terms";
 
 export const runtime = "nodejs";
-export const alt = "College Detail — CC CourseMap";
+export const alt = "College Detail — Community College Path";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -77,7 +77,7 @@ export default async function Image({
               fontWeight: 600,
             }}
           >
-            CC CourseMap {config.name}
+            Community College Path {config.name}
           </div>
 
           <div

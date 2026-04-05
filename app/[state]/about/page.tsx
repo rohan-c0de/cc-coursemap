@@ -26,10 +26,10 @@ export default async function AboutPage({ params }: Props) {
     mainEntity: [
       {
         "@type": "Question",
-        name: "What is CC CourseMap?",
+        name: "What is Community College Path?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "CC CourseMap is a free course finder for community colleges. Search courses across all colleges, check transfer equivalencies, build schedules, and find auditing info.",
+          text: "Community College Path is a free course finder for community colleges. Search courses across all colleges, check transfer equivalencies, build schedules, and find auditing info.",
         },
       },
       {
@@ -94,17 +94,17 @@ export default async function AboutPage({ params }: Props) {
       </Link>
 
       <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100 mb-8">
-        About CC CourseMap
+        About Community College Path
       </h1>
 
       <div className="space-y-8">
-        {/* What is CC CourseMap */}
+        {/* What is Community College Path */}
         <section>
           <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-3">
-            What is CC CourseMap?
+            What is Community College Path?
           </h2>
           <p className="text-gray-600 dark:text-slate-400">
-            CC CourseMap is a free tool for finding and comparing community
+            Community College Path is a free tool for finding and comparing community
             college courses across {config.name}. Search by subject or keyword,
             check which courses transfer to your target university, build a
             weekly schedule, and find late-start classes still open for

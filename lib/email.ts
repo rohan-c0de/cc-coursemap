@@ -15,7 +15,7 @@ function getResend(): Resend {
   return _resend;
 }
 
-const FROM_ADDRESS = "CC CourseMap <notifications@auditmap.com>";
+const FROM_ADDRESS = "Community College Path <notifications@auditmap.com>";
 
 function getSiteUrl(): string {
   return process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
@@ -50,13 +50,13 @@ export async function sendVerificationEmail(
 <head><meta charset="utf-8"></head>
 <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 520px; margin: 0 auto; padding: 24px; color: #1a1a1a;">
   <div style="text-align: center; margin-bottom: 24px;">
-    <span style="font-size: 20px; font-weight: 700; color: #0d9488;">CC CourseMap</span>
+    <span style="font-size: 20px; font-weight: 700; color: #0d9488;">Community College Path</span>
   </div>
 
   <h1 style="font-size: 20px; margin-bottom: 12px;">Confirm your subscription</h1>
 
   <p style="font-size: 15px; line-height: 1.5; color: #444;">
-    You signed up to get notified when new ${stateName} community college schedules are posted on CC CourseMap.
+    You signed up to get notified when new ${stateName} community college schedules are posted on Community College Path.
   </p>
 
   <p style="font-size: 15px; line-height: 1.5; color: #444;">
@@ -76,18 +76,18 @@ export async function sendVerificationEmail(
   <hr style="border: none; border-top: 1px solid #eee; margin: 24px 0;">
 
   <p style="font-size: 11px; color: #aaa; line-height: 1.5;">
-    CC CourseMap &middot;
+    Community College Path &middot;
     <a href="${unsubUrl}" style="color: #aaa;">Unsubscribe</a>
   </p>
 </body>
 </html>`.trim();
 
-  const text = `Confirm your CC CourseMap subscription\n\nYou signed up to get notified when new ${stateName} community college schedules are posted.\n\nConfirm here: ${verifyUrl}\n\nIf you didn't sign up, ignore this email.\n\nUnsubscribe: ${unsubUrl}`;
+  const text = `Confirm your Community College Path subscription\n\nYou signed up to get notified when new ${stateName} community college schedules are posted.\n\nConfirm here: ${verifyUrl}\n\nIf you didn't sign up, ignore this email.\n\nUnsubscribe: ${unsubUrl}`;
 
   await getResend().emails.send({
     from: FROM_ADDRESS,
     to: email,
-    subject: "Confirm your CC CourseMap subscription",
+    subject: "Confirm your Community College Path subscription",
     html,
     text,
     headers: {
@@ -121,13 +121,13 @@ export async function sendNewTermNotification(
 <head><meta charset="utf-8"></head>
 <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 520px; margin: 0 auto; padding: 24px; color: #1a1a1a;">
   <div style="text-align: center; margin-bottom: 24px;">
-    <span style="font-size: 20px; font-weight: 700; color: #0d9488;">CC CourseMap</span>
+    <span style="font-size: 20px; font-weight: 700; color: #0d9488;">Community College Path</span>
   </div>
 
   <h1 style="font-size: 20px; margin-bottom: 12px;">${termLabel} schedules are live!</h1>
 
   <p style="font-size: 15px; line-height: 1.5; color: #444;">
-    New ${termLabel} course schedules are now available for ${stateName} community colleges on CC CourseMap.
+    New ${termLabel} course schedules are now available for ${stateName} community colleges on Community College Path.
   </p>
 
   <p style="font-size: 15px; line-height: 1.5; color: #444;">
@@ -143,18 +143,18 @@ export async function sendNewTermNotification(
   <hr style="border: none; border-top: 1px solid #eee; margin: 24px 0;">
 
   <p style="font-size: 11px; color: #aaa; line-height: 1.5;">
-    CC CourseMap &middot;
+    Community College Path &middot;
     <a href="${unsubUrl}" style="color: #aaa;">Unsubscribe</a>
   </p>
 </body>
 </html>`.trim();
 
-  const text = `${termLabel} schedules are now available!\n\nNew ${termLabel} course schedules are live for ${stateName} community colleges on CC CourseMap.\n\nBrowse courses: ${browseUrl}\n\nUnsubscribe: ${unsubUrl}`;
+  const text = `${termLabel} schedules are now available!\n\nNew ${termLabel} course schedules are live for ${stateName} community colleges on Community College Path.\n\nBrowse courses: ${browseUrl}\n\nUnsubscribe: ${unsubUrl}`;
 
   await getResend().emails.send({
     from: FROM_ADDRESS,
     to: email,
-    subject: `${termLabel} schedules are now available — CC CourseMap`,
+    subject: `${termLabel} schedules are now available — Community College Path`,
     html,
     text,
     headers: {

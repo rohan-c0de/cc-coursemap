@@ -74,6 +74,9 @@ function ensureLoaded(): void {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   const ga = require("./ga/config").default as StateConfig;
   configs[ga.slug] = ga;
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const de = require("./de/config").default as StateConfig;
+  configs[de.slug] = de;
 }
 
 /** Get the config for a specific state. Throws if unknown. */

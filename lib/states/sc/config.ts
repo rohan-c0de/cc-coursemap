@@ -75,11 +75,11 @@ const scConfig: StateConfig = {
   },
 
   branding: {
-    siteName: "CC CourseMap South Carolina",
+    siteName: "Community College Path South Carolina",
     tagline:
       "Search South Carolina technical college courses, check transfer equivalencies, and build your schedule.",
     footerText:
-      "CC CourseMap South Carolina — Find courses across all 16 SCTCS colleges.",
+      "Community College Path South Carolina — Find courses across all 16 SCTCS colleges.",
     disclaimer:
       "This is an independent project and is not affiliated with, endorsed by, or sponsored by the South Carolina Technical College System (SCTCS).",
     metaKeywords: [

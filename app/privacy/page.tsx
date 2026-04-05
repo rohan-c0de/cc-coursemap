@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — CC CourseMap",
-  description: "Privacy policy for CC CourseMap.",
+  title: "Privacy Policy — Community College Path",
+  description: "Privacy policy for Community College Path.",
 };
 
 export default function PrivacyPage() {
@@ -15,7 +15,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mt-8 mb-3">Overview</h2>
           <p>
-            CC CourseMap is a free tool that helps people find community college
+            Community College Path is a free tool that helps people find community college
             courses available for auditing across multiple state community college
             systems. We are committed to protecting your privacy and being transparent
             about the data we collect.

@@ -89,11 +89,11 @@ const ncConfig: StateConfig = {
   },
 
   branding: {
-    siteName: "CC CourseMap North Carolina",
+    siteName: "Community College Path North Carolina",
     tagline:
       "Search North Carolina community college courses, check transfer equivalencies, and build your schedule.",
     footerText:
-      "CC CourseMap North Carolina — Find courses across all 58 NCCCS colleges.",
+      "Community College Path North Carolina — Find courses across all 58 NCCCS colleges.",
     disclaimer:
       "This is an independent project and is not affiliated with, endorsed by, or sponsored by the North Carolina Community College System (NCCCS).",
     metaKeywords: [

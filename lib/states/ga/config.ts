@@ -62,11 +62,11 @@ const gaConfig: StateConfig = {
   },
 
   branding: {
-    siteName: "CC CourseMap Georgia",
+    siteName: "Community College Path Georgia",
     tagline:
       "Search Georgia technical college courses across all 22 TCSG institutions and plan your schedule.",
     footerText:
-      "CC CourseMap Georgia — Find courses across all 22 TCSG colleges.",
+      "Community College Path Georgia — Find courses across all 22 TCSG colleges.",
     disclaimer:
       "This is an independent project and is not affiliated with, endorsed by, or sponsored by the Technical College System of Georgia (TCSG).",
     metaKeywords: [

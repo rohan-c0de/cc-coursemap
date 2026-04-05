@@ -30,11 +30,11 @@ const vaConfig: StateConfig = {
     `https://courses.vccs.edu/colleges/${collegeSlug}/courses`,
 
   branding: {
-    siteName: "CC CourseMap Virginia",
+    siteName: "Community College Path Virginia",
     tagline:
       "Search Virginia community college courses, check transfer equivalencies, and build your schedule.",
     footerText:
-      "CC CourseMap Virginia — Find courses across all 23 VCCS colleges.",
+      "Community College Path Virginia — Find courses across all 23 VCCS colleges.",
     disclaimer:
       "This is an independent project and is not affiliated with, endorsed by, or sponsored by the Virginia Community College System (VCCS).",
     metaKeywords: [

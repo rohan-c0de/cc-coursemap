@@ -114,11 +114,11 @@ const mdConfig: StateConfig = {
   },
 
   branding: {
-    siteName: "CC CourseMap Maryland",
+    siteName: "Community College Path Maryland",
     tagline:
       "Search Maryland community college courses, check transfer equivalencies, and build your schedule.",
     footerText:
-      "CC CourseMap Maryland — Find courses across all 16 Maryland community colleges.",
+      "Community College Path Maryland — Find courses across all 16 Maryland community colleges.",
     disclaimer:
       "This is an independent project and is not affiliated with, endorsed by, or sponsored by the Maryland Association of Community Colleges (MACC) or the Maryland Higher Education Commission (MHEC).",
     metaKeywords: [

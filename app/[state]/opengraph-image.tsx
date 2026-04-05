@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { getStateConfig, isValidState } from "@/lib/states/registry";
 
 export const runtime = "nodejs";
-export const alt = "CC CourseMap — Community College Course Finder";
+export const alt = "Community College Path — Community College Course Finder";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -78,7 +78,7 @@ export default async function Image({
                 color: "#0d9488",
               }}
             >
-              CC CourseMap
+              Community College Path
             </span>
           </div>
 
