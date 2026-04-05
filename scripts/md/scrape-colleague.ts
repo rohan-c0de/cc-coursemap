@@ -688,7 +688,13 @@ async function main() {
 
     if (sections.length > 0) {
       const rawTermCode = sections[0].term;
-      const termCode = rawTermCode.replace(/^(\d{4}(?:SP|SU|FA)).*$/, "$1");
+      // Normalize: strip slashes (e.g. "2026/FA" → "2026FA", "26/FA" → "2026FA")
+      let termCode = rawTermCode.replace(/\//g, "");
+      // Fix 2-digit year prefix (e.g. "26FA" → "2026FA")
+      if (/^\d{2}(SP|SU|FA)$/.test(termCode)) {
+        termCode = "20" + termCode;
+      }
+      termCode = termCode.replace(/^(\d{4}(?:SP|SU|FA)).*$/, "$1");
       if (termCode !== rawTermCode) {
         for (const s of sections) s.term = termCode;
       }
