@@ -192,4 +192,96 @@ export const articles: ArticleMeta[] = [
     author: "CC CourseMap",
     tags: ["registration", "schedule", "timing", "course-catalog"],
   },
+
+  // --- Cluster A spoke: NC transfer guides ---
+  {
+    slug: "north-carolina-transfer-guides-how-to-use",
+    title:
+      "North Carolina Community College Transfer Guides: How to Use Them Without Getting Lost",
+    description:
+      "NC has transfer guides, equivalency tables, and pre-major pathways — but most students don't know how to find or read them. Here's a practical walkthrough.",
+    date: "2026-04-04",
+    category: "state-system-explainers",
+    state: "nc",
+    author: "CC CourseMap",
+    tags: ["transfer", "north-carolina", "ncccs", "transfer-guides"],
+    cluster: "transfer-credit-guide",
+    clusterRole: "spoke",
+  },
+
+  // --- Cluster A spoke: SC transfer ---
+  {
+    slug: "south-carolina-technical-college-transfer",
+    title:
+      "South Carolina Technical College Transfer: What Transfers to USC, Clemson, and Other Universities",
+    description:
+      "SC technical college courses can transfer to public universities — but equivalencies vary by school. Here's how the system works and how to check before you register.",
+    date: "2026-04-04",
+    category: "state-system-explainers",
+    state: "sc",
+    author: "CC CourseMap",
+    tags: ["transfer", "south-carolina", "sctcs", "usc", "clemson"],
+    cluster: "transfer-credit-guide",
+    clusterRole: "spoke",
+  },
+
+  // --- Cluster B spoke: SC seniors ---
+  {
+    slug: "south-carolina-senior-citizens-technical-colleges",
+    title:
+      "South Carolina Senior Citizens at Technical Colleges: How the 60+ Tuition Waiver Works",
+    description:
+      "SC residents aged 60+ can take technical college classes with tuition waived — and unlike NC, it's for credit, not just auditing. Here's how it works.",
+    date: "2026-04-04",
+    category: "senior-waivers",
+    state: "sc",
+    author: "CC CourseMap",
+    tags: ["seniors", "south-carolina", "sctcs", "tuition-waiver"],
+    cluster: "senior-waivers-guide",
+    clusterRole: "spoke",
+  },
+
+  // --- Cluster B spoke: DC seniors ---
+  {
+    slug: "dc-senior-citizens-udc-community-college",
+    title:
+      "DC Senior Citizens and UDC Community College: What the 65+ Tuition Waiver Covers",
+    description:
+      "DC residents 65+ may have tuition and fees waived at UDC Community College. Here's what the waiver covers, what it doesn't, and how to enroll.",
+    date: "2026-04-04",
+    category: "senior-waivers",
+    state: "dc",
+    author: "CC CourseMap",
+    tags: ["seniors", "dc", "udc-cc", "tuition-waiver"],
+    cluster: "senior-waivers-guide",
+    clusterRole: "spoke",
+  },
+
+  // --- Standalone: Class full alternatives ---
+  {
+    slug: "what-to-do-when-community-college-class-is-full",
+    title:
+      "What to Do When the Community College Class You Need Is Full",
+    description:
+      "The course you need is full. Don't wait until next semester — here are six concrete steps to find an alternative fast.",
+    date: "2026-04-04",
+    category: "registration-timing",
+    state: null,
+    author: "CC CourseMap",
+    tags: ["registration", "waitlist", "alternatives", "course-planning"],
+  },
+
+  // --- Standalone: Online vs in-person ---
+  {
+    slug: "online-vs-in-person-community-college-classes",
+    title:
+      "Online vs In-Person vs Hybrid Community College Classes: How to Choose the Right Format",
+    description:
+      "Online isn't automatically easier. Hybrid has mandatory attendance. Here's how to pick the right course format for your situation.",
+    date: "2026-04-04",
+    category: "mistake-avoidance",
+    state: null,
+    author: "CC CourseMap",
+    tags: ["online", "hybrid", "in-person", "course-format", "scheduling"],
+  },
 ];
