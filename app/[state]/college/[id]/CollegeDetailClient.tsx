@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import CourseTable from "@/components/CourseTable";
 import AuditInstructions from "@/components/AuditInstructions";
 import PrintInstructions from "@/components/PrintInstructions";
@@ -35,6 +35,18 @@ export default function CollegeDetailClient({
   const [showInstructions, setShowInstructions] = useState(false);
   const [pinnedCRNs, setPinnedCRNs] = useState<Set<string>>(new Set());
 
+  // Lock body scroll when modal is open
+  useEffect(() => {
+    if (showInstructions) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [showInstructions]);
+
   function togglePin(crn: string) {
     setPinnedCRNs((prev) => {
       const next = new Set(prev);
@@ -68,7 +80,7 @@ export default function CollegeDetailClient({
 
       {/* Audit instructions modal */}
       {showInstructions && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50">
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/50">
           <div className="bg-white rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 relative">
             <div className="absolute top-4 right-4 flex items-center gap-2">
               <PrintInstructions

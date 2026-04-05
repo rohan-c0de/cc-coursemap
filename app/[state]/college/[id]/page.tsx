@@ -160,7 +160,7 @@ export default async function CollegeDetailPage(props: PageProps) {
 
       {/* Campus map */}
       {institution.campuses.length > 0 && (
-        <div className="mb-8 h-[250px] rounded-lg overflow-hidden border border-gray-200">
+        <div className="mb-8 h-[250px] rounded-lg overflow-hidden border border-gray-200 isolate">
           <CollegeMap institution={institution} />
         </div>
       )}
