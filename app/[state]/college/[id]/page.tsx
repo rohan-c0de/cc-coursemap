@@ -138,11 +138,11 @@ export default async function CollegeDetailPage(props: PageProps) {
           {institution.campuses.map((c) => c.name).join(" · ")}
         </p>
 
-        {/* Audit status badge */}
+        {/* Status badge */}
         <div className="mt-3">
           {institution.audit_policy.allowed === true && (
             <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              Auditing Available
+              Verified
             </span>
           )}
           {institution.audit_policy.allowed === null && (
@@ -183,179 +183,6 @@ export default async function CollegeDetailPage(props: PageProps) {
           </p>
         </div>
       )}
-
-      {/* Audit Policy Section */}
-      <section className="bg-white border border-gray-200 rounded-lg p-6 mb-8">
-        <h2 className="text-xl font-semibold text-gray-900 mb-4">
-          Audit Policy
-        </h2>
-
-        {institution.audit_policy.allowed === null ? (
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-            <p className="text-yellow-800">
-              We haven&apos;t verified this college&apos;s audit policy yet.
-              Contact the registrar to confirm whether auditing is available.
-            </p>
-            {institution.audit_policy.application_process.contact_email && (
-              <p className="mt-2 text-yellow-800">
-                Email:{" "}
-                <a
-                  href={`mailto:${institution.audit_policy.application_process.contact_email}`}
-                  className="underline"
-                >
-                  {institution.audit_policy.application_process.contact_email}
-                </a>
-              </p>
-            )}
-            {institution.audit_policy.application_process.contact_phone && (
-              <p className="mt-1 text-yellow-800">
-                Phone:{" "}
-                {institution.audit_policy.application_process.contact_phone}
-              </p>
-            )}
-          </div>
-        ) : (
-          <div className="space-y-6">
-            {/* Cost */}
-            <div>
-              <h3 className="font-medium text-gray-900 mb-1">Cost</h3>
-              <p className="text-gray-600">
-                {institution.audit_policy.cost_note}
-              </p>
-              {institution.audit_policy.eligibility.senior_discount
-                .available && (
-                <div className="mt-2 bg-teal-50 border border-teal-200 rounded p-3">
-                  <p className="text-teal-800 text-sm font-medium">
-                    60+ Senior Discount:{" "}
-                    {
-                      institution.audit_policy.eligibility.senior_discount
-                        .cost
-                    }
-                  </p>
-                  <p className="text-teal-700 text-xs mt-1">
-                    {
-                      institution.audit_policy.eligibility.senior_discount
-                        .notes
-                    }
-                  </p>
-                </div>
-              )}
-            </div>
-
-            {/* Eligibility */}
-            <div>
-              <h3 className="font-medium text-gray-900 mb-1">Eligibility</h3>
-              <ul className="text-gray-600 text-sm space-y-1">
-                <li>
-                  Minimum age:{" "}
-                  {institution.audit_policy.eligibility.minimum_age}
-                </li>
-                <li>
-                  Residency required:{" "}
-                  {institution.audit_policy.eligibility.residency_required
-                    ? "Yes"
-                    : "No"}
-                </li>
-              </ul>
-            </div>
-
-            {/* Application process */}
-            {institution.audit_policy.application_process.steps.length > 0 && (
-              <div>
-                <h3 className="font-medium text-gray-900 mb-2">
-                  How to Apply
-                </h3>
-                <ol className="list-decimal list-inside text-gray-600 text-sm space-y-2">
-                  {institution.audit_policy.application_process.steps.map(
-                    (step, i) => (
-                      <li key={i}>{step}</li>
-                    )
-                  )}
-                </ol>
-                {institution.audit_policy.application_process.timing && (
-                  <p className="mt-2 text-sm text-amber-700 bg-amber-50 border border-amber-200 rounded p-2">
-                    Deadline:{" "}
-                    {institution.audit_policy.application_process.timing}
-                  </p>
-                )}
-              </div>
-            )}
-
-            {/* Contact */}
-            <div>
-              <h3 className="font-medium text-gray-900 mb-1">Contact</h3>
-              <div className="text-sm text-gray-600 space-y-1">
-                {institution.audit_policy.application_process.contact_email && (
-                  <p>
-                    Email:{" "}
-                    <a
-                      href={`mailto:${institution.audit_policy.application_process.contact_email}`}
-                      className="text-teal-600 hover:underline"
-                    >
-                      {
-                        institution.audit_policy.application_process
-                          .contact_email
-                      }
-                    </a>
-                  </p>
-                )}
-                {institution.audit_policy.application_process.contact_phone && (
-                  <p>
-                    Phone:{" "}
-                    {institution.audit_policy.application_process.contact_phone}
-                  </p>
-                )}
-                {institution.audit_policy.application_process.form_url && (
-                  <p>
-                    <a
-                      href={
-                        institution.audit_policy.application_process.form_url
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-teal-600 hover:underline"
-                    >
-                      Audit Request Form &rarr;
-                    </a>
-                  </p>
-                )}
-              </div>
-            </div>
-
-            {/* Restrictions */}
-            {institution.audit_policy.restrictions.length > 0 && (
-              <div>
-                <h3 className="font-medium text-gray-900 mb-1">
-                  Restrictions
-                </h3>
-                <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
-                  {institution.audit_policy.restrictions.map((r, i) => (
-                    <li key={i}>{r}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {/* Verification */}
-            <div className="border-t border-gray-200 pt-4 text-xs text-gray-400">
-              Last verified: {institution.audit_policy.last_verified}
-              {institution.audit_policy.source_url && (
-                <>
-                  {" · "}
-                  <a
-                    href={institution.audit_policy.source_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline hover:text-gray-600"
-                  >
-                    Source
-                  </a>
-                </>
-              )}
-            </div>
-          </div>
-        )}
-      </section>
 
       {/* Course Listings */}
       <section>
@@ -435,6 +262,143 @@ export default async function CollegeDetailPage(props: PageProps) {
             courseListingUrl={config.courseDiscoveryUrl(collegeSlug, "__PREFIX__", "__NUMBER__")}
           />
         )}
+      </section>
+
+      {/* Audit Policy — collapsed by default, below courses */}
+      <section className="mt-8">
+        <details className="bg-white border border-gray-200 rounded-lg">
+          <summary className="px-6 py-4 cursor-pointer select-none flex items-center justify-between text-lg font-semibold text-gray-900 hover:bg-gray-50 transition-colors rounded-lg">
+            <span>Audit Policy</span>
+            <svg className="w-5 h-5 text-gray-400 transition-transform details-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div className="px-6 pb-6">
+            {institution.audit_policy.allowed === null ? (
+              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+                <p className="text-yellow-800">
+                  We haven&apos;t verified this college&apos;s audit policy yet.
+                  Contact the registrar to confirm whether auditing is available.
+                </p>
+                {institution.audit_policy.application_process.contact_email && (
+                  <p className="mt-2 text-yellow-800">
+                    Email:{" "}
+                    <a
+                      href={`mailto:${institution.audit_policy.application_process.contact_email}`}
+                      className="underline"
+                    >
+                      {institution.audit_policy.application_process.contact_email}
+                    </a>
+                  </p>
+                )}
+                {institution.audit_policy.application_process.contact_phone && (
+                  <p className="mt-1 text-yellow-800">
+                    Phone:{" "}
+                    {institution.audit_policy.application_process.contact_phone}
+                  </p>
+                )}
+              </div>
+            ) : (
+              <div className="space-y-6">
+                {/* Cost */}
+                <div>
+                  <h3 className="font-medium text-gray-900 mb-1">Cost</h3>
+                  <p className="text-gray-600">
+                    {institution.audit_policy.cost_note}
+                  </p>
+                  {institution.audit_policy.eligibility.senior_discount
+                    .available && (
+                    <div className="mt-2 bg-teal-50 border border-teal-200 rounded p-3">
+                      <p className="text-teal-800 text-sm font-medium">
+                        {institution.audit_policy.eligibility.senior_discount.age_threshold ?? 60}+ Senior Discount:{" "}
+                        {institution.audit_policy.eligibility.senior_discount.cost}
+                      </p>
+                      <p className="text-teal-700 text-xs mt-1">
+                        {institution.audit_policy.eligibility.senior_discount.notes}
+                      </p>
+                    </div>
+                  )}
+                </div>
+
+                {/* Eligibility */}
+                <div>
+                  <h3 className="font-medium text-gray-900 mb-1">Eligibility</h3>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>Minimum age: {institution.audit_policy.eligibility.minimum_age}</li>
+                    <li>Residency required: {institution.audit_policy.eligibility.residency_required ? "Yes" : "No"}</li>
+                  </ul>
+                </div>
+
+                {/* Application process */}
+                {institution.audit_policy.application_process.steps.length > 0 && (
+                  <div>
+                    <h3 className="font-medium text-gray-900 mb-2">How to Apply</h3>
+                    <ol className="list-decimal list-inside text-gray-600 text-sm space-y-2">
+                      {institution.audit_policy.application_process.steps.map((step, i) => (
+                        <li key={i}>{step}</li>
+                      ))}
+                    </ol>
+                    {institution.audit_policy.application_process.timing && (
+                      <p className="mt-2 text-sm text-amber-700 bg-amber-50 border border-amber-200 rounded p-2">
+                        Deadline: {institution.audit_policy.application_process.timing}
+                      </p>
+                    )}
+                  </div>
+                )}
+
+                {/* Contact */}
+                <div>
+                  <h3 className="font-medium text-gray-900 mb-1">Contact</h3>
+                  <div className="text-sm text-gray-600 space-y-1">
+                    {institution.audit_policy.application_process.contact_email && (
+                      <p>
+                        Email:{" "}
+                        <a href={`mailto:${institution.audit_policy.application_process.contact_email}`} className="text-teal-600 hover:underline">
+                          {institution.audit_policy.application_process.contact_email}
+                        </a>
+                      </p>
+                    )}
+                    {institution.audit_policy.application_process.contact_phone && (
+                      <p>Phone: {institution.audit_policy.application_process.contact_phone}</p>
+                    )}
+                    {institution.audit_policy.application_process.form_url && (
+                      <p>
+                        <a href={institution.audit_policy.application_process.form_url} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">
+                          Audit Request Form &rarr;
+                        </a>
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                {/* Restrictions */}
+                {institution.audit_policy.restrictions.length > 0 && (
+                  <div>
+                    <h3 className="font-medium text-gray-900 mb-1">Restrictions</h3>
+                    <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
+                      {institution.audit_policy.restrictions.map((r, i) => (
+                        <li key={i}>{r}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                {/* Verification */}
+                <div className="border-t border-gray-200 pt-4 text-xs text-gray-400">
+                  Last verified: {institution.audit_policy.last_verified}
+                  {institution.audit_policy.source_url && (
+                    <>
+                      {" · "}
+                      <a href={institution.audit_policy.source_url} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">
+                        Source
+                      </a>
+                    </>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+        </details>
       </section>
     </div>
   );
