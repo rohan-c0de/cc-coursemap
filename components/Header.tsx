@@ -54,6 +54,12 @@ export default function Header({ state = "va", stateName = "Virginia", transferS
               {link.label}
             </Link>
           ))}
+          <Link
+            href="/blog"
+            className="hover:text-teal-600 transition-colors"
+          >
+            Blog
+          </Link>
         </nav>
 
         {/* Mobile hamburger button */}
@@ -96,6 +102,13 @@ export default function Header({ state = "va", stateName = "Virginia", transferS
               {link.label}
             </Link>
           ))}
+          <Link
+            href="/blog"
+            onClick={() => setMobileOpen(false)}
+            className="block py-2.5 text-sm text-gray-700 hover:text-teal-600 transition-colors"
+          >
+            Blog
+          </Link>
         </nav>
       )}
     </header>

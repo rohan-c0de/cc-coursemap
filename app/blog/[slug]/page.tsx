@@ -1,0 +1,163 @@
+import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+import {
+  getAllArticles,
+  getArticleBySlug,
+  getClusterArticles,
+  categoryLabel,
+  stateLabel,
+} from "@/lib/blog";
+import RelatedArticles from "@/components/blog/RelatedArticles";
+import Link from "next/link";
+
+type Props = {
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const meta = getArticleBySlug(slug);
+  if (!meta) return { title: "Not Found" };
+
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://cc-coursemap.vercel.app";
+
+  return {
+    title: `${meta.title} — CC CourseMap Blog`,
+    description: meta.description,
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "article",
+      publishedTime: meta.date,
+      url: `${siteUrl}/blog/${meta.slug}`,
+      siteName: "CC CourseMap",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+    },
+  };
+}
+
+export function generateStaticParams() {
+  return getAllArticles().map((a) => ({ slug: a.slug }));
+}
+
+export const dynamicParams = false;
+
+export default async function BlogPostPage({ params }: Props) {
+  const { slug } = await params;
+  const meta = getArticleBySlug(slug);
+  if (!meta) notFound();
+
+  // Dynamic MDX import
+  let Post: React.ComponentType;
+  try {
+    const mod = await import(`@/content/blog/${slug}.mdx`);
+    Post = mod.default;
+  } catch {
+    notFound();
+  }
+
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://cc-coursemap.vercel.app";
+
+  const articleLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: meta.title,
+    description: meta.description,
+    datePublished: meta.date,
+    author: {
+      "@type": "Organization",
+      name: "CC CourseMap",
+      url: siteUrl,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "CC CourseMap",
+      url: siteUrl,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${siteUrl}/blog/${meta.slug}`,
+    },
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: `${siteUrl}/blog`,
+      },
+      { "@type": "ListItem", position: 3, name: meta.title },
+    ],
+  };
+
+  const related = meta.cluster ? getClusterArticles(meta.cluster) : [];
+
+  return (
+    <article className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+
+      {/* Back link */}
+      <Link
+        href="/blog"
+        className="text-sm text-teal-600 hover:text-teal-700 mb-6 inline-block"
+      >
+        &larr; All articles
+      </Link>
+
+      {/* Article header */}
+      <header className="mb-8">
+        <div className="flex flex-wrap items-center gap-2 mb-3">
+          <Link
+            href={`/blog?category=${meta.category}`}
+            className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-600 hover:bg-gray-200 transition"
+          >
+            {categoryLabel(meta.category)}
+          </Link>
+          {meta.state && (
+            <span className="rounded-full bg-teal-50 px-2.5 py-0.5 text-xs font-medium text-teal-700">
+              {stateLabel(meta.state)}
+            </span>
+          )}
+        </div>
+        <h1 className="text-3xl font-bold text-gray-900 leading-tight">
+          {meta.title}
+        </h1>
+        <p className="mt-3 text-gray-500 text-sm">
+          {new Date(meta.date).toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+          {" · "}
+          {meta.author}
+        </p>
+      </header>
+
+      {/* MDX content */}
+      <div className="prose prose-gray prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-teal-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900">
+        <Post />
+      </div>
+
+      {/* Related articles */}
+      <RelatedArticles articles={related} currentSlug={slug} />
+    </article>
+  );
+}

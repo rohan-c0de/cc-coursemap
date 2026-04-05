@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllStates } from "@/lib/states/registry";
 import { loadInstitutions } from "@/lib/institutions";
+import { getAllArticles } from "@/lib/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl =
@@ -37,5 +38,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  return [...entries, ...collegePages];
+  // Blog pages
+  const blogPages: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/blog`, changeFrequency: "weekly" as const, priority: 0.7 },
+    ...getAllArticles().map((article) => ({
+      url: `${baseUrl}/blog/${article.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+      lastModified: new Date(article.date),
+    })),
+  ];
+
+  return [...entries, ...collegePages, ...blogPages];
 }
