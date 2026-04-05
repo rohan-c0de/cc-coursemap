@@ -61,19 +61,25 @@ interface BannerSection {
   }[];
 }
 
-function bannerTermToStandard(code: string): string {
-  // Common Banner term code patterns:
-  // 202620 = Spring 2026, 202630 = Summer 2026, 202710 = Fall 2026
-  // Some schools use: 202601 = Spring, 202602 = Summer, 202603 = Fall
-  const year = parseInt(code.substring(0, 4));
+function bannerTermToStandard(code: string, description: string): string {
+  // Different schools use wildly different term code conventions,
+  // so we primarily parse the description and use the code only for the year.
+  const descLower = description.toLowerCase();
+
+  // Extract year from description first, fall back to code prefix
+  const yearMatch = description.match(/\b(20\d{2})\b/);
+  const year = yearMatch ? yearMatch[1] : code.substring(0, 4);
+
+  if (descLower.includes("fall")) return `${year}FA`;
+  if (descLower.includes("spring") || descLower.includes("winter")) return `${year}SP`;
+  if (descLower.includes("summer")) return `${year}SU`;
+
+  // Fallback to code-based parsing
+  const codeYear = parseInt(code.substring(0, 4));
   const suffix = code.substring(4);
-  if (suffix === "10") return `${year - 1}FA`;
-  if (suffix === "20") return `${year}SP`;
-  if (suffix === "30") return `${year}SU`;
-  if (suffix === "01") return `${year}SP`;
-  if (suffix === "02") return `${year}SU`;
-  if (suffix === "03") return `${year}FA`;
-  // Fallback: try to guess from description
+  if (suffix === "10") return `${codeYear - 1}FA`;
+  if (suffix === "20") return `${codeYear}SP`;
+  if (suffix === "30") return `${codeYear}SU`;
   return `${year}XX`;
 }
 
@@ -352,7 +358,7 @@ async function scrapeCollege(slug: string, baseUrl: string): Promise<void> {
   let totalSections = 0;
 
   for (const term of targetTerms) {
-    const standardTerm = bannerTermToStandard(term.code);
+    const standardTerm = bannerTermToStandard(term.code, term.description);
     console.log(
       `\nScraping ${term.description} (${term.code} → ${standardTerm})...`
     );

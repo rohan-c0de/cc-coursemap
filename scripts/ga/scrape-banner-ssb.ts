@@ -17,31 +17,33 @@ import path from "path";
 const PAGE_SIZE = 500;
 
 // All 22 TCSG colleges — Banner SSB base URLs
-// NOTE: These URLs are estimated patterns. The actual banner subdomain
-// for each college needs to be verified. Some may use different hostnames.
+// Verified pattern: bannerss.{college-domain}
+// Note: north-ga-tech may only have Banner 8 (SSB returns 404)
+//       south-ga-tech may timeout (firewalled or intermittent)
+//       atlanta-tech and lanier-tech may have SSL cert issues
 const BANNER_COLLEGES: Record<string, string> = {
-  "albany-tech": "https://banner.albanytech.edu",
-  "athens-tech": "https://banner.athenstech.edu",
-  "atlanta-tech": "https://banner.atlantatech.edu",
-  "augusta-tech": "https://banner.augustatech.edu",
-  "central-ga-tech": "https://banner.centralgatech.edu",
-  "chattahoochee-tech": "https://banner.chattahoocheetech.edu",
-  "coastal-pines-tech": "https://banner.coastalpines.edu",
-  "columbus-tech": "https://banner.columbustech.edu",
-  "ga-northwestern-tech": "https://banner.gntc.edu",
-  "ga-piedmont-tech": "https://banner.gptc.edu",
-  "gwinnett-tech": "https://banner.gwinnetttech.edu",
-  "lanier-tech": "https://banner.laniertech.edu",
-  "north-ga-tech": "https://banner.northgatech.edu",
-  "oconee-fall-line-tech": "https://banner.oftc.edu",
-  "ogeechee-tech": "https://banner.ogeecheetech.edu",
-  "savannah-tech": "https://banner.savannahtech.edu",
-  "south-ga-tech": "https://banner.southgatech.edu",
-  "southeastern-tech": "https://banner.southeasterntech.edu",
-  "southern-crescent-tech": "https://banner.sctech.edu",
-  "southern-regional-tech": "https://banner.southernregional.edu",
-  "west-ga-tech": "https://banner.westgatech.edu",
-  "wiregrass-tech": "https://banner.wiregrass.edu",
+  "albany-tech": "https://bannerss.albanytech.edu",
+  "athens-tech": "https://bannerss.athenstech.edu",
+  "atlanta-tech": "https://bannerss.atlantatech.edu",
+  "augusta-tech": "https://bannerss.augustatech.edu",
+  "central-ga-tech": "https://bannerss.centralgatech.edu",
+  "chattahoochee-tech": "https://bannerss.chattahoocheetech.edu",
+  "coastal-pines-tech": "https://bannerss.coastalpines.edu",
+  "columbus-tech": "https://bannerss.columbustech.edu",
+  "ga-northwestern-tech": "https://bannerss.gntc.edu",
+  "ga-piedmont-tech": "https://bannerss.gptc.edu",
+  "gwinnett-tech": "https://bannerss.gwinnetttech.edu",
+  "lanier-tech": "https://bannerss.laniertech.edu",
+  "north-ga-tech": "https://bannerss.northgatech.edu",
+  "oconee-fall-line-tech": "https://bannerss.oftc.edu",
+  "ogeechee-tech": "https://bannerss.ogeecheetech.edu",
+  "savannah-tech": "https://bannerss.savannahtech.edu",
+  "south-ga-tech": "https://bannerss.southgatech.edu",
+  "southeastern-tech": "https://bannerss.southeasterntech.edu",
+  "southern-crescent-tech": "https://bannerss.sctech.edu",
+  "southern-regional-tech": "https://bannerss.southernregional.edu",
+  "west-ga-tech": "https://bannerss.westgatech.edu",
+  "wiregrass-tech": "https://bannerss.wiregrass.edu",
 };
 
 interface BannerTerm {
@@ -82,19 +84,28 @@ interface BannerSection {
   }[];
 }
 
-function bannerTermToStandard(code: string): string {
-  const year = parseInt(code.substring(0, 4));
+function bannerTermToStandard(code: string, description: string): string {
+  // Different schools use different term code conventions, so we primarily
+  // parse the description and use the code only for the year.
+  const descLower = description.toLowerCase();
+
+  // Extract year from description first, fall back to code prefix
+  const yearMatch = description.match(/\b(20\d{2})\b/);
+  const year = yearMatch ? yearMatch[1] : code.substring(0, 4);
+
+  if (descLower.includes("fall")) return `${year}FA`;
+  if (descLower.includes("spring") || descLower.includes("winter")) return `${year}SP`;
+  if (descLower.includes("summer")) return `${year}SU`;
+
+  // Fallback to code-based parsing (TCSG fiscal year: 12=Fall, 14=Spring, 16=Summer)
+  const codeYear = parseInt(code.substring(0, 4));
   const suffix = code.substring(4);
-  // TCSG common patterns
-  if (suffix === "10") return `${year - 1}FA`;
-  if (suffix === "20") return `${year}SP`;
-  if (suffix === "30") return `${year}SU`;
-  if (suffix === "01") return `${year}SP`;
-  if (suffix === "02") return `${year}SU`;
-  if (suffix === "03") return `${year}FA`;
-  if (suffix === "08") return `${year}FA`;
-  if (suffix === "05") return `${year}SU`;
-  if (suffix === "02") return `${year}SP`;
+  if (suffix === "12") return `${codeYear - 1}FA`;
+  if (suffix === "14") return `${codeYear - 1}SP`;
+  if (suffix === "16") return `${codeYear - 1}SU`;
+  if (suffix === "10") return `${codeYear - 1}FA`;
+  if (suffix === "20") return `${codeYear}SP`;
+  if (suffix === "30") return `${codeYear}SU`;
   return `${year}XX`;
 }
 
@@ -366,9 +377,10 @@ async function scrapeCollege(slug: string, baseUrl: string): Promise<number> {
   }
 
   // Filter to recent/upcoming terms
+  // TCSG fiscal year codes: Fall 2026 = 202712, Spring 2026 = 202614
   const targetTerms = terms.filter((t) => {
     const code = parseInt(t.code);
-    return code >= 202620;
+    return code >= 202612;
   });
 
   if (targetTerms.length === 0) {
@@ -387,7 +399,7 @@ async function scrapeCollege(slug: string, baseUrl: string): Promise<number> {
   let totalSections = 0;
 
   for (const term of targetTerms) {
-    const standardTerm = bannerTermToStandard(term.code);
+    const standardTerm = bannerTermToStandard(term.code, term.description);
     console.log(
       `\n  Scraping ${term.description} (${term.code} → ${standardTerm})...`
     );
