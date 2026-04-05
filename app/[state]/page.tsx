@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import SeniorBanner from "@/components/SeniorBanner";
+import Link from "next/link";
 import SearchForm from "@/components/SearchForm";
 import StartingSoonCallout from "@/components/StartingSoonCallout";
 import NotifyBanner from "@/components/NotifyBanner";
@@ -80,70 +80,103 @@ export default async function HomePage({ params }: Props) {
                 3
               </div>
               <h3 className="font-semibold text-gray-900 dark:text-slate-100 mb-2">
-                Enroll or Audit
+                Plan Your Path
               </h3>
               <p className="text-gray-600 dark:text-slate-400 text-sm">
-                Enroll for credit, or audit without grades. We provide
-                college-specific steps, contacts, and email templates.
+                Check transfer equivalencies, build a weekly schedule, or find
+                audit policies — all before you register.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Senior waiver banner — secondary position */}
-      {config.seniorWaiver && (
-        <SeniorBanner
-          bannerTitle={config.seniorWaiver.bannerTitle}
-          bannerSummary={config.seniorWaiver.bannerSummary}
-          bannerDetail={config.seniorWaiver.bannerDetail}
-        />
-      )}
+      {/* Highlights — compact cards for key info */}
+      <section className="py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mx-auto space-y-4">
+          {/* Senior waiver — compact card */}
+          {config.seniorWaiver && (
+            <div className="flex items-start gap-4 rounded-xl border border-teal-200 dark:border-teal-800 bg-teal-50/50 dark:bg-teal-900/20 px-5 py-4">
+              <div className="shrink-0 flex h-10 w-10 items-center justify-center rounded-full bg-teal-100 dark:bg-teal-900/50 text-teal-600 dark:text-teal-400 mt-0.5">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 00-.491 6.347A48.62 48.62 0 0112 20.904a48.62 48.62 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.636 50.636 0 00-2.658-.813A59.906 59.906 0 0112 3.493a59.903 59.903 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                </svg>
+              </div>
+              <div className="min-w-0">
+                <p className="text-sm font-semibold text-teal-900 dark:text-teal-200">
+                  {config.seniorWaiver.ageThreshold}+ in {config.name}? Tuition may be waived.
+                </p>
+                <p className="text-sm text-teal-800 dark:text-teal-300 mt-0.5">
+                  {config.seniorWaiver.bannerDetail}
+                </p>
+                <Link
+                  href={`/${state}/about`}
+                  className="inline-block mt-1.5 text-xs font-medium text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 transition-colors"
+                >
+                  Learn more about the waiver &rarr;
+                </Link>
+              </div>
+            </div>
+          )}
 
-      {/* Notify banner */}
-      <section className="px-4 sm:px-6 lg:px-8 pb-8">
-        <div className="max-w-2xl mx-auto">
+          {/* Notify banner */}
           <NotifyBanner nextTerm={nextTerm.label} state={state} />
         </div>
       </section>
 
-      {/* What is auditing */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-slate-100 mb-6">
-            What is Course Auditing?
+      {/* What you can do */}
+      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-slate-100 mb-8 text-center">
+            What You Can Do
           </h2>
-          <div className="space-y-4">
-            <p className="text-gray-600 dark:text-slate-400">
-              Auditing a college course means attending classes without receiving
-              a grade or academic credit. You get to learn the material,
-              participate in lectures, and engage with the subject — without
-              exams, homework pressure, or GPA impact.
-            </p>
-            <p className="text-gray-600 dark:text-slate-400">
-              {config.name}&apos;s {config.collegeCount} community colleges (the{" "}
-              {config.systemName} system) generally allow community members to
-              audit courses, though policies vary by college. Most require you to
-              complete an admission application and submit an audit request form
-              during the add/drop period.
-            </p>
-            {config.seniorWaiver && (
-              <div className="bg-teal-50 dark:bg-teal-900/30 border border-teal-200 dark:border-teal-800 rounded-lg p-4 mt-6">
-                <h3 className="font-semibold text-teal-900 dark:text-teal-200 mb-2">
-                  {config.name} {config.seniorWaiver.ageThreshold}+ Tuition
-                  Waiver
+          <div className="grid sm:grid-cols-2 gap-4">
+            <Link
+              href={`/${state}/courses`}
+              className="group rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-5 transition hover:border-teal-300 dark:hover:border-teal-700 hover:shadow-sm"
+            >
+              <h3 className="font-semibold text-gray-900 dark:text-slate-100 group-hover:text-teal-600 transition-colors mb-1">
+                Search All Courses
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-slate-400">
+                Search across all {config.collegeCount} {config.systemName} colleges at once by subject, keyword, or course number.
+              </p>
+            </Link>
+            {config.transferSupported && (
+              <Link
+                href={`/${state}/transfer`}
+                className="group rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-5 transition hover:border-teal-300 dark:hover:border-teal-700 hover:shadow-sm"
+              >
+                <h3 className="font-semibold text-gray-900 dark:text-slate-100 group-hover:text-teal-600 transition-colors mb-1">
+                  Transfer Lookup
                 </h3>
-                <p className="text-teal-800 dark:text-teal-300 text-sm">
-                  {config.seniorWaiver.legalCitation} provides a tuition waiver
-                  for {config.name} residents aged{" "}
-                  {config.seniorWaiver.ageThreshold} and older at{" "}
-                  {config.systemName} colleges. This may make auditing free — but
-                  whether the waiver applies specifically to audit enrollment
-                  varies by college. We flag this on every college page and link
-                  to the source so you can verify.
+                <p className="text-sm text-gray-600 dark:text-slate-400">
+                  See how community college courses map to universities — direct match or elective credit — before you enroll.
                 </p>
-              </div>
+              </Link>
             )}
+            <Link
+              href={`/${state}/schedule`}
+              className="group rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-5 transition hover:border-teal-300 dark:hover:border-teal-700 hover:shadow-sm"
+            >
+              <h3 className="font-semibold text-gray-900 dark:text-slate-100 group-hover:text-teal-600 transition-colors mb-1">
+                Schedule Builder
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-slate-400">
+                Build a weekly schedule across multiple colleges and spot conflicts before you register.
+              </p>
+            </Link>
+            <Link
+              href={`/${state}/colleges`}
+              className="group rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-5 transition hover:border-teal-300 dark:hover:border-teal-700 hover:shadow-sm"
+            >
+              <h3 className="font-semibold text-gray-900 dark:text-slate-100 group-hover:text-teal-600 transition-colors mb-1">
+                Browse All Colleges
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-slate-400">
+                View audit policies, senior waivers, course counts, and campus info for every {config.systemName} college.
+              </p>
+            </Link>
           </div>
         </div>
       </section>

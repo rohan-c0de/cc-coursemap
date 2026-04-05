@@ -152,7 +152,7 @@ export default async function BlogPostPage({ params }: Props) {
       </header>
 
       {/* MDX content */}
-      <div className="prose prose-gray prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-teal-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900">
+      <div className="prose prose-gray prose-lg max-w-none prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-teal-600 dark:prose-a:text-teal-400 prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900 dark:prose-strong:text-slate-100">
         <Post />
       </div>
 
