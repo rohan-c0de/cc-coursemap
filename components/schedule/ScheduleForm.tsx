@@ -47,7 +47,7 @@ const DISTANCE_OPTIONS = [
   { value: 50, label: "50 miles" },
 ];
 
-export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }: Props) {
+export default function ScheduleForm({ onSubmit, loading, defaultZip }: Props) {
   const [subjects, setSubjects] = useState<string[]>([]);
   const [subjectInput, setSubjectInput] = useState("");
   const [daysAvailable, setDaysAvailable] = useState<string[]>(["M", "Tu", "W", "Th", "F"]);
@@ -279,7 +279,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
               type="text"
               value={zip}
               onChange={(e) => setZip(e.target.value.replace(/\D/g, "").slice(0, 5))}
-              placeholder={defaultZip}
+              placeholder={defaultZip || "zip code"}
               className="w-full rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-4 py-2 text-sm dark:text-slate-100 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200 dark:focus:ring-teal-800 dark:placeholder:text-slate-500"
               maxLength={5}
             />

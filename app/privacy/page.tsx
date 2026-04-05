@@ -16,8 +16,8 @@ export default function PrivacyPage() {
           <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mt-8 mb-3">Overview</h2>
           <p>
             CC CourseMap is a free tool that helps people find community college
-            courses available for auditing across the Virginia Community College System
-            (VCCS). We are committed to protecting your privacy and being transparent
+            courses available for auditing across multiple state community college
+            systems. We are committed to protecting your privacy and being transparent
             about the data we collect.
           </p>
         </section>
@@ -90,9 +90,9 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mt-8 mb-3">Third-Party Links</h2>
           <p>
-            Our site contains links to external websites, including VCCS college
-            websites and courses.vccs.edu. We are not responsible for the privacy
-            practices of these external sites.
+            Our site contains links to external websites, including community college
+            websites and course registration systems. We are not responsible for the
+            privacy practices of these external sites.
           </p>
         </section>
 

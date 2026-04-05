@@ -112,7 +112,7 @@ function daysAwayLabel(days: number): string {
 // Component
 // ---------------------------------------------------------------------------
 
-export default function StartingSoonClient({ state, defaultZip = "22030" }: { state: string; defaultZip?: string }) {
+export default function StartingSoonClient({ state, defaultZip }: { state: string; defaultZip?: string }) {
   const [window, setWindow] = useState(60);
   const [subject, setSubject] = useState("");
   const [mode, setMode] = useState("");
@@ -239,7 +239,7 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
               type="text"
               value={zipInput}
               onChange={(e) => setZipInput(e.target.value)}
-              placeholder={`e.g. ${defaultZip}`}
+              placeholder={defaultZip ? `e.g. ${defaultZip}` : "zip code"}
               maxLength={5}
               className="w-24 rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 dark:text-slate-100 px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
             />

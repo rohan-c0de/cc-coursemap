@@ -100,7 +100,7 @@ interface CourseSearchProps {
   defaultZip?: string;
 }
 
-export default function CourseSearchClient({ state, systemName = "VCCS", collegeCount = 23, courseUrlMap, defaultZip = "22030" }: CourseSearchProps) {
+export default function CourseSearchClient({ state, systemName, collegeCount, courseUrlMap, defaultZip }: CourseSearchProps) {
   const searchParams = useSearchParams();
   const initialQuery = searchParams.get("q")?.replace(/\+/g, " ") || "";
 
@@ -272,7 +272,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                 type="text"
                 value={zip}
                 onChange={(e) => setZip(e.target.value.replace(/\D/g, "").slice(0, 5))}
-                placeholder={defaultZip}
+                placeholder={defaultZip || "zip code"}
                 className="w-full rounded-lg border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100 px-4 py-2.5 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
                 maxLength={5}
               />

@@ -228,7 +228,7 @@ function TransferBadge({ prefix, number, lookup }: { prefix: string; number: str
   );
 }
 
-export default function CourseTable({ courses, collegeSlug, courseListingUrl, systemName = "VCCS", onAuditClick, pinnedCRNs, onTogglePin, transferLookup }: CourseTableProps) {
+export default function CourseTable({ courses, collegeSlug, courseListingUrl, systemName, onAuditClick, pinnedCRNs, onTogglePin, transferLookup }: CourseTableProps) {
   const [subjectFilter, setSubjectFilter] = useState("");
   const [dayFilters, setDayFilters] = useState<string[]>([]);
   const [modeFilter, setModeFilter] = useState("");

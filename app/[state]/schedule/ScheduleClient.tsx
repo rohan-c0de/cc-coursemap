@@ -13,7 +13,7 @@ interface ScheduleClientProps {
   defaultZip?: string;
 }
 
-export default function ScheduleClient({ state, systemName = "VCCS", collegeCount = 23, defaultZip = "22030" }: ScheduleClientProps) {
+export default function ScheduleClient({ state, systemName, collegeCount, defaultZip }: ScheduleClientProps) {
   const [response, setResponse] = useState<ScheduleResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -119,7 +119,7 @@ export default function ScheduleClient({ state, systemName = "VCCS", collegeCoun
           <p className="mt-1 text-sm text-gray-500 dark:text-slate-400 max-w-lg mx-auto">
             Add the subjects you&apos;re interested in, set your availability
             constraints, and we&apos;ll find conflict-free course combinations
-            across all Virginia community colleges.
+            across all community colleges.
           </p>
         </div>
       )}
