@@ -37,7 +37,7 @@ const dcConfig: StateConfig = {
   branding: {
     siteName: "CC CourseMap DC",
     tagline:
-      "Search UDC Community College courses and build your schedule. Tuition waived for DC residents 65+.",
+      "Search UDC Community College courses and build your schedule.",
     footerText:
       "CC CourseMap DC — Find courses at UDC Community College.",
     disclaimer:
@@ -46,8 +46,8 @@ const dcConfig: StateConfig = {
       "DC community college courses",
       "UDC Community College",
       "UDC-CC course search",
-      "free college courses seniors DC",
-      "District of Columbia 65+ tuition waiver",
+      "community college courses near me",
+      "DC community college schedule",
       "UDC schedule builder",
     ],
   },

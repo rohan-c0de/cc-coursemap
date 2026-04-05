@@ -9,6 +9,7 @@ const PLACEHOLDER_BY_STATE: Record<string, string> = {
   va: "e.g. 22903 or Stafford",
   nc: "e.g. 27601 or Raleigh",
   sc: "e.g. 29201 or Columbia",
+  dc: "e.g. 20001 or Washington",
 };
 
 export default function SearchForm({ state = "va" }: { state?: string }) {
