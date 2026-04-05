@@ -4,12 +4,16 @@
  * Scrapes course section data from Georgia TCSG technical colleges
  * that use Ellucian Banner 9/10 Student Registration SSB REST API.
  *
- * All 22 TCSG colleges use Banner SSB.
+ * Most of the 22 TCSG colleges use Banner SSB. A few have migrated to
+ * Ellucian Experience cloud (SAML auth required, not publicly scrapable).
  *
  * Usage:
  *   npx tsx scripts/ga/scrape-banner-ssb.ts --college atlanta-tech
  *   npx tsx scripts/ga/scrape-banner-ssb.ts --all
  */
+
+// Some TCSG colleges have self-signed or expired SSL certs
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 import fs from "fs";
 import path from "path";
