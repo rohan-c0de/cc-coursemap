@@ -61,10 +61,10 @@ export default function ScheduleClient({ state, systemName = "VCCS", collegeCoun
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100">
           Smart Schedule Builder
         </h1>
-        <p className="text-gray-600 mt-1">
+        <p className="text-gray-600 dark:text-slate-400 mt-1">
           Tell us your constraints and we&apos;ll build conflict-free schedules
           across all {collegeCount} {systemName} colleges.
         </p>
@@ -77,8 +77,8 @@ export default function ScheduleClient({ state, systemName = "VCCS", collegeCoun
 
       {/* Error */}
       {error && (
-        <div className="rounded-lg border border-red-200 bg-red-50 p-4 mb-6">
-          <p className="text-sm text-red-800">{error}</p>
+        <div className="rounded-lg border border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-900/30 p-4 mb-6">
+          <p className="text-sm text-red-800 dark:text-red-300">{error}</p>
         </div>
       )}
 
@@ -86,7 +86,7 @@ export default function ScheduleClient({ state, systemName = "VCCS", collegeCoun
       {loading && (
         <div className="py-12 text-center">
           <div className="inline-block h-6 w-6 animate-spin rounded-full border-2 border-teal-600 border-t-transparent" />
-          <p className="mt-2 text-sm text-gray-500">
+          <p className="mt-2 text-sm text-gray-500 dark:text-slate-400">
             Analyzing sections across all colleges...
           </p>
         </div>
@@ -97,8 +97,8 @@ export default function ScheduleClient({ state, systemName = "VCCS", collegeCoun
 
       {/* Empty state */}
       {!loading && !response && !error && (
-        <div className="rounded-xl border border-dashed border-gray-200 py-16 text-center">
-          <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-teal-50">
+        <div className="rounded-xl border border-dashed border-gray-200 dark:border-slate-700 py-16 text-center">
+          <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-teal-50 dark:bg-teal-900/30">
             <svg
               className="h-6 w-6 text-teal-600"
               fill="none"
@@ -113,10 +113,10 @@ export default function ScheduleClient({ state, systemName = "VCCS", collegeCoun
               />
             </svg>
           </div>
-          <h3 className="font-medium text-gray-900">
+          <h3 className="font-medium text-gray-900 dark:text-slate-100">
             Build your perfect schedule
           </h3>
-          <p className="mt-1 text-sm text-gray-500 max-w-lg mx-auto">
+          <p className="mt-1 text-sm text-gray-500 dark:text-slate-400 max-w-lg mx-auto">
             Add the subjects you&apos;re interested in, set your availability
             constraints, and we&apos;ll find conflict-free course combinations
             across all Virginia community colleges.

@@ -131,27 +131,27 @@ export default async function CollegeDetailPage(props: PageProps) {
 
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100">
           {institution.name}
         </h1>
-        <p className="text-gray-600 mt-1">
+        <p className="text-gray-600 dark:text-slate-400 mt-1">
           {institution.campuses.map((c) => c.name).join(" · ")}
         </p>
 
         {/* Status badge */}
         <div className="mt-3">
           {institution.audit_policy.allowed === true && (
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-400">
               Verified
             </span>
           )}
           {institution.audit_policy.allowed === null && (
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-400">
               Contact to Confirm
             </span>
           )}
           {institution.audit_policy.allowed === false && (
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-400">
               Auditing Not Available
             </span>
           )}
@@ -160,15 +160,15 @@ export default async function CollegeDetailPage(props: PageProps) {
 
       {/* Campus map */}
       {institution.campuses.length > 0 && (
-        <div className="mb-8 h-[250px] rounded-lg overflow-hidden border border-gray-200 isolate">
+        <div className="mb-8 h-[250px] rounded-lg overflow-hidden border border-gray-200 dark:border-slate-700 isolate">
           <CollegeMap institution={institution} />
         </div>
       )}
 
       {/* Staleness warning */}
       {stale && courses.length > 0 && (
-        <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-6">
-          <p className="text-amber-800 text-sm">
+        <div className="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-800 rounded-lg p-4 mb-6">
+          <p className="text-amber-800 dark:text-amber-300 text-sm">
             <strong>Note:</strong> Course data may be outdated (last updated
             more than 8 days ago). Check{" "}
             <a
@@ -188,9 +188,9 @@ export default async function CollegeDetailPage(props: PageProps) {
       <section>
         <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
           <div className="flex items-center gap-3">
-            <h2 className="text-xl font-semibold text-gray-900">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100">
               {termLabel(currentTerm)} Courses{" "}
-              <span className="text-gray-500 font-normal text-base">
+              <span className="text-gray-500 dark:text-slate-400 font-normal text-base">
                 ({courses.length} sections)
               </span>
             </h2>
@@ -218,9 +218,9 @@ export default async function CollegeDetailPage(props: PageProps) {
           const upcoming = courses.filter((c) => !isInProgress(c.start_date)).length;
           const started = courses.length - upcoming;
           return upcoming > 0 ? (
-            <div className="mb-4 flex items-center gap-2 rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-2.5 text-sm">
+            <div className="mb-4 flex items-center gap-2 rounded-lg border border-emerald-200 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-900/30 px-4 py-2.5 text-sm">
               <span className="inline-block h-2 w-2 rounded-full bg-emerald-400" />
-              <span className="text-emerald-800">
+              <span className="text-emerald-800 dark:text-emerald-400">
                 <strong>{upcoming}</strong> {upcoming === 1 ? "section" : "sections"} still open for registration
               </span>
               <span className="text-emerald-600">·</span>
@@ -229,9 +229,9 @@ export default async function CollegeDetailPage(props: PageProps) {
               </span>
             </div>
           ) : (
-            <div className="mb-4 flex items-center gap-2 rounded-lg border border-gray-200 bg-gray-50 px-4 py-2.5 text-sm">
-              <span className="inline-block h-2 w-2 rounded-full bg-gray-300" />
-              <span className="text-gray-600">
+            <div className="mb-4 flex items-center gap-2 rounded-lg border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800 px-4 py-2.5 text-sm">
+              <span className="inline-block h-2 w-2 rounded-full bg-gray-300 dark:bg-slate-600" />
+              <span className="text-gray-600 dark:text-slate-400">
                 All {started} sections have already started
               </span>
             </div>
@@ -239,8 +239,8 @@ export default async function CollegeDetailPage(props: PageProps) {
         })()}
 
         {courses.length === 0 ? (
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-8 text-center">
-            <p className="text-gray-600 mb-2">
+          <div className="bg-gray-50 dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-lg p-8 text-center">
+            <p className="text-gray-600 dark:text-slate-400 mb-2">
               No course data available for this term.
             </p>
             <a
@@ -266,22 +266,22 @@ export default async function CollegeDetailPage(props: PageProps) {
 
       {/* Audit Policy — collapsed by default, below courses */}
       <section className="mt-8">
-        <details className="bg-white border border-gray-200 rounded-lg">
-          <summary className="px-6 py-4 cursor-pointer select-none flex items-center justify-between text-lg font-semibold text-gray-900 hover:bg-gray-50 transition-colors rounded-lg">
+        <details className="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-lg">
+          <summary className="px-6 py-4 cursor-pointer select-none flex items-center justify-between text-lg font-semibold text-gray-900 dark:text-slate-100 hover:bg-gray-50 dark:hover:bg-slate-800 transition-colors rounded-lg">
             <span>Audit Policy</span>
-            <svg className="w-5 h-5 text-gray-400 transition-transform details-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <svg className="w-5 h-5 text-gray-400 dark:text-slate-500 transition-transform details-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </summary>
           <div className="px-6 pb-6">
             {institution.audit_policy.allowed === null ? (
-              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-                <p className="text-yellow-800">
+              <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4">
+                <p className="text-yellow-800 dark:text-yellow-400">
                   We haven&apos;t verified this college&apos;s audit policy yet.
                   Contact the registrar to confirm whether auditing is available.
                 </p>
                 {institution.audit_policy.application_process.contact_email && (
-                  <p className="mt-2 text-yellow-800">
+                  <p className="mt-2 text-yellow-800 dark:text-yellow-400">
                     Email:{" "}
                     <a
                       href={`mailto:${institution.audit_policy.application_process.contact_email}`}
@@ -292,7 +292,7 @@ export default async function CollegeDetailPage(props: PageProps) {
                   </p>
                 )}
                 {institution.audit_policy.application_process.contact_phone && (
-                  <p className="mt-1 text-yellow-800">
+                  <p className="mt-1 text-yellow-800 dark:text-yellow-400">
                     Phone:{" "}
                     {institution.audit_policy.application_process.contact_phone}
                   </p>
@@ -302,18 +302,18 @@ export default async function CollegeDetailPage(props: PageProps) {
               <div className="space-y-6">
                 {/* Cost */}
                 <div>
-                  <h3 className="font-medium text-gray-900 mb-1">Cost</h3>
-                  <p className="text-gray-600">
+                  <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">Cost</h3>
+                  <p className="text-gray-600 dark:text-slate-400">
                     {institution.audit_policy.cost_note}
                   </p>
                   {institution.audit_policy.eligibility.senior_discount
                     .available && (
-                    <div className="mt-2 bg-teal-50 border border-teal-200 rounded p-3">
-                      <p className="text-teal-800 text-sm font-medium">
+                    <div className="mt-2 bg-teal-50 dark:bg-teal-900/30 border border-teal-200 dark:border-teal-800 rounded p-3">
+                      <p className="text-teal-800 dark:text-teal-300 text-sm font-medium">
                         {institution.audit_policy.eligibility.senior_discount.age_threshold ?? 60}+ Senior Discount:{" "}
                         {institution.audit_policy.eligibility.senior_discount.cost}
                       </p>
-                      <p className="text-teal-700 text-xs mt-1">
+                      <p className="text-teal-700 dark:text-teal-400 text-xs mt-1">
                         {institution.audit_policy.eligibility.senior_discount.notes}
                       </p>
                     </div>
@@ -322,8 +322,8 @@ export default async function CollegeDetailPage(props: PageProps) {
 
                 {/* Eligibility */}
                 <div>
-                  <h3 className="font-medium text-gray-900 mb-1">Eligibility</h3>
-                  <ul className="text-gray-600 text-sm space-y-1">
+                  <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">Eligibility</h3>
+                  <ul className="text-gray-600 dark:text-slate-400 text-sm space-y-1">
                     <li>Minimum age: {institution.audit_policy.eligibility.minimum_age}</li>
                     <li>Residency required: {institution.audit_policy.eligibility.residency_required ? "Yes" : "No"}</li>
                   </ul>
@@ -332,14 +332,14 @@ export default async function CollegeDetailPage(props: PageProps) {
                 {/* Application process */}
                 {institution.audit_policy.application_process.steps.length > 0 && (
                   <div>
-                    <h3 className="font-medium text-gray-900 mb-2">How to Apply</h3>
-                    <ol className="list-decimal list-inside text-gray-600 text-sm space-y-2">
+                    <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-2">How to Apply</h3>
+                    <ol className="list-decimal list-inside text-gray-600 dark:text-slate-400 text-sm space-y-2">
                       {institution.audit_policy.application_process.steps.map((step, i) => (
                         <li key={i}>{step}</li>
                       ))}
                     </ol>
                     {institution.audit_policy.application_process.timing && (
-                      <p className="mt-2 text-sm text-amber-700 bg-amber-50 border border-amber-200 rounded p-2">
+                      <p className="mt-2 text-sm text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-800 rounded p-2">
                         Deadline: {institution.audit_policy.application_process.timing}
                       </p>
                     )}
@@ -348,8 +348,8 @@ export default async function CollegeDetailPage(props: PageProps) {
 
                 {/* Contact */}
                 <div>
-                  <h3 className="font-medium text-gray-900 mb-1">Contact</h3>
-                  <div className="text-sm text-gray-600 space-y-1">
+                  <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">Contact</h3>
+                  <div className="text-sm text-gray-600 dark:text-slate-400 space-y-1">
                     {institution.audit_policy.application_process.contact_email && (
                       <p>
                         Email:{" "}
@@ -374,8 +374,8 @@ export default async function CollegeDetailPage(props: PageProps) {
                 {/* Restrictions */}
                 {institution.audit_policy.restrictions.length > 0 && (
                   <div>
-                    <h3 className="font-medium text-gray-900 mb-1">Restrictions</h3>
-                    <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
+                    <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">Restrictions</h3>
+                    <ul className="text-gray-600 dark:text-slate-400 text-sm space-y-1 list-disc list-inside">
                       {institution.audit_policy.restrictions.map((r, i) => (
                         <li key={i}>{r}</li>
                       ))}
@@ -384,12 +384,12 @@ export default async function CollegeDetailPage(props: PageProps) {
                 )}
 
                 {/* Verification */}
-                <div className="border-t border-gray-200 pt-4 text-xs text-gray-400">
+                <div className="border-t border-gray-200 dark:border-slate-700 pt-4 text-xs text-gray-400 dark:text-slate-500">
                   Last verified: {institution.audit_policy.last_verified}
                   {institution.audit_policy.source_url && (
                     <>
                       {" · "}
-                      <a href={institution.audit_policy.source_url} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">
+                      <a href={institution.audit_policy.source_url} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600 dark:hover:text-slate-400">
                         Source
                       </a>
                     </>

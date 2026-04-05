@@ -1,9 +1,16 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+.dark {
+  --background: #0f172a;
+  --foreground: #e2e8f0;
+  color-scheme: dark;
 }
 
 @theme inline {
@@ -24,4 +31,24 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 0.5rem;
+}
+
+/* Dark mode prose overrides for blog content */
+.dark .prose {
+  --tw-prose-body: #cbd5e1;
+  --tw-prose-headings: #f1f5f9;
+  --tw-prose-lead: #94a3b8;
+  --tw-prose-links: #2dd4bf;
+  --tw-prose-bold: #f1f5f9;
+  --tw-prose-counters: #94a3b8;
+  --tw-prose-bullets: #64748b;
+  --tw-prose-hr: #334155;
+  --tw-prose-quotes: #f1f5f9;
+  --tw-prose-quote-borders: #334155;
+  --tw-prose-captions: #94a3b8;
+  --tw-prose-code: #f1f5f9;
+  --tw-prose-pre-code: #e2e8f0;
+  --tw-prose-pre-bg: #1e293b;
+  --tw-prose-th-borders: #475569;
+  --tw-prose-td-borders: #334155;
 }

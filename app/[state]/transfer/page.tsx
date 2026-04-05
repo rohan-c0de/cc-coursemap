@@ -68,10 +68,10 @@ export default async function TransferPage({ params }: Props) {
         &larr; Back to search
       </Link>
 
-      <h1 className="text-3xl font-bold text-gray-900 mb-2">
+      <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100 mb-2">
         Transfer Course Finder
       </h1>
-      <p className="text-gray-600 mb-8">
+      <p className="text-gray-600 dark:text-slate-400 mb-8">
         {`Find which ${config.systemName} courses transfer to your target university. See direct equivalencies, elective credit, and what's available this term.`}
       </p>
 

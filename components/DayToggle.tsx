@@ -35,7 +35,7 @@ export default function DayToggle({ selectedDays, onChange }: DayToggleProps) {
             className={`rounded-md border px-2 py-1.5 text-xs font-medium transition ${
               active
                 ? "bg-teal-600 border-teal-600 text-white"
-                : "bg-white border-gray-300 text-gray-500 hover:border-teal-400"
+                : "bg-white border-gray-300 text-gray-500 hover:border-teal-400 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-400 dark:hover:border-teal-400"
             }`}
           >
             {d.label}

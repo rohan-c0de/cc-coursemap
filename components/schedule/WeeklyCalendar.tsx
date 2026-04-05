@@ -44,18 +44,18 @@ export default function WeeklyCalendar({ sections }: Props) {
     <div>
       <div className="overflow-x-auto">
         <div
-          className="min-w-[600px] grid border border-gray-200 rounded-lg overflow-hidden"
+          className="min-w-[600px] grid border border-gray-200 dark:border-slate-700 rounded-lg overflow-hidden"
           style={{
             gridTemplateColumns: "60px repeat(6, 1fr)",
             gridTemplateRows: `32px repeat(${SLOT_COUNT}, 20px)`,
           }}
         >
           {/* Header row */}
-          <div className="bg-gray-50 border-b border-r border-gray-200" />
+          <div className="bg-gray-50 dark:bg-slate-800 border-b border-r border-gray-200 dark:border-slate-700" />
           {DAY_COLS.map((day) => (
             <div
               key={day.key}
-              className="bg-gray-50 border-b border-r border-gray-200 flex items-center justify-center text-xs font-medium text-gray-600"
+              className="bg-gray-50 dark:bg-slate-800 border-b border-r border-gray-200 dark:border-slate-700 flex items-center justify-center text-xs font-medium text-gray-600 dark:text-slate-400"
             >
               {day.label}
             </div>
@@ -68,7 +68,7 @@ export default function WeeklyCalendar({ sections }: Props) {
             return (
               <div
                 key={`time-${i}`}
-                className={`border-r border-gray-200 flex items-start justify-end pr-1.5 text-[10px] text-gray-400 ${isHour ? "border-t border-gray-100" : ""}`}
+                className={`border-r border-gray-200 dark:border-slate-700 flex items-start justify-end pr-1.5 text-[10px] text-gray-400 dark:text-slate-500 ${isHour ? "border-t border-gray-100 dark:border-slate-700" : ""}`}
                 style={{ gridColumn: 1, gridRow: i + 2 }}
               >
                 {isHour && (
@@ -88,7 +88,7 @@ export default function WeeklyCalendar({ sections }: Props) {
               return (
                 <div
                   key={`${day.key}-${rowIdx}`}
-                  className={`border-r border-gray-100 ${isHour ? "border-t border-gray-100" : ""}`}
+                  className={`border-r border-gray-100 dark:border-slate-700 ${isHour ? "border-t border-gray-100 dark:border-slate-700" : ""}`}
                   style={{
                     gridColumn: colIdx + 2,
                     gridRow: rowIdx + 2,

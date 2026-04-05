@@ -18,7 +18,7 @@ export default function ScoreBar({ breakdown, total }: Props) {
   return (
     <div className="space-y-1">
       {/* Stacked bar */}
-      <div className="flex h-2 rounded-full overflow-hidden bg-gray-100">
+      <div className="flex h-2 rounded-full overflow-hidden bg-gray-100 dark:bg-slate-700">
         {SEGMENTS.map((seg) => {
           const value = breakdown[seg.key];
           const pct = (value / 100) * 100;
@@ -34,7 +34,7 @@ export default function ScoreBar({ breakdown, total }: Props) {
       </div>
 
       {/* Labels */}
-      <div className="flex gap-3 text-[10px] text-gray-500">
+      <div className="flex gap-3 text-[10px] text-gray-500 dark:text-slate-400">
         {SEGMENTS.map((seg) => (
           <span key={seg.key} className="flex items-center gap-1">
             <span className={`inline-block h-1.5 w-1.5 rounded-full ${seg.color}`} />

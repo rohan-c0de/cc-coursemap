@@ -112,26 +112,26 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="rounded-xl border border-gray-200 bg-white shadow-sm p-5 space-y-5">
+      <div className="rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-sm p-5 space-y-5">
         {/* Subjects input */}
         <div>
-          <label className="block text-xs font-medium text-gray-500 mb-1.5">
+          <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1.5">
             Subjects or course codes
           </label>
           <div
-            className="flex flex-wrap items-center gap-1.5 rounded-lg border border-gray-300 px-3 py-2 focus-within:border-teal-500 focus-within:ring-1 focus-within:ring-teal-200 cursor-text"
+            className="flex flex-wrap items-center gap-1.5 rounded-lg border border-gray-300 dark:border-slate-600 px-3 py-2 focus-within:border-teal-500 focus-within:ring-1 focus-within:ring-teal-200 dark:focus-within:ring-teal-800 cursor-text"
             onClick={() => inputRef.current?.focus()}
           >
             {subjects.map((s, i) => (
               <span
                 key={i}
-                className="inline-flex items-center gap-1 rounded-md bg-teal-50 border border-teal-200 px-2 py-0.5 text-xs font-medium text-teal-800"
+                className="inline-flex items-center gap-1 rounded-md bg-teal-50 dark:bg-teal-900/30 border border-teal-200 dark:border-teal-800 px-2 py-0.5 text-xs font-medium text-teal-800 dark:text-teal-300"
               >
                 {s}
                 <button
                   type="button"
                   onClick={() => removeSubject(i)}
-                  className="text-teal-400 hover:text-teal-700"
+                  className="text-teal-400 hover:text-teal-700 dark:hover:text-teal-200"
                 >
                   &times;
                 </button>
@@ -149,7 +149,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
                   ? 'Type a subject (ART) or course (PSY 200) and press Enter'
                   : "Add more..."
               }
-              className="flex-1 min-w-[180px] text-sm outline-none bg-transparent py-0.5"
+              className="flex-1 min-w-[180px] text-sm outline-none bg-transparent py-0.5 dark:text-slate-100 dark:placeholder:text-slate-500"
             />
           </div>
           {/* Quick-add chips */}
@@ -160,7 +160,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
                 type="button"
                 onClick={() => addSubject(s)}
                 disabled={subjects.includes(s)}
-                className="rounded-full border border-gray-200 bg-white px-2.5 py-0.5 text-[11px] text-gray-500 hover:border-teal-300 hover:text-teal-700 transition disabled:opacity-30 disabled:cursor-not-allowed"
+                className="rounded-full border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-2.5 py-0.5 text-[11px] text-gray-500 dark:text-slate-400 hover:border-teal-300 hover:text-teal-700 dark:hover:border-teal-600 dark:hover:text-teal-400 transition disabled:opacity-30 disabled:cursor-not-allowed"
               >
                 + {s}
               </button>
@@ -172,7 +172,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
         <div className="grid sm:grid-cols-2 gap-4">
           {/* Days available */}
           <div>
-            <label className="block text-xs font-medium text-gray-500 mb-1.5">
+            <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1.5">
               Days available
             </label>
             <div className="flex gap-1.5">
@@ -186,7 +186,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
                     className={`flex-1 rounded-md border px-2 py-1.5 text-xs font-medium transition ${
                       active
                         ? "bg-teal-600 border-teal-600 text-white"
-                        : "bg-white border-gray-300 text-gray-500 hover:border-teal-400"
+                        : "bg-white dark:bg-slate-900 border-gray-300 dark:border-slate-600 text-gray-500 dark:text-slate-400 hover:border-teal-400"
                     }`}
                   >
                     {d.label}
@@ -198,7 +198,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
 
           {/* Time window */}
           <div>
-            <label className="block text-xs font-medium text-gray-500 mb-1.5">
+            <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1.5">
               Time of day
             </label>
             <div className="flex gap-1.5">
@@ -210,7 +210,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
                   className={`flex-1 rounded-md border px-2 py-1.5 text-xs font-medium transition ${
                     timeBucket === t.value
                       ? "bg-teal-600 border-teal-600 text-white"
-                      : "bg-white border-gray-300 text-gray-500 hover:border-teal-400"
+                      : "bg-white dark:bg-slate-900 border-gray-300 dark:border-slate-600 text-gray-500 dark:text-slate-400 hover:border-teal-400"
                   }`}
                 >
                   {t.value === "any"
@@ -225,7 +225,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
         {/* Max courses + Break */}
         <div className="grid sm:grid-cols-2 gap-4">
           <div>
-            <label className="block text-xs font-medium text-gray-500 mb-1.5">
+            <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1.5">
               Max courses
             </label>
             <div className="flex gap-1.5">
@@ -237,7 +237,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
                   className={`flex-1 rounded-md border px-3 py-1.5 text-sm font-medium transition ${
                     maxCourses === n
                       ? "bg-teal-600 border-teal-600 text-white"
-                      : "bg-white border-gray-300 text-gray-500 hover:border-teal-400"
+                      : "bg-white dark:bg-slate-900 border-gray-300 dark:border-slate-600 text-gray-500 dark:text-slate-400 hover:border-teal-400"
                   }`}
                 >
                   {n} {n === 1 ? "course" : "courses"}
@@ -247,7 +247,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
           </div>
 
           <div>
-            <label className="block text-xs font-medium text-gray-500 mb-1.5">
+            <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1.5">
               Min break between classes
             </label>
             <div className="flex gap-1.5">
@@ -259,7 +259,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
                   className={`flex-1 rounded-md border px-3 py-1.5 text-xs font-medium transition ${
                     minBreak === mins
                       ? "bg-teal-600 border-teal-600 text-white"
-                      : "bg-white border-gray-300 text-gray-500 hover:border-teal-400"
+                      : "bg-white dark:bg-slate-900 border-gray-300 dark:border-slate-600 text-gray-500 dark:text-slate-400 hover:border-teal-400"
                   }`}
                 >
                   {mins === 0 ? "None" : `${mins} min`}
@@ -272,21 +272,21 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
         {/* Location + Mode row */}
         <div className="grid sm:grid-cols-3 gap-4">
           <div>
-            <label className="block text-xs font-medium text-gray-500 mb-1.5">
-              Zip code <span className="text-gray-400">(optional)</span>
+            <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1.5">
+              Zip code <span className="text-gray-400 dark:text-slate-500">(optional)</span>
             </label>
             <input
               type="text"
               value={zip}
               onChange={(e) => setZip(e.target.value.replace(/\D/g, "").slice(0, 5))}
               placeholder={defaultZip}
-              className="w-full rounded-lg border border-gray-300 px-4 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+              className="w-full rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-4 py-2 text-sm dark:text-slate-100 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200 dark:focus:ring-teal-800 dark:placeholder:text-slate-500"
               maxLength={5}
             />
           </div>
 
           <div>
-            <label className="block text-xs font-medium text-gray-500 mb-1.5">
+            <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1.5">
               Max distance
             </label>
             <select
@@ -294,7 +294,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
               onChange={(e) =>
                 setMaxDistance(e.target.value ? Number(e.target.value) : undefined)
               }
-              className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+              className="w-full rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-sm dark:text-slate-100 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200 dark:focus:ring-teal-800"
             >
               {DISTANCE_OPTIONS.map((d) => (
                 <option key={d.label} value={d.value ?? ""}>
@@ -305,13 +305,13 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
           </div>
 
           <div>
-            <label className="block text-xs font-medium text-gray-500 mb-1.5">
+            <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1.5">
               Modality
             </label>
             <select
               value={mode}
               onChange={(e) => setMode(e.target.value)}
-              className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+              className="w-full rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-sm dark:text-slate-100 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200 dark:focus:ring-teal-800"
             >
               <option value="any">Any Mode</option>
               <option value="in-person">In-Person</option>
@@ -327,16 +327,16 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip = "22030" }
             type="checkbox"
             checked={includeInProgress}
             onChange={(e) => setIncludeInProgress(e.target.checked)}
-            className="h-4 w-4 rounded border-gray-300 text-teal-600 focus:ring-teal-500"
+            className="h-4 w-4 rounded border-gray-300 dark:border-slate-600 text-teal-600 focus:ring-teal-500 dark:bg-slate-900"
           />
-          <span className="text-sm text-gray-600">
+          <span className="text-sm text-gray-600 dark:text-slate-400">
             Include sections that already started
           </span>
         </label>
 
         {/* Submit */}
         <div className="flex items-center justify-between pt-1">
-          <p className="text-xs text-gray-400">
+          <p className="text-xs text-gray-400 dark:text-slate-500">
             {subjects.length === 0
               ? "Add at least one subject to get started"
               : `${subjects.length} subject${subjects.length > 1 ? "s" : ""} · ${daysAvailable.length} days · ${maxCourses} max`}

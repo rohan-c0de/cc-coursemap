@@ -129,23 +129,23 @@ export default function TransferClient({
     return (
       <div
         key={i}
-        className={`px-4 py-3 ${m.no_credit ? "bg-gray-50 opacity-60" : ""}`}
+        className={`px-4 py-3 ${m.no_credit ? "bg-gray-50 dark:bg-slate-800 opacity-60" : ""}`}
       >
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
           {/* Left: CC course → University course */}
           <div className="min-w-0">
             <div className="flex items-center gap-2 flex-wrap">
-              <span className="font-medium text-gray-900">
+              <span className="font-medium text-gray-900 dark:text-slate-100">
                 {m.cc_course}
               </span>
               {!m.no_credit && (
                 <>
-                  <span className="text-gray-400">&rarr;</span>
+                  <span className="text-gray-400 dark:text-slate-500">&rarr;</span>
                   <span
                     className={`font-medium ${
                       m.is_elective
-                        ? "text-amber-700"
-                        : "text-teal-700"
+                        ? "text-amber-700 dark:text-amber-400"
+                        : "text-teal-700 dark:text-teal-400"
                     }`}
                   >
                     {m.univ_course}
@@ -153,22 +153,22 @@ export default function TransferClient({
                 </>
               )}
               {m.no_credit && (
-                <span className="text-xs text-rose-600 font-medium">
+                <span className="text-xs text-rose-600 dark:text-rose-400 font-medium">
                   No {uniName} credit
                 </span>
               )}
             </div>
-            <div className="text-xs text-gray-500 mt-0.5">
+            <div className="text-xs text-gray-500 dark:text-slate-400 mt-0.5">
               {m.cc_title}
               {!m.no_credit && m.univ_title && (
-                <span className="text-gray-400">
+                <span className="text-gray-400 dark:text-slate-500">
                   {" "}
                   &rarr; {m.univ_title}
                 </span>
               )}
             </div>
             {m.notes && (
-              <p className="text-[10px] text-amber-600 mt-1">
+              <p className="text-[10px] text-amber-600 dark:text-amber-400 mt-1">
                 {m.notes}
               </p>
             )}
@@ -177,22 +177,22 @@ export default function TransferClient({
           {/* Right: credits + badge + availability */}
           <div className="flex items-center gap-3 shrink-0">
             {!m.no_credit && (
-              <span className="text-xs text-gray-400">
+              <span className="text-xs text-gray-400 dark:text-slate-500">
                 {m.cc_credits} cr &rarr; {m.univ_credits} cr
               </span>
             )}
             {showOutcomeBadge && m.is_elective && !m.no_credit && (
-              <span className="inline-flex items-center rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-medium text-amber-700 ring-1 ring-inset ring-amber-200">
+              <span className="inline-flex items-center rounded-full bg-amber-50 dark:bg-amber-900/30 px-2 py-0.5 text-[10px] font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-200 dark:ring-amber-800">
                 Elective credit only
               </span>
             )}
             {showOutcomeBadge && !m.is_elective && !m.no_credit && (
-              <span className="inline-flex items-center rounded-full bg-teal-50 px-2 py-0.5 text-[10px] font-medium text-teal-700 ring-1 ring-inset ring-teal-200">
+              <span className="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-2 py-0.5 text-[10px] font-medium text-teal-700 dark:text-teal-400 ring-1 ring-inset ring-teal-200 dark:ring-teal-800">
                 Direct match
               </span>
             )}
             {showOutcomeBadge && m.no_credit && (
-              <span className="inline-flex items-center rounded-full bg-rose-50 px-2 py-0.5 text-[10px] font-medium text-rose-700 ring-1 ring-inset ring-rose-200">
+              <span className="inline-flex items-center rounded-full bg-rose-50 dark:bg-rose-900/30 px-2 py-0.5 text-[10px] font-medium text-rose-700 dark:text-rose-400 ring-1 ring-inset ring-rose-200 dark:ring-rose-800">
                 No credit
               </span>
             )}
@@ -201,8 +201,8 @@ export default function TransferClient({
               <span
                 className={`inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-medium ring-1 ring-inset ${
                   availability
-                    ? "bg-emerald-50 text-emerald-700 ring-emerald-200"
-                    : "bg-gray-50 text-gray-500 ring-gray-200"
+                    ? "bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 ring-emerald-200 dark:ring-emerald-800"
+                    : "bg-gray-50 dark:bg-slate-800 text-gray-500 dark:text-slate-400 ring-gray-200 dark:ring-slate-700"
                 }`}
               >
                 {availability ? "Available now" : "Not offered"}
@@ -232,7 +232,7 @@ export default function TransferClient({
     <div>
       {/* University selector */}
       <div className="mb-6">
-        <label className="text-sm font-medium text-gray-700 mr-2">
+        <label className="text-sm font-medium text-gray-700 dark:text-slate-300 mr-2">
           I want to transfer to:
         </label>
         <select
@@ -242,7 +242,7 @@ export default function TransferClient({
             setSubjectFilter("");
             setTypeFilter("");
           }}
-          className="rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-900 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+          className="rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 px-4 py-2 text-sm font-medium text-gray-900 dark:text-slate-100 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
         >
           {universities.map((u) => (
             <option key={u.slug} value={u.slug}>
@@ -254,36 +254,36 @@ export default function TransferClient({
 
       {/* Stats banner */}
       <div className="mb-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <div className="rounded-lg border border-teal-200 bg-teal-50 p-4 text-center">
-          <p className="text-2xl font-bold text-teal-700">{stats.direct}</p>
-          <p className="text-xs text-teal-600">Direct Matches</p>
+        <div className="rounded-lg border border-teal-200 dark:border-teal-800 bg-teal-50 dark:bg-teal-900/30 p-4 text-center">
+          <p className="text-2xl font-bold text-teal-700 dark:text-teal-400">{stats.direct}</p>
+          <p className="text-xs text-teal-600 dark:text-teal-500">Direct Matches</p>
         </div>
-        <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-center">
-          <p className="text-2xl font-bold text-amber-700">{stats.elective}</p>
-          <p className="text-xs text-amber-600">Elective Only</p>
+        <div className="rounded-lg border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-900/30 p-4 text-center">
+          <p className="text-2xl font-bold text-amber-700 dark:text-amber-400">{stats.elective}</p>
+          <p className="text-xs text-amber-600 dark:text-amber-500">Elective Only</p>
         </div>
-        <div className="rounded-lg border border-rose-200 bg-rose-50 p-4 text-center">
-          <p className="text-2xl font-bold text-rose-700">{stats.noCredit}</p>
-          <p className="text-xs text-rose-600">No Credit</p>
+        <div className="rounded-lg border border-rose-200 dark:border-rose-800 bg-rose-50 dark:bg-rose-900/30 p-4 text-center">
+          <p className="text-2xl font-bold text-rose-700 dark:text-rose-400">{stats.noCredit}</p>
+          <p className="text-xs text-rose-600 dark:text-rose-500">No Credit</p>
         </div>
-        <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-center">
-          <p className="text-2xl font-bold text-emerald-700">
+        <div className="rounded-lg border border-emerald-200 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-900/30 p-4 text-center">
+          <p className="text-2xl font-bold text-emerald-700 dark:text-emerald-400">
             {stats.available}
           </p>
-          <p className="text-xs text-emerald-600">Available Now</p>
+          <p className="text-xs text-emerald-600 dark:text-emerald-500">Available Now</p>
         </div>
       </div>
 
       {/* Filters */}
-      <div className="mb-6 flex flex-wrap items-end gap-3 rounded-lg border border-gray-200 bg-gray-50 p-4">
+      <div className="mb-6 flex flex-wrap items-end gap-3 rounded-lg border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800 p-4">
         <div className="min-w-[140px]">
-          <label className="mb-1 block text-xs font-medium text-gray-600">
+          <label className="mb-1 block text-xs font-medium text-gray-600 dark:text-slate-400">
             Subject
           </label>
           <select
             value={subjectFilter}
             onChange={(e) => setSubjectFilter(e.target.value)}
-            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+            className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-sm dark:text-slate-100 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
           >
             <option value="">All Subjects ({subjects.length})</option>
             {subjects.map((s) => (
@@ -295,7 +295,7 @@ export default function TransferClient({
         </div>
 
         <div className="min-w-[160px]">
-          <label className="mb-1 block text-xs font-medium text-gray-600">
+          <label className="mb-1 block text-xs font-medium text-gray-600 dark:text-slate-400">
             Transfer Type
           </label>
           <select
@@ -305,7 +305,7 @@ export default function TransferClient({
                 e.target.value as "" | "direct" | "elective" | "no-credit"
               )
             }
-            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+            className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-sm dark:text-slate-100 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
           >
             <option value="">All Types</option>
             <option value="direct">Direct Matches Only</option>
@@ -321,20 +321,20 @@ export default function TransferClient({
             onChange={(e) => setAvailableOnly(e.target.checked)}
             className="rounded border-gray-300 text-teal-600 focus:ring-teal-500"
           />
-          <span className="text-sm text-gray-700">
+          <span className="text-sm text-gray-700 dark:text-slate-300">
             Available this term only
           </span>
         </label>
 
         {/* Group by toggle */}
         <div className="flex items-center gap-2 ml-auto">
-          <span className="text-xs font-medium text-gray-500">Group by:</span>
+          <span className="text-xs font-medium text-gray-500 dark:text-slate-400">Group by:</span>
           <button
             onClick={() => setGroupMode("outcome")}
             className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
               groupMode === "outcome"
-                ? "bg-gray-900 text-white"
-                : "bg-white text-gray-600 ring-1 ring-inset ring-gray-300 hover:bg-gray-100"
+                ? "bg-gray-900 dark:bg-slate-100 text-white dark:text-slate-900"
+                : "bg-white dark:bg-slate-800 text-gray-600 dark:text-slate-400 ring-1 ring-inset ring-gray-300 dark:ring-slate-600 hover:bg-gray-100 dark:hover:bg-slate-700"
             }`}
           >
             Transfer outcome
@@ -343,8 +343,8 @@ export default function TransferClient({
             onClick={() => setGroupMode("subject")}
             className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
               groupMode === "subject"
-                ? "bg-gray-900 text-white"
-                : "bg-white text-gray-600 ring-1 ring-inset ring-gray-300 hover:bg-gray-100"
+                ? "bg-gray-900 dark:bg-slate-100 text-white dark:text-slate-900"
+                : "bg-white dark:bg-slate-800 text-gray-600 dark:text-slate-400 ring-1 ring-inset ring-gray-300 dark:ring-slate-600 hover:bg-gray-100 dark:hover:bg-slate-700"
             }`}
           >
             Subject
@@ -354,21 +354,21 @@ export default function TransferClient({
 
       {/* Glossary — 3 cards */}
       <div className="mb-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
-        <div className="rounded-lg border border-teal-200 bg-white p-3">
-          <p className="text-xs font-semibold text-teal-700">Direct match</p>
-          <p className="mt-1 text-xs leading-relaxed text-gray-600">
+        <div className="rounded-lg border border-teal-200 dark:border-teal-800 bg-white dark:bg-slate-800 p-3">
+          <p className="text-xs font-semibold text-teal-700 dark:text-teal-400">Direct match</p>
+          <p className="mt-1 text-xs leading-relaxed text-gray-600 dark:text-slate-400">
             Transfers as a named equivalent course at the destination university.
           </p>
         </div>
-        <div className="rounded-lg border border-amber-200 bg-white p-3">
-          <p className="text-xs font-semibold text-amber-700">Elective credit only</p>
-          <p className="mt-1 text-xs leading-relaxed text-gray-600">
+        <div className="rounded-lg border border-amber-200 dark:border-amber-800 bg-white dark:bg-slate-800 p-3">
+          <p className="text-xs font-semibold text-amber-700 dark:text-amber-400">Elective credit only</p>
+          <p className="mt-1 text-xs leading-relaxed text-gray-600 dark:text-slate-400">
             Credit transfers as general elective, not a specific course. Confirm with your advisor.
           </p>
         </div>
-        <div className="rounded-lg border border-gray-200 bg-white p-3">
-          <p className="text-xs font-semibold text-gray-700">Important</p>
-          <p className="mt-1 text-xs leading-relaxed text-gray-600">
+        <div className="rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-3">
+          <p className="text-xs font-semibold text-gray-700 dark:text-slate-300">Important</p>
+          <p className="mt-1 text-xs leading-relaxed text-gray-600 dark:text-slate-400">
             Always confirm final transfer decisions with your destination school before enrolling.
           </p>
         </div>
@@ -376,37 +376,37 @@ export default function TransferClient({
 
       {/* Results */}
       {filtered.length === 0 ? (
-        <div className="rounded-lg border border-dashed border-gray-300 py-12 text-center">
-          <p className="text-gray-500">No courses match your filters.</p>
+        <div className="rounded-lg border border-dashed border-gray-300 dark:border-slate-600 py-12 text-center">
+          <p className="text-gray-500 dark:text-slate-400">No courses match your filters.</p>
         </div>
       ) : groupMode === "outcome" ? (
         /* ── Grouped by transfer outcome ── */
         <div className="space-y-6">
           {groupedByOutcome.map((group) => {
             const toneColors = {
-              teal: "text-teal-700 border-teal-200",
-              amber: "text-amber-700 border-amber-200",
-              rose: "text-rose-700 border-rose-200",
+              teal: "text-teal-700 dark:text-teal-400 border-teal-200",
+              amber: "text-amber-700 dark:text-amber-400 border-amber-200",
+              rose: "text-rose-700 dark:text-rose-400 border-rose-200",
             };
             const headerColor = toneColors[group.tone];
 
             return (
               <div key={group.key}>
                 {/* Outcome group header */}
-                <div className="mb-2 flex items-end justify-between gap-4 border-b border-gray-200 pb-2">
+                <div className="mb-2 flex items-end justify-between gap-4 border-b border-gray-200 dark:border-slate-700 pb-2">
                   <div>
                     <h3 className={`text-sm font-semibold ${headerColor.split(" ")[0]}`}>
                       {group.title}
                     </h3>
-                    <p className="text-xs text-gray-500 mt-0.5">{group.subtitle}</p>
+                    <p className="text-xs text-gray-500 dark:text-slate-400 mt-0.5">{group.subtitle}</p>
                   </div>
-                  <span className="text-xs text-gray-400 whitespace-nowrap">
+                  <span className="text-xs text-gray-400 dark:text-slate-500 whitespace-nowrap">
                     {group.courses.length} {group.courses.length === 1 ? "course" : "courses"}
                   </span>
                 </div>
 
                 {/* Course rows — no per-row outcome badge needed since group header provides context */}
-                <div className="rounded-lg border border-gray-200 bg-white divide-y divide-gray-100 overflow-hidden">
+                <div className="rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 divide-y divide-gray-100 dark:divide-slate-800 overflow-hidden">
                   {group.courses.map((m, i) => renderCourseRow(m, i, false))}
                 </div>
               </div>
@@ -419,10 +419,10 @@ export default function TransferClient({
           {groupedBySubject.map(([prefix, courses]) => (
             <div key={prefix}>
               {/* Subject header */}
-              <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2 flex items-center gap-2">
+              <h3 className="text-sm font-semibold text-gray-500 dark:text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-2">
                 <span>{prefix}</span>
-                <span className="h-px flex-1 bg-gray-200" />
-                <span className="font-normal text-gray-400">
+                <span className="h-px flex-1 bg-gray-200 dark:bg-slate-700" />
+                <span className="font-normal text-gray-400 dark:text-slate-500">
                   {courses.length} courses
                 </span>
               </h3>
@@ -437,7 +437,7 @@ export default function TransferClient({
       )}
 
       {/* Result count */}
-      <p className="mt-4 text-xs text-gray-400 text-center">
+      <p className="mt-4 text-xs text-gray-400 dark:text-slate-500 text-center">
         {filtered.length} courses shown
       </p>
     </div>

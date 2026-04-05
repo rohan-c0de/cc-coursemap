@@ -127,20 +127,20 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="flex flex-wrap items-center gap-2 mb-3">
           <Link
             href={`/blog?category=${meta.category}`}
-            className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-600 hover:bg-gray-200 transition"
+            className="rounded-full bg-gray-100 dark:bg-slate-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-slate-400 hover:bg-gray-200 dark:hover:bg-slate-600 transition"
           >
             {categoryLabel(meta.category)}
           </Link>
           {meta.state && (
-            <span className="rounded-full bg-teal-50 px-2.5 py-0.5 text-xs font-medium text-teal-700">
+            <span className="rounded-full bg-teal-50 dark:bg-teal-900/30 px-2.5 py-0.5 text-xs font-medium text-teal-700 dark:text-teal-400">
               {stateLabel(meta.state)}
             </span>
           )}
         </div>
-        <h1 className="text-3xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100 leading-tight">
           {meta.title}
         </h1>
-        <p className="mt-3 text-gray-500 text-sm">
+        <p className="mt-3 text-gray-500 dark:text-slate-400 text-sm">
           {new Date(meta.date).toLocaleDateString("en-US", {
             year: "numeric",
             month: "long",

@@ -70,14 +70,14 @@ export default async function StateLayout({ children, params }: Props) {
       <main className="flex-1">{children}</main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-gray-50">
+      <footer className="border-t border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-500">{b.footerText}</p>
-            <div className="flex flex-wrap items-center gap-3 text-xs text-gray-400">
+            <p className="text-sm text-gray-500 dark:text-slate-400">{b.footerText}</p>
+            <div className="flex flex-wrap items-center gap-3 text-xs text-gray-400 dark:text-slate-500">
               <a
                 href="/privacy"
-                className="underline hover:text-gray-600"
+                className="underline hover:text-gray-600 dark:hover:text-slate-300"
               >
                 Privacy Policy
               </a>
@@ -97,13 +97,13 @@ export default async function StateLayout({ children, params }: Props) {
               </a>
             </div>
           </div>
-          <p className="mt-4 text-center text-[11px] text-gray-400">
+          <p className="mt-4 text-center text-[11px] text-gray-400 dark:text-slate-500">
             {b.disclaimer} For official information visit{" "}
             <a
               href={config.systemUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-gray-600"
+              className="underline hover:text-gray-600 dark:hover:text-slate-300"
             >
               {config.systemUrl.replace("https://www.", "")}
             </a>

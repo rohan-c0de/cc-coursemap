@@ -93,17 +93,17 @@ export default async function AboutPage({ params }: Props) {
         &larr; Back to search
       </Link>
 
-      <h1 className="text-3xl font-bold text-gray-900 mb-8">
+      <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100 mb-8">
         About CC CourseMap
       </h1>
 
       <div className="space-y-8">
         {/* What is CC CourseMap */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-3">
             What is CC CourseMap?
           </h2>
-          <p className="text-gray-600">
+          <p className="text-gray-600 dark:text-slate-400">
             CC CourseMap is a free tool for finding and comparing community
             college courses across {config.name}. Search by subject or keyword,
             check which courses transfer to your target university, build a
@@ -114,16 +114,16 @@ export default async function AboutPage({ params }: Props) {
 
         {/* What is auditing */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-3">
             What is Course Auditing?
           </h2>
-          <p className="text-gray-600 mb-3">
+          <p className="text-gray-600 dark:text-slate-400 mb-3">
             Auditing a college course means attending classes without receiving a
             grade or academic credit. You participate in lectures, follow the
             material, and learn alongside enrolled students — but without exams,
             graded assignments, or GPA impact.
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 dark:text-slate-400">
             It&apos;s a way to explore subjects you&apos;re curious about, build
             skills for a career change, preview a program before committing, or
             simply learn something new.
@@ -132,10 +132,10 @@ export default async function AboutPage({ params }: Props) {
 
         {/* Who is it for */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-3">
             Who Audits Courses?
           </h2>
-          <ul className="text-gray-600 space-y-2">
+          <ul className="text-gray-600 dark:text-slate-400 space-y-2">
             <li className="flex gap-2">
               <span className="text-teal-600 font-bold shrink-0">-</span>
               <span>
@@ -179,10 +179,10 @@ export default async function AboutPage({ params }: Props) {
 
         {/* How it works */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-3">
             How It Works at {config.name} Community Colleges
           </h2>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-600 dark:text-slate-400 mb-4">
             {config.name}&apos;s {config.collegeCount} community colleges (the{" "}
             {config.systemName} system) generally allow course auditing, though
             policies vary by college. The typical process:
@@ -196,10 +196,10 @@ export default async function AboutPage({ params }: Props) {
               "Attend classes and participate (no exams or grades)",
             ].map((step, i) => (
               <li key={i} className="flex gap-3">
-                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-teal-100 text-xs font-bold text-teal-700">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-teal-100 dark:bg-teal-900/30 text-xs font-bold text-teal-700 dark:text-teal-400">
                   {i + 1}
                 </span>
-                <span className="text-gray-600 pt-0.5">{step}</span>
+                <span className="text-gray-600 dark:text-slate-400 pt-0.5">{step}</span>
               </li>
             ))}
           </ol>
@@ -207,18 +207,18 @@ export default async function AboutPage({ params }: Props) {
 
         {/* Cost */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-3">
             What Does It Cost?
           </h2>
-          <p className="text-gray-600 mb-3">
+          <p className="text-gray-600 dark:text-slate-400 mb-3">
             {`At most ${config.systemName} colleges, audit students pay the same tuition and fees as credit students. Check each college's page for specific cost details.`}
           </p>
           {config.seniorWaiver && (
-            <div className="bg-teal-50 border border-teal-200 rounded-lg p-4">
-              <h3 className="font-semibold text-teal-900 mb-1">
+            <div className="bg-teal-50 dark:bg-teal-900/30 border border-teal-200 dark:border-teal-800 rounded-lg p-4">
+              <h3 className="font-semibold text-teal-900 dark:text-teal-200 mb-1">
                 {config.name} {config.seniorWaiver.ageThreshold}+ Tuition Waiver
               </h3>
-              <p className="text-teal-800 text-sm">
+              <p className="text-teal-800 dark:text-teal-300 text-sm">
                 {config.seniorWaiver.description} We flag this on every college
                 page with links to verify.
               </p>
@@ -228,10 +228,10 @@ export default async function AboutPage({ params }: Props) {
 
         {/* Important notes */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-3">
             Things to Know
           </h2>
-          <ul className="text-gray-600 space-y-2 list-disc list-inside">
+          <ul className="text-gray-600 dark:text-slate-400 space-y-2 list-disc list-inside">
             <li>
               Audited courses do not count toward a degree or appear on your
               transcript with a grade (you may receive an &quot;AU&quot; notation)
@@ -255,23 +255,23 @@ export default async function AboutPage({ params }: Props) {
         </section>
 
         {/* About this site */}
-        <section className="border-t border-gray-200 pt-8">
-          <h2 className="text-xl font-semibold text-gray-900 mb-3">
+        <section className="border-t border-gray-200 dark:border-slate-700 pt-8">
+          <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-3">
             About {config.branding.siteName}
           </h2>
-          <p className="text-gray-600 mb-3">
+          <p className="text-gray-600 dark:text-slate-400 mb-3">
             {config.branding.siteName} is a free tool that helps you search,
             compare, and plan community college courses across {config.name}. We
             aggregate course listings from the {config.systemName} system and
             pair them with transfer equivalency data and manually researched
             audit policies.
           </p>
-          <p className="text-gray-600 mb-3">
+          <p className="text-gray-600 dark:text-slate-400 mb-3">
             Every audit policy on this site includes a &quot;last verified&quot;
             date and a link to the source. Policies can change, so always
             confirm directly with the college before enrolling.
           </p>
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-gray-400 dark:text-slate-500">
             {config.branding.disclaimer}
           </p>
         </section>

@@ -42,7 +42,7 @@ const MODE_STYLES: Record<CourseMode, { bg: string; text: string; label: string 
 };
 
 const STATUS_STYLES: Record<CourseStatus, { dot: string; text: string }> = {
-  "in-progress": { dot: "bg-gray-300", text: "text-gray-400" },
+  "in-progress": { dot: "bg-gray-300 dark:bg-slate-600", text: "text-gray-400 dark:text-slate-500" },
   "starting-soon": { dot: "bg-emerald-400", text: "text-emerald-600" },
   "upcoming": { dot: "bg-teal-400", text: "text-teal-600" },
 };
@@ -132,7 +132,7 @@ function ShareButton({ course, collegeSlug }: { course: CourseSection; collegeSl
     <button
       type="button"
       onClick={handleShare}
-      className="inline-flex items-center justify-center w-7 h-7 rounded-md border bg-white border-gray-300 text-gray-400 hover:text-teal-600 hover:border-teal-300 transition"
+      className="inline-flex items-center justify-center w-7 h-7 rounded-md border bg-white border-gray-300 text-gray-400 hover:text-teal-600 hover:border-teal-300 transition dark:bg-slate-800 dark:border-slate-600 dark:text-slate-500"
       title={copied ? "Link copied!" : "Share this course"}
     >
       {copied ? (
@@ -198,27 +198,27 @@ function TransferBadge({ prefix, number, lookup }: { prefix: string; number: str
       <button
         type="button"
         onClick={(e) => { e.stopPropagation(); setExpanded(!expanded); }}
-        className={`inline-flex items-center gap-0.5 text-[10px] font-medium ${hasDirect ? "text-teal-700" : "text-gray-500"} hover:underline cursor-pointer`}
+        className={`inline-flex items-center gap-0.5 text-[10px] font-medium ${hasDirect ? "text-teal-700" : "text-gray-500 dark:text-slate-400"} hover:underline cursor-pointer`}
       >
         <svg className="h-2.5 w-2.5 text-teal-500 shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
         </svg>
         {badgeText}
         {totalUnis > 1 && (
-          <svg className={`h-2.5 w-2.5 text-gray-400 transition-transform ${expanded ? "rotate-180" : ""}`} fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+          <svg className={`h-2.5 w-2.5 text-gray-400 dark:text-slate-500 transition-transform ${expanded ? "rotate-180" : ""}`} fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
           </svg>
         )}
       </button>
       {expanded && (
-        <div className="mt-1 rounded border border-gray-200 bg-gray-50 px-2 py-1.5 text-[10px] text-gray-600 space-y-0.5">
+        <div className="mt-1 rounded border border-gray-200 bg-gray-50 px-2 py-1.5 text-[10px] text-gray-600 space-y-0.5 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-400">
           {direct.length > 0 && direct.map((e) => (
             <div key={e.university} className="text-teal-700">
               {SHORT_NAMES[e.university] || e.university}: {e.course || "direct equivalent"}
             </div>
           ))}
           {elective.length > 0 && elective.map((e) => (
-            <div key={e.university} className="text-gray-500">
+            <div key={e.university} className="text-gray-500 dark:text-slate-400">
               {SHORT_NAMES[e.university] || e.university}: elective credit
             </div>
           ))}
@@ -261,15 +261,15 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
   return (
     <div>
       {/* Filter bar */}
-      <div className="mb-4 flex flex-wrap items-end gap-3 rounded-lg border border-gray-200 bg-gray-50 p-4">
+      <div className="mb-4 flex flex-wrap items-end gap-3 rounded-lg border border-gray-200 bg-gray-50 p-4 dark:border-slate-700 dark:bg-slate-800">
         <div className="min-w-[140px]">
-          <label className="mb-1 block text-xs font-medium text-gray-600">
+          <label className="mb-1 block text-xs font-medium text-gray-600 dark:text-slate-400">
             Subject
           </label>
           <select
             value={subjectFilter}
             onChange={(e) => setSubjectFilter(e.target.value)}
-            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-300"
           >
             <option value="">All Subjects</option>
             {subjects.map((s) => (
@@ -281,20 +281,20 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
         </div>
 
         <div>
-          <label className="mb-1 block text-xs font-medium text-gray-600">
+          <label className="mb-1 block text-xs font-medium text-gray-600 dark:text-slate-400">
             {dayFilters.length > 0 ? "Days" : "Day"}
           </label>
           <DayToggle selectedDays={dayFilters} onChange={setDayFilters} />
         </div>
 
         <div className="min-w-[130px]">
-          <label className="mb-1 block text-xs font-medium text-gray-600">
+          <label className="mb-1 block text-xs font-medium text-gray-600 dark:text-slate-400">
             Mode
           </label>
           <select
             value={modeFilter}
             onChange={(e) => setModeFilter(e.target.value)}
-            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-300"
           >
             <option value="">All Modes</option>
             {modes.map((m) => (
@@ -306,13 +306,13 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
         </div>
 
         <div className="min-w-[170px]">
-          <label className="mb-1 block text-xs font-medium text-gray-600">
+          <label className="mb-1 block text-xs font-medium text-gray-600 dark:text-slate-400">
             Status
           </label>
           <select
             value={statusFilter}
             onChange={(e) => setStatusFilter(e.target.value)}
-            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-300"
           >
             <option value="">All Sections</option>
             <option value="upcoming">Open for Registration</option>
@@ -330,14 +330,14 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
           </button>
         )}
 
-        <span className="ml-auto text-sm text-gray-500">
+        <span className="ml-auto text-sm text-gray-500 dark:text-slate-400">
           {filtered.length} {filtered.length === 1 ? "section" : "sections"}
         </span>
       </div>
 
       {filtered.length === 0 ? (
-        <div className="rounded-lg border border-dashed border-gray-300 py-12 text-center">
-          <p className="text-gray-500">No courses match your filters.</p>
+        <div className="rounded-lg border border-dashed border-gray-300 py-12 text-center dark:border-slate-600">
+          <p className="text-gray-500 dark:text-slate-400">No courses match your filters.</p>
           <button
             type="button"
             onClick={clearFilters}
@@ -349,9 +349,9 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
       ) : (
         <>
           {/* Desktop table */}
-          <div className="hidden rounded-lg border border-gray-200 md:block overflow-hidden">
+          <div className="hidden rounded-lg border border-gray-200 md:block overflow-hidden dark:border-slate-700">
             <table className="w-full text-left text-sm" style={{ tableLayout: "auto" }}>
-              <thead className="border-b border-gray-200 bg-gray-50 text-xs uppercase tracking-wider text-gray-500">
+              <thead className="border-b border-gray-200 bg-gray-50 text-xs uppercase tracking-wider text-gray-500 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-400">
                 <tr>
                   <th className="whitespace-nowrap px-3 py-3 font-medium">CRN</th>
                   <th className="whitespace-nowrap px-3 py-3 font-medium">Course</th>
@@ -364,7 +364,7 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
                   <th className="px-2 py-3 font-medium" />
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-100">
+              <tbody className="divide-y divide-gray-100 dark:divide-slate-700">
                 {filtered.map((course) => {
                   const style = MODE_STYLES[course.mode];
                   const status = getCourseStatus(course.start_date);
@@ -373,15 +373,15 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
                   return (
                     <tr
                       key={`${course.crn}-${course.course_prefix}${course.course_number}-${course.days}-${course.start_time}`}
-                      className={`transition hover:bg-gray-50 ${started ? "opacity-50" : ""}`}
+                      className={`transition hover:bg-gray-50 dark:hover:bg-slate-800 ${started ? "opacity-50" : ""}`}
                     >
-                      <td className="whitespace-nowrap px-3 py-3 font-mono text-xs text-gray-600">
+                      <td className="whitespace-nowrap px-3 py-3 font-mono text-xs text-gray-600 dark:text-slate-400">
                         {course.crn}
                       </td>
-                      <td className="whitespace-nowrap px-3 py-3 font-medium text-gray-900">
+                      <td className="whitespace-nowrap px-3 py-3 font-medium text-gray-900 dark:text-slate-100">
                         {course.course_prefix} {course.course_number}
                       </td>
-                      <td className="px-3 py-3 text-gray-700">
+                      <td className="px-3 py-3 text-gray-700 dark:text-slate-300">
                         <div className="max-w-[220px]">
                           <div className="truncate">{course.course_title}</div>
                           {transferLookup && (
@@ -392,7 +392,7 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
                           {course.prerequisite_text && (
                             <div className="mt-1">
                               <span
-                                className="inline-flex items-center gap-0.5 rounded bg-amber-50 border border-amber-200 px-1.5 py-0.5 text-[10px] font-medium text-amber-700"
+                                className="inline-flex items-center gap-0.5 rounded bg-amber-50 border border-amber-200 px-1.5 py-0.5 text-[10px] font-medium text-amber-700 dark:bg-amber-900/30 dark:border-amber-800"
                               >
                                 <svg className="h-2.5 w-2.5 shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
@@ -403,7 +403,7 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
                           )}
                         </div>
                       </td>
-                      <td className="whitespace-nowrap px-3 py-3 text-xs text-gray-600">
+                      <td className="whitespace-nowrap px-3 py-3 text-xs text-gray-600 dark:text-slate-400">
                         {formatSchedule(course)}
                       </td>
                       <td className="whitespace-nowrap px-3 py-3">
@@ -412,15 +412,20 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
                           {formatStartInfo(course.start_date)}
                         </span>
                       </td>
-                      <td className="whitespace-nowrap px-3 py-3 text-xs text-gray-600 max-w-[110px] truncate">
-                        {course.instructor || <span className="text-gray-300">&mdash;</span>}
+                      <td className="whitespace-nowrap px-3 py-3 text-xs text-gray-600 max-w-[110px] truncate dark:text-slate-400">
+                        {course.instructor || <span className="text-gray-300 dark:text-slate-600">&mdash;</span>}
                       </td>
-                      <td className="whitespace-nowrap px-3 py-3 text-xs text-gray-600 max-w-[90px] truncate">
+                      <td className="whitespace-nowrap px-3 py-3 text-xs text-gray-600 max-w-[90px] truncate dark:text-slate-400">
                         {course.campus || "---"}
                       </td>
                       <td className="whitespace-nowrap px-3 py-3">
                         <span
-                          className={`inline-block rounded-full px-2.5 py-0.5 text-xs font-medium ${style.bg} ${style.text}`}
+                          className={`inline-block rounded-full px-2.5 py-0.5 text-xs font-medium ${style.bg} ${style.text} ${
+                            course.mode === "in-person" ? "dark:bg-emerald-900/30" :
+                            course.mode === "online" ? "dark:bg-blue-900/30" :
+                            course.mode === "hybrid" ? "dark:bg-purple-900/30" :
+                            "dark:bg-orange-900/30"
+                          }`}
                         >
                           {style.label}
                         </span>
@@ -435,7 +440,7 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
                               className={`inline-flex items-center justify-center w-7 h-7 rounded-md border transition ${
                                 pinnedCRNs?.has(course.crn)
                                   ? "bg-teal-100 border-teal-300 text-teal-700"
-                                  : "bg-white border-gray-300 text-gray-400 hover:text-teal-600 hover:border-teal-300"
+                                  : "bg-white border-gray-300 text-gray-400 hover:text-teal-600 hover:border-teal-300 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-500"
                               }`}
                               title={pinnedCRNs?.has(course.crn) ? "Remove from schedule" : "Add to schedule"}
                             >
@@ -457,7 +462,7 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
                             href={buildCourseUrl(collegeSlug, course, courseListingUrl)}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-xs font-medium text-gray-500 hover:text-gray-700 hover:underline"
+                            className="text-xs font-medium text-gray-500 hover:text-gray-700 hover:underline dark:text-slate-400 dark:hover:text-slate-300"
                           >
                             {systemName} &rarr;
                           </a>
@@ -480,14 +485,14 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
               return (
                 <div
                   key={`${course.crn}-${course.course_prefix}${course.course_number}-${course.days}-${course.start_time}`}
-                  className={`rounded-lg border border-gray-200 bg-white p-4 ${started ? "opacity-50" : ""}`}
+                  className={`rounded-lg border border-gray-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-800 ${started ? "opacity-50" : ""}`}
                 >
                   <div className="mb-2 flex items-start justify-between gap-2">
                     <div>
-                      <p className="font-medium text-gray-900">
+                      <p className="font-medium text-gray-900 dark:text-slate-100">
                         {course.course_prefix} {course.course_number}
                       </p>
-                      <p className="text-sm text-gray-600">
+                      <p className="text-sm text-gray-600 dark:text-slate-400">
                         {course.course_title}
                       </p>
                       {transferLookup && (
@@ -496,22 +501,27 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
                         </div>
                       )}
                       {course.prerequisite_text && (
-                        <p className="mt-1 text-[10px] text-amber-700 bg-amber-50 border border-amber-200 rounded px-1.5 py-0.5 inline-block">
+                        <p className="mt-1 text-[10px] text-amber-700 bg-amber-50 border border-amber-200 rounded px-1.5 py-0.5 inline-block dark:bg-amber-900/30 dark:border-amber-800">
                           Requires: {course.prerequisite_text}
                         </p>
                       )}
                     </div>
                     <span
-                      className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${style.bg} ${style.text}`}
+                      className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${style.bg} ${style.text} ${
+                        course.mode === "in-person" ? "dark:bg-emerald-900/30" :
+                        course.mode === "online" ? "dark:bg-blue-900/30" :
+                        course.mode === "hybrid" ? "dark:bg-purple-900/30" :
+                        "dark:bg-orange-900/30"
+                      }`}
                     >
                       {style.label}
                     </span>
                   </div>
-                  <div className="grid grid-cols-2 gap-y-1 text-xs text-gray-500">
-                    <span>CRN: <span className="font-mono text-gray-700">{course.crn}</span></span>
-                    <span>Campus: <span className="text-gray-700">{course.campus || "---"}</span></span>
+                  <div className="grid grid-cols-2 gap-y-1 text-xs text-gray-500 dark:text-slate-400">
+                    <span>CRN: <span className="font-mono text-gray-700 dark:text-slate-300">{course.crn}</span></span>
+                    <span>Campus: <span className="text-gray-700 dark:text-slate-300">{course.campus || "---"}</span></span>
                     <span className="col-span-2">
-                      Schedule: <span className="text-gray-700">{formatSchedule(course)}</span>
+                      Schedule: <span className="text-gray-700 dark:text-slate-300">{formatSchedule(course)}</span>
                     </span>
                     <span className="col-span-2">
                       <span className={`inline-flex items-center gap-1 ${statusStyle.text}`}>
@@ -521,17 +531,17 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
                     </span>
                     {course.instructor && (
                       <span className="col-span-2">
-                        Instructor: <span className="text-gray-700">{course.instructor}</span>
+                        Instructor: <span className="text-gray-700 dark:text-slate-300">{course.instructor}</span>
                       </span>
                     )}
                   </div>
-                  <div className="mt-3 flex items-center justify-center gap-4 border-t border-gray-100 pt-3">
+                  <div className="mt-3 flex items-center justify-center gap-4 border-t border-gray-100 pt-3 dark:border-slate-700">
                     <ShareButton course={course} collegeSlug={collegeSlug} />
                     {onTogglePin && (
                       <button
                         type="button"
                         onClick={() => onTogglePin(course.crn)}
-                        className={`text-xs font-medium ${pinnedCRNs?.has(course.crn) ? "text-teal-700" : "text-gray-400 hover:text-teal-600"}`}
+                        className={`text-xs font-medium ${pinnedCRNs?.has(course.crn) ? "text-teal-700" : "text-gray-400 hover:text-teal-600 dark:text-slate-500"}`}
                       >
                         {pinnedCRNs?.has(course.crn) ? "Pinned" : "Pin to schedule"}
                       </button>
@@ -549,7 +559,7 @@ export default function CourseTable({ courses, collegeSlug, courseListingUrl, sy
                       href={buildCourseUrl(collegeSlug, course, courseListingUrl)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-xs font-medium text-gray-500 hover:text-gray-700 hover:underline"
+                      className="text-xs font-medium text-gray-500 hover:text-gray-700 hover:underline dark:text-slate-400 dark:hover:text-slate-300"
                     >
                       View on {systemName} &rarr;
                     </a>

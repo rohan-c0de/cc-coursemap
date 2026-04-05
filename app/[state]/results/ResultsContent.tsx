@@ -58,8 +58,8 @@ export default function ResultsContent({ state }: { state: string }) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="animate-pulse space-y-4">
-          <div className="h-8 bg-gray-200 rounded w-1/3" />
-          <div className="h-4 bg-gray-200 rounded w-1/2" />
+          <div className="h-8 bg-gray-200 dark:bg-slate-700 rounded w-1/3" />
+          <div className="h-4 bg-gray-200 dark:bg-slate-700 rounded w-1/2" />
         </div>
       </div>
     );
@@ -68,10 +68,10 @@ export default function ResultsContent({ state }: { state: string }) {
   if (error) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-12 text-center">
-        <h1 className="text-2xl font-bold text-gray-900 mb-4">
+        <h1 className="text-2xl font-bold text-gray-900 dark:text-slate-100 mb-4">
           Search Error
         </h1>
-        <p className="text-gray-600 mb-6">{error}</p>
+        <p className="text-gray-600 dark:text-slate-400 mb-6">{error}</p>
         <Link
           href={`/${state}`}
           className="inline-flex items-center px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors"
@@ -92,14 +92,14 @@ export default function ResultsContent({ state }: { state: string }) {
         >
           &larr; New search
         </Link>
-        <h1 className="text-3xl font-bold text-gray-900">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100">
           {results.length} College{results.length !== 1 ? "s" : ""} Near{" "}
           {cityName && cityName.toLowerCase() !== zip.toLowerCase()
             ? `${cityName} (${zip})`
             : cityName || zip}
         </h1>
         <div className="flex items-center gap-4 mt-1">
-          <p className="text-gray-600">
+          <p className="text-gray-600 dark:text-slate-400">
             Within {radius} miles &middot; Showing colleges with course listings
             this term
           </p>
@@ -114,7 +114,7 @@ export default function ResultsContent({ state }: { state: string }) {
                 // fallback
               }
             }}
-            className="shrink-0 inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-2.5 py-1 text-xs font-medium text-gray-600 hover:bg-gray-50 transition"
+            className="shrink-0 inline-flex items-center gap-1 rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-2.5 py-1 text-xs font-medium text-gray-600 dark:text-slate-400 hover:bg-gray-50 dark:hover:bg-slate-800 transition"
           >
             {linkCopied ? (
               <>
@@ -133,10 +133,10 @@ export default function ResultsContent({ state }: { state: string }) {
 
       {results.length === 0 ? (
         <div className="text-center py-16">
-          <p className="text-lg text-gray-600 mb-4">
+          <p className="text-lg text-gray-600 dark:text-slate-400 mb-4">
             No colleges found within {radius} miles of {zip}.
           </p>
-          <p className="text-gray-500 mb-6">
+          <p className="text-gray-500 dark:text-slate-400 mb-6">
             Try increasing the search radius or checking a different zip code.
           </p>
           <Link
@@ -168,7 +168,7 @@ export default function ResultsContent({ state }: { state: string }) {
               <button
                 type="button"
                 onClick={() => setShowMap(!showMap)}
-                className="w-full flex items-center justify-center gap-2 rounded-lg border border-gray-300 bg-white px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 transition"
+                className="w-full flex items-center justify-center gap-2 rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-4 py-2.5 text-sm font-medium text-gray-700 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-800 transition"
               >
                 <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />

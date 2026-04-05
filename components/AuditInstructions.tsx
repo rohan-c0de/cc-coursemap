@@ -60,24 +60,24 @@ export default function AuditInstructions({
   }
 
   return (
-    <div className="rounded-xl border border-gray-200 bg-white">
+    <div className="rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900">
       {/* Toggle header */}
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="flex w-full items-center justify-between px-5 py-4 text-left transition hover:bg-gray-50 sm:px-6"
+        className="flex w-full items-center justify-between px-5 py-4 text-left transition hover:bg-gray-50 dark:hover:bg-slate-800 sm:px-6"
         aria-expanded={isOpen}
       >
         <div>
-          <h3 className="text-base font-bold text-gray-900">
+          <h3 className="text-base font-bold text-gray-900 dark:text-slate-100">
             How to Audit a Course
           </h3>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-500 dark:text-slate-400">
             Step-by-step instructions for {institution.name}
           </p>
         </div>
         <svg
-          className={`h-5 w-5 shrink-0 text-gray-400 transition-transform ${isOpen ? "rotate-180" : ""}`}
+          className={`h-5 w-5 shrink-0 text-gray-400 dark:text-slate-500 transition-transform ${isOpen ? "rotate-180" : ""}`}
           fill="none"
           stroke="currentColor"
           strokeWidth={2}
@@ -89,11 +89,11 @@ export default function AuditInstructions({
 
       {/* Expandable content */}
       {isOpen && (
-        <div className="border-t border-gray-200 px-5 py-5 sm:px-6">
+        <div className="border-t border-gray-200 dark:border-slate-700 px-5 py-5 sm:px-6">
           {/* Deadline callout */}
           {application_process.timing && (
-            <div className="mb-5 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
-              <p className="text-sm font-medium text-amber-800">
+            <div className="mb-5 rounded-lg border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-900/30 px-4 py-3">
+              <p className="text-sm font-medium text-amber-800 dark:text-amber-300">
                 <svg
                   className="mr-1.5 inline h-4 w-4 text-amber-600"
                   fill="none"
@@ -114,16 +114,16 @@ export default function AuditInstructions({
 
           {/* Steps */}
           <div className="mb-5">
-            <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-gray-500">
+            <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-slate-400">
               Steps
             </h4>
             <ol className="space-y-3">
               {application_process.steps.map((step, i) => (
                 <li key={i} className="flex gap-3">
-                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-teal-100 text-xs font-bold text-teal-700">
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-teal-100 dark:bg-teal-900/30 text-xs font-bold text-teal-700 dark:text-teal-400">
                     {i + 1}
                   </span>
-                  <span className="pt-0.5 text-sm text-gray-700">{step}</span>
+                  <span className="pt-0.5 text-sm text-gray-700 dark:text-slate-300">{step}</span>
                 </li>
               ))}
             </ol>
@@ -158,16 +158,16 @@ export default function AuditInstructions({
 
           {/* Email template */}
           <div className="mb-5">
-            <h4 className="mb-2 text-sm font-semibold uppercase tracking-wider text-gray-500">
+            <h4 className="mb-2 text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-slate-400">
               Email Template
             </h4>
-            <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
-              <p className="text-sm italic text-gray-700 whitespace-pre-line">{emailTemplate}</p>
+            <div className="rounded-lg border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800 p-4">
+              <p className="text-sm italic text-gray-700 dark:text-slate-300 whitespace-pre-line">{emailTemplate}</p>
               <div className="mt-3 flex flex-wrap gap-2">
                 <button
                   type="button"
                   onClick={copyEmail}
-                  className="inline-flex items-center rounded-md border border-gray-300 bg-white px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:bg-gray-50"
+                  className="inline-flex items-center rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-gray-700 dark:text-slate-300 transition hover:bg-gray-50 dark:hover:bg-slate-700"
                 >
                   {emailCopied ? (
                     <>
@@ -187,7 +187,7 @@ export default function AuditInstructions({
                 </button>
                 <a
                   href={mailtoHref}
-                  className="inline-flex items-center rounded-md border border-teal-200 bg-teal-50 px-3 py-1.5 text-xs font-medium text-teal-700 transition hover:bg-teal-100"
+                  className="inline-flex items-center rounded-md border border-teal-200 dark:border-teal-800 bg-teal-50 dark:bg-teal-900/30 px-3 py-1.5 text-xs font-medium text-teal-700 dark:text-teal-400 transition hover:bg-teal-100 dark:hover:bg-teal-900/50"
                 >
                   <svg className="mr-1.5 h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -199,8 +199,8 @@ export default function AuditInstructions({
           </div>
 
           {/* What to expect */}
-          <div className="mb-5 rounded-lg border border-blue-200 bg-blue-50 px-4 py-3">
-            <p className="text-sm text-blue-800">
+          <div className="mb-5 rounded-lg border border-blue-200 dark:border-blue-800 bg-blue-50 dark:bg-blue-900/30 px-4 py-3">
+            <p className="text-sm text-blue-800 dark:text-blue-300">
               <span className="font-semibold">What to expect: </span>The college
               may ask for additional information such as your name, student ID,
               unofficial transcript, or instructor approval. Response times
@@ -210,10 +210,10 @@ export default function AuditInstructions({
 
           {/* Contact info */}
           <div className="mb-5">
-            <h4 className="mb-2 text-sm font-semibold uppercase tracking-wider text-gray-500">
+            <h4 className="mb-2 text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-slate-400">
               Contact
             </h4>
-            <div className="space-y-1 text-sm text-gray-700">
+            <div className="space-y-1 text-sm text-gray-700 dark:text-slate-300">
               {application_process.contact_email && (
                 <p>
                   Email:{" "}
@@ -242,10 +242,10 @@ export default function AuditInstructions({
           {/* Restrictions */}
           {audit_policy.restrictions.length > 0 && (
             <div className="mb-5">
-              <h4 className="mb-2 text-sm font-semibold uppercase tracking-wider text-gray-500">
+              <h4 className="mb-2 text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-slate-400">
                 Restrictions
               </h4>
-              <ul className="list-inside list-disc space-y-1 text-sm text-gray-600">
+              <ul className="list-inside list-disc space-y-1 text-sm text-gray-600 dark:text-slate-400">
                 {audit_policy.restrictions.map((r, i) => (
                   <li key={i}>{r}</li>
                 ))}
@@ -254,7 +254,7 @@ export default function AuditInstructions({
           )}
 
           {/* Verification footer */}
-          <div className="rounded-lg bg-gray-50 px-4 py-3 text-xs text-gray-500">
+          <div className="rounded-lg bg-gray-50 dark:bg-slate-800 px-4 py-3 text-xs text-gray-500 dark:text-slate-400">
             Last verified: {audit_policy.last_verified}
             {audit_policy.source_url && (
               <>

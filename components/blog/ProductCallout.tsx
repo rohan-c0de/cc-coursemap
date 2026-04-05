@@ -23,18 +23,18 @@ export default function ProductCallout({
   feature,
 }: ProductCalloutProps) {
   return (
-    <div className="not-prose my-8 rounded-xl border border-teal-200 bg-teal-50 px-5 py-4">
-      <p className="mb-3 text-sm text-teal-900">{text}</p>
+    <div className="not-prose my-8 rounded-xl border border-teal-200 dark:border-teal-800 bg-teal-50 dark:bg-teal-900/30 px-5 py-4">
+      <p className="mb-3 text-sm text-teal-900 dark:text-teal-200">{text}</p>
 
       {feature ? (
         <div>
-          <p className="mb-2 text-xs font-medium text-teal-700">{label}</p>
+          <p className="mb-2 text-xs font-medium text-teal-700 dark:text-teal-400">{label}</p>
           <div className="flex flex-wrap gap-2">
             {STATES.map((s) => (
               <Link
                 key={s.slug}
                 href={`/${s.slug}/${feature}`}
-                className="inline-flex items-center rounded-lg border border-teal-300 bg-white px-3 py-1.5 text-sm font-medium text-teal-700 transition hover:bg-teal-600 hover:text-white hover:border-teal-600"
+                className="inline-flex items-center rounded-lg border border-teal-300 dark:border-teal-700 bg-white dark:bg-slate-900 px-3 py-1.5 text-sm font-medium text-teal-700 dark:text-teal-400 transition hover:bg-teal-600 hover:text-white hover:border-teal-600"
               >
                 {s.label}
               </Link>

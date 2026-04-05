@@ -29,10 +29,10 @@ export default async function StartingSoonPage({ params }: Props) {
         &larr; Back to search
       </Link>
 
-      <h1 className="text-3xl font-bold text-gray-900 mb-2">
+      <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100 mb-2">
         Courses Starting Soon
       </h1>
-      <p className="text-gray-600 mb-8">
+      <p className="text-gray-600 dark:text-slate-400 mb-8">
         Late-start courses, mini-sessions, and upcoming classes across all{" "}
         {config.collegeCount} {config.name} community colleges. Find sections
         still open for registration.

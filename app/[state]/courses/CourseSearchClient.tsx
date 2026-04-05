@@ -56,10 +56,10 @@ interface SearchResponse {
 // ---------------------------------------------------------------------------
 
 const MODE_STYLES: Record<CourseMode, { bg: string; text: string; label: string }> = {
-  "in-person": { bg: "bg-emerald-50", text: "text-emerald-700", label: "In-Person" },
-  online: { bg: "bg-blue-50", text: "text-blue-700", label: "Online" },
-  hybrid: { bg: "bg-purple-50", text: "text-purple-700", label: "Hybrid" },
-  zoom: { bg: "bg-orange-50", text: "text-orange-700", label: "Zoom" },
+  "in-person": { bg: "bg-emerald-50 dark:bg-emerald-900/30", text: "text-emerald-700 dark:text-emerald-400", label: "In-Person" },
+  online: { bg: "bg-blue-50 dark:bg-blue-900/30", text: "text-blue-700 dark:text-blue-400", label: "Online" },
+  hybrid: { bg: "bg-purple-50 dark:bg-purple-900/30", text: "text-purple-700 dark:text-purple-400", label: "Hybrid" },
+  zoom: { bg: "bg-orange-50 dark:bg-orange-900/30", text: "text-orange-700 dark:text-orange-400", label: "Zoom" },
 };
 
 // DAY_OPTIONS removed — replaced by DayToggle component
@@ -240,19 +240,19 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900">Find a Course</h1>
-        <p className="text-gray-600 mt-1">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100">Find a Course</h1>
+        <p className="text-gray-600 dark:text-slate-400 mt-1">
           Search across all {collegeCount} {systemName} colleges at once
         </p>
       </div>
 
       {/* Search form */}
       <form onSubmit={handleSearch} className="mb-8">
-        <div className="rounded-xl border border-gray-200 bg-white shadow-sm p-5 space-y-4">
+        <div className="rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 shadow-sm p-5 space-y-4">
           {/* Main search row */}
           <div className="flex flex-col sm:flex-row gap-3">
             <div className="flex-1">
-              <label className="block text-xs font-medium text-gray-500 mb-1">
+              <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1">
                 Subject, course number, or keyword
               </label>
               <input
@@ -260,20 +260,20 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder='e.g. "PSY 200", "ENG", "psychology"'
-                className="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+                className="w-full rounded-lg border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100 px-4 py-2.5 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
                 maxLength={50}
               />
             </div>
             <div className="w-full sm:w-36">
-              <label className="block text-xs font-medium text-gray-500 mb-1">
-                Zip code <span className="text-gray-400">(optional)</span>
+              <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1">
+                Zip code <span className="text-gray-400 dark:text-slate-500">(optional)</span>
               </label>
               <input
                 type="text"
                 value={zip}
                 onChange={(e) => setZip(e.target.value.replace(/\D/g, "").slice(0, 5))}
                 placeholder={defaultZip}
-                className="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+                className="w-full rounded-lg border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100 px-4 py-2.5 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
                 maxLength={5}
               />
             </div>
@@ -282,11 +282,11 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
           {/* Filters row */}
           <div className="flex flex-wrap items-end gap-3">
             <div className="min-w-[120px]">
-              <label className="block text-xs font-medium text-gray-500 mb-1">Mode</label>
+              <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1">Mode</label>
               <select
                 value={mode}
                 onChange={(e) => setMode(e.target.value)}
-                className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+                className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 dark:text-slate-100 px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
               >
                 <option value="">All Modes</option>
                 <option value="in-person">In-Person</option>
@@ -297,18 +297,18 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
             </div>
 
             <div>
-              <label className="block text-xs font-medium text-gray-500 mb-1">
+              <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1">
                 {days.length > 0 ? "Days" : "Day"}
               </label>
               <DayToggle selectedDays={days} onChange={setDays} />
             </div>
 
             <div className="min-w-[130px]">
-              <label className="block text-xs font-medium text-gray-500 mb-1">Time</label>
+              <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1">Time</label>
               <select
                 value={timeOfDay}
                 onChange={(e) => setTimeOfDay(e.target.value)}
-                className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+                className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 dark:text-slate-100 px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
               >
                 <option value="">Any Time</option>
                 <option value="morning">Morning (before 12 PM)</option>
@@ -319,13 +319,13 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
 
             {universities.length > 0 && (
               <div className="min-w-[150px]">
-                <label className="block text-xs font-medium text-gray-500 mb-1">
+                <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1">
                   Transfers to
                 </label>
                 <select
                   value={transferTo}
                   onChange={(e) => setTransferTo(e.target.value)}
-                  className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+                  className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 dark:text-slate-100 px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
                 >
                   <option value="">Any University</option>
                   {universities.map((u) => (
@@ -350,8 +350,8 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
 
       {/* Error */}
       {error && (
-        <div className="rounded-lg border border-red-200 bg-red-50 p-4 mb-6">
-          <p className="text-sm text-red-800">{error}</p>
+        <div className="rounded-lg border border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-900/30 p-4 mb-6">
+          <p className="text-sm text-red-800 dark:text-red-300">{error}</p>
         </div>
       )}
 
@@ -359,7 +359,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
       {loading && (
         <div className="py-12 text-center">
           <div className="inline-block h-6 w-6 animate-spin rounded-full border-2 border-teal-600 border-t-transparent" />
-          <p className="mt-2 text-sm text-gray-500">Searching all colleges...</p>
+          <p className="mt-2 text-sm text-gray-500 dark:text-slate-400">Searching all colleges...</p>
         </div>
       )}
 
@@ -368,23 +368,23 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
         <div>
           {/* Results summary */}
           <div className="mb-6 flex flex-wrap items-center gap-3">
-            <p className="text-sm text-gray-700">
+            <p className="text-sm text-gray-700 dark:text-slate-300">
               {transferTo && filteredCourses.length !== results.courses.length ? (
                 <>
-                  <span className="font-semibold text-gray-900">{filteredCourses.length}</span>{" "}
+                  <span className="font-semibold text-gray-900 dark:text-slate-100">{filteredCourses.length}</span>{" "}
                   of {results.totalCourses} {results.totalCourses === 1 ? "course" : "courses"}{" "}
                   transfer to{" "}
-                  <span className="font-semibold text-teal-700">
+                  <span className="font-semibold text-teal-700 dark:text-teal-400">
                     {universities.find((u) => u.slug === transferTo)?.name}
                   </span>
                 </>
               ) : (
                 <>
-                  <span className="font-semibold text-gray-900">{results.totalSections}</span>{" "}
+                  <span className="font-semibold text-gray-900 dark:text-slate-100">{results.totalSections}</span>{" "}
                   {results.totalSections === 1 ? "section" : "sections"} of{" "}
-                  <span className="font-semibold text-gray-900">{results.totalCourses}</span>{" "}
+                  <span className="font-semibold text-gray-900 dark:text-slate-100">{results.totalCourses}</span>{" "}
                   {results.totalCourses === 1 ? "course" : "courses"} at{" "}
-                  <span className="font-semibold text-gray-900">{results.totalColleges}</span>{" "}
+                  <span className="font-semibold text-gray-900 dark:text-slate-100">{results.totalColleges}</span>{" "}
                   {results.totalColleges === 1 ? "college" : "colleges"}
                 </>
               )}
@@ -407,9 +407,9 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
 
           {/* No results */}
           {results.courses.length === 0 && (
-            <div className="rounded-lg border border-dashed border-gray-300 py-12 text-center">
-              <p className="text-gray-500">No courses match your search.</p>
-              <p className="mt-1 text-sm text-gray-400">
+            <div className="rounded-lg border border-dashed border-gray-300 dark:border-slate-600 py-12 text-center">
+              <p className="text-gray-500 dark:text-slate-400">No courses match your search.</p>
+              <p className="mt-1 text-sm text-gray-400 dark:text-slate-500">
                 Try a different keyword, subject, or remove some filters.
               </p>
             </div>
@@ -422,18 +422,18 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
               return (
                 <div
                   key={courseKey}
-                  className="rounded-xl border border-gray-200 bg-white overflow-hidden"
+                  className="rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 overflow-hidden"
                 >
                   {/* Course header */}
-                  <div className="border-b border-gray-100 bg-gray-50 px-5 py-3 flex flex-wrap items-center justify-between gap-2">
+                  <div className="border-b border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800 px-5 py-3 flex flex-wrap items-center justify-between gap-2">
                     <div>
-                      <h2 className="font-semibold text-gray-900">
+                      <h2 className="font-semibold text-gray-900 dark:text-slate-100">
                         {course.prefix} {course.number}{" "}
-                        <span className="font-normal text-gray-600">
+                        <span className="font-normal text-gray-600 dark:text-slate-400">
                           &mdash; {course.title}
                         </span>
                       </h2>
-                      <p className="text-xs text-gray-500 mt-0.5">
+                      <p className="text-xs text-gray-500 dark:text-slate-400 mt-0.5">
                         {course.credits} credits &middot;{" "}
                         {course.totalSections} {course.totalSections === 1 ? "section" : "sections"} at{" "}
                         {course.colleges.length} {course.colleges.length === 1 ? "college" : "colleges"}
@@ -445,7 +445,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                           if (!entry) return null;
                           if (entry.type === "direct") {
                             return (
-                              <span className="ml-2 inline-flex items-center gap-1 text-teal-700">
+                              <span className="ml-2 inline-flex items-center gap-1 text-teal-700 dark:text-teal-400">
                                 &middot; Transfers to {universities.find((u) => u.slug === transferTo)?.name}
                               </span>
                             );
@@ -462,7 +462,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                       </p>
                     </div>
                     {course.prerequisite_text && (
-                      <span className="shrink-0 inline-flex items-center gap-1 rounded-md bg-amber-50 border border-amber-200 px-2 py-1 text-xs text-amber-800">
+                      <span className="shrink-0 inline-flex items-center gap-1 rounded-md bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-800 px-2 py-1 text-xs text-amber-800 dark:text-amber-300">
                         <svg className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
                         </svg>
@@ -472,7 +472,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                   </div>
 
                   {/* College groups */}
-                  <div className="divide-y divide-gray-100">
+                  <div className="divide-y divide-gray-100 dark:divide-slate-700">
                     {course.colleges.map((college) => {
                       const expandId = `${courseKey}::${college.slug}`;
                       const isExpanded = expanded.has(expandId);
@@ -483,11 +483,11 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                           <button
                             type="button"
                             onClick={() => toggleExpand(courseKey, college.slug)}
-                            className="w-full px-5 py-3 flex items-center justify-between text-left hover:bg-gray-50 transition"
+                            className="w-full px-5 py-3 flex items-center justify-between text-left hover:bg-gray-50 dark:hover:bg-slate-800 transition"
                           >
                             <div className="flex items-center gap-3">
                               <svg
-                                className={`h-4 w-4 text-gray-400 transition-transform ${isExpanded ? "rotate-90" : ""}`}
+                                className={`h-4 w-4 text-gray-400 dark:text-slate-500 transition-transform ${isExpanded ? "rotate-90" : ""}`}
                                 fill="none"
                                 stroke="currentColor"
                                 strokeWidth={2}
@@ -496,11 +496,11 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                               </svg>
                               <div>
-                                <span className="font-medium text-gray-900 text-sm">
+                                <span className="font-medium text-gray-900 dark:text-slate-100 text-sm">
                                   {college.name}
                                 </span>
                                 {college.distance !== null && (
-                                  <span className="ml-2 text-xs text-gray-500">
+                                  <span className="ml-2 text-xs text-gray-500 dark:text-slate-400">
                                     {college.distance} mi
                                   </span>
                                 )}
@@ -512,7 +512,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                                   Audit OK
                                 </span>
                               )}
-                              <span className="text-xs text-gray-500">
+                              <span className="text-xs text-gray-500 dark:text-slate-400">
                                 {college.sections.length}{" "}
                                 {college.sections.length === 1 ? "section" : "sections"}
                               </span>
@@ -522,9 +522,9 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                           {/* Expanded sections */}
                           {isExpanded && (
                             <div className="px-5 pb-4">
-                              <div className="rounded-lg border border-gray-100 overflow-hidden">
+                              <div className="rounded-lg border border-gray-100 dark:border-slate-700 overflow-hidden">
                                 <table className="w-full text-left text-xs">
-                                  <thead className="bg-gray-50 text-[10px] uppercase tracking-wider text-gray-500">
+                                  <thead className="bg-gray-50 dark:bg-slate-800 text-[10px] uppercase tracking-wider text-gray-500 dark:text-slate-400">
                                     <tr>
                                       <th className="px-3 py-2 font-medium">CRN</th>
                                       <th className="px-3 py-2 font-medium">Schedule</th>
@@ -532,18 +532,18 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                                       <th className="px-3 py-2 font-medium">Mode</th>
                                     </tr>
                                   </thead>
-                                  <tbody className="divide-y divide-gray-50">
+                                  <tbody className="divide-y divide-gray-50 dark:divide-slate-700">
                                     {college.sections.map((s) => {
                                       const style = MODE_STYLES[s.mode];
                                       return (
-                                        <tr key={`${s.crn}-${s.course_prefix}${s.course_number}-${s.start_time}`} className="hover:bg-gray-50">
-                                          <td className="px-3 py-2 font-mono text-gray-600">
+                                        <tr key={`${s.crn}-${s.course_prefix}${s.course_number}-${s.start_time}`} className="hover:bg-gray-50 dark:hover:bg-slate-800">
+                                          <td className="px-3 py-2 font-mono text-gray-600 dark:text-slate-400">
                                             {s.crn}
                                           </td>
-                                          <td className="px-3 py-2 text-gray-700">
+                                          <td className="px-3 py-2 text-gray-700 dark:text-slate-300">
                                             {formatSchedule(s)}
                                           </td>
-                                          <td className="px-3 py-2 text-gray-600">
+                                          <td className="px-3 py-2 text-gray-600 dark:text-slate-400">
                                             {s.campus || "---"}
                                           </td>
                                           <td className="px-3 py-2">
@@ -571,7 +571,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                                   href={buildCourseUrl(college.slug, college.sections[0], courseUrlMap)}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="text-xs font-medium text-gray-500 hover:text-gray-700 hover:underline"
+                                  className="text-xs font-medium text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-300 hover:underline"
                                 >
                                   {`View on ${systemName} →`}
                                 </a>
@@ -593,7 +593,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
               <button
                 type="button"
                 onClick={() => setDisplayLimit((prev) => prev + 10)}
-                className="rounded-lg border border-gray-300 bg-white px-6 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 transition"
+                className="rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-6 py-2.5 text-sm font-medium text-gray-700 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-800 transition"
               >
                 Show more courses ({filteredCourses.length - displayLimit} remaining)
               </button>
@@ -604,14 +604,14 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
 
       {/* Empty state before search */}
       {!loading && !hasSearched && (
-        <div className="rounded-xl border border-dashed border-gray-200 py-16 text-center">
-          <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-teal-50">
+        <div className="rounded-xl border border-dashed border-gray-200 dark:border-slate-600 py-16 text-center">
+          <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-teal-50 dark:bg-teal-900/30">
             <svg className="h-6 w-6 text-teal-600" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
             </svg>
           </div>
-          <h3 className="font-medium text-gray-900">Search all {systemName} colleges at once</h3>
-          <p className="mt-1 text-sm text-gray-500 max-w-md mx-auto">
+          <h3 className="font-medium text-gray-900 dark:text-slate-100">Search all {systemName} colleges at once</h3>
+          <p className="mt-1 text-sm text-gray-500 dark:text-slate-400 max-w-md mx-auto">
             Enter a subject code (ENG), course number (ENG 111), or keyword
             (psychology) to find sections across all {collegeCount} community colleges.
           </p>
@@ -626,7 +626,7 @@ export default function CourseSearchClient({ state, systemName = "VCCS", college
                   const form = document.querySelector("form");
                   if (form) form.requestSubmit();
                 }}
-                className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs text-gray-600 hover:border-teal-300 hover:text-teal-700 transition"
+                className="rounded-full border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 px-3 py-1 text-xs text-gray-600 dark:text-slate-400 hover:border-teal-300 hover:text-teal-700 transition"
               >
                 {example}
               </button>

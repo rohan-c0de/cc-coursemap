@@ -25,10 +25,10 @@ export default async function StartingSoonCallout({ state }: { state: string }) 
   return (
     <Link
       href={`/${state}/starting-soon`}
-      className="group block rounded-xl border border-teal-200 bg-teal-50 px-5 py-4 mt-8 transition hover:border-teal-300 hover:bg-teal-100/60"
+      className="group block rounded-xl border border-teal-200 dark:border-teal-800 bg-teal-50 dark:bg-teal-900/30 px-5 py-4 mt-8 transition hover:border-teal-300 hover:bg-teal-100/60 dark:hover:bg-teal-900/50"
     >
       <div className="flex items-center gap-3">
-        <div className="shrink-0 flex h-10 w-10 items-center justify-center rounded-full bg-teal-100 text-teal-600 group-hover:bg-teal-200 transition">
+        <div className="shrink-0 flex h-10 w-10 items-center justify-center rounded-full bg-teal-100 dark:bg-teal-900/50 text-teal-600 dark:text-teal-400 group-hover:bg-teal-200 dark:group-hover:bg-teal-800 transition">
           <svg
             className="h-5 w-5"
             fill="none"
@@ -44,14 +44,14 @@ export default async function StartingSoonCallout({ state }: { state: string }) 
           </svg>
         </div>
         <div className="min-w-0">
-          <p className="text-sm font-medium text-teal-900">
+          <p className="text-sm font-medium text-teal-900 dark:text-teal-200">
             <span className="font-bold">{uniqueCourses}</span>{" "}
             {uniqueCourses === 1 ? "course" : "courses"} starting in the next 2
             weeks across{" "}
             <span className="font-bold">{uniqueColleges}</span>{" "}
             {uniqueColleges === 1 ? "college" : "colleges"}
           </p>
-          <p className="text-xs text-teal-700 group-hover:text-teal-800 transition">
+          <p className="text-xs text-teal-700 dark:text-teal-400 group-hover:text-teal-800 dark:group-hover:text-teal-300 transition">
             Browse upcoming late-start and mini-session courses &rarr;
           </p>
         </div>

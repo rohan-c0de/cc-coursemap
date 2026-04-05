@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export const metadata: Metadata = {
   alternates: {
@@ -15,33 +16,36 @@ export default function BlogLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen flex flex-col bg-white">
+    <div className="min-h-screen flex flex-col bg-white dark:bg-slate-900">
       {/* Blog header */}
-      <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
+      <header className="border-b border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 sticky top-0 z-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-teal-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xs">CCM</span>
               </div>
-              <span className="text-xl font-semibold text-gray-900">
+              <span className="text-xl font-semibold text-gray-900 dark:text-slate-100">
                 CC <span className="text-teal-600">CourseMap</span>
               </span>
             </Link>
-            <span className="text-gray-300">/</span>
+            <span className="text-gray-300 dark:text-slate-600">/</span>
             <Link
               href="/blog"
-              className="text-sm font-medium text-gray-600 hover:text-teal-600 transition-colors"
+              className="text-sm font-medium text-gray-600 dark:text-slate-400 hover:text-teal-600 transition-colors"
             >
               Blog
             </Link>
           </div>
-          <Link
-            href="/"
-            className="text-sm text-gray-500 hover:text-teal-600 transition-colors"
-          >
-            Find Courses
-          </Link>
+          <div className="flex items-center gap-3">
+            <Link
+              href="/"
+              className="text-sm text-gray-500 dark:text-slate-400 hover:text-teal-600 transition-colors"
+            >
+              Find Courses
+            </Link>
+            <ThemeToggle />
+          </div>
         </div>
       </header>
 
@@ -49,9 +53,9 @@ export default function BlogLayout({
       <main className="flex-1">{children}</main>
 
       {/* Blog footer */}
-      <footer className="border-t border-gray-200 bg-gray-50">
+      <footer className="border-t border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 py-8">
-          <div className="flex flex-wrap items-center justify-between gap-4 text-sm text-gray-500">
+          <div className="flex flex-wrap items-center justify-between gap-4 text-sm text-gray-500 dark:text-slate-400">
             <p>CC CourseMap — Community college course finder.</p>
             <div className="flex items-center gap-4">
               <Link

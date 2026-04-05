@@ -13,10 +13,10 @@ interface Props {
 }
 
 const MODE_STYLES: Record<string, { bg: string; text: string; label: string }> = {
-  "in-person": { bg: "bg-emerald-50", text: "text-emerald-700", label: "In-Person" },
-  online: { bg: "bg-blue-50", text: "text-blue-700", label: "Online" },
-  hybrid: { bg: "bg-purple-50", text: "text-purple-700", label: "Hybrid" },
-  zoom: { bg: "bg-orange-50", text: "text-orange-700", label: "Zoom" },
+  "in-person": { bg: "bg-emerald-50 dark:bg-emerald-900/30", text: "text-emerald-700 dark:text-emerald-400", label: "In-Person" },
+  online: { bg: "bg-blue-50 dark:bg-blue-900/30", text: "text-blue-700 dark:text-blue-400", label: "Online" },
+  hybrid: { bg: "bg-purple-50 dark:bg-purple-900/30", text: "text-purple-700 dark:text-purple-400", label: "Hybrid" },
+  zoom: { bg: "bg-orange-50 dark:bg-orange-900/30", text: "text-orange-700 dark:text-orange-400", label: "Zoom" },
 };
 
 function formatSchedule(days: string, startTime: string, endTime: string): string {
@@ -29,9 +29,9 @@ function formatSchedule(days: string, startTime: string, endTime: string): strin
 }
 
 function scoreColor(score: number): string {
-  if (score >= 80) return "bg-emerald-100 text-emerald-800 border-emerald-200";
-  if (score >= 60) return "bg-amber-100 text-amber-800 border-amber-200";
-  return "bg-red-100 text-red-800 border-red-200";
+  if (score >= 80) return "bg-emerald-100 dark:bg-emerald-900/40 text-emerald-800 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800";
+  if (score >= 60) return "bg-amber-100 dark:bg-amber-900/40 text-amber-800 dark:text-amber-300 border-amber-200 dark:border-amber-800";
+  return "bg-red-100 dark:bg-red-900/40 text-red-800 dark:text-red-300 border-red-200 dark:border-red-800";
 }
 
 // ---------------------------------------------------------------------------
@@ -117,12 +117,12 @@ export default function ScheduleResults({ response, state }: Props) {
 
   if (meta.message && schedules.length === 0) {
     return (
-      <div className="rounded-lg border border-dashed border-gray-300 py-12 text-center">
-        <svg className="mx-auto h-8 w-8 text-gray-300 mb-3" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+      <div className="rounded-lg border border-dashed border-gray-300 dark:border-slate-600 py-12 text-center">
+        <svg className="mx-auto h-8 w-8 text-gray-300 dark:text-slate-600 mb-3" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
         </svg>
-        <p className="text-gray-500 font-medium">{meta.message}</p>
-        <p className="mt-1 text-sm text-gray-400">
+        <p className="text-gray-500 dark:text-slate-400 font-medium">{meta.message}</p>
+        <p className="mt-1 text-sm text-gray-400 dark:text-slate-500">
           Try adjusting your constraints and search again.
         </p>
       </div>
@@ -133,30 +133,30 @@ export default function ScheduleResults({ response, state }: Props) {
     <div>
       {/* Summary bar */}
       <div className="mb-6 flex flex-wrap items-center gap-3">
-        <p className="text-sm text-gray-700">
+        <p className="text-sm text-gray-700 dark:text-slate-300">
           Found{" "}
-          <span className="font-semibold text-gray-900">{schedules.length}</span>{" "}
+          <span className="font-semibold text-gray-900 dark:text-slate-100">{schedules.length}</span>{" "}
           conflict-free {schedules.length === 1 ? "schedule" : "schedules"}
           {wasGrouped && (
-            <span className="text-gray-500">
+            <span className="text-gray-500 dark:text-slate-400">
               {" "}grouped into{" "}
-              <span className="font-semibold text-gray-900">{groups.length}</span>{" "}
+              <span className="font-semibold text-gray-900 dark:text-slate-100">{groups.length}</span>{" "}
               unique {groups.length === 1 ? "pattern" : "patterns"}
             </span>
           )}
           {" "}from{" "}
-          <span className="font-semibold text-gray-900">{meta.candidateSections}</span>{" "}
+          <span className="font-semibold text-gray-900 dark:text-slate-100">{meta.candidateSections}</span>{" "}
           sections of{" "}
-          <span className="font-semibold text-gray-900">{meta.candidateCourses}</span>{" "}
+          <span className="font-semibold text-gray-900 dark:text-slate-100">{meta.candidateCourses}</span>{" "}
           courses
         </p>
-        <span className="text-xs text-gray-400">
+        <span className="text-xs text-gray-400 dark:text-slate-500">
           ({meta.timeTakenMs}ms)
         </span>
       </div>
 
       {meta.message && (
-        <div className="mb-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-2.5 text-sm text-amber-800">
+        <div className="mb-4 rounded-lg border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-900/30 px-4 py-2.5 text-sm text-amber-800 dark:text-amber-300">
           {meta.message}
         </div>
       )}
@@ -187,7 +187,7 @@ export default function ScheduleResults({ response, state }: Props) {
           <button
             type="button"
             onClick={() => setDisplayLimit((prev) => prev + 10)}
-            className="rounded-lg border border-gray-300 bg-white px-6 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 transition"
+            className="rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 px-6 py-2.5 text-sm font-medium text-gray-700 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-700 transition"
           >
             Show more ({groups.length - displayLimit} remaining)
           </button>
@@ -232,15 +232,15 @@ function ScheduleCard({
   }
 
   return (
-    <div className="rounded-xl border border-gray-200 bg-white overflow-hidden">
+    <div className="rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
       {/* Header (always visible) */}
       <button
         type="button"
         onClick={onToggle}
-        className="w-full px-5 py-4 flex items-start gap-4 text-left hover:bg-gray-50/50 transition"
+        className="w-full px-5 py-4 flex items-start gap-4 text-left hover:bg-gray-50/50 dark:hover:bg-slate-700/50 transition"
       >
         {/* Rank */}
-        <div className="shrink-0 flex items-center justify-center h-8 w-8 rounded-full bg-gray-100 text-sm font-bold text-gray-500">
+        <div className="shrink-0 flex items-center justify-center h-8 w-8 rounded-full bg-gray-100 dark:bg-slate-700 text-sm font-bold text-gray-500 dark:text-slate-400">
           {rank}
         </div>
 
@@ -252,27 +252,27 @@ function ScheduleCard({
               return (
                 <div
                   key={`${s.crn}-${s.course_prefix}${s.course_number}`}
-                  className="rounded-lg border border-gray-200 bg-gray-50 px-3 py-1.5 text-xs"
+                  className="rounded-lg border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-700 px-3 py-1.5 text-xs"
                 >
-                  <span className="font-semibold text-gray-900">
+                  <span className="font-semibold text-gray-900 dark:text-slate-100">
                     {s.course_prefix} {s.course_number}
                   </span>
-                  <span className="text-gray-500 ml-1.5">
+                  <span className="text-gray-500 dark:text-slate-400 ml-1.5">
                     {formatSchedule(s.days, s.start_time, s.end_time)}
                   </span>
                   <span className={`ml-1.5 inline-block rounded-full px-1.5 py-0 text-[10px] font-medium ${modeStyle.bg} ${modeStyle.text}`}>
                     {modeStyle.label}
                   </span>
                   {s.distance !== null && (
-                    <span className="ml-1 text-gray-400">{s.distance} mi</span>
+                    <span className="ml-1 text-gray-400 dark:text-slate-500">{s.distance} mi</span>
                   )}
                 </div>
               );
             })}
           </div>
-          <div className="flex flex-wrap items-center gap-2 text-[11px] text-gray-500">
+          <div className="flex flex-wrap items-center gap-2 text-[11px] text-gray-500 dark:text-slate-400">
             {count > 1 ? (
-              <span className="text-teal-600 font-medium">
+              <span className="text-teal-600 dark:text-teal-400 font-medium">
                 Available at {totalColleges} {totalColleges === 1 ? "college" : "colleges"}
               </span>
             ) : (
@@ -293,12 +293,12 @@ function ScheduleCard({
           >
             {score}
           </span>
-          <span className="text-[10px] text-gray-400">/ 100</span>
+          <span className="text-[10px] text-gray-400 dark:text-slate-500">/ 100</span>
         </div>
 
         {/* Chevron */}
         <svg
-          className={`shrink-0 h-5 w-5 text-gray-400 transition-transform mt-1.5 ${isExpanded ? "rotate-180" : ""}`}
+          className={`shrink-0 h-5 w-5 text-gray-400 dark:text-slate-500 transition-transform mt-1.5 ${isExpanded ? "rotate-180" : ""}`}
           fill="none"
           stroke="currentColor"
           strokeWidth={2}
@@ -310,7 +310,7 @@ function ScheduleCard({
 
       {/* Expanded content */}
       {isExpanded && (
-        <div className="border-t border-gray-100 px-5 py-4 space-y-4">
+        <div className="border-t border-gray-100 dark:border-slate-700 px-5 py-4 space-y-4">
           {/* Score breakdown */}
           <ScoreBar breakdown={scoreBreakdown} total={score} />
 
@@ -318,9 +318,9 @@ function ScheduleCard({
           <WeeklyCalendar sections={sections} />
 
           {/* Section details with college alternatives */}
-          <div className="rounded-lg border border-gray-100 overflow-hidden">
+          <div className="rounded-lg border border-gray-100 dark:border-slate-700 overflow-hidden">
             <table className="w-full text-left text-xs">
-              <thead className="bg-gray-50 text-[10px] uppercase tracking-wider text-gray-500">
+              <thead className="bg-gray-50 dark:bg-slate-700 text-[10px] uppercase tracking-wider text-gray-500 dark:text-slate-400">
                 <tr>
                   <th className="px-3 py-2 font-medium">Course</th>
                   <th className="px-3 py-2 font-medium">Schedule</th>
@@ -330,36 +330,36 @@ function ScheduleCard({
                   <th className="px-3 py-2 font-medium">Mode</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-50">
+              <tbody className="divide-y divide-gray-50 dark:divide-slate-700">
                 {sections.map((s) => {
                   const modeStyle = MODE_STYLES[s.mode] || MODE_STYLES["in-person"];
                   const courseLabel = `${s.course_prefix} ${s.course_number}`;
                   const options = collegeOptions.get(courseLabel) || [];
 
                   return (
-                    <tr key={`${s.crn}-${s.course_prefix}${s.course_number}`} className="hover:bg-gray-50 align-top">
+                    <tr key={`${s.crn}-${s.course_prefix}${s.course_number}`} className="hover:bg-gray-50 dark:hover:bg-slate-700 align-top">
                       <td className="px-3 py-2">
-                        <span className="font-semibold text-gray-900">
+                        <span className="font-semibold text-gray-900 dark:text-slate-100">
                           {s.course_prefix} {s.course_number}
                         </span>
-                        <span className="block text-[10px] text-gray-500 truncate max-w-[200px]">
+                        <span className="block text-[10px] text-gray-500 dark:text-slate-400 truncate max-w-[200px]">
                           {s.course_title}
                         </span>
                       </td>
-                      <td className="px-3 py-2 text-gray-700">
+                      <td className="px-3 py-2 text-gray-700 dark:text-slate-300">
                         {formatSchedule(s.days, s.start_time, s.end_time)}
                       </td>
-                      <td className="px-3 py-2 text-gray-600">
+                      <td className="px-3 py-2 text-gray-600 dark:text-slate-400">
                         {options.length <= 1 ? (
                           <>
                             <Link
                               href={`/${state}/college/${s.college_code}`}
-                              className="text-teal-600 hover:underline"
+                              className="text-teal-600 dark:text-teal-400 hover:underline"
                             >
                               {s.collegeName}
                             </Link>
                             {s.distance !== null && (
-                              <span className="block text-[10px] text-gray-400">
+                              <span className="block text-[10px] text-gray-400 dark:text-slate-500">
                                 {s.distance} mi away
                               </span>
                             )}
@@ -384,12 +384,12 @@ function ScheduleCard({
 
           {/* Prerequisite warnings */}
           {sections.some((s) => s.prerequisite_text) && (
-            <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
-              <p className="text-xs font-medium text-amber-800 mb-1">Prerequisite Notice</p>
+            <div className="rounded-lg border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-900/30 px-4 py-3">
+              <p className="text-xs font-medium text-amber-800 dark:text-amber-300 mb-1">Prerequisite Notice</p>
               {sections
                 .filter((s) => s.prerequisite_text)
                 .map((s) => (
-                  <p key={`${s.crn}-${s.course_prefix}${s.course_number}-prereq`} className="text-xs text-amber-700">
+                  <p key={`${s.crn}-${s.course_prefix}${s.course_number}-prereq`} className="text-xs text-amber-700 dark:text-amber-400">
                     <span className="font-medium">
                       {s.course_prefix} {s.course_number}
                     </span>
@@ -421,12 +421,12 @@ function CollegeOptionsList({ options, state }: { options: CollegeOption[]; stat
         <div key={o.college_code} className="leading-tight">
           <Link
             href={`/${state}/college/${o.college_code}`}
-            className="text-teal-600 hover:underline"
+            className="text-teal-600 dark:text-teal-400 hover:underline"
           >
             {o.collegeName}
           </Link>
           {o.distance !== null && (
-            <span className="text-[10px] text-gray-400 ml-1">
+            <span className="text-[10px] text-gray-400 dark:text-slate-500 ml-1">
               {o.distance} mi
             </span>
           )}
@@ -439,7 +439,7 @@ function CollegeOptionsList({ options, state }: { options: CollegeOption[]; stat
             e.stopPropagation();
             setShowAll(true);
           }}
-          className="text-[10px] text-teal-600 hover:underline font-medium"
+          className="text-[10px] text-teal-600 dark:text-teal-400 hover:underline font-medium"
         >
           +{remaining} more {remaining === 1 ? "college" : "colleges"}
         </button>

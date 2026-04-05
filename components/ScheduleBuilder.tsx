@@ -104,11 +104,11 @@ export default function ScheduleBuilder({ courses, pinnedCRNs, onTogglePin }: Pr
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center justify-between rounded-lg border border-teal-200 bg-teal-50 px-4 py-3 text-left transition hover:bg-teal-100"
+        className="w-full flex items-center justify-between rounded-lg border border-teal-200 dark:border-teal-800 bg-teal-50 dark:bg-teal-900/30 px-4 py-3 text-left transition hover:bg-teal-100 dark:hover:bg-teal-900/50"
       >
         <div>
-          <h3 className="font-semibold text-teal-900">Schedule Builder</h3>
-          <p className="text-sm text-teal-700">
+          <h3 className="font-semibold text-teal-900 dark:text-teal-200">Schedule Builder</h3>
+          <p className="text-sm text-teal-700 dark:text-teal-400">
             Pin courses to visualize your weekly timetable
             {pinnedCRNs.size > 0 && (
               <span className="ml-2 font-medium">
@@ -118,7 +118,7 @@ export default function ScheduleBuilder({ courses, pinnedCRNs, onTogglePin }: Pr
           </p>
         </div>
         <svg
-          className={`h-5 w-5 text-teal-600 transition-transform ${isOpen ? "rotate-180" : ""}`}
+          className={`h-5 w-5 text-teal-600 dark:text-teal-400 transition-transform ${isOpen ? "rotate-180" : ""}`}
           fill="none"
           stroke="currentColor"
           strokeWidth={2}
@@ -136,8 +136,8 @@ export default function ScheduleBuilder({ courses, pinnedCRNs, onTogglePin }: Pr
         <div className="mt-4 space-y-4">
           {/* Conflict warning */}
           {conflicts.size > 0 && (
-            <div className="rounded-lg border border-red-200 bg-red-50 px-4 py-3">
-              <p className="text-sm font-medium text-red-800">
+            <div className="rounded-lg border border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-900/30 px-4 py-3">
+              <p className="text-sm font-medium text-red-800 dark:text-red-300">
                 Time conflict detected between {conflicts.size} courses. Check
                 the schedule below.
               </p>
@@ -145,8 +145,8 @@ export default function ScheduleBuilder({ courses, pinnedCRNs, onTogglePin }: Pr
           )}
 
           {pinnedCourses.length === 0 ? (
-            <div className="rounded-lg border border-dashed border-gray-300 py-8 text-center">
-              <p className="text-gray-500 text-sm">
+            <div className="rounded-lg border border-dashed border-gray-300 dark:border-slate-600 py-8 text-center">
+              <p className="text-gray-500 dark:text-slate-400 text-sm">
                 No courses pinned yet. Click the pin icon on any course in the
                 table above to add it here.
               </p>
@@ -193,18 +193,18 @@ export default function ScheduleBuilder({ courses, pinnedCRNs, onTogglePin }: Pr
               {/* Weekly grid */}
               <div className="overflow-x-auto">
                 <div
-                  className="min-w-[600px] grid border border-gray-200 rounded-lg overflow-hidden"
+                  className="min-w-[600px] grid border border-gray-200 dark:border-slate-700 rounded-lg overflow-hidden"
                   style={{
                     gridTemplateColumns: "60px repeat(6, 1fr)",
                     gridTemplateRows: `32px repeat(${SLOT_COUNT}, 20px)`,
                   }}
                 >
                   {/* Header row */}
-                  <div className="bg-gray-50 border-b border-r border-gray-200" />
+                  <div className="bg-gray-50 dark:bg-slate-800 border-b border-r border-gray-200 dark:border-slate-700" />
                   {DAY_COLS.map((day) => (
                     <div
                       key={day.key}
-                      className="bg-gray-50 border-b border-r border-gray-200 flex items-center justify-center text-xs font-medium text-gray-600"
+                      className="bg-gray-50 dark:bg-slate-800 border-b border-r border-gray-200 dark:border-slate-700 flex items-center justify-center text-xs font-medium text-gray-600 dark:text-slate-400"
                     >
                       {day.label}
                     </div>
@@ -217,7 +217,7 @@ export default function ScheduleBuilder({ courses, pinnedCRNs, onTogglePin }: Pr
                     return (
                       <div
                         key={`time-${i}`}
-                        className={`border-r border-gray-200 flex items-start justify-end pr-1.5 text-[10px] text-gray-400 ${isHour ? "border-t border-gray-100" : ""}`}
+                        className={`border-r border-gray-200 dark:border-slate-700 flex items-start justify-end pr-1.5 text-[10px] text-gray-400 dark:text-slate-500 ${isHour ? "border-t border-gray-100 dark:border-slate-700" : ""}`}
                         style={{ gridColumn: 1, gridRow: i + 2 }}
                       >
                         {isHour && (
@@ -237,7 +237,7 @@ export default function ScheduleBuilder({ courses, pinnedCRNs, onTogglePin }: Pr
                       return (
                         <div
                           key={`${day.key}-${rowIdx}`}
-                          className={`border-r border-gray-100 ${isHour ? "border-t border-gray-100" : ""}`}
+                          className={`border-r border-gray-100 dark:border-slate-700 ${isHour ? "border-t border-gray-100 dark:border-slate-700" : ""}`}
                           style={{
                             gridColumn: colIdx + 2,
                             gridRow: rowIdx + 2,

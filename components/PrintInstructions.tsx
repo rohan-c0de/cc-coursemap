@@ -119,7 +119,7 @@ export default function PrintInstructions({ institution, course }: Props) {
     <button
       type="button"
       onClick={handlePrint}
-      className="inline-flex items-center gap-1.5 rounded-md border border-gray-300 bg-white px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:bg-gray-50"
+      className="inline-flex items-center gap-1.5 rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-gray-700 dark:text-slate-300 transition hover:bg-gray-50 dark:hover:bg-slate-700"
     >
       <svg
         className="h-3.5 w-3.5"

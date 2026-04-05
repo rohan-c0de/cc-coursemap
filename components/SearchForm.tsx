@@ -46,12 +46,12 @@ export default function SearchForm({ state = "va" }: { state?: string }) {
     <form
       id="search"
       onSubmit={handleSubmit}
-      className="mx-auto w-full max-w-lg rounded-2xl bg-white p-6 shadow-lg sm:p-8"
+      className="mx-auto w-full max-w-lg rounded-2xl bg-white dark:bg-slate-900 p-6 shadow-lg dark:shadow-slate-900/50 sm:p-8"
     >
-      <h3 className="mb-1 text-center text-xl font-bold text-gray-900">
+      <h3 className="mb-1 text-center text-xl font-bold text-gray-900 dark:text-slate-100">
         Find Colleges Near You
       </h3>
-      <p className="mb-6 text-center text-sm text-gray-500">
+      <p className="mb-6 text-center text-sm text-gray-500 dark:text-slate-400">
         Enter your zip code or city name to find nearby community colleges.
       </p>
 
@@ -59,7 +59,7 @@ export default function SearchForm({ state = "va" }: { state?: string }) {
       <div className="mb-5">
         <label
           htmlFor="zip"
-          className="mb-1.5 block text-sm font-medium text-gray-700"
+          className="mb-1.5 block text-sm font-medium text-gray-700 dark:text-slate-300"
         >
           Zip Code or City
         </label>
@@ -73,10 +73,10 @@ export default function SearchForm({ state = "va" }: { state?: string }) {
             setZip(e.target.value);
             if (error) setError(null);
           }}
-          className={`w-full rounded-lg border px-4 py-3 text-lg tracking-widest placeholder:tracking-normal placeholder:text-gray-400 focus:outline-none focus:ring-2 ${
+          className={`w-full rounded-lg border px-4 py-3 text-lg tracking-widest placeholder:tracking-normal placeholder:text-gray-400 dark:placeholder:text-slate-500 dark:bg-slate-800 dark:text-slate-100 focus:outline-none focus:ring-2 ${
             error
               ? "border-red-400 focus:ring-red-300"
-              : "border-gray-300 focus:border-teal-500 focus:ring-teal-200"
+              : "border-gray-300 dark:border-slate-600 focus:border-teal-500 focus:ring-teal-200 dark:focus:ring-teal-800"
           }`}
           aria-invalid={error ? "true" : undefined}
           aria-describedby={error ? "zip-error" : undefined}
@@ -90,7 +90,7 @@ export default function SearchForm({ state = "va" }: { state?: string }) {
 
       {/* Radius selector */}
       <div className="mb-6">
-        <span className="mb-1.5 block text-sm font-medium text-gray-700">
+        <span className="mb-1.5 block text-sm font-medium text-gray-700 dark:text-slate-300">
           Search Radius
         </span>
         <div className="flex gap-2">
@@ -102,7 +102,7 @@ export default function SearchForm({ state = "va" }: { state?: string }) {
               className={`flex-1 rounded-lg border py-2.5 text-sm font-medium transition ${
                 radius === r
                   ? "border-teal-600 bg-teal-600 text-white shadow-sm"
-                  : "border-gray-300 bg-white text-gray-600 hover:border-teal-400 hover:text-teal-700"
+                  : "border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-gray-600 dark:text-slate-400 hover:border-teal-400 hover:text-teal-700"
               }`}
             >
               {r} miles

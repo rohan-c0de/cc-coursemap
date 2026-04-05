@@ -69,13 +69,13 @@ const MODE_STYLES: Record<
   { bg: string; text: string; label: string }
 > = {
   "in-person": {
-    bg: "bg-emerald-50",
-    text: "text-emerald-700",
+    bg: "bg-emerald-50 dark:bg-emerald-900/30",
+    text: "text-emerald-700 dark:text-emerald-400",
     label: "In-Person",
   },
-  online: { bg: "bg-blue-50", text: "text-blue-700", label: "Online" },
-  hybrid: { bg: "bg-purple-50", text: "text-purple-700", label: "Hybrid" },
-  zoom: { bg: "bg-orange-50", text: "text-orange-700", label: "Zoom" },
+  online: { bg: "bg-blue-50 dark:bg-blue-900/30", text: "text-blue-700 dark:text-blue-400", label: "Online" },
+  hybrid: { bg: "bg-purple-50 dark:bg-purple-900/30", text: "text-purple-700 dark:text-purple-400", label: "Hybrid" },
+  zoom: { bg: "bg-orange-50 dark:bg-orange-900/30", text: "text-orange-700 dark:text-orange-400", label: "Zoom" },
 };
 
 const WINDOW_OPTIONS = [
@@ -171,15 +171,15 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
   return (
     <div>
       {/* Filter bar */}
-      <div className="mb-6 flex flex-wrap items-end gap-3 rounded-lg border border-gray-200 bg-gray-50 p-4">
+      <div className="mb-6 flex flex-wrap items-end gap-3 rounded-lg border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800 p-4">
         <div className="min-w-[150px]">
-          <label className="mb-1 block text-xs font-medium text-gray-600">
+          <label className="mb-1 block text-xs font-medium text-gray-600 dark:text-slate-400">
             Time Window
           </label>
           <select
             value={window}
             onChange={(e) => setWindow(Number(e.target.value))}
-            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+            className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 dark:text-slate-100 px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
           >
             {WINDOW_OPTIONS.map((o) => (
               <option key={o.value} value={o.value}>
@@ -190,13 +190,13 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
         </div>
 
         <div className="min-w-[130px]">
-          <label className="mb-1 block text-xs font-medium text-gray-600">
+          <label className="mb-1 block text-xs font-medium text-gray-600 dark:text-slate-400">
             Subject
           </label>
           <select
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
-            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+            className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 dark:text-slate-100 px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
           >
             <option value="">All Subjects</option>
             {allSubjects.map((s) => (
@@ -208,13 +208,13 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
         </div>
 
         <div className="min-w-[130px]">
-          <label className="mb-1 block text-xs font-medium text-gray-600">
+          <label className="mb-1 block text-xs font-medium text-gray-600 dark:text-slate-400">
             Mode
           </label>
           <select
             value={mode}
             onChange={(e) => setMode(e.target.value)}
-            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+            className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 dark:text-slate-100 px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
           >
             <option value="">All Modes</option>
             <option value="in-person">In-Person</option>
@@ -225,7 +225,7 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
         </div>
 
         <div className="min-w-[120px]">
-          <label className="mb-1 block text-xs font-medium text-gray-600">
+          <label className="mb-1 block text-xs font-medium text-gray-600 dark:text-slate-400">
             Near Zip Code
           </label>
           <form
@@ -241,7 +241,7 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
               onChange={(e) => setZipInput(e.target.value)}
               placeholder={`e.g. ${defaultZip}`}
               maxLength={5}
-              className="w-24 rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
+              className="w-24 rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 dark:text-slate-100 px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
             />
             <button
               type="submit"
@@ -253,7 +253,7 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
         </div>
 
         {data && !loading && (
-          <span className="ml-auto text-sm text-gray-500">
+          <span className="ml-auto text-sm text-gray-500 dark:text-slate-400">
             {data.meta.totalSections} sections across{" "}
             {data.meta.totalColleges} colleges
           </span>
@@ -263,24 +263,24 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
       {/* Loading */}
       {loading && (
         <div className="flex items-center justify-center py-16">
-          <div className="h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-teal-500" />
+          <div className="h-8 w-8 animate-spin rounded-full border-4 border-gray-200 dark:border-slate-700 border-t-teal-500" />
         </div>
       )}
 
       {/* Error */}
       {error && (
-        <div className="rounded-lg border border-red-200 bg-red-50 p-4 text-red-700 text-sm">
+        <div className="rounded-lg border border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-900/30 p-4 text-red-700 dark:text-red-400 text-sm">
           {error}
         </div>
       )}
 
       {/* Empty state */}
       {!loading && !error && data && data.dateGroups.length === 0 && (
-        <div className="rounded-lg border border-dashed border-gray-300 py-12 text-center">
-          <p className="text-gray-500 mb-2">
+        <div className="rounded-lg border border-dashed border-gray-300 dark:border-slate-600 py-12 text-center">
+          <p className="text-gray-500 dark:text-slate-400 mb-2">
             No courses starting in the next {window} days.
           </p>
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-gray-400 dark:text-slate-500">
             Try expanding the time window or clearing filters.
           </p>
         </div>
@@ -294,14 +294,14 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
           <div key={dateGroup.date} className="mb-8">
             {/* Date header */}
             <div className="flex items-center gap-3 mb-4">
-              <div className="h-px flex-1 bg-gray-200" />
-              <h2 className="text-sm font-semibold text-gray-700 whitespace-nowrap">
+              <div className="h-px flex-1 bg-gray-200 dark:bg-slate-700" />
+              <h2 className="text-sm font-semibold text-gray-700 dark:text-slate-300 whitespace-nowrap">
                 {dateGroup.label}{" "}
-                <span className="font-normal text-gray-400">
+                <span className="font-normal text-gray-400 dark:text-slate-500">
                   ({daysAwayLabel(dateGroup.daysAway)})
                 </span>
               </h2>
-              <div className="h-px flex-1 bg-gray-200" />
+              <div className="h-px flex-1 bg-gray-200 dark:bg-slate-700" />
             </div>
 
             {/* Course cards */}
@@ -309,25 +309,25 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
               {dateGroup.courses.map((course) => (
                 <div
                   key={`${course.prefix}-${course.number}`}
-                  className="rounded-lg border border-gray-200 bg-white overflow-hidden"
+                  className="rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 overflow-hidden"
                 >
                   {/* Course header */}
-                  <div className="px-4 py-3 bg-gray-50 border-b border-gray-100">
+                  <div className="px-4 py-3 bg-gray-50 dark:bg-slate-800 border-b border-gray-100 dark:border-slate-700">
                     <div className="flex items-center justify-between gap-2">
                       <div>
-                        <span className="font-semibold text-gray-900">
+                        <span className="font-semibold text-gray-900 dark:text-slate-100">
                           {course.prefix} {course.number}
                         </span>
-                        <span className="text-gray-500 mx-2">&middot;</span>
-                        <span className="text-gray-700">
+                        <span className="text-gray-500 dark:text-slate-400 mx-2">&middot;</span>
+                        <span className="text-gray-700 dark:text-slate-300">
                           {course.title}
                         </span>
-                        <span className="text-gray-500 mx-2">&middot;</span>
-                        <span className="text-gray-500 text-sm">
+                        <span className="text-gray-500 dark:text-slate-400 mx-2">&middot;</span>
+                        <span className="text-gray-500 dark:text-slate-400 text-sm">
                           {course.credits} cr
                         </span>
                       </div>
-                      <span className="text-xs text-gray-400 whitespace-nowrap">
+                      <span className="text-xs text-gray-400 dark:text-slate-500 whitespace-nowrap">
                         {course.totalSections}{" "}
                         {course.totalSections === 1 ? "section" : "sections"} at{" "}
                         {course.colleges.length}{" "}
@@ -337,7 +337,7 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
                   </div>
 
                   {/* College rows */}
-                  <div className="divide-y divide-gray-100">
+                  <div className="divide-y divide-gray-100 dark:divide-slate-700">
                     {course.colleges.map((college) => {
                       const colKey = `${dateGroup.date}-${course.prefix}${course.number}-${college.slug}`;
                       const isExpanded = expandedColleges.has(colKey);
@@ -348,11 +348,11 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
                           <button
                             type="button"
                             onClick={() => toggleCollege(colKey)}
-                            className="w-full px-4 py-2.5 flex items-center justify-between gap-2 text-left hover:bg-gray-50 transition"
+                            className="w-full px-4 py-2.5 flex items-center justify-between gap-2 text-left hover:bg-gray-50 dark:hover:bg-slate-800 transition"
                           >
                             <div className="flex items-center gap-2 min-w-0">
                               <svg
-                                className={`h-3 w-3 text-gray-400 shrink-0 transition-transform ${
+                                className={`h-3 w-3 text-gray-400 dark:text-slate-500 shrink-0 transition-transform ${
                                   isExpanded ? "rotate-90" : ""
                                 }`}
                                 fill="currentColor"
@@ -367,16 +367,16 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
                               <Link
                                 href={`/${state}/college/${college.slug}`}
                                 onClick={(e) => e.stopPropagation()}
-                                className="font-medium text-sm text-gray-900 hover:text-teal-700 truncate"
+                                className="font-medium text-sm text-gray-900 dark:text-slate-100 hover:text-teal-700 truncate"
                               >
                                 {college.name}
                               </Link>
                               {college.distance !== null && (
-                                <span className="text-xs text-gray-400 shrink-0">
+                                <span className="text-xs text-gray-400 dark:text-slate-500 shrink-0">
                                   {college.distance} mi
                                 </span>
                               )}
-                              <span className="text-xs text-gray-400">
+                              <span className="text-xs text-gray-400 dark:text-slate-500">
                                 &mdash; {college.sections.length}{" "}
                                 {college.sections.length === 1
                                   ? "section"
@@ -385,13 +385,13 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
                             </div>
                             <div className="flex items-center gap-2 shrink-0">
                               {college.auditAllowed === true && (
-                                <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-semibold text-emerald-700 ring-1 ring-inset ring-emerald-200">
+                                <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 dark:bg-emerald-900/30 px-2 py-0.5 text-[10px] font-semibold text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-200">
                                   <span className="h-1 w-1 rounded-full bg-emerald-500" />
                                   Audit OK
                                 </span>
                               )}
                               {college.auditAllowed === null && (
-                                <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-semibold text-amber-700 ring-1 ring-inset ring-amber-200">
+                                <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 dark:bg-amber-900/30 px-2 py-0.5 text-[10px] font-semibold text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-200">
                                   Unverified
                                 </span>
                               )}
@@ -401,9 +401,9 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
                           {/* Expanded sections */}
                           {isExpanded && (
                             <div className="px-4 pb-3 pl-9">
-                              <div className="rounded border border-gray-100 overflow-hidden">
+                              <div className="rounded border border-gray-100 dark:border-slate-700 overflow-hidden">
                                 <table className="w-full text-xs">
-                                  <thead className="bg-gray-50 text-gray-500">
+                                  <thead className="bg-gray-50 dark:bg-slate-800 text-gray-500 dark:text-slate-400">
                                     <tr>
                                       <th className="px-3 py-1.5 text-left font-medium">
                                         CRN
@@ -422,18 +422,18 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
                                       </th>
                                     </tr>
                                   </thead>
-                                  <tbody className="divide-y divide-gray-50">
+                                  <tbody className="divide-y divide-gray-50 dark:divide-slate-700">
                                     {college.sections.map((s) => {
                                       const mStyle = MODE_STYLES[s.mode];
                                       return (
                                         <tr key={`${s.crn}-${s.course_prefix}${s.course_number}-${s.start_time}`}>
-                                          <td className="px-3 py-1.5 font-mono text-gray-600">
+                                          <td className="px-3 py-1.5 font-mono text-gray-600 dark:text-slate-400">
                                             {s.crn}
                                           </td>
-                                          <td className="px-3 py-1.5 text-gray-700">
+                                          <td className="px-3 py-1.5 text-gray-700 dark:text-slate-300">
                                             {formatSchedule(s)}
                                           </td>
-                                          <td className="px-3 py-1.5 text-gray-600">
+                                          <td className="px-3 py-1.5 text-gray-600 dark:text-slate-400">
                                             {s.campus || "---"}
                                           </td>
                                           <td className="px-3 py-1.5">
@@ -443,7 +443,7 @@ export default function StartingSoonClient({ state, defaultZip = "22030" }: { st
                                               {mStyle.label}
                                             </span>
                                           </td>
-                                          <td className="px-3 py-1.5 text-gray-600">
+                                          <td className="px-3 py-1.5 text-gray-600 dark:text-slate-400">
                                             {s.instructor || "---"}
                                           </td>
                                         </tr>

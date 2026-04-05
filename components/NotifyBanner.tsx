@@ -35,18 +35,18 @@ export default function NotifyBanner({ nextTerm, state }: { nextTerm: string; st
 
   if (status === "success") {
     return (
-      <div className="bg-teal-50 border border-teal-200 rounded-lg px-4 py-3 text-sm text-teal-800">
+      <div className="bg-teal-50 dark:bg-teal-900/30 border border-teal-200 dark:border-teal-800 rounded-lg px-4 py-3 text-sm text-teal-800 dark:text-teal-300">
         {message}
       </div>
     );
   }
 
   return (
-    <div className="bg-amber-50 border border-amber-200 rounded-lg px-4 py-4">
-      <p className="text-sm font-medium text-amber-900 mb-2">
+    <div className="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-800 rounded-lg px-4 py-4">
+      <p className="text-sm font-medium text-amber-900 dark:text-amber-200 mb-2">
         {`${nextTerm} schedules aren't posted yet.`}
       </p>
-      <p className="text-xs text-amber-700 mb-3">
+      <p className="text-xs text-amber-700 dark:text-amber-400 mb-3">
         Get notified when new semester schedules become available.
       </p>
       <form onSubmit={handleSubmit} className="flex gap-2">
@@ -55,7 +55,7 @@ export default function NotifyBanner({ nextTerm, state }: { nextTerm: string; st
           placeholder="you@example.com"
           value={email}
           onChange={(e) => { setEmail(e.target.value); setStatus("idle"); }}
-          className="flex-1 min-w-0 rounded-md border border-amber-300 px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
+          className="flex-1 min-w-0 rounded-md border border-amber-300 dark:border-amber-700 px-3 py-1.5 text-sm dark:bg-slate-800 dark:text-slate-100 dark:placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
           required
         />
         <button
@@ -69,7 +69,7 @@ export default function NotifyBanner({ nextTerm, state }: { nextTerm: string; st
       {status === "error" && (
         <p className="mt-2 text-xs text-red-600">{message}</p>
       )}
-      <p className="mt-2 text-[11px] text-amber-600">
+      <p className="mt-2 text-[11px] text-amber-600 dark:text-amber-500">
         We&apos;ll only email you about new schedules. No spam.{" "}
         <a href="/privacy" className="underline">Privacy policy</a>.
       </p>
