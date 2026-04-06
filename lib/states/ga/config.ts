@@ -46,7 +46,7 @@ const gaConfig: StateConfig = {
       "Georgia law allows residents aged 62+ to attend classes at TCSG technical colleges with tuition waived on a space-available basis. Fees and textbooks may still apply.",
   },
 
-  transferSupported: false,
+  transferSupported: true,
   defaultZip: "30303",
 
   courseDiscoveryUrl: (collegeSlug: string, prefix: string, number: string) => {

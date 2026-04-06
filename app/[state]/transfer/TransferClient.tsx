@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import type { TransferMapping } from "@/lib/types";
+import TransferCompare from "./TransferCompare";
 
 interface Props {
   universities: { slug: string; name: string }[];
@@ -15,6 +16,7 @@ interface Props {
   state: string;
 }
 
+type ViewMode = "browse" | "compare";
 type GroupMode = "outcome" | "subject";
 
 export default function TransferClient({
@@ -24,6 +26,7 @@ export default function TransferClient({
   defaultUniversity,
   state,
 }: Props) {
+  const [viewMode, setViewMode] = useState<ViewMode>("browse");
   const [selectedUniversity, setSelectedUniversity] = useState(defaultUniversity);
   const [subjectFilter, setSubjectFilter] = useState("");
   const [typeFilter, setTypeFilter] = useState<
@@ -230,6 +233,40 @@ export default function TransferClient({
 
   return (
     <div>
+      {/* ── View mode toggle ── */}
+      <div className="mb-6 flex items-center gap-1 rounded-lg bg-gray-100 dark:bg-slate-800 p-1 w-fit">
+        <button
+          onClick={() => setViewMode("browse")}
+          className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
+            viewMode === "browse"
+              ? "bg-white dark:bg-slate-900 text-gray-900 dark:text-slate-100 shadow-sm"
+              : "text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-300"
+          }`}
+        >
+          Browse by university
+        </button>
+        <button
+          onClick={() => setViewMode("compare")}
+          className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
+            viewMode === "compare"
+              ? "bg-white dark:bg-slate-900 text-gray-900 dark:text-slate-100 shadow-sm"
+              : "text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-300"
+          }`}
+        >
+          Compare universities
+        </button>
+      </div>
+
+      {/* ── Compare view ── */}
+      {viewMode === "compare" ? (
+        <TransferCompare
+          universities={universities}
+          mappings={mappings}
+          courseAvailability={courseAvailability}
+          state={state}
+        />
+      ) : (
+      <>
       {/* University selector */}
       <div className="mb-6">
         <label className="text-sm font-medium text-gray-700 dark:text-slate-300 mr-2">
@@ -440,6 +477,8 @@ export default function TransferClient({
       <p className="mt-4 text-xs text-gray-400 dark:text-slate-500 text-center">
         {filtered.length} courses shown
       </p>
+      </>
+      )}
     </div>
   );
 }

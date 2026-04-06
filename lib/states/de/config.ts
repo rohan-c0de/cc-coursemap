@@ -20,7 +20,7 @@ const deConfig: StateConfig = {
       "Delaware Code Title 14, \u00A79009A allows Delaware residents aged 62+ to audit courses at Del Tech tuition-free on a space-available basis. Fees may still apply.",
   },
 
-  transferSupported: false,
+  transferSupported: true,
   defaultZip: "19901",
 
   courseDiscoveryUrl: (_collegeSlug: string, prefix: string, number: string) => {
