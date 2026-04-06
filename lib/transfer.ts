@@ -10,7 +10,10 @@ function dataPath(state = "va"): string {
 // Module-level cache (keyed by state)
 let cache: { state: string; data: TransferMapping[] } | null = null;
 
-const PAGE_SIZE = 5000;
+// Supabase default max rows per request is 1,000 — PAGE_SIZE must not
+// exceed that or the pagination loop will exit early, loading only a
+// partial dataset.
+const PAGE_SIZE = 1000;
 
 /**
  * Load all transfer mappings from Supabase (with local JSON fallback).
