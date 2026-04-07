@@ -102,12 +102,12 @@ export function isValidTime(t: string): boolean {
 }
 
 /**
- * Compute the day bitmask for a space-separated day string like "M W F".
+ * Compute the day bitmask for a day string like "M W F" or compact "MWF" / "TuTh".
  */
 export function daysToBitmask(days: string): number {
   if (!days) return 0;
   let mask = 0;
-  for (const d of days.split(" ")) {
+  for (const d of expandDays(days).split(" ")) {
     mask |= DAY_BITS[d] || 0;
   }
   return mask;
