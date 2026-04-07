@@ -338,6 +338,9 @@ function filterSections(
     const dayMask = daysToBitmask(s.days);
     const isAsync = startMin < 0 || endMin < 0 || dayMask === 0;
 
+    // If user wants in-person, exclude sections with no scheduled times (TBA)
+    if (modeFilter === "in-person" && isAsync) continue;
+
     // Day filter: section's days must be a subset of available days
     // (async sections pass through)
     if (!isAsync && (dayMask & ~availableDayMask) !== 0) continue;

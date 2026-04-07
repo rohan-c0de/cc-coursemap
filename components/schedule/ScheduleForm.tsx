@@ -35,6 +35,7 @@ interface Props {
   universities?: UniversityOption[];
   terms?: TermOption[];
   quickAddSubjects?: string[];
+  initialDefaults?: Partial<ScheduleFormData>;
 }
 
 const DAYS = [
@@ -65,20 +66,20 @@ const DISTANCE_OPTIONS = [
 
 const DEFAULT_QUICK_ADD = ["ART", "PSY", "BIO", "ENG", "MTH", "HIS", "MUS", "PHI"];
 
-export default function ScheduleForm({ onSubmit, loading, defaultZip, universities, terms, quickAddSubjects }: Props) {
-  const [subjects, setSubjects] = useState<string[]>([]);
+export default function ScheduleForm({ onSubmit, loading, defaultZip, universities, terms, quickAddSubjects, initialDefaults: d }: Props) {
+  const [subjects, setSubjects] = useState<string[]>(d?.subjects || []);
   const [subjectInput, setSubjectInput] = useState("");
-  const [daysAvailable, setDaysAvailable] = useState<string[]>(["M", "Tu", "W", "Th", "F"]);
-  const [timeBucket, setTimeBucket] = useState("any");
-  const [maxCourses, setMaxCourses] = useState<1 | 2 | 3 | 4 | 5>(2);
-  const [zip, setZip] = useState("");
-  const [maxDistance, setMaxDistance] = useState<number | undefined>(undefined);
-  const [mode, setMode] = useState("any");
-  const [minBreak, setMinBreak] = useState<0 | 30 | 60>(0);
-  const [includeInProgress, setIncludeInProgress] = useState(false);
-  const [targetUniversity, setTargetUniversity] = useState("");
-  const [hideFullSections, setHideFullSections] = useState(true);
-  const [selectedTerm, setSelectedTerm] = useState("");
+  const [daysAvailable, setDaysAvailable] = useState<string[]>(d?.daysAvailable || ["M", "Tu", "W", "Th", "F"]);
+  const [timeBucket, setTimeBucket] = useState(d?.timeWindowStart || "any");
+  const [maxCourses, setMaxCourses] = useState<1 | 2 | 3 | 4 | 5>(d?.maxCourses || 2);
+  const [zip, setZip] = useState(d?.zip || "");
+  const [maxDistance, setMaxDistance] = useState<number | undefined>(d?.maxDistance);
+  const [mode, setMode] = useState(d?.mode || "any");
+  const [minBreak, setMinBreak] = useState<0 | 30 | 60>(d?.minBreakMinutes || 0);
+  const [includeInProgress, setIncludeInProgress] = useState(d?.includeInProgress || false);
+  const [targetUniversity, setTargetUniversity] = useState(d?.targetUniversity || "");
+  const [hideFullSections, setHideFullSections] = useState(d?.hideFullSections ?? true);
+  const [selectedTerm, setSelectedTerm] = useState(d?.term || "");
 
   const inputRef = useRef<HTMLInputElement>(null);
 

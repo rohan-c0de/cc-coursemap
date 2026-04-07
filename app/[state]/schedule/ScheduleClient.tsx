@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import ScheduleForm from "@/components/schedule/ScheduleForm";
 import ScheduleResults from "@/components/schedule/ScheduleResults";
 import type { ScheduleFormData } from "@/components/schedule/ScheduleForm";
@@ -26,15 +27,97 @@ interface ScheduleClientProps {
   quickAddSubjects?: string[];
 }
 
+/** Encode form data into URL search params (only non-default values) */
+function formToParams(data: ScheduleFormData): URLSearchParams {
+  const p = new URLSearchParams();
+  if (data.subjects.length > 0) p.set("subjects", data.subjects.join(","));
+  if (data.daysAvailable.join(",") !== "M,Tu,W,Th,F") p.set("days", data.daysAvailable.join(","));
+  if (data.timeWindowStart !== "any") p.set("time", data.timeWindowStart);
+  if (data.maxCourses !== 2) p.set("max", String(data.maxCourses));
+  if (data.zip) p.set("zip", data.zip);
+  if (data.maxDistance !== undefined) p.set("dist", String(data.maxDistance));
+  if (data.mode !== "any") p.set("mode", data.mode);
+  if (data.minBreakMinutes > 0) p.set("break", String(data.minBreakMinutes));
+  if (data.includeInProgress) p.set("inprog", "1");
+  if (data.targetUniversity) p.set("univ", data.targetUniversity);
+  if (!data.hideFullSections) p.set("full", "1");
+  if (data.term) p.set("term", data.term);
+  return p;
+}
+
+/** Parse URL search params into partial form defaults */
+function paramsToDefaults(p: URLSearchParams): Partial<ScheduleFormData> | null {
+  const subjects = p.get("subjects");
+  if (!subjects) return null;
+
+  const defaults: Partial<ScheduleFormData> = {
+    subjects: subjects.split(",").filter(Boolean),
+  };
+
+  const days = p.get("days");
+  if (days) defaults.daysAvailable = days.split(",").filter(Boolean);
+
+  const time = p.get("time");
+  if (time) {
+    defaults.timeWindowStart = time;
+    defaults.timeWindowEnd = time;
+  }
+
+  const max = p.get("max");
+  if (max) {
+    const n = Number(max);
+    if ([1, 2, 3, 4, 5].includes(n)) defaults.maxCourses = n as 1 | 2 | 3 | 4 | 5;
+  }
+
+  const zip = p.get("zip");
+  if (zip) defaults.zip = zip;
+
+  const dist = p.get("dist");
+  if (dist) defaults.maxDistance = Number(dist);
+
+  const mode = p.get("mode");
+  if (mode) defaults.mode = mode;
+
+  const brk = p.get("break");
+  if (brk) {
+    const n = Number(brk);
+    if ([0, 30, 60].includes(n)) defaults.minBreakMinutes = n as 0 | 30 | 60;
+  }
+
+  if (p.get("inprog") === "1") defaults.includeInProgress = true;
+
+  const univ = p.get("univ");
+  if (univ) defaults.targetUniversity = univ;
+
+  if (p.get("full") === "1") defaults.hideFullSections = false;
+
+  const term = p.get("term");
+  if (term) defaults.term = term;
+
+  return defaults;
+}
+
 export default function ScheduleClient({ state, systemName, collegeCount, defaultZip, universities, terms, quickAddSubjects }: ScheduleClientProps) {
+  const searchParams = useSearchParams();
+  const router = useRouter();
   const [response, setResponse] = useState<ScheduleResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const autoBuilt = useRef(false);
 
-  async function handleBuild(data: ScheduleFormData) {
+  // Parse initial defaults from URL
+  const initialDefaults = paramsToDefaults(searchParams);
+
+  const handleBuild = useCallback(async (data: ScheduleFormData) => {
     setLoading(true);
     setError("");
     setResponse(null);
+
+    // Update URL with form params (replace, don't push)
+    const params = formToParams(data);
+    const paramString = params.toString();
+    const newUrl = paramString ? `/${state}/schedule?${paramString}` : `/${state}/schedule`;
+    router.replace(newUrl, { scroll: false });
 
     try {
       const res = await fetch(`/api/${state}/schedule/build`, {
@@ -71,7 +154,33 @@ export default function ScheduleClient({ state, systemName, collegeCount, defaul
     }
 
     setLoading(false);
-  }
+  }, [state, router]);
+
+  // Auto-build on mount if URL has params
+  useEffect(() => {
+    if (autoBuilt.current || !initialDefaults) return;
+    autoBuilt.current = true;
+
+    const data: ScheduleFormData = {
+      subjects: initialDefaults.subjects || [],
+      daysAvailable: initialDefaults.daysAvailable || ["M", "Tu", "W", "Th", "F"],
+      timeWindowStart: initialDefaults.timeWindowStart || "any",
+      timeWindowEnd: initialDefaults.timeWindowEnd || "any",
+      maxCourses: initialDefaults.maxCourses || 2,
+      zip: initialDefaults.zip || "",
+      maxDistance: initialDefaults.maxDistance,
+      mode: initialDefaults.mode || "any",
+      minBreakMinutes: initialDefaults.minBreakMinutes || 0,
+      includeInProgress: initialDefaults.includeInProgress || false,
+      targetUniversity: initialDefaults.targetUniversity,
+      hideFullSections: initialDefaults.hideFullSections ?? true,
+      term: initialDefaults.term,
+    };
+
+    if (data.subjects.length > 0) {
+      handleBuild(data);
+    }
+  }, [initialDefaults, handleBuild]);
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -88,7 +197,15 @@ export default function ScheduleClient({ state, systemName, collegeCount, defaul
 
       {/* Form */}
       <div className="mb-8">
-        <ScheduleForm onSubmit={handleBuild} loading={loading} defaultZip={defaultZip} universities={universities} terms={terms} quickAddSubjects={quickAddSubjects} />
+        <ScheduleForm
+          onSubmit={handleBuild}
+          loading={loading}
+          defaultZip={defaultZip}
+          universities={universities}
+          terms={terms}
+          quickAddSubjects={quickAddSubjects}
+          initialDefaults={initialDefaults || undefined}
+        />
       </div>
 
       {/* Error */}
