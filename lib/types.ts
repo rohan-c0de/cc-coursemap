@@ -86,25 +86,33 @@ export interface ScheduleRequest {
   daysAvailable: string[]; // e.g. ["M", "Tu", "W", "Th"]
   timeWindowStart: string; // "9:00 AM" or bucket like "morning"
   timeWindowEnd: string; // "1:00 PM" or bucket like "afternoon"
-  maxCourses: 1 | 2 | 3;
+  maxCourses: 1 | 2 | 3 | 4 | 5;
   zip?: string;
   maxDistance?: number; // miles; undefined means no limit
   mode?: CourseMode | "any";
   minBreakMinutes: 0 | 30 | 60;
   includeInProgress?: boolean; // default false — exclude sections that already started
   term?: string; // e.g. "2026SU" — defaults to getCurrentTerm()
+  targetUniversity?: string; // e.g. "uga" — enables transfer-aware scoring
+  hideFullSections?: boolean; // default true — hide sections with 0 open seats
 }
 
+export type TransferStatus = "direct" | "elective" | "no-credit" | "unknown";
+
 export interface ScoreBreakdown {
-  timeCompactness: number; // 0-25
-  distanceScore: number; // 0-25
-  dayConsolidation: number; // 0-25
-  varietyScore: number; // 0-25
+  timeCompactness: number; // 0-20
+  distanceScore: number; // 0-20
+  dayConsolidation: number; // 0-20
+  varietyScore: number; // 0-10
+  seatAvailability: number; // 0-15
+  transferScore: number; // 0-15
 }
 
 export interface ScheduleSection extends CourseSection {
   collegeName: string;
   distance: number | null;
+  transferStatus?: TransferStatus;
+  transferCourse?: string; // e.g. "ENGL 1101" at the target university
 }
 
 export interface GeneratedSchedule {
@@ -142,5 +150,6 @@ export interface ScheduleResponse {
     combinationsEvaluated: number;
     timeTakenMs: number;
     message?: string;
+    filteredFullSections?: number; // how many sections were hidden due to 0 seats
   };
 }

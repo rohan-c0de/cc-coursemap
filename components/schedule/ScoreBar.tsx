@@ -8,18 +8,26 @@ interface Props {
 }
 
 const SEGMENTS = [
-  { key: "timeCompactness" as const, label: "Compactness", color: "bg-teal-400" },
-  { key: "distanceScore" as const, label: "Distance", color: "bg-blue-400" },
-  { key: "dayConsolidation" as const, label: "Days", color: "bg-amber-400" },
-  { key: "varietyScore" as const, label: "Variety", color: "bg-purple-400" },
+  { key: "timeCompactness" as const, label: "Compactness", color: "bg-teal-400", max: 20 },
+  { key: "distanceScore" as const, label: "Distance", color: "bg-blue-400", max: 20 },
+  { key: "dayConsolidation" as const, label: "Days", color: "bg-amber-400", max: 20 },
+  { key: "varietyScore" as const, label: "Variety", color: "bg-purple-400", max: 10 },
+  { key: "seatAvailability" as const, label: "Seats", color: "bg-emerald-400", max: 15 },
+  { key: "transferScore" as const, label: "Transfer", color: "bg-rose-400", max: 15 },
 ] as const;
 
 export default function ScoreBar({ breakdown, total }: Props) {
+  // Only show transfer segment if it contributes meaningfully (i.e. target university was set)
+  const visibleSegments = SEGMENTS.filter((seg) => {
+    if (seg.key === "transferScore" && breakdown.transferScore === 7.5) return false; // neutral = no target set
+    return true;
+  });
+
   return (
     <div className="space-y-1">
       {/* Stacked bar */}
       <div className="flex h-2 rounded-full overflow-hidden bg-gray-100 dark:bg-slate-700">
-        {SEGMENTS.map((seg) => {
+        {visibleSegments.map((seg) => {
           const value = breakdown[seg.key];
           const pct = (value / 100) * 100;
           return (
@@ -27,15 +35,15 @@ export default function ScoreBar({ breakdown, total }: Props) {
               key={seg.key}
               className={seg.color}
               style={{ width: `${pct}%` }}
-              title={`${seg.label}: ${value}/25`}
+              title={`${seg.label}: ${value}/${seg.max}`}
             />
           );
         })}
       </div>
 
       {/* Labels */}
-      <div className="flex gap-3 text-[10px] text-gray-500 dark:text-slate-400">
-        {SEGMENTS.map((seg) => (
+      <div className="flex flex-wrap gap-x-3 gap-y-0.5 text-[10px] text-gray-500 dark:text-slate-400">
+        {visibleSegments.map((seg) => (
           <span key={seg.key} className="flex items-center gap-1">
             <span className={`inline-block h-1.5 w-1.5 rounded-full ${seg.color}`} />
             {seg.label} {breakdown[seg.key]}

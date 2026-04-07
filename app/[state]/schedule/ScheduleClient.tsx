@@ -6,14 +6,20 @@ import ScheduleResults from "@/components/schedule/ScheduleResults";
 import type { ScheduleFormData } from "@/components/schedule/ScheduleForm";
 import type { ScheduleResponse } from "@/lib/types";
 
+interface UniversityOption {
+  slug: string;
+  name: string;
+}
+
 interface ScheduleClientProps {
   state: string;
   systemName?: string;
   collegeCount?: number;
   defaultZip?: string;
+  universities?: UniversityOption[];
 }
 
-export default function ScheduleClient({ state, systemName, collegeCount, defaultZip }: ScheduleClientProps) {
+export default function ScheduleClient({ state, systemName, collegeCount, defaultZip, universities }: ScheduleClientProps) {
   const [response, setResponse] = useState<ScheduleResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -38,6 +44,8 @@ export default function ScheduleClient({ state, systemName, collegeCount, defaul
           mode: data.mode,
           minBreakMinutes: data.minBreakMinutes,
           includeInProgress: data.includeInProgress,
+          targetUniversity: data.targetUniversity,
+          hideFullSections: data.hideFullSections,
         }),
       });
 
@@ -72,7 +80,7 @@ export default function ScheduleClient({ state, systemName, collegeCount, defaul
 
       {/* Form */}
       <div className="mb-8">
-        <ScheduleForm onSubmit={handleBuild} loading={loading} defaultZip={defaultZip} />
+        <ScheduleForm onSubmit={handleBuild} loading={loading} defaultZip={defaultZip} universities={universities} />
       </div>
 
       {/* Error */}

@@ -7,18 +7,26 @@ export interface ScheduleFormData {
   daysAvailable: string[];
   timeWindowStart: string;
   timeWindowEnd: string;
-  maxCourses: 1 | 2 | 3;
+  maxCourses: 1 | 2 | 3 | 4 | 5;
   zip: string;
   maxDistance: number | undefined;
   mode: string;
   minBreakMinutes: 0 | 30 | 60;
   includeInProgress: boolean;
+  targetUniversity?: string;
+  hideFullSections: boolean;
+}
+
+interface UniversityOption {
+  slug: string;
+  name: string;
 }
 
 interface Props {
   onSubmit: (data: ScheduleFormData) => void;
   loading: boolean;
   defaultZip?: string;
+  universities?: UniversityOption[];
 }
 
 const DAYS = [
@@ -47,17 +55,19 @@ const DISTANCE_OPTIONS = [
   { value: 50, label: "50 miles" },
 ];
 
-export default function ScheduleForm({ onSubmit, loading, defaultZip }: Props) {
+export default function ScheduleForm({ onSubmit, loading, defaultZip, universities }: Props) {
   const [subjects, setSubjects] = useState<string[]>([]);
   const [subjectInput, setSubjectInput] = useState("");
   const [daysAvailable, setDaysAvailable] = useState<string[]>(["M", "Tu", "W", "Th", "F"]);
   const [timeBucket, setTimeBucket] = useState("any");
-  const [maxCourses, setMaxCourses] = useState<1 | 2 | 3>(2);
+  const [maxCourses, setMaxCourses] = useState<1 | 2 | 3 | 4 | 5>(2);
   const [zip, setZip] = useState("");
   const [maxDistance, setMaxDistance] = useState<number | undefined>(undefined);
   const [mode, setMode] = useState("any");
   const [minBreak, setMinBreak] = useState<0 | 30 | 60>(0);
   const [includeInProgress, setIncludeInProgress] = useState(false);
+  const [targetUniversity, setTargetUniversity] = useState("");
+  const [hideFullSections, setHideFullSections] = useState(true);
 
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -107,6 +117,8 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip }: Props) {
       mode,
       minBreakMinutes: minBreak,
       includeInProgress,
+      targetUniversity: targetUniversity || undefined,
+      hideFullSections,
     });
   }
 
@@ -229,18 +241,18 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip }: Props) {
               Max courses
             </label>
             <div className="flex gap-1.5">
-              {([1, 2, 3] as const).map((n) => (
+              {([1, 2, 3, 4, 5] as const).map((n) => (
                 <button
                   key={n}
                   type="button"
                   onClick={() => setMaxCourses(n)}
-                  className={`flex-1 rounded-md border px-3 py-1.5 text-sm font-medium transition ${
+                  className={`flex-1 rounded-md border px-2 py-1.5 text-xs font-medium transition ${
                     maxCourses === n
                       ? "bg-teal-600 border-teal-600 text-white"
                       : "bg-white dark:bg-slate-900 border-gray-300 dark:border-slate-600 text-gray-500 dark:text-slate-400 hover:border-teal-400"
                   }`}
                 >
-                  {n} {n === 1 ? "course" : "courses"}
+                  {n}
                 </button>
               ))}
             </div>
@@ -321,18 +333,57 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip }: Props) {
           </div>
         </div>
 
-        {/* Include in-progress toggle */}
-        <label className="flex items-center gap-2 cursor-pointer">
-          <input
-            type="checkbox"
-            checked={includeInProgress}
-            onChange={(e) => setIncludeInProgress(e.target.checked)}
-            className="h-4 w-4 rounded border-gray-300 dark:border-slate-600 text-teal-600 focus:ring-teal-500 dark:bg-slate-900"
-          />
-          <span className="text-sm text-gray-600 dark:text-slate-400">
-            Include sections that already started
-          </span>
-        </label>
+        {/* Transfer university + toggles */}
+        <div className="grid sm:grid-cols-2 gap-4">
+          {universities && universities.length > 0 && (
+            <div>
+              <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1.5">
+                Transfer university <span className="text-gray-400 dark:text-slate-500">(optional)</span>
+              </label>
+              <select
+                value={targetUniversity}
+                onChange={(e) => setTargetUniversity(e.target.value)}
+                className="w-full rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-sm dark:text-slate-100 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200 dark:focus:ring-teal-800"
+              >
+                <option value="">No preference</option>
+                {universities.map((u) => (
+                  <option key={u.slug} value={u.slug}>
+                    {u.name}
+                  </option>
+                ))}
+              </select>
+              <p className="mt-1 text-[11px] text-gray-400 dark:text-slate-500">
+                Prioritizes courses that transfer as direct matches
+              </p>
+            </div>
+          )}
+        </div>
+
+        {/* Toggles */}
+        <div className="flex flex-wrap gap-x-6 gap-y-2">
+          <label className="flex items-center gap-2 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={hideFullSections}
+              onChange={(e) => setHideFullSections(e.target.checked)}
+              className="h-4 w-4 rounded border-gray-300 dark:border-slate-600 text-teal-600 focus:ring-teal-500 dark:bg-slate-900"
+            />
+            <span className="text-sm text-gray-600 dark:text-slate-400">
+              Hide full sections
+            </span>
+          </label>
+          <label className="flex items-center gap-2 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={includeInProgress}
+              onChange={(e) => setIncludeInProgress(e.target.checked)}
+              className="h-4 w-4 rounded border-gray-300 dark:border-slate-600 text-teal-600 focus:ring-teal-500 dark:bg-slate-900"
+            />
+            <span className="text-sm text-gray-600 dark:text-slate-400">
+              Include sections that already started
+            </span>
+          </label>
+        </div>
 
         {/* Submit */}
         <div className="flex items-center justify-between pt-1">

@@ -19,6 +19,12 @@ const MODE_STYLES: Record<string, { bg: string; text: string; label: string }> =
   zoom: { bg: "bg-orange-50 dark:bg-orange-900/30", text: "text-orange-700 dark:text-orange-400", label: "Zoom" },
 };
 
+const TRANSFER_STYLES: Record<string, { bg: string; text: string; label: string }> = {
+  direct: { bg: "bg-green-50 dark:bg-green-900/30", text: "text-green-700 dark:text-green-400", label: "Direct Match" },
+  elective: { bg: "bg-amber-50 dark:bg-amber-900/30", text: "text-amber-700 dark:text-amber-400", label: "Elective" },
+  "no-credit": { bg: "bg-red-50 dark:bg-red-900/30", text: "text-red-700 dark:text-red-400", label: "No Credit" },
+};
+
 function formatSchedule(days: string, startTime: string, endTime: string): string {
   const hasTime = isValidTime(startTime) && isValidTime(endTime);
   if (!days && !hasTime) return "Async / Online";
@@ -32,6 +38,80 @@ function scoreColor(score: number): string {
   if (score >= 80) return "bg-emerald-100 dark:bg-emerald-900/40 text-emerald-800 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800";
   if (score >= 60) return "bg-amber-100 dark:bg-amber-900/40 text-amber-800 dark:text-amber-300 border-amber-200 dark:border-amber-800";
   return "bg-red-100 dark:bg-red-900/40 text-red-800 dark:text-red-300 border-red-200 dark:border-red-800";
+}
+
+// ---------------------------------------------------------------------------
+// ICS export — generates a downloadable .ics calendar file
+// ---------------------------------------------------------------------------
+
+function downloadICS(sections: ScheduleSection[]) {
+  const DAY_MAP: Record<string, string> = {
+    M: "MO", Tu: "TU", W: "WE", Th: "TH", F: "FR", Sa: "SA", Su: "SU",
+  };
+
+  function toICSDate(dateStr: string, timeStr: string): string {
+    // dateStr = "01/13/2025", timeStr = "9:00 AM"
+    const [month, day, year] = dateStr.split("/").map(Number);
+    const [time, period] = timeStr.split(" ");
+    const [h, m] = time.split(":").map(Number);
+    let hours = h;
+    if (period === "PM" && h !== 12) hours += 12;
+    if (period === "AM" && h === 12) hours = 0;
+    return `${year}${String(month).padStart(2, "0")}${String(day).padStart(2, "0")}T${String(hours).padStart(2, "0")}${String(m).padStart(2, "0")}00`;
+  }
+
+  function expandDaysToRRule(days: string): string {
+    const parts: string[] = [];
+    // Parse day abbreviations from string like "MWF" or "TuTh"
+    let i = 0;
+    while (i < days.length) {
+      if (i + 1 < days.length && days[i + 1] === days[i + 1].toLowerCase()) {
+        const twoChar = days.substring(i, i + 2);
+        if (DAY_MAP[twoChar]) { parts.push(DAY_MAP[twoChar]); i += 2; continue; }
+      }
+      const oneChar = days[i];
+      if (DAY_MAP[oneChar]) parts.push(DAY_MAP[oneChar]);
+      i++;
+    }
+    return parts.join(",");
+  }
+
+  const lines: string[] = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//CommunityCollegePath//Schedule//EN",
+    "CALSCALE:GREGORIAN",
+  ];
+
+  for (const s of sections) {
+    if (!isValidTime(s.start_time) || !isValidTime(s.end_time) || !s.start_date) continue;
+
+    const dtStart = toICSDate(s.start_date, s.start_time);
+    const dtEnd = toICSDate(s.start_date, s.end_time);
+    const rruleDays = expandDaysToRRule(s.days);
+
+    lines.push("BEGIN:VEVENT");
+    lines.push(`DTSTART:${dtStart}`);
+    lines.push(`DTEND:${dtEnd}`);
+    if (rruleDays) {
+      lines.push(`RRULE:FREQ=WEEKLY;COUNT=16;BYDAY=${rruleDays}`);
+    }
+    lines.push(`SUMMARY:${s.course_prefix} ${s.course_number} - ${s.course_title}`);
+    lines.push(`LOCATION:${s.collegeName}${s.location ? ` — ${s.location}` : ""}`);
+    lines.push(`DESCRIPTION:CRN: ${s.crn}\\nMode: ${s.mode}${s.instructor ? `\\nInstructor: ${s.instructor}` : ""}`);
+    lines.push(`UID:${s.crn}-${s.college_code}@communitycollegepath.com`);
+    lines.push("END:VEVENT");
+  }
+
+  lines.push("END:VCALENDAR");
+
+  const blob = new Blob([lines.join("\r\n")], { type: "text/calendar" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "schedule.ics";
+  a.click();
+  URL.revokeObjectURL(url);
 }
 
 // ---------------------------------------------------------------------------
@@ -153,6 +233,11 @@ export default function ScheduleResults({ response, state }: Props) {
         <span className="text-xs text-gray-400 dark:text-slate-500">
           ({meta.timeTakenMs}ms)
         </span>
+        {meta.filteredFullSections && meta.filteredFullSections > 0 && (
+          <span className="text-xs text-gray-400 dark:text-slate-500">
+            · {meta.filteredFullSections} full sections hidden
+          </span>
+        )}
       </div>
 
       {meta.message && (
@@ -249,6 +334,7 @@ function ScheduleCard({
           <div className="flex flex-wrap gap-2 mb-2">
             {sections.map((s) => {
               const modeStyle = MODE_STYLES[s.mode] || MODE_STYLES["in-person"];
+              const transferStyle = s.transferStatus ? TRANSFER_STYLES[s.transferStatus] : null;
               return (
                 <div
                   key={`${s.crn}-${s.course_prefix}${s.course_number}`}
@@ -265,6 +351,22 @@ function ScheduleCard({
                   </span>
                   {s.distance !== null && (
                     <span className="ml-1 text-gray-400 dark:text-slate-500">{s.distance} mi</span>
+                  )}
+                  {s.seats_open !== null && s.seats_open !== undefined && (
+                    <span className={`ml-1.5 inline-block rounded-full px-1.5 py-0 text-[10px] font-medium ${
+                      s.seats_open > 10
+                        ? "bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400"
+                        : s.seats_open > 0
+                          ? "bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400"
+                          : "bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-400"
+                    }`}>
+                      {s.seats_open} seat{s.seats_open !== 1 ? "s" : ""}
+                    </span>
+                  )}
+                  {transferStyle && (
+                    <span className={`ml-1.5 inline-block rounded-full px-1.5 py-0 text-[10px] font-medium ${transferStyle.bg} ${transferStyle.text}`}>
+                      {transferStyle.label}
+                    </span>
                   )}
                 </div>
               );
@@ -317,6 +419,20 @@ function ScheduleCard({
           {/* Weekly calendar */}
           <WeeklyCalendar sections={sections} />
 
+          {/* Export button */}
+          <div className="flex gap-2">
+            <button
+              type="button"
+              onClick={() => downloadICS(sections)}
+              className="inline-flex items-center gap-1.5 rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-gray-600 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-700 transition"
+            >
+              <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+              </svg>
+              Export to Calendar (.ics)
+            </button>
+          </div>
+
           {/* Section details with college alternatives */}
           <div className="rounded-lg border border-gray-100 dark:border-slate-700 overflow-hidden">
             <table className="w-full text-left text-xs">
@@ -328,6 +444,10 @@ function ScheduleCard({
                     {count > 1 ? "Available Colleges" : "College"}
                   </th>
                   <th className="px-3 py-2 font-medium">Mode</th>
+                  <th className="px-3 py-2 font-medium">Seats</th>
+                  {sections.some((s) => s.transferStatus) && (
+                    <th className="px-3 py-2 font-medium">Transfer</th>
+                  )}
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-50 dark:divide-slate-700">
@@ -375,6 +495,41 @@ function ScheduleCard({
                           {modeStyle.label}
                         </span>
                       </td>
+                      <td className="px-3 py-2 text-gray-600 dark:text-slate-400">
+                        {s.seats_open !== null && s.seats_open !== undefined ? (
+                          <span className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-medium ${
+                            s.seats_open > 10
+                              ? "bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400"
+                              : s.seats_open > 0
+                                ? "bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400"
+                                : "bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-400"
+                          }`}>
+                            {s.seats_open}{s.seats_total ? `/${s.seats_total}` : ""}
+                          </span>
+                        ) : (
+                          <span className="text-[10px] text-gray-400 dark:text-slate-500">—</span>
+                        )}
+                      </td>
+                      {sections.some((sec) => sec.transferStatus) && (
+                        <td className="px-3 py-2">
+                          {s.transferStatus ? (
+                            <div>
+                              <span className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-medium ${
+                                TRANSFER_STYLES[s.transferStatus]?.bg || ""
+                              } ${TRANSFER_STYLES[s.transferStatus]?.text || ""}`}>
+                                {TRANSFER_STYLES[s.transferStatus]?.label || s.transferStatus}
+                              </span>
+                              {s.transferCourse && (
+                                <span className="block text-[10px] text-gray-500 dark:text-slate-400 mt-0.5">
+                                  {s.transferCourse}
+                                </span>
+                              )}
+                            </div>
+                          ) : (
+                            <span className="text-[10px] text-gray-400 dark:text-slate-500">—</span>
+                          )}
+                        </td>
+                      )}
                     </tr>
                   );
                 })}

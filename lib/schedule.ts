@@ -16,6 +16,7 @@ import type {
   GeneratedSchedule,
   ScheduleSection,
   ScoreBreakdown,
+  TransferStatus,
 } from "./types";
 import { loadAllCourses } from "./courses";
 import { getZipCoordinates, calculateDistance } from "./geo";
@@ -31,6 +32,12 @@ const TOP_COURSES_PER_PREFIX = 5;
 // Enriched section with pre-parsed numeric fields for fast comparison
 // ---------------------------------------------------------------------------
 
+/** Transfer lookup: courseKey → transfer status at target university */
+export type TransferLookup = Record<
+  string,
+  { university: string; type: TransferStatus; course: string }[]
+>;
+
 interface EnrichedSection extends CourseSection {
   _startMin: number; // minutes since midnight, -1 if TBA
   _endMin: number;
@@ -39,6 +46,8 @@ interface EnrichedSection extends CourseSection {
   _distance: number | null;
   _collegeName: string;
   _isAsync: boolean;
+  _transferStatus: TransferStatus;
+  _transferCourse: string;
 }
 
 // ---------------------------------------------------------------------------
@@ -47,7 +56,9 @@ interface EnrichedSection extends CourseSection {
 
 export async function generateSchedules(
   request: ScheduleRequest,
-  institutions: Institution[]
+  institutions: Institution[],
+  transferLookup?: TransferLookup | null,
+  targetUniversity?: string | null
 ): Promise<ScheduleResponse> {
   const t0 = performance.now();
 
@@ -97,6 +108,7 @@ export async function generateSchedules(
   // Stage 1: Filter all sections to candidates
   const term = request.term || await getCurrentTerm();
   const allSections = await loadAllCourses(term);
+  const hideFullSections = request.hideFullSections !== false; // default true
   const candidates = filterSections(
     allSections,
     exactCourses,
@@ -107,8 +119,16 @@ export async function generateSchedules(
     request.maxDistance ?? Infinity,
     distanceMap,
     instMap,
-    request.includeInProgress ?? false
+    request.includeInProgress ?? false,
+    hideFullSections,
+    transferLookup ?? null,
+    targetUniversity ?? null
   );
+
+  // Count how many were filtered due to full seats
+  const filteredFullSections = hideFullSections
+    ? allSections.filter((s) => s.seats_open === 0).length
+    : 0;
 
   // Stage 2: Group by course, deduplicate by schedule signature
   const courseMap = new Map<string, EnrichedSection[]>();
@@ -192,6 +212,7 @@ export async function generateSchedules(
       combinationsEvaluated,
       timeTakenMs,
       message,
+      filteredFullSections: filteredFullSections > 0 ? filteredFullSections : undefined,
     },
   };
 }
@@ -270,7 +291,10 @@ function filterSections(
   maxDistance: number,
   distanceMap: Map<string, number>,
   instMap: Map<string, Institution>,
-  includeInProgress: boolean
+  includeInProgress: boolean,
+  hideFullSections: boolean,
+  transferLookup: TransferLookup | null,
+  targetUniversity: string | null
 ): EnrichedSection[] {
   const exactSet = new Set(exactCourses);
   const prefixSet = new Set(subjectPrefixes);
@@ -302,6 +326,9 @@ function filterSections(
     }
     if (!matched) continue;
 
+    // Seat availability filter
+    if (hideFullSections && s.seats_open !== null && s.seats_open === 0) continue;
+
     // Date filter: skip sections that already started (unless opted in)
     if (!includeInProgress && isInProgress(s.start_date)) continue;
 
@@ -331,6 +358,20 @@ function filterSections(
 
     const inst = instMap.get(s.college_code);
 
+    // Resolve transfer status for this course
+    let transferStatus: TransferStatus = "unknown";
+    let transferCourse = "";
+    if (transferLookup && targetUniversity) {
+      const entries = transferLookup[courseKey];
+      if (entries) {
+        const match = entries.find((e) => e.university === targetUniversity);
+        if (match) {
+          transferStatus = match.type;
+          transferCourse = match.course;
+        }
+      }
+    }
+
     results.push({
       ...s,
       _startMin: startMin,
@@ -340,6 +381,8 @@ function filterSections(
       _distance: isAsync ? null : dist, // Online sections get null distance
       _collegeName: inst?.name || s.college_code,
       _isAsync: isAsync,
+      _transferStatus: transferStatus,
+      _transferCourse: transferCourse,
     });
   }
 
@@ -504,36 +547,38 @@ function findValidSchedules(
     return { schedules, evaluated };
   }
 
-  // n === 3
-  for (const s1 of courseSections[0]) {
-    for (const s2 of courseSections[1]) {
+  // n >= 3: generic recursive approach with early pruning
+  const picked: EnrichedSection[] = [];
+
+  function recurse(depth: number) {
+    if (evaluated > maxEval) return;
+    if (depth === n) {
+      const schedule = buildSchedule([...picked], maxDistance, distanceMap);
+      schedules.push(schedule);
+      return;
+    }
+
+    for (const candidate of courseSections[depth]) {
       evaluated++;
-      if (evaluated > maxEval) return { schedules, evaluated };
+      if (evaluated > maxEval) return;
 
-      if (hasTimeConflict(s1, s2)) continue;
-      if (hasBreakViolation(s1, s2, minBreakMinutes)) continue;
-
-      for (const s3 of courseSections[2]) {
-        evaluated++;
-        if (evaluated > maxEval) return { schedules, evaluated };
-
-        if (hasTimeConflict(s3, s1) || hasTimeConflict(s3, s2)) continue;
-        if (
-          hasBreakViolation(s3, s1, minBreakMinutes) ||
-          hasBreakViolation(s3, s2, minBreakMinutes)
-        )
-          continue;
-
-        const schedule = buildSchedule(
-          [s1, s2, s3],
-          maxDistance,
-          distanceMap
-        );
-        schedules.push(schedule);
+      // Check conflicts with all previously-picked sections
+      let conflict = false;
+      for (const prev of picked) {
+        if (hasTimeConflict(candidate, prev) || hasBreakViolation(candidate, prev, minBreakMinutes)) {
+          conflict = true;
+          break;
+        }
       }
+      if (conflict) continue;
+
+      picked.push(candidate);
+      recurse(depth + 1);
+      picked.pop();
     }
   }
 
+  recurse(0);
   return { schedules, evaluated };
 }
 
@@ -548,11 +593,13 @@ function buildSchedule(
 ): GeneratedSchedule {
   const scheduleSections: ScheduleSection[] = sections.map((s) => {
     // Strip internal fields
-    const { _startMin, _endMin, _dayMask, _courseKey, _distance, _collegeName, _isAsync, ...base } = s;
+    const { _startMin, _endMin, _dayMask, _courseKey, _distance, _collegeName, _isAsync, _transferStatus, _transferCourse, ...base } = s;
     return {
       ...base,
       collegeName: _collegeName,
       distance: _distance,
+      transferStatus: _transferStatus !== "unknown" ? _transferStatus : undefined,
+      transferCourse: _transferCourse || undefined,
     };
   });
 
@@ -561,7 +608,9 @@ function buildSchedule(
     scoreBreakdown.timeCompactness +
     scoreBreakdown.distanceScore +
     scoreBreakdown.dayConsolidation +
-    scoreBreakdown.varietyScore;
+    scoreBreakdown.varietyScore +
+    scoreBreakdown.seatAvailability +
+    scoreBreakdown.transferScore;
 
   // Deterministic ID — group by course+college+schedule to deduplicate
   // visually identical results (e.g., multiple CRNs of same async course)
@@ -587,13 +636,16 @@ function scoreSchedule(
     distanceScore: scoreDistance(sections, maxDistance),
     dayConsolidation: scoreDayConsolidation(sections),
     varietyScore: scoreVariety(sections),
+    seatAvailability: scoreSeatAvailability(sections),
+    transferScore: scoreTransfer(sections),
   };
 }
 
-/** Time Compactness (0-25): ratio of class time to total span per day */
+/** Time Compactness (0-20): ratio of class time to total span per day */
 function scoreTimeCompactness(sections: EnrichedSection[]): number {
+  const MAX = 20;
   const inPerson = sections.filter((s) => !s._isAsync);
-  if (inPerson.length === 0) return 25; // All async = perfectly compact
+  if (inPerson.length === 0) return MAX; // All async = perfectly compact
 
   // Group by day
   const byDay = new Map<number, { start: number; end: number; duration: number }[]>();
@@ -628,15 +680,16 @@ function scoreTimeCompactness(sections: EnrichedSection[]): number {
   }
 
   const avgRatio = dayCount > 0 ? totalRatio / dayCount : 1;
-  return Math.round(avgRatio * 25 * 10) / 10;
+  return Math.round(avgRatio * MAX * 10) / 10;
 }
 
-/** Distance Score (0-25): lower average distance = higher score */
+/** Distance Score (0-20): lower average distance = higher score */
 function scoreDistance(
   sections: EnrichedSection[],
   maxDistance: number
 ): number {
-  if (maxDistance === Infinity || maxDistance === 0) return 25;
+  const MAX = 20;
+  if (maxDistance === Infinity || maxDistance === 0) return MAX;
 
   const distances: number[] = [];
   for (const s of sections) {
@@ -647,14 +700,14 @@ function scoreDistance(
     }
   }
 
-  if (distances.length === 0) return 25;
+  if (distances.length === 0) return MAX;
 
   const avg = distances.reduce((a, b) => a + b, 0) / distances.length;
   const ratio = 1 - Math.min(avg / maxDistance, 1);
-  return Math.round(ratio * 25 * 10) / 10;
+  return Math.round(ratio * MAX * 10) / 10;
 }
 
-/** Day Consolidation (0-25): fewer unique days = higher score */
+/** Day Consolidation (0-20): fewer unique days = higher score */
 function scoreDayConsolidation(sections: EnrichedSection[]): number {
   let combinedMask = 0;
   for (const s of sections) {
@@ -669,23 +722,87 @@ function scoreDayConsolidation(sections: EnrichedSection[]): number {
     if (combinedMask & bit) dayCount++;
   }
 
-  if (dayCount === 0) return 25; // All async
+  if (dayCount === 0) return 20; // All async
 
-  // Score: 1 day = 25, 2 = 20, 3 = 15, 4 = 10, 5 = 5, 6 = 2
-  const scores = [25, 25, 20, 15, 10, 5, 2];
+  // Score: 1 day = 20, 2 = 16, 3 = 12, 4 = 8, 5 = 4, 6 = 2
+  const scores = [20, 20, 16, 12, 8, 4, 2];
   return scores[Math.min(dayCount, 6)];
 }
 
-/** Variety Score (0-25): more distinct subject prefixes = higher score */
+/** Variety Score (0-10): more distinct subject prefixes = higher score */
 function scoreVariety(sections: EnrichedSection[]): number {
+  const MAX = 10;
   const prefixes = new Set(sections.map((s) => s.course_prefix));
   const total = sections.length;
-  if (total <= 1) return 25;
+  if (total <= 1) return MAX;
 
   const uniquePrefixes = prefixes.size;
-  // All different = 25, all same = 8
+  // All different = 10, all same = 3
   const ratio = uniquePrefixes / total;
-  return Math.round((8 + ratio * 17) * 10) / 10;
+  return Math.round((3 + ratio * 7) * 10) / 10;
+}
+
+/** Seat Availability (0-15): more open seats = higher score */
+function scoreSeatAvailability(sections: EnrichedSection[]): number {
+  const MAX = 15;
+  let totalScore = 0;
+  let count = 0;
+
+  for (const s of sections) {
+    if (s.seats_open === null || s.seats_total === null || s.seats_total === 0) {
+      // No seat data — give neutral score (assume mid-range availability)
+      totalScore += 0.5;
+      count++;
+      continue;
+    }
+
+    count++;
+    const fillRatio = s.seats_open / s.seats_total;
+    // >50% open = full score, 25-50% = linear, 10-25% = steeper penalty, <10% = low
+    if (fillRatio >= 0.5) {
+      totalScore += 1.0;
+    } else if (fillRatio >= 0.25) {
+      totalScore += 0.5 + (fillRatio - 0.25) * 2; // 0.5 - 1.0
+    } else if (fillRatio >= 0.1) {
+      totalScore += 0.2 + (fillRatio - 0.1) * 2; // 0.2 - 0.5
+    } else {
+      totalScore += fillRatio * 2; // 0.0 - 0.2
+    }
+  }
+
+  if (count === 0) return MAX;
+  const avgScore = totalScore / count;
+  return Math.round(avgScore * MAX * 10) / 10;
+}
+
+/** Transfer Score (0-15): direct matches > elective > unknown > no-credit */
+function scoreTransfer(sections: EnrichedSection[]): number {
+  const MAX = 15;
+  let totalScore = 0;
+  let count = 0;
+
+  for (const s of sections) {
+    count++;
+    switch (s._transferStatus) {
+      case "direct":
+        totalScore += 1.0;
+        break;
+      case "elective":
+        totalScore += 0.5;
+        break;
+      case "unknown":
+        // No transfer data — neutral (don't penalize states without data)
+        totalScore += 0.5;
+        break;
+      case "no-credit":
+        totalScore += 0.0;
+        break;
+    }
+  }
+
+  if (count === 0) return MAX;
+  const avgScore = totalScore / count;
+  return Math.round(avgScore * MAX * 10) / 10;
 }
 
 // ---------------------------------------------------------------------------

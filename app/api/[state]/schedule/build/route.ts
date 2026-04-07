@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import type { ScheduleRequest } from "@/lib/types";
 import { generateSchedules } from "@/lib/schedule";
+import { buildTransferLookup } from "@/lib/transfer";
 import { rateLimit, getClientKey } from "@/lib/rate-limit";
 import { loadInstitutions } from "@/lib/institutions";
 import { isValidState } from "@/lib/states/registry";
@@ -48,9 +49,9 @@ export async function POST(req: Request, context: RouteContext) {
     }
 
     const maxCourses = body.maxCourses || 2;
-    if (![1, 2, 3].includes(maxCourses)) {
+    if (![1, 2, 3, 4, 5].includes(maxCourses)) {
       return NextResponse.json(
-        { error: "maxCourses must be 1, 2, or 3." },
+        { error: "maxCourses must be 1–5." },
         { status: 400 }
       );
     }
@@ -60,16 +61,34 @@ export async function POST(req: Request, context: RouteContext) {
       daysAvailable: body.daysAvailable,
       timeWindowStart: body.timeWindowStart || "morning",
       timeWindowEnd: body.timeWindowEnd || "evening",
-      maxCourses: maxCourses as 1 | 2 | 3,
+      maxCourses: maxCourses as 1 | 2 | 3 | 4 | 5,
       zip: body.zip || undefined,
       maxDistance: body.maxDistance || undefined,
       mode: body.mode || "any",
       minBreakMinutes: body.minBreakMinutes ?? 0,
       includeInProgress: body.includeInProgress ?? false,
+      targetUniversity: body.targetUniversity || undefined,
+      hideFullSections: body.hideFullSections ?? true,
     };
 
     const institutions = loadInstitutions(state);
-    const result = await generateSchedules(request, institutions);
+
+    // Load transfer lookup if a target university is specified
+    let transferLookup = null;
+    if (request.targetUniversity) {
+      try {
+        transferLookup = await buildTransferLookup(state);
+      } catch {
+        // Transfer data unavailable — continue without it
+      }
+    }
+
+    const result = await generateSchedules(
+      request,
+      institutions,
+      transferLookup,
+      request.targetUniversity || null
+    );
     return NextResponse.json(result);
   } catch (error) {
     console.error("Schedule build error:", error);
