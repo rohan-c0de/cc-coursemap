@@ -83,6 +83,7 @@ export async function addSubscriber(
 
 /**
  * Verify a subscriber by their token. Returns the subscriber if found, null otherwise.
+ * Tokens expire after 24 hours (based on subscribed_at timestamp).
  */
 export async function verifySubscriber(
   state: string,
@@ -90,11 +91,26 @@ export async function verifySubscriber(
 ): Promise<Subscriber | null> {
   const sb = getServiceClient();
 
+  // First, look up the subscriber to check token age
+  const { data: existing, error: lookupErr } = await sb
+    .from("subscribers")
+    .select("*")
+    .eq("state", state)
+    .eq("token", token)
+    .single();
+
+  if (lookupErr || !existing) return null;
+
+  // Check token expiry — tokens are valid for 24 hours from subscribed_at
+  const TOKEN_MAX_AGE_MS = 24 * 60 * 60 * 1000;
+  const tokenAge = Date.now() - new Date(existing.subscribed_at).getTime();
+  if (tokenAge > TOKEN_MAX_AGE_MS) return null;
+
+  // Token is valid — mark as verified
   const { data, error } = await sb
     .from("subscribers")
     .update({ verified: true })
-    .eq("state", state)
-    .eq("token", token)
+    .eq("id", existing.id)
     .select("*")
     .single();
 

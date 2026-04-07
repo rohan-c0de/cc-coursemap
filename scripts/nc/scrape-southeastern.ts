@@ -178,7 +178,7 @@ async function scrapeFile(url: string, termCode: string): Promise<CourseSection[
       course_prefix: parsed.prefix,
       course_number: parsed.number,
       course_title: title,
-      credits: parseFloat(credits) || 0,
+      credits: isNaN(parseFloat(credits)) ? 0 : parseFloat(credits),
       crn: `${parsed.prefix}${parsed.number}-${parsed.section}`,
       days: days || "",
       start_time: startTime || "",

@@ -32,8 +32,8 @@ interface CourseSection {
   campus: string;
   mode: string;
   instructor: string;
-  seats_open: number;
-  seats_total: number;
+  seats_open: number | null;
+  seats_total: number | null;
   prerequisite_text: string | null;
   prerequisite_courses: string[];
 }
@@ -139,7 +139,7 @@ async function scrape(termCode: string): Promise<CourseSection[]> {
         course_prefix: dept,
         course_number: num,
         course_title: title,
-        credits: parseInt(credits) || 0,
+        credits: isNaN(parseInt(credits, 10)) ? 0 : parseInt(credits, 10),
         crn: `${dept}-${num}-${sec}`,
         days: mode === "online" && !start ? "M T W Th F Sa Su" : days,
         start_time: start,
@@ -149,8 +149,8 @@ async function scrape(termCode: string): Promise<CourseSection[]> {
         campus: location.split("-")[0] || "",
         mode,
         instructor,
-        seats_open: parseInt(remaining) || 0,
-        seats_total: parseInt(maxSeats) || 0,
+        seats_open: isNaN(parseInt(remaining, 10)) ? null : parseInt(remaining, 10),
+        seats_total: isNaN(parseInt(maxSeats, 10)) ? null : parseInt(maxSeats, 10),
         prerequisite_text: null,
         prerequisite_courses: [],
       };

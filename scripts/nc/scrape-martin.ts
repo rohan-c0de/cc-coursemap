@@ -147,7 +147,7 @@ print(json.dumps(rows))
       course_prefix: prefix,
       course_number: number,
       course_title: title,
-      credits: parseInt(creditsRaw) || 0,
+      credits: isNaN(parseInt(creditsRaw, 10)) ? 0 : parseInt(creditsRaw, 10),
       crn: secName,
       days: mode === "online" ? "M T W Th F" : daysStr,
       start_time: startTime,

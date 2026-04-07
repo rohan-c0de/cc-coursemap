@@ -126,7 +126,7 @@ export default async function CollegesPage({ params }: Props) {
               </div>
 
               <p className="text-xs text-gray-500 dark:text-slate-400 mb-3">
-                {institution.campuses.map((c) => c.name).join(" · ")}
+                {institution.campuses?.map((c) => c.name).join(" · ") || "Campus info unavailable"}
               </p>
 
               <div className="flex items-center justify-between text-xs">
@@ -146,7 +146,7 @@ export default async function CollegesPage({ params }: Props) {
                   institution.audit_policy.eligibility.senior_discount
                     .available && (
                     <span className="text-teal-600 font-medium">
-                      Free for {config.seniorWaiver?.ageThreshold ?? 60}+
+                      Free for {institution.audit_policy.eligibility.senior_discount.age_threshold ?? config.seniorWaiver?.ageThreshold ?? 60}+
                     </span>
                   )}
               </div>

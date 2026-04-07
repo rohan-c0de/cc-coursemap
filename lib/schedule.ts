@@ -190,7 +190,10 @@ export async function generateSchedules(
   const timeTakenMs = Math.round(performance.now() - t0);
 
   let message: string | undefined;
-  if (candidateCourses < request.maxCourses) {
+  if (allSections.length === 0) {
+    message =
+      "No course data available for this term yet. Check back soon — new schedules are added regularly.";
+  } else if (candidateCourses < request.maxCourses) {
     message = `Only ${candidateCourses} matching course${candidateCourses === 1 ? "" : "s"} found. Try adding more subjects or reducing max courses to ${candidateCourses}.`;
   } else if (results.length === 0 && candidates.length > 0) {
     message =

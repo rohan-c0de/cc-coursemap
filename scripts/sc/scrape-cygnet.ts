@@ -134,7 +134,8 @@ async function main() {
 
     const [, prefix, number, crn] = sectionMatch;
     const title = cells[2];
-    const credits = parseFloat(cells[3]) || 0;
+    const creditsRaw = parseFloat(cells[3]);
+    const credits = isNaN(creditsRaw) ? 0 : creditsRaw;
     const method = cells[4];
     const startTime = cells[5];
     const endTime = cells[6];
@@ -142,8 +143,10 @@ async function main() {
     const room = cells[19] || "";
     const location = cells[20] || "";
     const faculty = cells[21] || "";
-    const enrolled = parseInt(cells[22]) || 0;
-    const seatsTotal = parseInt(cells[23]) || null;
+    const enrolledRaw = parseInt(cells[22], 10);
+    const enrolled = isNaN(enrolledRaw) ? 0 : enrolledRaw;
+    const totalRaw = parseInt(cells[23], 10);
+    const seatsTotal = isNaN(totalRaw) ? null : totalRaw;
 
     sections.push({
       college_code: SLUG,

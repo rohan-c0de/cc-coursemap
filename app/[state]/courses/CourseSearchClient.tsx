@@ -128,7 +128,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
         setUniversities(data.universities);
       })
       .catch(() => {}); // silently fail — filter just won't appear
-  }, []);
+  }, [state]);
 
   // Track which college groups are expanded (keyed by "courseKey-slug")
   const [expanded, setExpanded] = useState<Set<string>>(new Set());

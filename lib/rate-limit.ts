@@ -32,6 +32,8 @@ function ensureCleanup() {
 
 /**
  * Check if a request should be allowed.
+ * Operates synchronously on the store to avoid race conditions —
+ * the filter→check→push→set sequence completes in a single microtask.
  * @returns `true` if allowed, `false` if rate-limited.
  */
 export function rateLimit(
@@ -41,14 +43,16 @@ export function rateLimit(
   ensureCleanup();
 
   const now = Date.now();
-  const timestamps = store.get(key) || [];
-  const valid = timestamps.filter((t) => now - t < WINDOW_MS);
+  const existing = store.get(key);
+  // Filter expired timestamps, then immediately decide and update in one step
+  const valid = existing ? existing.filter((t) => now - t < WINDOW_MS) : [];
 
   if (valid.length >= maxRequests) {
     store.set(key, valid);
     return { allowed: false, remaining: 0 };
   }
 
+  // Commit the new timestamp before returning — prevents interleaving
   valid.push(now);
   store.set(key, valid);
   return { allowed: true, remaining: maxRequests - valid.length };

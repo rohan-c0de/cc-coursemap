@@ -1,5 +1,6 @@
 import { isValidState, getStateConfig } from "@/lib/states/registry";
 import { verifySubscriber } from "@/lib/subscribers";
+import { rateLimit, getClientKey } from "@/lib/rate-limit";
 
 function htmlPage(title: string, body: string, state?: string): Response {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
@@ -32,6 +33,15 @@ function htmlPage(title: string, body: string, state?: string): Response {
 }
 
 export async function GET(req: Request) {
+  const { allowed } = rateLimit(getClientKey(req), 10);
+  if (!allowed) {
+    return htmlPage(
+      "Too Many Requests",
+      `<h1 style="font-size: 20px; margin-bottom: 12px;">Too many requests</h1>
+       <p style="font-size: 15px; color: #666;">Please try again in a minute.</p>`
+    );
+  }
+
   const url = new URL(req.url);
   const token = url.searchParams.get("token");
   const state = url.searchParams.get("state");

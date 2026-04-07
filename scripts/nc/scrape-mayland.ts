@@ -176,7 +176,7 @@ async function scrapeTerm(termCode: string, fileName: string): Promise<CourseSec
       course_prefix: parsed.prefix,
       course_number: parsed.number,
       course_title: title,
-      credits: parseFloat(credits) || 0,
+      credits: isNaN(parseFloat(credits)) ? 0 : parseFloat(credits),
       crn: synonym || `${parsed.prefix}${parsed.number}-${parsed.section}`,
       days: days === "\u00a0" || days === "" ? "" : days.replace(/,\s*/g, " "),
       start_time: startTime === "\u00a0" || startTime === "" ? "" : startTime,

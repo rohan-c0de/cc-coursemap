@@ -498,7 +498,7 @@ async function scrapeFrederick(
         course_prefix: s.subject || "",
         course_number: s.catalogNumber || "",
         course_title: s.title || s.descr || "",
-        credits: parseFloat(s.credits) || 0,
+        credits: isNaN(parseFloat(s.credits)) ? 0 : parseFloat(s.credits),
         crn: String(s.classNbr),
         days: frederickBuildDays(s),
         start_time: s.startTime || "",

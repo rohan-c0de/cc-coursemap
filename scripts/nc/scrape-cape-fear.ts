@@ -29,8 +29,8 @@ interface CourseSection {
   campus: string;
   mode: string;
   instructor: string;
-  seats_open: number;
-  seats_total: number;
+  seats_open: number | null;
+  seats_total: number | null;
   prerequisite_text: string | null;
   prerequisite_courses: string[];
 }
@@ -136,8 +136,10 @@ async function main() {
     // Start date is already YYYY-MM-DD
     const startDate = raw.sec_start_date || "";
 
-    const capacity = parseInt(raw.sec_capacity) || 0;
-    const seatsAvail = parseInt(raw.seatsavailable) || 0;
+    const capacityRaw = parseInt(raw.sec_capacity, 10);
+    const capacity = isNaN(capacityRaw) ? null : capacityRaw;
+    const seatsAvailRaw = parseInt(raw.seatsavailable, 10);
+    const seatsAvail = isNaN(seatsAvailRaw) ? null : seatsAvailRaw;
 
     sections.push({
       college_code: COLLEGE_CODE,
@@ -145,7 +147,7 @@ async function main() {
       course_prefix: prefix,
       course_number: number,
       course_title: raw.sec_short_title || "",
-      credits: parseFloat(raw.sec_min_cred) || 0,
+      credits: isNaN(parseFloat(raw.sec_min_cred)) ? 0 : parseFloat(raw.sec_min_cred),
       crn: raw.sec_name,
       days: mode === "online" && days.split(" ").length === 7 ? "M T W Th F Sa Su" : days,
       start_time: startTime,

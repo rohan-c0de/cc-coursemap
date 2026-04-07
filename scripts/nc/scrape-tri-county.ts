@@ -154,7 +154,8 @@ function parseLine(line: string): CourseSection | null {
   const instructor = afterParts[0] || "";
   let creditsIdx = 1;
   if (afterParts[1] === "Y") creditsIdx = 2; // Skip prereq marker
-  const credits = parseInt(afterParts[creditsIdx]) || 0;
+  const creditsRaw = parseInt(afterParts[creditsIdx], 10);
+  const credits = isNaN(creditsRaw) ? 0 : creditsRaw;
 
   // Find dates
   const dateMatch2 = afterDays.match(/(\d{1,2}\/\d{1,2}\/\d{4})\s+(\d{1,2}\/\d{1,2}\/\d{4})/);
