@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ScheduleClient from "./ScheduleClient";
 import { getStateConfig } from "@/lib/states/registry";
 import { getUniversities } from "@/lib/transfer";
+import { getAvailableTermsForDisplay } from "@/lib/terms";
 
 type Props = {
   params: Promise<{ state: string }>;
@@ -20,13 +21,24 @@ export default async function SchedulePage({ params }: Props) {
   const { state } = await params;
   const config = getStateConfig(state);
 
-  // Load available transfer universities for this state
+  // Load available transfer universities and terms for this state
   let universities: { slug: string; name: string }[] = [];
+  let terms: { code: string; label: string }[] = [];
   try {
     universities = await getUniversities(state);
   } catch {
     // Transfer data unavailable — university dropdown will be hidden
   }
+  try {
+    terms = await getAvailableTermsForDisplay(state);
+  } catch {
+    // Terms unavailable — term selector will be hidden
+  }
+
+  // Extract just the prefixes from popularCourses (e.g. "ENG 111" → "ENG")
+  const quickAddSubjects = [
+    ...new Set(config.popularCourses.map((c) => c.split(" ")[0])),
+  ];
 
   return (
     <ScheduleClient
@@ -35,6 +47,8 @@ export default async function SchedulePage({ params }: Props) {
       collegeCount={config.collegeCount}
       defaultZip={config.defaultZip}
       universities={universities}
+      terms={terms}
+      quickAddSubjects={quickAddSubjects}
     />
   );
 }

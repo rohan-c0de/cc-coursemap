@@ -69,6 +69,7 @@ export async function POST(req: Request, context: RouteContext) {
       includeInProgress: body.includeInProgress ?? false,
       targetUniversity: body.targetUniversity || undefined,
       hideFullSections: body.hideFullSections ?? true,
+      term: body.term || undefined,
     };
 
     const institutions = loadInstitutions(state);

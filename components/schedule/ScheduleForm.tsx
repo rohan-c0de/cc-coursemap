@@ -15,6 +15,7 @@ export interface ScheduleFormData {
   includeInProgress: boolean;
   targetUniversity?: string;
   hideFullSections: boolean;
+  term?: string;
 }
 
 interface UniversityOption {
@@ -22,11 +23,18 @@ interface UniversityOption {
   name: string;
 }
 
+interface TermOption {
+  code: string;
+  label: string;
+}
+
 interface Props {
   onSubmit: (data: ScheduleFormData) => void;
   loading: boolean;
   defaultZip?: string;
   universities?: UniversityOption[];
+  terms?: TermOption[];
+  quickAddSubjects?: string[];
 }
 
 const DAYS = [
@@ -55,7 +63,9 @@ const DISTANCE_OPTIONS = [
   { value: 50, label: "50 miles" },
 ];
 
-export default function ScheduleForm({ onSubmit, loading, defaultZip, universities }: Props) {
+const DEFAULT_QUICK_ADD = ["ART", "PSY", "BIO", "ENG", "MTH", "HIS", "MUS", "PHI"];
+
+export default function ScheduleForm({ onSubmit, loading, defaultZip, universities, terms, quickAddSubjects }: Props) {
   const [subjects, setSubjects] = useState<string[]>([]);
   const [subjectInput, setSubjectInput] = useState("");
   const [daysAvailable, setDaysAvailable] = useState<string[]>(["M", "Tu", "W", "Th", "F"]);
@@ -68,8 +78,11 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip, universiti
   const [includeInProgress, setIncludeInProgress] = useState(false);
   const [targetUniversity, setTargetUniversity] = useState("");
   const [hideFullSections, setHideFullSections] = useState(true);
+  const [selectedTerm, setSelectedTerm] = useState("");
 
   const inputRef = useRef<HTMLInputElement>(null);
+
+  const chips = quickAddSubjects && quickAddSubjects.length > 0 ? quickAddSubjects : DEFAULT_QUICK_ADD;
 
   function addSubject(raw: string) {
     const trimmed = raw.trim();
@@ -122,6 +135,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip, universiti
       includeInProgress,
       targetUniversity: targetUniversity || undefined,
       hideFullSections,
+      term: selectedTerm || undefined,
     });
   }
 
@@ -169,7 +183,7 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip, universiti
           </div>
           {/* Quick-add chips */}
           <div className="mt-2 flex flex-wrap gap-1.5">
-            {["ART", "PSY", "BIO", "ENG", "MTH", "HIS", "MUS", "PHI"].map((s) => (
+            {chips.map((s) => (
               <button
                 key={s}
                 type="button"
@@ -346,8 +360,27 @@ export default function ScheduleForm({ onSubmit, loading, defaultZip, universiti
           </div>
         </div>
 
-        {/* Transfer university + toggles */}
+        {/* Term + Transfer university */}
         <div className="grid sm:grid-cols-2 gap-4">
+          {terms && terms.length > 1 && (
+            <div>
+              <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1.5">
+                Semester
+              </label>
+              <select
+                value={selectedTerm}
+                onChange={(e) => setSelectedTerm(e.target.value)}
+                className="w-full rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-sm dark:text-slate-100 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200 dark:focus:ring-teal-800"
+              >
+                <option value="">Current semester</option>
+                {terms.map((t) => (
+                  <option key={t.code} value={t.code}>
+                    {t.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
           {universities && universities.length > 0 && (
             <div>
               <label className="block text-xs font-medium text-gray-500 dark:text-slate-400 mb-1.5">

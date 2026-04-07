@@ -11,15 +11,22 @@ interface UniversityOption {
   name: string;
 }
 
+interface TermOption {
+  code: string;
+  label: string;
+}
+
 interface ScheduleClientProps {
   state: string;
   systemName?: string;
   collegeCount?: number;
   defaultZip?: string;
   universities?: UniversityOption[];
+  terms?: TermOption[];
+  quickAddSubjects?: string[];
 }
 
-export default function ScheduleClient({ state, systemName, collegeCount, defaultZip, universities }: ScheduleClientProps) {
+export default function ScheduleClient({ state, systemName, collegeCount, defaultZip, universities, terms, quickAddSubjects }: ScheduleClientProps) {
   const [response, setResponse] = useState<ScheduleResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -46,6 +53,7 @@ export default function ScheduleClient({ state, systemName, collegeCount, defaul
           includeInProgress: data.includeInProgress,
           targetUniversity: data.targetUniversity,
           hideFullSections: data.hideFullSections,
+          term: data.term || undefined,
         }),
       });
 
@@ -80,7 +88,7 @@ export default function ScheduleClient({ state, systemName, collegeCount, defaul
 
       {/* Form */}
       <div className="mb-8">
-        <ScheduleForm onSubmit={handleBuild} loading={loading} defaultZip={defaultZip} universities={universities} />
+        <ScheduleForm onSubmit={handleBuild} loading={loading} defaultZip={defaultZip} universities={universities} terms={terms} quickAddSubjects={quickAddSubjects} />
       </div>
 
       {/* Error */}

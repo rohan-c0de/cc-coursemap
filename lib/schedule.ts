@@ -724,8 +724,9 @@ function scoreDayConsolidation(sections: EnrichedSection[]): number {
 
   if (dayCount === 0) return 20; // All async
 
-  // Score: 1 day = 20, 2 = 16, 3 = 12, 4 = 8, 5 = 4, 6 = 2
-  const scores = [20, 20, 16, 12, 8, 4, 2];
+  // Score: 1 day = 20, 2 = 20, 3 = 18, 4 = 12, 5 = 6, 6 = 2
+  // MWF (3 days) is a standard academic pattern and scores close to TTh (2 days)
+  const scores = [20, 20, 20, 18, 12, 6, 2];
   return scores[Math.min(dayCount, 6)];
 }
 
