@@ -50,14 +50,16 @@ function downloadICS(sections: ScheduleSection[]) {
   };
 
   function toICSDate(dateStr: string, timeStr: string): string {
-    // dateStr = "01/13/2025", timeStr = "9:00 AM"
-    const [month, day, year] = dateStr.split("/").map(Number);
-    const [time, period] = timeStr.split(" ");
-    const [h, m] = time.split(":").map(Number);
-    let hours = h;
-    if (period === "PM" && h !== 12) hours += 12;
-    if (period === "AM" && h === 12) hours = 0;
-    return `${year}${String(month).padStart(2, "0")}${String(day).padStart(2, "0")}T${String(hours).padStart(2, "0")}${String(m).padStart(2, "0")}00`;
+    // dateStr = "2025-01-13" (YYYY-MM-DD), timeStr = "9:00 AM"
+    const [year, month, day] = dateStr.split("-").map(Number);
+    const timeMatch = timeStr.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
+    if (!timeMatch) return "";
+    let hours = parseInt(timeMatch[1], 10);
+    const mins = parseInt(timeMatch[2], 10);
+    const period = timeMatch[3].toUpperCase();
+    if (period === "PM" && hours !== 12) hours += 12;
+    if (period === "AM" && hours === 12) hours = 0;
+    return `${year}${String(month).padStart(2, "0")}${String(day).padStart(2, "0")}T${String(hours).padStart(2, "0")}${String(mins).padStart(2, "0")}00`;
   }
 
   function expandDaysToRRule(days: string): string {
@@ -88,9 +90,14 @@ function downloadICS(sections: ScheduleSection[]) {
 
     const dtStart = toICSDate(s.start_date, s.start_time);
     const dtEnd = toICSDate(s.start_date, s.end_time);
+    if (!dtStart || !dtEnd) continue;
     const rruleDays = expandDaysToRRule(s.days);
 
+    const now = new Date();
+    const dtstamp = `${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, "0")}${String(now.getDate()).padStart(2, "0")}T${String(now.getHours()).padStart(2, "0")}${String(now.getMinutes()).padStart(2, "0")}${String(now.getSeconds()).padStart(2, "0")}`;
+
     lines.push("BEGIN:VEVENT");
+    lines.push(`DTSTAMP:${dtstamp}`);
     lines.push(`DTSTART:${dtStart}`);
     lines.push(`DTEND:${dtEnd}`);
     if (rruleDays) {
