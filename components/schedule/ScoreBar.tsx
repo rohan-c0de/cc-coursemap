@@ -9,12 +9,12 @@ interface Props {
 }
 
 const SEGMENTS = [
-  { key: "timeCompactness" as const, label: "Compactness", color: "bg-teal-400", max: 20 },
-  { key: "distanceScore" as const, label: "Distance", color: "bg-blue-400", max: 20 },
-  { key: "dayConsolidation" as const, label: "Days", color: "bg-amber-400", max: 20 },
+  { key: "timeCompactness" as const, label: "Few gaps", color: "bg-teal-400", max: 20 },
+  { key: "distanceScore" as const, label: "Close by", color: "bg-blue-400", max: 20 },
+  { key: "dayConsolidation" as const, label: "Fewer days", color: "bg-amber-400", max: 20 },
   { key: "varietyScore" as const, label: "Variety", color: "bg-purple-400", max: 10 },
-  { key: "seatAvailability" as const, label: "Seats", color: "bg-emerald-400", max: 15 },
-  { key: "transferScore" as const, label: "Transfer", color: "bg-rose-400", max: 15 },
+  { key: "seatAvailability" as const, label: "Open seats", color: "bg-emerald-400", max: 15 },
+  { key: "transferScore" as const, label: "Transfers", color: "bg-rose-400", max: 15 },
 ] as const;
 
 export default function ScoreBar({ breakdown, total, showTransfer = true }: Props) {

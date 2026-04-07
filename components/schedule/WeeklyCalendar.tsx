@@ -41,9 +41,25 @@ export default function WeeklyCalendar({ sections }: Props) {
     return start === null;
   });
 
+  // Group scheduled sections by day for mobile list view
+  const byDay = new Map<string, { section: ScheduleSection; key: string }[]>();
+  for (const s of scheduled) {
+    const days = s.days ? expandDays(s.days).split(" ") : [];
+    const key = `${s.course_prefix} ${s.course_number}`;
+    for (const d of days) {
+      if (!byDay.has(d)) byDay.set(d, []);
+      byDay.get(d)!.push({ section: s, key });
+    }
+  }
+  // Sort each day's sections by start time
+  for (const entries of byDay.values()) {
+    entries.sort((a, b) => (parseTime(a.section.start_time) ?? 0) - (parseTime(b.section.start_time) ?? 0));
+  }
+
   return (
     <div>
-      <div className="overflow-x-auto">
+      {/* Desktop: grid calendar (hidden on small screens) */}
+      <div className="hidden sm:block overflow-x-auto">
         <div
           className="min-w-[600px] grid border border-gray-200 dark:border-slate-700 rounded-lg overflow-hidden"
           style={{
@@ -141,6 +157,36 @@ export default function WeeklyCalendar({ sections }: Props) {
             });
           })}
         </div>
+      </div>
+
+      {/* Mobile: day-by-day list view (hidden on sm+) */}
+      <div className="sm:hidden space-y-3">
+        {DAY_COLS.map((day) => {
+          const entries = byDay.get(day.key);
+          if (!entries || entries.length === 0) return null;
+          return (
+            <div key={day.key}>
+              <p className="text-xs font-semibold text-gray-700 dark:text-slate-300 mb-1">{day.label}</p>
+              <div className="space-y-1">
+                {entries.map(({ section: s, key }) => {
+                  const color = colorMap.get(key)!;
+                  return (
+                    <div
+                      key={`${s.crn}-${day.key}`}
+                      className={`rounded-md border px-3 py-1.5 ${color.bg} ${color.border} ${color.text}`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="text-xs font-semibold">{key}</span>
+                        <span className="text-[11px]">{s.start_time}–{s.end_time}</span>
+                      </div>
+                      <p className="text-[10px] opacity-70 truncate">{s.collegeName}</p>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
       </div>
 
       {/* Async sections note */}

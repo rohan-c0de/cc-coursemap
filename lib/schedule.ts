@@ -327,7 +327,10 @@ function filterSections(
     if (!includeInProgress && isInProgress(s.start_date)) continue;
 
     // Mode filter
-    if (modeFilter !== "any" && s.mode !== modeFilter) continue;
+    // Mode filter: "online" also matches "zoom" sections
+    if (modeFilter !== "any") {
+      if (modeFilter === "online" ? (s.mode !== "online" && s.mode !== "zoom") : s.mode !== modeFilter) continue;
+    }
 
     // Pre-parse times and days
     const startMin = parseTimeToMinutes(s.start_time);

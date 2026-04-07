@@ -16,7 +16,7 @@ const MODE_STYLES: Record<string, { bg: string; text: string; label: string }> =
   "in-person": { bg: "bg-emerald-50 dark:bg-emerald-900/30", text: "text-emerald-700 dark:text-emerald-400", label: "In-Person" },
   online: { bg: "bg-blue-50 dark:bg-blue-900/30", text: "text-blue-700 dark:text-blue-400", label: "Online" },
   hybrid: { bg: "bg-purple-50 dark:bg-purple-900/30", text: "text-purple-700 dark:text-purple-400", label: "Hybrid" },
-  zoom: { bg: "bg-orange-50 dark:bg-orange-900/30", text: "text-orange-700 dark:text-orange-400", label: "Zoom" },
+  zoom: { bg: "bg-blue-50 dark:bg-blue-900/30", text: "text-blue-700 dark:text-blue-400", label: "Online" },
 };
 
 const TRANSFER_STYLES: Record<string, { bg: string; text: string; label: string }> = {
@@ -38,6 +38,13 @@ function scoreColor(score: number): string {
   if (score >= 80) return "bg-emerald-100 dark:bg-emerald-900/40 text-emerald-800 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800";
   if (score >= 60) return "bg-amber-100 dark:bg-amber-900/40 text-amber-800 dark:text-amber-300 border-amber-200 dark:border-amber-800";
   return "bg-red-100 dark:bg-red-900/40 text-red-800 dark:text-red-300 border-red-200 dark:border-red-800";
+}
+
+function scoreLabel(score: number): string {
+  if (score >= 85) return "Great fit";
+  if (score >= 70) return "Good fit";
+  if (score >= 55) return "Okay";
+  return "Trade-offs";
 }
 
 // ---------------------------------------------------------------------------
@@ -432,6 +439,15 @@ function ScheduleCard({
             })}
           </div>
           <div className="flex flex-wrap items-center gap-2 text-[11px] text-gray-500 dark:text-slate-400">
+            {(() => {
+              const totalCredits = sections.reduce((sum, s) => sum + (s.credits || 0), 0);
+              return totalCredits > 0 ? (
+                <span className="font-medium text-gray-700 dark:text-slate-300">
+                  {totalCredits} credit{totalCredits !== 1 ? "s" : ""}
+                  {totalCredits >= 12 ? " (full-time)" : " (part-time)"}
+                </span>
+              ) : null;
+            })()}
             {count > 1 ? (
               <span className="text-teal-600 dark:text-teal-400 font-medium">
                 Available at {totalColleges} {totalColleges === 1 ? "college" : "colleges"}
@@ -454,7 +470,7 @@ function ScheduleCard({
           >
             {score}
           </span>
-          <span className="text-[10px] text-gray-400 dark:text-slate-500">/ 100</span>
+          <span className="text-[10px] text-gray-400 dark:text-slate-500">{scoreLabel(score)}</span>
         </div>
 
         {/* Chevron */}

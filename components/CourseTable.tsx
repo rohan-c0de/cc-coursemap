@@ -38,7 +38,7 @@ const MODE_STYLES: Record<CourseMode, { bg: string; text: string; label: string 
   "in-person": { bg: "bg-emerald-50", text: "text-emerald-700", label: "In-Person" },
   online: { bg: "bg-blue-50", text: "text-blue-700", label: "Online" },
   hybrid: { bg: "bg-purple-50", text: "text-purple-700", label: "Hybrid" },
-  zoom: { bg: "bg-orange-50", text: "text-orange-700", label: "Zoom" },
+  zoom: { bg: "bg-blue-50", text: "text-blue-700", label: "Online" },
 };
 
 const STATUS_STYLES: Record<CourseStatus, { dot: string; text: string }> = {
