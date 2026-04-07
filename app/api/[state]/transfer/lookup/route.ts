@@ -2,8 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import { buildTransferLookup, getUniversities } from "@/lib/transfer";
 import { isValidState } from "@/lib/states/registry";
 
-// Cache per state since transfer data changes infrequently
-const cachedResponses: Record<string, string> = {};
+// Cache per state with TTL since transfer data changes infrequently
+const CACHE_TTL = 60 * 60 * 1000; // 1 hour
+const cachedResponses: Record<string, { json: string; expires: number }> = {};
 
 type RouteContext = { params: Promise<{ state: string }> };
 
@@ -14,16 +15,25 @@ export async function GET(_request: NextRequest, context: RouteContext) {
     return NextResponse.json({ error: "Unknown state" }, { status: 404 });
   }
 
-  if (!cachedResponses[state]) {
-    const lookup = await buildTransferLookup(state);
-    const universities = await getUniversities(state);
-    cachedResponses[state] = JSON.stringify({ lookup, universities });
+  const cached = cachedResponses[state];
+  if (!cached || Date.now() > cached.expires) {
+    try {
+      const lookup = await buildTransferLookup(state);
+      const universities = await getUniversities(state);
+      cachedResponses[state] = {
+        json: JSON.stringify({ lookup, universities }),
+        expires: Date.now() + CACHE_TTL,
+      };
+    } catch (err) {
+      console.error(`Transfer lookup error for ${state}:`, err);
+      return NextResponse.json({ error: "Failed to load transfer data." }, { status: 500 });
+    }
   }
 
-  return new NextResponse(cachedResponses[state], {
+  return new NextResponse(cachedResponses[state].json, {
     headers: {
       "Content-Type": "application/json",
-      "Cache-Control": "public, max-age=86400", // 24h cache
+      "Cache-Control": "public, max-age=3600", // 1h CDN cache
     },
   });
 }

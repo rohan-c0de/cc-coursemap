@@ -210,6 +210,8 @@ async function buildSubjectMap(
       { headers: { Cookie: cookies } }
     );
     const subjects: { code: string; description: string }[] = await res.json();
+    // Clear stale entries from previous colleges
+    Object.keys(SUBJECT_TO_PREFIX).forEach(k => delete SUBJECT_TO_PREFIX[k]);
     for (const s of subjects) {
       SUBJECT_TO_PREFIX[s.description.toLowerCase()] = s.code;
     }
@@ -464,4 +466,4 @@ async function main() {
   console.log("\nDone.");
 }
 
-main().catch(console.error);
+main().catch((e) => { console.error(e); process.exit(1); });

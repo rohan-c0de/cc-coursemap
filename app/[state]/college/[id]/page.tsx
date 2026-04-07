@@ -170,7 +170,7 @@ export default async function CollegeDetailPage(props: PageProps) {
         <div className="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-800 rounded-lg p-4 mb-6">
           <p className="text-amber-800 dark:text-amber-300 text-sm">
             <strong>Note:</strong> Course data may be outdated (last updated
-            more than 8 days ago). Check{" "}
+            more than 3 days ago). Check{" "}
             <a
               href={config.collegeCoursesUrl(institution.college_slug)}
               target="_blank"

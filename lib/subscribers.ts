@@ -164,7 +164,7 @@ export async function getVerifiedSubscribers(
 
   const { data } = await sb
     .from("subscribers")
-    .select("*")
+    .select("email, state, token")
     .eq("state", state)
     .eq("verified", true);
 

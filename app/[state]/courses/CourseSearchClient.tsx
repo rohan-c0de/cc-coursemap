@@ -622,9 +622,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
                 type="button"
                 onClick={() => {
                   setQuery(example);
-                  // Submit the form programmatically
-                  const form = document.querySelector("form");
-                  if (form) form.requestSubmit();
+                  doSearch(example);
                 }}
                 className="rounded-full border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 px-3 py-1 text-xs text-gray-600 dark:text-slate-400 hover:border-teal-300 hover:text-teal-700 transition"
               >

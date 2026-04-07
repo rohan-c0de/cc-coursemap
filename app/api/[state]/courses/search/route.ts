@@ -35,11 +35,12 @@ export async function GET(request: NextRequest, context: RouteContext) {
     : singleDay
       ? [singleDay]
       : undefined;
-  const timeOfDay = searchParams.get("timeOfDay")?.trim() as
-    | "morning"
-    | "afternoon"
-    | "evening"
-    | undefined;
+  const timeOfDayRaw = searchParams.get("timeOfDay")?.trim();
+  const VALID_TOD = ["morning", "afternoon", "evening"];
+  if (timeOfDayRaw && !VALID_TOD.includes(timeOfDayRaw)) {
+    return NextResponse.json({ error: "Invalid timeOfDay value." }, { status: 400 });
+  }
+  const timeOfDay = timeOfDayRaw as "morning" | "afternoon" | "evening" | undefined;
   const limit = Math.max(1, Math.min(parseInt(searchParams.get("limit") || "10", 10) || 10, 100));
   const offset = Math.max(0, parseInt(searchParams.get("offset") || "0", 10) || 0);
 

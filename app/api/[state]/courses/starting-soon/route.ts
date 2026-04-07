@@ -51,7 +51,7 @@ export async function GET(request: NextRequest, context: RouteContext) {
 
   const institutions = loadInstitutions(state);
   const { searchParams } = request.nextUrl;
-  const window = Math.min(parseInt(searchParams.get("window") || "14", 10), 60);
+  const daysWindow = Math.max(1, Math.min(parseInt(searchParams.get("window") || "14", 10) || 14, 60));
   const mode = searchParams.get("mode")?.trim() || undefined;
   const subject = searchParams.get("subject")?.trim().toUpperCase() || undefined;
   const zip = searchParams.get("zip")?.trim() || undefined;
@@ -79,7 +79,7 @@ export async function GET(request: NextRequest, context: RouteContext) {
   const upcoming = allCourses.filter((s) => {
     if (!s.start_date || !/^\d{4}-\d{2}-\d{2}$/.test(s.start_date)) return false;
     const days = daysUntilStart(s.start_date);
-    if (days < 0 || days > window) return false;
+    if (days < 0 || days > daysWindow) return false;
     if (mode && s.mode !== mode) return false;
     if (subject && s.course_prefix !== subject) return false;
     return true;
@@ -105,7 +105,7 @@ export async function GET(request: NextRequest, context: RouteContext) {
   const dateGroups: DateGroup[] = [];
 
   for (const [date, courseMap] of dateMap) {
-    const d = new Date(date + "T00:00:00");
+    const d = new Date(date + "T12:00:00Z");
     const label = d.toLocaleDateString("en-US", {
       weekday: "long",
       month: "long",
@@ -200,7 +200,7 @@ export async function GET(request: NextRequest, context: RouteContext) {
       totalSections,
       totalCourses,
       totalColleges,
-      window,
+      window: daysWindow,
     },
   });
 }

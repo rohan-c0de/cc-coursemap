@@ -533,4 +533,4 @@ async function main() {
   console.log("\nDone.");
 }
 
-main().catch(console.error);
+main().catch((e) => { console.error(e); process.exit(1); });

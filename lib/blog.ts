@@ -42,6 +42,9 @@ export function stateLabel(state: string): string {
     nc: "North Carolina",
     sc: "South Carolina",
     dc: "DC",
+    md: "Maryland",
+    ga: "Georgia",
+    de: "Delaware",
   };
   return labels[state] ?? state.toUpperCase();
 }

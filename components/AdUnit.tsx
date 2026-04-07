@@ -19,19 +19,19 @@ declare global {
 export default function AdUnit({ slot, format = "auto", className = "" }: AdUnitProps) {
   const adRef = useRef<HTMLModElement>(null);
   const pushed = useRef(false);
-
   const clientId = process.env.NEXT_PUBLIC_ADSENSE_ID;
-  if (!clientId) return null;
 
   useEffect(() => {
-    if (pushed.current) return;
+    if (!clientId || pushed.current) return;
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
       pushed.current = true;
     } catch {
       // AdSense not loaded
     }
-  }, []);
+  }, [clientId]);
+
+  if (!clientId) return null;
 
   return (
     <div className={`ad-container overflow-hidden ${className}`}>

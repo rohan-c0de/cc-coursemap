@@ -7,10 +7,9 @@ export type CourseStatus = "in-progress" | "starting-soon" | "upcoming";
 
 const SOON_THRESHOLD_DAYS = 14;
 
-/** Get today's date as YYYY-MM-DD string (no timezone drift) */
+/** Get today's date as YYYY-MM-DD string in US Eastern Time. */
 function todayStr(): string {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  return new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
 }
 
 /** Days from today until startDate. Negative = already started. */

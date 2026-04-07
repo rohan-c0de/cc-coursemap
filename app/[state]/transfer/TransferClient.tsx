@@ -133,7 +133,7 @@ export default function TransferClient({
 
     return (
       <div
-        key={i}
+        key={`${m.cc_prefix}-${m.cc_number}-${m.university}`}
         className={`px-4 py-3 ${m.no_credit ? "bg-gray-50 dark:bg-slate-800 opacity-60" : ""}`}
       >
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">

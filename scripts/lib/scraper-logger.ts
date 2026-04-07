@@ -16,37 +16,8 @@
  * Gracefully no-ops when Supabase credentials are missing (local dev).
  */
 
-import * as fs from "fs";
-import * as path from "path";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
-
-// ---------------------------------------------------------------------------
-// .env.local loader (same pattern as supabase-import.ts)
-// ---------------------------------------------------------------------------
-
-let envLoaded = false;
-
-function loadEnv() {
-  if (envLoaded) return;
-  envLoaded = true;
-  const envPath = path.join(process.cwd(), ".env.local");
-  try {
-    const content = fs.readFileSync(envPath, "utf-8");
-    for (const line of content.split("\n")) {
-      const trimmed = line.trim();
-      if (!trimmed || trimmed.startsWith("#")) continue;
-      const eqIdx = trimmed.indexOf("=");
-      if (eqIdx === -1) continue;
-      const key = trimmed.slice(0, eqIdx).trim();
-      const value = trimmed.slice(eqIdx + 1).trim();
-      if (!process.env[key]) {
-        process.env[key] = value;
-      }
-    }
-  } catch {
-    // .env.local may not exist (e.g. in CI)
-  }
-}
+import { loadEnv } from "./load-env";
 
 function getSupabase(): SupabaseClient | null {
   loadEnv();

@@ -161,7 +161,11 @@ async function main() {
 
   // Save
   const outPath = path.join(process.cwd(), "data", "va", "transfer-equiv.json");
-  fs.writeFileSync(outPath, JSON.stringify(vtMappings, null, 2));
+  let existing: Record<string, unknown>[] = [];
+  try { existing = JSON.parse(fs.readFileSync(outPath, "utf-8")); } catch { /* first run */ }
+  const nonVt = existing.filter((m: Record<string, unknown>) => m.university !== "vt");
+  const merged = [...nonVt, ...vtMappings];
+  fs.writeFileSync(outPath, JSON.stringify(merged, null, 2));
   console.log(`\nSaved to ${outPath}`);
 }
 

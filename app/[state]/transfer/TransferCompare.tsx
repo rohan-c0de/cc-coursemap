@@ -380,7 +380,7 @@ export default function TransferCompare({
     a.href = url;
     a.download = `transfer-comparison-${state}.csv`;
     a.click();
-    URL.revokeObjectURL(url);
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
 
   // ---------------------------------------------------------------------------

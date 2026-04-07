@@ -36,7 +36,7 @@ export async function POST(req: Request) {
 
     if (alreadyVerified) {
       return NextResponse.json({
-        message: "Check your inbox to confirm your subscription!",
+        message: "You're all set — you're already subscribed!",
       });
     }
 

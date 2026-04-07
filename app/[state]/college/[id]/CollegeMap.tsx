@@ -15,6 +15,8 @@ interface Props {
 }
 
 export default function CollegeMap({ institution }: Props) {
+  if (!institution.campuses || institution.campuses.length === 0) return null;
+
   // Center on the first campus
   const center = {
     lat: institution.campuses[0].lat,

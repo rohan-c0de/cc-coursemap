@@ -34,8 +34,8 @@ import * as path from "path";
 // ---------------------------------------------------------------------------
 
 const PS_BASE = "https://ps-sis.vccs.edu";
-const TERM_CODE = "2262"; // Spring 2026
-const JSON_TERM = "2026SP";
+const TERM_CODE = process.argv.find(a => a.startsWith("--term-code="))?.split("=")[1] || "2262";
+const JSON_TERM = process.argv.find(a => a.startsWith("--json-term="))?.split("=")[1] || "2026SP";
 const NAV_TIMEOUT = 30_000;
 const SEARCH_WAIT = 20_000; // max wait for search results
 const INTER_SEARCH_DELAY = 2000; // ms between subject searches

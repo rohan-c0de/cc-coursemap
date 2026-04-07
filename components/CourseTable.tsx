@@ -149,8 +149,20 @@ function ShareButton({ course, collegeSlug }: { course: CourseSection; collegeSl
 }
 
 const SHORT_NAMES: Record<string, string> = {
-  vt: "VT", vcu: "VCU", odu: "ODU", gmu: "GMU",
-  umw: "UMW", vsu: "VSU", vwu: "VWU", uva: "UVA",
+  // VA
+  vt: "VT", vcu: "VCU", odu: "ODU", gmu: "GMU", umw: "UMW", vsu: "VSU", vwu: "VWU", uva: "UVA",
+  // NC
+  "unc-ch": "UNC", ncstate: "NCSU", ecu: "ECU", uncw: "UNCW", uncc: "UNCC",
+  appstate: "ASU", uncg: "UNCG", ncat: "NCAT", fsu: "FSU", uncp: "UNCP",
+  wcu: "WCU", wssu: "WSSU", unca: "UNCA", ecsu: "ECSU", uncsa: "UNCSA",
+  catawba: "Catawba", elon: "Elon", "high-point": "HPU", wingate: "Wingate",
+  // SC
+  clemson: "Clemson", usc: "USC", cofc: "CofC", "usc-upstate": "USC-Up",
+  // GA
+  uga: "UGA", gsu: "GSU", gatech: "GT", ksu: "KSU", uwg: "UWG",
+  // MD
+  umcp: "UMD", towson: "Towson", umbc: "UMBC", umgc: "UMGC",
+  "bowie-state": "Bowie", frostburg: "Frostburg", "morgan-state": "Morgan", salisbury: "SU",
 };
 
 function TransferBadge({ prefix, number, lookup }: { prefix: string; number: string; lookup: TransferLookup }) {

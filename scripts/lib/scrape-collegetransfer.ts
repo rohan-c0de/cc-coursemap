@@ -81,7 +81,7 @@ export interface ScrapeOptions {
 
 const BASE_URL =
   "https://courseatlasservices.azurewebsites.net/odata/v2";
-const API_KEY = "bc923312-6f95-4340-8eed-c89bd576521c";
+const API_KEY = process.env.COLLEGETRANSFER_API_KEY || "bc923312-6f95-4340-8eed-c89bd576521c";
 const PAGE_SIZE = 100;
 
 // ---------------------------------------------------------------------------

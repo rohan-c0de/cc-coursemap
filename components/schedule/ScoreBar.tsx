@@ -29,7 +29,7 @@ export default function ScoreBar({ breakdown, total, showTransfer = true }: Prop
       <div className="flex h-2 rounded-full overflow-hidden bg-gray-100 dark:bg-slate-700">
         {visibleSegments.map((seg) => {
           const value = breakdown[seg.key];
-          const pct = (value / 100) * 100;
+          const pct = value; // value is already 0-100 scale (max total = 20+20+20+10+15+15 = 100)
           return (
             <div
               key={seg.key}

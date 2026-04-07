@@ -15,7 +15,11 @@ export async function GET(req: Request) {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
 
   if (token && state && isValidState(state)) {
-    await removeSubscriberByToken(token);
+    try {
+      await removeSubscriberByToken(token);
+    } catch (err) {
+      console.error("Unsubscribe error:", err);
+    }
   }
 
   let stateName = "your state";

@@ -173,7 +173,7 @@ function downloadICS(sections: ScheduleSection[]) {
   a.href = url;
   a.download = "schedule.ics";
   a.click();
-  URL.revokeObjectURL(url);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
 // ---------------------------------------------------------------------------

@@ -73,6 +73,10 @@ export default function MapView({
 
     const markers: L.Marker[] = [];
 
+    function escapeHtml(s: string): string {
+      return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+
     institutions.forEach(({ institution }) => {
       institution.campuses.forEach((campus) => {
         const marker = L.marker([campus.lat, campus.lng], {
@@ -81,11 +85,11 @@ export default function MapView({
           .addTo(map)
           .bindPopup(
             `<div style="min-width:160px">
-              <strong style="font-size:14px">${institution.name}</strong>
+              <strong style="font-size:14px">${escapeHtml(institution.name)}</strong>
               <br/>
-              <span style="color:#666;font-size:12px">${campus.name}</span>
+              <span style="color:#666;font-size:12px">${escapeHtml(campus.name)}</span>
               <br/>
-              <span style="color:#888;font-size:11px">${campus.address}</span>
+              <span style="color:#888;font-size:11px">${escapeHtml(campus.address)}</span>
             </div>`
           );
         markers.push(marker);

@@ -3,7 +3,7 @@
  *
  * Given user constraints (subjects, days, times, distance, modality),
  * generates ranked conflict-free course schedule combinations across
- * all 23 VCCS colleges.
+ * all community colleges in the selected state.
  *
  * Performance target: <100ms per request for typical queries.
  */
@@ -264,6 +264,10 @@ function parseTimeWindow(
   };
 
   const startBucket = buckets[startStr.toLowerCase()];
+  const endBucket = buckets[endStr.toLowerCase()];
+  if (startBucket && endBucket) {
+    return { startMin: startBucket.startMin, endMin: endBucket.endMin };
+  }
   if (startBucket) return startBucket;
 
   // Parse specific times

@@ -52,7 +52,7 @@ export default function ResultsContent({ state }: { state: string }) {
     }
 
     fetchResults();
-  }, [zip, radius]);
+  }, [zip, radius, state]);
 
   if (loading) {
     return (

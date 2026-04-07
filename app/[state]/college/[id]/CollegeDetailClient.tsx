@@ -80,7 +80,13 @@ export default function CollegeDetailClient({
 
       {/* Audit instructions modal */}
       {showInstructions && (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/50">
+        <div
+          className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/50"
+          role="dialog"
+          aria-modal="true"
+          onClick={(e) => { if (e.target === e.currentTarget) setShowInstructions(false); }}
+          onKeyDown={(e) => { if (e.key === "Escape") setShowInstructions(false); }}
+        >
           <div className="bg-white dark:bg-slate-800 rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 relative">
             <div className="absolute top-4 right-4 flex items-center gap-2">
               <PrintInstructions
@@ -88,7 +94,9 @@ export default function CollegeDetailClient({
                 course={selectedCourse || undefined}
               />
               <button
+                type="button"
                 onClick={() => setShowInstructions(false)}
+                aria-label="Close dialog"
                 className="text-gray-400 dark:text-slate-500 hover:text-gray-600 dark:hover:text-slate-300 text-2xl leading-none"
               >
                 &times;

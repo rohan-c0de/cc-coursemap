@@ -105,7 +105,13 @@ async function main() {
     process.exit(1);
   }
 
-  const rawData: any[] = JSON.parse(jsonMatch[1]);
+  const parsed: unknown = JSON.parse(jsonMatch[1]);
+  if (!Array.isArray(parsed) || parsed.length === 0) {
+    console.warn("Cape Fear: unexpected data shape, skipping");
+    return [];
+  }
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const rawData = parsed as any[];
   console.log(`Found ${rawData.length} total sections in embedded JSON`);
 
   // Filter to target term

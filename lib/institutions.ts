@@ -15,7 +15,8 @@ export function loadInstitutions(state = "va"): Institution[] {
   try {
     const raw = fs.readFileSync(filePath, "utf-8");
     cache[state] = JSON.parse(raw) as Institution[];
-  } catch {
+  } catch (err) {
+    console.error(`Failed to load institutions for ${state}:`, err);
     cache[state] = [];
   }
   return cache[state];

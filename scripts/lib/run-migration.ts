@@ -14,26 +14,9 @@
  */
 
 import * as fs from "fs";
-import * as path from "path";
+import { loadEnv } from "./load-env";
 
-// Load .env.local
-const envPath = path.join(process.cwd(), ".env.local");
-try {
-  const content = fs.readFileSync(envPath, "utf-8");
-  for (const line of content.split("\n")) {
-    const trimmed = line.trim();
-    if (!trimmed || trimmed.startsWith("#")) continue;
-    const eqIdx = trimmed.indexOf("=");
-    if (eqIdx === -1) continue;
-    const key = trimmed.slice(0, eqIdx).trim();
-    const value = trimmed.slice(eqIdx + 1).trim();
-    if (!process.env[key]) {
-      process.env[key] = value;
-    }
-  }
-} catch {
-  // .env.local may not exist
-}
+loadEnv();
 
 async function main() {
   const migrationFile = process.argv[2];
@@ -72,7 +55,8 @@ async function main() {
     console.error("\npsql failed. Trying node-postgres fallback...");
     // Fallback: try using fetch against Supabase SQL endpoint
     console.error("Could not execute migration. Please run manually:");
-    console.error(`  psql "${dbUrl}" -f ${migrationFile}`);
+    const maskedUrl = dbUrl.replace(/:([^@]+)@/, ":****@");
+    console.error(`  psql "${maskedUrl}" -f ${migrationFile}`);
     console.error("");
     console.error("Or paste the SQL into: Supabase Dashboard → SQL Editor");
     process.exit(1);

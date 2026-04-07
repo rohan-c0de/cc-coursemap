@@ -8,7 +8,7 @@ function dataPath(state = "va"): string {
 }
 
 // Module-level cache (keyed by state)
-let cache: { state: string; data: TransferMapping[] } | null = null;
+const transferCache: Record<string, TransferMapping[]> = {};
 
 // Supabase default max rows per request is 1,000 — PAGE_SIZE must not
 // exceed that or the pagination loop will exit early, loading only a
@@ -22,7 +22,7 @@ const PAGE_SIZE = 1000;
 export async function loadTransferMappings(
   state = "va"
 ): Promise<TransferMapping[]> {
-  if (cache && cache.state === state) return cache.data;
+  if (transferCache[state]) return transferCache[state];
 
   // Try Supabase first
   try {
@@ -48,7 +48,7 @@ export async function loadTransferMappings(
     }
 
     if (allData.length > 0) {
-      cache = { state, data: allData };
+      transferCache[state] = allData;
       return allData;
     }
   } catch {
@@ -59,7 +59,7 @@ export async function loadTransferMappings(
   try {
     const raw = fs.readFileSync(dataPath(state), "utf-8");
     const data = JSON.parse(raw) as TransferMapping[];
-    cache = { state, data };
+    transferCache[state] = data;
     return data;
   } catch {
     return [];
@@ -80,9 +80,9 @@ export async function getTransferInfo(
 
 /**
  * Get a short summary string for display, e.g.:
- *   "→ VT: ENGL 1105"
- *   "→ VT: BUS 1XXX (elective)"
- *   "✗ No VT credit"
+ *   "→ UNI: ENGL 1105"
+ *   "→ UNI: BUS 1XXX (elective)"
+ *   "✗ No UNI credit"
  *   null if no data
  */
 export async function transferSummaryLine(
@@ -95,17 +95,18 @@ export async function transferSummaryLine(
 
   // Use first mapping (usually one per course per university)
   const m = info[0];
+  const uni = (m.university || "").toUpperCase();
   if (m.no_credit) {
-    return { text: `No VT credit`, type: "no-credit" };
+    return { text: `No ${uni} credit`, type: "no-credit" };
   }
   if (m.is_elective) {
     return {
-      text: `VT: ${m.univ_course} (elective)`,
+      text: `${uni}: ${m.univ_course} (elective)`,
       type: "elective",
     };
   }
   return {
-    text: `VT: ${m.univ_course}`,
+    text: `${uni}: ${m.univ_course}`,
     type: "direct",
   };
 }

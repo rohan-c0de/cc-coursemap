@@ -62,9 +62,12 @@ export function rateLimit(
  * Extract a rate-limit key from a request (uses IP or forwarded-for header).
  */
 export function getClientKey(request: Request): string {
+  // On Vercel/Cloudflare, x-forwarded-for is set by the proxy and cannot be spoofed.
+  // In direct-access deployments, this header IS spoofable.
   const forwarded = request.headers.get("x-forwarded-for");
   if (forwarded) return forwarded.split(",")[0].trim();
   const real = request.headers.get("x-real-ip");
   if (real) return real;
-  return "unknown";
+  // Fallback: use user-agent to avoid single shared bucket
+  return `anon-${request.headers.get("user-agent")?.slice(0, 50) || "unknown"}`;
 }

@@ -11,7 +11,9 @@ export default function Error({
     <div className="flex flex-1 flex-col items-center justify-center px-4 py-24">
       <h1 className="text-4xl font-bold text-gray-200">Something went wrong</h1>
       <p className="mt-4 text-gray-600 text-center max-w-md">
-        {error.message || "An unexpected error occurred. Please try again."}
+        {error.digest
+          ? "An unexpected error occurred. Please try again."
+          : error.message || "An unexpected error occurred. Please try again."}
       </p>
       <button
         type="button"

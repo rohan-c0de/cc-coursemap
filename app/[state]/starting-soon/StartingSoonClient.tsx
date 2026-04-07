@@ -113,7 +113,7 @@ function daysAwayLabel(days: number): string {
 // ---------------------------------------------------------------------------
 
 export default function StartingSoonClient({ state, defaultZip }: { state: string; defaultZip?: string }) {
-  const [window, setWindow] = useState(60);
+  const [daysWindow, setDaysWindow] = useState(60);
   const [subject, setSubject] = useState("");
   const [mode, setMode] = useState("");
   const [zip, setZip] = useState("");
@@ -129,7 +129,7 @@ export default function StartingSoonClient({ state, defaultZip }: { state: strin
     setLoading(true);
     setError("");
     try {
-      const params = new URLSearchParams({ window: String(window) });
+      const params = new URLSearchParams({ window: String(daysWindow) });
       if (subject) params.set("subject", subject);
       if (mode) params.set("mode", mode);
       if (zip) params.set("zip", zip);
@@ -144,7 +144,7 @@ export default function StartingSoonClient({ state, defaultZip }: { state: strin
     } finally {
       setLoading(false);
     }
-  }, [window, subject, mode, zip]);
+  }, [daysWindow, subject, mode, zip, state]);
 
   useEffect(() => {
     fetchData();
@@ -177,8 +177,8 @@ export default function StartingSoonClient({ state, defaultZip }: { state: strin
             Time Window
           </label>
           <select
-            value={window}
-            onChange={(e) => setWindow(Number(e.target.value))}
+            value={daysWindow}
+            onChange={(e) => setDaysWindow(Number(e.target.value))}
             className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 dark:text-slate-100 px-3 py-2 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
           >
             {WINDOW_OPTIONS.map((o) => (
@@ -278,7 +278,7 @@ export default function StartingSoonClient({ state, defaultZip }: { state: strin
       {!loading && !error && data && data.dateGroups.length === 0 && (
         <div className="rounded-lg border border-dashed border-gray-300 dark:border-slate-600 py-12 text-center">
           <p className="text-gray-500 dark:text-slate-400 mb-2">
-            No courses starting in the next {window} days.
+            No courses starting in the next {daysWindow} days.
           </p>
           <p className="text-sm text-gray-400 dark:text-slate-500">
             Try expanding the time window or clearing filters.

@@ -22,7 +22,7 @@ function loadZipData(state = "va"): Record<
 }
 
 /**
- * Look up coordinates and city name for a Virginia ZIP code.
+ * Look up coordinates and city name for a ZIP code in the given state.
  * Returns null if the ZIP code is not found in the static dataset.
  */
 export function getZipCoordinates(

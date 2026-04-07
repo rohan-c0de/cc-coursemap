@@ -12,28 +12,7 @@ import { sendNewTermNotification } from "../lib/email";
 import { isValidState } from "../lib/states/registry";
 
 // Load .env.local for Supabase + Resend keys
-import * as fs from "fs";
-import * as path from "path";
-
-function loadEnv() {
-  const envPath = path.join(process.cwd(), ".env.local");
-  try {
-    const content = fs.readFileSync(envPath, "utf-8");
-    for (const line of content.split("\n")) {
-      const trimmed = line.trim();
-      if (!trimmed || trimmed.startsWith("#")) continue;
-      const eqIdx = trimmed.indexOf("=");
-      if (eqIdx === -1) continue;
-      const key = trimmed.slice(0, eqIdx).trim();
-      const value = trimmed.slice(eqIdx + 1).trim();
-      if (!process.env[key]) {
-        process.env[key] = value;
-      }
-    }
-  } catch {
-    // .env.local may not exist
-  }
-}
+import { loadEnv } from "./lib/load-env";
 
 loadEnv();
 

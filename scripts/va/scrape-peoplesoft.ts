@@ -446,6 +446,7 @@ function rawCardToSection(
     campus,
     mode,
     instructor,
+    // PeopleSoft UI only exposes open/closed status, not actual seat counts
     seats_open: isOpen ? 1 : 0,
     seats_total: null,
     prerequisite_text: null,
@@ -604,4 +605,4 @@ async function main() {
   console.log(`${"=".repeat(60)}\n`);
 }
 
-main().catch(console.error);
+main().catch((e) => { console.error(e); process.exit(1); });

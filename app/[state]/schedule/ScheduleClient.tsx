@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useRef, useMemo } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import ScheduleForm from "@/components/schedule/ScheduleForm";
 import ScheduleResults from "@/components/schedule/ScheduleResults";
@@ -106,7 +106,7 @@ export default function ScheduleClient({ state, systemName, collegeCount, defaul
   const autoBuilt = useRef(false);
 
   // Parse initial defaults from URL
-  const initialDefaults = paramsToDefaults(searchParams);
+  const initialDefaults = useMemo(() => paramsToDefaults(searchParams), [searchParams]);
 
   const handleBuild = useCallback(async (data: ScheduleFormData) => {
     setLoading(true);

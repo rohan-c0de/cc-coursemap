@@ -14,13 +14,29 @@ interface CacheEntry<T> {
 }
 
 const cache = new Map<string, CacheEntry<unknown>>();
+const inflight = new Map<string, Promise<unknown>>();
 
 async function cached<T>(key: string, fn: () => Promise<T>): Promise<T> {
   const entry = cache.get(key) as CacheEntry<T> | undefined;
   if (entry && entry.expires > Date.now()) return entry.data;
-  const data = await fn();
-  cache.set(key, { data, expires: Date.now() + CACHE_TTL });
-  return data;
+
+  // Deduplicate concurrent requests for the same key
+  const existing = inflight.get(key) as Promise<T> | undefined;
+  if (existing) return existing;
+
+  const promise = fn()
+    .then((data) => {
+      cache.set(key, { data, expires: Date.now() + CACHE_TTL });
+      inflight.delete(key);
+      return data;
+    })
+    .catch((err) => {
+      inflight.delete(key);
+      throw err;
+    });
+
+  inflight.set(key, promise);
+  return promise;
 }
 
 /**
@@ -68,7 +84,8 @@ export async function getAvailableTerms(state = "va"): Promise<string[]> {
     const { data: fallback, error: fbErr } = await supabase
       .from("courses")
       .select("term")
-      .eq("state", state);
+      .eq("state", state)
+      .limit(50000);
 
     if (fbErr || !fallback) return [];
 

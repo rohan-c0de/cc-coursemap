@@ -368,6 +368,7 @@ async function scrapeCollege(slug: string, targetTerm: string): Promise<CourseSe
         if (sections.length > 0) process.stdout.write(".");
       } else {
         errorCount++;
+        console.error(`  Page fetch failed:`, result.reason);
       }
     }
 

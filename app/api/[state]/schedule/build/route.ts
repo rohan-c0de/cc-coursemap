@@ -37,6 +37,13 @@ export async function POST(req: Request, context: RouteContext) {
       );
     }
 
+    if (!body.subjects.every((s: unknown) => typeof s === "string")) {
+      return NextResponse.json(
+        { error: "All subjects must be strings." },
+        { status: 400 }
+      );
+    }
+
     if (
       !body.daysAvailable ||
       !Array.isArray(body.daysAvailable) ||
@@ -44,6 +51,14 @@ export async function POST(req: Request, context: RouteContext) {
     ) {
       return NextResponse.json(
         { error: "At least one available day is required." },
+        { status: 400 }
+      );
+    }
+
+    const VALID_DAYS = ["M", "Tu", "W", "Th", "F", "Sa", "Su"];
+    if (!body.daysAvailable.every((d: unknown) => typeof d === "string" && VALID_DAYS.includes(d))) {
+      return NextResponse.json(
+        { error: "Invalid day value." },
         { status: 400 }
       );
     }
@@ -63,7 +78,7 @@ export async function POST(req: Request, context: RouteContext) {
       timeWindowEnd: body.timeWindowEnd || "evening",
       maxCourses: maxCourses as 1 | 2 | 3 | 4 | 5,
       zip: body.zip || undefined,
-      maxDistance: body.maxDistance || undefined,
+      maxDistance: body.maxDistance ?? undefined,
       mode: body.mode || "any",
       minBreakMinutes: body.minBreakMinutes ?? 0,
       includeInProgress: body.includeInProgress ?? false,

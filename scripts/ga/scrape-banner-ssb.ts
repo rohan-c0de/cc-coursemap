@@ -12,7 +12,9 @@
  *   npx tsx scripts/ga/scrape-banner-ssb.ts --all
  */
 
-// Some TCSG colleges have self-signed or expired SSL certs
+// WARNING: Disables TLS verification globally. Required because some TCSG
+// colleges have self-signed or expired SSL certs. Re-enable before any
+// non-scrape network calls if this script is extended.
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 import fs from "fs";
@@ -535,4 +537,4 @@ async function main() {
   console.log("\nDone.");
 }
 
-main().catch(console.error);
+main().catch((e) => { console.error(e); process.exit(1); });

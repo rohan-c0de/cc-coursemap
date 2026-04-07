@@ -13,13 +13,29 @@ interface CacheEntry<T> {
 }
 
 const cache = new Map<string, CacheEntry<unknown>>();
+const inflight = new Map<string, Promise<unknown>>();
 
 async function cached<T>(key: string, fn: () => Promise<T>): Promise<T> {
   const entry = cache.get(key) as CacheEntry<T> | undefined;
   if (entry && entry.expires > Date.now()) return entry.data;
-  const data = await fn();
-  cache.set(key, { data, expires: Date.now() + CACHE_TTL });
-  return data;
+
+  // Deduplicate concurrent requests for the same key
+  const existing = inflight.get(key) as Promise<T> | undefined;
+  if (existing) return existing;
+
+  const promise = fn()
+    .then((data) => {
+      cache.set(key, { data, expires: Date.now() + CACHE_TTL });
+      inflight.delete(key);
+      return data;
+    })
+    .catch((err) => {
+      inflight.delete(key);
+      throw err;
+    });
+
+  inflight.set(key, promise);
+  return promise;
 }
 
 /**
@@ -101,12 +117,16 @@ export async function getCurrentTerm(state = "va"): Promise<string> {
     let bestCount = 0;
 
     for (const term of terms) {
-      const { count } = await supabase
+      const { count, error: countErr } = await supabase
         .from("courses")
         .select("id", { count: "exact", head: true })
         .eq("state", state)
         .eq("term", term);
 
+      if (countErr) {
+        console.error(`Term count error for ${term}:`, countErr.message);
+        continue;
+      }
       const c = count || 0;
       if (
         c > bestCount ||
