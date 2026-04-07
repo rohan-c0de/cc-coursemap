@@ -165,19 +165,26 @@ export async function importCoursesToSupabase(state: string): Promise<number> {
         prerequisite_courses: (s.prerequisite_courses as string[]) || [],
       }));
 
-      // Insert in batches
+      // Insert in batches — abort on first failure to limit data loss
       let inserted = 0;
+      let aborted = false;
       for (let i = 0; i < rows.length; i += BATCH_SIZE) {
         const batch = rows.slice(i, i + BATCH_SIZE);
         const { error: insError } = await sb.from("courses").insert(batch);
         if (insError) {
           console.error(
-            `  Error inserting ${slug}/${term} batch ${i}:`,
-            insError.message
+            `  FATAL: Insert failed for ${slug}/${term} batch ${i}: ${insError.message}`
           );
-        } else {
-          inserted += batch.length;
+          console.error(
+            `  WARNING: ${rows.length - inserted} rows lost — delete already committed.`
+          );
+          aborted = true;
+          break;
         }
+        inserted += batch.length;
+      }
+      if (aborted) {
+        console.error(`  Aborting remaining batches for ${slug}/${term}.`);
       }
 
       totalInserted += inserted;
@@ -286,19 +293,26 @@ export async function importTransfersToSupabase(
     is_elective: (m.is_elective as boolean) || false,
   }));
 
-  // Insert in batches
+  // Insert in batches — abort on first failure to limit data loss
   let totalInserted = 0;
+  let aborted = false;
   for (let i = 0; i < rows.length; i += BATCH_SIZE) {
     const batch = rows.slice(i, i + BATCH_SIZE);
     const { error: insError } = await sb.from("transfers").insert(batch);
     if (insError) {
       console.error(
-        `  Error inserting transfers batch ${i}:`,
-        insError.message
+        `  FATAL: Insert failed for ${state} transfers batch ${i}: ${insError.message}`
       );
-    } else {
-      totalInserted += batch.length;
+      console.error(
+        `  WARNING: ${rows.length - totalInserted} rows lost — delete already committed.`
+      );
+      aborted = true;
+      break;
     }
+    totalInserted += batch.length;
+  }
+  if (aborted) {
+    console.error(`  Aborting remaining transfer batches for ${state}.`);
   }
 
   console.log(`  Total transfers for ${state.toUpperCase()}: ${totalInserted}`);

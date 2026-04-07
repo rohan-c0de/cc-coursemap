@@ -97,7 +97,7 @@ async function main() {
   for (let i = 0; i < subscribers.length; i += BATCH_SIZE) {
     const batch = subscribers.slice(i, i + BATCH_SIZE);
     const results = await Promise.allSettled(
-      batch.map((sub) => sendNewTermNotification(sub.email, state, term))
+      batch.map((sub) => sendNewTermNotification(sub.email, state, term, sub.token))
     );
 
     for (const r of results) {

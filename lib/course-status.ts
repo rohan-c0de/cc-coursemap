@@ -15,8 +15,8 @@ function todayStr(): string {
 
 /** Days from today until startDate. Negative = already started. */
 export function daysUntilStart(startDate: string): number {
-  const today = new Date(todayStr() + "T00:00:00");
-  const start = new Date(startDate + "T00:00:00");
+  const today = new Date(todayStr() + "T00:00:00Z");
+  const start = new Date(startDate + "T00:00:00Z");
   return Math.round((start.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
 }
 
@@ -34,7 +34,7 @@ export function formatStartInfo(startDate: string): string {
   if (!startDate) return "Date TBA";
 
   const days = daysUntilStart(startDate);
-  const date = new Date(startDate + "T00:00:00");
+  const date = new Date(startDate + "T00:00:00Z");
   const monthDay = date.toLocaleDateString("en-US", {
     month: "short",
     day: "numeric",

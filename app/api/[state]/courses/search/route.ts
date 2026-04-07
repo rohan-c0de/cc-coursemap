@@ -40,8 +40,8 @@ export async function GET(request: NextRequest, context: RouteContext) {
     | "afternoon"
     | "evening"
     | undefined;
-  const limit = parseInt(searchParams.get("limit") || "10", 10);
-  const offset = parseInt(searchParams.get("offset") || "0", 10);
+  const limit = Math.max(1, Math.min(parseInt(searchParams.get("limit") || "10", 10) || 10, 100));
+  const offset = Math.max(0, parseInt(searchParams.get("offset") || "0", 10) || 0);
 
   if (!q || q.length < 2) {
     return NextResponse.json(

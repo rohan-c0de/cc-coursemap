@@ -21,8 +21,8 @@ function getSiteUrl(): string {
   return process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
 }
 
-function unsubscribeUrl(email: string, state: string): string {
-  return `${getSiteUrl()}/api/unsubscribe?email=${encodeURIComponent(email)}&state=${state}`;
+function unsubscribeUrl(token: string, state: string): string {
+  return `${getSiteUrl()}/api/unsubscribe?token=${encodeURIComponent(token)}&state=${state}`;
 }
 
 /**
@@ -35,7 +35,7 @@ export async function sendVerificationEmail(
 ): Promise<void> {
   const siteUrl = getSiteUrl();
   const verifyUrl = `${siteUrl}/api/verify?token=${token}&state=${state}`;
-  const unsubUrl = unsubscribeUrl(email, state);
+  const unsubUrl = unsubscribeUrl(token, state);
 
   let stateName: string;
   try {
@@ -102,11 +102,12 @@ export async function sendVerificationEmail(
 export async function sendNewTermNotification(
   email: string,
   state: string,
-  termLabel: string
+  termLabel: string,
+  token: string
 ): Promise<void> {
   const siteUrl = getSiteUrl();
   const browseUrl = `${siteUrl}/${state}`;
-  const unsubUrl = unsubscribeUrl(email, state);
+  const unsubUrl = unsubscribeUrl(token, state);
 
   let stateName: string;
   try {

@@ -122,6 +122,23 @@ export async function removeSubscriber(
 }
 
 /**
+ * Remove a subscriber by their unique token.
+ * Returns true if a row was deleted.
+ */
+export async function removeSubscriberByToken(
+  token: string
+): Promise<boolean> {
+  const sb = getServiceClient();
+
+  const { count } = await sb
+    .from("subscribers")
+    .delete({ count: "exact" })
+    .eq("token", token);
+
+  return (count || 0) > 0;
+}
+
+/**
  * Get all verified subscribers for a given state.
  */
 export async function getVerifiedSubscribers(

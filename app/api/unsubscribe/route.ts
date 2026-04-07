@@ -1,15 +1,21 @@
 import { isValidState, getStateConfig } from "@/lib/states/registry";
-import { removeSubscriber } from "@/lib/subscribers";
+import { removeSubscriberByToken } from "@/lib/subscribers";
+import { rateLimit, getClientKey } from "@/lib/rate-limit";
 
 export async function GET(req: Request) {
+  const { allowed } = rateLimit(getClientKey(req), 5);
+  if (!allowed) {
+    return new Response("Too many requests. Please try again later.", { status: 429 });
+  }
+
   const url = new URL(req.url);
-  const email = url.searchParams.get("email");
+  const token = url.searchParams.get("token");
   const state = url.searchParams.get("state");
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
 
-  if (email && state && isValidState(state)) {
-    await removeSubscriber(state, decodeURIComponent(email));
+  if (token && state && isValidState(state)) {
+    await removeSubscriberByToken(token);
   }
 
   let stateName = "your state";

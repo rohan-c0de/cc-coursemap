@@ -74,11 +74,11 @@ export async function generateSchedules(
   const distanceMap = new Map<string, number>();
 
   if (request.zip) {
-    const zipInfo = getZipCoordinates(request.zip);
+    const zipInfo = getZipCoordinates(request.zip, state);
     if (zipInfo) {
       userCoords = { lat: zipInfo.lat, lng: zipInfo.lng };
       for (const inst of institutions) {
-        if (inst.campuses.length === 0) continue;
+        if (!inst.campuses || inst.campuses.length === 0) continue;
         const minDist = Math.min(
           ...inst.campuses.map((c) =>
             calculateDistance(userCoords!.lat, userCoords!.lng, c.lat, c.lng)
@@ -107,7 +107,7 @@ export async function generateSchedules(
   );
 
   // Stage 1: Filter all sections to candidates
-  const term = request.term || await getCurrentTerm();
+  const term = request.term || await getCurrentTerm(state);
   const allSections = await loadAllCourses(term, state);
   const hideFullSections = request.hideFullSections !== false; // default true
   const { sections: candidates, filteredFullCount } = filterSections(
@@ -695,7 +695,7 @@ function scoreDistance(
   maxDistance: number
 ): number {
   const MAX = 20;
-  if (maxDistance === Infinity || maxDistance === 0) return MAX;
+  if (!isFinite(maxDistance) || maxDistance <= 0) return MAX;
 
   const distances: number[] = [];
   for (const s of sections) {

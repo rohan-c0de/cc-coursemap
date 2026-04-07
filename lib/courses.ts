@@ -325,7 +325,7 @@ export async function searchCoursesAcrossColleges(
   // Get user coordinates for distance
   let userCoords: { lat: number; lng: number } | null = null;
   if (filters.zip) {
-    const zipInfo = getZipCoordinates(filters.zip);
+    const zipInfo = getZipCoordinates(filters.zip, state);
     if (zipInfo) userCoords = { lat: zipInfo.lat, lng: zipInfo.lng };
   }
 
@@ -410,7 +410,7 @@ export async function searchCoursesAcrossColleges(
         slug,
         name: inst?.name || slug,
         distance,
-        auditAllowed: inst?.audit_policy.allowed ?? null,
+        auditAllowed: inst?.audit_policy?.allowed ?? null,
         sections,
       });
     }
