@@ -1,11 +1,15 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import ResultsContent from "./ResultsContent";
-import { getStateConfig } from "@/lib/states/registry";
+import { getStateConfig, getAllStates } from "@/lib/states/registry";
 
 type Props = {
   params: Promise<{ state: string }>;
 };
+
+export function generateStaticParams() {
+  return getAllStates().map((s) => ({ state: s.slug }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;

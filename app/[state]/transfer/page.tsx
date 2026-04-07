@@ -4,12 +4,18 @@ import { notFound } from "next/navigation";
 import { loadTransferMappings, getUniversities } from "@/lib/transfer";
 import { loadAllCourses } from "@/lib/courses";
 import { getCurrentTerm } from "@/lib/terms";
-import { getStateConfig } from "@/lib/states/registry";
+import { getStateConfig, getAllStates } from "@/lib/states/registry";
 import TransferClient from "./TransferClient";
 
 type Props = {
   params: Promise<{ state: string }>;
 };
+
+export function generateStaticParams() {
+  return getAllStates()
+    .filter((s) => s.transferSupported)
+    .map((s) => ({ state: s.slug }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
@@ -18,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Transfer Course Finder — Which ${config.systemName} Courses Transfer? | ${config.branding.siteName}`,
     description: `Find which ${config.name} community college courses transfer to universities. See direct equivalencies, elective credit, and course availability.`,
+    keywords: config.branding.metaKeywords,
   };
 }
 

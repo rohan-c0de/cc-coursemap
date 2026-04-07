@@ -14,6 +14,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const config = getStateConfig(state);
   const b = config.branding;
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
+
   return {
     title: `${b.siteName} — Community College Course Finder`,
     description: b.tagline,
@@ -24,6 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: b.siteName,
       type: "website",
       locale: "en_US",
+      url: `${baseUrl}/${state}`,
+      images: [{ url: `${baseUrl}/${state}/opengraph-image`, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",

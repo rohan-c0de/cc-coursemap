@@ -59,6 +59,13 @@ export default function MapView({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // Recenter map when center/zoom props change
+  useEffect(() => {
+    const map = mapInstanceRef.current;
+    if (!map) return;
+    map.setView([center.lat, center.lng], zoom);
+  }, [center.lat, center.lng, zoom]);
+
   // Update markers when institutions change
   useEffect(() => {
     const map = mapInstanceRef.current;

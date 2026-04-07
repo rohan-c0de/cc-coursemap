@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import ScheduleClient from "./ScheduleClient";
-import { getStateConfig } from "@/lib/states/registry";
+import { getStateConfig, getAllStates } from "@/lib/states/registry";
 import { getUniversities } from "@/lib/transfer";
 import { getAvailableTermsForDisplay } from "@/lib/terms";
 
 type Props = {
   params: Promise<{ state: string }>;
 };
+
+export function generateStaticParams() {
+  return getAllStates().map((s) => ({ state: s.slug }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;

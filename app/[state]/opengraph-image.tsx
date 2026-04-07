@@ -104,7 +104,7 @@ export default async function Image({
               maxWidth: "800px",
             }}
           >
-            {`Search ${config.collegeCount} ${config.systemName} colleges · Transfer equivalencies · Schedule builder · Free for ${config.seniorWaiver?.ageThreshold ?? 60}+`}
+            {`Search ${config.collegeCount} ${config.systemName} colleges · Transfer equivalencies · Schedule builder${config.seniorWaiver ? ` · Free for ${config.seniorWaiver.ageThreshold}+` : ""}`}
           </div>
         </div>
       </div>

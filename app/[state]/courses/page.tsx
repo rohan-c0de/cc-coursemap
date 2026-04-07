@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import CourseSearchClient from "./CourseSearchClient";
-import { getStateConfig } from "@/lib/states/registry";
+import { getStateConfig, getAllStates } from "@/lib/states/registry";
 import { loadInstitutions } from "@/lib/institutions";
 
 type Props = {
   params: Promise<{ state: string }>;
 };
+
+export function generateStaticParams() {
+  return getAllStates().map((s) => ({ state: s.slug }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
@@ -13,6 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Find a Course — Search All ${config.collegeCount} ${config.systemName} Colleges | ${config.branding.siteName}`,
     description: `Search for courses across all ${config.collegeCount} ${config.name} community colleges at once. Find the best schedule, location, and format for auditing.`,
+    keywords: config.branding.metaKeywords,
   };
 }
 

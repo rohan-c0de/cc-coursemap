@@ -216,7 +216,7 @@ export default function TransferClient({
             {/* Detail link */}
             {availability && !m.no_credit && (
               <Link
-                href={`/${state}/courses?q=${m.cc_prefix}+${m.cc_number}`}
+                href={`/${state}/courses?q=${encodeURIComponent(m.cc_prefix + " " + m.cc_number)}`}
                 className="text-[10px] text-teal-600 hover:text-teal-800 hover:underline whitespace-nowrap"
               >
                 {availability.totalSections} sections at{" "}
