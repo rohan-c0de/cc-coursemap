@@ -82,6 +82,9 @@ jobs:
         with:
           node-version: 20
           cache: npm
+      # scrape-transfer-wingate shells out to python3 -c "import pdfplumber".
+      - name: Install pdfplumber
+        run: pip install --quiet pdfplumber
       - run: npm ci
       - run: npx tsx scripts/${{ matrix.script }}.ts
 
