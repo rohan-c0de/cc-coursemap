@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { path: "/starting-soon", label: "Starting Soon" },
   { path: "/schedule", label: "Schedule Builder" },
   { path: "/transfer", label: "Transfer" },
+  { path: "/plan", label: "Semester Planner" },
   { path: "/colleges", label: "All Colleges" },
   { path: "/about", label: "About" },
 ];
