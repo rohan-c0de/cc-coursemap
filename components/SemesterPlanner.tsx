@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useMemo, useEffect, useRef } from "react";
+import { Fragment, useState, useCallback, useMemo, useEffect, useRef } from "react";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -298,108 +298,154 @@ function CourseSearch({
 }
 
 // ---------------------------------------------------------------------------
-// Semester card
+// Horizontal flowchart components
 // ---------------------------------------------------------------------------
 
-function SemesterCard({
-  semester,
-  courses,
-  onRemove,
-}: {
-  semester: number;
-  courses: PlanCourse[];
-  onRemove: (code: string) => void;
-}) {
-  const targets = courses.filter((c) => c.isTarget);
-  const prereqs = courses.filter((c) => !c.isTarget);
-
+/** Animated flowing connector arrow between semester columns */
+function SemesterConnector() {
   return (
-    <div className="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/80 overflow-hidden shadow-sm">
-      {/* Header */}
-      <div className="px-4 py-2.5 bg-gradient-to-r from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-750 border-b border-slate-200 dark:border-slate-700">
-        <div className="flex items-center justify-between">
-          <h3 className="text-sm font-bold text-slate-700 dark:text-slate-200">
-            Semester {semester}
-          </h3>
-          <span className="text-[10px] font-medium text-slate-400 dark:text-slate-500 uppercase tracking-wider">
-            {courses.length} {courses.length === 1 ? "course" : "courses"}
-          </span>
-        </div>
+    <div className="flex items-center shrink-0 mx-1.5 self-center">
+      {/* Track line */}
+      <div className="w-8 h-[2px] rounded-full bg-gradient-to-r from-slate-200 via-slate-300 to-slate-200 dark:from-slate-700 dark:via-slate-600 dark:to-slate-700 overflow-hidden relative">
+        {/* Animated flow pulse */}
+        <div
+          className="absolute inset-y-0 w-3 bg-gradient-to-r from-transparent via-teal-400/60 to-transparent dark:via-teal-500/40 animate-[flow_2s_ease-in-out_infinite]"
+        />
       </div>
-
-      {/* Course list */}
-      <div className="p-3 space-y-1.5">
-        {targets.map((course) => (
-          <div
-            key={course.code}
-            className="flex items-center justify-between rounded-lg bg-teal-50 dark:bg-teal-900/30 border border-teal-200 dark:border-teal-800 px-3 py-2 group"
-          >
-            <div className="min-w-0">
-              <span className="font-bold text-sm text-teal-900 dark:text-teal-200">
-                {course.code}
-              </span>
-              <span className="ml-1.5 text-[10px] px-1.5 py-0.5 rounded-full bg-teal-200/60 dark:bg-teal-800/60 text-teal-700 dark:text-teal-300 font-semibold">
-                TARGET
-              </span>
-              {course.text && (
-                <p className="text-[11px] text-teal-600 dark:text-teal-400 mt-0.5 truncate">
-                  {course.text.length > 70
-                    ? course.text.slice(0, 70) + "..."
-                    : course.text}
-                </p>
-              )}
-            </div>
-            <button
-              onClick={() => onRemove(course.code)}
-              className="opacity-0 group-hover:opacity-100 text-teal-400 hover:text-red-500 transition-all ml-2"
-              title="Remove from plan"
-            >
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-        ))}
-
-        {prereqs.map((course) => (
-          <div
-            key={course.code}
-            className="flex items-center justify-between rounded-lg bg-slate-50 dark:bg-slate-700/40 border border-slate-200 dark:border-slate-600/50 px-3 py-2"
-          >
-            <div className="min-w-0">
-              <span className="font-semibold text-sm text-slate-700 dark:text-slate-300">
-                {course.code}
-              </span>
-              <span className="ml-1.5 text-[10px] text-slate-400 dark:text-slate-500">
-                prerequisite
-              </span>
-              {course.text && (
-                <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5 truncate">
-                  {course.text.length > 70
-                    ? course.text.slice(0, 70) + "..."
-                    : course.text}
-                </p>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
+      {/* Arrow head */}
+      <svg width="6" height="10" viewBox="0 0 6 10" className="shrink-0 -ml-0.5">
+        <polygon
+          points="0,1 5,5 0,9"
+          className="fill-slate-300 dark:fill-slate-500"
+          strokeLinejoin="round"
+        />
+      </svg>
     </div>
   );
 }
 
-// ---------------------------------------------------------------------------
-// Timeline connector
-// ---------------------------------------------------------------------------
-
-function TimelineArrow() {
+/** CSS keyframes for flow animation */
+function FlowStyles() {
   return (
-    <div className="flex items-center justify-center py-1">
-      <div className="flex flex-col items-center">
-        <div className="w-px h-4 bg-slate-300 dark:bg-slate-600" />
-        <svg width="10" height="6" viewBox="0 0 10 6" className="text-slate-300 dark:text-slate-600">
-          <polygon points="0,0 10,0 5,6" fill="currentColor" />
-        </svg>
+    <style>{`
+      @keyframes flow {
+        0%   { transform: translateX(-12px); opacity: 0; }
+        50%  { opacity: 1; }
+        100% { transform: translateX(32px); opacity: 0; }
+      }
+    `}</style>
+  );
+}
+
+/** A single course node in the flowchart */
+function CourseNode({
+  course,
+  onRemove,
+}: {
+  course: PlanCourse;
+  onRemove?: (code: string) => void;
+}) {
+  const [hover, setHover] = useState(false);
+
+  const style = course.isTarget
+    ? `bg-gradient-to-br from-teal-50 to-emerald-50 dark:from-teal-900/60 dark:to-emerald-900/40
+       border-teal-300 dark:border-teal-500/70 text-teal-900 dark:text-teal-100
+       shadow-teal-200/50 dark:shadow-teal-900/30 shadow-md`
+    : `bg-white/90 dark:bg-slate-700/60 border-slate-200 dark:border-slate-600/80
+       text-slate-700 dark:text-slate-200 shadow-sm backdrop-blur-sm`;
+
+  return (
+    <div
+      className="relative group"
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+    >
+      <div
+        className={`
+          relative flex items-center gap-1.5
+          rounded-xl border px-3 py-1.5
+          text-[11px] font-bold tracking-wide whitespace-nowrap shrink-0
+          transition-all duration-200
+          hover:scale-[1.04] hover:-translate-y-px
+          cursor-default
+          ${style}
+        `}
+      >
+        {course.code}
+        {course.isTarget && (
+          <span className="text-[8px] font-black px-1 py-0.5 rounded bg-teal-200/60 dark:bg-teal-700/60 text-teal-600 dark:text-teal-300 uppercase">
+            target
+          </span>
+        )}
+        {course.isTarget && onRemove && (
+          <button
+            onClick={() => onRemove(course.code)}
+            className="opacity-0 group-hover:opacity-100 text-teal-400 hover:text-red-500 transition-all ml-0.5"
+            title="Remove"
+          >
+            <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        )}
+      </div>
+
+      {/* Tooltip */}
+      {hover && course.text && (
+        <div
+          className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5
+            px-3 py-2 rounded-xl
+            bg-slate-900/95 dark:bg-slate-700/95
+            backdrop-blur-md
+            text-white text-[10px] leading-relaxed
+            max-w-[240px] whitespace-normal
+            shadow-2xl shadow-black/20
+            z-50 pointer-events-none"
+        >
+          <span className="font-bold text-white/90">{course.code}</span>
+          <br />
+          <span className="text-slate-300">{course.text}</span>
+          <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-slate-900/95 dark:border-t-slate-700/95" />
+        </div>
+      )}
+    </div>
+  );
+}
+
+/** A semester column in the flowchart */
+function SemesterColumn({
+  semester,
+  courses,
+  isLast,
+  onRemove,
+}: {
+  semester: number;
+  courses: PlanCourse[];
+  isLast: boolean;
+  onRemove: (code: string) => void;
+}) {
+  return (
+    <div className="flex flex-col items-center gap-1.5 shrink-0">
+      {/* Semester label */}
+      <div className={`
+        text-[9px] font-black uppercase tracking-[0.15em] px-2 py-0.5 rounded-full
+        ${isLast
+          ? "bg-teal-100 dark:bg-teal-900/40 text-teal-600 dark:text-teal-400"
+          : "bg-slate-100 dark:bg-slate-700 text-slate-400 dark:text-slate-500"
+        }
+      `}>
+        Sem {semester}
+      </div>
+
+      {/* Course nodes stacked vertically */}
+      <div className="flex flex-col gap-1.5">
+        {courses.map((course) => (
+          <CourseNode
+            key={course.code}
+            course={course}
+            onRemove={course.isTarget ? onRemove : undefined}
+          />
+        ))}
       </div>
     </div>
   );
@@ -557,20 +603,26 @@ export default function SemesterPlanner({ state }: SemesterPlannerProps) {
         </div>
       )}
 
-      {/* Semester timeline */}
+      {/* Semester flowchart */}
       {semesters.length > 0 ? (
-        <div className="space-y-0">
-          {semesters.map(([semester, courses], idx) => (
-            <div key={semester}>
-              {idx > 0 && <TimelineArrow />}
-              <SemesterCard
-                semester={semester}
-                courses={courses}
-                onRemove={removeTarget}
-              />
+        <>
+          <FlowStyles />
+          <div className="overflow-x-auto pb-3 -mx-1 px-1">
+            <div className="flex items-start">
+              {semesters.map(([semester, courses], idx) => (
+                <Fragment key={semester}>
+                  {idx > 0 && <SemesterConnector />}
+                  <SemesterColumn
+                    semester={semester}
+                    courses={courses}
+                    isLast={idx === semesters.length - 1}
+                    onRemove={removeTarget}
+                  />
+                </Fragment>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        </>
       ) : targets.length === 0 ? (
         <div className="rounded-xl border-2 border-dashed border-slate-200 dark:border-slate-700 py-16 text-center">
           <svg className="w-12 h-12 mx-auto text-slate-300 dark:text-slate-600 mb-3" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
