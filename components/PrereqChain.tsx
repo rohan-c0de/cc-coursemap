@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import PrereqFlowChart from "./PrereqFlowChart";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -19,45 +20,6 @@ interface PrereqChainProps {
   course: string;
   /** Human-readable prereq text already displayed on the badge */
   prereqText: string;
-}
-
-// ---------------------------------------------------------------------------
-// Tree rendering
-// ---------------------------------------------------------------------------
-
-function ChainTree({ node, depth }: { node: ChainNode; depth: number }) {
-  const hasChildren = node.children.length > 0;
-  const isRoot = depth === 0;
-
-  return (
-    <div className={depth > 0 ? "ml-4 border-l border-amber-300/50 dark:border-amber-700/50 pl-3" : ""}>
-      <div className="flex items-start gap-2 py-1">
-        {/* Connector dot for non-root nodes */}
-        {!isRoot && (
-          <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-amber-400 dark:bg-amber-600 shrink-0" />
-        )}
-        <div className="min-w-0">
-          <span className="font-semibold text-amber-800 dark:text-amber-300 text-xs">
-            {node.course}
-          </span>
-          {node.text && (
-            <span className="text-[10px] text-amber-600/80 dark:text-amber-400/70 ml-1.5">
-              {node.text.length > 80
-                ? node.text.slice(0, 80) + "..."
-                : node.text}
-            </span>
-          )}
-        </div>
-      </div>
-      {hasChildren && (
-        <div>
-          {node.children.map((child, i) => (
-            <ChainTree key={`${child.course}-${i}`} node={child} depth={depth + 1} />
-          ))}
-        </div>
-      )}
-    </div>
-  );
 }
 
 // ---------------------------------------------------------------------------
@@ -153,20 +115,15 @@ export default function PrereqChain({
         )}
       </div>
 
-      {/* Expanded chain tree */}
+      {/* Expanded flowchart */}
       {expanded && tree && (
-        <div className="mt-1.5 rounded-md bg-amber-50/50 dark:bg-amber-900/20 border border-amber-200/50 dark:border-amber-800/50 p-2">
+        <div className="mt-2 rounded-lg bg-slate-50/80 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-700/60 p-3">
           {tree.children.length === 0 ? (
-            <p className="text-[10px] text-amber-600 dark:text-amber-400 italic">
+            <p className="text-[10px] text-slate-500 dark:text-slate-400 italic">
               No course prerequisites in the chain (test scores or placement only)
             </p>
           ) : (
-            <div>
-              <p className="text-[10px] font-medium text-amber-700 dark:text-amber-300 mb-1">
-                Prerequisite chain for {course}:
-              </p>
-              <ChainTree node={tree} depth={0} />
-            </div>
+            <PrereqFlowChart tree={tree} />
           )}
         </div>
       )}
