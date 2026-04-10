@@ -1,7 +1,7 @@
 [
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ACCT",
     "course_number": "101",
     "course_title": "Financial Accounting",
@@ -27,7 +27,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ACCT",
     "course_number": "101",
     "course_title": "Financial Accounting",
@@ -53,7 +53,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ACCT",
     "course_number": "101",
     "course_title": "Financial Accounting",
@@ -79,7 +79,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ACCT",
     "course_number": "102",
     "course_title": "Managerial Accounting",
@@ -102,7 +102,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ACCT",
     "course_number": "102",
     "course_title": "Managerial Accounting",
@@ -125,7 +125,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ACCT",
     "course_number": "102",
     "course_title": "Managerial Accounting",
@@ -148,7 +148,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ACCT",
     "course_number": "201",
     "course_title": "Intermediate Accounting 1",
@@ -171,7 +171,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ACCT",
     "course_number": "210",
     "course_title": "Principles of Taxation 1",
@@ -194,7 +194,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ACCT",
     "course_number": "230",
     "course_title": "Principles of Auditing",
@@ -218,7 +218,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ACCT",
     "course_number": "231",
     "course_title": "Forensic Accounting",
@@ -242,7 +242,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ACCT",
     "course_number": "275",
     "course_title": "Quickbooks Online",
@@ -265,7 +265,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ANTH",
     "course_number": "101",
     "course_title": "Intro to Cultural Anth (B)",
@@ -288,7 +288,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ANTH",
     "course_number": "101",
     "course_title": "Intro to Cultural Anth (B)",
@@ -311,7 +311,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "101",
     "course_title": "Fundamentals of Art",
@@ -334,7 +334,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "105",
     "course_title": "2-D Design",
@@ -358,7 +358,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "110",
     "course_title": "3D Design",
@@ -383,7 +383,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "120",
     "course_title": "Drawing 1",
@@ -406,7 +406,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "125",
     "course_title": "Art Appreciation (A)",
@@ -429,7 +429,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "125",
     "course_title": "Art Appreciation (A)",
@@ -452,7 +452,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "125",
     "course_title": "Art Appreciation (A)",
@@ -475,7 +475,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "125",
     "course_title": "Art Appreciation (A)",
@@ -498,7 +498,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "130",
     "course_title": "Painting 1",
@@ -521,7 +521,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "135",
     "course_title": "Art-West World (to 1300) (A)",
@@ -544,7 +544,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "140",
     "course_title": "Ceramics",
@@ -567,7 +567,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "140",
     "course_title": "Ceramics",
@@ -590,7 +590,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "210",
     "course_title": "Relief Printmaking 1",
@@ -615,7 +615,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "220",
     "course_title": "Drawing 2",
@@ -640,7 +640,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "230",
     "course_title": "Painting 2",
@@ -665,7 +665,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ART",
     "course_number": "231",
     "course_title": "Horror & Macabre in Art (A)",
@@ -688,7 +688,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "100",
     "course_title": "General Biology (S)",
@@ -714,7 +714,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "100",
     "course_title": "General Biology (S)",
@@ -740,7 +740,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "100",
     "course_title": "General Biology (S)",
@@ -766,7 +766,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "101",
     "course_title": "Fundamentals of Biology 1 (S)",
@@ -792,7 +792,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "101",
     "course_title": "Fundamentals of Biology 1 (S)",
@@ -818,7 +818,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "101",
     "course_title": "Fundamentals of Biology 1 (S)",
@@ -844,7 +844,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "101",
     "course_title": "Fundamentals of Biology 1 (S)",
@@ -870,7 +870,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "101",
     "course_title": "Fundamentals of Biology 1 (S)",
@@ -896,7 +896,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "101",
     "course_title": "Fundamentals of Biology 1 (S)",
@@ -922,7 +922,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "101",
     "course_title": "Fundamentals of Biology 1 (S)",
@@ -948,7 +948,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "101",
     "course_title": "Fundamentals of Biology 1 (S)",
@@ -974,7 +974,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "105",
     "course_title": "Human Biology (S)",
@@ -1000,7 +1000,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "107",
     "course_title": "Introduction to Evolution (S)",
@@ -1023,7 +1023,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "107",
     "course_title": "Introduction to Evolution (S)",
@@ -1046,7 +1046,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "210",
     "course_title": "Human Anatomy & Phys 1 (S)",
@@ -1069,7 +1069,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "210",
     "course_title": "Human Anatomy & Phys 1 (S)",
@@ -1092,7 +1092,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "210",
     "course_title": "Human Anatomy & Phys 1 (S)",
@@ -1115,7 +1115,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "210",
     "course_title": "Human Anatomy & Phys 1 (S)",
@@ -1138,7 +1138,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "211",
     "course_title": "Human Anatomy & Physiology 2",
@@ -1161,7 +1161,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "211",
     "course_title": "Human Anatomy & Physiology 2",
@@ -1184,7 +1184,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "211",
     "course_title": "Human Anatomy & Physiology 2",
@@ -1207,7 +1207,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "215",
     "course_title": "Microbiology",
@@ -1230,7 +1230,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "215",
     "course_title": "Microbiology",
@@ -1253,7 +1253,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "215",
     "course_title": "Microbiology",
@@ -1276,7 +1276,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "220",
     "course_title": "Nutrition",
@@ -1299,7 +1299,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BIOL",
     "course_number": "240",
     "course_title": "Genetics",
@@ -1322,7 +1322,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BUAD",
     "course_number": "101",
     "course_title": "Introduction to Business",
@@ -1345,7 +1345,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BUAD",
     "course_number": "101",
     "course_title": "Introduction to Business",
@@ -1368,7 +1368,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BUAD",
     "course_number": "101",
     "course_title": "Introduction to Business",
@@ -1391,7 +1391,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BUAD",
     "course_number": "101",
     "course_title": "Introduction to Business",
@@ -1414,7 +1414,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BUAD",
     "course_number": "150",
     "course_title": "Human Relations",
@@ -1437,7 +1437,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BUAD",
     "course_number": "201",
     "course_title": "Business Ethics",
@@ -1463,7 +1463,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BUAD",
     "course_number": "205",
     "course_title": "Business Law",
@@ -1488,7 +1488,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "BUAD",
     "course_number": "230",
     "course_title": "Intro. to Entrepreneurship",
@@ -1513,7 +1513,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CAR",
     "course_number": "102",
     "course_title": "Career Self-Assess./Planning",
@@ -1536,7 +1536,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CHEM",
     "course_number": "101",
     "course_title": "Introduction to Chemistry (S)",
@@ -1562,7 +1562,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CHEM",
     "course_number": "105",
     "course_title": "Prin of General Chem 1(S)",
@@ -1587,7 +1587,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CHEM",
     "course_number": "105",
     "course_title": "Prin of General Chem 1(S)",
@@ -1612,7 +1612,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CHEM",
     "course_number": "105",
     "course_title": "Prin of General Chem 1(S)",
@@ -1637,7 +1637,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CHEM",
     "course_number": "105",
     "course_title": "Prin of General Chem 1(S)",
@@ -1662,7 +1662,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CHEM",
     "course_number": "105",
     "course_title": "Prin of General Chem 1(S)",
@@ -1687,7 +1687,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CHEM",
     "course_number": "106",
     "course_title": "Principles of General Chem 2",
@@ -1712,7 +1712,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CHEM",
     "course_number": "201",
     "course_title": "Organic Chemistry 1",
@@ -1735,7 +1735,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CHEM",
     "course_number": "201",
     "course_title": "Organic Chemistry 1",
@@ -1758,7 +1758,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "105",
     "course_title": "Intro to Speech Comm. (A)",
@@ -1781,7 +1781,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "105",
     "course_title": "Intro to Speech Comm. (A)",
@@ -1804,7 +1804,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "105",
     "course_title": "Intro to Speech Comm. (A)",
@@ -1827,7 +1827,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "105",
     "course_title": "Intro to Speech Comm. (A)",
@@ -1850,7 +1850,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "105",
     "course_title": "Intro to Speech Comm. (A)",
@@ -1873,7 +1873,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "105",
     "course_title": "Intro to Speech Comm. (A)",
@@ -1896,7 +1896,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "105",
     "course_title": "Intro to Speech Comm. (A)",
@@ -1919,7 +1919,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "105",
     "course_title": "Intro to Speech Comm. (A)",
@@ -1942,7 +1942,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "105",
     "course_title": "Intro to Speech Comm. (A)",
@@ -1965,7 +1965,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "105",
     "course_title": "Intro to Speech Comm. (A)",
@@ -1988,7 +1988,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "105",
     "course_title": "Intro to Speech Comm. (A)",
@@ -2011,7 +2011,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "201",
     "course_title": "Mass Communication (A)",
@@ -2034,7 +2034,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "205",
     "course_title": "Interpersonal Comm (A)",
@@ -2058,7 +2058,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "210",
     "course_title": "Journalism",
@@ -2081,7 +2081,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "COMM",
     "course_number": "220",
     "course_title": "Cinema and Culture (A)",
@@ -2105,7 +2105,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CGR",
     "course_number": "105",
     "course_title": "Intro to Computer Graphics",
@@ -2128,7 +2128,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CGR",
     "course_number": "105",
     "course_title": "Intro to Computer Graphics",
@@ -2151,7 +2151,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CGR",
     "course_number": "110",
     "course_title": "Typography",
@@ -2175,7 +2175,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CGR",
     "course_number": "115",
     "course_title": "Graphic Design 1",
@@ -2199,7 +2199,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CGR",
     "course_number": "130",
     "course_title": "Digital Video",
@@ -2222,7 +2222,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CGR",
     "course_number": "157",
     "course_title": "Intro. to Web Design",
@@ -2249,7 +2249,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CGR",
     "course_number": "252",
     "course_title": "Computer Illustration",
@@ -2275,7 +2275,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CGR",
     "course_number": "270",
     "course_title": "Portfolio & Career Development",
@@ -2296,7 +2296,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIA",
     "course_number": "111",
     "course_title": "Outlook",
@@ -2319,7 +2319,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIA",
     "course_number": "125",
     "course_title": "Word",
@@ -2342,7 +2342,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIA",
     "course_number": "155",
     "course_title": "Powerpoint",
@@ -2365,7 +2365,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIS",
     "course_number": "101",
     "course_title": "Intro. to Comp. Info. Systems",
@@ -2391,7 +2391,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIS",
     "course_number": "101",
     "course_title": "Intro. to Comp. Info. Systems",
@@ -2417,7 +2417,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIS",
     "course_number": "101",
     "course_title": "Intro. to Comp. Info. Systems",
@@ -2443,7 +2443,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIS",
     "course_number": "105",
     "course_title": "Intro Object-Oriented Prog.",
@@ -2469,7 +2469,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIS",
     "course_number": "124",
     "course_title": "Info. Systems Architect/Design",
@@ -2494,7 +2494,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIS",
     "course_number": "132",
     "course_title": "Principles of Programming",
@@ -2515,7 +2515,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIS",
     "course_number": "137",
     "course_title": "Intro.Web Development Tech.",
@@ -2541,7 +2541,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIS",
     "course_number": "148",
     "course_title": "Intro to Sql & Database Design",
@@ -2562,7 +2562,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIS",
     "course_number": "234",
     "course_title": "Client-Side Web Development",
@@ -2585,7 +2585,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CIS",
     "course_number": "271",
     "course_title": "CIS Capstone",
@@ -2606,7 +2606,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CMSC",
     "course_number": "201",
     "course_title": "Computer Science 1",
@@ -2629,7 +2629,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CMSC",
     "course_number": "202",
     "course_title": "Computer Science 2",
@@ -2653,7 +2653,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CMSC",
     "course_number": "203",
     "course_title": "Discrete Structures",
@@ -2676,7 +2676,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CRIM",
     "course_number": "101",
     "course_title": "Intro Crim Justice System (B)",
@@ -2699,7 +2699,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CRIM",
     "course_number": "101",
     "course_title": "Intro Crim Justice System (B)",
@@ -2722,7 +2722,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CRIM",
     "course_number": "101",
     "course_title": "Intro Crim Justice System (B)",
@@ -2745,7 +2745,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CRIM",
     "course_number": "103",
     "course_title": "Serial Killers",
@@ -2768,7 +2768,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CRIM",
     "course_number": "105",
     "course_title": "Criminology (B)",
@@ -2791,7 +2791,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CRIM",
     "course_number": "110",
     "course_title": "Criminal Law",
@@ -2814,7 +2814,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CYBR",
     "course_number": "108",
     "course_title": "Computer Repair and Support",
@@ -2839,7 +2839,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CYBR",
     "course_number": "108",
     "course_title": "Computer Repair and Support",
@@ -2864,7 +2864,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CYBR",
     "course_number": "121",
     "course_title": "Networking Essentials",
@@ -2887,7 +2887,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CYBR",
     "course_number": "121",
     "course_title": "Networking Essentials",
@@ -2910,7 +2910,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CYBR",
     "course_number": "122",
     "course_title": "Network Security",
@@ -2933,7 +2933,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CYBR",
     "course_number": "151",
     "course_title": "Networking 1",
@@ -2956,7 +2956,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CYBR",
     "course_number": "152",
     "course_title": "Networking 2",
@@ -2979,7 +2979,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CYBR",
     "course_number": "182",
     "course_title": "Linux System Administration",
@@ -3002,7 +3002,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CYBR",
     "course_number": "201",
     "course_title": "Digital Forensics",
@@ -3025,7 +3025,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CYBR",
     "course_number": "241",
     "course_title": "Intrusion/Detect./Penetration",
@@ -3049,7 +3049,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "CYBR",
     "course_number": "242",
     "course_title": "Advanced Network Defense",
@@ -3072,7 +3072,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "DATA",
     "course_number": "101",
     "course_title": "Introduction to Data Science",
@@ -3098,7 +3098,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "DATA",
     "course_number": "101",
     "course_title": "Introduction to Data Science",
@@ -3124,7 +3124,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "DFAB",
     "course_number": "100",
     "course_title": "Drawing Technique for Design",
@@ -3147,7 +3147,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "DFAB",
     "course_number": "101",
     "course_title": "Introduction to 3D Printing",
@@ -3173,7 +3173,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "DFAB",
     "course_number": "102",
     "course_title": "Digital Sculpting",
@@ -3196,7 +3196,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "DFAB",
     "course_number": "105",
     "course_title": "SOLIDWORKS Introduction",
@@ -3222,7 +3222,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "DFAB",
     "course_number": "106",
     "course_title": "Introduction to 3D Scanning",
@@ -3247,7 +3247,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "DFAB",
     "course_number": "206",
     "course_title": "Solidworks Essentials",
@@ -3271,7 +3271,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "DFAB",
     "course_number": "270",
     "course_title": "Capstone- Digital Fabrication",
@@ -3297,7 +3297,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECE",
     "course_number": "100",
     "course_title": "Intro to Early Childhood Ed",
@@ -3320,7 +3320,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECE",
     "course_number": "101",
     "course_title": "Child Growth and Development",
@@ -3343,7 +3343,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECE",
     "course_number": "104",
     "course_title": "Methods and Materials in ECE",
@@ -3366,7 +3366,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECE",
     "course_number": "115",
     "course_title": "School-Age Care (SAC)",
@@ -3389,7 +3389,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECE",
     "course_number": "210",
     "course_title": "Child Care Administration",
@@ -3412,7 +3412,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECE",
     "course_number": "225",
     "course_title": "Educational Psychology",
@@ -3436,7 +3436,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECON",
     "course_number": "100",
     "course_title": "Prin of Micro Economics (B)",
@@ -3462,7 +3462,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECON",
     "course_number": "100",
     "course_title": "Prin of Micro Economics (B)",
@@ -3488,7 +3488,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECON",
     "course_number": "100",
     "course_title": "Prin of Micro Economics (B)",
@@ -3514,7 +3514,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECON",
     "course_number": "102",
     "course_title": "Prin of Macro Economics (B)",
@@ -3540,7 +3540,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECON",
     "course_number": "102",
     "course_title": "Prin of Macro Economics (B)",
@@ -3566,7 +3566,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ECON",
     "course_number": "102",
     "course_title": "Prin of Macro Economics (B)",
@@ -3592,7 +3592,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "EDUC",
     "course_number": "120",
     "course_title": "Introduction to Education",
@@ -3616,7 +3616,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "EDUC",
     "course_number": "121",
     "course_title": "Directed Prac- Intro to Ed.",
@@ -3639,7 +3639,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "EDUC",
     "course_number": "225",
     "course_title": "Educational Psychology",
@@ -3665,7 +3665,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "EDUC",
     "course_number": "226",
     "course_title": "Directed Practicum for Ed Psyc",
@@ -3688,7 +3688,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "EDUC",
     "course_number": "230",
     "course_title": "Intro to Special Education",
@@ -3715,7 +3715,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "EDUC",
     "course_number": "231",
     "course_title": "Directed Practicum- Special Ed",
@@ -3738,7 +3738,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "EMS",
     "course_number": "003",
     "course_title": "Emergency Medical Technician 1",
@@ -3759,7 +3759,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGR",
     "course_number": "100",
     "course_title": "Intro to Engineering (B)",
@@ -3783,7 +3783,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGR",
     "course_number": "102",
     "course_title": "Statics",
@@ -3807,7 +3807,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENEE",
     "course_number": "244",
     "course_title": "Digital Logic Design",
@@ -3831,7 +3831,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENEE",
     "course_number": "245",
     "course_title": "Digital Circuits/Systems Lab.",
@@ -3855,7 +3855,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ELL",
     "course_number": "001",
     "course_title": "Integrated Read & Write- Eng 1",
@@ -3878,7 +3878,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ELL",
     "course_number": "001",
     "course_title": "Integrated Read & Write- Eng 1",
@@ -3901,7 +3901,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ELL",
     "course_number": "002",
     "course_title": "Integrated Read & Write-Eng 2",
@@ -3926,7 +3926,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ELL",
     "course_number": "002",
     "course_title": "Integrated Read & Write-Eng 2",
@@ -3951,7 +3951,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENG",
     "course_number": "001",
     "course_title": "Integrated Reading/Writing 1",
@@ -3972,7 +3972,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENG",
     "course_number": "002",
     "course_title": "Integrated Reading/Writing 2",
@@ -3995,7 +3995,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENG",
     "course_number": "002",
     "course_title": "Integrated Reading/Writing 2",
@@ -4018,7 +4018,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4041,7 +4041,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4064,7 +4064,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4087,7 +4087,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4110,7 +4110,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4133,7 +4133,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4156,7 +4156,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4179,7 +4179,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4202,7 +4202,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4225,7 +4225,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4248,7 +4248,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4271,7 +4271,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4294,7 +4294,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4317,7 +4317,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4340,7 +4340,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4363,7 +4363,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4386,7 +4386,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4409,7 +4409,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4432,7 +4432,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4455,7 +4455,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4478,7 +4478,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4501,7 +4501,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4524,7 +4524,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4547,7 +4547,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4570,7 +4570,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4593,7 +4593,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4616,7 +4616,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4639,7 +4639,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "101",
     "course_title": "College Writing (E)",
@@ -4662,7 +4662,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4685,7 +4685,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4708,7 +4708,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4731,7 +4731,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4754,7 +4754,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4777,7 +4777,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4800,7 +4800,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4823,7 +4823,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4846,7 +4846,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4869,7 +4869,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4892,7 +4892,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4915,7 +4915,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4938,7 +4938,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4961,7 +4961,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -4984,7 +4984,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -5007,7 +5007,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -5030,7 +5030,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -5053,7 +5053,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "102",
     "course_title": "Writing Abt Literature (A,E)",
@@ -5076,7 +5076,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "209",
     "course_title": "Written Comm. for Business",
@@ -5099,7 +5099,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "218",
     "course_title": "Creative Writing",
@@ -5122,7 +5122,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "218",
     "course_title": "Creative Writing",
@@ -5145,7 +5145,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "ENGL",
     "course_number": "240",
     "course_title": "Brit Lit: Love, $, Empire (A)",
@@ -5168,7 +5168,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "FN",
     "course_number": "100",
     "course_title": "Personal Finance (X)",
@@ -5193,7 +5193,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "FN",
     "course_number": "100",
     "course_title": "Personal Finance (X)",
@@ -5218,7 +5218,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "FN",
     "course_number": "100",
     "course_title": "Personal Finance (X)",
@@ -5243,7 +5243,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "FN",
     "course_number": "100",
     "course_title": "Personal Finance (X)",
@@ -5268,7 +5268,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "FN",
     "course_number": "100",
     "course_title": "Personal Finance (X)",
@@ -5293,7 +5293,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "FN",
     "course_number": "215",
     "course_title": "Principles of Financial Mgmt.",
@@ -5317,7 +5317,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "FN",
     "course_number": "215",
     "course_title": "Principles of Financial Mgmt.",
@@ -5341,7 +5341,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "FPA",
     "course_number": "101",
     "course_title": "Introduction to the Arts (A)",
@@ -5364,7 +5364,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "FREN",
     "course_number": "100",
     "course_title": "Elementary French 1 (A)",
@@ -5387,7 +5387,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "FREN",
     "course_number": "102",
     "course_title": "Elementary French 2 (A)",
@@ -5411,7 +5411,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "GEOG",
     "course_number": "105",
     "course_title": "Human Geography (B)",
@@ -5434,7 +5434,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "GEOG",
     "course_number": "201",
     "course_title": "Regl Geog & Global Aware (B)",
@@ -5457,7 +5457,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "GEOSC",
     "course_number": "100",
     "course_title": "Earth and Space Science (S)",
@@ -5482,7 +5482,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "GEOSC",
     "course_number": "100",
     "course_title": "Earth and Space Science (S)",
@@ -5507,7 +5507,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "GEOSC",
     "course_number": "103",
     "course_title": "Environ Sustainability (S)",
@@ -5532,7 +5532,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "GEOSC",
     "course_number": "103",
     "course_title": "Environ Sustainability (S)",
@@ -5557,7 +5557,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "GEOSC",
     "course_number": "105",
     "course_title": "Intro to Oceanography (S)",
@@ -5582,7 +5582,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "GEOSC",
     "course_number": "110",
     "course_title": "Physical Geography (S)",
@@ -5607,7 +5607,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "GEOSC",
     "course_number": "121",
     "course_title": "Physical Geology (S)",
@@ -5632,7 +5632,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "GEOSC",
     "course_number": "201",
     "course_title": "Meteorology (S)",
@@ -5657,7 +5657,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HES",
     "course_number": "100",
     "course_title": "Emergency Care CPR",
@@ -5680,7 +5680,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HES",
     "course_number": "105",
     "course_title": "Intro to Exercise Science",
@@ -5703,7 +5703,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HES",
     "course_number": "105",
     "course_title": "Intro to Exercise Science",
@@ -5726,7 +5726,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HES",
     "course_number": "111",
     "course_title": "Medical Term. for Health Prof.",
@@ -5749,7 +5749,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HES",
     "course_number": "111",
     "course_title": "Medical Term. for Health Prof.",
@@ -5772,7 +5772,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HES",
     "course_number": "112",
     "course_title": "Health Care in the U.S.",
@@ -5795,7 +5795,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HES",
     "course_number": "200",
     "course_title": "Exercise Assess. & Instruction",
@@ -5818,7 +5818,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HLTH",
     "course_number": "101",
     "course_title": "Sci & Theory Hlth & Well (X)",
@@ -5841,7 +5841,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HLTH",
     "course_number": "101",
     "course_title": "Sci & Theory Hlth & Well (X)",
@@ -5864,7 +5864,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HLTH",
     "course_number": "201",
     "course_title": "Women's Health (X)",
@@ -5887,7 +5887,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HLTH",
     "course_number": "210",
     "course_title": "Nutrition and Weight Mgmt.",
@@ -5910,7 +5910,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HLTH",
     "course_number": "225",
     "course_title": "Stress Mgmt & Tension Control",
@@ -5933,7 +5933,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "101",
     "course_title": "Western Civilization 1 (A)",
@@ -5956,7 +5956,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "101",
     "course_title": "Western Civilization 1 (A)",
@@ -5979,7 +5979,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "101",
     "course_title": "Western Civilization 1 (A)",
@@ -6002,7 +6002,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "102",
     "course_title": "Western Civilization 2 (A)",
@@ -6025,7 +6025,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "102",
     "course_title": "Western Civilization 2 (A)",
@@ -6048,7 +6048,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "105",
     "course_title": "History of U.S. -1876 (A)",
@@ -6071,7 +6071,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "105",
     "course_title": "History of U.S. -1876 (A)",
@@ -6094,7 +6094,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "105",
     "course_title": "History of U.S. -1876 (A)",
@@ -6117,7 +6117,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "106",
     "course_title": "History of U.S. From 1876 (A)",
@@ -6140,7 +6140,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "106",
     "course_title": "History of U.S. From 1876 (A)",
@@ -6163,7 +6163,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "110",
     "course_title": "World Culture-1200 to Now (A)",
@@ -6186,7 +6186,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "110",
     "course_title": "World Culture-1200 to Now (A)",
@@ -6209,7 +6209,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "110",
     "course_title": "World Culture-1200 to Now (A)",
@@ -6232,7 +6232,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "110",
     "course_title": "World Culture-1200 to Now (A)",
@@ -6255,7 +6255,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "110",
     "course_title": "World Culture-1200 to Now (A)",
@@ -6278,7 +6278,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "110",
     "course_title": "World Culture-1200 to Now (A)",
@@ -6301,7 +6301,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "204",
     "course_title": "America in Depression and War",
@@ -6324,7 +6324,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HIST",
     "course_number": "210",
     "course_title": "Era of the American Civil War",
@@ -6347,7 +6347,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HONOR",
     "course_number": "101",
     "course_title": "College Success- Honors (HON)",
@@ -6368,7 +6368,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "HONOR",
     "course_number": "201",
     "course_title": "Exploring Leadership (HON)",
@@ -6389,7 +6389,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MGMT",
     "course_number": "201",
     "course_title": "Principles of Management",
@@ -6414,7 +6414,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MGMT",
     "course_number": "201",
     "course_title": "Principles of Management",
@@ -6439,7 +6439,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MKTG",
     "course_number": "201",
     "course_title": "Principles of Marketing",
@@ -6464,7 +6464,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MKTG",
     "course_number": "201",
     "course_title": "Principles of Marketing",
@@ -6489,7 +6489,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MAT",
     "course_number": "015",
     "course_title": "Foundations for Statistics",
@@ -6514,7 +6514,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MAT",
     "course_number": "015",
     "course_title": "Foundations for Statistics",
@@ -6539,7 +6539,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MAT",
     "course_number": "091",
     "course_title": "Pre-Algebra",
@@ -6562,7 +6562,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MAT",
     "course_number": "091",
     "course_title": "Pre-Algebra",
@@ -6585,7 +6585,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MAT",
     "course_number": "091",
     "course_title": "Pre-Algebra",
@@ -6608,7 +6608,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MAT",
     "course_number": "091",
     "course_title": "Pre-Algebra",
@@ -6631,7 +6631,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MAT",
     "course_number": "094",
     "course_title": "Algebra",
@@ -6655,7 +6655,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MAT",
     "course_number": "094",
     "course_title": "Algebra",
@@ -6679,7 +6679,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MAT",
     "course_number": "094",
     "course_title": "Algebra",
@@ -6703,7 +6703,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MAT",
     "course_number": "094",
     "course_title": "Algebra",
@@ -6727,7 +6727,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MAT",
     "course_number": "094",
     "course_title": "Algebra",
@@ -6751,7 +6751,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "111",
     "course_title": "Fund of Geometry/ Measure (M)",
@@ -6775,7 +6775,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "111",
     "course_title": "Fund of Geometry/ Measure (M)",
@@ -6799,7 +6799,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "113",
     "course_title": "Finite Mathematics (M)",
@@ -6823,7 +6823,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "113",
     "course_title": "Finite Mathematics (M)",
@@ -6847,7 +6847,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "113",
     "course_title": "Finite Mathematics (M)",
@@ -6871,7 +6871,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "113",
     "course_title": "Finite Mathematics (M)",
@@ -6895,7 +6895,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "113",
     "course_title": "Finite Mathematics (M)",
@@ -6919,7 +6919,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "113",
     "course_title": "Finite Mathematics (M)",
@@ -6943,7 +6943,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "113",
     "course_title": "Finite Mathematics (M)",
@@ -6967,7 +6967,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -6991,7 +6991,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7015,7 +7015,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7039,7 +7039,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7063,7 +7063,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7087,7 +7087,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7111,7 +7111,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7135,7 +7135,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7159,7 +7159,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7183,7 +7183,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7207,7 +7207,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7231,7 +7231,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7255,7 +7255,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7279,7 +7279,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7303,7 +7303,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7327,7 +7327,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7351,7 +7351,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "115",
     "course_title": "Intro Statistical Methods (M)",
@@ -7375,7 +7375,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "126",
     "course_title": "College Algebra (M)",
@@ -7398,7 +7398,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "126",
     "course_title": "College Algebra (M)",
@@ -7421,7 +7421,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "126",
     "course_title": "College Algebra (M)",
@@ -7444,7 +7444,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "126",
     "course_title": "College Algebra (M)",
@@ -7467,7 +7467,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "130",
     "course_title": "Precalculus (M)",
@@ -7490,7 +7490,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "130",
     "course_title": "Precalculus (M)",
@@ -7513,7 +7513,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "130",
     "course_title": "Precalculus (M)",
@@ -7536,7 +7536,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "130",
     "course_title": "Precalculus (M)",
@@ -7559,7 +7559,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "132",
     "course_title": "Applied Calculus (M)",
@@ -7584,7 +7584,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "135",
     "course_title": "Calc of Single Variable 1 (M)",
@@ -7608,7 +7608,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "135",
     "course_title": "Calc of Single Variable 1 (M)",
@@ -7632,7 +7632,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "135",
     "course_title": "Calc of Single Variable 1 (M)",
@@ -7656,7 +7656,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "136",
     "course_title": "Calc of a Single Variable 2",
@@ -7679,7 +7679,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MATH",
     "course_number": "205",
     "course_title": "Multivariable Calculus",
@@ -7702,7 +7702,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "101",
     "course_title": "Music Appreciation (A)",
@@ -7725,7 +7725,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "101",
     "course_title": "Music Appreciation (A)",
@@ -7748,7 +7748,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "102",
     "course_title": " History of Rock and Roll (A)",
@@ -7771,7 +7771,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "102",
     "course_title": " History of Rock and Roll (A)",
@@ -7794,7 +7794,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "105",
     "course_title": "Music Theory -Non Majors (A)",
@@ -7817,7 +7817,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "106",
     "course_title": "History of Jazz (A)",
@@ -7840,7 +7840,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "107",
     "course_title": "Intro to Music Technology (A)",
@@ -7863,7 +7863,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "109",
     "course_title": "Fund & Theory of Music 1 (A)",
@@ -7886,7 +7886,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "111",
     "course_title": "Theory of Music 2",
@@ -7911,7 +7911,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "112",
     "course_title": "Musicianship 1",
@@ -7935,7 +7935,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "113",
     "course_title": "Musicianship 2",
@@ -7960,7 +7960,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "114",
     "course_title": "Keyboard Skills for Music 1",
@@ -7984,7 +7984,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "115",
     "course_title": "Keyboard Skills for Music 2",
@@ -8011,7 +8011,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "120",
     "course_title": "Chorus",
@@ -8034,7 +8034,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "122",
     "course_title": "Symphony Orchestra",
@@ -8057,7 +8057,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "124",
     "course_title": "Jazz Ensemble",
@@ -8080,7 +8080,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "128",
     "course_title": "Jazz Combo",
@@ -8103,7 +8103,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "132",
     "course_title": "Rock 'n' Roll Ensemble",
@@ -8126,7 +8126,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "132",
     "course_title": "Rock 'n' Roll Ensemble",
@@ -8149,7 +8149,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "136",
     "course_title": "Concert Band",
@@ -8172,7 +8172,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "143",
     "course_title": "Vocal Chamber Ensemble",
@@ -8195,7 +8195,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "210",
     "course_title": "Theory of Music 3",
@@ -8218,7 +8218,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "211",
     "course_title": "Theory of Music 4",
@@ -8239,7 +8239,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "212",
     "course_title": "Musicianship 3",
@@ -8264,7 +8264,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "213",
     "course_title": "Musicianship 4",
@@ -8289,7 +8289,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "214",
     "course_title": "Keyboard Skills for Music 3",
@@ -8314,7 +8314,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "MUSIC",
     "course_number": "215",
     "course_title": "Keyboard Skills for Music 4",
@@ -8339,7 +8339,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NRP",
     "course_number": "101",
     "course_title": "Introduction to Paramedicine",
@@ -8360,7 +8360,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NRP",
     "course_number": "102",
     "course_title": "Preparing- Adv. Life Support",
@@ -8383,7 +8383,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NRP",
     "course_number": "202",
     "course_title": "Paramedic Experience 1",
@@ -8406,7 +8406,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NURS",
     "course_number": "131",
     "course_title": "Health Assessment",
@@ -8431,7 +8431,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NURS",
     "course_number": "131",
     "course_title": "Health Assessment",
@@ -8456,7 +8456,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NURS",
     "course_number": "131",
     "course_title": "Health Assessment",
@@ -8481,7 +8481,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NURS",
     "course_number": "131",
     "course_title": "Health Assessment",
@@ -8506,7 +8506,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NURS",
     "course_number": "131",
     "course_title": "Health Assessment",
@@ -8531,7 +8531,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NURS",
     "course_number": "131",
     "course_title": "Health Assessment",
@@ -8556,7 +8556,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NURS",
     "course_number": "131",
     "course_title": "Health Assessment",
@@ -8581,7 +8581,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NURS",
     "course_number": "132",
     "course_title": "Medication Administration",
@@ -8606,7 +8606,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NURS",
     "course_number": "133",
     "course_title": "Nursing Concepts 1",
@@ -8630,7 +8630,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "NURS",
     "course_number": "233",
     "course_title": "Nursing Concepts 3",
@@ -8654,7 +8654,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "OFFC",
     "course_number": "101",
     "course_title": "Keyboarding 1 for Comp Usage",
@@ -8677,7 +8677,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHIL",
     "course_number": "101",
     "course_title": "Intro to Philosophy (A)",
@@ -8700,7 +8700,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHIL",
     "course_number": "101",
     "course_title": "Intro to Philosophy (A)",
@@ -8723,7 +8723,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHIL",
     "course_number": "101",
     "course_title": "Intro to Philosophy (A)",
@@ -8746,7 +8746,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHIL",
     "course_number": "105",
     "course_title": "Ethics (A)",
@@ -8769,7 +8769,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHIL",
     "course_number": "105",
     "course_title": "Ethics (A)",
@@ -8792,7 +8792,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHIL",
     "course_number": "105",
     "course_title": "Ethics (A)",
@@ -8815,7 +8815,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHIL",
     "course_number": "105",
     "course_title": "Ethics (A)",
@@ -8838,7 +8838,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHIL",
     "course_number": "120",
     "course_title": "World Philosophy (A)",
@@ -8861,7 +8861,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHIL",
     "course_number": "201",
     "course_title": "Business Ethics",
@@ -8887,7 +8887,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHIL",
     "course_number": "207",
     "course_title": "Cont Issues Social Just (A)",
@@ -8910,7 +8910,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHED",
     "course_number": "101",
     "course_title": "Life Fitness & Wellness (X)",
@@ -8933,7 +8933,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHED",
     "course_number": "107",
     "course_title": "Yoga",
@@ -8956,7 +8956,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHED",
     "course_number": "109",
     "course_title": "Strength Training",
@@ -8979,7 +8979,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHSC",
     "course_number": "100",
     "course_title": "General Physical Science (S)",
@@ -9004,7 +9004,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PTA",
     "course_number": "101",
     "course_title": "The Role of the PTA",
@@ -9025,7 +9025,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PTA",
     "course_number": "111",
     "course_title": "Clinical Science 1",
@@ -9048,7 +9048,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PTA",
     "course_number": "121",
     "course_title": "Neuroanatomy & Neurophysiology",
@@ -9069,7 +9069,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PTA",
     "course_number": "242",
     "course_title": "Clinical Arts 2",
@@ -9092,7 +9092,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PTA",
     "course_number": "243",
     "course_title": "Clinical Arts 3",
@@ -9115,7 +9115,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHYS",
     "course_number": "101",
     "course_title": "Fundamentals of Physics 1(S)",
@@ -9139,7 +9139,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHYS",
     "course_number": "101",
     "course_title": "Fundamentals of Physics 1(S)",
@@ -9163,7 +9163,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PHYS",
     "course_number": "212",
     "course_title": "Physics 2 for Sci and Eng",
@@ -9187,7 +9187,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSLS",
     "course_number": "100",
     "course_title": "American Government (B)",
@@ -9210,7 +9210,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSLS",
     "course_number": "110",
     "course_title": "Criminal Law",
@@ -9233,7 +9233,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9256,7 +9256,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9279,7 +9279,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9302,7 +9302,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9325,7 +9325,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9348,7 +9348,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9371,7 +9371,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9394,7 +9394,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9417,7 +9417,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9440,7 +9440,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9463,7 +9463,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9486,7 +9486,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9509,7 +9509,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "101",
     "course_title": "General Psychology (B)",
@@ -9532,7 +9532,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "201",
     "course_title": "Abnormal Psychology",
@@ -9555,7 +9555,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "201",
     "course_title": "Abnormal Psychology",
@@ -9578,7 +9578,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "202",
     "course_title": "Cultural Psychology",
@@ -9602,7 +9602,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "205",
     "course_title": "Social Psychology",
@@ -9626,7 +9626,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "211",
     "course_title": "Human Dev Through Life (B)",
@@ -9649,7 +9649,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "211",
     "course_title": "Human Dev Through Life (B)",
@@ -9672,7 +9672,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "211",
     "course_title": "Human Dev Through Life (B)",
@@ -9695,7 +9695,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "PSYC",
     "course_number": "211",
     "course_title": "Human Dev Through Life (B)",
@@ -9718,7 +9718,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "STEM",
     "course_number": "101",
     "course_title": "Stem Scholars' Prof Dev (HON)",
@@ -9739,7 +9739,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "STEM",
     "course_number": "201",
     "course_title": "Stem Scholar Resrch Lab1(HON)",
@@ -9760,7 +9760,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SUAS",
     "course_number": "204",
     "course_title": "Suas Personnel",
@@ -9783,7 +9783,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SUAS",
     "course_number": "205",
     "course_title": "Safety Management",
@@ -9806,7 +9806,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SUAS",
     "course_number": "206",
     "course_title": "sUAS Mission Plan / Mgmt.",
@@ -9829,7 +9829,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOWK",
     "course_number": "201",
     "course_title": "Introduction to Social Work",
@@ -9852,7 +9852,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "101",
     "course_title": "Introduction to Sociology (B)",
@@ -9875,7 +9875,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "101",
     "course_title": "Introduction to Sociology (B)",
@@ -9898,7 +9898,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "101",
     "course_title": "Introduction to Sociology (B)",
@@ -9921,7 +9921,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "101",
     "course_title": "Introduction to Sociology (B)",
@@ -9944,7 +9944,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "101",
     "course_title": "Introduction to Sociology (B)",
@@ -9967,7 +9967,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "101",
     "course_title": "Introduction to Sociology (B)",
@@ -9990,7 +9990,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "101",
     "course_title": "Introduction to Sociology (B)",
@@ -10013,7 +10013,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "101",
     "course_title": "Introduction to Sociology (B)",
@@ -10036,7 +10036,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "205",
     "course_title": "Marriage and the Family",
@@ -10059,7 +10059,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "210",
     "course_title": "Social Problems (B)",
@@ -10082,7 +10082,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "215",
     "course_title": "Diversity in U.S. (B)",
@@ -10105,7 +10105,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "215",
     "course_title": "Diversity in U.S. (B)",
@@ -10128,7 +10128,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SOC",
     "course_number": "215",
     "course_title": "Diversity in U.S. (B)",
@@ -10151,7 +10151,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SPAN",
     "course_number": "100",
     "course_title": "Elementary Spanish 1 (A)",
@@ -10174,7 +10174,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SPAN",
     "course_number": "100",
     "course_title": "Elementary Spanish 1 (A)",
@@ -10197,7 +10197,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SPAN",
     "course_number": "100",
     "course_title": "Elementary Spanish 1 (A)",
@@ -10220,7 +10220,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SPAN",
     "course_number": "102",
     "course_title": "Elementary Spanish 2 (A)",
@@ -10243,7 +10243,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SPAN",
     "course_number": "102",
     "course_title": "Elementary Spanish 2 (A)",
@@ -10266,7 +10266,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SPAN",
     "course_number": "102",
     "course_title": "Elementary Spanish 2 (A)",
@@ -10289,7 +10289,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SPAN",
     "course_number": "201",
     "course_title": "Intermediate Spanish 1 (A)",
@@ -10312,7 +10312,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "SPAN",
     "course_number": "201",
     "course_title": "Intermediate Spanish 1 (A)",
@@ -10335,7 +10335,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "THTR",
     "course_number": "101",
     "course_title": "Theatre Appreciation (A)",
@@ -10358,7 +10358,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "THTR",
     "course_number": "110",
     "course_title": "Acting for Non-Majors (A)",
@@ -10381,7 +10381,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "THTR",
     "course_number": "136",
     "course_title": "Voice for the Actor",
@@ -10404,7 +10404,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "THTR",
     "course_number": "145",
     "course_title": "Stage Management",
@@ -10427,7 +10427,7 @@
   },
   {
     "college_code": "carroll",
-    "term": "2026/FA",
+    "term": "2026FA",
     "course_prefix": "THTR",
     "course_number": "200",
     "course_title": "Acting Fundamentals",

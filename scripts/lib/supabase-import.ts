@@ -114,11 +114,23 @@ export async function importCoursesToSupabase(state: string): Promise<number> {
         continue;
       }
 
-      // Prepare rows
-      const rows: CourseRow[] = sections.map((s) => ({
+      // Prepare rows. The filename-derived `term` and directory-derived
+      // `slug` are authoritative — do NOT fall through to a row-level value.
+      // A scraper that wrote a non-canonical term inside the JSON (e.g.
+      // "26/FA" instead of "2026FA") used to silently corrupt the cloud
+      // because the delete-then-insert flow keys deletes off the filename
+      // term but inserts off the row term — leaving stale rows forever. Same
+      // for college_code: if a scraper wrote the wrong slug, future imports
+      // never clean it up. Always trust the directory structure.
+      let rowTermOverrides = 0;
+      let rowSlugOverrides = 0;
+      const rows: CourseRow[] = sections.map((s) => {
+        if (s.term && s.term !== term) rowTermOverrides++;
+        if (s.college_code && s.college_code !== slug) rowSlugOverrides++;
+        return {
         state,
-        college_code: (s.college_code as string) || slug,
-        term: (s.term as string) || term,
+        college_code: slug,
+        term: term,
         course_prefix: (s.course_prefix as string) || "",
         course_number: (s.course_number as string) || "",
         course_title: (s.course_title as string) || "",
@@ -136,7 +148,19 @@ export async function importCoursesToSupabase(state: string): Promise<number> {
         seats_total: s.seats_total != null ? (s.seats_total as number) : null,
         prerequisite_text: (s.prerequisite_text as string) || null,
         prerequisite_courses: (s.prerequisite_courses as string[]) || [],
-      }));
+      };
+      });
+
+      if (rowTermOverrides > 0) {
+        console.warn(
+          `  WARN ${slug}/${term}: ${rowTermOverrides} rows had a non-canonical 'term' field; overridden by filename term.`
+        );
+      }
+      if (rowSlugOverrides > 0) {
+        console.warn(
+          `  WARN ${slug}/${term}: ${rowSlugOverrides} rows had a non-canonical 'college_code' field; overridden by directory slug.`
+        );
+      }
 
       // Insert in batches — abort on first failure to limit data loss
       let inserted = 0;
