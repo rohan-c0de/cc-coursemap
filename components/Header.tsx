@@ -15,11 +15,12 @@ const NAV_ITEMS = [
   { path: "/about", label: "About" },
 ];
 
-export default function Header({ state = "va", stateName, transferSupported = true }: { state?: string; stateName?: string; transferSupported?: boolean }) {
+export default function Header({ state = "va", stateName, transferSupported = true, prereqsAvailable = false }: { state?: string; stateName?: string; transferSupported?: boolean; prereqsAvailable?: boolean }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const links = NAV_ITEMS
     .filter((item) => item.path !== "/transfer" || transferSupported)
+    .filter((item) => item.path !== "/plan" || prereqsAvailable)
     .map((item) => ({
       href: `/${state}${item.path}`,
       label: item.label,

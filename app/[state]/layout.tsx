@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import fs from "fs";
+import path from "path";
 import Header from "@/components/Header";
 import { getStateConfig, isValidState } from "@/lib/states/registry";
 
@@ -68,7 +70,12 @@ export default async function StateLayout({ children, params }: Props) {
           }),
         }}
       />
-      <Header state={state} stateName={config.name} transferSupported={config.transferSupported} />
+      <Header
+        state={state}
+        stateName={config.name}
+        transferSupported={config.transferSupported}
+        prereqsAvailable={fs.existsSync(path.join(process.cwd(), "data", state, "prereqs.json"))}
+      />
 
       {/* Main content */}
       <main className="flex-1">{children}</main>
