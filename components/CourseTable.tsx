@@ -163,6 +163,14 @@ const SHORT_NAMES: Record<string, string> = {
   // MD
   umcp: "UMD", towson: "Towson", umbc: "UMBC", umgc: "UMGC",
   "bowie-state": "Bowie", frostburg: "Frostburg", "morgan-state": "Morgan", salisbury: "SU",
+  // NY (CUNY senior colleges + specialized institutions, from T-Rex)
+  baruch: "Baruch", brooklyn: "Brooklyn", ccny: "CCNY", csi: "CSI",
+  hunter: "Hunter", "john-jay": "John Jay", lehman: "Lehman",
+  "medgar-evers": "Medgar Evers", "city-tech": "City Tech",
+  queens: "Queens", york: "York",
+  "grad-center": "Grad Ctr", "cuny-sps": "SPS", "cuny-slu": "SLU",
+  "cuny-sph": "SPH", "cuny-som": "SoM", "cuny-law": "CUNY Law",
+  macaulay: "Macaulay",
 };
 
 function TransferBadge({ prefix, number, lookup }: { prefix: string; number: string; lookup: TransferLookup }) {

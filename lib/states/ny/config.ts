@@ -42,11 +42,13 @@ const nyConfig: StateConfig = {
       "CUNY's Senior Citizen Audit Program (N.Y. Education Law \u00A7 6304(5)) allows New York State residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Regular student fees may still apply and audit registration typically opens after matriculated students register.",
   },
 
-  transferSupported: false,
-  // CUNY Transfer Explorer (t-rex.cuny.edu) data is not yet imported; once a
-  // scraper exists, flip this flag and seed transfer-equiv.json. SUNY transfer
-  // pathway data (suny.edu/attend/apply-to-suny/transfer-students) would also
-  // live here when SUNY colleges are added.
+  transferSupported: true,
+  // Transfer data comes from CUNY Transfer Explorer (T-Rex) at
+  // explorer.cuny.edu, scraped by scripts/ny/scrape-transfer-trex.ts. Covers
+  // CC-to-senior-college mappings for the 11 CUNY senior colleges plus a
+  // handful of specialized institutions (Graduate Center, SPS, SLU, Macaulay).
+  // SUNY transfer pathway data (suny.edu/attend/apply-to-suny/transfer-students)
+  // would also live here when SUNY colleges are added in a future phase.
 
   popularCourses: ["ENG 101", "MAT 150", "BIO 100", "HIS 101", "PSY 100", "SPE 100"],
   defaultZip: "10007",
