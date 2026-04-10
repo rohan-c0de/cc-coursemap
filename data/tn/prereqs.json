@@ -1,0 +1,3012 @@
+{
+  "ACCT 1010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "ACCT 2331": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "ACCT 1020": {
+    "text": "ACCT 1010",
+    "courses": [
+      "ACCT 1010"
+    ]
+  },
+  "ACCT 2382": {
+    "text": "ACCT 1020",
+    "courses": [
+      "ACCT 1020"
+    ]
+  },
+  "ACCT 2362": {
+    "text": "ACCT 1010",
+    "courses": [
+      "ACCT 1010"
+    ]
+  },
+  "ACCT 2322": {
+    "text": "ACCT 2321",
+    "courses": [
+      "ACCT 2321"
+    ]
+  },
+  "ACCT 2321": {
+    "text": "ACCT 1020",
+    "courses": [
+      "ACCT 1020"
+    ]
+  },
+  "ACCT 2301": {
+    "text": "ACCT 1010",
+    "courses": [
+      "ACCT 1010"
+    ]
+  },
+  "ACCT 2391": {
+    "text": "ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and ACCT 1020",
+    "courses": [
+      "ACCT 1020"
+    ]
+  },
+  "ADMN 1311": {
+    "text": "INFS 1010",
+    "courses": [
+      "INFS 1010"
+    ]
+  },
+  "ADMN 1310": {
+    "text": "ENGL 1010",
+    "courses": [
+      "ENGL 1010"
+    ]
+  },
+  "ADMN 1313": {
+    "text": "INFS 1010",
+    "courses": [
+      "INFS 1010"
+    ]
+  },
+  "AGRI 1015": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "AGRI 1050": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "AGRI 1020": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
+    "courses": []
+  },
+  "AGRI 1030": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
+    "courses": []
+  },
+  "AGRI 1055": {
+    "text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1130 or MATH 1630 or MATH 1710 or MATH 1730 or MATH 1830 or MATH 1910",
+    "courses": [
+      "MATH 1030",
+      "MATH 1130",
+      "MATH 1630",
+      "MATH 1710",
+      "MATH 1730",
+      "MATH 1830",
+      "MATH 1910"
+    ]
+  },
+  "AGRI 1110": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "AGRI 1060": {
+    "text": "MATH 1130 or MATH 1630 or MATH 1710 or MATH 1730 or MATH 1830 or MATH 1910",
+    "courses": [
+      "MATH 1130",
+      "MATH 1630",
+      "MATH 1710",
+      "MATH 1730",
+      "MATH 1830",
+      "MATH 1910"
+    ]
+  },
+  "AGRI 1120": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "AGRI 1100": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "AGRI 1170": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "AGRI 1460": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "AGRI 2110": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "AGRI 1470": {
+    "text": "AGRI 1460",
+    "courses": [
+      "AGRI 1460"
+    ]
+  },
+  "AGRI 2015": {
+    "text": "AGRI 2012",
+    "courses": [
+      "AGRI 2012"
+    ]
+  },
+  "AGRI 1480": {
+    "text": "AGRI 1460 or department approval",
+    "courses": [
+      "AGRI 1460"
+    ]
+  },
+  "AGRI 2014": {
+    "text": "BIOL 1010 or BIOL 1110 or BIOL 2310",
+    "courses": [
+      "BIOL 1010",
+      "BIOL 1110",
+      "BIOL 2310"
+    ]
+  },
+  "AGRI 1600": {
+    "text": "AGRI 1460 or department approval",
+    "courses": [
+      "AGRI 1460"
+    ]
+  },
+  "AGRI 2120": {
+    "text": "AGRI 1110 or department approval",
+    "courses": [
+      "AGRI 1110"
+    ]
+  },
+  "AGRI 2140": {
+    "text": "AGRI 1110 or department approval",
+    "courses": [
+      "AGRI 1110"
+    ]
+  },
+  "AGRI 2260": {
+    "text": "AGRI 2250",
+    "courses": [
+      "AGRI 2250"
+    ]
+  },
+  "AGRI 2150": {
+    "text": "AGRI 1110 or department approval",
+    "courses": [
+      "AGRI 1110"
+    ]
+  },
+  "AGRI 2460": {
+    "text": "AGRI 1460 . It is highly recommended that students enroll concurrently in AGRI 2680 Wine and Must Analysis",
+    "courses": [
+      "AGRI 1460",
+      "AGRI 2680"
+    ]
+  },
+  "AGRI 2250": {
+    "text": "AGRI 1020",
+    "courses": [
+      "AGRI 1020"
+    ]
+  },
+  "AGRI 2200": {
+    "text": "BIOL 1110",
+    "courses": [
+      "BIOL 1110"
+    ]
+  },
+  "AGRI 2130": {
+    "text": "AGRI 1110 and one of the following: AGRI 2120 , AGRI 2140 , or AGRI 2150",
+    "courses": [
+      "AGRI 1110",
+      "AGRI 2120",
+      "AGRI 2140",
+      "AGRI 2150"
+    ]
+  },
+  "AGRI 2470": {
+    "text": "AGRI 1460 and AGRI 2460 (AGRI 1055 and AGRI 1100 recommended). It is highly recommended that students enroll concurrently in AGRI 2680 Wine and Must Analysis",
+    "courses": [
+      "AGRI 1055",
+      "AGRI 1100",
+      "AGRI 1460",
+      "AGRI 2460",
+      "AGRI 2680"
+    ]
+  },
+  "AGRI 2700": {
+    "text": "AGRI 1460 or department approval",
+    "courses": [
+      "AGRI 1460"
+    ]
+  },
+  "AGRI 2590": {
+    "text": "AGRI 1460 , AGRI 1480 , AGRI 1600 , AGRI 2460 , AGRI 2470 , AGRI 2570 , AGRI 2680",
+    "courses": [
+      "AGRI 1460",
+      "AGRI 1480",
+      "AGRI 1600",
+      "AGRI 2460",
+      "AGRI 2470",
+      "AGRI 2570",
+      "AGRI 2680"
+    ]
+  },
+  "AGRI 2680": {
+    "text": "AGRI 1460 and AGRI 1055 or department approval",
+    "courses": [
+      "AGRI 1055",
+      "AGRI 1460"
+    ]
+  },
+  "AGRI 2570": {
+    "text": "AGRI 1460 , AGRI 1480 , AGRI 1600 , AGRI 2460 , or department approval",
+    "courses": [
+      "AGRI 1460",
+      "AGRI 1480",
+      "AGRI 1600",
+      "AGRI 2460"
+    ]
+  },
+  "AGRI 2660": {
+    "text": "AGRI 1460 or department approval",
+    "courses": [
+      "AGRI 1460"
+    ]
+  },
+  "AGRI 2900": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "AGRI 2750": {
+    "text": "BUSN 2320 and BUSN 2330",
+    "courses": [
+      "BUSN 2320",
+      "BUSN 2330"
+    ]
+  },
+  "ASL 2020": {
+    "text": "ASL 2010",
+    "courses": [
+      "ASL 2010"
+    ]
+  },
+  "ASL 1020": {
+    "text": "ASL 1010",
+    "courses": [
+      "ASL 1010"
+    ]
+  },
+  "ASL 2010": {
+    "text": "ASL 1020",
+    "courses": [
+      "ASL 1020"
+    ]
+  },
+  "ANIM 1510": {
+    "text": "ANIM 1010",
+    "courses": [
+      "ANIM 1010"
+    ]
+  },
+  "ANIM 2010": {
+    "text": "ANIM 1510",
+    "courses": [
+      "ANIM 1510"
+    ]
+  },
+  "ANIM 2910": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "ANIM 2000": {
+    "text": "ANIM 1500 and ANIM 1510",
+    "courses": [
+      "ANIM 1500",
+      "ANIM 1510"
+    ]
+  },
+  "ANIM 1500": {
+    "text": "ANIM 1000",
+    "courses": [
+      "ANIM 1000"
+    ]
+  },
+  "ANIM 1999": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "ANIM 2500": {
+    "text": "ANIM 1000 or ANIM 1010",
+    "courses": [
+      "ANIM 1000",
+      "ANIM 1010"
+    ]
+  },
+  "ARCT 2430": {
+    "text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and CIVT 1250",
+    "courses": [
+      "CIVT 1250"
+    ]
+  },
+  "ANTH 2590": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading. Other prerequisites may be required and are topic dependent",
+    "courses": []
+  },
+  "ARCT 1710": {
+    "text": "ARCT 1220",
+    "courses": [
+      "ARCT 1220"
+    ]
+  },
+  "ANTH 1430": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "ANTH 1130": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "ANTH 1230": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "ARCT 2550": {
+    "text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and ARCT 2500 or department approval",
+    "courses": [
+      "ARCT 2500"
+    ]
+  },
+  "ARCT 2710": {
+    "text": "ARCT 1710 and CADD 1650",
+    "courses": [
+      "ARCT 1710",
+      "CADD 1650"
+    ]
+  },
+  "ARCT 2990": {
+    "text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and Second-year status or department approval",
+    "courses": []
+  },
+  "ART 2000A": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "ART 2020": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "ART 2510": {
+    "text": "Topic dependent",
+    "courses": []
+  },
+  "APE 1016": {
+    "text": "APE 1015",
+    "courses": [
+      "APE 1015"
+    ]
+  },
+  "APE 1900": {
+    "text": "APE 1015 and APE 1400",
+    "courses": [
+      "APE 1015",
+      "APE 1400"
+    ]
+  },
+  "APE 1090": {
+    "text": "APE 1080 and APE 2015",
+    "courses": [
+      "APE 1080",
+      "APE 2015"
+    ]
+  },
+  "APE 2000": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and department approval",
+    "courses": []
+  },
+  "APE 2020": {
+    "text": "APE 1016",
+    "courses": [
+      "APE 1016"
+    ]
+  },
+  "APE 2016": {
+    "text": "APE 2015",
+    "courses": [
+      "APE 2015"
+    ]
+  },
+  "APE 2017": {
+    "text": "APE 2016",
+    "courses": [
+      "APE 2016"
+    ]
+  },
+  "APE 2091": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and APE 2015",
+    "courses": [
+      "APE 2015"
+    ]
+  },
+  "APE 2100": {
+    "text": "APE 1016 and APE 2016",
+    "courses": [
+      "APE 1016",
+      "APE 2016"
+    ]
+  },
+  "APE 2433": {
+    "text": "APE 2016",
+    "courses": [
+      "APE 2016"
+    ]
+  },
+  "APE 2432": {
+    "text": "APE 2016",
+    "courses": [
+      "APE 2016"
+    ]
+  },
+  "APE 2416": {
+    "text": "APE 1016",
+    "courses": [
+      "APE 1016"
+    ]
+  },
+  "APE 2450": {
+    "text": "APE 2016",
+    "courses": [
+      "APE 2016"
+    ]
+  },
+  "APE 2460": {
+    "text": "APE 2016",
+    "courses": [
+      "APE 2016"
+    ]
+  },
+  "APE 2550": {
+    "text": "APE 1015",
+    "courses": [
+      "APE 1015"
+    ]
+  },
+  "APE 2875": {
+    "text": "APE 1016 and APE 2016",
+    "courses": [
+      "APE 1016",
+      "APE 2016"
+    ]
+  },
+  "AVIT 1320": {
+    "text": "ENGL 1010 and MATH 1010",
+    "courses": [
+      "ENGL 1010",
+      "MATH 1010"
+    ]
+  },
+  "APE 2910": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "AVIT 1410": {
+    "text": "ENGL 1010 and MATH 1010",
+    "courses": [
+      "ENGL 1010",
+      "MATH 1010"
+    ]
+  },
+  "AVIT 1310": {
+    "text": "ENGL 1010 and MATH 1010",
+    "courses": [
+      "ENGL 1010",
+      "MATH 1010"
+    ]
+  },
+  "AVIT 1420": {
+    "text": "ENGL 1010 and MATH 1010",
+    "courses": [
+      "ENGL 1010",
+      "MATH 1010"
+    ]
+  },
+  "AVIT 1430": {
+    "text": "AVIT 1310 and AVIT 1320 and AVIT 1410 and AVIT 1420",
+    "courses": [
+      "AVIT 1310",
+      "AVIT 1320",
+      "AVIT 1410",
+      "AVIT 1420"
+    ]
+  },
+  "AVIT 1440": {
+    "text": "AVIT 1310 and AVIT 1320 and AVIT 1410 and AVIT 1420",
+    "courses": [
+      "AVIT 1310",
+      "AVIT 1320",
+      "AVIT 1410",
+      "AVIT 1420"
+    ]
+  },
+  "AVIT 1450": {
+    "text": "AVIT 1310 and AVIT 1320 and AVIT 1410 and AVIT 1420",
+    "courses": [
+      "AVIT 1310",
+      "AVIT 1320",
+      "AVIT 1410",
+      "AVIT 1420"
+    ]
+  },
+  "AVIT 1530": {
+    "text": "AVIT 2320 and AVIT 2410 and AVIT 2420 and AVIT 2430",
+    "courses": [
+      "AVIT 2320",
+      "AVIT 2410",
+      "AVIT 2420",
+      "AVIT 2430"
+    ]
+  },
+  "AVIT 2310": {
+    "text": "AVIT 1310 and AVIT 1320 and AVIT 1410 and AVIT 1420",
+    "courses": [
+      "AVIT 1310",
+      "AVIT 1320",
+      "AVIT 1410",
+      "AVIT 1420"
+    ]
+  },
+  "AVIT 1550": {
+    "text": "AVIT 2320 and AVIT 2410 and AVIT 2420 and AVIT 2430",
+    "courses": [
+      "AVIT 2320",
+      "AVIT 2410",
+      "AVIT 2420",
+      "AVIT 2430"
+    ]
+  },
+  "AVIT 1540": {
+    "text": "AVIT 2320 and AVIT 2410 and AVIT 2420 and AVIT 2430",
+    "courses": [
+      "AVIT 2320",
+      "AVIT 2410",
+      "AVIT 2420",
+      "AVIT 2430"
+    ]
+  },
+  "AVIT 2320": {
+    "text": "AVIT 1430 and AVIT 1440 and AVIT 1450 and AVIT 2310",
+    "courses": [
+      "AVIT 1430",
+      "AVIT 1440",
+      "AVIT 1450",
+      "AVIT 2310"
+    ]
+  },
+  "AVIT 2410": {
+    "text": "AVIT 1430 and AVIT 1440 and AVIT 1450 and AVIT 2310",
+    "courses": [
+      "AVIT 1430",
+      "AVIT 1440",
+      "AVIT 1450",
+      "AVIT 2310"
+    ]
+  },
+  "AVIT 2420": {
+    "text": "AVIT 1430 and AVIT 1440 and AVIT 1450 and AVIT 2310",
+    "courses": [
+      "AVIT 1430",
+      "AVIT 1440",
+      "AVIT 1450",
+      "AVIT 2310"
+    ]
+  },
+  "AVIT 2430": {
+    "text": "AVIT 1430 and AVIT 1440 and AVIT 1450 and AVIT 2310",
+    "courses": [
+      "AVIT 1430",
+      "AVIT 1440",
+      "AVIT 1450",
+      "AVIT 2310"
+    ]
+  },
+  "AVIT 2530": {
+    "text": "AVIT 2320 and AVIT 2410 and AVIT 2420 and AVIT 2430",
+    "courses": [
+      "AVIT 2320",
+      "AVIT 2410",
+      "AVIT 2420",
+      "AVIT 2430"
+    ]
+  },
+  "AVIT 2510": {
+    "text": "AVIT 2320 and AVIT 2410 and AVIT 2420 and AVIT 2430",
+    "courses": [
+      "AVIT 2320",
+      "AVIT 2410",
+      "AVIT 2420",
+      "AVIT 2430"
+    ]
+  },
+  "BIOL 1000": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and department approval",
+    "courses": []
+  },
+  "BIOL 1020": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BIOL 1004": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BIOL 1010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BIOL 1120": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BIOL 2010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BIOL 1110": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BIOL 2000": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BIOL 2120": {
+    "text": "BIOL 1110 and CHEM 1110 and BIOL 2310 , each taken within the past 5 years; or instructor approval, based on high achievement in related courses and a demonstration of understanding concepts that are required to be successful in this course. Instructor approval cannot replace all listed pre-requisites",
+    "courses": [
+      "BIOL 1110",
+      "BIOL 2310",
+      "CHEM 1110"
+    ]
+  },
+  "BIOL 2020": {
+    "text": "BIOL 2010",
+    "courses": [
+      "BIOL 2010"
+    ]
+  },
+  "BIOL 2040": {
+    "text": "Completion of BIOL 1110 and BIOL 1120 , or BIOL 2310 and BIOL 2320 , or department approval",
+    "courses": [
+      "BIOL 1110",
+      "BIOL 1120",
+      "BIOL 2310",
+      "BIOL 2320"
+    ]
+  },
+  "BIOL 2310": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BIOL 2180": {
+    "text": "BIOL 1110 and BIOL 1120",
+    "courses": [
+      "BIOL 1110",
+      "BIOL 1120"
+    ]
+  },
+  "BIOL 2400": {
+    "text": "BIOL 1010 or BIOL 1110 or BIOL 2010 or CHEM 1010",
+    "courses": [
+      "BIOL 1010",
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010"
+    ]
+  },
+  "BIOL 2130": {
+    "text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
+  },
+  "BIOL 2320": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BUSN 2330": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BUSN 2320": {
+    "text": "ACCT 1010",
+    "courses": [
+      "ACCT 1010"
+    ]
+  },
+  "BUSN 2160": {
+    "text": "BUSN 2330",
+    "courses": [
+      "BUSN 2330"
+    ]
+  },
+  "BUSN 2350": {
+    "text": "BUSN 2330",
+    "courses": [
+      "BUSN 2330"
+    ]
+  },
+  "BUSN 1380": {
+    "text": "BUSN 2330 or HMGT 1030",
+    "courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
+  },
+  "BUSN 2370": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BUSN 2340": {
+    "text": "BUSN 2330 or HMGT 1030",
+    "courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
+  },
+  "BUSN 2360": {
+    "text": "BUSN 1305",
+    "courses": [
+      "BUSN 1305"
+    ]
+  },
+  "BUSN 2380": {
+    "text": "BUSN 1305",
+    "courses": [
+      "BUSN 1305"
+    ]
+  },
+  "BUSN 2391": {
+    "text": "BUSN 1305 or BUSN 2330 or department approval",
+    "courses": [
+      "BUSN 1305",
+      "BUSN 2330"
+    ]
+  },
+  "BUSN 2420": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "BUSN 2385": {
+    "text": "BUSN 2330",
+    "courses": [
+      "BUSN 2330"
+    ]
+  },
+  "BUSN 2395": {
+    "text": "ACCT 1010 and BUSN 2330 or HMGT 1030",
+    "courses": [
+      "ACCT 1010",
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
+  },
+  "CHET 2650": {
+    "text": "CHEM 1110",
+    "courses": [
+      "CHEM 1110"
+    ]
+  },
+  "BUSN 2510": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "CHET 2510": {
+    "text": "CHEM 1120",
+    "courses": [
+      "CHEM 1120"
+    ]
+  },
+  "CHEM 2010": {
+    "text": "CHEM 1120",
+    "courses": [
+      "CHEM 1120"
+    ]
+  },
+  "CHEM 1020": {
+    "text": "CHEM 1010",
+    "courses": [
+      "CHEM 1010"
+    ]
+  },
+  "CHEM 1010": {
+    "text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
+  },
+  "CHEM 1120": {
+    "text": "CHEM 1110",
+    "courses": [
+      "CHEM 1110"
+    ]
+  },
+  "CHEM 1110": {
+    "text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
+  },
+  "CHEM 2020": {
+    "text": "CHEM 2010",
+    "courses": [
+      "CHEM 2010"
+    ]
+  },
+  "CHEM 2310": {
+    "text": "CHEM 1120",
+    "courses": [
+      "CHEM 1120"
+    ]
+  },
+  "CIVT 2100": {
+    "text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
+    "courses": []
+  },
+  "CIVT 2200": {
+    "text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
+    "courses": []
+  },
+  "CIVT 2310": {
+    "text": "BUSN 2385",
+    "courses": [
+      "BUSN 2385"
+    ]
+  },
+  "CIVT 2500": {
+    "text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and CIVT 2350",
+    "courses": [
+      "CIVT 2350"
+    ]
+  },
+  "CIVT 2510": {
+    "text": "BUSN 2385",
+    "courses": [
+      "BUSN 2385"
+    ]
+  },
+  "CIVT 2550": {
+    "text": "CIVT 1550 or department approval",
+    "courses": [
+      "CIVT 1550"
+    ]
+  },
+  "CIVT 2980": {
+    "text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
+    "courses": []
+  },
+  "CIVT 2990": {
+    "text": "Second-year status or department approval",
+    "courses": []
+  },
+  "COMM 1020": {
+    "text": "COMM 1010 and ENGL 1020 and keyboarding skills",
+    "courses": [
+      "COMM 1010",
+      "ENGL 1020"
+    ]
+  },
+  "COMM 2025": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "COMM 1010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "COMM 2055": {
+    "text": "COMM 2045",
+    "courses": [
+      "COMM 2045"
+    ]
+  },
+  "COMM 2065": {
+    "text": "ENGL 1010 and COMM 2025 or COMM 2045",
+    "courses": [
+      "COMM 2025",
+      "COMM 2045",
+      "ENGL 1010"
+    ]
+  },
+  "COMM 2075": {
+    "text": "ENGL 1010 and COMM 2025 or COMM 2045",
+    "courses": [
+      "COMM 2025",
+      "COMM 2045",
+      "ENGL 1010"
+    ]
+  },
+  "COMM 2085": {
+    "text": "ENGL 1010",
+    "courses": [
+      "ENGL 1010"
+    ]
+  },
+  "COMM 2090": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "CADD 1300": {
+    "text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and CADD 1200",
+    "courses": [
+      "CADD 1200"
+    ]
+  },
+  "CADD 1650": {
+    "text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and CADD 1200 or department approval",
+    "courses": [
+      "CADD 1200"
+    ]
+  },
+  "CADD 2110": {
+    "text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and CADD 1650",
+    "courses": [
+      "CADD 1650"
+    ]
+  },
+  "CISP 1020": {
+    "text": "CISP 1010",
+    "courses": [
+      "CISP 1010"
+    ]
+  },
+  "CADD 2301": {
+    "text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and CADD 1200",
+    "courses": [
+      "CADD 1200"
+    ]
+  },
+  "CISP 2410": {
+    "text": "CISP 1010 or CITC 1310",
+    "courses": [
+      "CISP 1010",
+      "CITC 1310"
+    ]
+  },
+  "CITC 1302": {
+    "text": "CITC 1301",
+    "courses": [
+      "CITC 1301"
+    ]
+  },
+  "CITC 1303": {
+    "text": "CITC 1301 or WEB 2010",
+    "courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
+  },
+  "CITC 1311": {
+    "text": "CITC 1310",
+    "courses": [
+      "CITC 1310"
+    ]
+  },
+  "CITC 1330": {
+    "text": "CITC 1322",
+    "courses": [
+      "CITC 1322"
+    ]
+  },
+  "CITC 1317": {
+    "text": "CITC 1310",
+    "courses": [
+      "CITC 1310"
+    ]
+  },
+  "CITC 1310": {
+    "text": "CITC 1301",
+    "courses": [
+      "CITC 1301"
+    ]
+  },
+  "CITC 1321": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "CITC 1322": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "CITC 1333": {
+    "text": "CITC 1302",
+    "courses": [
+      "CITC 1302"
+    ]
+  },
+  "CITC 1351": {
+    "text": "CITC 1301",
+    "courses": [
+      "CITC 1301"
+    ]
+  },
+  "CITC 2310": {
+    "text": "CITC 1303 and CITC 1310 and CITC 2311",
+    "courses": [
+      "CITC 1303",
+      "CITC 1310",
+      "CITC 2311"
+    ]
+  },
+  "CITC 2320": {
+    "text": "CITC 1322",
+    "courses": [
+      "CITC 1322"
+    ]
+  },
+  "CITC 1334": {
+    "text": "CITC 1301 and CITC 1305",
+    "courses": [
+      "CITC 1301",
+      "CITC 1305"
+    ]
+  },
+  "CITC 2311": {
+    "text": "CISP 1010 or CITC 1310",
+    "courses": [
+      "CISP 1010",
+      "CITC 1310"
+    ]
+  },
+  "CITC 2326": {
+    "text": "CITC 1302",
+    "courses": [
+      "CITC 1302"
+    ]
+  },
+  "CITC 2335": {
+    "text": "CITC 1303 and CITC 1311 and ENGL 1010",
+    "courses": [
+      "CITC 1303",
+      "CITC 1311",
+      "ENGL 1010"
+    ]
+  },
+  "CITC 2345": {
+    "text": "CITC 1302",
+    "courses": [
+      "CITC 1302"
+    ]
+  },
+  "CITC 2330": {
+    "text": "CITC 2329",
+    "courses": [
+      "CITC 2329"
+    ]
+  },
+  "CITC 2331": {
+    "text": "CITC 1333",
+    "courses": [
+      "CITC 1333"
+    ]
+  },
+  "CITC 2329": {
+    "text": "CITC 1302",
+    "courses": [
+      "CITC 1302"
+    ]
+  },
+  "CITC 2340": {
+    "text": "CITC 1303",
+    "courses": [
+      "CITC 1303"
+    ]
+  },
+  "CITC 2353": {
+    "text": "CITC 1333 and CITC 1351",
+    "courses": [
+      "CITC 1333",
+      "CITC 1351"
+    ]
+  },
+  "CITC 2352": {
+    "text": "CITC 1302 and CITC 1330 and CITC 1351",
+    "courses": [
+      "CITC 1302",
+      "CITC 1330",
+      "CITC 1351"
+    ]
+  },
+  "CITC 2375": {
+    "text": "CITC 1310",
+    "courses": [
+      "CITC 1310"
+    ]
+  },
+  "CITC 2364": {
+    "text": "CITC 1322",
+    "courses": [
+      "CITC 1322"
+    ]
+  },
+  "CITC 2373": {
+    "text": "CITC 1302",
+    "courses": [
+      "CITC 1302"
+    ]
+  },
+  "CITC 2390": {
+    "text": "CITC 1334 and CITC 1311 or CITC 2326",
+    "courses": [
+      "CITC 1311",
+      "CITC 1334",
+      "CITC 2326"
+    ]
+  },
+  "CITC 2380": {
+    "text": "CITC 2335 and",
+    "courses": [
+      "CITC 2335"
+    ]
+  },
+  "CRMJ 1010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "CITC 2376": {
+    "text": "CITC 1311",
+    "courses": [
+      "CITC 1311"
+    ]
+  },
+  "CRMJ 1020": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "CRMJ 1325": {
+    "text": "CRMJ 1010 and CRMJ 1020",
+    "courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
+  },
+  "CRMJ 1311": {
+    "text": "CRMJ 1010 and CRMJ 1020",
+    "courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
+  },
+  "CRMJ 2310": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
+    "courses": []
+  },
+  "CRMJ 2350": {
+    "text": "CRMJ 1010 and CRMJ 1020",
+    "courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
+  },
+  "CRMJ 2391": {
+    "text": "Enrollment in the semester in which the student will graduate or department approval",
+    "courses": []
+  },
+  "CRMJ 2396": {
+    "text": "Enrollment in the semester in which the student will graduate or department approval",
+    "courses": []
+  },
+  "CULA 1310": {
+    "text": "CULA 1300",
+    "courses": [
+      "CULA 1300"
+    ]
+  },
+  "CULA 1305": {
+    "text": "CULA 1300",
+    "courses": [
+      "CULA 1300"
+    ]
+  },
+  "CULA 1325": {
+    "text": "CULA 1320",
+    "courses": [
+      "CULA 1320"
+    ]
+  },
+  "CULA 1320": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "CULA 2310": {
+    "text": "CULA 1320 or HMGT 1030",
+    "courses": [
+      "CULA 1320",
+      "HMGT 1030"
+    ]
+  },
+  "CULA 1321": {
+    "text": "CULA 1310",
+    "courses": [
+      "CULA 1310"
+    ]
+  },
+  "CULA 2341": {
+    "text": "CULA 2342",
+    "courses": [
+      "CULA 2342"
+    ]
+  },
+  "CULA 2390": {
+    "text": "CULA 1325",
+    "courses": [
+      "CULA 1325"
+    ]
+  },
+  "CULA 2376": {
+    "text": "CULA 1330",
+    "courses": [
+      "CULA 1330"
+    ]
+  },
+  "CULA 2380": {
+    "text": "Completion of 12 hours of CULA courses with a minimum 2.5 GPA in CULA courses and at least a 2.0 cumulative GPA",
+    "courses": []
+  },
+  "DWP 1915": {
+    "text": "DWP 1010 and DWP 1030 and DWP 1040 and ENGL 1010",
+    "courses": [
+      "DWP 1010",
+      "DWP 1030",
+      "DWP 1040",
+      "ENGL 1010"
+    ]
+  },
+  "DWP 2110": {
+    "text": "DWP 1915 and a successful portfolio review or department approval",
+    "courses": [
+      "DWP 1915"
+    ]
+  },
+  "DWP 2800": {
+    "text": "DWP 1040 and ENGL 1010",
+    "courses": [
+      "DWP 1040",
+      "ENGL 1010"
+    ]
+  },
+  "ECED 2300": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "DWP 2910": {
+    "text": "DWP 2110 or department approval",
+    "courses": [
+      "DWP 2110"
+    ]
+  },
+  "ECED 2365": {
+    "text": "ECED 2335",
+    "courses": [
+      "ECED 2335"
+    ]
+  },
+  "ECED 2360": {
+    "text": "ECED 2320",
+    "courses": [
+      "ECED 2320"
+    ]
+  },
+  "ECED 2370": {
+    "text": "ECED 2320",
+    "courses": [
+      "ECED 2320"
+    ]
+  },
+  "ECED 2380": {
+    "text": "ECED 2315",
+    "courses": [
+      "ECED 2315"
+    ]
+  },
+  "ECON 2100": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "ECED 2385": {
+    "text": "ECED 2315",
+    "courses": [
+      "ECED 2315"
+    ]
+  },
+  "ECON 2200": {
+    "text": "ECON 2100",
+    "courses": [
+      "ECON 2100"
+    ]
+  },
+  "EDUC 2210": {
+    "text": "EDUC 2000",
+    "courses": [
+      "EDUC 2000"
+    ]
+  },
+  "EDLS 1020": {
+    "text": "ENGL 1010",
+    "courses": [
+      "ENGL 1010"
+    ]
+  },
+  "EDLS 1030": {
+    "text": "ENGL 1010",
+    "courses": [
+      "ENGL 1010"
+    ]
+  },
+  "ECE 2010": {
+    "text": "MATH 1920",
+    "courses": [
+      "MATH 1920"
+    ]
+  },
+  "ECE 2020": {
+    "text": "ECE 2010",
+    "courses": [
+      "ECE 2010"
+    ]
+  },
+  "EETC 1321": {
+    "text": "EETC 1313",
+    "courses": [
+      "EETC 1313"
+    ]
+  },
+  "EETC 1314": {
+    "text": "EETC 1313",
+    "courses": [
+      "EETC 1313"
+    ]
+  },
+  "EETC 1322": {
+    "text": "EETC 1321",
+    "courses": [
+      "EETC 1321"
+    ]
+  },
+  "EETC 2311": {
+    "text": "EETC 1314",
+    "courses": [
+      "EETC 1314"
+    ]
+  },
+  "EETC 2331": {
+    "text": "EETC 1313 or department approval",
+    "courses": [
+      "EETC 1313"
+    ]
+  },
+  "EETC 2316": {
+    "text": "EETC 1313 and EETC 1314 or department approval",
+    "courses": [
+      "EETC 1313",
+      "EETC 1314"
+    ]
+  },
+  "EETC 2332": {
+    "text": "EETC 2331 or department approval",
+    "courses": [
+      "EETC 2331"
+    ]
+  },
+  "EETC 2351": {
+    "text": "EETC 1313 and EETC 1314 or department approval",
+    "courses": [
+      "EETC 1313",
+      "EETC 1314"
+    ]
+  },
+  "EETC 2361": {
+    "text": "EETC 1313 and EETC 1314",
+    "courses": [
+      "EETC 1313",
+      "EETC 1314"
+    ]
+  },
+  "EETC 2390": {
+    "text": "Must be taken in the final semester or with department approval",
+    "courses": []
+  },
+  "EETC 2399": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "ENS 1300": {
+    "text": "ENS 1050",
+    "courses": [
+      "ENS 1050"
+    ]
+  },
+  "ENS 1520": {
+    "text": "ENS 1510",
+    "courses": [
+      "ENS 1510"
+    ]
+  },
+  "ENS 2310": {
+    "text": "ENS 2110 and MATH 1920",
+    "courses": [
+      "ENS 2110",
+      "MATH 1920"
+    ]
+  },
+  "ENST 1312": {
+    "text": "ENST 1311",
+    "courses": [
+      "ENST 1311"
+    ]
+  },
+  "ENST 1313": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
+    "courses": []
+  },
+  "ENST 1352": {
+    "text": "MATH 1010 or MATH 1050 or MATH 1130 or MATH 1530 or MATH 1630 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830 or MATH 1910",
+    "courses": [
+      "MATH 1010",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1530",
+      "MATH 1630",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830",
+      "MATH 1910"
+    ]
+  },
+  "ENST 1360": {
+    "text": "EETC 1300 or ENST 1340",
+    "courses": [
+      "EETC 1300",
+      "ENST 1340"
+    ]
+  },
+  "ENST 1371": {
+    "text": "ENST 1370",
+    "courses": [
+      "ENST 1370"
+    ]
+  },
+  "ENST 1399": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "ENST 1372": {
+    "text": "CADD 1200 or ENST 1311 and ENST 1340 or department approval",
+    "courses": [
+      "CADD 1200",
+      "ENST 1311",
+      "ENST 1340"
+    ]
+  },
+  "ENST 2343": {
+    "text": "ENST 1340 or department approval",
+    "courses": [
+      "ENST 1340"
+    ]
+  },
+  "ENST 2342": {
+    "text": "ENST 2340",
+    "courses": [
+      "ENST 2340"
+    ]
+  },
+  "ENST 2340": {
+    "text": "ENST 1340",
+    "courses": [
+      "ENST 1340"
+    ]
+  },
+  "ENST 2390": {
+    "text": "Must be taken in the final semester or with department approval",
+    "courses": []
+  },
+  "ENGL 1010": {
+    "text": "Satisfactory test scores or completion of corequisite requirements",
+    "courses": []
+  },
+  "ENGL 1020": {
+    "text": "ENGL 1010",
+    "courses": [
+      "ENGL 1010"
+    ]
+  },
+  "ENGL 2055": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2035": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2130": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2110": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2120": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2210": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2150": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2160": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2310": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2320": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2220": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2430": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2510": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2640": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2520": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2620": {
+    "text": "ENGL 1020",
+    "courses": [
+      "ENGL 1020"
+    ]
+  },
+  "ENGL 2950": {
+    "text": "ENGL 1010",
+    "courses": [
+      "ENGL 1010"
+    ]
+  },
+  "ENGL 2860": {
+    "text": "ENGL 1010",
+    "courses": [
+      "ENGL 1010"
+    ]
+  },
+  "ESOL 0931": {
+    "text": "Satisfactory placement test scores",
+    "courses": []
+  },
+  "ESOL 0932": {
+    "text": "Satisfactory placement test scores or ESOL 0931",
+    "courses": [
+      "ESOL 0931"
+    ]
+  },
+  "ESOL 0921": {
+    "text": "Satisfactory placement test scores",
+    "courses": []
+  },
+  "ESOL 0941": {
+    "text": "Satisfactory placement test scores",
+    "courses": []
+  },
+  "ESOL 0922": {
+    "text": "Satisfactory placement test scores or ESOL 0921",
+    "courses": [
+      "ESOL 0921"
+    ]
+  },
+  "ESOL 0942": {
+    "text": "Satisfactory Placement Test Scores or ESOL 0941",
+    "courses": [
+      "ESOL 0941"
+    ]
+  },
+  "ENTR 2310": {
+    "text": "ENTR 1310",
+    "courses": [
+      "ENTR 1310"
+    ]
+  },
+  "FREN 1010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "ENTR 2320": {
+    "text": "ENTR 2310",
+    "courses": [
+      "ENTR 2310"
+    ]
+  },
+  "FREN 1020": {
+    "text": "FREN 1010 or one unit of high school French",
+    "courses": [
+      "FREN 1010"
+    ]
+  },
+  "FREN 2010": {
+    "text": "FREN 1020 or two units of high school French",
+    "courses": [
+      "FREN 1020"
+    ]
+  },
+  "FREN 2020": {
+    "text": "FREN 2010 or three units of high school French",
+    "courses": [
+      "FREN 2010"
+    ]
+  },
+  "GEOL 1005": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "GEOL 1300": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "GERM 1010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "GERM 2010": {
+    "text": "GERM 1020 or two units of high school German",
+    "courses": [
+      "GERM 1020"
+    ]
+  },
+  "GEOL 2030": {
+    "text": "ENGL 1010",
+    "courses": [
+      "ENGL 1010"
+    ]
+  },
+  "GERM 1020": {
+    "text": "GERM 1010 or one unit of high school German",
+    "courses": [
+      "GERM 1010"
+    ]
+  },
+  "GEOL 1040": {
+    "text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
+  },
+  "HCMT 2305": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
+    "courses": []
+  },
+  "GERM 2020": {
+    "text": "GERM 2010 or three units of high school German",
+    "courses": [
+      "GERM 2010"
+    ]
+  },
+  "HCMT 1020": {
+    "text": "HCMT 1010",
+    "courses": [
+      "HCMT 1010"
+    ]
+  },
+  "HCMT 2345": {
+    "text": "HCMT 1020",
+    "courses": [
+      "HCMT 1020"
+    ]
+  },
+  "HCMT 2335": {
+    "text": "HCMT 2345",
+    "courses": [
+      "HCMT 2345"
+    ]
+  },
+  "HCMT 2370": {
+    "text": "ADMN 1311 or INFS 1010",
+    "courses": [
+      "ADMN 1311",
+      "INFS 1010"
+    ]
+  },
+  "HMGT 1170": {
+    "text": "HMGT 1030",
+    "courses": [
+      "HMGT 1030"
+    ]
+  },
+  "HMGT 1300": {
+    "text": "HMGT 1030",
+    "courses": [
+      "HMGT 1030"
+    ]
+  },
+  "HMGT 2040": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and HMGT 1030",
+    "courses": [
+      "HMGT 1030"
+    ]
+  },
+  "HMGT 2280": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and HMGT 1030",
+    "courses": [
+      "HMGT 1030"
+    ]
+  },
+  "HMGT 2900": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "IDT 1110": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "INFS 1010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "HUM 2100": {
+    "text": "ENGL 1010 and 15 college-level credit hours earned and 3.0 GPA and department approval",
+    "courses": [
+      "ENGL 1010"
+    ]
+  },
+  "IDT 1200": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "IDT 1105": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "IDT 2030": {
+    "text": "IDT 1030",
+    "courses": [
+      "IDT 1030"
+    ]
+  },
+  "IDT 2110": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and IDT 1310",
+    "courses": [
+      "IDT 1310"
+    ]
+  },
+  "IDT 2306": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and IDT 1310",
+    "courses": [
+      "IDT 1310"
+    ]
+  },
+  "IDT 2500": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "IDT 2310": {
+    "text": "IDT 1110 and IDT 1310",
+    "courses": [
+      "IDT 1110",
+      "IDT 1310"
+    ]
+  },
+  "IDT 2450": {
+    "text": "IDT 1105 and IDT 1310 and IDT 2306",
+    "courses": [
+      "IDT 1105",
+      "IDT 1310",
+      "IDT 2306"
+    ]
+  },
+  "IDT 2550": {
+    "text": "IDT 1110 and IDT 2306",
+    "courses": [
+      "IDT 1110",
+      "IDT 2306"
+    ]
+  },
+  "IDT 2611": {
+    "text": "IDT 1105 and IDT 1110 and IDT 1310",
+    "courses": [
+      "IDT 1105",
+      "IDT 1110",
+      "IDT 1310"
+    ]
+  },
+  "LAS 2020": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "IDT 2950": {
+    "text": "IDT 1105 and IDT 1110 and IDT 1200 and IDT 1310 and IDT 2110 and IDT 2306 and IDT 2450",
+    "courses": [
+      "IDT 1105",
+      "IDT 1110",
+      "IDT 1200",
+      "IDT 1310",
+      "IDT 2110",
+      "IDT 2306",
+      "IDT 2450"
+    ]
+  },
+  "MATH 0010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "MATH 1030": {
+    "text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
+    "courses": []
+  },
+  "MATH 0051": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "MATH 0030": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "MATH 1010": {
+    "text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
+    "courses": []
+  },
+  "MATH 1050": {
+    "text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading placement scores",
+    "courses": []
+  },
+  "MATH 0531": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "MATH 1130": {
+    "text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "courses": [
+      "MATH 1030"
+    ]
+  },
+  "MATH 1410": {
+    "text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
+  },
+  "MATH 1630": {
+    "text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
+  },
+  "MATH 1420": {
+    "text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
+  },
+  "MATH 1530": {
+    "text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
+    "courses": []
+  },
+  "MATH 1720": {
+    "text": "MATH 1710 or department approval",
+    "courses": [
+      "MATH 1710"
+    ]
+  },
+  "MATH 1710": {
+    "text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "courses": [
+      "MATH 1030"
+    ]
+  },
+  "MATH 1730": {
+    "text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "courses": [
+      "MATH 1030"
+    ]
+  },
+  "MATH 1920": {
+    "text": "MATH 1910 with a grade of C or better",
+    "courses": [
+      "MATH 1910"
+    ]
+  },
+  "MATH 1910": {
+    "text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
+  },
+  "MATH 1830": {
+    "text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
+  },
+  "MATH 2050": {
+    "text": "ACT math score of at least 23 and ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
+  },
+  "MATH 2110": {
+    "text": "MATH 1920 with a grade of C or better",
+    "courses": [
+      "MATH 1920"
+    ]
+  },
+  "MATH 2010": {
+    "text": "MATH 1920",
+    "courses": [
+      "MATH 1920"
+    ]
+  },
+  "MATH 2120": {
+    "text": "MATH 1920 with a grade of C or better",
+    "courses": [
+      "MATH 1920"
+    ]
+  },
+  "METC 1310": {
+    "text": "MATH 1710 or MATH 1730 or MATH 1910",
+    "courses": [
+      "MATH 1710",
+      "MATH 1730",
+      "MATH 1910"
+    ]
+  },
+  "METC 1320": {
+    "text": "MATH 1050 or MATH 1710 or MATH 1730 or MATH 1910",
+    "courses": [
+      "MATH 1050",
+      "MATH 1710",
+      "MATH 1730",
+      "MATH 1910"
+    ]
+  },
+  "METC 2310": {
+    "text": "METC 1310",
+    "courses": [
+      "METC 1310"
+    ]
+  },
+  "MDT 2998": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "MUS 1000": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "MDT 2250": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading. Other prerequisites may be required and are topic dependent",
+    "courses": []
+  },
+  "MUS 1057": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "MUS 1156": {
+    "text": "MUS 1058",
+    "courses": [
+      "MUS 1058"
+    ]
+  },
+  "MUS 2155": {
+    "text": "MUS 2055",
+    "courses": [
+      "MUS 2055"
+    ]
+  },
+  "MUS 1155": {
+    "text": "MUS 1057",
+    "courses": [
+      "MUS 1057"
+    ]
+  },
+  "MUS 2156": {
+    "text": "MUS 2056",
+    "courses": [
+      "MUS 2056"
+    ]
+  },
+  "MUS 2056": {
+    "text": "MUS 1156",
+    "courses": [
+      "MUS 1156"
+    ]
+  },
+  "MUS 2055": {
+    "text": "MUS 1155",
+    "courses": [
+      "MUS 1155"
+    ]
+  },
+  "MUS 2500": {
+    "text": "MUS 1057 and MUS 1058",
+    "courses": [
+      "MUS 1057",
+      "MUS 1058"
+    ]
+  },
+  "MUS 2600": {
+    "text": "Topic dependent",
+    "courses": []
+  },
+  "MUS 1127": {
+    "text": "MUS 1027 or department approval",
+    "courses": [
+      "MUS 1027"
+    ]
+  },
+  "MUS 1540": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "MUS 1521": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "MUS 1781": {
+    "text": "Department approval and audition may be required",
+    "courses": []
+  },
+  "MUS 1782": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "NRSG 1330": {
+    "text": "NRSG 1710 or department approval",
+    "courses": [
+      "NRSG 1710"
+    ]
+  },
+  "NRSG 1320": {
+    "text": "NRSG 1710 or department approval",
+    "courses": [
+      "NRSG 1710"
+    ]
+  },
+  "NRSG 1360": {
+    "text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
+    "courses": []
+  },
+  "NRSG 1340": {
+    "text": "NRSG 1710 or department approval",
+    "courses": [
+      "NRSG 1710"
+    ]
+  },
+  "NRSG 1710": {
+    "text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
+    "courses": []
+  },
+  "NRSG 1620": {
+    "text": "NRSG 1360 and NRSG 1710",
+    "courses": [
+      "NRSG 1360",
+      "NRSG 1710"
+    ]
+  },
+  "NRSG 1600": {
+    "text": "BIOL 2010 and BIOL 2020 and ENGL 1010 and PSYC 1030 and acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
+    "courses": [
+      "BIOL 2010",
+      "BIOL 2020",
+      "ENGL 1010",
+      "PSYC 1030"
+    ]
+  },
+  "NRSG 2630": {
+    "text": "NRSG 1360 and NRSG 1600 or NRSG 1620",
+    "courses": [
+      "NRSG 1360",
+      "NRSG 1600",
+      "NRSG 1620"
+    ]
+  },
+  "NRSG 2240": {
+    "text": "NRSG 2630",
+    "courses": [
+      "NRSG 2630"
+    ]
+  },
+  "LEGL 1320": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "LEGL 1315": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "NRSG 2640": {
+    "text": "NRSG 2630",
+    "courses": [
+      "NRSG 2630"
+    ]
+  },
+  "LEGL 1330": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "LEGL 2330": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "LEGL 1350": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "LEGL 1360": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "LEGL 1340": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "LEGL 1370": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "LEGL 2300": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "LEGL 2340": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "LEGL 2305": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "LEGL 2350": {
+    "text": "LEGL 1300",
+    "courses": [
+      "LEGL 1300"
+    ]
+  },
+  "LEGL 2380": {
+    "text": "LEGL 1320 and LEGL 1330",
+    "courses": [
+      "LEGL 1320",
+      "LEGL 1330"
+    ]
+  },
+  "LEGL 2385": {
+    "text": "LEGL 2380",
+    "courses": [
+      "LEGL 2380"
+    ]
+  },
+  "PHIL 1040": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "PHO 1000": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "PHIL 2200": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "PHIL 1030": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "PHIL 1500": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "PHO 1200": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "PHO 1700": {
+    "text": "PHO 1000 or department approval",
+    "courses": [
+      "PHO 1000"
+    ]
+  },
+  "PHO 1100": {
+    "text": "PHO 1000 or department approval",
+    "courses": [
+      "PHO 1000"
+    ]
+  },
+  "PHO 2100": {
+    "text": "PHO 1000",
+    "courses": [
+      "PHO 1000"
+    ]
+  },
+  "PHO 2200": {
+    "text": "PHO 1700 and PHO 2010",
+    "courses": [
+      "PHO 1700",
+      "PHO 2010"
+    ]
+  },
+  "PHO 2060": {
+    "text": "PHO 2010",
+    "courses": [
+      "PHO 2010"
+    ]
+  },
+  "PHO 2400": {
+    "text": "PHO 1100",
+    "courses": [
+      "PHO 1100"
+    ]
+  },
+  "PHO 2500": {
+    "text": "PHO 1100",
+    "courses": [
+      "PHO 1100"
+    ]
+  },
+  "PHO 2700": {
+    "text": "PHO 1100 and PHO 1700",
+    "courses": [
+      "PHO 1100",
+      "PHO 1700"
+    ]
+  },
+  "PHO 2800": {
+    "text": "PHO 1100 and PHO 2200 or PHO 2400",
+    "courses": [
+      "PHO 1100",
+      "PHO 2200",
+      "PHO 2400"
+    ]
+  },
+  "PHO 2701": {
+    "text": "PHO 1000 and PHO 1100 and PHO 1700",
+    "courses": [
+      "PHO 1000",
+      "PHO 1100",
+      "PHO 1700"
+    ]
+  },
+  "PHO 2950": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "PHO 2830": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and department approval",
+    "courses": []
+  },
+  "PHED 2000": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "PHYS 2020": {
+    "text": "PHYS 2010",
+    "courses": [
+      "PHYS 2010"
+    ]
+  },
+  "POLS 1010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "PSCI 1060": {
+    "text": "ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and Two from the following list of courses: MATH 1410 , MATH 1420 and either MATH 1010 or MATH 1530",
+    "courses": [
+      "MATH 1010",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1530"
+    ]
+  },
+  "PHYS 2010": {
+    "text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
+  },
+  "POLS 2650": {
+    "text": "POLS 1010",
+    "courses": [
+      "POLS 1010"
+    ]
+  },
+  "PSYC 1030": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "PHYS 2110": {
+    "text": "MATH 1910",
+    "courses": [
+      "MATH 1910"
+    ]
+  },
+  "PHYS 2120": {
+    "text": "PHYS 2110",
+    "courses": [
+      "PHYS 2110"
+    ]
+  },
+  "POLS 1030": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "PSYC 2130": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "PSYC 2100": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "PSYC 2210": {
+    "text": "PSYC 1030",
+    "courses": [
+      "PSYC 1030"
+    ]
+  },
+  "PSYC 2140": {
+    "text": "PSYC 1030 and PSYC 2120 and PSYC 2130",
+    "courses": [
+      "PSYC 1030",
+      "PSYC 2120",
+      "PSYC 2130"
+    ]
+  },
+  "PSYC 2120": {
+    "text": "ENGL 1010",
+    "courses": [
+      "ENGL 1010"
+    ]
+  },
+  "RADT 1340": {
+    "text": "RADT 1330 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 1330"
+    ]
+  },
+  "RADT 1310": {
+    "text": "RADT 2330 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 2330"
+    ]
+  },
+  "RADT 1320": {
+    "text": "RADT 2330 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 2330"
+    ]
+  },
+  "RADT 1360": {
+    "text": "Acceptance into the Radiologic Technology Program",
+    "courses": []
+  },
+  "RADT 1370": {
+    "text": "RADT 1330 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 1330"
+    ]
+  },
+  "RADT 1330": {
+    "text": "Acceptance into the Radiologic Technology Program",
+    "courses": []
+  },
+  "RADT 1350": {
+    "text": "RADT 1340 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 1340"
+    ]
+  },
+  "RADT 1380": {
+    "text": "RADT 1330 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 1330"
+    ]
+  },
+  "RADT 2310": {
+    "text": "RADT 1330 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 1330"
+    ]
+  },
+  "RADT 1390": {
+    "text": "RADT 1340 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 1340"
+    ]
+  },
+  "RADT 1385": {
+    "text": "Acceptance into the Radiologic Technology Program",
+    "courses": []
+  },
+  "RADT 2260": {
+    "text": "RADT 1360 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 1360"
+    ]
+  },
+  "RADT 2380": {
+    "text": "RADT 2330 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 2330"
+    ]
+  },
+  "RADT 2350": {
+    "text": "Acceptance into the Radiologic Technology Program",
+    "courses": []
+  },
+  "RADT 2330": {
+    "text": "RADT 1340 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 1340"
+    ]
+  },
+  "RADT 2385": {
+    "text": "RADT 2330 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 2330"
+    ]
+  },
+  "RADT 2370": {
+    "text": "RADT 1340 and good standing in the Radiologic Technology Program",
+    "courses": [
+      "RADT 1340"
+    ]
+  },
+  "SOCI 1010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "SWRK 2010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "SOCI 1040": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "SWRK 2030": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "SOCI 2010": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "SPAN 2010": {
+    "text": "SPAN 1020 or two units of high school Spanish",
+    "courses": [
+      "SPAN 1020"
+    ]
+  },
+  "SPAN 1020": {
+    "text": "SPAN 1010 or one unit of high school Spanish",
+    "courses": [
+      "SPAN 1010"
+    ]
+  },
+  "SURG 1102": {
+    "text": "Acceptance into the Surgical Technology Program",
+    "courses": []
+  },
+  "SPAN 2510": {
+    "text": "SPAN 2020 or four units of high school Spanish or equivalent life experience",
+    "courses": [
+      "SPAN 2020"
+    ]
+  },
+  "SMGT 2070": {
+    "text": "BUSN 1305",
+    "courses": [
+      "BUSN 1305"
+    ]
+  },
+  "SPAN 2020": {
+    "text": "SPAN 2010 or three units of high school Spanish",
+    "courses": [
+      "SPAN 2010"
+    ]
+  },
+  "SURG 2103": {
+    "text": "SURG 1410 and acceptance into the Surgical Technology Program and completion of all required clinical onboarding processes and immunization compliance",
+    "courses": [
+      "SURG 1410"
+    ]
+  },
+  "SURG 1410": {
+    "text": "BIOL 1004",
+    "courses": [
+      "BIOL 1004"
+    ]
+  },
+  "SURG 1305": {
+    "text": "MATH 1010 or MATH 1050 or MATH 1130 or MATH 1530 or MATH 1630 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830 or MATH 1910",
+    "courses": [
+      "MATH 1010",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1530",
+      "MATH 1630",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830",
+      "MATH 1910"
+    ]
+  },
+  "SURG 2299": {
+    "text": "BIOL 1004",
+    "courses": [
+      "BIOL 1004"
+    ]
+  },
+  "SURG 2199": {
+    "text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "courses": [
+      "SURG 2420"
+    ]
+  },
+  "SURG 2201": {
+    "text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "courses": [
+      "SURG 2420"
+    ]
+  },
+  "SURG 2302": {
+    "text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "courses": [
+      "SURG 2420"
+    ]
+  },
+  "SURG 2330": {
+    "text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "courses": [
+      "SURG 2420"
+    ]
+  },
+  "SURG 2399": {
+    "text": "SURG 1410 and good standing in the Surgical Technology Program",
+    "courses": [
+      "SURG 1410"
+    ]
+  },
+  "SURG 2420": {
+    "text": "SURG 1410 and good standing in the Surgical Technology Program",
+    "courses": [
+      "SURG 1410"
+    ]
+  },
+  "SURG 2321": {
+    "text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "courses": [
+      "SURG 2420"
+    ]
+  },
+  "THEA 2260": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  },
+  "THEA 2025": {
+    "text": "THEA 1025",
+    "courses": [
+      "THEA 1025"
+    ]
+  },
+  "THEA 2015": {
+    "text": "THEA 1015",
+    "courses": [
+      "THEA 1015"
+    ]
+  },
+  "VPT 1020": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "THEA 2275": {
+    "text": "THEA 1015 and THEA 2260 or department approval",
+    "courses": [
+      "THEA 1015",
+      "THEA 2260"
+    ]
+  },
+  "VPT 1400": {
+    "text": "ENGL 1010",
+    "courses": [
+      "ENGL 1010"
+    ]
+  },
+  "VPT 2021": {
+    "text": "VPT 1021",
+    "courses": [
+      "VPT 1021"
+    ]
+  },
+  "VPT 1211": {
+    "text": "VPT 1030",
+    "courses": [
+      "VPT 1030"
+    ]
+  },
+  "VPT 1500": {
+    "text": "VPT 1030 and VPT 1090",
+    "courses": [
+      "VPT 1030",
+      "VPT 1090"
+    ]
+  },
+  "VPT 2022": {
+    "text": "VPT 1045 , VPT 1050 , VPT 1211 , and VPT 1500",
+    "courses": [
+      "VPT 1045",
+      "VPT 1050",
+      "VPT 1211",
+      "VPT 1500"
+    ]
+  },
+  "VPT 1875": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and VPT 1045 and VPT 1211",
+    "courses": [
+      "VPT 1045",
+      "VPT 1211"
+    ]
+  },
+  "VPT 2150": {
+    "text": "VPT 1045 and VPT 1090 and VPT 1400",
+    "courses": [
+      "VPT 1045",
+      "VPT 1090",
+      "VPT 1400"
+    ]
+  },
+  "VPT 2215": {
+    "text": "VPT 1211",
+    "courses": [
+      "VPT 1211"
+    ]
+  },
+  "VPT 2660": {
+    "text": "Department approval",
+    "courses": []
+  },
+  "VPT 2160": {
+    "text": "VPT 2150",
+    "courses": [
+      "VPT 2150"
+    ]
+  },
+  "VPT 2400": {
+    "text": "VPT 1400",
+    "courses": [
+      "VPT 1400"
+    ]
+  },
+  "VPT 2750": {
+    "text": "VPT 1050 and VPT 1400 and VPT 1875",
+    "courses": [
+      "VPT 1050",
+      "VPT 1400",
+      "VPT 1875"
+    ]
+  },
+  "VPT 2220": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and VPT 1220",
+    "courses": [
+      "VPT 1220"
+    ]
+  },
+  "VPT 2820": {
+    "text": "VPT 1400",
+    "courses": [
+      "VPT 1400"
+    ]
+  },
+  "WTRQ 2150": {
+    "text": "WTRQ 2110",
+    "courses": [
+      "WTRQ 2110"
+    ]
+  },
+  "WTRQ 2180": {
+    "text": "WTRQ 2110",
+    "courses": [
+      "WTRQ 2110"
+    ]
+  },
+  "VPT 2960": {
+    "text": "VPT 1030 , VPT 1045 , VPT 1050 , and VPT 1500",
+    "courses": [
+      "VPT 1030",
+      "VPT 1045",
+      "VPT 1050",
+      "VPT 1500"
+    ]
+  },
+  "WTRQ 2110": {
+    "text": "WTRQ 1001",
+    "courses": [
+      "WTRQ 1001"
+    ]
+  },
+  "WTRQ 2210": {
+    "text": "WTRQ 1001",
+    "courses": [
+      "WTRQ 1001"
+    ]
+  },
+  "WTRQ 2270": {
+    "text": "WTRQ 2210",
+    "courses": [
+      "WTRQ 2210"
+    ]
+  },
+  "WTRQ 2220": {
+    "text": "WTRQ 2210",
+    "courses": [
+      "WTRQ 2210"
+    ]
+  },
+  "VPT 2875": {
+    "text": "VPT 1875",
+    "courses": [
+      "VPT 1875"
+    ]
+  },
+  "WTRQ 2390": {
+    "text": "Must be taken in the final semester or with department approval",
+    "courses": []
+  },
+  "WTRQ 2330": {
+    "text": "WTRQ 2110 or WTRQ 2210",
+    "courses": [
+      "WTRQ 2110",
+      "WTRQ 2210"
+    ]
+  },
+  "WEB 2010": {
+    "text": "WEB 1600",
+    "courses": [
+      "WEB 1600"
+    ]
+  },
+  "WEB 2120": {
+    "text": "CITC 2375 or WEB 1600 or department approval for WEB students; VPT 1030 for VPT students",
+    "courses": [
+      "CITC 2375",
+      "VPT 1030",
+      "WEB 1600"
+    ]
+  },
+  "WEB 2300": {
+    "text": "CITC 2375 or WEB 2010 or department approval",
+    "courses": [
+      "CITC 2375",
+      "WEB 2010"
+    ]
+  },
+  "WEB 2150": {
+    "text": "CITC 2375 or WEB 1600 or department approval",
+    "courses": [
+      "CITC 2375",
+      "WEB 1600"
+    ]
+  },
+  "WEB 2500": {
+    "text": "WEB 1600",
+    "courses": [
+      "WEB 1600"
+    ]
+  },
+  "WEB 2400": {
+    "text": "CITC 2375 or WEB 2010 and ENGL 1010",
+    "courses": [
+      "CITC 2375",
+      "ENGL 1010",
+      "WEB 2010"
+    ]
+  },
+  "WEB 2501": {
+    "text": "CITC 2375 or WEB 1600 or department approval",
+    "courses": [
+      "CITC 2375",
+      "WEB 1600"
+    ]
+  },
+  "WEB 2715": {
+    "text": "WEB 1600 and WEB 2500",
+    "courses": [
+      "WEB 1600",
+      "WEB 2500"
+    ]
+  },
+  "WEB 2600": {
+    "text": "DWP 1010 or WEB 1600 or department approval",
+    "courses": [
+      "DWP 1010",
+      "WEB 1600"
+    ]
+  },
+  "WELD 1384": {
+    "text": "WELD 1381",
+    "courses": [
+      "WELD 1381"
+    ]
+  },
+  "WEB 2812": {
+    "text": "CITC 2375 or WEB 1600 and WEB 2010 or department approval",
+    "courses": [
+      "CITC 2375",
+      "WEB 1600",
+      "WEB 2010"
+    ]
+  },
+  "WELD 2120": {
+    "text": "WELD 2370 and WELD 2371 and WELD 2372 or department approval",
+    "courses": [
+      "WELD 2370",
+      "WELD 2371",
+      "WELD 2372"
+    ]
+  },
+  "WELD 2370": {
+    "text": "WELD 1381",
+    "courses": [
+      "WELD 1381"
+    ]
+  },
+  "WELD 2360": {
+    "text": "WELD 2460",
+    "courses": [
+      "WELD 2460"
+    ]
+  },
+  "WELD 2491": {
+    "text": "Course must be taken during final semester or with department approval",
+    "courses": []
+  },
+  "WELD 2372": {
+    "text": "WELD 1381",
+    "courses": [
+      "WELD 1381"
+    ]
+  },
+  "WELD 2371": {
+    "text": "WELD 1381",
+    "courses": [
+      "WELD 1381"
+    ]
+  },
+  "WELD 2490": {
+    "text": "Course must be taken during final semester and with department approval",
+    "courses": []
+  },
+  "WELD 2484": {
+    "text": "WELD 1384",
+    "courses": [
+      "WELD 1384"
+    ]
+  },
+  "WGST 2050": {
+    "text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
+    "courses": []
+  }
+}

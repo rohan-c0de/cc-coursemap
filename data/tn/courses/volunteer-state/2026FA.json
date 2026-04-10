@@ -17,7 +17,7 @@
     "instructor": null,
     "seats_open": 14,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -38,7 +38,7 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -59,7 +59,7 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -80,7 +80,7 @@
     "instructor": null,
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -101,7 +101,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -122,7 +122,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -143,7 +143,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -164,7 +164,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -185,7 +185,7 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -206,7 +206,7 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -227,8 +227,10 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -248,8 +250,10 @@
     "instructor": null,
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -269,8 +273,10 @@
     "instructor": null,
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -290,8 +296,10 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -353,7 +361,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
     "prerequisite_courses": []
   },
   {
@@ -374,7 +382,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
     "prerequisite_courses": []
   },
   {
@@ -395,7 +403,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1044,7 +1052,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Warner, Jeff",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1107,7 +1115,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Green, Patrick",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1128,7 +1136,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Smyth, Nathaniel",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 14,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1212,7 +1220,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Matthews Jr, Robert",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1317,7 +1325,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Wood, Alyssa",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1508,7 +1516,7 @@
     "instructor": "Hicks, Chuck",
     "seats_open": 0,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1529,7 +1537,7 @@
     "instructor": "Farsian, Maryam",
     "seats_open": 0,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1550,7 +1558,7 @@
     "instructor": "Laudadio, Rachel",
     "seats_open": 0,
     "seats_total": 32,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1571,7 +1579,7 @@
     "instructor": null,
     "seats_open": 9,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1592,7 +1600,7 @@
     "instructor": "Martin, Jonathan",
     "seats_open": 3,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1613,7 +1621,7 @@
     "instructor": "Bice, Peter",
     "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1634,7 +1642,7 @@
     "instructor": "Hicks, Chuck",
     "seats_open": 0,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1655,7 +1663,7 @@
     "instructor": "Laudadio, Rachel",
     "seats_open": 0,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1676,7 +1684,7 @@
     "instructor": "Farsian, Maryam",
     "seats_open": 11,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1697,7 +1705,7 @@
     "instructor": "Farsian, Maryam",
     "seats_open": 7,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1718,7 +1726,7 @@
     "instructor": "Martin, Jonathan",
     "seats_open": 0,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1739,7 +1747,7 @@
     "instructor": null,
     "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1760,7 +1768,7 @@
     "instructor": "Bice, Peter",
     "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1781,7 +1789,7 @@
     "instructor": null,
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1802,7 +1810,7 @@
     "instructor": null,
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1823,7 +1831,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1844,7 +1852,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1865,7 +1873,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1886,7 +1894,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1907,7 +1915,7 @@
     "instructor": "Hicks, Chuck",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1928,7 +1936,7 @@
     "instructor": "Hicks, Chuck",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1949,7 +1957,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1970,7 +1978,7 @@
     "instructor": null,
     "seats_open": 4,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1991,7 +1999,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2012,7 +2020,7 @@
     "instructor": null,
     "seats_open": 4,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2031,9 +2039,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Hicks, Chuck",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2052,9 +2060,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Hicks, Chuck",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2199,7 +2207,7 @@
     "campus": "Vol State Springfield",
     "mode": "in-person",
     "instructor": "Mann, Hillman",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2430,7 +2438,7 @@
     "campus": "Vol State Springfield",
     "mode": "in-person",
     "instructor": "Mann, Hillman",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 5,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2663,7 +2671,7 @@
     "instructor": "Dye, Billy",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2684,7 +2692,7 @@
     "instructor": "Mooneyhan, Beckie",
     "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2705,7 +2713,7 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2726,7 +2734,7 @@
     "instructor": "Mooneyhan, Beckie",
     "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2747,7 +2755,7 @@
     "instructor": "Dye, Billy",
     "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2768,7 +2776,7 @@
     "instructor": "Dye, Billy",
     "seats_open": 5,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2789,7 +2797,7 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2810,7 +2818,7 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2831,7 +2839,7 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2852,7 +2860,7 @@
     "instructor": "Dowd, Peter",
     "seats_open": 0,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2873,7 +2881,7 @@
     "instructor": "Shaw, Douglas",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2894,7 +2902,7 @@
     "instructor": "Wolff, Brenda",
     "seats_open": 26,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2915,7 +2923,7 @@
     "instructor": "Shaw, Douglas",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2936,7 +2944,7 @@
     "instructor": "Shinde, Girija",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2957,7 +2965,7 @@
     "instructor": "Shinde, Girija",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2978,7 +2986,7 @@
     "instructor": "Farsian, Maryam",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2999,7 +3007,7 @@
     "instructor": "Dowd, Peter",
     "seats_open": 0,
     "seats_total": 27,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3020,7 +3028,7 @@
     "instructor": "Dowd, Peter",
     "seats_open": 13,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3041,7 +3049,7 @@
     "instructor": "Darden, Rufus",
     "seats_open": 2,
     "seats_total": 36,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3062,7 +3070,7 @@
     "instructor": "Darden, Rufus",
     "seats_open": 12,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3083,7 +3091,7 @@
     "instructor": "Malone, Katherine",
     "seats_open": 36,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3104,7 +3112,7 @@
     "instructor": "Laudadio, Rachel",
     "seats_open": 25,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3125,7 +3133,7 @@
     "instructor": "Wolff, Brenda",
     "seats_open": 18,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3146,7 +3154,7 @@
     "instructor": "Shinde, Girija",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3167,7 +3175,7 @@
     "instructor": "Dowd, Peter",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3188,7 +3196,7 @@
     "instructor": "Shaw, Douglas",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3209,7 +3217,7 @@
     "instructor": "Shinde, Girija",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3230,7 +3238,7 @@
     "instructor": "Shaw, Douglas",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3251,7 +3259,7 @@
     "instructor": "Dowd, Peter",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3272,7 +3280,7 @@
     "instructor": "Dowd, Peter",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3293,7 +3301,7 @@
     "instructor": "Dowd, Peter",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3314,7 +3322,7 @@
     "instructor": "Wolff, Brenda",
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3335,7 +3343,7 @@
     "instructor": "Farsian, Maryam",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3356,7 +3364,7 @@
     "instructor": "Darden, Rufus",
     "seats_open": 1,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3377,7 +3385,7 @@
     "instructor": "Malone, Katherine",
     "seats_open": 16,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3398,7 +3406,7 @@
     "instructor": "Darden, Rufus",
     "seats_open": 1,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3419,7 +3427,7 @@
     "instructor": "Darden, Rufus",
     "seats_open": 12,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3440,7 +3448,7 @@
     "instructor": "Malone, Katherine",
     "seats_open": 16,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3461,7 +3469,7 @@
     "instructor": "Laudadio, Rachel",
     "seats_open": 9,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3482,7 +3490,7 @@
     "instructor": "Laudadio, Rachel",
     "seats_open": 16,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3503,7 +3511,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3524,7 +3532,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3545,7 +3553,7 @@
     "instructor": "Malone, Katherine",
     "seats_open": 16,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3566,8 +3574,10 @@
     "instructor": "Shinde, Girija",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3587,8 +3597,10 @@
     "instructor": "Wolff, Brenda",
     "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3608,8 +3620,10 @@
     "instructor": "Wolff, Brenda",
     "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3629,8 +3643,10 @@
     "instructor": "Shinde, Girija",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3650,8 +3666,10 @@
     "instructor": "Wolff, Brenda",
     "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3671,8 +3689,10 @@
     "instructor": "Wolff, Brenda",
     "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3692,8 +3712,10 @@
     "instructor": "Malone, Katherine",
     "seats_open": 17,
     "seats_total": 40,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3713,8 +3735,10 @@
     "instructor": "Farsian, Maryam",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3734,8 +3758,10 @@
     "instructor": "Shaw, Douglas",
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3755,8 +3781,10 @@
     "instructor": "Shaw, Douglas",
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3776,8 +3804,10 @@
     "instructor": "Shaw, Douglas",
     "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3797,8 +3827,10 @@
     "instructor": "Wolff, Brenda",
     "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3818,8 +3850,10 @@
     "instructor": "Shinde, Girija",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3839,8 +3873,10 @@
     "instructor": "Shinde, Girija",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3860,8 +3896,10 @@
     "instructor": "Shaw, Douglas",
     "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3881,8 +3919,10 @@
     "instructor": "Wolff, Brenda",
     "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3902,8 +3942,10 @@
     "instructor": "Farsian, Maryam",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3923,8 +3965,10 @@
     "instructor": "Malone, Katherine",
     "seats_open": 9,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3944,8 +3988,10 @@
     "instructor": "Malone, Katherine",
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3965,8 +4011,10 @@
     "instructor": "Shaw, Douglas",
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -3986,8 +4034,10 @@
     "instructor": "Wolff, Brenda",
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4026,7 +4076,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Dolan, Joseph",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 40,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4131,7 +4181,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Dolan, Joseph",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4299,7 +4349,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4530,10 +4580,13 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4553,8 +4606,11 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4574,8 +4630,11 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4742,8 +4801,10 @@
     "instructor": null,
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4763,8 +4824,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4784,8 +4847,10 @@
     "instructor": null,
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4805,7 +4870,7 @@
     "instructor": null,
     "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4826,8 +4891,10 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4847,8 +4914,10 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4868,8 +4937,10 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4889,8 +4960,10 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4910,8 +4983,10 @@
     "instructor": null,
     "seats_open": 9,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -4929,7 +5004,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4950,7 +5025,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Williams, Douglas",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4971,7 +5046,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Williams, Douglas",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4992,7 +5067,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Hawes, John",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5013,7 +5088,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Williams, Douglas",
-    "seats_open": 17,
+    "seats_open": 18,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5181,7 +5256,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Williams, Douglas",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5202,7 +5277,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Williams, Douglas",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5307,7 +5382,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Hawes, John",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5328,7 +5403,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Kelley, Shane",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5496,10 +5571,14 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Kelley, Shane",
-    "seats_open": 15,
+    "seats_open": 16,
     "seats_total": 32,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -5519,8 +5598,12 @@
     "instructor": "Hawes, John",
     "seats_open": 14,
     "seats_total": 32,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -5540,8 +5623,12 @@
     "instructor": "Hawes, John",
     "seats_open": 6,
     "seats_total": 16,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -5559,10 +5646,14 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Kelley, Shane",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -5582,8 +5673,12 @@
     "instructor": "Kelley, Shane",
     "seats_open": 15,
     "seats_total": 16,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -5603,8 +5698,12 @@
     "instructor": "Hawes, John",
     "seats_open": 8,
     "seats_total": 16,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -5624,8 +5723,10 @@
     "instructor": "Kelley, Shane",
     "seats_open": 5,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1120",
+    "prerequisite_courses": [
+      "CHEM 1120"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -5645,8 +5746,10 @@
     "instructor": "Kelley, Shane",
     "seats_open": 5,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1120",
+    "prerequisite_courses": [
+      "CHEM 1120"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -5666,7 +5769,7 @@
     "instructor": "Assante, Len",
     "seats_open": 7,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5687,8 +5790,11 @@
     "instructor": "Babiarz-Lira, Allen",
     "seats_open": 8,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "COMM 1010 and ENGL 1020 and keyboarding skills",
+    "prerequisite_courses": [
+      "COMM 1010",
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -5727,7 +5833,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Monk, Dianna",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5748,7 +5854,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Monk, Dianna",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5771,7 +5877,7 @@
     "instructor": "Petrovic Garcia, Ines",
     "seats_open": 0,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5792,7 +5898,7 @@
     "instructor": "Petrovic Garcia, Ines",
     "seats_open": 0,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5813,7 +5919,7 @@
     "instructor": "Hill, Karen",
     "seats_open": 5,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5834,7 +5940,7 @@
     "instructor": "Assante, Len",
     "seats_open": 8,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5855,7 +5961,7 @@
     "instructor": "Hill, Karen",
     "seats_open": 4,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5874,9 +5980,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Hill, Karen",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5895,9 +6001,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Hill, Karen",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5916,9 +6022,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "James, Jennifer",
-    "seats_open": 3,
+    "seats_open": 1,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5939,7 +6045,7 @@
     "instructor": "Niec, Michele",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5960,7 +6066,7 @@
     "instructor": "McCoin, Charles",
     "seats_open": 9,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5981,7 +6087,7 @@
     "instructor": "Vaughn, Suzi",
     "seats_open": 2,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6002,7 +6108,7 @@
     "instructor": "Vaughn, Suzi",
     "seats_open": 6,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6023,7 +6129,7 @@
     "instructor": "Dekle, Merrie",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6044,7 +6150,7 @@
     "instructor": "Petrovic Garcia, Ines",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6084,7 +6190,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Waltz, Sheri",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6170,8 +6276,10 @@
     "instructor": "James, Jennifer",
     "seats_open": 9,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -6273,7 +6381,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Waltz, Sheri",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6338,7 +6446,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 32,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6357,9 +6465,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 27,
+    "seats_open": 26,
     "seats_total": 32,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6380,7 +6488,7 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6401,7 +6509,7 @@
     "instructor": null,
     "seats_open": 7,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6422,7 +6530,7 @@
     "instructor": null,
     "seats_open": 29,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6443,7 +6551,7 @@
     "instructor": null,
     "seats_open": 29,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6464,7 +6572,7 @@
     "instructor": null,
     "seats_open": 29,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6485,7 +6593,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6506,7 +6614,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6527,7 +6635,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6548,7 +6656,7 @@
     "instructor": null,
     "seats_open": 29,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6569,7 +6677,7 @@
     "instructor": null,
     "seats_open": 28,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6588,9 +6696,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6611,7 +6719,7 @@
     "instructor": null,
     "seats_open": 29,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6632,7 +6740,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6653,7 +6761,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6674,7 +6782,7 @@
     "instructor": null,
     "seats_open": 19,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6819,7 +6927,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 28,
+    "seats_open": 27,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6842,8 +6950,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -6863,8 +6973,10 @@
     "instructor": null,
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -6884,8 +6996,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -6905,8 +7019,10 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -6926,8 +7042,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -6947,8 +7065,10 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -6968,8 +7088,11 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -6989,8 +7112,11 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -7010,8 +7136,11 @@
     "instructor": null,
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -7031,8 +7160,10 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1310",
+    "prerequisite_courses": [
+      "CITC 1310"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -7262,8 +7393,11 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 and CITC 1305",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "CITC 1305"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -7283,8 +7417,11 @@
     "instructor": null,
     "seats_open": 28,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 and CITC 1305",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "CITC 1305"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -7304,8 +7441,11 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 and CITC 1305",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "CITC 1305"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -7409,8 +7549,10 @@
     "instructor": null,
     "seats_open": 28,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1303",
+    "prerequisite_courses": [
+      "CITC 1303"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -7430,8 +7572,12 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302 and CITC 1330 and CITC 1351",
+    "prerequisite_courses": [
+      "CITC 1302",
+      "CITC 1330",
+      "CITC 1351"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -7451,8 +7597,12 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302 and CITC 1330 and CITC 1351",
+    "prerequisite_courses": [
+      "CITC 1302",
+      "CITC 1330",
+      "CITC 1351"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -7472,7 +7622,7 @@
     "instructor": null,
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7491,9 +7641,9 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7514,7 +7664,7 @@
     "instructor": null,
     "seats_open": 17,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7535,8 +7685,11 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRMJ 1010 and CRMJ 1020",
+    "prerequisite_courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -7556,8 +7709,11 @@
     "instructor": null,
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRMJ 1010 and CRMJ 1020",
+    "prerequisite_courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -7701,7 +7857,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 27,
+    "seats_open": 26,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7808,7 +7964,7 @@
     "instructor": null,
     "seats_open": 2,
     "seats_total": 2,
-    "prerequisite_text": null,
+    "prerequisite_text": "Enrollment in the semester in which the student will graduate or department approval",
     "prerequisite_courses": []
   },
   {
@@ -9698,8 +9854,10 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -9719,7 +9877,7 @@
     "instructor": "Fuqua, David",
     "seats_open": 30,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9740,7 +9898,7 @@
     "instructor": "Fuqua, David",
     "seats_open": 25,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9759,9 +9917,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Cole, Nathan",
-    "seats_open": 29,
+    "seats_open": 28,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9782,7 +9940,7 @@
     "instructor": "Cole, Nathan",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9803,7 +9961,7 @@
     "instructor": "Cole, Nathan",
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9822,9 +9980,9 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Fuqua, David",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9845,7 +10003,7 @@
     "instructor": "Burkard, James",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9864,10 +10022,12 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Fuqua, David",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -9887,8 +10047,10 @@
     "instructor": "Cole, Nathan",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -9908,8 +10070,10 @@
     "instructor": "Cole, Nathan",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -9929,8 +10093,10 @@
     "instructor": "Fuqua, David",
     "seats_open": 14,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -9950,8 +10116,10 @@
     "instructor": "Adukeh, Jones",
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -9969,7 +10137,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10076,8 +10244,10 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDUC 2000",
+    "prerequisite_courses": [
+      "EDUC 2000"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -10097,8 +10267,10 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDUC 2000",
+    "prerequisite_courses": [
+      "EDUC 2000"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -10116,7 +10288,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10998,7 +11170,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Jean Francois, Joan",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 11,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11252,7 +11424,7 @@
     "instructor": "Sanchez, Jaime",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11273,7 +11445,7 @@
     "instructor": "Webb, Stephanie",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11294,7 +11466,7 @@
     "instructor": "Moore, Deborah",
     "seats_open": 7,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11315,7 +11487,7 @@
     "instructor": "Moore, Deborah",
     "seats_open": 11,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11336,7 +11508,7 @@
     "instructor": "Sanchez, Jaime",
     "seats_open": 8,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11357,7 +11529,7 @@
     "instructor": "Moore, Deborah",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11378,7 +11550,7 @@
     "instructor": "Sanchez, Jaime",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11399,7 +11571,7 @@
     "instructor": "Berresheim, Catherine",
     "seats_open": 11,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11420,7 +11592,7 @@
     "instructor": "Eades, Renee",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11441,7 +11613,7 @@
     "instructor": "Eades, Renee",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11462,7 +11634,7 @@
     "instructor": "Mandeville, Betty",
     "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11483,7 +11655,7 @@
     "instructor": "Michael, Shellie",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11504,7 +11676,7 @@
     "instructor": "Mandeville, Betty",
     "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11525,7 +11697,7 @@
     "instructor": "McMillion, Jennifer",
     "seats_open": 11,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11546,7 +11718,7 @@
     "instructor": "Lesh, Andrew",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11567,7 +11739,7 @@
     "instructor": "Black, Laura",
     "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11588,7 +11760,7 @@
     "instructor": "Black, Laura",
     "seats_open": 11,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11609,7 +11781,7 @@
     "instructor": "Eades, Renee",
     "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11630,28 +11802,7 @@
     "instructor": "McKinney, Jessie",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "volunteer-state",
-    "term": "2026FA",
-    "course_prefix": "ENGL",
-    "course_number": "1010",
-    "course_title": "English Composition I",
-    "credits": 3,
-    "crn": "89469",
-    "days": "TuTh",
-    "start_time": "11:10 AM",
-    "end_time": "12:35 PM",
-    "start_date": "2026-08-24",
-    "location": "Steinhauer-Rogan-Black Hum.",
-    "campus": "Vol State Gallatin",
-    "mode": "in-person",
-    "instructor": "Berresheim, Catherine",
-    "seats_open": 11,
-    "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11672,7 +11823,7 @@
     "instructor": "McMillion, Jennifer",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11693,7 +11844,7 @@
     "instructor": "Previte, Suzanne",
     "seats_open": 9,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11714,7 +11865,7 @@
     "instructor": "Mandeville, Betty",
     "seats_open": 11,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11735,7 +11886,7 @@
     "instructor": "Jean Francois, Joan",
     "seats_open": 9,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11756,7 +11907,7 @@
     "instructor": "Jean Francois, Joan",
     "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11777,7 +11928,7 @@
     "instructor": "McMillion, Jennifer",
     "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11798,7 +11949,7 @@
     "instructor": "Moore, Deborah",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11819,7 +11970,7 @@
     "instructor": "Mandeville, Betty",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11840,28 +11991,7 @@
     "instructor": "Berresheim, Catherine",
     "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "volunteer-state",
-    "term": "2026FA",
-    "course_prefix": "ENGL",
-    "course_number": "1010",
-    "course_title": "English Composition I",
-    "credits": 3,
-    "crn": "90486",
-    "days": "TuTh",
-    "start_time": "2:20 PM",
-    "end_time": "3:45 PM",
-    "start_date": "2026-08-24",
-    "location": "Steinhauer-Rogan-Black Hum.",
-    "campus": "Vol State Gallatin",
-    "mode": "in-person",
-    "instructor": "Berresheim, Catherine",
-    "seats_open": 12,
-    "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11882,7 +12012,7 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11903,7 +12033,7 @@
     "instructor": "Schrader, Angela",
     "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11924,7 +12054,7 @@
     "instructor": "Schrader, Angela",
     "seats_open": 12,
     "seats_total": 14,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11943,9 +12073,9 @@
     "campus": "Vol State Springfield",
     "mode": "in-person",
     "instructor": "Lesh, Andrew",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11966,7 +12096,7 @@
     "instructor": "Yeargin, Kevin",
     "seats_open": 11,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11987,7 +12117,7 @@
     "instructor": "Flatt, Lucas",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12008,7 +12138,7 @@
     "instructor": "Schrader, Angela",
     "seats_open": 12,
     "seats_total": 14,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12029,7 +12159,7 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 14,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12050,7 +12180,7 @@
     "instructor": "Flatt, Lucas",
     "seats_open": 13,
     "seats_total": 14,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12071,7 +12201,7 @@
     "instructor": "Flatt, Lucas",
     "seats_open": 13,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12092,7 +12222,7 @@
     "instructor": "Price, Ami",
     "seats_open": 12,
     "seats_total": 14,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12113,7 +12243,7 @@
     "instructor": "Thibodeaux, Jason",
     "seats_open": 9,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12134,7 +12264,7 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12155,7 +12285,7 @@
     "instructor": "Gray, Sarah",
     "seats_open": 11,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12176,7 +12306,7 @@
     "instructor": "Gibbons, Jacqueline",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12197,7 +12327,7 @@
     "instructor": "Gibbons, Jacqueline",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12218,7 +12348,7 @@
     "instructor": "Gray, Sarah",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12239,7 +12369,7 @@
     "instructor": "Joiner, Melissa",
     "seats_open": 14,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12260,7 +12390,7 @@
     "instructor": "Joiner, Melissa",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12281,7 +12411,7 @@
     "instructor": "Byington, Danielle",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12302,7 +12432,7 @@
     "instructor": "Byington, Danielle",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12323,7 +12453,7 @@
     "instructor": "Byington, Danielle",
     "seats_open": 14,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12342,9 +12472,9 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Hulsey, Olivia",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12365,7 +12495,7 @@
     "instructor": "Casey Jr, Cort",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12386,7 +12516,7 @@
     "instructor": "Casey Jr, Cort",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12407,7 +12537,7 @@
     "instructor": "LaPointe, Kristen",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12428,7 +12558,7 @@
     "instructor": "LaPointe, Kristen",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12449,7 +12579,7 @@
     "instructor": "LaPointe, Kristen",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12470,7 +12600,7 @@
     "instructor": "Reid, Reaghan",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12491,7 +12621,7 @@
     "instructor": "Reid, Reaghan",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12512,7 +12642,7 @@
     "instructor": "Kemp, Madonna",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12533,7 +12663,7 @@
     "instructor": "Kemp, Madonna",
     "seats_open": 14,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12554,7 +12684,7 @@
     "instructor": "Johnson, Jonathan",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12575,7 +12705,7 @@
     "instructor": "Johnson, Jonathan",
     "seats_open": 14,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12596,7 +12726,7 @@
     "instructor": null,
     "seats_open": 5,
     "seats_total": 9,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12617,7 +12747,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12638,7 +12768,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12649,17 +12779,17 @@
     "course_title": "English Composition I",
     "credits": 3,
     "crn": "89815",
-    "days": "TuTh",
-    "start_time": "8:15 AM",
-    "end_time": "9:35 AM",
+    "days": "MW",
+    "start_time": "9:41 AM",
+    "end_time": "11:01 AM",
     "start_date": "2026-08-24",
     "location": "",
     "campus": "Liberty Creek High School",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Jean Francois, Joan",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12670,17 +12800,17 @@
     "course_title": "English Composition I",
     "credits": 3,
     "crn": "90032",
-    "days": "MW",
-    "start_time": "9:45 AM",
-    "end_time": "11:20 AM",
+    "days": "TuTh",
+    "start_time": "8:00 AM",
+    "end_time": "9:35 AM",
     "start_date": "2026-08-24",
     "location": "",
     "campus": "Portland High School",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Young, April",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12701,7 +12831,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12722,7 +12852,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12735,15 +12865,15 @@
     "crn": "88867",
     "days": "TuTh",
     "start_time": "8:00 AM",
-    "end_time": "9:25 AM",
+    "end_time": "9:24 AM",
     "start_date": "2026-08-24",
     "location": "",
     "campus": "Greenbrier High School",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Lesh, Andrew",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12764,7 +12894,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12785,7 +12915,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12803,10 +12933,10 @@
     "location": "",
     "campus": "Portland High School",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Young, April",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12827,7 +12957,28 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "volunteer-state",
+    "term": "2026FA",
+    "course_prefix": "ENGL",
+    "course_number": "1010",
+    "course_title": "English Composition I",
+    "credits": 3,
+    "crn": "90623",
+    "days": "TuTh",
+    "start_time": "9:55 AM",
+    "end_time": "11:25 AM",
+    "start_date": "2026-08-24",
+    "location": "",
+    "campus": "Station Camp High School",
+    "mode": "in-person",
+    "instructor": "Berresheim, Catherine",
+    "seats_open": 24,
+    "seats_total": 24,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12848,7 +12999,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12859,6 +13010,27 @@
     "course_title": "English Composition I",
     "credits": 3,
     "crn": "82812",
+    "days": "MW",
+    "start_time": "8:15 AM",
+    "end_time": "9:45 AM",
+    "start_date": "2026-08-24",
+    "location": "",
+    "campus": "Station Camp High School",
+    "mode": "in-person",
+    "instructor": "McKinney, Jessie",
+    "seats_open": 24,
+    "seats_total": 24,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "volunteer-state",
+    "term": "2026FA",
+    "course_prefix": "ENGL",
+    "course_number": "1010",
+    "course_title": "English Composition I",
+    "credits": 3,
+    "crn": "90624",
     "days": "TuTh",
     "start_time": "8:15 AM",
     "end_time": "9:45 AM",
@@ -12866,10 +13038,10 @@
     "location": "",
     "campus": "Station Camp High School",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Berresheim, Catherine",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12890,7 +13062,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12901,17 +13073,17 @@
     "course_title": "English Composition I",
     "credits": 3,
     "crn": "90040",
-    "days": "MW",
+    "days": "",
     "start_time": "8:15 AM",
     "end_time": "9:35 AM",
     "start_date": "2026-08-24",
     "location": "",
     "campus": "Liberty Creek High School",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Jean Francois, Joan",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12932,28 +13104,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "volunteer-state",
-    "term": "2026FA",
-    "course_prefix": "ENGL",
-    "course_number": "1010",
-    "course_title": "English Composition I",
-    "credits": 3,
-    "crn": "90042",
-    "days": "MW",
-    "start_time": "1:55 PM",
-    "end_time": "3:15 PM",
-    "start_date": "2026-08-24",
-    "location": "",
-    "campus": "Liberty Creek High School",
-    "mode": "in-person",
-    "instructor": null,
-    "seats_open": 24,
-    "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12974,7 +13125,7 @@
     "instructor": "Hatcher, David",
     "seats_open": 18,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12995,7 +13146,7 @@
     "instructor": "Theodorou-Shapiro, Agapi",
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13016,7 +13167,7 @@
     "instructor": "Ormsby, Kelly",
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13037,8 +13188,10 @@
     "instructor": "Previte, Suzanne",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13058,8 +13211,10 @@
     "instructor": "Previte, Suzanne",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13077,10 +13232,12 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Yeargin, Kevin",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13098,10 +13255,12 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Previte, Suzanne",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13119,10 +13278,12 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Eades, Renee",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13142,8 +13303,10 @@
     "instructor": "Previte, Suzanne",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13163,8 +13326,10 @@
     "instructor": "Webb, Stephanie",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13184,8 +13349,10 @@
     "instructor": null,
     "seats_open": 6,
     "seats_total": 14,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13205,8 +13372,10 @@
     "instructor": "Bradford, Erin",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13226,8 +13395,10 @@
     "instructor": "Bradford, Erin",
     "seats_open": 10,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13245,10 +13416,12 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Bradford, Erin",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13268,8 +13441,10 @@
     "instructor": "Bradford, Erin",
     "seats_open": 14,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13289,8 +13464,10 @@
     "instructor": "Miller, Natasha",
     "seats_open": 10,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13310,8 +13487,10 @@
     "instructor": "Miller, Natasha",
     "seats_open": 12,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13331,8 +13510,10 @@
     "instructor": "Miller, Natasha",
     "seats_open": 14,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13352,8 +13533,10 @@
     "instructor": "Watts, Carmen",
     "seats_open": 8,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13373,8 +13556,10 @@
     "instructor": "Gates, Erica",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13394,8 +13579,10 @@
     "instructor": "Walters, Scott",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13415,29 +13602,10 @@
     "instructor": "Walters, Scott",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "volunteer-state",
-    "term": "2026FA",
-    "course_prefix": "ENGL",
-    "course_number": "1020",
-    "course_title": "English Composition II",
-    "credits": 3,
-    "crn": "90033",
-    "days": "MW",
-    "start_time": "9:45 AM",
-    "end_time": "11:20 AM",
-    "start_date": "2026-10-14",
-    "location": "",
-    "campus": "Portland High School",
-    "mode": "in-person",
-    "instructor": null,
-    "seats_open": 24,
-    "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13447,18 +13615,20 @@
     "course_title": "English Composition II",
     "credits": 3,
     "crn": "82813",
-    "days": "TuTh",
-    "start_time": "8:15 AM",
-    "end_time": "9:45 AM",
-    "start_date": "2026-10-14",
+    "days": "MW",
+    "start_time": "9:55 AM",
+    "end_time": "11:25 AM",
+    "start_date": "2026-08-24",
     "location": "",
     "campus": "Station Camp High School",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "McKinney, Jessie",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13730,8 +13900,10 @@
     "instructor": "Goad, Seth",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13751,8 +13923,10 @@
     "instructor": "Goad, Seth",
     "seats_open": 8,
     "seats_total": 11,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13772,8 +13946,10 @@
     "instructor": "Goad, Seth",
     "seats_open": 10,
     "seats_total": 11,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13791,10 +13967,12 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Goad, Seth",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 11,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13812,10 +13990,12 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Gorczyca, Jamie",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13835,8 +14015,10 @@
     "instructor": "McKinney, Jessie",
     "seats_open": 28,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13856,8 +14038,10 @@
     "instructor": "Young, April",
     "seats_open": 29,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13875,10 +14059,12 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Thibodeaux, Jason",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13898,8 +14084,10 @@
     "instructor": "Thibodeaux, Jason",
     "seats_open": 6,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13919,8 +14107,10 @@
     "instructor": "Gibbons, Jacqueline",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13940,8 +14130,10 @@
     "instructor": "Schrader, Angela",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13961,8 +14153,10 @@
     "instructor": "Jean Francois, Joan",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -13982,8 +14176,10 @@
     "instructor": "Sanchez, Jaime",
     "seats_open": 29,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -14003,8 +14199,10 @@
     "instructor": "Moore, Deborah",
     "seats_open": 26,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -14024,8 +14222,10 @@
     "instructor": "Black, Laura",
     "seats_open": 23,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -14045,8 +14245,10 @@
     "instructor": "Berresheim, Catherine",
     "seats_open": 28,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -14066,8 +14268,10 @@
     "instructor": "Sanchez, Jaime",
     "seats_open": 11,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -14087,8 +14291,10 @@
     "instructor": "Michael, Shellie",
     "seats_open": 5,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -14108,8 +14314,10 @@
     "instructor": "Thibodeaux, Jason",
     "seats_open": 11,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -14129,8 +14337,10 @@
     "instructor": null,
     "seats_open": 11,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -14148,10 +14358,12 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Casey Jr, Cort",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -14169,7 +14381,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14274,7 +14486,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15870,7 +16082,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15893,7 +16105,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -15933,7 +16145,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Bell, Keith",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16017,7 +16229,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Gilliam, Brooke",
-    "seats_open": 14,
+    "seats_open": 12,
     "seats_total": 36,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16059,7 +16271,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Gilliam, Brooke",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16080,7 +16292,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Parker, Brandon",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16227,10 +16439,20 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Parker, Brandon",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 14,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -16248,10 +16470,20 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Parker, Brandon",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 14,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -16290,7 +16522,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16332,7 +16564,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16458,7 +16690,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Bowling, Valerie",
-    "seats_open": 21,
+    "seats_open": 22,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17298,7 +17530,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Hamilton, James",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17319,7 +17551,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Eades III, Grady",
-    "seats_open": 16,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17550,7 +17782,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Trentham, Patrick",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17865,7 +18097,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Malosh, Chrysa",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17886,7 +18118,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Malosh, Chrysa",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17991,7 +18223,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18075,7 +18307,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Taylor, LaDonna",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18096,7 +18328,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Kenigson, Jonathan",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18453,7 +18685,7 @@
     "campus": "Vol State Cookeville",
     "mode": "in-person",
     "instructor": "Hall, Meredith",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18644,7 +18876,7 @@
     "instructor": "Lester, Edith",
     "seats_open": 29,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18665,7 +18897,7 @@
     "instructor": "Lester, Edith",
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18686,7 +18918,7 @@
     "instructor": "Potter, Jessica",
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18707,7 +18939,7 @@
     "instructor": "Hall, Meredith",
     "seats_open": 28,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18728,7 +18960,7 @@
     "instructor": "Lester, Edith",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18749,7 +18981,7 @@
     "instructor": "Lester, Edith",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18770,7 +19002,7 @@
     "instructor": "Kadakia, Kokesh",
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18791,7 +19023,7 @@
     "instructor": "Kadakia, Kokesh",
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18812,7 +19044,7 @@
     "instructor": "Kenigson, Jonathan",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18831,9 +19063,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Taylor, LaDonna",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18852,9 +19084,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Kenigson, Jonathan",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18875,7 +19107,7 @@
     "instructor": "Maresh, Michelle",
     "seats_open": 26,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18896,7 +19128,7 @@
     "instructor": "Etheridge, Paula",
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18999,7 +19231,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Forrester, Elizabeth",
-    "seats_open": 18,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -19127,8 +19359,10 @@
     "instructor": "Blakeman, Stephen",
     "seats_open": 25,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19146,10 +19380,12 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Dyer, Peggy",
-    "seats_open": 26,
+    "seats_open": 25,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19169,8 +19405,10 @@
     "instructor": "Blakeman, Stephen",
     "seats_open": 28,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19190,8 +19428,10 @@
     "instructor": "McCauley, Charles",
     "seats_open": 23,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19209,10 +19449,12 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Lester, Edith",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19232,8 +19474,10 @@
     "instructor": "Sowell, Rita",
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19253,8 +19497,10 @@
     "instructor": "Caldwell, Kimberly",
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19274,8 +19520,12 @@
     "instructor": "Sullivan, Amber",
     "seats_open": 18,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19295,8 +19545,12 @@
     "instructor": "Schremp, Alizza",
     "seats_open": 28,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19316,8 +19570,12 @@
     "instructor": "Sullivan, Amber",
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19337,8 +19595,12 @@
     "instructor": null,
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19358,7 +19620,7 @@
     "instructor": "Ni, Lingli",
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19379,7 +19641,7 @@
     "instructor": "Ni, Lingli",
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19400,7 +19662,7 @@
     "instructor": "Shariati, Mark",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19419,9 +19681,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Shariati, Mark",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19442,7 +19704,7 @@
     "instructor": "Yarbrough, Mary",
     "seats_open": 13,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19463,7 +19725,7 @@
     "instructor": "Moore, Jeffrey",
     "seats_open": 28,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19484,7 +19746,7 @@
     "instructor": "Yarbrough, Mary",
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19505,7 +19767,7 @@
     "instructor": "Schremp, Alizza",
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19526,7 +19788,7 @@
     "instructor": "McCauley, Charles",
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19547,7 +19809,7 @@
     "instructor": "Hall, Meredith",
     "seats_open": 20,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19568,7 +19830,7 @@
     "instructor": "McCauley, Charles",
     "seats_open": 26,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19589,7 +19851,7 @@
     "instructor": "Sullivan, Amber",
     "seats_open": 19,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19610,7 +19872,7 @@
     "instructor": "Dayhuff, Ellen",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19631,7 +19893,7 @@
     "instructor": "Dayhuff, Ellen",
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19652,7 +19914,7 @@
     "instructor": "Sowell, Rita",
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19673,7 +19935,7 @@
     "instructor": "Haque, MD",
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19694,7 +19956,7 @@
     "instructor": "Forrester, Elizabeth",
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19715,7 +19977,7 @@
     "instructor": "Taylor, LaDonna",
     "seats_open": 24,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19736,7 +19998,7 @@
     "instructor": "Taylor, LaDonna",
     "seats_open": 22,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19757,7 +20019,7 @@
     "instructor": "Taylor, LaDonna",
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19778,7 +20040,7 @@
     "instructor": "Schremp, Alizza",
     "seats_open": 28,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19797,9 +20059,9 @@
     "campus": "Vol State Cookeville",
     "mode": "in-person",
     "instructor": "Hall, Meredith",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19820,7 +20082,7 @@
     "instructor": "Sullivan, Amber",
     "seats_open": 20,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19841,7 +20103,7 @@
     "instructor": "Williams, Isamar",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -19860,10 +20122,16 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Palmer, Robert",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19883,8 +20151,10 @@
     "instructor": "Shariati, Mark",
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19904,8 +20174,10 @@
     "instructor": "Frauendienst, Leah",
     "seats_open": 25,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19925,8 +20197,10 @@
     "instructor": "Blakeman, Stephen",
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19946,8 +20220,10 @@
     "instructor": "McCauley, Charles",
     "seats_open": 22,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19967,8 +20243,10 @@
     "instructor": "Blakeman, Stephen",
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -19988,8 +20266,10 @@
     "instructor": "Sowell, Rita",
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20009,8 +20289,10 @@
     "instructor": "Blakeman, Stephen",
     "seats_open": 15,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20030,8 +20312,10 @@
     "instructor": "Williams, Mark",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20051,8 +20335,10 @@
     "instructor": "Kadakia, Kokesh",
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20072,8 +20358,10 @@
     "instructor": "Moore, Jeffrey",
     "seats_open": 29,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20093,8 +20381,10 @@
     "instructor": "Caldwell, Kimberly",
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20114,8 +20404,12 @@
     "instructor": "Forrester, Elizabeth",
     "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20135,8 +20429,12 @@
     "instructor": "Vannozzi, Benjamin",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20154,10 +20452,14 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Melvin, Pete",
-    "seats_open": 14,
+    "seats_open": 15,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20177,8 +20479,12 @@
     "instructor": "McDonald, Mark",
     "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20198,8 +20504,12 @@
     "instructor": "McCauley, Charles",
     "seats_open": 29,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20219,8 +20529,12 @@
     "instructor": "Melvin, Pete",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20240,8 +20554,10 @@
     "instructor": "Moore, Jeffrey",
     "seats_open": 6,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20261,8 +20577,10 @@
     "instructor": "Williams, Mark",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20282,8 +20600,10 @@
     "instructor": "Kenigson, Jonathan",
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20303,8 +20623,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20324,8 +20646,12 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 23 and ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20345,8 +20671,10 @@
     "instructor": "Kenigson, Jonathan",
     "seats_open": 15,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20366,8 +20694,10 @@
     "instructor": "Yarbrough, Mary",
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -20387,8 +20717,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -21246,7 +21578,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Johnson, Megan",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -21542,8 +21874,10 @@
     "instructor": "Johnson, Megan",
     "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MUS 1057",
+    "prerequisite_courses": [
+      "MUS 1057"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -21563,8 +21897,10 @@
     "instructor": "Johnson, Megan",
     "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MUS 1058",
+    "prerequisite_courses": [
+      "MUS 1058"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -22235,8 +22571,10 @@
     "instructor": null,
     "seats_open": 40,
     "seats_total": 40,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -22256,8 +22594,10 @@
     "instructor": null,
     "seats_open": 40,
     "seats_total": 40,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -22277,8 +22617,10 @@
     "instructor": null,
     "seats_open": 42,
     "seats_total": 42,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -22298,8 +22640,10 @@
     "instructor": null,
     "seats_open": 42,
     "seats_total": 42,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -22319,8 +22663,10 @@
     "instructor": null,
     "seats_open": 9,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -22340,8 +22686,10 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -22361,8 +22709,10 @@
     "instructor": null,
     "seats_open": 40,
     "seats_total": 40,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -22382,8 +22732,10 @@
     "instructor": null,
     "seats_open": 40,
     "seats_total": 40,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -22403,8 +22755,10 @@
     "instructor": null,
     "seats_open": 42,
     "seats_total": 42,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -22424,8 +22778,10 @@
     "instructor": null,
     "seats_open": 42,
     "seats_total": 42,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -22445,7 +22801,7 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -22466,7 +22822,7 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -22760,7 +23116,7 @@
     "instructor": "Williams-Wyant, Matthew",
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22781,7 +23137,7 @@
     "instructor": "Hutton, Clark",
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22802,7 +23158,7 @@
     "instructor": "Hutton, Clark",
     "seats_open": 24,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22823,7 +23179,7 @@
     "instructor": "Easley, Evan",
     "seats_open": 26,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22842,9 +23198,9 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22865,7 +23221,7 @@
     "instructor": "Shipley, Jeremy",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22884,9 +23240,9 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22907,7 +23263,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22928,7 +23284,7 @@
     "instructor": "Williams-Wyant, Matthew",
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22949,7 +23305,7 @@
     "instructor": "Shipley, Jeremy",
     "seats_open": 17,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22970,7 +23326,7 @@
     "instructor": "Shipley, Jeremy",
     "seats_open": 16,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22991,7 +23347,7 @@
     "instructor": "Shipley, Jeremy",
     "seats_open": 22,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23010,9 +23366,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Williams-Wyant, Matthew",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23033,7 +23389,7 @@
     "instructor": "Easley, Evan",
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23054,7 +23410,7 @@
     "instructor": "Williams-Wyant, Matthew",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23075,7 +23431,7 @@
     "instructor": "Hutton, Clark",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23094,9 +23450,9 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Hutton, Clark",
-    "seats_open": 11,
+    "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23117,7 +23473,7 @@
     "instructor": "Williams-Wyant, Matthew",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23138,7 +23494,7 @@
     "instructor": null,
     "seats_open": 8,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23199,7 +23555,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Blauw, Joanna",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -23537,8 +23893,12 @@
     "instructor": "Hendrickson, Kyra",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -23558,8 +23918,12 @@
     "instructor": "Hendrickson, Kyra",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -23579,8 +23943,10 @@
     "instructor": "Hendrickson, Kyra",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -23600,8 +23966,10 @@
     "instructor": "Hendrickson, Kyra",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -23621,8 +23989,10 @@
     "instructor": "Farris, Timothy",
     "seats_open": 15,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -23642,8 +24012,10 @@
     "instructor": "Farris, Timothy",
     "seats_open": 15,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -23663,7 +24035,7 @@
     "instructor": "McMillan, Robert",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23684,7 +24056,7 @@
     "instructor": "McMillan, Robert",
     "seats_open": 24,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23705,7 +24077,7 @@
     "instructor": "McMillan, Robert",
     "seats_open": 19,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23726,7 +24098,7 @@
     "instructor": "McMillan, Robert",
     "seats_open": 6,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23747,7 +24119,7 @@
     "instructor": "McMillan, Robert",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23768,7 +24140,7 @@
     "instructor": "Green, Rick",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23894,7 +24266,7 @@
     "instructor": "Bell, Katherine",
     "seats_open": 32,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23915,7 +24287,7 @@
     "instructor": "Hardyway, Sidney",
     "seats_open": 32,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23934,9 +24306,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Hardyway, Sidney",
-    "seats_open": 33,
+    "seats_open": 34,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23957,7 +24329,7 @@
     "instructor": "Fox, Bryce",
     "seats_open": 30,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23978,7 +24350,7 @@
     "instructor": "Corum, Brooke",
     "seats_open": 38,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23999,7 +24371,7 @@
     "instructor": "Hoff, Brenda",
     "seats_open": 36,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24020,7 +24392,7 @@
     "instructor": "Hoff, Brenda",
     "seats_open": 33,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24039,9 +24411,9 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": "Fox, Bryce",
-    "seats_open": 37,
+    "seats_open": 36,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24062,7 +24434,7 @@
     "instructor": "Hoff, Brenda",
     "seats_open": 37,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24083,7 +24455,7 @@
     "instructor": "Corum, Brooke",
     "seats_open": 29,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24104,7 +24476,7 @@
     "instructor": "Fox, Bryce",
     "seats_open": 33,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24125,7 +24497,7 @@
     "instructor": "Johnson, Renee",
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24146,7 +24518,7 @@
     "instructor": "Teeple, Vanessa",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24165,9 +24537,9 @@
     "campus": "Vol State Springfield",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 27,
+    "seats_open": 26,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24188,7 +24560,7 @@
     "instructor": "Teeple, Vanessa",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24209,7 +24581,7 @@
     "instructor": "Teeple, Vanessa",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24230,7 +24602,7 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24251,7 +24623,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24272,7 +24644,7 @@
     "instructor": "Burton, Jennifer",
     "seats_open": 0,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24293,7 +24665,7 @@
     "instructor": "Hardyway, Sidney",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24314,7 +24686,7 @@
     "instructor": "Burton, Jennifer",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24335,7 +24707,7 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24356,7 +24728,7 @@
     "instructor": null,
     "seats_open": 40,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24396,7 +24768,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Teeple, Vanessa",
-    "seats_open": 8,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -24419,8 +24791,10 @@
     "instructor": "Alesch, Heather",
     "seats_open": 14,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -24440,8 +24814,10 @@
     "instructor": "Babcock, Gina",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -24461,8 +24837,10 @@
     "instructor": "Babcock, Gina",
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -24482,7 +24860,7 @@
     "instructor": "Burton, Jennifer",
     "seats_open": 24,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24503,7 +24881,7 @@
     "instructor": "Burton, Jennifer",
     "seats_open": 32,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24524,7 +24902,7 @@
     "instructor": "Casey, Christa",
     "seats_open": 29,
     "seats_total": 40,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24545,7 +24923,7 @@
     "instructor": "Fox, Bryce",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24566,7 +24944,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24587,7 +24965,7 @@
     "instructor": "Teeple, Vanessa",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24608,7 +24986,7 @@
     "instructor": "Hardyway, Sidney",
     "seats_open": 8,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24629,7 +25007,7 @@
     "instructor": "McGowan, Ashley",
     "seats_open": 0,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24650,7 +25028,7 @@
     "instructor": "McGowan, Ashley",
     "seats_open": 19,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24690,7 +25068,7 @@
     "campus": "Vol State Online",
     "mode": "online",
     "instructor": "Babcock, Gina",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -24860,7 +25238,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Radiologic Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -24923,8 +25301,10 @@
     "instructor": null,
     "seats_open": 6,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 1340 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 1340"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -24944,7 +25324,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Radiologic Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -24965,7 +25345,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Radiologic Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -24986,8 +25366,10 @@
     "instructor": null,
     "seats_open": 7,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 1340 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 1340"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -25007,8 +25389,10 @@
     "instructor": null,
     "seats_open": 7,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 1340 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 1340"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -25028,7 +25412,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Radiologic Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -25049,8 +25433,10 @@
     "instructor": null,
     "seats_open": 7,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 1340 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 1340"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -25700,7 +26086,7 @@
     "instructor": "Casey, Christa",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25721,7 +26107,7 @@
     "instructor": "Casey, Christa",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25763,7 +26149,7 @@
     "instructor": "Williams, Philip",
     "seats_open": 24,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25784,7 +26170,7 @@
     "instructor": "Williams, Philip",
     "seats_open": 19,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25805,7 +26191,7 @@
     "instructor": "Williams, Philip",
     "seats_open": 22,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25826,7 +26212,7 @@
     "instructor": "Fuston, Jamie",
     "seats_open": 27,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25847,7 +26233,7 @@
     "instructor": "Fuston, Jamie",
     "seats_open": 19,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25868,7 +26254,7 @@
     "instructor": "Douglas-Sevier, Jeannie",
     "seats_open": 0,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25889,7 +26275,7 @@
     "instructor": "Douglas-Sevier, Jeannie",
     "seats_open": 0,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25910,7 +26296,7 @@
     "instructor": "Douglas-Sevier, Jeannie",
     "seats_open": 17,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25931,7 +26317,7 @@
     "instructor": "Douglas-Sevier, Jeannie",
     "seats_open": 24,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25952,7 +26338,7 @@
     "instructor": "Fuston, Jamie",
     "seats_open": 25,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25973,7 +26359,7 @@
     "instructor": null,
     "seats_open": 9,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26036,7 +26422,7 @@
     "instructor": "Fuston, Jamie",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26120,8 +26506,10 @@
     "instructor": "Sanchez, Jaime",
     "seats_open": 18,
     "seats_total": 22,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -26141,8 +26529,10 @@
     "instructor": "Vandiver, Michelle",
     "seats_open": 15,
     "seats_total": 22,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -26162,8 +26552,10 @@
     "instructor": "Roller, Olivia",
     "seats_open": 17,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -26183,8 +26575,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "volunteer-state",
@@ -26202,7 +26596,7 @@
     "campus": "Vol State Gallatin",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []

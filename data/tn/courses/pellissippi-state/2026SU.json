@@ -17,7 +17,7 @@
     "instructor": "Oster, Rick",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -38,7 +38,7 @@
     "instructor": "Oster, Rick",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -57,9 +57,9 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -80,7 +80,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -101,7 +101,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -122,8 +122,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -143,8 +145,10 @@
     "instructor": "Szwarc, Deborah",
     "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -164,8 +168,10 @@
     "instructor": "Michaelson, Deanne",
     "seats_open": 13,
     "seats_total": 31,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -185,8 +191,10 @@
     "instructor": "Michaelson, Deanne",
     "seats_open": 20,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -206,8 +214,10 @@
     "instructor": null,
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -246,10 +256,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Kirk, Julia",
-    "seats_open": 11,
+    "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "INFS 1010",
+    "prerequisite_courses": [
+      "INFS 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -269,7 +281,7 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
     "prerequisite_courses": []
   },
   {
@@ -311,8 +323,10 @@
     "instructor": "Horvath, Stephanie",
     "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ASL 1010",
+    "prerequisite_courses": [
+      "ASL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -374,7 +388,7 @@
     "instructor": "Sichler, Judith",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -395,7 +409,7 @@
     "instructor": "Sichler, Judith",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -521,7 +535,7 @@
     "instructor": "Berry, James",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -542,7 +556,7 @@
     "instructor": "Berry, James",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -605,7 +619,7 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Department approval",
     "prerequisite_courses": []
   },
   {
@@ -626,7 +640,7 @@
     "instructor": null,
     "seats_open": 45,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -645,9 +659,9 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Comes, Mandy",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -668,7 +682,7 @@
     "instructor": "Efteland, Shannon",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -687,9 +701,9 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Comes, Mandy",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -710,7 +724,7 @@
     "instructor": "Efteland, Shannon",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -731,7 +745,7 @@
     "instructor": null,
     "seats_open": 48,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -752,7 +766,7 @@
     "instructor": "Mincy, Grant",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -773,7 +787,7 @@
     "instructor": "Peffers, Caitlin",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -794,7 +808,7 @@
     "instructor": "Mincy, Grant",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -815,7 +829,7 @@
     "instructor": "Peffers, Caitlin",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -836,7 +850,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -857,7 +871,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -878,7 +892,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -899,7 +913,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -920,7 +934,7 @@
     "instructor": "Kover, Noah",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -941,7 +955,7 @@
     "instructor": "Stairs, Kristen",
     "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -962,7 +976,7 @@
     "instructor": "Russell, Toby",
     "seats_open": 15,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -983,7 +997,7 @@
     "instructor": "Russell, Toby",
     "seats_open": 10,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1004,7 +1018,7 @@
     "instructor": "Bridges, Ronny",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1025,7 +1039,7 @@
     "instructor": "Bridges, Ronny",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1046,7 +1060,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1067,7 +1081,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1088,7 +1102,7 @@
     "instructor": "Adams, Zulfiya",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1109,7 +1123,7 @@
     "instructor": "Adams, Zulfiya",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1130,7 +1144,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1151,7 +1165,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1170,10 +1184,12 @@
     "campus": "Blount County Campus",
     "mode": "in-person",
     "instructor": "Kover, Noah",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1191,10 +1207,12 @@
     "campus": "Blount County Campus",
     "mode": "in-person",
     "instructor": "Kover, Noah",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1212,10 +1230,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Cook, Laurel",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1233,10 +1253,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Mooney, Natalie",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1256,8 +1278,10 @@
     "instructor": "Horner, Jeffrey",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1277,8 +1301,10 @@
     "instructor": "Horner, Jeffrey",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1298,8 +1324,10 @@
     "instructor": "Horner, Jeffrey",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1319,8 +1347,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1340,8 +1370,10 @@
     "instructor": "Cook, Laurel",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1361,8 +1393,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1380,10 +1414,15 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Bejnood, Morvarid",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1401,10 +1440,15 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "McNeill, David",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1424,8 +1468,13 @@
     "instructor": "Askari, Minoo",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1445,8 +1494,13 @@
     "instructor": "Askari, Minoo",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1466,8 +1520,13 @@
     "instructor": "Hergott, Nicole",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1487,8 +1546,13 @@
     "instructor": "Naji, Zainab",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1508,8 +1572,13 @@
     "instructor": "Bejnood, Morvarid",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1529,8 +1598,13 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1550,8 +1624,13 @@
     "instructor": "Bejnood, Morvarid",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1571,8 +1650,13 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1592,8 +1676,13 @@
     "instructor": "Askari, Minoo",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1613,8 +1702,13 @@
     "instructor": null,
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1634,8 +1728,13 @@
     "instructor": "Hergott, Nicole",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1655,8 +1754,13 @@
     "instructor": "Naji, Zainab",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1110 or BIOL 2010 or CHEM 1010 or CHEM 1110",
+    "prerequisite_courses": [
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010",
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1676,8 +1780,13 @@
     "instructor": "Keith, Lisa",
     "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1010 or BIOL 1110 or BIOL 2010 or CHEM 1010",
+    "prerequisite_courses": [
+      "BIOL 1010",
+      "BIOL 1110",
+      "BIOL 2010",
+      "CHEM 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1758,7 +1867,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1823,8 +1932,10 @@
     "instructor": "Farr, Tracey",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1844,7 +1955,7 @@
     "instructor": "Martin, Holly",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1865,7 +1976,7 @@
     "instructor": null,
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1886,7 +1997,7 @@
     "instructor": null,
     "seats_open": 8,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1907,8 +2018,11 @@
     "instructor": null,
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1928,8 +2042,10 @@
     "instructor": null,
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1949,8 +2065,10 @@
     "instructor": "Farr, Tracey",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -1970,7 +2088,7 @@
     "instructor": "McCowan, Elizabeth",
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1991,8 +2109,10 @@
     "instructor": "Bolling, Tammie",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2012,8 +2132,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2033,8 +2155,12 @@
     "instructor": "Lowery, Amy",
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010 and BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "ACCT 1010",
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2075,8 +2201,18 @@
     "instructor": null,
     "seats_open": 993,
     "seats_total": 999,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2096,8 +2232,10 @@
     "instructor": null,
     "seats_open": 994,
     "seats_total": 999,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1010",
+    "prerequisite_courses": [
+      "CHEM 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2117,8 +2255,12 @@
     "instructor": "Burns, Jerry",
     "seats_open": 4,
     "seats_total": 32,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2138,8 +2280,12 @@
     "instructor": "Hall, Mitzy",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2159,8 +2305,12 @@
     "instructor": "Hall, Mitzy",
     "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2180,8 +2330,12 @@
     "instructor": "Morris, Stephanie",
     "seats_open": 7,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2201,8 +2355,12 @@
     "instructor": "Morris, Stephanie",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2222,8 +2380,12 @@
     "instructor": "Keane, Megan",
     "seats_open": 16,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2243,8 +2405,10 @@
     "instructor": "Veith, Barbara",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2264,8 +2428,10 @@
     "instructor": "Veith, Barbara",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2285,8 +2451,10 @@
     "instructor": "Veith, Barbara",
     "seats_open": 18,
     "seats_total": 36,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2306,8 +2474,10 @@
     "instructor": "Burns, Jerry",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2325,10 +2495,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Adamczyk, Leslie",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2348,8 +2520,10 @@
     "instructor": "Adamczyk, Leslie",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2367,10 +2541,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Adamczyk, Leslie",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2390,8 +2566,10 @@
     "instructor": "Burns, Jerry",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2411,8 +2589,10 @@
     "instructor": "Pennycuff, Garry",
     "seats_open": 0,
     "seats_total": 36,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1120",
+    "prerequisite_courses": [
+      "CHEM 1120"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2432,8 +2612,10 @@
     "instructor": "Glazener, Rachel",
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1120",
+    "prerequisite_courses": [
+      "CHEM 1120"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2453,8 +2635,10 @@
     "instructor": "Veith, Barbara",
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1120",
+    "prerequisite_courses": [
+      "CHEM 1120"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2474,8 +2658,10 @@
     "instructor": "Glazener, Rachel",
     "seats_open": 10,
     "seats_total": 36,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 2010",
+    "prerequisite_courses": [
+      "CHEM 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2495,8 +2681,10 @@
     "instructor": "Pennycuff, Garry",
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 2010",
+    "prerequisite_courses": [
+      "CHEM 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2516,8 +2704,10 @@
     "instructor": "Pennycuff, Garry",
     "seats_open": 10,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 2010",
+    "prerequisite_courses": [
+      "CHEM 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -2628,6 +2818,27 @@
     "college_code": "pellissippi-state",
     "term": "2026SU",
     "course_prefix": "COLL",
+    "course_number": "1000",
+    "course_title": "First Year Seminar - Exploratory - Log into course during 1st 2 days",
+    "credits": 1,
+    "crn": "51197",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-05-26",
+    "location": "World Wide Web",
+    "campus": "Hardin Valley Campus",
+    "mode": "in-person",
+    "instructor": null,
+    "seats_open": 20,
+    "seats_total": 20,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "pellissippi-state",
+    "term": "2026SU",
+    "course_prefix": "COLL",
     "course_number": "1500",
     "course_title": "W01 COLL 1500 &ndash; College Success w READ 0900 PC1 &ndash; Log in first 2 days",
     "credits": 3,
@@ -2663,7 +2874,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2684,7 +2895,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2705,7 +2916,7 @@
     "instructor": "Marsh, Shaquille",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2726,7 +2937,7 @@
     "instructor": "Marsh, Shaquille",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2745,7 +2956,7 @@
     "campus": "Blount County Campus",
     "mode": "in-person",
     "instructor": "Workman, Hallie",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2766,7 +2977,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Marsh, Shaquille",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2871,7 +3082,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Workman, Hallie",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2976,7 +3187,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Christensen, Spencer",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2997,7 +3208,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Christensen, Spencer",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3041,8 +3252,10 @@
     "instructor": "Adigun, Jeremiah",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3062,8 +3275,11 @@
     "instructor": "Charles, Jama",
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3083,8 +3299,10 @@
     "instructor": "Dunn, Joshua",
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1310",
+    "prerequisite_courses": [
+      "CITC 1310"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3104,8 +3322,10 @@
     "instructor": "Depres, Sergio",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3125,8 +3345,10 @@
     "instructor": "Depres, Sergio",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302",
+    "prerequisite_courses": [
+      "CITC 1302"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3146,8 +3368,10 @@
     "instructor": "Adigun, Jeremiah",
     "seats_open": 14,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3207,7 +3431,7 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 48,
+    "seats_open": 47,
     "seats_total": 50,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3272,7 +3496,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Completion of 12 hours of CULA courses with a minimum 2.5 GPA in CULA courses and at least a 2.0 cumulative GPA",
     "prerequisite_courses": []
   },
   {
@@ -3293,7 +3517,7 @@
     "instructor": null,
     "seats_open": 46,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3314,7 +3538,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3333,9 +3557,9 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Flinchum, Tara",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3356,7 +3580,7 @@
     "instructor": "Parrott, Scott",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3377,7 +3601,7 @@
     "instructor": "Parrott, Scott",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3398,7 +3622,7 @@
     "instructor": "Flinchum, Tara",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3419,8 +3643,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3440,8 +3666,10 @@
     "instructor": "Zitka, Joseph",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3461,8 +3689,10 @@
     "instructor": "Zitka, Joseph",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3503,7 +3733,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Department approval",
     "prerequisite_courses": []
   },
   {
@@ -3522,7 +3752,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Yakunin, Konstantin",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3543,7 +3773,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Yakunin, Konstantin",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3566,8 +3796,10 @@
     "instructor": "Yakunin, Konstantin",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENS 1510",
+    "prerequisite_courses": [
+      "ENS 1510"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3587,8 +3819,10 @@
     "instructor": "Yakunin, Konstantin",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENS 1510",
+    "prerequisite_courses": [
+      "ENS 1510"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3650,7 +3884,7 @@
     "instructor": null,
     "seats_open": 8,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -3671,7 +3905,7 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -3692,7 +3926,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -3713,7 +3947,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -3734,7 +3968,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -3753,9 +3987,9 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -3774,9 +4008,9 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -3797,7 +4031,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -3818,7 +4052,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -3839,8 +4073,10 @@
     "instructor": null,
     "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3860,8 +4096,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3881,8 +4119,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3902,8 +4142,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3923,8 +4165,10 @@
     "instructor": null,
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3942,10 +4186,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3965,8 +4211,10 @@
     "instructor": null,
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -3986,8 +4234,10 @@
     "instructor": null,
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4007,8 +4257,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4049,8 +4301,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4068,10 +4322,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4091,8 +4347,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4112,8 +4370,10 @@
     "instructor": null,
     "seats_open": 1,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4133,8 +4393,10 @@
     "instructor": null,
     "seats_open": 6,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4154,8 +4416,10 @@
     "instructor": null,
     "seats_open": 14,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4175,8 +4439,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4196,8 +4462,10 @@
     "instructor": null,
     "seats_open": 999,
     "seats_total": 999,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4215,7 +4483,7 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 999,
+    "seats_open": 998,
     "seats_total": 999,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4238,8 +4506,10 @@
     "instructor": null,
     "seats_open": 998,
     "seats_total": 999,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4259,8 +4529,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -5,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4280,8 +4552,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4301,8 +4575,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4322,8 +4598,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4343,8 +4621,10 @@
     "instructor": null,
     "seats_open": 7,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4364,8 +4644,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4385,8 +4667,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4404,10 +4688,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 15,
+    "seats_open": 16,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4425,10 +4711,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4448,8 +4736,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4467,7 +4757,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4509,9 +4799,9 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 999,
+    "seats_open": 998,
     "seats_total": 999,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4532,8 +4822,10 @@
     "instructor": null,
     "seats_open": 998,
     "seats_total": 999,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "FREN 1010 or one unit of high school French",
+    "prerequisite_courses": [
+      "FREN 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4616,8 +4908,18 @@
     "instructor": null,
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4637,8 +4939,18 @@
     "instructor": null,
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4700,8 +5012,10 @@
     "instructor": "McCowan, Elizabeth",
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "HCMT 1010",
+    "prerequisite_courses": [
+      "HCMT 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -4824,7 +5138,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 22,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4908,7 +5222,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "McDaniel, Anthonette",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4992,7 +5306,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Settlemyre, Benjamin",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5307,7 +5621,7 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 995,
+    "seats_open": 994,
     "seats_total": 999,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5330,7 +5644,7 @@
     "instructor": "Lambert, Gail",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5351,7 +5665,7 @@
     "instructor": "Lambert, Gail",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5370,9 +5684,9 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Bolling, Tammie",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5393,7 +5707,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5414,7 +5728,7 @@
     "instructor": "Myers, Kathryn",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5435,7 +5749,7 @@
     "instructor": "Raymond, Kara",
     "seats_open": 16,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5456,7 +5770,7 @@
     "instructor": "Ravenscroft, Jonathan",
     "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5477,7 +5791,7 @@
     "instructor": "Minic, Michael",
     "seats_open": 9,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5498,7 +5812,7 @@
     "instructor": "Crowe, Susan",
     "seats_open": -4,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5519,7 +5833,7 @@
     "instructor": "Gwin, Charlene",
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5540,7 +5854,7 @@
     "instructor": "Myers, Kathryn",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5561,7 +5875,7 @@
     "instructor": "Oyier, Julius",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5582,7 +5896,7 @@
     "instructor": "Lumen, Silence",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5603,8 +5917,10 @@
     "instructor": "Matheny, Ellen",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -5624,8 +5940,10 @@
     "instructor": "Raymond, Kara",
     "seats_open": 16,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -5645,8 +5963,10 @@
     "instructor": "Matheny, Ellen",
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -5666,8 +5986,12 @@
     "instructor": null,
     "seats_open": 999,
     "seats_total": 999,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -5687,8 +6011,12 @@
     "instructor": null,
     "seats_open": 48,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -5708,7 +6036,7 @@
     "instructor": "Stein, Amanda",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5729,7 +6057,7 @@
     "instructor": "Minic, Michael",
     "seats_open": 9,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5750,7 +6078,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5771,7 +6099,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5792,7 +6120,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5813,7 +6141,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5834,7 +6162,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5855,7 +6183,7 @@
     "instructor": "Thomas, Kelli",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5876,7 +6204,7 @@
     "instructor": "Fellhoelter, Carolyn",
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5897,7 +6225,7 @@
     "instructor": "Suddeth, Claire",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5918,7 +6246,7 @@
     "instructor": "Crowe, Susan",
     "seats_open": -4,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5939,8 +6267,14 @@
     "instructor": "Sawyer, Paula",
     "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -5960,8 +6294,14 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -5981,8 +6321,14 @@
     "instructor": "Sawyer, Paula",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6002,8 +6348,10 @@
     "instructor": "Ravenscroft, Jonathan",
     "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6023,8 +6371,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6042,10 +6392,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Crossland, Tony",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6065,8 +6417,10 @@
     "instructor": "Boone, Ashley",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6086,8 +6440,10 @@
     "instructor": "Witt, Walter",
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6107,8 +6463,10 @@
     "instructor": "Watkins, Jacqueline",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6128,8 +6486,12 @@
     "instructor": "Weaver, Elizabeth",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6149,8 +6511,12 @@
     "instructor": "Thomas, Daryl",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6170,8 +6536,12 @@
     "instructor": "Jackson, Robert",
     "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6191,8 +6561,12 @@
     "instructor": "Lee, Seunghee",
     "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6212,8 +6586,10 @@
     "instructor": "Witt, Walter",
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6233,8 +6609,10 @@
     "instructor": "Lamb, Jon",
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6254,8 +6632,10 @@
     "instructor": "Ziegler, Brooks",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6273,10 +6653,14 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Gibson, Terry",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 23 and ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6296,8 +6680,10 @@
     "instructor": "Elliott, Christina",
     "seats_open": 8,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6317,8 +6703,10 @@
     "instructor": "Lee, Seunghee",
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -6338,7 +6726,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Department approval",
     "prerequisite_courses": []
   },
   {
@@ -6359,7 +6747,7 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Department approval",
     "prerequisite_courses": []
   },
   {
@@ -6380,7 +6768,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Department approval",
     "prerequisite_courses": []
   },
   {
@@ -6462,7 +6850,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Humphreys, Meagan",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6483,7 +6871,7 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": "Vincent, Larry",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7094,7 +7482,7 @@
     "instructor": "Johnson, Thomas",
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
+    "prerequisite_text": "Department approval and audition may be required",
     "prerequisite_courses": []
   },
   {
@@ -7115,8 +7503,10 @@
     "instructor": null,
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7136,8 +7526,10 @@
     "instructor": null,
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7157,8 +7549,10 @@
     "instructor": null,
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7178,7 +7572,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -7199,8 +7593,12 @@
     "instructor": null,
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1360 and NRSG 1600 or NRSG 1620",
+    "prerequisite_courses": [
+      "NRSG 1360",
+      "NRSG 1600",
+      "NRSG 1620"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7262,7 +7660,7 @@
     "instructor": "Deaton, Justin",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7283,7 +7681,7 @@
     "instructor": "Cosby, Madison",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7304,7 +7702,7 @@
     "instructor": "Lewis, Courtland",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7325,7 +7723,7 @@
     "instructor": "Lewis, Courtland",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7346,7 +7744,7 @@
     "instructor": "Deaton, Justin",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7367,7 +7765,7 @@
     "instructor": "Weedman, E Michelle",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7388,7 +7786,7 @@
     "instructor": "Kallay, Hunter",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7409,7 +7807,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7430,7 +7828,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7449,9 +7847,9 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7472,8 +7870,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHO 1000",
+    "prerequisite_courses": [
+      "PHO 1000"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7724,8 +8124,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7745,8 +8149,12 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7766,8 +8174,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7787,8 +8199,12 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7808,8 +8224,10 @@
     "instructor": null,
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2010",
+    "prerequisite_courses": [
+      "PHYS 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7829,8 +8247,10 @@
     "instructor": null,
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2010",
+    "prerequisite_courses": [
+      "PHYS 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7848,10 +8268,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7869,10 +8291,12 @@
     "campus": "Hardin Valley Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7892,8 +8316,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7913,8 +8339,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -7934,7 +8362,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7955,7 +8383,7 @@
     "instructor": "Blanshei, Matthew",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7976,7 +8404,7 @@
     "instructor": "Cragwall, Jesse",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7997,7 +8425,7 @@
     "instructor": "Cragwall, Jesse",
     "seats_open": 8,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8018,7 +8446,7 @@
     "instructor": "Rees, Tracy",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8039,7 +8467,7 @@
     "instructor": "Rees, Tracy",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8060,7 +8488,7 @@
     "instructor": "Korie, Daniel",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8081,7 +8509,7 @@
     "instructor": "Samaras, Georgette",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8102,7 +8530,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8123,7 +8551,7 @@
     "instructor": "Henderson, Lisa",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8165,8 +8593,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8186,8 +8616,10 @@
     "instructor": "Berchtold, Brian",
     "seats_open": 8,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8207,7 +8639,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8228,7 +8660,7 @@
     "instructor": "Cunningham, Christie",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8249,7 +8681,7 @@
     "instructor": "Cunningham, Christie",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8310,9 +8742,9 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 999,
+    "seats_open": 998,
     "seats_total": 999,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8333,7 +8765,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8354,7 +8786,7 @@
     "instructor": "Choka, Margaret",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8375,7 +8807,7 @@
     "instructor": "Choka, Margaret",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8396,7 +8828,7 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8417,7 +8849,7 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8438,7 +8870,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8459,7 +8891,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8480,7 +8912,7 @@
     "instructor": "Morris, Katherine",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8501,7 +8933,7 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8522,7 +8954,7 @@
     "instructor": null,
     "seats_open": 997,
     "seats_total": 999,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8564,8 +8996,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8585,8 +9019,10 @@
     "instructor": null,
     "seats_open": 13,
     "seats_total": 27,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8606,8 +9042,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8627,8 +9065,10 @@
     "instructor": "Davila, Maria",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8648,8 +9088,10 @@
     "instructor": "Hansen, Ana",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8669,8 +9111,10 @@
     "instructor": "Hansen, Terry",
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8690,8 +9134,10 @@
     "instructor": "Hansen, Ana",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8711,8 +9157,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8732,8 +9180,10 @@
     "instructor": "Harper, Marilyn",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8753,8 +9203,10 @@
     "instructor": "Mueller, Donald",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8774,8 +9226,10 @@
     "instructor": "Davila, Maria",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8795,8 +9249,10 @@
     "instructor": "Harper, Marilyn",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8816,8 +9272,10 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8837,8 +9295,10 @@
     "instructor": "Mueller, Donald",
     "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8858,8 +9318,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -8879,8 +9341,10 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2020 or four units of high school Spanish or equivalent life experience",
+    "prerequisite_courses": [
+      "SPAN 2020"
+    ]
   },
   {
     "college_code": "pellissippi-state",
@@ -9003,7 +9467,7 @@
     "campus": "Strawberry Plains Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9026,7 +9490,7 @@
     "instructor": "Shope, Lindsay",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9047,7 +9511,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   }
 ]

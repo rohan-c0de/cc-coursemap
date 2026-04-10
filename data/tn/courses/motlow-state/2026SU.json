@@ -17,7 +17,7 @@
     "instructor": "Dickey, Susan",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -38,7 +38,7 @@
     "instructor": "Dickey, Susan",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -59,8 +59,10 @@
     "instructor": "Bridge, Kristin",
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -80,8 +82,10 @@
     "instructor": "Burke, Gina",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -101,8 +105,10 @@
     "instructor": "Burke, Gina",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -122,7 +128,7 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -164,7 +170,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
     "prerequisite_courses": []
   },
   {
@@ -185,7 +191,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
     "prerequisite_courses": []
   },
   {
@@ -204,7 +210,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Seymour, Daniel",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -246,7 +252,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Robinson, Brian",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -288,7 +294,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Claunch, Eric",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -458,7 +464,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -519,9 +525,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Garrison, Russell",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -540,9 +546,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Griffith, Misty",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -563,7 +569,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -584,7 +590,7 @@
     "instructor": null,
     "seats_open": 96,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -605,7 +611,7 @@
     "instructor": "Fitch, Elizabeth",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -626,7 +632,7 @@
     "instructor": "Forde, Janet",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -647,7 +653,7 @@
     "instructor": "Powell, David",
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -668,7 +674,7 @@
     "instructor": "Palmer, David",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -689,7 +695,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -710,7 +716,7 @@
     "instructor": "Matz, Jessica",
     "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -731,7 +737,7 @@
     "instructor": "Matthews, Mary",
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -752,7 +758,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -773,7 +779,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -834,9 +840,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Gregory, Cheri",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -855,9 +861,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Fitch, Kevin",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -878,7 +884,7 @@
     "instructor": "Vaughan, David",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -899,7 +905,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -920,7 +926,7 @@
     "instructor": "Goodman, Tiffany",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -941,8 +947,10 @@
     "instructor": "Gregory, Cheri",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -962,8 +970,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -983,8 +993,10 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1002,10 +1014,12 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Bridge, Kristin",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1025,8 +1039,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1046,8 +1062,10 @@
     "instructor": "Goodman, Tiffany",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1067,8 +1085,10 @@
     "instructor": "Maze, Lucky",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1128,7 +1148,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Palmer, David",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1191,7 +1211,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Lee, Tracey",
-    "seats_open": 12,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1319,8 +1339,11 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1340,8 +1363,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1361,7 +1386,7 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1382,8 +1407,10 @@
     "instructor": "Bridge, Kristin",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1403,8 +1430,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1445,8 +1474,18 @@
     "instructor": null,
     "seats_open": 92,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1466,8 +1505,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1010",
+    "prerequisite_courses": [
+      "CHEM 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1485,10 +1526,14 @@
     "campus": "McMinnville Campus",
     "mode": "in-person",
     "instructor": "Burch, Chelsa",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1508,8 +1553,12 @@
     "instructor": "Bradley-Roland, Ashley",
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1529,8 +1578,12 @@
     "instructor": "Bradley-Roland, Ashley",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1550,8 +1603,12 @@
     "instructor": "Van Wart, Adam",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1571,8 +1628,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1592,8 +1653,10 @@
     "instructor": "Fisher, Nathan",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1611,10 +1674,12 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Fisher, Nathan",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1634,8 +1699,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1655,7 +1722,7 @@
     "instructor": "Williams, Cherie",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1676,7 +1743,7 @@
     "instructor": "Dodson, Nancy",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1695,9 +1762,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Williams, Cherie",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1716,9 +1783,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Richey, Rebecca",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1739,7 +1806,7 @@
     "instructor": "Thompson, William",
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1760,7 +1827,7 @@
     "instructor": "Dodson, Nancy",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1781,7 +1848,7 @@
     "instructor": "Gilispie, Christie",
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1802,7 +1869,7 @@
     "instructor": "Gilispie, Christie",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1823,7 +1890,7 @@
     "instructor": "Davenport, Robert",
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1844,7 +1911,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1863,9 +1930,9 @@
     "campus": "Smyrna Campus",
     "mode": "in-person",
     "instructor": "Adams, Phyllis",
-    "seats_open": 19,
+    "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1905,10 +1972,12 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 99,
+    "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1926,10 +1995,13 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 99,
+    "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -1991,7 +2063,7 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2012,7 +2084,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2033,8 +2105,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302",
+    "prerequisite_courses": [
+      "CITC 1302"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -2054,8 +2128,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302",
+    "prerequisite_courses": [
+      "CITC 1302"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -2073,7 +2149,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Comp, Grace",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2117,7 +2193,7 @@
     "instructor": "Darrow, Stephen",
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2138,7 +2214,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2327,8 +2403,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -2348,8 +2426,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -2367,10 +2447,12 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 99,
+    "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -2390,8 +2472,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -2432,7 +2516,7 @@
     "instructor": "Moulton, Charles",
     "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2453,7 +2537,7 @@
     "instructor": "Moulton, Charles",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2474,7 +2558,7 @@
     "instructor": "Maxwell, William",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2495,7 +2579,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2516,8 +2600,10 @@
     "instructor": "Ortega, George",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -2537,8 +2623,10 @@
     "instructor": "Maxwell, William",
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -2558,8 +2646,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -2579,8 +2669,10 @@
     "instructor": null,
     "seats_open": 96,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDUC 2000",
+    "prerequisite_courses": [
+      "EDUC 2000"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4152,9 +4244,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Johnson, Mary",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -4175,7 +4267,7 @@
     "instructor": "Lee, Olivia",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -4196,7 +4288,7 @@
     "instructor": "Jones, Tamara",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -4217,7 +4309,7 @@
     "instructor": "Green, Andrea",
     "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -4238,7 +4330,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -4259,7 +4351,7 @@
     "instructor": "Hedgepath, Capron",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -4278,10 +4370,12 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Davis, Hannah",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4299,10 +4393,12 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Sweeton, Nathan",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4322,8 +4418,10 @@
     "instructor": "Whittenberg, Rhonda",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4343,8 +4441,10 @@
     "instructor": "Helton, Lara",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4364,8 +4464,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4404,7 +4506,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Copeland, Dawn",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4532,8 +4634,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4553,8 +4657,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4574,8 +4680,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4593,10 +4701,12 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Spratlin, Wesley",
-    "seats_open": 17,
+    "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4616,8 +4726,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4637,8 +4749,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4679,8 +4793,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4700,8 +4816,10 @@
     "instructor": null,
     "seats_open": 96,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4742,8 +4860,10 @@
     "instructor": "Bridge, Kristin",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4763,8 +4883,10 @@
     "instructor": "Spratlin, Wesley",
     "seats_open": 9,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4784,7 +4906,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4805,8 +4927,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "FREN 1010 or one unit of high school French",
+    "prerequisite_courses": [
+      "FREN 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -4929,7 +5053,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Mayo, Lisa",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4971,7 +5095,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Bevels, Katie",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5034,7 +5158,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Wexler, Charles",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5097,7 +5221,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Butler, Monica",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5160,7 +5284,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Koller, Heather",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5223,7 +5347,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Shelton, Mary",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5349,7 +5473,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Shelton, Ramona",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5412,7 +5536,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Butler, Monica",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5475,9 +5599,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Rowland, Molly",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5498,7 +5622,7 @@
     "instructor": "Rowland, Molly",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5561,7 +5685,7 @@
     "instructor": "Newman, Laura",
     "seats_open": 25,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5580,9 +5704,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Newman, Laura",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5603,7 +5727,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5624,7 +5748,7 @@
     "instructor": "Claxton, Harold",
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5645,8 +5769,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -5666,8 +5792,12 @@
     "instructor": "Hagos, Ayanaw",
     "seats_open": 24,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -5687,8 +5817,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -5708,8 +5842,12 @@
     "instructor": "Hagos, Ayanaw",
     "seats_open": 22,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -5729,8 +5867,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -5750,7 +5892,7 @@
     "instructor": "Moser, Jacob",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5771,7 +5913,7 @@
     "instructor": "Click, Rachel",
     "seats_open": 18,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5792,7 +5934,7 @@
     "instructor": "Johnson, Beili",
     "seats_open": 19,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5811,9 +5953,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Terrill, Keith",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5834,7 +5976,7 @@
     "instructor": "Terrill, Keith",
     "seats_open": 22,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5855,7 +5997,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5876,7 +6018,7 @@
     "instructor": "Click, Rachel",
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5895,10 +6037,16 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Mitchell, Brian",
-    "seats_open": 27,
+    "seats_open": 26,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -5918,8 +6066,14 @@
     "instructor": "Johnson, Beili",
     "seats_open": 25,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -5939,8 +6093,10 @@
     "instructor": "McShea, Daniel",
     "seats_open": 17,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -5958,10 +6114,12 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Parker, Tabitha",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -5981,8 +6139,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6002,8 +6162,10 @@
     "instructor": "Claxton, Harold",
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6021,10 +6183,12 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Mitchell, Brian",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6042,10 +6206,12 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "McShea, Daniel",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6065,8 +6231,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6086,8 +6254,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6107,8 +6277,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6128,8 +6300,12 @@
     "instructor": "Robinson, Elaine",
     "seats_open": 26,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6149,8 +6325,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6170,8 +6350,12 @@
     "instructor": "Robinson, Elaine",
     "seats_open": 19,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6191,8 +6375,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6210,10 +6398,14 @@
     "campus": "Smyrna Campus",
     "mode": "in-person",
     "instructor": "Czap, Lindsay",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6233,8 +6425,10 @@
     "instructor": "Czap, Lindsay",
     "seats_open": 22,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6254,8 +6448,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6275,8 +6471,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6296,8 +6494,10 @@
     "instructor": "Parker, Tabitha",
     "seats_open": 25,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6317,8 +6517,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6338,8 +6540,12 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 23 and ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6359,8 +6565,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 23 and ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6380,8 +6590,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6401,8 +6613,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6422,8 +6636,10 @@
     "instructor": "Moser, Jacob",
     "seats_open": 27,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6443,8 +6659,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -6693,7 +6911,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": null,
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7113,10 +7331,14 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Murphy, Patrick",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -7136,8 +7358,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -7157,8 +7383,10 @@
     "instructor": "Keating, David",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2010",
+    "prerequisite_courses": [
+      "PHYS 2010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -7178,8 +7406,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2010",
+    "prerequisite_courses": [
+      "PHYS 2010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -7199,8 +7429,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -7220,8 +7452,10 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -7241,7 +7475,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7262,7 +7496,7 @@
     "instructor": "Bowlby, David",
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7283,7 +7517,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7325,7 +7559,7 @@
     "instructor": "Hayes, Katherine",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7344,9 +7578,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Hayes, Katherine",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7365,9 +7599,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Grannis, Suzanne",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7388,7 +7622,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7430,8 +7664,10 @@
     "instructor": null,
     "seats_open": 94,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -7451,7 +7687,7 @@
     "instructor": "Rumford, Christina",
     "seats_open": 8,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7472,7 +7708,7 @@
     "instructor": "Rumford, Christina",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7493,7 +7729,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7577,7 +7813,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7619,7 +7855,7 @@
     "instructor": "Bridge, Kristin",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7640,7 +7876,7 @@
     "instructor": "Deaton-Owens, Dayron",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7659,9 +7895,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Syler, Liala",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7682,7 +7918,7 @@
     "instructor": "Syler, Liala",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7703,7 +7939,7 @@
     "instructor": "Wynn, Heath",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7724,7 +7960,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7745,7 +7981,7 @@
     "instructor": "Bridge, Kristin",
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7766,7 +8002,7 @@
     "instructor": "Deaton-Owens, Dayron",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7787,7 +8023,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7806,9 +8042,9 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Carroll, William",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7829,7 +8065,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7869,7 +8105,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Hughes, Katrina",
-    "seats_open": 19,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7913,8 +8149,10 @@
     "instructor": null,
     "seats_open": 96,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -7934,8 +8172,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -7953,10 +8193,12 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 98,
+    "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "motlow-state",
@@ -7974,7 +8216,7 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 98,
+    "seats_open": 97,
     "seats_total": 99,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7997,7 +8239,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8039,7 +8281,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8058,7 +8300,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Seal, Emily",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8100,7 +8342,7 @@
     "campus": "Moore County Campus",
     "mode": "online",
     "instructor": "Seal, Emily",
-    "seats_open": 13,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []

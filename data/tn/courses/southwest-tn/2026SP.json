@@ -962,7 +962,7 @@
     "instructor": "Elliott, Cynthia",
     "seats_open": 6,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -983,7 +983,7 @@
     "instructor": "Jack, Shirley",
     "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1004,7 +1004,7 @@
     "instructor": "Ghaffarian, Mahnaz",
     "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1025,7 +1025,7 @@
     "instructor": "Elliott, Cynthia",
     "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1046,7 +1046,7 @@
     "instructor": "Elliott, Cynthia",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1067,7 +1067,7 @@
     "instructor": "Eggleston, Ericka",
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1088,7 +1088,7 @@
     "instructor": "Coburn, Ervin",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1109,7 +1109,7 @@
     "instructor": "Ghaffarian, Mahnaz",
     "seats_open": 6,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1130,7 +1130,7 @@
     "instructor": "Ghaffarian, Mahnaz",
     "seats_open": 4,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1151,7 +1151,7 @@
     "instructor": "Ghaffarian, Mahnaz",
     "seats_open": 3,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1172,8 +1172,10 @@
     "instructor": "Elliott, Cynthia",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1193,8 +1195,10 @@
     "instructor": "Elliott, Cynthia",
     "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1214,8 +1218,10 @@
     "instructor": "Coburn, Ervin",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1235,8 +1241,10 @@
     "instructor": "Coburn, Ervin",
     "seats_open": 6,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1256,8 +1264,10 @@
     "instructor": "Ghaffarian, Mahnaz",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1277,8 +1287,10 @@
     "instructor": "Ghaffarian, Mahnaz",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1298,8 +1310,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1340,8 +1354,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1020",
+    "prerequisite_courses": [
+      "ACCT 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1361,7 +1377,7 @@
     "instructor": "Jack, Shirley",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1382,7 +1398,7 @@
     "instructor": null,
     "seats_open": 58,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1445,8 +1461,10 @@
     "instructor": "Coburn, Ervin",
     "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1533,8 +1551,10 @@
     "instructor": "Taylor, Kimberly",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1554,8 +1574,10 @@
     "instructor": "Taylor, Arnitria",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "INFS 1010",
+    "prerequisite_courses": [
+      "INFS 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1575,8 +1597,10 @@
     "instructor": "Taylor, Arnitria",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "INFS 1010",
+    "prerequisite_courses": [
+      "INFS 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1596,8 +1620,10 @@
     "instructor": "Taylor, Arnitria",
     "seats_open": 7,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "INFS 1010",
+    "prerequisite_courses": [
+      "INFS 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -1766,7 +1792,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
     "prerequisite_courses": []
   },
   {
@@ -1787,7 +1813,7 @@
     "instructor": null,
     "seats_open": 51,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
     "prerequisite_courses": []
   },
   {
@@ -1808,7 +1834,7 @@
     "instructor": null,
     "seats_open": 58,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2102,7 +2128,7 @@
     "instructor": "McFerren-Jones, Claudia",
     "seats_open": 19,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2123,7 +2149,7 @@
     "instructor": "McFerren-Jones, Claudia",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2144,7 +2170,7 @@
     "instructor": "McFerren-Jones, Claudia",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2165,7 +2191,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2186,7 +2212,7 @@
     "instructor": null,
     "seats_open": 58,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2291,8 +2317,10 @@
     "instructor": "Tom, Robert",
     "seats_open": 8,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and CADD 1200 or department approval",
+    "prerequisite_courses": [
+      "CADD 1200"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -2951,7 +2979,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3530,7 +3558,7 @@
     "instructor": "Johnston, Terrence",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3551,7 +3579,7 @@
     "instructor": "Johnston, Terrence",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3572,7 +3600,7 @@
     "instructor": "Johnson, Joyce",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3593,7 +3621,7 @@
     "instructor": "Taylor, Rosie",
     "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3614,7 +3642,7 @@
     "instructor": "Jennings, Jason",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3635,7 +3663,7 @@
     "instructor": "Taylor, Rosie",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3656,7 +3684,7 @@
     "instructor": "Taylor, Rosie",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3677,7 +3705,7 @@
     "instructor": "Johnson, Joyce",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3698,7 +3726,7 @@
     "instructor": "Johnston, Terrence",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3719,7 +3747,7 @@
     "instructor": "Thomas, Donald",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3740,7 +3768,7 @@
     "instructor": "Andreev, Konstantin",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3761,7 +3789,7 @@
     "instructor": "Blaudow, Robert",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3782,7 +3810,7 @@
     "instructor": "Blaudow, Robert",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3803,7 +3831,7 @@
     "instructor": null,
     "seats_open": 57,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3824,7 +3852,7 @@
     "instructor": "Johnston, Terrence",
     "seats_open": 8,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3845,7 +3873,7 @@
     "instructor": "Taylor, Rosie",
     "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3866,7 +3894,7 @@
     "instructor": "Monroe, Mark",
     "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3887,7 +3915,7 @@
     "instructor": "Jennings, Jason",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3908,7 +3936,7 @@
     "instructor": "Taylor, Rosie",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3929,7 +3957,7 @@
     "instructor": "Monroe, Mark",
     "seats_open": -1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3950,7 +3978,7 @@
     "instructor": "Andreev, Konstantin",
     "seats_open": -2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3971,7 +3999,7 @@
     "instructor": "Blaudow, Robert",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3992,7 +4020,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4034,7 +4062,7 @@
     "instructor": "Jennings, Jason",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4055,7 +4083,7 @@
     "instructor": "Jennings, Jason",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4076,7 +4104,7 @@
     "instructor": null,
     "seats_open": 44,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4097,7 +4125,7 @@
     "instructor": "Jennings, Jason",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4118,7 +4146,7 @@
     "instructor": "Thomas, Donald",
     "seats_open": 10,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4139,7 +4167,7 @@
     "instructor": "Thomas, Donald",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4160,7 +4188,7 @@
     "instructor": null,
     "seats_open": 53,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4444,7 +4472,7 @@
     "instructor": "Smith, J",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4465,7 +4493,7 @@
     "instructor": "Smith, J",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4486,7 +4514,7 @@
     "instructor": "Slaughter, Darrick",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4507,7 +4535,7 @@
     "instructor": "Smoots, Candice",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4528,7 +4556,7 @@
     "instructor": "Rothschild, Marjorie",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4549,7 +4577,7 @@
     "instructor": "Kaushik, Gayathri",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4570,7 +4598,7 @@
     "instructor": "Johnson, Joyce",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4591,7 +4619,7 @@
     "instructor": "Banker, Amanda",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4612,7 +4640,7 @@
     "instructor": "Banker, Amanda",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4633,7 +4661,7 @@
     "instructor": "Hooshdaran, Massoumeh",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4654,7 +4682,7 @@
     "instructor": "Rothschild, Marjorie",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4675,7 +4703,7 @@
     "instructor": "Waddell, Amy",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4696,7 +4724,7 @@
     "instructor": "Kaushik, Gayathri",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4717,7 +4745,7 @@
     "instructor": "Adris, Piyatilake",
     "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4738,7 +4766,7 @@
     "instructor": "Younger, Imogene",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4759,7 +4787,7 @@
     "instructor": "Smith, Miriah",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4780,7 +4808,7 @@
     "instructor": "Slaughter, Darrick",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4801,7 +4829,7 @@
     "instructor": null,
     "seats_open": 58,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4822,7 +4850,7 @@
     "instructor": null,
     "seats_open": 53,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4843,7 +4871,7 @@
     "instructor": null,
     "seats_open": 57,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4864,8 +4892,10 @@
     "instructor": "Smith, J",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -4885,8 +4915,10 @@
     "instructor": "Kaushik, Gayathri",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -4906,8 +4938,10 @@
     "instructor": "Smoots, Candice",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -4927,8 +4961,10 @@
     "instructor": "Rothschild, Marjorie",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -4948,8 +4984,10 @@
     "instructor": "Kaushik, Gayathri",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -4969,8 +5007,10 @@
     "instructor": "Slaughter, Darrick",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -4990,8 +5030,10 @@
     "instructor": "Banker, Amanda",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -5011,8 +5053,10 @@
     "instructor": "Ralph, Charles",
     "seats_open": 15,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -5032,8 +5076,10 @@
     "instructor": "Banker, Amanda",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -5053,8 +5099,10 @@
     "instructor": "Banker, Amanda",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -5074,8 +5122,10 @@
     "instructor": "Rothschild, Marjorie",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -5095,8 +5145,10 @@
     "instructor": "Kaushik, Gayathri",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -5116,8 +5168,10 @@
     "instructor": "Waddell, Amy",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -5137,8 +5191,10 @@
     "instructor": "Younger, Imogene",
     "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -5158,8 +5214,10 @@
     "instructor": "Smith, Miriah",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -5179,8 +5237,10 @@
     "instructor": "Slaughter, Darrick",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -5200,8 +5260,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -5221,8 +5283,10 @@
     "instructor": null,
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6104,7 +6168,7 @@
     "instructor": "White, Andria",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6125,7 +6189,7 @@
     "instructor": "Parker, Marie",
     "seats_open": 9,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6146,7 +6210,7 @@
     "instructor": "Jeffries, Josette",
     "seats_open": 3,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6167,7 +6231,7 @@
     "instructor": "Geisewite, Ashley",
     "seats_open": 7,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6188,7 +6252,7 @@
     "instructor": "Mohammad, Bilal",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6251,8 +6315,10 @@
     "instructor": "Parker, Marie",
     "seats_open": 8,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6272,8 +6338,10 @@
     "instructor": "Landrum, Teresa",
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6293,8 +6361,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6335,8 +6405,10 @@
     "instructor": "Washington, Nathan",
     "seats_open": 6,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6356,7 +6428,7 @@
     "instructor": "McGrory, Joan",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6377,7 +6449,7 @@
     "instructor": "Baker, Charles",
     "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6398,7 +6470,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6419,8 +6491,10 @@
     "instructor": "Taylor, Kimberly",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6440,8 +6514,10 @@
     "instructor": "McGrory, Joan",
     "seats_open": 6,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6461,8 +6537,10 @@
     "instructor": "Mohammad, Bilal",
     "seats_open": 8,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6482,8 +6560,10 @@
     "instructor": "Gunn, Alecia",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6503,8 +6583,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6524,8 +6606,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6629,8 +6713,18 @@
     "instructor": "Cook, Mary",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6650,8 +6744,18 @@
     "instructor": "Cook, Mary",
     "seats_open": 6,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6671,8 +6775,18 @@
     "instructor": "Cook, Mary",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6692,8 +6806,18 @@
     "instructor": "Ruddick, Kristie",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6713,8 +6837,18 @@
     "instructor": "Ruddick, Kristie",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6734,8 +6868,18 @@
     "instructor": "Ruddick, Kristie",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6755,8 +6899,18 @@
     "instructor": null,
     "seats_open": 55,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6776,8 +6930,18 @@
     "instructor": null,
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6797,8 +6961,10 @@
     "instructor": "Cook, Mary",
     "seats_open": 2,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1010",
+    "prerequisite_courses": [
+      "CHEM 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6818,8 +6984,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1010",
+    "prerequisite_courses": [
+      "CHEM 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6881,8 +7049,12 @@
     "instructor": "Wessel, Jeremy",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6902,8 +7074,12 @@
     "instructor": "Wessel, Jeremy",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6923,8 +7099,12 @@
     "instructor": null,
     "seats_open": 28,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6944,8 +7124,10 @@
     "instructor": "Wessel, Jeremy",
     "seats_open": 6,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6965,8 +7147,10 @@
     "instructor": "Richardson, George",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -6986,8 +7170,10 @@
     "instructor": null,
     "seats_open": 48,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -7007,8 +7193,10 @@
     "instructor": "Wessel, Jeremy",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 2010",
+    "prerequisite_courses": [
+      "CHEM 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -7117,8 +7305,10 @@
     "instructor": "Simon, William",
     "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CIVT 1550 or department approval",
+    "prerequisite_courses": [
+      "CIVT 1550"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -7138,7 +7328,7 @@
     "instructor": "Roberts, Lane",
     "seats_open": 12,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7159,7 +7349,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7180,8 +7370,11 @@
     "instructor": "Harris, Johnesha",
     "seats_open": 7,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "COMM 1010 and ENGL 1020 and keyboarding skills",
+    "prerequisite_courses": [
+      "COMM 1010",
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -7222,7 +7415,7 @@
     "instructor": "Rounds, Michael",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7243,7 +7436,7 @@
     "instructor": "Rounds, Michael",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7264,7 +7457,7 @@
     "instructor": "Harris, Johnesha",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7285,7 +7478,7 @@
     "instructor": "Wakefield, Martin",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7306,7 +7499,7 @@
     "instructor": "Taylor, Allen",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7327,7 +7520,7 @@
     "instructor": "Phillips, David",
     "seats_open": 9,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7348,7 +7541,7 @@
     "instructor": "Coleman, Lisa",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7369,7 +7562,7 @@
     "instructor": "Wakefield, Martin",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7390,7 +7583,7 @@
     "instructor": "Rounds, Michael",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7411,7 +7604,7 @@
     "instructor": "Wakefield, Martin",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7432,7 +7625,7 @@
     "instructor": "Bullington, Richard",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7453,7 +7646,7 @@
     "instructor": "Wakefield, Martin",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7474,7 +7667,7 @@
     "instructor": "Taylor, Allen",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7495,7 +7688,7 @@
     "instructor": "Bullington, Richard",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7516,7 +7709,7 @@
     "instructor": "Rounds, Michael",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7537,7 +7730,7 @@
     "instructor": "Bullington, Richard",
     "seats_open": 11,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7558,7 +7751,7 @@
     "instructor": "Phillips, David",
     "seats_open": 9,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7579,7 +7772,7 @@
     "instructor": "Roberts, Lane",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7600,7 +7793,7 @@
     "instructor": "Roberts, Lane",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7621,7 +7814,7 @@
     "instructor": "Frazier, Deborah",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7642,7 +7835,7 @@
     "instructor": "Frazier, Deborah",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7663,7 +7856,7 @@
     "instructor": "Taylor, Allen",
     "seats_open": 7,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7684,7 +7877,7 @@
     "instructor": "Gipson, Jhona",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7705,7 +7898,7 @@
     "instructor": "Harris, Johnesha",
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7726,7 +7919,7 @@
     "instructor": "Roberts, Lane",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7747,7 +7940,7 @@
     "instructor": "Roberts, Lane",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7768,7 +7961,7 @@
     "instructor": "Turner, William",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7789,7 +7982,7 @@
     "instructor": "Rounds, Michael",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7810,7 +8003,7 @@
     "instructor": "Wakefield, Martin",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7831,7 +8024,7 @@
     "instructor": "Wakefield, Martin",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7852,7 +8045,7 @@
     "instructor": "Rounds, Michael",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7873,7 +8066,7 @@
     "instructor": "Harris, Johnesha",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7894,7 +8087,7 @@
     "instructor": "Harris, Johnesha",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7915,7 +8108,7 @@
     "instructor": "Rounds, Michael",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7936,7 +8129,7 @@
     "instructor": "Harmon, Nicole",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7957,7 +8150,7 @@
     "instructor": "Harmon, Nicole",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7978,7 +8171,7 @@
     "instructor": "Wakefield, Martin",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7999,7 +8192,7 @@
     "instructor": "Harmon, Nicole",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8020,7 +8213,7 @@
     "instructor": "Coleman, Lisa",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8041,7 +8234,7 @@
     "instructor": "Coleman, Lisa",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8062,7 +8255,7 @@
     "instructor": "Coleman, Lisa",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8083,7 +8276,7 @@
     "instructor": "Coleman, Lisa",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8104,7 +8297,7 @@
     "instructor": null,
     "seats_open": 51,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8125,7 +8318,7 @@
     "instructor": null,
     "seats_open": 55,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8167,8 +8360,12 @@
     "instructor": "Turner, William",
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010 and COMM 2025 or COMM 2045",
+    "prerequisite_courses": [
+      "COMM 2025",
+      "COMM 2045",
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -8679,8 +8876,10 @@
     "instructor": "Jagers, Aaron",
     "seats_open": 8,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -8700,8 +8899,11 @@
     "instructor": "Blankenbeckler, Todd",
     "seats_open": 9,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -8721,8 +8923,11 @@
     "instructor": "Blankenbeckler, Todd",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -8742,8 +8947,11 @@
     "instructor": null,
     "seats_open": 56,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -8953,7 +9161,7 @@
     "instructor": "Perry, Eric",
     "seats_open": 56,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9083,8 +9291,10 @@
     "instructor": "Golett, Sharon",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -9104,8 +9314,10 @@
     "instructor": null,
     "seats_open": 56,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -9266,8 +9478,10 @@
     "instructor": "Golett, Sharon",
     "seats_open": 8,
     "seats_total": 16,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -9287,8 +9501,10 @@
     "instructor": null,
     "seats_open": 56,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -9356,8 +9572,10 @@
     "instructor": "Altomare, Jeffrey",
     "seats_open": 10,
     "seats_total": 16,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1333",
+    "prerequisite_courses": [
+      "CITC 1333"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -9518,8 +9736,12 @@
     "instructor": "Jagers, Aaron",
     "seats_open": -3,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1334 and CITC 1311 or CITC 2326",
+    "prerequisite_courses": [
+      "CITC 1311",
+      "CITC 1334",
+      "CITC 2326"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -9581,7 +9803,7 @@
     "instructor": "Barnes, Joanitha",
     "seats_open": 13,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9602,7 +9824,7 @@
     "instructor": "Holder, Gary",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9623,7 +9845,7 @@
     "instructor": "Barnes, Joanitha",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9644,7 +9866,7 @@
     "instructor": "Barnes, Joanitha",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9665,7 +9887,7 @@
     "instructor": "Gatewood, Tiarrne",
     "seats_open": 9,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9686,7 +9908,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9707,7 +9929,7 @@
     "instructor": "Baker, Charles",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9728,7 +9950,7 @@
     "instructor": "Holder, Gary",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9749,7 +9971,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9770,7 +9992,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9812,8 +10034,11 @@
     "instructor": "Holder, Gary",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRMJ 1010 and CRMJ 1020",
+    "prerequisite_courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -10297,8 +10522,10 @@
     "instructor": "Jones, Cassandra",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1300",
+    "prerequisite_courses": [
+      "CULA 1300"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -10318,8 +10545,10 @@
     "instructor": "Jones, Cassandra",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1300",
+    "prerequisite_courses": [
+      "CULA 1300"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -10365,7 +10594,7 @@
     "instructor": "Leake, Steven",
     "seats_open": 0,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -10478,8 +10707,10 @@
     "instructor": "Small, Joyce",
     "seats_open": 7,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 2342",
+    "prerequisite_courses": [
+      "CULA 2342"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -10520,8 +10751,10 @@
     "instructor": "Leake, Steven",
     "seats_open": 4,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1325",
+    "prerequisite_courses": [
+      "CULA 1325"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11111,8 +11344,10 @@
     "instructor": "Jenkins, Teresa",
     "seats_open": 8,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11132,8 +11367,10 @@
     "instructor": null,
     "seats_open": 51,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11153,8 +11390,10 @@
     "instructor": "Kallaher, Debra",
     "seats_open": 4,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2335",
+    "prerequisite_courses": [
+      "ECED 2335"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11198,8 +11437,10 @@
     "instructor": "Kallaher, Debra",
     "seats_open": 10,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11219,8 +11460,10 @@
     "instructor": null,
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11261,7 +11504,7 @@
     "instructor": "Gardner, Mark",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11282,7 +11525,7 @@
     "instructor": "Adelman, Steven",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11303,7 +11546,7 @@
     "instructor": "Abadie, Cynthia",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11324,7 +11567,7 @@
     "instructor": "Abadie, Cynthia",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11345,7 +11588,7 @@
     "instructor": "Abadie, Cynthia",
     "seats_open": 7,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11366,7 +11609,7 @@
     "instructor": "Abadie, Cynthia",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11387,7 +11630,7 @@
     "instructor": "Abadie, Cynthia",
     "seats_open": 7,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11408,7 +11651,7 @@
     "instructor": null,
     "seats_open": 57,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11429,8 +11672,10 @@
     "instructor": "Armstrong, Vicki",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11450,8 +11695,10 @@
     "instructor": "Armstrong, Vicki",
     "seats_open": 7,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11471,8 +11718,10 @@
     "instructor": "Armstrong, Vicki",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11492,8 +11741,10 @@
     "instructor": "Abadie, Cynthia",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11513,8 +11764,10 @@
     "instructor": "Adelman, Steven",
     "seats_open": 7,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11534,8 +11787,10 @@
     "instructor": "Powers, Dennis",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11555,8 +11810,10 @@
     "instructor": "Powers, Dennis",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11576,8 +11833,10 @@
     "instructor": "Abadie, Cynthia",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11597,8 +11856,10 @@
     "instructor": "Powers, Dennis",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11618,8 +11879,10 @@
     "instructor": null,
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11639,8 +11902,10 @@
     "instructor": "Gardner, Mark",
     "seats_open": 9,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11765,8 +12030,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDUC 2000",
+    "prerequisite_courses": [
+      "EDUC 2000"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11807,8 +12074,10 @@
     "instructor": "Purnell, Hunter",
     "seats_open": 2,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313",
+    "prerequisite_courses": [
+      "EETC 1313"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11828,8 +12097,10 @@
     "instructor": "Graves, Rhonda",
     "seats_open": 3,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313",
+    "prerequisite_courses": [
+      "EETC 1313"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11891,8 +12162,10 @@
     "instructor": "Graves, Rhonda",
     "seats_open": 2,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1314",
+    "prerequisite_courses": [
+      "EETC 1314"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -11933,8 +12206,10 @@
     "instructor": "Browning, Stephen",
     "seats_open": 2,
     "seats_total": 6,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313 or department approval",
+    "prerequisite_courses": [
+      "EETC 1313"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -13025,7 +13300,7 @@
     "instructor": "Sykes, Janet",
     "seats_open": 9,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
     "prerequisite_courses": []
   },
   {
@@ -13684,7 +13959,7 @@
     "instructor": "Faulkner, Peggy",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13705,7 +13980,7 @@
     "instructor": "Anderson, Daryl",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13726,7 +14001,7 @@
     "instructor": "Cockrill, Richard",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13747,7 +14022,7 @@
     "instructor": "Anderson, Daryl",
     "seats_open": 7,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13768,7 +14043,7 @@
     "instructor": "Richardson, Miki",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13789,7 +14064,7 @@
     "instructor": "Richardson, Miki",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13810,7 +14085,7 @@
     "instructor": "Lester, Julie",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13831,7 +14106,7 @@
     "instructor": "Park, Soyoung",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13852,7 +14127,7 @@
     "instructor": "Akin, Tiffany",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13873,7 +14148,7 @@
     "instructor": "Ford, Emily",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13894,7 +14169,7 @@
     "instructor": "Buck, Boyd",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13915,7 +14190,7 @@
     "instructor": "Wilson, Willie",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13936,7 +14211,7 @@
     "instructor": "Wilson, Willie",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13957,7 +14232,7 @@
     "instructor": "Wilson, Willie",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13978,7 +14253,7 @@
     "instructor": "Larry, Anthony",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -13999,7 +14274,7 @@
     "instructor": "Stembridge, Ryan",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14020,7 +14295,7 @@
     "instructor": "Ford, Emily",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14041,7 +14316,7 @@
     "instructor": "Ford, Emily",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14062,7 +14337,7 @@
     "instructor": "Bradford, Erin",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14083,7 +14358,7 @@
     "instructor": "Burns, Christopher",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14104,7 +14379,7 @@
     "instructor": "Buck, Boyd",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14125,7 +14400,7 @@
     "instructor": "Smart, Cheryl",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14146,7 +14421,7 @@
     "instructor": "Smart, Cheryl",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14167,7 +14442,7 @@
     "instructor": "McMillen, Michelle",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14188,7 +14463,7 @@
     "instructor": "Dejarnett, Torshi",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14209,7 +14484,7 @@
     "instructor": "Buck, Boyd",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14230,7 +14505,7 @@
     "instructor": "Ogilvie, Christopher",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14251,7 +14526,7 @@
     "instructor": "Ogilvie, Christopher",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14272,7 +14547,7 @@
     "instructor": "Holland, April",
     "seats_open": 7,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14293,7 +14568,7 @@
     "instructor": "Ward, Patricia",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14314,7 +14589,7 @@
     "instructor": "Dejarnett, Torshi",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14335,7 +14610,7 @@
     "instructor": "Howard, Diana",
     "seats_open": 11,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14356,7 +14631,7 @@
     "instructor": "Bradford, Erin",
     "seats_open": 7,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14377,7 +14652,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14398,7 +14673,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14419,7 +14694,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14440,7 +14715,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14461,7 +14736,7 @@
     "instructor": "Dernaika, Marjorie",
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -14482,8 +14757,10 @@
     "instructor": "Huffman, David",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14503,8 +14780,10 @@
     "instructor": "Huffman, David",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14524,8 +14803,10 @@
     "instructor": "Lester, Julie",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14545,8 +14826,10 @@
     "instructor": "Huffman, David",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14566,8 +14849,10 @@
     "instructor": "Huffman, David",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14587,8 +14872,10 @@
     "instructor": "Akin, Tiffany",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14608,8 +14895,10 @@
     "instructor": "Ford, Emily",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14629,8 +14918,10 @@
     "instructor": "Ford, Emily",
     "seats_open": -1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14650,8 +14941,10 @@
     "instructor": "McMillen, Michelle",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14671,8 +14964,10 @@
     "instructor": "Fournier, Julie",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14692,8 +14987,10 @@
     "instructor": "Faulkner, Peggy",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14713,8 +15010,10 @@
     "instructor": "Smart, Cheryl",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14734,8 +15033,10 @@
     "instructor": "Akin, Tiffany",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14755,8 +15056,10 @@
     "instructor": "Jackson, Susanna",
     "seats_open": 9,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14776,8 +15079,10 @@
     "instructor": "Jackson, Susanna",
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14797,8 +15102,10 @@
     "instructor": "Wilson, Willie",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14818,8 +15125,10 @@
     "instructor": "Wilson, Willie",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14839,8 +15148,10 @@
     "instructor": "Gillespie, James",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14860,8 +15171,10 @@
     "instructor": "Larry, Anthony",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14881,8 +15194,10 @@
     "instructor": "Gillespie, James",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14902,8 +15217,10 @@
     "instructor": "Gillespie, James",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14923,8 +15240,10 @@
     "instructor": "Stembridge, Ryan",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14944,8 +15263,10 @@
     "instructor": "Stembridge, Ryan",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14965,8 +15286,10 @@
     "instructor": "Smith-Johnson, Ramone",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -14986,8 +15309,10 @@
     "instructor": "McMillen, Michelle",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15007,8 +15332,10 @@
     "instructor": "Bishop, Sharon",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15028,8 +15355,10 @@
     "instructor": "Wilson, Willie",
     "seats_open": 12,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15049,8 +15378,10 @@
     "instructor": "Wilson, Willie",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15070,8 +15401,10 @@
     "instructor": "Williams, Hilda",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15091,8 +15424,10 @@
     "instructor": "McMillen, Michelle",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15112,8 +15447,10 @@
     "instructor": "Huffman, David",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15133,8 +15470,10 @@
     "instructor": "Howard, Diana",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15154,8 +15493,10 @@
     "instructor": "Bradford, Erin",
     "seats_open": 18,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15175,8 +15516,10 @@
     "instructor": "Howard, Diana",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15196,8 +15539,10 @@
     "instructor": "Williams, Hilda",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15217,8 +15562,10 @@
     "instructor": "Larry, Anthony",
     "seats_open": 11,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15238,8 +15585,10 @@
     "instructor": "Lester, Julie",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15259,8 +15608,10 @@
     "instructor": "Stone, Franklin",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15280,8 +15631,10 @@
     "instructor": "Larry, Anthony",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15301,8 +15654,10 @@
     "instructor": "Park, Soyoung",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15322,8 +15677,10 @@
     "instructor": "Park, Soyoung",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15343,8 +15700,10 @@
     "instructor": "McNeil, Rose",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15364,8 +15723,10 @@
     "instructor": "Gillespie, James",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15385,8 +15746,10 @@
     "instructor": "Stembridge, Ryan",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15406,8 +15769,10 @@
     "instructor": "Stone, Franklin",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15427,8 +15792,10 @@
     "instructor": "Akin, Tiffany",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15448,8 +15815,10 @@
     "instructor": "Park, Soyoung",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15469,8 +15838,10 @@
     "instructor": "Ogilvie, Rachel",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15490,8 +15861,10 @@
     "instructor": "Stone, Franklin",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15511,8 +15884,10 @@
     "instructor": "Ogilvie, Rachel",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15532,8 +15907,10 @@
     "instructor": "Smith-Johnson, Ramone",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15553,8 +15930,10 @@
     "instructor": "Smith-Johnson, Ramone",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15574,8 +15953,10 @@
     "instructor": "Dejarnett, Torshi",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15595,8 +15976,10 @@
     "instructor": "Lester, Julie",
     "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15616,8 +15999,10 @@
     "instructor": "Bodenheimer, Tina",
     "seats_open": 7,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15637,8 +16022,10 @@
     "instructor": "Bodenheimer, Tina",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15658,8 +16045,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15679,8 +16068,10 @@
     "instructor": null,
     "seats_open": 58,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15700,8 +16091,10 @@
     "instructor": null,
     "seats_open": 54,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15721,8 +16114,10 @@
     "instructor": null,
     "seats_open": 58,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15766,8 +16161,10 @@
     "instructor": "Lester, Julie",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15787,8 +16184,10 @@
     "instructor": "Akin, Tiffany",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15808,8 +16207,10 @@
     "instructor": "Smart, Cheryl",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15829,8 +16230,10 @@
     "instructor": "Dejarnett, Torshi",
     "seats_open": 11,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15850,8 +16253,10 @@
     "instructor": "Dejarnett, Torshi",
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15871,8 +16276,10 @@
     "instructor": "Larry, Anthony",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15892,8 +16299,10 @@
     "instructor": "Larry, Anthony",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15913,8 +16322,10 @@
     "instructor": "Lester, Julie",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15934,8 +16345,10 @@
     "instructor": "McNeil, Rose",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15955,8 +16368,10 @@
     "instructor": null,
     "seats_open": 58,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15976,8 +16391,10 @@
     "instructor": "Smart, Cheryl",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -15997,8 +16414,10 @@
     "instructor": "Richardson, Miki",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16018,8 +16437,10 @@
     "instructor": "Branch, Douglas",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16039,8 +16460,10 @@
     "instructor": null,
     "seats_open": 56,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16060,8 +16483,10 @@
     "instructor": "Richardson, Miki",
     "seats_open": 7,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16081,8 +16506,10 @@
     "instructor": "Richardson, Miki",
     "seats_open": 1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16102,8 +16529,10 @@
     "instructor": "Richardson, Miki",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16123,8 +16552,10 @@
     "instructor": "Richardson, Miki",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16144,8 +16575,10 @@
     "instructor": null,
     "seats_open": 56,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16165,8 +16598,10 @@
     "instructor": "Cockrill, Richard",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16186,8 +16621,10 @@
     "instructor": "Cockrill, Richard",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16207,8 +16644,10 @@
     "instructor": "Cockrill, Richard",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16228,8 +16667,10 @@
     "instructor": "Cockrill, Richard",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16249,8 +16690,10 @@
     "instructor": "Cockrill, Richard",
     "seats_open": -1,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16270,8 +16713,10 @@
     "instructor": "Cockrill, Richard",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16291,8 +16736,10 @@
     "instructor": null,
     "seats_open": 57,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16312,8 +16759,10 @@
     "instructor": null,
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16354,8 +16803,10 @@
     "instructor": "Branch, Douglas",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16375,8 +16826,10 @@
     "instructor": "Branch, Douglas",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16396,8 +16849,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16417,8 +16872,10 @@
     "instructor": "Branch, Douglas",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16438,8 +16895,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16501,8 +16960,10 @@
     "instructor": "Green, Holly",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16522,8 +16983,10 @@
     "instructor": "Green, Holly",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16543,8 +17006,10 @@
     "instructor": "Green, Holly",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16564,7 +17029,7 @@
     "instructor": null,
     "seats_open": 56,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16585,8 +17050,10 @@
     "instructor": "Diallo, Ibrahima",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "FREN 1010 or one unit of high school French",
+    "prerequisite_courses": [
+      "FREN 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -16606,8 +17073,10 @@
     "instructor": null,
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "FREN 1010 or one unit of high school French",
+    "prerequisite_courses": [
+      "FREN 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -18740,7 +19209,7 @@
     "campus": "Macon Cove",
     "mode": "in-person",
     "instructor": "Perkins, Raymond",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -19204,7 +19673,7 @@
     "instructor": "Taylor, Arnitria",
     "seats_open": 3,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19225,7 +19694,7 @@
     "instructor": "Richmond, Cheryl",
     "seats_open": 13,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19246,7 +19715,7 @@
     "instructor": "Blankenbeckler, Todd",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19267,7 +19736,7 @@
     "instructor": "Blankenbeckler, Todd",
     "seats_open": 6,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19288,7 +19757,7 @@
     "instructor": "Richmond, Cheryl",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19309,7 +19778,7 @@
     "instructor": "Whaley, Clemetee",
     "seats_open": 2,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19330,7 +19799,7 @@
     "instructor": "Whaley, Clemetee",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19351,7 +19820,7 @@
     "instructor": "Altomare, Jeffrey",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19372,7 +19841,7 @@
     "instructor": "Taylor, Arnitria",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19393,7 +19862,7 @@
     "instructor": "Morrison, Gloria",
     "seats_open": 9,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19414,7 +19883,7 @@
     "instructor": "Altomare, Jeffrey",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -20422,7 +20891,7 @@
     "instructor": "Smith, Bridgett",
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20443,7 +20912,7 @@
     "instructor": "Smith, Bridgett",
     "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20464,7 +20933,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20485,7 +20954,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20506,8 +20975,10 @@
     "instructor": null,
     "seats_open": 57,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -20527,8 +20998,10 @@
     "instructor": null,
     "seats_open": 58,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -20548,8 +21021,10 @@
     "instructor": null,
     "seats_open": 56,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -20569,8 +21044,12 @@
     "instructor": "Rassy, Khalil",
     "seats_open": 8,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -20590,8 +21069,12 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -20611,8 +21094,12 @@
     "instructor": "Rassy, Khalil",
     "seats_open": 9,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -20632,8 +21119,12 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -20653,7 +21144,7 @@
     "instructor": "Herndon, Natalie",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20674,7 +21165,7 @@
     "instructor": "Perven, Sohely",
     "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20695,7 +21186,7 @@
     "instructor": "Summons, William",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20716,7 +21207,7 @@
     "instructor": "Siler, Larry",
     "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20737,7 +21228,7 @@
     "instructor": "Siler, Larry",
     "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20758,7 +21249,7 @@
     "instructor": "Loden, Lisa",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20779,7 +21270,7 @@
     "instructor": "Montgomery, Rosemarie",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20800,7 +21291,7 @@
     "instructor": "Kusi-Appiah, Akwasi",
     "seats_open": 8,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20821,7 +21312,7 @@
     "instructor": "Summons, William",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20842,7 +21333,7 @@
     "instructor": "Whitt, Jason",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20863,7 +21354,7 @@
     "instructor": "Whitt, Jason",
     "seats_open": 9,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20884,7 +21375,7 @@
     "instructor": "Whitt, Jason",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20905,7 +21396,7 @@
     "instructor": "Chism, Shantell",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20926,7 +21417,7 @@
     "instructor": "Chism, Shantell",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20947,7 +21438,7 @@
     "instructor": "Ores, Vincent",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20968,7 +21459,7 @@
     "instructor": "Smith, Bridgett",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -20989,7 +21480,7 @@
     "instructor": "Rassy, Khalil",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21010,7 +21501,7 @@
     "instructor": "Diallo, Ibrahima",
     "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21031,7 +21522,7 @@
     "instructor": "Montgomery, Rosemarie",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21052,7 +21543,7 @@
     "instructor": "Montgomery, Rosemarie",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21073,7 +21564,7 @@
     "instructor": "Summons, William",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21094,7 +21585,7 @@
     "instructor": "Whitt, Jason",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21115,7 +21606,7 @@
     "instructor": "Herndon, Natalie",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21136,7 +21627,7 @@
     "instructor": "Summons, William",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21157,7 +21648,7 @@
     "instructor": "Herndon, Natalie",
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21178,7 +21669,7 @@
     "instructor": "Ores, Vincent",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21199,7 +21690,7 @@
     "instructor": "Ores, Vincent",
     "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21220,7 +21711,7 @@
     "instructor": "Diallo, Ibrahima",
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21241,7 +21732,7 @@
     "instructor": "Diallo, Ibrahima",
     "seats_open": 6,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21262,7 +21753,7 @@
     "instructor": "Montgomery, Rosemarie",
     "seats_open": 10,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21283,7 +21774,7 @@
     "instructor": "Chism, Shantell",
     "seats_open": 7,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21304,7 +21795,7 @@
     "instructor": "Brown, Shermel",
     "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21325,7 +21816,7 @@
     "instructor": "Smith, Bridgett",
     "seats_open": 14,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21346,7 +21837,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21367,7 +21858,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -21664,8 +22155,10 @@
     "instructor": "Kusi-Appiah, Akwasi",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21685,8 +22178,10 @@
     "instructor": "Ores, Vincent",
     "seats_open": 8,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21706,8 +22201,10 @@
     "instructor": "Province, Hannah",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21727,8 +22224,10 @@
     "instructor": "Province, Hannah",
     "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21748,8 +22247,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21769,8 +22270,10 @@
     "instructor": null,
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21790,8 +22293,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21855,8 +22360,12 @@
     "instructor": "Chism, Shantell",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21876,8 +22385,12 @@
     "instructor": "Diallo, Ibrahima",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21897,8 +22410,12 @@
     "instructor": "Sultana, Mahmuda",
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21918,8 +22435,12 @@
     "instructor": "Sultana, Mahmuda",
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21939,8 +22460,12 @@
     "instructor": "Moses, Mark",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21960,8 +22485,12 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -21981,8 +22510,12 @@
     "instructor": "Siler, Larry",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -22002,8 +22535,12 @@
     "instructor": "Kusi-Appiah, Akwasi",
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -22023,8 +22560,12 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -22044,8 +22585,10 @@
     "instructor": "Kusi-Appiah, Akwasi",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -22065,8 +22608,10 @@
     "instructor": null,
     "seats_open": 58,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -22133,8 +22678,10 @@
     "instructor": null,
     "seats_open": 58,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -22154,8 +22701,10 @@
     "instructor": null,
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -22968,7 +23517,7 @@
     "instructor": "Pender, Charles",
     "seats_open": 3,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24140,7 +24689,7 @@
     "instructor": "Chiong, Carlito",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -24161,7 +24710,7 @@
     "instructor": "Chiong, Carlito",
     "seats_open": 11,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -24182,7 +24731,7 @@
     "instructor": "Jemison, Pearl",
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -24203,7 +24752,7 @@
     "instructor": "Chiong, Carlito",
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -24224,7 +24773,7 @@
     "instructor": "Taylor, Emily",
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -24245,7 +24794,7 @@
     "instructor": "Ransfer, Janice",
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -24266,7 +24815,7 @@
     "instructor": "Jemison, Pearl",
     "seats_open": 2,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -24287,7 +24836,7 @@
     "instructor": "Griffin, Kristi",
     "seats_open": 0,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -25318,7 +25867,7 @@
     "instructor": "Kaplowitz, Mark",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25339,7 +25888,7 @@
     "instructor": "Kaplowitz, Mark",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25360,7 +25909,7 @@
     "instructor": "Davis, Natalyah",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25381,7 +25930,7 @@
     "instructor": "Davis, Natalyah",
     "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25402,7 +25951,7 @@
     "instructor": "Davis, Natalyah",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25423,7 +25972,7 @@
     "instructor": "Meredith, Christopher",
     "seats_open": 8,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25444,7 +25993,7 @@
     "instructor": null,
     "seats_open": 56,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25465,7 +26014,7 @@
     "instructor": null,
     "seats_open": 56,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25486,7 +26035,7 @@
     "instructor": "Kaplowitz, Mark",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25507,7 +26056,7 @@
     "instructor": "Kaplowitz, Mark",
     "seats_open": 8,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25528,7 +26077,7 @@
     "instructor": "Meredith, Christopher",
     "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25549,7 +26098,7 @@
     "instructor": "Kaplowitz, Mark",
     "seats_open": 20,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25570,7 +26119,7 @@
     "instructor": "Meredith, Christopher",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25591,7 +26140,7 @@
     "instructor": "Tolf, Mark",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25612,7 +26161,7 @@
     "instructor": "Meredith, Christopher",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25633,7 +26182,7 @@
     "instructor": "Tolf, Mark",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25654,7 +26203,7 @@
     "instructor": "Davis, Natalyah",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25675,7 +26224,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25696,7 +26245,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26125,8 +26674,12 @@
     "instructor": "Darling, Jordan",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -26146,8 +26699,12 @@
     "instructor": "Darling, Jordan",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -26167,8 +26724,12 @@
     "instructor": null,
     "seats_open": 51,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -26188,8 +26749,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2010",
+    "prerequisite_courses": [
+      "PHYS 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -26232,8 +26795,10 @@
     "instructor": null,
     "seats_open": 56,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -26253,7 +26818,7 @@
     "instructor": null,
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26274,7 +26839,7 @@
     "instructor": "Graddy, Nanette",
     "seats_open": 8,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26295,7 +26860,7 @@
     "instructor": "Taylor, Travis",
     "seats_open": 12,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26316,7 +26881,7 @@
     "instructor": "Taylor, Travis",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26337,7 +26902,7 @@
     "instructor": "Taylor, Travis",
     "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26358,7 +26923,7 @@
     "instructor": "Taylor, Travis",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26379,7 +26944,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26463,7 +27028,7 @@
     "instructor": "Sims, Darcy",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26484,7 +27049,7 @@
     "instructor": "Pierce, Karen",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26505,7 +27070,7 @@
     "instructor": "Sims, Darcy",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26526,7 +27091,7 @@
     "instructor": "Pierce, Karen",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26547,7 +27112,7 @@
     "instructor": "Pierce, Karen",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26568,7 +27133,7 @@
     "instructor": "Thompson, Saundra",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26589,7 +27154,7 @@
     "instructor": "Pierce, Karen",
     "seats_open": 9,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26610,7 +27175,7 @@
     "instructor": "Toles, Mechell",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26631,7 +27196,7 @@
     "instructor": "Pierce, Karen",
     "seats_open": 7,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26652,7 +27217,7 @@
     "instructor": "Simms, Carolyn",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26673,7 +27238,7 @@
     "instructor": "Simms, Carolyn",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26694,7 +27259,7 @@
     "instructor": "Key, Hellon",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26715,7 +27280,7 @@
     "instructor": "Key, Hellon",
     "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26736,7 +27301,7 @@
     "instructor": "Toles, Mechell",
     "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26757,7 +27322,7 @@
     "instructor": "Shaw - Hunter, Bobbie",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26778,7 +27343,7 @@
     "instructor": "Shaw - Hunter, Bobbie",
     "seats_open": 9,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26799,7 +27364,7 @@
     "instructor": "Shaw - Hunter, Bobbie",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26820,7 +27385,7 @@
     "instructor": "Simms, Carolyn",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26841,7 +27406,7 @@
     "instructor": "Toles, Mechell",
     "seats_open": 11,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26862,7 +27427,7 @@
     "instructor": "Hunter, Marcia",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26883,7 +27448,7 @@
     "instructor": "Hunter, Marcia",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26904,7 +27469,7 @@
     "instructor": "Sims, Darcy",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26925,7 +27490,7 @@
     "instructor": "Sims, Darcy",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26946,7 +27511,7 @@
     "instructor": "Toles, Mechell",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26967,7 +27532,7 @@
     "instructor": "Royal, Sharael",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -26988,7 +27553,7 @@
     "instructor": "Green, Cyntrice",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27009,7 +27574,7 @@
     "instructor": "Royal, Sharael",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27030,7 +27595,7 @@
     "instructor": "Reed, George",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27051,7 +27616,7 @@
     "instructor": "Reed, George",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27072,7 +27637,7 @@
     "instructor": "Green, Cyntrice",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27093,7 +27658,7 @@
     "instructor": null,
     "seats_open": 53,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27114,7 +27679,7 @@
     "instructor": null,
     "seats_open": 55,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27135,7 +27700,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27198,8 +27763,10 @@
     "instructor": "Nasso, Donna",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -27219,8 +27786,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -27240,8 +27809,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -27261,7 +27832,7 @@
     "instructor": "Thompson, Saundra",
     "seats_open": 6,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27282,7 +27853,7 @@
     "instructor": "Hunter, Marcia",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27303,7 +27874,7 @@
     "instructor": "King, Sherria",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27324,7 +27895,7 @@
     "instructor": "Hunter, Marcia",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27345,7 +27916,7 @@
     "instructor": "Bell, LuJodia",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27366,7 +27937,7 @@
     "instructor": "Hunter, Marcia",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27387,7 +27958,7 @@
     "instructor": "Sims, Darcy",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27408,7 +27979,7 @@
     "instructor": "Burress, Briana",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27429,7 +28000,7 @@
     "instructor": "Nasso, Donna",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27450,7 +28021,7 @@
     "instructor": null,
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27471,7 +28042,7 @@
     "instructor": null,
     "seats_open": 59,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27849,7 +28420,7 @@
     "instructor": null,
     "seats_open": 57,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27891,7 +28462,7 @@
     "instructor": "Graddy, Nanette",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27912,7 +28483,7 @@
     "instructor": "Graddy, Nanette",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27933,7 +28504,7 @@
     "instructor": "Graddy, Nanette",
     "seats_open": 7,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27954,7 +28525,7 @@
     "instructor": "Watson, Dominique",
     "seats_open": 1,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27975,7 +28546,7 @@
     "instructor": "Watson, Dominique",
     "seats_open": 4,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -27996,7 +28567,7 @@
     "instructor": "Watson, Dominique",
     "seats_open": 7,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28017,7 +28588,7 @@
     "instructor": "Little, Shannon",
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28038,7 +28609,7 @@
     "instructor": "Watson, Dominique",
     "seats_open": 17,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28059,7 +28630,7 @@
     "instructor": "Taylor, Travis",
     "seats_open": 19,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28080,7 +28651,7 @@
     "instructor": "Mixson, Susan",
     "seats_open": 17,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28101,7 +28672,7 @@
     "instructor": "Little, Shannon",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28122,7 +28693,7 @@
     "instructor": "Little, Shannon",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28143,7 +28714,7 @@
     "instructor": "Little, Shannon",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28164,7 +28735,7 @@
     "instructor": "Little, Shannon",
     "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28183,9 +28754,9 @@
     "campus": "Macon Cove",
     "mode": "in-person",
     "instructor": "Little, Shannon",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28206,7 +28777,7 @@
     "instructor": "Little, Shannon",
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28227,7 +28798,7 @@
     "instructor": null,
     "seats_open": 58,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28248,7 +28819,7 @@
     "instructor": "Mixson, Susan",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28269,7 +28840,7 @@
     "instructor": "Mixson, Susan",
     "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28290,7 +28861,7 @@
     "instructor": "Mixson, Susan",
     "seats_open": 6,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28311,7 +28882,7 @@
     "instructor": "Graddy, Nanette",
     "seats_open": 3,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28332,7 +28903,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -28521,8 +29092,10 @@
     "instructor": "Mixson, Rachel",
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -28542,8 +29115,10 @@
     "instructor": "Mixson, Rachel",
     "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -28563,8 +29138,10 @@
     "instructor": "Mixson, Rachel",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -28584,8 +29161,10 @@
     "instructor": "Ward, Patricia",
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -28605,8 +29184,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -28626,8 +29207,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -28647,8 +29230,10 @@
     "instructor": "Mixson, Rachel",
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -28668,8 +29253,10 @@
     "instructor": null,
     "seats_open": 57,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -28962,8 +29549,10 @@
     "instructor": "King, Thomas",
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "THEA 1015",
+    "prerequisite_courses": [
+      "THEA 1015"
+    ]
   },
   {
     "college_code": "southwest-tn",
@@ -28983,7 +29572,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   }
 ]

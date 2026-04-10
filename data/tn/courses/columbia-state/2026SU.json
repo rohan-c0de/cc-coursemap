@@ -17,7 +17,7 @@
     "instructor": "Brew, Holly",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -36,9 +36,9 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Kenley, John",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -59,7 +59,7 @@
     "instructor": "Huffman, Kevin",
     "seats_open": 33,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -78,7 +78,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Rogers, Molly",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": "ACCT 1010 (min D)",
     "prerequisite_courses": [
@@ -168,7 +168,7 @@
     "instructor": null,
     "seats_open": 95,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
     "prerequisite_courses": []
   },
   {
@@ -210,7 +210,7 @@
     "campus": "Columbia Campus",
     "mode": "in-person",
     "instructor": "Christian, Suzanne",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "BIOL 2020 (min C)",
     "prerequisite_courses": [
@@ -233,7 +233,7 @@
     "campus": "Columbia Campus",
     "mode": "in-person",
     "instructor": "Christian, Suzanne",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "BIOL 2020 (min C)",
     "prerequisite_courses": [
@@ -258,7 +258,7 @@
     "instructor": "Miller Toothaker, Deborah",
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -468,7 +468,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -531,7 +531,7 @@
     "instructor": "Jernigan, Kristin",
     "seats_open": 10,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -552,7 +552,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -573,7 +573,7 @@
     "instructor": "Jernigan, Kristin",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -636,7 +636,7 @@
     "instructor": "Eivazova, Elvira",
     "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -657,7 +657,7 @@
     "instructor": "Dietrich, Daniel",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -678,7 +678,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -699,7 +699,7 @@
     "instructor": null,
     "seats_open": 4,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -720,7 +720,7 @@
     "instructor": "Hines, Tracey",
     "seats_open": 0,
     "seats_total": 2,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -762,7 +762,7 @@
     "instructor": "Pence, Kenneth",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -783,7 +783,7 @@
     "instructor": "Carter-Lowe, Mandy",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -804,7 +804,7 @@
     "instructor": "Santee, Kimberly",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -823,9 +823,9 @@
     "campus": "Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -846,7 +846,7 @@
     "instructor": null,
     "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -867,7 +867,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -886,10 +886,12 @@
     "campus": "Columbia Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -909,8 +911,10 @@
     "instructor": "Santee, Kimberly",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -930,8 +934,10 @@
     "instructor": "Pence, Kenneth",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -951,8 +957,10 @@
     "instructor": "Dietrich, Daniel",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -972,8 +980,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1033,7 +1043,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Brown, Judy",
-    "seats_open": 10,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1203,7 +1213,7 @@
     "instructor": "Leiderman, Donald",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1245,8 +1255,10 @@
     "instructor": "York, Wendy",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1264,10 +1276,14 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hendrix, Robyn",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010 and BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "ACCT 1010",
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1287,8 +1303,18 @@
     "instructor": null,
     "seats_open": 94,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1331,8 +1357,12 @@
     "instructor": "Fanta, Bradley",
     "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1352,8 +1382,12 @@
     "instructor": "Pennington, Marcus",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1373,8 +1407,12 @@
     "instructor": "Martin, Leah",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1394,8 +1432,12 @@
     "instructor": "Martin, Leah",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1415,8 +1457,10 @@
     "instructor": "Pennington, Marcus",
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1436,8 +1480,10 @@
     "instructor": "Zawad, John",
     "seats_open": 3,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1457,8 +1503,10 @@
     "instructor": "Stafford, Emily",
     "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1478,8 +1526,10 @@
     "instructor": null,
     "seats_open": -4,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1518,7 +1568,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Lewis, Tiffany",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1539,7 +1589,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Lewis, Tiffany",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1583,7 +1633,7 @@
     "instructor": "Benns, Lacey",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1604,7 +1654,7 @@
     "instructor": "Benns, Lacey",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1623,9 +1673,9 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Cox, Brittany",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1646,7 +1696,7 @@
     "instructor": "Poarch, Matthew",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1667,7 +1717,7 @@
     "instructor": "Hereford, Jalen",
     "seats_open": -1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1688,7 +1738,7 @@
     "instructor": "Hereford, Jalen",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1709,7 +1759,7 @@
     "instructor": "Wilds, Robert",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1730,7 +1780,7 @@
     "instructor": "Poarch, Matthew",
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1751,7 +1801,7 @@
     "instructor": "Cox, Brittany",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1772,7 +1822,7 @@
     "instructor": "Benns, Lacey",
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1902,8 +1952,10 @@
     "instructor": null,
     "seats_open": 96,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1923,8 +1975,12 @@
     "instructor": "Johnson Jr, Marvin",
     "seats_open": 9,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1334 and CITC 1311 or CITC 2326",
+    "prerequisite_courses": [
+      "CITC 1311",
+      "CITC 1334",
+      "CITC 2326"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -1988,7 +2044,7 @@
     "instructor": "Oshowole, Solomon",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2009,8 +2065,11 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRMJ 1010 and CRMJ 1020",
+    "prerequisite_courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -2315,7 +2374,7 @@
     "instructor": "Womer, Benjamin",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2336,7 +2395,7 @@
     "instructor": "Slonaker, Mary Shealyn",
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2357,7 +2416,7 @@
     "instructor": "Stewmon, Patsy",
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2378,7 +2437,7 @@
     "instructor": "Blackwell, Leonard",
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2399,7 +2458,7 @@
     "instructor": "Benns, Lacey",
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2420,8 +2479,10 @@
     "instructor": "Womer, Benjamin",
     "seats_open": 3,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -2441,8 +2502,10 @@
     "instructor": "James, Keith",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -2462,8 +2525,10 @@
     "instructor": "Krings-Wilstermann, Vicki",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -2546,8 +2611,11 @@
     "instructor": null,
     "seats_open": 4,
     "seats_total": 5,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313 and EETC 1314",
+    "prerequisite_courses": [
+      "EETC 1313",
+      "EETC 1314"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -2634,8 +2702,11 @@
     "instructor": null,
     "seats_open": 4,
     "seats_total": 5,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1300 or ENST 1340",
+    "prerequisite_courses": [
+      "EETC 1300",
+      "ENST 1340"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -2737,7 +2808,7 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 98,
+    "seats_open": 97,
     "seats_total": 99,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2760,7 +2831,7 @@
     "instructor": "Hutchinson, Millicent",
     "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2779,9 +2850,9 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Adel, Nina",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2802,7 +2873,7 @@
     "instructor": "McCready, Colleen",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2823,7 +2894,7 @@
     "instructor": "Harkness, Graham",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2844,7 +2915,7 @@
     "instructor": "Thym, Robert",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2863,9 +2934,9 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 98,
+    "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2907,7 +2978,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Westley, Judith",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "ENGL 1010 (min D)",
     "prerequisite_courses": [
@@ -2976,7 +3047,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Beard, Scott",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": "ENGL 1010 (min D)",
     "prerequisite_courses": [
@@ -3118,7 +3189,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Kelley, Daniel",
-    "seats_open": 1,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "ENGL 1020 (min D) or English 102 (min D)",
     "prerequisite_courses": [
@@ -3166,10 +3237,12 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McCready, Colleen",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -3304,8 +3377,10 @@
     "instructor": "Harkness, Graham",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -3325,8 +3400,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -3346,8 +3423,10 @@
     "instructor": "Benns, Lacey",
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -3367,8 +3446,10 @@
     "instructor": "Benns, Lacey",
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -3388,7 +3469,7 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3516,7 +3597,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3642,7 +3723,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Duch, Anna",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3789,7 +3870,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3833,7 +3914,7 @@
     "instructor": "Devers, Daniel",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3854,7 +3935,7 @@
     "instructor": "Kadimisetty, Sirisha",
     "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3875,7 +3956,7 @@
     "instructor": "Kadimisetty, Sirisha",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3896,7 +3977,7 @@
     "instructor": "Melendez, Alexander",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3917,7 +3998,7 @@
     "instructor": "Maxey, Margaret",
     "seats_open": 9,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3936,7 +4017,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Maxey, Margaret",
-    "seats_open": 9,
+    "seats_open": 10,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3957,7 +4038,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Brown, Jessica",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4001,7 +4082,7 @@
     "instructor": "Sutherland, Cara",
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4020,10 +4101,12 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hardison, Richard",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4043,8 +4126,10 @@
     "instructor": "Hardison, Richard",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4064,8 +4149,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4085,8 +4172,10 @@
     "instructor": null,
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4106,8 +4195,12 @@
     "instructor": "Sutherland, Cara",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4127,8 +4220,12 @@
     "instructor": null,
     "seats_open": -4,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4148,7 +4245,7 @@
     "instructor": "Morgan, Ashley Marie",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4169,7 +4266,7 @@
     "instructor": "Kandasamy, Jayasrividhya",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4190,7 +4287,7 @@
     "instructor": "Morgan, Ashley Marie",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4209,9 +4306,9 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Kandasamy, Jayasrividhya",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4232,7 +4329,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4253,7 +4350,7 @@
     "instructor": "Evers, Samuel",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4274,7 +4371,7 @@
     "instructor": "Evers, Samuel",
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4295,7 +4392,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4316,7 +4413,7 @@
     "instructor": "Benns, Lacey",
     "seats_open": 0,
     "seats_total": 2,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4337,8 +4434,14 @@
     "instructor": "Richardson, Brandon",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4358,8 +4461,14 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4379,8 +4488,10 @@
     "instructor": null,
     "seats_open": 94,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4424,8 +4535,10 @@
     "instructor": "Smith, James",
     "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4445,8 +4558,10 @@
     "instructor": "Smith, James",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4466,8 +4581,12 @@
     "instructor": "Hobbs, Curtis",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4487,8 +4606,12 @@
     "instructor": "Darrell, Robert",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4506,10 +4629,14 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Pollack, Michael",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -4529,8 +4656,12 @@
     "instructor": "Darrell, Robert",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -5057,9 +5188,9 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Kealey, Erin",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5078,9 +5209,9 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Tomasi, Anthony",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5101,7 +5232,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5122,7 +5253,7 @@
     "instructor": "Kissinger, Catarina",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5141,9 +5272,9 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Kissinger, Catarina",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5164,7 +5295,7 @@
     "instructor": "Stephens, Lauren",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5341,7 +5472,7 @@
     "instructor": null,
     "seats_open": 96,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5362,7 +5493,7 @@
     "instructor": "Kisenyi, Catherine",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5383,7 +5514,7 @@
     "instructor": "Kisenyi, Catherine",
     "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5423,9 +5554,9 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Jackson, Demarcus",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5446,7 +5577,7 @@
     "instructor": "Jackson, Demarcus",
     "seats_open": 9,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5488,8 +5619,10 @@
     "instructor": "Grigsby, Sharon",
     "seats_open": 19,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -5509,8 +5642,10 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -5530,8 +5665,10 @@
     "instructor": "Benns, Lacey",
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -5551,7 +5688,7 @@
     "instructor": "Russell, Susan",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5572,7 +5709,7 @@
     "instructor": "Russell, Susan",
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5591,9 +5728,9 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wilcox, Brittney",
-    "seats_open": 26,
+    "seats_open": 25,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5614,7 +5751,7 @@
     "instructor": "Benns, Lacey",
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5979,7 +6116,7 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": -2,
+    "seats_open": -3,
     "seats_total": 0,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6079,7 +6216,7 @@
     "instructor": "Gerbic, Francesca",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6100,7 +6237,7 @@
     "instructor": "Gerbic, Francesca",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6121,7 +6258,7 @@
     "instructor": "Grigsby, Sharon",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6142,7 +6279,7 @@
     "instructor": "Benns, Lacey",
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6184,8 +6321,10 @@
     "instructor": "Basoa-McMillan, Ana",
     "seats_open": 19,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -6205,8 +6344,10 @@
     "instructor": "Benns, Lacey",
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "columbia-state",
@@ -6274,7 +6415,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Lenig, Stuart",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []

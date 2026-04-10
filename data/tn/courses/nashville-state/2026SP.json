@@ -17,7 +17,7 @@
     "instructor": "Von Deylen, Barry",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -38,7 +38,7 @@
     "instructor": "Von Deylen, Barry",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -59,7 +59,7 @@
     "instructor": "Von Deylen, Barry",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -80,7 +80,7 @@
     "instructor": "Blandford, Mandy",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -101,7 +101,7 @@
     "instructor": "Blandford, Mandy",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -122,7 +122,7 @@
     "instructor": "Hussey, Amy",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -143,7 +143,7 @@
     "instructor": "Koulakov, Paul",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -164,7 +164,7 @@
     "instructor": "Koulakov, Paul",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -185,7 +185,7 @@
     "instructor": "Blandford, Mandy",
     "seats_open": -31,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -206,8 +206,10 @@
     "instructor": "Peterson, Heather",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -227,8 +229,10 @@
     "instructor": "Jimenez, Maria",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -248,8 +252,10 @@
     "instructor": "Swanson, Laurie",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -269,8 +275,10 @@
     "instructor": "Von Deylen, Barry",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -290,8 +298,10 @@
     "instructor": "Peterson, Heather",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -311,8 +321,10 @@
     "instructor": "Reel, John",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -332,8 +344,10 @@
     "instructor": "Peterson, Heather",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -353,8 +367,10 @@
     "instructor": "Reel, John",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -374,8 +390,10 @@
     "instructor": "Reel, John",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -437,8 +455,10 @@
     "instructor": "Bear, Jameson",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -458,8 +478,10 @@
     "instructor": null,
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1020",
+    "prerequisite_courses": [
+      "ACCT 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -479,8 +501,10 @@
     "instructor": "Hussey, Amy",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 2321",
+    "prerequisite_courses": [
+      "ACCT 2321"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -500,8 +524,10 @@
     "instructor": "Swanson, Laurie",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1020",
+    "prerequisite_courses": [
+      "ACCT 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -521,8 +547,10 @@
     "instructor": "Hussey, Amy",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and ACCT 1020",
+    "prerequisite_courses": [
+      "ACCT 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -626,8 +654,10 @@
     "instructor": "Gomillion, John",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -647,8 +677,10 @@
     "instructor": "Gomillion, John",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -668,8 +700,10 @@
     "instructor": "Kendrick, Karen",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "INFS 1010",
+    "prerequisite_courses": [
+      "INFS 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -689,8 +723,10 @@
     "instructor": "Coron, Ann",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "INFS 1010",
+    "prerequisite_courses": [
+      "INFS 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -836,8 +872,10 @@
     "instructor": "Ma, Lijian",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and CIVT 1250",
+    "prerequisite_courses": [
+      "CIVT 1250"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -857,8 +895,10 @@
     "instructor": "Evans, Bryan",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and CIVT 1250",
+    "prerequisite_courses": [
+      "CIVT 1250"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -1634,7 +1674,7 @@
     "instructor": "Smith, John",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1760,7 +1800,7 @@
     "instructor": "Claybaker, Pamela",
     "seats_open": -32,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and department approval",
     "prerequisite_courses": []
   },
   {
@@ -1781,7 +1821,7 @@
     "instructor": "Claybaker, Pamela",
     "seats_open": -32,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and department approval",
     "prerequisite_courses": []
   },
   {
@@ -1802,7 +1842,7 @@
     "instructor": "Jiron, Floribell",
     "seats_open": -33,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and department approval",
     "prerequisite_courses": []
   },
   {
@@ -1823,7 +1863,7 @@
     "instructor": "Ndaira, Allie",
     "seats_open": -33,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and department approval",
     "prerequisite_courses": []
   },
   {
@@ -1844,7 +1884,7 @@
     "instructor": "Pompilius, Melissa",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1865,7 +1905,7 @@
     "instructor": "Smart, William",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1886,7 +1926,7 @@
     "instructor": "Knapp, Jennifer",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1907,7 +1947,7 @@
     "instructor": "Kirk, Ashudee",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1928,7 +1968,7 @@
     "instructor": "Rinehart, Amelia",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1949,7 +1989,7 @@
     "instructor": "Anderson, Jennifer",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1970,7 +2010,7 @@
     "instructor": "Cox, Jason",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1991,7 +2031,7 @@
     "instructor": "Green, Lori",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2012,7 +2052,7 @@
     "instructor": "Cox, Jason",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2033,7 +2073,7 @@
     "instructor": "Anderson, Jennifer",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2054,7 +2094,7 @@
     "instructor": "Illukpitiya, Binula",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2075,7 +2115,7 @@
     "instructor": "Illukpitiya, Binula",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2096,7 +2136,7 @@
     "instructor": "Jacobs, Janessa",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2117,7 +2157,7 @@
     "instructor": "Fullerton, Nigel",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2138,7 +2178,7 @@
     "instructor": "Smart, William",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2159,7 +2199,7 @@
     "instructor": "Rinehart, Amelia",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2180,7 +2220,7 @@
     "instructor": "Atuahene, Paul",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2201,7 +2241,7 @@
     "instructor": "Nagar, Shreya",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2222,7 +2262,7 @@
     "instructor": "Swepson, Chelsie",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2243,7 +2283,7 @@
     "instructor": "Knapp, Jennifer",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2264,7 +2304,7 @@
     "instructor": "Matthies, Dawn",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2285,7 +2325,7 @@
     "instructor": "Rosenthal, Mary",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2306,7 +2346,7 @@
     "instructor": "Matthies, Dawn",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2327,7 +2367,7 @@
     "instructor": "Rosenthal, Mary",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2348,7 +2388,7 @@
     "instructor": "Cecil, Tocarra",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2369,7 +2409,7 @@
     "instructor": "Cecil, Tocarra",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2390,7 +2430,7 @@
     "instructor": "Haga, Perrianna",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2411,7 +2451,7 @@
     "instructor": "Rabb, Jessica",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2432,7 +2472,7 @@
     "instructor": "Knapp, Jennifer",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2453,7 +2493,7 @@
     "instructor": "Kirk, Ashudee",
     "seats_open": -17,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2474,7 +2514,7 @@
     "instructor": "Green, Jeff",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2495,7 +2535,7 @@
     "instructor": "Fullerton, Nigel",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2516,7 +2556,7 @@
     "instructor": "Rinehart, Amelia",
     "seats_open": -5,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2537,7 +2577,7 @@
     "instructor": "Knapp, Jennifer",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2558,7 +2598,7 @@
     "instructor": "Ferrell, Scott",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2579,7 +2619,7 @@
     "instructor": "Swepson, Chelsie",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2705,7 +2745,7 @@
     "instructor": "Weitlauf, Carl",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2726,7 +2766,7 @@
     "instructor": "King, Gracie",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2747,7 +2787,7 @@
     "instructor": "King, Gracie",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2768,7 +2808,7 @@
     "instructor": "King, Gracie",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2789,7 +2829,7 @@
     "instructor": "Slade, Elizabeth",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2810,7 +2850,7 @@
     "instructor": "Slade, Elizabeth",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2831,7 +2871,7 @@
     "instructor": "Womack, Mary",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2852,7 +2892,7 @@
     "instructor": "Womack, Mary",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2873,7 +2913,7 @@
     "instructor": "Welker, Leah",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2894,7 +2934,7 @@
     "instructor": "Womack, Mary",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2915,7 +2955,7 @@
     "instructor": "Jacobs, Janessa",
     "seats_open": -17,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2936,7 +2976,7 @@
     "instructor": null,
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2957,7 +2997,7 @@
     "instructor": "Welker, Leah",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2978,7 +3018,7 @@
     "instructor": "Richards, Sandra",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2999,7 +3039,7 @@
     "instructor": "McAdams, Kathleen",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3020,7 +3060,7 @@
     "instructor": "Green, Lori",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3041,7 +3081,7 @@
     "instructor": "McAdams, Kathleen",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3062,7 +3102,7 @@
     "instructor": "Richards, Sandra",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3083,7 +3123,7 @@
     "instructor": "Kerns, Joshua",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3104,7 +3144,7 @@
     "instructor": "Battle, Brandon",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3125,7 +3165,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3146,8 +3186,10 @@
     "instructor": "Weitlauf, Carl",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3167,8 +3209,10 @@
     "instructor": "Hazelwood Lewis, Rachel",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3188,8 +3232,10 @@
     "instructor": "Slade, Elizabeth",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3209,8 +3255,10 @@
     "instructor": "Jacobs, Janessa",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3230,8 +3278,10 @@
     "instructor": "Burnette, Kristyn",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3251,8 +3301,10 @@
     "instructor": "Welker, Leah",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3272,8 +3324,10 @@
     "instructor": "Burnette, Kristyn",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3293,8 +3347,10 @@
     "instructor": null,
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3314,8 +3370,10 @@
     "instructor": "Weitlauf, Carl",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3335,8 +3393,10 @@
     "instructor": "Hoefner, Donna",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3356,8 +3416,10 @@
     "instructor": "Hoefner, Donna",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3377,8 +3439,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3398,8 +3462,10 @@
     "instructor": "Kerns, Joshua",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -3419,8 +3485,10 @@
     "instructor": "Battle, Brandon",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4301,7 +4369,7 @@
     "instructor": "Willis, Gina",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4322,7 +4390,7 @@
     "instructor": "Willis, Gina",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4343,8 +4411,11 @@
     "instructor": "Peppers, John",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4364,8 +4435,11 @@
     "instructor": "Gottstein, Tina",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4406,8 +4480,10 @@
     "instructor": "Gerth, David",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4427,8 +4503,10 @@
     "instructor": "Gerth, David",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4448,7 +4526,7 @@
     "instructor": "Doty, G.",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4469,7 +4547,7 @@
     "instructor": "Doty, G.",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4490,7 +4568,7 @@
     "instructor": "Doty, G.",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4511,8 +4589,10 @@
     "instructor": "Grubb, Gary",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4532,8 +4612,10 @@
     "instructor": "Gerth, David",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4553,8 +4635,10 @@
     "instructor": "Gottstein, Tina",
     "seats_open": -17,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4574,8 +4658,10 @@
     "instructor": "Gerth, David",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4595,8 +4681,10 @@
     "instructor": "Cook, Michael",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4616,8 +4704,10 @@
     "instructor": "Cook, Michael",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4637,8 +4727,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4721,8 +4813,12 @@
     "instructor": "Rockstead, Clifford",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010 and BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "ACCT 1010",
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4805,8 +4901,10 @@
     "instructor": "Evans, Bryan",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and CADD 1200 or department approval",
+    "prerequisite_courses": [
+      "CADD 1200"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4826,8 +4924,10 @@
     "instructor": "Keen, John",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math and CADD 1200 or department approval",
+    "prerequisite_courses": [
+      "CADD 1200"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4889,8 +4989,18 @@
     "instructor": null,
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4910,8 +5020,12 @@
     "instructor": "Wilburn, Dr. W",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4931,8 +5045,12 @@
     "instructor": "Akther, Jesmin",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4952,8 +5070,12 @@
     "instructor": "Wilburn, Dr. W",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4973,8 +5095,12 @@
     "instructor": "Boghozian, Rafie",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -4994,8 +5120,12 @@
     "instructor": "Setayesh, Feloora",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5015,8 +5145,12 @@
     "instructor": "Fulton, Brian",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5036,8 +5170,12 @@
     "instructor": "Chang, Keng-Ming",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5057,8 +5195,12 @@
     "instructor": "Akther, Jesmin",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5078,8 +5220,12 @@
     "instructor": "Setayesh, Feloora",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5099,8 +5245,12 @@
     "instructor": "Winton, Anita",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5120,8 +5270,12 @@
     "instructor": "Boghozian, Rafie",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5141,8 +5295,10 @@
     "instructor": "Prevatte, Carson",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5162,8 +5318,10 @@
     "instructor": "Setayesh, Feloora",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5183,8 +5341,10 @@
     "instructor": "Setayesh, Feloora",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5204,8 +5364,10 @@
     "instructor": "Akther, Jesmin",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5225,8 +5387,10 @@
     "instructor": "Decker, Katherine",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5246,8 +5410,10 @@
     "instructor": "Prevatte, Carson",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5267,8 +5433,10 @@
     "instructor": "Winton, Anita",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5288,8 +5456,10 @@
     "instructor": "Akther, Jesmin",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1120",
+    "prerequisite_courses": [
+      "CHEM 1120"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5309,8 +5479,10 @@
     "instructor": "Prevatte, Carson",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 2010",
+    "prerequisite_courses": [
+      "CHEM 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5330,8 +5502,10 @@
     "instructor": "Prevatte, Carson",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 2010",
+    "prerequisite_courses": [
+      "CHEM 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5414,8 +5588,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CISP 1010",
+    "prerequisite_courses": [
+      "CISP 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5435,8 +5611,10 @@
     "instructor": "Adams, Andrew",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CISP 1010",
+    "prerequisite_courses": [
+      "CISP 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5456,8 +5634,10 @@
     "instructor": "Cotton, William",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CISP 1010",
+    "prerequisite_courses": [
+      "CISP 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5477,8 +5657,11 @@
     "instructor": "Cyphers, Valencia",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CISP 1010 or CITC 1310",
+    "prerequisite_courses": [
+      "CISP 1010",
+      "CITC 1310"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5498,8 +5681,11 @@
     "instructor": "Cyphers, Valencia",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CISP 1010 or CITC 1310",
+    "prerequisite_courses": [
+      "CISP 1010",
+      "CITC 1310"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5645,8 +5831,10 @@
     "instructor": "Steffens, Keith",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5666,8 +5854,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5687,8 +5877,10 @@
     "instructor": null,
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5708,8 +5900,11 @@
     "instructor": "Lenox, Michelle",
     "seats_open": -31,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5729,8 +5924,11 @@
     "instructor": "Patterson, Brian",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5750,8 +5948,11 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5771,8 +5972,10 @@
     "instructor": "Smith, Omari",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5918,8 +6121,10 @@
     "instructor": "Steffens, Keith",
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5939,8 +6144,10 @@
     "instructor": "Saroukhanian, Ruben",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -5981,8 +6188,11 @@
     "instructor": "Lenox, Michelle",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 and CITC 1305",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "CITC 1305"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -6023,8 +6233,10 @@
     "instructor": "Steffens, Keith",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -6149,8 +6361,10 @@
     "instructor": "Saroukhanian, Ruben",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -6191,8 +6405,10 @@
     "instructor": "McKinney, Richard",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302",
+    "prerequisite_courses": [
+      "CITC 1302"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -6212,8 +6428,10 @@
     "instructor": "McKinney, Richard",
     "seats_open": -5,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1333",
+    "prerequisite_courses": [
+      "CITC 1333"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -6296,8 +6514,12 @@
     "instructor": "McKinney, Richard",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302 and CITC 1330 and CITC 1351",
+    "prerequisite_courses": [
+      "CITC 1302",
+      "CITC 1330",
+      "CITC 1351"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -6317,8 +6539,11 @@
     "instructor": "McKinney, Richard",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1333 and CITC 1351",
+    "prerequisite_courses": [
+      "CITC 1333",
+      "CITC 1351"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -6821,7 +7046,7 @@
     "instructor": "Mills, Zachary",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6842,7 +7067,7 @@
     "instructor": "Mills, Zachary",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6863,7 +7088,7 @@
     "instructor": "Sales, Kristen",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6884,7 +7109,7 @@
     "instructor": "Mills, Zachary",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6905,7 +7130,7 @@
     "instructor": "Semore, Garvis",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6926,7 +7151,7 @@
     "instructor": "Mills, Zachary",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6947,7 +7172,7 @@
     "instructor": "Semore, Garvis",
     "seats_open": -5,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6968,7 +7193,7 @@
     "instructor": "Buckley-Hughes, Brenda",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6989,7 +7214,7 @@
     "instructor": "Willis, Conchetta",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7010,7 +7235,7 @@
     "instructor": "Cannon, Heather",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7031,7 +7256,7 @@
     "instructor": "Cannon, Heather",
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7052,7 +7277,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7073,7 +7298,7 @@
     "instructor": "Cannon, Heather",
     "seats_open": -17,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7094,7 +7319,7 @@
     "instructor": "Bardo, Craig",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7115,7 +7340,7 @@
     "instructor": "Pease, Harlan",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7136,7 +7361,7 @@
     "instructor": "Sales, Kristen",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7157,7 +7382,7 @@
     "instructor": "Semore, Garvis",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7178,7 +7403,7 @@
     "instructor": "Sales, Kristen",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7199,7 +7424,7 @@
     "instructor": "Sheucraft-Scelza, Neely Ann",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7220,7 +7445,7 @@
     "instructor": "Bardo, Craig",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7241,7 +7466,7 @@
     "instructor": "Bardo, Craig",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7262,7 +7487,7 @@
     "instructor": "Sheucraft-Scelza, Neely Ann",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7283,7 +7508,7 @@
     "instructor": "Buckley-Hughes, Brenda",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7304,7 +7529,7 @@
     "instructor": "Sheucraft-Scelza, Neely Ann",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7325,7 +7550,7 @@
     "instructor": "Mills, Zachary",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7346,7 +7571,7 @@
     "instructor": "Sheucraft-Scelza, Neely Ann",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7367,7 +7592,7 @@
     "instructor": "Nastri, Julie",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7388,7 +7613,7 @@
     "instructor": "Talibah, Dara",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7409,7 +7634,7 @@
     "instructor": "Bardo, Craig",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7430,7 +7655,7 @@
     "instructor": "Townes, Kevin",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7451,7 +7676,7 @@
     "instructor": "Cannon, Heather",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7472,7 +7697,7 @@
     "instructor": "Nastri, Julie",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7493,7 +7718,7 @@
     "instructor": "Cannon, Heather",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7514,7 +7739,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7535,7 +7760,7 @@
     "instructor": "Talibah, Dara",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7556,7 +7781,7 @@
     "instructor": "Willis, Conchetta",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7577,7 +7802,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7598,7 +7823,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7619,7 +7844,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7640,7 +7865,7 @@
     "instructor": "Buckley-Hughes, Brenda",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7661,7 +7886,7 @@
     "instructor": "Nastri, Julie",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7682,7 +7907,7 @@
     "instructor": "Townes, Kevin",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7703,7 +7928,7 @@
     "instructor": "Talibah, Dara",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7724,7 +7949,7 @@
     "instructor": "Townes, Kevin",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7745,7 +7970,7 @@
     "instructor": "Willis, Conchetta",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7766,7 +7991,7 @@
     "instructor": "Talibah, Dara",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7787,7 +8012,7 @@
     "instructor": "Nastri, Julie",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7850,8 +8075,12 @@
     "instructor": "Pease, Harlan",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010 and COMM 2025 or COMM 2045",
+    "prerequisite_courses": [
+      "COMM 2025",
+      "COMM 2045",
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -7871,8 +8100,10 @@
     "instructor": "Pease, Harlan",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -7892,7 +8123,7 @@
     "instructor": "Overstreet, Robert",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7913,7 +8144,7 @@
     "instructor": "Aiello, Frank",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7934,7 +8165,7 @@
     "instructor": "Scott, Curtis",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8249,8 +8480,10 @@
     "instructor": "Roning, Nicole",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1300",
+    "prerequisite_courses": [
+      "CULA 1300"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8270,8 +8503,10 @@
     "instructor": "Morgan, Kristian",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1300",
+    "prerequisite_courses": [
+      "CULA 1300"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8291,8 +8526,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1300",
+    "prerequisite_courses": [
+      "CULA 1300"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8312,7 +8549,7 @@
     "instructor": "Fisher, Zachary",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8333,8 +8570,10 @@
     "instructor": "Lewis, Emily",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1310",
+    "prerequisite_courses": [
+      "CULA 1310"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8354,8 +8593,10 @@
     "instructor": "Lewis, Emily",
     "seats_open": -4,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1310",
+    "prerequisite_courses": [
+      "CULA 1310"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8375,8 +8616,10 @@
     "instructor": "Fisher, Zachary",
     "seats_open": -5,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1310",
+    "prerequisite_courses": [
+      "CULA 1310"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8396,8 +8639,10 @@
     "instructor": "Pessoa-Smith, Jamika",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1320",
+    "prerequisite_courses": [
+      "CULA 1320"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8417,8 +8662,10 @@
     "instructor": "Lewis, Emily",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1320",
+    "prerequisite_courses": [
+      "CULA 1320"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8438,8 +8685,10 @@
     "instructor": "Morgan, Kristian",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1320",
+    "prerequisite_courses": [
+      "CULA 1320"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8480,8 +8729,11 @@
     "instructor": "Druffel, Thomas",
     "seats_open": -17,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1320 or HMGT 1030",
+    "prerequisite_courses": [
+      "CULA 1320",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8522,8 +8774,10 @@
     "instructor": "Bua, Daniel",
     "seats_open": -5,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1330",
+    "prerequisite_courses": [
+      "CULA 1330"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8543,8 +8797,10 @@
     "instructor": "Morgan, Kristian",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1325",
+    "prerequisite_courses": [
+      "CULA 1325"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8564,8 +8820,10 @@
     "instructor": "Morgan, Kristian",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1325",
+    "prerequisite_courses": [
+      "CULA 1325"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8774,8 +9032,10 @@
     "instructor": "Fleck, Melissa",
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8795,8 +9055,10 @@
     "instructor": "Goncalves, Jennifer",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2335",
+    "prerequisite_courses": [
+      "ECED 2335"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8816,8 +9078,10 @@
     "instructor": "Fleck, Melissa",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8858,8 +9122,10 @@
     "instructor": "Goncalves, Jennifer",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8879,8 +9145,10 @@
     "instructor": "Schmidt, Kassidy",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -8921,7 +9189,7 @@
     "instructor": "Dusek, Sheryl",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8942,7 +9210,7 @@
     "instructor": "Makamu, Francis",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8963,7 +9231,7 @@
     "instructor": "Makamu, Francis",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8984,7 +9252,7 @@
     "instructor": "Makamu, Francis",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9005,7 +9273,7 @@
     "instructor": "Williams, Michelle",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9026,7 +9294,7 @@
     "instructor": "Harper, Garrett",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9047,7 +9315,7 @@
     "instructor": "Bergan, Nicholas",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9068,7 +9336,7 @@
     "instructor": "Bergan, Nicholas",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9089,7 +9357,7 @@
     "instructor": "Dusek, Sheryl",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9110,7 +9378,7 @@
     "instructor": "Dusek, Sheryl",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9131,7 +9399,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9152,7 +9420,7 @@
     "instructor": "Dusek, Sheryl",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9173,8 +9441,10 @@
     "instructor": "Dusek, Sheryl",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9194,8 +9464,10 @@
     "instructor": "Adams, David",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9215,8 +9487,10 @@
     "instructor": "Makamu, Francis",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9236,8 +9510,10 @@
     "instructor": "Makamu, Francis",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9257,8 +9533,10 @@
     "instructor": "Adams, David",
     "seats_open": -31,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9278,8 +9556,10 @@
     "instructor": "Williams, Michelle",
     "seats_open": -31,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9299,8 +9579,10 @@
     "instructor": "Harper, Garrett",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9320,8 +9602,10 @@
     "instructor": "Adams, David",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9341,8 +9625,10 @@
     "instructor": "Williams, Michelle",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9362,8 +9648,10 @@
     "instructor": "Bergan, Nicholas",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9425,8 +9713,10 @@
     "instructor": "Bush, Kurstin",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDUC 2000",
+    "prerequisite_courses": [
+      "EDUC 2000"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9509,8 +9799,10 @@
     "instructor": "Ortner, Peter",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313",
+    "prerequisite_courses": [
+      "EETC 1313"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9530,8 +9822,10 @@
     "instructor": "Ortner, Peter",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313",
+    "prerequisite_courses": [
+      "EETC 1313"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9551,8 +9845,10 @@
     "instructor": "Ortner, Peter",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1321",
+    "prerequisite_courses": [
+      "EETC 1321"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9572,8 +9868,10 @@
     "instructor": "Ortner, Peter",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1321",
+    "prerequisite_courses": [
+      "EETC 1321"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9635,8 +9933,10 @@
     "instructor": "Pelster, Donald",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313 or department approval",
+    "prerequisite_courses": [
+      "EETC 1313"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9656,8 +9956,10 @@
     "instructor": "Daniel, Alexander",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 2331 or department approval",
+    "prerequisite_courses": [
+      "EETC 2331"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9677,8 +9979,10 @@
     "instructor": "Pelster, Donald",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 2331 or department approval",
+    "prerequisite_courses": [
+      "EETC 2331"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -9698,8 +10002,11 @@
     "instructor": "Ortner, Peter",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313 and EETC 1314",
+    "prerequisite_courses": [
+      "EETC 1313",
+      "EETC 1314"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -10202,7 +10509,7 @@
     "instructor": "Curtis, Brian",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10223,7 +10530,7 @@
     "instructor": "Curtis, Brian",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10244,7 +10551,7 @@
     "instructor": "Weir, Bridgette",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10265,7 +10572,7 @@
     "instructor": "Weir, Bridgette",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10286,7 +10593,7 @@
     "instructor": "Cole, Aletha",
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10307,7 +10614,7 @@
     "instructor": "Lear, Robyn",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10328,7 +10635,7 @@
     "instructor": "Ornath, Maayan",
     "seats_open": -17,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10349,7 +10656,7 @@
     "instructor": "Ornath, Maayan",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10370,7 +10677,7 @@
     "instructor": "Arcadia, Ericka",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10391,7 +10698,7 @@
     "instructor": "Holmes, Thomas",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10412,7 +10719,7 @@
     "instructor": "Arcadia, Ericka",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10433,7 +10740,7 @@
     "instructor": "McCoy, Shane",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10454,7 +10761,7 @@
     "instructor": "Cole, Aletha",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10475,7 +10782,7 @@
     "instructor": "Gillis, Michelle",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10496,7 +10803,7 @@
     "instructor": "Burridge, Laura",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10517,7 +10824,7 @@
     "instructor": "Hopkins, Scott",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10538,7 +10845,7 @@
     "instructor": "Hopkins, Scott",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10559,7 +10866,7 @@
     "instructor": "Turner, Mitchell",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10580,7 +10887,7 @@
     "instructor": "Singletary, Ione",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10601,7 +10908,7 @@
     "instructor": "McCoy, Shane",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10622,7 +10929,7 @@
     "instructor": "Smith, Angela",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10643,7 +10950,7 @@
     "instructor": "Andrews, Halley",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10664,7 +10971,7 @@
     "instructor": "Oakes, Jared",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10685,7 +10992,7 @@
     "instructor": "Stein, Ruth",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10706,7 +11013,7 @@
     "instructor": "Farmer, Sara",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10727,7 +11034,7 @@
     "instructor": "Hancock, Steven",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10748,7 +11055,7 @@
     "instructor": "York, Megan",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10769,7 +11076,7 @@
     "instructor": "York, Megan",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10790,7 +11097,7 @@
     "instructor": "Hancock, Steven",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10811,7 +11118,7 @@
     "instructor": "Lear, Robyn",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10832,7 +11139,7 @@
     "instructor": "Curtis, Brian",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10853,7 +11160,7 @@
     "instructor": "Cole, Aletha",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10874,7 +11181,7 @@
     "instructor": "Gannon, Todd",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10895,7 +11202,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10916,7 +11223,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10937,7 +11244,7 @@
     "instructor": "Winters, Samantha",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10958,7 +11265,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -10979,7 +11286,7 @@
     "instructor": "Beasley, Jonathan",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11000,7 +11307,7 @@
     "instructor": "Pugh, Elissa",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11021,7 +11328,7 @@
     "instructor": "Melton, Courtney",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11042,7 +11349,7 @@
     "instructor": "Beasley, Jonathan",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11063,7 +11370,7 @@
     "instructor": "Pugh, Elissa",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11084,7 +11391,7 @@
     "instructor": "Turner, Mitchell",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11105,8 +11412,10 @@
     "instructor": "Kiggins, Michael",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11126,8 +11435,10 @@
     "instructor": "Lear, Robyn",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11147,8 +11458,10 @@
     "instructor": "Curtis, Brian",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11168,8 +11481,10 @@
     "instructor": "Blum, Amy",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11189,8 +11504,10 @@
     "instructor": "Gillis, Michelle",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11210,8 +11527,10 @@
     "instructor": "Kiggins, Michael",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11231,8 +11550,10 @@
     "instructor": "Blum, Amy",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11252,8 +11573,10 @@
     "instructor": "Lear, Robyn",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11273,8 +11596,10 @@
     "instructor": "Ladd, Robert",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11294,8 +11619,10 @@
     "instructor": "Bowen, Michelle",
     "seats_open": -4,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11315,8 +11642,10 @@
     "instructor": "Bradley, Kristen",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11336,8 +11665,10 @@
     "instructor": "Holmes, Thomas",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11357,8 +11688,10 @@
     "instructor": "Holmes, Thomas",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11378,8 +11711,10 @@
     "instructor": "Ornath, Maayan",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11399,8 +11734,10 @@
     "instructor": "Holmes, Thomas",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11420,8 +11757,10 @@
     "instructor": "Arcadia, Ericka",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11441,8 +11780,10 @@
     "instructor": "McCoy, Shane",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11462,8 +11803,10 @@
     "instructor": "McCoy, Shane",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11483,8 +11826,10 @@
     "instructor": "Mendoza, Agnetta",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11504,8 +11849,10 @@
     "instructor": "Andrews, Halley",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11525,8 +11872,10 @@
     "instructor": "Hopkins, Scott",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11546,8 +11895,10 @@
     "instructor": "Singletary, Ione",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11567,8 +11918,10 @@
     "instructor": "York, Megan",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11588,8 +11941,10 @@
     "instructor": "Burridge, Laura",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11609,8 +11964,10 @@
     "instructor": "Burridge, Laura",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11630,8 +11987,10 @@
     "instructor": "Mendoza, Agnetta",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11651,8 +12010,10 @@
     "instructor": "Andrews, Halley",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11672,8 +12033,10 @@
     "instructor": "Andrews, Halley",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11693,8 +12056,10 @@
     "instructor": "Turner, Mitchell",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11714,8 +12079,10 @@
     "instructor": "Beasley, Jonathan",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11735,8 +12102,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11756,8 +12125,10 @@
     "instructor": "Andrews, Halley",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11777,8 +12148,10 @@
     "instructor": "Burridge, Laura",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11798,8 +12171,10 @@
     "instructor": "Mendoza, Agnetta",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11819,8 +12194,10 @@
     "instructor": "Mendoza, Agnetta",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11840,8 +12217,10 @@
     "instructor": "Blade, Lauren",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11861,8 +12240,10 @@
     "instructor": "Curtis, Brian",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11882,8 +12263,10 @@
     "instructor": "Cole, Aletha",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11903,8 +12286,10 @@
     "instructor": "Gillis, Michelle",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11924,8 +12309,10 @@
     "instructor": "Morsillo, Whitney",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11945,8 +12332,10 @@
     "instructor": "Cole, Aletha",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11966,8 +12355,10 @@
     "instructor": "Anderson, Elizabeth",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -11987,8 +12378,10 @@
     "instructor": "Luker, Berlyn",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12008,8 +12401,10 @@
     "instructor": "Winters, Samantha",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12029,8 +12424,10 @@
     "instructor": "Walden, Kjirsten",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12050,8 +12447,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12071,8 +12470,10 @@
     "instructor": "Bowen, Michelle",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12092,8 +12493,10 @@
     "instructor": "Bowen, Michelle",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12113,8 +12516,10 @@
     "instructor": "Pugh, Elissa",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12134,8 +12539,10 @@
     "instructor": "Beasley, Jonathan",
     "seats_open": -17,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12155,8 +12562,10 @@
     "instructor": "Hensley, Jennifer",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12323,8 +12732,10 @@
     "instructor": "Kiggins, Michael",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12344,8 +12755,10 @@
     "instructor": "Ladd, Robert",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12365,8 +12778,10 @@
     "instructor": "Rhoads, Quincy",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12386,8 +12801,10 @@
     "instructor": "Burridge, Laura",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12407,8 +12824,10 @@
     "instructor": "Lear, Robyn",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12428,8 +12847,10 @@
     "instructor": "Luker, Berlyn",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12449,8 +12870,10 @@
     "instructor": "Ornath, Maayan",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12470,8 +12893,10 @@
     "instructor": "Hensley, Jennifer",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12491,8 +12916,10 @@
     "instructor": "Bowen, Michelle",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12512,8 +12939,10 @@
     "instructor": "Gillis, Michelle",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12533,8 +12962,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12554,8 +12985,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12575,8 +13008,10 @@
     "instructor": "Singletary, Ione",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12617,8 +13052,10 @@
     "instructor": "Bradley, Kristen",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12827,8 +13264,10 @@
     "instructor": null,
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12848,8 +13287,10 @@
     "instructor": "Ladd, Robert",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12869,8 +13310,10 @@
     "instructor": "Kiggins, Michael",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -12890,8 +13333,10 @@
     "instructor": "Turner, Mitchell",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -13709,7 +14154,7 @@
     "instructor": null,
     "seats_open": -5,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13730,8 +14175,10 @@
     "instructor": null,
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "FREN 1010 or one unit of high school French",
+    "prerequisite_courses": [
+      "FREN 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -13856,7 +14303,7 @@
     "instructor": "Davis, Timothy",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
     "prerequisite_courses": []
   },
   {
@@ -13877,7 +14324,7 @@
     "instructor": "Baker, Max",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
     "prerequisite_courses": []
   },
   {
@@ -13898,7 +14345,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
     "prerequisite_courses": []
   },
   {
@@ -14150,8 +14597,11 @@
     "instructor": "Watson, Leigh",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ADMN 1311 or INFS 1010",
+    "prerequisite_courses": [
+      "ADMN 1311",
+      "INFS 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -14171,8 +14621,11 @@
     "instructor": "Watson, Leigh",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ADMN 1311 or INFS 1010",
+    "prerequisite_courses": [
+      "ADMN 1311",
+      "INFS 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -15599,8 +16052,10 @@
     "instructor": "Druffel, Thomas",
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and HMGT 1030",
+    "prerequisite_courses": [
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -15641,7 +16096,7 @@
     "instructor": "Wakefield, Stephen",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -15662,7 +16117,7 @@
     "instructor": "Bryant, Barbara",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -15683,7 +16138,7 @@
     "instructor": "Bryant, Barbara",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -15704,7 +16159,7 @@
     "instructor": "Boyd, Kirstie",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -15935,8 +16390,10 @@
     "instructor": "Thomas, LaTasha",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -15956,8 +16413,10 @@
     "instructor": "Vaughn, Jasmyn",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -15977,8 +16436,10 @@
     "instructor": "Gudmundson, Timothy",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -15998,8 +16459,10 @@
     "instructor": "Vaughn, Jasmyn",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -16019,8 +16482,10 @@
     "instructor": "Vaughn, Jasmyn",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -16061,8 +16526,11 @@
     "instructor": "Gudmundson, Timothy",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1320 and LEGL 1330",
+    "prerequisite_courses": [
+      "LEGL 1320",
+      "LEGL 1330"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -17090,7 +17558,7 @@
     "instructor": "Forkuo-Sekyere, Kwaku",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17111,7 +17579,7 @@
     "instructor": "Elliott, Lisa",
     "seats_open": -17,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17132,7 +17600,7 @@
     "instructor": "Jehle, David",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17153,7 +17621,7 @@
     "instructor": "Hamalaw, Avan",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17174,7 +17642,7 @@
     "instructor": "Weston, Christina",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17195,7 +17663,7 @@
     "instructor": "Weston, Christina",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17216,7 +17684,7 @@
     "instructor": "Jehle, David",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17237,7 +17705,7 @@
     "instructor": "Sullivan, Lidia",
     "seats_open": -17,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17258,8 +17726,10 @@
     "instructor": "Plowman, Nicholas",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -17279,8 +17749,10 @@
     "instructor": "Richey, Thomas",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -17300,8 +17772,10 @@
     "instructor": "Dean, Brent",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -17321,8 +17795,10 @@
     "instructor": "Dean, Brent",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -17342,8 +17818,12 @@
     "instructor": "Moore, Michael",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -17363,8 +17843,12 @@
     "instructor": "Moore, Michael",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -17384,7 +17868,7 @@
     "instructor": "Forkuo-Sekyere, Kwaku",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17405,7 +17889,7 @@
     "instructor": "Forkuo-Sekyere, Kwaku",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17426,7 +17910,7 @@
     "instructor": "Baxter, Wesley",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17447,7 +17931,7 @@
     "instructor": "Mullaney, Barbra",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17468,7 +17952,7 @@
     "instructor": "Mullaney, Barbra",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17489,7 +17973,7 @@
     "instructor": "Becker, Andrew",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17510,7 +17994,7 @@
     "instructor": "Richards, Randall",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17531,7 +18015,7 @@
     "instructor": "Elliott, Lisa",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17552,7 +18036,7 @@
     "instructor": "Knap, Michael",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17573,7 +18057,7 @@
     "instructor": "Elliott, Lisa",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17594,7 +18078,7 @@
     "instructor": "Elliott, Lisa",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17615,7 +18099,7 @@
     "instructor": "Jehle, David",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17636,7 +18120,7 @@
     "instructor": "Jehle, David",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17657,7 +18141,7 @@
     "instructor": "Easmin, Fayeja",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17678,7 +18162,7 @@
     "instructor": "Nettles, Eli",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17699,7 +18183,7 @@
     "instructor": "Nettles, Eli",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17720,7 +18204,7 @@
     "instructor": "Hamalaw, Avan",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17741,7 +18225,7 @@
     "instructor": "Weston, Christina",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17762,7 +18246,7 @@
     "instructor": "Easmin, Fayeja",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17783,7 +18267,7 @@
     "instructor": "Nettles, Eli",
     "seats_open": -36,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17804,7 +18288,7 @@
     "instructor": "Elliott, Lisa",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17825,7 +18309,7 @@
     "instructor": "Hamalaw, Avan",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17846,7 +18330,7 @@
     "instructor": "Hamalaw, Avan",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17867,7 +18351,7 @@
     "instructor": "Weston, Christina",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17888,7 +18372,7 @@
     "instructor": "Shimp, John",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17909,7 +18393,7 @@
     "instructor": "McClain, Justin",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17930,7 +18414,7 @@
     "instructor": "Richards, Randall",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17951,7 +18435,7 @@
     "instructor": "Richards, Randall",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17972,7 +18456,7 @@
     "instructor": "Post, Pattye",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17993,7 +18477,7 @@
     "instructor": "McClain, Justin",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18014,7 +18498,7 @@
     "instructor": "Richards, Randall",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18035,7 +18519,7 @@
     "instructor": "Wildermuth Pointious, Meghan",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -18056,8 +18540,14 @@
     "instructor": "Baxter, Wesley",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18077,8 +18567,14 @@
     "instructor": "Easmin, Fayeja",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18098,8 +18594,14 @@
     "instructor": "Needham, James",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18119,8 +18621,14 @@
     "instructor": "Easmin, Fayeja",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18140,8 +18648,14 @@
     "instructor": "Palmer, Robert",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18161,8 +18675,10 @@
     "instructor": "Mullaney, Barbra",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18182,8 +18698,10 @@
     "instructor": "Knap, Michael",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18203,8 +18721,10 @@
     "instructor": "Hamalaw, Avan",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18224,8 +18744,10 @@
     "instructor": null,
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18245,8 +18767,10 @@
     "instructor": "Gungor, Ayse",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18266,8 +18790,10 @@
     "instructor": "Knap, Michael",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18287,8 +18813,10 @@
     "instructor": "Doust, Hamid",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18308,8 +18836,10 @@
     "instructor": null,
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18329,8 +18859,10 @@
     "instructor": "Gungor, Ayse",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18350,8 +18882,10 @@
     "instructor": "Mullaney, Barbra",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18371,8 +18905,10 @@
     "instructor": "Doust, Hamid",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18392,8 +18928,10 @@
     "instructor": "Doust, Hamid",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18413,8 +18951,10 @@
     "instructor": "Richey, Thomas",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18434,8 +18974,12 @@
     "instructor": "Doust, Hamid",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18455,8 +18999,12 @@
     "instructor": "Baxter, Wesley",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18476,8 +19024,12 @@
     "instructor": "Smith, Derek",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18497,8 +19049,12 @@
     "instructor": "Smith, Derek",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18518,8 +19074,12 @@
     "instructor": "Palmer, Robert",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18539,8 +19099,10 @@
     "instructor": "Plowman, Nicholas",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18560,8 +19122,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18581,8 +19145,10 @@
     "instructor": "Smith, Derek",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18602,8 +19168,10 @@
     "instructor": null,
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18623,8 +19191,10 @@
     "instructor": "Needham, James",
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18644,8 +19214,12 @@
     "instructor": null,
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 23 and ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18665,8 +19239,10 @@
     "instructor": null,
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18686,8 +19262,10 @@
     "instructor": "Smith, Derek",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -18707,8 +19285,10 @@
     "instructor": null,
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -22130,7 +22710,7 @@
     "instructor": "Turner, Donald",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22151,7 +22731,7 @@
     "instructor": "Turner, Donald",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22172,7 +22752,7 @@
     "instructor": "Tolf, Mark",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22193,7 +22773,7 @@
     "instructor": "Stephens, Lauren",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22214,7 +22794,7 @@
     "instructor": "Bryson, Anthony",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22235,7 +22815,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22256,7 +22836,7 @@
     "instructor": "Turner, Donald",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22277,7 +22857,7 @@
     "instructor": "Stephens, Lauren",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22298,7 +22878,7 @@
     "instructor": "Tolf, Mark",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22319,7 +22899,7 @@
     "instructor": "Tolf, Mark",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22340,7 +22920,7 @@
     "instructor": "Turner, Donald",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22361,7 +22941,7 @@
     "instructor": "Zimmerman, Michael",
     "seats_open": -20,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22634,8 +23214,12 @@
     "instructor": "Hail, Thomasanna",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -22655,8 +23239,12 @@
     "instructor": "Fenderson, Inelisa",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -22676,8 +23264,10 @@
     "instructor": "Bohara, Bir",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2010",
+    "prerequisite_courses": [
+      "PHYS 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -22697,8 +23287,10 @@
     "instructor": null,
     "seats_open": -33,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -22718,8 +23310,10 @@
     "instructor": "Bohara, Bir",
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -22739,8 +23333,10 @@
     "instructor": null,
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -22760,7 +23356,7 @@
     "instructor": null,
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22781,7 +23377,7 @@
     "instructor": "Bentzen, Sean",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22802,7 +23398,7 @@
     "instructor": "Bentzen, Sean",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22823,7 +23419,7 @@
     "instructor": "Bentzen, Sean",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22844,7 +23440,7 @@
     "instructor": "Bentzen, Sean",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22928,7 +23524,7 @@
     "instructor": "Kunnu, Felix",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22949,7 +23545,7 @@
     "instructor": "Kunnu, Felix",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22970,7 +23566,7 @@
     "instructor": "Rollins, James",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22991,7 +23587,7 @@
     "instructor": "Kunnu, Felix",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23012,7 +23608,7 @@
     "instructor": "Cooper-Wilbanks, Robin",
     "seats_open": -9,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23033,7 +23629,7 @@
     "instructor": "Bell, Matthew",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23054,7 +23650,7 @@
     "instructor": "Dekle, Merrie",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23075,7 +23671,7 @@
     "instructor": "Dekle, Merrie",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23096,7 +23692,7 @@
     "instructor": "Rollins, James",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23117,7 +23713,7 @@
     "instructor": "Godwin, Franklin",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23138,7 +23734,7 @@
     "instructor": "Wills, Sandra",
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23159,7 +23755,7 @@
     "instructor": "Godwin, Franklin",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23180,7 +23776,7 @@
     "instructor": "Godwin, Franklin",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23201,7 +23797,7 @@
     "instructor": "Wills, Sandra",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23222,7 +23818,7 @@
     "instructor": "Anders, Courtney",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23243,7 +23839,7 @@
     "instructor": "Knox, Lafrance",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23264,7 +23860,7 @@
     "instructor": "Knox, Lafrance",
     "seats_open": -31,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23285,7 +23881,7 @@
     "instructor": "Moss, Nova",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23306,7 +23902,7 @@
     "instructor": "Moss, Nova",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23327,7 +23923,7 @@
     "instructor": "Ingram, Susie",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23348,7 +23944,7 @@
     "instructor": "Ingram, Susie",
     "seats_open": -31,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23369,7 +23965,7 @@
     "instructor": "Ingram, Susie",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23390,7 +23986,7 @@
     "instructor": "Jones, Blake",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23411,7 +24007,7 @@
     "instructor": "Johnson, Eucretia",
     "seats_open": -32,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23432,7 +24028,7 @@
     "instructor": "Johnson, Eucretia",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23453,7 +24049,7 @@
     "instructor": "Johnson, Eucretia",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23474,7 +24070,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23495,7 +24091,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23516,7 +24112,7 @@
     "instructor": "Godwin, Franklin",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23537,7 +24133,7 @@
     "instructor": "Godwin, Franklin",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23558,7 +24154,7 @@
     "instructor": "Ingram, Susie",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23579,7 +24175,7 @@
     "instructor": "Johnson, Eucretia",
     "seats_open": -16,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23663,8 +24259,10 @@
     "instructor": null,
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -23684,8 +24282,10 @@
     "instructor": null,
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -23768,7 +24368,7 @@
     "instructor": "Rollins, James",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23789,7 +24389,7 @@
     "instructor": "Cooper-Wilbanks, Robin",
     "seats_open": -7,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23810,7 +24410,7 @@
     "instructor": "Cooper-Wilbanks, Robin",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23831,7 +24431,7 @@
     "instructor": "Dekle, Merrie",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23852,7 +24452,7 @@
     "instructor": "Rollins, James",
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23873,7 +24473,7 @@
     "instructor": "Knox, Lafrance",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23894,7 +24494,7 @@
     "instructor": null,
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23915,7 +24515,7 @@
     "instructor": "Cooper-Wilbanks, Robin",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23936,7 +24536,7 @@
     "instructor": "Lamb, Laura",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23957,7 +24557,7 @@
     "instructor": "Lamb, Laura",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23978,7 +24578,7 @@
     "instructor": "Lamb, Laura",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23999,7 +24599,7 @@
     "instructor": "Moss, Nova",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24020,7 +24620,7 @@
     "instructor": "Moss, Nova",
     "seats_open": -13,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24440,7 +25040,7 @@
     "instructor": "Simerman, Yvonne",
     "seats_open": -21,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24461,7 +25061,7 @@
     "instructor": "Simerman, Yvonne",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24482,7 +25082,7 @@
     "instructor": "Nunez, Alyssa",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24503,7 +25103,7 @@
     "instructor": "Perry, Marla",
     "seats_open": -30,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24524,7 +25124,7 @@
     "instructor": "Perry, Marla",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24545,7 +25145,7 @@
     "instructor": "Simerman, Yvonne",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24566,7 +25166,7 @@
     "instructor": "Nunez, Alyssa",
     "seats_open": -31,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24587,7 +25187,7 @@
     "instructor": "Nunez, Alyssa",
     "seats_open": -32,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24608,7 +25208,7 @@
     "instructor": "Perry, Marla",
     "seats_open": -31,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24629,7 +25229,7 @@
     "instructor": "Simerman, Yvonne",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24650,7 +25250,7 @@
     "instructor": "Harper, Tracy",
     "seats_open": -31,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24671,7 +25271,7 @@
     "instructor": "Harper, Tracy",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24692,7 +25292,7 @@
     "instructor": "Nunez, Alyssa",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24713,7 +25313,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24734,7 +25334,7 @@
     "instructor": "Perry, Marla",
     "seats_open": -15,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24755,7 +25355,7 @@
     "instructor": "Harper, Tracy",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24776,7 +25376,7 @@
     "instructor": "Harper, Tracy",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24797,7 +25397,7 @@
     "instructor": "Dennis, Toi",
     "seats_open": -19,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24818,7 +25418,7 @@
     "instructor": "Simerman, Yvonne",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24839,7 +25439,7 @@
     "instructor": "Nunez, Alyssa",
     "seats_open": -18,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24860,7 +25460,7 @@
     "instructor": "Perry, Marla",
     "seats_open": -14,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24986,8 +25586,10 @@
     "instructor": "Barrios, Belkis",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25007,8 +25609,10 @@
     "instructor": "Barrios, Belkis",
     "seats_open": -25,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25028,8 +25632,10 @@
     "instructor": "Zanolini, Rebecca",
     "seats_open": -24,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25049,8 +25655,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25070,8 +25678,10 @@
     "instructor": null,
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25091,8 +25701,10 @@
     "instructor": null,
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25112,7 +25724,7 @@
     "instructor": "James, Leslie",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Surgical Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -25259,8 +25871,19 @@
     "instructor": "ElChaer, Genevieve",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1010 or MATH 1050 or MATH 1130 or MATH 1530 or MATH 1630 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1010",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1530",
+      "MATH 1630",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25280,8 +25903,19 @@
     "instructor": "James, Leslie",
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1010 or MATH 1050 or MATH 1130 or MATH 1530 or MATH 1630 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1010",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1530",
+      "MATH 1630",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25301,8 +25935,10 @@
     "instructor": "Bates, Thomas",
     "seats_open": -27,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1004",
+    "prerequisite_courses": [
+      "BIOL 1004"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25322,8 +25958,10 @@
     "instructor": "Ford, Kirsten",
     "seats_open": -11,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 1410 and acceptance into the Surgical Technology Program and completion of all required clinical onboarding processes and immunization compliance",
+    "prerequisite_courses": [
+      "SURG 1410"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25343,8 +25981,10 @@
     "instructor": "Ford, Kirsten",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 1410 and acceptance into the Surgical Technology Program and completion of all required clinical onboarding processes and immunization compliance",
+    "prerequisite_courses": [
+      "SURG 1410"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25364,8 +26004,10 @@
     "instructor": "Ford, Kirsten",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 2420"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25385,8 +26027,10 @@
     "instructor": "Ford, Kirsten",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 2420"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25406,8 +26050,10 @@
     "instructor": "Chambers, Jay",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1004",
+    "prerequisite_courses": [
+      "BIOL 1004"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25427,8 +26073,10 @@
     "instructor": "Ford, Kirsten",
     "seats_open": -10,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1004",
+    "prerequisite_courses": [
+      "BIOL 1004"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25448,8 +26096,10 @@
     "instructor": "Ford, Kirsten",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 2420"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25511,8 +26161,10 @@
     "instructor": "Bates, Thomas",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 2420"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25532,8 +26184,10 @@
     "instructor": "Bates, Thomas",
     "seats_open": -23,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 2420"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25553,8 +26207,10 @@
     "instructor": "James, Leslie",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 1410 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 1410"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25574,8 +26230,10 @@
     "instructor": "Ford, Kirsten",
     "seats_open": -8,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 1410 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 1410"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25595,8 +26253,10 @@
     "instructor": "Bender, Bethany",
     "seats_open": -6,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 1410 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 1410"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25616,8 +26276,10 @@
     "instructor": "Bates, Thomas",
     "seats_open": -22,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 1410 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 1410"
+    ]
   },
   {
     "college_code": "nashville-state",
@@ -25658,7 +26320,7 @@
     "instructor": "Cawl, Simone",
     "seats_open": -28,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25679,7 +26341,7 @@
     "instructor": "Cawl, Simone",
     "seats_open": -26,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {

@@ -17,7 +17,7 @@
     "instructor": "Hakimian, Michael",
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -38,7 +38,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -59,7 +59,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -80,7 +80,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -101,7 +101,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -122,7 +122,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -143,7 +143,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -164,7 +164,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -185,8 +185,10 @@
     "instructor": "Hakimian, Michael",
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -206,8 +208,10 @@
     "instructor": "Hakimian, Michael",
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -227,8 +231,10 @@
     "instructor": "Hakimian, Michael",
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -248,8 +254,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -269,8 +277,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -290,8 +300,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -311,8 +323,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -332,8 +346,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1020",
+    "prerequisite_courses": [
+      "ACCT 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -353,7 +369,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -395,8 +411,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1020",
+    "prerequisite_courses": [
+      "ACCT 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -458,8 +476,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "INFS 1010",
+    "prerequisite_courses": [
+      "INFS 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -773,7 +793,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
     "prerequisite_courses": []
   },
   {
@@ -794,7 +814,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
     "prerequisite_courses": []
   },
   {
@@ -815,7 +835,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -836,7 +856,7 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -857,7 +877,7 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -878,7 +898,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -899,7 +919,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1361,7 +1381,7 @@
     "instructor": "McKelvey, Jennifer",
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1382,7 +1402,7 @@
     "instructor": "Bassett, Emily",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1403,7 +1423,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1760,7 +1780,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1781,7 +1801,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1802,7 +1822,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1823,7 +1843,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1844,7 +1864,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1865,7 +1885,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1886,7 +1906,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1907,7 +1927,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1928,7 +1948,7 @@
     "instructor": null,
     "seats_open": 37,
     "seats_total": 37,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1949,7 +1969,7 @@
     "instructor": null,
     "seats_open": 37,
     "seats_total": 37,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1970,7 +1990,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1991,7 +2011,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2012,7 +2032,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2033,7 +2053,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2054,7 +2074,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2075,7 +2095,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2096,7 +2116,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2117,7 +2137,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2411,7 +2431,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2432,7 +2452,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2453,7 +2473,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2474,7 +2494,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2495,7 +2515,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2516,7 +2536,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2537,7 +2557,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2558,7 +2578,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2579,7 +2599,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2600,7 +2620,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2621,7 +2641,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2642,7 +2662,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2663,7 +2683,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2684,7 +2704,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2705,7 +2725,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2726,8 +2746,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2747,8 +2769,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2768,8 +2792,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2789,8 +2815,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2810,8 +2838,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2831,8 +2861,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2852,8 +2884,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2873,8 +2907,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2894,8 +2930,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2915,8 +2953,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2936,8 +2976,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2957,8 +2999,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2978,8 +3022,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -2999,8 +3045,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -3881,8 +3929,10 @@
     "instructor": "Hakimian, Michael",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -3902,7 +3952,7 @@
     "instructor": "Tumlin, Clomeisha",
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3923,7 +3973,7 @@
     "instructor": "Tumlin, Clomeisha",
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3944,8 +3994,11 @@
     "instructor": "Tumlin, Clomeisha",
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -3965,8 +4018,10 @@
     "instructor": "McGhee, Jarrett",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -3986,8 +4041,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4007,8 +4064,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4028,7 +4087,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4049,7 +4108,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4070,8 +4129,10 @@
     "instructor": "McGhee, Jarrett",
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4091,8 +4152,10 @@
     "instructor": "McGhee, Jarrett",
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4112,8 +4175,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4133,8 +4198,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4154,8 +4221,12 @@
     "instructor": "Stanford, Jacob",
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010 and BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "ACCT 1010",
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4301,8 +4372,18 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4322,8 +4403,18 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4343,8 +4434,18 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4364,8 +4465,18 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4385,8 +4496,18 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4406,8 +4527,18 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4427,8 +4558,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1010",
+    "prerequisite_courses": [
+      "CHEM 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4448,8 +4581,12 @@
     "instructor": null,
     "seats_open": 36,
     "seats_total": 36,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4469,8 +4606,12 @@
     "instructor": null,
     "seats_open": 36,
     "seats_total": 36,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4490,8 +4631,12 @@
     "instructor": null,
     "seats_open": 35,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4511,8 +4656,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4532,8 +4681,12 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 23,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4553,8 +4706,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4574,8 +4731,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4595,8 +4756,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4616,8 +4781,12 @@
     "instructor": null,
     "seats_open": 36,
     "seats_total": 36,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4637,8 +4806,12 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4658,8 +4831,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4679,8 +4856,10 @@
     "instructor": null,
     "seats_open": 27,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4700,8 +4879,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4721,8 +4902,10 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4742,8 +4925,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4763,8 +4948,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4784,8 +4971,10 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 2010",
+    "prerequisite_courses": [
+      "CHEM 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -4805,8 +4994,10 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 2010",
+    "prerequisite_courses": [
+      "CHEM 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -5372,7 +5563,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5393,7 +5584,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5414,7 +5605,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5435,8 +5626,11 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "COMM 1010 and ENGL 1020 and keyboarding skills",
+    "prerequisite_courses": [
+      "COMM 1010",
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -5540,7 +5734,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5561,7 +5755,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5582,7 +5776,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5603,7 +5797,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5624,7 +5818,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5645,7 +5839,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5666,7 +5860,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5687,7 +5881,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5708,7 +5902,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5729,7 +5923,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5750,7 +5944,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5771,7 +5965,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5792,7 +5986,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5813,7 +6007,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5834,7 +6028,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5855,7 +6049,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5876,7 +6070,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5897,7 +6091,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5918,7 +6112,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5939,7 +6133,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5960,7 +6154,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5981,7 +6175,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6002,7 +6196,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6023,7 +6217,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6044,7 +6238,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6065,7 +6259,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6086,7 +6280,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6107,7 +6301,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6128,7 +6322,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6212,8 +6406,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010 and COMM 2025 or COMM 2045",
+    "prerequisite_courses": [
+      "COMM 2025",
+      "COMM 2045",
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -6800,8 +6998,10 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -6821,8 +7021,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -6842,8 +7044,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -6863,8 +7067,11 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -6884,8 +7091,11 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -6905,8 +7115,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -6926,8 +7138,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1310",
+    "prerequisite_courses": [
+      "CITC 1310"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -6947,8 +7161,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1310",
+    "prerequisite_courses": [
+      "CITC 1310"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7052,7 +7268,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7073,7 +7289,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7094,8 +7310,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7157,8 +7375,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302",
+    "prerequisite_courses": [
+      "CITC 1302"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7199,8 +7419,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1303 and CITC 1310 and CITC 2311",
+    "prerequisite_courses": [
+      "CITC 1303",
+      "CITC 1310",
+      "CITC 2311"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7220,8 +7444,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7241,8 +7467,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7262,8 +7490,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302",
+    "prerequisite_courses": [
+      "CITC 1302"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7283,8 +7513,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302",
+    "prerequisite_courses": [
+      "CITC 1302"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7304,8 +7536,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1303 and CITC 1311 and ENGL 1010",
+    "prerequisite_courses": [
+      "CITC 1303",
+      "CITC 1311",
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7325,8 +7561,12 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302 and CITC 1330 and CITC 1351",
+    "prerequisite_courses": [
+      "CITC 1302",
+      "CITC 1330",
+      "CITC 1351"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7388,8 +7628,12 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1334 and CITC 1311 or CITC 2326",
+    "prerequisite_courses": [
+      "CITC 1311",
+      "CITC 1334",
+      "CITC 2326"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7430,7 +7674,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7451,7 +7695,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7472,7 +7716,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7493,7 +7737,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7514,7 +7758,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7535,7 +7779,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7577,8 +7821,11 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRMJ 1010 and CRMJ 1020",
+    "prerequisite_courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7808,8 +8055,10 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1300",
+    "prerequisite_courses": [
+      "CULA 1300"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7829,8 +8078,10 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1300",
+    "prerequisite_courses": [
+      "CULA 1300"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7850,7 +8101,7 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -7871,8 +8122,10 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1320",
+    "prerequisite_courses": [
+      "CULA 1320"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -7913,7 +8166,7 @@
     "instructor": null,
     "seats_open": 5,
     "seats_total": 5,
-    "prerequisite_text": null,
+    "prerequisite_text": "Completion of 12 hours of CULA courses with a minimum 2.5 GPA in CULA courses and at least a 2.0 cumulative GPA",
     "prerequisite_courses": []
   },
   {
@@ -7934,8 +8187,10 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1325",
+    "prerequisite_courses": [
+      "CULA 1325"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -8610,8 +8865,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -8631,8 +8888,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2335",
+    "prerequisite_courses": [
+      "ECED 2335"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -8652,8 +8911,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2335",
+    "prerequisite_courses": [
+      "ECED 2335"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -8673,8 +8934,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -8694,8 +8957,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -8715,8 +8980,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -8736,8 +9003,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -8757,8 +9026,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -8799,7 +9070,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8820,7 +9091,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8841,7 +9112,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8862,7 +9133,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8883,7 +9154,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8904,7 +9175,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8925,7 +9196,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8946,7 +9217,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8967,7 +9238,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -8988,7 +9259,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9009,7 +9280,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9030,7 +9301,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9051,8 +9322,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9072,8 +9345,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9093,8 +9368,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9114,8 +9391,10 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9135,8 +9414,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9156,8 +9437,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9177,8 +9460,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9198,8 +9483,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9219,8 +9506,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9240,8 +9529,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9324,8 +9615,10 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 22,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDUC 2000",
+    "prerequisite_courses": [
+      "EDUC 2000"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9345,8 +9638,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDUC 2000",
+    "prerequisite_courses": [
+      "EDUC 2000"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9387,8 +9682,10 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313",
+    "prerequisite_courses": [
+      "EETC 1313"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9408,8 +9705,10 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1321",
+    "prerequisite_courses": [
+      "EETC 1321"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -9513,7 +9812,7 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Must be taken in the final semester or with department approval",
     "prerequisite_courses": []
   },
   {
@@ -11247,7 +11546,7 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "Must be taken in the final semester or with department approval",
     "prerequisite_courses": []
   },
   {
@@ -11562,7 +11861,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11583,7 +11882,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11604,7 +11903,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11625,7 +11924,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11646,7 +11945,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11667,7 +11966,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11688,7 +11987,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11709,7 +12008,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11730,7 +12029,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11751,7 +12050,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11772,7 +12071,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11793,7 +12092,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11814,7 +12113,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11835,7 +12134,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11856,7 +12155,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11877,7 +12176,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11898,7 +12197,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11919,7 +12218,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11940,7 +12239,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11961,7 +12260,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -11982,7 +12281,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12003,7 +12302,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12024,7 +12323,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12045,7 +12344,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12066,7 +12365,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12087,7 +12386,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12108,7 +12407,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12129,7 +12428,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12150,7 +12449,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12171,7 +12470,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12192,7 +12491,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12213,7 +12512,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12234,7 +12533,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12255,7 +12554,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12276,7 +12575,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -12297,8 +12596,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12318,8 +12619,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12339,8 +12642,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12360,8 +12665,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12381,8 +12688,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12402,8 +12711,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12423,8 +12734,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12444,8 +12757,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12465,8 +12780,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12486,8 +12803,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12507,8 +12826,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12528,8 +12849,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12549,8 +12872,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12570,8 +12895,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12591,8 +12918,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12612,8 +12941,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12633,8 +12964,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12654,8 +12987,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12675,8 +13010,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12696,8 +13033,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12717,8 +13056,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12738,8 +13079,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12759,8 +13102,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12780,8 +13125,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12801,8 +13148,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12822,8 +13171,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12843,8 +13194,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12864,8 +13217,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12885,8 +13240,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12906,8 +13263,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12927,8 +13286,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12948,8 +13309,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12969,8 +13332,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -12990,8 +13355,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13011,8 +13378,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13032,8 +13401,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13053,8 +13424,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13074,8 +13447,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13095,8 +13470,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13116,8 +13493,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13137,8 +13516,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13158,8 +13539,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13179,8 +13562,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13224,8 +13609,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13245,8 +13632,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13266,8 +13655,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13287,8 +13678,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13308,8 +13701,10 @@
     "instructor": null,
     "seats_open": 35,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13329,8 +13724,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13350,8 +13747,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13371,8 +13770,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13392,8 +13793,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13413,8 +13816,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13434,8 +13839,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13455,8 +13862,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13476,8 +13885,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13497,8 +13908,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13518,8 +13931,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13539,8 +13954,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13560,8 +13977,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13581,8 +14000,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13602,8 +14023,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13623,8 +14046,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13644,8 +14069,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13665,8 +14092,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13707,8 +14136,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13728,8 +14159,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -13812,7 +14245,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13833,8 +14266,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "FREN 1010 or one unit of high school French",
+    "prerequisite_courses": [
+      "FREN 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -15639,8 +16074,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "HMGT 1030",
+    "prerequisite_courses": [
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -15660,8 +16097,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "HMGT 1030",
+    "prerequisite_courses": [
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -16122,7 +16561,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16143,7 +16582,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16164,7 +16603,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16185,7 +16624,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16206,7 +16645,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16227,7 +16666,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16248,7 +16687,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16269,7 +16708,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16290,7 +16729,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16311,7 +16750,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16332,7 +16771,7 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16395,8 +16834,10 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CISP 1010",
+    "prerequisite_courses": [
+      "CISP 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -16416,8 +16857,11 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CISP 1010 or CITC 1310",
+    "prerequisite_courses": [
+      "CISP 1010",
+      "CITC 1310"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -16437,7 +16881,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16500,7 +16944,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16521,7 +16965,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16542,7 +16986,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16962,7 +17406,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -16983,7 +17427,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17004,7 +17448,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17025,7 +17469,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17046,7 +17490,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17067,7 +17511,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17088,7 +17532,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17109,8 +17553,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17130,8 +17576,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17151,8 +17599,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17172,8 +17622,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17193,8 +17645,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17214,8 +17668,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17235,8 +17691,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17256,8 +17714,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17277,8 +17737,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17298,8 +17760,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17319,8 +17783,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17340,8 +17806,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17361,8 +17829,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17382,8 +17854,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17403,8 +17879,12 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17424,8 +17904,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17445,7 +17929,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17466,7 +17950,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17487,7 +17971,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17508,7 +17992,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17529,7 +18013,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17550,7 +18034,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17571,7 +18055,7 @@
     "instructor": null,
     "seats_open": 28,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17592,7 +18076,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17613,7 +18097,7 @@
     "instructor": null,
     "seats_open": 28,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17634,7 +18118,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17655,7 +18139,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17676,7 +18160,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17697,7 +18181,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17718,7 +18202,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17739,7 +18223,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17760,7 +18244,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17781,7 +18265,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17802,7 +18286,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17823,7 +18307,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17844,7 +18328,7 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17865,7 +18349,7 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17886,7 +18370,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17907,7 +18391,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -17928,8 +18412,14 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17949,8 +18439,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17970,8 +18462,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -17991,8 +18485,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18012,8 +18508,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18033,8 +18531,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18054,8 +18554,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18075,8 +18577,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18096,8 +18600,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18117,8 +18623,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18138,8 +18646,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18159,8 +18669,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18180,8 +18692,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18201,8 +18715,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18222,8 +18738,10 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18243,8 +18761,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18264,8 +18784,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18285,8 +18807,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18306,8 +18830,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18327,8 +18853,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18348,8 +18876,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18369,8 +18899,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18390,8 +18922,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18411,8 +18945,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18432,8 +18968,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18453,8 +18991,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18474,8 +19014,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18495,8 +19039,12 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18516,8 +19064,12 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18537,8 +19089,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18558,8 +19114,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18579,8 +19139,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18600,8 +19164,12 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18621,8 +19189,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18642,8 +19214,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18663,8 +19237,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18684,8 +19260,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18705,8 +19283,10 @@
     "instructor": null,
     "seats_open": 28,
     "seats_total": 28,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18726,8 +19306,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18747,8 +19329,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 23 and ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18768,8 +19354,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18789,8 +19377,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18810,8 +19400,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -18831,8 +19423,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -19125,7 +19719,7 @@
     "instructor": "Nichols, Dean",
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19419,7 +20013,7 @@
     "instructor": "Cardillo, Kenneth",
     "seats_open": 21,
     "seats_total": 21,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19461,8 +20055,10 @@
     "instructor": "Nichols, Dean",
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MUS 1027 or department approval",
+    "prerequisite_courses": [
+      "MUS 1027"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -20385,8 +20981,10 @@
     "instructor": "Cardillo, Kenneth",
     "seats_open": 21,
     "seats_total": 21,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MUS 1155",
+    "prerequisite_courses": [
+      "MUS 1155"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -20406,8 +21004,10 @@
     "instructor": "Hyberger, Sarah",
     "seats_open": 21,
     "seats_total": 21,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MUS 1156",
+    "prerequisite_courses": [
+      "MUS 1156"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -20904,8 +21504,10 @@
     "instructor": null,
     "seats_open": 65,
     "seats_total": 65,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -20925,8 +21527,10 @@
     "instructor": null,
     "seats_open": 65,
     "seats_total": 65,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -20946,8 +21550,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -20967,8 +21573,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -20988,8 +21596,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21009,8 +21619,10 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21030,8 +21642,10 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21051,8 +21665,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21072,8 +21688,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21093,8 +21711,10 @@
     "instructor": null,
     "seats_open": 120,
     "seats_total": 120,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21114,8 +21734,10 @@
     "instructor": null,
     "seats_open": 120,
     "seats_total": 120,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21135,8 +21757,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21156,8 +21780,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21261,8 +21887,10 @@
     "instructor": null,
     "seats_open": 135,
     "seats_total": 135,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 2630",
+    "prerequisite_courses": [
+      "NRSG 2630"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21282,8 +21910,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 2630",
+    "prerequisite_courses": [
+      "NRSG 2630"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21471,8 +22101,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21513,8 +22145,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21534,8 +22168,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21555,8 +22191,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21576,8 +22214,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21597,8 +22237,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -21618,8 +22260,10 @@
     "instructor": null,
     "seats_open": 3,
     "seats_total": 3,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "LEGL 1300",
+    "prerequisite_courses": [
+      "LEGL 1300"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -22000,7 +22644,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22021,7 +22665,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22042,7 +22686,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22063,7 +22707,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22084,7 +22728,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22105,7 +22749,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22126,7 +22770,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22147,7 +22791,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22168,7 +22812,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22189,7 +22833,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -22210,7 +22854,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23050,8 +23694,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -23071,8 +23719,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -23092,8 +23744,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -23113,8 +23769,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2010",
+    "prerequisite_courses": [
+      "PHYS 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -23134,8 +23792,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2010",
+    "prerequisite_courses": [
+      "PHYS 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -23155,8 +23815,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -23176,8 +23838,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -23197,8 +23861,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -23218,8 +23884,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -23239,7 +23907,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23260,7 +23928,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23281,7 +23949,7 @@
     "instructor": null,
     "seats_open": 34,
     "seats_total": 34,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23302,7 +23970,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23323,7 +23991,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23344,7 +24012,7 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23365,7 +24033,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23386,7 +24054,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23512,7 +24180,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23533,7 +24201,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23554,7 +24222,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23575,7 +24243,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23596,7 +24264,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23617,7 +24285,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23638,7 +24306,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23659,7 +24327,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23680,7 +24348,7 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23701,7 +24369,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23722,7 +24390,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23743,7 +24411,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23764,7 +24432,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23785,7 +24453,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23806,7 +24474,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23827,7 +24495,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23848,7 +24516,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23869,7 +24537,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23890,7 +24558,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23911,7 +24579,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -23974,8 +24642,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -23995,8 +24665,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -24016,8 +24688,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -24037,8 +24711,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -24079,7 +24755,7 @@
     "instructor": null,
     "seats_open": 60,
     "seats_total": 60,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24100,7 +24776,7 @@
     "instructor": null,
     "seats_open": 34,
     "seats_total": 34,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24121,7 +24797,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24142,7 +24818,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24163,7 +24839,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24184,7 +24860,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24205,7 +24881,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24226,7 +24902,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24247,7 +24923,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24268,7 +24944,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -24751,8 +25427,10 @@
     "instructor": "Smith, Whitney",
     "seats_open": 35,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 1330 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 1330"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -24772,8 +25450,10 @@
     "instructor": "Butt, Shawn",
     "seats_open": 18,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 1330 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 1330"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -24793,8 +25473,10 @@
     "instructor": "Layman, Johnathan",
     "seats_open": 17,
     "seats_total": 17,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 1330 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 1330"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -24814,8 +25496,10 @@
     "instructor": "Carter, Stacey",
     "seats_open": 35,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 1330 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 1330"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -24835,8 +25519,10 @@
     "instructor": "Ragghianti, Matthew",
     "seats_open": 33,
     "seats_total": 33,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 1340 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 1340"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -25213,7 +25899,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25234,7 +25920,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25255,7 +25941,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25318,7 +26004,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25339,7 +26025,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25360,7 +26046,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25381,7 +26067,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25402,7 +26088,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25423,7 +26109,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25444,7 +26130,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25465,7 +26151,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25486,7 +26172,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25507,7 +26193,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25528,7 +26214,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25549,7 +26235,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25570,7 +26256,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25591,7 +26277,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -25696,8 +26382,10 @@
     "instructor": null,
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -25717,8 +26405,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -25738,8 +26428,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -25759,8 +26451,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -25780,8 +26474,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -25822,8 +26518,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 2420"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -25843,8 +26541,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 2420"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -25909,8 +26609,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 1410 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 1410"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -25930,8 +26632,10 @@
     "instructor": null,
     "seats_open": 8,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 1410 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 1410"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -25951,8 +26655,10 @@
     "instructor": null,
     "seats_open": 8,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 1410 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 1410"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -25972,8 +26678,10 @@
     "instructor": null,
     "seats_open": 8,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 1410 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 1410"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -26224,8 +26932,10 @@
     "instructor": "Wilson, Jennifer",
     "seats_open": 18,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "THEA 1015",
+    "prerequisite_courses": [
+      "THEA 1015"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -26728,8 +27438,10 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "WELD 1381",
+    "prerequisite_courses": [
+      "WELD 1381"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -26749,8 +27461,10 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "WELD 1381",
+    "prerequisite_courses": [
+      "WELD 1381"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -26770,8 +27484,10 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "WELD 1381",
+    "prerequisite_courses": [
+      "WELD 1381"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -26791,8 +27507,10 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "WELD 1381",
+    "prerequisite_courses": [
+      "WELD 1381"
+    ]
   },
   {
     "college_code": "chattanooga-state",
@@ -26812,7 +27530,7 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "Course must be taken during final semester and with department approval",
     "prerequisite_courses": []
   }
 ]

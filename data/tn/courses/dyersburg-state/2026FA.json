@@ -17,7 +17,7 @@
     "instructor": "Corlis, Wayne",
     "seats_open": 12,
     "seats_total": 14,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -38,7 +38,7 @@
     "instructor": "Walker, Julie",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -59,7 +59,7 @@
     "instructor": "Corlis, Wayne",
     "seats_open": 4,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -80,7 +80,7 @@
     "instructor": "Corlis, Wayne",
     "seats_open": 3,
     "seats_total": 6,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -101,7 +101,7 @@
     "instructor": "McGuire, Glenn",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -122,7 +122,7 @@
     "instructor": "McGuire, Glenn",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -143,7 +143,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -164,8 +164,10 @@
     "instructor": "Corlis, Wayne",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -185,8 +187,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -206,8 +210,10 @@
     "instructor": "McGuire, Glenn",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1020",
+    "prerequisite_courses": [
+      "ACCT 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -227,8 +233,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1020",
+    "prerequisite_courses": [
+      "ACCT 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -248,7 +256,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -290,8 +298,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1020",
+    "prerequisite_courses": [
+      "ACCT 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -563,7 +573,7 @@
     "instructor": null,
     "seats_open": 96,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
     "prerequisite_courses": []
   },
   {
@@ -584,7 +594,7 @@
     "instructor": null,
     "seats_open": 96,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
     "prerequisite_courses": []
   },
   {
@@ -605,7 +615,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -834,7 +844,7 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Wiley, Rebecca",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -899,7 +909,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -918,7 +928,7 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Shields, Jarrod",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -962,7 +972,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -983,7 +993,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1002,9 +1012,9 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Adams, Shawna",
-    "seats_open": 19,
+    "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1025,7 +1035,7 @@
     "instructor": "Hughes, Leslie",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1046,7 +1056,7 @@
     "instructor": "Kent, Rebecca",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1067,7 +1077,7 @@
     "instructor": "Millican, Hayden",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1086,9 +1096,9 @@
     "campus": "Henry County Center",
     "mode": "in-person",
     "instructor": "Gallimore, Kevin",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1109,7 +1119,7 @@
     "instructor": "Gallimore, Kevin",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1130,7 +1140,7 @@
     "instructor": "Sonderman, Nathan",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1151,7 +1161,7 @@
     "instructor": "Hughes, Leslie",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1172,7 +1182,7 @@
     "instructor": "Hughes, Leslie",
     "seats_open": 4,
     "seats_total": 6,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1193,7 +1203,7 @@
     "instructor": "Crews, Kimberly",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1214,7 +1224,7 @@
     "instructor": "Crews, Kimberly",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1235,7 +1245,7 @@
     "instructor": "Stancil, Karen",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1256,7 +1266,7 @@
     "instructor": "Ward, Brandon",
     "seats_open": 9,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1277,7 +1287,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1296,9 +1306,9 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Adams, Shawna",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1319,7 +1329,7 @@
     "instructor": "Kent, Rebecca",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1338,9 +1348,9 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Koontz, Melissa",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1361,7 +1371,7 @@
     "instructor": "Koontz, Melissa",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1382,7 +1392,7 @@
     "instructor": "Stancil, Karen",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1403,7 +1413,7 @@
     "instructor": "Ward, Brandon",
     "seats_open": 8,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1424,7 +1434,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1466,7 +1476,7 @@
     "instructor": "Hughes, Leslie",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1487,7 +1497,7 @@
     "instructor": "Wells, Franklin",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1508,7 +1518,7 @@
     "instructor": "Gallimore, Kevin",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1529,7 +1539,7 @@
     "instructor": "LeSchack, Andrea",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1550,7 +1560,7 @@
     "instructor": "Hughes, Leslie",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1571,7 +1581,7 @@
     "instructor": "LeSchack, Andrea",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1592,7 +1602,7 @@
     "instructor": "LeSchack, Andrea",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1613,7 +1623,7 @@
     "instructor": "Wells, Franklin",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1634,7 +1644,7 @@
     "instructor": "Hughes, Leslie",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1655,7 +1665,7 @@
     "instructor": "Lewis, Matthew",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1676,7 +1686,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1697,7 +1707,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1718,7 +1728,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1737,10 +1747,12 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Wells, Franklin",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -1760,8 +1772,10 @@
     "instructor": "Hughes, Leslie",
     "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -1781,8 +1795,10 @@
     "instructor": "LeSchack, Andrea",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -1802,8 +1818,10 @@
     "instructor": "Burcks, Shannon",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -1821,10 +1839,12 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Burcks, Shannon",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -1844,8 +1864,10 @@
     "instructor": "Klann, Jody",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -1865,8 +1887,10 @@
     "instructor": "Klann, Jody",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -1886,8 +1910,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -1907,8 +1933,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2369,8 +2397,11 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2390,8 +2421,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2411,7 +2444,7 @@
     "instructor": "Ward, Brian",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2432,7 +2465,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2453,8 +2486,10 @@
     "instructor": "Reynolds, Jamie",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2474,8 +2509,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2495,8 +2532,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2516,8 +2555,10 @@
     "instructor": "Ward, Brian",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2558,8 +2599,18 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2579,8 +2630,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1010",
+    "prerequisite_courses": [
+      "CHEM 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2621,8 +2674,12 @@
     "instructor": "Eudy, Kathryn",
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2642,8 +2699,12 @@
     "instructor": "Eudy, Kathryn",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2663,8 +2724,12 @@
     "instructor": "Eudy, Kathryn",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2684,8 +2749,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2705,8 +2774,10 @@
     "instructor": "Eudy, Kathryn",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2726,8 +2797,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2747,8 +2820,10 @@
     "instructor": "Eudy, Kathryn",
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1120",
+    "prerequisite_courses": [
+      "CHEM 1120"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2768,8 +2843,10 @@
     "instructor": "Eudy, Kathryn",
     "seats_open": 12,
     "seats_total": 14,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1120",
+    "prerequisite_courses": [
+      "CHEM 1120"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -2789,7 +2866,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2810,7 +2887,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2831,7 +2908,7 @@
     "instructor": "Dolan, Desiree",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2852,7 +2929,7 @@
     "instructor": "Dolan, Desiree",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2871,9 +2948,9 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Nolen, Amanda",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2892,9 +2969,9 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Nolen, Amanda",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2915,7 +2992,7 @@
     "instructor": "Costea, Adrian",
     "seats_open": 8,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2936,7 +3013,7 @@
     "instructor": "Dolan, Desiree",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2957,7 +3034,7 @@
     "instructor": "Burnett, Erin",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2978,7 +3055,7 @@
     "instructor": "Dolan, Desiree",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2999,7 +3076,7 @@
     "instructor": "Costea, Adrian",
     "seats_open": 8,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3020,7 +3097,7 @@
     "instructor": "Giovanetti, Tracy",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3039,9 +3116,9 @@
     "campus": "Jimmy Naifeh Center",
     "mode": "in-person",
     "instructor": "Giovanetti, Tracy",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3062,7 +3139,7 @@
     "instructor": "Giovanetti, Tracy",
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3083,7 +3160,7 @@
     "instructor": "Giovanetti, Tracy",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3104,7 +3181,7 @@
     "instructor": "Costea, Adrian",
     "seats_open": 7,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3123,9 +3200,9 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Harmon, Nicole",
-    "seats_open": 7,
+    "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3146,7 +3223,7 @@
     "instructor": "Harmon, Nicole",
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3167,7 +3244,7 @@
     "instructor": "Nolen, Amanda",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3188,7 +3265,7 @@
     "instructor": "Nolen, Amanda",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3209,7 +3286,7 @@
     "instructor": "Dolan, Desiree",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3230,7 +3307,7 @@
     "instructor": "Dolan, Desiree",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3251,7 +3328,7 @@
     "instructor": "Harmon, Nicole",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3272,7 +3349,7 @@
     "instructor": "Costea, Adrian",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3293,7 +3370,7 @@
     "instructor": "Harmon, Nicole",
     "seats_open": 16,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3314,7 +3391,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3335,8 +3412,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010 and COMM 2025 or COMM 2045",
+    "prerequisite_courses": [
+      "COMM 2025",
+      "COMM 2045",
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -3482,8 +3563,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -3503,8 +3586,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -3524,8 +3609,11 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -3545,8 +3633,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -3566,8 +3656,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1310",
+    "prerequisite_courses": [
+      "CITC 1310"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -3713,7 +3805,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3734,7 +3826,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3818,8 +3910,10 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -3839,8 +3933,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -3860,8 +3956,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1322",
+    "prerequisite_courses": [
+      "CITC 1322"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -3944,8 +4042,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302",
+    "prerequisite_courses": [
+      "CITC 1302"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -4028,7 +4128,7 @@
     "instructor": "Patrick, Courtney",
     "seats_open": 7,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4049,7 +4149,7 @@
     "instructor": "Patrick, Courtney",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4070,7 +4170,7 @@
     "instructor": "Patrick, Courtney",
     "seats_open": 4,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4091,7 +4191,7 @@
     "instructor": "Patrick, Courtney",
     "seats_open": 8,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4112,7 +4212,7 @@
     "instructor": "Patrick, Courtney",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4133,7 +4233,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4154,7 +4254,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4175,7 +4275,7 @@
     "instructor": "Patrick, Courtney",
     "seats_open": 5,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4196,7 +4296,7 @@
     "instructor": "Patrick, Courtney",
     "seats_open": 4,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4217,7 +4317,7 @@
     "instructor": "Patrick, Courtney",
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4238,7 +4338,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4259,7 +4359,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4301,8 +4401,11 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRMJ 1010 and CRMJ 1020",
+    "prerequisite_courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -4700,8 +4803,10 @@
     "instructor": "Yelverton, Christofer",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1300",
+    "prerequisite_courses": [
+      "CULA 1300"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -4721,8 +4826,10 @@
     "instructor": "King, Michelle",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CULA 1300",
+    "prerequisite_courses": [
+      "CULA 1300"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -5622,7 +5729,7 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Harrison, Holly",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5769,7 +5876,7 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Sharp, Patty",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5832,7 +5939,7 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Sharp, Patty",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5895,7 +6002,7 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 96,
+    "seats_open": 95,
     "seats_total": 99,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5916,7 +6023,7 @@
     "campus": "Dyersburg Campus",
     "mode": "zoom",
     "instructor": "Harrison, Holly",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 19,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5979,7 +6086,7 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Sharp, Patty",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6044,8 +6151,10 @@
     "instructor": null,
     "seats_open": 96,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6065,8 +6174,10 @@
     "instructor": "Sharp, Patty",
     "seats_open": 6,
     "seats_total": 6,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6086,8 +6197,10 @@
     "instructor": "Sharp, Patty",
     "seats_open": 8,
     "seats_total": 13,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6107,8 +6220,10 @@
     "instructor": "Sharp, Patty",
     "seats_open": 5,
     "seats_total": 5,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6128,8 +6243,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6149,8 +6266,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6170,8 +6289,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6212,7 +6333,7 @@
     "instructor": "Bowen, Michael",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6233,7 +6354,7 @@
     "instructor": "Bowen, Michael",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6252,9 +6373,9 @@
     "campus": "Jimmy Naifeh Center",
     "mode": "in-person",
     "instructor": "Bowen, Michael",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 6,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6275,7 +6396,7 @@
     "instructor": "Bowen, Michael",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6296,7 +6417,7 @@
     "instructor": "Bergan, Nicholas",
     "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6317,7 +6438,7 @@
     "instructor": "Bergan, Nicholas",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6338,7 +6459,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6359,8 +6480,10 @@
     "instructor": "Bowen, Michael",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6380,8 +6503,10 @@
     "instructor": "Bowen, Michael",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6401,8 +6526,10 @@
     "instructor": "Bergan, Nicholas",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6422,8 +6549,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6443,8 +6572,10 @@
     "instructor": "Bowen, Michael",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6632,8 +6763,10 @@
     "instructor": "Hathcock, Timothy",
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1314",
+    "prerequisite_courses": [
+      "EETC 1314"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6653,8 +6786,10 @@
     "instructor": "Hathcock, Timothy",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1314",
+    "prerequisite_courses": [
+      "EETC 1314"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6674,8 +6809,10 @@
     "instructor": "Hathcock, Timothy",
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313 or department approval",
+    "prerequisite_courses": [
+      "EETC 1313"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6695,8 +6832,10 @@
     "instructor": "Hathcock, Timothy",
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313 or department approval",
+    "prerequisite_courses": [
+      "EETC 1313"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6716,8 +6855,10 @@
     "instructor": "Hathcock, Timothy",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 2331 or department approval",
+    "prerequisite_courses": [
+      "EETC 2331"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6863,8 +7004,11 @@
     "instructor": "Hathcock, Timothy",
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313 and EETC 1314",
+    "prerequisite_courses": [
+      "EETC 1313",
+      "EETC 1314"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -6884,8 +7028,11 @@
     "instructor": "Hathcock, Timothy",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1313 and EETC 1314",
+    "prerequisite_courses": [
+      "EETC 1313",
+      "EETC 1314"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -7052,8 +7199,11 @@
     "instructor": "Hathcock, Timothy",
     "seats_open": -2,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1300 or ENST 1340",
+    "prerequisite_courses": [
+      "EETC 1300",
+      "ENST 1340"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -7073,8 +7223,11 @@
     "instructor": "Hathcock, Timothy",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1300 or ENST 1340",
+    "prerequisite_courses": [
+      "EETC 1300",
+      "ENST 1340"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -7239,7 +7392,7 @@
     "campus": "Henry County Center",
     "mode": "in-person",
     "instructor": "Ross, Todd",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 6,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7344,7 +7497,7 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Posadny, Christopher",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7556,7 +7709,7 @@
     "instructor": "Posadny, Christopher",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7577,7 +7730,7 @@
     "instructor": "Bobbitt, Rebecca",
     "seats_open": 14,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7598,7 +7751,7 @@
     "instructor": "Bobbitt, Rebecca",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7619,7 +7772,7 @@
     "instructor": "Posadny, Christopher",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7640,7 +7793,7 @@
     "instructor": "Wardlow, William",
     "seats_open": 8,
     "seats_total": 8,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7661,7 +7814,7 @@
     "instructor": "Powell, Rebecca",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7682,7 +7835,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7703,7 +7856,7 @@
     "instructor": "Tyler, Jennifer",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7724,7 +7877,7 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7745,7 +7898,7 @@
     "instructor": "Paschall, Kelly",
     "seats_open": 2,
     "seats_total": 2,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7764,9 +7917,9 @@
     "campus": "Henry County Center",
     "mode": "in-person",
     "instructor": "Paschall, Kelly",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 2,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7787,7 +7940,7 @@
     "instructor": "Paschall, Kelly",
     "seats_open": 2,
     "seats_total": 2,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7808,7 +7961,7 @@
     "instructor": "Wardlow, William",
     "seats_open": 6,
     "seats_total": 6,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7827,9 +7980,9 @@
     "campus": "Henry County Center",
     "mode": "in-person",
     "instructor": "Ross, Todd",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 6,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7850,7 +8003,7 @@
     "instructor": "Williams, Cindy",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7871,7 +8024,7 @@
     "instructor": "Williams, Cindy",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7892,7 +8045,7 @@
     "instructor": "Leonard, Brandi",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7913,7 +8066,7 @@
     "instructor": "Bettini, Jessica",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7934,7 +8087,7 @@
     "instructor": "Bettini, Jessica",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7955,7 +8108,7 @@
     "instructor": "Wardlow, William",
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7976,7 +8129,7 @@
     "instructor": "Leonard, Brandi",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -7997,7 +8150,7 @@
     "instructor": "Boswell, Teresa",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8018,7 +8171,7 @@
     "instructor": "Boswell, Teresa",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8039,7 +8192,7 @@
     "instructor": "Williams, Cindy",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8060,7 +8213,7 @@
     "instructor": "Ross, Todd",
     "seats_open": 14,
     "seats_total": 14,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8081,7 +8234,7 @@
     "instructor": "Franckowiak, Andrea",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8102,7 +8255,7 @@
     "instructor": "Leonard, Brandi",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8121,9 +8274,9 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Posadny, Christopher",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8144,7 +8297,7 @@
     "instructor": "Leonard, Brandi",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8165,7 +8318,7 @@
     "instructor": "Bobbitt, Rebecca",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8186,7 +8339,7 @@
     "instructor": "Posadny, Christopher",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8207,7 +8360,7 @@
     "instructor": "Bobbitt, Rebecca",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8228,7 +8381,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8249,7 +8402,7 @@
     "instructor": "Paschall, Kelly",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8270,7 +8423,7 @@
     "instructor": "Wardlow, William",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8291,7 +8444,7 @@
     "instructor": "Paschall, Kelly",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8312,7 +8465,7 @@
     "instructor": "Sykes, Janet",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8333,7 +8486,7 @@
     "instructor": "Sykes, Janet",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8354,7 +8507,7 @@
     "instructor": "Ross, Todd",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8375,7 +8528,7 @@
     "instructor": "Sykes, Janet",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8396,7 +8549,7 @@
     "instructor": "McClain, Steven",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8417,7 +8570,7 @@
     "instructor": "McClain, Steven",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8438,7 +8591,7 @@
     "instructor": "Ross, Todd",
     "seats_open": 4,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8459,7 +8612,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8480,7 +8633,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8501,7 +8654,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8522,7 +8675,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8543,7 +8696,7 @@
     "instructor": "Ross, Todd",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8564,7 +8717,7 @@
     "instructor": "Franckowiak, Andrea",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8583,10 +8736,12 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Posadny, Christopher",
-    "seats_open": 18,
+    "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8606,8 +8761,10 @@
     "instructor": "Powell, Rebecca",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8627,8 +8784,10 @@
     "instructor": "Ross, Todd",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8648,8 +8807,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8669,8 +8830,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8690,8 +8853,10 @@
     "instructor": "Bettini, Jessica",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8709,10 +8874,12 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Boswell, Teresa",
-    "seats_open": 7,
+    "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8732,8 +8899,10 @@
     "instructor": "Boswell, Teresa",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8753,8 +8922,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8774,8 +8945,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8795,8 +8968,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8816,8 +8991,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8837,8 +9014,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8858,8 +9037,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8879,8 +9060,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8900,8 +9083,10 @@
     "instructor": "Leonard, Brandi",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8921,8 +9106,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8942,8 +9129,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8963,8 +9152,10 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -8984,8 +9175,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9005,8 +9198,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9047,8 +9242,10 @@
     "instructor": "Bobbitt, Rebecca",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9068,8 +9265,10 @@
     "instructor": "Boswell, Teresa",
     "seats_open": 12,
     "seats_total": 14,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9089,8 +9288,10 @@
     "instructor": "Williams, Cindy",
     "seats_open": 5,
     "seats_total": 14,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9110,8 +9311,10 @@
     "instructor": "Bobbitt, Rebecca",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9129,10 +9332,12 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Williams, Cindy",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9152,8 +9357,10 @@
     "instructor": "Williams, Cindy",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9173,8 +9380,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9194,8 +9403,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9215,8 +9426,10 @@
     "instructor": "Sykes, Janet",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9236,8 +9449,10 @@
     "instructor": "Leonard, Brandi",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9257,8 +9472,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9278,8 +9495,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -9362,7 +9581,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -9383,8 +9602,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "FREN 1010 or one unit of high school French",
+    "prerequisite_courses": [
+      "FREN 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -10662,7 +10883,7 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Clifft, Joseph",
-    "seats_open": 18,
+    "seats_open": 19,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10767,7 +10988,7 @@
     "campus": "Jimmy Naifeh Center",
     "mode": "in-person",
     "instructor": "Martin, Angela",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11294,7 +11515,7 @@
     "instructor": "Barham, Jennifer",
     "seats_open": 8,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11315,7 +11536,7 @@
     "instructor": "Barham, Jennifer",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11336,7 +11557,7 @@
     "instructor": "Barham, James",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11357,7 +11578,7 @@
     "instructor": "Camper, Diane",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11378,7 +11599,7 @@
     "instructor": "Camper, Diane",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -11691,7 +11912,7 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 99,
+    "seats_open": 98,
     "seats_total": 99,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11714,7 +11935,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -11735,7 +11956,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -11756,8 +11977,10 @@
     "instructor": "Inghram, Daniel",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -11777,8 +12000,10 @@
     "instructor": "Solmon, Bobby",
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -11798,8 +12023,10 @@
     "instructor": "Mason, Brian",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -11819,8 +12046,10 @@
     "instructor": "Mason, Brian",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -11840,8 +12069,10 @@
     "instructor": "Inghram, Daniel",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -11861,8 +12092,10 @@
     "instructor": "Solmon, Bobby",
     "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -11882,8 +12115,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -11903,8 +12138,10 @@
     "instructor": "Stephenson, Andrea",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -11924,8 +12161,10 @@
     "instructor": "Stephenson, Andrea",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -11945,8 +12184,10 @@
     "instructor": "Solmon, Bobby",
     "seats_open": 13,
     "seats_total": 14,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -11966,8 +12207,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -11987,8 +12230,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12008,8 +12253,10 @@
     "instructor": "Inghram, Daniel",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12029,8 +12276,12 @@
     "instructor": "Dunn, Anita",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12050,8 +12301,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12071,8 +12326,12 @@
     "instructor": "Dunn, Anita",
     "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12092,8 +12351,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12113,7 +12376,7 @@
     "instructor": "Davis, Susan",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12134,7 +12397,7 @@
     "instructor": "Davis, Susan",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12155,7 +12418,7 @@
     "instructor": "Reynolds, Devalyn",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12176,7 +12439,7 @@
     "instructor": "Campbell, Susan",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12197,7 +12460,7 @@
     "instructor": "Beaver, Sheri",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12218,7 +12481,7 @@
     "instructor": "Newman, Michael",
     "seats_open": 4,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12239,7 +12502,7 @@
     "instructor": "Newman, Michael",
     "seats_open": 4,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12260,7 +12523,7 @@
     "instructor": "Hiebert-Brumley, Katherine",
     "seats_open": 4,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12281,7 +12544,7 @@
     "instructor": "Davis, Susan",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12302,7 +12565,7 @@
     "instructor": "Mason, Brian",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12323,7 +12586,7 @@
     "instructor": "Mason, Brian",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12344,7 +12607,7 @@
     "instructor": "Mason, Brian",
     "seats_open": 4,
     "seats_total": 6,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12365,7 +12628,7 @@
     "instructor": "Hiebert-Brumley, Katherine",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12386,7 +12649,7 @@
     "instructor": "Hiebert-Brumley, Katherine",
     "seats_open": 3,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12407,7 +12670,7 @@
     "instructor": "Reynolds, Devalyn",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12426,9 +12689,9 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Adair, James",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12449,7 +12712,7 @@
     "instructor": "Reynolds, Devalyn",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12470,7 +12733,7 @@
     "instructor": "Newman, Michael",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12491,7 +12754,7 @@
     "instructor": "Adair, James",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12512,7 +12775,7 @@
     "instructor": "Hastings, Jennifer",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12533,7 +12796,7 @@
     "instructor": "Newman, Monica",
     "seats_open": 7,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12554,7 +12817,7 @@
     "instructor": "Hastings, Jennifer",
     "seats_open": 14,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12575,7 +12838,7 @@
     "instructor": "Newman, Michael",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12596,7 +12859,7 @@
     "instructor": "Davis, Susan",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12617,7 +12880,7 @@
     "instructor": "Reynolds, Devalyn",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12638,7 +12901,7 @@
     "instructor": "Hiebert-Brumley, Katherine",
     "seats_open": 15,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12659,7 +12922,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12680,7 +12943,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12701,7 +12964,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12720,9 +12983,9 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 99,
+    "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12743,7 +13006,7 @@
     "instructor": "Hiebert-Brumley, Katherine",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -12764,8 +13027,14 @@
     "instructor": "Hiebert-Brumley, Katherine",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12785,8 +13054,10 @@
     "instructor": "Reynolds, Devalyn",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12806,8 +13077,10 @@
     "instructor": "Campbell, Susan",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12827,8 +13100,10 @@
     "instructor": "Beaver, Sheri",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12848,8 +13123,10 @@
     "instructor": "Collier, Kimberly",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12869,8 +13146,10 @@
     "instructor": "Newman, Michael",
     "seats_open": 4,
     "seats_total": 4,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12890,8 +13169,10 @@
     "instructor": "Newman, Michael",
     "seats_open": 4,
     "seats_total": 4,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12909,10 +13190,12 @@
     "campus": "Jimmy Naifeh Center",
     "mode": "in-person",
     "instructor": "Hiebert-Brumley, Katherine",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12932,8 +13215,10 @@
     "instructor": "Solmon, Bobby",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12953,8 +13238,10 @@
     "instructor": "Solmon, Bobby",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12974,8 +13261,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -12995,8 +13284,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13016,8 +13307,10 @@
     "instructor": "Adair, James",
     "seats_open": 8,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13037,8 +13330,10 @@
     "instructor": "Beaver, Sheri",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13058,8 +13353,10 @@
     "instructor": "Adair, James",
     "seats_open": 6,
     "seats_total": 6,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13079,8 +13376,10 @@
     "instructor": "Adair, James",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13100,8 +13399,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13121,8 +13422,10 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13142,8 +13445,12 @@
     "instructor": "Solmon, Bobby",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13163,8 +13470,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13184,8 +13495,12 @@
     "instructor": "Campbell, Susan",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13205,8 +13520,12 @@
     "instructor": "Collier, Kimberly",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13226,8 +13545,12 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13247,8 +13570,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13268,8 +13593,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13289,8 +13616,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 23 and ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13310,8 +13641,10 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13331,8 +13664,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -13373,7 +13708,7 @@
     "instructor": "Matthews, Joshua",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13539,7 +13874,7 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Reilly, Brianna",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13623,7 +13958,7 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Turner, Tammy",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13730,7 +14065,7 @@
     "instructor": "Matthews, Joshua",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -14148,10 +14483,12 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Chalk, Kellie",
-    "seats_open": 31,
+    "seats_open": 29,
     "seats_total": 48,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14169,10 +14506,12 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Chalk, Kellie",
-    "seats_open": 31,
+    "seats_open": 29,
     "seats_total": 48,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14192,8 +14531,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14213,8 +14554,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14234,8 +14577,10 @@
     "instructor": "Malone, Abbie",
     "seats_open": 45,
     "seats_total": 45,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14255,8 +14600,10 @@
     "instructor": "Turner, Lori",
     "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14276,8 +14623,10 @@
     "instructor": "Hines, Tammy",
     "seats_open": 48,
     "seats_total": 48,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14297,8 +14646,10 @@
     "instructor": "Embrey, Morgan",
     "seats_open": 48,
     "seats_total": 48,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14318,8 +14669,10 @@
     "instructor": "Turner, Lori",
     "seats_open": 41,
     "seats_total": 48,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14339,8 +14692,10 @@
     "instructor": "Hines, Tammy",
     "seats_open": 47,
     "seats_total": 48,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14360,8 +14715,10 @@
     "instructor": "Davis, Michelle",
     "seats_open": 10,
     "seats_total": 48,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14381,8 +14738,10 @@
     "instructor": "Robinson, Willie",
     "seats_open": 10,
     "seats_total": 48,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14402,7 +14761,7 @@
     "instructor": "Hamm, Christie",
     "seats_open": 48,
     "seats_total": 48,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -14423,7 +14782,7 @@
     "instructor": "Embrey, Michael",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -14444,7 +14803,7 @@
     "instructor": "Chrestman, Kimberly",
     "seats_open": 48,
     "seats_total": 48,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -14465,7 +14824,7 @@
     "instructor": "Hudson, Darian",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -14528,8 +14887,10 @@
     "instructor": "Chrestman, Kimberly",
     "seats_open": 48,
     "seats_total": 48,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 2630",
+    "prerequisite_courses": [
+      "NRSG 2630"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14549,8 +14910,10 @@
     "instructor": "Chrestman, Kimberly",
     "seats_open": 48,
     "seats_total": 48,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 2630",
+    "prerequisite_courses": [
+      "NRSG 2630"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14570,8 +14933,10 @@
     "instructor": "Chrestman, Kimberly",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 2630",
+    "prerequisite_courses": [
+      "NRSG 2630"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -14589,7 +14954,7 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Matheson, Megan",
-    "seats_open": 31,
+    "seats_open": 29,
     "seats_total": 48,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14610,7 +14975,7 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Chalk, Kellie",
-    "seats_open": 31,
+    "seats_open": 29,
     "seats_total": 48,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14820,7 +15185,7 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Farmer, Kathy",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15492,7 +15857,7 @@
     "campus": "Dyersburg Campus",
     "mode": "zoom",
     "instructor": "Nicks, Lydia",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 2,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15744,7 +16109,7 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Inghram, Daniel",
-    "seats_open": 8,
+    "seats_open": 5,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16103,7 +16468,7 @@
     "instructor": "Segars, Nathan",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16124,7 +16489,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16143,9 +16508,9 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Osborne, Charles",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16166,7 +16531,7 @@
     "instructor": "Atkins, Jay",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16187,7 +16552,7 @@
     "instructor": "Osborne, Charles",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16208,7 +16573,7 @@
     "instructor": "Atkins, Jay",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16229,7 +16594,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16250,7 +16615,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16271,7 +16636,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16290,9 +16655,9 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Segars, Nathan",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16313,7 +16678,7 @@
     "instructor": "Segars, Nathan",
     "seats_open": 6,
     "seats_total": 6,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16332,9 +16697,9 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Segars, Nathan",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16353,9 +16718,9 @@
     "campus": "Dyersburg Campus",
     "mode": "zoom",
     "instructor": "Segars, Nathan",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16374,9 +16739,9 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Segars, Nathan",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16397,7 +16762,7 @@
     "instructor": "Segars, Nathan",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16418,7 +16783,7 @@
     "instructor": "Heter, Joshua",
     "seats_open": 10,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16439,7 +16804,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16460,7 +16825,7 @@
     "instructor": null,
     "seats_open": 96,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -16500,7 +16865,7 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Deason, Anthony",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16563,7 +16928,7 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Deason, Anthony",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16626,7 +16991,7 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Faulk, Mary",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16710,7 +17075,7 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Hines, Deron",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16880,8 +17245,12 @@
     "instructor": "Maasho, Aklilu",
     "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -16901,8 +17270,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -16922,8 +17295,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2010",
+    "prerequisite_courses": [
+      "PHYS 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -16943,8 +17318,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -16964,8 +17341,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -16985,7 +17364,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17006,7 +17385,7 @@
     "instructor": "Adair, James",
     "seats_open": 6,
     "seats_total": 6,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17027,7 +17406,7 @@
     "instructor": "Adair, James",
     "seats_open": 6,
     "seats_total": 6,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17046,9 +17425,9 @@
     "campus": "Dyersburg Campus",
     "mode": "zoom",
     "instructor": "Adair, James",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17069,7 +17448,7 @@
     "instructor": "Adair, James",
     "seats_open": 4,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17090,7 +17469,7 @@
     "instructor": "Adair, James",
     "seats_open": 2,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17111,7 +17490,7 @@
     "instructor": "Adair, James",
     "seats_open": 4,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17129,10 +17508,10 @@
     "location": "Online",
     "campus": "Dyersburg Campus",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Rodgers, Sarah",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17153,7 +17532,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17172,9 +17551,9 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Fonville, Jonathan",
-    "seats_open": 16,
+    "seats_open": 17,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17195,7 +17574,7 @@
     "instructor": "Fonville, Jonathan",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17216,7 +17595,7 @@
     "instructor": "Key, Seth",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17237,7 +17616,7 @@
     "instructor": "Hardrick, Tamiko",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17258,7 +17637,7 @@
     "instructor": "Hardrick, Tamiko",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17277,9 +17656,9 @@
     "campus": "Henry County Center",
     "mode": "in-person",
     "instructor": "Fonville, Jonathan",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 4,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17300,7 +17679,7 @@
     "instructor": "McMahon, Jeannine",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17321,7 +17700,7 @@
     "instructor": "McMahon, Jeannine",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17342,7 +17721,7 @@
     "instructor": "McMahon, Jeannine",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17361,9 +17740,9 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Fonville, Jonathan",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17384,7 +17763,7 @@
     "instructor": "McMahon, Jeannine",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17405,7 +17784,7 @@
     "instructor": "McMahon, Jeannine",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17426,7 +17805,7 @@
     "instructor": "McMahon, Jeannine",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17447,7 +17826,7 @@
     "instructor": "Fonville, Jonathan",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17468,7 +17847,7 @@
     "instructor": "Nasso, Donna",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17489,7 +17868,7 @@
     "instructor": "Nasso, Donna",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17510,7 +17889,7 @@
     "instructor": "Evaul, Carol",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17531,7 +17910,7 @@
     "instructor": "Hardrick, Tamiko",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17552,7 +17931,7 @@
     "instructor": "Patrick, Courtney",
     "seats_open": 16,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17573,7 +17952,7 @@
     "instructor": "Evaul, Carol",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17594,7 +17973,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17615,7 +17994,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17657,8 +18036,10 @@
     "instructor": "Fonville, Jonathan",
     "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -17678,8 +18059,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -17699,8 +18082,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -17718,9 +18103,9 @@
     "campus": "Dyersburg Campus",
     "mode": "in-person",
     "instructor": "Fonville, Jonathan",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17741,7 +18126,7 @@
     "instructor": "McMahon, Jeannine",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17762,7 +18147,7 @@
     "instructor": "Fonville, Jonathan",
     "seats_open": 10,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17783,7 +18168,7 @@
     "instructor": "Evaul, Carol",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17804,7 +18189,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17825,7 +18210,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17886,7 +18271,7 @@
     "campus": "Dyersburg Campus",
     "mode": "zoom",
     "instructor": "Fussell, Jasmine",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 2,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18140,7 +18525,7 @@
     "instructor": null,
     "seats_open": 92,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18182,7 +18567,7 @@
     "instructor": "Ross, Dina",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18203,7 +18588,7 @@
     "instructor": "Smith, Darla",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18222,9 +18607,9 @@
     "campus": "Jimmy Naifeh Center",
     "mode": "in-person",
     "instructor": "Smith, Darla",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 6,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18243,9 +18628,9 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Smith, Darla",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18266,7 +18651,7 @@
     "instructor": "Smith, Darla",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18287,7 +18672,7 @@
     "instructor": "Galewski, Cynthia",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18308,7 +18693,7 @@
     "instructor": "Smith, Darla",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18329,7 +18714,7 @@
     "instructor": "Galewski, Cynthia",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18350,7 +18735,7 @@
     "instructor": "Galewski, Cynthia",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18371,7 +18756,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18392,7 +18777,7 @@
     "instructor": "Smith, Darla",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18411,9 +18796,9 @@
     "campus": "Dyersburg Campus",
     "mode": "online",
     "instructor": "Esmail, Ashraf",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18434,7 +18819,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18455,7 +18840,7 @@
     "instructor": "Smith, Darla",
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18476,7 +18861,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18581,8 +18966,10 @@
     "instructor": null,
     "seats_open": 97,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -18602,8 +18989,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -18623,8 +19012,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -18644,7 +19035,7 @@
     "instructor": "Gardiner, Heidi",
     "seats_open": 14,
     "seats_total": 14,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Surgical Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -18665,8 +19056,10 @@
     "instructor": "Gardiner, Heidi",
     "seats_open": 14,
     "seats_total": 14,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 1004",
+    "prerequisite_courses": [
+      "BIOL 1004"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -18686,8 +19079,10 @@
     "instructor": "Gardiner, Heidi",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 2420"
+    ]
   },
   {
     "college_code": "dyersburg-state",
@@ -18728,8 +19123,10 @@
     "instructor": "Gardiner, Heidi",
     "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 2420"
+    ]
   },
   {
     "college_code": "dyersburg-state",

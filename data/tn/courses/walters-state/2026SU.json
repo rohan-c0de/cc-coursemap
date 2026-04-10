@@ -17,7 +17,7 @@
     "instructor": "Davis, Carrie",
     "seats_open": 17,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -36,10 +36,12 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Davis, Carrie",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -59,7 +61,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -80,7 +82,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
     "prerequisite_courses": []
   },
   {
@@ -101,7 +103,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
     "prerequisite_courses": []
   },
   {
@@ -122,7 +124,7 @@
     "instructor": "Ibarra Asencios, Bebel",
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -225,7 +227,7 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Evans, Amy",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -269,7 +271,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -353,7 +355,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -374,7 +376,7 @@
     "instructor": "Grice, Dana",
     "seats_open": 14,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -393,9 +395,9 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Moore-Roberts, Kelly",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -416,7 +418,7 @@
     "instructor": "Griffin, Mary",
     "seats_open": 16,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -456,7 +458,7 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Moore-Roberts, Kelly",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -500,7 +502,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -521,7 +523,7 @@
     "instructor": "Goodfriend, Elesha",
     "seats_open": 10,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -542,7 +544,7 @@
     "instructor": "Malik, Kamal",
     "seats_open": 15,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -626,7 +628,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -647,7 +649,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -689,7 +691,7 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -710,7 +712,7 @@
     "instructor": "Goosie, Abigail",
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -731,7 +733,7 @@
     "instructor": "Wilhoit, Jerry",
     "seats_open": 9,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -752,7 +754,7 @@
     "instructor": "Goosie, Abigail",
     "seats_open": 14,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -834,10 +836,12 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -857,8 +861,10 @@
     "instructor": "Sproat, William",
     "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -878,8 +884,10 @@
     "instructor": "Rich, Kristin",
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -899,8 +907,10 @@
     "instructor": "Rich, Kristin",
     "seats_open": 12,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -918,10 +928,12 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -939,7 +951,7 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1002,7 +1014,7 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1023,7 +1035,7 @@
     "campus": "WS Niswonger - Greeneville",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1044,7 +1056,7 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": "Eccles, Lisa",
-    "seats_open": 41,
+    "seats_open": 40,
     "seats_total": 50,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1086,7 +1098,7 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Frazier, Ashley",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1107,7 +1119,7 @@
     "campus": "WS Niswonger - Greeneville",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1149,7 +1161,7 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Frazier, Ashley",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1359,9 +1371,9 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Fall, Joseph",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1382,8 +1394,11 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1403,8 +1418,11 @@
     "instructor": "Ross, Amy",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1424,8 +1442,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1445,7 +1465,7 @@
     "instructor": "McMillan, Ryan",
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1466,8 +1486,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1487,8 +1509,10 @@
     "instructor": "Fall, Joseph",
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1550,8 +1574,18 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1569,10 +1603,20 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Sexton, Clayton",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1590,7 +1634,7 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Sexton, Clayton",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1613,8 +1657,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1010",
+    "prerequisite_courses": [
+      "CHEM 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1634,8 +1680,12 @@
     "instructor": "Sexton, Clayton",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1655,8 +1705,12 @@
     "instructor": null,
     "seats_open": 47,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1697,8 +1751,10 @@
     "instructor": "Johnson, Lura",
     "seats_open": 23,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1718,8 +1774,10 @@
     "instructor": null,
     "seats_open": 47,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1760,7 +1818,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1781,7 +1839,7 @@
     "instructor": null,
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1802,7 +1860,7 @@
     "instructor": "Huber, Kayla",
     "seats_open": 11,
     "seats_total": 13,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1823,7 +1881,7 @@
     "instructor": "Huber, Kayla",
     "seats_open": 12,
     "seats_total": 13,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1844,7 +1902,7 @@
     "instructor": "Goosie, Marc",
     "seats_open": 8,
     "seats_total": 13,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1865,7 +1923,7 @@
     "instructor": "Goosie, Marc",
     "seats_open": 12,
     "seats_total": 13,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1886,7 +1944,7 @@
     "instructor": null,
     "seats_open": 47,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1907,8 +1965,12 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010 and COMM 2025 or COMM 2045",
+    "prerequisite_courses": [
+      "COMM 2025",
+      "COMM 2045",
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1949,8 +2011,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -1970,8 +2034,11 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2033,8 +2100,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302",
+    "prerequisite_courses": [
+      "CITC 1302"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2054,8 +2123,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1302",
+    "prerequisite_courses": [
+      "CITC 1302"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2096,7 +2167,7 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2138,8 +2209,11 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRMJ 1010 and CRMJ 1020",
+    "prerequisite_courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2453,8 +2527,10 @@
     "instructor": "Cassidy, Kimberly",
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2474,8 +2550,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2495,8 +2573,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2516,8 +2596,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2558,7 +2640,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2577,9 +2659,9 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Atiker Hus, Evren",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2600,8 +2682,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2621,8 +2705,10 @@
     "instructor": "Farmand, Farnood",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2663,8 +2749,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDUC 2000",
+    "prerequisite_courses": [
+      "EDUC 2000"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2768,7 +2856,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2787,9 +2875,9 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Smith, Teresa",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2810,7 +2898,7 @@
     "instructor": "Hill, Kenneth",
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2831,7 +2919,7 @@
     "instructor": "Isasi, Samantha",
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2852,8 +2940,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2871,10 +2961,12 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "McLain, Chippy",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2894,8 +2986,10 @@
     "instructor": "Rossie, Gracie",
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2913,10 +3007,12 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Todaro, Carla",
-    "seats_open": 21,
+    "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2957,8 +3053,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2978,8 +3076,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -2999,8 +3099,10 @@
     "instructor": "Burton, Devan",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3020,8 +3122,10 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3039,10 +3143,12 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Ludwig, Paul",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3062,8 +3168,10 @@
     "instructor": "Solomon, Kelsey",
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3083,8 +3191,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3104,8 +3214,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3146,8 +3258,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3167,8 +3281,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3251,7 +3367,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3272,8 +3388,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "FREN 1010 or one unit of high school French",
+    "prerequisite_courses": [
+      "FREN 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3375,7 +3493,7 @@
     "campus": "Online Class",
     "mode": "online",
     "instructor": "Winkler, Anita",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3459,7 +3577,7 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Spiker, Joseph",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3480,7 +3598,7 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Deeb, Dennis",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3627,7 +3745,7 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Lubotina, Paul",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3776,7 +3894,7 @@
     "instructor": "Todaro, Paul",
     "seats_open": 15,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3797,7 +3915,7 @@
     "instructor": "Buckner, Mark",
     "seats_open": 15,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3818,7 +3936,7 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3839,7 +3957,7 @@
     "instructor": "Noe, Russell",
     "seats_open": 15,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3860,7 +3978,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -3881,8 +3999,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3902,8 +4022,10 @@
     "instructor": null,
     "seats_open": 7,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3923,8 +4045,12 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3944,8 +4070,12 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -3965,7 +4095,7 @@
     "instructor": "Borlaug, Victoria",
     "seats_open": 18,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -3986,7 +4116,7 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4007,7 +4137,7 @@
     "instructor": "Bowman, Troy",
     "seats_open": 3,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4026,9 +4156,9 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Brabson, Benjamin",
-    "seats_open": 10,
+    "seats_open": 8,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4049,8 +4179,14 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4070,8 +4206,14 @@
     "instructor": "Rice, Crystal",
     "seats_open": 16,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4091,8 +4233,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4110,10 +4254,12 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Chandler, James",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4133,8 +4279,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4152,10 +4300,12 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "McCroskey, Erin",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4175,8 +4325,10 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus/trigonometry and ACT math score of at least 23, or MATH 1030 , or equivalent course and ACT reading score of at least 19 or equivalent reading score",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4196,8 +4348,12 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4217,8 +4373,12 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4238,8 +4398,12 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4259,8 +4423,12 @@
     "instructor": "Knight, John",
     "seats_open": 14,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4280,8 +4448,12 @@
     "instructor": "Romines, Jill",
     "seats_open": 17,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4299,10 +4471,12 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 50,
+    "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4322,8 +4496,10 @@
     "instructor": "Atkins, David",
     "seats_open": 12,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4341,10 +4517,12 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 50,
+    "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4364,8 +4542,12 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 23 and ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4385,8 +4567,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4406,8 +4590,10 @@
     "instructor": null,
     "seats_open": 48,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4532,8 +4718,10 @@
     "instructor": "Boruff, Staci",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4553,7 +4741,7 @@
     "instructor": "Boruff, Staci",
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
     "prerequisite_courses": []
   },
   {
@@ -4574,8 +4762,13 @@
     "instructor": "Schwartz, Deborah",
     "seats_open": 2,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010 and BIOL 2020 and ENGL 1010 and PSYC 1030 and acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
+    "prerequisite_courses": [
+      "BIOL 2010",
+      "BIOL 2020",
+      "ENGL 1010",
+      "PSYC 1030"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4721,7 +4914,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4742,7 +4935,7 @@
     "instructor": "Turner, Paul",
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4763,7 +4956,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4784,7 +4977,7 @@
     "instructor": "Baddorf, Matthew",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4805,7 +4998,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4908,10 +5101,14 @@
     "campus": "TN eCampus",
     "mode": "in-person",
     "instructor": "de Silva, Eugene",
-    "seats_open": 49,
+    "seats_open": 48,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4931,8 +5128,10 @@
     "instructor": "de Silva, Eugene",
     "seats_open": 48,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2010",
+    "prerequisite_courses": [
+      "PHYS 2010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4952,8 +5151,10 @@
     "instructor": "Cordry, Sean",
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4973,8 +5174,10 @@
     "instructor": "Cordry, Sean",
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -4994,7 +5197,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5015,7 +5218,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5036,7 +5239,7 @@
     "instructor": "Goad, Shane",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5057,7 +5260,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5076,9 +5279,9 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Westwood, Matthew",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5099,7 +5302,7 @@
     "instructor": "Larson, Jacquelyn",
     "seats_open": 11,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5141,8 +5344,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5162,7 +5367,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5183,7 +5388,7 @@
     "instructor": "Rawlinson, Terry",
     "seats_open": 11,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5202,9 +5407,9 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Barker, Kymberli",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5288,7 +5493,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5309,7 +5514,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5330,7 +5535,7 @@
     "instructor": "Dixon, Jason",
     "seats_open": 19,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5351,7 +5556,7 @@
     "instructor": "Baker, Chris",
     "seats_open": 8,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5372,7 +5577,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5393,7 +5598,7 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5540,8 +5745,10 @@
     "instructor": null,
     "seats_open": 5,
     "seats_total": 5,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5561,8 +5768,10 @@
     "instructor": null,
     "seats_open": 4,
     "seats_total": 5,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5582,8 +5791,10 @@
     "instructor": null,
     "seats_open": 5,
     "seats_total": 5,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5603,8 +5814,10 @@
     "instructor": null,
     "seats_open": 5,
     "seats_total": 5,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5624,8 +5837,10 @@
     "instructor": null,
     "seats_open": 5,
     "seats_total": 5,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5645,8 +5860,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5664,10 +5881,12 @@
     "campus": "WS Morristown, Main",
     "mode": "in-person",
     "instructor": "Stevens, Erika",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5708,8 +5927,10 @@
     "instructor": null,
     "seats_open": -1,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5729,8 +5950,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5750,8 +5973,10 @@
     "instructor": "Stevens, Erika",
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5771,8 +5996,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5792,8 +6019,10 @@
     "instructor": "Stevens, Erika",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "walters-state",
@@ -5897,7 +6126,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   }
 ]

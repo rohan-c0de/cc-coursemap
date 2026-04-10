@@ -173,6 +173,35 @@ interface PrereqInfo {
   courses: string[];
 }
 
+/**
+ * Load the Pellissippi-sourced catalog prereq map as a fallback for when
+ * Banner's `getSectionPrerequisites` returns empty HTML (which is the case
+ * for ~97% of TBR sections — see scripts/tn/scrape-catalog-prereqs.ts for
+ * the scrape and the rationale for using Pellissippi as the TBR-wide
+ * authoritative source via common course numbering).
+ *
+ * Returns an empty Map on read failure so the scrape can still run if the
+ * static JSON is missing (e.g. fresh checkout that hasn't run the catalog
+ * scraper yet).
+ */
+function loadCatalogPrereqs(): Map<string, PrereqInfo> {
+  const jsonPath = path.join(process.cwd(), "data", "tn", "prereqs.json");
+  try {
+    const raw = JSON.parse(fs.readFileSync(jsonPath, "utf-8")) as Record<
+      string,
+      PrereqInfo
+    >;
+    const map = new Map<string, PrereqInfo>();
+    for (const [key, value] of Object.entries(raw)) {
+      map.set(key, value);
+    }
+    return map;
+  } catch (e) {
+    console.warn(`  Warning: could not load ${jsonPath}: ${e}`);
+    return new Map();
+  }
+}
+
 function parsePrereqHtml(html: string): PrereqInfo | null {
   if (html.includes("No prerequisite")) return null;
 
@@ -401,6 +430,17 @@ async function scrapeCollege(slug: string, baseUrl: string): Promise<number> {
   const outDir = path.join(process.cwd(), "data", "tn", "courses", slug);
   fs.mkdirSync(outDir, { recursive: true });
 
+  // Load the Pellissippi-sourced TBR catalog prereqs once per college. This
+  // file is applied TBR-system-wide because TBR enforces common course
+  // numbering (ENGL 1010, MATH 1530 etc. share catalog descriptions across
+  // all 13 colleges). See scripts/tn/scrape-catalog-prereqs.ts.
+  const catalogPrereqs = loadCatalogPrereqs();
+  if (catalogPrereqs.size > 0) {
+    console.log(
+      `  Loaded ${catalogPrereqs.size} TBR catalog prereqs (fallback for empty Banner prereqs)`
+    );
+  }
+
   let totalSections = 0;
 
   for (const term of targetTerms) {
@@ -435,7 +475,10 @@ async function scrapeCollege(slug: string, baseUrl: string): Promise<number> {
           mt?.campusDescription || s.campusDescription || "";
         const mode = mt ? detectMode(mt, campus) : "online";
         const courseKey = `${s.subject} ${s.courseNumber}`;
-        const prereq = prereqs.get(courseKey);
+        // Banner prereq wins when present (~3% of TBR sections). Fall back
+        // to the Pellissippi catalog prereq when Banner returns nothing —
+        // this jumps coverage from ~3% to ~70% of sections.
+        const prereq = prereqs.get(courseKey) ?? catalogPrereqs.get(courseKey);
 
         return {
           college_code: slug,

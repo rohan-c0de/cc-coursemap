@@ -17,7 +17,7 @@
     "instructor": "Mullins, Terry",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -38,7 +38,7 @@
     "instructor": "Mullins, Terry",
     "seats_open": 8,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -59,7 +59,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -80,7 +80,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -99,7 +99,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Mullins, Terry",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 30,
     "prerequisite_text": "ACCT 1010 (min D) or ACC  Accounting 211 (min D)",
     "prerequisite_courses": [
@@ -254,7 +254,7 @@
     "instructor": "Walker, Carrie",
     "seats_open": 8,
     "seats_total": 14,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
     "prerequisite_courses": []
   },
   {
@@ -275,7 +275,7 @@
     "instructor": "Walker, Carrie",
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
     "prerequisite_courses": []
   },
   {
@@ -600,7 +600,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Garner, Jennifer",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -873,7 +873,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 3,
+    "seats_open": 1,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -936,7 +936,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -957,7 +957,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Brown, Jennifer",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1062,7 +1062,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Brown, Jennifer",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 27,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1083,7 +1083,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Brown, Jennifer",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1167,7 +1167,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Norman, Carol",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1230,7 +1230,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Brown, Jennifer",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1297,7 +1297,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Brown, Jennifer",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1318,7 +1318,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Norman, Carol",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1341,7 +1341,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1362,7 +1362,7 @@
     "instructor": null,
     "seats_open": 2,
     "seats_total": 48,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1383,7 +1383,7 @@
     "instructor": "Keeton, Jason",
     "seats_open": -4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1404,7 +1404,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1425,7 +1425,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1446,7 +1446,7 @@
     "instructor": "Keeton, Jason",
     "seats_open": -4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1467,7 +1467,7 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1488,7 +1488,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1507,9 +1507,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 48,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1530,7 +1530,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1551,7 +1551,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1570,9 +1570,9 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1593,7 +1593,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1614,7 +1614,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1633,9 +1633,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1656,7 +1656,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1677,7 +1677,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1698,7 +1698,7 @@
     "instructor": null,
     "seats_open": 14,
     "seats_total": 27,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1719,7 +1719,7 @@
     "instructor": "Fisher, Audra",
     "seats_open": -1,
     "seats_total": 3,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1740,7 +1740,7 @@
     "instructor": "Fisher, Audra",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1761,7 +1761,7 @@
     "instructor": "Reaves, Jennifer",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1782,7 +1782,7 @@
     "instructor": "Fisher, Audra",
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1803,7 +1803,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1824,7 +1824,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1845,7 +1845,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1866,7 +1866,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1885,9 +1885,9 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1908,7 +1908,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2229,7 +2229,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2250,7 +2250,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2269,9 +2269,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2292,7 +2292,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2313,7 +2313,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2334,7 +2334,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2353,9 +2353,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 48,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2376,7 +2376,7 @@
     "instructor": null,
     "seats_open": 28,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2397,7 +2397,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2418,7 +2418,7 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2439,7 +2439,7 @@
     "instructor": null,
     "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2460,7 +2460,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2481,7 +2481,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2502,7 +2502,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2523,7 +2523,7 @@
     "instructor": null,
     "seats_open": 8,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2544,7 +2544,7 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 48,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2565,7 +2565,7 @@
     "instructor": null,
     "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2586,7 +2586,7 @@
     "instructor": null,
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2607,7 +2607,7 @@
     "instructor": null,
     "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2628,7 +2628,7 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2649,7 +2649,7 @@
     "instructor": null,
     "seats_open": 47,
     "seats_total": 48,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2670,7 +2670,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2691,7 +2691,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2712,7 +2712,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2733,7 +2733,7 @@
     "instructor": "Reaves, Jennifer",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2754,7 +2754,7 @@
     "instructor": "Fisher, Audra",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2775,7 +2775,7 @@
     "instructor": "Reaves, Jennifer",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2796,7 +2796,7 @@
     "instructor": "Fisher, Audra",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2817,7 +2817,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2838,7 +2838,7 @@
     "instructor": "Scallion, Brigham",
     "seats_open": -1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2859,7 +2859,7 @@
     "instructor": "Scallion, Brigham",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2880,7 +2880,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2901,7 +2901,7 @@
     "instructor": "Scallion, Brigham",
     "seats_open": -12,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2922,7 +2922,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2943,7 +2943,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2964,7 +2964,7 @@
     "instructor": null,
     "seats_open": 28,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2985,7 +2985,7 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3006,7 +3006,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3027,7 +3027,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3048,7 +3048,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3115,7 +3115,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 1,
+    "seats_open": 2,
     "seats_total": 40,
     "prerequisite_text": "BIOL 2010 (min C) or Biology 211 (min C)",
     "prerequisite_courses": [
@@ -3259,7 +3259,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "BIOL 2010 (min C) or Biology 211 (min C)",
     "prerequisite_courses": [
@@ -3283,7 +3283,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "BIOL 2010 (min C) or Biology 211 (min C)",
     "prerequisite_courses": [
@@ -3307,7 +3307,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "BIOL 2010 (min C) or Biology 211 (min C)",
     "prerequisite_courses": [
@@ -3664,7 +3664,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Young, Christy",
-    "seats_open": 21,
+    "seats_open": 22,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3792,8 +3792,11 @@
     "instructor": "Young, Christy",
     "seats_open": 20,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -3813,8 +3816,11 @@
     "instructor": "Young, Christy",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330 or HMGT 1030",
+    "prerequisite_courses": [
+      "BUSN 2330",
+      "HMGT 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -3882,7 +3888,7 @@
     "instructor": "McConnell, Christina",
     "seats_open": 15,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -3903,8 +3909,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -3924,8 +3932,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 1305",
+    "prerequisite_courses": [
+      "BUSN 1305"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -3966,8 +3976,12 @@
     "instructor": "Kappel, Joseph",
     "seats_open": 22,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -3987,8 +4001,12 @@
     "instructor": "Meek, Casey",
     "seats_open": 18,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -4008,8 +4026,12 @@
     "instructor": "Meek, Casey",
     "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -4029,8 +4051,12 @@
     "instructor": "Meek, Casey",
     "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -4050,8 +4076,12 @@
     "instructor": "Kappel, Joseph",
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -4071,8 +4101,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -4092,8 +4126,12 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -4362,8 +4400,10 @@
     "instructor": "Hurst, Aidan",
     "seats_open": 15,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -4383,8 +4423,10 @@
     "instructor": "Hurst, Aidan",
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -4404,8 +4446,11 @@
     "instructor": "Dunevant, Stacey",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301 or WEB 2010",
+    "prerequisite_courses": [
+      "CITC 1301",
+      "WEB 2010"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -4425,8 +4470,10 @@
     "instructor": "Dunevant, Stacey",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CITC 1301",
+    "prerequisite_courses": [
+      "CITC 1301"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -4446,7 +4493,7 @@
     "instructor": "Matlock, Lisa",
     "seats_open": 15,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4467,7 +4514,7 @@
     "instructor": "Matlock, Lisa",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4703,7 +4750,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Dunevant, Stacey",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4820,7 +4867,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Mayes, Michael",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4946,7 +4993,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4967,7 +5014,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Jones, Angela",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5009,7 +5056,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5660,7 +5707,7 @@
     "campus": "1 Lexington Center",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 21,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5681,7 +5728,7 @@
     "campus": "1 Lexington Center",
     "mode": "in-person",
     "instructor": "Hernandez-Soto, Marisol",
-    "seats_open": 22,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5744,9 +5791,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Warren-Cox, Kimberly",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5767,7 +5814,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5809,7 +5856,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5830,7 +5877,7 @@
     "instructor": "Warren-Cox, Kimberly",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5849,9 +5896,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Rhea, Rebecca",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5872,7 +5919,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5893,7 +5940,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5914,7 +5961,7 @@
     "instructor": "Rawson, Kim",
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5935,7 +5982,7 @@
     "instructor": "Rhea, Rebecca",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5956,7 +6003,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5977,7 +6024,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5998,7 +6045,7 @@
     "instructor": "Rawson, Kim",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6017,9 +6064,9 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6040,7 +6087,7 @@
     "instructor": "Warren-Cox, Kimberly",
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6061,7 +6108,7 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6082,7 +6129,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6103,7 +6150,7 @@
     "instructor": "Rawson, Kim",
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6124,7 +6171,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6145,7 +6192,7 @@
     "instructor": "Rhea, Rebecca",
     "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6166,7 +6213,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6187,7 +6234,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6208,7 +6255,7 @@
     "instructor": "Rawson, Kim",
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6229,7 +6276,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6250,7 +6297,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6271,7 +6318,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6292,7 +6339,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6313,7 +6360,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6334,7 +6381,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6355,7 +6402,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6376,7 +6423,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6397,7 +6444,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6418,7 +6465,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6437,9 +6484,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Warren-Cox, Kimberly",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6460,7 +6507,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6479,9 +6526,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Warren-Cox, Kimberly",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6502,7 +6549,7 @@
     "instructor": "Cepparulo, Thomas",
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6523,7 +6570,7 @@
     "instructor": "Cepparulo, Thomas",
     "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6542,9 +6589,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Perrin, Karen",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6565,7 +6612,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6586,7 +6633,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6607,7 +6654,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6628,7 +6675,7 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6649,8 +6696,11 @@
     "instructor": "Cepparulo, Thomas",
     "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRMJ 1010 and CRMJ 1020",
+    "prerequisite_courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -6841,8 +6891,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2320",
+    "prerequisite_courses": [
+      "ECED 2320"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -6862,8 +6914,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECED 2315",
+    "prerequisite_courses": [
+      "ECED 2315"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -6883,7 +6937,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6902,9 +6956,9 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6925,7 +6979,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6946,8 +7000,10 @@
     "instructor": null,
     "seats_open": 7,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -6967,8 +7023,10 @@
     "instructor": null,
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -6988,8 +7046,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -7028,7 +7088,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Jones, Angela",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7051,8 +7111,10 @@
     "instructor": "Jones, Angela",
     "seats_open": 26,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDUC 2000",
+    "prerequisite_courses": [
+      "EDUC 2000"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -7072,8 +7134,10 @@
     "instructor": "Jones, Angela",
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDUC 2000",
+    "prerequisite_courses": [
+      "EDUC 2000"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -8057,7 +8121,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Murphy, Sarah",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 14,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8351,7 +8415,7 @@
     "campus": "1 Lexington Center",
     "mode": "in-person",
     "instructor": "Franklin, Jennifer",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 14,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8393,9 +8457,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Troyer, Jonathan",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8416,7 +8480,7 @@
     "instructor": "Sweet, Candyce",
     "seats_open": 20,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8435,9 +8499,9 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Walls, Mark",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8458,7 +8522,7 @@
     "instructor": "Kelley, Andrew",
     "seats_open": 13,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8479,7 +8543,7 @@
     "instructor": "Sweet, Candyce",
     "seats_open": 20,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8500,7 +8564,7 @@
     "instructor": "Franks, James",
     "seats_open": 7,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8521,7 +8585,7 @@
     "instructor": "Kelley, Andrew",
     "seats_open": 15,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8542,7 +8606,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8563,7 +8627,7 @@
     "instructor": "Mayes, Michael",
     "seats_open": 18,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8584,7 +8648,7 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8605,7 +8669,7 @@
     "instructor": "Mayes, Michael",
     "seats_open": 23,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8626,7 +8690,7 @@
     "instructor": "Walls, Mark",
     "seats_open": 19,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8647,7 +8711,7 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8668,7 +8732,7 @@
     "instructor": "Mayes, Michael",
     "seats_open": 15,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8689,7 +8753,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8710,7 +8774,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8731,7 +8795,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8752,7 +8816,7 @@
     "instructor": "Kelley, Andrew",
     "seats_open": 19,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8773,7 +8837,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8794,7 +8858,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8815,7 +8879,7 @@
     "instructor": "Franks, James",
     "seats_open": 20,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8836,7 +8900,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8857,7 +8921,7 @@
     "instructor": "Franks, James",
     "seats_open": 12,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8878,7 +8942,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8899,7 +8963,7 @@
     "instructor": "Walls, Mark",
     "seats_open": 22,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8920,7 +8984,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8941,7 +9005,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8962,7 +9026,7 @@
     "instructor": "Hurst, Timothy",
     "seats_open": 19,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -8983,7 +9047,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9004,7 +9068,7 @@
     "instructor": "Mayo, James",
     "seats_open": 21,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9025,7 +9089,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9046,7 +9110,7 @@
     "instructor": "Mayes, Michael",
     "seats_open": 20,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9067,7 +9131,7 @@
     "instructor": "Walls, Mark",
     "seats_open": 17,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9088,7 +9152,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9109,7 +9173,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9130,7 +9194,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9151,7 +9215,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9172,7 +9236,7 @@
     "instructor": "Ogilvie, Rachel",
     "seats_open": 21,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9193,7 +9257,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9214,7 +9278,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9235,7 +9299,7 @@
     "instructor": "Franks, James",
     "seats_open": 19,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9256,7 +9320,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9277,7 +9341,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9298,7 +9362,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9319,7 +9383,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9340,7 +9404,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9361,7 +9425,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9382,7 +9446,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9403,7 +9467,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9424,7 +9488,7 @@
     "instructor": "Hart, David",
     "seats_open": 18,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9445,7 +9509,7 @@
     "instructor": "Hart, David",
     "seats_open": 18,
     "seats_total": 18,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9466,7 +9530,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9487,7 +9551,7 @@
     "instructor": "Franklin, Edward",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9508,7 +9572,7 @@
     "instructor": "Franklin, Edward",
     "seats_open": 20,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9529,7 +9593,7 @@
     "instructor": "Franklin, Edward",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9550,7 +9614,7 @@
     "instructor": "Franklin, Edward",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9569,9 +9633,9 @@
     "campus": "1 Lexington Center",
     "mode": "in-person",
     "instructor": "Wilkerson, Rebecca",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9592,7 +9656,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9613,7 +9677,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9634,7 +9698,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9655,7 +9719,7 @@
     "instructor": "Wilkerson, Rebecca",
     "seats_open": 20,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9676,7 +9740,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9697,7 +9761,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9718,7 +9782,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9739,7 +9803,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9760,7 +9824,7 @@
     "instructor": "Sweet, Candyce",
     "seats_open": 23,
     "seats_total": 23,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -9779,7 +9843,7 @@
     "campus": "1 Savannah Center",
     "mode": "in-person",
     "instructor": "Wilkerson, Rebecca",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 23,
     "prerequisite_text": "ENGL 1010 (min C) or ENG  RODP  English 111 (min C)",
     "prerequisite_courses": [
@@ -9875,7 +9939,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 23,
     "prerequisite_text": "ENGL 1010 (min C) or ENG  RODP  English 111 (min C)",
     "prerequisite_courses": [
@@ -10259,7 +10323,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Mayo, Elizabeth",
-    "seats_open": 4,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "ENGL 1010 (min C) or ENG  RODP  English 111 (min C)",
     "prerequisite_courses": [
@@ -10355,7 +10419,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Mayo, Elizabeth",
-    "seats_open": 18,
+    "seats_open": 19,
     "seats_total": 30,
     "prerequisite_text": "ENGL 1010 (min C) or ENG  RODP  English 111 (min C)",
     "prerequisite_courses": [
@@ -10725,8 +10789,11 @@
     "instructor": "Hamilton, Aaron",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EETC 1300 or ENST 1340",
+    "prerequisite_courses": [
+      "EETC 1300",
+      "ENST 1340"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -10744,9 +10811,9 @@
     "campus": "RODP",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 97,
+    "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -10831,7 +10898,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11234,7 +11301,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Fry, Billy",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11507,7 +11574,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Sivananda, Mantri",
-    "seats_open": 28,
+    "seats_open": 27,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11843,7 +11910,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Sivananda, Mantri",
-    "seats_open": 23,
+    "seats_open": 21,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12137,7 +12204,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Chism, LaToshia",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12347,7 +12414,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": "BIOL 2010 (min C) or Biology 211 (min C)",
     "prerequisite_courses": [
@@ -12395,7 +12462,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": "BIOL 2010 (min C) or Biology 211 (min C)",
     "prerequisite_courses": [
@@ -12761,7 +12828,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Kelley, Andrew",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12826,7 +12893,7 @@
     "instructor": "Callahan, Randall",
     "seats_open": 10,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -12847,7 +12914,7 @@
     "instructor": null,
     "seats_open": 14,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -12866,9 +12933,9 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -12889,7 +12956,7 @@
     "instructor": null,
     "seats_open": 28,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -12910,7 +12977,7 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -12931,7 +12998,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -12952,7 +13019,7 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -12973,7 +13040,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -12994,7 +13061,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13015,7 +13082,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13057,7 +13124,7 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13078,7 +13145,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13099,7 +13166,7 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13120,7 +13187,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13141,7 +13208,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13162,7 +13229,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13181,9 +13248,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13204,7 +13271,7 @@
     "instructor": null,
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13225,7 +13292,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13244,9 +13311,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13267,7 +13334,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13288,7 +13355,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13309,7 +13376,7 @@
     "instructor": null,
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -13370,7 +13437,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13517,7 +13584,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13748,7 +13815,7 @@
     "campus": "1 Lexington Center",
     "mode": "in-person",
     "instructor": "Pratt, Sylvia",
-    "seats_open": 22,
+    "seats_open": 16,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13813,7 +13880,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -13832,9 +13899,9 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -13855,7 +13922,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -13876,7 +13943,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -13897,7 +13964,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -13918,7 +13985,7 @@
     "instructor": null,
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -13939,7 +14006,7 @@
     "instructor": null,
     "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -13960,7 +14027,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -13981,7 +14048,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14002,8 +14069,10 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14023,8 +14092,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14044,8 +14115,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14065,8 +14138,10 @@
     "instructor": null,
     "seats_open": 14,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14084,10 +14159,12 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14107,8 +14184,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14128,8 +14207,10 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14149,8 +14230,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14168,10 +14251,12 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14191,8 +14276,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14212,8 +14299,10 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14233,8 +14322,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14254,8 +14347,12 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14275,8 +14372,12 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -14294,9 +14395,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14315,9 +14416,9 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14338,7 +14439,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14359,7 +14460,7 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14380,7 +14481,7 @@
     "instructor": null,
     "seats_open": 8,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14401,7 +14502,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14422,7 +14523,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14443,7 +14544,7 @@
     "instructor": null,
     "seats_open": 9,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14464,7 +14565,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14485,7 +14586,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14506,7 +14607,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14527,7 +14628,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14548,7 +14649,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14567,9 +14668,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 8,
+    "seats_open": 4,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14590,7 +14691,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14611,7 +14712,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14632,7 +14733,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14651,9 +14752,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14674,7 +14775,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14695,7 +14796,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14716,7 +14817,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14737,7 +14838,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14758,7 +14859,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14779,7 +14880,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14800,7 +14901,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14819,9 +14920,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14842,7 +14943,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14863,7 +14964,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14884,7 +14985,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14903,9 +15004,9 @@
     "campus": "1 Lexington Center",
     "mode": "in-person",
     "instructor": "Vineyard, Linda",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14926,7 +15027,7 @@
     "instructor": "Pratt, Sylvia",
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14945,9 +15046,9 @@
     "campus": "1 Lexington Center",
     "mode": "in-person",
     "instructor": "Pratt, Sylvia",
-    "seats_open": 17,
+    "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14966,9 +15067,9 @@
     "campus": "1 Savannah Center",
     "mode": "in-person",
     "instructor": "Plunk, Christie",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -14989,7 +15090,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -15010,7 +15111,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -15031,7 +15132,7 @@
     "instructor": null,
     "seats_open": 17,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -15052,7 +15153,7 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -15073,7 +15174,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -15094,8 +15195,14 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -15115,8 +15222,10 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -15136,8 +15245,10 @@
     "instructor": null,
     "seats_open": 11,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -15157,8 +15268,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -15178,8 +15291,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -15199,8 +15314,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -15220,8 +15337,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -15241,8 +15360,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -15260,10 +15381,12 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -15986,7 +16109,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Gray Lemus, Esther",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16196,7 +16319,7 @@
     "campus": "1 Lexington Center",
     "mode": "in-person",
     "instructor": "Brown, Robert",
-    "seats_open": 7,
+    "seats_open": 5,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17393,7 +17516,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 23,
+    "seats_open": 21,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17456,7 +17579,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 26,
+    "seats_open": 25,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17519,7 +17642,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17624,9 +17747,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Hart, David",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17647,7 +17770,7 @@
     "instructor": "Hart, David",
     "seats_open": 23,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17668,7 +17791,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17689,7 +17812,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17710,7 +17833,7 @@
     "instructor": "Senter, Nell",
     "seats_open": 17,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17731,7 +17854,7 @@
     "instructor": "Senter, Nell",
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17752,7 +17875,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -17773,8 +17896,12 @@
     "instructor": "Smith, Wesley",
     "seats_open": 0,
     "seats_total": 40,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -17794,8 +17921,12 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -17815,8 +17946,12 @@
     "instructor": "Smith, Wesley",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -17836,8 +17971,12 @@
     "instructor": "Smith, Wesley",
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -17857,8 +17996,12 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -17902,8 +18045,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -17923,8 +18068,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -17944,8 +18091,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -17965,8 +18114,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -17986,8 +18137,10 @@
     "instructor": "Smith, Wesley",
     "seats_open": 16,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -18007,8 +18160,10 @@
     "instructor": "Smith, Wesley",
     "seats_open": 16,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -18028,8 +18183,10 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -18137,7 +18294,7 @@
     "instructor": "Fry, Billy",
     "seats_open": 2,
     "seats_total": 3,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18158,7 +18315,7 @@
     "instructor": "Fry, Billy",
     "seats_open": 9,
     "seats_total": 9,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18179,7 +18336,7 @@
     "instructor": "Fry, Billy",
     "seats_open": 8,
     "seats_total": 9,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18200,7 +18357,7 @@
     "instructor": "Fry, Billy",
     "seats_open": 9,
     "seats_total": 9,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18221,7 +18378,7 @@
     "instructor": null,
     "seats_open": 95,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18261,7 +18418,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18282,7 +18439,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Meek, Casey",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18387,7 +18544,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18408,7 +18565,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Meek, Casey",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18452,7 +18609,7 @@
     "instructor": "Greenway, Melanie",
     "seats_open": 11,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18473,7 +18630,7 @@
     "instructor": "Greenway, Melanie",
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18494,7 +18651,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18513,9 +18670,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Greenway, Melanie",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18536,7 +18693,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18557,7 +18714,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18578,7 +18735,7 @@
     "instructor": "Banas, Katherine",
     "seats_open": 13,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18599,7 +18756,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18620,7 +18777,7 @@
     "instructor": "Greenway, Melanie",
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18641,7 +18798,7 @@
     "instructor": null,
     "seats_open": 9,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18662,7 +18819,7 @@
     "instructor": "Banas, Katherine",
     "seats_open": 27,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18683,7 +18840,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18704,7 +18861,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18725,7 +18882,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18746,7 +18903,7 @@
     "instructor": "Banas, Katherine",
     "seats_open": 20,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18767,7 +18924,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18788,7 +18945,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18809,7 +18966,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18830,7 +18987,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18851,7 +19008,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18872,7 +19029,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18893,7 +19050,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18935,8 +19092,10 @@
     "instructor": null,
     "seats_open": 19,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -18956,8 +19115,10 @@
     "instructor": null,
     "seats_open": 98,
     "seats_total": 99,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "jackson-state",
@@ -18977,7 +19138,7 @@
     "instructor": "Banas, Katherine",
     "seats_open": 14,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -18998,7 +19159,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19019,7 +19180,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19040,7 +19201,7 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19061,7 +19222,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19082,7 +19243,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -19395,7 +19556,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Benson, Kimberly",
-    "seats_open": -12,
+    "seats_open": -13,
     "seats_total": 0,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -19481,7 +19642,7 @@
     "instructor": "Mitchell, Stephanie",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Radiologic Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -19502,7 +19663,7 @@
     "instructor": "Mitchell, Stephanie",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Radiologic Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -19523,7 +19684,7 @@
     "instructor": "Mitchell, Stephanie",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Radiologic Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -19544,7 +19705,7 @@
     "instructor": "Benson, Kimberly",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Radiologic Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -19565,7 +19726,7 @@
     "instructor": "Benson, Kimberly",
     "seats_open": 13,
     "seats_total": 13,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Radiologic Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -19586,7 +19747,7 @@
     "instructor": "Benson, Kimberly",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "Acceptance into the Radiologic Technology Program",
     "prerequisite_courses": []
   },
   {
@@ -19773,7 +19934,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Sweet, Frank",
-    "seats_open": 10,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -20088,7 +20249,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Clarke, Melinda",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -20193,7 +20354,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Hope, Caylee",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -20340,7 +20501,7 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -20424,7 +20585,7 @@
     "campus": "1 Lexington Center",
     "mode": "in-person",
     "instructor": "Franklin, Jennifer",
-    "seats_open": 15,
+    "seats_open": 10,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -20762,7 +20923,7 @@
     "instructor": "Fortner, Emily",
     "seats_open": 20,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -20783,7 +20944,7 @@
     "instructor": "Fortner, Emily",
     "seats_open": 24,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -20804,7 +20965,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -20825,7 +20986,7 @@
     "instructor": null,
     "seats_open": -29,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -20846,7 +21007,7 @@
     "instructor": "Fortner, Emily",
     "seats_open": 0,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -20865,9 +21026,9 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": null,
-    "seats_open": 27,
+    "seats_open": 26,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -20888,7 +21049,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -20907,9 +21068,9 @@
     "campus": "1 Jackson State Main Campus",
     "mode": "in-person",
     "instructor": "Fortner, Emily",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 15,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -20930,7 +21091,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 99,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -20993,7 +21154,7 @@
     "instructor": null,
     "seats_open": 14,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -21012,7 +21173,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Hernandez-Soto, Marisol",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -21180,7 +21341,7 @@
     "campus": "JSCC Online",
     "mode": "online",
     "instructor": "Hernandez-Soto, Marisol",
-    "seats_open": 28,
+    "seats_open": 27,
     "seats_total": 30,
     "prerequisite_text": "SPAN 1010 (min D) or SP  RODP  Spanish 111 (min D)",
     "prerequisite_courses": [
@@ -21317,7 +21478,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -21338,7 +21499,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -21359,7 +21520,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -21380,7 +21541,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {

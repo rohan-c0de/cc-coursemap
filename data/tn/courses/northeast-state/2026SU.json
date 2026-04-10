@@ -15,9 +15,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Campbell, Steven",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 35,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -38,8 +38,10 @@
     "instructor": "Ratliff, Leif",
     "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACCT 1010",
+    "prerequisite_courses": [
+      "ACCT 1010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -99,7 +101,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Grieshaber, Larena",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -141,7 +143,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Grieshaber, Larena",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -164,7 +166,7 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing",
     "prerequisite_courses": []
   },
   {
@@ -185,7 +187,7 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading and ACT English score of 18 or satisfactory placement scores or completion of Learning Support Writing and ACT Math score of 19 or satisfactory placement scores or completion of Learning Support Math",
     "prerequisite_courses": []
   },
   {
@@ -206,7 +208,7 @@
     "instructor": null,
     "seats_open": 48,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -246,7 +248,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Lebaron, Carol",
-    "seats_open": 14,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -267,9 +269,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Lebaron, Carol",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -290,7 +292,7 @@
     "instructor": "Hensley, Christal",
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -309,7 +311,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Byrne, Robin",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -351,7 +353,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Byrne, Robin",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -374,8 +376,13 @@
     "instructor": null,
     "seats_open": 11,
     "seats_total": 32,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AVIT 1310 and AVIT 1320 and AVIT 1410 and AVIT 1420",
+    "prerequisite_courses": [
+      "AVIT 1310",
+      "AVIT 1320",
+      "AVIT 1410",
+      "AVIT 1420"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -395,8 +402,13 @@
     "instructor": null,
     "seats_open": 11,
     "seats_total": 32,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AVIT 1310 and AVIT 1320 and AVIT 1410 and AVIT 1420",
+    "prerequisite_courses": [
+      "AVIT 1310",
+      "AVIT 1320",
+      "AVIT 1410",
+      "AVIT 1420"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -416,8 +428,13 @@
     "instructor": null,
     "seats_open": 10,
     "seats_total": 32,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AVIT 1310 and AVIT 1320 and AVIT 1410 and AVIT 1420",
+    "prerequisite_courses": [
+      "AVIT 1310",
+      "AVIT 1320",
+      "AVIT 1410",
+      "AVIT 1420"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -437,8 +454,13 @@
     "instructor": null,
     "seats_open": 11,
     "seats_total": 32,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "AVIT 1310 and AVIT 1320 and AVIT 1410 and AVIT 1420",
+    "prerequisite_courses": [
+      "AVIT 1310",
+      "AVIT 1320",
+      "AVIT 1410",
+      "AVIT 1420"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -458,7 +480,7 @@
     "instructor": "Carriger, Misty",
     "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -479,7 +501,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -521,7 +543,7 @@
     "instructor": "Abikoye, Esther",
     "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -542,7 +564,7 @@
     "instructor": "Abikoye, Esther",
     "seats_open": 10,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -561,9 +583,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Ledford, Dale",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -582,9 +604,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Hylen, Carly",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -603,9 +625,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Hylen, Carly",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -624,9 +646,9 @@
     "campus": "Northeast State Gray",
     "mode": "in-person",
     "instructor": "Maldon, Julie",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -647,7 +669,7 @@
     "instructor": "Abikoye, Esther",
     "seats_open": 5,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -668,7 +690,7 @@
     "instructor": "Maldon, Julie",
     "seats_open": 7,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -687,9 +709,9 @@
     "campus": "Northeast State Gray",
     "mode": "in-person",
     "instructor": "Maldon, Julie",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -708,9 +730,9 @@
     "campus": "Northeast State Gray",
     "mode": "in-person",
     "instructor": "Abikoye, Esther",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -731,7 +753,7 @@
     "instructor": "Sanders, Michael",
     "seats_open": 14,
     "seats_total": 16,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -750,9 +772,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Glass, Pamela",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -771,9 +793,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Maldon, David",
-    "seats_open": 12,
+    "seats_open": 9,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -792,9 +814,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Jones, Sherri",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -815,7 +837,7 @@
     "instructor": "Glass, Pamela",
     "seats_open": 5,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -836,8 +858,10 @@
     "instructor": "Sanders, Michael",
     "seats_open": 8,
     "seats_total": 16,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -857,8 +881,10 @@
     "instructor": "Sanders, Michael",
     "seats_open": 8,
     "seats_total": 16,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -876,10 +902,12 @@
     "campus": "Northeast State Gray",
     "mode": "in-person",
     "instructor": "Ledford, Dale",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -897,10 +925,12 @@
     "campus": "Northeast State Gray",
     "mode": "in-person",
     "instructor": "Ledford, Dale",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -918,10 +948,12 @@
     "campus": "Northeast State CC, Main",
     "mode": "in-person",
     "instructor": "Zimmerman, Michael",
-    "seats_open": 0,
+    "seats_open": -1,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010",
+    "prerequisite_courses": [
+      "BIOL 2010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -960,7 +992,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "in-person",
     "instructor": "Sanders, Michael",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1002,7 +1034,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Hill, Sarah",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 32,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1046,8 +1078,10 @@
     "instructor": "Cole, Carol",
     "seats_open": 9,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BUSN 2330",
+    "prerequisite_courses": [
+      "BUSN 2330"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1067,7 +1101,7 @@
     "instructor": "Dalton, Derrick",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1170,7 +1204,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Gong, Henry",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1193,8 +1227,18 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 21 or MATH 1030 or MATH 1050 or MATH 1130 or MATH 1410 or MATH 1420 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1030",
+      "MATH 1050",
+      "MATH 1130",
+      "MATH 1410",
+      "MATH 1420",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1214,8 +1258,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1010",
+    "prerequisite_courses": [
+      "CHEM 1010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1235,8 +1281,12 @@
     "instructor": "Wilson, Christopher",
     "seats_open": 3,
     "seats_total": 7,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1256,8 +1306,12 @@
     "instructor": "Metros, Andrew",
     "seats_open": 4,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1277,8 +1331,12 @@
     "instructor": "Metros, Andrew",
     "seats_open": 2,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1298,8 +1356,12 @@
     "instructor": "Wilson, Christopher",
     "seats_open": 5,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1319,8 +1381,12 @@
     "instructor": "Wilson, Christopher",
     "seats_open": 9,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1340,8 +1406,12 @@
     "instructor": null,
     "seats_open": 46,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 22 or MATH 1130 or MATH 1710 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1361,8 +1431,10 @@
     "instructor": "Wilson, Christopher",
     "seats_open": 3,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1382,8 +1454,10 @@
     "instructor": "Wilson, Christopher",
     "seats_open": 3,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1401,10 +1475,12 @@
     "campus": "Northeast State CC, Main",
     "mode": "in-person",
     "instructor": "Wilson, Christopher",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1424,8 +1500,10 @@
     "instructor": "Wilson, Christopher",
     "seats_open": 6,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1443,10 +1521,12 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Wilson, Christopher",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1466,8 +1546,10 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHEM 1110",
+    "prerequisite_courses": [
+      "CHEM 1110"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1487,7 +1569,7 @@
     "instructor": null,
     "seats_open": 5,
     "seats_total": 6,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1508,7 +1590,7 @@
     "instructor": null,
     "seats_open": 6,
     "seats_total": 7,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1529,7 +1611,7 @@
     "instructor": null,
     "seats_open": 11,
     "seats_total": 12,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1550,7 +1632,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1571,7 +1653,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1590,9 +1672,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1611,9 +1693,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1634,7 +1716,7 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1655,7 +1737,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1695,7 +1777,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1718,7 +1800,7 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1739,7 +1821,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1760,7 +1842,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1781,8 +1863,11 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CRMJ 1010 and CRMJ 1020",
+    "prerequisite_courses": [
+      "CRMJ 1010",
+      "CRMJ 1020"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -1949,7 +2034,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1968,9 +2053,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 14,
+    "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -1991,8 +2076,10 @@
     "instructor": null,
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ECON 2100",
+    "prerequisite_courses": [
+      "ECON 2100"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2136,7 +2223,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2201,8 +2288,10 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDUC 2000",
+    "prerequisite_courses": [
+      "EDUC 2000"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2283,7 +2372,7 @@
     "campus": "Northeast State at Kingsport",
     "mode": "in-person",
     "instructor": "Oliver, Douglas",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2304,7 +2393,7 @@
     "campus": "Northeast State at Kingsport",
     "mode": "in-person",
     "instructor": "Oliver, Douglas",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2325,7 +2414,7 @@
     "campus": "Northeast State at Kingsport",
     "mode": "in-person",
     "instructor": "Anders, William",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2346,7 +2435,7 @@
     "campus": "Northeast State at Kingsport",
     "mode": "in-person",
     "instructor": "Anders, William",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2367,7 +2456,7 @@
     "campus": "Northeast State at Kingsport",
     "mode": "in-person",
     "instructor": "Oliver, Douglas",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2388,7 +2477,7 @@
     "campus": "Northeast State at Kingsport",
     "mode": "in-person",
     "instructor": "Oliver, Douglas",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2430,7 +2519,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2474,7 +2563,7 @@
     "instructor": null,
     "seats_open": 18,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2493,9 +2582,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2516,7 +2605,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2535,9 +2624,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 10,
+    "seats_open": 7,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "Satisfactory test scores or completion of corequisite requirements",
     "prerequisite_courses": []
   },
   {
@@ -2558,8 +2647,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2577,10 +2668,12 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2621,8 +2714,10 @@
     "instructor": null,
     "seats_open": 9,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2642,8 +2737,10 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2661,10 +2758,12 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2682,10 +2781,12 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 4,
+    "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2705,8 +2806,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2726,8 +2829,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2768,8 +2873,10 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2789,8 +2896,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1020",
+    "prerequisite_courses": [
+      "ENGL 1020"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2810,7 +2919,7 @@
     "instructor": null,
     "seats_open": 28,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -2831,8 +2940,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "FREN 1010 or one unit of high school French",
+    "prerequisite_courses": [
+      "FREN 1010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -2934,7 +3045,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3081,7 +3192,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 14,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3228,7 +3339,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4322,7 +4433,7 @@
     "instructor": "Eades, Tracy",
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4341,9 +4452,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Eades, Tracy",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4364,7 +4475,7 @@
     "instructor": "Eades, Tracy",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -4973,7 +5084,7 @@
     "instructor": "Dabney, Dawn",
     "seats_open": 6,
     "seats_total": 10,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -4992,9 +5103,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "in-person",
     "instructor": "Dabney, Dawn",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 30,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5013,9 +5124,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 20,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading placement scores",
     "prerequisite_courses": []
   },
   {
@@ -5036,7 +5147,7 @@
     "instructor": null,
     "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading placement scores",
     "prerequisite_courses": []
   },
   {
@@ -5055,10 +5166,12 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Chandler, Janet",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5078,8 +5191,12 @@
     "instructor": null,
     "seats_open": 29,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5099,8 +5216,12 @@
     "instructor": null,
     "seats_open": 46,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and ACT math and reading scores of at least 19 or equivalent math and reading scores or MATH 0010 or MATH 0030 or MATH 0530 as required",
+    "prerequisite_courses": [
+      "MATH 0010",
+      "MATH 0030",
+      "MATH 0530"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5118,9 +5239,9 @@
     "campus": "Northeast State Gray",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5139,9 +5260,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5162,7 +5283,7 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 26,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5181,9 +5302,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5202,9 +5323,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 21,
+    "seats_open": 19,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5225,7 +5346,7 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5246,7 +5367,7 @@
     "instructor": null,
     "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5267,7 +5388,7 @@
     "instructor": null,
     "seats_open": 14,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5288,7 +5409,7 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 28,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5309,7 +5430,7 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 24,
-    "prerequisite_text": null,
+    "prerequisite_text": "High school algebra I and algebra II and ACT math and reading scores of at least 19 or equivalent math and reading scores",
     "prerequisite_courses": []
   },
   {
@@ -5330,8 +5451,14 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 22 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1720 or MATH 1730 or MATH 1830",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730",
+      "MATH 1830"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5349,10 +5476,12 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Gray, Aaron",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and ACT math score of at least 19 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1030 or equivalent course",
+    "prerequisite_courses": [
+      "MATH 1030"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5370,10 +5499,12 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Gardner, Teresa",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 or department approval",
+    "prerequisite_courses": [
+      "MATH 1710"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5391,10 +5522,14 @@
     "campus": "Northeast State CC, Main",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and precalculus and ACT math score of at least 23 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5414,8 +5549,12 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 26,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5435,8 +5574,12 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "High school algebra I and algebra II and geometry and precalculus/trigonometry and an ACT math score of at least 26 and an ACT reading score of at least 19 or equivalent math and reading scores or MATH 1710 and MATH 1720 with a grade of C or better or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5456,8 +5599,10 @@
     "instructor": "Thacker, Derrick",
     "seats_open": 7,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5477,8 +5622,10 @@
     "instructor": "Thacker, Derrick",
     "seats_open": 19,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5498,8 +5645,10 @@
     "instructor": null,
     "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5519,8 +5668,12 @@
     "instructor": null,
     "seats_open": 50,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACT math score of at least 23 and ACT reading score of at least 19 or equivalent math and reading scores or MATH 1130 or MATH 1710 or MATH 1730 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1130",
+      "MATH 1710",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5540,8 +5693,10 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5561,8 +5716,10 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1920 with a grade of C or better",
+    "prerequisite_courses": [
+      "MATH 1920"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5666,8 +5823,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5687,8 +5846,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5708,8 +5869,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5729,8 +5892,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5750,8 +5915,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NRSG 1710 or department approval",
+    "prerequisite_courses": [
+      "NRSG 1710"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5771,8 +5938,13 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010 and BIOL 2020 and ENGL 1010 and PSYC 1030 and acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
+    "prerequisite_courses": [
+      "BIOL 2010",
+      "BIOL 2020",
+      "ENGL 1010",
+      "PSYC 1030"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5792,8 +5964,13 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010 and BIOL 2020 and ENGL 1010 and PSYC 1030 and acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
+    "prerequisite_courses": [
+      "BIOL 2010",
+      "BIOL 2020",
+      "ENGL 1010",
+      "PSYC 1030"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5813,8 +5990,13 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010 and BIOL 2020 and ENGL 1010 and PSYC 1030 and acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
+    "prerequisite_courses": [
+      "BIOL 2010",
+      "BIOL 2020",
+      "ENGL 1010",
+      "PSYC 1030"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5834,8 +6016,13 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010 and BIOL 2020 and ENGL 1010 and PSYC 1030 and acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
+    "prerequisite_courses": [
+      "BIOL 2010",
+      "BIOL 2020",
+      "ENGL 1010",
+      "PSYC 1030"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5855,8 +6042,13 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010 and BIOL 2020 and ENGL 1010 and PSYC 1030 and acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
+    "prerequisite_courses": [
+      "BIOL 2010",
+      "BIOL 2020",
+      "ENGL 1010",
+      "PSYC 1030"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5876,8 +6068,13 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 0,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIOL 2010 and BIOL 2020 and ENGL 1010 and PSYC 1030 and acceptance and admission to the Associate of Applied Science degree program in Nursing at Pellissippi State Community College",
+    "prerequisite_courses": [
+      "BIOL 2010",
+      "BIOL 2020",
+      "ENGL 1010",
+      "PSYC 1030"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -5897,7 +6094,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5918,7 +6115,7 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -5939,7 +6136,7 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6000,7 +6197,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": "Osborne, Gregory",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6021,7 +6218,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 27,
+    "seats_open": 25,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6065,8 +6262,12 @@
     "instructor": null,
     "seats_open": 26,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1710 and MATH 1720 or MATH 1730",
+    "prerequisite_courses": [
+      "MATH 1710",
+      "MATH 1720",
+      "MATH 1730"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6086,8 +6287,10 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2010",
+    "prerequisite_courses": [
+      "PHYS 2010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6107,8 +6310,10 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MATH 1910",
+    "prerequisite_courses": [
+      "MATH 1910"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6128,8 +6333,10 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHYS 2110",
+    "prerequisite_courses": [
+      "PHYS 2110"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6147,9 +6354,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6168,9 +6375,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6191,7 +6398,7 @@
     "instructor": null,
     "seats_open": 9,
     "seats_total": 11,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6212,7 +6419,7 @@
     "instructor": null,
     "seats_open": 13,
     "seats_total": 14,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6233,7 +6440,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6252,9 +6459,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6275,7 +6482,7 @@
     "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6296,7 +6503,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6338,8 +6545,10 @@
     "instructor": null,
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENGL 1010",
+    "prerequisite_courses": [
+      "ENGL 1010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6359,7 +6568,7 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6378,9 +6587,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6443,8 +6652,10 @@
     "instructor": "Cole, Mariah",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 2330 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 2330"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6464,8 +6675,10 @@
     "instructor": "Hickam, Stanley",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 1330 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 1330"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6485,8 +6698,10 @@
     "instructor": "Cole, Mariah",
     "seats_open": 24,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "RADT 1330 and good standing in the Radiologic Technology Program",
+    "prerequisite_courses": [
+      "RADT 1330"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6567,9 +6782,9 @@
     "campus": "Northeast State CC, Main",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 21,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6590,7 +6805,7 @@
     "instructor": null,
     "seats_open": 1,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6611,7 +6826,7 @@
     "instructor": null,
     "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6632,7 +6847,7 @@
     "instructor": null,
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6653,7 +6868,7 @@
     "instructor": null,
     "seats_open": 49,
     "seats_total": 50,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6674,7 +6889,7 @@
     "instructor": null,
     "seats_open": 99,
     "seats_total": 100,
-    "prerequisite_text": null,
+    "prerequisite_text": "ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading",
     "prerequisite_courses": []
   },
   {
@@ -6716,8 +6931,10 @@
     "instructor": null,
     "seats_open": 15,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1010 or one unit of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6737,8 +6954,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 1020 or two units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 1020"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6758,8 +6977,10 @@
     "instructor": null,
     "seats_open": 0,
     "seats_total": 1,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6779,8 +7000,10 @@
     "instructor": null,
     "seats_open": 30,
     "seats_total": 30,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPAN 2010 or three units of high school Spanish",
+    "prerequisite_courses": [
+      "SPAN 2010"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6800,8 +7023,10 @@
     "instructor": "Lunsford, Matthew",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 2420"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6821,8 +7046,10 @@
     "instructor": "Lunsford, Matthew",
     "seats_open": 0,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SURG 2420 and good standing in the Surgical Technology Program",
+    "prerequisite_courses": [
+      "SURG 2420"
+    ]
   },
   {
     "college_code": "northeast-state",
@@ -6840,7 +7067,7 @@
     "campus": "Northeast State CC, Main",
     "mode": "online",
     "instructor": null,
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
