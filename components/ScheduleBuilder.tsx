@@ -82,8 +82,8 @@ export default function ScheduleBuilder({ courses, pinnedCRNs, onTogglePin }: Pr
         continue;
 
       // Check if they share any days
-      const aDays = a.days.split(" ");
-      const bDays = b.days.split(" ");
+      const aDays = expandDays(a.days).split(" ");
+      const bDays = expandDays(b.days).split(" ");
       const sharedDays = aDays.some((d) => bDays.includes(d));
       if (!sharedDays) continue;
 
@@ -257,7 +257,7 @@ export default function ScheduleBuilder({ courses, pinnedCRNs, onTogglePin }: Pr
                     const endSlot = timeToSlot(endTime);
                     const span = Math.max(endSlot - startSlot, 1);
 
-                    const days = course.days.split(" ");
+                    const days = expandDays(course.days).split(" ");
                     const color = colorMap.get(course.crn)!;
                     const hasConflict = conflicts.has(course.crn);
 
