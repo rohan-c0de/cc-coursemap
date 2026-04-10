@@ -87,6 +87,18 @@ function ensureLoaded(): void {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   const ny = require("./ny/config").default as StateConfig;
   configs[ny.slug] = ny;
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const ri = require("./ri/config").default as StateConfig;
+  configs[ri.slug] = ri;
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const vt = require("./vt/config").default as StateConfig;
+  configs[vt.slug] = vt;
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const ct = require("./ct/config").default as StateConfig;
+  configs[ct.slug] = ct;
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const me = require("./me/config").default as StateConfig;
+  configs[me.slug] = me;
 }
 
 /** Get the config for a specific state. Throws if unknown. */
