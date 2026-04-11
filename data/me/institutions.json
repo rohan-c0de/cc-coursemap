@@ -27,15 +27,21 @@
           "source_url": "https://www.cmcc.edu"
         }
       },
-      "application_steps": [
-        "Apply online at cmcc.edu",
-        "Register as a non-degree student",
-        "Register for courses during open enrollment"
-      ],
       "restrictions": [
         "Space-available basis only",
         "Some fees may still apply"
-      ]
+      ],
+      "application_process": {
+        "steps": [
+          "Apply online at cmcc.edu",
+          "Register as a non-degree student",
+          "Register for courses during open enrollment"
+        ],
+        "timing": "Register during the normal enrollment period",
+        "form_url": "",
+        "contact_email": "",
+        "contact_phone": ""
+      }
     }
   },
   {
@@ -47,7 +53,7 @@
       {
         "name": "Main Campus (Bangor)",
         "lat": 44.8092,
-        "lng": -68.7870,
+        "lng": -68.787,
         "address": "354 Hogan Rd, Bangor, ME 04401"
       }
     ],
@@ -66,15 +72,21 @@
           "source_url": "https://www.emcc.edu"
         }
       },
-      "application_steps": [
-        "Apply online at emcc.edu",
-        "Register as a non-degree student",
-        "Register for courses during open enrollment"
-      ],
       "restrictions": [
         "Space-available basis only",
         "Some fees may still apply"
-      ]
+      ],
+      "application_process": {
+        "steps": [
+          "Apply online at emcc.edu",
+          "Register as a non-degree student",
+          "Register for courses during open enrollment"
+        ],
+        "timing": "Register during the normal enrollment period",
+        "form_url": "",
+        "contact_email": "",
+        "contact_phone": ""
+      }
     }
   },
   {
@@ -111,15 +123,21 @@
           "source_url": "https://www.kvcc.me.edu"
         }
       },
-      "application_steps": [
-        "Apply online at kvcc.me.edu",
-        "Register as a non-degree student",
-        "Register for courses during open enrollment"
-      ],
       "restrictions": [
         "Space-available basis only",
         "Some fees may still apply"
-      ]
+      ],
+      "application_process": {
+        "steps": [
+          "Apply online at kvcc.me.edu",
+          "Register as a non-degree student",
+          "Register for courses during open enrollment"
+        ],
+        "timing": "Register during the normal enrollment period",
+        "form_url": "",
+        "contact_email": "",
+        "contact_phone": ""
+      }
     }
   },
   {
@@ -150,15 +168,21 @@
           "source_url": "https://www.nmcc.edu"
         }
       },
-      "application_steps": [
-        "Apply online at nmcc.edu",
-        "Register as a non-degree student",
-        "Register for courses during open enrollment"
-      ],
       "restrictions": [
         "Space-available basis only",
         "Some fees may still apply"
-      ]
+      ],
+      "application_process": {
+        "steps": [
+          "Apply online at nmcc.edu",
+          "Register as a non-degree student",
+          "Register for courses during open enrollment"
+        ],
+        "timing": "Register during the normal enrollment period",
+        "form_url": "",
+        "contact_email": "",
+        "contact_phone": ""
+      }
     }
   },
   {
@@ -176,7 +200,7 @@
       {
         "name": "Brunswick Campus",
         "lat": 43.8962,
-        "lng": -69.9350,
+        "lng": -69.935,
         "address": "29 Sewall St, Brunswick, ME 04011"
       }
     ],
@@ -195,15 +219,21 @@
           "source_url": "https://www.smccme.edu"
         }
       },
-      "application_steps": [
-        "Apply online at smccme.edu",
-        "Register as a non-degree student",
-        "Register for courses during open enrollment"
-      ],
       "restrictions": [
         "Space-available basis only",
         "Some fees may still apply"
-      ]
+      ],
+      "application_process": {
+        "steps": [
+          "Apply online at smccme.edu",
+          "Register as a non-degree student",
+          "Register for courses during open enrollment"
+        ],
+        "timing": "Register during the normal enrollment period",
+        "form_url": "",
+        "contact_email": "",
+        "contact_phone": ""
+      }
     }
   },
   {
@@ -234,15 +264,21 @@
           "source_url": "https://www.wccc.me.edu"
         }
       },
-      "application_steps": [
-        "Apply online at wccc.me.edu",
-        "Register as a non-degree student",
-        "Register for courses during open enrollment"
-      ],
       "restrictions": [
         "Space-available basis only",
         "Some fees may still apply"
-      ]
+      ],
+      "application_process": {
+        "steps": [
+          "Apply online at wccc.me.edu",
+          "Register as a non-degree student",
+          "Register for courses during open enrollment"
+        ],
+        "timing": "Register during the normal enrollment period",
+        "form_url": "",
+        "contact_email": "",
+        "contact_phone": ""
+      }
     }
   },
   {
@@ -254,7 +290,7 @@
       {
         "name": "Main Campus (Wells)",
         "lat": 43.3189,
-        "lng": -70.6170,
+        "lng": -70.617,
         "address": "112 College Dr, Wells, ME 04090"
       }
     ],
@@ -273,15 +309,21 @@
           "source_url": "https://www.yccc.edu"
         }
       },
-      "application_steps": [
-        "Apply online at yccc.edu",
-        "Register as a non-degree student",
-        "Register for courses during open enrollment"
-      ],
       "restrictions": [
         "Space-available basis only",
         "Some fees may still apply"
-      ]
+      ],
+      "application_process": {
+        "steps": [
+          "Apply online at yccc.edu",
+          "Register as a non-degree student",
+          "Register for courses during open enrollment"
+        ],
+        "timing": "Register during the normal enrollment period",
+        "form_url": "",
+        "contact_email": "",
+        "contact_phone": ""
+      }
     }
   }
 ]

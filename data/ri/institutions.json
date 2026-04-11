@@ -20,12 +20,12 @@
       {
         "name": "Liston Campus (Providence)",
         "lat": 41.8196,
-        "lng": -71.4150,
+        "lng": -71.415,
         "address": "One Hilton St, Providence, RI 02905"
       },
       {
         "name": "Newport County Campus",
-        "lat": 41.5170,
+        "lat": 41.517,
         "lng": -71.2877,
         "address": "1 John H. Chafee Blvd, Newport, RI 02840"
       }
@@ -45,15 +45,21 @@
           "source_url": "https://www.ccri.edu"
         }
       },
-      "application_steps": [
-        "Apply online at ccri.edu",
-        "Register as a non-degree student",
-        "Register for courses during open enrollment"
-      ],
       "restrictions": [
         "Space-available basis only",
         "Some fees may still apply"
-      ]
+      ],
+      "application_process": {
+        "steps": [
+          "Apply online at ccri.edu",
+          "Register as a non-degree student",
+          "Register for courses during open enrollment"
+        ],
+        "timing": "Register during the normal enrollment period",
+        "form_url": "",
+        "contact_email": "",
+        "contact_phone": ""
+      }
     }
   }
 ]

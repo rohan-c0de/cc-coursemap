@@ -56,13 +56,13 @@
       {
         "name": "St. Albans",
         "lat": 44.8109,
-        "lng": -73.0840,
+        "lng": -73.084,
         "address": "97 N Main Street, St. Albans, VT 05478"
       },
       {
         "name": "St. Johnsbury",
         "lat": 44.4191,
-        "lng": -72.0150,
+        "lng": -72.015,
         "address": "1302 Main Street, St. Johnsbury, VT 05819"
       },
       {
@@ -93,15 +93,21 @@
           "source_url": "https://ccv.edu"
         }
       },
-      "application_steps": [
-        "Apply online at ccv.edu",
-        "Register as a non-degree student",
-        "Register for courses"
-      ],
       "restrictions": [
         "Space-available basis only",
         "Some fees may still apply"
-      ]
+      ],
+      "application_process": {
+        "steps": [
+          "Apply online at ccv.edu",
+          "Register as a non-degree student",
+          "Register for courses"
+        ],
+        "timing": "Register during the normal enrollment period",
+        "form_url": "",
+        "contact_email": "",
+        "contact_phone": ""
+      }
     }
   }
 ]
