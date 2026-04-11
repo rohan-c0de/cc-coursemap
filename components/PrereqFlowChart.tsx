@@ -1,7 +1,5 @@
 "use client";
 
-import { Fragment, useState } from "react";
-
 // ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
@@ -16,304 +14,46 @@ interface ChainNode {
 // Tree utilities
 // ---------------------------------------------------------------------------
 
-function isLinear(node: ChainNode): boolean {
-  if (node.children.length > 1) return false;
-  if (node.children.length === 0) return true;
-  return isLinear(node.children[0]);
-}
-
-function collectLinearPath(node: ChainNode): ChainNode[] {
-  const result: ChainNode[] = [node];
-  let cur = node;
-  while (cur.children.length === 1) {
-    cur = cur.children[0];
-    result.push(cur);
-  }
-  return result.reverse();
-}
-
-function extractAllPaths(node: ChainNode): ChainNode[][] {
-  if (node.children.length === 0) return [[node]];
-  const paths: ChainNode[][] = [];
-  for (const child of node.children) {
-    for (const sub of extractAllPaths(child)) {
-      paths.push([...sub, node]);
-    }
-  }
-  return paths;
-}
-
 function maxDepth(node: ChainNode): number {
   if (node.children.length === 0) return 0;
   return 1 + Math.max(...node.children.map(maxDepth));
 }
 
-// ---------------------------------------------------------------------------
-// Sub-components
-// ---------------------------------------------------------------------------
+/** Flatten the tree into ordered levels (BFS). Each level is a set of
+ *  courses you can take once all deeper levels are done. */
+function buildLevels(node: ChainNode): { course: string; text: string }[][] {
+  const levels: Map<string, { course: string; text: string }>[] = [];
+  const seen = new Set<string>();
 
-type NodeVariant = "target" | "prereq" | "leaf";
+  function walk(n: ChainNode, depth: number) {
+    // Avoid infinite loops from circular prereqs
+    const key = `${n.course}@${depth}`;
+    if (seen.has(n.course)) return;
+    seen.add(n.course);
 
-function NodeCard({
-  node,
-  variant,
-  step,
-}: {
-  node: ChainNode;
-  variant: NodeVariant;
-  step?: number;
-}) {
-  const [hover, setHover] = useState(false);
+    // Ensure the level array exists
+    while (levels.length <= depth) levels.push(new Map());
 
-  const styles: Record<NodeVariant, string> = {
-    target: `
-      bg-gradient-to-br from-amber-50 to-amber-100
-      dark:from-amber-900/60 dark:to-amber-800/40
-      border-amber-300 dark:border-amber-500/70
-      text-amber-900 dark:text-amber-100
-      shadow-amber-200/50 dark:shadow-amber-900/30
-      shadow-md
-    `,
-    prereq: `
-      bg-white/90 dark:bg-slate-700/60
-      border-slate-200 dark:border-slate-600/80
-      text-slate-700 dark:text-slate-200
-      shadow-sm
-      backdrop-blur-sm
-    `,
-    leaf: `
-      bg-gradient-to-br from-emerald-50 to-teal-50
-      dark:from-emerald-900/40 dark:to-teal-900/30
-      border-emerald-300 dark:border-emerald-600/70
-      text-emerald-800 dark:text-emerald-200
-      shadow-emerald-200/40 dark:shadow-emerald-900/20
-      shadow-md
-    `,
-  };
+    levels[depth].set(n.course, { course: n.course, text: n.text });
 
-  const stepStyles: Record<NodeVariant, string> = {
-    target: "bg-amber-400/80 dark:bg-amber-500/60 text-white dark:text-amber-100",
-    prereq: "bg-slate-200 dark:bg-slate-600 text-slate-500 dark:text-slate-300",
-    leaf: "bg-emerald-400/70 dark:bg-emerald-500/50 text-white dark:text-emerald-100",
-  };
-
-  return (
-    <div
-      className="relative group"
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-    >
-      <div
-        className={`
-          relative flex items-center gap-1.5
-          rounded-xl border px-3 py-1.5
-          text-[11px] font-bold tracking-wide whitespace-nowrap shrink-0
-          transition-all duration-200
-          hover:scale-[1.04] hover:-translate-y-px
-          cursor-default
-          ${styles[variant]}
-        `}
-      >
-        {step !== undefined && (
-          <span
-            className={`
-              inline-flex items-center justify-center
-              w-[16px] h-[16px] rounded-full text-[8px] font-black leading-none
-              ${stepStyles[variant]}
-            `}
-          >
-            {step}
-          </span>
-        )}
-        {node.course}
-      </div>
-
-      {/* Tooltip */}
-      {hover && node.text && (
-        <div
-          className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5
-            px-3 py-2 rounded-xl
-            bg-slate-900/95 dark:bg-slate-700/95
-            backdrop-blur-md
-            text-white text-[10px] leading-relaxed
-            max-w-[240px] whitespace-normal
-            shadow-2xl shadow-black/20
-            z-50 pointer-events-none
-            animate-in fade-in-0 zoom-in-95 duration-150"
-        >
-          <span className="font-bold text-white/90">{node.course}</span>
-          <br />
-          <span className="text-slate-300 dark:text-slate-300">
-            {node.text}
-          </span>
-          <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-slate-900/95 dark:border-t-slate-700/95" />
-        </div>
-      )}
-    </div>
-  );
-}
-
-/** Animated flowing connector arrow between nodes */
-function Connector({ animate = true }: { animate?: boolean }) {
-  return (
-    <div className="flex items-center shrink-0 mx-1 relative">
-      {/* Track line */}
-      <div className="w-6 h-[2px] rounded-full bg-gradient-to-r from-slate-200 via-slate-300 to-slate-200 dark:from-slate-700 dark:via-slate-600 dark:to-slate-700 overflow-hidden relative">
-        {/* Animated flow pulse */}
-        {animate && (
-          <div
-            className="absolute inset-y-0 w-3 bg-gradient-to-r from-transparent via-amber-400/60 to-transparent dark:via-amber-500/40 animate-[flow_2s_ease-in-out_infinite]"
-          />
-        )}
-      </div>
-      {/* Arrow head */}
-      <svg width="6" height="10" viewBox="0 0 6 10" className="shrink-0 -ml-0.5">
-        <polygon
-          points="0,1 5,5 0,9"
-          className="fill-slate-300 dark:fill-slate-500"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
-  );
-}
-
-/** "or" pill between alternative paths */
-function OrDivider() {
-  return (
-    <div className="flex items-center gap-2 py-1 px-1">
-      <div className="flex-1 h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent dark:via-slate-700" />
-      <span
-        className="text-[8px] font-black uppercase tracking-[0.2em] text-slate-300 dark:text-slate-600 select-none"
-      >
-        or
-      </span>
-      <div className="flex-1 h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent dark:via-slate-700" />
-    </div>
-  );
-}
-
-/** Curved SVG merge bracket connecting paths to the target */
-function MergeBracket({ pathCount }: { pathCount: number }) {
-  // Height of each path row + or-divider spacing
-  const rowH = 32;
-  const orH = 24;
-  const totalH = pathCount * rowH + (pathCount - 1) * orH;
-  const midY = totalH / 2;
-  const w = 28;
-
-  return (
-    <svg
-      width={w}
-      height={totalH}
-      viewBox={`0 0 ${w} ${totalH}`}
-      className="shrink-0 mx-0.5"
-      style={{ minHeight: totalH }}
-    >
-      {/* Curved lines from each path center to the merge point */}
-      {Array.from({ length: pathCount }, (_, i) => {
-        const y = i * (rowH + orH) + rowH / 2;
-        const cp1x = w * 0.5;
-        return (
-          <path
-            key={i}
-            d={`M 2,${y} C ${cp1x},${y} ${cp1x},${midY} ${w - 8},${midY}`}
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            className="text-slate-300 dark:text-slate-600"
-            strokeLinecap="round"
-          />
-        );
-      })}
-      {/* Arrow tip */}
-      <polygon
-        points={`${w - 8},${midY - 3} ${w - 2},${midY} ${w - 8},${midY + 3}`}
-        className="fill-slate-300 dark:fill-slate-500"
-      />
-    </svg>
-  );
-}
-
-// ---------------------------------------------------------------------------
-// Layouts
-// ---------------------------------------------------------------------------
-
-function LinearFlow({ path }: { path: ChainNode[] }) {
-  return (
-    <div className="flex items-center">
-      {path.map((node, i) => {
-        const isLast = i === path.length - 1;
-        const isFirst = i === 0;
-        return (
-          <Fragment key={`${node.course}-${i}`}>
-            <NodeCard
-              node={node}
-              variant={isLast ? "target" : isFirst ? "leaf" : "prereq"}
-              step={i + 1}
-            />
-            {!isLast && <Connector />}
-          </Fragment>
-        );
-      })}
-    </div>
-  );
-}
-
-function BranchingFlow({ node }: { node: ChainNode }) {
-  let paths: ChainNode[][] = [];
-  for (const child of node.children) {
-    paths.push(...extractAllPaths(child));
+    for (const child of n.children) {
+      walk(child, depth + 1);
+    }
   }
-  const capped = paths.length > 8;
-  if (capped) paths = paths.slice(0, 8);
 
-  return (
-    <div className="flex items-center">
-      {/* Alternative paths */}
-      <div className="flex flex-col">
-        {paths.map((path, i) => (
-          <Fragment key={i}>
-            {i > 0 && <OrDivider />}
-            <div className="flex items-center">
-              {path.map((n, j) => {
-                const isFirst = j === 0;
-                const isLast = j === path.length - 1;
-                return (
-                  <Fragment key={`${n.course}-${j}`}>
-                    <NodeCard
-                      node={n}
-                      variant={
-                        isFirst && n.children.length === 0 ? "leaf" : "prereq"
-                      }
-                    />
-                    {!isLast && <Connector />}
-                  </Fragment>
-                );
-              })}
-            </div>
-          </Fragment>
-        ))}
-        {capped && (
-          <p className="text-[9px] text-slate-400 dark:text-slate-500 pl-2 pt-1 italic">
-            + {paths.length - 8} more paths&hellip;
-          </p>
-        )}
-      </div>
+  // Walk children (skip root — that's the target course)
+  for (const child of node.children) {
+    walk(child, 0);
+  }
 
-      {/* Merge bracket → target */}
-      {paths.length > 1 ? (
-        <MergeBracket pathCount={paths.length} />
-      ) : (
-        <Connector />
-      )}
-      <NodeCard node={node} variant="target" />
-    </div>
-  );
+  // Reverse so deepest prereqs (start courses) come first
+  levels.reverse();
+
+  return levels.map((m) => Array.from(m.values()));
 }
 
 // ---------------------------------------------------------------------------
-// CSS keyframes (injected via style tag for the flow animation)
+// CSS keyframes
 // ---------------------------------------------------------------------------
 
 function FlowStyles() {
@@ -336,51 +76,151 @@ export default function PrereqFlowChart({ tree }: { tree: ChainNode }) {
   if (tree.children.length === 0) return null;
 
   const depth = maxDepth(tree);
-  const linear = isLinear(tree);
-  const path = linear ? collectLinearPath(tree) : null;
+  const levels = buildLevels(tree);
 
+  // If there's only one prereq with no further prereqs, show simple view
+  if (depth === 1 && tree.children.length <= 3) {
+    return (
+      <div className="space-y-2">
+        <FlowStyles />
+        <p className="text-[11px] font-medium text-slate-500 dark:text-slate-400">
+          Take {tree.children.length === 1 ? "this" : "these"} first:
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {tree.children.map((child) => (
+            <div
+              key={child.course}
+              className="inline-flex items-center gap-2 rounded-lg border border-emerald-200 dark:border-emerald-700/60 bg-emerald-50/80 dark:bg-emerald-900/30 px-3 py-1.5"
+            >
+              <span className="text-[11px] font-bold text-emerald-700 dark:text-emerald-300">
+                {child.course}
+              </span>
+              {child.text && (
+                <span className="text-[10px] text-emerald-600/70 dark:text-emerald-400/70">
+                  {child.text}
+                </span>
+              )}
+            </div>
+          ))}
+        </div>
+        <div className="flex items-center gap-1.5 pt-1">
+          <svg className="w-3 h-3 text-slate-300 dark:text-slate-600" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+          </svg>
+          <span className="text-[11px] font-medium text-amber-600 dark:text-amber-400">
+            Then take {tree.course}
+          </span>
+        </div>
+      </div>
+    );
+  }
+
+  // Multi-level: show step-by-step
   return (
-    <div className="space-y-3">
+    <div className="space-y-1">
       <FlowStyles />
 
-      {/* Header stats */}
-      <div className="flex items-center gap-2.5 text-[10px] font-semibold">
-        <span className="inline-flex items-center gap-1.5 text-slate-400 dark:text-slate-500">
-          <svg
-            className="w-3 h-3"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={2.5}
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
-            />
-          </svg>
-          {linear
-            ? `${depth + 1} courses in sequence`
-            : `${depth} ${depth === 1 ? "level" : "levels"} deep`}
-        </span>
-        {!linear && (
-          <span className="inline-flex items-center gap-1 text-slate-300 dark:text-slate-600">
-            <span className="w-px h-3 bg-slate-200 dark:bg-slate-700" />
-            <span className="text-slate-400 dark:text-slate-500">
-              {tree.children.length} {tree.children.length === 1 ? "path" : "paths"}
-            </span>
-          </span>
-        )}
-      </div>
+      {/* Steps */}
+      <ol className="relative space-y-0">
+        {levels.map((level, i) => {
+          const isFirst = i === 0;
+          const stepNum = i + 1;
+          const label = isFirst
+            ? "Start here"
+            : `Step ${stepNum}`;
 
-      {/* Flowchart */}
-      <div className="overflow-x-auto pb-2 -mx-1 px-1">
-        {linear && path ? (
-          <LinearFlow path={path} />
-        ) : (
-          <BranchingFlow node={tree} />
-        )}
-      </div>
+          return (
+            <li key={i} className="relative flex gap-3 pb-3">
+              {/* Vertical line */}
+              {i < levels.length - 1 && (
+                <div className="absolute left-[11px] top-[24px] bottom-0 w-px bg-gradient-to-b from-slate-200 to-slate-100 dark:from-slate-600 dark:to-slate-700" />
+              )}
+
+              {/* Step indicator */}
+              <div className="shrink-0 flex flex-col items-center">
+                <div
+                  className={`
+                    flex items-center justify-center w-[23px] h-[23px] rounded-full text-[9px] font-black
+                    ${isFirst
+                      ? "bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 ring-2 ring-emerald-200 dark:ring-emerald-700/60"
+                      : "bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 ring-1 ring-slate-200 dark:ring-slate-600"
+                    }
+                  `}
+                >
+                  {stepNum}
+                </div>
+              </div>
+
+              {/* Content */}
+              <div className="flex-1 min-w-0 pt-0.5">
+                <p className="text-[10px] font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-1.5">
+                  {label}
+                </p>
+                <div className="flex flex-wrap gap-1.5">
+                  {level.map((item) => (
+                    <div
+                      key={item.course}
+                      className={`
+                        inline-flex items-center gap-2 rounded-lg border px-2.5 py-1.5
+                        ${isFirst
+                          ? "border-emerald-200 dark:border-emerald-700/60 bg-emerald-50/80 dark:bg-emerald-900/30"
+                          : "border-slate-200 dark:border-slate-600/60 bg-white/80 dark:bg-slate-700/50"
+                        }
+                      `}
+                    >
+                      <span
+                        className={`text-[11px] font-bold ${
+                          isFirst
+                            ? "text-emerald-700 dark:text-emerald-300"
+                            : "text-slate-700 dark:text-slate-200"
+                        }`}
+                      >
+                        {item.course}
+                      </span>
+                      {item.text && (
+                        <span className="text-[10px] text-slate-400 dark:text-slate-500 truncate max-w-[150px]">
+                          {item.text}
+                        </span>
+                      )}
+                    </div>
+                  ))}
+                  {level.length > 1 && (
+                    <span className="self-center text-[9px] font-medium text-slate-300 dark:text-slate-600 italic">
+                      (take all)
+                    </span>
+                  )}
+                </div>
+              </div>
+            </li>
+          );
+        })}
+
+        {/* Final: Target course */}
+        <li className="relative flex gap-3">
+          <div className="shrink-0 flex flex-col items-center">
+            <div className="flex items-center justify-center w-[23px] h-[23px] rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-600 dark:text-amber-400 ring-2 ring-amber-200 dark:ring-amber-700/60">
+              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
+            </div>
+          </div>
+          <div className="flex-1 pt-0.5">
+            <p className="text-[10px] font-semibold text-amber-500 dark:text-amber-400 uppercase tracking-wider mb-1.5">
+              Ready
+            </p>
+            <div className="inline-flex items-center gap-2 rounded-lg border border-amber-200 dark:border-amber-600/60 bg-amber-50/80 dark:bg-amber-900/30 px-2.5 py-1.5">
+              <span className="text-[11px] font-bold text-amber-700 dark:text-amber-200">
+                {tree.course}
+              </span>
+              {tree.text && (
+                <span className="text-[10px] text-amber-500 dark:text-amber-400/70 truncate max-w-[180px]">
+                  {tree.text}
+                </span>
+              )}
+            </div>
+          </div>
+        </li>
+      </ol>
     </div>
   );
 }
