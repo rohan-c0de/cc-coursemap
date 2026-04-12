@@ -348,4 +348,36 @@ export const articles: ArticleMeta[] = [
     author: "Community College Path",
     tags: ["online", "hybrid", "in-person", "course-format", "scheduling"],
   },
+
+  // --- Cluster A spoke: NJ transfer ---
+  {
+    slug: "new-jersey-community-college-transfer-credit-guide",
+    title:
+      "How New Jersey Community College Transfer Credit Actually Works: An NJTransfer Student's Guide",
+    description:
+      "NJ has 40 receiving institutions — but the same course can be a direct match at Rowan (96%) and worth nothing at Rutgers Engineering (13%). Here's how to navigate it.",
+    date: "2026-04-12",
+    category: "state-system-explainers",
+    state: "nj",
+    author: "Community College Path",
+    tags: ["transfer", "new-jersey", "njtransfer", "rutgers", "rowan", "njit"],
+    cluster: "transfer-credit-guide",
+    clusterRole: "spoke",
+  },
+
+  // --- Cluster A spoke: cross-state comparison ---
+  {
+    slug: "comparing-transfer-credit-across-states",
+    title:
+      "How Transfer Credit Compares Across States: What 300,000+ Equivalencies Reveal",
+    description:
+      "We analyzed 300,000+ transfer equivalencies across 12 states. Direct match rates range from 12% to 56%. Here's what the data shows — and what it means for your transfer plan.",
+    date: "2026-04-12",
+    category: "transfer-confusion",
+    state: null,
+    author: "Community College Path",
+    tags: ["transfer", "comparison", "direct-match", "elective-credit", "cross-state"],
+    cluster: "transfer-credit-guide",
+    clusterRole: "spoke",
+  },
 ];
