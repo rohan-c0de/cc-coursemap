@@ -134,33 +134,39 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
       });
   }, [user, state]);
 
+  const [bookmarkError, setBookmarkError] = useState<string | null>(null);
+
   const toggleBookmark = useCallback(async (course: CourseGroup) => {
     if (!user) { openLoginModal(); return; }
     const key = `${course.prefix}-${course.number}`;
     setBookmarkLoading((prev) => new Set(prev).add(key));
+    setBookmarkError(null);
     try {
       const supabase = createClient();
       if (bookmarkedCourses.has(key)) {
-        await supabase
+        const { error } = await supabase
           .from("saved_courses")
           .delete()
           .eq("user_id", user.id)
           .eq("state", state)
           .eq("course_prefix", course.prefix)
           .eq("course_number", course.number);
+        if (error) throw error;
         setBookmarkedCourses((prev) => { const next = new Set(prev); next.delete(key); return next; });
       } else {
-        await supabase.from("saved_courses").insert({
+        const { error } = await supabase.from("saved_courses").insert({
           user_id: user.id,
           state,
           course_prefix: course.prefix,
           course_number: course.number,
           course_title: course.title,
         });
+        if (error) throw error;
         setBookmarkedCourses((prev) => new Set(prev).add(key));
       }
     } catch {
-      // silently fail
+      setBookmarkError(`Failed to ${bookmarkedCourses.has(key) ? "remove" : "save"} bookmark. Please try again.`);
+      setTimeout(() => setBookmarkError(null), 4000);
     }
     setBookmarkLoading((prev) => { const next = new Set(prev); next.delete(key); return next; });
   }, [user, openLoginModal, bookmarkedCourses, state]);
@@ -402,6 +408,13 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
           </div>
         </div>
       </form>
+
+      {/* Bookmark error */}
+      {bookmarkError && (
+        <div className="rounded-lg border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-900/30 p-3 mb-4">
+          <p className="text-sm text-amber-800 dark:text-amber-300">{bookmarkError}</p>
+        </div>
+      )}
 
       {/* Error */}
       {error && (

@@ -20,7 +20,7 @@ type PageProps = {
 // ---------------------------------------------------------------------------
 
 function parseCode(code: string): { prefix: string; number: string } | null {
-  const match = code.toUpperCase().match(/^([A-Z]{2,5})-(\d{3,5}[A-Z]?)$/);
+  const match = code.toUpperCase().match(/^([A-Z]{2,5})-(\d{3,5}[A-Z]{0,3})$/);
   if (!match) return null;
   return { prefix: match[1], number: match[2] };
 }

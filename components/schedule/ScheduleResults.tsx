@@ -261,15 +261,17 @@ export default function ScheduleResults({ response, state, formData }: Props) {
   const wasGrouped = groups.length < schedules.length;
   const hasTransferData = schedules.some((s) => s.sections.some((sec) => sec.transferStatus));
 
-  if (meta.message && schedules.length === 0) {
+  if (schedules.length === 0) {
     return (
       <div className="rounded-lg border border-dashed border-gray-300 dark:border-slate-600 py-12 text-center">
         <svg className="mx-auto h-8 w-8 text-gray-300 dark:text-slate-600 mb-3" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
         </svg>
-        <p className="text-gray-500 dark:text-slate-400 font-medium">{meta.message}</p>
+        <p className="text-gray-500 dark:text-slate-400 font-medium">
+          {meta.message || "No conflict-free schedules found"}
+        </p>
         <p className="mt-1 text-sm text-gray-400 dark:text-slate-500">
-          Try adjusting your constraints and search again.
+          Try adding more subjects, widening your time window, or relaxing filters.
         </p>
       </div>
     );
