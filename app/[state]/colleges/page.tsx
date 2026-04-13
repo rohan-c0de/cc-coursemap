@@ -22,6 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `All ${config.collegeCount} ${config.systemName} Colleges — ${config.branding.siteName}`,
     description: `Browse all ${config.name} community colleges — see course counts, transfer data, and campus locations.`,
     keywords: config.branding.metaKeywords,
+    alternates: { canonical: `/${state}/colleges` },
   };
 }
 

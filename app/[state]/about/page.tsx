@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `About — ${config.branding.siteName}`,
     description: `Learn about ${config.branding.siteName} — search courses, check transfer equivalencies, build schedules, and find auditing info for ${config.name} community colleges.`,
+    alternates: { canonical: `/${state}/about` },
   };
 }
 

@@ -17,6 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Courses Starting Soon — Late-Start Classes | ${config.branding.siteName}`,
     description: `Find late-start courses, mini-sessions, and upcoming classes across all ${config.collegeCount} ${config.name} community colleges. Don't miss registration deadlines.`,
+    alternates: { canonical: `/${state}/starting-soon` },
   };
 }
 

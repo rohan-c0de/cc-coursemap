@@ -34,6 +34,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
         ? "Auditing is available."
         : "Contact the college to confirm audit policies."
     }`,
+    alternates: { canonical: `/${state}/college/${id}` },
   };
 }
 

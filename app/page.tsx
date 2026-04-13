@@ -20,6 +20,20 @@ export const metadata: Metadata = {
     "senior tuition waiver",
     "community college near me",
   ],
+  openGraph: {
+    title: "Community College Path — Course Finder & Transfer Guide",
+    description: `Search courses, plan transfers, and build schedules across community colleges in ${STATE_LIST_SENTENCE}.`,
+    type: "website",
+    url: "/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Community College Path — Course Finder & Transfer Guide",
+    description: `Search courses, plan transfers, and build schedules across community colleges in ${STATE_LIST_SENTENCE}.`,
+  },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function LandingPage() {

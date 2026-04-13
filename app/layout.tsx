@@ -19,6 +19,31 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com"
   ),
+  title: {
+    default: "Community College Path — Course Finder & Transfer Guide",
+    template: "%s | Community College Path",
+  },
+  description:
+    "Search courses, plan transfers, and build schedules across 190+ community colleges in 15 states. Free course finder for community college students.",
+  openGraph: {
+    type: "website",
+    siteName: "Community College Path",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({

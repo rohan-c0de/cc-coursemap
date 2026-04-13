@@ -13,6 +13,20 @@ export const metadata: Metadata = {
   title: "Blog — Community College Path",
   description:
     "Practical guides for community college course planning, transfer credits, scheduling, and senior tuition waivers.",
+  openGraph: {
+    title: "Blog — Community College Path",
+    description:
+      "Practical guides for community college course planning, transfer credits, scheduling, and senior tuition waivers.",
+    type: "website",
+    url: "/blog",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog — Community College Path",
+    description:
+      "Practical guides for community college course planning, transfer credits, scheduling, and senior tuition waivers.",
+  },
+  alternates: { canonical: "/blog" },
 };
 
 type Props = {
