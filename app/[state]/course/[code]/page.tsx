@@ -69,16 +69,26 @@ function isValidTime(t: string): boolean {
 }
 
 function expandDays(days: string): string {
-  if (!days) return "";
-  return days
-    .replace(/M(?!o)/g, "Mon ")
-    .replace(/Tu/g, "Tue ")
-    .replace(/W(?!e)/g, "Wed ")
-    .replace(/Th/g, "Thu ")
-    .replace(/F(?!r)/g, "Fri ")
-    .replace(/Sa/g, "Sat ")
-    .replace(/Su/g, "Sun ")
-    .trim();
+  if (!days || !days.trim()) return "";
+  const DAY_MAP: Record<string, string> = {
+    M: "Mon", Tu: "Tue", W: "Wed", Th: "Thu", F: "Fri", Sa: "Sat", Su: "Sun",
+    TH: "Thu", SU: "Sun", TU: "Tue", SA: "Sat",
+  };
+  // Parse two-char abbreviations first, then single-char
+  const result: string[] = [];
+  let i = 0;
+  // Normalize: strip commas, extra whitespace
+  const cleaned = days.replace(/[,\s]+/g, "").trim();
+  while (i < cleaned.length) {
+    if (i + 1 < cleaned.length) {
+      const two = cleaned.substring(i, i + 2);
+      if (DAY_MAP[two]) { result.push(DAY_MAP[two]); i += 2; continue; }
+    }
+    const one = cleaned[i];
+    if (DAY_MAP[one]) result.push(DAY_MAP[one]);
+    i++;
+  }
+  return result.join(" ");
 }
 
 function formatSchedule(s: CourseSection): string {

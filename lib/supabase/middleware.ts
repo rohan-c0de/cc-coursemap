@@ -47,7 +47,13 @@ export async function updateSession(request: NextRequest) {
   // IMPORTANT: Use getUser() not getSession(). getUser() sends a request
   // to the Supabase Auth server, while getSession() only reads the JWT
   // from cookies without validation.
-  await supabase.auth.getUser();
+  try {
+    await supabase.auth.getUser();
+  } catch {
+    // If Supabase is unreachable or returns a network error, let the
+    // request continue without a refreshed session. The page will still
+    // render — auth-dependent components will treat the user as logged out.
+  }
 
   return supabaseResponse;
 }

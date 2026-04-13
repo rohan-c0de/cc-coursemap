@@ -24,10 +24,10 @@ export default function BlogLayout({
           <div className="flex items-center gap-3">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-teal-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xs">CCM</span>
+                <span className="text-white font-bold text-xs">CCP</span>
               </div>
               <span className="text-xl font-semibold text-gray-900 dark:text-slate-100">
-                CC <span className="text-teal-600">CourseMap</span>
+                Community College <span className="text-teal-600">Path</span>
               </span>
             </Link>
             <span className="text-gray-300 dark:text-slate-600">/</span>

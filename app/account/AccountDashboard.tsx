@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
+import { useAuth } from "@/lib/hooks/useAuth";
 import { getAllStates } from "@/lib/states/registry";
 
 // ---------------------------------------------------------------------------
@@ -129,6 +130,7 @@ export default function AccountDashboard({
   savedTransfers: initialTransfers,
 }: Props) {
   const router = useRouter();
+  const { signOut } = useAuth();
   const [defaultState, setDefaultState] = useState(user.defaultState ?? "");
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
@@ -187,6 +189,7 @@ export default function AccountDashboard({
     try {
       const res = await fetch("/api/account/delete", { method: "DELETE" });
       if (res.ok) {
+        await signOut();
         router.push("/");
       } else {
         alert("Failed to delete account. Please try again.");
