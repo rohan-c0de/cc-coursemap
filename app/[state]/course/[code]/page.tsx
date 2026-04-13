@@ -94,28 +94,10 @@ function formatSchedule(s: CourseSection): string {
 // Static params — generate one page per (state, unique course)
 // ---------------------------------------------------------------------------
 
+// Return empty — all 25k+ course pages are generated on-demand via ISR
+// (revalidate = 86400). The sitemap still lists every URL so Google finds them.
 export async function generateStaticParams() {
-  const all: { state: string; code: string }[] = [];
-
-  for (const stateConfig of getAllStates()) {
-    try {
-      const currentTerm = await getCurrentTerm(stateConfig.slug);
-      const courses = await loadAllCourses(currentTerm, stateConfig.slug);
-      const seen = new Set<string>();
-
-      for (const s of courses) {
-        const key = `${s.course_prefix}-${s.course_number}`.toLowerCase();
-        if (!seen.has(key)) {
-          seen.add(key);
-          all.push({ state: stateConfig.slug, code: key });
-        }
-      }
-    } catch {
-      // Skip state if data loading fails
-    }
-  }
-
-  return all;
+  return [];
 }
 
 // ---------------------------------------------------------------------------
