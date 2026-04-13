@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import ThemeToggle from "@/components/ThemeToggle";
+import UserMenu from "@/components/auth/UserMenu";
 
 const NAV_ITEMS = [
   { path: "", label: "Search" },
@@ -63,11 +64,13 @@ export default function Header({ state = "va", stateName, transferSupported = tr
           >
             Blog
           </Link>
+          <UserMenu />
           <ThemeToggle />
         </nav>
 
-        {/* Mobile theme toggle + hamburger button */}
+        {/* Mobile: user menu + theme toggle + hamburger */}
         <div className="sm:hidden flex items-center gap-2">
+          <UserMenu />
           <ThemeToggle />
         <button
           type="button"

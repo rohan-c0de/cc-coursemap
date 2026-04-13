@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getAllStates } from "@/lib/states/registry";
 import ThemeToggle from "@/components/ThemeToggle";
+import UserMenu from "@/components/auth/UserMenu";
 
 const STATE_NAMES = getAllStates().map((s) => s.name);
 const STATE_LIST_SENTENCE =
@@ -66,6 +67,7 @@ export default function LandingPage() {
             >
               Blog
             </Link>
+            <UserMenu />
             <ThemeToggle />
           </div>
         </div>

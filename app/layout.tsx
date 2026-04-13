@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import AdSenseScript from "@/components/AdSenseScript";
 import ThemeProvider from "@/components/ThemeProvider";
+import AuthProvider from "@/components/AuthProvider";
+import LoginModal from "@/components/auth/LoginModal";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -59,9 +61,12 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-white dark:bg-slate-900 text-gray-900 dark:text-slate-100">
         <ThemeProvider>
-          <GoogleAnalytics />
-          <AdSenseScript />
-          {children}
+          <AuthProvider>
+            <GoogleAnalytics />
+            <AdSenseScript />
+            {children}
+            <LoginModal />
+          </AuthProvider>
         </ThemeProvider>
       </body>
     </html>

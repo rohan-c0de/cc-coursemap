@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import ThemeToggle from "@/components/ThemeToggle";
+import UserMenu from "@/components/auth/UserMenu";
 
 export const metadata: Metadata = {
   alternates: {
@@ -44,6 +45,7 @@ export default function BlogLayout({
             >
               Find Courses
             </Link>
+            <UserMenu />
             <ThemeToggle />
           </div>
         </div>
