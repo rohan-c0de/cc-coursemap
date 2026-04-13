@@ -17,6 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Search Results — ${config.branding.siteName}`,
     description: `Community colleges near you in ${config.name} that offer course auditing.`,
+    robots: { index: false, follow: true },
   };
 }
 

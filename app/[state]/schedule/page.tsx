@@ -18,6 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Smart Schedule Builder — ${config.branding.siteName}`,
     description: `Build conflict-free course schedules across all ${config.collegeCount} ${config.name} community colleges. Set your constraints and get personalized schedule suggestions.`,
+    robots: { index: false, follow: true },
   };
 }
 

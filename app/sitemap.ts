@@ -23,11 +23,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     entries.push(
       { url: `${baseUrl}/${s}`, changeFrequency: "weekly", priority: 1 },
       { url: `${baseUrl}/${s}/courses`, changeFrequency: "weekly", priority: 0.9 },
-      { url: `${baseUrl}/${s}/schedule`, changeFrequency: "weekly", priority: 0.8 },
       { url: `${baseUrl}/${s}/colleges`, changeFrequency: "weekly", priority: 0.9 },
       { url: `${baseUrl}/${s}/starting-soon`, changeFrequency: "daily", priority: 0.85 },
-      { url: `${baseUrl}/${s}/results`, changeFrequency: "weekly", priority: 0.8 },
       { url: `${baseUrl}/${s}/about`, changeFrequency: "monthly", priority: 0.6 },
+      // /results and /schedule are noindexed (client-side interactive tools)
     );
     if (state.transferSupported) {
       entries.push({ url: `${baseUrl}/${s}/transfer`, changeFrequency: "weekly" as const, priority: 0.85 });
@@ -49,7 +48,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.7,
       });
 
-      // Subject pages (pSEO)
+      // Subject pages (pSEO) — only include if ≥3 sections to avoid thin content
       try {
         const courses = await loadCoursesForCollege(
           inst.college_slug,
@@ -58,11 +57,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         );
         const subjects = getUniqueSubjects(courses);
         for (const prefix of subjects) {
-          subjectPages.push({
-            url: `${baseUrl}/${state.slug}/college/${inst.id}/courses/${prefix.toLowerCase()}`,
-            changeFrequency: "weekly" as const,
-            priority: 0.6,
-          });
+          const sectionCount = courses.filter(
+            (c) => c.course_prefix === prefix
+          ).length;
+          if (sectionCount >= 3) {
+            subjectPages.push({
+              url: `${baseUrl}/${state.slug}/college/${inst.id}/courses/${prefix.toLowerCase()}`,
+              changeFrequency: "weekly" as const,
+              priority: 0.6,
+            });
+          }
         }
       } catch {
         // Skip if course loading fails
