@@ -2,7 +2,13 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { loadInstitutions } from "@/lib/institutions";
-import { loadCoursesForCollege, isDataStale, getAvailableTerms } from "@/lib/courses";
+import {
+  loadCoursesForCollege,
+  isDataStale,
+  getAvailableTerms,
+  trimCoursesForClient,
+  filterTransferLookupToCourses,
+} from "@/lib/courses";
 import { isInProgress } from "@/lib/course-status";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
 import CollegeDetailClient from "./CollegeDetailClient";
@@ -264,10 +270,13 @@ export default async function CollegeDetailPage(props: PageProps) {
           </div>
         ) : (
           <CollegeDetailClient
-            courses={courses}
+            courses={trimCoursesForClient(courses)}
             institution={institution}
             collegeSlug={collegeSlug}
-            transferLookup={await buildTransferLookup(state)}
+            transferLookup={filterTransferLookupToCourses(
+              await buildTransferLookup(state),
+              courses
+            )}
             systemName={config.systemName}
             courseListingUrl={config.courseDiscoveryUrl(collegeSlug, "__PREFIX__", "__NUMBER__", currentTerm)}
             state={state}

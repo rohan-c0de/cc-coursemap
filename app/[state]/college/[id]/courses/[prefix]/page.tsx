@@ -6,6 +6,8 @@ import {
   loadCoursesForCollege,
   getAvailableTerms,
   getUniqueSubjects,
+  trimCoursesForClient,
+  filterTransferLookupToCourses,
 } from "@/lib/courses";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
 import { getStateConfig, getAllStates } from "@/lib/states/registry";
@@ -349,10 +351,10 @@ export default async function SubjectPage(props: PageProps) {
       {/* Course table */}
       <section>
         <CollegeDetailClient
-          courses={courses}
+          courses={trimCoursesForClient(courses)}
           institution={institution}
           collegeSlug={institution.college_slug}
-          transferLookup={transferLookup}
+          transferLookup={filterTransferLookupToCourses(transferLookup, courses)}
           systemName={config.systemName}
           courseListingUrl={config.courseDiscoveryUrl(
             institution.college_slug,
