@@ -33,8 +33,12 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
-# vercel
-.vercel
+# vercel — ignore contents (not the dir itself) so we can un-ignore project.json
+.vercel/*
+# ...but commit the project binding so `vercel` CLI always targets cc-coursemap
+# (otherwise `vercel link --yes` auto-picks the `auditmap-virginia` project
+# based on directory name). Only projectId/orgId/projectName — no secrets.
+!.vercel/project.json
 
 # supabase
 supabase/.temp/
