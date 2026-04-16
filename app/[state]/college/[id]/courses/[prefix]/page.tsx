@@ -8,7 +8,7 @@ import {
   getUniqueSubjects,
 } from "@/lib/courses";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
-import { getStateConfig, getAllStates } from "@/lib/states/registry";
+import { getStateConfig } from "@/lib/states/registry";
 import { buildTransferLookup } from "@/lib/transfer";
 import { subjectName } from "@/lib/subjects";
 import CollegeDetailClient from "../../CollegeDetailClient";
@@ -26,31 +26,10 @@ type PageProps = {
 // Static params — generate one page per (state, college, subject)
 // ---------------------------------------------------------------------------
 
+// All pages generated on-demand via ISR — avoids build-time Supabase calls
+// for states where getCurrentTerm may not match the available data term.
 export async function generateStaticParams() {
-  const all: { state: string; id: string; prefix: string }[] = [];
-
-  for (const stateConfig of getAllStates()) {
-    const institutions = loadInstitutions(stateConfig.slug);
-    const currentTerm = await getCurrentTerm(stateConfig.slug);
-
-    for (const inst of institutions) {
-      const courses = await loadCoursesForCollege(
-        inst.college_slug,
-        currentTerm,
-        stateConfig.slug
-      );
-      const subjects = getUniqueSubjects(courses);
-      for (const prefix of subjects) {
-        all.push({
-          state: stateConfig.slug,
-          id: inst.id,
-          prefix: prefix.toLowerCase(),
-        });
-      }
-    }
-  }
-
-  return all;
+  return [];
 }
 
 // ---------------------------------------------------------------------------
@@ -67,20 +46,41 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   if (!institution) return { title: "Not Found" };
 
   const subject = subjectName(prefix);
-  const currentTerm = await getCurrentTerm(state);
-  const courses = await loadCoursesForCollege(
+
+  // Resolve term with fallback (same logic as page component)
+  const allTerms = await getAvailableTerms(state);
+  let resolvedTerm = await getCurrentTerm(state);
+  let courses = await loadCoursesForCollege(
     institution.college_slug,
-    currentTerm,
+    resolvedTerm,
     state
   );
-  const filtered = courses.filter((c) => c.course_prefix === prefix);
+  let filtered = courses.filter((c) => c.course_prefix === prefix);
+
+  if (filtered.length === 0) {
+    for (const t of [...allTerms].reverse()) {
+      if (t === resolvedTerm) continue;
+      const termCourses = await loadCoursesForCollege(
+        institution.college_slug,
+        t,
+        state
+      );
+      const termFiltered = termCourses.filter((c) => c.course_prefix === prefix);
+      if (termFiltered.length > 0) {
+        resolvedTerm = t;
+        filtered = termFiltered;
+        break;
+      }
+    }
+  }
+
   const onlineCount = filtered.filter((c) => c.mode === "online").length;
   const uniqueCourses = new Set(
     filtered.map((c) => `${c.course_prefix} ${c.course_number}`)
   ).size;
 
-  const title = `${subject} Courses at ${institution.name} — ${termLabel(currentTerm)} Schedule`;
-  const description = `Browse ${filtered.length} ${subject} sections (${uniqueCourses} courses) at ${institution.name} for ${termLabel(currentTerm)}.${onlineCount > 0 ? ` ${onlineCount} available online.` : ""} View schedules, instructors, and prerequisites.`;
+  const title = `${subject} Courses at ${institution.name} — ${termLabel(resolvedTerm)} Schedule`;
+  const description = `Browse ${filtered.length} ${subject} sections (${uniqueCourses} courses) at ${institution.name} for ${termLabel(resolvedTerm)}.${onlineCount > 0 ? ` ${onlineCount} available online.` : ""} View schedules, instructors, and prerequisites.`;
 
   return {
     title,
@@ -112,20 +112,53 @@ export default async function SubjectPage(props: PageProps) {
 
   if (!institution) notFound();
 
-  // Resolve term
+  // Resolve term — honour ?term= if valid, otherwise try current term
+  // then fall back to earlier terms that have data for this prefix.
   const allTerms = await getAvailableTerms(state);
-  const currentTerm =
-    requestedTerm && allTerms.includes(requestedTerm)
-      ? requestedTerm
-      : await getCurrentTerm(state);
+  let currentTerm: string;
+  let allCourses: Awaited<ReturnType<typeof loadCoursesForCollege>>;
+  let courses: typeof allCourses;
 
-  // Load and filter courses
-  const allCourses = await loadCoursesForCollege(
-    institution.college_slug,
-    currentTerm,
-    state
-  );
-  const courses = allCourses.filter((c) => c.course_prefix === prefix);
+  if (requestedTerm && allTerms.includes(requestedTerm)) {
+    currentTerm = requestedTerm;
+    allCourses = await loadCoursesForCollege(
+      institution.college_slug,
+      currentTerm,
+      state
+    );
+    courses = allCourses.filter((c) => c.course_prefix === prefix);
+  } else {
+    // Try current term first, fall back to earlier terms with this prefix
+    const defaultTerm = await getCurrentTerm(state);
+    allCourses = await loadCoursesForCollege(
+      institution.college_slug,
+      defaultTerm,
+      state
+    );
+    courses = allCourses.filter((c) => c.course_prefix === prefix);
+
+    if (courses.length > 0) {
+      currentTerm = defaultTerm;
+    } else {
+      // Fall back through available terms (most recent first)
+      currentTerm = defaultTerm;
+      for (const t of [...allTerms].reverse()) {
+        if (t === defaultTerm) continue;
+        const termCourses = await loadCoursesForCollege(
+          institution.college_slug,
+          t,
+          state
+        );
+        const filtered = termCourses.filter((c) => c.course_prefix === prefix);
+        if (filtered.length > 0) {
+          currentTerm = t;
+          allCourses = termCourses;
+          courses = filtered;
+          break;
+        }
+      }
+    }
+  }
 
   if (courses.length === 0) notFound();
 

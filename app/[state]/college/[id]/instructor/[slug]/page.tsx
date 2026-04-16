@@ -13,8 +13,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { loadInstitutions } from "@/lib/institutions";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
+import { getAvailableTerms } from "@/lib/courses";
 import { getStateConfig, isValidState } from "@/lib/states/registry";
-import { getInstructorBySlug, getTopInstructors } from "@/lib/instructors";
+import { getInstructorBySlug, getTopInstructors, type InstructorProfile } from "@/lib/instructors";
 import { subjectName } from "@/lib/subjects";
 import type { CourseSection } from "@/lib/types";
 import AdUnit from "@/components/AdUnit";
@@ -34,6 +35,30 @@ export async function generateStaticParams() {
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
+
+/**
+ * Find the instructor across terms — try current term first, fall back to
+ * earlier terms that have data for this college. Same pattern the college
+ * detail page uses for course data.
+ */
+async function findInstructor(
+  collegeSlug: string,
+  state: string,
+  slug: string
+): Promise<{ profile: InstructorProfile; term: string } | null> {
+  const currentTerm = await getCurrentTerm(state);
+  const profile = await getInstructorBySlug(collegeSlug, currentTerm, state, slug);
+  if (profile) return { profile, term: currentTerm };
+
+  // Fall back to earlier terms
+  const allTerms = await getAvailableTerms(state);
+  for (const t of [...allTerms].reverse()) {
+    if (t === currentTerm) continue;
+    const p = await getInstructorBySlug(collegeSlug, t, state, slug);
+    if (p) return { profile: p, term: t };
+  }
+  return null;
+}
 
 const MODE_STYLES: Record<string, { bg: string; text: string; label: string }> = {
   "in-person": { bg: "bg-emerald-50 dark:bg-emerald-900/30", text: "text-emerald-700 dark:text-emerald-400", label: "In-Person" },
@@ -89,20 +114,15 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   if (!institution) return { title: "Not Found" };
 
   const config = getStateConfig(state);
-  const currentTerm = await getCurrentTerm(state);
-  const profile = await getInstructorBySlug(
-    institution.college_slug,
-    currentTerm,
-    state,
-    slug
-  );
-  if (!profile) return { title: "Not Found" };
+  const result = await findInstructor(institution.college_slug, state, slug);
+  if (!result) return { title: "Not Found" };
+  const { profile, term: resolvedTerm } = result;
 
   const subjects = Array.from(
     new Set(profile.sections.map((s) => s.course_prefix))
   ).sort();
   const subjectLabels = subjects.map((p) => subjectName(p)).join(", ");
-  const term = termLabel(currentTerm);
+  const term = termLabel(resolvedTerm);
 
   const title = `${profile.displayName} — ${institution.name} Instructor`;
   const description = `Browse ${profile.sections.length} sections taught by ${profile.displayName} at ${institution.name} for ${term}. Subjects: ${subjectLabels}. Compare schedules and availability.`;
@@ -141,17 +161,12 @@ export default async function InstructorPage(props: PageProps) {
   if (!institution) notFound();
 
   const config = getStateConfig(state);
-  const currentTerm = await getCurrentTerm(state);
-  const profile = await getInstructorBySlug(
-    institution.college_slug,
-    currentTerm,
-    state,
-    slug
-  );
-  if (!profile) notFound();
+  const result = await findInstructor(institution.college_slug, state, slug);
+  if (!result) notFound();
+  const { profile, term: resolvedTerm } = result;
 
   const { sections } = profile;
-  const term = termLabel(currentTerm);
+  const term = termLabel(resolvedTerm);
 
   // Subjects taught
   const subjectCounts = new Map<string, number>();
@@ -188,7 +203,7 @@ export default async function InstructorPage(props: PageProps) {
   // Other instructors at this college (top 20, excluding current)
   const topInstructors = await getTopInstructors(
     institution.college_slug,
-    currentTerm,
+    resolvedTerm,
     state,
     21
   );
