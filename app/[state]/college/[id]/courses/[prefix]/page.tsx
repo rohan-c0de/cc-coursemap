@@ -8,7 +8,7 @@ import {
   getUniqueSubjects,
 } from "@/lib/courses";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
-import { getStateConfig } from "@/lib/states/registry";
+import { getStateConfig, getAllStates } from "@/lib/states/registry";
 import { buildTransferLookup } from "@/lib/transfer";
 import { subjectName } from "@/lib/subjects";
 import CollegeDetailClient from "../../CollegeDetailClient";
@@ -26,10 +26,31 @@ type PageProps = {
 // Static params — generate one page per (state, college, subject)
 // ---------------------------------------------------------------------------
 
-// All pages generated on-demand via ISR — avoids build-time Supabase calls
-// for states where getCurrentTerm may not match the available data term.
 export async function generateStaticParams() {
-  return [];
+  const all: { state: string; id: string; prefix: string }[] = [];
+
+  for (const stateConfig of getAllStates()) {
+    const institutions = loadInstitutions(stateConfig.slug);
+    const currentTerm = await getCurrentTerm(stateConfig.slug);
+
+    for (const inst of institutions) {
+      const courses = await loadCoursesForCollege(
+        inst.college_slug,
+        currentTerm,
+        stateConfig.slug
+      );
+      const subjects = getUniqueSubjects(courses);
+      for (const prefix of subjects) {
+        all.push({
+          state: stateConfig.slug,
+          id: inst.id,
+          prefix: prefix.toLowerCase(),
+        });
+      }
+    }
+  }
+
+  return all;
 }
 
 // ---------------------------------------------------------------------------
