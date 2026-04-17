@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       state:
-        description: "State to scrape (va/nc/sc/md/ga/de/ny/ri/vt/ct or all)"
+        description: "State to scrape (va/nc/sc/md/ga/de/ny/ri/vt/ct/dc/me or all)"
         default: "all"
 
 env:
@@ -257,6 +257,46 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx tsx scripts/vt/scrape-transfer.ts
+
+  # ── Maine Transfers (MCCS via CollegeTransfer.Net OData) ────────────
+  # 7 MCCS colleges; each has its own source-institution ID. Scraper
+  # loops sources and merges into data/me/transfer-equiv.json. The
+  # public OData API's free tier rate-limits after 4-5 sources, so
+  # partial runs are expected — subsequent cron runs fill in the rest.
+  # Scraper auto-imports to Supabase.
+  scrape-me-transfers:
+    if: >-
+      github.event_name == 'schedule' ||
+      inputs.state == 'all' || inputs.state == 'me'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/me/scrape-transfer.ts
+
+  # ── Washington DC Transfers (UDC via CollegeTransfer.Net OData) ─────
+  # Single source institution (UDC, id 990) — paginates all outgoing
+  # equivalencies (~1,400 mappings across ~48 target universities).
+  # Scraper auto-imports to Supabase.
+  scrape-dc-transfers:
+    if: >-
+      github.event_name == 'schedule' ||
+      inputs.state == 'all' || inputs.state == 'dc'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/dc/scrape-transfer.ts
 
   # ── Connecticut Transfers (CCSU + ECSU + SCSU via all-orchestrator) ─
   # scrape-transfer-all orchestrates the three university adapters

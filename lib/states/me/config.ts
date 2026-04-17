@@ -20,7 +20,14 @@ const meConfig: StateConfig = {
       "Maine law allows residents aged 65+ to audit credit courses at Maine Community College System institutions tuition-free on a space-available basis.",
   },
 
-  transferSupported: false,
+  // 2026-04: enabled after `scripts/me/scrape-transfer.ts` populated
+  // `data/me/transfer-equiv.json` with mappings from CollegeTransfer.Net
+  // (MCCS institution ids 1079/1331/1602/1603/1605/1829/3657). Initial
+  // run captured ~1,600 mappings from 4 of 7 colleges; the remaining 3
+  // hit the public API's rate limit and will be filled by subsequent
+  // cron runs. Transfer data is additive-by-source so partial runs are
+  // safe.
+  transferSupported: true,
   popularCourses: ["ENG 101", "MAT 101", "BIO 101", "PSY 101", "HIS 101", "SOC 101"],
   defaultZip: "04101",
   defaultZipCity: "Portland",
