@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       state:
-        description: "State to scrape (va/nc/sc/ga/md/de/dc/ny/ri/ct or all)"
+        description: "State to scrape (va/nc/sc/ga/md/de/dc/ny/ri/ct/tn or all)"
         default: "all"
 
 env:
@@ -247,3 +247,21 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx tsx scripts/ct/scrape-banner.ts
+
+  # ── Tennessee (TBR Banner SSB) ──────────────────────────────────────
+  # 13 TBR community colleges via shared Banner SSB endpoints (HTTP).
+  # Scraper auto-imports to Supabase on success.
+  scrape-tn:
+    if: >-
+      github.event_name == 'schedule' ||
+      inputs.state == 'all' || inputs.state == 'tn'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/tn/scrape-banner-ssb.ts --all
