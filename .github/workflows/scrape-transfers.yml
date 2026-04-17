@@ -203,13 +203,16 @@ jobs:
 
   # ── New York Transfers (TREX) ───────────────────────────────────────
   # 7 CUNY community colleges → major NY universities via TREX public API.
+  # TREX upstream is flaky — HTTP 500s are common and each triggers 3
+  # retries with backoff, so runtime is dominated by wait-on-upstream.
+  # 90 min gives headroom without failing every flaky run.
   # Scraper auto-imports to Supabase.
   scrape-ny-transfers:
     if: >-
       github.event_name == 'schedule' ||
       inputs.state == 'all' || inputs.state == 'ny'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
