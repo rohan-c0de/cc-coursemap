@@ -146,6 +146,16 @@ async function scrapeAllUdcEquivalencies(): Promise<TransferMapping[]> {
     const resp = await fetch(url);
 
     if (!resp.ok) {
+      // HTTP 402 = CollegeTransfer.Net free-tier quota exhausted. Don't
+      // fail the whole run — save what we've already fetched and exit
+      // cleanly. The next cron run will retry when the quota resets.
+      if (resp.status === 402) {
+        console.warn(
+          `\n  WARN: API quota exhausted at page ${skip / PAGE_SIZE + 1} (HTTP 402). ` +
+            `Saving ${mappings.length} mappings fetched so far; cron will retry next run.`
+        );
+        break;
+      }
       throw new Error(`OData API HTTP ${resp.status}: ${resp.statusText}`);
     }
 
@@ -273,17 +283,40 @@ async function main() {
   }
 
   if (transferable.length === 0) {
-    console.error("\nNo transferable mappings found. Aborting.");
-    process.exit(1);
+    console.warn(
+      "\n  WARN: no transferable mappings fetched (likely quota exhausted on page 1). " +
+        "Leaving existing data/dc/transfer-equiv.json untouched; cron will retry next run."
+    );
+    return;
   }
 
-  // Write output
+  // Preserve existing data if this run came back with fewer mappings than
+  // what's already on disk — CollegeTransfer.Net pages equivalencies in a
+  // stable order, so a partial scrape is a strict prefix of the full set;
+  // overwriting a 1,400-row file with 100 rows would regress published
+  // data.
   const outPath = path.join(
     process.cwd(),
     "data",
     "dc",
     "transfer-equiv.json"
   );
+  let existingCount = 0;
+  try {
+    const existing = JSON.parse(fs.readFileSync(outPath, "utf-8"));
+    if (Array.isArray(existing)) existingCount = existing.length;
+  } catch {
+    // No existing file — treat as zero.
+  }
+
+  if (mappings.length < existingCount) {
+    console.warn(
+      `\n  WARN: new scrape (${mappings.length}) < existing (${existingCount}). ` +
+        `Keeping existing file; cron will retry next run.`
+    );
+    return;
+  }
+
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(mappings, null, 2) + "\n");
   console.log(`\nSaved ${mappings.length} mappings → ${outPath}`);

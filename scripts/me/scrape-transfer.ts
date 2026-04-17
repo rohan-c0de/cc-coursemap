@@ -234,11 +234,17 @@ async function main() {
 
   console.log("CollegeTransfer.Net — Maine (MCCS) Transfer Scraper\n");
 
+  // Track which CCs succeeded this run so we can merge with existing
+  // data for CCs that didn't. CollegeTransfer.Net free-tier rate-limits
+  // after ~4-5 source institutions; the scraper should preserve data
+  // from previously-successful runs for any CCs that hit 402 this time.
+  const successfulSlugs = new Set<string>();
   const all: TransferMapping[] = [];
   for (const cc of ME_COLLEGES) {
     try {
       const mappings = await scrapeCollege(cc);
       all.push(...mappings);
+      successfulSlugs.add(cc.slug);
     } catch (err) {
       console.error(`  ${cc.slug}: FAILED — ${(err as Error).message}`);
     }
@@ -279,21 +285,49 @@ async function main() {
     console.log(`    ${slug}: ${count}`);
   }
 
-  if (transferable.length === 0) {
-    console.error("\nNo transferable mappings found. Aborting.");
-    process.exit(1);
+  if (successfulSlugs.size === 0) {
+    console.warn(
+      "\n  WARN: no colleges scraped successfully (likely API quota exhausted). " +
+        "Leaving existing data/me/transfer-equiv.json untouched; cron will retry next run."
+    );
+    return;
   }
 
-  // Write output
+  // Per-source merge: for any MCCS college that didn't succeed this run,
+  // preserve its rows from the existing file. CollegeTransfer.Net rate-
+  // limits after ~4-5 source institutions on the free tier, so partial
+  // runs are expected — this keeps previously-scraped colleges' data
+  // intact across retries.
   const outPath = path.join(
     process.cwd(),
     "data",
     "me",
     "transfer-equiv.json"
   );
+  let preserved: TransferMapping[] = [];
+  try {
+    const existing = JSON.parse(fs.readFileSync(outPath, "utf-8"));
+    if (Array.isArray(existing)) {
+      preserved = (existing as TransferMapping[]).filter((m) => {
+        const slug = m.notes.match(/^\[(\w+)\]/)?.[1];
+        return slug && !successfulSlugs.has(slug);
+      });
+    }
+  } catch {
+    // No existing file — fresh start.
+  }
+
+  const merged = [...preserved, ...all];
+  const preservedSlugs = new Set(
+    preserved.map((m) => m.notes.match(/^\[(\w+)\]/)?.[1]).filter(Boolean)
+  );
+  console.log(
+    `\n  Merged: ${preserved.length} preserved (from ${preservedSlugs.size} prior CC${preservedSlugs.size === 1 ? "" : "s"}) + ${all.length} new = ${merged.length} total`
+  );
+
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  fs.writeFileSync(outPath, JSON.stringify(all, null, 2) + "\n");
-  console.log(`\nSaved ${all.length} mappings → ${outPath}`);
+  fs.writeFileSync(outPath, JSON.stringify(merged, null, 2) + "\n");
+  console.log(`Saved ${merged.length} mappings → ${outPath}`);
 
   // Import to Supabase
   if (!skipImport) {
