@@ -25,6 +25,77 @@ import {
 
 const BATCH_SIZE = 500;
 
+// Change-detection thresholds (issue #51). A scraper that produces a
+// dramatically smaller dataset than what's already in Supabase is almost
+// always broken (expired auth cookie, source site offline, parser regression).
+// Keyed off incoming/existing ratio:
+//   < ABORT_RATIO   → refuse to import; require --force
+//   < WARN_RATIO    → proceed with a loud warning
+//   >= WARN_RATIO   → proceed silently (normal churn or growth)
+const ABORT_RATIO = 0.5;
+const WARN_RATIO = 0.9;
+
+/**
+ * Compare incoming row count against what's currently in Supabase for
+ * the given filter. Returns `{ ok, existing, message }` — if `ok` is
+ * false, caller should skip the import (or respect `--force`).
+ */
+export async function changeDetection(
+  sb: SupabaseClient,
+  table: "courses" | "transfers",
+  filter: Record<string, string>,
+  incoming: number,
+  label: string,
+  force: boolean
+): Promise<{ ok: boolean; existing: number; message: string }> {
+  let q = sb.from(table).select("*", { count: "exact", head: true });
+  for (const [k, v] of Object.entries(filter)) {
+    q = q.eq(k, v);
+  }
+  const { count, error } = await q;
+  if (error) {
+    return {
+      ok: true,
+      existing: 0,
+      message: `  (change-detection skipped for ${label}: ${error.message})`,
+    };
+  }
+  const existing = count ?? 0;
+
+  // First-time import (nothing to compare against) always proceeds.
+  if (existing === 0) {
+    return { ok: true, existing: 0, message: "" };
+  }
+
+  const ratio = incoming / existing;
+  const pct = (ratio * 100).toFixed(1);
+  const delta = incoming - existing;
+  const diff = `incoming ${incoming} vs. existing ${existing} (${delta >= 0 ? "+" : ""}${delta}, ${pct}%)`;
+
+  if (ratio < ABORT_RATIO) {
+    if (force) {
+      return {
+        ok: true,
+        existing,
+        message: `  FORCE ${label}: ${diff} — would have aborted (<${(ABORT_RATIO * 100).toFixed(0)}%), proceeding due to --force.`,
+      };
+    }
+    return {
+      ok: false,
+      existing,
+      message: `  ABORT ${label}: ${diff} — below ${(ABORT_RATIO * 100).toFixed(0)}% threshold. Scraper likely broken. Re-run --force to override.`,
+    };
+  }
+  if (ratio < WARN_RATIO) {
+    return {
+      ok: true,
+      existing,
+      message: `  WARN  ${label}: ${diff} — under ${(WARN_RATIO * 100).toFixed(0)}% of prior, proceeding.`,
+    };
+  }
+  return { ok: true, existing, message: "" };
+}
+
 function getSupabase(): SupabaseClient {
   loadEnv();
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -69,7 +140,11 @@ interface CourseRow {
  * Reads from data/{state}/courses/{slug}/{term}.json and upserts into the
  * `courses` table (delete-then-insert per college+term).
  */
-export async function importCoursesToSupabase(state: string): Promise<number> {
+export async function importCoursesToSupabase(
+  state: string,
+  opts: { force?: boolean } = {}
+): Promise<number> {
+  const force = !!opts.force;
   let sb: SupabaseClient;
   try {
     sb = getSupabase();
@@ -107,6 +182,19 @@ export async function importCoursesToSupabase(state: string): Promise<number> {
       const sections = JSON.parse(raw) as Array<Record<string, unknown>>;
 
       if (sections.length === 0) continue;
+
+      // Change-detection preflight: if incoming is far below existing,
+      // the scraper is probably broken. Abort unless --force. See issue #51.
+      const cd = await changeDetection(
+        sb,
+        "courses",
+        { state, college_code: slug, term },
+        sections.length,
+        `${slug}/${term}`,
+        force
+      );
+      if (cd.message) console.log(cd.message);
+      if (!cd.ok) continue;
 
       // Schema-validate every section before touching Supabase. If >5% fail,
       // abort this (college, term) entirely — the scraper is broken and
@@ -269,8 +357,10 @@ interface TransferRow {
  * Reads from data/{state}/transfer-equiv.json.
  */
 export async function importTransfersToSupabase(
-  state: string
+  state: string,
+  opts: { force?: boolean } = {}
 ): Promise<number> {
+  const force = !!opts.force;
   let sb: SupabaseClient;
   try {
     sb = getSupabase();
@@ -300,6 +390,18 @@ export async function importTransfersToSupabase(
     console.log(`  No transfer mappings for ${state}.`);
     return 0;
   }
+
+  // Change-detection preflight (issue #51).
+  const cd = await changeDetection(
+    sb,
+    "transfers",
+    { state },
+    data.length,
+    `${state} transfers`,
+    force
+  );
+  if (cd.message) console.log(cd.message);
+  if (!cd.ok) return 0;
 
   // Schema-validate. Same 5% abort threshold as course import (issue #49).
   const validation = validateRows(
