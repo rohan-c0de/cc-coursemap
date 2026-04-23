@@ -53,6 +53,37 @@ Branch naming convention used so far: `claude/<state>-phase<N><letter>-<topic>` 
 
 Merging is the user's job — they click "Squash and merge" on GitHub. Don't run `gh pr merge` on their behalf unless they explicitly ask.
 
+## Verifying your work — three checks, in order
+
+Typecheck passing and a scraper completing without errors are necessary but not sufficient. Data can be wrong, APIs can return the right shape with broken content, and a PR that looks fine in isolation can break the UI for real users. Do these three, every time:
+
+### 1. Pre-PR feature check ("does the feature I just shipped actually work?")
+Before opening a PR that ships new data or a new endpoint, load the matching feature in local dev and exercise it end-to-end. Don't just hit the API — click through the UI the way the feature will be used:
+
+- New course data for a state → load `/{state}` and search for a course; confirm sections render with the expected fields.
+- New transfer data → load `/{state}/transfer`, pick a sending CC and a course, confirm the equivalency shows up.
+- New prereq data → load the semester planner, type a course that you know has a prereq, confirm the prereq chain resolves.
+- A bug fix → reproduce the bug path and confirm it's fixed.
+
+Cost: usually under 5 minutes. Catches: "the JSON parsed but the field names don't match what the UI reads."
+
+### 2. Post-merge prod check ("did Vercel actually ship it?")
+After merging a PR, wait ~2-3 minutes for Vercel to redeploy, then load prod and verify one concrete thing changed:
+
+- `curl communitycollegepath.com/api/{state}/…` returns the new data.
+- The visible symptom that motivated the PR (empty page, missing state card, 404) is gone.
+
+Cost: one minute. Catches: missing registry entries, static-import gaps (see the NH/MA `/colleges` bug), Vercel build failures, environment variable drift. Silence here looks identical to success — so always pick a specific thing to verify, not just "it looks fine."
+
+### 3. Student-perspective walkthrough at major milestones
+After a whole state lands, or after a user-facing feature ships, use the site the way a first-gen student with no prior college experience would. Example scope:
+
+> "I live in 02108, want a weekend accounting class, need to know if it transfers to UMass Boston."
+
+Walk through the full flow. If any step confuses you, it'll confuse a real student. This is where empty states, missing copy, broken filter combos, and data shape mismatches across features reveal themselves.
+
+Cost: 5-10 minutes. Catches: the things the other two checks miss — interaction bugs, UX cliffs, cross-feature inconsistencies.
+
 ## Environment quirks
 
 **This is NOT the Next.js you know.** Next 16 has breaking changes vs. training-data-era Next.js. Before writing routing, caching, or server-component code, read the relevant page in `node_modules/next/dist/docs/`. Heed deprecation notices.
