@@ -262,7 +262,7 @@
     "campus": "Main",
     "mode": "in-person",
     "instructor": "Botao Chen",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10939,7 +10939,7 @@
     "campus": "Community College",
     "mode": "online",
     "instructor": "Tatiana D Gonzalez",
-    "seats_open": 13,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12530,6 +12530,27 @@
     "college_code": "udc-cc",
     "term": "2026SP",
     "course_prefix": "ARTD",
+    "course_number": "105",
+    "course_title": "Foundations I",
+    "credits": 3,
+    "crn": "28759",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "",
+    "location": "",
+    "campus": "Main",
+    "mode": "online",
+    "instructor": null,
+    "seats_open": -1,
+    "seats_total": 0,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "udc-cc",
+    "term": "2026SP",
+    "course_prefix": "ARTD",
     "course_number": "201",
     "course_title": "Computer Illustration",
     "credits": 3,
@@ -13093,10 +13114,10 @@
     "instructor": "Scott King",
     "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": "HMGT 110C (min C) and FBMT 106C (min C)",
+    "prerequisite_text": "HMGT 110C (min C) and Food &amp; Beverage Management 106C (min C)",
     "prerequisite_courses": [
       "HMGT 110C",
-      "FBMT 106C"
+      "Food &amp; Beverage Management 106C"
     ]
   },
   {
@@ -13115,12 +13136,12 @@
     "campus": "Community College",
     "mode": "in-person",
     "instructor": "Henry Iroegbu",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": "HMGT 110C (min C) or FBMT 106C (min C)",
+    "prerequisite_text": "HMGT 110C (min C) or Food &amp; Beverage Management 106C (min C)",
     "prerequisite_courses": [
       "HMGT 110C",
-      "FBMT 106C"
+      "Food &amp; Beverage Management 106C"
     ]
   },
   {
@@ -13141,10 +13162,10 @@
     "instructor": "Henry Iroegbu",
     "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": "HMGT 110C (min C) and FBMT 106C (min C)",
+    "prerequisite_text": "HMGT 110C (min C) and Food &amp; Beverage Management 106C (min C)",
     "prerequisite_courses": [
       "HMGT 110C",
-      "FBMT 106C"
+      "Food &amp; Beverage Management 106C"
     ]
   },
   {
@@ -13931,7 +13952,7 @@
     "campus": "Community College",
     "mode": "in-person",
     "instructor": "Ahmad K Wright",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "IGED 110C (min D) or IGED 110 (min D) or ENGL 111C (min D) or ENGL 111 (min D)",
     "prerequisite_courses": [
@@ -15054,7 +15075,7 @@
     "campus": "Community College",
     "mode": "in-person",
     "instructor": "William A Taylor",
-    "seats_open": 1,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": "IGED 120C (min D) or IGED 120 (min D) or MATH 101 (min D) or MATH 101C (min D) or MATH 105C (min D) or MATH 105 (min D)",
     "prerequisite_courses": [
@@ -15194,7 +15215,7 @@
     "campus": "Community College",
     "mode": "online",
     "instructor": "Anu Rishi",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "IGED 120C (min D) or IGED 120 (min D) or MATH 101 (min D) or MATH 101C (min D) or MATH 105C (min D) or MATH 105 (min D)",
     "prerequisite_courses": [
@@ -15222,7 +15243,7 @@
     "campus": "Community College",
     "mode": "in-person",
     "instructor": "Celita Lewis-Davis",
-    "seats_open": 1,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "IGED 120C (min D) or IGED 120 (min D) or MATH 101 (min D) or MATH 101C (min D) or MATH 105C (min D) or MATH 105 (min D)",
     "prerequisite_courses": [
@@ -17487,7 +17508,7 @@
     "campus": "Law School",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 70,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -19907,6 +19928,27 @@
     "instructor": "Thomas V Licata",
     "seats_open": 3,
     "seats_total": 5,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "udc-cc",
+    "term": "2026SP",
+    "course_prefix": "MUSC",
+    "course_number": "101",
+    "course_title": "Materials Of Music II",
+    "credits": 3,
+    "crn": "28761",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "",
+    "location": "",
+    "campus": "Main",
+    "mode": "online",
+    "instructor": null,
+    "seats_open": -1,
+    "seats_total": 0,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -22572,7 +22614,7 @@
     "campus": "Main",
     "mode": "in-person",
     "instructor": "Guy Shroyer",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "POLI 497 (min C) and POLI 295 (min C)",
     "prerequisite_courses": [
@@ -24342,6 +24384,27 @@
     "college_code": "udc-cc",
     "term": "2026SP",
     "course_prefix": "ARTS",
+    "course_number": "217",
+    "course_title": "Advanced Color Theory",
+    "credits": 3,
+    "crn": "28760",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "",
+    "location": "",
+    "campus": "Main",
+    "mode": "online",
+    "instructor": null,
+    "seats_open": -1,
+    "seats_total": 0,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "udc-cc",
+    "term": "2026SP",
+    "course_prefix": "ARTS",
     "course_number": "231",
     "course_title": "Intro To Painting",
     "credits": 3,
@@ -24991,7 +25054,7 @@
     "term": "2026SP",
     "course_prefix": "WDHA",
     "course_number": "101T",
-    "course_title": "Tech+ (IT Fundamentals",
+    "course_title": "Tech+ (IT Fundamentals)",
     "credits": 0,
     "crn": "28757",
     "days": "TuTh",
@@ -25956,11 +26019,11 @@
     "days": "MTuWThF",
     "start_time": "9:00 AM",
     "end_time": "3:00 PM",
-    "start_date": "2026-04-01",
+    "start_date": "2026-05-04",
     "location": "",
     "campus": "Workforce Development",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "William Danley",
     "seats_open": 30,
     "seats_total": 30,
     "prerequisite_text": null,
@@ -25997,12 +26060,12 @@
     "crn": "28750",
     "days": "MTuWThF",
     "start_time": "5:00 PM",
-    "end_time": "7:00 PM",
-    "start_date": "2026-04-01",
-    "location": "",
+    "end_time": "9:00 PM",
+    "start_date": "2026-04-20",
+    "location": "Online Course WDLL",
     "campus": "Workforce Development",
-    "mode": "in-person",
-    "instructor": null,
+    "mode": "online",
+    "instructor": "Amanda Neal",
     "seats_open": 15,
     "seats_total": 15,
     "prerequisite_text": null,

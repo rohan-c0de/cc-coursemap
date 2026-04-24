@@ -351,7 +351,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Shantal S. DiMichele (P)",
-    "seats_open": 11,
+    "seats_open": 14,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -603,7 +603,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Maureen A Murray (P)",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -624,7 +624,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Gail S. O'Rourke (P)",
-    "seats_open": 10,
+    "seats_open": 8,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1128,7 +1128,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Natalie L. Coletta (P)",
-    "seats_open": 5,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3039,7 +3039,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Robert Warila (P)",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3333,7 +3333,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Jean M. Billerbeck (P)",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4740,7 +4740,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Christine A. Lima (P)",
-    "seats_open": 4,
+    "seats_open": 6,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5118,7 +5118,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Carol A. Rowey (P)",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5181,7 +5181,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Jude A. Tomasino (P)",
-    "seats_open": 3,
+    "seats_open": 5,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5517,7 +5517,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Gerald P. Falcone (P)",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5559,7 +5559,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Candace L Grist (P)",
-    "seats_open": 5,
+    "seats_open": 6,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5601,7 +5601,7 @@
     "campus": "Flanagan Campus",
     "mode": "in-person",
     "instructor": "Robert C. Pezzillo (P)",
-    "seats_open": 8,
+    "seats_open": 9,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5769,7 +5769,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "James G. Grammas (P)",
-    "seats_open": 1,
+    "seats_open": 4,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7386,7 +7386,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Ann O. Omollo (P)",
-    "seats_open": 11,
+    "seats_open": 12,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7764,7 +7764,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Holly J. Susi (P)",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7806,7 +7806,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Ross W Matthei (P)",
-    "seats_open": 3,
+    "seats_open": 4,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7890,7 +7890,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Ann M Martini (P)",
-    "seats_open": 4,
+    "seats_open": 5,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8016,7 +8016,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Christopher Anderson (P)",
-    "seats_open": 10,
+    "seats_open": 11,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8121,7 +8121,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Brianna J Cox (P)",
-    "seats_open": 6,
+    "seats_open": 4,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8142,7 +8142,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Luis A Paz (P)",
-    "seats_open": 7,
+    "seats_open": 8,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8163,7 +8163,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Luis A Paz (P)",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8583,7 +8583,7 @@
     "campus": "Liston Campus",
     "mode": "in-person",
     "instructor": "Kwabena Mensah (P)",
-    "seats_open": 8,
+    "seats_open": 9,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8646,7 +8646,7 @@
     "campus": "Flanagan Campus",
     "mode": "in-person",
     "instructor": "Kristin Pouliot (P)",
-    "seats_open": 6,
+    "seats_open": 8,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8835,7 +8835,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Jennifer J. O'Rourke (P)",
-    "seats_open": 20,
+    "seats_open": 21,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9045,7 +9045,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Holly J. Susi (P)",
-    "seats_open": 5,
+    "seats_open": 6,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10578,7 +10578,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Patrick W Jones (P), Mark England",
-    "seats_open": 1,
+    "seats_open": 2,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11964,7 +11964,7 @@
     "campus": "Flanagan Campus",
     "mode": "in-person",
     "instructor": "Victoria L. Stedman (P)",
-    "seats_open": 3,
+    "seats_open": 4,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12741,7 +12741,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Anthony R. Amore (P)",
-    "seats_open": 3,
+    "seats_open": 4,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13287,7 +13287,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Brenda Micheletti (P)",
-    "seats_open": 7,
+    "seats_open": 10,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13350,7 +13350,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Brenda Micheletti (P)",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13476,7 +13476,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Christine M. Fox (P)",
-    "seats_open": 2,
+    "seats_open": 4,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13812,7 +13812,7 @@
     "campus": "Flanagan Campus",
     "mode": "in-person",
     "instructor": "Neeta Bhasin (P)",
-    "seats_open": 5,
+    "seats_open": 6,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14064,7 +14064,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Geraldine L. S. Levitre (P)",
-    "seats_open": 7,
+    "seats_open": 8,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14106,7 +14106,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Renee M. Anderson (P)",
-    "seats_open": null,
+    "seats_open": 1,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14127,7 +14127,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Renee M. Anderson (P)",
-    "seats_open": 7,
+    "seats_open": 8,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14274,7 +14274,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Leigh A. Martin (P)",
-    "seats_open": 6,
+    "seats_open": 9,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14379,7 +14379,7 @@
     "campus": "Liston Campus",
     "mode": "in-person",
     "instructor": "Nilton X Gomes (P)",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14442,7 +14442,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Brenda Micheletti (P)",
-    "seats_open": 1,
+    "seats_open": null,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14463,7 +14463,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Linda A Winterbottom (P)",
-    "seats_open": -3,
+    "seats_open": -1,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15534,7 +15534,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Charles R Kell (P)",
-    "seats_open": 1,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15555,7 +15555,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Geraldine L. S. Levitre (P)",
-    "seats_open": 3,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15660,7 +15660,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Jessica Araujo (P)",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15765,7 +15765,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Maura C Faulise (P)",
-    "seats_open": 8,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15870,7 +15870,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Charles D. Morgan (P)",
-    "seats_open": 8,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16080,7 +16080,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "William E. Preston (P)",
-    "seats_open": 9,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16227,7 +16227,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Brenda Micheletti (P)",
-    "seats_open": 1,
+    "seats_open": null,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16248,7 +16248,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Charles D. Morgan (P)",
-    "seats_open": -3,
+    "seats_open": -1,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16647,7 +16647,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Karen L Griscom (P)",
-    "seats_open": 14,
+    "seats_open": 15,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16689,7 +16689,7 @@
     "campus": "Flanagan Campus",
     "mode": "in-person",
     "instructor": "Joseph R. Carroll (P)",
-    "seats_open": 17,
+    "seats_open": 18,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16731,7 +16731,7 @@
     "campus": "Liston Campus",
     "mode": "in-person",
     "instructor": "Kimberley A. St. Jean (P)",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17277,7 +17277,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Ali Khalil (P)",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17319,7 +17319,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Anthony R. Amore (P)",
-    "seats_open": null,
+    "seats_open": 3,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17340,7 +17340,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sasha N. Ruggieri (P)",
-    "seats_open": 5,
+    "seats_open": 6,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17361,7 +17361,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Stephanie R Dickerson (P)",
-    "seats_open": 15,
+    "seats_open": 16,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18411,7 +18411,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Alyson Snowe (P)",
-    "seats_open": 4,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18495,7 +18495,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Gina A. Santoro (P)",
-    "seats_open": 3,
+    "seats_open": 5,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -18831,7 +18831,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Brianna J Cox (P)",
-    "seats_open": 13,
+    "seats_open": 14,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -19230,7 +19230,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Maria I Hofman (P)",
-    "seats_open": 12,
+    "seats_open": 13,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -19419,7 +19419,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Duayne M Rieger (P)",
-    "seats_open": 5,
+    "seats_open": 6,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -19503,7 +19503,7 @@
     "campus": "Flanagan Campus",
     "mode": "in-person",
     "instructor": "Karen M. Kortz (P)",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 14,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -19671,7 +19671,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "John J. Rood (P), Anne Marie Rameika",
-    "seats_open": 5,
+    "seats_open": 7,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -20259,7 +20259,7 @@
     "campus": "Flanagan Campus",
     "mode": "in-person",
     "instructor": "Robert S. Schafer (P)",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -20406,7 +20406,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Matthew S Ulricksen (P)",
-    "seats_open": 8,
+    "seats_open": 10,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -20700,7 +20700,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Alex P. Russo (P)",
-    "seats_open": 10,
+    "seats_open": 13,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -20826,7 +20826,7 @@
     "campus": "Flanagan Campus",
     "mode": "in-person",
     "instructor": "Suzanne K. McCormack (P)",
-    "seats_open": 4,
+    "seats_open": 6,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -20952,7 +20952,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Suzanne K. McCormack (P)",
-    "seats_open": 4,
+    "seats_open": 5,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -21288,7 +21288,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Nicolette O Dupont (P)",
-    "seats_open": 5,
+    "seats_open": 6,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -21498,7 +21498,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Luis Rodrigues (P), Walter O. Orellana",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -22170,7 +22170,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Kelly A. Ravenscroft (P)",
-    "seats_open": 11,
+    "seats_open": 12,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -22422,7 +22422,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Walter O. Orellana (P)",
-    "seats_open": 15,
+    "seats_open": 16,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -22443,7 +22443,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Richard T. Sullivan (P)",
-    "seats_open": 6,
+    "seats_open": 9,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -22905,7 +22905,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Maria C. Mansella (P)",
-    "seats_open": 12,
+    "seats_open": 14,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -23262,7 +23262,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "David V Igliozzi (P)",
-    "seats_open": 6,
+    "seats_open": 8,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -23346,7 +23346,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "David V Igliozzi (P)",
-    "seats_open": 13,
+    "seats_open": 14,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -24354,7 +24354,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Elizabeth DaCosta (P)",
-    "seats_open": 8,
+    "seats_open": 10,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -24816,7 +24816,7 @@
     "campus": "Liston Campus",
     "mode": "in-person",
     "instructor": "Yevgeniya Y. Panova (P)",
-    "seats_open": 5,
+    "seats_open": 7,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -25635,7 +25635,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Evelyn M. Walsh (P)",
-    "seats_open": 3,
+    "seats_open": 4,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -26223,7 +26223,7 @@
     "campus": "Flanagan Campus",
     "mode": "in-person",
     "instructor": "Francislley S Holzmeister (P)",
-    "seats_open": 12,
+    "seats_open": 13,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -26832,7 +26832,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Barbara A. Leasher (P)",
-    "seats_open": -1,
+    "seats_open": null,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -26853,7 +26853,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Robert F. Melucci (P)",
-    "seats_open": 12,
+    "seats_open": 13,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -27525,7 +27525,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Rachel H Nichols (P)",
-    "seats_open": 7,
+    "seats_open": 8,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -27546,7 +27546,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Julie S Gelsomino (P)",
-    "seats_open": 3,
+    "seats_open": 4,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -27777,7 +27777,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Jason A. Stockford (P)",
-    "seats_open": 11,
+    "seats_open": 12,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -28427,7 +28427,7 @@
     "location": "",
     "campus": "Online",
     "mode": "online",
-    "instructor": "Audrey K. Kaiser (P)",
+    "instructor": "Audrey K Kaiser (P)",
     "seats_open": 7,
     "seats_total": 28,
     "prerequisite_text": null,
@@ -28448,7 +28448,7 @@
     "location": "",
     "campus": "Online",
     "mode": "online",
-    "instructor": "Audrey K. Kaiser (P)",
+    "instructor": "Audrey K Kaiser (P)",
     "seats_open": 9,
     "seats_total": 28,
     "prerequisite_text": null,
@@ -28469,7 +28469,7 @@
     "location": "",
     "campus": "Online",
     "mode": "online",
-    "instructor": "Audrey K. Kaiser (P)",
+    "instructor": "Audrey K Kaiser (P)",
     "seats_open": 4,
     "seats_total": 28,
     "prerequisite_text": null,
@@ -28490,7 +28490,7 @@
     "location": "",
     "campus": "Online",
     "mode": "online",
-    "instructor": "Audrey K. Kaiser (P)",
+    "instructor": "Audrey K Kaiser (P)",
     "seats_open": 11,
     "seats_total": 28,
     "prerequisite_text": null,
@@ -28700,7 +28700,7 @@
     "location": "Knight Campus 0538",
     "campus": "Knight Campus",
     "mode": "in-person",
-    "instructor": "Audrey K. Kaiser (P)",
+    "instructor": "Audrey K Kaiser (P)",
     "seats_open": 2,
     "seats_total": 7,
     "prerequisite_text": null,
@@ -28721,7 +28721,7 @@
     "location": "Knight Campus 0538",
     "campus": "Knight Campus",
     "mode": "in-person",
-    "instructor": "Audrey K. Kaiser (P)",
+    "instructor": "Audrey K Kaiser (P)",
     "seats_open": 3,
     "seats_total": 7,
     "prerequisite_text": null,
@@ -28742,7 +28742,7 @@
     "location": "Knight Campus 0538",
     "campus": "Knight Campus",
     "mode": "in-person",
-    "instructor": "Audrey K. Kaiser (P)",
+    "instructor": "Audrey K Kaiser (P)",
     "seats_open": null,
     "seats_total": 3,
     "prerequisite_text": null,
@@ -28763,7 +28763,7 @@
     "location": "Knight Campus 0538",
     "campus": "Knight Campus",
     "mode": "in-person",
-    "instructor": "Audrey K. Kaiser (P)",
+    "instructor": "Audrey K Kaiser (P)",
     "seats_open": 2,
     "seats_total": 3,
     "prerequisite_text": null,
@@ -28911,7 +28911,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey A Paugh (P)",
-    "seats_open": 9,
+    "seats_open": 11,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -29058,7 +29058,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Joseph J. Amante y Zapata (P)",
-    "seats_open": 1,
+    "seats_open": 3,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -29079,7 +29079,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Joseph J. Amante y Zapata (P)",
-    "seats_open": 3,
+    "seats_open": 8,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -29141,7 +29141,7 @@
     "location": "Knight Campus 0540",
     "campus": "Knight Campus",
     "mode": "in-person",
-    "instructor": "Audrey K. Kaiser (P)",
+    "instructor": "Audrey K Kaiser (P)",
     "seats_open": -1,
     "seats_total": 15,
     "prerequisite_text": null,
@@ -29855,7 +29855,7 @@
     "location": "Knight Campus 0536",
     "campus": "Knight Campus",
     "mode": "in-person",
-    "instructor": "Audrey K. Kaiser (P)",
+    "instructor": "Audrey K Kaiser (P)",
     "seats_open": 4,
     "seats_total": 10,
     "prerequisite_text": null,
@@ -30527,7 +30527,7 @@
     "location": "Knight Campus 0536",
     "campus": "Knight Campus",
     "mode": "in-person",
-    "instructor": "Audrey K. Kaiser (P)",
+    "instructor": "Audrey K Kaiser (P)",
     "seats_open": 3,
     "seats_total": 10,
     "prerequisite_text": null,
@@ -30611,7 +30611,7 @@
     "location": "Knight Campus 6060",
     "campus": "Knight Campus",
     "mode": "in-person",
-    "instructor": "Karen F. Corry (P), Donna L. Ashworth , Frances A Bettencourt , Maria A. Corsetti , Dana-Marie Gesmondi , Lori B Kasher , Patricia A Kelling , Aaron Khiev , Alberta Lalanne , MIchelle M. Macko , Jennifer K Nelligan , Deborah Powers , Brittney E Schuessler , Ann-Marie Simard , Erin K Truman , Gina Lyn L Villarica",
+    "instructor": "Karen F. Corry (P), Donna L. Ashworth , Frances A Bettencourt , Maria A. Corsetti , Dana-Marie Gesmondi , Lori B Kasher , Patricia A Kelling , Aaron Khiev , Alberta Lalanne , Alexandra R. Lewis , MIchelle M. Macko , Jennifer K Nelligan , Deborah Powers , Brittney E Schuessler , Ann-Marie Simard , Erin K Truman , Gina Lyn L Villarica",
     "seats_open": null,
     "seats_total": 48,
     "prerequisite_text": null,
@@ -31364,7 +31364,7 @@
     "start_time": "11:30 am",
     "end_time": "12:30 pm",
     "start_date": "2026-01-20",
-    "location": "Newport County Campus 224",
+    "location": "Newport County Campus 220",
     "campus": "Newport County Campus",
     "mode": "in-person",
     "instructor": "Emily C. Cummiskey (P), Jodi L Burnes , Jessica A. Butt , Jean M. DeCoffe , Jeffrey R Fontaine , Jilliane E Hankins , James S. Hinsey , Kathleen Kappler , Alison B Kelley , Aaron Khiev , Janie L Kinsella , Mary K Kitzmiller , Shannon Korzeniowski , Melanie S Lally , Helen J. McGovern , Jennifer K Nelligan , Spyridon R. Papaioannou , Anne Marie Rameika , Julie L Resendes , John J. Rood , Keith J Scally , Ann-Marie Simard , Lori M Tavares , William M. Vitale",
@@ -31616,7 +31616,7 @@
     "start_time": "11:30 am",
     "end_time": "03:30 pm",
     "start_date": "2026-01-20",
-    "location": "Newport County Campus 224",
+    "location": "Newport County Campus 220",
     "campus": "Newport County Campus",
     "mode": "in-person",
     "instructor": "Emily C. Cummiskey (P), Jean M. DeCoffe , Kristen A Ellsworth , Jeffrey R Fontaine , Jilliane E Hankins , Kathleen Kappler , Alison B Kelley , Aaron Khiev , Shannon Korzeniowski , Melanie S Lally , Lily Mercer , Jennifer K Nelligan , Anne Marie Rameika , Julie L Resendes , Megan E. Rogers , Ann-Marie Simard , Lori M Tavares , William M. Vitale",
@@ -31745,7 +31745,7 @@
     "location": "Knight Campus 6212",
     "campus": "Knight Campus",
     "mode": "in-person",
-    "instructor": "Amy B. Parks (P), Matthew R Braga , Jamie A Fielder , Aaron Khiev , Shannon Korzeniowski , Regina B. Monteiro , Jassie L Nah , Linda A. Pappola , Mona T Patel",
+    "instructor": "Amy B. Parks (P), Matthew R Braga , Jamie A Fielder , Aaron Khiev , Shannon Korzeniowski , Regina B. Monteiro , Jassie L Nah , Jennifer K Nelligan , Linda A. Pappola , Mona T Patel",
     "seats_open": 10,
     "seats_total": 48,
     "prerequisite_text": null,
@@ -33741,7 +33741,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Kelly M Delaney (P)",
-    "seats_open": 3,
+    "seats_open": 4,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -34560,7 +34560,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Shannon G Scott (P)",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -34770,7 +34770,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Justine N Egan-Kunicki (P)",
-    "seats_open": 11,
+    "seats_open": 14,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -35148,7 +35148,7 @@
     "campus": "Liston Campus",
     "mode": "in-person",
     "instructor": "Genevieve R Verdi (P)",
-    "seats_open": 3,
+    "seats_open": 6,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -35295,7 +35295,7 @@
     "campus": "Flanagan Campus",
     "mode": "in-person",
     "instructor": "April R. Valois (P)",
-    "seats_open": 7,
+    "seats_open": 8,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -35358,7 +35358,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Robert Masse (P)",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -35484,7 +35484,7 @@
     "campus": "Liston Campus",
     "mode": "in-person",
     "instructor": "Ronald L. Schertz (P)",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -35694,7 +35694,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Lynne Andreozzi-Fontaine (P)",
-    "seats_open": 3,
+    "seats_open": 4,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -35799,7 +35799,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sheila M. Konis (P)",
-    "seats_open": 4,
+    "seats_open": 5,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -36219,7 +36219,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Lauren A Nagel (P)",
-    "seats_open": 1,
+    "seats_open": 2,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -36303,7 +36303,7 @@
     "campus": "Knight Campus",
     "mode": "in-person",
     "instructor": "Kristen L Hasenfratz (P)",
-    "seats_open": 11,
+    "seats_open": 12,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -36366,7 +36366,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Valerie M LeVasseur (P)",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -37458,7 +37458,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Gerald L Willis (P)",
-    "seats_open": 3,
+    "seats_open": 4,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -37479,7 +37479,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Jana N Knibb (P)",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -38214,7 +38214,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Jeanne P. Mullaney (P)",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []

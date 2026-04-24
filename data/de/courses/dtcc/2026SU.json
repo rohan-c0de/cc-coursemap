@@ -15,7 +15,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "(MAT 152 or concurrent) or (MAT 162 or concurrent)",
     "prerequisite_courses": [
@@ -39,7 +39,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 11,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": "(MAT 152 or concurrent) or (MAT 162 or concurrent)",
     "prerequisite_courses": [
@@ -63,7 +63,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Hall, David",
-    "seats_open": 21,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": "(MAT 152 or concurrent) or (MAT 162 or concurrent)",
     "prerequisite_courses": [
@@ -87,7 +87,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Mannering, Teresa",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "(MAT 152 or concurrent) or (MAT 162 or concurrent)",
     "prerequisite_courses": [
@@ -111,7 +111,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Dellinger, John",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "(MAT 152 or concurrent) or (MAT 162 or concurrent)",
     "prerequisite_courses": [
@@ -135,7 +135,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "ACC 101 and (BUS 107 or CIS 107 or OAT 152 or concurrent)",
     "prerequisite_courses": [
@@ -161,7 +161,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 9,
+    "seats_open": 4,
     "seats_total": 25,
     "prerequisite_text": "ACC 101 and (BUS 107 or CIS 107 or OAT 152 or concurrent)",
     "prerequisite_courses": [
@@ -187,7 +187,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Hall, David",
-    "seats_open": 14,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "ACC 101 and (BUS 107 or CIS 107 or OAT 152 or concurrent)",
     "prerequisite_courses": [
@@ -213,7 +213,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bradley, Amber",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "ACC 101 and (BUS 107 or CIS 107 or OAT 152 or concurrent)",
     "prerequisite_courses": [
@@ -239,7 +239,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "(ENG 102 or higher concurrent) and ACC 112 and (BUS 107 or CIS 107 or OAT 152)",
     "prerequisite_courses": [
@@ -266,7 +266,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Conley, Holly",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "(ENG 102 or higher concurrent) and ACC 112 and (BUS 107 or CIS 107 or OAT 152)",
     "prerequisite_courses": [
@@ -293,7 +293,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Linton, Robyn",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "SSC 100",
     "prerequisite_courses": [
@@ -316,7 +316,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Linton, Robyn",
-    "seats_open": 13,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "SSC 100",
     "prerequisite_courses": [
@@ -384,8 +384,8 @@
     "location": "Science &amp; Technology Bldg",
     "campus": "Terry",
     "mode": "in-person",
-    "instructor": "Hollingsworth, Eva",
-    "seats_open": 5,
+    "instructor": "Robinson, Linda",
+    "seats_open": 2,
     "seats_total": 24,
     "prerequisite_text": "SSC 100",
     "prerequisite_courses": [
@@ -408,7 +408,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Staff, Staff",
-    "seats_open": 6,
+    "seats_open": 3,
     "seats_total": 24,
     "prerequisite_text": "SSC 100",
     "prerequisite_courses": [
@@ -431,7 +431,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Folke, Christel",
-    "seats_open": 5,
+    "seats_open": 2,
     "seats_total": 10,
     "prerequisite_text": "AGS 101 and AGS 102 and AGS 105 and AGS 206",
     "prerequisite_courses": [
@@ -439,30 +439,6 @@
       "AGS 102",
       "AGS 105",
       "AGS 206"
-    ]
-  },
-  {
-    "college_code": "dtcc",
-    "term": "2026SU",
-    "course_prefix": "AET",
-    "course_number": "100",
-    "course_title": "Drafting/Design I",
-    "credits": 4,
-    "crn": "31067",
-    "days": "MW",
-    "start_time": "5:30 PM",
-    "end_time": "8:20 PM",
-    "start_date": "2026-05-18",
-    "location": "B-Wing",
-    "campus": "Stanton",
-    "mode": "in-person",
-    "instructor": "Staff, Staff",
-    "seats_open": 0,
-    "seats_total": 0,
-    "prerequisite_text": "(SSC 100 or concurrent) and (CMT 110 or concurrent)",
-    "prerequisite_courses": [
-      "CMT 110",
-      "SSC 100"
     ]
   },
   {
@@ -481,12 +457,35 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Hall, Jeffrey",
-    "seats_open": 10,
+    "seats_open": 7,
     "seats_total": 16,
     "prerequisite_text": "AET 100 and AET 160 concurrent",
     "prerequisite_courses": [
       "AET 100",
       "AET 160"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "AET",
+    "course_number": "160",
+    "course_title": "Architectural CAD Applications",
+    "credits": 3,
+    "crn": "31125",
+    "days": "Th",
+    "start_time": "1:00 PM",
+    "end_time": "2:50 PM",
+    "start_date": "2026-05-21",
+    "location": "Science &amp; Technology Bldg",
+    "campus": "Terry",
+    "mode": "in-person",
+    "instructor": "Hall, Jeffrey",
+    "seats_open": 14,
+    "seats_total": 16,
+    "prerequisite_text": "CMT 110",
+    "prerequisite_courses": [
+      "CMT 110"
     ]
   },
   {
@@ -557,7 +556,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Simon, Scott",
-    "seats_open": 14,
+    "seats_open": 7,
     "seats_total": 24,
     "prerequisite_text": "AVI 120 and ELC 102",
     "prerequisite_courses": [
@@ -604,7 +603,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Rhodes, Wendy",
-    "seats_open": 22,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -627,7 +626,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Shirey, Mary Pat",
-    "seats_open": 22,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -650,7 +649,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wright, Lakesha",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -673,7 +672,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Shellem, Jonathan",
-    "seats_open": 5,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -696,7 +695,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Vito, Amanda",
-    "seats_open": 17,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -719,7 +718,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Witherite, Lauren",
-    "seats_open": 5,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -742,7 +741,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Haas, Ashley",
-    "seats_open": 15,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -765,7 +764,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "DeRocili, Amanda",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -788,7 +787,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Ryndak, Karin",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -811,7 +810,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wright, Lakesha",
-    "seats_open": 20,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -834,7 +833,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McCarthy, Cindy",
-    "seats_open": 11,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -857,7 +856,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Heck, Melanie",
-    "seats_open": 11,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -880,7 +879,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Griffiths, Kimberly",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -926,7 +925,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gruwell, Nicholas",
-    "seats_open": 13,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -945,11 +944,11 @@
     "start_time": "12:00 AM",
     "end_time": "12:01 AM",
     "start_date": "2026-05-18",
-    "location": "",
-    "campus": "Terry",
-    "mode": "in-person",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
     "instructor": "Hurd, Christopher",
-    "seats_open": 11,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -995,7 +994,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Angermaier, Gregory",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1018,7 +1017,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Angermaier, Gregory",
-    "seats_open": 19,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1041,7 +1040,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Cyr, Lakshmi",
-    "seats_open": 15,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1064,7 +1063,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Crisafulli, Theresa",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1087,7 +1086,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Rawding, Crisa",
-    "seats_open": 9,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1110,7 +1109,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Atkins, Sommer",
-    "seats_open": 16,
+    "seats_open": 11,
     "seats_total": 24,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1133,7 +1132,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Hampton-Shoemate, Christina",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1179,7 +1178,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Bianco, Laura",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1202,7 +1201,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Bianco, Laura",
-    "seats_open": 10,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1225,7 +1224,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Wright, Lakesha",
-    "seats_open": 5,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1294,7 +1293,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Alvarez, Victor",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 16,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1363,7 +1362,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Masterson, Megan",
-    "seats_open": 5,
+    "seats_open": 0,
     "seats_total": 16,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1386,7 +1385,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Masterson, Megan",
-    "seats_open": 10,
+    "seats_open": 7,
     "seats_total": 16,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1409,7 +1408,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Paruszewski, Devon",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 16,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1432,7 +1431,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Conrad, Justin",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 16,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -1547,7 +1546,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Hampton-Shoemate, Christina",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": "BIO 120",
     "prerequisite_courses": [
@@ -1731,7 +1730,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Devenny, James",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 16,
     "prerequisite_text": "BIO 120",
     "prerequisite_courses": [
@@ -2036,12 +2035,12 @@
     "days": "Tu",
     "start_time": "6:00 PM",
     "end_time": "7:50 PM",
-    "start_date": "2026-05-18",
+    "start_date": "2026-05-19",
     "location": "Science &amp; Technology Bldg",
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Balcena, Parrish",
-    "seats_open": 18,
+    "seats_open": 0,
     "seats_total": 18,
     "prerequisite_text": "BIO 120 or VET 110 or concurrent",
     "prerequisite_courses": [
@@ -2088,7 +2087,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Deptula, Ian",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "BIO 120",
     "prerequisite_courses": [
@@ -2111,7 +2110,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bradley, Diane",
-    "seats_open": 7,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": "BIO 120",
     "prerequisite_courses": [
@@ -2134,7 +2133,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Pitney, Sandra",
-    "seats_open": 17,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "BIO 120",
     "prerequisite_courses": [
@@ -2157,7 +2156,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Pepper, Jennifer",
-    "seats_open": 6,
+    "seats_open": 4,
     "seats_total": 25,
     "prerequisite_text": "BIO 120",
     "prerequisite_courses": [
@@ -2199,11 +2198,11 @@
     "start_time": "12:00 AM",
     "end_time": "12:01 AM",
     "start_date": "2026-05-18",
-    "location": "To Be Determined",
-    "campus": "George",
-    "mode": "in-person",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
     "instructor": "Bianco, Laura",
-    "seats_open": 20,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2225,7 +2224,7 @@
     "location": "Online",
     "campus": "Online",
     "mode": "online",
-    "instructor": "Cyr, Lakshmi",
+    "instructor": "Caplan, Erika",
     "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
@@ -2249,7 +2248,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Yaeger, Maryann",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2268,11 +2267,11 @@
     "start_time": "12:00 AM",
     "end_time": "12:01 AM",
     "start_date": "2026-05-18",
-    "location": "",
-    "campus": "Terry",
-    "mode": "in-person",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
     "instructor": "Yaeger, Maryann",
-    "seats_open": 5,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2295,7 +2294,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Lee, Stephanie",
-    "seats_open": 9,
+    "seats_open": 5,
     "seats_total": 18,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2318,7 +2317,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Rineer, Joseph",
-    "seats_open": 5,
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2341,7 +2340,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Rineer, Joseph",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 15,
     "prerequisite_text": "BIO 150 and (CHM 110 or CHM150)",
     "prerequisite_courses": [
@@ -2391,7 +2390,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 10,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2414,7 +2413,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 15,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2437,7 +2436,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Hall, David",
-    "seats_open": 15,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2460,7 +2459,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Hall, David",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2483,7 +2482,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Patterson, Clarence",
-    "seats_open": 14,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2506,7 +2505,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "McQueen, Delora",
-    "seats_open": 18,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2529,7 +2528,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 8,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2552,7 +2551,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 22,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2575,7 +2574,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2598,7 +2597,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 22,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2644,7 +2643,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Lightcap-Hewes, Angie",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2667,7 +2666,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Steyn, Angela",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2757,11 +2756,11 @@
     "start_time": "12:00 AM",
     "end_time": "12:01 AM",
     "start_date": "2026-05-18",
-    "location": "",
-    "campus": "Terry",
-    "mode": "in-person",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
     "instructor": "McQueen, Delora",
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "BUS 101 and ENG 102",
     "prerequisite_courses": [
@@ -2785,7 +2784,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 21,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "Manually registered for BUS 275 by program advisor for their last semester of the program",
     "prerequisite_courses": []
@@ -2806,7 +2805,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 20,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "Manually registered for BUS 275 by program advisor for their last semester of the program",
     "prerequisite_courses": []
@@ -2827,7 +2826,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McQueen, Delora",
-    "seats_open": 21,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "Manually registered for BUS 275 by program advisor for their last semester of the program",
     "prerequisite_courses": []
@@ -2848,7 +2847,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Kline, Shanna",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 4,
     "prerequisite_text": "ECH 112 and CVS 109",
     "prerequisite_courses": [
@@ -2872,7 +2871,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Cox, Bryan",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 16,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2895,7 +2894,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Thomas, Michele",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 16,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2918,7 +2917,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Reynolds, Alexus",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 18,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2941,7 +2940,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Cyr, Lakshmi",
-    "seats_open": 9,
+    "seats_open": 2,
     "seats_total": 16,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -2964,7 +2963,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 5,
+    "seats_open": 0,
     "seats_total": 16,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -3091,7 +3090,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Cyr, Lakshmi",
-    "seats_open": 7,
+    "seats_open": 5,
     "seats_total": 16,
     "prerequisite_text": "CHM 150 and (CHM 151 or CHM 151 concurrent)",
     "prerequisite_courses": [
@@ -3115,7 +3114,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Cox, Bryan",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 16,
     "prerequisite_text": "CHM 240",
     "prerequisite_courses": [
@@ -3138,7 +3137,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Lafazia, David",
-    "seats_open": 14,
+    "seats_open": 12,
     "seats_total": 16,
     "prerequisite_text": "SSC 100 or concurrent and (MAT 099 or higher).",
     "prerequisite_courses": [
@@ -3154,15 +3153,15 @@
     "course_title": "Surveying Principles",
     "credits": 4,
     "crn": "30092",
-    "days": "M",
+    "days": "W",
     "start_time": "5:00 PM",
     "end_time": "7:50 PM",
-    "start_date": "2026-05-18",
-    "location": "A-Wing",
+    "start_date": "2026-05-20",
+    "location": "G-Wing - SETC Building",
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 4,
+    "seats_open": 2,
     "seats_total": 8,
     "prerequisite_text": "CET 125 and (MAT 183 or higher)",
     "prerequisite_courses": [
@@ -3186,7 +3185,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 5,
+    "seats_open": 3,
     "seats_total": 8,
     "prerequisite_text": "CET 125 and (MAT 183 or higher)",
     "prerequisite_courses": [
@@ -3210,7 +3209,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 16,
     "prerequisite_text": "CET 125, ((CET 247 or concurrent) or (CET 258 or concurrent))",
     "prerequisite_courses": [
@@ -3235,7 +3234,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 12,
     "prerequisite_text": "COM 283 or concurrent, COM 242",
     "prerequisite_courses": [
@@ -3259,7 +3258,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Trincia, Lawrence",
-    "seats_open": 15,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "Test score or MAT 099 or concurrent",
     "prerequisite_courses": [
@@ -3282,7 +3281,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Jorgage, Brian",
-    "seats_open": 12,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": "CSC 114",
     "prerequisite_courses": [
@@ -3305,7 +3304,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Lafazia, David",
-    "seats_open": 12,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": "(MAT 183 or higher or concurrent), ((CMT 110) or (CET 125 and CET135)).",
     "prerequisite_courses": [
@@ -3331,7 +3330,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Hall, Jeffrey",
-    "seats_open": 14,
+    "seats_open": 15,
     "seats_total": 16,
     "prerequisite_text": "(MAT 183 or higher or concurrent), ((CMT 110) or (CET 125 and CET135)).",
     "prerequisite_courses": [
@@ -3357,7 +3356,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Lafazia, David",
-    "seats_open": -1,
+    "seats_open": -2,
     "seats_total": 0,
     "prerequisite_text": "CMT 110 and CMT 130 and (Test Score or ENG 101)",
     "prerequisite_courses": [
@@ -3382,7 +3381,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Masten, Robert",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -3405,7 +3404,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Spicer, Stacie",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "CRJ 101",
     "prerequisite_courses": [
@@ -3428,7 +3427,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Staff, Staff",
-    "seats_open": 19,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": "CRJ 101.",
     "prerequisite_courses": [
@@ -3463,6 +3462,30 @@
     "college_code": "dtcc",
     "term": "2026SU",
     "course_prefix": "CRJ",
+    "course_number": "222",
+    "course_title": "Constitutional Law &amp; Crim. Pro",
+    "credits": 3,
+    "crn": "31118",
+    "days": "",
+    "start_time": "12:00 AM",
+    "end_time": "12:01 AM",
+    "start_date": "2026-05-18",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
+    "instructor": "Staff, Staff",
+    "seats_open": 12,
+    "seats_total": 25,
+    "prerequisite_text": "CRJ 101 or HDM 101",
+    "prerequisite_courses": [
+      "CRJ 101",
+      "HDM 101"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "CRJ",
     "course_number": "223",
     "course_title": "Criminology",
     "credits": 3,
@@ -3475,12 +3498,37 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Huber, Jody",
-    "seats_open": 11,
+    "seats_open": 4,
     "seats_total": 25,
     "prerequisite_text": "(CRJ 101 or HDM 101) and PSY 121",
     "prerequisite_courses": [
       "CRJ 101",
       "HDM 101",
+      "PSY 121"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "CRJ",
+    "course_number": "224",
+    "course_title": "Juvenile Justice",
+    "credits": 3,
+    "crn": "31129",
+    "days": "",
+    "start_time": "12:00 AM",
+    "end_time": "12:01 AM",
+    "start_date": "2026-05-18",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
+    "instructor": "Spicer, Stacie",
+    "seats_open": 25,
+    "seats_total": 25,
+    "prerequisite_text": "(Test score or ENG 101 or higher) and CRJ 101 and PSY 121",
+    "prerequisite_courses": [
+      "CRJ 101",
+      "ENG 101",
       "PSY 121"
     ]
   },
@@ -3500,7 +3548,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Huber, Jody",
-    "seats_open": -3,
+    "seats_open": -4,
     "seats_total": 25,
     "prerequisite_text": "(Test score or ENG 101 or higher) and CRJ 101 and PSY 121",
     "prerequisite_courses": [
@@ -3525,7 +3573,32 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Huber, Jody",
-    "seats_open": -3,
+    "seats_open": -2,
+    "seats_total": 25,
+    "prerequisite_text": "(CRJ 115 or HDM 101) and (Test score or ENG 101 or higher)",
+    "prerequisite_courses": [
+      "CRJ 115",
+      "ENG 101",
+      "HDM 101"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "CRJ",
+    "course_number": "226",
+    "course_title": "Intro Trauma &amp; Crisis Intrvntn",
+    "credits": 3,
+    "crn": "31128",
+    "days": "",
+    "start_time": "12:00 AM",
+    "end_time": "12:01 AM",
+    "start_date": "2026-05-18",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
+    "instructor": "Staff, Staff",
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": "(CRJ 115 or HDM 101) and (Test score or ENG 101 or higher)",
     "prerequisite_courses": [
@@ -3550,7 +3623,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Sakers, Joseph",
-    "seats_open": 5,
+    "seats_open": 3,
     "seats_total": 12,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -3573,7 +3646,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Ryndak, Karin",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 24,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -3596,7 +3669,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Ramage, Andrew",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "CUL 121",
     "prerequisite_courses": [
@@ -3619,7 +3692,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Simmons, Leeann",
-    "seats_open": 5,
+    "seats_open": 1,
     "seats_total": 18,
     "prerequisite_text": "DHY 102",
     "prerequisite_courses": [
@@ -3642,7 +3715,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Mossman, Sharon",
-    "seats_open": 5,
+    "seats_open": 1,
     "seats_total": 18,
     "prerequisite_text": "DHY 112",
     "prerequisite_courses": [
@@ -3665,7 +3738,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Murray, Melanie",
-    "seats_open": 8,
+    "seats_open": 1,
     "seats_total": 8,
     "prerequisite_text": "ENG 101, BIO 120, (MAT 162 or higher), PHY 111",
     "prerequisite_courses": [
@@ -3684,8 +3757,8 @@
     "credits": 3,
     "crn": "30199",
     "days": "W",
-    "start_time": "9:00 AM",
-    "end_time": "10:00 AM",
+    "start_time": "10:30 AM",
+    "end_time": "12:30 PM",
     "start_date": "2026-05-20",
     "location": "Off Campus Site -Wimington",
     "campus": "George",
@@ -3743,7 +3816,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Kline, Shanna",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 8,
     "prerequisite_text": "DMS 114 and DMS 231.",
     "prerequisite_courses": [
@@ -3767,7 +3840,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Murray, Melanie",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 8,
     "prerequisite_text": "DMS 240",
     "prerequisite_courses": [
@@ -3790,7 +3863,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Powell, Jennifer",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 8,
     "prerequisite_text": "DMS 240",
     "prerequisite_courses": [
@@ -3836,7 +3909,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Hughes, Natascha",
-    "seats_open": 18,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "HMS 121",
     "prerequisite_courses": [
@@ -3859,7 +3932,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Staff, Staff",
-    "seats_open": 12,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "HMS 121",
     "prerequisite_courses": [
@@ -3882,7 +3955,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Gibbs, Kimberly",
-    "seats_open": 8,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "HMS 121",
     "prerequisite_courses": [
@@ -3905,7 +3978,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hutt, Jennifer",
-    "seats_open": 19,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "DAC 141",
     "prerequisite_courses": [
@@ -3928,7 +4001,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Solomon, Germaine",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -3951,7 +4024,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Kline, Shanna",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 4,
     "prerequisite_text": "ECH 112",
     "prerequisite_courses": [
@@ -3974,7 +4047,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Clevenstine, Sandra",
-    "seats_open": 5,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -3997,7 +4070,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Clarke, Katina",
-    "seats_open": 8,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -4020,7 +4093,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wagenheim, Laurel",
-    "seats_open": 14,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -4043,7 +4116,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Johnson, Jesse",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -4066,7 +4139,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Williams, Andrew",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -4089,7 +4162,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Williams, Andrew",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -4135,7 +4208,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Clarke, Katina",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -4158,7 +4231,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wagenheim, Laurel",
-    "seats_open": 8,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -4181,7 +4254,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Johnson, Jesse",
-    "seats_open": 18,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -4204,7 +4277,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Johnson, Jesse",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -4250,7 +4323,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Williams, Andrew",
-    "seats_open": 20,
+    "seats_open": 21,
     "seats_total": 24,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -4399,7 +4472,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Solomon, Germaine",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 24,
     "prerequisite_text": "EDC 151 and EDC 160 and BIO 140 and SCI 150",
     "prerequisite_courses": [
@@ -4450,7 +4523,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Solomon, Germaine",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 24,
     "prerequisite_text": "HIS 111 and EDC 151 and EDC 160",
     "prerequisite_courses": [
@@ -4496,7 +4569,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, Jeffrey",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 3,
     "prerequisite_text": "ELM 252",
     "prerequisite_courses": [
@@ -4709,7 +4782,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Keenan, Michelle",
-    "seats_open": 9,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4793,7 +4866,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Jeffery, Stephanie",
-    "seats_open": 20,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4835,7 +4908,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Jeffery, Stephanie",
-    "seats_open": 5,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4877,7 +4950,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Jeffery, Stephanie",
-    "seats_open": 10,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4898,7 +4971,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gallo, Patricia",
-    "seats_open": 17,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4919,7 +4992,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gallo, Patricia",
-    "seats_open": 16,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4940,7 +5013,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Gallo, Patricia",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4961,7 +5034,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McMahon, Virginia",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4982,7 +5055,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Faucett, Kerri",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5006,7 +5079,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Abbott, Alexander",
-    "seats_open": 6,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5030,7 +5103,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Blaine, Michael",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5053,8 +5126,8 @@
     "location": "Online",
     "campus": "Online",
     "mode": "online",
-    "instructor": "Hughes, Alison",
-    "seats_open": 10,
+    "instructor": "Keenan, Michelle",
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5078,7 +5151,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Keenan, Michelle",
-    "seats_open": 9,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5150,7 +5223,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Moore, Christopher",
-    "seats_open": 9,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5174,7 +5247,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Kavanagh, Gerald",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5198,7 +5271,31 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 9,
+    "seats_open": 10,
+    "seats_total": 20,
+    "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
+    "prerequisite_courses": [
+      "ENG 011",
+      "SSC 100"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "ENG",
+    "course_number": "101",
+    "course_title": "Composition I",
+    "credits": 3,
+    "crn": "31113",
+    "days": "MW",
+    "start_time": "1:00 PM",
+    "end_time": "3:50 PM",
+    "start_date": "2026-05-18",
+    "location": "A-Wing",
+    "campus": "Stanton",
+    "mode": "in-person",
+    "instructor": "Staff, Staff",
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5246,7 +5343,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Jeffery, Stephanie",
-    "seats_open": 11,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5270,7 +5367,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Jeffery, Stephanie",
-    "seats_open": 10,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5294,7 +5391,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Jeffery, Stephanie",
-    "seats_open": 20,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5342,7 +5439,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Jeffery, Stephanie",
-    "seats_open": 5,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5390,7 +5487,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Jeffery, Stephanie",
-    "seats_open": 10,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5438,7 +5535,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gallo, Patricia",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5462,7 +5559,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gallo, Patricia",
-    "seats_open": 16,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5486,7 +5583,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gallo, Patricia",
-    "seats_open": 17,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5510,7 +5607,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gallo, Patricia",
-    "seats_open": 16,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5534,7 +5631,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Gallo, Patricia",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5558,7 +5655,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McMahon, Virginia",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5582,7 +5679,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gallo, Patricia",
-    "seats_open": 14,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "(Test scores or ENG 011 or ENG 011 concurrent) and SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -5628,7 +5725,7 @@
     "location": "Online",
     "campus": "Online",
     "mode": "online",
-    "instructor": "Keenan, Michelle",
+    "instructor": "Staff, Staff",
     "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
@@ -5836,7 +5933,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Keenan, Michelle",
-    "seats_open": 11,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5859,7 +5956,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Smith, Jill",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5882,7 +5979,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Fox, Jennifer",
-    "seats_open": 9,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5973,7 +6070,7 @@
     "location": "Online",
     "campus": "Online",
     "mode": "online",
-    "instructor": "Jeffery, Stephanie",
+    "instructor": "Stabosz, Ishmael",
     "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
@@ -6089,7 +6186,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Jeffery, Stephanie",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 18,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -6204,7 +6301,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McMahon, Virginia",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -6227,7 +6324,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gallo, Patricia",
-    "seats_open": 8,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -6250,7 +6347,53 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gallo, Patricia",
-    "seats_open": 5,
+    "seats_open": 1,
+    "seats_total": 20,
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "ENG",
+    "course_number": "102",
+    "course_title": "Composition II",
+    "credits": 3,
+    "crn": "31119",
+    "days": "",
+    "start_time": "12:00 AM",
+    "end_time": "12:01 AM",
+    "start_date": "2026-06-22",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
+    "instructor": "Gallo, Patricia",
+    "seats_open": 0,
+    "seats_total": 20,
+    "prerequisite_text": "ENG 101",
+    "prerequisite_courses": [
+      "ENG 101"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "ENG",
+    "course_number": "102",
+    "course_title": "Composition II",
+    "credits": 3,
+    "crn": "31120",
+    "days": "",
+    "start_time": "12:00 AM",
+    "end_time": "12:01 AM",
+    "start_date": "2026-06-22",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
+    "instructor": "Gallo, Patricia",
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -6388,8 +6531,31 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Jones, Lori",
-    "seats_open": 0,
+    "seats_open": -4,
     "seats_total": 0,
+    "prerequisite_text": "Test score or ENG 102 or higher",
+    "prerequisite_courses": [
+      "ENG 102"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "ENG",
+    "course_number": "122",
+    "course_title": "Technical Writing-Comm",
+    "credits": 3,
+    "crn": "31122",
+    "days": "",
+    "start_time": "12:00 AM",
+    "end_time": "12:01 AM",
+    "start_date": "2026-06-22",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
+    "instructor": "Gallo, Patricia",
+    "seats_open": 1,
+    "seats_total": 20,
     "prerequisite_text": "Test score or ENG 102 or higher",
     "prerequisite_courses": [
       "ENG 102"
@@ -6434,7 +6600,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Kulhanek, Ernest",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "ENG 102",
     "prerequisite_courses": [
@@ -6480,7 +6646,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Jeffery, Stephanie",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 102",
     "prerequisite_courses": [
@@ -6503,7 +6669,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Diehl, Simeon",
-    "seats_open": 9,
+    "seats_open": 5,
     "seats_total": 12,
     "prerequisite_text": "(Test Scores) or ESL 026 and ESL 028",
     "prerequisite_courses": [
@@ -6527,7 +6693,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 12,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "BUS 101 or ENT 101",
     "prerequisite_courses": [
@@ -6551,7 +6717,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Malkin, Carol",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "EXS 100 and EXS 101",
     "prerequisite_courses": [
@@ -6598,7 +6764,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Malkin, Carol",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "(EXS 105 or concurrent) and (EXS 120 or concurrent)",
     "prerequisite_courses": [
@@ -6622,7 +6788,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "ECO 111 and (ENG 102 or higher)",
     "prerequisite_courses": [
@@ -6646,7 +6812,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Pierce, Mark",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "ECO 111 and (ENG 102 or higher)",
     "prerequisite_courses": [
@@ -6666,11 +6832,11 @@
     "start_time": "12:00 AM",
     "end_time": "12:01 AM",
     "start_date": "2026-05-18",
-    "location": "",
-    "campus": "Terry",
-    "mode": "in-person",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
     "instructor": "McQueen, Delora",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "ECO 111 and (ENG 102 or higher)",
     "prerequisite_courses": [
@@ -6694,7 +6860,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 16,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -6717,7 +6883,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Esham, Lucilla",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -6740,7 +6906,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McKain, Michael",
-    "seats_open": 8,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -6809,7 +6975,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Johnson, Jesse",
-    "seats_open": 13,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -6832,7 +6998,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Zink, Matthew",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -6878,7 +7044,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Johnson, Jesse",
-    "seats_open": 24,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -6901,7 +7067,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Johnson, Jesse",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -6924,7 +7090,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Summers, Thomas",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -6970,7 +7136,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "O&#39;Shaughnessy, Charlotte",
-    "seats_open": 11,
+    "seats_open": 4,
     "seats_total": 25,
     "prerequisite_text": "(Test Score or ENG 101 or higher or concurrent)",
     "prerequisite_courses": [
@@ -7016,7 +7182,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McInerney, Jessica",
-    "seats_open": 11,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7062,7 +7228,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hollinger, Dawn",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7085,7 +7251,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Williams, Andrew",
-    "seats_open": 5,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7104,11 +7270,11 @@
     "start_time": "12:00 AM",
     "end_time": "12:01 AM",
     "start_date": "2026-05-18",
-    "location": "",
-    "campus": "Terry",
-    "mode": "in-person",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
     "instructor": "Williams, Andrew",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7131,7 +7297,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Hughes, Natascha",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7154,7 +7320,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Hutt, Jennifer",
-    "seats_open": 15,
+    "seats_open": 10,
     "seats_total": 24,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7177,7 +7343,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Merchant, Larry",
-    "seats_open": 12,
+    "seats_open": 7,
     "seats_total": 22,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7200,7 +7366,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Tyre, Jessica",
-    "seats_open": 20,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "HMS 121 and PSY 121 and (ENG 101 or higher)",
     "prerequisite_courses": [
@@ -7238,6 +7404,31 @@
     "college_code": "dtcc",
     "term": "2026SU",
     "course_prefix": "HMS",
+    "course_number": "122",
+    "course_title": "Theories of Counseling",
+    "credits": 3,
+    "crn": "31127",
+    "days": "",
+    "start_time": "12:00 AM",
+    "end_time": "12:01 AM",
+    "start_date": "2026-06-22",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
+    "instructor": "Walter, Silja",
+    "seats_open": 23,
+    "seats_total": 25,
+    "prerequisite_text": "HMS 121 and PSY 121 and (ENG 101 or higher)",
+    "prerequisite_courses": [
+      "ENG 101",
+      "HMS 121",
+      "PSY 121"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "HMS",
     "course_number": "123",
     "course_title": "Dynamics/Group Communication I",
     "credits": 3,
@@ -7250,7 +7441,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Hudson, Malinda",
-    "seats_open": 22,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "HMS 121 and PSY 121 and (Test score or ENG 101 or higher)",
     "prerequisite_courses": [
@@ -7275,7 +7466,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 24,
     "prerequisite_text": "HMS 121 and PSY 121 and (Test score or ENG 101 or higher)",
     "prerequisite_courses": [
@@ -7300,7 +7491,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gibbs, Kimberly",
-    "seats_open": 14,
+    "seats_open": 12,
     "seats_total": 22,
     "prerequisite_text": "HMS 121 and PSY 121 and (Test score or ENG 101 or higher)",
     "prerequisite_courses": [
@@ -7349,7 +7540,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Hudson, Malinda",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "HMS 121 and (Test score or ENG 101 or higher) and POL 111 and (SOC 111 or PSY 225)",
     "prerequisite_courses": [
@@ -7376,7 +7567,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Hutt, Jennifer",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "HMS 121 and (Test score or ENG 101 or higher) and POL 111 and (SOC 111 or PSY 225)",
     "prerequisite_courses": [
@@ -7451,7 +7642,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Hudson, Malinda",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 15,
     "prerequisite_text": "HMS 122 and HMS 123 and ENG 102",
     "prerequisite_courses": [
@@ -7476,7 +7667,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Hutt, Jennifer",
-    "seats_open": 9,
+    "seats_open": 0,
     "seats_total": 9,
     "prerequisite_text": "HMS 122 and HMS 123 and ENG 102",
     "prerequisite_courses": [
@@ -7501,7 +7692,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Gibbs, Kimberly",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 6,
     "prerequisite_text": "HMS 122 and HMS 123 and ENG 102",
     "prerequisite_courses": [
@@ -7549,7 +7740,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Hutt, Jennifer",
-    "seats_open": 9,
+    "seats_open": 1,
     "seats_total": 9,
     "prerequisite_text": "HMS 243",
     "prerequisite_courses": [
@@ -7618,7 +7809,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "An, Jin",
-    "seats_open": 18,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7641,7 +7832,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Whealton, Chuck",
-    "seats_open": 16,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7664,7 +7855,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Ralph, Brennen",
-    "seats_open": 6,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7687,7 +7878,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sciallo, Frank",
-    "seats_open": 12,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7710,7 +7901,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Kleinhomer, Michele",
-    "seats_open": 6,
+    "seats_open": 4,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7747,29 +7938,6 @@
     "course_number": "120",
     "course_title": "Operating Systems I",
     "credits": 3,
-    "crn": "30215",
-    "days": "TuTh",
-    "start_time": "6:00 PM",
-    "end_time": "8:50 PM",
-    "start_date": "2026-05-19",
-    "location": "Zoom",
-    "campus": "Online",
-    "mode": "zoom",
-    "instructor": "Monsen, Vincent",
-    "seats_open": 23,
-    "seats_total": 25,
-    "prerequisite_text": "SSC 100 or concurrent",
-    "prerequisite_courses": [
-      "SSC 100"
-    ]
-  },
-  {
-    "college_code": "dtcc",
-    "term": "2026SU",
-    "course_prefix": "ITN",
-    "course_number": "120",
-    "course_title": "Operating Systems I",
-    "credits": 3,
     "crn": "30719",
     "days": "",
     "start_time": "12:00 AM",
@@ -7779,7 +7947,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sciallo, Frank",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7802,7 +7970,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sciallo, Frank",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7825,7 +7993,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Knight, Mike",
-    "seats_open": 10,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "ITN 120",
     "prerequisite_courses": [
@@ -7848,7 +8016,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sciallo, Frank",
-    "seats_open": 17,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7871,7 +8039,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hassman, Alexander",
-    "seats_open": 6,
+    "seats_open": 4,
     "seats_total": 25,
     "prerequisite_text": "ITN 120",
     "prerequisite_courses": [
@@ -7894,7 +8062,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Whealton, Chuck",
-    "seats_open": 10,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -7917,7 +8085,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Faucher, Kevin",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "ITN 150",
     "prerequisite_courses": [
@@ -7940,7 +8108,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Whealton, Chuck",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": "ITN 150",
     "prerequisite_courses": [
@@ -7963,8 +8131,8 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Knight, Mike",
-    "seats_open": 2,
-    "seats_total": 25,
+    "seats_open": 6,
+    "seats_total": 35,
     "prerequisite_text": "ITN 101 and ITN 103 and ITN 110 and ITN 120 and ITN 150 and ITN 160 and ITN 170 and ITN 180 and ITN 200 and (ITN 251 or ITN 261 or ITN 264 or ITN 271 or ITN 272 or ITN 273 or ITN 274)",
     "prerequisite_courses": [
       "ITN 101",
@@ -8001,7 +8169,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Thompson, Dr Laura L",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8043,7 +8211,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Watkins, Tammy",
-    "seats_open": 4,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "BUS 101 and (Test score or ENG 102 or higher or concurrent)",
     "prerequisite_courses": [
@@ -8067,7 +8235,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "BUS 101 and (Test score or ENG 102 or higher or concurrent)",
     "prerequisite_courses": [
@@ -8091,7 +8259,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Hall, David",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "BUS 101 and (Test score or ENG 102 or higher or concurrent)",
     "prerequisite_courses": [
@@ -8115,7 +8283,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "West, Chesney",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "BUS 101 and (Test score or ENG 102 or higher or concurrent)",
     "prerequisite_courses": [
@@ -8139,7 +8307,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "(ENG 102 or higher) and MGT 212 and ACC 101",
     "prerequisite_courses": [
@@ -8190,7 +8358,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McQueen, Delora",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "MGT 212",
     "prerequisite_courses": [
@@ -8213,7 +8381,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 9,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "(BUS 107 or CIS 107) and (MGT 212 or concurrent)",
     "prerequisite_courses": [
@@ -8238,7 +8406,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, David",
-    "seats_open": 11,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "(BUS 107 or CIS 107) and (MGT 212 or concurrent)",
     "prerequisite_courses": [
@@ -8263,7 +8431,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Garcia-Korosec, Horacio",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "(BUS 107 or CIS 107) and (MGT 212 or concurrent)",
     "prerequisite_courses": [
@@ -8336,7 +8504,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Hall, David",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "(ENG 102 or concurrent) and BUS 101",
     "prerequisite_courses": [
@@ -8360,7 +8528,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Patosky, Heather",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "(ENG 102 or concurrent) and BUS 101",
     "prerequisite_courses": [
@@ -8380,11 +8548,11 @@
     "start_time": "12:00 AM",
     "end_time": "12:01 AM",
     "start_date": "2026-05-18",
-    "location": "",
-    "campus": "Terry",
-    "mode": "in-person",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
     "instructor": "Staff, Staff",
-    "seats_open": 25,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "(ENG 102 or concurrent) and BUS 101",
     "prerequisite_courses": [
@@ -8408,7 +8576,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 19,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "MKT 212",
     "prerequisite_courses": [
@@ -8431,7 +8599,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Mackert, Wendy",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8452,7 +8620,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Winkleblech, Ryan",
-    "seats_open": 10,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8473,7 +8641,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Todd, Von Michael",
-    "seats_open": 13,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8494,7 +8662,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Parris, Rachael-Ann",
-    "seats_open": 14,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8515,7 +8683,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Giunta, Marnie",
-    "seats_open": 5,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8536,7 +8704,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Reilly, Amanda",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8557,7 +8725,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "McFarlane, Samantha",
-    "seats_open": 8,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8578,7 +8746,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Patel, Bharatkumar",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8599,7 +8767,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Kelly, Catherine",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8620,7 +8788,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Hackett Sr., Charles",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8641,7 +8809,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Oberdick, Rodney",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8662,7 +8830,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Cox, Dustin",
-    "seats_open": 16,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8704,7 +8872,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Murphy, Patricia",
-    "seats_open": 14,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8721,11 +8889,11 @@
     "start_time": "11:30 AM",
     "end_time": "12:20 PM",
     "start_date": "2026-05-20",
-    "location": "East",
+    "location": "",
     "campus": "George",
     "mode": "in-person",
     "instructor": "Drushler, Alfred",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8746,7 +8914,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Selba, Matthew",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8767,7 +8935,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Rogers, Jason",
-    "seats_open": 10,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8788,7 +8956,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Mayan, Gerald",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8809,7 +8977,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Murphy, Nicholas",
-    "seats_open": 17,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8829,8 +8997,8 @@
     "location": "A-Wing",
     "campus": "Stanton",
     "mode": "in-person",
-    "instructor": "Staff, Staff",
-    "seats_open": 20,
+    "instructor": "Paola, Joseph",
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8851,7 +9019,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Ferrand, Patrice",
-    "seats_open": 11,
+    "seats_open": 13,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8872,7 +9040,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Kelly, Catherine",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8893,7 +9061,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Smith, Derek",
-    "seats_open": 17,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -8941,7 +9109,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Mackert, Wendy",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -8965,7 +9133,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Winkleblech, Ryan",
-    "seats_open": 10,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -8989,7 +9157,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Mackert, Wendy",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 24,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9013,7 +9181,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Todd, Von Michael",
-    "seats_open": 13,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9037,7 +9205,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Parris, Rachael-Ann",
-    "seats_open": 14,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9061,7 +9229,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Giunta, Marnie",
-    "seats_open": 5,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9085,7 +9253,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Hoffman, Kyle",
-    "seats_open": 14,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9133,7 +9301,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Robelen, Jennifer",
-    "seats_open": 17,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9157,7 +9325,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McGonegal, Kara-Zoe",
-    "seats_open": 14,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9181,7 +9349,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Reilly, Amanda",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9205,7 +9373,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Paola, Joseph",
-    "seats_open": 15,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9229,7 +9397,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Reilly, Amanda",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9253,7 +9421,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "McFarlane, Samantha",
-    "seats_open": 8,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9277,7 +9445,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Hurd, Deborah",
-    "seats_open": 17,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9301,7 +9469,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Kelly, Catherine",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9325,7 +9493,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Kelly, Catherine",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9349,7 +9517,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Hackett Sr., Charles",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9373,7 +9541,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Oberdick, Rodney",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9397,7 +9565,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Cox, Dustin",
-    "seats_open": 16,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9445,7 +9613,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Patel, Bharatkumar",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9517,7 +9685,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Winchester, June",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "MAT 010 or MAT 052 concurrent",
     "prerequisite_courses": [
@@ -9589,7 +9757,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Murphy, Patricia",
-    "seats_open": 14,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "MAT 020 or MAT 062 concurrent",
     "prerequisite_courses": [
@@ -9613,7 +9781,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Drushler, Alfred",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "MAT 020 or MAT 062 concurrent",
     "prerequisite_courses": [
@@ -9637,7 +9805,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Selba, Matthew",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "MAT 020 or MAT 062 concurrent",
     "prerequisite_courses": [
@@ -9661,7 +9829,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Rogers, Jason",
-    "seats_open": 10,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "MAT 020 or MAT 062 concurrent",
     "prerequisite_courses": [
@@ -9685,7 +9853,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 11,
+    "seats_open": 4,
     "seats_total": 24,
     "prerequisite_text": "MAT 020 or MAT 062 concurrent",
     "prerequisite_courses": [
@@ -9757,7 +9925,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Lawson, Karin",
-    "seats_open": 0,
+    "seats_open": -2,
     "seats_total": 0,
     "prerequisite_text": "MAT 020 or MAT 062 concurrent",
     "prerequisite_courses": [
@@ -9781,7 +9949,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Mayan, Gerald",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "MAT 020 or MAT 062 concurrent",
     "prerequisite_courses": [
@@ -9829,7 +9997,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Asiedu, Isaac",
-    "seats_open": 21,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "MAT 020 or MAT 062 concurrent",
     "prerequisite_courses": [
@@ -9853,7 +10021,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Iannucci, Blaise",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "MAT 020 or MAT 062 concurrent",
     "prerequisite_courses": [
@@ -9877,7 +10045,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Okorie, Azubuike",
-    "seats_open": 21,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "MAT 020 or MAT 062 concurrent",
     "prerequisite_courses": [
@@ -9901,7 +10069,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Mayan, Gerald",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "MAT 020 or MAT 062 concurrent",
     "prerequisite_courses": [
@@ -9925,7 +10093,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Lenhart, Christopher",
-    "seats_open": 9,
+    "seats_open": 5,
     "seats_total": 24,
     "prerequisite_text": "MAT 172",
     "prerequisite_courses": [
@@ -9947,8 +10115,8 @@
     "location": "Educational Technology Bldg",
     "campus": "Terry",
     "mode": "in-person",
-    "instructor": "Traynor, Tammy",
-    "seats_open": 10,
+    "instructor": "Hill, Kyle",
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": "MAT 172",
     "prerequisite_courses": [
@@ -9971,7 +10139,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Whaley, Tyler",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 24,
     "prerequisite_text": "Test Scores or MAT 099",
     "prerequisite_courses": [
@@ -9994,7 +10162,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Todd, Von Michael",
-    "seats_open": 11,
+    "seats_open": 7,
     "seats_total": 24,
     "prerequisite_text": "Test Scores or MAT 099",
     "prerequisite_courses": [
@@ -10031,6 +10199,29 @@
     "course_number": "183",
     "course_title": "Reasoning with Functions I",
     "credits": 5,
+    "crn": "31115",
+    "days": "MW",
+    "start_time": "5:30 PM",
+    "end_time": "8:20 PM",
+    "start_date": "2026-05-18",
+    "location": "A-Wing",
+    "campus": "Stanton",
+    "mode": "in-person",
+    "instructor": "Paola, Joseph",
+    "seats_open": 1,
+    "seats_total": 24,
+    "prerequisite_text": "Test Scores or MAT 099",
+    "prerequisite_courses": [
+      "MAT 099"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "MAT",
+    "course_number": "183",
+    "course_title": "Reasoning with Functions I",
+    "credits": 5,
     "crn": "30774",
     "days": "TuTh",
     "start_time": "6:00 PM",
@@ -10040,7 +10231,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Zourna, Anna",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "Test Scores or MAT 099",
     "prerequisite_courses": [
@@ -10063,7 +10254,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Flechier, Rony",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "Test Scores or MAT 183",
     "prerequisite_courses": [
@@ -10100,6 +10291,29 @@
     "course_number": "193",
     "course_title": "Reasoning with Functions II",
     "credits": 4,
+    "crn": "31114",
+    "days": "MW",
+    "start_time": "6:00 PM",
+    "end_time": "8:50 PM",
+    "start_date": "2026-05-18",
+    "location": "A-Wing",
+    "campus": "Stanton",
+    "mode": "in-person",
+    "instructor": "Staff, Staff",
+    "seats_open": 17,
+    "seats_total": 24,
+    "prerequisite_text": "Test Scores or MAT 183",
+    "prerequisite_courses": [
+      "MAT 183"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "MAT",
+    "course_number": "193",
+    "course_title": "Reasoning with Functions II",
+    "credits": 4,
     "crn": "31028",
     "days": "TuTh",
     "start_time": "6:00 PM",
@@ -10109,7 +10323,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 9,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "Test Scores or MAT 183",
     "prerequisite_courses": [
@@ -10132,7 +10346,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Haynes, Kate",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "Test Score or MAT 183 or higher",
     "prerequisite_courses": [
@@ -10155,7 +10369,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Robelen, Jennifer",
-    "seats_open": 16,
+    "seats_open": 13,
     "seats_total": 24,
     "prerequisite_text": "Test Score or MAT 183 or higher",
     "prerequisite_courses": [
@@ -10201,7 +10415,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Parris, Rachael-Ann",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 24,
     "prerequisite_text": "MAT 173",
     "prerequisite_courses": [
@@ -10224,7 +10438,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Whaley, Tyler",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 24,
     "prerequisite_text": "MAT 193 or higher",
     "prerequisite_courses": [
@@ -10247,7 +10461,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Paola, Joseph",
-    "seats_open": 4,
+    "seats_open": 2,
     "seats_total": 24,
     "prerequisite_text": "MAT 193 or higher",
     "prerequisite_courses": [
@@ -10270,8 +10484,31 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Northshield, Michelle",
-    "seats_open": -1,
+    "seats_open": 0,
     "seats_total": 25,
+    "prerequisite_text": "MAT 193 or higher",
+    "prerequisite_courses": [
+      "MAT 193"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "MAT",
+    "course_number": "281",
+    "course_title": "Calculus I",
+    "credits": 4,
+    "crn": "31126",
+    "days": "TuTh",
+    "start_time": "8:30 AM",
+    "end_time": "10:50 AM",
+    "start_date": "2026-05-19",
+    "location": "A-Wing",
+    "campus": "Stanton",
+    "mode": "in-person",
+    "instructor": "Paola, Joseph",
+    "seats_open": 18,
+    "seats_total": 24,
     "prerequisite_text": "MAT 193 or higher",
     "prerequisite_courses": [
       "MAT 193"
@@ -10293,8 +10530,31 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Corraliza, Christopher",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 25,
+    "prerequisite_text": "MAT 281",
+    "prerequisite_courses": [
+      "MAT 281"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "MAT",
+    "course_number": "282",
+    "course_title": "Calculus II",
+    "credits": 4,
+    "crn": "31124",
+    "days": "",
+    "start_time": "12:00 AM",
+    "end_time": "12:01 AM",
+    "start_date": "2026-05-18",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
+    "instructor": "Robelen, Jennifer",
+    "seats_open": 1,
+    "seats_total": 24,
     "prerequisite_text": "MAT 281",
     "prerequisite_courses": [
       "MAT 281"
@@ -10316,7 +10576,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Watts, Dalton",
-    "seats_open": -1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "MAT 281",
     "prerequisite_courses": [
@@ -10339,7 +10599,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McGonegal, Kara-Zoe",
-    "seats_open": 9,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "MAT 282",
     "prerequisite_courses": [
@@ -10361,7 +10621,7 @@
     "location": "South East",
     "campus": "George",
     "mode": "in-person",
-    "instructor": "Miller, Jennifer",
+    "instructor": "Latina, Lauren",
     "seats_open": 6,
     "seats_total": 12,
     "prerequisite_text": "SSC 100 or concurrent",
@@ -10385,7 +10645,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Miller, Jennifer",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -10454,7 +10714,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Woolard, Kasey",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 10,
     "prerequisite_text": "MEA 150 and (MAT 152 or concurrent)",
     "prerequisite_courses": [
@@ -10478,7 +10738,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Staff, Staff",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "MEA 125 and MEA 151 and MEA 170 and (MEA 290 or concurrent) and (ENG 101 or concurrent)",
     "prerequisite_courses": [
@@ -10501,11 +10761,11 @@
     "start_time": "12:00 AM",
     "end_time": "12:01 AM",
     "start_date": "2026-05-18",
-    "location": "",
+    "location": "Off Campus Site -Wimington",
     "campus": "George",
     "mode": "in-person",
     "instructor": "Miller, Jennifer",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "MEA 125 and MEA 151 and MEA 170 and (MEA 270 or concurrent)",
     "prerequisite_courses": [
@@ -10531,7 +10791,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Collins, Linda",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 16,
     "prerequisite_text": "MLT 120",
     "prerequisite_courses": [
@@ -10553,7 +10813,7 @@
     "location": "Off Campus Site -Wimington",
     "campus": "George",
     "mode": "in-person",
-    "instructor": "Griffith, Karen",
+    "instructor": "Wood, Katherine",
     "seats_open": 1,
     "seats_total": 8,
     "prerequisite_text": "NMT 224 and NMT 115 and HLH 215",
@@ -10628,7 +10888,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "McCommons, Rita",
-    "seats_open": 30,
+    "seats_open": 26,
     "seats_total": 30,
     "prerequisite_text": "PSY 127 and NUR 131",
     "prerequisite_courses": [
@@ -10651,8 +10911,8 @@
     "location": "Off Campus Site - Owens",
     "campus": "Owens",
     "mode": "in-person",
-    "instructor": "Pepper, Jennifer",
-    "seats_open": 8,
+    "instructor": "Riddick, Emily",
+    "seats_open": 7,
     "seats_total": 24,
     "prerequisite_text": "NUR 131 and PSY 127",
     "prerequisite_courses": [
@@ -10676,7 +10936,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Pepper, Jennifer",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 24,
     "prerequisite_text": "NUR 131 and PSY 127",
     "prerequisite_courses": [
@@ -10700,7 +10960,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "O&#39;Shea, Jamey",
-    "seats_open": 13,
+    "seats_open": 10,
     "seats_total": 16,
     "prerequisite_text": "NUR 200 and NUR 201",
     "prerequisite_courses": [
@@ -10724,7 +10984,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sokola, Kathy",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10745,7 +11005,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sokola, Kathy",
-    "seats_open": 12,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10766,7 +11026,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sokola, Kathy",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10787,7 +11047,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Maloney, Jeanmarie",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "NUR 300 or concurrent",
     "prerequisite_courses": [
@@ -10810,7 +11070,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Maloney, Jeanmarie",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "NUR 300 or concurrent",
     "prerequisite_courses": [
@@ -10833,7 +11093,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wagamon, Karen",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "NUR 300 or concurrent",
     "prerequisite_courses": [
@@ -10856,7 +11116,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wagamon, Karen",
-    "seats_open": 17,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "NUR 300 or concurrent",
     "prerequisite_courses": [
@@ -10919,6 +11179,32 @@
     "college_code": "dtcc",
     "term": "2026SU",
     "course_prefix": "NUR",
+    "course_number": "330",
+    "course_title": "Population &amp; Community Health",
+    "credits": 4,
+    "crn": "31117",
+    "days": "",
+    "start_time": "12:00 AM",
+    "end_time": "12:01 AM",
+    "start_date": "2026-05-18",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
+    "instructor": "Layer, Tammy",
+    "seats_open": 11,
+    "seats_total": 20,
+    "prerequisite_text": "ENG 122 and (MAT 162 or MAT 255) and NUR 300",
+    "prerequisite_courses": [
+      "ENG 122",
+      "MAT 162",
+      "MAT 255",
+      "NUR 300"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "NUR",
     "course_number": "340",
     "course_title": "Nursing Research",
     "credits": 3,
@@ -10931,7 +11217,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sokola, Kathy",
-    "seats_open": 0,
+    "seats_open": -1,
     "seats_total": 20,
     "prerequisite_text": "ENG 122 and (MAT 162 or MAT 255) and NUR 300",
     "prerequisite_courses": [
@@ -10957,7 +11243,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Layer, Tammy",
-    "seats_open": 8,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 122 and (MAT 162 or MAT 255) and NUR 300",
     "prerequisite_courses": [
@@ -10983,7 +11269,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wagamon, Karen",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "NUR 300",
     "prerequisite_courses": [
@@ -11006,7 +11292,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wagamon, Karen",
-    "seats_open": 18,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "NUR 300",
     "prerequisite_courses": [
@@ -11052,7 +11338,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wagamon, Karen",
-    "seats_open": 3,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "NUR 300",
     "prerequisite_courses": [
@@ -11075,7 +11361,30 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sokola, Kathy",
-    "seats_open": 2,
+    "seats_open": 0,
+    "seats_total": 20,
+    "prerequisite_text": "NUR 300",
+    "prerequisite_courses": [
+      "NUR 300"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "NUR",
+    "course_number": "410",
+    "course_title": "Nursing Informatics",
+    "credits": 3,
+    "crn": "31116",
+    "days": "",
+    "start_time": "12:00 AM",
+    "end_time": "12:01 AM",
+    "start_date": "2026-06-22",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
+    "instructor": "Maloney, Jeanmarie",
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": "NUR 300",
     "prerequisite_courses": [
@@ -11098,7 +11407,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bergstrom, Melissa",
-    "seats_open": 0,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "NUR 300",
     "prerequisite_courses": [
@@ -11121,7 +11430,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wagamon, Karen",
-    "seats_open": 10,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "NUR 300",
     "prerequisite_courses": [
@@ -11145,6 +11454,34 @@
     "mode": "online",
     "instructor": "Sokola, Kathy",
     "seats_open": 0,
+    "seats_total": 20,
+    "prerequisite_text": "NUR 310 and NUR 320 and NUR 330 and NUR 340 and NUR 400 and NUR 410",
+    "prerequisite_courses": [
+      "NUR 310",
+      "NUR 320",
+      "NUR 330",
+      "NUR 340",
+      "NUR 400",
+      "NUR 410"
+    ]
+  },
+  {
+    "college_code": "dtcc",
+    "term": "2026SU",
+    "course_prefix": "NUR",
+    "course_number": "460",
+    "course_title": "Nursing Capstone",
+    "credits": 6,
+    "crn": "31123",
+    "days": "",
+    "start_time": "12:00 AM",
+    "end_time": "12:01 AM",
+    "start_date": "2026-05-18",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
+    "instructor": "Sokola, Kathy",
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "NUR 310 and NUR 320 and NUR 330 and NUR 340 and NUR 400 and NUR 410",
     "prerequisite_courses": [
@@ -11223,7 +11560,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 11,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11246,7 +11583,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11269,7 +11606,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 22,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11292,7 +11629,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey-Thomas, Kimberly",
-    "seats_open": 16,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11338,7 +11675,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Hall, David",
-    "seats_open": 18,
+    "seats_open": 15,
     "seats_total": 24,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11361,7 +11698,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Rexrode, Richard",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11384,7 +11721,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Rodgers, Paul",
-    "seats_open": 14,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11453,7 +11790,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Morton, Jennifer",
-    "seats_open": 15,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11475,7 +11812,7 @@
     "location": "Zoom",
     "campus": "Online",
     "mode": "zoom",
-    "instructor": "Morton, Jennifer",
+    "instructor": "West, Kelly",
     "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
@@ -11499,7 +11836,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Morton, Jennifer",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": "Department approval",
     "prerequisite_courses": []
@@ -11543,7 +11880,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Johnson, Jesse",
-    "seats_open": 16,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11585,11 +11922,11 @@
     "start_time": "12:00 AM",
     "end_time": "12:01 AM",
     "start_date": "2026-05-18",
-    "location": "",
-    "campus": "Terry",
-    "mode": "in-person",
+    "location": "Online",
+    "campus": "Online",
+    "mode": "online",
     "instructor": "Williams, Andrew",
-    "seats_open": 22,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11612,7 +11949,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Bird, Patricia",
-    "seats_open": 14,
+    "seats_open": 8,
     "seats_total": 16,
     "prerequisite_text": "BIO 121 and PTA 101 or concurrent",
     "prerequisite_courses": [
@@ -11636,7 +11973,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 16,
     "prerequisite_text": "BIO 121 and PTA 101 or concurrent",
     "prerequisite_courses": [
@@ -11683,7 +12020,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 13,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11706,7 +12043,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "McGonegal, Kara-Zoe",
-    "seats_open": 17,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11729,7 +12066,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Okocha, Fredrick",
-    "seats_open": 18,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11752,7 +12089,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Stant, Timothy",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11775,7 +12112,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hall, Jeffrey",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11798,7 +12135,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Hall, Jeffrey",
-    "seats_open": 17,
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11846,7 +12183,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Cyr, Lakshmi",
-    "seats_open": 10,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "MAT 183 or MAT 193 Scores or MAT 281 scores",
     "prerequisite_courses": [
@@ -11871,7 +12208,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Peppard, William",
-    "seats_open": 11,
+    "seats_open": 12,
     "seats_total": 18,
     "prerequisite_text": "PHY 205 and (Test score or MAT 190 or MAT 193 or higher)",
     "prerequisite_courses": [
@@ -11896,7 +12233,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Bhat, Anupama",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "MAT 281",
     "prerequisite_courses": [
@@ -11919,7 +12256,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Cyr, Lakshmi",
-    "seats_open": 14,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "MAT 281",
     "prerequisite_courses": [
@@ -11942,7 +12279,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McKain, Michael",
-    "seats_open": 22,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -11988,7 +12325,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Moore, Patrick",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -12011,7 +12348,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Williams, Andrew",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -12103,7 +12440,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Post, William",
-    "seats_open": 21,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12149,7 +12486,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Moody, Stephanie",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12172,7 +12509,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Sparks, Karianne",
-    "seats_open": 12,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12195,7 +12532,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Treherne, Brenda",
-    "seats_open": 13,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12218,7 +12555,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "King, Amber",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12241,7 +12578,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Guiswite, Stephanie",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12287,7 +12624,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Clarke, Katina",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12333,7 +12670,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Clarke, Katina",
-    "seats_open": 18,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12356,7 +12693,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Thompson, Ricki",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 24,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12379,7 +12716,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Johnson, Jesse",
-    "seats_open": 4,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12402,7 +12739,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Johnson, Jesse",
-    "seats_open": 20,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12448,7 +12785,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wright, Katie",
-    "seats_open": 13,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12471,7 +12808,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Tatman, Ashlie",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12494,7 +12831,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Eagle, Carol",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12517,7 +12854,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Weller, Dustin",
-    "seats_open": 21,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -12540,7 +12877,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Fillmore, John",
-    "seats_open": 11,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -12747,7 +13084,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Eagle, Carol",
-    "seats_open": 13,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -12793,7 +13130,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Clarke, Katina",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "PSY 121.",
     "prerequisite_courses": [
@@ -12816,7 +13153,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Johnson, Jesse",
-    "seats_open": 16,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "PSY 121.",
     "prerequisite_courses": [
@@ -12839,7 +13176,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Eagle, Carol",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "PSY 121.",
     "prerequisite_courses": [
@@ -12862,7 +13199,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Brunskill, Brenda",
-    "seats_open": 22,
+    "seats_open": 1,
     "seats_total": 22,
     "prerequisite_text": "BIO 120 and (MAT 162 or higher)",
     "prerequisite_courses": [
@@ -12910,7 +13247,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Bentley, Kristie",
-    "seats_open": 22,
+    "seats_open": 1,
     "seats_total": 22,
     "prerequisite_text": "BIO 120 and (MAT 162 or higher)",
     "prerequisite_courses": [
@@ -12958,7 +13295,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Brunskill, Brenda",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 22,
     "prerequisite_text": "BIO 121 and RAD 161",
     "prerequisite_courses": [
@@ -12982,7 +13319,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Shutak, Dawn",
-    "seats_open": 3,
+    "seats_open": 1,
     "seats_total": 10,
     "prerequisite_text": "BIO 121 and RAD 161",
     "prerequisite_courses": [
@@ -13006,7 +13343,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Shutak, Dawn",
-    "seats_open": 7,
+    "seats_open": 5,
     "seats_total": 12,
     "prerequisite_text": "RAD 162",
     "prerequisite_courses": [
@@ -13184,7 +13521,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Cordrey, Crystal",
-    "seats_open": 10,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": "RCT 130",
     "prerequisite_courses": [
@@ -13207,7 +13544,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Peurifoy-Ludrick, Jubrae",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 10,
     "prerequisite_text": "RCT 130",
     "prerequisite_courses": [
@@ -13230,7 +13567,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Peurifoy-Ludrick, Jubrae",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 10,
     "prerequisite_text": "RCT 130",
     "prerequisite_courses": [
@@ -13253,7 +13590,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Cordrey, Crystal",
-    "seats_open": 10,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": "RCT 241",
     "prerequisite_courses": [
@@ -13276,7 +13613,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Peurifoy-Ludrick, Jubrae",
-    "seats_open": 6,
+    "seats_open": 4,
     "seats_total": 10,
     "prerequisite_text": "RCT 241",
     "prerequisite_courses": [
@@ -13299,7 +13636,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Cordrey, Crystal",
-    "seats_open": 10,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": "RCT 130, ENG 102",
     "prerequisite_courses": [
@@ -13323,7 +13660,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Peurifoy-Ludrick, Jubrae",
-    "seats_open": 7,
+    "seats_open": 4,
     "seats_total": 10,
     "prerequisite_text": "RCT 130, ENG 102",
     "prerequisite_courses": [
@@ -13370,7 +13707,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Granville, Christina",
-    "seats_open": 15,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": "(Test score or ENG 101 or higher).",
     "prerequisite_courses": [
@@ -13393,7 +13730,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bianco, Laura",
-    "seats_open": 17,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "(Test score or ENG 101 or higher).",
     "prerequisite_courses": [
@@ -13416,7 +13753,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Banoub, Emad",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "(Test score or ENG 101 or higher).",
     "prerequisite_courses": [
@@ -13462,7 +13799,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Johnson, Jesse",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -13485,7 +13822,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Fillmore, John",
-    "seats_open": 11,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -13531,7 +13868,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Smith, Karl",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -13577,7 +13914,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Smith, Karl",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -13623,7 +13960,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Goettel, Philip",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -13646,7 +13983,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Ford, Matthew",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -13669,7 +14006,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Ford, Matthew",
-    "seats_open": 13,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -13692,7 +14029,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Johnson, Jesse",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -13715,7 +14052,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Johnson, Jesse",
-    "seats_open": 11,
+    "seats_open": 7,
     "seats_total": 24,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -13738,7 +14075,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Massaquoi, Naffeesa",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -13761,7 +14098,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Williams, Andrew",
-    "seats_open": 0,
+    "seats_open": -1,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -13784,7 +14121,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Merchant, Larry",
-    "seats_open": 12,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": "(SSC 100 or SSC 100 concurrent)",
     "prerequisite_courses": [
@@ -13807,7 +14144,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "McKendell, Fleur",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -13853,7 +14190,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Cassidy, Allison",
-    "seats_open": 5,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -13876,7 +14213,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hylton, Nicole",
-    "seats_open": 14,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -13945,7 +14282,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Bailey, Jolly",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "SSC 100 or concurrent",
     "prerequisite_courses": [
@@ -13968,7 +14305,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Smith, Michelle",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "ENG 102 or higher",
     "prerequisite_courses": [
@@ -13991,7 +14328,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Plaisir, Geraldine",
-    "seats_open": 4,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "ENG 102 or higher",
     "prerequisite_courses": [
@@ -14014,7 +14351,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Plaisir, Geraldine",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "ENG 102 or higher",
     "prerequisite_courses": [
@@ -14037,7 +14374,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Goettel, Philip",
-    "seats_open": 11,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": "ENG 102 or higher",
     "prerequisite_courses": [
@@ -14059,8 +14396,8 @@
     "location": "Online",
     "campus": "Online",
     "mode": "online",
-    "instructor": "Freeman, Robert",
-    "seats_open": -3,
+    "instructor": "Gillin, Mandy",
+    "seats_open": -6,
     "seats_total": 0,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14080,7 +14417,7 @@
     "location": "Online",
     "campus": "Online",
     "mode": "online",
-    "instructor": "Freeman, Robert",
+    "instructor": "Gillin, Mandy",
     "seats_open": 0,
     "seats_total": 0,
     "prerequisite_text": null,
@@ -14123,7 +14460,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Diehl, Simeon",
-    "seats_open": 6,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14144,7 +14481,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Diehl, Simeon",
-    "seats_open": 16,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14191,7 +14528,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Kime, Robert",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": "EDC 300 or concurrent",
     "prerequisite_courses": [
@@ -14237,7 +14574,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Barczak, Melissa",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14258,7 +14595,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Wright, Shannon",
-    "seats_open": 0,
+    "seats_open": -1,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14279,7 +14616,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Carey, David",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14300,7 +14637,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Eldridge, Eric",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14321,7 +14658,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Mackrell, Zara",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14342,7 +14679,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Mackrell, Zara",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14363,7 +14700,7 @@
     "campus": "George",
     "mode": "in-person",
     "instructor": "Mackrell, Zara",
-    "seats_open": 11,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14384,7 +14721,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Mackrell, Zara",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14405,7 +14742,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Mackrell, Zara",
-    "seats_open": 12,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14426,7 +14763,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Baker, Jennifer",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14447,7 +14784,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Baker, Jennifer",
-    "seats_open": 23,
+    "seats_open": 20,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14468,7 +14805,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Staff, Staff",
-    "seats_open": 18,
+    "seats_open": 15,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14510,7 +14847,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Baker, Jennifer",
-    "seats_open": 20,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14531,7 +14868,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Austin, Kim",
-    "seats_open": 14,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14552,7 +14889,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Austin, Kim",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14573,7 +14910,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Austin, Kim",
-    "seats_open": 15,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14615,7 +14952,7 @@
     "campus": "Terry",
     "mode": "in-person",
     "instructor": "Austin, Kim",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14636,7 +14973,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Knotts, Rachael",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14792,7 +15129,7 @@
     "campus": "Owens",
     "mode": "in-person",
     "instructor": "Garrison, Lisa",
-    "seats_open": 20,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "VET100 and VET110 and VET150",
     "prerequisite_courses": [
@@ -14817,7 +15154,7 @@
     "campus": "Stanton",
     "mode": "in-person",
     "instructor": "Garrison, Lisa",
-    "seats_open": 5,
+    "seats_open": 2,
     "seats_total": 10,
     "prerequisite_text": "VET100 and VET110 and VET150",
     "prerequisite_courses": [
@@ -14842,7 +15179,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Lenoir, Stephanie",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "VET203 and VET220 and VET235 and VET240",
     "prerequisite_courses": [
@@ -14868,7 +15205,7 @@
     "campus": "Online",
     "mode": "zoom",
     "instructor": "Garrison, Lisa",
-    "seats_open": 10,
+    "seats_open": 7,
     "seats_total": 10,
     "prerequisite_text": "VET203 and VET220 and VET235 and VET240",
     "prerequisite_courses": [
@@ -14894,7 +15231,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Garrison, Lisa",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "VET203 and VET220 and VET235 and VET240",
     "prerequisite_courses": [
@@ -14920,7 +15257,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Garrison, Lisa",
-    "seats_open": 10,
+    "seats_open": 7,
     "seats_total": 10,
     "prerequisite_text": "VET203 and VET220 and VET235 and VET240",
     "prerequisite_courses": [
@@ -14946,7 +15283,7 @@
     "campus": "Online",
     "mode": "online",
     "instructor": "Hayes, Dallas",
-    "seats_open": 0,
+    "seats_open": -1,
     "seats_total": 0,
     "prerequisite_text": "Department Chair Approval and VSC 210",
     "prerequisite_courses": [
