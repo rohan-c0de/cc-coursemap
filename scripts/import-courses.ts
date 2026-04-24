@@ -18,6 +18,7 @@ async function main() {
   const args = process.argv.slice(2);
   const stateIdx = args.indexOf("--state");
   const isAll = args.includes("--all");
+  const force = args.includes("--force");
 
   let states: string[];
   if (isAll) {
@@ -42,7 +43,7 @@ async function main() {
 
   let grandTotal = 0;
   for (const state of states) {
-    const count = await importCoursesToSupabase(state);
+    const count = await importCoursesToSupabase(state, { force });
     grandTotal += count || 0;
   }
 

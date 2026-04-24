@@ -53,6 +53,10 @@ Signals the platform is auth-gated:
 
 **What to do when a college is gated:** document it in the commit, move on, and don't try to work around auth. Don't log in with a student account; don't use cached credentials. Note these colleges as Phase 2 gaps — Phase 3 (state-level transfer portal, if one exists) frequently covers them anyway. MA Phase 2 shipped with 6 of 15 colleges' course data; Phase 3 via MassTransfer filled the gap with transfer data for all 15.
 
+### Re-scrapes: change detection guards the import
+
+On any re-scrape (not a first-time state add), the import does a row-count preflight against what's currently in Supabase. If your new scrape produces **<50% of the existing rows** for a (college, term), the import aborts that combination — the scraper is almost certainly broken (expired auth cookie, source site returning partial results, parser regression). Investigate and fix the scraper rather than reaching for `--force`. A 50–90% shrinkage logs a warning and proceeds; growth always proceeds.
+
 ## Phase 3 — Transfer equivalencies
 
 **Start here by asking "does the state run an official articulation system?"** A state-run portal — where every CC ↔ university mapping is already curated in one place — is by a wide margin the highest-leverage move in the whole 5-phase workflow. One scrape can yield transfer data for *every* college in the state, including the ones whose scheduling systems are gated and thus have zero Phase 2 data. MA's MassTransfer scrape delivered 45,764 mappings across all 15 colleges × 14 receivers in ~70 seconds; five of those 15 colleges had zero course data from Phase 2 but got full transfer coverage here.
