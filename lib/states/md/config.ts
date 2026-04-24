@@ -133,6 +133,23 @@ const mdConfig: StateConfig = {
       "MD schedule builder",
     ],
   },
+  scrapers: {
+    courses: [
+      {
+        scripts: [
+          "scripts/md/scrape-banner-ssb.ts",
+          "scripts/md/scrape-banner8.ts",
+          "scripts/md/scrape-custom.ts",
+        ],
+        runner: "http",
+      },
+      {
+        scripts: ["scripts/md/scrape-colleague.ts", "scripts/md/scrape-jenzabar.ts"],
+        runner: "playwright",
+      },
+    ],
+    transfers: [{ scripts: ["scripts/md/scrape-transfer-artsys.ts"], runner: "http" }],
+  },
 };
 
 export default mdConfig;

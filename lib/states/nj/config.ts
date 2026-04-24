@@ -1,5 +1,9 @@
 import type { StateConfig } from "../registry";
 
+// manual-only: NJ has a transfer scraper (scripts/nj/scrape-transfer.ts from NJTransfer.org)
+// but no public-accessible course-scheduling system — Colleague Self-Service is auth-gated
+// at most NJ colleges. No prereq coverage yet. Revisit once a course scraper is viable.
+
 // NJ community colleges predominantly use Ellucian Colleague Self-Service
 // for course scheduling. The public Self-Service JSON REST API endpoints
 // vary by college but follow a common URL pattern:

@@ -1,5 +1,9 @@
 import type { StateConfig } from "../registry";
 
+// manual-only: NH scrapers exist (scrape-banner8 / scrape-catalog-prereqs / scrape-transfer)
+// but none are yet wired to a scheduled workflow. Intentional — state landed recently and
+// we want a few manual-run cycles before cron'ing it. See issue #33 for USNH transfer gap.
+
 const nhConfig: StateConfig = {
   slug: "nh",
   name: "New Hampshire",

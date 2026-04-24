@@ -47,6 +47,11 @@ const riConfig: StateConfig = {
       "Rhode Island community college schedule",
     ],
   },
+  scrapers: {
+    courses: [{ scripts: ["scripts/ri/scrape-banner8.ts"], runner: "http" }],
+    transfers: [{ scripts: ["scripts/ri/scrape-transfer.ts"], runner: "http" }],
+    prereqs: [{ scripts: ["scripts/ri/scrape-catalog-prereqs.ts"], runner: "http" }],
+  },
 };
 
 export default riConfig;

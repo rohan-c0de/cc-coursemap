@@ -53,6 +53,10 @@ const meConfig: StateConfig = {
       "Maine community college schedule",
     ],
   },
+  scrapers: {
+    courses: [{ scripts: ["scripts/me/scrape-mccs.ts"], runner: "playwright" }],
+    transfers: [{ scripts: ["scripts/me/scrape-transfer.ts"], runner: "http" }],
+  },
 };
 
 export default meConfig;

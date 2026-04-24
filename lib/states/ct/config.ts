@@ -47,6 +47,11 @@ const ctConfig: StateConfig = {
       "Connecticut community college schedule",
     ],
   },
+  scrapers: {
+    courses: [{ scripts: ["scripts/ct/scrape-banner.ts"], runner: "http" }],
+    transfers: [{ scripts: ["scripts/ct/scrape-transfer-all.ts"], runner: "http" }],
+    prereqs: [{ scripts: ["scripts/ct/scrape-catalog-prereqs.ts"], runner: "http" }],
+  },
 };
 
 export default ctConfig;

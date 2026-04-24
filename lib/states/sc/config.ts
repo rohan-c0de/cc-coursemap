@@ -93,6 +93,30 @@ const scConfig: StateConfig = {
       "SC schedule builder",
     ],
   },
+  scrapers: {
+    courses: [
+      {
+        scripts: [
+          "scripts/sc/scrape-banner.ts",
+          "scripts/sc/scrape-banner8.ts",
+          "scripts/sc/scrape-cygnet.ts",
+          "scripts/sc/scrape-midlands.ts",
+        ],
+        runner: "http",
+      },
+      { scripts: ["scripts/sc/scrape-colleague.ts"], runner: "playwright" },
+    ],
+    transfers: [
+      {
+        scripts: [
+          "scripts/sc/scrape-transfer-clemson.ts",
+          "scripts/sc/scrape-transfer-universities.ts",
+        ],
+        runner: "http",
+      },
+    ],
+    prereqs: { source: "aggregate-from-courses" },
+  },
 };
 
 export default scConfig;

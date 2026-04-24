@@ -107,6 +107,40 @@ const ncConfig: StateConfig = {
       "NC schedule builder",
     ],
   },
+  scrapers: {
+    courses: [
+      {
+        scripts: [
+          "scripts/nc/scrape-albemarle.ts",
+          "scripts/nc/scrape-cape-fear.ts",
+          "scripts/nc/scrape-cleveland.ts",
+          "scripts/nc/scrape-martin.ts",
+          "scripts/nc/scrape-mayland.ts",
+          "scripts/nc/scrape-pamlico.ts",
+          "scripts/nc/scrape-sandhills.ts",
+          "scripts/nc/scrape-southeastern.ts",
+          "scripts/nc/scrape-tri-county.ts",
+        ],
+        runner: "http",
+      },
+      { scripts: ["scripts/nc/scrape-colleague.ts"], runner: "playwright" },
+    ],
+    transfers: [
+      {
+        scripts: [
+          "scripts/nc/scrape-transfer-cns.ts",
+          "scripts/nc/scrape-transfer-catawba.ts",
+          "scripts/nc/scrape-transfer-elon.ts",
+          "scripts/nc/scrape-transfer-hpu.ts",
+          "scripts/nc/scrape-transfer-ncstate.ts",
+          "scripts/nc/scrape-transfer-uncg.ts",
+          "scripts/nc/scrape-transfer-wingate.ts",
+        ],
+        runner: "http",
+      },
+    ],
+    prereqs: { source: "aggregate-from-courses" },
+  },
 };
 
 export default ncConfig;

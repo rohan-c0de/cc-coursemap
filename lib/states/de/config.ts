@@ -53,6 +53,19 @@ const deConfig: StateConfig = {
       "Del Tech schedule builder",
     ],
   },
+  scrapers: {
+    courses: [{ scripts: ["scripts/de/scrape-banner-ssb.ts"], runner: "http" }],
+    transfers: [
+      {
+        scripts: [
+          "scripts/de/scrape-transfer-udel.ts",
+          "scripts/de/scrape-transfer-collegetransfer.ts",
+        ],
+        runner: "http",
+      },
+    ],
+    prereqs: [{ scripts: ["scripts/de/scrape-catalog-prereqs.ts"], runner: "http" }],
+  },
 };
 
 export default deConfig;

@@ -1,5 +1,11 @@
 import type { StateConfig } from "../registry";
 
+// manual-only: MA has rich scraper coverage (scrape-banner-ssb, scrape-banner8,
+// scrape-colleague, scrape-masstransfer, two per-college prereq scrapers) but nothing
+// is wired to cron yet. Intentional — 6 of 15 colleges are scrapable and we want to
+// confirm the long tail is stable before cron'ing. MassTransfer is weekly-ish-stable
+// and could be scheduled first.
+
 const maConfig: StateConfig = {
   slug: "ma",
   name: "Massachusetts",

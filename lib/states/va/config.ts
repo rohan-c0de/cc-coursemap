@@ -48,6 +48,28 @@ const vaConfig: StateConfig = {
       "VCCS schedule builder",
     ],
   },
+  scrapers: {
+    courses: [
+      { scripts: ["scripts/va/scrape-vccs.ts"], runner: "http" },
+      { scripts: ["scripts/va/scrape-peoplesoft.ts", "scripts/va/enrich-peoplesoft.ts"], runner: "playwright" },
+    ],
+    transfers: [
+      {
+        scripts: [
+          "scripts/va/scrape-transfer-equiv.ts",
+          "scripts/va/scrape-transfer-gmu.ts",
+          "scripts/va/scrape-transfer-odu.ts",
+          "scripts/va/scrape-transfer-uva.ts",
+          "scripts/va/scrape-transfer-vcu.ts",
+          "scripts/va/scrape-transfer-vsu.ts",
+          "scripts/va/scrape-transfer-umw.ts",
+          "scripts/va/scrape-transfer-vwu.ts",
+        ],
+        runner: "http",
+      },
+    ],
+    prereqs: { source: "aggregate-from-courses" },
+  },
 };
 
 export default vaConfig;

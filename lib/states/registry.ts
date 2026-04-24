@@ -15,6 +15,42 @@ export interface SeniorWaiverConfig {
   bannerDetail: string;
 }
 
+/**
+ * One scrape job unit: a group of scripts run on the same runner.
+ * A state can have multiple jobs per data type when scrapers target
+ * different platforms (e.g. VA courses splits across VCCS-HTTP and
+ * PeopleSoft-Playwright).
+ *
+ * `scripts` are repo-relative tsx paths, e.g. "scripts/va/scrape-vccs.ts".
+ * `runner` controls whether the scheduled workflow needs Playwright installed.
+ */
+export interface ScrapeJob {
+  scripts: string[];
+  runner: "http" | "playwright";
+}
+
+/**
+ * Declares which scheduled-scrape coverage a state has. Issue #59: this
+ * registry field — not YAML — is the source of truth for what gets
+ * re-scraped on cron. A unified workflow (PR 2) reads these entries to
+ * build its matrix. A CI check (PR 1, this PR) fails any change that
+ * registers a new state without populating this field or explicitly
+ * opting out.
+ */
+export interface ScraperCoverage {
+  /** Course-section scrapers, writing data/{state}/courses/**. */
+  courses?: ScrapeJob[];
+  /** Transfer-equivalency scrapers, writing data/{state}/transfer-equiv.json. */
+  transfers?: ScrapeJob[];
+  /**
+   * Prereq coverage. Either dedicated scrape jobs writing data/{state}/prereqs.json,
+   * or `aggregate-from-courses` for states where prereqs are flattened out of
+   * the course scrape (prerequisite_text field on each section) rather than
+   * scraped independently.
+   */
+  prereqs?: ScrapeJob[] | { source: "aggregate-from-courses" };
+}
+
 export interface StateConfig {
   /** Two-letter lowercase state slug, e.g. "va", "md", "nc" */
   slug: string;
@@ -50,6 +86,13 @@ export interface StateConfig {
     disclaimer: string;
     metaKeywords: string[];
   };
+  /**
+   * Scheduled-scrape coverage. Declarative source of truth for cron
+   * orchestration — see issue #59. Leaving this `undefined` requires a
+   * `// manual-only: <reason>` marker in the config file (enforced by
+   * scripts/check-scraper-coverage.ts).
+   */
+  scrapers?: ScraperCoverage;
 }
 
 // ---------------------------------------------------------------------------
