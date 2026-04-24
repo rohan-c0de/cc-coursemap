@@ -70,6 +70,8 @@ The user is learning git in real time and wants to understand what's happening, 
 
 Avoid jargon unless you define it inline. Say "squash and merge = collapse the branch's commits into one, then land it on main" the first time, not just "squash". If the user has already been told a concept this session, don't re-explain — just use it.
 
+When the user asks what a git *concept* means (rebase, merge conflict, branch base, force-push, draft PR, etc.), treat it as an invitation to actually teach — explain from first principles with a concrete diagram or example tied to the current repo state. Prefer specificity over generality: "PR #62 is based on commit C; main has moved to G" beats "branches have a base commit." Assume nothing is obvious and define terms as you go, but only the first time they come up in a session.
+
 Branch naming convention used so far: `claude/<state>-phase<N><letter>-<topic>` (e.g. `claude/ma-phase2b-colleague`). Stick to that so the user sees a consistent pattern.
 
 Merging is the user's job — they click "Squash and merge" on GitHub. Don't run `gh pr merge` on their behalf unless they explicitly ask.
