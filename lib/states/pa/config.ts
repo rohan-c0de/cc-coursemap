@@ -51,6 +51,12 @@ const paConfig: StateConfig = {
       "PA TRAC transfer equivalencies",
     ],
   },
+  scrapers: {
+    // PA has no scheduled course scraper today — PASSHE / state-system
+    // public course search is inconsistent across 14 colleges.
+    transfers: [{ scripts: ["scripts/pa/scrape-transfer.ts"], runner: "http" }],
+    prereqs: [{ scripts: ["scripts/pa/scrape-catalog-prereqs.ts"], runner: "http" }],
+  },
 };
 
 export default paConfig;

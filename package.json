@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "check:registry": "tsx scripts/check-registry-integrity.ts",
+    "check:scrapers": "tsx scripts/check-scraper-coverage.ts",
     "scrape": "tsx scripts/scrape-vccs.ts",
     "scrape:college": "tsx scripts/scrape-vccs.ts --college",
     "discover:ps": "tsx scripts/discover-ps-responses.ts",

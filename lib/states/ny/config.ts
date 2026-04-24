@@ -83,6 +83,11 @@ const nyConfig: StateConfig = {
       "City University of New York",
     ],
   },
+  scrapers: {
+    courses: [{ scripts: ["scripts/ny/scrape-cuny.ts"], runner: "http" }],
+    transfers: [{ scripts: ["scripts/ny/scrape-transfer-trex.ts"], runner: "http" }],
+    prereqs: [{ scripts: ["scripts/ny/scrape-catalog-prereqs.ts"], runner: "playwright" }],
+  },
 };
 
 export default nyConfig;

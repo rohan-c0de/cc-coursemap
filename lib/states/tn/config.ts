@@ -75,6 +75,11 @@ const tnConfig: StateConfig = {
       "Tennessee senior tuition waiver",
     ],
   },
+  scrapers: {
+    courses: [{ scripts: ["scripts/tn/scrape-banner-ssb.ts"], runner: "http" }],
+    // transfers: TN has scripts under scripts/tn/transfer/ but none wired to cron yet.
+    // prereqs: scrape-catalog-prereqs.ts exists but is not scheduled.
+  },
 };
 
 export default tnConfig;

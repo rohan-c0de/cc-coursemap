@@ -57,6 +57,11 @@ const dcConfig: StateConfig = {
       "UDC schedule builder",
     ],
   },
+  scrapers: {
+    courses: [{ scripts: ["scripts/dc/scrape-banner.ts"], runner: "http" }],
+    transfers: [{ scripts: ["scripts/dc/scrape-transfer.ts"], runner: "http" }],
+    prereqs: { source: "aggregate-from-courses" },
+  },
 };
 
 export default dcConfig;

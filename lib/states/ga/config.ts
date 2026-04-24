@@ -80,6 +80,21 @@ const gaConfig: StateConfig = {
       "Georgia community college courses",
     ],
   },
+  scrapers: {
+    courses: [{ scripts: ["scripts/ga/scrape-banner-ssb.ts"], runner: "http" }],
+    transfers: [
+      {
+        scripts: [
+          "scripts/ga/scrape-transfer-gatech.ts",
+          "scripts/ga/scrape-transfer-uga.ts",
+          "scripts/ga/scrape-transfer-gsu.ts",
+          "scripts/ga/scrape-transfer-usg.ts",
+        ],
+        runner: "http",
+      },
+    ],
+    prereqs: { source: "aggregate-from-courses" },
+  },
 };
 
 export default gaConfig;
