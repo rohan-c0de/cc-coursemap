@@ -1,0 +1,84 @@
+name: Import data to Supabase on merge
+
+# Closes the loop in the #59 redesign. After scheduled-scrape.yml opens
+# a PR with fresh JSON and a human merges it, this workflow detects the
+# merged data change and pushes it to Supabase so the live site sees it.
+#
+# Why this is safe even though it auto-writes to prod:
+#   - Schema validation (#49) runs per row before any upsert.
+#   - Change-detection (#51) aborts a (state, college, term) if the new
+#     data is <50% of existing rows in Supabase. Bad scrapes can't
+#     silently replace good data.
+#   - The trigger is a *human-merged* PR — someone has already eyeballed
+#     the diff and approved it.
+#
+# Manual workflow_dispatch is exposed for one-time backfills (e.g. data
+# that landed before this workflow existed, like PRs #64 and #65).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+  workflow_dispatch:
+    inputs:
+      state:
+        description: "State slug to import, or 'all'"
+        default: "all"
+      datatype:
+        description: "Which import(s) to run"
+        type: choice
+        options: [both, courses, transfers]
+        default: both
+
+permissions:
+  contents: read
+
+# Serialize so two near-simultaneous merges don't fight over Supabase.
+concurrency:
+  group: import-on-merge
+  cancel-in-progress: false
+
+env:
+  NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+  SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      - run: npm ci
+
+      - name: Resolve inputs
+        id: args
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            state="${{ inputs.state }}"
+            dt="${{ inputs.datatype }}"
+          else
+            state="all"
+            dt="both"
+          fi
+          if [ "$state" = "all" ]; then
+            flag="--all"
+          else
+            flag="--state $state"
+          fi
+          echo "state=$state" >> "$GITHUB_OUTPUT"
+          echo "datatype=$dt"  >> "$GITHUB_OUTPUT"
+          echo "flag=$flag"    >> "$GITHUB_OUTPUT"
+          echo "Importing state=$state, datatype=$dt"
+
+      - name: Import courses
+        if: steps.args.outputs.datatype != 'transfers'
+        run: npx tsx scripts/import-courses.ts ${{ steps.args.outputs.flag }}
+
+      - name: Import transfers
+        if: steps.args.outputs.datatype != 'courses'
+        run: npx tsx scripts/import-transfers.ts ${{ steps.args.outputs.flag }}
