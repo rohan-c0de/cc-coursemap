@@ -18,7 +18,7 @@
  * Output: data/ct/prereqs.json keyed by "${PREFIX} ${NUMBER}".
  *
  * The catalog year rolls over every summer. Re-run once CT State
- * publishes the new catoid. Update CATOID below when that happens.
+ * The catalog ID is auto-discovered at runtime from the catalog dropdown.
  *
  * Usage:
  *   npx tsx scripts/ct/scrape-catalog-prereqs.ts
@@ -27,9 +27,10 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { discoverAcalogCatoid } from "../lib/discover-catalog.js";
 
 const BASE = "https://catalog.ctstate.edu";
-const CATOID = 24;     // CT State 2026-2027 catalog id
+let CATOID = 24;       // fallback — auto-discovered at runtime
 const NAVOID = 2805;   // "Course Descriptions" nav entry
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
@@ -213,6 +214,7 @@ async function main() {
 
   console.log("CT State catalog prereq scraper");
   console.log(`  Base: ${BASE}`);
+  CATOID = await discoverAcalogCatoid(BASE, CATOID);
   console.log(`  catoid=${CATOID} navoid=${NAVOID}`);
 
   // --- Phase 1: paginate list, collect coids ---
