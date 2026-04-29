@@ -164,10 +164,9 @@ interface PaUniversity {
   searchName: string;
 }
 
+// Pitt and Temple are not in CollegeTransfer.Net — Pitt uses TES (scrape-pitt-tes.ts).
 const PA_UNIVERSITIES: PaUniversity[] = [
   { slug: "penn-state", name: "Penn State University", receiverId: 440, searchName: "Penn State" },
-  { slug: "temple", name: "Temple University", receiverId: 238, searchName: "Temple University" },
-  { slug: "pitt", name: "University of Pittsburgh", receiverId: 442, searchName: "University of Pittsburgh" },
   { slug: "west-chester", name: "West Chester University", receiverId: 853, searchName: "West Chester" },
   { slug: "kutztown", name: "Kutztown University", receiverId: 219, searchName: "Kutztown University" },
   { slug: "millersville", name: "Millersville University", receiverId: 434, searchName: "Millersville University" },
