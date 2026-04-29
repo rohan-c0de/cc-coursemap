@@ -137,10 +137,20 @@ export async function scrapeCollegeTransfer(
     });
 
     const url = `${BASE_URL}/Equivalencies?${params}`;
-    const resp = await fetch(url);
+    let resp: Response | null = null;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      resp = await fetch(url);
+      if (resp.status === 402 || resp.status === 429) {
+        const wait = (attempt + 1) * 5000;
+        console.log(`  Rate-limited (${resp.status}), retrying in ${wait / 1000}s...`);
+        await sleep(wait);
+        continue;
+      }
+      break;
+    }
 
-    if (!resp.ok) {
-      throw new Error(`OData API HTTP ${resp.status}: ${resp.statusText}`);
+    if (!resp!.ok) {
+      throw new Error(`OData API HTTP ${resp!.status}: ${resp!.statusText}`);
     }
 
     const data: ODataResponse = await resp.json();

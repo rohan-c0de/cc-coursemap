@@ -136,21 +136,21 @@ interface PaCollege {
 }
 
 const PA_COLLEGES: PaCollege[] = [
-  { slug: "bucks", name: "Bucks County Community College", senderId: 0, searchName: "Bucks County" },
-  { slug: "butler", name: "Butler County Community College", senderId: 0, searchName: "Butler County Community" },
-  { slug: "ccac", name: "Community College of Allegheny County", senderId: 0, searchName: "Allegheny County" },
-  { slug: "ccbc", name: "Community College of Beaver County", senderId: 0, searchName: "Beaver County" },
-  { slug: "ccp", name: "Community College of Philadelphia", senderId: 0, searchName: "Philadelphia" },
-  { slug: "dccc", name: "Delaware County Community College", senderId: 0, searchName: "Delaware County Community" },
-  { slug: "hacc", name: "Harrisburg Area Community College", senderId: 0, searchName: "Harrisburg Area" },
-  { slug: "lccc", name: "Lehigh Carbon Community College", senderId: 0, searchName: "Lehigh Carbon" },
-  { slug: "luzerne", name: "Luzerne County Community College", senderId: 0, searchName: "Luzerne County" },
-  { slug: "mc3", name: "Montgomery County Community College", senderId: 0, searchName: "Montgomery County Community" },
-  { slug: "northampton", name: "Northampton Community College", senderId: 0, searchName: "Northampton Community" },
-  { slug: "pa-highlands", name: "Pennsylvania Highlands Community College", senderId: 0, searchName: "Pennsylvania Highlands" },
-  { slug: "racc", name: "Reading Area Community College", senderId: 0, searchName: "Reading Area" },
-  { slug: "westmoreland", name: "Westmoreland County Community College", senderId: 0, searchName: "Westmoreland" },
-  { slug: "penn-college", name: "Pennsylvania College of Technology", senderId: 0, searchName: "Pennsylvania College of Technology" },
+  { slug: "bucks", name: "Bucks County Community College", senderId: 1, searchName: "Bucks County" },
+  { slug: "butler", name: "Butler County Community College", senderId: 823, searchName: "Butler County Community" },
+  { slug: "ccac", name: "Community College of Allegheny County", senderId: 414, searchName: "Allegheny County" },
+  { slug: "ccbc", name: "Community College of Beaver County", senderId: 822, searchName: "Beaver County" },
+  { slug: "ccp", name: "Community College of Philadelphia", senderId: 644, searchName: "Philadelphia" },
+  { slug: "dccc", name: "Delaware County Community College", senderId: 621, searchName: "Delaware County Community" },
+  { slug: "hacc", name: "Harrisburg Area Community College", senderId: 217, searchName: "Harrisburg Area" },
+  { slug: "lccc", name: "Lehigh Carbon Community College", senderId: 838, searchName: "Lehigh Carbon" },
+  { slug: "luzerne", name: "Luzerne County Community College", senderId: 629, searchName: "Luzerne County" },
+  { slug: "mc3", name: "Montgomery County Community College", senderId: 9, searchName: "Montgomery County Community" },
+  { slug: "northampton", name: "Northampton Community College", senderId: 635, searchName: "Northampton Community" },
+  { slug: "pa-highlands", name: "Pennsylvania Highlands Community College", senderId: 891, searchName: "Pennsylvania Highlands" },
+  { slug: "racc", name: "Reading Area Community College", senderId: 443, searchName: "Reading Area" },
+  { slug: "westmoreland", name: "Westmoreland County Community College", senderId: 452, searchName: "Westmoreland" },
+  { slug: "penn-college", name: "Pennsylvania College of Technology", senderId: 886, searchName: "Pennsylvania College of Technology" },
 ];
 
 // ---------------------------------------------------------------------------
@@ -165,15 +165,14 @@ interface PaUniversity {
 }
 
 const PA_UNIVERSITIES: PaUniversity[] = [
-  { slug: "penn-state", name: "Penn State University", receiverId: 0, searchName: "Penn State" },
-  { slug: "temple", name: "Temple University", receiverId: 0, searchName: "Temple University" },
-  { slug: "pitt", name: "University of Pittsburgh", receiverId: 0, searchName: "University of Pittsburgh" },
-  { slug: "west-chester", name: "West Chester University", receiverId: 0, searchName: "West Chester" },
-  { slug: "kutztown", name: "Kutztown University", receiverId: 0, searchName: "Kutztown University" },
-  { slug: "millersville", name: "Millersville University", receiverId: 0, searchName: "Millersville University" },
-  { slug: "bloomsburg", name: "Bloomsburg University", receiverId: 0, searchName: "Bloomsburg University" },
-  { slug: "slippery-rock", name: "Slippery Rock University", receiverId: 0, searchName: "Slippery Rock" },
-  { slug: "drexel", name: "Drexel University", receiverId: 0, searchName: "Drexel University" },
+  { slug: "penn-state", name: "Penn State University", receiverId: 440, searchName: "Penn State" },
+  { slug: "temple", name: "Temple University", receiverId: 238, searchName: "Temple University" },
+  { slug: "pitt", name: "University of Pittsburgh", receiverId: 442, searchName: "University of Pittsburgh" },
+  { slug: "west-chester", name: "West Chester University", receiverId: 853, searchName: "West Chester" },
+  { slug: "kutztown", name: "Kutztown University", receiverId: 219, searchName: "Kutztown University" },
+  { slug: "millersville", name: "Millersville University", receiverId: 434, searchName: "Millersville University" },
+  { slug: "commonwealth", name: "Commonwealth University of Pennsylvania", receiverId: 9250, searchName: "Commonwealth University" },
+  { slug: "slippery-rock", name: "Slippery Rock University", receiverId: 447, searchName: "Slippery Rock" },
 ];
 
 // ---------------------------------------------------------------------------
@@ -261,9 +260,19 @@ async function runDiscovery() {
 async function runScrape(skipImport: boolean) {
   console.log("CollegeTransfer.Net — Pennsylvania Transfer Scraper\n");
 
-  // Step 1: Discover IDs
-  console.log("Step 1: Discovering institution IDs...\n");
-  const { colleges, universities } = await runDiscovery();
+  const allKnown =
+    PA_COLLEGES.every((cc) => cc.senderId > 0) &&
+    PA_UNIVERSITIES.every((u) => u.receiverId > 0);
+
+  let colleges = PA_COLLEGES;
+  let universities = PA_UNIVERSITIES;
+
+  if (allKnown) {
+    console.log("All institution IDs are hardcoded — skipping discovery.\n");
+  } else {
+    console.log("Step 1: Discovering missing institution IDs...\n");
+    ({ colleges, universities } = await runDiscovery());
+  }
 
   // Filter to institutions that were found
   const validColleges = colleges.filter((cc) => cc.senderId > 0);
@@ -327,7 +336,7 @@ async function runScrape(skipImport: boolean) {
         pairsSkipped++;
       }
 
-      await sleep(300); // Rate limiting between pairs
+      await sleep(1000);
     }
   }
 
