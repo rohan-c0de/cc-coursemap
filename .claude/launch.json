@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "auditmap-dev",
-      "runtimeExecutable": "/bin/bash",
-      "runtimeArgs": ["/Users/rohanupalekar/claudecode/auditmap-virginia/.claude/start-dev.sh"],
-      "port": 3007
+      "name": "cc-coursemap-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
     }
   ]
 }
