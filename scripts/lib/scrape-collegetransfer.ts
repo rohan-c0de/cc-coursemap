@@ -153,7 +153,7 @@ export async function scrapeCollegeTransfer(
       throw new Error(`OData API HTTP ${resp!.status}: ${resp!.statusText}`);
     }
 
-    const data: ODataResponse = await resp.json();
+    const data: ODataResponse = await resp!.json();
     const batch = data.value;
 
     if (batch.length === 0) break;
