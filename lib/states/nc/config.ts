@@ -123,7 +123,7 @@ const ncConfig: StateConfig = {
         ],
         runner: "http",
       },
-      { scripts: ["scripts/nc/scrape-colleague.ts"], runner: "playwright" },
+      { scripts: ["scripts/nc/scrape-colleague.ts"], runner: "playwright", termSystem: "colleague-nc" },
     ],
     transfers: [
       {

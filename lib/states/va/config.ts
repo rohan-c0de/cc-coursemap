@@ -50,8 +50,8 @@ const vaConfig: StateConfig = {
   },
   scrapers: {
     courses: [
-      { scripts: ["scripts/va/scrape-vccs.ts"], runner: "http" },
-      { scripts: ["scripts/va/scrape-peoplesoft.ts", "scripts/va/enrich-peoplesoft.ts"], runner: "playwright" },
+      { scripts: ["scripts/va/scrape-vccs.ts"], runner: "http", termSystem: "vccs" },
+      { scripts: ["scripts/va/scrape-peoplesoft.ts", "scripts/va/enrich-peoplesoft.ts"], runner: "playwright", termSystem: "vccs-ps" },
     ],
     transfers: [
       {

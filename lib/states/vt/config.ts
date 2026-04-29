@@ -48,7 +48,7 @@ const vtConfig: StateConfig = {
     ],
   },
   scrapers: {
-    courses: [{ scripts: ["scripts/vt/scrape-colleague.ts"], runner: "playwright" }],
+    courses: [{ scripts: ["scripts/vt/scrape-colleague.ts"], runner: "playwright", termSystem: "colleague-vt" }],
     transfers: [{ scripts: ["scripts/vt/scrape-transfer.ts"], runner: "http" }],
     prereqs: [{ scripts: ["scripts/vt/scrape-catalog-prereqs.ts"], runner: "http" }],
   },

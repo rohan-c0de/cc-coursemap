@@ -111,6 +111,16 @@ jobs:
         if: matrix.state == 'nc'
         run: pip install --quiet pdfplumber
 
+      - name: Resolve terms
+        id: terms
+        if: matrix.termSystem != ''
+        run: |
+          resolved=$(npx tsx scripts/lib/resolve-terms.ts --system "${{ matrix.termSystem }}")
+          # Extract comma-separated human-readable term names for --term flag
+          term_arg=$(echo "$resolved" | jq -r '.terms | join(",")')
+          echo "term_arg=$term_arg" >> "$GITHUB_OUTPUT"
+          echo "Resolved terms for ${{ matrix.termSystem }}: $term_arg" >&2
+
       - name: Run scraper scripts
         env:
           # Scrapers have an inline Supabase-import fallback when env is set;
@@ -119,10 +129,15 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ""
         run: |
           set -e
+          term_arg="${{ steps.terms.outputs.term_arg }}"
           echo "${{ matrix.scripts }}" | while IFS= read -r script; do
             [ -z "$script" ] && continue
             echo "::group::$script"
-            npx tsx "$script" --no-import
+            if [ -n "$term_arg" ]; then
+              npx tsx "$script" --no-import --term "$term_arg"
+            else
+              npx tsx "$script" --no-import
+            fi
             echo "::endgroup::"
           done
 
