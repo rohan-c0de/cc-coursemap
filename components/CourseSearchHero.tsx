@@ -7,7 +7,13 @@ type StateOption = { slug: string; name: string; abbr: string };
 
 const LS_KEY = "ccp:lastState";
 
-export default function CourseSearchHero({ states }: { states: StateOption[] }) {
+export default function CourseSearchHero({
+  states,
+  geoState,
+}: {
+  states: StateOption[];
+  geoState: string | null;
+}) {
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [selectedState, setSelectedState] = useState<string | null>(null);
@@ -16,14 +22,20 @@ export default function CourseSearchHero({ states }: { states: StateOption[] }) 
   const [needsState, setNeedsState] = useState(false);
   const pickerRef = useRef<HTMLDivElement>(null);
 
-  // Hydrate selected state: localStorage first, fall back to none.
+  // Hydrate selected state: a previously-chosen value in localStorage wins
+  // (manual choice = highest priority), then geo auto-detect, else nothing.
   useEffect(() => {
     const stored = typeof window !== "undefined" ? localStorage.getItem(LS_KEY) : null;
     if (stored && states.some((s) => s.slug === stored)) {
       setSelectedState(stored);
       setIsAuto(false);
+      return;
     }
-  }, [states]);
+    if (geoState && states.some((s) => s.slug === geoState)) {
+      setSelectedState(geoState);
+      setIsAuto(true);
+    }
+  }, [states, geoState]);
 
   // Close picker on outside click.
   useEffect(() => {
