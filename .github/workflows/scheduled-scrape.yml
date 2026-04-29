@@ -13,9 +13,7 @@ name: Scheduled scrape (unified)
 # Three crons, one per data type. `github.event.schedule` tells us which
 # fired. Manual dispatch accepts a `datatype` input.
 #
-# Runs in parallel with the four existing scrape-*.yml files during the
-# overlap period. PR 3 of #59 retires those once this one has produced
-# one or two clean weekly runs.
+# The four legacy scrape-*.yml files were retired in PR 3 of #59.
 
 on:
   schedule:
