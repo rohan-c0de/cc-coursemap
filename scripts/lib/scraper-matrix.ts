@@ -47,6 +47,8 @@ interface MatrixEntry {
   runner: "http" | "playwright";
   /** Newline-joined so the workflow can iterate via `while read`. */
   scripts: string;
+  /** Term-resolution system (see resolve-terms.ts). Empty string when not needed. */
+  termSystem: string;
 }
 
 const include: MatrixEntry[] = [];
@@ -61,6 +63,7 @@ for (const cfg of getAllStates()) {
       datatype,
       runner: job.runner,
       scripts: job.scripts.join("\n"),
+      termSystem: job.termSystem ?? "",
     });
   });
 }

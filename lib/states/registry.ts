@@ -27,6 +27,13 @@ export interface SeniorWaiverConfig {
 export interface ScrapeJob {
   scripts: string[];
   runner: "http" | "playwright";
+  /**
+   * Which term-resolution system to use (see scripts/lib/resolve-terms.ts).
+   * When set, the scheduled workflow resolves live terms and passes --term
+   * to each script. Omit for scrapers that auto-discover terms internally
+   * or don't have term semantics (transfers, prereqs).
+   */
+  termSystem?: string;
 }
 
 /**

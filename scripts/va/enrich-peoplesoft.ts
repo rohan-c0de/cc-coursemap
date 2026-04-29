@@ -34,8 +34,26 @@ import * as path from "path";
 // ---------------------------------------------------------------------------
 
 const PS_BASE = "https://ps-sis.vccs.edu";
-const TERM_CODE = process.argv.find(a => a.startsWith("--term-code="))?.split("=")[1] || "2262";
-const JSON_TERM = process.argv.find(a => a.startsWith("--json-term="))?.split("=")[1] || "2026SP";
+
+// Term name → PS term code + file code (mirrors scrape-peoplesoft.ts)
+const PS_TERM_MAP: Record<string, { code: string; file: string }> = {
+  "Spring 2026": { code: "2262", file: "2026SP" },
+  "Summer 2026": { code: "2263", file: "2026SU" },
+  "Fall 2026":   { code: "2264", file: "2026FA" },
+  "Spring 2027": { code: "2272", file: "2027SP" },
+};
+
+// Accept --term "Summer 2026" (human-readable, matching scrape-peoplesoft.ts)
+// or legacy --term-code= / --json-term= flags
+const termNameArg = process.argv.find(a => a === "--term")
+  ? process.argv[process.argv.indexOf("--term") + 1]?.split(",")[0]?.trim()
+  : null;
+const legacyTermCode = process.argv.find(a => a.startsWith("--term-code="))?.split("=")[1];
+const legacyJsonTerm = process.argv.find(a => a.startsWith("--json-term="))?.split("=")[1];
+
+const resolved = termNameArg ? PS_TERM_MAP[termNameArg] : null;
+const TERM_CODE = resolved?.code ?? legacyTermCode ?? "2262";
+const JSON_TERM = resolved?.file ?? legacyJsonTerm ?? "2026SP";
 const NAV_TIMEOUT = 30_000;
 const SEARCH_WAIT = 20_000; // max wait for search results
 const INTER_SEARCH_DELAY = 2000; // ms between subject searches

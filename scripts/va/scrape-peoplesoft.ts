@@ -89,16 +89,22 @@ interface RawCard {
 // CLI args
 // ---------------------------------------------------------------------------
 
+interface ParsedTerm {
+  termName: string;
+  psTermCode: string;
+  fileTermCode: string;
+}
+
 function parseArgs() {
   const args = process.argv.slice(2);
   let slugs: string[] = Object.keys(PS_CODES);
-  let termName = "";
+  let termArg = "";
   let subject: string | null = null;
   let headed = false;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--term" && args[i + 1]) {
-      termName = args[i + 1];
+      termArg = args[i + 1];
       i++;
     } else if (args[i] === "--slug" && args[i + 1]) {
       slugs = [args[i + 1]];
@@ -111,17 +117,23 @@ function parseArgs() {
     }
   }
 
-  if (!termName) {
+  if (!termArg) {
     console.error("Error: --term is required. Example: --term \"Summer 2026\"");
     console.error("Available terms:", Object.keys(TERM_CODES).join(", "));
     process.exit(1);
   }
 
-  const psTermCode = TERM_CODES[termName];
-  const fileTermCode = TERM_FILE_CODES[termName];
-  if (!psTermCode || !fileTermCode) {
-    console.error(`Unknown term: "${termName}". Available:`, Object.keys(TERM_CODES).join(", "));
-    process.exit(1);
+  // Support comma-separated terms: --term "Summer 2026,Fall 2026"
+  const termNames = termArg.split(",").map((t) => t.trim()).filter(Boolean);
+  const terms: ParsedTerm[] = [];
+  for (const termName of termNames) {
+    const psTermCode = TERM_CODES[termName];
+    const fileTermCode = TERM_FILE_CODES[termName];
+    if (!psTermCode || !fileTermCode) {
+      console.error(`Unknown term: "${termName}". Available:`, Object.keys(TERM_CODES).join(", "));
+      process.exit(1);
+    }
+    terms.push({ termName, psTermCode, fileTermCode });
   }
 
   for (const s of slugs) {
@@ -131,7 +143,7 @@ function parseArgs() {
     }
   }
 
-  return { slugs, termName, psTermCode, fileTermCode, subject, headed };
+  return { slugs, terms, subject, headed };
 }
 
 // ---------------------------------------------------------------------------
@@ -568,32 +580,36 @@ async function scrapeCollege(
 // ---------------------------------------------------------------------------
 
 async function main() {
-  const { slugs, termName, psTermCode, fileTermCode, subject, headed } = parseArgs();
-
-  console.log(`\n${"=".repeat(60)}`);
-  console.log(`PeopleSoft Scraper — ${termName}`);
-  console.log(`Term code: ${psTermCode} → ${fileTermCode}`);
-  console.log(`Colleges: ${slugs.length}`);
-  if (subject) console.log(`Subject filter: ${subject}`);
-  console.log(`${"=".repeat(60)}\n`);
+  const { slugs, terms, subject, headed } = parseArgs();
 
   const browser = await chromium.launch({ headless: !headed });
   const startTime = Date.now();
-  let totalSections = 0;
+  let grandTotal = 0;
 
   try {
-    for (const slug of slugs) {
-      const sections = await scrapeCollege(browser, slug, psTermCode, fileTermCode, subject);
+    for (const { termName, psTermCode, fileTermCode } of terms) {
+      console.log(`\n${"=".repeat(60)}`);
+      console.log(`PeopleSoft Scraper — ${termName}`);
+      console.log(`Term code: ${psTermCode} → ${fileTermCode}`);
+      console.log(`Colleges: ${slugs.length}`);
+      if (subject) console.log(`Subject filter: ${subject}`);
+      console.log(`${"=".repeat(60)}\n`);
 
-      if (sections.length > 0) {
-        // Save to file
-        const dir = path.join(DATA_DIR, slug);
-        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-        const filePath = path.join(dir, `${fileTermCode}.json`);
-        fs.writeFileSync(filePath, JSON.stringify(sections, null, 2) + "\n");
-        console.log(`  💾 Saved ${sections.length} sections → ${filePath}`);
-        totalSections += sections.length;
+      let totalSections = 0;
+      for (const slug of slugs) {
+        const sections = await scrapeCollege(browser, slug, psTermCode, fileTermCode, subject);
+
+        if (sections.length > 0) {
+          const dir = path.join(DATA_DIR, slug);
+          if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+          const filePath = path.join(dir, `${fileTermCode}.json`);
+          fs.writeFileSync(filePath, JSON.stringify(sections, null, 2) + "\n");
+          console.log(`  💾 Saved ${sections.length} sections → ${filePath}`);
+          totalSections += sections.length;
+        }
       }
+      console.log(`  ${termName}: ${totalSections} sections`);
+      grandTotal += totalSections;
     }
   } finally {
     await browser.close();
@@ -601,7 +617,7 @@ async function main() {
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(0);
   console.log(`\n${"=".repeat(60)}`);
-  console.log(`Done! ${totalSections} total sections across ${slugs.length} college(s) in ${elapsed}s`);
+  console.log(`Done! ${grandTotal} total sections across ${slugs.length} college(s), ${terms.length} term(s) in ${elapsed}s`);
   console.log(`${"=".repeat(60)}\n`);
 }
 

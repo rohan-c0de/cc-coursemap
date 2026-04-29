@@ -146,6 +146,7 @@ const mdConfig: StateConfig = {
       {
         scripts: ["scripts/md/scrape-colleague.ts", "scripts/md/scrape-jenzabar.ts"],
         runner: "playwright",
+        termSystem: "colleague-md",
       },
     ],
     transfers: [{ scripts: ["scripts/md/scrape-transfer-artsys.ts"], runner: "http" }],
