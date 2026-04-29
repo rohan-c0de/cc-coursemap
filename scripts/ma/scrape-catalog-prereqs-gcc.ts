@@ -36,8 +36,9 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { discoverCoursedogCatalog } from "../lib/discover-catalog.js";
 
-const CATALOG_ID = "Tq3vInBCVkfzBa5krhiu";
+let CATALOG_ID = "Tq3vInBCVkfzBa5krhiu"; // fallback — auto-discovered at runtime
 const SCHOOL = "gcc_banner_sql";
 const BASE = `https://app.coursedog.com/api/v1/cm/${SCHOOL}/courses/search/%24filters`;
 const REFERER = "https://catalog.gcc.mass.edu/";
@@ -153,6 +154,7 @@ async function main() {
 
   console.log("GCC Coursedog prereq scraper");
   console.log(`  BASE: ${BASE}`);
+  CATALOG_ID = await discoverCoursedogCatalog(SCHOOL, REFERER, CATALOG_ID);
   console.log(`  catalogId: ${CATALOG_ID}\n`);
 
   // --- Phase 1: discover total count ---

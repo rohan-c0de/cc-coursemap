@@ -18,7 +18,7 @@
  * A combiner script merges this with GCC's prereqs into data/ma/prereqs.json.
  *
  * The catalog year rolls over every summer. Re-run once Middlesex
- * publishes the new catoid. Update CATOID below when that happens.
+ * The catalog ID is auto-discovered at runtime from the catalog dropdown.
  *
  * Usage:
  *   npx tsx scripts/ma/scrape-catalog-prereqs-middlesex.ts
@@ -27,9 +27,10 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { discoverAcalogCatoid } from "../lib/discover-catalog.js";
 
 const BASE = "https://catalog.middlesex.mass.edu";
-const CATOID = 35;     // Middlesex 2025-2026 catalog id
+let CATOID = 35;       // fallback — auto-discovered at runtime
 const NAVOID = 3331;   // "Course Descriptions" nav entry
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
@@ -210,8 +211,9 @@ async function main() {
   const args = process.argv.slice(2);
   const limit = parseInt(args.find((a) => a.startsWith("--limit="))?.split("=")[1] || "0", 10);
 
-  console.log("CT State catalog prereq scraper");
+  console.log("Middlesex CC catalog prereq scraper");
   console.log(`  Base: ${BASE}`);
+  CATOID = await discoverAcalogCatoid(BASE, CATOID);
   console.log(`  catoid=${CATOID} navoid=${NAVOID}`);
 
   // --- Phase 1: paginate list, collect coids ---
