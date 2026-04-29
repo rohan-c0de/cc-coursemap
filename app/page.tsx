@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { getAllStates } from "@/lib/states/registry";
 import ThemeToggle from "@/components/ThemeToggle";
 import UserMenu from "@/components/auth/UserMenu";
@@ -45,12 +46,22 @@ const GRID_BG_STYLE = {
   backgroundSize: "32px 32px",
 };
 
-export default function LandingPage() {
+export default async function LandingPage() {
   const states = getAllStates();
   const totalColleges = states.reduce((sum, s) => sum + s.collegeCount, 0);
   const stateOptions = states
     .map((s) => ({ slug: s.slug, name: s.name, abbr: s.slug.toUpperCase() }))
     .sort((a, b) => a.name.localeCompare(b.name));
+
+  // Vercel populates x-vercel-ip-country-region with the US state code (e.g. "VA").
+  // Fall through to null in local dev or when the header is missing.
+  const h = await headers();
+  const region = h.get("x-vercel-ip-country-region")?.toLowerCase() ?? null;
+  const country = h.get("x-vercel-ip-country") ?? null;
+  const geoState =
+    country === "US" && region && states.some((s) => s.slug === region)
+      ? region
+      : null;
 
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-slate-900">
@@ -102,7 +113,7 @@ export default function LandingPage() {
           </div>
 
           <div className="mt-10 relative">
-            <CourseSearchHero states={stateOptions} />
+            <CourseSearchHero states={stateOptions} geoState={geoState} />
           </div>
         </div>
       </section>
