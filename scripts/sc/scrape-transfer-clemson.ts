@@ -189,11 +189,22 @@ async function main() {
   // Filter out NCT (not college transferable) entries — they add noise
   const transferable = allMappings.filter((m) => !m.no_credit);
 
-  console.log(`\nTotal: ${allMappings.length} equivalencies, ${transferable.length} transferable`);
+  // Dedupe: iterating 16 colleges can produce identical equivalencies
+  const seen = new Set<string>();
+  const deduped = transferable.filter((m) => {
+    const key = `${m.cc_prefix}|${m.cc_number}|${m.university}|${m.univ_course}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 
-  if (transferable.length > 0) {
+  const dupeCount = transferable.length - deduped.length;
+  console.log(`\nTotal: ${allMappings.length} equivalencies, ${transferable.length} transferable`);
+  if (dupeCount > 0) console.log(`Removed ${dupeCount} duplicates → ${deduped.length} unique`);
+
+  if (deduped.length > 0) {
     const outPath = path.join(process.cwd(), "data", "sc", "transfer-equiv.json");
-    fs.writeFileSync(outPath, JSON.stringify(transferable, null, 2) + "\n");
+    fs.writeFileSync(outPath, JSON.stringify(deduped, null, 2) + "\n");
     console.log(`Written to ${outPath}`);
   }
 }

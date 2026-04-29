@@ -291,10 +291,21 @@ async function main() {
     a.cc_course.localeCompare(b.cc_course) || a.university.localeCompare(b.university)
   );
 
-  fs.writeFileSync(outPath, JSON.stringify(merged, null, 2) + "\n");
+  // Dedupe: multiple sources can produce identical equivalencies
+  const seen = new Set<string>();
+  const deduped = merged.filter((m) => {
+    const key = `${m.cc_prefix}|${m.cc_number}|${m.university}|${m.univ_course}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  const dupeCount = merged.length - deduped.length;
+  fs.writeFileSync(outPath, JSON.stringify(deduped, null, 2) + "\n");
   console.log(
     `\nMerged: ${kept.length} existing + ${transferable.length} new = ${merged.length} total`
   );
+  if (dupeCount > 0) console.log(`Removed ${dupeCount} duplicates → ${deduped.length} unique`);
   console.log(`Written to ${outPath}`);
 }
 
