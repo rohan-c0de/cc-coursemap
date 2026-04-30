@@ -7,6 +7,7 @@
 
 import fs from "fs";
 import path from "path";
+import { pickRecentSsbTerms } from "../lib/resolve-terms";
 
 const BASE_URL = "https://reg-prod.ec.udc.edu";
 const COLLEGE_SLUG = "udc-cc";
@@ -303,11 +304,7 @@ async function main() {
   console.log("Fetching available terms...");
   const terms = await getTerms();
 
-  // Filter to recent/upcoming terms
-  const targetTerms = terms.filter((t) => {
-    const code = parseInt(t.code);
-    return code >= 202620; // Spring 2026+
-  });
+  const targetTerms = pickRecentSsbTerms(terms);
 
   console.log(`Found ${targetTerms.length} target terms:`, targetTerms.map((t) => t.description));
 

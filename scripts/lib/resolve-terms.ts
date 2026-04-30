@@ -76,6 +76,46 @@ export function nextTerm(t: TermInfo): TermInfo {
   return { name: `Spring ${t.year + 1}`, code: `${t.year + 1}SP`, season: "SP", year: t.year + 1 };
 }
 
+/**
+ * Filter Banner SSB-style terms (objects with a `description` like "Spring 2026"
+ * or "Fall Semester 2026") down to those at or after the current calendar term.
+ *
+ * Used by Banner SSB scrapers (DC, CT, GA) in place of hardcoded numeric
+ * thresholds like `parseInt(t.code) >= 202620`. Each Banner deployment uses
+ * its own season-suffix scheme (DC: 20=SP, CT: 40=SP, GA: 12=SP), so the
+ * description string is the only universal denominator across deployments.
+ *
+ * Pass an exclude predicate to drop deployment-specific noise (e.g. DE's
+ * "Professional Dev" entries) without re-implementing the year filter.
+ */
+export function pickRecentSsbTerms<T extends { description: string }>(
+  terms: T[],
+  opts: { exclude?: (t: T) => boolean } = {}
+): T[] {
+  const cur = currentCalendarTerm();
+  const SEASON_RANK: Record<string, number> = { SP: 1, SU: 2, FA: 3 };
+  const SEASON_FROM_DESC: Record<string, string> = {
+    spring: "SP",
+    summer: "SU",
+    fall: "FA",
+  };
+  const curRank = cur.year * 10 + SEASON_RANK[cur.season];
+
+  return terms.filter((t) => {
+    const desc = t.description.toLowerCase();
+    // Banner sites mark expired terms with "(View Only)" — never scrape those,
+    // they have no current sections and the data we already have is canonical.
+    if (desc.includes("view only")) return false;
+    if (opts.exclude?.(t)) return false;
+    const yearMatch = desc.match(/\b(20\d{2})\b/);
+    const seasonKey = Object.keys(SEASON_FROM_DESC).find((s) => desc.includes(s));
+    if (!yearMatch || !seasonKey) return false;
+    const season = SEASON_FROM_DESC[seasonKey];
+    const rank = parseInt(yearMatch[1]) * 10 + SEASON_RANK[season];
+    return rank >= curRank;
+  });
+}
+
 /** Get the term before a given term. */
 function prevTerm(t: TermInfo): TermInfo {
   if (t.season === "FA") return { name: `Summer ${t.year}`, code: `${t.year}SU`, season: "SU", year: t.year };
