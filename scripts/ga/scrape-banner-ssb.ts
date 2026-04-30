@@ -19,6 +19,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 import fs from "fs";
 import path from "path";
+import { pickRecentSsbTerms } from "../lib/resolve-terms";
 
 const PAGE_SIZE = 500;
 
@@ -382,12 +383,7 @@ async function scrapeCollege(slug: string, baseUrl: string): Promise<number> {
     return 0;
   }
 
-  // Filter to recent/upcoming terms
-  // TCSG fiscal year codes: Fall 2026 = 202712, Spring 2026 = 202614
-  const targetTerms = terms.filter((t) => {
-    const code = parseInt(t.code);
-    return code >= 202612;
-  });
+  const targetTerms = pickRecentSsbTerms(terms);
 
   if (targetTerms.length === 0) {
     console.log(`  No recent terms found. Available: ${terms.map((t) => `${t.description} (${t.code})`).join(", ")}`);
