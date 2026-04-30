@@ -35,7 +35,7 @@ const ALL_SLUGS = [
 // Helpers
 // ---------------------------------------------------------------------------
 
-function termToCode(termName: string): string {
+export function termToCode(termName: string): string {
   const match = termName.match(/^(Spring|Summer|Fall)\s+(\d{4})$/i);
   if (!match) return termName.replace(/\s+/g, "");
   const season = match[1].toLowerCase();
@@ -44,13 +44,13 @@ function termToCode(termName: string): string {
   return `${year}${codes[season] || season.toUpperCase()}`;
 }
 
-function termMatchesTarget(termName: string, targetTerm: string): boolean {
+export function termMatchesTarget(termName: string, targetTerm: string): boolean {
   // "Spring 2026 ➔" should match target "Spring 2026"
   const clean = termName.replace(/[^\w\s]/g, "").trim();
   return termToCode(clean) === termToCode(targetTerm);
 }
 
-function parseMode(modeCode: string, modeTitle: string): "in-person" | "online" | "hybrid" | "zoom" {
+export function parseMode(modeCode: string, modeTitle: string): "in-person" | "online" | "hybrid" | "zoom" {
   const code = modeCode.trim().toUpperCase();
   const title = modeTitle.trim().toLowerCase();
   if (code === "WW" || title.includes("online")) return "online";
@@ -59,7 +59,7 @@ function parseMode(modeCode: string, modeTitle: string): "in-person" | "online" 
   return "in-person";
 }
 
-function parseTimes(timeStr: string): [string, string] {
+export function parseTimes(timeStr: string): [string, string] {
   if (!timeStr || timeStr.trim() === "" || timeStr.toLowerCase().includes("tba")) {
     return ["TBA", "TBA"];
   }
@@ -81,7 +81,7 @@ function parseTimes(timeStr: string): [string, string] {
   return [start, end];
 }
 
-function parseDays($: cheerio.CheerioAPI, daysDiv: cheerio.Cheerio<AnyNode>): string {
+export function parseDays($: cheerio.CheerioAPI, daysDiv: cheerio.Cheerio<AnyNode>): string {
   const active: string[] = [];
   daysDiv.find("span.s").each((_, el) => {
     const t = $(el).text().trim();
@@ -95,7 +95,7 @@ function sleep(ms: number): Promise<void> {
 }
 
 /** Extract prerequisite info from the course description area */
-function parsePrerequisites($: cheerio.CheerioAPI): {
+export function parsePrerequisites($: cheerio.CheerioAPI): {
   text: string | null;
   courses: string[];
 } {
@@ -153,7 +153,7 @@ async function fetchPage(url: string): Promise<string> {
 // Types
 // ---------------------------------------------------------------------------
 
-interface CourseSection {
+export interface CourseSection {
   college_code: string;
   term: string;
   course_prefix: string;
@@ -242,7 +242,7 @@ async function getCoursePages(subjectUrl: string, prefix: string): Promise<{ pre
 // Step 3: Scrape sections from a course page for the target term
 // ---------------------------------------------------------------------------
 
-function scrapeSections(
+export function scrapeSections(
   html: string,
   slug: string,
   coursePrefix: string,
@@ -440,7 +440,11 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error("Fatal:", err);
-  process.exit(1);
-});
+// Only invoke main() when this file is the CLI entry point. Importing it
+// from tests must be a no-op so vitest doesn't trigger a live scrape.
+if (process.argv[1]?.includes("scrape-vccs")) {
+  main().catch((err) => {
+    console.error("Fatal:", err);
+    process.exit(1);
+  });
+}
