@@ -50,7 +50,7 @@ export default function CollegeCard({
           {audit_policy.eligibility.senior_discount.available ? (
             <>
               <span className="font-semibold text-teal-700">
-                Free for {audit_policy.eligibility.senior_discount.age_threshold}+
+                {audit_policy.eligibility.senior_discount.cost === "reduced" ? "Reduced" : "Free"} for {audit_policy.eligibility.senior_discount.age_threshold}+
               </span>
               {audit_policy.cost_note && (
                 <span className="text-gray-500 dark:text-slate-400"> · {audit_policy.cost_note}</span>

@@ -154,7 +154,7 @@ export default async function CollegesPage({ params }: Props) {
                   institution.audit_policy.eligibility.senior_discount
                     .available && (
                     <span className="text-teal-600 font-medium">
-                      Free for {institution.audit_policy.eligibility.senior_discount.age_threshold ?? config.seniorWaiver?.ageThreshold ?? 60}+
+                      {institution.audit_policy.eligibility.senior_discount.cost === "reduced" ? "Reduced" : "Free"} for {institution.audit_policy.eligibility.senior_discount.age_threshold ?? config.seniorWaiver?.ageThreshold ?? 60}+
                     </span>
                   )}
               </div>
