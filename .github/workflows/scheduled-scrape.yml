@@ -238,3 +238,72 @@ jobs:
       - name: No-op summary
         if: steps.diff.outputs.broken == 'false' && steps.diff.outputs.changed == '0'
         run: echo "No changes vs. main — nothing to PR."
+
+      # ----------------------------------------------------------------------
+      # Health monitor (issue #120) — runs every tick, never gated on diff.
+      # Classifies every (state × declared scraper) pair as healthy/empty/failed
+      # and keeps a rolling issue per datatype so silence is never the answer.
+      # ----------------------------------------------------------------------
+      - name: Run health check
+        id: health
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npx tsx scripts/lib/check-scrape-health.ts \
+            --datatype "${{ needs.plan.outputs.datatype }}" \
+            --run-id "${{ github.run_id }}" \
+            --repo "${{ github.repository }}" \
+            --data-dir data \
+            --status-out /tmp/health.json
+          echo "all_healthy=$(jq -r '.allHealthy' /tmp/health.json)" >> "$GITHUB_OUTPUT"
+          # Persist markdown body via env to avoid GITHUB_OUTPUT multiline quoting issues.
+          {
+            echo 'body<<HEALTH_BODY_EOF'
+            jq -r '.markdown' /tmp/health.json
+            echo 'HEALTH_BODY_EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Update rolling health issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DT: ${{ needs.plan.outputs.datatype }}
+          BODY: ${{ steps.health.outputs.body }}
+          ALL_HEALTHY: ${{ steps.health.outputs.all_healthy }}
+        run: |
+          set -e
+          title="Scraper health — ${DT}"
+          # Find existing issue (open or closed) by exact title match.
+          existing=$(gh issue list \
+            --search "in:title \"${title}\"" \
+            --state all \
+            --limit 5 \
+            --json number,state,title \
+            --jq ".[] | select(.title == \"${title}\") | .number" \
+            | head -n 1)
+
+          printf '%s\n' "$BODY" > /tmp/issue-body.md
+
+          if [ -z "$existing" ]; then
+            # First run for this datatype — only file an issue if there's
+            # something to report. All-healthy on first tick stays silent.
+            if [ "$ALL_HEALTHY" = "true" ]; then
+              echo "First run for '${title}', all healthy — not opening an issue."
+              exit 0
+            fi
+            gh issue create \
+              --title "${title}" \
+              --body-file /tmp/issue-body.md \
+              --label "scraper-health,automated"
+            exit 0
+          fi
+
+          # Existing issue: always update the body so it reflects the latest tick.
+          gh issue edit "$existing" --body-file /tmp/issue-body.md
+
+          # Close on green, reopen on red. gh handles the no-op cases gracefully.
+          state=$(gh issue view "$existing" --json state --jq .state)
+          if [ "$ALL_HEALTHY" = "true" ] && [ "$state" = "OPEN" ]; then
+            gh issue close "$existing" --comment "All declared ${DT} scrapers healthy on the latest tick. Closing — will reopen automatically if a future tick regresses."
+          elif [ "$ALL_HEALTHY" = "false" ] && [ "$state" = "CLOSED" ]; then
+            gh issue reopen "$existing" --comment "Reopening — at least one ${DT} scraper is failing or producing empty output."
+          fi
