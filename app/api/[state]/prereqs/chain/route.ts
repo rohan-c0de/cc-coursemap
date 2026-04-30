@@ -11,7 +11,7 @@ type RouteContext = { params: Promise<{ state: string }> };
  * AND-of-OR groups: outer array = AND (all required), inner array = OR
  * (pick one). A flat `children` array is also provided for backward compat.
  */
-interface ChainNode {
+export interface ChainNode {
   course: string;
   text: string;        // Human-readable prereq description for THIS course
   children: ChainNode[];
@@ -40,7 +40,7 @@ function loadPrereqs(
  * Parse prereq text into AND-of-OR groups.
  * "ACC 101 and (BUS 107 or CIS 107)" → [["ACC 101"], ["BUS 107","CIS 107"]]
  */
-function parsePrereqGroups(text: string, courses: string[]): string[][] {
+export function parsePrereqGroups(text: string, courses: string[]): string[][] {
   if (courses.length === 0) return [];
   if (courses.length === 1) return [courses];
 
@@ -89,7 +89,7 @@ function parsePrereqGroups(text: string, courses: string[]): string[][] {
  * Returns both a flat `children` array (backward compat) and a `groups`
  * array that preserves AND-of-OR structure from the prereq text.
  */
-function buildChain(
+export function buildChain(
   course: string,
   prereqs: Map<string, { text: string; courses: string[] }>,
   visited: Set<string>,
