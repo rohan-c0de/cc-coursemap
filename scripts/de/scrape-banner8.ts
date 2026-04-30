@@ -14,6 +14,7 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { pickRecentSsbTerms } from "../lib/resolve-terms";
 
 type CourseMode = "in-person" | "online" | "hybrid" | "zoom";
 
@@ -424,14 +425,8 @@ async function scrapeCollege(
   const terms = await getAvailableTerms(config.baseUrl, config.prodPath);
   console.log(`  Available terms: ${terms.map((t) => t.description).join(", ")}`);
 
-  // Filter to recent/upcoming terms (skip "Professional Dev" and very old terms)
-  const targetTerms = terms.filter((t) => {
-    const desc = t.description.toLowerCase();
-    if (desc.includes("professional dev")) return false;
-    // Keep terms with year >= 2026
-    const yearMatch = t.description.match(/\b(20\d{2})\b/);
-    if (!yearMatch) return false;
-    return parseInt(yearMatch[1]) >= 2026;
+  const targetTerms = pickRecentSsbTerms(terms, {
+    exclude: (t) => t.description.toLowerCase().includes("professional dev"),
   });
 
   if (targetTerms.length === 0) {

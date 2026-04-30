@@ -77,20 +77,26 @@ export function nextTerm(t: TermInfo): TermInfo {
 }
 
 /**
- * Filter Banner SSB-style terms (objects with a `description` like "Spring 2026"
- * or "Fall Semester 2026") down to those at or after the current calendar term.
+ * Filter Banner-style terms (objects with a human-readable label like
+ * "Spring 2026" or "Fall Semester 2026 17-AUG-2026 - 08-DEC-2026") down to
+ * those at or after the current calendar term.
  *
- * Used by Banner SSB scrapers (DC, CT, GA) in place of hardcoded numeric
- * thresholds like `parseInt(t.code) >= 202620`. Each Banner deployment uses
- * its own season-suffix scheme (DC: 20=SP, CT: 40=SP, GA: 12=SP), so the
- * description string is the only universal denominator across deployments.
+ * Used by both Banner SSB (DC, CT, GA — `description` field) and Banner 8
+ * HTML scrapers (DE — `description`, RI — `name`). Each Banner deployment
+ * uses its own season-suffix scheme in the term *code* (DC: 20=SP, CT: 40=SP,
+ * GA: 12=SP, RI: 10=SP), so the label string is the only universal
+ * denominator across deployments — pass `descriptionOf` when the label
+ * lives on a field other than `description`.
  *
- * Pass an exclude predicate to drop deployment-specific noise (e.g. DE's
+ * Pass an `exclude` predicate to drop deployment-specific noise (e.g. DE's
  * "Professional Dev" entries) without re-implementing the year filter.
+ *
+ * "(View only)" / "(View Only)" entries are dropped by default — they have
+ * no current sections and the data we already have for them is canonical.
  */
-export function pickRecentSsbTerms<T extends { description: string }>(
+export function pickRecentSsbTerms<T>(
   terms: T[],
-  opts: { exclude?: (t: T) => boolean } = {}
+  opts: { exclude?: (t: T) => boolean; descriptionOf?: (t: T) => string } = {}
 ): T[] {
   const cur = currentCalendarTerm();
   const SEASON_RANK: Record<string, number> = { SP: 1, SU: 2, FA: 3 };
@@ -100,11 +106,11 @@ export function pickRecentSsbTerms<T extends { description: string }>(
     fall: "FA",
   };
   const curRank = cur.year * 10 + SEASON_RANK[cur.season];
+  const getDesc =
+    opts.descriptionOf ?? ((t: T) => (t as { description: string }).description);
 
   return terms.filter((t) => {
-    const desc = t.description.toLowerCase();
-    // Banner sites mark expired terms with "(View Only)" — never scrape those,
-    // they have no current sections and the data we already have is canonical.
+    const desc = getDesc(t).toLowerCase();
     if (desc.includes("view only")) return false;
     if (opts.exclude?.(t)) return false;
     const yearMatch = desc.match(/\b(20\d{2})\b/);
