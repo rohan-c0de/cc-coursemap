@@ -38,6 +38,7 @@
 
 import fs from "fs";
 import path from "path";
+import { currentCalendarTerm, nextTerm, type TermInfo } from "../lib/resolve-terms";
 
 const BASE_URL = "https://globalsearch.cuny.edu/CFGlobalSearchTool";
 const USER_AGENT =
@@ -60,21 +61,42 @@ const CUNY_COLLEGES: Record<string, { code: string; name: string }> = {
   "queensborough-cc": { code: "QCC01", name: "Queensborough CC" },
 };
 
-// CUNY term codes follow PeopleSoft: 1 + YY + season (2=Spring, 6=Summer, 9=Fall).
-// Scrape the 3 active terms visible in the term_value dropdown. When CUNY
-// publishes next year's terms, add them here — the dropdown is parsed only
-// for verification, not as the source of truth, so old codes won't break.
+// CUNY term codes follow PeopleSoft: 1 + YY + season-digit (2=Spring, 6=Summer,
+// 9=Fall). Derived from the calendar so we don't have to edit a hardcoded list
+// every term — at semester rollover the new code is computed automatically.
 interface CunyTerm {
   code: string;
   name: string;
   standard: string;
 }
 
-const CUNY_TERMS: CunyTerm[] = [
-  { code: "1262", name: "2026 Spring Term", standard: "2026SP" },
-  { code: "1266", name: "2026 Summer Term", standard: "2026SU" },
-  { code: "1269", name: "2026 Fall Term", standard: "2026FA" },
-];
+const SEASON_DIGIT: Record<string, string> = { SP: "2", SU: "6", FA: "9" };
+const SEASON_LABEL: Record<string, string> = { SP: "Spring", SU: "Summer", FA: "Fall" };
+
+function toCunyTerm(t: TermInfo): CunyTerm {
+  const digit = SEASON_DIGIT[t.season];
+  if (!digit) throw new Error(`Unsupported season for CUNY: ${t.season}`);
+  return {
+    code: `1${String(t.year % 100).padStart(2, "0")}${digit}`,
+    name: `${t.year} ${SEASON_LABEL[t.season]} Term`,
+    standard: t.code,
+  };
+}
+
+/**
+ * Build the list of CUNY terms to scrape. Returns current + next two calendar
+ * terms (e.g. mid-spring → Spring, Summer, Fall) so registration windows for
+ * upcoming semesters are picked up as soon as they open.
+ */
+function buildCunyTerms(): CunyTerm[] {
+  const cur = currentCalendarTerm();
+  const nxt = nextTerm(cur);
+  const nxtNxt = nextTerm(nxt);
+  return [cur, nxt, nxtNxt].map(toCunyTerm);
+}
+
+// Set by main() when --term <code> is passed; null means "use buildCunyTerms()".
+let activeCunyTerms: CunyTerm[] | null = null;
 
 // ---------------------------------------------------------------------------
 // HTTP session with manual cookie jar
@@ -657,7 +679,8 @@ async function scrapeCollege(slug: string): Promise<number> {
   fs.mkdirSync(outDir, { recursive: true });
 
   let total = 0;
-  for (const term of CUNY_TERMS) {
+  const terms = activeCunyTerms ?? buildCunyTerms();
+  for (const term of terms) {
     console.log(`\n  Term: ${term.name} (${term.code} → ${term.standard})`);
     try {
       const rows = await scrapeCollegeTerm(slug, cuny, term);
@@ -715,20 +738,17 @@ async function main(): Promise<void> {
   }
 
   // Optional single-term scope — useful for quick smoke tests.
-  let termScope: CunyTerm[] = CUNY_TERMS;
   if (termFlag >= 0) {
     const tc = args[termFlag + 1];
-    termScope = CUNY_TERMS.filter((t) => t.code === tc);
-    if (termScope.length === 0) {
+    const all = buildCunyTerms();
+    const match = all.find((t) => t.code === tc);
+    if (!match) {
       console.error(
-        `Unknown term code: ${tc}. Available: ${CUNY_TERMS.map((t) => t.code).join(", ")}`
+        `Unknown term code: ${tc}. Available: ${all.map((t) => t.code).join(", ")}`
       );
       process.exit(1);
     }
-    // Temporarily monkey-patch CUNY_TERMS to the scoped list.
-    // scrapeCollege reads the module-level constant, so we reassign here.
-    CUNY_TERMS.length = 0;
-    CUNY_TERMS.push(...termScope);
+    activeCunyTerms = [match];
   }
 
   let grandTotal = 0;
