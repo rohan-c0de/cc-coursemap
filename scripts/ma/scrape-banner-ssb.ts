@@ -11,6 +11,7 @@
 
 import fs from "fs";
 import path from "path";
+import { pickRecentSsbTerms } from "../lib/resolve-terms";
 
 const BASE_URL = "https://ban.hcc.edu";
 const COLLEGE_SLUG = "hcc";
@@ -310,12 +311,8 @@ async function main() {
   console.log("Fetching available terms...");
   const terms = await getTerms();
 
-  // Filter to recent/upcoming terms, skip non-credit and view-only
-  const targetTerms = terms.filter((t) => {
-    const desc = t.description.toLowerCase();
-    if (desc.includes("view only") || desc.includes("noncredit")) return false;
-    const yearMatch = t.description.match(/\b(20\d{2})\b/);
-    return yearMatch ? parseInt(yearMatch[1]) >= 2026 : false;
+  const targetTerms = pickRecentSsbTerms(terms, {
+    exclude: (t) => t.description.toLowerCase().includes("noncredit"),
   });
 
   console.log(`Found ${targetTerms.length} target terms:`, targetTerms.map((t) => t.description));

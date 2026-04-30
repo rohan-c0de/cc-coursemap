@@ -96,7 +96,17 @@ export function nextTerm(t: TermInfo): TermInfo {
  */
 export function pickRecentSsbTerms<T>(
   terms: T[],
-  opts: { exclude?: (t: T) => boolean; descriptionOf?: (t: T) => string } = {}
+  opts: {
+    exclude?: (t: T) => boolean;
+    descriptionOf?: (t: T) => string;
+    /**
+     * If true, keep "(View Only)" entries instead of dropping them.
+     * Default false. Set true for sites that intentionally re-scrape past
+     * terms (e.g. backfill scenarios where past sections are still valid
+     * to refresh).
+     */
+    includeViewOnly?: boolean;
+  } = {}
 ): T[] {
   const cur = currentCalendarTerm();
   const SEASON_RANK: Record<string, number> = { SP: 1, SU: 2, FA: 3 };
@@ -111,7 +121,7 @@ export function pickRecentSsbTerms<T>(
 
   return terms.filter((t) => {
     const desc = getDesc(t).toLowerCase();
-    if (desc.includes("view only")) return false;
+    if (!opts.includeViewOnly && desc.includes("view only")) return false;
     if (opts.exclude?.(t)) return false;
     const yearMatch = desc.match(/\b(20\d{2})\b/);
     const seasonKey = Object.keys(SEASON_FROM_DESC).find((s) => desc.includes(s));
