@@ -84,12 +84,10 @@ function rowsToLookup(rows: TransferRow[]): TransferLookup {
   return lookup;
 }
 
-// Max (prefix, number) pairs per Supabase `.or(...)` request. Each clause is
-// ~40 chars, URL-encoded; PostgREST rejects URLs past ~4-8 KB depending on
-// proxy config. 100 pairs ≈ 4 KB of `.or()` payload — safely under the limit.
-// Larger inputs (college-page union with thousands of courses) are split into
-// parallel chunks.
-const CHUNK_SIZE = 100;
+// Max course numbers per prefix-scoped `.in(...)` query. Keeps each request's
+// URL well under PostgREST's ~4-8 KB ceiling and gives the planner a tight
+// range to scan against idx_transfers_state_course (state, cc_prefix, cc_number).
+const NUMBERS_PER_PREFIX_CHUNK = 200;
 
 /**
  * Build a transfer lookup scoped to a specific set of (course_prefix,
@@ -120,28 +118,41 @@ export async function buildTransferLookupForCourses(
   const cacheKey = `xfer-courses:${state}:${Array.from(pairs.keys()).sort().join("|")}`;
 
   return cached(cacheKey, async () => {
-    const pairArr = Array.from(pairs.values());
+    // Group requested pairs by prefix so each query hits the compound index
+    // (state, cc_prefix, cc_number) as a clean per-prefix range scan.
+    // Long OR-chains of `and(cc_prefix.eq.X,cc_number.eq.Y)` planned poorly
+    // at scale (issue #44).
+    const byPrefix = new Map<string, Set<string>>();
+    for (const p of pairs.values()) {
+      let nums = byPrefix.get(p.prefix);
+      if (!nums) {
+        nums = new Set();
+        byPrefix.set(p.prefix, nums);
+      }
+      nums.add(p.number);
+    }
 
-    const chunks: (typeof pairArr)[] = [];
-    for (let i = 0; i < pairArr.length; i += CHUNK_SIZE) {
-      chunks.push(pairArr.slice(i, i + CHUNK_SIZE));
+    const queries: { prefix: string; numbers: string[] }[] = [];
+    for (const [prefix, numSet] of byPrefix) {
+      const numbers = Array.from(numSet);
+      for (let i = 0; i < numbers.length; i += NUMBERS_PER_PREFIX_CHUNK) {
+        queries.push({
+          prefix,
+          numbers: numbers.slice(i, i + NUMBERS_PER_PREFIX_CHUNK),
+        });
+      }
     }
 
     const chunkResults = await Promise.all(
-      chunks.map(async (chunk) => {
-        const orClauses = chunk
-          .map(
-            (p) =>
-              `and(cc_prefix.eq.${encodeURIComponent(p.prefix)},cc_number.eq.${encodeURIComponent(p.number)})`
-          )
-          .join(",");
+      queries.map(async ({ prefix, numbers }) => {
         const { data, error } = await supabase
           .from("transfers")
           .select(
             "cc_prefix, cc_number, university, univ_course, is_elective, no_credit"
           )
           .eq("state", state)
-          .or(orClauses);
+          .eq("cc_prefix", prefix)
+          .in("cc_number", numbers);
         if (error) {
           console.error("buildTransferLookupForCourses error:", error.message);
           return [] as TransferRow[];
