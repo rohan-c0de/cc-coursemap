@@ -149,8 +149,10 @@ async function scrapeOne(cc: SendingCollege): Promise<TransferMapping[]> {
   const html = await res.text();
   const $ = cheerio.load(html);
   const mappings: TransferMapping[] = [];
+  const seen = new Set<string>();
   let bundlesSkipped = 0;
   let unparseableSkipped = 0;
+  let duplicatesSkipped = 0;
 
   $("table tbody tr").each((_, row) => {
     const tds = $(row).find("td");
@@ -171,6 +173,16 @@ async function scrapeOne(cc: SendingCollege): Promise<TransferMapping[]> {
       return;
     }
 
+    // Keene occasionally publishes the same course twice on a single
+    // page (e.g. lrcc's "CIS 140L" alongside "CIS140L"). Same source +
+    // same prefix/number is semantically one mapping.
+    const dedupeKey = `${split.prefix}|${split.number}`;
+    if (seen.has(dedupeKey)) {
+      duplicatesSkipped++;
+      return;
+    }
+    seen.add(dedupeKey);
+
     mappings.push({
       cc_prefix: split.prefix,
       cc_number: split.number,
@@ -189,7 +201,7 @@ async function scrapeOne(cc: SendingCollege): Promise<TransferMapping[]> {
   });
 
   console.log(
-    `  ${cc.slug.padEnd(9)} mappings=${mappings.length} skipped-bundles=${bundlesSkipped} skipped-unparseable=${unparseableSkipped}`
+    `  ${cc.slug.padEnd(9)} mappings=${mappings.length} skipped-bundles=${bundlesSkipped} skipped-unparseable=${unparseableSkipped} skipped-duplicates=${duplicatesSkipped}`
   );
   return mappings;
 }

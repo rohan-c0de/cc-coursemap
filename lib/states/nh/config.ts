@@ -26,12 +26,11 @@ const nhConfig: StateConfig = {
 
   // 2026-04: Keene State College mappings landed via
   // scripts/nh/scrape-transfer-keene.ts (~2,700 across all 7 CCSNH
-  // colleges). Flag remains off pending coverage of the other USNH
-  // receivers — UNH Durham, Plymouth State, UNH CPS — so the homepage
-  // doesn't promise "transfer data" when only one of four destinations
-  // is represented. Flip to true once we either land another receiver
-  // or accept Keene-only coverage. Issue #33.
-  transferSupported: false,
+  // colleges). UNH Durham, Plymouth State, and UNH CPS still TBD
+  // (issue #33) — until they land, NH transfer pages will only list
+  // Keene as a destination. Accepting that limited coverage rather
+  // than hide real data behind the flag.
+  transferSupported: true,
   popularCourses: ["ENGL 101", "MATH 120", "BIOL 105", "PSYC 101", "HIST 101", "SOCI 101"],
   defaultZip: "03101",
   defaultZipCity: "Manchester",

@@ -7905,21 +7905,6 @@
     "is_elective": true
   },
   {
-    "cc_prefix": "CIS",
-    "cc_number": "140L",
-    "cc_course": "CIS 140L",
-    "cc_title": "Introduction to Programming",
-    "cc_credits": "4.00",
-    "university": "keene",
-    "university_name": "Keene State College",
-    "univ_course": "ISCS-210",
-    "univ_title": "Python Programming",
-    "univ_credits": "",
-    "notes": "[lrcc]",
-    "no_credit": false,
-    "is_elective": false
-  },
-  {
     "cc_prefix": "CULA",
     "cc_number": "145L",
     "cc_course": "CULA 145L",
