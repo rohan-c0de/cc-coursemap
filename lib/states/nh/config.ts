@@ -27,11 +27,14 @@ const nhConfig: StateConfig = {
   // 2026-04: enabled after scripts/nh/scrape-transfer.ts populated
   // data/nh/transfer-equiv.json with ~4,400 mappings from 6 of 7 CCSNH
   // colleges via CollegeTransfer.Net (wmcc hit the public API rate limit
-  // and will be filled by subsequent cron runs — partial runs are safe).
-  // Note: USNH receiving institutions (UNH/Plymouth/Keene) are not
-  // published to CollegeTransfer.Net, so in-state transfers are not
-  // covered by this dataset; out-of-state (USC, Clemson, Utah, etc.) is.
-  transferSupported: true,
+  // No in-state transfer data yet. CollegeTransfer.Net's NH dataset
+  // contains only out-of-state long-tail entries (USC, Clemson, Utah,
+  // etc.) which are not real articulation pathways and have been
+  // dropped per the in-state-only rule. USNH receiving institutions
+  // (UNH / Plymouth / Keene / Granite State) publish via their own
+  // portal — flip back to true once a USNH-portal scraper lands
+  // (issue #33).
+  transferSupported: false,
   popularCourses: ["ENGL 101", "MATH 120", "BIOL 105", "PSYC 101", "HIST 101", "SOCI 101"],
   defaultZip: "03101",
   defaultZipCity: "Manchester",

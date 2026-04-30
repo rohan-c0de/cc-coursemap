@@ -20,11 +20,14 @@ const dcConfig: StateConfig = {
       "DC residents aged 65+ may attend UDC Community College with tuition and fees waived, space permitting. Degree-seeking seniors pay half tuition.",
   },
 
-  // 2026-04: enabled after `scripts/dc/scrape-transfer.ts` populated
-  // `data/dc/transfer-equiv.json` with ~1,400 mappings from CollegeTransfer.Net
-  // (UDC institution id 990). UDC-CC shares UDC's course catalog so the
-  // outgoing equivalencies apply to its 2-year students as well.
-  transferSupported: true,
+  // No in-state transfer data yet. CollegeTransfer.Net's DC dataset for
+  // UDC contains only out-of-state long-tail entries (Midlands Tech,
+  // Wilmington University, Weber State, etc.) which are not real
+  // articulation pathways and have been dropped per the in-state-only
+  // rule. UDC's own catalog publishes its 4-year articulations through
+  // a different channel; flip back to true once an in-state DC scraper
+  // lands.
+  transferSupported: false,
   popularCourses: [],
   defaultZip: "20001",
   defaultZipCity: "Washington",

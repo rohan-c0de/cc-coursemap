@@ -23,11 +23,13 @@ const meConfig: StateConfig = {
   // 2026-04: enabled after `scripts/me/scrape-transfer.ts` populated
   // `data/me/transfer-equiv.json` with mappings from CollegeTransfer.Net
   // (MCCS institution ids 1079/1331/1602/1603/1605/1829/3657). Initial
-  // run captured ~1,600 mappings from 4 of 7 colleges; the remaining 3
-  // hit the public API's rate limit and will be filled by subsequent
-  // cron runs. Transfer data is additive-by-source so partial runs are
-  // safe.
-  transferSupported: true,
+  // No in-state transfer data yet. CollegeTransfer.Net's ME dataset
+  // contains only out-of-state long-tail entries (Weber State, Univ of
+  // Alaska, Utah Valley, etc.) which are not real articulation pathways
+  // and have been dropped per the in-state-only rule. UMaine / USM
+  // receiving institutions publish via their own portals; flip back to
+  // true once an in-state ME scraper lands.
+  transferSupported: false,
   popularCourses: ["ENG 101", "MAT 101", "BIO 101", "PSY 101", "HIS 101", "SOC 101"],
   defaultZip: "04101",
   defaultZipCity: "Portland",
