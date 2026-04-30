@@ -33,7 +33,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 // Term arithmetic
 // ---------------------------------------------------------------------------
 
-interface TermInfo {
+export interface TermInfo {
   name: string;      // "Summer 2026"
   code: string;      // "2026SU"
   season: string;    // "SU"
@@ -41,7 +41,7 @@ interface TermInfo {
 }
 
 /** Current calendar-based term (not what's in the DB, what makes sense now). */
-function currentCalendarTerm(): TermInfo {
+export function currentCalendarTerm(): TermInfo {
   const now = new Date();
   const month = now.getMonth() + 1; // 1-12
   const year = now.getFullYear();
@@ -69,7 +69,7 @@ function currentCalendarTerm(): TermInfo {
 }
 
 /** Get the next term after a given term. */
-function nextTerm(t: TermInfo): TermInfo {
+export function nextTerm(t: TermInfo): TermInfo {
   if (t.season === "SP") return { name: `Summer ${t.year}`, code: `${t.year}SU`, season: "SU", year: t.year };
   if (t.season === "SU") return { name: `Fall ${t.year}`, code: `${t.year}FA`, season: "FA", year: t.year };
   // FA → next year SP
@@ -519,7 +519,16 @@ async function main() {
   console.log(JSON.stringify(result));
 }
 
-main().catch((err) => {
-  console.error("Fatal:", err);
-  process.exit(1);
-});
+// Only run the CLI when invoked directly, not when imported by another script
+// (e.g. scrape-cuny.ts re-uses currentCalendarTerm/nextTerm).
+const invokedDirectly =
+  typeof import.meta.url === "string" &&
+  process.argv[1] &&
+  import.meta.url === `file://${process.argv[1]}`;
+
+if (invokedDirectly) {
+  main().catch((err) => {
+    console.error("Fatal:", err);
+    process.exit(1);
+  });
+}
