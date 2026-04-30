@@ -267,16 +267,17 @@ export default async function LandingPage() {
                 why this exists
               </div>
               <h2 className="text-3xl sm:text-4xl font-semibold leading-tight tracking-[-0.02em]">
-                The state systems weren&apos;t built to talk to each other.
+                The system wasn&apos;t built to be navigated.
               </h2>
             </div>
             <div className="space-y-5 text-slate-300 leading-relaxed">
               <p>
-                Every state runs its own community-college portal, with its own
-                login, its own course numbers, and its own ideas about what counts
-                toward a transfer degree. If you&apos;re trying to take a class
-                across a state line — or just compare two colleges in the same
-                system — you end up with five tabs open and a spreadsheet.
+                Every college runs its own portal, with its own login, its own
+                course numbers, and its own rules about what transfers to which
+                four-year. If you&apos;re trying to compare colleges or figure
+                out which classes will actually count toward a degree at the
+                university you want to transfer to — you end up with five tabs
+                open and a spreadsheet.
               </p>
               <p>
                 Community College Path pulls all of it into one place. Free, no
