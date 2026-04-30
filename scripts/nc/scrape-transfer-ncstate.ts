@@ -87,7 +87,6 @@ function parseRows(html: string): TransferMapping[] {
     const $equiv = cheerio.load(ncsuEquivHtml);
     const links = $equiv("a.req-course-link");
     let univCourse = "";
-    let univTitle = "";
 
     if (links.length > 0) {
       // Collect all linked courses

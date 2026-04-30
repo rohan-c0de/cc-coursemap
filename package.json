@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "test:run": "vitest run",
     "check:registry": "tsx scripts/check-registry-integrity.ts",
     "check:scrapers": "tsx scripts/check-scraper-coverage.ts",
     "check:scraper-terms": "tsx scripts/check-scraper-term-hardcoding.ts",
@@ -62,7 +65,8 @@
     "playwright": "^1.58.2",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.5"
   },
   "browserslist": [
     "chrome >= 90",

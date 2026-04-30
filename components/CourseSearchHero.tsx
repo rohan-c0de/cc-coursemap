@@ -24,15 +24,21 @@ export default function CourseSearchHero({
 
   // Hydrate selected state: a previously-chosen value in localStorage wins
   // (manual choice = highest priority), then geo auto-detect, else nothing.
+  // localStorage is only available client-side, so this hydration must
+  // happen in an effect after mount.
   useEffect(() => {
     const stored = typeof window !== "undefined" ? localStorage.getItem(LS_KEY) : null;
     if (stored && states.some((s) => s.slug === stored)) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setSelectedState(stored);
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setIsAuto(false);
       return;
     }
     if (geoState && states.some((s) => s.slug === geoState)) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setSelectedState(geoState);
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setIsAuto(true);
     }
   }, [states, geoState]);

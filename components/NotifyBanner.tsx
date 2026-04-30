@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function NotifyBanner({ nextTerm, state }: { nextTerm: string; state: string }) {
   const [email, setEmail] = useState("");
@@ -71,7 +72,7 @@ export default function NotifyBanner({ nextTerm, state }: { nextTerm: string; st
       )}
       <p className="mt-2 text-[11px] text-amber-600 dark:text-amber-500">
         We&apos;ll only email you about new schedules. No spam.{" "}
-        <a href="/privacy" className="underline">Privacy policy</a>.
+        <Link href="/privacy" className="underline">Privacy policy</Link>.
       </p>
     </div>
   );

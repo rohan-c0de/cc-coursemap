@@ -30,7 +30,7 @@ export interface CollegeGroup {
 }
 
 /** Parse a search query into structured parts */
-function parseQuery(q: string): {
+export function parseQuery(q: string): {
   prefix: string | null;
   number: string | null;
   keyword: string | null;
@@ -54,7 +54,7 @@ function parseQuery(q: string): {
 }
 
 /** Check if a time string falls in a time-of-day bucket */
-function matchesTimeOfDay(
+export function matchesTimeOfDay(
   startTime: string,
   bucket: "morning" | "afternoon" | "evening"
 ): boolean {
@@ -77,7 +77,7 @@ function matchesTimeOfDay(
 }
 
 /** Check if a course meets on ANY of the given filter days (OR logic) */
-function sectionMatchesDays(days: string, filterDays: string[]): boolean {
+export function sectionMatchesDays(days: string, filterDays: string[]): boolean {
   if (!days) return false;
   const tokens = days.split(" ");
   return filterDays.some((fd) => tokens.includes(fd));

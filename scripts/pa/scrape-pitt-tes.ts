@@ -617,7 +617,6 @@ async function main() {
   const allMappings: TransferMapping[] = [];
   let sessionCookies = "";
   let sessionFields: Record<string, string> = {};
-  let sessionActive = false;
 
   for (let i = 0; i < colleges.length; i++) {
     const cc = colleges[i];

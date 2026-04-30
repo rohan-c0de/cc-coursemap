@@ -35,9 +35,12 @@ export default function LoginModal() {
       if (!dialog.open) dialog.showModal();
     } else {
       if (dialog.open) dialog.close();
-      // Reset state when closing
+      // Reset internal form state when the parent closes the modal.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setEmail("");
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setMagicLinkSent(false);
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setMagicLinkError(null);
     }
   }, [loginModalOpen]);

@@ -11,6 +11,7 @@
  */
 
 import * as cheerio from "cheerio";
+import type { AnyNode } from "domhandler";
 import * as fs from "fs";
 import * as path from "path";
 
@@ -80,7 +81,7 @@ function parseTimes(timeStr: string): [string, string] {
   return [start, end];
 }
 
-function parseDays($: cheerio.CheerioAPI, daysDiv: cheerio.Cheerio<any>): string {
+function parseDays($: cheerio.CheerioAPI, daysDiv: cheerio.Cheerio<AnyNode>): string {
   const active: string[] = [];
   daysDiv.find("span.s").each((_, el) => {
     const t = $(el).text().trim();

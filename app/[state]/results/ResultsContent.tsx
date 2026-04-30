@@ -24,7 +24,10 @@ export default function ResultsContent({ state }: { state: string }) {
 
   useEffect(() => {
     if (!zip) {
+      // Surface input-validation error before the fetch is even attempted.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setError("No zip code provided.");
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLoading(false);
       return;
     }

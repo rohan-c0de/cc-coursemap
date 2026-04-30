@@ -7,6 +7,9 @@ export default function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
+  // Hydration-safe mount detection: avoids SSR/CSR icon mismatch from
+   // next-themes' resolvedTheme being undefined on the server.
+   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMounted(true), []);
 
   if (!mounted) {

@@ -71,7 +71,7 @@ function parseLine(line: string): CourseSection | null {
   const prefix = secMatch[1];
   const number = secMatch[2];
   const section = secMatch[3];
-  let rest = secMatch[4];
+  const rest = secMatch[4];
 
   // Try to find times: "H:MM AM/PM H:MM AM/PM DAYS"
   const timeMatch = rest.match(/^(.+?)\s+(\d{1,2}:\d{2}\s+[AP]M)\s+(\d{1,2}:\d{2}\s+[AP]M)\s+([MTWTHFS]+)\s+(.+)$/);
