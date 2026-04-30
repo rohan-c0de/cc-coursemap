@@ -305,7 +305,7 @@ function parseUtCourses(
   const courses: Array<{ code: string; title: string }> = [];
 
   // Remove spans and split on " and " (which the red spans rendered)
-  let clean = html
+  const clean = html
     .replace(/<span[^>]*>([^<]*)<\/span>/gi, (_, text) => {
       const t = text.trim();
       return t.toLowerCase() === "and" ? " |AND| " : " ";

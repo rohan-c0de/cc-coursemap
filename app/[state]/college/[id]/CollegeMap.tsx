@@ -32,6 +32,8 @@ export default function CollegeMap({ institution }: Props) {
     // Safari 14 and older don't have IntersectionObserver — fall back to
     // rendering eagerly so the map still shows up.
     if (typeof IntersectionObserver === "undefined") {
+      // Safari 14 fallback: render the map eagerly when IO is missing.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setShow(true);
       return;
     }

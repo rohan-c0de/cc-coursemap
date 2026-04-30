@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import fs from "fs";
 import path from "path";
@@ -86,12 +87,12 @@ export default async function StateLayout({ children, params }: Props) {
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-500 dark:text-slate-400">{b.footerText}</p>
             <div className="flex flex-wrap items-center gap-3 text-xs text-gray-400 dark:text-slate-500">
-              <a
+              <Link
                 href="/privacy"
                 className="underline hover:text-gray-600 dark:hover:text-slate-300"
               >
                 Privacy Policy
-              </a>
+              </Link>
               <span>|</span>
               <p>
                 Policy data is manually verified. Always confirm with the

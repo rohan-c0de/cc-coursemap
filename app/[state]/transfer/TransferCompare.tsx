@@ -128,6 +128,8 @@ export default function TransferCompare({
       const codes = coursesParam.split(",").map((c) => decodeURIComponent(c.replace(/\+/g, " ")).trim());
       const valid = codes.filter((c) => allCourses.some((ac) => ac.course === c));
       if (valid.length > 0) {
+        // Hydrate selection from the URL on mount.
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setSelectedCourses(new Set(valid));
       }
     }

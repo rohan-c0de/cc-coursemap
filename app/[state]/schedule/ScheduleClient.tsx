@@ -186,6 +186,9 @@ export default function ScheduleClient({ state, systemName, collegeCount, defaul
     };
 
     if (data.subjects.length > 0) {
+      // handleBuild is the build trigger that internally calls setState;
+      // running it from this URL-hydration effect is intentional.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       handleBuild(data);
     }
   }, [initialDefaults, handleBuild]);

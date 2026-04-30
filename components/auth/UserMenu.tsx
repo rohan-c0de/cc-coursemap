@@ -19,6 +19,7 @@ export default function UserMenu() {
 
   // Prevent hydration mismatch — only render after client mount
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 
@@ -26,6 +27,8 @@ export default function UserMenu() {
   // If auth check is slow (cold start, network), fall back to "Sign In".
   useEffect(() => {
     if (!isLoading) {
+      // Reset the timeout flag whenever auth flips out of loading state.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLoadingTimedOut(false);
       return;
     }

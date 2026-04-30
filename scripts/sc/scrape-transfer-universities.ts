@@ -73,7 +73,7 @@ function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-async function fetchJSON(url: string): Promise<any> {
+async function fetchJSON<T = unknown>(url: string): Promise<T> {
   const resp = await fetch(url, {
     headers: {
       Accept: "application/json",
@@ -81,7 +81,7 @@ async function fetchJSON(url: string): Promise<any> {
     },
   });
   if (!resp.ok) throw new Error(`HTTP ${resp.status} for ${url}`);
-  return resp.json();
+  return resp.json() as Promise<T>;
 }
 
 // ---------------------------------------------------------------------------
@@ -95,15 +95,15 @@ function createUSCConfig(program: string, slug: string, name: string): Universit
     slug,
     name,
     async getSchools() {
-      const data = await fetchJSON(
+      const data = await fetchJSON<Array<Record<string, string>>>(
         `${base}.Z_SVD_CODES-TREQ_STVSBGI?mepCode=COL&program=${encodeURIComponent(program)}&nation=US&state=SC`
       );
       return data
-        .filter((s: any) => isTechCollege(s.SBGI_DESC))
-        .map((s: any) => ({ code: s.SBGI_CODE, name: s.SBGI_DESC }));
+        .filter((s) => isTechCollege(s.SBGI_DESC))
+        .map((s) => ({ code: s.SBGI_CODE, name: s.SBGI_DESC }));
     },
     async getEquivalencies(schoolCode: string) {
-      const data = await fetchJSON(
+      const data = await fetchJSON<Array<Record<string, string>>>(
         `${base}.Z_SVD_CODES-TREQ_EQUIV?mepCode=COL&program=${encodeURIComponent(program)}&inst=${schoolCode}&subjects=`
       );
 
@@ -154,18 +154,18 @@ const cofcConfig: UniversityConfig = {
   name: "College of Charleston",
   async getSchools() {
     // Use latest available term
-    const terms = await fetchJSON(
+    const terms = await fetchJSON<Array<Record<string, string>>>(
       "https://ssb.cofc.edu/BannerExtensibility/internalPb/virtualDomains.TransferEquivTerm"
     );
     const term = terms[0]?.STVTERM_CODE || "202630";
 
-    const data = await fetchJSON(
+    const data = await fetchJSON<Array<Record<string, string>>>(
       `https://ssb.cofc.edu/BannerExtensibility/internalPb/virtualDomains.TransferEquivSchool?term=${term}&state=SC`
     );
 
     return data
-      .filter((s: any) => isTechCollege(s.STVSBGI_DESC))
-      .map((s: any) => ({
+      .filter((s) => isTechCollege(s.STVSBGI_DESC))
+      .map((s) => ({
         code: s.STVSBGI_CODE + "|" + term, // pack term with code
         name: s.STVSBGI_DESC,
       }));
@@ -173,7 +173,7 @@ const cofcConfig: UniversityConfig = {
   async getEquivalencies(schoolCodeAndTerm: string) {
     const [schoolCode, term] = schoolCodeAndTerm.split("|");
 
-    const data = await fetchJSON(
+    const data = await fetchJSON<Array<Record<string, string>>>(
       `https://ssb.cofc.edu/BannerExtensibility/internalPb/virtualDomains.TransferEquivUGGrid?term=${term}&state=SC&school=${schoolCode}`
     );
 
@@ -265,7 +265,7 @@ async function main() {
     process.exit(1);
   }
 
-  let newMappings: TransferMapping[] = [];
+  const newMappings: TransferMapping[] = [];
   for (const univ of targets) {
     const mappings = await scrapeUniversity(univ);
     newMappings.push(...mappings);

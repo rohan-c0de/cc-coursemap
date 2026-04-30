@@ -26,7 +26,7 @@
  *   npx tsx scripts/ga/scrape-transfer-usg.ts --college atlanta-tech
  */
 
-import { chromium, type Page } from "playwright";
+import { chromium, type Page, type Response } from "playwright";
 import fs from "fs";
 import path from "path";
 import { importTransfersToSupabase } from "../lib/supabase-import.js";
@@ -228,7 +228,7 @@ async function scrapeOneCollege(
 ): Promise<TransferMapping[]> {
   // Collect all API responses for class_list
   let apiRecords: USGRecord[] = [];
-  const responseHandler = async (resp: any) => {
+  const responseHandler = async (resp: Response) => {
     const url = resp.url();
     if (url.includes("virtualDomains") && url.includes("class_list")) {
       try {

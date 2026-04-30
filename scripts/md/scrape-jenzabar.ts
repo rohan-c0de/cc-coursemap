@@ -336,7 +336,7 @@ async function scrapeJenzabar(
 
   // Handle pagination — check for "Next" button
   let pageNum = 1;
-  let allCourseData = [...courseData];
+  const allCourseData = [...courseData];
 
   while (true) {
     const nextBtn = await page.$(

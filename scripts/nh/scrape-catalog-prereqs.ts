@@ -249,7 +249,7 @@ async function main() {
   // Merge across colleges: when two colleges list the same course code with
   // different prereqs, the first-seen wins. We record `source` on each entry.
   const merged: Record<string, PrereqEntry> = {};
-  let totalPerCollege: Record<string, number> = {};
+  const totalPerCollege: Record<string, number> = {};
 
   for (const college of targets) {
     const entries = await scrapeCollege(college, limitPagesArg);
