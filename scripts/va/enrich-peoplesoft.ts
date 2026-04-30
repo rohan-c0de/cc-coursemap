@@ -35,12 +35,15 @@ import * as path from "path";
 
 const PS_BASE = "https://ps-sis.vccs.edu";
 
-// Term name → PS term code + file code (mirrors scrape-peoplesoft.ts)
+// Term name → PS term code + file code (mirrors scrape-peoplesoft.ts).
+// VCCS PeopleSoft term IDs (2262, 2263, ...) are opaque internal IDs assigned
+// by VCCS; they are not derivable from the calendar. This mapping table is
+// the authoritative source — extend it when VCCS publishes new term IDs.
 const PS_TERM_MAP: Record<string, { code: string; file: string }> = {
-  "Spring 2026": { code: "2262", file: "2026SP" },
-  "Summer 2026": { code: "2263", file: "2026SU" },
-  "Fall 2026":   { code: "2264", file: "2026FA" },
-  "Spring 2027": { code: "2272", file: "2027SP" },
+  "Spring 2026": { code: "2262", file: "2026SP" }, // term-hardcode-allowed: opaque VCCS PS term ID
+  "Summer 2026": { code: "2263", file: "2026SU" }, // term-hardcode-allowed: opaque VCCS PS term ID
+  "Fall 2026":   { code: "2264", file: "2026FA" }, // term-hardcode-allowed: opaque VCCS PS term ID
+  "Spring 2027": { code: "2272", file: "2027SP" }, // term-hardcode-allowed: opaque VCCS PS term ID
 };
 
 // Accept --term "Summer 2026" (human-readable, matching scrape-peoplesoft.ts)

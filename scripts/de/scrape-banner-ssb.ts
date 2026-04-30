@@ -15,6 +15,7 @@
 
 import fs from "fs";
 import path from "path";
+import { pickRecentSsbTerms } from "../lib/resolve-terms";
 
 const PAGE_SIZE = 500;
 const BASE_URL = "https://banner.dtcc.edu";
@@ -514,19 +515,14 @@ async function main() {
     return;
   }
 
-  // Filter to recent/upcoming terms (2026+)
-  // "View Only" terms still have data — they're just past the registration window
-  const targetTerms = terms.filter((t) => {
-    const desc = t.description.toLowerCase();
-    // Skip continuing education or non-credit terms
-    if (desc.includes("continuing ed") || desc.includes("non-credit"))
-      return false;
-    // Extract year from description
-    const yearMatch = t.description.match(/\b(20\d{2})\b/);
-    if (yearMatch) return parseInt(yearMatch[1]) >= 2026;
-    // Fallback: code-based year
-    const codeYear = parseInt(t.code.substring(0, 4));
-    return codeYear >= 2026;
+  // Keep View Only entries: this scraper backfills past terms whose
+  // sections are still considered canonical.
+  const targetTerms = pickRecentSsbTerms(terms, {
+    includeViewOnly: true,
+    exclude: (t) => {
+      const desc = t.description.toLowerCase();
+      return desc.includes("continuing ed") || desc.includes("non-credit");
+    },
   });
 
   if (targetTerms.length === 0) {
