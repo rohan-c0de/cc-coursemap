@@ -13,6 +13,7 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { pickRecentSsbTerms } from "../lib/resolve-terms";
 
 const BASE_URL = "https://bannerweb.ccri.edu/pls/DORA";
 const SLUG = "ccri";
@@ -367,10 +368,9 @@ async function main() {
     const availableTerms = await getAvailableTerms();
     console.log(`  Found ${availableTerms.length} credit terms`);
 
-    // Filter to recent/upcoming non-CWCE credit terms
-    const recentTerms = availableTerms.filter(
-      (t) => parseInt(t.code) >= 202610 && !t.name.includes("View only")
-    );
+    const recentTerms = pickRecentSsbTerms(availableTerms, {
+      descriptionOf: (t) => t.name,
+    });
 
     if (recentTerms.length === 0) {
       console.log("  No recent terms found. Available:", availableTerms.map((t) => `${t.name} (${t.code})`));
