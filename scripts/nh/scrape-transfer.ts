@@ -284,12 +284,21 @@ async function main() {
 
   const outPath = path.join(process.cwd(), "data", "nh", "transfer-equiv.json");
   let preserved: TransferMapping[] = [];
+  // Drop only rows we just refreshed: same sending CC AND same receiving
+  // university. Per-receiver scrapers (e.g. scrape-transfer-keene.ts) reuse
+  // the [slug] notes prefix, so filtering on the slug alone would clobber
+  // their output.
+  const ourUniversities = new Set(all.map((m) => m.university));
   try {
     const existing = JSON.parse(fs.readFileSync(outPath, "utf-8"));
     if (Array.isArray(existing)) {
       preserved = (existing as TransferMapping[]).filter((m) => {
         const slug = m.notes.match(/^\[(\w+)\]/)?.[1];
-        return slug && !successfulSlugs.has(slug);
+        const ownedByThisRun =
+          slug !== undefined &&
+          successfulSlugs.has(slug) &&
+          ourUniversities.has(m.university);
+        return !ownedByThisRun;
       });
     }
   } catch {
