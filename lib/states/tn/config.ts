@@ -77,8 +77,8 @@ const tnConfig: StateConfig = {
   },
   scrapers: {
     courses: [{ scripts: ["scripts/tn/scrape-banner-ssb.ts"], runner: "http" }],
-    // transfers: TN has scripts under scripts/tn/transfer/ but none wired to cron yet.
-    // prereqs: scrape-catalog-prereqs.ts exists but is not scheduled.
+    transfers: [{ scripts: ["scripts/tn/transfer/scrape-all.ts"], runner: "http" }],
+    prereqs: [{ scripts: ["scripts/tn/scrape-catalog-prereqs.ts"], runner: "http" }],
   },
 };
 
