@@ -27,6 +27,7 @@
 import fs from "fs";
 import path from "path";
 import { importTransfersToSupabase } from "../lib/supabase-import.js";
+import { fetchInStateInstitutions } from "../lib/in-state-institutions.js";
 
 // ---------------------------------------------------------------------------
 // Types — match the shape in scripts/lib/scrape-collegetransfer.ts
@@ -121,12 +122,15 @@ function isElectiveCourse(course: ODataCourse): boolean {
 // Main scrape
 // ---------------------------------------------------------------------------
 
-async function scrapeAllUdcEquivalencies(): Promise<TransferMapping[]> {
+async function scrapeAllUdcEquivalencies(
+  inStateIds: Set<number>,
+): Promise<TransferMapping[]> {
   const mappings: TransferMapping[] = [];
   let skip = 0;
   let total = 0;
   let skippedCombos = 0;
   let skippedEmpty = 0;
+  let skippedOutOfState = 0;
 
   console.log(
     `\nPaging /Equivalencies?SourceInstitutionId=${UDC_INSTITUTION_ID} at ${PAGE_SIZE}/page...`
@@ -169,6 +173,12 @@ async function scrapeAllUdcEquivalencies(): Promise<TransferMapping[]> {
     for (const eq of batch) {
       const sources = eq.SourceCourses || [];
       const targets = eq.TargetCourses || [];
+
+      // In-state-only transfers (memory: feedback_in_state_transfers_only).
+      if (!inStateIds.has(eq.TargetInstitutionId)) {
+        skippedOutOfState++;
+        continue;
+      }
 
       // Skip combo courses (multiple source courses required together) —
       // matches behavior in shared `scrape-collegetransfer.ts`.
@@ -230,7 +240,7 @@ async function scrapeAllUdcEquivalencies(): Promise<TransferMapping[]> {
   }
 
   console.log(
-    `\n  Total rows fetched: ${total} · skipped-combos: ${skippedCombos} · skipped-empty: ${skippedEmpty}`
+    `\n  Total rows fetched: ${total} · skipped-out-of-state: ${skippedOutOfState} · skipped-combos: ${skippedCombos} · skipped-empty: ${skippedEmpty}`
   );
   return mappings;
 }
@@ -245,7 +255,13 @@ async function main() {
 
   console.log("CollegeTransfer.Net — DC (UDC-CC) Transfer Scraper");
 
-  const mappings = await scrapeAllUdcEquivalencies();
+  console.log("\nFetching in-state institution set (DC-only target filter)…");
+  const { ids: inStateIds } = await fetchInStateInstitutions(
+    "District of Columbia",
+  );
+  console.log(`  ${inStateIds.size} DC institutions registered with CT.Net`);
+
+  const mappings = await scrapeAllUdcEquivalencies(inStateIds);
 
   const transferable = mappings.filter((m) => !m.no_credit);
   const directCount = transferable.filter((m) => !m.is_elective).length;

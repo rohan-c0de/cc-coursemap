@@ -25,6 +25,7 @@
 import fs from "fs";
 import path from "path";
 import { importTransfersToSupabase } from "../lib/supabase-import.js";
+import { fetchInStateInstitutions } from "../lib/in-state-institutions.js";
 
 interface TransferMapping {
   state: string;
@@ -111,12 +112,16 @@ function isElectiveCourse(course: ODataCourse): boolean {
   return false;
 }
 
-async function scrapeCollege(cc: NhCollege): Promise<TransferMapping[]> {
+async function scrapeCollege(
+  cc: NhCollege,
+  inStateIds: Set<number>,
+): Promise<TransferMapping[]> {
   const mappings: TransferMapping[] = [];
   let skip = 0;
   let total = 0;
   let skippedCombos = 0;
   let skippedEmpty = 0;
+  let skippedOutOfState = 0;
 
   while (true) {
     const params = new URLSearchParams({
@@ -144,6 +149,12 @@ async function scrapeCollege(cc: NhCollege): Promise<TransferMapping[]> {
     for (const eq of batch) {
       const sources = eq.SourceCourses || [];
       const targets = eq.TargetCourses || [];
+
+      // In-state-only transfers (memory: feedback_in_state_transfers_only).
+      if (!inStateIds.has(eq.TargetInstitutionId)) {
+        skippedOutOfState++;
+        continue;
+      }
 
       if (sources.length > 1) {
         skippedCombos++;
@@ -202,7 +213,7 @@ async function scrapeCollege(cc: NhCollege): Promise<TransferMapping[]> {
   }
 
   console.log(
-    `  ${cc.slug.padEnd(9)} fetched=${total} mappings=${mappings.length} skipped-combos=${skippedCombos} skipped-empty=${skippedEmpty}`
+    `  ${cc.slug.padEnd(9)} fetched=${total} mappings=${mappings.length} skipped-out-of-state=${skippedOutOfState} skipped-combos=${skippedCombos} skipped-empty=${skippedEmpty}`
   );
   return mappings;
 }
@@ -213,11 +224,15 @@ async function main() {
 
   console.log("CollegeTransfer.Net — New Hampshire (CCSNH) Transfer Scraper\n");
 
+  console.log("Fetching in-state institution set (NH-only target filter)…");
+  const { ids: inStateIds } = await fetchInStateInstitutions("New Hampshire");
+  console.log(`  ${inStateIds.size} NH institutions registered with CT.Net\n`);
+
   const successfulSlugs = new Set<string>();
   const all: TransferMapping[] = [];
   for (const cc of NH_COLLEGES) {
     try {
-      const mappings = await scrapeCollege(cc);
+      const mappings = await scrapeCollege(cc, inStateIds);
       all.push(...mappings);
       successfulSlugs.add(cc.slug);
     } catch (err) {

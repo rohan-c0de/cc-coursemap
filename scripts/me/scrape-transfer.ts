@@ -22,6 +22,7 @@
 import fs from "fs";
 import path from "path";
 import { importTransfersToSupabase } from "../lib/supabase-import.js";
+import { fetchInStateInstitutions } from "../lib/in-state-institutions.js";
 
 // ---------------------------------------------------------------------------
 // Types — match the shape in scripts/lib/scrape-collegetransfer.ts
@@ -124,12 +125,16 @@ function isElectiveCourse(course: ODataCourse): boolean {
 // Per-college scrape
 // ---------------------------------------------------------------------------
 
-async function scrapeCollege(cc: MeCollege): Promise<TransferMapping[]> {
+async function scrapeCollege(
+  cc: MeCollege,
+  inStateIds: Set<number>,
+): Promise<TransferMapping[]> {
   const mappings: TransferMapping[] = [];
   let skip = 0;
   let total = 0;
   let skippedCombos = 0;
   let skippedEmpty = 0;
+  let skippedOutOfState = 0;
 
   while (true) {
     const params = new URLSearchParams({
@@ -157,6 +162,12 @@ async function scrapeCollege(cc: MeCollege): Promise<TransferMapping[]> {
     for (const eq of batch) {
       const sources = eq.SourceCourses || [];
       const targets = eq.TargetCourses || [];
+
+      // In-state-only transfers (memory: feedback_in_state_transfers_only).
+      if (!inStateIds.has(eq.TargetInstitutionId)) {
+        skippedOutOfState++;
+        continue;
+      }
 
       // Skip combo courses (multiple source courses required together)
       if (sources.length > 1) {
@@ -219,7 +230,7 @@ async function scrapeCollege(cc: MeCollege): Promise<TransferMapping[]> {
   }
 
   console.log(
-    `  ${cc.slug.padEnd(5)} fetched=${total} mappings=${mappings.length} skipped-combos=${skippedCombos} skipped-empty=${skippedEmpty}`
+    `  ${cc.slug.padEnd(5)} fetched=${total} mappings=${mappings.length} skipped-out-of-state=${skippedOutOfState} skipped-combos=${skippedCombos} skipped-empty=${skippedEmpty}`
   );
   return mappings;
 }
@@ -234,6 +245,10 @@ async function main() {
 
   console.log("CollegeTransfer.Net — Maine (MCCS) Transfer Scraper\n");
 
+  console.log("Fetching in-state institution set (ME-only target filter)…");
+  const { ids: inStateIds } = await fetchInStateInstitutions("Maine");
+  console.log(`  ${inStateIds.size} ME institutions registered with CT.Net\n`);
+
   // Track which CCs succeeded this run so we can merge with existing
   // data for CCs that didn't. CollegeTransfer.Net free-tier rate-limits
   // after ~4-5 source institutions; the scraper should preserve data
@@ -242,7 +257,7 @@ async function main() {
   const all: TransferMapping[] = [];
   for (const cc of ME_COLLEGES) {
     try {
-      const mappings = await scrapeCollege(cc);
+      const mappings = await scrapeCollege(cc, inStateIds);
       all.push(...mappings);
       successfulSlugs.add(cc.slug);
     } catch (err) {
