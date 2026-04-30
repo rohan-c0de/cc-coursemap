@@ -1,11 +1,5 @@
 import type { StateConfig } from "../registry";
 
-// manual-only: MA has rich scraper coverage (scrape-banner-ssb, scrape-banner8,
-// scrape-colleague, scrape-masstransfer, two per-college prereq scrapers) but nothing
-// is wired to cron yet. Intentional — 6 of 15 colleges are scrapable and we want to
-// confirm the long tail is stable before cron'ing. MassTransfer is weekly-ish-stable
-// and could be scheduled first.
-
 const maConfig: StateConfig = {
   slug: "ma",
   name: "Massachusetts",
@@ -57,6 +51,25 @@ const maConfig: StateConfig = {
       "MassCC course search",
       "Massachusetts Community Colleges",
       "Massachusetts community college schedule",
+    ],
+  },
+  scrapers: {
+    courses: [
+      {
+        scripts: ["scripts/ma/scrape-banner-ssb.ts", "scripts/ma/scrape-banner8.ts"],
+        runner: "http",
+      },
+      { scripts: ["scripts/ma/scrape-colleague.ts"], runner: "playwright" },
+    ],
+    transfers: [{ scripts: ["scripts/ma/scrape-masstransfer.ts"], runner: "http" }],
+    prereqs: [
+      {
+        scripts: [
+          "scripts/ma/scrape-catalog-prereqs-gcc.ts",
+          "scripts/ma/scrape-catalog-prereqs-middlesex.ts",
+        ],
+        runner: "http",
+      },
     ],
   },
 };
