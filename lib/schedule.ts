@@ -38,7 +38,7 @@ export type TransferLookup = Record<
   { university: string; type: TransferStatus; course: string }[]
 >;
 
-interface EnrichedSection extends CourseSection {
+export interface EnrichedSection extends CourseSection {
   _startMin: number; // minutes since midnight, -1 if TBA
   _endMin: number;
   _dayMask: number; // bitmask of days
@@ -220,7 +220,7 @@ export async function generateSchedules(
 // Subject query parsing
 // ---------------------------------------------------------------------------
 
-function parseSubjectQueries(subjects: string[]): {
+export function parseSubjectQueries(subjects: string[]): {
   exactCourses: string[]; // e.g. ["PSY-200", "ART-101"]
   subjectPrefixes: string[]; // e.g. ["BIO"]
 } {
@@ -252,7 +252,7 @@ function parseSubjectQueries(subjects: string[]): {
 // Time window parsing
 // ---------------------------------------------------------------------------
 
-function parseTimeWindow(
+export function parseTimeWindow(
   startStr: string,
   endStr: string
 ): { startMin: number; endMin: number } {
@@ -455,7 +455,7 @@ function selectCourseCombinations(
 }
 
 /** Generate all C(n, k) combinations of an array */
-function combinations<T>(arr: T[], k: number): T[][] {
+export function combinations<T>(arr: T[], k: number): T[][] {
   if (k === 0) return [[]];
   if (k > arr.length) return [];
   if (k === arr.length) return [arr];
@@ -483,7 +483,7 @@ function combinations<T>(arr: T[], k: number): T[][] {
 // Stage 4: Find valid (conflict-free) schedules
 // ---------------------------------------------------------------------------
 
-function hasTimeConflict(
+export function hasTimeConflict(
   a: EnrichedSection,
   b: EnrichedSection
 ): boolean {
@@ -497,7 +497,7 @@ function hasTimeConflict(
   return a._startMin < b._endMin && b._startMin < a._endMin;
 }
 
-function hasBreakViolation(
+export function hasBreakViolation(
   a: EnrichedSection,
   b: EnrichedSection,
   minBreakMinutes: number
