@@ -1,9 +1,5 @@
 import type { StateConfig } from "../registry";
 
-// manual-only: NH scrapers exist (scrape-banner8 / scrape-catalog-prereqs / scrape-transfer)
-// but none are yet wired to a scheduled workflow. Intentional — state landed recently and
-// we want a few manual-run cycles before cron'ing it. See issue #33 for USNH transfer gap.
-
 const nhConfig: StateConfig = {
   slug: "nh",
   name: "New Hampshire",
@@ -55,6 +51,19 @@ const nhConfig: StateConfig = {
       "Community College System of New Hampshire",
       "New Hampshire community college schedule",
     ],
+  },
+  scrapers: {
+    courses: [{ scripts: ["scripts/nh/scrape-banner8.ts"], runner: "http" }],
+    transfers: [
+      {
+        scripts: [
+          "scripts/nh/scrape-transfer.ts",
+          "scripts/nh/scrape-transfer-keene.ts",
+        ],
+        runner: "http",
+      },
+    ],
+    prereqs: [{ scripts: ["scripts/nh/scrape-catalog-prereqs.ts"], runner: "http" }],
   },
 };
 
