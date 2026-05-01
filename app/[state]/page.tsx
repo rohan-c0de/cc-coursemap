@@ -6,6 +6,7 @@ import StartingSoonCallout from "@/components/StartingSoonCallout";
 import NotifyBanner from "@/components/NotifyBanner";
 import { getNextTerm } from "@/lib/terms";
 import { getStateConfig, getAllStates, isValidState } from "@/lib/states/registry";
+import { getArticlesByState, categoryLabel } from "@/lib/blog";
 
 type Props = {
   params: Promise<{ state: string }>;
@@ -32,6 +33,7 @@ export default async function HomePage({ params }: Props) {
   if (!isValidState(state)) notFound();
   const config = getStateConfig(state);
   const nextTerm = await getNextTerm(state);
+  const stateArticles = getArticlesByState(state).slice(0, 4);
 
   return (
     <div>
@@ -199,6 +201,47 @@ export default async function HomePage({ params }: Props) {
           </p>
         </div>
       </section>
+
+      {/* Related guides — blog posts tagged for this state */}
+      {stateArticles.length > 0 && (
+        <section className="py-12 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-slate-100 mb-2 text-center">
+              {config.name} Guides
+            </h2>
+            <p className="text-center text-sm text-gray-600 dark:text-slate-400 mb-8">
+              Plain-English explainers for {config.name} students.
+            </p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {stateArticles.map((article) => (
+                <Link
+                  key={article.slug}
+                  href={`/blog/${article.slug}`}
+                  className="group rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-5 transition hover:border-teal-300 dark:hover:border-teal-700 hover:shadow-sm"
+                >
+                  <span className="inline-block rounded-full bg-gray-100 dark:bg-slate-700 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:text-slate-400">
+                    {categoryLabel(article.category)}
+                  </span>
+                  <h3 className="mt-2 font-semibold text-gray-900 dark:text-slate-100 group-hover:text-teal-600 transition-colors">
+                    {article.title}
+                  </h3>
+                  <p className="mt-1 text-sm text-gray-600 dark:text-slate-400 line-clamp-2">
+                    {article.description}
+                  </p>
+                </Link>
+              ))}
+            </div>
+            <p className="text-center text-sm text-gray-500 dark:text-slate-400 mt-6">
+              <Link
+                href="/blog"
+                className="text-teal-600 hover:text-teal-700 transition-colors"
+              >
+                Browse all guides &rarr;
+              </Link>
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* Explore other states */}
       <section className="py-12 px-4 sm:px-6 lg:px-8">
