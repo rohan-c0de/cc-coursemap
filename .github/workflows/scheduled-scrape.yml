@@ -140,6 +140,11 @@ jobs:
           done
 
       - name: Upload scraped data
+        # Run even when the scrape step failed so any diagnostic dumps the
+        # script wrote (e.g. data/va/ps-discovery/drift-*.html for issue #98)
+        # reach the workflow run page. By default GitHub skips remaining
+        # steps after a failure unless `if: always()` is set.
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: scrape-${{ matrix.id }}
