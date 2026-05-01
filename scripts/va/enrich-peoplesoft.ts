@@ -63,6 +63,11 @@ const INTER_SEARCH_DELAY = 2000; // ms between subject searches
 const MAX_RETRIES = 2;
 
 const DATA_DIR = path.join(process.cwd(), "data", "va", "courses");
+const PS_DISCOVERY_DIR = path.join(process.cwd(), "data", "va", "ps-discovery");
+
+// Cap drift dumps per run so a multi-college mismatch doesn't fill the
+// artifact with hundreds of near-identical HTML pages. See issue #98.
+let driftDumpsRemaining = 5;
 
 // Load institution codes
 const PS_CODES: Record<string, string> = JSON.parse(
@@ -160,6 +165,47 @@ function parseArgs(): {
 
 function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
+}
+
+/**
+ * Save the current PeopleSoft page HTML + a screenshot to data/va/ps-discovery/
+ * so a human can inspect the new DOM scheme after the workflow uploads
+ * `data/va/` as an artifact. Capped per run via `driftDumpsRemaining`.
+ *
+ * Used when extractPageSections() returns sections whose CRNs were caught by
+ * the body-text regex but whose instructor DOM lookups all returned null —
+ * that combination means PeopleSoft renamed the result-card element IDs and
+ * the position-indexed `HTMLAREA5$N` selectors no longer match. See issue #98.
+ */
+async function dumpDriftEvidence(
+  page: Page,
+  context: { college: string; subject: string; matchCount: number }
+): Promise<void> {
+  if (driftDumpsRemaining <= 0) return;
+  driftDumpsRemaining--;
+
+  if (!fs.existsSync(PS_DISCOVERY_DIR)) {
+    fs.mkdirSync(PS_DISCOVERY_DIR, { recursive: true });
+  }
+
+  const stem = `enrich-drift-${context.college}-${context.subject}-${Date.now()}`;
+  try {
+    fs.writeFileSync(
+      path.join(PS_DISCOVERY_DIR, `${stem}.html`),
+      await page.content()
+    );
+    await page.screenshot({
+      path: path.join(PS_DISCOVERY_DIR, `${stem}.png`),
+      fullPage: true,
+    });
+    console.error(
+      `   🚨 SELECTOR DRIFT: ${context.college}/${context.subject} — ` +
+        `extracted ${context.matchCount} CRN(s) but 0 had instructor info. ` +
+        `Saved evidence to data/va/ps-discovery/${stem}.{html,png}`
+    );
+  } catch (e) {
+    console.error(`   ⚠ Failed to save drift evidence: ${(e as Error).message}`);
+  }
 }
 
 function readCourseJson(slug: string): CourseSection[] {
@@ -535,12 +581,15 @@ async function enrichCollege(
       // Extract from all pages
       let pageNum = 0;
       let totalExtracted = 0;
+      let pageInstructorsFound = 0;
 
       do {
         pageNum++;
         const psSections = await extractPageSections(page);
 
         for (const ps of psSections) {
+          if (ps.instructor) pageInstructorsFound++;
+
           const idx = crnToIndex.get(ps.classNbr);
           if (idx === undefined) continue;
 
@@ -556,6 +605,23 @@ async function enrichCollege(
             sections[idx].seats_open = ps.isOpen ? 1 : 0;
             stats.enrichedStatus++;
           }
+        }
+
+        // Drift guard: psSections came from regex on body text, so a non-zero
+        // length means PS rendered real results. If NONE of those rows pulled
+        // an instructor name from the HTMLAREA5 lookup, the position-indexed
+        // selectors are broken (issue #98). Dump evidence and warn — we don't
+        // throw here because enrich is secondary; let the run complete so the
+        // summary JSON captures the warning across all colleges.
+        if (psSections.length > 0 && pageInstructorsFound === 0) {
+          await dumpDriftEvidence(page, {
+            college: slug,
+            subject,
+            matchCount: psSections.length,
+          });
+          stats.errors.push(
+            `Selector drift on ${subject} page ${pageNum}: ${psSections.length} CRNs extracted, 0 instructors`
+          );
         }
 
         totalExtracted += psSections.length;

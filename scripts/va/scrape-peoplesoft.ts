@@ -26,6 +26,12 @@ const SEARCH_WAIT = 20_000;
 const INTER_SEARCH_DELAY = 2000;
 const MAX_RETRIES = 2;
 const DATA_DIR = path.join(process.cwd(), "data", "va", "courses");
+const PS_DISCOVERY_DIR = path.join(process.cwd(), "data", "va", "ps-discovery");
+
+// Cap drift dumps per run so a multi-college mismatch doesn't fill the
+// artifact with hundreds of near-identical HTML pages. The first 5
+// captures are more than enough evidence to identify the new DOM scheme.
+let driftDumpsRemaining = 5;
 
 // Term name → PS term code mapping
 const TERM_CODES: Record<string, string> = {
@@ -293,6 +299,47 @@ async function extractPageCards(page: Page): Promise<RawCard[]> {
   });
 }
 
+/**
+ * Save the current PeopleSoft page HTML + a screenshot to data/va/ps-discovery/
+ * so a human can inspect the new DOM scheme after the workflow uploads
+ * `data/va/` as an artifact. Capped per run via `driftDumpsRemaining`.
+ *
+ * Used when the page contains "Class Nbr" matches (= PS returned real
+ * results) but extractPageCards() found 0 cards. That combination means
+ * PeopleSoft renamed the result-card element IDs and our position-
+ * indexed selectors no longer match — see issue #98.
+ */
+async function dumpDriftEvidence(
+  page: Page,
+  context: { college: string; subject: string; matchCount: number; cardCount: number }
+): Promise<void> {
+  if (driftDumpsRemaining <= 0) return;
+  driftDumpsRemaining--;
+
+  if (!fs.existsSync(PS_DISCOVERY_DIR)) {
+    fs.mkdirSync(PS_DISCOVERY_DIR, { recursive: true });
+  }
+
+  const stem = `drift-${context.college}-${context.subject}-${Date.now()}`;
+  try {
+    fs.writeFileSync(
+      path.join(PS_DISCOVERY_DIR, `${stem}.html`),
+      await page.content()
+    );
+    await page.screenshot({
+      path: path.join(PS_DISCOVERY_DIR, `${stem}.png`),
+      fullPage: true,
+    });
+    console.error(
+      `    🚨 SELECTOR DRIFT: ${context.college}/${context.subject} — ` +
+        `page text contains ${context.matchCount} CRN(s) but extractPageCards found ${context.cardCount}. ` +
+        `Saved evidence to data/va/ps-discovery/${stem}.{html,png}`
+    );
+  } catch (e) {
+    console.error(`    ⚠ Failed to save drift evidence: ${(e as Error).message}`);
+  }
+}
+
 async function goToNextPage(page: Page): Promise<boolean> {
   try {
     const nextLink = page.locator("#VX_RSLT_NAV_WK_SEARCH_CONDITION2");
@@ -549,6 +596,33 @@ async function scrapeCollege(
 
       while (true) {
         const cards = await extractPageCards(page);
+
+        // Drift guard: searchSubject() above already confirmed the page text
+        // contains "Class Nbr" before we got here, so an empty cards array
+        // means the result-card DOM IDs no longer match our selectors. Dump
+        // evidence and fail fast — see issue #98.
+        if (cards.length === 0) {
+          const matchCount = await page.evaluate(() => {
+            const text = document.body?.innerText || "";
+            return (text.match(/Class Nbr (\d+)/g) || []).length;
+          });
+          if (matchCount > 0) {
+            await dumpDriftEvidence(page, {
+              college: slug,
+              subject: prefix,
+              matchCount,
+              cardCount: 0,
+            });
+            throw new Error(
+              `Selector drift: ${slug}/${prefix} page contains ${matchCount} "Class Nbr" matches ` +
+                `but extractPageCards returned 0. Likely PeopleSoft DOM-id rename. ` +
+                `Evidence saved to data/va/ps-discovery/. See issue #98.`
+            );
+          }
+          // No CRNs in body text either — PS legitimately returned no results
+          // for this subject. Fall through to next-page check (will exit loop).
+        }
+
         for (const card of cards) {
           const section = rawCardToSection(card, slug, fileTermCode);
           if (section) {
