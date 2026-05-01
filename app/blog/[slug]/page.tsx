@@ -8,6 +8,8 @@ import {
   stateLabel,
 } from "@/lib/blog";
 import RelatedArticles from "@/components/blog/RelatedArticles";
+import StateToolsCTA from "@/components/blog/StateToolsCTA";
+import { isValidState } from "@/lib/states/registry";
 import AdUnit from "@/components/AdUnit";
 import Link from "next/link";
 
@@ -103,6 +105,8 @@ export default async function BlogPostPage({ params }: Props) {
   };
 
   const related = meta.cluster ? getClusterArticles(meta.cluster) : [];
+  const stateForCta =
+    meta.state && isValidState(meta.state) ? meta.state : null;
 
   return (
     <article className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
@@ -152,10 +156,16 @@ export default async function BlogPostPage({ params }: Props) {
         </p>
       </header>
 
+      {/* State tools CTA — shown only on state-tagged posts */}
+      {stateForCta && <StateToolsCTA state={stateForCta} variant="top" />}
+
       {/* MDX content */}
       <div className="prose prose-gray prose-lg max-w-none prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-teal-600 dark:prose-a:text-teal-400 prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900 dark:prose-strong:text-slate-100">
         <Post />
       </div>
+
+      {/* State tools CTA at the foot — also state-only */}
+      {stateForCta && <StateToolsCTA state={stateForCta} variant="bottom" />}
 
       {/* End-of-article ad */}
       <div className="my-10">
