@@ -63,8 +63,42 @@ export default async function LandingPage() {
       ? region
       : null;
 
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
+  const searchState = geoState ?? "va";
+  const orgLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Community College Path",
+    url: siteUrl,
+    logo: `${siteUrl}/icon`,
+    description: `A free national community college course finder, transfer guide, and schedule builder covering ${STATE_LIST_SENTENCE}.`,
+  };
+  const websiteLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Community College Path",
+    url: siteUrl,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${siteUrl}/${searchState}/courses?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-slate-900">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd) }}
+      />
       {/* Header */}
       <header className="border-b border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-900/80 backdrop-blur sticky top-0 z-30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">

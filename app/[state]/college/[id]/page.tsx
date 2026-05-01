@@ -130,9 +130,13 @@ export default async function CollegeDetailPage(props: PageProps) {
   const stateAbbr = state.toUpperCase();
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
+    "@type": "CollegeOrUniversity",
     name: institution.name,
     url: `${siteUrl}/${state}/college/${institution.id}`,
+    parentOrganization: {
+      "@type": "EducationalOrganization",
+      name: config.systemName,
+    },
     address: {
       "@type": "PostalAddress",
       addressRegion: stateAbbr,

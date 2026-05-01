@@ -1,3 +1,5 @@
+import { existsSync, readdirSync, statSync } from "node:fs";
+import { join } from "node:path";
 import type { MetadataRoute } from "next";
 import { getAllStates } from "@/lib/states/registry";
 import { loadInstitutions } from "@/lib/institutions";
@@ -14,6 +16,55 @@ import { getUniversitiesWithCounts } from "@/lib/transfer";
 // Thin-content guard: keep in sync with the /[state]/transfer/to/[slug] page.
 const MIN_TRANSFER_HUB_COUNT = 10;
 
+// Latest mtime across a state's per-college course files. Course JSON has no
+// per-record scraped_at, so the file mtime is the freshness proxy — it bumps
+// every time the scheduled scraper rewrites the file. Computed once per state.
+function lastModifiedForState(stateSlug: string): Date | undefined {
+  const root = join(process.cwd(), "data", stateSlug, "courses");
+  if (!existsSync(root)) return undefined;
+  let latest = 0;
+  for (const college of readdirSync(root)) {
+    const dir = join(root, college);
+    let stat;
+    try {
+      stat = statSync(dir);
+    } catch {
+      continue;
+    }
+    if (!stat.isDirectory()) continue;
+    for (const file of readdirSync(dir)) {
+      if (!file.endsWith(".json")) continue;
+      try {
+        const m = statSync(join(dir, file)).mtimeMs;
+        if (m > latest) latest = m;
+      } catch {
+        // skip unreadable file
+      }
+    }
+  }
+  return latest > 0 ? new Date(latest) : undefined;
+}
+
+// Latest mtime across one college's course files.
+function lastModifiedForCollege(
+  stateSlug: string,
+  collegeSlug: string
+): Date | undefined {
+  const dir = join(process.cwd(), "data", stateSlug, "courses", collegeSlug);
+  if (!existsSync(dir)) return undefined;
+  let latest = 0;
+  for (const file of readdirSync(dir)) {
+    if (!file.endsWith(".json")) continue;
+    try {
+      const m = statSync(join(dir, file)).mtimeMs;
+      if (m > latest) latest = m;
+    } catch {
+      // skip unreadable file
+    }
+  }
+  return latest > 0 ? new Date(latest) : undefined;
+}
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl =
     process.env.NEXT_PUBLIC_SITE_URL ||
@@ -26,16 +77,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   for (const state of getAllStates()) {
     const s = state.slug;
+    const stateLastMod = lastModifiedForState(s);
     entries.push(
-      { url: `${baseUrl}/${s}`, changeFrequency: "weekly", priority: 1 },
-      { url: `${baseUrl}/${s}/courses`, changeFrequency: "weekly", priority: 0.9 },
-      { url: `${baseUrl}/${s}/colleges`, changeFrequency: "weekly", priority: 0.9 },
-      { url: `${baseUrl}/${s}/starting-soon`, changeFrequency: "daily", priority: 0.85 },
+      { url: `${baseUrl}/${s}`, changeFrequency: "weekly", priority: 1, lastModified: stateLastMod },
+      { url: `${baseUrl}/${s}/courses`, changeFrequency: "weekly", priority: 0.9, lastModified: stateLastMod },
+      { url: `${baseUrl}/${s}/colleges`, changeFrequency: "weekly", priority: 0.9, lastModified: stateLastMod },
+      { url: `${baseUrl}/${s}/starting-soon`, changeFrequency: "daily", priority: 0.85, lastModified: stateLastMod },
       { url: `${baseUrl}/${s}/about`, changeFrequency: "monthly", priority: 0.6 },
       // /results and /schedule are noindexed (client-side interactive tools)
     );
     if (state.transferSupported) {
-      entries.push({ url: `${baseUrl}/${s}/transfer`, changeFrequency: "weekly" as const, priority: 0.85 });
+      entries.push({ url: `${baseUrl}/${s}/transfer`, changeFrequency: "weekly" as const, priority: 0.85, lastModified: stateLastMod });
     }
   }
 
@@ -48,10 +100,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const currentTerm = await getCurrentTerm(state.slug);
 
     for (const inst of institutions) {
+      const collegeLastMod = lastModifiedForCollege(state.slug, inst.college_slug);
       collegePages.push({
         url: `${baseUrl}/${state.slug}/college/${inst.id}`,
         changeFrequency: "weekly" as const,
         priority: 0.7,
+        lastModified: collegeLastMod,
       });
 
       // Subject pages (pSEO) — only include if ≥3 sections to avoid thin content
@@ -71,6 +125,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
               url: `${baseUrl}/${state.slug}/college/${inst.id}/courses/${prefix.toLowerCase()}`,
               changeFrequency: "weekly" as const,
               priority: 0.6,
+              lastModified: collegeLastMod,
             });
           }
         }
@@ -88,6 +143,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const state of getAllStates()) {
     try {
       const currentTerm = await getCurrentTerm(state.slug);
+      const stateLastMod = lastModifiedForState(state.slug);
       // Single 2-column scan instead of full row catalog (~9 MB → ~50 KB).
       const { codes, subjectSectionCounts } = await getSitemapCourseIndex(
         currentTerm,
@@ -100,6 +156,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           url: `${baseUrl}/${state.slug}/course/${key}`,
           changeFrequency: "weekly" as const,
           priority: 0.7,
+          lastModified: stateLastMod,
         });
       }
 
@@ -110,6 +167,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             url: `${baseUrl}/${state.slug}/subject/${prefix.toLowerCase()}`,
             changeFrequency: "weekly" as const,
             priority: 0.65,
+            lastModified: stateLastMod,
           });
         }
       }
@@ -124,6 +182,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const state of getAllStates()) {
     if (!state.transferSupported) continue;
     try {
+      const stateLastMod = lastModifiedForState(state.slug);
       const universities = await getUniversitiesWithCounts(state.slug);
       for (const u of universities) {
         if (u.totalCount < MIN_TRANSFER_HUB_COUNT) continue;
@@ -131,6 +190,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           url: `${baseUrl}/${state.slug}/transfer/to/${u.slug}`,
           changeFrequency: "weekly" as const,
           priority: 0.8,
+          lastModified: stateLastMod,
         });
       }
     } catch {
@@ -144,6 +204,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const state of getAllStates()) {
     try {
       const currentTerm = await getCurrentTerm(state.slug);
+      const stateLastMod = lastModifiedForState(state.slug);
       const instructorEntries = await getInstructorSitemapEntries(
         currentTerm,
         state.slug
@@ -153,6 +214,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           url: `${baseUrl}/${state.slug}/college/${entry.collegeId}/instructor/${entry.slug}`,
           changeFrequency: "weekly" as const,
           priority: 0.6,
+          lastModified: stateLastMod,
         });
       }
     } catch {
