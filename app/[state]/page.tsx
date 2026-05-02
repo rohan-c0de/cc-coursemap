@@ -25,6 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${config.name} Community College Course Finder`,
     description: b.tagline,
     keywords: b.metaKeywords,
+    alternates: { canonical: `/${state}` },
   };
 }
 
