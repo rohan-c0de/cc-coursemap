@@ -1,6 +1,16 @@
 /**
  * scrape-transfer.ts
  *
+ * **Status: manual-only — removed from the scheduled-scrape cron matrix
+ * in 2026-05.** Across the 4 MCCS colleges that fit under the
+ * CollegeTransfer.Net free-tier quota in a single run, 1,649 raw
+ * equivalencies target zero in-state institutions, so the in-state
+ * rule strips everything to an empty array. The authoritative in-state
+ * source is UMaine's MaineStreet Transfer Equivalency Guest portal
+ * (`https://mainestreetcs.maine.edu/psp/CSPRDG/EMPLOYEE/SA/c/UM_SA.UM_TRNSFER_GUEST.GBL`)
+ * — a PeopleSoft scraper for that is tracked separately. This script is
+ * retained for manual use if the in-state rule is ever relaxed.
+ *
  * Scrapes transfer equivalency data for Maine's 7 MCCS (Maine Community
  * College System) schools from CollegeTransfer.Net's public OData v2 API.
  *
