@@ -104,6 +104,29 @@ export default async function BlogPostPage({ params }: Props) {
     ],
   };
 
+  const faqLd = meta.faqs && meta.faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: meta.faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  } : null;
+
+  const howToLd = meta.howTo ? {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: meta.howTo.name,
+    description: meta.howTo.description ?? meta.description,
+    step: meta.howTo.steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
+  } : null;
+
   const related = meta.cluster ? getClusterArticles(meta.cluster) : [];
   const stateForCta =
     meta.state && isValidState(meta.state) ? meta.state : null;
@@ -118,6 +141,18 @@ export default async function BlogPostPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
+      {howToLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToLd) }}
+        />
+      )}
 
       {/* Back link */}
       <Link

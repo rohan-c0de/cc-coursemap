@@ -35,9 +35,29 @@ export default async function HomePage({ params }: Props) {
   const config = getStateConfig(state);
   const nextTerm = await getNextTerm(state);
   const stateArticles = getArticlesByState(state).slice(0, 4);
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: config.name,
+        item: `${siteUrl}/${state}`,
+      },
+    ],
+  };
 
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       {/* Search section */}
       <section id="search" className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">

@@ -1,7 +1,7 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 import StartingSoonClient from "./StartingSoonClient";
 import { getStateConfig, getAllStates } from "@/lib/states/registry";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 type Props = {
   params: Promise<{ state: string }>;
@@ -24,15 +24,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function StartingSoonPage({ params }: Props) {
   const { state } = await params;
   const config = getStateConfig(state);
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <Link
-        href={`/${state}`}
-        className="text-sm text-teal-600 hover:text-teal-700 mb-6 inline-block"
-      >
-        &larr; Back to search
-      </Link>
+      <Breadcrumbs
+        siteUrl={siteUrl}
+        items={[
+          { name: "Home", href: "/" },
+          { name: config.name, href: `/${state}` },
+          { name: "Starting Soon", href: `/${state}/starting-soon` },
+        ]}
+      />
 
       <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100 mb-2">
         Courses Starting Soon
