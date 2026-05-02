@@ -8,6 +8,7 @@ import {
   stateLabel,
 } from "@/lib/blog";
 import RelatedArticles from "@/components/blog/RelatedArticles";
+import MoreStateGuides from "@/components/blog/MoreStateGuides";
 import StateToolsCTA from "@/components/blog/StateToolsCTA";
 import { isValidState } from "@/lib/states/registry";
 import AdUnit from "@/components/AdUnit";
@@ -209,6 +210,16 @@ export default async function BlogPostPage({ params }: Props) {
 
       {/* Related articles */}
       <RelatedArticles articles={related} currentSlug={slug} />
+
+      {/* More guides for this state — only on state-tagged posts.
+          Excludes cluster siblings already shown above. */}
+      {stateForCta && (
+        <MoreStateGuides
+          state={stateForCta}
+          currentSlug={slug}
+          excludeSlugs={related.map((a) => a.slug)}
+        />
+      )}
     </article>
   );
 }
