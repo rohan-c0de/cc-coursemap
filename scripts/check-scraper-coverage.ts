@@ -1,30 +1,52 @@
 /**
- * Scraper-coverage integrity check (issue #59).
+ * Scraper-coverage integrity check (issues #59, #111).
  *
- * For every state in `getAllStates()`:
- *   - If `scrapers` is populated, verify every declared script path exists.
- *   - If `scrapers` is omitted entirely, require a `manual-only:` marker
- *     in the config file explaining why (so the gap is intentional, not
- *     accidental drift).
+ * For every state in `getAllStates()`, every data type in
+ * {courses, transfers, prereqs} must be either:
+ *   - declared in `scrapers.<datatype>` (a non-empty job array, or
+ *     `{ source: "aggregate-from-courses" }` for prereqs), OR
+ *   - explicitly opted out via a marker comment in the config file:
+ *       `// manual-only: <datatype> — <reason>`           (per-datatype)
+ *     or, when `scrapers` is omitted entirely:
+ *       `// manual-only: <reason>`                         (blanket)
  *
- * Fails the PR if any slug is silently missing coverage. Same shape as
- * scripts/check-registry-integrity.ts.
+ * Also verifies every declared script path resolves on disk — a typo
+ * silently breaks the unified scheduled-scrape workflow at runtime.
  */
 
 import { readFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
-import { getAllStates, type StateConfig } from "../lib/states/registry";
+import { getAllStates, type ScraperCoverage } from "../lib/states/registry";
 
 const ROOT = resolve(__dirname, "..");
+const DATATYPES = ["courses", "transfers", "prereqs"] as const;
+type Datatype = (typeof DATATYPES)[number];
+
 const errors: string[] = [];
 
 function err(slug: string, msg: string) {
   errors.push(`[${slug}] ${msg}`);
 }
 
-function jobsFromCoverage(cfg: StateConfig): string[] {
-  const scrapers = cfg.scrapers;
-  if (!scrapers) return [];
+function isDeclared(scrapers: ScraperCoverage | undefined, dt: Datatype): boolean {
+  if (!scrapers) return false;
+  const entry = scrapers[dt];
+  if (!entry) return false;
+  if (Array.isArray(entry)) return entry.length > 0;
+  // prereqs can be `{ source: "aggregate-from-courses" }`
+  return entry.source === "aggregate-from-courses";
+}
+
+function hasDatatypeMarker(source: string, dt: Datatype): boolean {
+  return new RegExp(`manual-only:\\s*${dt}\\b`, "i").test(source);
+}
+
+function hasBlanketMarker(source: string): boolean {
+  // A `manual-only:` whose next non-whitespace token is NOT a datatype keyword.
+  return /manual-only:(?!\s*(?:courses|transfers|prereqs)\b)/i.test(source);
+}
+
+function declaredScriptPaths(scrapers: ScraperCoverage): string[] {
   const paths: string[] = [];
   for (const job of scrapers.courses ?? []) paths.push(...job.scripts);
   for (const job of scrapers.transfers ?? []) paths.push(...job.scripts);
@@ -42,25 +64,24 @@ for (const cfg of getAllStates()) {
     continue;
   }
 
-  const hasScrapers = !!cfg.scrapers;
-  if (!hasScrapers) {
-    // Omitting `scrapers` is fine if the config is explicit about why.
-    const source = readFileSync(configPath, "utf8");
-    if (!/manual-only:/i.test(source)) {
-      err(
-        slug,
-        `config has no \`scrapers\` field and no \`manual-only: <reason>\` marker. Either declare scrapers or explain the gap — see issue #59.`
-      );
-    }
-    continue;
+  const source = readFileSync(configPath, "utf8");
+  const blanket = !cfg.scrapers && hasBlanketMarker(source);
+
+  for (const dt of DATATYPES) {
+    if (isDeclared(cfg.scrapers, dt)) continue;
+    if (blanket) continue;
+    if (hasDatatypeMarker(source, dt)) continue;
+    err(
+      slug,
+      `${dt} is neither declared in \`scrapers.${dt}\` nor marked \`// manual-only: ${dt} — <reason>\` in config. See issue #111.`
+    );
   }
 
-  // Script paths must resolve. A typo here silently breaks the unified
-  // scheduled-scrape workflow (PR 2) at runtime, so catch it now.
-  for (const script of jobsFromCoverage(cfg)) {
-    const abs = resolve(ROOT, script);
-    if (!existsSync(abs)) {
-      err(slug, `declared scraper script "${script}" does not exist`);
+  if (cfg.scrapers) {
+    for (const script of declaredScriptPaths(cfg.scrapers)) {
+      if (!existsSync(resolve(ROOT, script))) {
+        err(slug, `declared scraper script "${script}" does not exist`);
+      }
     }
   }
 }
@@ -72,11 +93,11 @@ if (errors.length > 0) {
     `\n${errors.length} issue(s) across ${getAllStates().length} registered state(s).`
   );
   console.error(
-    "\nEvery state must either declare `scrapers` in its StateConfig or include a `manual-only:` comment explaining the gap. See issue #59."
+    "\nEvery state × {courses, transfers, prereqs} must either be declared in `scrapers` or carry a `manual-only:` marker. See issues #59 and #111."
   );
   process.exit(1);
 }
 
 console.log(
-  `Scraper-coverage OK — ${getAllStates().length} states accounted for.`
+  `Scraper-coverage OK — ${getAllStates().length} states × ${DATATYPES.length} datatypes accounted for.`
 );

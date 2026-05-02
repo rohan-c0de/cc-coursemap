@@ -52,8 +52,8 @@ const paConfig: StateConfig = {
     ],
   },
   scrapers: {
-    // PA has no scheduled course scraper today — PASSHE / state-system
-    // public course search is inconsistent across 14 colleges.
+    // manual-only: courses — PASSHE / state-system public course search
+    // is inconsistent across 14 colleges; no unified scraper. Tracked in #100.
     transfers: [
       { scripts: ["scripts/pa/scrape-transfer.ts"], runner: "http" },
       { scripts: ["scripts/pa/scrape-pitt-tes.ts"], runner: "http" },
