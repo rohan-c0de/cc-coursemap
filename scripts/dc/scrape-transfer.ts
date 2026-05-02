@@ -1,6 +1,14 @@
 /**
  * scrape-transfer.ts
  *
+ * **Status: manual-only — removed from the scheduled-scrape cron matrix
+ * in 2026-05.** UDC's 1,453 CollegeTransfer.Net equivalencies target
+ * zero DC institutions, so the in-state-only rule strips everything to
+ * an empty array on every run. Kept in the repo as documentation of
+ * how to query CT.Net's UDC dataset, and in case the in-state rule is
+ * ever revisited for DC. See `lib/states/dc/config.ts` for the
+ * decision context.
+ *
  * Scrapes transfer equivalency data for UDC Community College (DC's only
  * community college program, part of the University of the District of
  * Columbia) from CollegeTransfer.Net's public OData v2 API.

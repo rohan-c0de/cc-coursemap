@@ -20,13 +20,15 @@ const dcConfig: StateConfig = {
       "DC residents aged 65+ may attend UDC Community College with tuition and fees waived, space permitting. Degree-seeking seniors pay half tuition.",
   },
 
-  // No in-state transfer data yet. CollegeTransfer.Net's DC dataset for
-  // UDC contains only out-of-state long-tail entries (Midlands Tech,
-  // Wilmington University, Weber State, etc.) which are not real
-  // articulation pathways and have been dropped per the in-state-only
-  // rule. UDC's own catalog publishes its 4-year articulations through
-  // a different channel; flip back to true once an in-state DC scraper
-  // lands.
+  // DC has no in-state CC→4yr articulation pipeline at all. UDC publishes
+  // four articulation PDFs (all to MD/VA schools, dropped by the in-state
+  // rule), and the Consortium of Universities arrangement is cross-
+  // registration, not course-equivalency. UDC's 1,453 CollegeTransfer.Net
+  // entries target zero DC institutions. The dc-transfers cron job was
+  // therefore removed from `scrapers` below in 2026-05; if a structured
+  // in-state source ever appears, re-add the cron entry and flip this
+  // back to true. The scraper script `scripts/dc/scrape-transfer.ts` is
+  // retained for manual use.
   transferSupported: false,
   popularCourses: [],
   defaultZip: "20001",
@@ -62,7 +64,7 @@ const dcConfig: StateConfig = {
   },
   scrapers: {
     courses: [{ scripts: ["scripts/dc/scrape-banner.ts"], runner: "http" }],
-    transfers: [{ scripts: ["scripts/dc/scrape-transfer.ts"], runner: "http" }],
+    // transfers intentionally omitted — see `transferSupported` comment above.
     prereqs: { source: "aggregate-from-courses" },
   },
 };

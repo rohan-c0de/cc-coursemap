@@ -20,15 +20,19 @@ const meConfig: StateConfig = {
       "Maine law allows residents aged 65+ to audit credit courses at Maine Community College System institutions tuition-free on a space-available basis.",
   },
 
-  // 2026-04: enabled after `scripts/me/scrape-transfer.ts` populated
-  // `data/me/transfer-equiv.json` with mappings from CollegeTransfer.Net
-  // (MCCS institution ids 1079/1331/1602/1603/1605/1829/3657). Initial
-  // No in-state transfer data yet. CollegeTransfer.Net's ME dataset
-  // contains only out-of-state long-tail entries (Weber State, Univ of
-  // Alaska, Utah Valley, etc.) which are not real articulation pathways
-  // and have been dropped per the in-state-only rule. UMaine / USM
-  // receiving institutions publish via their own portals; flip back to
-  // true once an in-state ME scraper lands.
+  // CollegeTransfer.Net is the wrong source for ME: across the 4 MCCS
+  // colleges that fit under the free-tier API quota (CMCC/EMCC/KVCC/NMCC),
+  // 1,649 raw equivalencies target zero in-state institutions. The
+  // authoritative in-state source is UMaine's MaineStreet Transfer
+  // Equivalency Guest portal at
+  // https://mainestreetcs.maine.edu/psp/CSPRDG/EMPLOYEE/SA/c/UM_SA.UM_TRNSFER_GUEST.GBL
+  // — PeopleSoft, no login required, ~49 (MCCS-sender × UMS-receiver)
+  // pairs. Building that scraper is tracked separately. Until then, the
+  // me-transfers cron job is removed from `scrapers` below (2026-05) so
+  // empty output stops being flagged as a regression. Flip
+  // `transferSupported` back to true once a MaineStreet scraper lands.
+  // The CT.Net script `scripts/me/scrape-transfer.ts` is retained for
+  // manual use if the in-state rule is ever relaxed.
   transferSupported: false,
   popularCourses: ["ENG 101", "MAT 101", "BIO 101", "PSY 101", "HIS 101", "SOC 101"],
   defaultZip: "04101",
@@ -57,7 +61,7 @@ const meConfig: StateConfig = {
   },
   scrapers: {
     courses: [{ scripts: ["scripts/me/scrape-mccs.ts"], runner: "playwright" }],
-    transfers: [{ scripts: ["scripts/me/scrape-transfer.ts"], runner: "http" }],
+    // transfers intentionally omitted — see `transferSupported` comment above.
   },
 };
 
