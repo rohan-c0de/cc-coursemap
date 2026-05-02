@@ -1,3 +1,11 @@
+export type FaqEntry = { q: string; a: string };
+export type HowToStep = { name: string; text: string };
+export type HowToSpec = {
+  name: string;
+  description?: string;
+  steps: HowToStep[];
+};
+
 export type ArticleMeta = {
   slug: string;
   title: string;
@@ -9,6 +17,10 @@ export type ArticleMeta = {
   tags: string[];
   cluster?: string; // optional cluster ID for hub/spoke linking
   clusterRole?: "hub" | "spoke";
+  // Optional rich-result inputs. Emitted as schema.org FAQPage / HowTo JSON-LD
+  // when present. Opt-in per article — keeps thin/inferred FAQs out of search.
+  faqs?: FaqEntry[];
+  howTo?: HowToSpec;
 };
 
 export const CATEGORIES: Record<string, string> = {
@@ -79,6 +91,24 @@ export const articles: ArticleMeta[] = [
     tags: ["seniors", "tuition-waiver", "auditing", "free-classes"],
     cluster: "senior-waivers-guide",
     clusterRole: "hub",
+    faqs: [
+      {
+        q: "Which states offer free community college classes for seniors?",
+        a: "Several states waive community college tuition for senior residents, including Virginia (60+), North Carolina (65+), South Carolina (60+), and the District of Columbia (65+). Age thresholds, residency rules, and what's actually covered (auditing vs credit) vary by state.",
+      },
+      {
+        q: "What does \"space permitting\" mean for senior tuition waivers?",
+        a: "It means seniors register after credit-seeking students. If a class is already full when senior registration opens, you cannot enroll. Popular gen-ed and online sections fill fastest; niche electives, morning sections, and late-start courses tend to have more availability.",
+      },
+      {
+        q: "Does a senior tuition waiver cover credits or just auditing?",
+        a: "It depends on the state. North Carolina's waiver covers auditing only — no grade, no credit. Virginia waives tuition for auditing but charges a reduced rate for credit enrollment. Always confirm with the college before you register.",
+      },
+      {
+        q: "Are there income limits for senior tuition waivers?",
+        a: "Some states impose income caps. Virginia, for example, requires taxable income below roughly $29,000 for the credit-bearing waiver — auditing is free regardless. Most other states do not have an income test, but residency is always required.",
+      },
+    ],
   },
   {
     slug: "virginia-senior-citizens-community-college-free-tuition",
@@ -393,6 +423,22 @@ export const articles: ArticleMeta[] = [
     state: "pa",
     author: "Community College Path",
     tags: ["transfer", "pennsylvania", "penn-state", "pitt", "temple", "pa-trac", "ccp"],
+    cluster: "transfer-credit-guide",
+    clusterRole: "spoke",
+  },
+
+  // --- Cluster A spoke: MA MassTransfer ---
+  {
+    slug: "massachusetts-community-college-transfer-credit-guide",
+    title:
+      "How Massachusetts Community College Transfer Credit Actually Works: A MassTransfer Student's Guide",
+    description:
+      "MA has 46k+ published transfer mappings via MassTransfer — but at UMass Amherst, more than half come back as elective credit. Here's how to read MassTransfer before you register.",
+    date: "2026-05-02",
+    category: "state-system-explainers",
+    state: "ma",
+    author: "Community College Path",
+    tags: ["transfer", "massachusetts", "masscc", "masstransfer", "umass"],
     cluster: "transfer-credit-guide",
     clusterRole: "spoke",
   },
