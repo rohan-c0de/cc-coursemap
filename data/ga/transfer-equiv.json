@@ -131281,6 +131281,22 @@
   },
   {
     "state": "ga",
+    "cc_prefix": "CIST",
+    "cc_number": "1135",
+    "cc_course": "CIST 1135",
+    "cc_title": "Opr Sys & Virt/Cloud Computing",
+    "cc_credits": "",
+    "university": "uwg",
+    "university_name": "University of West Georgia",
+    "univ_course": "CS 0XXX",
+    "univ_title": "Opr Sys & Virt/Cld Cmptng-NC",
+    "univ_credits": "",
+    "notes": "Min grade: D",
+    "no_credit": false,
+    "is_elective": true
+  },
+  {
+    "state": "ga",
     "cc_prefix": "CNA",
     "cc_number": "100A",
     "cc_course": "CNA 100A",
