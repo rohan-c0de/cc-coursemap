@@ -85,7 +85,10 @@ jobs:
     needs: plan
     if: needs.plan.outputs.empty == 'false'
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    # 120 (not 60) so VA's vccs + peoplesoft jobs have headroom while #98
+    # selector-drift instrumentation captures evidence. Other states finish
+    # well under 60 — this is the worst-case ceiling, not the budget.
+    timeout-minutes: 120
     strategy:
       fail-fast: false
       matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
