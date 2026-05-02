@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Semester Planner — ${config.branding.siteName}`,
     description: `Plan your course sequence at ${config.name} community colleges. Automatically maps prerequisites into a semester-by-semester plan so you know exactly what to take and when.`,
+    robots: { index: false, follow: true },
   };
 }
 
