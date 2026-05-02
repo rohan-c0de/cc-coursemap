@@ -9,6 +9,7 @@ const SITEMAP_IDS = [
   "state-subjects",
   "transfer",
   "instructors",
+  "programs",
   "blog",
 ];
 

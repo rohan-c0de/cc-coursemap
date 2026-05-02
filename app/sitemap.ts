@@ -12,6 +12,7 @@ import {
 import { getInstructorSitemapEntries } from "@/lib/instructors";
 import { getCurrentTerm } from "@/lib/terms";
 import { getUniversitiesWithCounts } from "@/lib/transfer";
+import { getQualifyingProgramSlugs } from "@/lib/programs";
 
 // Thin-content guard: keep in sync with the /[state]/transfer/to/[slug] page.
 const MIN_TRANSFER_HUB_COUNT = 10;
@@ -24,6 +25,7 @@ const SITEMAP_IDS = [
   "state-subjects",
   "transfer",
   "instructors",
+  "programs",
   "blog",
 ] as const;
 type SitemapId = (typeof SITEMAP_IDS)[number];
@@ -272,6 +274,28 @@ async function buildInstructors(): Promise<MetadataRoute.Sitemap> {
   return out;
 }
 
+async function buildPrograms(): Promise<MetadataRoute.Sitemap> {
+  const url = baseUrl();
+  const out: MetadataRoute.Sitemap = [];
+  for (const state of getAllStates()) {
+    try {
+      const stateLastMod = lastModifiedForState(state.slug);
+      const slugs = await getQualifyingProgramSlugs(state.slug);
+      for (const slug of slugs) {
+        out.push({
+          url: `${url}/${state.slug}/program/${slug}`,
+          changeFrequency: "weekly",
+          priority: 0.75,
+          lastModified: stateLastMod,
+        });
+      }
+    } catch {
+      // skip state if program data loading fails
+    }
+  }
+  return out;
+}
+
 async function buildBlog(): Promise<MetadataRoute.Sitemap> {
   const url = baseUrl();
   return [
@@ -307,6 +331,8 @@ export default async function sitemap({
       return buildTransfer();
     case "instructors":
       return buildInstructors();
+    case "programs":
+      return buildPrograms();
     case "blog":
       return buildBlog();
     default:
