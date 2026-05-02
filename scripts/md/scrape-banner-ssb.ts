@@ -444,10 +444,10 @@ async function main() {
     }
     targets = [[slug, baseUrl]];
   } else {
-    console.log("Usage:");
-    console.log("  npx tsx scripts/md/scrape-banner-ssb.ts --college harford");
-    console.log("  npx tsx scripts/md/scrape-banner-ssb.ts --all");
-    process.exit(0);
+    // Default: scrape all Banner SSB colleges. Matches scrape-banner8.ts and
+    // scrape-custom.ts so the unified scheduled-scrape workflow can invoke
+    // this script with --no-import alone.
+    targets = Object.entries(BANNER_COLLEGES);
   }
 
   for (const [slug, baseUrl] of targets) {
