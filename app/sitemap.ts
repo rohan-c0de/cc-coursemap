@@ -13,6 +13,7 @@ import { getInstructorSitemapEntries } from "@/lib/instructors";
 import { getCurrentTerm } from "@/lib/terms";
 import { getUniversitiesWithCounts } from "@/lib/transfer";
 import { getQualifyingProgramSlugs } from "@/lib/programs";
+import { loadOnlineData, onlineQualifies } from "@/lib/online";
 
 // Thin-content guard: keep in sync with the /[state]/transfer/to/[slug] page.
 const MIN_TRANSFER_HUB_COUNT = 10;
@@ -113,6 +114,20 @@ async function buildCore(): Promise<MetadataRoute.Sitemap> {
         priority: 0.85,
         lastModified: stateLastMod,
       });
+    }
+    // Online courses landing — only when threshold met
+    try {
+      const od = await loadOnlineData(s);
+      if (onlineQualifies(od)) {
+        entries.push({
+          url: `${url}/${s}/online`,
+          changeFrequency: "weekly",
+          priority: 0.85,
+          lastModified: stateLastMod,
+        });
+      }
+    } catch {
+      // skip if online data load fails
     }
   }
   return entries;
