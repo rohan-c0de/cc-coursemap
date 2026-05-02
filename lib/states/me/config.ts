@@ -61,7 +61,8 @@ const meConfig: StateConfig = {
   },
   scrapers: {
     courses: [{ scripts: ["scripts/me/scrape-mccs.ts"], runner: "playwright" }],
-    // transfers intentionally omitted — see `transferSupported` comment above.
+    // manual-only: transfers — CT.Net has zero in-state targets for ME; MaineStreet PeopleSoft scraper is the real fix. See `transferSupported` comment above.
+    // manual-only: prereqs — ME prereq scraper not yet built. Tracked in #106.
   },
 };
 

@@ -150,6 +150,7 @@ const mdConfig: StateConfig = {
       },
     ],
     transfers: [{ scripts: ["scripts/md/scrape-transfer-artsys.ts"], runner: "http" }],
+    // manual-only: prereqs — MD prereq scraper not yet built. Tracked in #105.
   },
 };
 
