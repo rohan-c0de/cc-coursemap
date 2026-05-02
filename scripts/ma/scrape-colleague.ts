@@ -14,9 +14,9 @@
  *   stcc        studentwebsvr.stcc.edu:9016
  *
  * Usage:
- *   npx tsx scripts/ma/scrape-colleague.ts --college bhcc
+ *   npx tsx scripts/ma/scrape-colleague.ts                              # default: all 3 colleges
+ *   npx tsx scripts/ma/scrape-colleague.ts --college bhcc               # one college
  *   npx tsx scripts/ma/scrape-colleague.ts --college bhcc --term "Fall 2026"
- *   npx tsx scripts/ma/scrape-colleague.ts --all
  */
 
 import * as fs from "fs";
@@ -649,15 +649,12 @@ async function main() {
   const args = process.argv.slice(2);
   const collegeFlag = args.indexOf("--college");
   const termFlag = args.indexOf("--term");
-  const allFlag = args.includes("--all");
 
   const termName = termFlag >= 0 ? args[termFlag + 1] : "Fall 2026";
 
   let targets: [string, string][];
 
-  if (allFlag) {
-    targets = Object.entries(COLLEAGUE_COLLEGES);
-  } else if (collegeFlag >= 0) {
+  if (collegeFlag >= 0) {
     const slug = args[collegeFlag + 1];
     const baseUrl = COLLEAGUE_COLLEGES[slug];
     if (!baseUrl) {
@@ -669,13 +666,9 @@ async function main() {
     }
     targets = [[slug, baseUrl]];
   } else {
-    console.log("Usage:");
-    console.log("  npx tsx scripts/ma/scrape-colleague.ts --college bhcc");
-    console.log(
-      '  npx tsx scripts/ma/scrape-colleague.ts --college bhcc --term "Fall 2026"'
-    );
-    console.log("  npx tsx scripts/ma/scrape-colleague.ts --all");
-    process.exit(0);
+    // Default to all colleges (matches MD #132 pattern; required for cron).
+    // Pass --college <slug> for one-off local runs.
+    targets = Object.entries(COLLEAGUE_COLLEGES);
   }
 
   console.log(`Scraping ${targets.length} MA college(s) for ${termName}...\n`);
