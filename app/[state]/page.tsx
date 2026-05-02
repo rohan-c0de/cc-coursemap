@@ -7,6 +7,8 @@ import NotifyBanner from "@/components/NotifyBanner";
 import { getNextTerm } from "@/lib/terms";
 import { getStateConfig, getAllStates, isValidState } from "@/lib/states/registry";
 import { getArticlesByState, categoryLabel } from "@/lib/blog";
+import { getQualifyingProgramSlugs, getProgramBySlug } from "@/lib/programs";
+import { loadOnlineData, onlineQualifies } from "@/lib/online";
 
 type Props = {
   params: Promise<{ state: string }>;
@@ -37,6 +39,15 @@ export default async function HomePage({ params }: Props) {
   const stateArticles = getArticlesByState(state).slice(0, 4);
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
+
+  // Phase 4 hub links — only surfaced when underlying pages would render.
+  // Loading both in parallel; failures are non-fatal (page still renders
+  // without the section).
+  const [programSlugs, onlineData] = await Promise.all([
+    getQualifyingProgramSlugs(state).catch(() => [] as string[]),
+    loadOnlineData(state).catch(() => null),
+  ]);
+  const showOnline = onlineQualifies(onlineData);
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -210,6 +221,19 @@ export default async function HomePage({ params }: Props) {
                 View audit policies, senior waivers, course counts, and campus info for every {config.systemName} college.
               </p>
             </Link>
+            {showOnline && (
+              <Link
+                href={`/${state}/online`}
+                className="group rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-5 transition hover:border-teal-300 dark:hover:border-teal-700 hover:shadow-sm"
+              >
+                <h3 className="font-semibold text-gray-900 dark:text-slate-100 group-hover:text-teal-600 transition-colors mb-1">
+                  Online Courses
+                </h3>
+                <p className="text-sm text-gray-600 dark:text-slate-400">
+                  {onlineData!.totalSections} online sections across {onlineData!.totalColleges} {config.systemName} colleges this term.
+                </p>
+              </Link>
+            )}
           </div>
           <p className="text-center text-sm text-gray-500 dark:text-slate-400 mt-6">
             Or{" "}
@@ -222,6 +246,35 @@ export default async function HomePage({ params }: Props) {
           </p>
         </div>
       </section>
+
+      {/* Browse by program — only when at least one program qualifies */}
+      {programSlugs.length > 0 && (
+        <section className="py-12 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-slate-100 mb-2 text-center">
+              Browse by Program
+            </h2>
+            <p className="text-center text-sm text-gray-600 dark:text-slate-400 mb-8">
+              Compare {config.name} community colleges by major. Each page lists every college offering coursework in the program.
+            </p>
+            <div className="flex flex-wrap justify-center gap-2">
+              {programSlugs.map((slug) => {
+                const program = getProgramBySlug(slug);
+                if (!program) return null;
+                return (
+                  <Link
+                    key={slug}
+                    href={`/${state}/program/${slug}`}
+                    className="rounded-full border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 px-3.5 py-1.5 text-sm text-gray-700 dark:text-slate-300 hover:border-teal-300 dark:hover:border-teal-600 hover:text-teal-700 dark:hover:text-teal-400 transition-colors"
+                  >
+                    {program.name}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Related guides — blog posts tagged for this state */}
       {stateArticles.length > 0 && (
