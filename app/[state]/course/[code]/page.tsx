@@ -339,9 +339,12 @@ export default async function CoursePage(props: PageProps) {
 
         {/* Header */}
         <div className="mb-8">
-          <p className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-1">
+          <Link
+            href={`/${state}/subject/${prefix.toLowerCase()}`}
+            className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-1 inline-block hover:underline"
+          >
             {subjectName(prefix)}
-          </p>
+          </Link>
           <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100">
             {prefix} {number}
             <span className="font-normal text-gray-500 dark:text-slate-400 text-2xl ml-2">
