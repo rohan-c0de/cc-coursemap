@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { loadInstitutions } from "@/lib/institutions";
 import { getCourseCount } from "@/lib/courses";
 import { getCurrentTerm } from "@/lib/terms";
-import { getStateConfig, getAllStates } from "@/lib/states/registry";
-
+import { getAllStates } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 export const revalidate = 86400; // Revalidate daily so new course imports show up
 
 type Props = {
@@ -17,7 +17,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   return {
     title: `All ${config.collegeCount} ${config.systemName} Colleges — ${config.branding.siteName}`,
     description: `Browse all ${config.name} community colleges — see course counts, transfer data, and campus locations.`,
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CollegesPage({ params }: Props) {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const institutions = loadInstitutions(state);
 
   // Sort alphabetically

@@ -1,8 +1,8 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import ResultsContent from "./ResultsContent";
-import { getStateConfig, getAllStates } from "@/lib/states/registry";
-
+import { getAllStates } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 type Props = {
   params: Promise<{ state: string }>;
 };
@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   return {
     title: `Search Results — ${config.branding.siteName}`,
     description: `Community colleges near you in ${config.name} that offer course auditing.`,

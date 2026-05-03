@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import CourseSearchClient from "./CourseSearchClient";
-import { getStateConfig, getAllStates } from "@/lib/states/registry";
+import { getAllStates } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { loadInstitutions } from "@/lib/institutions";
 
 type Props = {
@@ -13,7 +14,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   return {
     title: `Find a Course — Search All ${config.collegeCount} ${config.systemName} Colleges | ${config.branding.siteName}`,
     description: `Search for courses across all ${config.collegeCount} ${config.name} community colleges at once. Find the best schedule, location, and format for auditing.`,
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CoursesPage({ params }: Props) {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
 
   const breadcrumbLd = {

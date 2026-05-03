@@ -9,7 +9,8 @@ import {
   TRANSFER_HUB_MAX_CLIENT_MAPPINGS,
 } from "@/lib/transfer";
 import { loadInstitutions } from "@/lib/institutions";
-import { getStateConfig, getAllStates, isValidState } from "@/lib/states/registry";
+import { getAllStates, isValidState } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { subjectName } from "@/lib/subjects";
 import type { TransferMapping } from "@/lib/types";
 import TransferHubClient from "./TransferHubClient";
@@ -65,7 +66,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const { state, universitySlug } = await props.params;
   if (!isValidState(state)) return { title: "Not Found" };
 
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   if (!config.transferSupported) return { title: "Not Found" };
 
   const universities = await getUniversitiesWithCounts(state);
@@ -112,7 +113,7 @@ export default async function TransferHubPage(props: PageProps) {
   const { state, universitySlug } = await props.params;
   if (!isValidState(state)) notFound();
 
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   if (!config.transferSupported) notFound();
 
   const universities = await getUniversitiesWithCounts(state);

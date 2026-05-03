@@ -12,7 +12,8 @@ import { getCurrentTerm } from "@/lib/terms";
 import CollegeMap from "./CollegeMap";
 import CollegeTermSection from "./CollegeTermSection";
 import { buildTransferLookupForCourses } from "@/lib/transfer-scoped";
-import { getStateConfig, getAllStates } from "@/lib/states/registry";
+import { getAllStates } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getTopInstructors } from "@/lib/instructors";
 import type { CourseSection } from "@/lib/types";
 import AdUnit from "@/components/AdUnit";
@@ -36,7 +37,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   if (!institution) return { title: "College Not Found" };
 
   return {
-    title: `${institution.name} — Courses & Transfer Info | Community College Path ${getStateConfig(state).name}`,
+    title: `${institution.name} — Courses & Transfer Info | Community College Path ${requireStateConfig(state).name}`,
     description: `Find out how to audit courses at ${institution.name}. ${
       institution.audit_policy.allowed
         ? "Auditing is available."
@@ -54,7 +55,7 @@ export function generateStaticParams() {
 
 export default async function CollegeDetailPage(props: PageProps) {
   const { state, id } = await props.params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const institutions = loadInstitutions(state);
   const institution = institutions.find((i) => i.id === id);
 

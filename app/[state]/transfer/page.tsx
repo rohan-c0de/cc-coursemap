@@ -8,7 +8,8 @@ import {
 } from "@/lib/transfer";
 import { loadAllCourses } from "@/lib/courses";
 import { getCurrentTerm } from "@/lib/terms";
-import { getStateConfig, getAllStates } from "@/lib/states/registry";
+import { getAllStates } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import TransferClient from "./TransferClient";
 
 // Render on demand — some states' transfer data exceeds Vercel's ISR size limit
@@ -26,7 +27,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   if (!config.transferSupported) return {};
   return {
     title: `Transfer Course Finder — Which ${config.systemName} Courses Transfer? | ${config.branding.siteName}`,
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function TransferPage({ params }: Props) {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   if (!config.transferSupported) notFound();
   const universities = await getUniversities(state);
   const defaultUni = universities[0]?.slug || "";

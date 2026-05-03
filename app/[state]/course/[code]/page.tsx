@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 import { loadInstitutions } from "@/lib/institutions";
 import { loadCourseByCode, loadCoursesBySubject } from "@/lib/courses";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
-import { getStateConfig, getAllStates, isValidState } from "@/lib/states/registry";
+import { getAllStates, isValidState, getStateConfig } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getTransferInfo, getUniversities } from "@/lib/transfer";
 import { subjectName } from "@/lib/subjects";
 import type { CourseSection } from "@/lib/types";
@@ -134,7 +135,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const parsed = parseCode(code);
   if (!parsed) return { title: "Not Found" };
 
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const currentTerm = await getCurrentTerm(state);
   const sections = await loadCourseByCode(parsed.prefix, parsed.number, currentTerm, state);
 
@@ -195,7 +196,7 @@ export default async function CoursePage(props: PageProps) {
   if (!parsed) notFound();
 
   const { prefix, number } = parsed;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const institutions = loadInstitutions(state);
   const currentTerm = await getCurrentTerm(state);
 

@@ -9,7 +9,8 @@ import {
   trimCoursesForClient,
 } from "@/lib/courses";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
-import { getStateConfig, getAllStates } from "@/lib/states/registry";
+import { getAllStates } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { buildTransferLookupForCourses } from "@/lib/transfer-scoped";
 import { subjectName } from "@/lib/subjects";
 import SubjectTermSection from "./SubjectTermSection";
@@ -65,7 +66,7 @@ export function generateStaticParams() {
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const { state, id, prefix: rawPrefix } = await props.params;
   const prefix = rawPrefix.toUpperCase();
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const institutions = loadInstitutions(state);
   const institution = institutions.find((i) => i.id === id);
 
@@ -126,7 +127,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 export default async function SubjectPage(props: PageProps) {
   const { state, id, prefix: rawPrefix } = await props.params;
   const prefix = rawPrefix.toUpperCase();
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const institutions = loadInstitutions(state);
   const institution = institutions.find((i) => i.id === id);
 

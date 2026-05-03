@@ -14,7 +14,8 @@ import type { Metadata } from "next";
 import { loadInstitutions } from "@/lib/institutions";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
 import { getAvailableTerms } from "@/lib/courses";
-import { getStateConfig, isValidState } from "@/lib/states/registry";
+import { isValidState } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getInstructorBySlug, getTopInstructors, type InstructorProfile } from "@/lib/instructors";
 import { subjectName } from "@/lib/subjects";
 import type { CourseSection } from "@/lib/types";
@@ -113,7 +114,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const institution = institutions.find((i) => i.id === id);
   if (!institution) return { title: "Not Found" };
 
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const result = await findInstructor(institution.college_slug, state, slug);
   if (!result) return { title: "Not Found" };
   const { profile, term: resolvedTerm } = result;
@@ -160,7 +161,7 @@ export default async function InstructorPage(props: PageProps) {
   const institution = institutions.find((i) => i.id === id);
   if (!institution) notFound();
 
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const result = await findInstructor(institution.college_slug, state, slug);
   if (!result) notFound();
   const { profile, term: resolvedTerm } = result;
