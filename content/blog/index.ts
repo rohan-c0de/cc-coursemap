@@ -138,6 +138,20 @@ export const articles: ArticleMeta[] = [
     cluster: "senior-waivers-guide",
     clusterRole: "spoke",
   },
+  {
+    slug: "maryland-senior-citizens-community-college-tuition-waiver",
+    title:
+      "Maryland Senior Citizens at Community Colleges: How the 60+ Tuition Waiver Actually Works",
+    description:
+      "Maryland law waives tuition for residents 60+ at all 16 community colleges — no income cap, no retirement requirement. Here's how to actually use it.",
+    date: "2026-05-02",
+    category: "senior-waivers",
+    state: "md",
+    author: "Community College Path",
+    tags: ["seniors", "maryland", "tuition-waiver", "auditing", "macc"],
+    cluster: "senior-waivers-guide",
+    clusterRole: "spoke",
+  },
 
   // --- Standalone: Auditing explainer ---
   {

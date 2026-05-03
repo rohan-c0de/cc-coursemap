@@ -21,6 +21,7 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { getAllStates } from "../../lib/states/registry";
 
 interface CourseSection {
   course_prefix: string;
@@ -127,8 +128,15 @@ function aggregateState(state: string): number {
 
 const args = process.argv.slice(2);
 
-// States that have prereq data in their section files
-const AGGREGATABLE_STATES = ["va", "nc", "sc", "ga", "dc", "md"];
+// Derived from the registry: any state whose StateConfig declares
+// `prereqs: { source: "aggregate-from-courses" }`. CLAUDE.md invariant #1
+// — no hardcoded state lists.
+const AGGREGATABLE_STATES = getAllStates()
+  .filter((c) => {
+    const p = c.scrapers?.prereqs;
+    return p && !Array.isArray(p) && p.source === "aggregate-from-courses";
+  })
+  .map((c) => c.slug);
 
 let states: string[];
 
@@ -140,6 +148,11 @@ if (args.includes("--all")) {
   console.log("Usage: npx tsx scripts/lib/aggregate-prereqs.ts <state...> | --all");
   console.log(`Available states: ${AGGREGATABLE_STATES.join(", ")}`);
   process.exit(1);
+}
+
+if (states.length === 0) {
+  console.log("No states declare `aggregate-from-courses` in their config — nothing to do.");
+  process.exit(0);
 }
 
 console.log(`Aggregating prereqs for: ${states.join(", ")}\n`);

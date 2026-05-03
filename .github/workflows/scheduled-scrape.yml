@@ -188,6 +188,17 @@ jobs:
           done
           git status --short | head -40
 
+      - name: Aggregate prereqs from course data
+        # Issue #144: aggregate-from-courses states (declared in their
+        # StateConfig) have no scrape job in the matrix, so without this
+        # step their prereqs.json never refreshes. The script reads
+        # data/{state}/courses/** (committed on main, plus any artifacts
+        # overlaid above) and rewrites data/{state}/prereqs.json. The
+        # subsequent diff step picks up changes and folds them into the
+        # auto-PR.
+        if: needs.plan.outputs.datatype == 'prereqs'
+        run: npx tsx scripts/lib/aggregate-prereqs.ts --all
+
       - name: Diff against main
         id: diff
         run: |
