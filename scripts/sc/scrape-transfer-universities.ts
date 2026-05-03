@@ -73,15 +73,33 @@ function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-async function fetchJSON<T = unknown>(url: string): Promise<T> {
-  const resp = await fetch(url, {
-    headers: {
-      Accept: "application/json",
-      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
-    },
-  });
-  if (!resp.ok) throw new Error(`HTTP ${resp.status} for ${url}`);
-  return resp.json() as Promise<T>;
+// Issue #99: USC's banner.onecarolina.sc.edu host occasionally drops a TCP
+// connect from the GH Actions runner. undici's default fetch has a 10s
+// connect timeout and no retry, so a single SYN drop killed the whole job
+// on 4/26 + 4/29. Retry with linear backoff and an explicit 30s signal.
+async function fetchJSON<T = unknown>(url: string, attempts = 4): Promise<T> {
+  let lastErr: unknown;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const resp = await fetch(url, {
+        headers: {
+          Accept: "application/json",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        },
+        signal: AbortSignal.timeout(30_000),
+      });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status} for ${url}`);
+      return (await resp.json()) as T;
+    } catch (e) {
+      lastErr = e;
+      if (i < attempts - 1) {
+        const delay = 2_000 * (i + 1);
+        console.warn(`    ⚠ fetch attempt ${i + 1}/${attempts} failed (${(e as Error).message}); retrying in ${delay}ms`);
+        await sleep(delay);
+      }
+    }
+  }
+  throw lastErr;
 }
 
 // ---------------------------------------------------------------------------
@@ -265,10 +283,30 @@ async function main() {
     process.exit(1);
   }
 
+  // Isolate per-university failures (#99): one university's transient host
+  // failure must not blackhole the rest. Retry exhaustion in fetchJSON still
+  // throws here; we log + continue rather than aborting the merge step.
   const newMappings: TransferMapping[] = [];
+  const succeededUniversities: UniversityConfig[] = [];
+  const failures: { university: string; error: string }[] = [];
   for (const univ of targets) {
-    const mappings = await scrapeUniversity(univ);
-    newMappings.push(...mappings);
+    try {
+      const mappings = await scrapeUniversity(univ);
+      newMappings.push(...mappings);
+      succeededUniversities.push(univ);
+    } catch (e) {
+      const msg = (e as Error).message;
+      console.error(`\n  ✗ ${univ.name} failed: ${msg}\n  Continuing to next university; existing rows preserved.`);
+      failures.push({ university: univ.name, error: msg });
+    }
+  }
+
+  if (failures.length === targets.length) {
+    console.error(`\nAll ${targets.length} universities failed. Aborting before write to avoid wiping existing data.`);
+    process.exit(1);
+  }
+  if (failures.length > 0) {
+    console.warn(`\n⚠ ${failures.length}/${targets.length} universities failed; their prior rows are kept untouched.`);
   }
 
   // Filter out no-credit entries
@@ -281,8 +319,9 @@ async function main() {
     existing = JSON.parse(fs.readFileSync(outPath, "utf8"));
   }
 
-  // Remove old entries for universities we just scraped
-  const scrapedSlugs = new Set(targets.map((t) => t.slug));
+  // Remove old entries only for universities that SUCCEEDED — failed
+  // universities keep their prior rows so a transient outage doesn't wipe data.
+  const scrapedSlugs = new Set(succeededUniversities.map((t) => t.slug));
   const kept = existing.filter((m) => !scrapedSlugs.has(m.university));
 
   const merged = [...kept, ...transferable];
