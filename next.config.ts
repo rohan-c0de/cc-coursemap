@@ -4,16 +4,18 @@ import createMDX from "@next/mdx";
 const nextConfig: NextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
   // Explicitly bundle every state's prereqs.json into the serverless
-  // functions that read them (prereqs/chain, prereqs/courses, and the state
-  // layout's `fs.existsSync` check). Next's auto-tracing picked up the
-  // original 8 states (va/nc/sc/ga/dc/md/de/tn) on earlier deploys but
-  // silently stopped detecting new state subfolders added later — VT/CT/RI
-  // shipped prereq data in PRs #22-#24 yet the files weren't bundled, so
-  // the routes 404'd on prod. Globbing all states here future-proofs every
-  // new prereq scraper.
+  // functions that PARSE it — only the API routes need the file content.
+  // The state layout used to also need it for an `fs.existsSync` check,
+  // but that was replaced with a registry-based `hasPrereqsCoverage()`
+  // lookup so the layout no longer touches the filesystem.
+  //
+  // Removing the `/[state]/**` entry was the fix for Vercel deploys
+  // failing on the 250 MB serverless function cap after phase 4 added
+  // the programs/online routes. The previous glob force-bundled the
+  // prereq JSON into every state route bundle even though only the
+  // /api/[state]/prereqs/* handlers actually read the files.
   outputFileTracingIncludes: {
     "/api/[state]/prereqs/**": ["./data/*/prereqs.json"],
-    "/[state]/**": ["./data/*/prereqs.json"],
   },
   async redirects() {
     // Backward-compatible redirects from old routes to /va/ prefixed routes
