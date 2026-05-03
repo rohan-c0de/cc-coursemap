@@ -14,6 +14,7 @@
     "check:scrapers": "tsx scripts/check-scraper-coverage.ts",
     "check:scraper-terms": "tsx scripts/check-scraper-term-hardcoding.ts",
     "check:data": "tsx scripts/check-data-integrity.ts",
+    "check:blog-mdx": "tsx scripts/check-blog-mdx.ts",
     "scrape": "tsx scripts/scrape-vccs.ts",
     "scrape:college": "tsx scripts/scrape-vccs.ts --college",
     "discover:ps": "tsx scripts/discover-ps-responses.ts",
