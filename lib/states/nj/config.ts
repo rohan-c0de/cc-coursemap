@@ -1,42 +1,31 @@
 import type { StateConfig } from "../registry";
 
-// manual-only: NJ has a transfer scraper (scripts/nj/scrape-transfer.ts from NJTransfer.org)
-// but no public-accessible course-scheduling system — Colleague Self-Service is auth-gated
-// at most NJ colleges. No prereq coverage yet. Revisit once a course scraper is viable.
-
-// NJ community colleges predominantly use Ellucian Colleague Self-Service
-// for course scheduling. The public Self-Service JSON REST API endpoints
-// vary by college but follow a common URL pattern:
-//   https://<host>/Student/Courses/Search
-//
-// Transfer equivalency data is centralized at NJTransfer.org, a state-mandated
-// CGI database maintained by the NJ Transfer consortium. This is the primary
-// source for CC-to-university transfer mappings.
-//
-// The 18 community colleges are coordinated by the New Jersey Council of
-// County Colleges (NJCCC). Some former independent colleges have merged
-// under the Rowan College umbrella but retain separate campuses and codes.
-
+// Colleague Self-Service base URLs (no /Student suffix — appended by courseDiscoveryUrl).
+// 10 confirmed publicly accessible for scraping; 6 deferred colleges kept for discovery links.
 const COLLEAGUE_SELF_SERVICE_URLS: Record<string, string> = {
-  "atlantic-cape": "https://ssb.atlantic.edu/Student",
-  "bergen": "https://selfservice.bergen.edu/Student",
-  "brookdale": "https://selfservice.brookdalecc.edu/Student",
-  "camden": "https://selfservice.camdencc.edu/Student",
-  "ccm": "https://selfservice.ccm.edu/Student",
-  "essex": "https://selfservice.essex.edu/Student",
-  "hccc": "https://selfservice.hccc.edu/Student",
-  "mercer": "https://selfservice.mccc.edu/Student",
-  "middlesex": "https://selfservice.middlesexcc.edu/Student",
-  "ocean": "https://selfservice.ocean.edu/Student",
-  "passaic": "https://selfservice.pccc.edu/Student",
-  "rvcc": "https://selfservice.raritanval.edu/Student",
-  "rcbc": "https://selfservice.rcbc.edu/Student",
-  "rcsj-cumberland": "https://selfservice.rcsj.edu/Student",
-  "rcsj-gloucester": "https://selfservice.rcsj.edu/Student",
-  "salem": "https://selfservice.salemcc.edu/Student",
-  "sussex": "https://selfservice.sussex.edu/Student",
-  "ucnj": "https://selfservice.ucc.edu/Student",
-  "warren": "https://selfservice.warren.edu/Student",
+  "atlantic-cape": "https://acccdtsfss22.atlantic.edu",
+  "bergen": "https://selfservice.bergen.edu",
+  "brookdale": "https://selfservice.brookdalecc.edu",
+  "camden": "https://selfservice.camdencc.edu",
+  "ccm": "https://titansdirect.ccm.edu",
+  "hccc": "https://libertylink.hccc.edu",
+  "mercer": "https://mercer-ss.colleague.elluciancloud.com",
+  "middlesex": "https://middlesexcollege-ss.colleague.elluciancloud.com",
+  "ocean": "https://selfservice.ocean.edu",
+  "passaic": "https://eselfservice.pccc.edu",
+  "rcbc": "https://selfservice2019.rcbc.edu",
+  "rcsj-cumberland": "https://selfservice.rcsj.edu",
+  "rcsj-gloucester": "https://selfservice.rcsj.edu",
+  "salem": "https://selfservice.salemcc.edu",
+  "sussex": "https://selfservice.sussex.edu",
+  "ucnj": "https://ucc-ss.colleague.elluciancloud.com",
+  "warren": "https://selfservice.warren.edu",
+};
+
+// Banner SSB base URLs (essex, rvcc use Banner instead of Colleague)
+const BANNER_SSB_URLS: Record<string, string> = {
+  "essex": "https://bannerprod.essex.edu",
+  "rvcc": "https://reg-prod.ec.raritanval.edu",
 };
 
 const njConfig: StateConfig = {
@@ -70,15 +59,26 @@ const njConfig: StateConfig = {
   defaultZipCity: "New Brunswick",
 
   courseDiscoveryUrl: (collegeSlug: string, _prefix: string, _number: string) => {
-    // Most NJ CCs use Ellucian Colleague Self-Service. Link to the
-    // college's course search page when available.
+    const bannerUrl = BANNER_SSB_URLS[collegeSlug];
+    if (bannerUrl) return `${bannerUrl}/StudentRegistrationSsb/ssb/classSearch/classSearch`;
     const ssUrl = COLLEAGUE_SELF_SERVICE_URLS[collegeSlug];
-    return ssUrl ? `${ssUrl}/Courses/Search` : "https://www.njcommunitycolleges.org";
+    return ssUrl ? `${ssUrl}/Student/Courses/Search` : "https://www.njcommunitycolleges.org";
   },
 
   collegeCoursesUrl: (collegeSlug: string) => {
+    const bannerUrl = BANNER_SSB_URLS[collegeSlug];
+    if (bannerUrl) return `${bannerUrl}/StudentRegistrationSsb/ssb/classSearch/classSearch`;
     const ssUrl = COLLEAGUE_SELF_SERVICE_URLS[collegeSlug];
-    return ssUrl ? `${ssUrl}/Courses` : "https://www.njcommunitycolleges.org";
+    return ssUrl ? `${ssUrl}/Student/Courses` : "https://www.njcommunitycolleges.org";
+  },
+
+  scrapers: {
+    courses: [
+      { scripts: ["scripts/nj/scrape-colleague.ts"], runner: "playwright", termSystem: "colleague-nj" },
+      { scripts: ["scripts/nj/scrape-banner-ssb.ts"], runner: "http" },
+    ],
+    transfers: [{ scripts: ["scripts/nj/scrape-transfer.ts"], runner: "http" }],
+    prereqs: { source: "aggregate-from-courses" },
   },
 
   branding: {
