@@ -33,6 +33,14 @@ const PS_DISCOVERY_DIR = path.join(process.cwd(), "data", "va", "ps-discovery");
 // captures are more than enough evidence to identify the new DOM scheme.
 let driftDumpsRemaining = 5;
 
+// Issue #98: when PeopleSoft's search results page changes shape, every
+// `searchSubject` call times out at the waitForFunction. Without a circuit
+// breaker the job burns its full 60-minute timeout retrying through
+// 23 colleges × ~62 subjects × 3 attempts × 20s before CI kills it.
+// Track consecutive timeouts globally; abort once we're sure it's systemic.
+let consecutiveSearchFailures = 0;
+const MAX_CONSECUTIVE_SEARCH_FAILURES = 5;
+
 // Term name → PS term code mapping
 const TERM_CODES: Record<string, string> = {
   "Spring 2026": "2262",
@@ -222,7 +230,7 @@ async function getSubjectLabels(page: Page): Promise<string[]> {
   });
 }
 
-async function searchSubject(page: Page, subjectLabel: string): Promise<boolean> {
+async function searchSubject(page: Page, subjectLabel: string, collegeSlug: string): Promise<boolean> {
   try {
     await page.selectOption("#VX_CLSRCH_WRK2_SUBJECT", { label: subjectLabel });
     await sleep(500);
@@ -234,30 +242,59 @@ async function searchSubject(page: Page, subjectLabel: string): Promise<boolean>
 
     await page.click("#VX_CLSRCH_WRK2_SEARCH_BTN");
 
-    await page.waitForFunction(
-      () => {
-        const text = document.body?.innerText || "";
-        return (
-          text.includes("Class Nbr") ||
-          text.includes("No results") ||
-          text.includes("no classes found") ||
-          text.includes("exceeds the maximum")
-        );
-      },
-      { timeout: SEARCH_WAIT }
-    );
+    try {
+      await page.waitForFunction(
+        () => {
+          const text = document.body?.innerText || "";
+          return (
+            text.includes("Class Nbr") ||
+            text.includes("No results") ||
+            text.includes("no classes found") ||
+            text.includes("exceeds the maximum")
+          );
+        },
+        { timeout: SEARCH_WAIT }
+      );
+    } catch (waitErr) {
+      // Issue #98: post-click page never produced any of the four marker
+      // strings. Capture HTML so we can identify the new markers offline,
+      // then bubble up so the outer catch can apply the circuit breaker.
+      const bodyTextLength = await page
+        .evaluate(() => (document.body?.innerText || "").length)
+        .catch(() => 0);
+      await dumpDriftEvidence(page, {
+        reason: "search-timeout",
+        college: collegeSlug,
+        subject: subjectLabel.split(/[-\s]/)[0],
+        bodyTextLength,
+      });
+      throw waitErr;
+    }
 
     await sleep(1500);
     await dismissModal(page);
 
     const bodyText = await page.evaluate(() => document.body?.innerText || "");
     if (bodyText.includes("No results") || bodyText.includes("no classes found")) {
+      consecutiveSearchFailures = 0;
       return false;
     }
 
-    return bodyText.includes("Class Nbr");
+    const ok = bodyText.includes("Class Nbr");
+    if (ok) consecutiveSearchFailures = 0;
+    return ok;
   } catch (err) {
-    console.error(`    ⚠ Search failed: ${(err as Error).message}`);
+    consecutiveSearchFailures++;
+    console.error(
+      `    ⚠ Search failed (${consecutiveSearchFailures}/${MAX_CONSECUTIVE_SEARCH_FAILURES} consecutive): ${(err as Error).message}`
+    );
+    if (consecutiveSearchFailures >= MAX_CONSECUTIVE_SEARCH_FAILURES) {
+      throw new Error(
+        `PeopleSoft search appears systemically broken — ${consecutiveSearchFailures} consecutive ` +
+          `searchSubject() failures. Aborting before the job hits its 60-minute timeout. ` +
+          `See data/va/ps-discovery/search-timeout-*.{html,png} for evidence. Issue #98.`
+      );
+    }
     return false;
   }
 }
@@ -311,7 +348,14 @@ async function extractPageCards(page: Page): Promise<RawCard[]> {
  */
 async function dumpDriftEvidence(
   page: Page,
-  context: { college: string; subject: string; matchCount: number; cardCount: number }
+  context: {
+    reason: "card-extraction" | "search-timeout";
+    college: string;
+    subject: string;
+    matchCount?: number;
+    cardCount?: number;
+    bodyTextLength?: number;
+  }
 ): Promise<void> {
   if (driftDumpsRemaining <= 0) return;
   driftDumpsRemaining--;
@@ -320,7 +364,7 @@ async function dumpDriftEvidence(
     fs.mkdirSync(PS_DISCOVERY_DIR, { recursive: true });
   }
 
-  const stem = `drift-${context.college}-${context.subject}-${Date.now()}`;
+  const stem = `${context.reason}-${context.college}-${context.subject}-${Date.now()}`;
   try {
     fs.writeFileSync(
       path.join(PS_DISCOVERY_DIR, `${stem}.html`),
@@ -330,11 +374,19 @@ async function dumpDriftEvidence(
       path: path.join(PS_DISCOVERY_DIR, `${stem}.png`),
       fullPage: true,
     });
-    console.error(
-      `    🚨 SELECTOR DRIFT: ${context.college}/${context.subject} — ` +
-        `page text contains ${context.matchCount} CRN(s) but extractPageCards found ${context.cardCount}. ` +
-        `Saved evidence to data/va/ps-discovery/${stem}.{html,png}`
-    );
+    if (context.reason === "card-extraction") {
+      console.error(
+        `    🚨 SELECTOR DRIFT (card-extraction): ${context.college}/${context.subject} — ` +
+          `page text contains ${context.matchCount} CRN(s) but extractPageCards found ${context.cardCount}. ` +
+          `Saved evidence to data/va/ps-discovery/${stem}.{html,png}`
+      );
+    } else {
+      console.error(
+        `    🚨 SELECTOR DRIFT (search-timeout): ${context.college}/${context.subject} — ` +
+          `waitForFunction timed out; post-click body text is ${context.bodyTextLength ?? "unknown"} chars and contains none of the expected markers. ` +
+          `Saved evidence to data/va/ps-discovery/${stem}.{html,png}`
+      );
+    }
   } catch (e) {
     console.error(`    ⚠ Failed to save drift evidence: ${(e as Error).message}`);
   }
@@ -580,7 +632,7 @@ async function scrapeCollege(
           process.stdout.write(`retry ${attempt}... `);
           await navigateToBrowse(page, institutionCode, psTermCode);
         }
-        found = await searchSubject(page, subjectLabel);
+        found = await searchSubject(page, subjectLabel, slug);
         if (found) break;
       }
 
@@ -608,6 +660,7 @@ async function scrapeCollege(
           });
           if (matchCount > 0) {
             await dumpDriftEvidence(page, {
+              reason: "card-extraction",
               college: slug,
               subject: prefix,
               matchCount,
