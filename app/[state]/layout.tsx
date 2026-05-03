@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import fs from "fs";
-import path from "path";
 import Header from "@/components/Header";
-import { getStateConfig, isValidState } from "@/lib/states/registry";
+import {
+  getStateConfig,
+  hasPrereqsCoverage,
+  isValidState,
+} from "@/lib/states/registry";
 
 type Props = {
   children: React.ReactNode;
@@ -75,7 +77,7 @@ export default async function StateLayout({ children, params }: Props) {
         state={state}
         stateName={config.name}
         transferSupported={config.transferSupported}
-        prereqsAvailable={fs.existsSync(path.join(process.cwd(), "data", state, "prereqs.json"))}
+        prereqsAvailable={hasPrereqsCoverage(state)}
       />
 
       {/* Main content */}

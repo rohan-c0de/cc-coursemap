@@ -175,3 +175,24 @@ export function isValidState(slug: string): boolean {
 export function getDefaultState(): string {
   return "va";
 }
+
+/**
+ * Whether a state has prereq coverage (drives Plan-link visibility in the
+ * header). Reads from the registry's declared scraper coverage instead of
+ * an `fs.existsSync` check on the prereqs.json path at request time.
+ *
+ * The registry is the source of truth: a state has prereqs if it declares
+ * any prereq scraper job (dedicated or `aggregate-from-courses`). Using
+ * the registry keeps the layout free of `fs` calls, which means the
+ * prereqs JSON files no longer need to be force-bundled into every state
+ * route function — only the API routes that actually parse them. That
+ * cut the per-function bundle size by enough to clear Vercel's 250 MB
+ * serverless limit.
+ */
+export function hasPrereqsCoverage(slug: string): boolean {
+  const cfg = configs[slug];
+  if (!cfg?.scrapers?.prereqs) return false;
+  const p = cfg.scrapers.prereqs;
+  // Either a list of scrape jobs OR the aggregate-from-courses sentinel.
+  return Array.isArray(p) ? p.length > 0 : p.source === "aggregate-from-courses";
+}
