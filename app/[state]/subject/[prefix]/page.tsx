@@ -14,7 +14,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { loadCoursesBySubject, getDistinctSubjects } from "@/lib/courses";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
-import { getStateConfig, isValidState } from "@/lib/states/registry";
+import { isValidState } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { subjectName } from "@/lib/subjects";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
@@ -43,7 +44,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   if (!isValidState(state)) return { title: "Not Found" };
 
   const prefix = rawPrefix.toUpperCase();
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const currentTerm = await getCurrentTerm(state);
   const filtered = await loadCoursesBySubject(prefix, currentTerm, state);
 
@@ -145,7 +146,7 @@ export default async function StateSubjectPage(props: PageProps) {
   if (!isValidState(state)) notFound();
 
   const prefix = rawPrefix.toUpperCase();
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const currentTerm = await getCurrentTerm(state);
   const sections = await loadCoursesBySubject(prefix, currentTerm, state);
   if (sections.length === 0) notFound();

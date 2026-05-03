@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
-import { getStateConfig, isValidState } from "@/lib/states/registry";
-
+import { isValidState } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 export const runtime = "nodejs";
 export const alt = "Community College Path — Community College Course Finder";
 export const size = { width: 1200, height: 630 };
@@ -16,7 +16,7 @@ export default async function Image({
     return new ImageResponse(<div>Not Found</div>, { ...size });
   }
 
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const b = config.branding;
 
   return new ImageResponse(

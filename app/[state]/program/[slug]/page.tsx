@@ -12,7 +12,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getStateConfig, isValidState } from "@/lib/states/registry";
+import { isValidState } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
 import {
   loadProgramData,
@@ -45,7 +46,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const program = getProgramBySlug(slug);
   if (!program) return { title: "Not Found" };
 
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const data = await loadProgramData(state, slug);
   if (!data || !qualifies(data)) return { title: "Not Found" };
 
@@ -89,7 +90,7 @@ export default async function ProgramPage(props: PageProps) {
   const data = await loadProgramData(state, slug);
   if (!data || !qualifies(data)) notFound();
 
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const term = await getCurrentTerm(state);
   const url = siteUrl();
 

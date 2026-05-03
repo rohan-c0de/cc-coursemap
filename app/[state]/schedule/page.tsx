@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ScheduleClient from "./ScheduleClient";
-import { getStateConfig, getAllStates } from "@/lib/states/registry";
+import { getAllStates } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getUniversities } from "@/lib/transfer";
 import { getAvailableTermsForDisplay } from "@/lib/terms";
 
@@ -14,7 +15,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   return {
     title: `Smart Schedule Builder — ${config.branding.siteName}`,
     description: `Build conflict-free course schedules across all ${config.collegeCount} ${config.name} community colleges. Set your constraints and get personalized schedule suggestions.`,
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function SchedulePage({ params }: Props) {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
 
   // Load available transfer universities and terms for this state
   let universities: { slug: string; name: string }[] = [];

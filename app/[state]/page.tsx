@@ -5,7 +5,8 @@ import SearchForm from "@/components/SearchForm";
 import StartingSoonCallout from "@/components/StartingSoonCallout";
 import NotifyBanner from "@/components/NotifyBanner";
 import { getNextTerm } from "@/lib/terms";
-import { getStateConfig, getAllStates, isValidState } from "@/lib/states/registry";
+import { getAllStates, isValidState } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getArticlesByState, categoryLabel } from "@/lib/blog";
 import { getQualifyingProgramSlugs, getProgramBySlug } from "@/lib/programs";
 import { loadOnlineData, onlineQualifies } from "@/lib/online";
@@ -21,7 +22,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
   if (!isValidState(state)) return { title: "Not Found" };
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const b = config.branding;
   return {
     title: `${config.name} Community College Course Finder`,
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function HomePage({ params }: Props) {
   const { state } = await params;
   if (!isValidState(state)) notFound();
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const nextTerm = await getNextTerm(state);
   const stateArticles = getArticlesByState(state).slice(0, 4);
   const siteUrl =

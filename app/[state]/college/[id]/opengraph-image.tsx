@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 import { loadInstitutions } from "@/lib/institutions";
-import { getStateConfig, isValidState } from "@/lib/states/registry";
+import { isValidState } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getCourseCount } from "@/lib/courses";
 import { getCurrentTerm } from "@/lib/terms";
 
@@ -25,7 +26,7 @@ export default async function Image({
     return new ImageResponse(<div>Not Found</div>, { ...size });
   }
 
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const allowed = institution.audit_policy.allowed;
   const currentTerm = await getCurrentTerm(state);
   const courseCount = await getCourseCount(

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import StartingSoonClient from "./StartingSoonClient";
-import { getStateConfig, getAllStates } from "@/lib/states/registry";
+import { getAllStates } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 type Props = {
@@ -13,7 +14,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   return {
     title: `Courses Starting Soon — Late-Start Classes | ${config.branding.siteName}`,
     description: `Find late-start courses, mini-sessions, and upcoming classes across all ${config.collegeCount} ${config.name} community colleges. Don't miss registration deadlines.`,
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function StartingSoonPage({ params }: Props) {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
 

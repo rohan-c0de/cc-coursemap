@@ -2,12 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
-import {
-  getStateConfig,
-  hasPrereqsCoverage,
-  isValidState,
-} from "@/lib/states/registry";
-
+import { hasPrereqsCoverage, isValidState } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 type Props = {
   children: React.ReactNode;
   params: Promise<{ state: string }>;
@@ -16,7 +12,7 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
   if (!isValidState(state)) return {};
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const b = config.branding;
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
@@ -46,7 +42,7 @@ export default async function StateLayout({ children, params }: Props) {
   const { state } = await params;
   if (!isValidState(state)) notFound();
 
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const b = config.branding;
   const baseUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";

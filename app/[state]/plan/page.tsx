@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { getStateConfig, getAllStates } from "@/lib/states/registry";
+import { getAllStates } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import PlannerClient from "./PlannerClient";
 
 type Props = {
@@ -12,7 +13,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   return {
     title: `Semester Planner — ${config.branding.siteName}`,
     description: `Plan your course sequence at ${config.name} community colleges. Automatically maps prerequisites into a semester-by-semester plan so you know exactly what to take and when.`,
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function PlanPage({ params }: Props) {
   const { state } = await params;
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
 
   return (
     <PlannerClient

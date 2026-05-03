@@ -10,7 +10,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getStateConfig, isValidState } from "@/lib/states/registry";
+import { isValidState } from "@/lib/states/registry";
+import { requireStateConfig } from "@/lib/states/route-helpers";
 import { termLabel } from "@/lib/terms";
 import { subjectName } from "@/lib/subjects";
 import { loadOnlineData, onlineQualifies } from "@/lib/online";
@@ -31,7 +32,7 @@ function siteUrl(): string {
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const { state } = await props.params;
   if (!isValidState(state)) return { title: "Not Found" };
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const data = await loadOnlineData(state);
   if (!onlineQualifies(data) || !data) return { title: "Not Found" };
 
@@ -69,7 +70,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 export default async function OnlinePage(props: PageProps) {
   const { state } = await props.params;
   if (!isValidState(state)) notFound();
-  const config = getStateConfig(state);
+  const config = requireStateConfig(state);
   const data = await loadOnlineData(state);
   if (!onlineQualifies(data) || !data) notFound();
 
