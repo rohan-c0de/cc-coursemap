@@ -152,6 +152,20 @@ export const articles: ArticleMeta[] = [
     cluster: "senior-waivers-guide",
     clusterRole: "spoke",
   },
+  {
+    slug: "new-jersey-senior-citizens-county-college-tuition-waiver",
+    title:
+      "New Jersey Senior Citizens at County Colleges: How the 65+ Tuition Waiver Actually Works",
+    description:
+      "New Jersey law waives tuition at all 18 county colleges for residents 65+. The waiver covers credit enrollment, not just auditing. Here's how to actually use it.",
+    date: "2026-05-02",
+    category: "senior-waivers",
+    state: "nj",
+    author: "Community College Path",
+    tags: ["seniors", "new-jersey", "tuition-waiver", "njccc", "county-college"],
+    cluster: "senior-waivers-guide",
+    clusterRole: "spoke",
+  },
 
   // --- Standalone: Auditing explainer ---
   {
