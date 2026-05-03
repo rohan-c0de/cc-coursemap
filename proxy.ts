@@ -73,9 +73,9 @@ export async function proxy(request: NextRequest) {
   // -------------------------------------------------------------------------
   // Unregistered-state validation — issue #158. Catches /<unknown-2-letter>/*
   // requests before app/loading.tsx starts streaming, locking the response
-  // at 500. Skip auth paths (handled below) — the regex already excludes
-  // them since their first segment is >2 letters (account, api, auth, blog,
-  // etc.).
+  // at 500. Only fires when the first segment is exactly 2 lowercase letters
+  // (none of the non-state top routes — api, auth, blog, account, colleges,
+  // privacy, sitemap, robots, mockup — is exactly 2 chars).
   // -------------------------------------------------------------------------
   const stateMatch = pathname.match(STATE_PATH_RE);
   if (stateMatch) {
@@ -83,30 +83,41 @@ export async function proxy(request: NextRequest) {
     if (!isValidState(stateSlug)) {
       return new NextResponse(null, { status: 404 });
     }
+    // Valid state — let the route render. Don't fall through to the auth
+    // branch (state pages don't need session refresh, and updateSession
+    // touches cookies which kills ISR caching).
     return NextResponse.next();
   }
 
   // -------------------------------------------------------------------------
-  // Auth session refresh — only for auth-dependent paths (see matcher).
+  // Auth session refresh — only for auth-dependent paths.
   // -------------------------------------------------------------------------
-  return await updateSession(request);
+  if (
+    pathname.startsWith("/account") ||
+    pathname.startsWith("/api/account") ||
+    pathname.startsWith("/auth")
+  ) {
+    return await updateSession(request);
+  }
+
+  // Everything else (e.g. /blog, /colleges, /privacy, /api/* non-account
+  // routes) — pass through unchanged. Critically, no cookie access here so
+  // ISR edge caching stays intact.
+  return NextResponse.next();
 }
 
 export const config = {
+  // Single broad matcher that catches the auth, course, and state-slug
+  // branches above. The proxy function itself filters by pathname; doing
+  // the filtering in code avoids path-to-regexp quirks (the `:state([a-z]{2})`
+  // form silently failed to match in production on Next 16, even though
+  // Next docs say the syntax is supported — see #158/#164 history).
+  //
+  // Static assets (`/_next/*`, image generators, favicon, etc.) are
+  // excluded so the proxy doesn't run on every chunk request. Everything
+  // else falls through quickly via `NextResponse.next()` when no branch
+  // matches.
   matcher: [
-    // Auth routes — need session refresh
-    "/account/:path*",
-    "/api/account/:path*",
-    "/auth/:path*",
-    // Course detail routes — need URL format validation
-    "/:state/course/:code",
-    // Top-level state segment — validate slug before stream starts (#158).
-    // The `[a-z]{2}` constraint matches only 2-letter top segments. None of
-    // the non-state routes (api, auth, blog, account, colleges, privacy,
-    // sitemap, robots, mockup, _next, favicon, icon) is exactly 2 lowercase
-    // letters, so this matcher is naturally exclusive — it only fires on
-    // state slugs (valid or invalid).
-    "/:state([a-z]{2})/:path*",
-    "/:state([a-z]{2})",
+    "/((?!_next/|favicon\\.ico|icon$|apple-icon$|robots\\.txt$|sitemap\\.xml$|sitemap/).*)",
   ],
 };
