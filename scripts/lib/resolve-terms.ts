@@ -525,6 +525,7 @@ const COLLEAGUE_SAMPLES: Record<string, string> = {
   sc: "https://selfservice.fdtc.edu",        // Florence-Darlington Tech
   md: "https://selfservice.pgcc.edu",        // Prince George's CC
   vt: "https://selfservice.vsc.edu",         // Vermont State Colleges (CCV + VTSU)
+  nj: "https://selfservice.bergen.edu",      // Bergen Community College
 };
 
 // ---------------------------------------------------------------------------
@@ -538,7 +539,7 @@ async function main() {
 
   if (!system) {
     console.error("Usage: npx tsx scripts/lib/resolve-terms.ts --system <system>");
-    console.error("Systems: vccs, vccs-ps, colleague-nc, colleague-sc, colleague-md, colleague-vt, banner");
+    console.error("Systems: vccs, vccs-ps, colleague-nc, colleague-sc, colleague-md, colleague-vt, colleague-nj, banner");
     process.exit(1);
   }
 
@@ -562,6 +563,9 @@ async function main() {
       break;
     case "colleague-vt":
       result = await resolveColleague(COLLEAGUE_SAMPLES.vt || COLLEAGUE_SAMPLES.nc);
+      break;
+    case "colleague-nj":
+      result = await resolveColleague(COLLEAGUE_SAMPLES.nj || COLLEAGUE_SAMPLES.nc);
       break;
     case "banner":
       result = await resolveBanner();
