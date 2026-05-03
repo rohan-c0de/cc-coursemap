@@ -242,6 +242,7 @@ async function searchSubject(page: Page, subjectLabel: string, collegeSlug: stri
 
     await page.click("#VX_CLSRCH_WRK2_SEARCH_BTN");
 
+    let modalNoResults = false;
     try {
       await page.waitForFunction(
         () => {
@@ -250,10 +251,22 @@ async function searchSubject(page: Page, subjectLabel: string, collegeSlug: stri
             text.includes("Class Nbr") ||
             text.includes("No results") ||
             text.includes("no classes found") ||
-            text.includes("exceeds the maximum")
+            text.includes("exceeds the maximum") ||
+            // 2026-05: PS upgrade moved the no-results state into a modal
+            // dialog with text "The search returns no results that match
+            // the criteria specified." Issue #98 evidence in
+            // data/va/ps-discovery/search-timeout-brcc-*.html.
+            text.includes("search returns no results")
           );
         },
         { timeout: SEARCH_WAIT }
+      );
+      // PS responded — circuit breaker is for "search is systemically
+      // broken," not for "this subject has no classes." Reset before we
+      // dismiss the modal (which strips the no-results text from the DOM).
+      consecutiveSearchFailures = 0;
+      modalNoResults = await page.evaluate(() =>
+        (document.body?.innerText || "").includes("search returns no results")
       );
     } catch (waitErr) {
       // Issue #98: post-click page never produced any of the four marker
@@ -274,15 +287,14 @@ async function searchSubject(page: Page, subjectLabel: string, collegeSlug: stri
     await sleep(1500);
     await dismissModal(page);
 
+    if (modalNoResults) return false;
+
     const bodyText = await page.evaluate(() => document.body?.innerText || "");
     if (bodyText.includes("No results") || bodyText.includes("no classes found")) {
-      consecutiveSearchFailures = 0;
       return false;
     }
 
-    const ok = bodyText.includes("Class Nbr");
-    if (ok) consecutiveSearchFailures = 0;
-    return ok;
+    return bodyText.includes("Class Nbr");
   } catch (err) {
     consecutiveSearchFailures++;
     console.error(
