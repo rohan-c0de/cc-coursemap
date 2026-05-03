@@ -28,10 +28,12 @@ Every invocation follows this sequence. Don't skip stages — silent failures he
 
 ```
 1. DETECT     → run all three trigger detectors, collect candidates
-2. PRIORITIZE → rank candidates, skip already-drafted slugs, pick at most ONE
-3. DRAFT      → call the LLM with BRIEF.md + brief + data slice
-4. GATE & PR  → run quality gates, open draft PR if all pass
+2. PRIORITIZE → rank candidates, skip already-drafted slugs, keep ALL qualifying
+3. DRAFT      → for each candidate in priority order, call the LLM
+4. GATE & PR  → for each draft, run quality gates and open a draft PR
 ```
+
+Stages 3 and 4 loop per candidate. A single invocation can produce N draft PRs where N is the number of qualifying candidates returned by the detectors.
 
 ### Stage 1 — Detect
 
@@ -49,7 +51,7 @@ If all three detectors return zero candidates, **stop and report "no triggers fi
 
 ### Stage 2 — Prioritize
 
-If multiple candidates fire, pick exactly one. Ranking — high to low priority:
+Sort candidates by the priority bands below (high to low). The pipeline drafts every qualifying candidate, in priority order, in the same invocation. The ordering matters because: (a) each draft consumes context budget, so the highest-value posts should be drafted while the model is freshest, and (b) if you abort the run mid-batch, you want the most important PRs to already exist.
 
 1. Data-delta candidates from a brand-new state (registry just gained an entry)
 2. Cluster-gap candidates for a hub with ≥2 existing spokes (proves the cluster has demand)
@@ -82,7 +84,9 @@ npx tsx .claude/skills/blog-pipeline/scripts/quality-gates.ts \
   --slug <slug>
 ```
 
-If any gate fails, **do not open a PR**. Report which gate failed and stop. Do not "fix and retry" silently — a gate failure means the drafter produced something the brief wouldn't accept, and that's a signal worth surfacing to the human.
+If any gate fails for a given candidate, **do not open a PR for that candidate**. Report which gate failed, mark that candidate as skipped in the run summary, and continue to the next candidate in priority order. Do not "fix and retry" silently — a gate failure means the drafter produced something the brief wouldn't accept, and that signal is worth surfacing to the human even if other candidates in the same batch ship cleanly.
+
+A failed candidate does NOT abort the rest of the batch. Each candidate is drafted and gated independently.
 
 If all gates pass:
 
