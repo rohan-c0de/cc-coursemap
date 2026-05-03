@@ -617,13 +617,10 @@ async function main() {
   const termNames = termFlag >= 0
     ? args[termFlag + 1].split(",").map((t) => t.trim()).filter(Boolean)
     : ["Spring 2026"];
-  const termName = termNames[0]; // primary term (used for single-term log below)
 
   let targets: [string, string][];
 
-  if (allFlag) {
-    targets = Object.entries(COLLEAGUE_COLLEGES);
-  } else if (collegeFlag >= 0) {
+  if (collegeFlag >= 0) {
     const slug = args[collegeFlag + 1];
     const baseUrl = COLLEAGUE_COLLEGES[slug];
     if (!baseUrl) {
@@ -633,11 +630,12 @@ async function main() {
     }
     targets = [[slug, baseUrl]];
   } else {
-    console.log("Usage:");
-    console.log("  npx tsx scripts/nj/scrape-colleague.ts --college bergen");
-    console.log('  npx tsx scripts/nj/scrape-colleague.ts --college bergen --term "Fall 2026"');
-    console.log("  npx tsx scripts/nj/scrape-colleague.ts --all");
-    process.exit(0);
+    // No --college flag → scrape all. The unified scheduled-scrape workflow
+    // invokes scrapers as `npx tsx <script> --no-import --term "..."` with no
+    // college selector, so the unattended path must default to all colleges.
+    // --all is still accepted for explicit invocations.
+    void allFlag;
+    targets = Object.entries(COLLEAGUE_COLLEGES);
   }
 
   console.log(`Scraping ${targets.length} college(s) for ${termNames.length} term(s): ${termNames.join(", ")}...\n`);
