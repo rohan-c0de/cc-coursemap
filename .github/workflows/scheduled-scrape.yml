@@ -85,10 +85,12 @@ jobs:
     needs: plan
     if: needs.plan.outputs.empty == 'false'
     runs-on: ubuntu-latest
-    # 120 (not 60) so VA's vccs + peoplesoft jobs have headroom while #98
-    # selector-drift instrumentation captures evidence. Other states finish
-    # well under 60 — this is the worst-case ceiling, not the budget.
-    timeout-minutes: 120
+    # 200 (not 60 or 120) so VA's PeopleSoft scrape can finish all three
+    # terms (Spring/Summer/Fall) end-to-end. Run 25268053426 verified
+    # the PS scraper produces ~24k sections for the first two terms in
+    # ~120 min; Fall iteration adds ~60 min. Other states finish well
+    # under 60 — this is the worst-case ceiling, not the budget.
+    timeout-minutes: 200
     strategy:
       fail-fast: false
       matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
