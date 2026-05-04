@@ -448,9 +448,7 @@ async function main() {
 
   let targets: [string, string][];
 
-  if (allFlag) {
-    targets = Object.entries(BANNER_COLLEGES);
-  } else if (collegeFlag >= 0) {
+  if (collegeFlag >= 0) {
     const slug = args[collegeFlag + 1];
     const baseUrl = BANNER_COLLEGES[slug];
     if (!baseUrl) {
@@ -462,12 +460,11 @@ async function main() {
     }
     targets = [[slug, baseUrl]];
   } else {
-    console.log("Usage:");
-    console.log(
-      "  npx tsx scripts/nj/scrape-banner-ssb.ts --college essex"
-    );
-    console.log("  npx tsx scripts/nj/scrape-banner-ssb.ts --all");
-    process.exit(0);
+    // No --college flag → scrape all. The unified scheduled-scrape workflow
+    // invokes scrapers without a college selector, so the unattended path
+    // must default to all colleges. --all is still accepted explicitly.
+    void allFlag;
+    targets = Object.entries(BANNER_COLLEGES);
   }
 
   let grandTotal = 0;
