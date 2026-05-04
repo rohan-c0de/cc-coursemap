@@ -129,7 +129,7 @@ export default function PrivacyPage() {
             If you have questions about this privacy policy, please open an issue on
             our{" "}
             <a
-              href="https://github.com/rohan-c0de/auditmap-virginia"
+              href="https://github.com/rohan-c0de/cc-coursemap"
               target="_blank"
               rel="noopener noreferrer"
               className="text-teal-600 underline hover:text-teal-800 dark:hover:text-teal-300"
