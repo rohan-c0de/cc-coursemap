@@ -47,7 +47,7 @@ async function cached<T>(key: string, fn: () => Promise<T>): Promise<T> {
 /**
  * Get all available terms with labels, sorted newest first.
  */
-export async function getAvailableTermsForDisplay(state = "va"): Promise<{
+export async function getAvailableTermsForDisplay(state: string): Promise<{
   code: string;
   label: string;
 }[]> {
@@ -63,7 +63,7 @@ export async function getAvailableTermsForDisplay(state = "va"): Promise<{
  * Returns the term with the most college data, breaking ties by recency.
  * Falls back to "2026SP" if no data is found.
  */
-export async function getCurrentTerm(state = "va"): Promise<string> {
+export async function getCurrentTerm(state: string): Promise<string> {
   return cached(`currentTerm:${state}`, async () => {
     // Try RPC first (single query instead of N+1)
     const { data: rpcData, error: rpcErr } = await supabase.rpc(
@@ -126,7 +126,7 @@ export async function getCurrentTerm(state = "va"): Promise<string> {
  * Get the next term after the latest one we have data for.
  * SP → SU → FA → next year SP
  */
-export async function getNextTerm(state = "va"): Promise<{ code: string; label: string }> {
+export async function getNextTerm(state: string): Promise<{ code: string; label: string }> {
   const current = await getCurrentTerm(state);
   const match = current.match(/^(\d{4})(SP|SU|FA)$/);
   if (!match) return { code: "2026FA", label: "Fall 2026" };

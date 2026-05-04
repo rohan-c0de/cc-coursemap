@@ -52,6 +52,6 @@ const REGISTRY: Record<string, Institution[]> = {
  * Load institutions for a given state. Data is statically bundled so this
  * works on both Node and edge runtimes.
  */
-export function loadInstitutions(state = "va"): Institution[] {
+export function loadInstitutions(state: string): Institution[] {
   return REGISTRY[state] ?? [];
 }

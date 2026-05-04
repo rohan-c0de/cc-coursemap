@@ -47,7 +47,7 @@ const ZIP_REGISTRY: Record<string, Record<string, ZipEntry>> = {
   wv: wvZipcodes as Record<string, ZipEntry>,
 };
 
-function loadZipData(state = "va"): Record<string, ZipEntry> {
+function loadZipData(state: string): Record<string, ZipEntry> {
   return ZIP_REGISTRY[state] ?? {};
 }
 
@@ -57,7 +57,7 @@ function loadZipData(state = "va"): Record<string, ZipEntry> {
  */
 export function getZipCoordinates(
   zip: string,
-  state = "va"
+  state: string
 ): { lat: number; lng: number; city: string } | null {
   const data = loadZipData(state);
   const entry = data[zip];
@@ -70,7 +70,7 @@ export function getZipCoordinates(
  */
 export function findZipByCity(
   cityQuery: string,
-  state = "va"
+  state: string
 ): { zip: string; lat: number; lng: number; city: string } | null {
   const data = loadZipData(state);
   const query = cityQuery.trim().toLowerCase();
@@ -99,7 +99,7 @@ export function findZipByCity(
  */
 export function resolveLocation(
   query: string,
-  state = "va"
+  state: string
 ): { zip: string; lat: number; lng: number; city: string } | null {
   const trimmed = query.trim();
 

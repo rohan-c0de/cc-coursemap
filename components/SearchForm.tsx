@@ -6,12 +6,12 @@ import { useRouter } from "next/navigation";
 const RADIUS_OPTIONS = [10, 25, 50] as const;
 
 interface SearchFormProps {
-  state?: string;
+  state: string;
   /** Optional placeholder for the zip/city input. Pass from a server component using StateConfig. */
   placeholder?: string;
 }
 
-export default function SearchForm({ state = "va", placeholder }: SearchFormProps) {
+export default function SearchForm({ state, placeholder }: SearchFormProps) {
   const router = useRouter();
   const [zip, setZip] = useState("");
   const [radius, setRadius] = useState<number>(25);
