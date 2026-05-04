@@ -1,5 +1,5 @@
 import { getAllStates } from "@/lib/states/registry";
-import { getUniversitiesWithCounts } from "@/lib/transfer";
+import { getUniversitySlugsForSitemap } from "@/lib/transfer";
 import {
   toSitemapXml,
   siteOrigin,
@@ -7,28 +7,31 @@ import {
   type SitemapEntry,
 } from "@/lib/sitemap-xml";
 
+export const revalidate = 86400;
+
 const MIN_TRANSFER_HUB_COUNT = 10;
 
 export async function GET() {
   const url = siteOrigin();
-  const entries: SitemapEntry[] = [];
 
-  for (const state of getAllStates()) {
-    if (!state.transferSupported) continue;
-    try {
-      const universities = await getUniversitiesWithCounts(state.slug);
-      for (const u of universities) {
-        if (u.totalCount < MIN_TRANSFER_HUB_COUNT) continue;
-        entries.push({
-          url: `${url}/${state.slug}/transfer/to/${u.slug}`,
-          changeFrequency: "weekly",
-          priority: 0.8,
-        });
-      }
-    } catch {
-      // skip if transfer data loading fails
-    }
-  }
+  const results = await Promise.allSettled(
+    getAllStates()
+      .filter((s) => s.transferSupported)
+      .map(async (state) => {
+        const universities = await getUniversitySlugsForSitemap(state.slug);
+        return universities
+          .filter((u) => u.totalCount >= MIN_TRANSFER_HUB_COUNT)
+          .map((u) => ({
+            url: `${url}/${state.slug}/transfer/to/${u.slug}`,
+            changeFrequency: "weekly" as const,
+            priority: 0.8,
+          }));
+      })
+  );
+
+  const entries: SitemapEntry[] = results.flatMap((r) =>
+    r.status === "fulfilled" ? r.value : []
+  );
 
   return xmlResponse(toSitemapXml(entries));
 }

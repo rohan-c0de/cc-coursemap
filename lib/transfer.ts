@@ -272,6 +272,60 @@ export async function getUniversitiesWithCounts(state: string): Promise<
     .sort((a, b) => b.totalCount - a.totalCount);
 }
 
+/**
+ * Lightweight version for the sitemap: returns only { slug, totalCount } per
+ * university without loading every row. Fetches only the `university` column
+ * with pagination, then aggregates in memory.
+ */
+export async function getUniversitySlugsForSitemap(
+  state: string
+): Promise<{ slug: string; totalCount: number }[]> {
+  try {
+    const counts = new Map<string, number>();
+    let offset = 0;
+    while (true) {
+      const { data, error } = await supabase
+        .from("transfers")
+        .select("university")
+        .eq("state", state)
+        .eq("no_credit", false)
+        .not("univ_course", "like", "%*%")
+        .range(offset, offset + PAGE_SIZE - 1);
+
+      if (error || !data || data.length === 0) break;
+      for (const row of data) {
+        counts.set(row.university, (counts.get(row.university) || 0) + 1);
+      }
+      if (data.length < PAGE_SIZE) break;
+      offset += PAGE_SIZE;
+    }
+
+    if (counts.size > 0) {
+      return Array.from(counts.entries())
+        .map(([slug, totalCount]) => ({ slug, totalCount }))
+        .sort((a, b) => b.totalCount - a.totalCount);
+    }
+  } catch {
+    // fall through to local file
+  }
+
+  try {
+    const raw = fs.readFileSync(dataPath(state), "utf-8");
+    const mappings = JSON.parse(raw) as TransferMapping[];
+    const counts = new Map<string, number>();
+    for (const m of mappings) {
+      if (m.univ_course && m.univ_course.includes("*")) continue;
+      if (m.no_credit) continue;
+      counts.set(m.university, (counts.get(m.university) || 0) + 1);
+    }
+    return Array.from(counts.entries())
+      .map(([slug, totalCount]) => ({ slug, totalCount }))
+      .sort((a, b) => b.totalCount - a.totalCount);
+  } catch {
+    return [];
+  }
+}
+
 // Re-export the lookup shape from the edge-safe module so callers that need
 // the type can import it from either module. The scoped helpers themselves
 // live in `lib/transfer-scoped.ts` to keep `fs`/`path` out of edge bundles.

@@ -7,6 +7,8 @@ import {
   type SitemapEntry,
 } from "@/lib/sitemap-xml";
 
+export const revalidate = 86400;
+
 export async function GET() {
   const url = siteOrigin();
   const entries: SitemapEntry[] = [
@@ -14,7 +16,9 @@ export async function GET() {
     { url: `${url}/colleges`, changeFrequency: "weekly", priority: 0.9 },
   ];
 
-  for (const state of getAllStates()) {
+  const states = getAllStates();
+
+  for (const state of states) {
     const s = state.slug;
     entries.push(
       { url: `${url}/${s}`, changeFrequency: "weekly", priority: 1 },
@@ -38,17 +42,25 @@ export async function GET() {
         priority: 0.85,
       });
     }
-    try {
-      const od = await loadOnlineData(s);
-      if (onlineQualifies(od)) {
-        entries.push({
-          url: `${url}/${s}/online`,
-          changeFrequency: "weekly",
+  }
+
+  const onlineResults = await Promise.allSettled(
+    states.map(async (state) => {
+      const od = await loadOnlineData(state.slug);
+      if (od && onlineQualifies(od)) {
+        return {
+          url: `${url}/${state.slug}/online`,
+          changeFrequency: "weekly" as const,
           priority: 0.85,
-        });
+        };
       }
-    } catch {
-      // skip if online data load fails
+      return null;
+    })
+  );
+
+  for (const r of onlineResults) {
+    if (r.status === "fulfilled" && r.value) {
+      entries.push(r.value);
     }
   }
 
