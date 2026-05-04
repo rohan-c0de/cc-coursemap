@@ -71,7 +71,9 @@ export async function getCurrentTerm(state: string): Promise<string> {
       { p_state: state }
     );
 
-    if (!rpcErr && rpcData && rpcData.length > 0) {
+    if (!rpcErr && rpcData) {
+      if (rpcData.length === 0) return "2026SP";
+
       let bestTerm = rpcData[0].term;
       let bestCount = Number(rpcData[0].college_count);
 
@@ -90,7 +92,7 @@ export async function getCurrentTerm(state: string): Promise<string> {
     }
 
     // Fallback: use getAvailableTerms + individual queries (old slow path)
-    console.warn("get_term_college_counts RPC not available, using fallback. Error:", rpcErr?.message ?? rpcErr, "Data:", rpcData);
+    console.warn("get_term_college_counts RPC error, using fallback:", rpcErr?.message ?? rpcErr);
     const terms = await getAvailableTerms(state);
     if (terms.length === 0) return "2026SP";
 

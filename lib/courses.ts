@@ -107,7 +107,7 @@ export async function getAvailableTerms(state: string): Promise<string[]> {
     }
 
     // Fallback: select distinct via select + limit (less efficient but works without RPC)
-    console.warn("get_distinct_terms RPC not available, using fallback. Error:", error?.message ?? error, "Data:", data);
+    console.warn("get_distinct_terms RPC error, using fallback:", error?.message ?? error);
     const { data: fallback, error: fbErr } = await supabase
       .from("courses")
       .select("term")
