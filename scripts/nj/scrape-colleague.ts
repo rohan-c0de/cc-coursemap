@@ -654,9 +654,15 @@ async function main() {
 
       if (sections.length > 0) {
         const termCode = sections[0].term;
+        // Some NJ Colleague installations (e.g. Passaic) return term codes
+        // containing slashes like "26/SU1". Use a sanitized form for the
+        // filename so we keep the flat data/{state}/courses/{slug}/{term}.json
+        // layout; the in-memory `term` field is left alone for downstream
+        // import logic.
+        const fileTermCode = termCode.replace(/[\\/]/g, "-");
         const outDir = path.join(process.cwd(), "data", "nj", "courses", slug);
         fs.mkdirSync(outDir, { recursive: true });
-        const outPath = path.join(outDir, `${termCode}.json`);
+        const outPath = path.join(outDir, `${fileTermCode}.json`);
         fs.writeFileSync(outPath, JSON.stringify(sections, null, 2) + "\n");
         console.log(`\n  Written ${sections.length} sections to ${outPath}`);
       } else {
