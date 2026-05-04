@@ -6,7 +6,13 @@
  * SPA rendering and CSRF token requirements, then calls the internal
  * PostSearchCriteria API for each subject to get full section data.
  *
+ * Term discovery is per-college (issue #172): each college is asked which
+ * of the current/next/next-next calendar terms have live sections, and we
+ * use that college's native term codes. Pass `--term` to override with a
+ * specific list (still per-college matched).
+ *
  * Usage:
+ *   npx tsx scripts/nj/scrape-colleague.ts                       # all colleges, auto-discover
  *   npx tsx scripts/nj/scrape-colleague.ts --college bergen
  *   npx tsx scripts/nj/scrape-colleague.ts --college bergen --term "Spring 2026"
  *   npx tsx scripts/nj/scrape-colleague.ts --all
@@ -15,6 +21,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { chromium, type Page, type BrowserContext } from "playwright";
+import { resolveCollegeTerms } from "../lib/colleague-terms";
 
 // ---------------------------------------------------------------------------
 // Config
@@ -613,10 +620,11 @@ async function main() {
   const termFlag = args.indexOf("--term");
   const allFlag = args.includes("--all");
 
-  // Support comma-separated terms: --term "Summer 2026,Fall 2026"
-  const termNames = termFlag >= 0
+  // --term, when given, overrides per-college discovery and forces the
+  // listed terms across every target. Comma-separated: "Summer 2026,Fall 2026".
+  const overrideTermNames = termFlag >= 0
     ? args[termFlag + 1].split(",").map((t) => t.trim()).filter(Boolean)
-    : ["Spring 2026"];
+    : null;
 
   let targets: [string, string][];
 
@@ -631,14 +639,14 @@ async function main() {
     targets = [[slug, baseUrl]];
   } else {
     // No --college flag → scrape all. The unified scheduled-scrape workflow
-    // invokes scrapers as `npx tsx <script> --no-import --term "..."` with no
-    // college selector, so the unattended path must default to all colleges.
+    // invokes scrapers as `npx tsx <script> --no-import` with no college
+    // selector, so the unattended path must default to all colleges.
     // --all is still accepted for explicit invocations.
     void allFlag;
     targets = Object.entries(COLLEAGUE_COLLEGES);
   }
 
-  console.log(`Scraping ${targets.length} college(s) for ${termNames.length} term(s): ${termNames.join(", ")}...\n`);
+  console.log(`Scraping ${targets.length} college(s)...\n`);
 
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
@@ -646,10 +654,22 @@ async function main() {
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   });
 
-  for (const currentTermName of termNames) {
-    console.log(`\n--- Term: ${currentTermName} ---\n`);
+  for (const [slug, baseUrl] of targets) {
+    let termNames: string[];
+    if (overrideTermNames) {
+      termNames = overrideTermNames;
+    } else {
+      const discovered = await resolveCollegeTerms(baseUrl);
+      if (discovered.length === 0) {
+        console.log(`\n--- ${slug}: no terms discovered (offline, gated, or no live sections); skipping ---`);
+        await sleep(DELAY_MS);
+        continue;
+      }
+      termNames = discovered.map((t) => t.name);
+      console.log(`\n--- ${slug}: discovered ${termNames.length} term(s): ${termNames.join(", ")} ---`);
+    }
 
-    for (const [slug, baseUrl] of targets) {
+    for (const currentTermName of termNames) {
       const sections = await scrapeCollege(slug, baseUrl, currentTermName, context);
 
       if (sections.length > 0) {
@@ -664,9 +684,9 @@ async function main() {
         fs.mkdirSync(outDir, { recursive: true });
         const outPath = path.join(outDir, `${fileTermCode}.json`);
         fs.writeFileSync(outPath, JSON.stringify(sections, null, 2) + "\n");
-        console.log(`\n  Written ${sections.length} sections to ${outPath}`);
+        console.log(`  Written ${sections.length} sections to ${outPath}`);
       } else {
-        console.log(`\n  No sections found for ${slug} (${currentTermName})`);
+        console.log(`  No sections found for ${slug} (${currentTermName})`);
       }
 
       await sleep(DELAY_MS);

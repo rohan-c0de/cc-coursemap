@@ -74,7 +74,7 @@ const njConfig: StateConfig = {
 
   scrapers: {
     courses: [
-      { scripts: ["scripts/nj/scrape-colleague.ts"], runner: "playwright", termSystem: "colleague-nj" },
+      { scripts: ["scripts/nj/scrape-colleague.ts"], runner: "playwright" },
       { scripts: ["scripts/nj/scrape-banner-ssb.ts"], runner: "http" },
     ],
     transfers: [{ scripts: ["scripts/nj/scrape-transfer.ts"], runner: "http" }],

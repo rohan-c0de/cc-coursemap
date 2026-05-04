@@ -5,14 +5,19 @@
  * which uses Ellucian Colleague Self-Service (shared VSC instance).
  * Uses Playwright to handle the SPA rendering and CSRF token requirements.
  *
+ * Term discovery is per-college (issue #172): CCV is asked which of the
+ * current/next/next-next calendar terms have live sections. Pass `--term`
+ * to override.
+ *
  * Usage:
- *   npx tsx scripts/vt/scrape-colleague.ts
+ *   npx tsx scripts/vt/scrape-colleague.ts                 # auto-discover terms
  *   npx tsx scripts/vt/scrape-colleague.ts --term "Fall 2026"
  */
 
 import * as fs from "fs";
 import * as path from "path";
 import { chromium, type Page, type BrowserContext } from "playwright";
+import { resolveCollegeTerms } from "../lib/colleague-terms";
 
 // ---------------------------------------------------------------------------
 // Config
@@ -554,7 +559,22 @@ async function scrapeCollege(
 async function main() {
   const args = process.argv.slice(2);
   const termIdx = args.indexOf("--term");
-  const termName = termIdx >= 0 ? args[termIdx + 1] : "Fall 2026";
+  const overrideTermNames = termIdx >= 0
+    ? args[termIdx + 1].split(",").map((t) => t.trim()).filter(Boolean)
+    : null;
+
+  let termNames: string[];
+  if (overrideTermNames) {
+    termNames = overrideTermNames;
+  } else {
+    const discovered = await resolveCollegeTerms(BASE_URL);
+    if (discovered.length === 0) {
+      console.log(`No terms discovered at ${BASE_URL} (offline, gated, or no live sections); nothing to do.`);
+      return;
+    }
+    termNames = discovered.map((t) => t.name);
+    console.log(`Discovered ${termNames.length} term(s): ${termNames.join(", ")}`);
+  }
 
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
@@ -562,19 +582,21 @@ async function main() {
   });
 
   try {
-    const sections = await scrapeCollege(termName, context);
+    for (const termName of termNames) {
+      const sections = await scrapeCollege(termName, context);
 
-    if (sections.length > 0) {
-      // Determine standard term from first section
-      const standardTerm = sections[0].term;
-      const outDir = path.join(process.cwd(), "data", STATE, "courses", SLUG);
-      fs.mkdirSync(outDir, { recursive: true });
-      const outPath = path.join(outDir, `${standardTerm}.json`);
-      fs.writeFileSync(outPath, JSON.stringify(sections, null, 2) + "\n");
-      const withPrereqs = sections.filter((s) => s.prerequisite_text).length;
-      console.log(`\n  → ${sections.length} sections written to ${outPath} (${withPrereqs} with prereqs)`);
-    } else {
-      console.log("\n  No sections found.");
+      if (sections.length > 0) {
+        const standardTerm = sections[0].term;
+        const fileTermCode = standardTerm.replace(/[\\/]/g, "-");
+        const outDir = path.join(process.cwd(), "data", STATE, "courses", SLUG);
+        fs.mkdirSync(outDir, { recursive: true });
+        const outPath = path.join(outDir, `${fileTermCode}.json`);
+        fs.writeFileSync(outPath, JSON.stringify(sections, null, 2) + "\n");
+        const withPrereqs = sections.filter((s) => s.prerequisite_text).length;
+        console.log(`  → ${sections.length} sections written to ${outPath} (${withPrereqs} with prereqs)`);
+      } else {
+        console.log(`  No sections found for ${termName}.`);
+      }
     }
 
     // Auto-import into Supabase (skip with --no-import)

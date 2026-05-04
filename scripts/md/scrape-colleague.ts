@@ -4,7 +4,13 @@
  * Scrapes course section data from Maryland community colleges that use
  * Ellucian Colleague Self-Service. Adapted from the SC Colleague scraper.
  *
+ * Term discovery is per-college (issue #172): each college is asked which
+ * of the current/next/next-next calendar terms have live sections, and we
+ * use that college's native term codes (with MD-specific normalization
+ * applied at file-write time). Pass `--term` to override.
+ *
  * Usage:
+ *   npx tsx scripts/md/scrape-colleague.ts                            # all colleges, auto-discover
  *   npx tsx scripts/md/scrape-colleague.ts --college allegany
  *   npx tsx scripts/md/scrape-colleague.ts --college allegany --term "Spring 2026"
  *   npx tsx scripts/md/scrape-colleague.ts --all
@@ -13,6 +19,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { chromium, type Page, type BrowserContext } from "playwright";
+import { resolveCollegeTerms } from "../lib/colleague-terms";
 
 // ---------------------------------------------------------------------------
 // Config
@@ -647,13 +654,15 @@ async function main() {
   const termFlag = args.indexOf("--term");
   const allFlag = args.includes("--all");
 
-  const termName = termFlag >= 0 ? args[termFlag + 1] : "Fall 2026";
+  // --term, when given, overrides per-college discovery and forces the
+  // listed terms across every target. Comma-separated: "Summer 2026,Fall 2026".
+  const overrideTermNames = termFlag >= 0
+    ? args[termFlag + 1].split(",").map((t) => t.trim()).filter(Boolean)
+    : null;
 
   let targets: [string, string][];
 
-  if (allFlag) {
-    targets = Object.entries(COLLEAGUE_COLLEGES);
-  } else if (collegeFlag >= 0) {
+  if (collegeFlag >= 0) {
     const slug = args[collegeFlag + 1];
     const baseUrl = COLLEAGUE_COLLEGES[slug];
     if (!baseUrl) {
@@ -665,16 +674,11 @@ async function main() {
     }
     targets = [[slug, baseUrl]];
   } else {
-    console.log("Usage:");
-    console.log("  npx tsx scripts/md/scrape-colleague.ts --college allegany");
-    console.log(
-      '  npx tsx scripts/md/scrape-colleague.ts --college allegany --term "Fall 2026"'
-    );
-    console.log("  npx tsx scripts/md/scrape-colleague.ts --all");
-    process.exit(0);
+    void allFlag;
+    targets = Object.entries(COLLEAGUE_COLLEGES);
   }
 
-  console.log(`Scraping ${targets.length} MD college(s) for ${termName}...\n`);
+  console.log(`Scraping ${targets.length} MD college(s)...\n`);
 
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
@@ -684,32 +688,49 @@ async function main() {
   });
 
   for (const [slug, baseUrl] of targets) {
-    const sections = await scrapeCollege(slug, baseUrl, termName, context);
-
-    if (sections.length > 0) {
-      const rawTermCode = sections[0].term;
-      // Normalize: strip slashes (e.g. "2026/FA" → "2026FA", "26/FA" → "2026FA")
-      let termCode = rawTermCode.replace(/\//g, "");
-      // Normalize SM → SU (some Colleague portals use SM for Summer)
-      termCode = termCode.replace(/SM$/, "SU").replace(/SM(\d)/, "SU$1");
-      // Fix 2-digit year prefix (e.g. "26FA" → "2026FA")
-      if (/^\d{2}(SP|SU|FA)$/.test(termCode)) {
-        termCode = "20" + termCode;
-      }
-      termCode = termCode.replace(/^(\d{4}(?:SP|SU|FA)).*$/, "$1");
-      if (termCode !== rawTermCode) {
-        for (const s of sections) s.term = termCode;
-      }
-      const outDir = path.join(process.cwd(), "data", "md", "courses", slug);
-      fs.mkdirSync(outDir, { recursive: true });
-      const outPath = path.join(outDir, `${termCode}.json`);
-      fs.writeFileSync(outPath, JSON.stringify(sections, null, 2) + "\n");
-      console.log(`\n  Written ${sections.length} sections to ${outPath}`);
+    let termNames: string[];
+    if (overrideTermNames) {
+      termNames = overrideTermNames;
     } else {
-      console.log(`\n  No sections found for ${slug}`);
+      const discovered = await resolveCollegeTerms(baseUrl);
+      if (discovered.length === 0) {
+        console.log(`\n--- ${slug}: no terms discovered (offline, gated, or no live sections); skipping ---`);
+        await sleep(DELAY_MS);
+        continue;
+      }
+      termNames = discovered.map((t) => t.name);
+      console.log(`\n--- ${slug}: discovered ${termNames.length} term(s): ${termNames.join(", ")} ---`);
     }
 
-    await sleep(DELAY_MS);
+    for (const termName of termNames) {
+      const sections = await scrapeCollege(slug, baseUrl, termName, context);
+
+      if (sections.length > 0) {
+        const rawTermCode = sections[0].term;
+        // Normalize: strip slashes (e.g. "2026/FA" → "2026FA", "26/FA" → "2026FA")
+        let termCode = rawTermCode.replace(/\//g, "");
+        // Normalize SM → SU (some Colleague portals use SM for Summer)
+        termCode = termCode.replace(/SM$/, "SU").replace(/SM(\d)/, "SU$1");
+        // Fix 2-digit year prefix (e.g. "26FA" → "2026FA")
+        if (/^\d{2}(SP|SU|FA)$/.test(termCode)) {
+          termCode = "20" + termCode;
+        }
+        termCode = termCode.replace(/^(\d{4}(?:SP|SU|FA)).*$/, "$1");
+        if (termCode !== rawTermCode) {
+          for (const s of sections) s.term = termCode;
+        }
+        const fileTermCode = termCode.replace(/[\\/]/g, "-");
+        const outDir = path.join(process.cwd(), "data", "md", "courses", slug);
+        fs.mkdirSync(outDir, { recursive: true });
+        const outPath = path.join(outDir, `${fileTermCode}.json`);
+        fs.writeFileSync(outPath, JSON.stringify(sections, null, 2) + "\n");
+        console.log(`  Written ${sections.length} sections to ${outPath}`);
+      } else {
+        console.log(`  No sections found for ${slug} (${termName})`);
+      }
+
+      await sleep(DELAY_MS);
+    }
   }
 
   await browser.close();

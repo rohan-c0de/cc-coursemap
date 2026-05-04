@@ -104,7 +104,7 @@ const scConfig: StateConfig = {
         ],
         runner: "http",
       },
-      { scripts: ["scripts/sc/scrape-colleague.ts"], runner: "playwright", termSystem: "colleague-sc" },
+      { scripts: ["scripts/sc/scrape-colleague.ts"], runner: "playwright" },
     ],
     transfers: [
       {
