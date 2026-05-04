@@ -17,6 +17,7 @@
  */
 
 import { currentCalendarTerm, nextTerm, type TermInfo } from "./resolve-terms";
+import { isFrozen } from "./term-freeze";
 
 interface ColleagueActivePlanTerm {
   Code: string;         // "2026SP", custom like "V26SP", or quirky like "26/SU1"
@@ -162,10 +163,18 @@ export interface CollegeTerm {
  * live sections at this specific college, and return the site's native
  * codes for each. ~1 HTTP roundtrip + 1 verification POST per matched term.
  *
+ * When `opts.freezeContext` is provided, terms whose on-disk data started
+ * 3+ weeks ago (issue #173) are dropped from the result — drop-add is
+ * closed and the data on disk is the final record. Pass `state` and `slug`
+ * so the freeze check can locate `data/{state}/courses/{slug}/{term}.json`.
+ *
  * Returns an empty array if the college is offline, gates Self-Service
  * behind auth, or has no sections posted for any of the candidate terms.
  */
-export async function resolveCollegeTerms(baseUrl: string): Promise<CollegeTerm[]> {
+export async function resolveCollegeTerms(
+  baseUrl: string,
+  opts: { freezeContext?: { state: string; slug: string } } = {}
+): Promise<CollegeTerm[]> {
   const session = await openColleagueSession(baseUrl);
   if (!session) return [];
 
@@ -186,6 +195,13 @@ export async function resolveCollegeTerms(baseUrl: string): Promise<CollegeTerm[
   // catalog has been built but no sections exist yet.
   const found: CollegeTerm[] = [];
   for (const m of matches) {
+    if (
+      opts.freezeContext &&
+      isFrozen(opts.freezeContext.state, opts.freezeContext.slug, m.active.Code)
+    ) {
+      console.log(`  [frozen] skipping ${opts.freezeContext.slug}/${m.active.Code} (${m.active.Description}) — started 3+ weeks ago`);
+      continue;
+    }
     const verify = await colleaguePostSearch(baseUrl, session, [m.active.Code]);
     if ((verify?.TotalItems ?? 0) > 0) {
       found.push({

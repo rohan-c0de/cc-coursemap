@@ -567,7 +567,7 @@ async function main() {
   if (overrideTermNames) {
     termNames = overrideTermNames;
   } else {
-    const discovered = await resolveCollegeTerms(BASE_URL);
+    const discovered = await resolveCollegeTerms(BASE_URL, { freezeContext: { state: STATE, slug: SLUG } });
     if (discovered.length === 0) {
       console.log(`No terms discovered at ${BASE_URL} (offline, gated, or no live sections); nothing to do.`);
       return;
