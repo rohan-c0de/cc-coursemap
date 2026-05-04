@@ -7,24 +7,25 @@ import {
   type SitemapEntry,
 } from "@/lib/sitemap-xml";
 
+export const revalidate = 86400;
+
 export async function GET() {
   const url = siteOrigin();
-  const entries: SitemapEntry[] = [];
 
-  for (const state of getAllStates()) {
-    try {
+  const results = await Promise.allSettled(
+    getAllStates().map(async (state) => {
       const slugs = await getQualifyingProgramSlugs(state.slug);
-      for (const slug of slugs) {
-        entries.push({
-          url: `${url}/${state.slug}/program/${slug}`,
-          changeFrequency: "weekly",
-          priority: 0.75,
-        });
-      }
-    } catch {
-      // skip state if program data loading fails
-    }
-  }
+      return slugs.map((slug) => ({
+        url: `${url}/${state.slug}/program/${slug}`,
+        changeFrequency: "weekly" as const,
+        priority: 0.75,
+      }));
+    })
+  );
+
+  const entries: SitemapEntry[] = results.flatMap((r) =>
+    r.status === "fulfilled" ? r.value : []
+  );
 
   return xmlResponse(toSitemapXml(entries));
 }

@@ -8,26 +8,26 @@ import {
   type SitemapEntry,
 } from "@/lib/sitemap-xml";
 
+export const revalidate = 86400;
+
 export async function GET() {
   const url = siteOrigin();
-  const entries: SitemapEntry[] = [];
 
-  for (const state of getAllStates()) {
-    try {
+  const results = await Promise.allSettled(
+    getAllStates().map(async (state) => {
       const currentTerm = await getCurrentTerm(state.slug);
       const { codes } = await getSitemapCourseIndex(currentTerm, state.slug);
-      for (const c of codes) {
-        const key = `${c.prefix}-${c.number}`.toLowerCase();
-        entries.push({
-          url: `${url}/${state.slug}/course/${key}`,
-          changeFrequency: "weekly",
-          priority: 0.7,
-        });
-      }
-    } catch {
-      // skip state if data loading fails
-    }
-  }
+      return codes.map((c) => ({
+        url: `${url}/${state.slug}/course/${`${c.prefix}-${c.number}`.toLowerCase()}`,
+        changeFrequency: "weekly" as const,
+        priority: 0.7,
+      }));
+    })
+  );
+
+  const entries: SitemapEntry[] = results.flatMap((r) =>
+    r.status === "fulfilled" ? r.value : []
+  );
 
   return xmlResponse(toSitemapXml(entries));
 }
