@@ -46,41 +46,47 @@ export default async function AllCollegesPage() {
   let totalColleges = 0;
   let totalCourses = 0;
 
-  for (const config of states) {
-    const institutions = loadInstitutions(config.slug);
-    const currentTerm = await getCurrentTerm(config.slug);
-    const sorted = [...institutions].sort((a, b) =>
-      a.name.localeCompare(b.name)
-    );
-
-    const insts: (typeof stateData)[number]["institutions"] = [];
-    for (const inst of sorted) {
-      const courseCount = await getCourseCount(
-        inst.college_slug,
-        currentTerm,
-        config.slug
+  await Promise.all(
+    states.map(async (config) => {
+      const institutions = loadInstitutions(config.slug);
+      const currentTerm = await getCurrentTerm(config.slug);
+      const sorted = [...institutions].sort((a, b) =>
+        a.name.localeCompare(b.name)
       );
-      totalCourses += courseCount;
-      insts.push({
-        id: inst.id,
-        name: inst.name,
-        campuses:
-          inst.campuses?.map((c) => c.name).join(", ") || "",
-        courseCount,
-        hasSenior:
-          inst.audit_policy.allowed === true &&
-          inst.audit_policy.eligibility.senior_discount.available,
-      });
-    }
 
-    totalColleges += insts.length;
-    stateData.push({
-      slug: config.slug,
-      name: config.name,
-      systemName: config.systemName,
-      institutions: insts,
-    });
-  }
+      const insts = await Promise.all(
+        sorted.map(async (inst) => {
+          const courseCount = await getCourseCount(
+            inst.college_slug,
+            currentTerm,
+            config.slug
+          );
+          return {
+            id: inst.id,
+            name: inst.name,
+            campuses: inst.campuses?.map((c) => c.name).join(", ") || "",
+            courseCount,
+            hasSenior:
+              inst.audit_policy.allowed === true &&
+              inst.audit_policy.eligibility.senior_discount.available,
+          };
+        })
+      );
+
+      const stateCourses = insts.reduce((sum, i) => sum + i.courseCount, 0);
+      totalColleges += insts.length;
+      totalCourses += stateCourses;
+      stateData.push({
+        slug: config.slug,
+        name: config.name,
+        systemName: config.systemName,
+        institutions: insts,
+      });
+    })
+  );
+
+  // Sort stateData alphabetically after parallel resolution
+  stateData.sort((a, b) => a.name.localeCompare(b.name));
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
