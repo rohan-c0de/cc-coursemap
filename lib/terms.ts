@@ -90,7 +90,7 @@ export async function getCurrentTerm(state: string): Promise<string> {
     }
 
     // Fallback: use getAvailableTerms + individual queries (old slow path)
-    console.warn("get_term_college_counts RPC not available, using fallback");
+    console.warn("get_term_college_counts RPC not available, using fallback. Error:", rpcErr?.message ?? rpcErr, "Data:", rpcData);
     const terms = await getAvailableTerms(state);
     if (terms.length === 0) return "2026SP";
 
