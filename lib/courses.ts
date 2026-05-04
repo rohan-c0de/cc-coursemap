@@ -139,30 +139,37 @@ export async function getTermsWithDataForCollegeSubject(
   return cached(
     `termsForCollegeSubject:${state}:${collegeSlug}:${prefix}`,
     async () => {
-      // Paginate the term-only scan to handle subjects at large colleges
-      // that exceed the 1000-row default cap (rare but possible).
+      // Use RPC for a single-query DISTINCT scan backed by idx_courses_college_prefix_state.
+      const { data, error } = await supabase.rpc(
+        "get_terms_for_college_subject",
+        { p_college_code: collegeSlug, p_prefix: prefix, p_state: state }
+      );
+
+      if (!error && data) {
+        return (data as { term: string }[]).map((r) => r.term).sort();
+      }
+
+      // Fallback: paginated scan (slow — only reached if RPC is unavailable).
+      console.warn(
+        "getTermsWithDataForCollegeSubject error:",
+        error?.message,
+        "— using paginated fallback"
+      );
       const seen = new Set<string>();
       const PAGE_SIZE = 1000;
       let page = 0;
       while (true) {
         const start = page * PAGE_SIZE;
-        const { data, error } = await supabase
+        const { data: rows, error: fbErr } = await supabase
           .from("courses")
           .select("term")
           .eq("college_code", collegeSlug)
           .eq("course_prefix", prefix)
           .eq("state", state)
           .range(start, start + PAGE_SIZE - 1);
-        if (error) {
-          console.error(
-            "getTermsWithDataForCollegeSubject error:",
-            error.message
-          );
-          break;
-        }
-        if (!data || data.length === 0) break;
-        for (const row of data) seen.add(row.term);
-        if (data.length < PAGE_SIZE) break;
+        if (fbErr || !rows || rows.length === 0) break;
+        for (const row of rows) seen.add(row.term);
+        if (rows.length < PAGE_SIZE) break;
         page++;
       }
       return Array.from(seen).sort();
