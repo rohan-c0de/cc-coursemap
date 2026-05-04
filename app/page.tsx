@@ -12,10 +12,11 @@ const STATE_LIST_SENTENCE =
   STATE_NAMES.length <= 1
     ? STATE_NAMES.join("")
     : `${STATE_NAMES.slice(0, -1).join(", ")}, and ${STATE_NAMES[STATE_NAMES.length - 1]}`;
+const META_DESCRIPTION = `Search community college courses, transfer credits, and schedules across ${STATE_NAMES.length} states. Free, no signup.`;
 
 export const metadata: Metadata = {
   title: "Community College Path — Find any community college course in one search",
-  description: `Search courses, look up transfer credits, and build a schedule across community colleges in ${STATE_LIST_SENTENCE}.`,
+  description: META_DESCRIPTION,
   keywords: [
     "community college courses",
     "CC course finder",
@@ -26,14 +27,14 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Community College Path — Course Finder & Transfer Guide",
-    description: `Search courses, look up transfer credits, and build a schedule across community colleges in ${STATE_LIST_SENTENCE}.`,
+    description: META_DESCRIPTION,
     type: "website",
     url: "/",
   },
   twitter: {
     card: "summary_large_image",
     title: "Community College Path — Course Finder & Transfer Guide",
-    description: `Search courses, look up transfer credits, and build a schedule across community colleges in ${STATE_LIST_SENTENCE}.`,
+    description: META_DESCRIPTION,
   },
   alternates: {
     canonical: "/",
