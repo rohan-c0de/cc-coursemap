@@ -471,6 +471,22 @@ export const articles: ArticleMeta[] = [
     clusterRole: "spoke",
   },
 
+  // --- Cluster A spoke: NH CCSNH transfer ---
+  {
+    slug: "new-hampshire-ccsnh-transfer-credit-guide",
+    title:
+      "How New Hampshire Community College Transfer Credit Actually Works: A CCSNH Student's Guide",
+    description:
+      "NH has 7 CCSNH colleges and transfer equivalencies published for only one university so far — Keene State, with a 31.1% direct match rate. Here's what that means if you're planning to transfer.",
+    date: "2026-05-04",
+    category: "state-system-explainers",
+    state: "nh",
+    author: "Community College Path",
+    tags: ["transfer", "new-hampshire", "ccsnh", "keene-state", "unh"],
+    cluster: "transfer-credit-guide",
+    clusterRole: "spoke",
+  },
+
   // --- Cluster A spoke: TN TBR transfer ---
   {
     slug: "tennessee-tbr-community-college-transfer-guide",
@@ -561,6 +577,22 @@ export const articles: ArticleMeta[] = [
     state: null,
     author: "Community College Path",
     tags: ["seniors", "tuition-waiver", "auditing", "comparison", "all-states"],
+    cluster: "senior-waivers-guide",
+    clusterRole: "spoke",
+  },
+
+  // --- Cluster B spoke: TN seniors ---
+  {
+    slug: "tennessee-senior-citizens-tbr-community-colleges",
+    title:
+      "Tennessee Senior Citizens at TBR Community Colleges: How the 65+ Tuition Waiver Actually Works",
+    description:
+      "Tennessee residents aged 65+ can take credit courses at TBR community colleges with tuition and most fees waived under Tenn. Code Ann. § 49-7-113. A small service fee (~$70/term) still applies. Here's how it works.",
+    date: "2026-05-04",
+    category: "senior-waivers",
+    state: "tn",
+    author: "Community College Path",
+    tags: ["seniors", "tennessee", "tbr", "tuition-waiver", "65-plus"],
     cluster: "senior-waivers-guide",
     clusterRole: "spoke",
   },
