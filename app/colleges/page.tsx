@@ -43,10 +43,7 @@ export default async function AllCollegesPage() {
     }[];
   }[] = [];
 
-  let totalColleges = 0;
-  let totalCourses = 0;
-
-  await Promise.all(
+  const stateResults = await Promise.all(
     states.map(async (config) => {
       const institutions = loadInstitutions(config.slug);
       const currentTerm = await getCurrentTerm(config.slug);
@@ -73,20 +70,23 @@ export default async function AllCollegesPage() {
         })
       );
 
-      const stateCourses = insts.reduce((sum, i) => sum + i.courseCount, 0);
-      totalColleges += insts.length;
-      totalCourses += stateCourses;
-      stateData.push({
+      return {
         slug: config.slug,
         name: config.name,
         systemName: config.systemName,
         institutions: insts,
-      });
+      };
     })
   );
 
-  // Sort stateData alphabetically after parallel resolution
-  stateData.sort((a, b) => a.name.localeCompare(b.name));
+  stateResults.sort((a, b) => a.name.localeCompare(b.name));
+  stateData.push(...stateResults);
+
+  const totalColleges = stateData.reduce((sum, s) => sum + s.institutions.length, 0);
+  const totalCourses = stateData.reduce(
+    (sum, s) => sum + s.institutions.reduce((n, i) => n + i.courseCount, 0),
+    0
+  );
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
