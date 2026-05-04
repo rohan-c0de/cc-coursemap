@@ -5,8 +5,17 @@
 // (API routes, scripts, server components — never the browser).
 
 import { createHash } from "node:crypto";
-import { getServiceClient } from "../supabase";
 import type { ClassifiedIntent } from "./types";
+
+// Lazy-load lib/supabase to avoid forcing Supabase client construction at
+// module-load time. Importing lib/supabase eagerly creates a client (top-
+// level `createClient` call), which throws if NEXT_PUBLIC_SUPABASE_URL is
+// not set. The eval script and any caller that only needs memoryCache /
+// nullCache should not require Supabase env vars.
+async function loadServiceClient() {
+  const mod = await import("../supabase");
+  return mod.getServiceClient();
+}
 
 const TABLE = "search_intent_cache";
 
@@ -38,7 +47,7 @@ export type Cache = CacheReader & CacheWriter;
 export function supabaseCache(): Cache {
   return {
     async get(query, modelVersion) {
-      const client = getServiceClient();
+      const client = await loadServiceClient();
       const { data, error } = await client
         .from(TABLE)
         .select("classification")
@@ -57,7 +66,7 @@ export function supabaseCache(): Cache {
     },
 
     async put(query, modelVersion, classification) {
-      const client = getServiceClient();
+      const client = await loadServiceClient();
       const { error } = await client.from(TABLE).upsert({
         query_hash: hashQuery(query),
         model_version: modelVersion,
