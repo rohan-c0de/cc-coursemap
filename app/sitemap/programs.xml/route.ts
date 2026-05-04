@@ -15,10 +15,12 @@ export async function GET() {
   const results = await Promise.allSettled(
     getAllStates().map(async (state) => {
       const slugs = await getQualifyingProgramSlugs(state.slug);
+      const lastModified = new Date();
       return slugs.map((slug) => ({
         url: `${url}/${state.slug}/program/${slug}`,
         changeFrequency: "weekly" as const,
         priority: 0.75,
+        lastModified,
       }));
     })
   );

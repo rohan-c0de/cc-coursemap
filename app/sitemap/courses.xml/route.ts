@@ -17,10 +17,12 @@ export async function GET() {
     getAllStates().map(async (state) => {
       const currentTerm = await getCurrentTerm(state.slug);
       const { codes } = await getSitemapCourseIndex(currentTerm, state.slug);
+      const lastModified = new Date();
       return codes.map((c) => ({
         url: `${url}/${state.slug}/course/${`${c.prefix}-${c.number}`.toLowerCase()}`,
         changeFrequency: "weekly" as const,
         priority: 0.7,
+        lastModified,
       }));
     })
   );

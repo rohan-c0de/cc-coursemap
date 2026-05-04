@@ -11,9 +11,10 @@ export const revalidate = 86400;
 
 export async function GET() {
   const url = siteOrigin();
+  const now = new Date();
   const entries: SitemapEntry[] = [
-    { url, changeFrequency: "weekly", priority: 1 },
-    { url: `${url}/colleges`, changeFrequency: "weekly", priority: 0.9 },
+    { url, changeFrequency: "weekly", priority: 1, lastModified: now },
+    { url: `${url}/colleges`, changeFrequency: "weekly", priority: 0.9, lastModified: now },
   ];
 
   const states = getAllStates();
@@ -21,25 +22,18 @@ export async function GET() {
   for (const state of states) {
     const s = state.slug;
     entries.push(
-      { url: `${url}/${s}`, changeFrequency: "weekly", priority: 1 },
-      { url: `${url}/${s}/courses`, changeFrequency: "weekly", priority: 0.9 },
-      {
-        url: `${url}/${s}/colleges`,
-        changeFrequency: "weekly",
-        priority: 0.9,
-      },
-      {
-        url: `${url}/${s}/starting-soon`,
-        changeFrequency: "daily",
-        priority: 0.85,
-      },
-      { url: `${url}/${s}/about`, changeFrequency: "monthly", priority: 0.6 }
+      { url: `${url}/${s}`, changeFrequency: "weekly", priority: 1, lastModified: now },
+      { url: `${url}/${s}/courses`, changeFrequency: "weekly", priority: 0.9, lastModified: now },
+      { url: `${url}/${s}/colleges`, changeFrequency: "weekly", priority: 0.9, lastModified: now },
+      // /starting-soon is noindex (client-rendered tool page) — omit from sitemap
+      { url: `${url}/${s}/about`, changeFrequency: "monthly", priority: 0.6, lastModified: now }
     );
     if (state.transferSupported) {
       entries.push({
         url: `${url}/${s}/transfer`,
         changeFrequency: "weekly",
         priority: 0.85,
+        lastModified: now,
       });
     }
   }

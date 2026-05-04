@@ -27,6 +27,7 @@ export async function GET() {
             url: `${url}/${state.slug}/subject/${prefix.toLowerCase()}`,
             changeFrequency: "weekly",
             priority: 0.65,
+            lastModified: new Date(),
           });
         }
       }

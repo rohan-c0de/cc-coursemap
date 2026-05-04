@@ -25,6 +25,7 @@ export async function GET() {
             url: `${url}/${state.slug}/transfer/to/${u.slug}`,
             changeFrequency: "weekly" as const,
             priority: 0.8,
+            lastModified: new Date(),
           }));
       })
   );
