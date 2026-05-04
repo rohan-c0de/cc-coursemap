@@ -1,131 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isValidState } from "@/lib/states/registry";
-import fs from "fs";
-import path from "path";
+import { buildChain, loadPrereqs } from "@/lib/prereqs";
+
+// Re-export for any external callers that imported these from the route
+// before lib/prereqs existed.
+export { buildChain, parsePrereqGroups } from "@/lib/prereqs";
+export type { ChainNode } from "@/lib/prereqs";
 
 type RouteContext = { params: Promise<{ state: string }> };
-
-/**
- * Prerequisite chain tree node. Each node represents a course and its
- * direct prerequisites, recursively nested. Children are grouped into
- * AND-of-OR groups: outer array = AND (all required), inner array = OR
- * (pick one). A flat `children` array is also provided for backward compat.
- */
-export interface ChainNode {
-  course: string;
-  text: string;        // Human-readable prereq description for THIS course
-  children: ChainNode[];
-  groups?: ChainNode[][]; // AND-of-OR groups (if applicable)
-}
-
-/**
- * Load the prereqs.json for a state and return it as a Map.
- */
-function loadPrereqs(
-  state: string,
-): Map<string, { text: string; courses: string[] }> {
-  const jsonPath = path.join(process.cwd(), "data", state, "prereqs.json");
-  try {
-    const raw = JSON.parse(fs.readFileSync(jsonPath, "utf-8")) as Record<
-      string,
-      { text: string; courses: string[] }
-    >;
-    return new Map(Object.entries(raw));
-  } catch {
-    return new Map();
-  }
-}
-
-/**
- * Parse prereq text into AND-of-OR groups.
- * "ACC 101 and (BUS 107 or CIS 107)" → [["ACC 101"], ["BUS 107","CIS 107"]]
- */
-export function parsePrereqGroups(text: string, courses: string[]): string[][] {
-  if (courses.length === 0) return [];
-  if (courses.length === 1) return [courses];
-
-  const chunks: string[] = [];
-  let depth = 0;
-  let current = "";
-  const tokens = text.split(/(\s+)/);
-  for (const token of tokens) {
-    for (const ch of token) {
-      if (ch === "(") depth++;
-      if (ch === ")") depth--;
-    }
-    if (token.toLowerCase() === "and" && depth === 0 && current.trim()) {
-      chunks.push(current.trim());
-      current = "";
-    } else {
-      current += token;
-    }
-  }
-  if (current.trim()) chunks.push(current.trim());
-
-  const groups: string[][] = [];
-  const assigned = new Set<string>();
-  for (const chunk of chunks) {
-    const group: string[] = [];
-    for (const course of courses) {
-      if (assigned.has(course)) continue;
-      if (chunk.toUpperCase().includes(course)) {
-        group.push(course);
-        assigned.add(course);
-      }
-    }
-    if (group.length > 0) groups.push(group);
-  }
-  for (const course of courses) {
-    if (!assigned.has(course)) groups.push([course]);
-  }
-  return groups;
-}
-
-/**
- * Recursively build the prerequisite chain tree. Caps depth at 6 to avoid
- * runaway recursion from circular prereq definitions (which exist in some
- * catalogs, e.g. "MATH A requires MATH B" + "MATH B requires MATH A").
- *
- * Returns both a flat `children` array (backward compat) and a `groups`
- * array that preserves AND-of-OR structure from the prereq text.
- */
-export function buildChain(
-  course: string,
-  prereqs: Map<string, { text: string; courses: string[] }>,
-  visited: Set<string>,
-  depth: number,
-): ChainNode {
-  const entry = prereqs.get(course);
-  const node: ChainNode = {
-    course,
-    text: entry?.text || "",
-    children: [],
-  };
-
-  if (depth >= 6 || !entry || visited.has(course)) return node;
-  visited.add(course);
-
-  // Build children with AND/OR grouping
-  const orGroups = parsePrereqGroups(entry.text, entry.courses);
-  const groupNodes: ChainNode[][] = [];
-
-  for (const group of orGroups) {
-    const groupChildren: ChainNode[] = [];
-    for (const dep of group) {
-      const child = buildChain(dep, prereqs, new Set(visited), depth + 1);
-      node.children.push(child);
-      groupChildren.push(child);
-    }
-    groupNodes.push(groupChildren);
-  }
-
-  // Only include groups if there are actual OR alternatives
-  if (groupNodes.some((g) => g.length > 1)) {
-    node.groups = groupNodes;
-  }
-
-  return node;
-}
 
 /**
  * GET /api/[state]/prereqs/chain?course=CHEM+1110
