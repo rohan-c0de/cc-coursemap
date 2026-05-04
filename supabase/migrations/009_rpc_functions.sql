@@ -93,3 +93,14 @@ $$;
 -- ---------------------------------------------------------------------------
 CREATE INDEX CONCURRENTLY IF NOT EXISTS idx_courses_college_prefix_state
   ON courses(college_code, course_prefix, state);
+
+-- ---------------------------------------------------------------------------
+-- Grant execute permissions to PostgREST roles
+-- Without these grants the anon/authenticated roles can't call the RPCs
+-- via the Supabase JS client, causing silent fallback to slow query paths.
+-- ---------------------------------------------------------------------------
+GRANT EXECUTE ON FUNCTION get_distinct_terms(text) TO anon, authenticated;
+GRANT EXECUTE ON FUNCTION get_term_college_counts(text) TO anon, authenticated;
+GRANT EXECUTE ON FUNCTION get_terms_for_college_subject(text, text, text) TO anon, authenticated;
+
+NOTIFY pgrst, 'reload schema';
