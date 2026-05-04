@@ -170,9 +170,9 @@ export const EVAL_CASES: EvalCase[] = [
     id: "ck-03-prefix-only",
     query: "ENG",
     category: "course-keyword",
-    expected: { type: "course" },
+    expected: { type: "any-of", oneOf: ["course", "unknown"] },
     notes:
-      "Subject-prefix-only query. Existing courses-search.parseQuery returns prefix. Either course or any-of acceptable.",
+      "A bare 3-letter prefix is genuinely ambiguous (subject filter? typo? abbreviation?). Either 'course' (treat as subject filter) or 'unknown' (ask for clarification) is reasonable.",
   },
   {
     id: "ck-04-macroeconomics",
@@ -208,9 +208,12 @@ export const EVAL_CASES: EvalCase[] = [
     query: "prerequisites for math 263",
     category: "prereqs",
     tags: ["lowercase"],
-    expected: { type: "prereqs", course: MTH_263 },
+    expected: {
+      type: "prereqs",
+      course: { prefix: "MATH", number: "263" },
+    },
     notes:
-      "math → MTH normalization is the classifier's job; the answer layer maps subject aliases.",
+      "Classifier preserves what the user typed ('math' → MATH). Per-state alias mapping (MATH → MTH for VA, MAT for some NC colleges) is the answer-lookup layer's job, not the classifier's.",
   },
   {
     id: "pr-04-trailing-prereqs",
@@ -309,7 +312,13 @@ export const EVAL_CASES: EvalCase[] = [
     query: "Does math 263 transfer to vcu",
     category: "transfer",
     tags: ["lowercase"],
-    expected: { type: "transfer", course: MTH_263, university: "vcu" },
+    expected: {
+      type: "transfer",
+      course: { prefix: "MATH", number: "263" },
+      university: "vcu",
+    },
+    notes:
+      "Same as pr-03: classifier preserves 'MATH' from user input; per-state aliasing is downstream.",
   },
   {
     id: "tr-07-imperative",

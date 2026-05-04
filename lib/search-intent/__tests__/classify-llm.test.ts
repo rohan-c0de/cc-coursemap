@@ -1,0 +1,172 @@
+import { describe, expect, it, vi } from "vitest";
+import { llmClassifier, toClassifiedIntent } from "../classify-llm";
+import type { ClassifierToolInput } from "../prompt";
+
+// A "fake Anthropic" — only implements the surface our classifier touches.
+function fakeClient(toolInput: Partial<ClassifierToolInput>) {
+  const create = vi.fn().mockResolvedValue({
+    content: [
+      {
+        type: "tool_use",
+        name: "classify_intent",
+        input: {
+          confidence: 0.95,
+          reasoning: "test reasoning",
+          ...toolInput,
+        },
+      },
+    ],
+  });
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  return { messages: { create } } as any;
+}
+
+describe("llmClassifier", () => {
+  it("converts a transfer tool call into a TransferIntent", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "transfer",
+        course_prefix: "ENG",
+        course_number: "111",
+        university: "gmu",
+      }),
+    });
+    const result = await classifier("Does ENG 111 transfer to GMU?");
+    expect(result.intent).toEqual({
+      type: "transfer",
+      course: { prefix: "ENG", number: "111" },
+      university: "gmu",
+    });
+    expect(result.confidence).toBe(0.95);
+  });
+
+  it("uppercases course prefix even when LLM returned lowercase", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "prereqs",
+        course_prefix: "bio",
+        course_number: "256",
+      }),
+    });
+    const result = await classifier("prereqs for bio 256");
+    expect(result.intent).toEqual({
+      type: "prereqs",
+      course: { prefix: "BIO", number: "256" },
+    });
+  });
+
+  it("preserves a course-number string with leading zero", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "course",
+        course_prefix: "ENGL",
+        course_number: "0095",
+      }),
+    });
+    const result = await classifier("ENGL 0095");
+    if (result.intent.type !== "course") throw new Error("wrong type");
+    expect(result.intent.filters.course?.number).toBe("0095");
+  });
+
+  it("clamps an out-of-range confidence into [0,1]", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "unknown",
+        confidence: 1.5,
+      }),
+    });
+    const result = await classifier("???");
+    expect(result.confidence).toBe(1);
+  });
+
+  it("falls back to confidence=0 if LLM returned NaN", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "unknown",
+        confidence: Number.NaN,
+      }),
+    });
+    const result = await classifier("???");
+    expect(result.confidence).toBe(0);
+  });
+
+  it("defaults eligibility topic to 'senior' if LLM omitted it", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "eligibility",
+        // topic intentionally absent
+        age: 65,
+      }),
+    });
+    const result = await classifier("free college if I'm 65");
+    if (result.intent.type !== "eligibility") throw new Error("wrong type");
+    expect(result.intent.topic).toBe("senior");
+    expect(result.intent.age).toBe(65);
+  });
+
+  it("expands course filters into the CourseIntent shape", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "course",
+        keyword: "biology",
+        mode: "online",
+        time_of_day: "evening",
+        days: ["S", "U"],
+        term: "Summer 2026",
+      }),
+    });
+    const result = await classifier("online evening biology weekend summer 2026");
+    if (result.intent.type !== "course") throw new Error("wrong type");
+    expect(result.intent.filters).toEqual({
+      course: undefined,
+      mode: "online",
+      timeOfDay: "evening",
+      days: ["S", "U"],
+      term: "Summer 2026",
+    });
+    expect(result.intent.keyword).toBe("biology");
+  });
+
+  it("represents unknown intents with the raw query echoed back", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({ type: "unknown", confidence: 0.2 }),
+    });
+    const result = await classifier("good professors");
+    expect(result.intent).toEqual({ type: "unknown", raw: "good professors" });
+  });
+
+  it("throws if the LLM did not call the classify_intent tool", async () => {
+    const create = vi.fn().mockResolvedValue({
+      content: [{ type: "text", text: "Sorry I cannot do that." }],
+    });
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const badClient = { messages: { create } } as any;
+    const classifier = llmClassifier({ client: badClient });
+    await expect(classifier("anything")).rejects.toThrow(/did not return a classify_intent/);
+  });
+});
+
+describe("toClassifiedIntent", () => {
+  it("ignores course fields when type is 'unknown'", () => {
+    const result = toClassifiedIntent("test", {
+      type: "unknown",
+      course_prefix: "ENG",
+      course_number: "111",
+      confidence: 0.1,
+      reasoning: "x",
+    });
+    expect(result.intent).toEqual({ type: "unknown", raw: "test" });
+  });
+
+  it("returns null course when one of prefix/number is missing", () => {
+    const result = toClassifiedIntent("test", {
+      type: "transfer",
+      course_prefix: "ENG",
+      course_number: null,
+      confidence: 0.5,
+      reasoning: "x",
+    });
+    if (result.intent.type !== "transfer") throw new Error("wrong type");
+    expect(result.intent.course).toBeNull();
+  });
+});
