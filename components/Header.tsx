@@ -16,7 +16,7 @@ const NAV_ITEMS = [
   { path: "/about", label: "About" },
 ];
 
-export default function Header({ state = "va", stateName, transferSupported = true, prereqsAvailable = false }: { state?: string; stateName?: string; transferSupported?: boolean; prereqsAvailable?: boolean }) {
+export default function Header({ state, stateName, transferSupported = true, prereqsAvailable = false }: { state: string; stateName?: string; transferSupported?: boolean; prereqsAvailable?: boolean }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const links = NAV_ITEMS

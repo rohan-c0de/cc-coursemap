@@ -9,9 +9,9 @@ export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title:
-    "All Community Colleges — Browse 160+ Colleges Across 13 States | CC CourseMap",
+    "All Community Colleges — Browse Every College Across All States | Community College Path",
   description:
-    "Browse every community college on CC CourseMap. Find courses, check transfer equivalencies, and compare colleges across Virginia, North Carolina, Georgia, New York, and more.",
+    "Browse every community college on Community College Path. Find courses, check transfer equivalencies, and compare colleges across states — all in one place.",
   keywords: [
     "community colleges",
     "community college directory",

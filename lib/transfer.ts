@@ -82,7 +82,7 @@ export function capMappingsByRoundRobin(
   return out;
 }
 
-function dataPath(state = "va"): string {
+function dataPath(state: string): string {
   return path.join(process.cwd(), "data", state, "transfer-equiv.json");
 }
 
@@ -99,7 +99,7 @@ const PAGE_SIZE = 1000;
  * Cached after first load.
  */
 export async function loadTransferMappings(
-  state = "va"
+  state: string
 ): Promise<TransferMapping[]> {
   if (transferCache[state]) return transferCache[state];
 
@@ -149,7 +149,7 @@ export async function loadTransferMappings(
 export async function getTransferInfo(
   prefix: string,
   number: string,
-  state = "va"
+  state: string
 ): Promise<TransferMapping[]> {
   const mappings = await loadTransferMappings(state);
   return mappings.filter(
@@ -167,7 +167,7 @@ export async function getTransferInfo(
 export async function transferSummaryLine(
   prefix: string,
   number: string,
-  state = "va"
+  state: string
 ): Promise<{ text: string; type: "direct" | "elective" | "no-credit" } | null> {
   const info = await getTransferInfo(prefix, number, state);
   if (info.length === 0) return null;
@@ -194,7 +194,7 @@ export async function transferSummaryLine(
 export async function getAcceptingUniversities(
   prefix: string,
   number: string,
-  state = "va"
+  state: string
 ): Promise<string[]> {
   const info = await getTransferInfo(prefix, number, state);
   return info.filter((m) => !m.no_credit).map((m) => m.university_name);
@@ -203,7 +203,7 @@ export async function getAcceptingUniversities(
 /** Get all mappings for a specific university. */
 export async function getCoursesForUniversity(
   university: string,
-  state = "va"
+  state: string
 ): Promise<TransferMapping[]> {
   const mappings = await loadTransferMappings(state);
   return mappings.filter((m) => m.university === university);
@@ -211,7 +211,7 @@ export async function getCoursesForUniversity(
 
 /** Get the list of all universities in the dataset. */
 export async function getUniversities(
-  state = "va"
+  state: string
 ): Promise<{ slug: string; name: string }[]> {
   const mappings = await loadTransferMappings(state);
   const seen = new Map<string, string>();
@@ -231,7 +231,7 @@ export async function getUniversities(
  * Used by the /[state]/transfer "Browse by university" list and by the
  * transfer-hub page's thin-content guard in generateStaticParams.
  */
-export async function getUniversitiesWithCounts(state = "va"): Promise<
+export async function getUniversitiesWithCounts(state: string): Promise<
   {
     slug: string;
     name: string;
@@ -282,7 +282,7 @@ import type { TransferLookup } from "./transfer-scoped";
  * Build a lookup map for client-side filtering:
  * { "ENG-111": [{ university: "vt", type: "direct" }], ... }
  */
-export async function buildTransferLookup(state = "va"): Promise<TransferLookup> {
+export async function buildTransferLookup(state: string): Promise<TransferLookup> {
   const mappings = await loadTransferMappings(state);
   const lookup: TransferLookup = {};
 

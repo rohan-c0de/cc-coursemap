@@ -44,7 +44,7 @@ async function cached<T>(key: string, fn: () => Promise<T>): Promise<T> {
 export async function loadCoursesForCollege(
   collegeSlug: string,
   term: string,
-  state = "va"
+  state: string
 ): Promise<CourseSection[]> {
   return cached(`courses:${state}:${collegeSlug}:${term}`, async () => {
     // Supabase caps rows at 1000 by default. Paginate in parallel to get
@@ -95,7 +95,7 @@ export async function loadCoursesForCollege(
  * Get all term codes that have at least one course in Supabase for a state.
  * Uses RPC function to avoid downloading all rows.
  */
-export async function getAvailableTerms(state = "va"): Promise<string[]> {
+export async function getAvailableTerms(state: string): Promise<string[]> {
   return cached(`terms:${state}`, async () => {
     // Use RPC if available, fallback to manual distinct
     const { data, error } = await supabase.rpc("get_distinct_terms", {
@@ -134,7 +134,7 @@ export async function getAvailableTerms(state = "va"): Promise<string[]> {
 export async function getTermsWithDataForCollegeSubject(
   collegeSlug: string,
   prefix: string,
-  state = "va"
+  state: string
 ): Promise<string[]> {
   return cached(
     `termsForCollegeSubject:${state}:${collegeSlug}:${prefix}`,
@@ -176,7 +176,7 @@ export async function getTermsWithDataForCollegeSubject(
 export async function getCourseCount(
   collegeSlug: string,
   term: string,
-  state = "va"
+  state: string
 ): Promise<number> {
   return cached(`count:${state}:${collegeSlug}:${term}`, async () => {
     const { count, error } = await supabase
@@ -223,7 +223,7 @@ export function filterCourses(
 export async function isDataStale(
   collegeSlug: string,
   term: string,
-  state = "va"
+  state: string
 ): Promise<boolean> {
   const { data, error } = await supabase
     .from("courses")
@@ -296,7 +296,7 @@ export function getUniqueSubjects(courses: CourseSection[]): string[] {
  */
 export async function loadAllCourses(
   term: string,
-  state = "va"
+  state: string
 ): Promise<CourseSection[]> {
   return cached(`allCourses:${state}:${term}`, async () => {
     // First, get total count to know how many pages we need
@@ -347,7 +347,7 @@ export async function loadCourseByCode(
   prefix: string,
   number: string,
   term: string,
-  state = "va"
+  state: string
 ): Promise<CourseSection[]> {
   return cached(`course:${state}:${term}:${prefix}:${number}`, async () => {
     const { data, error } = await supabase
@@ -377,7 +377,7 @@ export async function loadCourseByCode(
 export async function loadCoursesBySubject(
   prefix: string,
   term: string,
-  state = "va"
+  state: string
 ): Promise<CourseSection[]> {
   return cached(`subject:${state}:${term}:${prefix}`, async () => {
     const { count, error: countErr } = await supabase
@@ -429,7 +429,7 @@ export async function loadCoursesBySubject(
  */
 export async function getSitemapCourseIndex(
   term: string,
-  state = "va"
+  state: string
 ): Promise<{
   codes: { prefix: string; number: string }[];
   subjectSectionCounts: Map<string, number>;
@@ -477,7 +477,7 @@ export async function getSitemapCourseIndex(
  */
 export async function getDistinctSubjects(
   term: string,
-  state = "va"
+  state: string
 ): Promise<string[]> {
   return cached(`distinctSubjects:${state}:${term}`, async () => {
     // Fallback scan that pulls only the prefix column — even without an RPC
@@ -510,7 +510,7 @@ export async function getDistinctSubjects(
  */
 export async function getDistinctCourseCodes(
   term: string,
-  state = "va"
+  state: string
 ): Promise<{ prefix: string; number: string }[]> {
   return cached(`distinctCourses:${state}:${term}`, async () => {
     // Try RPC first (most efficient: server-side DISTINCT)
