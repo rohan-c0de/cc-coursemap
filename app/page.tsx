@@ -65,7 +65,6 @@ export default async function LandingPage() {
 
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
-  const searchState = geoState ?? "va";
   const orgLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -79,14 +78,16 @@ export default async function LandingPage() {
     "@type": "WebSite",
     name: "Community College Path",
     url: siteUrl,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${siteUrl}/${searchState}/courses?q={search_term_string}`,
+    ...(geoState && {
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${siteUrl}/${geoState}/courses?q={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
       },
-      "query-input": "required name=search_term_string",
-    },
+    }),
   };
 
   return (
@@ -178,7 +179,7 @@ export default async function LandingPage() {
                 num: "02",
                 title: "Check what transfers",
                 body: "Pick your CC and your target university. See which courses count, which don't, and what they map to.",
-                href: "/va/transfer",
+                href: geoState ? `/${geoState}/transfer` : "/colleges",
                 cta: "Look up transfers",
                 icon: (
                   <path
@@ -192,7 +193,7 @@ export default async function LandingPage() {
                 num: "03",
                 title: "Build a schedule",
                 body: "Drag classes onto a weekly grid, see conflicts immediately, and export when you're ready to register.",
-                href: "/va/schedule",
+                href: geoState ? `/${geoState}/schedule` : "/colleges",
                 cta: "Open the planner",
                 icon: (
                   <path
