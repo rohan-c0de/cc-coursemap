@@ -139,7 +139,18 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const currentTerm = await getCurrentTerm(state);
   const sections = await loadCourseByCode(parsed.prefix, parsed.number, currentTerm, state);
 
-  if (sections.length === 0) return { title: "Not Found" };
+  if (sections.length === 0) {
+    // Course code is well-formed but has no sections this term. We render a
+    // real page (with helpful links) instead of calling notFound() — see the
+    // page body for why. Tell Google not to index it via robots metadata.
+    return {
+      title: `${parsed.prefix} ${parsed.number} — Not offered ${termLabel(currentTerm)} | ${config.branding.siteName}`,
+      robots: { index: false, follow: true },
+      alternates: {
+        canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com"}/${state}/course/${code}`,
+      },
+    };
+  }
 
   const title = sections[0].course_title;
   const credits = sections[0].credits;
@@ -205,7 +216,65 @@ export default async function CoursePage(props: PageProps) {
   const subjectSections = await loadCoursesBySubject(prefix, currentTerm, state);
   const sections = subjectSections.filter((c) => c.course_number === number);
 
-  if (sections.length === 0) notFound();
+  if (sections.length === 0) {
+    // The course code is well-formed and the state is valid — but no sections
+    // exist for this term. We deliberately do NOT call notFound() here:
+    // Next.js ISR caches notFound() responses as successful prerenders and
+    // Vercel's CDN re-serves them as HTTP 200, which Google treats as a soft
+    // 404. Instead we render a real page with helpful next-steps links and
+    // rely on the noindex meta in generateMetadata() to keep these out of
+    // Google's index.
+    const relatedSubjectCourses = Array.from(
+      new Map(subjectSections.map((s) => [s.course_number, s])).values(),
+    )
+      .sort((a, b) => a.course_number.localeCompare(b.course_number))
+      .slice(0, 12);
+    return (
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100 mb-2">
+          {prefix} {number}
+        </h1>
+        <p className="text-gray-600 dark:text-slate-400 mb-8">
+          No sections of {prefix} {number} are scheduled at {config.systemName}{" "}
+          colleges for {termLabel(currentTerm)}. The course may run a different
+          term, or the catalog code may have changed.
+        </p>
+        {relatedSubjectCourses.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-3">
+              Other {subjectName(prefix)} courses this term
+            </h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              {relatedSubjectCourses.map((c) => (
+                <li key={c.course_number}>
+                  <Link
+                    href={`/${state}/course/${prefix.toLowerCase()}-${c.course_number.toLowerCase()}`}
+                    className="text-teal-700 dark:text-teal-400 hover:underline"
+                  >
+                    {prefix} {c.course_number} — {c.course_title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+        <div className="flex flex-wrap gap-3 mt-8">
+          <Link
+            href={`/${state}/subject/${prefix.toLowerCase()}`}
+            className="rounded-lg bg-teal-600 px-4 py-2 text-sm font-medium text-white hover:bg-teal-700 transition"
+          >
+            Browse all {subjectName(prefix)} courses
+          </Link>
+          <Link
+            href={`/${state}`}
+            className="rounded-lg border border-gray-300 dark:border-slate-600 px-4 py-2 text-sm font-medium text-gray-700 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-800 transition"
+          >
+            {config.name} home
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   const courseTitle = sections[0].course_title;
   const credits = sections[0].credits;

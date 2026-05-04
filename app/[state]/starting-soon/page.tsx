@@ -19,6 +19,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `Courses Starting Soon — Late-Start Classes | ${config.branding.siteName}`,
     description: `Find late-start courses, mini-sessions, and upcoming classes across all ${config.collegeCount} ${config.name} community colleges. Don't miss registration deadlines.`,
     alternates: { canonical: `/${state}/starting-soon` },
+    // Tool page: the section list loads client-side, so the server HTML is
+    // just a heading + empty container. Google was flagging these as Soft
+    // 404 because the rendered HTML it crawls contains no real content.
+    robots: { index: false, follow: true },
   };
 }
 
