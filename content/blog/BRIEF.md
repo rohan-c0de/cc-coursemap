@@ -12,7 +12,7 @@ The goal is to create **meaningful, SEO-worthy, product-aligned articles** that 
 - senior tuition-waiver / auditing discovery
 - reducing wasted credits, confusion, and decision friction
 
-Community College Path currently helps users across multiple states, including Virginia, North Carolina, South Carolina, and DC.
+Community College Path currently helps users across multiple states on the East Coast and is expanding nationally.
 
 ---
 
@@ -63,9 +63,8 @@ Examples:
 
 ### 5. State-system explainers
 Examples:
-- Virginia transfer pathways
-- North Carolina transfer agreements
-- DC-specific transfer credit questions
+- how a specific state's transfer pathway works
+- what a state's transfer agreement covers (and what it doesn't)
 - rules and friction unique to a specific state system
 
 ### 6. Mistake-avoidance content
@@ -74,6 +73,27 @@ Examples:
 - misunderstanding elective credit
 - assuming availability matters more than transfer value
 - hidden traps in course planning
+
+### 7. Prerequisites and course sequencing
+Examples:
+- how to read a prereq chain before you register
+- what happens if you skip a prerequisite
+- how placement tests affect which courses you can take
+- how to avoid getting blocked mid-semester by a prereq you didn't see
+
+### 8. Online vs in-person vs hybrid
+Examples:
+- what asynchronous actually means and who it works for
+- how to evaluate course format when building a schedule
+- hybrid and HyFlex formats explained
+- format tradeoffs for working adults and caregivers
+
+### 9. Academic calendar and session timing
+Examples:
+- how summer sessions, mini-mesters, and 8-week terms differ from the standard semester
+- when to take a short-session course vs a full-semester course
+- how to stack sessions to finish faster
+- what "late-start" and "open-entry" mean and when to use them
 
 ---
 
@@ -101,9 +121,9 @@ Use **general + state-specific cluster** when:
 
 Examples:
 - “What direct match vs elective credit means” = general
-- “Virginia community college transfer: how guaranteed admission works” = state-specific
+- “[State] community college transfer: how guaranteed admission works” = state-specific
 - “Free or reduced-cost community college classes for seniors” = general hub
-- “Virginia senior tuition waiver rules explained” = state-specific spoke
+- “[State] senior tuition waiver rules explained” = state-specific spoke
 
 ---
 
@@ -171,7 +191,7 @@ The article should feel like it was written by someone who understands the probl
 Match depth to the topic. Do not pad.
 
 - A focused explainer (e.g., "What does audit mean?") might be 600–900 words.
-- A comprehensive guide (e.g., "How Virginia transfer works") might be 1,500–2,000 words.
+- A comprehensive guide (e.g., "How [State] transfer works") might be 1,500–2,000 words.
 - Never write long for the sake of length. If the topic is fully covered in 800 words, stop at 800 words.
 
 The goal is density, not volume.
@@ -202,7 +222,7 @@ Some articles are evergreen. Others will go stale.
 
 **Flag articles for annual review when they contain:**
 - State-specific rules (senior waiver ages, eligibility criteria, legal citations)
-- Transfer agreement details (CAA, GAA, specific equivalency tables)
+- Transfer agreement details (state articulation agreements, guaranteed admission programs, specific equivalency tables)
 - Specific process steps that depend on college or state system policies
 - Fee amounts or cost details
 
@@ -276,14 +296,14 @@ Use these as preferred starting points. They are grouped into clusters where ove
 ### Cluster A: Transfer credit confusion (hub + spokes)
 - **Hub:** Community College Transfer Credit: What “Direct Match” vs “Elective Credit” Actually Means
   - This is the comprehensive conceptual piece. Fold in “A Course Can Transfer and Still Not Help You Graduate” and “Community College Transfer Mistakes” as sections within this article rather than writing them as separate posts. They address the same core confusion.
-- **Spoke (VA):** Virginia Community College Transfer: How Guaranteed Admission Actually Works
-- **Spoke (NC):** North Carolina Community College to UNC Transfer: What the CAA Covers and What It Does Not
-- **Spoke (NC):** North Carolina Transfer Guides: How to Use Them Without Getting Lost
+- **Spoke (state-specific):** [State] Community College Transfer: How Guaranteed Admission Actually Works
+- **Spoke (state-specific):** [State] Community College Transfer: What the Transfer Agreement Covers and What It Does Not
+- **Spoke (state-specific):** [State] Transfer Guides: How to Use Them Without Getting Lost
 
 ### Cluster B: Senior waivers and auditing (hub + spokes)
 - **Hub:** Free or Reduced-Cost Community College Classes for Seniors: Which States Actually Offer Them?
-- **Spoke (VA):** Virginia Senior Citizens and Community College: Free Tuition vs Audit-Only Explained
-- **Spoke (NC):** North Carolina Senior Citizens at Community Colleges: What 65+ Students Can Still Do
+- **Spoke (state-specific):** [State] Senior Citizens and Community College: Free Tuition vs Audit-Only Explained
+- **Spoke (state-specific):** [State] Senior Citizens at Community Colleges: What 65+ Students Can Still Do
 - **Standalone (general):** What Does “Audit a Class” Actually Mean at a Community College?
 
 ### Standalone articles (no cluster needed)
@@ -301,8 +321,8 @@ Write hub articles first, then spokes. Hubs build the conceptual foundation that
 2. What does “audit a class” mean (standalone, foundational)
 3. Cluster B hub (senior waivers overview)
 4. Late-start classes (standalone, high product alignment with Starting Soon)
-5. Cluster A spokes (VA transfer, NC transfer)
-6. Cluster B spokes (VA seniors, NC seniors)
+5. Cluster A spokes (state-specific transfer articles)
+6. Cluster B spokes (state-specific senior waiver articles)
 7. Remaining standalone articles
 
 ---
