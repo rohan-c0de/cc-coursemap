@@ -20,10 +20,12 @@ export async function GET() {
         currentTerm,
         state.slug
       );
+      const lastModified = new Date();
       return instructors.map((e) => ({
         url: `${url}/${state.slug}/college/${e.collegeId}/instructor/${e.slug}`,
         changeFrequency: "weekly" as const,
         priority: 0.6,
+        lastModified,
       }));
     })
   );

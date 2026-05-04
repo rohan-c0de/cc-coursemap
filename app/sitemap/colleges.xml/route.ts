@@ -10,6 +10,7 @@ import {
 export function GET() {
   const url = siteOrigin();
   const entries: SitemapEntry[] = [];
+  const lastModified = new Date();
 
   for (const state of getAllStates()) {
     for (const inst of loadInstitutions(state.slug)) {
@@ -17,6 +18,7 @@ export function GET() {
         url: `${url}/${state.slug}/college/${inst.id}`,
         changeFrequency: "weekly",
         priority: 0.7,
+        lastModified,
       });
     }
   }

@@ -36,6 +36,7 @@ export async function GET() {
                 url: `${url}/${state.slug}/college/${inst.id}/courses/${prefix.toLowerCase()}`,
                 changeFrequency: "weekly",
                 priority: 0.6,
+                lastModified: new Date(),
               });
             }
           }
