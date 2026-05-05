@@ -20,7 +20,17 @@ interface AnswerCardProps {
 }
 
 export default function AnswerCard({ answer, state }: AnswerCardProps) {
-  if (answer.type === "none") return null;
+  // `intent-not-supported` is the one NoAnswer reason we deliberately
+  // suppress — it fires for course intents, where the existing course
+  // search results below are the answer. Every other NoAnswer carries a
+  // helpful message the user should see ("Which course are you asking
+  // about?", "I'm not sure what you're asking", etc.). Render those as
+  // a quieter info card so the user gets feedback that we understood
+  // the question shape but couldn't answer it as-asked.
+  if (answer.type === "none") {
+    if (answer.reason === "intent-not-supported") return null;
+    return <NoAnswerCard answer={answer} />;
+  }
 
   return (
     <div
@@ -36,6 +46,48 @@ export default function AnswerCard({ answer, state }: AnswerCardProps) {
         {answer.type === "eligibility" && <EligibilityBody answer={answer} />}
       </div>
       <SourceFooter source={answer.source} />
+    </div>
+  );
+}
+
+// ─── NoAnswer (informational hint card) ─────────────────────────────────
+
+function NoAnswerCard({
+  answer,
+}: {
+  answer: Extract<Answer, { type: "none" }>;
+}) {
+  // No source citation (NoAnswer has no SourceCitation). Visually softer
+  // than typed answers — slate background, no colored accent — to signal
+  // "this is a hint, not an authoritative answer."
+  return (
+    <div
+      className="mb-6 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/40 p-4"
+      data-testid="answer-card"
+      role="region"
+      aria-live="polite"
+      aria-label="Hint about your question"
+    >
+      <div className="flex items-start gap-2">
+        <span
+          className="mt-0.5 text-slate-500 dark:text-slate-400"
+          aria-hidden="true"
+        >
+          💭
+        </span>
+        <div className="flex-1">
+          <p className="text-sm text-slate-700 dark:text-slate-200">
+            {answer.message}
+          </p>
+          {answer.suggestions && answer.suggestions.length > 0 && (
+            <ul className="mt-2 text-sm text-slate-600 dark:text-slate-300 space-y-0.5">
+              {answer.suggestions.map((s) => (
+                <li key={s}>• {s}</li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </div>
     </div>
   );
 }
