@@ -4,9 +4,11 @@ import { useState, useEffect, useMemo, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import type { CourseMode } from "@/lib/types";
+import type { Answer } from "@/lib/search-intent/answer";
 import { expandDays } from "@/lib/time-utils";
 import DayToggle from "@/components/DayToggle";
 import PrereqChain from "@/components/PrereqChain";
+import AnswerCard from "@/components/AnswerCard";
 import { useAuth } from "@/lib/hooks/useAuth";
 import { createClient } from "@/lib/supabase/client";
 import { track } from "@/lib/analytics";
@@ -195,6 +197,10 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [hasSearched, setHasSearched] = useState(false);
+  // Natural-language answer card. Populated from /api/[state]/ask in
+  // parallel with the course search; null until a query has resolved or
+  // when the classifier returned a non-actionable intent.
+  const [answer, setAnswer] = useState<Answer | null>(null);
 
   // Fetch transfer lookup data on mount (small, cached 24h)
   useEffect(() => {
@@ -223,6 +229,22 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
     setError("");
     setHasSearched(true);
     setDisplayLimit(10);
+    // Reset previous answer card before either fetch resolves so a stale
+    // card never lingers under a new query.
+    setAnswer(null);
+
+    // Kick off the natural-language /ask fetch in parallel with the
+    // course search. Fire-and-forget — failure or 5xx silently leaves the
+    // answer card unrendered (graceful degradation; course results still
+    // load below).
+    fetch(`/api/${state}/ask?q=${encodeURIComponent(searchQuery.trim())}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data: { answer: Answer } | null) => {
+        if (data?.answer) setAnswer(data.answer);
+      })
+      .catch(() => {
+        /* silent — no answer card, course results still render */
+      });
 
     try {
       const params = new URLSearchParams({ q: searchQuery.trim(), limit: "50" });
@@ -455,6 +477,11 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
           <p className="text-sm text-red-800 dark:text-red-300">{error}</p>
         </div>
       )}
+
+      {/* Natural-language answer card. Renders above course results
+          whenever /api/[state]/ask returns a typed answer. NoAnswer
+          variants render nothing — the user just sees course results. */}
+      {answer && <AnswerCard answer={answer} state={state} />}
 
       {/* Loading */}
       {loading && (
