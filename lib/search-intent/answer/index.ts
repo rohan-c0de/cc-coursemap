@@ -11,7 +11,7 @@ import { lookupEligibility } from "./eligibility";
 import { lookupPrereqs } from "./prereqs";
 import { lookupTransfer } from "./transfer";
 
-export type { Answer } from "./types";
+export type { Answer, SourceCitation } from "./types";
 
 export async function lookupAnswer(
   intent: SearchIntent,
