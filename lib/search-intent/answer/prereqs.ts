@@ -96,10 +96,34 @@ function makeAnswer(
   return {
     type: "prereqs",
     ...rest,
+    followups: buildFollowups(rest),
     source: {
       source: "prereqs",
       state,
       reference: `data/${state}/prereqs.json`,
     },
   };
+}
+
+function buildFollowups(parts: Omit<PrereqsAnswer, "type" | "source">): string[] {
+  if (!parts.course) return [];
+  const courseCode = `${parts.course.prefix} ${parts.course.number}`;
+
+  switch (parts.status) {
+    case "found": {
+      const followups = [`Does ${courseCode} transfer?`];
+      const firstPrereq = parts.chain?.children[0]?.course;
+      if (firstPrereq) followups.push(`What are the prereqs for ${firstPrereq}?`);
+      return followups;
+    }
+    case "no-prereqs":
+      return [
+        `Does ${courseCode} transfer?`,
+        `Search for ${parts.course.prefix} courses`,
+      ];
+    case "unknown-course":
+      return [`Search for ${parts.course.prefix} courses`];
+    default:
+      return [];
+  }
 }

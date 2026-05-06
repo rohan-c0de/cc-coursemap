@@ -109,4 +109,41 @@ describe("lookupPrereqs", () => {
     expect(result.source.source).toBe("prereqs");
     expect(result.source.reference).toBe("data/va/prereqs.json");
   });
+
+  describe("followups", () => {
+    it("suggests transfer and first-prereq followups for 'found' with children", async () => {
+      mockLoadPrereqs.mockReturnValue(
+        new Map([["BIO 256", { text: "BIO 101", courses: ["BIO 101"] }]]),
+      );
+      mockBuildChain.mockReturnValue({
+        course: "BIO 256",
+        text: "BIO 101",
+        children: [{ course: "BIO 101", text: "", children: [] }],
+      });
+      const result = await lookupPrereqs(BIO_256, "va");
+      if (result.type !== "prereqs") throw new Error("wrong type");
+      expect(result.followups).toContain("Does BIO 256 transfer?");
+      expect(result.followups).toContain("What are the prereqs for BIO 101?");
+    });
+
+    it("suggests transfer and prefix search for 'no-prereqs'", async () => {
+      mockLoadPrereqs.mockReturnValue(
+        new Map([["BIO 256", { text: "", courses: [] }]]),
+      );
+      const result = await lookupPrereqs(BIO_256, "va");
+      if (result.type !== "prereqs") throw new Error("wrong type");
+      expect(result.followups).toContain("Does BIO 256 transfer?");
+      expect(result.followups).toContain("Search for BIO courses");
+    });
+
+    it("suggests a prefix search for 'unknown-course'", async () => {
+      mockLoadPrereqs.mockReturnValue(
+        new Map([["ENG 111", { text: "", courses: [] }]]),
+      );
+      mockCourseExists.mockResolvedValue({ exists: false });
+      const result = await lookupPrereqs(BIO_256, "va");
+      if (result.type !== "prereqs") throw new Error("wrong type");
+      expect(result.followups).toContain("Search for BIO courses");
+    });
+  });
 });
