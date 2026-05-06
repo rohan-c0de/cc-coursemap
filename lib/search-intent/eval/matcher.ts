@@ -65,6 +65,23 @@ export function matchesExpected(
       return { matched: true };
     }
 
+    case "pathway": {
+      if (actual.type !== "pathway") return { matched: false };
+      if (expected.university !== undefined && actual.university !== expected.university) {
+        return {
+          matched: false,
+          reason: `expected university "${expected.university}", got "${actual.university}"`,
+        };
+      }
+      if (expected.major !== undefined && actual.major !== expected.major) {
+        return {
+          matched: false,
+          reason: `expected major "${expected.major}", got "${actual.major}"`,
+        };
+      }
+      return { matched: true };
+    }
+
     case "prereqs": {
       if (actual.type !== "prereqs") return { matched: false };
       if (expected.course) {

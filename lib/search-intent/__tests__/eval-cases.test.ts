@@ -35,6 +35,7 @@ describe("EVAL_CASES fixture", () => {
       "course-keyword",
       "prereqs",
       "transfer",
+      "pathway",
       "eligibility",
       "course-with-filters",
       "vague",
@@ -60,6 +61,7 @@ describe("EVAL_CASES fixture", () => {
   it("only uses valid expected intent types", () => {
     const VALID = new Set([
       "transfer",
+      "pathway",
       "prereqs",
       "eligibility",
       "course",

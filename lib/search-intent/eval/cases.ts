@@ -9,6 +9,7 @@ import type { CourseIntent, CourseRef, EligibilityIntent, SearchIntent } from ".
 // the actual intent type is in `oneOf`.
 export type ExpectedIntent =
   | { type: "transfer"; course?: CourseRef; university?: string | null }
+  | { type: "pathway"; university?: string | null; major?: string | null }
   | { type: "prereqs"; course?: CourseRef }
   | {
       type: "eligibility";
@@ -29,6 +30,7 @@ export interface EvalCase {
     | "course-keyword"
     | "prereqs"
     | "transfer"
+    | "pathway"
     | "eligibility"
     | "course-with-filters"
     | "vague"
@@ -442,6 +444,44 @@ export const EVAL_CASES: EvalCase[] = [
     },
     notes:
       "NJ. Rutgers spans New Brunswick, Newark, Camden — multi-campus disambiguation.",
+  },
+
+  // ─── pathway ─────────────────────────────────────────────────────────
+  {
+    id: "pw-01-cs-at-gmu",
+    query: "what do I need to transfer to GMU for Computer Science?",
+    category: "pathway",
+    expected: { type: "pathway" },
+    notes: "Classic pathway question — university + major.",
+  },
+  {
+    id: "pw-02-nursing-unc",
+    query: "transfer requirements for nursing at UNC",
+    category: "pathway",
+    tags: ["non-va"],
+    expected: { type: "pathway" },
+  },
+  {
+    id: "pw-03-no-major",
+    query: "courses needed to transfer to Virginia Tech",
+    category: "pathway",
+    expected: { type: "pathway" },
+    notes: "No major specified — just a destination.",
+  },
+  {
+    id: "pw-04-how-do-i-get-in",
+    query: "how do I get into UMass Boston for business?",
+    category: "pathway",
+    tags: ["non-va"],
+    expected: { type: "pathway" },
+  },
+  {
+    id: "pw-05-vague-transfer-plan",
+    query: "what classes should I take to transfer",
+    category: "pathway",
+    tags: ["missing-entity"],
+    expected: { type: "any-of", oneOf: ["pathway", "unknown"] },
+    notes: "No destination or major. Either pathway (with missing entity) or unknown is reasonable.",
   },
 
   // ─── eligibility ─────────────────────────────────────────────────────

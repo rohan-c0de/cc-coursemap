@@ -131,6 +131,37 @@ describe("llmClassifier", () => {
     expect(result.intent.keyword).toBe("biology");
   });
 
+  it("converts a pathway tool call into a PathwayIntent", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "pathway",
+        university: "gmu",
+        major: "computer-science",
+      }),
+    });
+    const result = await classifier("what do I need to transfer to GMU for CS?", "va");
+    expect(result.intent).toEqual({
+      type: "pathway",
+      university: "gmu",
+      major: "computer-science",
+    });
+  });
+
+  it("handles pathway with no major", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "pathway",
+        university: "vt",
+      }),
+    });
+    const result = await classifier("courses needed to transfer to Virginia Tech", "va");
+    expect(result.intent).toEqual({
+      type: "pathway",
+      university: "vt",
+      major: null,
+    });
+  });
+
   it("represents unknown intents with the raw query echoed back", async () => {
     const classifier = llmClassifier({
       client: fakeClient({ type: "unknown", confidence: 0.2 }),

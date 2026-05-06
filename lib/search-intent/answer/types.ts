@@ -26,6 +26,7 @@ export type Answer =
   | TransferAnswer
   | PrereqsAnswer
   | EligibilityAnswer
+  | PathwayAnswer
   | NoAnswer;
 
 // ─── Transfer ────────────────────────────────────────────────────────────
@@ -110,6 +111,23 @@ export interface EligibilityAnswer {
   // any VCCS course for free under VA Code § 23.1-638."
   summary: string;
   colleges: CollegeEligibility[];
+  source: SourceCitation;
+  followups?: string[];
+}
+
+// ─── Pathway ────────────────────────────────────────────────────────────
+
+export type PathwayStatus =
+  | "found" //              pathway data exists for this university/major
+  | "no-data" //            no pathway data available yet
+  | "unknown-university" // university not recognized
+  | "missing-entity"; //    no university specified
+
+export interface PathwayAnswer {
+  type: "pathway";
+  status: PathwayStatus;
+  university: { slug: string; name: string } | null;
+  major: string | null;
   source: SourceCitation;
   followups?: string[];
 }
