@@ -14,12 +14,20 @@
 
 import type { Answer, SourceCitation } from "@/lib/search-intent/answer";
 
+export interface ClassificationSummary {
+  studentSummary: string;
+  clarifyingQuestion: string | null;
+  suggestedFollowups: string[];
+}
+
 interface AnswerCardProps {
   answer: Answer;
   state: string;
+  classification?: ClassificationSummary | null;
+  onFollowupClick?: (q: string) => void;
 }
 
-export default function AnswerCard({ answer, state }: AnswerCardProps) {
+export default function AnswerCard({ answer, state, classification, onFollowupClick }: AnswerCardProps) {
   // `intent-not-supported` is the one NoAnswer reason we deliberately
   // suppress — it fires for course intents, where the existing course
   // search results below are the answer. Every other NoAnswer carries a
@@ -29,8 +37,19 @@ export default function AnswerCard({ answer, state }: AnswerCardProps) {
   // the question shape but couldn't answer it as-asked.
   if (answer.type === "none") {
     if (answer.reason === "intent-not-supported") return null;
-    return <NoAnswerCard answer={answer} />;
+    return (
+      <NoAnswerCard
+        answer={answer}
+        classification={classification}
+        onFollowupClick={onFollowupClick}
+      />
+    );
   }
+
+  const followups = dedupeFollowups(
+    answer.followups ?? [],
+    classification?.suggestedFollowups ?? [],
+  );
 
   return (
     <div
@@ -41,9 +60,23 @@ export default function AnswerCard({ answer, state }: AnswerCardProps) {
       aria-label="Answer to your question"
     >
       <div className="p-5 space-y-3">
+        {classification?.studentSummary && (
+          <p className="text-xs italic text-slate-500 dark:text-slate-400">
+            {classification.studentSummary}
+          </p>
+        )}
         {answer.type === "transfer" && <TransferBody answer={answer} />}
         {answer.type === "prereqs" && <PrereqsBody answer={answer} state={state} />}
         {answer.type === "eligibility" && <EligibilityBody answer={answer} />}
+        {classification?.clarifyingQuestion && (
+          <ClarifyingPrompt
+            question={classification.clarifyingQuestion}
+            onSearch={onFollowupClick}
+          />
+        )}
+        {followups.length > 0 && (
+          <FollowupPills followups={followups} onFollowupClick={onFollowupClick} />
+        )}
       </div>
       <SourceFooter source={answer.source} />
     </div>
@@ -54,9 +87,18 @@ export default function AnswerCard({ answer, state }: AnswerCardProps) {
 
 function NoAnswerCard({
   answer,
+  classification,
+  onFollowupClick,
 }: {
   answer: Extract<Answer, { type: "none" }>;
+  classification?: ClassificationSummary | null;
+  onFollowupClick?: (q: string) => void;
 }) {
+  const followups = dedupeFollowups(
+    answer.followups ?? [],
+    classification?.suggestedFollowups ?? [],
+  );
+
   // No source citation (NoAnswer has no SourceCitation). Visually softer
   // than typed answers — slate background, no colored accent — to signal
   // "this is a hint, not an authoritative answer."
@@ -85,6 +127,11 @@ function NoAnswerCard({
                 <li key={s}>• {s}</li>
               ))}
             </ul>
+          )}
+          {followups.length > 0 && (
+            <div className="mt-3">
+              <FollowupPills followups={followups} onFollowupClick={onFollowupClick} />
+            </div>
           )}
         </div>
       </div>
@@ -453,6 +500,77 @@ function CoursePill({ course, state }: { course: string; state: string }) {
     >
       {course}
     </a>
+  );
+}
+
+function dedupeFollowups(deterministic: string[], llmSuggested: string[]): string[] {
+  const seen = new Set<string>();
+  const result: string[] = [];
+  for (const q of [...deterministic, ...llmSuggested]) {
+    const key = q.toLowerCase().trim();
+    if (!seen.has(key)) {
+      seen.add(key);
+      result.push(q);
+    }
+  }
+  return result;
+}
+
+function ClarifyingPrompt({
+  question,
+  onSearch,
+}: {
+  question: string;
+  onSearch?: (q: string) => void;
+}) {
+  return (
+    <div className="flex items-start gap-2 rounded-md border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-900/20 px-3 py-2">
+      <span className="mt-0.5 text-amber-600 dark:text-amber-400 text-sm" aria-hidden="true">
+        ?
+      </span>
+      <div className="flex-1 min-w-0">
+        <p className="text-sm text-amber-800 dark:text-amber-200">{question}</p>
+        {onSearch && (
+          <button
+            onClick={() => onSearch(question)}
+            className="mt-1 text-xs text-amber-700 dark:text-amber-300 underline hover:no-underline"
+          >
+            Search this
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function FollowupPills({
+  followups,
+  onFollowupClick,
+}: {
+  followups: string[];
+  onFollowupClick?: (q: string) => void;
+}) {
+  return (
+    <div className="flex flex-wrap gap-1.5">
+      {followups.map((q) =>
+        onFollowupClick ? (
+          <button
+            key={q}
+            onClick={() => onFollowupClick(q)}
+            className="rounded-full border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-800 px-2.5 py-1 text-xs text-slate-700 dark:text-slate-200 hover:border-teal-500 hover:text-teal-700 dark:hover:text-teal-400 transition-colors"
+          >
+            {q}
+          </button>
+        ) : (
+          <span
+            key={q}
+            className="rounded-full border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 px-2.5 py-1 text-xs text-slate-600 dark:text-slate-300"
+          >
+            {q}
+          </span>
+        ),
+      )}
+    </div>
   );
 }
 

@@ -8,7 +8,7 @@ import type { Answer } from "@/lib/search-intent/answer";
 import { expandDays } from "@/lib/time-utils";
 import DayToggle from "@/components/DayToggle";
 import PrereqChain from "@/components/PrereqChain";
-import AnswerCard from "@/components/AnswerCard";
+import AnswerCard, { type ClassificationSummary } from "@/components/AnswerCard";
 import { useAuth } from "@/lib/hooks/useAuth";
 import { createClient } from "@/lib/supabase/client";
 import { track } from "@/lib/analytics";
@@ -201,6 +201,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
   // parallel with the course search; null until a query has resolved or
   // when the classifier returned a non-actionable intent.
   const [answer, setAnswer] = useState<Answer | null>(null);
+  const [classification, setClassification] = useState<ClassificationSummary | null>(null);
 
   // Fetch transfer lookup data on mount (small, cached 24h)
   useEffect(() => {
@@ -232,6 +233,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
     // Reset previous answer card before either fetch resolves so a stale
     // card never lingers under a new query.
     setAnswer(null);
+    setClassification(null);
 
     // Kick off the natural-language /ask fetch in parallel with the
     // course search. Fire-and-forget — failure or 5xx silently leaves the
@@ -239,8 +241,9 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
     // load below).
     fetch(`/api/${state}/ask?q=${encodeURIComponent(searchQuery.trim())}`)
       .then((r) => (r.ok ? r.json() : null))
-      .then((data: { answer: Answer } | null) => {
+      .then((data: { answer: Answer; classification?: ClassificationSummary } | null) => {
         if (data?.answer) setAnswer(data.answer);
+        if (data?.classification) setClassification(data.classification);
       })
       .catch(() => {
         /* silent — no answer card, course results still render */
@@ -481,7 +484,17 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
       {/* Natural-language answer card. Renders above course results
           whenever /api/[state]/ask returns a typed answer. NoAnswer
           variants render nothing — the user just sees course results. */}
-      {answer && <AnswerCard answer={answer} state={state} />}
+      {answer && (
+        <AnswerCard
+          answer={answer}
+          state={state}
+          classification={classification}
+          onFollowupClick={(q) => {
+            setQuery(q);
+            doSearch(q);
+          }}
+        />
+      )}
 
       {/* Loading */}
       {loading && (
