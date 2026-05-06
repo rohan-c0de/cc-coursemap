@@ -63,7 +63,7 @@ Additional output fields:
 - student_summary: Always provide a 1-2 sentence plain-English restatement of what the student is asking. Write as if addressing the student directly. Example: "You're asking whether ENG 111 transfers to George Mason."
 - clarifying_question: When confidence < 0.85, suggest one specific follow-up question. Be specific ("Which university are you hoping to transfer to?"), not vague ("Can you clarify?"). Null when confidence >= 0.85.
 - source_college: If the student names their community college ("I'm at NOVA", "from Bunker Hill CC"), extract it as a lowercase hyphenated slug. Otherwise null.
-- suggested_followups: Always provide 2-3 follow-up questions a student in this situation would naturally want to know next.
+- suggested_followups: Provide 2-3 follow-up search queries the student could type into this search bar. Each must be a self-contained query, NOT a question directed at the student. Good: "Does ENG 111 transfer to VCU?", "Online ENG courses", "Prereqs for BIO 256". Bad: "Which university are you transferring to?", "Are you enrolled at a community college?", "Do you have writing experience?".
 
 Always call the tool. Never produce conversational text.`;
 
