@@ -1,4 +1,16 @@
 import { describe, expect, it, vi } from "vitest";
+
+// State-context lookups for the classifier hit Supabase in production. Tests
+// run with a dummy Supabase URL, so the real calls hang. Stub them at module
+// boundary — these helpers don't change classifier output, only the prompt
+// grounding (which the fakeClient ignores).
+vi.mock("../../courses", () => ({
+  getDistinctSubjects: vi.fn().mockResolvedValue([]),
+}));
+vi.mock("../../terms", () => ({
+  getCurrentTerm: vi.fn().mockResolvedValue("2026SP"),
+}));
+
 import { llmClassifier, toClassifiedIntent } from "../classify-llm";
 import type { ClassifierToolInput } from "../prompt";
 
