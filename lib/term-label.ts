@@ -17,6 +17,24 @@ export function termLabel(code: string): string {
 }
 
 /**
+ * Inverse of termLabel: convert a human label like "Fall 2026" or
+ * "Summer 2026" into the term code ("2026FA", "2026SU"). Returns null
+ * if the input doesn't match the expected shape — callers should fall
+ * back to the default (current) term in that case rather than guess.
+ *
+ * Used to translate LLM-extracted term strings (which come out as
+ * labels per the classifier prompt) into backend-compatible codes.
+ */
+export function termCodeFromLabel(label: string): string | null {
+  const m = label.trim().match(/^(spring|summer|fall)\s+(\d{4})$/i);
+  if (!m) return null;
+  const season = m[1].toLowerCase();
+  const year = m[2];
+  const code = season === "spring" ? "SP" : season === "summer" ? "SU" : "FA";
+  return `${year}${code}`;
+}
+
+/**
  * Sort key for term codes — later terms sort higher.
  * "2026SP" → 20261, "2026SU" → 20262, "2026FA" → 20263
  */

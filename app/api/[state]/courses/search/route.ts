@@ -4,6 +4,7 @@ import { rateLimit, getClientKey } from "@/lib/rate-limit";
 import { loadInstitutions } from "@/lib/institutions";
 import { isValidState } from "@/lib/states/registry";
 import { getCurrentTerm } from "@/lib/terms";
+import { getAvailableTerms } from "@/lib/courses";
 
 type RouteContext = { params: Promise<{ state: string }> };
 
@@ -51,8 +52,21 @@ export async function GET(request: NextRequest, context: RouteContext) {
     );
   }
 
+  // Optional ?term=2026FA — validate against the state's actual term list
+  // (cached) and ignore unknown values so a stale or hand-typed code doesn't
+  // produce empty results without explanation. Default to current term when
+  // omitted, preserving existing behavior.
+  const termParam = searchParams.get("term")?.trim();
+  let term: string;
+  if (termParam) {
+    const available = await getAvailableTerms(state);
+    term = available.includes(termParam) ? termParam : await getCurrentTerm(state);
+  } else {
+    term = await getCurrentTerm(state);
+  }
+
   const results = await searchCoursesAcrossColleges(
-    await getCurrentTerm(state),
+    term,
     q,
     institutions,
     { mode, days, timeOfDay, zip },

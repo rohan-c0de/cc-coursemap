@@ -6,6 +6,7 @@ import Link from "next/link";
 import type { CourseMode } from "@/lib/types";
 import type { Answer } from "@/lib/search-intent/answer";
 import { expandDays } from "@/lib/time-utils";
+import { termCodeFromLabel } from "@/lib/term-label";
 import DayToggle from "@/components/DayToggle";
 import PrereqChain from "@/components/PrereqChain";
 import AnswerCard, { type ClassificationSummary } from "@/components/AnswerCard";
@@ -270,6 +271,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
     let llmMode: string | null = null;
     let llmTimeOfDay: string | null = null;
     let llmTransferTo: string | null = null;
+    let llmTermCode: string | null = null;
     try {
       const askRes = await fetch(
         `/api/${state}/ask?q=${encodeURIComponent(trimmed)}`,
@@ -288,6 +290,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
                 days?: string[] | null;
                 mode?: string | null;
                 timeOfDay?: string | null;
+                term?: string | null;
               };
             };
           };
@@ -310,6 +313,12 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
           }
           if (intent.filters?.mode) llmMode = intent.filters.mode;
           if (intent.filters?.timeOfDay) llmTimeOfDay = intent.filters.timeOfDay;
+          // LLM emits term as a label ("Fall 2026"); search API expects the
+          // code ("2026FA"). Skip mapping if the label is malformed — backend
+          // also validates against actual available terms before applying.
+          if (intent.filters?.term) {
+            llmTermCode = termCodeFromLabel(intent.filters.term);
+          }
         } else if (intent?.type === "transfer") {
           // Transfer intent fires the AnswerCard above, but the course
           // search below still runs. Use the extracted course code and
@@ -344,6 +353,10 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
       if (effectiveMode) params.set("mode", effectiveMode);
       if (effectiveDays.length > 0) params.set("days", effectiveDays.join(","));
       if (effectiveTimeOfDay) params.set("timeOfDay", effectiveTimeOfDay);
+      // No UI for term yet (Path A): LLM-extracted only. Backend validates
+      // the code against the state's actual terms and falls back to current
+      // when invalid, so no user-set "term" state to merge with.
+      if (llmTermCode) params.set("term", llmTermCode);
 
       const res = await fetch(`/api/${state}/courses/search?${params}`);
       if (!res.ok) {
