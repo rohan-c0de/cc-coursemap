@@ -75,7 +75,9 @@ export interface TransferAnswer {
 
 export type PrereqsStatus =
   | "found" //              course has prereqs, chain returned
+  | "unlocks" //            inverse: courses that this course unlocks
   | "no-prereqs" //         course exists, no prereqs documented
+  | "no-unlocks" //         inverse: no courses require this as a prereq
   | "unknown-course" //     course doesn't exist in this state
   | "no-course-named" //    intent.course was null
   | "no-data"; //           state has no prereq data at all
@@ -88,6 +90,9 @@ export interface PrereqsAnswer {
   // Present when status is "found". Reuses the existing ChainNode from
   // lib/prereqs.ts so the UI can share rendering with /api/[state]/prereqs/chain.
   chain?: ChainNode;
+  // Present when status is "unlocks". List of courses this course is a
+  // prerequisite for (inverse prereq lookup).
+  unlocks?: string[];
   source: SourceCitation;
   followups?: string[];
 }

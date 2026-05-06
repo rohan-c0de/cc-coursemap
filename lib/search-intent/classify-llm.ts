@@ -148,7 +148,7 @@ function toSecondarySearchIntent(
         major: null,
       };
     case "prereqs":
-      return { type: "prereqs", course: courseRef };
+      return { type: "prereqs", course: courseRef, direction: "forward" };
     case "eligibility":
       return {
         type: "eligibility",
@@ -195,6 +195,7 @@ function toSearchIntent(rawQuery: string, input: ClassifierToolInput): SearchInt
       return {
         type: "prereqs",
         course: courseRef,
+        direction: input.prereq_direction === "inverse" ? "inverse" : "forward",
       };
     case "eligibility":
       // Topic is required by our type. If the LLM omitted it, default to

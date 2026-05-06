@@ -17,7 +17,7 @@
 //   else
 //     → status: "found", chain returned
 
-import { buildChain, loadPrereqs } from "../../prereqs";
+import { buildChain, buildInverseIndex, loadPrereqs } from "../../prereqs";
 import type { PrereqsIntent } from "../types";
 import type { Answer, PrereqsAnswer } from "./types";
 import { courseExists } from "./validate";
@@ -45,48 +45,61 @@ export async function lookupPrereqs(
     });
   }
 
-  // The map keys use the form "PREFIX NUMBER" (e.g. "BIO 256"). Try that
-  // first; if not present, fall back to the courses-table existence check
-  // before declaring "unknown-course" — the prereq scrape may not have
-  // covered every catalog course.
+  if (intent.direction === "inverse") {
+    return lookupInverse(course, prereqs, state);
+  }
+
+  return lookupForward(course, prereqs, state);
+}
+
+async function lookupForward(
+  course: { prefix: string; number: string },
+  prereqs: ReturnType<typeof loadPrereqs>,
+  state: string,
+): Promise<Answer> {
   const key = `${course.prefix.toUpperCase()} ${course.number}`;
   const entry = prereqs.get(key);
 
   if (!entry) {
     const check = await courseExists(state, course.prefix, course.number);
     if (!check.exists) {
-      return makeAnswer({
-        status: "unknown-course",
-        course,
-        state,
-      });
+      return makeAnswer({ status: "unknown-course", course, state });
     }
-    // Course exists in catalog but isn't in prereqs.json — most likely it
-    // has none.
-    return makeAnswer({
-      status: "no-prereqs",
-      course,
-      state,
-    });
+    return makeAnswer({ status: "no-prereqs", course, state });
   }
 
-  // Course is in the map. If text and courses are both empty, treat as
-  // no prereqs.
   if ((!entry.text || entry.text.trim() === "") && entry.courses.length === 0) {
-    return makeAnswer({
-      status: "no-prereqs",
-      course,
-      state,
-    });
+    return makeAnswer({ status: "no-prereqs", course, state });
   }
 
   const chain = buildChain(key, prereqs, new Set(), 0);
-  return makeAnswer({
-    status: "found",
-    course,
-    chain,
-    state,
-  });
+  return makeAnswer({ status: "found", course, chain, state });
+}
+
+async function lookupInverse(
+  course: { prefix: string; number: string },
+  prereqs: ReturnType<typeof loadPrereqs>,
+  state: string,
+): Promise<Answer> {
+  const key = `${course.prefix.toUpperCase()} ${course.number}`;
+
+  const inMap = prereqs.has(key);
+  if (!inMap) {
+    const check = await courseExists(state, course.prefix, course.number);
+    if (!check.exists) {
+      return makeAnswer({ status: "unknown-course", course, state });
+    }
+  }
+
+  const inverse = buildInverseIndex(prereqs);
+  const unlocked = inverse.get(key);
+
+  if (!unlocked || unlocked.length === 0) {
+    return makeAnswer({ status: "no-unlocks", course, state });
+  }
+
+  unlocked.sort();
+  return makeAnswer({ status: "unlocks", course, unlocks: unlocked, state });
 }
 
 function makeAnswer(
@@ -114,8 +127,20 @@ function buildFollowups(parts: Omit<PrereqsAnswer, "type" | "source">): string[]
       const followups = [`Does ${courseCode} transfer?`];
       const firstPrereq = parts.chain?.children[0]?.course;
       if (firstPrereq) followups.push(`What are the prereqs for ${firstPrereq}?`);
+      followups.push(`What can I take after ${courseCode}?`);
       return followups;
     }
+    case "unlocks": {
+      const followups = [`What are the prereqs for ${courseCode}?`];
+      const first = parts.unlocks?.[0];
+      if (first) followups.push(`Does ${first} transfer?`);
+      return followups;
+    }
+    case "no-unlocks":
+      return [
+        `What are the prereqs for ${courseCode}?`,
+        `Does ${courseCode} transfer?`,
+      ];
     case "no-prereqs":
       return [
         `Does ${courseCode} transfer?`,

@@ -87,6 +87,24 @@ describe("llmClassifier", () => {
     expect(result.intent).toEqual({
       type: "prereqs",
       course: { prefix: "BIO", number: "256" },
+      direction: "forward",
+    });
+  });
+
+  it("extracts inverse direction for prereqs", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "prereqs",
+        course_prefix: "ENG",
+        course_number: "111",
+        prereq_direction: "inverse",
+      }),
+    });
+    const result = await classifier("what can I take after ENG 111?", "va");
+    expect(result.intent).toEqual({
+      type: "prereqs",
+      course: { prefix: "ENG", number: "111" },
+      direction: "inverse",
     });
   });
 
@@ -305,6 +323,7 @@ describe("toClassifiedIntent", () => {
     expect(result.intent).toEqual({
       type: "prereqs",
       course: { prefix: "ENG", number: "111" },
+      direction: "forward",
     });
     expect(result.secondaryIntent).toEqual({
       type: "transfer",

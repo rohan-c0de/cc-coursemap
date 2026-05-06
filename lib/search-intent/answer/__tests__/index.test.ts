@@ -39,7 +39,7 @@ describe("lookupAnswer dispatch", () => {
 
   it("dispatches prereqs intents to lookupPrereqs", async () => {
     await lookupAnswer(
-      { type: "prereqs", course: { prefix: "BIO", number: "256" } },
+      { type: "prereqs", course: { prefix: "BIO", number: "256" }, direction: "forward" },
       "va",
     );
     expect(lookupPrereqs).toHaveBeenCalled();
@@ -86,7 +86,7 @@ describe("lookupAnswers (multi-intent)", () => {
   it("returns only primary when secondaryIntent is null", async () => {
     const classification: ClassifiedIntent = {
       ...BASE_CLASSIFICATION,
-      intent: { type: "prereqs", course: { prefix: "BIO", number: "256" } },
+      intent: { type: "prereqs", course: { prefix: "BIO", number: "256" }, direction: "forward" },
       secondaryIntent: null,
     };
     const result = await lookupAnswers(classification, "va");
@@ -97,7 +97,7 @@ describe("lookupAnswers (multi-intent)", () => {
   it("returns both when secondaryIntent is set", async () => {
     const classification: ClassifiedIntent = {
       ...BASE_CLASSIFICATION,
-      intent: { type: "prereqs", course: { prefix: "ENG", number: "111" } },
+      intent: { type: "prereqs", course: { prefix: "ENG", number: "111" }, direction: "forward" },
       secondaryIntent: {
         type: "transfer",
         course: { prefix: "ENG", number: "111" },
@@ -115,7 +115,7 @@ describe("lookupAnswers (multi-intent)", () => {
     // wrapper should hide it — we don't want a confusing empty card.
     const classification: ClassifiedIntent = {
       ...BASE_CLASSIFICATION,
-      intent: { type: "prereqs", course: { prefix: "ENG", number: "111" } },
+      intent: { type: "prereqs", course: { prefix: "ENG", number: "111" }, direction: "forward" },
       secondaryIntent: { type: "course", keyword: "biology", filters: {} },
     };
     const result = await lookupAnswers(classification, "va");
@@ -126,7 +126,7 @@ describe("lookupAnswers (multi-intent)", () => {
   it("filters out secondary when it's an out-of-scope NoAnswer", async () => {
     const classification: ClassifiedIntent = {
       ...BASE_CLASSIFICATION,
-      intent: { type: "prereqs", course: { prefix: "ENG", number: "111" } },
+      intent: { type: "prereqs", course: { prefix: "ENG", number: "111" }, direction: "forward" },
       secondaryIntent: { type: "unknown", raw: "good professors" },
     };
     const result = await lookupAnswers(classification, "va");

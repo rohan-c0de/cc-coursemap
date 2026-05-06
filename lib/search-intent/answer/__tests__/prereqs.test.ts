@@ -1,9 +1,13 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-vi.mock("../../../prereqs", () => ({
-  loadPrereqs: vi.fn(),
-  buildChain: vi.fn(),
-}));
+vi.mock("../../../prereqs", async () => {
+  const actual = await vi.importActual<typeof import("../../../prereqs")>("../../../prereqs");
+  return {
+    ...actual,
+    loadPrereqs: vi.fn(),
+    buildChain: vi.fn(),
+  };
+});
 
 vi.mock("../validate", () => ({
   courseExists: vi.fn(),
@@ -28,11 +32,12 @@ beforeEach(() => {
 const BIO_256: PrereqsIntent = {
   type: "prereqs",
   course: { prefix: "BIO", number: "256" },
+  direction: "forward",
 };
 
 describe("lookupPrereqs", () => {
   it("returns 'no-course-named' when course is missing", async () => {
-    const result = await lookupPrereqs({ type: "prereqs", course: null }, "va");
+    const result = await lookupPrereqs({ type: "prereqs", course: null, direction: "forward" }, "va");
     if (result.type !== "prereqs") throw new Error("wrong type");
     expect(result.status).toBe("no-course-named");
     expect(result.course).toBeNull();
@@ -95,7 +100,7 @@ describe("lookupPrereqs", () => {
     );
     mockBuildChain.mockReturnValue({ course: "BIO 256", text: "BIO 101", children: [] });
     const result = await lookupPrereqs(
-      { type: "prereqs", course: { prefix: "bio", number: "256" } },
+      { type: "prereqs", course: { prefix: "bio", number: "256" }, direction: "forward" },
       "va",
     );
     if (result.type !== "prereqs") throw new Error("wrong type");
@@ -108,6 +113,52 @@ describe("lookupPrereqs", () => {
     if (result.type !== "prereqs") throw new Error("wrong type");
     expect(result.source.source).toBe("prereqs");
     expect(result.source.reference).toBe("data/va/prereqs.json");
+  });
+
+  describe("inverse direction", () => {
+    it("returns 'unlocks' with list of courses that require the given course", async () => {
+      mockLoadPrereqs.mockReturnValue(
+        new Map([
+          ["BIO 101", { text: "", courses: [] }],
+          ["BIO 256", { text: "BIO 101", courses: ["BIO 101"] }],
+          ["BIO 260", { text: "BIO 101", courses: ["BIO 101"] }],
+        ]),
+      );
+      const result = await lookupPrereqs(
+        { type: "prereqs", course: { prefix: "BIO", number: "101" }, direction: "inverse" },
+        "va",
+      );
+      if (result.type !== "prereqs") throw new Error("wrong type");
+      expect(result.status).toBe("unlocks");
+      expect(result.unlocks).toEqual(["BIO 256", "BIO 260"]);
+    });
+
+    it("returns 'no-unlocks' when no courses require the given course", async () => {
+      mockLoadPrereqs.mockReturnValue(
+        new Map([
+          ["BIO 256", { text: "BIO 101", courses: ["BIO 101"] }],
+        ]),
+      );
+      const result = await lookupPrereqs(
+        { type: "prereqs", course: { prefix: "BIO", number: "256" }, direction: "inverse" },
+        "va",
+      );
+      if (result.type !== "prereqs") throw new Error("wrong type");
+      expect(result.status).toBe("no-unlocks");
+    });
+
+    it("returns 'unknown-course' for inverse lookup of nonexistent course", async () => {
+      mockLoadPrereqs.mockReturnValue(
+        new Map([["ENG 111", { text: "", courses: [] }]]),
+      );
+      mockCourseExists.mockResolvedValue({ exists: false });
+      const result = await lookupPrereqs(
+        { type: "prereqs", course: { prefix: "XYZ", number: "999" }, direction: "inverse" },
+        "va",
+      );
+      if (result.type !== "prereqs") throw new Error("wrong type");
+      expect(result.status).toBe("unknown-course");
+    });
   });
 
   describe("followups", () => {
