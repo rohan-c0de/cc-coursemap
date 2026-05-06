@@ -53,6 +53,11 @@ const deConfig: StateConfig = {
       "Del Tech schedule builder",
     ],
   },
+  universityAliases: [
+    { slug: "udel", names: ["UD", "UDel", "University of Delaware", "Delaware"] },
+    { slug: "delstate", names: ["DSU", "Delaware State", "Delaware State University"] },
+    { slug: "wilmington", names: ["Wilmington University", "WilmU"] },
+  ],
   scrapers: {
     courses: [{ scripts: ["scripts/de/scrape-banner-ssb.ts"], runner: "http" }],
     transfers: [

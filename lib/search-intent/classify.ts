@@ -25,11 +25,11 @@ export function classifierWith(opts: ClassifierWithOptions = {}): Classifier {
   const llm = opts.llm ?? llmClassifier();
   const modelVersion = opts.modelVersion ?? CLASSIFIER_MODEL;
 
-  return async (query: string): Promise<ClassifiedIntent> => {
-    const cached = await cache.get(query, modelVersion);
+  return async (query: string, state: string): Promise<ClassifiedIntent> => {
+    const cached = await cache.get(query, state, modelVersion);
     if (cached) return cached;
-    const fresh = await llm(query);
-    await cache.put(query, modelVersion, fresh);
+    const fresh = await llm(query, state);
+    await cache.put(query, state, modelVersion, fresh);
     return fresh;
   };
 }
@@ -40,9 +40,9 @@ export function classifierWith(opts: ClassifierWithOptions = {}): Classifier {
  * missing) doesn't throw.
  */
 let _default: Classifier | null = null;
-export const classifyQuery: Classifier = async (query) => {
+export const classifyQuery: Classifier = async (query, state) => {
   if (!_default) _default = classifierWith();
-  return _default(query);
+  return _default(query, state);
 };
 
 /** In-memory variant for scripts and tests where a DB cache is overkill. */

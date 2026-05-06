@@ -51,6 +51,16 @@ const paConfig: StateConfig = {
       "PA TRAC transfer equivalencies",
     ],
   },
+  universityAliases: [
+    { slug: "psu", names: ["Penn State", "PSU", "Pennsylvania State University"] },
+    { slug: "pitt", names: ["Pitt", "University of Pittsburgh", "U Pitt"] },
+    { slug: "temple", names: ["Temple", "Temple University"] },
+    { slug: "drexel", names: ["Drexel", "Drexel University"] },
+    { slug: "villanova", names: ["Villanova", "Villanova University", "Nova"] },
+    { slug: "la-salle", names: ["La Salle", "La Salle University"] },
+    { slug: "west-chester", names: ["West Chester", "West Chester University", "WCU"] },
+    { slug: "bloomsburg", names: ["Bloomsburg", "Bloomsburg University"] },
+  ],
   scrapers: {
     // manual-only: courses — PASSHE / state-system public course search
     // is inconsistent across 14 colleges; no unified scraper. Tracked in #100.

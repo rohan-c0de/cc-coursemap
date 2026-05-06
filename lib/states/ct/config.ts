@@ -47,6 +47,17 @@ const ctConfig: StateConfig = {
       "Connecticut community college schedule",
     ],
   },
+  universityAliases: [
+    { slug: "uconn", names: ["UConn", "University of Connecticut", "Connecticut"] },
+    { slug: "southern-ct", names: ["Southern", "SCSU", "Southern Connecticut State"] },
+    { slug: "central-ct", names: ["Central", "CCSU", "Central Connecticut State"] },
+    { slug: "eastern-ct", names: ["Eastern", "ECSU", "Eastern Connecticut State"] },
+    { slug: "western-ct", names: ["Western", "WCSU", "Western Connecticut State"] },
+    { slug: "yale", names: ["Yale", "Yale University"] },
+    { slug: "quinnipiac", names: ["Quinnipiac", "Quinnipiac University"] },
+    { slug: "fairfield", names: ["Fairfield", "Fairfield University"] },
+    { slug: "sacred-heart", names: ["Sacred Heart", "SHU", "Sacred Heart University"] },
+  ],
   scrapers: {
     courses: [{ scripts: ["scripts/ct/scrape-banner.ts"], runner: "http" }],
     transfers: [{ scripts: ["scripts/ct/scrape-transfer-all.ts"], runner: "http" }],

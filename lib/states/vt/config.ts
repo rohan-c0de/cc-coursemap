@@ -47,6 +47,13 @@ const vtConfig: StateConfig = {
       "Vermont community college schedule",
     ],
   },
+  universityAliases: [
+    { slug: "uvm", names: ["UVM", "University of Vermont", "Vermont"] },
+    { slug: "castleton", names: ["Castleton", "Castleton University"] },
+    { slug: "northern-vt", names: ["NVU", "Northern Vermont University"] },
+    { slug: "champlain", names: ["Champlain", "Champlain College"] },
+    { slug: "middlebury", names: ["Middlebury", "Middlebury College"] },
+  ],
   scrapers: {
     courses: [{ scripts: ["scripts/vt/scrape-colleague.ts"], runner: "playwright" }],
     transfers: [{ scripts: ["scripts/vt/scrape-transfer.ts"], runner: "http" }],

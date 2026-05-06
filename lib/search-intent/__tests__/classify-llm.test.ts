@@ -31,7 +31,7 @@ describe("llmClassifier", () => {
         university: "gmu",
       }),
     });
-    const result = await classifier("Does ENG 111 transfer to GMU?");
+    const result = await classifier("Does ENG 111 transfer to GMU?", "va");
     expect(result.intent).toEqual({
       type: "transfer",
       course: { prefix: "ENG", number: "111" },
@@ -48,7 +48,7 @@ describe("llmClassifier", () => {
         course_number: "256",
       }),
     });
-    const result = await classifier("prereqs for bio 256");
+    const result = await classifier("prereqs for bio 256", "va");
     expect(result.intent).toEqual({
       type: "prereqs",
       course: { prefix: "BIO", number: "256" },
@@ -63,7 +63,7 @@ describe("llmClassifier", () => {
         course_number: "0095",
       }),
     });
-    const result = await classifier("ENGL 0095");
+    const result = await classifier("ENGL 0095", "va");
     if (result.intent.type !== "course") throw new Error("wrong type");
     expect(result.intent.filters.course?.number).toBe("0095");
   });
@@ -75,7 +75,7 @@ describe("llmClassifier", () => {
         confidence: 1.5,
       }),
     });
-    const result = await classifier("???");
+    const result = await classifier("???", "va");
     expect(result.confidence).toBe(1);
   });
 
@@ -86,7 +86,7 @@ describe("llmClassifier", () => {
         confidence: Number.NaN,
       }),
     });
-    const result = await classifier("???");
+    const result = await classifier("???", "va");
     expect(result.confidence).toBe(0);
   });
 
@@ -98,7 +98,7 @@ describe("llmClassifier", () => {
         age: 65,
       }),
     });
-    const result = await classifier("free college if I'm 65");
+    const result = await classifier("free college if I'm 65", "va");
     if (result.intent.type !== "eligibility") throw new Error("wrong type");
     expect(result.intent.topic).toBe("senior");
     expect(result.intent.age).toBe(65);
@@ -115,7 +115,7 @@ describe("llmClassifier", () => {
         term: "Summer 2026",
       }),
     });
-    const result = await classifier("online evening biology weekend summer 2026");
+    const result = await classifier("online evening biology weekend summer 2026", "va");
     if (result.intent.type !== "course") throw new Error("wrong type");
     expect(result.intent.filters).toEqual({
       course: undefined,
@@ -131,7 +131,7 @@ describe("llmClassifier", () => {
     const classifier = llmClassifier({
       client: fakeClient({ type: "unknown", confidence: 0.2 }),
     });
-    const result = await classifier("good professors");
+    const result = await classifier("good professors", "va");
     expect(result.intent).toEqual({ type: "unknown", raw: "good professors" });
   });
 
@@ -142,7 +142,7 @@ describe("llmClassifier", () => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const badClient = { messages: { create } } as any;
     const classifier = llmClassifier({ client: badClient });
-    await expect(classifier("anything")).rejects.toThrow(/did not return a classify_intent/);
+    await expect(classifier("anything", "va")).rejects.toThrow(/did not return a classify_intent/);
   });
 });
 

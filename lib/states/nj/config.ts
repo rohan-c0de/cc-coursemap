@@ -72,6 +72,16 @@ const njConfig: StateConfig = {
     return ssUrl ? `${ssUrl}/Student/Courses` : "https://www.njcommunitycolleges.org";
   },
 
+  universityAliases: [
+    { slug: "rutgers", names: ["Rutgers", "Rutgers University"] },
+    { slug: "rutgers-nb", names: ["Rutgers New Brunswick"] },
+    { slug: "njit", names: ["NJIT", "New Jersey Institute of Technology"] },
+    { slug: "montclair", names: ["Montclair", "Montclair State", "Montclair State University"] },
+    { slug: "rowan", names: ["Rowan", "Rowan University"] },
+    { slug: "tcnj", names: ["TCNJ", "The College of New Jersey", "College of New Jersey"] },
+    { slug: "kean", names: ["Kean", "Kean University"] },
+    { slug: "seton-hall", names: ["Seton Hall", "Seton Hall University"] },
+  ],
   scrapers: {
     courses: [
       { scripts: ["scripts/nj/scrape-colleague.ts"], runner: "playwright" },

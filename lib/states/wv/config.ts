@@ -54,6 +54,11 @@ const wvConfig: StateConfig = {
       "West Virginia community college schedule",
     ],
   },
+  universityAliases: [
+    { slug: "wvu", names: ["WVU", "West Virginia University", "West Virginia"] },
+    { slug: "marshall", names: ["Marshall", "Marshall University"] },
+    { slug: "shepherd", names: ["Shepherd", "Shepherd University"] },
+  ],
 };
 
 export default wvConfig;

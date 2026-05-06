@@ -49,7 +49,7 @@ export async function runEval(
 
   for (const c of cases) {
     const start = performance.now();
-    const classified = await classifier(c.query);
+    const classified = await classifier(c.query, c.state ?? "va");
     const latencyMs = performance.now() - start;
     const match = matchesExpected(classified.intent, c.expected);
     results.push({

@@ -107,6 +107,18 @@ const ncConfig: StateConfig = {
       "NC schedule builder",
     ],
   },
+  universityAliases: [
+    { slug: "unc-chapel-hill", names: ["UNC", "UNC Chapel Hill", "University of North Carolina"] },
+    { slug: "ncsu", names: ["NC State", "NCSU", "North Carolina State"] },
+    { slug: "uncc", names: ["UNC Charlotte", "UNCC", "Charlotte"] },
+    { slug: "uncg", names: ["UNC Greensboro", "UNCG"] },
+    { slug: "ecu", names: ["ECU", "East Carolina", "East Carolina University"] },
+    { slug: "appstate", names: ["App State", "Appalachian State", "Appalachian State University"] },
+    { slug: "duke", names: ["Duke", "Duke University"] },
+    { slug: "wake-forest", names: ["Wake Forest", "Wake Forest University"] },
+    { slug: "uncw", names: ["UNCW", "UNC Wilmington"] },
+    { slug: "ncat", names: ["NC A&T", "North Carolina A&T"] },
+  ],
   scrapers: {
     courses: [
       {

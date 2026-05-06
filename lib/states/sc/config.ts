@@ -93,6 +93,15 @@ const scConfig: StateConfig = {
       "SC schedule builder",
     ],
   },
+  universityAliases: [
+    { slug: "usc", names: ["USC", "University of South Carolina", "South Carolina"] },
+    { slug: "clemson", names: ["Clemson", "Clemson University"] },
+    { slug: "coastal-carolina", names: ["CCU", "Coastal Carolina", "Coastal Carolina University"] },
+    { slug: "college-of-charleston", names: ["College of Charleston", "CofC"] },
+    { slug: "winthrop", names: ["Winthrop", "Winthrop University"] },
+    { slug: "citadel", names: ["The Citadel", "Citadel"] },
+    { slug: "furman", names: ["Furman", "Furman University"] },
+  ],
   scrapers: {
     courses: [
       {

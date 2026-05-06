@@ -48,6 +48,18 @@ const vaConfig: StateConfig = {
       "VCCS schedule builder",
     ],
   },
+  universityAliases: [
+    { slug: "gmu", names: ["GMU", "George Mason", "George Mason University"] },
+    { slug: "vcu", names: ["VCU", "Virginia Commonwealth", "Virginia Commonwealth University"] },
+    { slug: "uva", names: ["UVA", "University of Virginia"] },
+    { slug: "vt", names: ["Virginia Tech", "VT", "Virginia Polytechnic"] },
+    { slug: "odu", names: ["ODU", "Old Dominion", "Old Dominion University"] },
+    { slug: "jmu", names: ["JMU", "James Madison", "James Madison University"] },
+    { slug: "wm", names: ["William & Mary", "William and Mary", "W&M"] },
+    { slug: "radford", names: ["Radford", "Radford University"] },
+    { slug: "longwood", names: ["Longwood", "Longwood University"] },
+    { slug: "liberty", names: ["Liberty", "Liberty University"] },
+  ],
   scrapers: {
     courses: [
       { scripts: ["scripts/va/scrape-vccs.ts"], runner: "http", termSystem: "vccs" },
