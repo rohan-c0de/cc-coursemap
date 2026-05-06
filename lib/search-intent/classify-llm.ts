@@ -82,6 +82,10 @@ export function toClassifiedIntent(
     intent: toSearchIntent(rawQuery, input),
     confidence: clamp01(input.confidence),
     reasoning: input.reasoning,
+    studentSummary: input.student_summary,
+    clarifyingQuestion: input.clarifying_question ?? null,
+    sourceCollege: input.source_college ?? null,
+    suggestedFollowups: input.suggested_followups ?? [],
   };
 }
 

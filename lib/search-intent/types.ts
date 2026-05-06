@@ -67,6 +67,14 @@ export interface ClassifiedIntent {
   confidence: number;
   // Optional human-readable reasoning, useful for debugging and eval output.
   reasoning?: string;
+  // Plain-English restatement of what the student asked, addressed to them.
+  studentSummary: string;
+  // Specific follow-up question when confidence < 0.85. Null otherwise.
+  clarifyingQuestion: string | null;
+  // Community college the student named in their query, as a slug. Null if not mentioned.
+  sourceCollege: string | null;
+  // 2-3 follow-up questions the student would naturally ask next.
+  suggestedFollowups: string[];
 }
 
 export type Classifier = (

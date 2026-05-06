@@ -12,6 +12,10 @@ function fakeClient(toolInput: Partial<ClassifierToolInput>) {
         input: {
           confidence: 0.95,
           reasoning: "test reasoning",
+          student_summary: "You're asking a question about your coursework.",
+          clarifying_question: null,
+          source_college: null,
+          suggested_followups: ["What are the prereqs?", "Are there online sections?"],
           ...toolInput,
         },
       },
@@ -154,6 +158,8 @@ describe("toClassifiedIntent", () => {
       course_number: "111",
       confidence: 0.1,
       reasoning: "x",
+      student_summary: "You're asking an unknown question.",
+      suggested_followups: [],
     });
     expect(result.intent).toEqual({ type: "unknown", raw: "test" });
   });
@@ -165,8 +171,41 @@ describe("toClassifiedIntent", () => {
       course_number: null,
       confidence: 0.5,
       reasoning: "x",
+      student_summary: "You're asking about transfer.",
+      suggested_followups: [],
     });
     if (result.intent.type !== "transfer") throw new Error("wrong type");
     expect(result.intent.course).toBeNull();
+  });
+
+  it("maps new enrichment fields onto ClassifiedIntent", () => {
+    const result = toClassifiedIntent("Does ENG 111 transfer to GMU? I'm at NOVA.", {
+      type: "transfer",
+      course_prefix: "ENG",
+      course_number: "111",
+      university: "gmu",
+      confidence: 0.6,
+      reasoning: "low confidence",
+      student_summary: "You're asking whether ENG 111 transfers to George Mason.",
+      clarifying_question: "Which campus of NOVA are you attending?",
+      source_college: "nova",
+      suggested_followups: ["What are the prereqs for ENG 111?", "Does ENG 111 transfer to VCU?"],
+    });
+    expect(result.studentSummary).toBe("You're asking whether ENG 111 transfers to George Mason.");
+    expect(result.clarifyingQuestion).toBe("Which campus of NOVA are you attending?");
+    expect(result.sourceCollege).toBe("nova");
+    expect(result.suggestedFollowups).toEqual(["What are the prereqs for ENG 111?", "Does ENG 111 transfer to VCU?"]);
+  });
+
+  it("defaults clarifyingQuestion to null and suggestedFollowups to [] when LLM omits them", () => {
+    const result = toClassifiedIntent("test", {
+      type: "unknown",
+      confidence: 0.9,
+      reasoning: "x",
+      student_summary: "You're asking something unclear.",
+    });
+    expect(result.clarifyingQuestion).toBeNull();
+    expect(result.sourceCollege).toBeNull();
+    expect(result.suggestedFollowups).toEqual([]);
   });
 });

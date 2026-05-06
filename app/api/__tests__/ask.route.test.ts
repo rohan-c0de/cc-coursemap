@@ -88,6 +88,10 @@ describe("GET /api/[state]/ask", () => {
       },
       confidence: 0.95,
       reasoning: "test",
+      studentSummary: "You're asking whether ENG 111 transfers to George Mason.",
+      clarifyingQuestion: null,
+      sourceCollege: null,
+      suggestedFollowups: ["What are the prereqs for ENG 111?"],
     };
     const answer: Answer = {
       type: "transfer",
@@ -122,6 +126,10 @@ describe("GET /api/[state]/ask", () => {
     classifyMock.mockResolvedValue({
       intent: { type: "unknown", raw: "x" },
       confidence: 0.1,
+      studentSummary: "test",
+      clarifyingQuestion: null,
+      sourceCollege: null,
+      suggestedFollowups: [],
     });
     lookupAnswerMock.mockResolvedValue({
       type: "none",
@@ -151,6 +159,10 @@ describe("GET /api/[state]/ask", () => {
     classifyMock.mockResolvedValue({
       intent: { type: "unknown", raw: "x" },
       confidence: 0.1,
+      studentSummary: "test",
+      clarifyingQuestion: null,
+      sourceCollege: null,
+      suggestedFollowups: [],
     });
     lookupAnswerMock.mockResolvedValue({
       type: "none",
@@ -170,6 +182,10 @@ describe("GET /api/[state]/ask", () => {
     classifyMock.mockResolvedValue({
       intent: { type: "unknown", raw: "x" },
       confidence: 0,
+      studentSummary: "test",
+      clarifyingQuestion: null,
+      sourceCollege: null,
+      suggestedFollowups: [],
     });
     lookupAnswerMock.mockResolvedValue({
       type: "none",
