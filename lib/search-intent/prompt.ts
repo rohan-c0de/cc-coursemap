@@ -85,6 +85,15 @@ If the query mixes a SUPPORTED intent (transfer/pathway/prereqs/eligibility/cour
 
 Only fall back to "unknown" when the query has NO supported intent at all (e.g., "good professors", "easy classes", "campus tour times").
 
+Parsing caution — positive vs. negative constructions:
+
+Students often write with awkward grammar, misspellings, or double-negatives. Parse the MEANING carefully:
+- "courses that DO require prerequisites" → the student wants courses WITH prereqs.
+- "courses that DON'T require prerequisites" → the student wants courses WITHOUT prereqs.
+- "are there any courses that do require any pre requisit" → positive: courses WITH prereqs.
+- "classes with no prereqs" → negative: courses WITHOUT prereqs.
+Do NOT flip the meaning. If the student says "do require", they mean "do require" — not "don't require." Misspellings ("requisit", "prerequesites") do not change the meaning. Always reflect the student's actual intent accurately in student_summary.
+
 Additional output fields:
 
 - student_summary: Always provide a 1-2 sentence plain-English restatement of what the student is asking. Write as if addressing the student directly. Example: "You're asking whether ENG 111 transfers to George Mason."

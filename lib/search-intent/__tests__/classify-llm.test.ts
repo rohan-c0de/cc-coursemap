@@ -219,6 +219,25 @@ describe("llmClassifier", () => {
     expect(result.intent).toEqual({ type: "unknown", raw: "good professors" });
   });
 
+  it("classifies 'courses that do require prerequisites' as a course search (not inverted)", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "course",
+        keyword: "history",
+        student_summary: "You're looking for history courses that have prerequisites.",
+      }),
+    });
+    const result = await classifier(
+      "are there any history courses that do require any pre requisit?",
+      "ga",
+    );
+    expect(result.intent.type).toBe("course");
+    if (result.intent.type !== "course") throw new Error("wrong type");
+    expect(result.intent.keyword).toBe("history");
+    expect(result.studentSummary).toContain("have prerequisites");
+    expect(result.studentSummary).not.toContain("don't");
+  });
+
   it("throws if the LLM did not call the classify_intent tool", async () => {
     const create = vi.fn().mockResolvedValue({
       content: [{ type: "text", text: "Sorry I cannot do that." }],
