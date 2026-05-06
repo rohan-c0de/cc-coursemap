@@ -269,6 +269,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
     let llmDays: string[] | null = null;
     let llmMode: string | null = null;
     let llmTimeOfDay: string | null = null;
+    let llmTransferTo: string | null = null;
     try {
       const askRes = await fetch(
         `/api/${state}/ask?q=${encodeURIComponent(trimmed)}`,
@@ -280,6 +281,8 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
             intent?: {
               type: string;
               keyword?: string | null;
+              course?: { prefix: string; number: string } | null;
+              university?: string | null;
               filters?: {
                 course?: { prefix: string; number: string } | null;
                 days?: string[] | null;
@@ -307,6 +310,16 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
           }
           if (intent.filters?.mode) llmMode = intent.filters.mode;
           if (intent.filters?.timeOfDay) llmTimeOfDay = intent.filters.timeOfDay;
+        } else if (intent?.type === "transfer") {
+          // Transfer intent fires the AnswerCard above, but the course
+          // search below still runs. Use the extracted course code and
+          // destination to narrow it: a query like "does ENG 111 transfer
+          // to GMU?" should show ENG 111 sections filtered to GMU-
+          // transferable, alongside the transfer answer.
+          if (intent.course) {
+            searchQ = `${intent.course.prefix} ${intent.course.number}`;
+          }
+          if (intent.university) llmTransferTo = intent.university;
         }
       }
     } catch {
@@ -319,9 +332,11 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
     const effectiveDays = days.length > 0 ? days : (llmDays ?? []);
     const effectiveMode = mode || llmMode || "";
     const effectiveTimeOfDay = timeOfDay || llmTimeOfDay || "";
+    const effectiveTransferTo = transferTo || llmTransferTo || "";
     if (llmDays && days.length === 0) setDays(effectiveDays);
     if (llmMode && !mode) setMode(effectiveMode);
     if (llmTimeOfDay && !timeOfDay) setTimeOfDay(effectiveTimeOfDay);
+    if (llmTransferTo && !transferTo) setTransferTo(effectiveTransferTo);
 
     try {
       const params = new URLSearchParams({ q: searchQ, limit: "50" });
@@ -357,7 +372,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
       setResults(null);
     }
     setLoading(false);
-  }, [state, zip, mode, days, timeOfDay]);
+  }, [state, zip, mode, days, timeOfDay, transferTo]);
 
   async function handleSearch(e: React.FormEvent) {
     e.preventDefault();
@@ -620,15 +635,33 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
             </div>
           </div>
 
-          {/* No results */}
-          {results.courses.length === 0 && (
-            <div className="rounded-lg border border-dashed border-gray-300 dark:border-slate-600 py-12 text-center">
-              <p className="text-gray-500 dark:text-slate-400">No courses match your search.</p>
-              <p className="mt-1 text-sm text-gray-400 dark:text-slate-500">
-                Try a different keyword, subject, or remove some filters.
-              </p>
-            </div>
-          )}
+          {/* No results. When a filter is active, point to it specifically
+              so the student knows what to clear; otherwise suggest broader
+              query changes. The studentSummary card above (if present)
+              already restates what we understood, so we don't repeat it. */}
+          {results.courses.length === 0 && (() => {
+            const activeFilters: string[] = [];
+            if (mode) activeFilters.push(mode === "in-person" ? "in-person" : mode);
+            if (days.length > 0) activeFilters.push(`day (${days.join(", ")})`);
+            if (timeOfDay) activeFilters.push(timeOfDay);
+            if (transferTo) {
+              const u = universities.find((x) => x.slug === transferTo);
+              activeFilters.push(`transfers to ${u?.name ?? transferTo}`);
+            }
+            const hasFilters = activeFilters.length > 0;
+            return (
+              <div className="rounded-lg border border-dashed border-gray-300 dark:border-slate-600 py-12 text-center">
+                <p className="text-gray-500 dark:text-slate-400">
+                  No matching courses{hasFilters ? " with the current filters" : ""}.
+                </p>
+                <p className="mt-1 text-sm text-gray-400 dark:text-slate-500">
+                  {hasFilters
+                    ? `Try removing the ${activeFilters.join(", ")} filter${activeFilters.length === 1 ? "" : "s"}.`
+                    : "Try a different keyword or course code."}
+                </p>
+              </div>
+            );
+          })()}
 
           {/* Course groups */}
           <div className="space-y-6">
