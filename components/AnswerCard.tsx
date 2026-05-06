@@ -28,15 +28,20 @@ interface AnswerCardProps {
 }
 
 export default function AnswerCard({ answer, state, classification, onFollowupClick }: AnswerCardProps) {
-  // `intent-not-supported` is the one NoAnswer reason we deliberately
-  // suppress — it fires for course intents, where the existing course
-  // search results below are the answer. Every other NoAnswer carries a
-  // helpful message the user should see ("Which course are you asking
-  // about?", "I'm not sure what you're asking", etc.). Render those as
-  // a quieter info card so the user gets feedback that we understood
-  // the question shape but couldn't answer it as-asked.
+  // `intent-not-supported` fires for course intents, where the course
+  // search results below are the actual answer. We don't render the full
+  // typed-answer card, but we DO surface the LLM's studentSummary so the
+  // user sees what we understood ("You're asking about ENG 111") — without
+  // it, a natural-language query like "is ENG 111 offered?" looks like it
+  // was ignored. Every other NoAnswer carries a helpful message the user
+  // should see — render those as a quieter info card.
   if (answer.type === "none") {
-    if (answer.reason === "intent-not-supported") return null;
+    if (answer.reason === "intent-not-supported") {
+      if (classification?.studentSummary) {
+        return <CourseSummaryCard summary={classification.studentSummary} />;
+      }
+      return null;
+    }
     return (
       <NoAnswerCard
         answer={answer}
@@ -79,6 +84,30 @@ export default function AnswerCard({ answer, state, classification, onFollowupCl
         )}
       </div>
       <SourceFooter source={answer.source} />
+    </div>
+  );
+}
+
+// ─── Course confirmation (slim card for course intents) ────────────────
+//
+// When the LLM classifies a query as a course search, we don't render a
+// typed answer (the course results below are the answer). But we do echo
+// back what we understood so the user gets feedback on natural-language
+// queries like "is ENG 111 offered this semester?" — without it, the
+// studentSummary work would be invisible for the most common intent.
+
+function CourseSummaryCard({ summary }: { summary: string }) {
+  return (
+    <div
+      className="mb-4 px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/40"
+      data-testid="answer-card"
+      role="region"
+      aria-live="polite"
+      aria-label="What we understood"
+    >
+      <p className="text-sm italic text-slate-600 dark:text-slate-300">
+        {summary}
+      </p>
     </div>
   );
 }
