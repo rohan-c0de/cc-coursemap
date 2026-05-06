@@ -88,6 +88,27 @@ function formatSchedule(s: SectionResult): string {
   return "Asynchronous / Online";
 }
 
+// The LLM emits compact single-letter day codes per the classifier prompt
+// ("T" for Tuesday, "R" for Thursday, "S"/"U" for weekend). The UI/API use
+// 2-char codes ("Tu", "Th", "Sa", "Su"). Map between them when applying
+// LLM-extracted day filters; otherwise a query like "tuesday classes"
+// silently filters to nothing because "T" doesn't match any section's "Tu".
+const LLM_TO_UI_DAY: Record<string, string> = {
+  M: "M",
+  T: "Tu",
+  W: "W",
+  R: "Th",
+  F: "F",
+  S: "Sa",
+  U: "Su",
+};
+
+function mapLLMDays(llmDays: string[]): string[] {
+  return llmDays
+    .map((d) => LLM_TO_UI_DAY[d] ?? d)
+    .filter((d, i, arr) => arr.indexOf(d) === i);
+}
+
 function buildCourseUrl(slug: string, s: SectionResult, courseUrlMap?: Record<string, string>): string {
   if (!courseUrlMap?.[slug]) return "";
   return courseUrlMap[slug]
@@ -236,15 +257,18 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
     setClassification(null);
 
     const trimmed = searchQuery.trim();
-    // The user query may be natural language ("is ENG 111 offered this
-    // semester?"). The keyword course-search can't parse that — it would
+    // The user query may be natural language ("Computer Science classes on
+    // wednesday"). The keyword course-search can't parse that — it would
     // try to match the whole sentence against course titles and return 0
-    // results. So we await the LLM classifier first; if it extracted a
-    // course code, we use that to drive the course search instead of the
-    // raw query. Falls back to the raw query if /ask fails or returns
-    // nothing extractable. The /ask endpoint is rate-limited and cached,
-    // so the latency hit is small for repeat queries.
+    // results. We await the LLM classifier first and use its extracted
+    // entities (course code, keyword, days, mode, timeOfDay) to drive the
+    // search. Falls back to the raw query when /ask fails or extracts
+    // nothing useful. /ask is rate-limited and cached, so the latency hit
+    // is small for repeat queries.
     let searchQ = trimmed;
+    let llmDays: string[] | null = null;
+    let llmMode: string | null = null;
+    let llmTimeOfDay: string | null = null;
     try {
       const askRes = await fetch(
         `/api/${state}/ask?q=${encodeURIComponent(trimmed)}`,
@@ -255,29 +279,56 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
           classification?: ClassificationSummary & {
             intent?: {
               type: string;
-              filters?: { course?: { prefix: string; number: string } | null };
+              keyword?: string | null;
+              filters?: {
+                course?: { prefix: string; number: string } | null;
+                days?: string[] | null;
+                mode?: string | null;
+                timeOfDay?: string | null;
+              };
             };
           };
         } | null = await askRes.json();
         if (askData?.answer) setAnswer(askData.answer);
         if (askData?.classification) setClassification(askData.classification);
 
-        // If the LLM extracted a course code, prefer that over the raw query.
         const intent = askData?.classification?.intent;
-        if (intent?.type === "course" && intent.filters?.course) {
-          searchQ = `${intent.filters.course.prefix} ${intent.filters.course.number}`;
+        if (intent?.type === "course") {
+          // Refine q: course code beats keyword beats raw query.
+          if (intent.filters?.course) {
+            searchQ = `${intent.filters.course.prefix} ${intent.filters.course.number}`;
+          } else if (intent.keyword) {
+            searchQ = intent.keyword;
+          }
+          // Capture filter extractions; we apply them below only if the user
+          // hasn't already set the corresponding filter manually (UI wins).
+          if (intent.filters?.days?.length) {
+            llmDays = mapLLMDays(intent.filters.days);
+          }
+          if (intent.filters?.mode) llmMode = intent.filters.mode;
+          if (intent.filters?.timeOfDay) llmTimeOfDay = intent.filters.timeOfDay;
         }
       }
     } catch {
       /* silent — no answer card, fall through to raw-query search below */
     }
 
+    // Sync LLM-extracted filters into UI state when the user hasn't set
+    // them, so the active filters are visible in the toggle/dropdowns and
+    // the user can clear or adjust them. User-set filters take precedence.
+    const effectiveDays = days.length > 0 ? days : (llmDays ?? []);
+    const effectiveMode = mode || llmMode || "";
+    const effectiveTimeOfDay = timeOfDay || llmTimeOfDay || "";
+    if (llmDays && days.length === 0) setDays(effectiveDays);
+    if (llmMode && !mode) setMode(effectiveMode);
+    if (llmTimeOfDay && !timeOfDay) setTimeOfDay(effectiveTimeOfDay);
+
     try {
       const params = new URLSearchParams({ q: searchQ, limit: "50" });
       if (zip) params.set("zip", zip);
-      if (mode) params.set("mode", mode);
-      if (days.length > 0) params.set("days", days.join(","));
-      if (timeOfDay) params.set("timeOfDay", timeOfDay);
+      if (effectiveMode) params.set("mode", effectiveMode);
+      if (effectiveDays.length > 0) params.set("days", effectiveDays.join(","));
+      if (effectiveTimeOfDay) params.set("timeOfDay", effectiveTimeOfDay);
 
       const res = await fetch(`/api/${state}/courses/search?${params}`);
       if (!res.ok) {
