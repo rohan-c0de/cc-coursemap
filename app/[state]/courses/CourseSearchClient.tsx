@@ -287,6 +287,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
               type: string;
               keyword?: string | null;
               course?: { prefix: string; number: string } | null;
+              subjectPrefix?: string | null;
               university?: string | null;
               filters?: {
                 course?: { prefix: string; number: string } | null;
@@ -331,6 +332,8 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
           // transferable, alongside the transfer answer.
           if (intent.course) {
             searchQ = `${intent.course.prefix} ${intent.course.number}`;
+          } else if (intent.subjectPrefix) {
+            searchQ = intent.subjectPrefix;
           }
           if (intent.university) llmTransferTo = intent.university;
         }

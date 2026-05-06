@@ -87,6 +87,7 @@ describe("GET /api/[state]/ask", () => {
       intent: {
         type: "transfer" as const,
         course: { prefix: "ENG", number: "111" },
+        subjectPrefix: null,
         university: "gmu",
       },
       secondaryIntent: null,

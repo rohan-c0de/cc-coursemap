@@ -2,9 +2,14 @@
 //
 // Maps a TransferIntent + state slug to a TransferAnswer. The decision tree:
 //
-//   intent.course == null
+//   intent.course == null, intent.subjectPrefix == null
 //     ↓
 //     status: "missing-entity" → NoAnswer (can't lookup without a course)
+//
+//   intent.course == null, intent.subjectPrefix present
+//     ↓
+//     status: "browse-subject" → NoAnswer with browse guidance
+//     (UI shows courses matching the prefix in the results grid)
 //
 //   intent.course present, intent.university == null
 //     ↓
@@ -23,6 +28,7 @@ import type {
   TransferEquivalency,
 } from "./types";
 import { courseExists, resolveUniversity } from "./validate";
+import { subjectName } from "../../subjects";
 
 const MAX_ALTERNATIVES = 5;
 
@@ -33,6 +39,21 @@ export async function lookupTransfer(
   const { course } = intent;
 
   if (!course) {
+    if (intent.subjectPrefix) {
+      const name = subjectName(intent.subjectPrefix);
+      const dest = intent.university
+        ? await resolveUniversity(state, intent.university)
+        : null;
+      const destName = dest?.resolved?.name;
+      const msg = destName
+        ? `Showing ${name} courses — pick one to check if it transfers to ${destName}.`
+        : `Showing ${name} courses — pick one to check transfer equivalency.`;
+      return {
+        type: "none",
+        reason: "missing-entity",
+        message: msg,
+      };
+    }
     return {
       type: "none",
       reason: "missing-entity",
