@@ -40,7 +40,7 @@ Intent types:
 
 Entity-extraction rules:
 
-- Course codes: extract prefix (uppercase, e.g. "ENG", "ENGL", "MATH") and number ("111", "1001"). Handle typos and missing spaces ("eng111", "psy200" → ENG 111, PSY 200). Subject aliases: "math" → "MATH", "psych"/"psychology" → "PSYC" or "PSY" (use whichever is more common).
+- Course codes: extract prefix (uppercase, e.g. "ENG", "ENGL", "MATH") and number ("111", "1001"). Handle typos and missing spaces ("eng111", "psy200" → ENG 111, PSY 200). The user message includes a "Subject prefixes used in <state>" list — when extracting a prefix, ALWAYS pick from that list. Different states use different conventions (VA uses MTH and PSY, NY uses MATH and may have both PSY and PSYC, ME uses ENGL). If the user's subject is ambiguous, prefer the prefix that appears in the state's list. If no list is provided, default to the most common form.
 - University names: use the alias table provided in the user message to resolve names and abbreviations to slugs. For universities not in the alias table, lowercase and hyphenate: "Smith College" → "smith". If the alias is ambiguous (e.g. multi-campus system with no campus specified), use the slug and lower your confidence.
 - Age: parse numeric age from "65+", "60", "I'm 65", etc.
 - Days: "weekend" → ["S", "U"]; "MWF" → ["M", "W", "F"]; "TR" or "Tu/Th" → ["T", "R"].
@@ -74,6 +74,17 @@ export function buildUniversityBlock(
   return aliases
     .map((a) => `- ${a.names.map((n) => `"${n}"`).join(" or ")} → "${a.slug}"`)
     .join("\n");
+}
+
+/**
+ * Format a state's distinct subject prefixes for injection into the user
+ * message. The classifier uses this list to pick the correct course-code
+ * prefix for the state — VA uses PSY/MTH, ME uses ENGL/MATH, NY may have
+ * both PSY and PSYC, etc. Without this, the LLM defaults to its own
+ * normalization (PSYC, MATH) which often doesn't match the data.
+ */
+export function buildSubjectPrefixBlock(prefixes: string[]): string {
+  return prefixes.join(", ");
 }
 
 // JSON-schema input for the classify_intent tool. Flat structure — fields

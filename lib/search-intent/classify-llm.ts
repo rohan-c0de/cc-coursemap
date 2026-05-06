@@ -11,10 +11,13 @@ import {
   CLASSIFIER_MODEL,
   CLASSIFY_TOOL,
   SYSTEM_PROMPT,
+  buildSubjectPrefixBlock,
   buildUniversityBlock,
   type ClassifierToolInput,
 } from "./prompt";
 import { getStateConfig } from "../states/registry";
+import { getDistinctSubjects } from "../courses";
+import { getCurrentTerm } from "../terms";
 import type { Classifier, ClassifiedIntent, SearchIntent } from "./types";
 
 export interface LlmClassifierOptions {
@@ -45,7 +48,25 @@ export function llmClassifier(opts: LlmClassifierOptions = {}): Classifier {
       ? `\n\nUniversity aliases for ${stateName}:\n${buildUniversityBlock(aliases)}`
       : "";
 
-    const userMessage = `[State: ${stateName}]${aliasBlock}\n\n${query}`;
+    // Inject the state's actual subject prefixes so the LLM picks the right
+    // course-code prefix (VA uses PSY/MTH, ME uses ENGL/MATH, etc.) rather
+    // than defaulting to its own normalization. Both calls are cached
+    // (currentTerm + distinctSubjects) so the cost is one-time per state.
+    // If either lookup fails (no data, scraper hasn't run yet), we silently
+    // omit the prefix block — the classifier still works, just without the
+    // state-specific grounding.
+    let prefixBlock = "";
+    try {
+      const term = await getCurrentTerm(state);
+      const prefixes = await getDistinctSubjects(term, state);
+      if (prefixes.length > 0) {
+        prefixBlock = `\n\nSubject prefixes used in ${stateName}:\n${buildSubjectPrefixBlock(prefixes)}`;
+      }
+    } catch {
+      /* state data unavailable — fall through without prefix grounding */
+    }
+
+    const userMessage = `[State: ${stateName}]${aliasBlock}${prefixBlock}\n\n${query}`;
 
     const response = await client.messages.create({
       model,
