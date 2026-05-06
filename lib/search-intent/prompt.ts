@@ -20,8 +20,8 @@ The user message starts with [State: <name>] and may include a university alias 
 
 Intent types:
 
-1. "transfer" — student is asking whether a specific community-college course transfers to a specific university (or asking generically about transfer).
-   Examples: "Does ENG 111 transfer to GMU?", "will math 263 transfer to vcu", "ENG 111 → George Mason"
+1. "transfer" — student is asking whether a community-college course transfers to a university (or asking generically about transfer). Can be a specific course ("Does ENG 111 transfer to GMU?") OR a subject-level browse ("are there any English courses that transfer to UVA?"). For subject-level queries, set course_prefix to the subject prefix and leave course_number null.
+   Examples: "Does ENG 111 transfer to GMU?", "will math 263 transfer to vcu", "ENG 111 → George Mason", "English courses that transfer to UVA", "what math classes transfer?"
 
 2. "pathway" — student wants to know what courses to take to transfer to a university, possibly for a specific major. No single course in mind — they want a plan or set of requirements.
    Examples: "what do I need to transfer to GMU for CS?", "transfer requirements for nursing at UNC", "how do I get into UMass Boston for business?", "courses needed to transfer to Virginia Tech"
@@ -128,11 +128,11 @@ export const CLASSIFY_TOOL = {
       // Course-related (used by transfer, prereqs, course)
       course_prefix: {
         type: ["string", "null"],
-        description: "Uppercase subject prefix, e.g. ENG, MATH, PSYC. Null if no course code in query.",
+        description: "Uppercase subject prefix, e.g. ENG, MATH, PSYC. Extract even when course_number is null — for subject-level queries like 'English courses that transfer' set this to 'ENG'. Null only if no subject or course code appears in query.",
       },
       course_number: {
         type: ["string", "null"],
-        description: "Course number as a string (preserve digits exactly), e.g. 111, 1001. Null if no course code.",
+        description: "Course number as a string (preserve digits exactly), e.g. 111, 1001. Null if no specific course number in query (subject-level queries like 'math courses' leave this null).",
       },
       // Transfer-specific
       university: {

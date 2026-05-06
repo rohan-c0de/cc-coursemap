@@ -31,7 +31,7 @@ const BASE_CLASSIFICATION = {
 describe("lookupAnswer dispatch", () => {
   it("dispatches transfer intents to lookupTransfer", async () => {
     await lookupAnswer(
-      { type: "transfer", course: { prefix: "ENG", number: "111" }, university: "gmu" },
+      { type: "transfer", course: { prefix: "ENG", number: "111" }, subjectPrefix: null, university: "gmu" },
       "va",
     );
     expect(lookupTransfer).toHaveBeenCalled();
@@ -101,6 +101,7 @@ describe("lookupAnswers (multi-intent)", () => {
       secondaryIntent: {
         type: "transfer",
         course: { prefix: "ENG", number: "111" },
+        subjectPrefix: null,
         university: "gmu",
       },
     };

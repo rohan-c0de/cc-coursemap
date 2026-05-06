@@ -51,9 +51,28 @@ describe("llmClassifier", () => {
     expect(result.intent).toEqual({
       type: "transfer",
       course: { prefix: "ENG", number: "111" },
+      subjectPrefix: null,
       university: "gmu",
     });
     expect(result.confidence).toBe(0.95);
+  });
+
+  it("extracts subjectPrefix when course_prefix set but course_number absent", async () => {
+    const classifier = llmClassifier({
+      client: fakeClient({
+        type: "transfer",
+        course_prefix: "eng",
+        course_number: null,
+        university: "uva",
+      }),
+    });
+    const result = await classifier("English courses that transfer to UVA", "va");
+    expect(result.intent).toEqual({
+      type: "transfer",
+      course: null,
+      subjectPrefix: "ENG",
+      university: "uva",
+    });
   });
 
   it("uppercases course prefix even when LLM returned lowercase", async () => {
@@ -290,6 +309,7 @@ describe("toClassifiedIntent", () => {
     expect(result.secondaryIntent).toEqual({
       type: "transfer",
       course: { prefix: "ENG", number: "111" },
+      subjectPrefix: null,
       university: "gmu",
     });
   });

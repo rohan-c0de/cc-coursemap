@@ -49,6 +49,7 @@ const PERFECT_CLASSIFIER: Classifier = (q, _state) => {
     intent = {
       type: "transfer",
       course: { prefix: "ENG", number: "111" },
+      subjectPrefix: null,
       university: "gmu",
     };
   } else if (q.includes("prereqs")) {

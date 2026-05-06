@@ -136,6 +136,9 @@ function toSecondarySearchIntent(
       return {
         type: "transfer",
         course: courseRef,
+        subjectPrefix: !courseRef && secondary.course_prefix
+          ? secondary.course_prefix.toUpperCase()
+          : null,
         university: secondary.university ?? null,
       };
     case "pathway":
@@ -177,6 +180,9 @@ function toSearchIntent(rawQuery: string, input: ClassifierToolInput): SearchInt
       return {
         type: "transfer",
         course: courseRef,
+        subjectPrefix: !courseRef && input.course_prefix
+          ? input.course_prefix.toUpperCase()
+          : null,
         university: input.university ?? null,
       };
     case "pathway":

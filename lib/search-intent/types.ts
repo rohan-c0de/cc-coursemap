@@ -15,6 +15,10 @@ export interface TransferIntent {
   // (e.g. "will my biology credits transfer"). Answer layer responds
   // with a clarification prompt rather than a lookup.
   course: CourseRef | null;
+  // Subject prefix without a course number (e.g. "ENG" from "English
+  // courses that transfer to UVA"). Null when the user named a specific
+  // course (use `course` instead) or mentioned no subject at all.
+  subjectPrefix: string | null;
   // university slug as it appears in transfer-equiv data (e.g. "gmu", "vcu").
   // null = "transfer to anywhere" (show all destinations).
   university: string | null;
