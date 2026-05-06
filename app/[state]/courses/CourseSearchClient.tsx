@@ -235,22 +235,45 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
     setAnswer(null);
     setClassification(null);
 
-    // Kick off the natural-language /ask fetch in parallel with the
-    // course search. Fire-and-forget — failure or 5xx silently leaves the
-    // answer card unrendered (graceful degradation; course results still
-    // load below).
-    fetch(`/api/${state}/ask?q=${encodeURIComponent(searchQuery.trim())}`)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((data: { answer: Answer; classification?: ClassificationSummary } | null) => {
-        if (data?.answer) setAnswer(data.answer);
-        if (data?.classification) setClassification(data.classification);
-      })
-      .catch(() => {
-        /* silent — no answer card, course results still render */
-      });
+    const trimmed = searchQuery.trim();
+    // The user query may be natural language ("is ENG 111 offered this
+    // semester?"). The keyword course-search can't parse that — it would
+    // try to match the whole sentence against course titles and return 0
+    // results. So we await the LLM classifier first; if it extracted a
+    // course code, we use that to drive the course search instead of the
+    // raw query. Falls back to the raw query if /ask fails or returns
+    // nothing extractable. The /ask endpoint is rate-limited and cached,
+    // so the latency hit is small for repeat queries.
+    let searchQ = trimmed;
+    try {
+      const askRes = await fetch(
+        `/api/${state}/ask?q=${encodeURIComponent(trimmed)}`,
+      );
+      if (askRes.ok) {
+        const askData: {
+          answer?: Answer;
+          classification?: ClassificationSummary & {
+            intent?: {
+              type: string;
+              filters?: { course?: { prefix: string; number: string } | null };
+            };
+          };
+        } | null = await askRes.json();
+        if (askData?.answer) setAnswer(askData.answer);
+        if (askData?.classification) setClassification(askData.classification);
+
+        // If the LLM extracted a course code, prefer that over the raw query.
+        const intent = askData?.classification?.intent;
+        if (intent?.type === "course" && intent.filters?.course) {
+          searchQ = `${intent.filters.course.prefix} ${intent.filters.course.number}`;
+        }
+      }
+    } catch {
+      /* silent — no answer card, fall through to raw-query search below */
+    }
 
     try {
-      const params = new URLSearchParams({ q: searchQuery.trim(), limit: "50" });
+      const params = new URLSearchParams({ q: searchQ, limit: "50" });
       if (zip) params.set("zip", zip);
       if (mode) params.set("mode", mode);
       if (days.length > 0) params.set("days", days.join(","));
