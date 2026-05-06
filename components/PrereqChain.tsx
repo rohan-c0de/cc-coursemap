@@ -120,7 +120,9 @@ export default function PrereqChain({
         <div className="mt-2 rounded-lg bg-slate-50/80 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-700/60 p-3">
           {tree.children.length === 0 ? (
             <p className="text-[10px] text-slate-500 dark:text-slate-400 italic">
-              No course prerequisites in the chain (test scores or placement only)
+              {/[A-Z]{2,5}\s+\d{3,4}/.test(prereqText)
+                ? "No deeper chain data available — see prerequisites listed above."
+                : "No course prerequisites in the chain (test scores or placement only)"}
             </p>
           ) : (
             <PrereqFlowChart tree={tree} />
