@@ -62,6 +62,14 @@ const dcConfig: StateConfig = {
       "UDC schedule builder",
     ],
   },
+  universityAliases: [
+    { slug: "american", names: ["AU", "American", "American University"] },
+    { slug: "howard", names: ["Howard", "Howard University"] },
+    { slug: "gwu", names: ["GWU", "GW", "George Washington", "George Washington University"] },
+    { slug: "georgetown", names: ["Georgetown", "Georgetown University"] },
+    { slug: "catholic", names: ["CUA", "Catholic University", "Catholic University of America"] },
+    { slug: "udc", names: ["UDC", "University of the District of Columbia"] },
+  ],
   scrapers: {
     courses: [{ scripts: ["scripts/dc/scrape-banner.ts"], runner: "http" }],
     // manual-only: transfers — DC has no in-state CC→4yr articulation pipeline; see `transferSupported` comment above.

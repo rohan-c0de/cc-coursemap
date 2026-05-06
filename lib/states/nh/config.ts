@@ -52,6 +52,13 @@ const nhConfig: StateConfig = {
       "New Hampshire community college schedule",
     ],
   },
+  universityAliases: [
+    { slug: "unh", names: ["UNH", "University of New Hampshire", "New Hampshire"] },
+    { slug: "plymouth-state", names: ["Plymouth State", "Plymouth State University"] },
+    { slug: "keene-state", names: ["Keene State", "Keene State College"] },
+    { slug: "snhu", names: ["SNHU", "Southern New Hampshire", "Southern New Hampshire University"] },
+    { slug: "dartmouth", names: ["Dartmouth", "Dartmouth College"] },
+  ],
   scrapers: {
     courses: [{ scripts: ["scripts/nh/scrape-banner8.ts"], runner: "http" }],
     transfers: [

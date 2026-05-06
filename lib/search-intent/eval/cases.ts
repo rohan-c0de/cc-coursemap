@@ -22,6 +22,8 @@ export type ExpectedIntent =
 export interface EvalCase {
   id: string;
   query: string;
+  /** State slug for the classifier. Defaults to "va" in the eval runner. */
+  state?: string;
   category:
     | "course-code"
     | "course-keyword"

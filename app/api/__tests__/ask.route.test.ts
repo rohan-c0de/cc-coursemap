@@ -180,6 +180,6 @@ describe("GET /api/[state]/ask", () => {
     const { req, ctx } = makeRequest("va", { q: "          ENG 111     " });
     const res = await GET(req, ctx);
     expect(res.status).toBe(200);
-    expect(classifyMock).toHaveBeenCalledWith("ENG 111");
+    expect(classifyMock).toHaveBeenCalledWith("ENG 111", "va");
   });
 });

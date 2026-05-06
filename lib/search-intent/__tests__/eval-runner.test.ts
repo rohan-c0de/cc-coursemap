@@ -35,7 +35,7 @@ const TINY_CASES: EvalCase[] = [
   },
 ];
 
-const PERFECT_CLASSIFIER: Classifier = (q) => {
+const PERFECT_CLASSIFIER: Classifier = (q, _state) => {
   let intent: SearchIntent;
   if (q.includes("transfer")) {
     intent = {
@@ -54,7 +54,7 @@ const PERFECT_CLASSIFIER: Classifier = (q) => {
   return { intent, confidence: 1 };
 };
 
-const ALWAYS_UNKNOWN: Classifier = (q) => ({
+const ALWAYS_UNKNOWN: Classifier = (q, _state) => ({
   intent: { type: "unknown", raw: q },
   confidence: 0,
 });
@@ -100,7 +100,7 @@ describe("runEval", () => {
   });
 
   it("supports async classifiers", async () => {
-    const asyncClassifier: Classifier = async (q) => ({
+    const asyncClassifier: Classifier = async (q, _state) => ({
       intent: { type: "unknown", raw: q },
       confidence: 0,
     });

@@ -59,6 +59,13 @@ const meConfig: StateConfig = {
       "Maine community college schedule",
     ],
   },
+  universityAliases: [
+    { slug: "umaine", names: ["UMaine", "University of Maine", "Maine"] },
+    { slug: "usm", names: ["USM", "University of Southern Maine"] },
+    { slug: "bowdoin", names: ["Bowdoin", "Bowdoin College"] },
+    { slug: "bates", names: ["Bates", "Bates College"] },
+    { slug: "colby", names: ["Colby", "Colby College"] },
+  ],
   scrapers: {
     courses: [{ scripts: ["scripts/me/scrape-mccs.ts"], runner: "playwright" }],
     // manual-only: transfers — CT.Net has zero in-state targets for ME; MaineStreet PeopleSoft scraper is the real fix. See `transferSupported` comment above.

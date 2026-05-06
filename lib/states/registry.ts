@@ -100,6 +100,11 @@ export interface StateConfig {
    * scripts/check-scraper-coverage.ts).
    */
   scrapers?: ScraperCoverage;
+  /**
+   * University aliases for the LLM classifier. Injected per-state into the
+   * user message so the system prompt stays cacheable across states.
+   */
+  universityAliases?: Array<{ slug: string; names: string[] }>;
 }
 
 // ---------------------------------------------------------------------------

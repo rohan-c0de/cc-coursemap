@@ -53,6 +53,23 @@ const maConfig: StateConfig = {
       "Massachusetts community college schedule",
     ],
   },
+  universityAliases: [
+    { slug: "umass-amherst", names: ["UMass Amherst", "UMass", "University of Massachusetts Amherst"] },
+    { slug: "umass-boston", names: ["UMass Boston", "University of Massachusetts Boston"] },
+    { slug: "umass-lowell", names: ["UMass Lowell", "UML", "University of Massachusetts Lowell"] },
+    { slug: "umass-dartmouth", names: ["UMass Dartmouth", "University of Massachusetts Dartmouth"] },
+    { slug: "bu", names: ["BU", "Boston University"] },
+    { slug: "bc", names: ["BC", "Boston College"] },
+    { slug: "northeastern", names: ["Northeastern", "Northeastern University", "NEU"] },
+    { slug: "tufts", names: ["Tufts", "Tufts University"] },
+    { slug: "brandeis", names: ["Brandeis", "Brandeis University"] },
+    { slug: "bridgewater-state", names: ["Bridgewater State", "BSU", "Bridgewater State University"] },
+    { slug: "salem-state", names: ["Salem State", "Salem State University"] },
+    { slug: "westfield-state", names: ["Westfield State", "Westfield State University"] },
+    { slug: "framingham-state", names: ["Framingham State", "Framingham State University"] },
+    { slug: "fitchburg-state", names: ["Fitchburg State", "Fitchburg State University"] },
+    { slug: "worcester-state", names: ["Worcester State", "Worcester State University"] },
+  ],
   scrapers: {
     courses: [
       {

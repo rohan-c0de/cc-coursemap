@@ -24,18 +24,20 @@ export function normalizeQuery(q: string): string {
   return q.trim().toLowerCase().replace(/\s+/g, " ");
 }
 
-/** SHA-256 hex of the normalized query. Stable across runs and processes. */
-export function hashQuery(q: string): string {
-  return createHash("sha256").update(normalizeQuery(q)).digest("hex");
+/** SHA-256 hex of the normalized query + state. Stable across runs and processes. */
+export function hashQuery(q: string, state?: string): string {
+  const input = state ? `${state}::${normalizeQuery(q)}` : normalizeQuery(q);
+  return createHash("sha256").update(input).digest("hex");
 }
 
 export interface CacheReader {
-  get(query: string, modelVersion: string): Promise<ClassifiedIntent | null>;
+  get(query: string, state: string, modelVersion: string): Promise<ClassifiedIntent | null>;
 }
 
 export interface CacheWriter {
   put(
     query: string,
+    state: string,
     modelVersion: string,
     classification: ClassifiedIntent,
   ): Promise<void>;
@@ -46,38 +48,33 @@ export type Cache = CacheReader & CacheWriter;
 /** Production cache backed by Supabase. */
 export function supabaseCache(): Cache {
   return {
-    async get(query, modelVersion) {
+    async get(query, state, modelVersion) {
       const client = await loadServiceClient();
       const { data, error } = await client
         .from(TABLE)
         .select("classification")
-        .eq("query_hash", hashQuery(query))
+        .eq("query_hash", hashQuery(query, state))
         .eq("model_version", modelVersion)
         .maybeSingle();
       if (error || !data) return null;
-      // Touch accessed_at for LRU. Fire-and-forget — a failure here doesn't
-      // affect correctness, only future eviction order.
       void client
         .from(TABLE)
         .update({ accessed_at: new Date().toISOString() })
-        .eq("query_hash", hashQuery(query))
+        .eq("query_hash", hashQuery(query, state))
         .eq("model_version", modelVersion);
       return data.classification as ClassifiedIntent;
     },
 
-    async put(query, modelVersion, classification) {
+    async put(query, state, modelVersion, classification) {
       const client = await loadServiceClient();
       const { error } = await client.from(TABLE).upsert({
-        query_hash: hashQuery(query),
+        query_hash: hashQuery(query, state),
         model_version: modelVersion,
         query: normalizeQuery(query),
         classification,
         confidence: classification.confidence,
       });
       if (error) {
-        // Caching is best-effort. Log but don't surface the error to callers
-        // — a failed write means we'll re-classify next time, not a wrong
-        // answer.
         console.warn("[search-intent] cache write failed:", error.message);
       }
     },
@@ -87,18 +84,17 @@ export function supabaseCache(): Cache {
 /** In-memory cache for tests and local dev. Bounded to avoid leaks. */
 export function memoryCache(maxEntries = 500): Cache {
   const store = new Map<string, ClassifiedIntent>();
-  const key = (q: string, m: string) => `${m}::${hashQuery(q)}`;
+  const key = (q: string, s: string, m: string) => `${m}::${hashQuery(q, s)}`;
   return {
-    async get(query, modelVersion) {
-      return store.get(key(query, modelVersion)) ?? null;
+    async get(query, state, modelVersion) {
+      return store.get(key(query, state, modelVersion)) ?? null;
     },
-    async put(query, modelVersion, classification) {
+    async put(query, state, modelVersion, classification) {
       if (store.size >= maxEntries) {
-        // Drop the oldest entry. Map preserves insertion order.
         const first = store.keys().next().value;
         if (first !== undefined) store.delete(first);
       }
-      store.set(key(query, modelVersion), classification);
+      store.set(key(query, state, modelVersion), classification);
     },
   };
 }

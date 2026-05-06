@@ -75,6 +75,15 @@ const tnConfig: StateConfig = {
       "Tennessee senior tuition waiver",
     ],
   },
+  universityAliases: [
+    { slug: "ut", names: ["UT", "University of Tennessee", "UTK", "UT Knoxville"] },
+    { slug: "vanderbilt", names: ["Vanderbilt", "Vanderbilt University", "Vandy"] },
+    { slug: "mtsu", names: ["MTSU", "Middle Tennessee State", "Middle Tennessee State University"] },
+    { slug: "memphis", names: ["Memphis", "University of Memphis", "U of M"] },
+    { slug: "etsu", names: ["ETSU", "East Tennessee State", "East Tennessee State University"] },
+    { slug: "belmont", names: ["Belmont", "Belmont University"] },
+    { slug: "lipscomb", names: ["Lipscomb", "Lipscomb University"] },
+  ],
   scrapers: {
     courses: [{ scripts: ["scripts/tn/scrape-banner-ssb.ts"], runner: "http" }],
     transfers: [{ scripts: ["scripts/tn/transfer/scrape-all.ts"], runner: "http" }],

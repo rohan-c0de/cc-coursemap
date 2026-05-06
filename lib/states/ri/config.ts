@@ -47,6 +47,15 @@ const riConfig: StateConfig = {
       "Rhode Island community college schedule",
     ],
   },
+  universityAliases: [
+    { slug: "uri", names: ["URI", "University of Rhode Island", "Rhode Island"] },
+    { slug: "ric", names: ["RIC", "Rhode Island College"] },
+    { slug: "brown", names: ["Brown", "Brown University"] },
+    { slug: "bryant", names: ["Bryant", "Bryant University"] },
+    { slug: "providence-college", names: ["Providence College", "PC"] },
+    { slug: "roger-williams", names: ["Roger Williams", "RWU", "Roger Williams University"] },
+    { slug: "salve-regina", names: ["Salve Regina", "Salve", "Salve Regina University"] },
+  ],
   scrapers: {
     courses: [{ scripts: ["scripts/ri/scrape-banner8.ts"], runner: "http" }],
     transfers: [{ scripts: ["scripts/ri/scrape-transfer.ts"], runner: "http" }],

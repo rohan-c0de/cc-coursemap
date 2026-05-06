@@ -71,4 +71,5 @@ export interface ClassifiedIntent {
 
 export type Classifier = (
   query: string,
+  state: string,
 ) => ClassifiedIntent | Promise<ClassifiedIntent>;

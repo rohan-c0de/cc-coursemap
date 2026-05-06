@@ -16,6 +16,8 @@ export const CLASSIFIER_MODEL = "claude-haiku-4-5";
 
 export const SYSTEM_PROMPT = `You classify search queries from students at U.S. community colleges. Each query will fit one of five intent types. Your job is to call the classify_intent tool with the structured fields. Never write prose to the user — only call the tool.
 
+The user message starts with [State: <name>] and may include a university alias table scoped to that state. Use the state context to resolve ambiguous entities.
+
 Intent types:
 
 1. "transfer" — student is asking whether a community-college course transfers to a specific university (or asking generically about transfer).
@@ -36,26 +38,7 @@ Intent types:
 Entity-extraction rules:
 
 - Course codes: extract prefix (uppercase, e.g. "ENG", "ENGL", "MATH") and number ("111", "1001"). Handle typos and missing spaces ("eng111", "psy200" → ENG 111, PSY 200). Subject aliases: "math" → "MATH", "psych"/"psychology" → "PSYC" or "PSY" (use whichever is more common).
-- University names: extract as a slug-style string. Common aliases:
-  · "GMU" or "George Mason" → "gmu"
-  · "VCU" or "Virginia Commonwealth" → "vcu"
-  · "UVA" or "University of Virginia" → "uva"
-  · "Virginia Tech" or "VT" → "vt"
-  · "ODU" or "Old Dominion" → "odu"
-  · "JMU" or "James Madison" → "jmu"
-  · "UMass Amherst" or "University of Massachusetts at Amherst" → "umass-amherst"
-  · "UMass Boston" → "umass-boston" (be specific when campus is named)
-  · "BU" → "bu" (Boston University, NOT Boston College — those are different schools)
-  · "BC" → "bc" (Boston College)
-  · "NC State" or "NCSU" → "ncsu"
-  · "UNC" alone → "unc-chapel-hill" (default to Chapel Hill when ambiguous, but lower confidence)
-  · "UNC Charlotte", "UNC Greensboro" etc → use the specific slug
-  · "Pitt" or "U Pitt" → "pitt" (NOT Penn State)
-  · "Penn State" or "PSU" → "psu"
-  · "Georgia Tech" or "GT" → "gatech"
-  · "UConn" → "uconn"
-  · "Rutgers" alone → "rutgers" (multi-campus; lower confidence)
-  · For unfamiliar universities, lowercase and hyphenate: "Smith College" → "smith"
+- University names: use the alias table provided in the user message to resolve names and abbreviations to slugs. For universities not in the alias table, lowercase and hyphenate: "Smith College" → "smith". If the alias is ambiguous (e.g. multi-campus system with no campus specified), use the slug and lower your confidence.
 - Age: parse numeric age from "65+", "60", "I'm 65", etc.
 - Days: "weekend" → ["S", "U"]; "MWF" → ["M", "W", "F"]; "TR" or "Tu/Th" → ["T", "R"].
 - Mode: "online", "in-person" (or "in person"), "hybrid", "zoom".
@@ -72,6 +55,15 @@ Confidence rules:
 If the query contains TWO clear intents (e.g. "Does ENG 111 transfer to GMU and what are the prereqs?"), pick the one that appears first or feels primary, and include the other in your reasoning. Don't try to return both.
 
 Always call the tool. Never produce conversational text.`;
+
+/** Format a state's university aliases for injection into the user message. */
+export function buildUniversityBlock(
+  aliases: Array<{ slug: string; names: string[] }>,
+): string {
+  return aliases
+    .map((a) => `- ${a.names.map((n) => `"${n}"`).join(" or ")} → "${a.slug}"`)
+    .join("\n");
+}
 
 // JSON-schema input for the classify_intent tool. Flat structure — fields
 // only matter for the matching intent type. Conversion to the canonical

@@ -11,8 +11,10 @@ import {
   CLASSIFIER_MODEL,
   CLASSIFY_TOOL,
   SYSTEM_PROMPT,
+  buildUniversityBlock,
   type ClassifierToolInput,
 } from "./prompt";
+import { getStateConfig } from "../states/registry";
 import type { Classifier, ClassifiedIntent, SearchIntent } from "./types";
 
 export interface LlmClassifierOptions {
@@ -35,7 +37,16 @@ export function llmClassifier(opts: LlmClassifierOptions = {}): Classifier {
   const client = opts.client ?? new Anthropic({ apiKey });
   const model = opts.model ?? CLASSIFIER_MODEL;
 
-  return async (query: string): Promise<ClassifiedIntent> => {
+  return async (query: string, state: string): Promise<ClassifiedIntent> => {
+    const config = getStateConfig(state);
+    const stateName = config?.name ?? state;
+    const aliases = config?.universityAliases ?? [];
+    const aliasBlock = aliases.length > 0
+      ? `\n\nUniversity aliases for ${stateName}:\n${buildUniversityBlock(aliases)}`
+      : "";
+
+    const userMessage = `[State: ${stateName}]${aliasBlock}\n\n${query}`;
+
     const response = await client.messages.create({
       model,
       max_tokens: 1024,
@@ -44,17 +55,12 @@ export function llmClassifier(opts: LlmClassifierOptions = {}): Classifier {
         {
           type: "text",
           text: SYSTEM_PROMPT,
-          // Prompt caching: the system prompt is identical across every call,
-          // so Anthropic caches it after the first request and reuses it on
-          // subsequent ones. ~80% input-token cost reduction once warm.
           cache_control: { type: "ephemeral" },
         },
       ],
       tools: [CLASSIFY_TOOL],
-      // Force the tool. Without this, Claude might respond with prose and
-      // we'd have to retry.
       tool_choice: { type: "tool", name: "classify_intent" },
-      messages: [{ role: "user", content: query }],
+      messages: [{ role: "user", content: userMessage }],
     });
 
     const toolUse = response.content.find((b) => b.type === "tool_use");

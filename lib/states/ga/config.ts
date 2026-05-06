@@ -80,6 +80,14 @@ const gaConfig: StateConfig = {
       "Georgia community college courses",
     ],
   },
+  universityAliases: [
+    { slug: "gatech", names: ["Georgia Tech", "GT", "Georgia Institute of Technology"] },
+    { slug: "uga", names: ["UGA", "University of Georgia"] },
+    { slug: "gsu", names: ["GSU", "Georgia State", "Georgia State University"] },
+    { slug: "kennesaw", names: ["KSU", "Kennesaw State", "Kennesaw State University"] },
+    { slug: "georgia-southern", names: ["Georgia Southern", "Georgia Southern University"] },
+    { slug: "emory", names: ["Emory", "Emory University"] },
+  ],
   scrapers: {
     courses: [{ scripts: ["scripts/ga/scrape-banner-ssb.ts"], runner: "http" }],
     transfers: [

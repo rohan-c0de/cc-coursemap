@@ -71,7 +71,7 @@ export async function GET(request: NextRequest, context: RouteContext) {
 
   let classification;
   try {
-    classification = await classifyQuery(q);
+    classification = await classifyQuery(q, state);
   } catch (err) {
     // Anthropic outage, missing key, billing issue, network error, etc.
     // Log server-side, return 503 so the UI knows to skip the answer card.

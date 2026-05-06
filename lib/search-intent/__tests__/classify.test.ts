@@ -32,8 +32,8 @@ describe("memoryCache", () => {
       intent: { type: "unknown" as const, raw: "x" },
       confidence: 0.3,
     };
-    await cache.put("hello", "model-x", intent);
-    expect(await cache.get("hello", "model-x")).toEqual(intent);
+    await cache.put("hello", "va", "model-x", intent);
+    expect(await cache.get("hello", "va", "model-x")).toEqual(intent);
   });
 
   it("isolates by model version", async () => {
@@ -42,8 +42,18 @@ describe("memoryCache", () => {
       intent: { type: "unknown" as const, raw: "x" },
       confidence: 0.3,
     };
-    await cache.put("hello", "model-x", intent);
-    expect(await cache.get("hello", "model-y")).toBeNull();
+    await cache.put("hello", "va", "model-x", intent);
+    expect(await cache.get("hello", "va", "model-y")).toBeNull();
+  });
+
+  it("isolates by state", async () => {
+    const cache = memoryCache();
+    const intent = {
+      intent: { type: "unknown" as const, raw: "x" },
+      confidence: 0.3,
+    };
+    await cache.put("hello", "va", "model-x", intent);
+    expect(await cache.get("hello", "ma", "model-x")).toBeNull();
   });
 
   it("evicts oldest entries when bound is exceeded", async () => {
@@ -52,12 +62,12 @@ describe("memoryCache", () => {
       intent: { type: "unknown" as const, raw },
       confidence: 0,
     });
-    await cache.put("q1", "m", make("q1"));
-    await cache.put("q2", "m", make("q2"));
-    await cache.put("q3", "m", make("q3"));
-    expect(await cache.get("q1", "m")).toBeNull();
-    expect(await cache.get("q2", "m")).not.toBeNull();
-    expect(await cache.get("q3", "m")).not.toBeNull();
+    await cache.put("q1", "va", "m", make("q1"));
+    await cache.put("q2", "va", "m", make("q2"));
+    await cache.put("q3", "va", "m", make("q3"));
+    expect(await cache.get("q1", "va", "m")).toBeNull();
+    expect(await cache.get("q2", "va", "m")).not.toBeNull();
+    expect(await cache.get("q3", "va", "m")).not.toBeNull();
   });
 });
 
@@ -68,11 +78,11 @@ describe("classifierWith", () => {
       intent: { type: "unknown" as const, raw: "cached" },
       confidence: 0.99,
     };
-    await cache.put("hello", "model-x", cached);
+    await cache.put("hello", "va", "model-x", cached);
 
     const llm: Classifier = vi.fn();
     const classifier = classifierWith({ cache, llm, modelVersion: "model-x" });
-    const result = await classifier("hello");
+    const result = await classifier("hello", "va");
 
     expect(result).toEqual(cached);
     expect(llm).not.toHaveBeenCalled();
@@ -87,12 +97,12 @@ describe("classifierWith", () => {
     const llm: Classifier = vi.fn().mockResolvedValue(fresh);
     const classifier = classifierWith({ cache, llm, modelVersion: "model-x" });
 
-    const result = await classifier("hello");
+    const result = await classifier("hello", "va");
     expect(result).toEqual(fresh);
-    expect(llm).toHaveBeenCalledWith("hello");
+    expect(llm).toHaveBeenCalledWith("hello", "va");
 
     // Second call should be served from cache.
-    const result2 = await classifier("hello");
+    const result2 = await classifier("hello", "va");
     expect(result2).toEqual(fresh);
     expect(llm).toHaveBeenCalledTimes(1);
   });
@@ -104,8 +114,8 @@ describe("classifierWith", () => {
     };
     const llm: Classifier = vi.fn().mockResolvedValue(fresh);
     const classifier = classifierWith({ cache: nullCache, llm });
-    await classifier("hello");
-    await classifier("hello");
+    await classifier("hello", "va");
+    await classifier("hello", "va");
     expect(llm).toHaveBeenCalledTimes(2);
   });
 });

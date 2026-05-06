@@ -133,6 +133,15 @@ const mdConfig: StateConfig = {
       "MD schedule builder",
     ],
   },
+  universityAliases: [
+    { slug: "umd", names: ["UMD", "University of Maryland", "College Park", "Maryland"] },
+    { slug: "umbc", names: ["UMBC", "University of Maryland Baltimore County"] },
+    { slug: "towson", names: ["Towson", "Towson University"] },
+    { slug: "morgan-state", names: ["Morgan State", "Morgan State University"] },
+    { slug: "salisbury", names: ["Salisbury", "Salisbury University"] },
+    { slug: "loyola-maryland", names: ["Loyola", "Loyola Maryland", "Loyola University Maryland"] },
+    { slug: "goucher", names: ["Goucher", "Goucher College"] },
+  ],
   scrapers: {
     courses: [
       {
