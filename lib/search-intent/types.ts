@@ -28,6 +28,9 @@ export interface PrereqsIntent {
   type: "prereqs";
   // null = "prereqs for what?" — clarification prompt.
   course: CourseRef | null;
+  // "forward" (default) = what do I need before this course?
+  // "inverse" = I finished this course, what can I take next?
+  direction: "forward" | "inverse";
 }
 
 export interface EligibilityIntent {

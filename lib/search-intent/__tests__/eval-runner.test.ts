@@ -56,6 +56,7 @@ const PERFECT_CLASSIFIER: Classifier = (q, _state) => {
     intent = {
       type: "prereqs",
       course: { prefix: "BIO", number: "256" },
+      direction: "forward",
     };
   } else {
     intent = { type: "unknown", raw: q };

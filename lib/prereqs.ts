@@ -44,6 +44,25 @@ export function loadPrereqs(state: string): PrereqsMap {
 }
 
 /**
+ * Build an inverse index: for each prerequisite course, list all courses
+ * that require it. Used for "I finished X, what can I take next?" queries.
+ */
+export function buildInverseIndex(prereqs: PrereqsMap): Map<string, string[]> {
+  const inverse = new Map<string, string[]>();
+  for (const [course, { courses: deps }] of prereqs) {
+    for (const dep of deps) {
+      const list = inverse.get(dep);
+      if (list) {
+        list.push(course);
+      } else {
+        inverse.set(dep, [course]);
+      }
+    }
+  }
+  return inverse;
+}
+
+/**
  * Parse prereq text into AND-of-OR groups.
  * "ACC 101 and (BUS 107 or CIS 107)" → [["ACC 101"], ["BUS 107","CIS 107"]]
  */

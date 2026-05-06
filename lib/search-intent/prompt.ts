@@ -26,8 +26,11 @@ Intent types:
 2. "pathway" — student wants to know what courses to take to transfer to a university, possibly for a specific major. No single course in mind — they want a plan or set of requirements.
    Examples: "what do I need to transfer to GMU for CS?", "transfer requirements for nursing at UNC", "how do I get into UMass Boston for business?", "courses needed to transfer to Virginia Tech"
 
-3. "prereqs" — student is asking what they need to take before a specific course.
-   Examples: "prereqs for BIO 256", "what comes before MTH 263", "BIO 256 prerequisites"
+3. "prereqs" — student is asking about prerequisites, in one of two directions:
+   - Forward (default): what do I need to take BEFORE this course? Set prereq_direction to "forward".
+   - Inverse: I finished this course, what can I take NEXT? Set prereq_direction to "inverse".
+   Examples (forward): "prereqs for BIO 256", "what comes before MTH 263", "BIO 256 prerequisites"
+   Examples (inverse): "I finished ENG 111, what can I take next?", "what does MATH 151 unlock?", "now that I have BIO 101 done, what's available?"
 
 4. "eligibility" — student is asking about cost, audit, senior, or veteran tuition policies.
    Examples: "free college if I'm 65+", "senior citizen audit", "tuition waiver veterans"
@@ -134,6 +137,12 @@ export const CLASSIFY_TOOL = {
         type: ["string", "null"],
         description: "Course number as a string (preserve digits exactly), e.g. 111, 1001. Null if no specific course number in query (subject-level queries like 'math courses' leave this null).",
       },
+      // Prereqs-specific
+      prereq_direction: {
+        type: ["string", "null"],
+        enum: ["forward", "inverse", null],
+        description: "For prereqs intent: 'forward' (default) = what do I need before this course? 'inverse' = what can I take after this course / what does it unlock? Null for non-prereqs intents.",
+      },
       // Transfer-specific
       university: {
         type: ["string", "null"],
@@ -237,6 +246,7 @@ export interface ClassifierToolInput {
   type: "transfer" | "pathway" | "prereqs" | "eligibility" | "course" | "unknown";
   course_prefix?: string | null;
   course_number?: string | null;
+  prereq_direction?: "forward" | "inverse" | null;
   university?: string | null;
   major?: string | null;
   topic?: "senior" | "audit" | "cost" | "veteran" | null;

@@ -359,6 +359,28 @@ function PrereqsBody({
         </>
       );
     }
+    case "unlocks": {
+      const courses = answer.unlocks ?? [];
+      return (
+        <>
+          <Headline tone="success" icon="🔓">
+            Completing <strong>{courseLabel}</strong> unlocks{" "}
+            {courses.length} {courses.length === 1 ? "course" : "courses"}:
+          </Headline>
+          <div className="flex flex-wrap gap-1.5">
+            {courses.map((c) => (
+              <CoursePill key={c} course={c} state={state} />
+            ))}
+          </div>
+        </>
+      );
+    }
+    case "no-unlocks":
+      return (
+        <Headline tone="neutral" icon="—">
+          No courses in this state&apos;s catalog list {courseLabel} as a prerequisite.
+        </Headline>
+      );
     case "no-prereqs":
       return (
         <Headline tone="success" icon="✓">
