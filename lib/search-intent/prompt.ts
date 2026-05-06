@@ -56,7 +56,20 @@ Confidence rules:
 - 0.50–0.79 : Best-effort guess, multiple plausible interpretations.
 - < 0.50 : Use "unknown" instead.
 
-If the query contains TWO clear intents (e.g. "Does ENG 111 transfer to GMU and what are the prereqs?"), pick the one that appears first or feels primary, and include the other in your reasoning. Don't try to return both.
+Multi-intent queries:
+
+When the query contains TWO genuinely distinct intents, set the primary fields for the first/more-important one AND populate the "secondary" sub-object for the second. Pick the more answerable one as primary (typed answers like transfer/prereqs/eligibility beat course-search). Cap at 2 — if the query has 3+ asks, include only the top two.
+
+EMIT secondary for:
+- "What are the prereqs for ENG 111 and does it transfer to GMU?" → primary: prereqs (ENG 111), secondary: transfer (ENG 111 → gmu)
+- "Transfer to GMU for CS, also what's the senior tuition policy?" → primary: pathway (gmu, CS), secondary: eligibility (senior)
+- "Does ENG 111 transfer to UVA, and what are the prereqs?" → primary: transfer, secondary: prereqs
+
+DO NOT emit secondary for:
+- "Online evening ENG classes" → ONE course intent with filters, not two
+- "Does ENG 111 transfer to GMU?" → ONE transfer intent
+- "I'm at NOVA, does ENG 111 transfer?" → ONE transfer intent (sourceCollege captures NOVA separately)
+- Anything where the second clause is a qualifier, not a separate question
 
 Additional output fields:
 
@@ -179,6 +192,29 @@ export const CLASSIFY_TOOL = {
         items: { type: "string" },
         description: "Always provide 2-3 follow-up questions a student in this situation would naturally want to know next.",
       },
+      // Optional secondary intent for queries with two genuinely distinct asks
+      // (e.g., "prereqs for ENG 111 and does it transfer to GMU?"). Nested
+      // sub-object — fewer fields than primary because secondaries are
+      // typically simpler ("and the other thing"). Omit entirely or pass null
+      // for single-intent queries (the common case).
+      secondary: {
+        type: ["object", "null"],
+        properties: {
+          type: {
+            type: "string",
+            enum: ["transfer", "pathway", "prereqs", "eligibility", "course", "unknown"],
+          },
+          course_prefix: { type: ["string", "null"] },
+          course_number: { type: ["string", "null"] },
+          university: { type: ["string", "null"] },
+          topic: {
+            type: ["string", "null"],
+            enum: ["senior", "audit", "cost", "veteran", null],
+          },
+        },
+        required: ["type"],
+        description: "Secondary intent. Set ONLY when the query has TWO distinct intents (e.g., transfer + prereqs). Do NOT set for follow-up qualifiers ('online evening ENG' is one intent, not two). Null/omit for single-intent queries.",
+      },
     },
     required: ["type", "confidence", "reasoning", "student_summary", "suggested_followups"],
   },
@@ -205,4 +241,17 @@ export interface ClassifierToolInput {
   clarifying_question?: string | null;
   source_college?: string | null;
   suggested_followups?: string[];
+  secondary?: ClassifierToolSecondary | null;
+}
+
+// Subset of fields used for secondary intents. Intentionally narrower than
+// the primary — secondaries express "and the other thing", not full second-
+// query power. Filters (mode/days/timeOfDay/term), age, and major are
+// excluded because they're rarely useful in secondaries.
+export interface ClassifierToolSecondary {
+  type: "transfer" | "pathway" | "prereqs" | "eligibility" | "course" | "unknown";
+  course_prefix?: string | null;
+  course_number?: string | null;
+  university?: string | null;
+  topic?: "senior" | "audit" | "cost" | "veteran" | null;
 }

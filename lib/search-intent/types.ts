@@ -69,6 +69,13 @@ export type SearchIntent =
 
 export interface ClassifiedIntent {
   intent: SearchIntent;
+  // Optional second intent when the query genuinely contains two distinct
+  // asks (e.g., "prereqs for ENG 111 and does it transfer to GMU?"). Null
+  // for the common case of a single-intent query. Capped at one secondary
+  // — three+ intents collapse to the top two. Studentsummary, clarifying
+  // question, and follow-ups always describe the WHOLE query, not the
+  // secondary alone.
+  secondaryIntent: SearchIntent | null;
   // Self-reported confidence in [0, 1]. Tier-1 regex returns >= 0.95 for
   // strong matches; LLM returns its own estimate. Used to decide fallback.
   confidence: number;

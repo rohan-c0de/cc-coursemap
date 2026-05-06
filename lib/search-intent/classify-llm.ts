@@ -14,6 +14,7 @@ import {
   buildSubjectPrefixBlock,
   buildUniversityBlock,
   type ClassifierToolInput,
+  type ClassifierToolSecondary,
 } from "./prompt";
 import { getStateConfig } from "../states/registry";
 import { getDistinctSubjects } from "../courses";
@@ -101,6 +102,9 @@ export function toClassifiedIntent(
 ): ClassifiedIntent {
   return {
     intent: toSearchIntent(rawQuery, input),
+    secondaryIntent: input.secondary
+      ? toSecondarySearchIntent(rawQuery, input.secondary)
+      : null,
     confidence: clamp01(input.confidence),
     reasoning: input.reasoning,
     studentSummary: input.student_summary,
@@ -108,6 +112,55 @@ export function toClassifiedIntent(
     sourceCollege: input.source_college ?? null,
     suggestedFollowups: input.suggested_followups ?? [],
   };
+}
+
+// Build a SearchIntent from the narrower secondary sub-object. Doesn't
+// reuse toSearchIntent because secondaries don't carry filters/major/age —
+// CourseIntent always gets empty filters, EligibilityIntent always gets
+// null age, PathwayIntent always gets null major. That's by design: the
+// secondary slot is for "and the other thing", not a full second query.
+function toSecondarySearchIntent(
+  rawQuery: string,
+  secondary: ClassifierToolSecondary,
+): SearchIntent {
+  const courseRef =
+    secondary.course_prefix && secondary.course_number
+      ? {
+          prefix: secondary.course_prefix.toUpperCase(),
+          number: secondary.course_number,
+        }
+      : null;
+
+  switch (secondary.type) {
+    case "transfer":
+      return {
+        type: "transfer",
+        course: courseRef,
+        university: secondary.university ?? null,
+      };
+    case "pathway":
+      return {
+        type: "pathway",
+        university: secondary.university ?? null,
+        major: null,
+      };
+    case "prereqs":
+      return { type: "prereqs", course: courseRef };
+    case "eligibility":
+      return {
+        type: "eligibility",
+        topic: secondary.topic ?? "senior",
+        age: null,
+      };
+    case "course":
+      return {
+        type: "course",
+        keyword: null,
+        filters: { course: courseRef ?? undefined },
+      };
+    case "unknown":
+      return { type: "unknown", raw: rawQuery };
+  }
 }
 
 function toSearchIntent(rawQuery: string, input: ClassifierToolInput): SearchIntent {
