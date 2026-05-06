@@ -38,7 +38,13 @@ export default function AnswerCard({ answer, state, classification, onFollowupCl
   if (answer.type === "none") {
     if (answer.reason === "intent-not-supported") {
       if (classification?.studentSummary) {
-        return <CourseSummaryCard summary={classification.studentSummary} />;
+        return (
+          <CourseSummaryCard
+            summary={classification.studentSummary}
+            followups={classification.suggestedFollowups ?? []}
+            onFollowupClick={onFollowupClick}
+          />
+        );
       }
       return null;
     }
@@ -96,10 +102,18 @@ export default function AnswerCard({ answer, state, classification, onFollowupCl
 // queries like "is ENG 111 offered this semester?" — without it, the
 // studentSummary work would be invisible for the most common intent.
 
-function CourseSummaryCard({ summary }: { summary: string }) {
+function CourseSummaryCard({
+  summary,
+  followups,
+  onFollowupClick,
+}: {
+  summary: string;
+  followups: string[];
+  onFollowupClick?: (q: string) => void;
+}) {
   return (
     <div
-      className="mb-4 px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/40"
+      className="mb-4 px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/40 space-y-2"
       data-testid="answer-card"
       role="region"
       aria-live="polite"
@@ -108,6 +122,9 @@ function CourseSummaryCard({ summary }: { summary: string }) {
       <p className="text-sm italic text-slate-600 dark:text-slate-300">
         {summary}
       </p>
+      {followups.length > 0 && (
+        <FollowupPills followups={followups} onFollowupClick={onFollowupClick} />
+      )}
     </div>
   );
 }
