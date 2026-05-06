@@ -89,6 +89,7 @@ export async function lookupEligibility(
     state,
     summary,
     colleges,
+    followups: buildFollowups(intent.topic),
     source: {
       source: "institutions",
       state,
@@ -116,4 +117,17 @@ function buildSeniorSummary(
 
 function buildAuditSummary(stateName: string, collegeCount: number): string {
   return `Audit policies in ${stateName} vary by college. Of the ${collegeCount} colleges we have data for, see eligibility and cost details below.`;
+}
+
+function buildFollowups(topic: EligibilityAnswer["topic"]): string[] {
+  if (topic === "senior") {
+    return [
+      "How do I register to audit a course?",
+      "What courses are available online?",
+    ];
+  }
+  return [
+    "What courses are available online?",
+    "How much does a course cost?",
+  ];
 }

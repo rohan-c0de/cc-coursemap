@@ -176,4 +176,50 @@ describe("lookupTransfer", () => {
     expect(result.source.state).toBe("va");
     expect(result.source.reference).toBe("data/va/transfer-equiv.json");
   });
+
+  describe("followups", () => {
+    it("suggests prereqs and other-universities followups for 'yes'", async () => {
+      mockCourseExists.mockResolvedValue({ exists: true });
+      mockGetTransferInfo.mockResolvedValue([mapping({})]);
+      mockResolveUniversity.mockResolvedValue({
+        resolved: { slug: "gmu", name: "George Mason University" },
+        suggestions: [],
+      });
+      const result = await lookupTransfer(ENG_111_INTENT, "va");
+      if (result.type !== "transfer") throw new Error("wrong type");
+      expect(result.followups).toContain("What are the prereqs for ENG 111?");
+      expect(result.followups).toContain("Does ENG 111 transfer to other universities?");
+    });
+
+    it("suggests where-does-it-transfer and prereqs for 'no'", async () => {
+      mockCourseExists.mockResolvedValue({ exists: true });
+      mockGetTransferInfo.mockResolvedValue([]);
+      const result = await lookupTransfer(ENG_111_INTENT, "va");
+      if (result.type !== "transfer") throw new Error("wrong type");
+      expect(result.followups).toContain("Where does ENG 111 transfer?");
+      expect(result.followups).toContain("What are the prereqs for ENG 111?");
+    });
+
+    it("generates per-university questions for 'no-destination'", async () => {
+      mockCourseExists.mockResolvedValue({ exists: true });
+      mockGetTransferInfo.mockResolvedValue([
+        mapping({ university: "gmu", university_name: "George Mason University" }),
+        mapping({ university: "vcu", university_name: "VCU" }),
+      ]);
+      const result = await lookupTransfer(
+        { type: "transfer", course: { prefix: "ENG", number: "111" }, university: null },
+        "va",
+      );
+      if (result.type !== "transfer") throw new Error("wrong type");
+      expect(result.followups).toContain("Does ENG 111 transfer to George Mason University?");
+      expect(result.followups).toContain("Does ENG 111 transfer to VCU?");
+    });
+
+    it("suggests a prefix search for 'unknown-course'", async () => {
+      mockCourseExists.mockResolvedValue({ exists: false });
+      const result = await lookupTransfer(ENG_111_INTENT, "va");
+      if (result.type !== "transfer") throw new Error("wrong type");
+      expect(result.followups).toContain("Search for ENG courses");
+    });
+  });
 });

@@ -143,10 +143,40 @@ function makeAnswer(
   return {
     type: "transfer",
     ...rest,
+    followups: buildFollowups(rest),
     source: {
       source: "transfer-equiv",
       state,
       reference: `data/${state}/transfer-equiv.json`,
     },
   };
+}
+
+function buildFollowups(parts: Omit<TransferAnswer, "type" | "source">): string[] {
+  const courseCode = `${parts.course.prefix} ${parts.course.number}`;
+  const univName = parts.university?.name ?? null;
+
+  switch (parts.status) {
+    case "yes":
+    case "partial":
+      return [
+        `What are the prereqs for ${courseCode}?`,
+        univName
+          ? `Does ${courseCode} transfer to other universities?`
+          : `Where does ${courseCode} transfer?`,
+      ];
+    case "no":
+      return [
+        `Where does ${courseCode} transfer?`,
+        `What are the prereqs for ${courseCode}?`,
+      ];
+    case "no-destination":
+      return (parts.alternatives ?? []).slice(0, 3).map(
+        (a) => `Does ${courseCode} transfer to ${a.name}?`,
+      );
+    case "unknown-course":
+      return [`Search for ${parts.course.prefix} courses`];
+    default:
+      return [];
+  }
 }

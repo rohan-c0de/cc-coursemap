@@ -67,6 +67,7 @@ export interface TransferAnswer {
   // For "unknown-university": closest slug matches.
   suggestions?: Array<{ slug: string; name: string }>;
   source: SourceCitation;
+  followups?: string[];
 }
 
 // ─── Prereqs ─────────────────────────────────────────────────────────────
@@ -87,6 +88,7 @@ export interface PrereqsAnswer {
   // lib/prereqs.ts so the UI can share rendering with /api/[state]/prereqs/chain.
   chain?: ChainNode;
   source: SourceCitation;
+  followups?: string[];
 }
 
 // ─── Eligibility ─────────────────────────────────────────────────────────
@@ -109,6 +111,7 @@ export interface EligibilityAnswer {
   summary: string;
   colleges: CollegeEligibility[];
   source: SourceCitation;
+  followups?: string[];
 }
 
 // ─── No-answer ───────────────────────────────────────────────────────────
@@ -123,4 +126,5 @@ export interface NoAnswer {
   message: string;
   // Optional: things the user could try instead.
   suggestions?: string[];
+  followups?: string[];
 }

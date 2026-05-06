@@ -83,4 +83,24 @@ describe("lookupEligibility", () => {
     expect(result.source.source).toBe("institutions");
     expect(result.source.reference).toBe("data/va/institutions.json");
   });
+
+  it("includes senior followups for topic 'senior'", async () => {
+    const result = await lookupEligibility(
+      { type: "eligibility", topic: "senior", age: 65 },
+      "va",
+    );
+    if (result.type !== "eligibility") throw new Error("wrong type");
+    expect(result.followups).toContain("How do I register to audit a course?");
+    expect(result.followups).toContain("What courses are available online?");
+  });
+
+  it("includes generic followups for topic 'audit'", async () => {
+    const result = await lookupEligibility(
+      { type: "eligibility", topic: "audit", age: null },
+      "va",
+    );
+    if (result.type !== "eligibility") throw new Error("wrong type");
+    expect(result.followups).toContain("What courses are available online?");
+    expect(result.followups).toContain("How much does a course cost?");
+  });
 });
