@@ -171,3 +171,44 @@ export interface ScheduleResponse {
     filteredFullSections?: number; // how many sections were hidden due to 0 seats
   };
 }
+
+// ---------------------------------------------------------------------------
+// Program / Degree Requirement types
+// ---------------------------------------------------------------------------
+
+export type ProgramCredential = "AA" | "AS" | "AAS" | "certificate" | "diploma" | "other";
+
+export interface RequiredCourse {
+  prefix: string;
+  number: string;
+  title: string;
+  credits: number | null;
+  or_alternatives: Array<{ prefix: string; number: string; title: string }>;
+}
+
+export interface RequirementGroup {
+  name: string;
+  credits_required: number | null;
+  choose_n: number | null;
+  courses: RequiredCourse[];
+}
+
+export interface ProgramRequirement {
+  title: string;
+  credential: ProgramCredential;
+  program_code: string | null;
+  catalog_url: string;
+  total_credits: number | null;
+  gpa_minimum: number | null;
+  description: string | null;
+  requirement_groups: RequirementGroup[];
+  matched_program_slug: string | null;
+}
+
+export interface CollegePrograms {
+  college_slug: string;
+  catalog_year: string;
+  catalog_url: string;
+  scraped_at: string;
+  programs: ProgramRequirement[];
+}

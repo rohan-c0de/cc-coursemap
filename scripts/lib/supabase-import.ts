@@ -18,6 +18,8 @@ import { loadEnv } from "./load-env";
 import {
   CourseSectionSchema,
   TransferMappingSchema,
+  CollegeProgramsSchema,
+  ProgramRequirementSchema,
   MAX_INVALID_RATIO,
   validateRows,
   isTransferHeaderRow,
@@ -42,7 +44,7 @@ const WARN_RATIO = 0.9;
  */
 export async function changeDetection(
   sb: SupabaseClient,
-  table: "courses" | "transfers",
+  table: "courses" | "transfers" | "programs",
   filter: Record<string, string>,
   incoming: number,
   label: string,
@@ -496,5 +498,196 @@ export async function importTransfersToSupabase(
   }
 
   console.log(`  Total transfers for ${state.toUpperCase()}: ${totalInserted}`);
+  return totalInserted;
+}
+
+// ---------------------------------------------------------------------------
+// Program import
+// ---------------------------------------------------------------------------
+
+interface ProgramRow {
+  state: string;
+  college_slug: string;
+  catalog_year: string;
+  title: string;
+  credential: string;
+  program_code: string | null;
+  catalog_url: string;
+  total_credits: number | null;
+  gpa_minimum: number | null;
+  description: string | null;
+  matched_program_slug: string | null;
+  requirement_groups: unknown;
+  scraped_at: string;
+}
+
+/**
+ * Import program requirement data for a state into Supabase.
+ * Reads from data/{state}/programs/{college_slug}.json — one file per college.
+ */
+export async function importProgramsToSupabase(
+  state: string,
+  opts: { force?: boolean } = {}
+): Promise<number> {
+  const force = !!opts.force;
+  let sb: SupabaseClient;
+  try {
+    sb = getSupabase();
+  } catch (e) {
+    console.log(`\n  Supabase program import skipped: ${(e as Error).message}`);
+    return 0;
+  }
+
+  const programsDir = path.join(process.cwd(), "data", state, "programs");
+  if (!fs.existsSync(programsDir)) {
+    console.log(`  No programs directory for ${state}, skipping import.`);
+    return 0;
+  }
+
+  const files = fs
+    .readdirSync(programsDir)
+    .filter((f) => f.endsWith(".json"));
+
+  if (files.length === 0) {
+    console.log(`  No program files for ${state}.`);
+    return 0;
+  }
+
+  console.log(
+    `\nImporting ${state.toUpperCase()} programs into Supabase: ${files.length} college(s)`
+  );
+
+  let totalInserted = 0;
+
+  for (const file of files) {
+    const collegeSlug = file.replace(".json", "");
+    const filePath = path.join(programsDir, file);
+    const raw = fs.readFileSync(filePath, "utf-8");
+    const parsed = JSON.parse(raw) as Record<string, unknown>;
+
+    // Validate the top-level CollegePrograms envelope
+    const envelope = CollegeProgramsSchema.safeParse(parsed);
+    if (!envelope.success) {
+      console.error(
+        `  SKIP ${collegeSlug}: envelope validation failed — ${envelope.error.issues.map((i) => `${i.path.join(".")}: ${i.message}`).join("; ")}`
+      );
+      continue;
+    }
+
+    const collegeData = envelope.data;
+    const programs = collegeData.programs;
+    if (programs.length === 0) continue;
+
+    // Change-detection preflight
+    const cd = await changeDetection(
+      sb,
+      "programs",
+      { state, college_slug: collegeSlug },
+      programs.length,
+      `${collegeSlug} programs`,
+      force
+    );
+    if (cd.message) console.log(cd.message);
+    if (!cd.ok) continue;
+
+    // Row-level validation (individual programs)
+    const validation = validateRows(
+      programs,
+      ProgramRequirementSchema,
+      (row, i) => {
+        const r = row as Record<string, unknown>;
+        return `${collegeSlug} "${r.title ?? `program ${i}`}"`;
+      }
+    );
+
+    const invalidRatio =
+      validation.invalid.length / programs.length;
+    if (validation.invalid.length > 0) {
+      console.warn(
+        `  SCHEMA ${collegeSlug} programs: ${validation.invalid.length}/${programs.length} rows failed (${(invalidRatio * 100).toFixed(1)}%)`
+      );
+      for (const bad of validation.invalid.slice(0, 10)) {
+        console.warn(`    - ${bad.identity}: ${bad.errors.join("; ")}`);
+      }
+      if (validation.invalid.length > 10) {
+        console.warn(
+          `    - ...and ${validation.invalid.length - 10} more`
+        );
+      }
+    }
+
+    if (invalidRatio > MAX_INVALID_RATIO) {
+      console.error(
+        `  ABORT ${collegeSlug} programs: invalid-row ratio ${(invalidRatio * 100).toFixed(1)}% exceeds ${(MAX_INVALID_RATIO * 100).toFixed(0)}% threshold. Cloud data unchanged.`
+      );
+      continue;
+    }
+
+    const validated = validation.valid;
+    if (validated.length === 0) continue;
+
+    // Delete existing rows for this (state, college_slug)
+    const { error: delError } = await sb
+      .from("programs")
+      .delete()
+      .eq("state", state)
+      .eq("college_slug", collegeSlug);
+
+    if (delError) {
+      console.error(
+        `  Error deleting ${collegeSlug} programs:`,
+        delError.message
+      );
+      continue;
+    }
+
+    // Prepare rows
+    const rows: ProgramRow[] = validated.map((p) => ({
+      state,
+      college_slug: collegeSlug,
+      catalog_year: collegeData.catalog_year,
+      title: p.title,
+      credential: p.credential,
+      program_code: p.program_code,
+      catalog_url: p.catalog_url,
+      total_credits: p.total_credits,
+      gpa_minimum: p.gpa_minimum,
+      description: p.description,
+      matched_program_slug: p.matched_program_slug,
+      requirement_groups: p.requirement_groups,
+      scraped_at: collegeData.scraped_at,
+    }));
+
+    // Insert in batches
+    let inserted = 0;
+    let aborted = false;
+    for (let i = 0; i < rows.length; i += BATCH_SIZE) {
+      const batch = rows.slice(i, i + BATCH_SIZE);
+      const { error: insError } = await sb.from("programs").insert(batch);
+      if (insError) {
+        console.error(
+          `  FATAL: Insert failed for ${collegeSlug} programs batch ${i}: ${insError.message}`
+        );
+        console.error(
+          `  WARNING: ${rows.length - inserted} rows lost — delete already committed.`
+        );
+        aborted = true;
+        break;
+      }
+      inserted += batch.length;
+    }
+    if (aborted) {
+      console.error(
+        `  Aborting remaining batches for ${collegeSlug} programs.`
+      );
+    }
+
+    totalInserted += inserted;
+    console.log(`  ${collegeSlug}: ${inserted} programs`);
+  }
+
+  console.log(
+    `  Total programs for ${state.toUpperCase()}: ${totalInserted}`
+  );
   return totalInserted;
 }

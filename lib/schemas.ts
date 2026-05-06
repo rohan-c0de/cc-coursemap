@@ -102,6 +102,59 @@ export type PrereqEntry = z.infer<typeof PrereqEntrySchema>;
 export const PrereqMapSchema = z.record(z.string(), PrereqEntrySchema);
 
 // ---------------------------------------------------------------------------
+// ProgramRequirement — one entry in data/{state}/programs/{college_slug}.json
+// ---------------------------------------------------------------------------
+
+const RequiredCourseSchema = z.object({
+  prefix: z.string().min(1),
+  number: z.string().min(1),
+  title: z.string(),
+  credits: z.number().nullable(),
+  or_alternatives: z.array(
+    z.object({
+      prefix: z.string().min(1),
+      number: z.string().min(1),
+      title: z.string(),
+    })
+  ),
+});
+
+export type RequiredCourse = z.infer<typeof RequiredCourseSchema>;
+
+const RequirementGroupSchema = z.object({
+  name: z.string().min(1, "group name required"),
+  credits_required: z.number().nullable(),
+  choose_n: z.number().nullable(),
+  courses: z.array(RequiredCourseSchema),
+});
+
+export type RequirementGroup = z.infer<typeof RequirementGroupSchema>;
+
+export const ProgramRequirementSchema = z.object({
+  title: z.string().min(1, "program title required"),
+  credential: z.enum(["AA", "AS", "AAS", "certificate", "diploma", "other"]),
+  program_code: z.string().nullable(),
+  catalog_url: z.string(),
+  total_credits: z.number().nullable(),
+  gpa_minimum: z.number().nullable(),
+  description: z.string().nullable(),
+  requirement_groups: z.array(RequirementGroupSchema),
+  matched_program_slug: z.string().nullable(),
+});
+
+export type ProgramRequirement = z.infer<typeof ProgramRequirementSchema>;
+
+export const CollegeProgramsSchema = z.object({
+  college_slug: z.string().min(1, "college_slug required"),
+  catalog_year: z.string().min(1, "catalog_year required"),
+  catalog_url: z.string(),
+  scraped_at: z.string(),
+  programs: z.array(ProgramRequirementSchema),
+});
+
+export type CollegePrograms = z.infer<typeof CollegeProgramsSchema>;
+
+// ---------------------------------------------------------------------------
 // Validation helper with row-level error reporting
 // ---------------------------------------------------------------------------
 
