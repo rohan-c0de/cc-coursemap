@@ -3,6 +3,13 @@ import { classifierWith } from "../classify";
 import { hashQuery, memoryCache, normalizeQuery, nullCache } from "../cache";
 import type { Classifier } from "../types";
 
+const BASE_ENRICHMENT = {
+  studentSummary: "test summary",
+  clarifyingQuestion: null,
+  sourceCollege: null,
+  suggestedFollowups: [] as string[],
+};
+
 describe("normalizeQuery", () => {
   it("lowercases and collapses whitespace", () => {
     expect(normalizeQuery("  Does   ENG 111   Transfer  ")).toBe(
@@ -31,6 +38,7 @@ describe("memoryCache", () => {
     const intent = {
       intent: { type: "unknown" as const, raw: "x" },
       confidence: 0.3,
+      ...BASE_ENRICHMENT,
     };
     await cache.put("hello", "va", "model-x", intent);
     expect(await cache.get("hello", "va", "model-x")).toEqual(intent);
@@ -41,6 +49,7 @@ describe("memoryCache", () => {
     const intent = {
       intent: { type: "unknown" as const, raw: "x" },
       confidence: 0.3,
+      ...BASE_ENRICHMENT,
     };
     await cache.put("hello", "va", "model-x", intent);
     expect(await cache.get("hello", "va", "model-y")).toBeNull();
@@ -51,6 +60,7 @@ describe("memoryCache", () => {
     const intent = {
       intent: { type: "unknown" as const, raw: "x" },
       confidence: 0.3,
+      ...BASE_ENRICHMENT,
     };
     await cache.put("hello", "va", "model-x", intent);
     expect(await cache.get("hello", "ma", "model-x")).toBeNull();
@@ -61,6 +71,7 @@ describe("memoryCache", () => {
     const make = (raw: string) => ({
       intent: { type: "unknown" as const, raw },
       confidence: 0,
+      ...BASE_ENRICHMENT,
     });
     await cache.put("q1", "va", "m", make("q1"));
     await cache.put("q2", "va", "m", make("q2"));
@@ -77,6 +88,7 @@ describe("classifierWith", () => {
     const cached = {
       intent: { type: "unknown" as const, raw: "cached" },
       confidence: 0.99,
+      ...BASE_ENRICHMENT,
     };
     await cache.put("hello", "va", "model-x", cached);
 
@@ -93,6 +105,7 @@ describe("classifierWith", () => {
     const fresh = {
       intent: { type: "unknown" as const, raw: "fresh" },
       confidence: 0.42,
+      ...BASE_ENRICHMENT,
     };
     const llm: Classifier = vi.fn().mockResolvedValue(fresh);
     const classifier = classifierWith({ cache, llm, modelVersion: "model-x" });
@@ -111,6 +124,7 @@ describe("classifierWith", () => {
     const fresh = {
       intent: { type: "unknown" as const, raw: "fresh" },
       confidence: 0.42,
+      ...BASE_ENRICHMENT,
     };
     const llm: Classifier = vi.fn().mockResolvedValue(fresh);
     const classifier = classifierWith({ cache: nullCache, llm });

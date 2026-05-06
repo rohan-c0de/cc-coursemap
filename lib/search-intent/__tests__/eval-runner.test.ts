@@ -35,6 +35,13 @@ const TINY_CASES: EvalCase[] = [
   },
 ];
 
+const BASE_ENRICHMENT = {
+  studentSummary: "test summary",
+  clarifyingQuestion: null,
+  sourceCollege: null,
+  suggestedFollowups: [] as string[],
+};
+
 const PERFECT_CLASSIFIER: Classifier = (q, _state) => {
   let intent: SearchIntent;
   if (q.includes("transfer")) {
@@ -51,12 +58,13 @@ const PERFECT_CLASSIFIER: Classifier = (q, _state) => {
   } else {
     intent = { type: "unknown", raw: q };
   }
-  return { intent, confidence: 1 };
+  return { intent, confidence: 1, ...BASE_ENRICHMENT };
 };
 
 const ALWAYS_UNKNOWN: Classifier = (q, _state) => ({
   intent: { type: "unknown", raw: q },
   confidence: 0,
+  ...BASE_ENRICHMENT,
 });
 
 describe("runEval", () => {
@@ -103,6 +111,7 @@ describe("runEval", () => {
     const asyncClassifier: Classifier = async (q, _state) => ({
       intent: { type: "unknown", raw: q },
       confidence: 0,
+      ...BASE_ENRICHMENT,
     });
     const report = await runEval(asyncClassifier, TINY_CASES);
     expect(report.total).toBe(3);
