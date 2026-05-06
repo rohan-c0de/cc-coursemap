@@ -59,6 +59,21 @@ interface SearchResponse {
   totalColleges: number;
 }
 
+interface IntentSummary {
+  type: string;
+  keyword?: string | null;
+  course?: { prefix: string; number: string } | null;
+  subjectPrefix?: string | null;
+  university?: string | null;
+  filters?: {
+    course?: { prefix: string; number: string } | null;
+    days?: string[] | null;
+    mode?: string | null;
+    timeOfDay?: string | null;
+    term?: string | null;
+  };
+}
+
 // ---------------------------------------------------------------------------
 // Constants
 // ---------------------------------------------------------------------------
@@ -283,20 +298,8 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
           answer?: Answer;
           secondaryAnswer?: Answer;
           classification?: ClassificationSummary & {
-            intent?: {
-              type: string;
-              keyword?: string | null;
-              course?: { prefix: string; number: string } | null;
-              subjectPrefix?: string | null;
-              university?: string | null;
-              filters?: {
-                course?: { prefix: string; number: string } | null;
-                days?: string[] | null;
-                mode?: string | null;
-                timeOfDay?: string | null;
-                term?: string | null;
-              };
-            };
+            intent?: IntentSummary;
+            secondaryIntent?: IntentSummary | null;
           };
         } | null = await askRes.json();
         if (askData?.answer) setAnswer(askData.answer);
@@ -336,6 +339,40 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
             searchQ = intent.subjectPrefix;
           }
           if (intent.university) llmTransferTo = intent.university;
+        }
+
+        // Merge filters from the secondary intent so compound queries like
+        // "online bio class that transfers to UMD" combine both: course
+        // filters (mode, days) from one intent and transfer destination
+        // from the other.
+        const sec = askData?.classification?.secondaryIntent;
+        if (sec) {
+          if (sec.type === "course") {
+            if (!searchQ || searchQ === trimmed) {
+              if (sec.filters?.course) {
+                searchQ = `${sec.filters.course.prefix} ${sec.filters.course.number}`;
+              } else if (sec.keyword) {
+                searchQ = sec.keyword;
+              }
+            }
+            if (!llmDays && sec.filters?.days?.length) {
+              llmDays = mapLLMDays(sec.filters.days);
+            }
+            if (!llmMode && sec.filters?.mode) llmMode = sec.filters.mode;
+            if (!llmTimeOfDay && sec.filters?.timeOfDay) llmTimeOfDay = sec.filters.timeOfDay;
+            if (!llmTermCode && sec.filters?.term) {
+              llmTermCode = termCodeFromLabel(sec.filters.term);
+            }
+          } else if (sec.type === "transfer") {
+            if (!searchQ || searchQ === trimmed) {
+              if (sec.course) {
+                searchQ = `${sec.course.prefix} ${sec.course.number}`;
+              } else if (sec.subjectPrefix) {
+                searchQ = sec.subjectPrefix;
+              }
+            }
+            if (!llmTransferTo && sec.university) llmTransferTo = sec.university;
+          }
         }
       }
     } catch {
