@@ -121,7 +121,7 @@ export default function CourseSearchHero({
       </form>
 
       {/* State filter pill row */}
-      <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm" ref={pickerRef}>
+      <div className="relative mt-4 flex flex-wrap items-center justify-center gap-2 text-sm" ref={pickerRef}>
         <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
           searching in
         </span>
