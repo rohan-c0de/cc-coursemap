@@ -1,8 +1,67 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useCallback, useEffect, useState, useRef } from "react";
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
+
+const PLACEHOLDER_QUERIES = [
+  "ENG 111",
+  "does this transfer to GMU?",
+  "intro biology",
+  "prereqs for BIO 256",
+  "online math, summer 2026",
+  "free college if I'm 65+",
+];
+
+const TYPE_SPEED = 60;
+const PAUSE_AFTER_TYPE = 2000;
+const DELETE_SPEED = 30;
+const PAUSE_AFTER_DELETE = 400;
+
+function useTypewriter(phrases: string[], active: boolean) {
+  const [text, setText] = useState("");
+  const idx = useRef(0);
+  const charIdx = useRef(0);
+  const deleting = useRef(false);
+
+  const tick = useCallback(() => {
+    const phrase = phrases[idx.current];
+
+    if (!deleting.current) {
+      charIdx.current++;
+      setText(phrase.slice(0, charIdx.current));
+
+      if (charIdx.current === phrase.length) {
+        deleting.current = true;
+        return PAUSE_AFTER_TYPE;
+      }
+      return TYPE_SPEED;
+    } else {
+      charIdx.current--;
+      setText(phrase.slice(0, charIdx.current));
+
+      if (charIdx.current === 0) {
+        deleting.current = false;
+        idx.current = (idx.current + 1) % phrases.length;
+        return PAUSE_AFTER_DELETE;
+      }
+      return DELETE_SPEED;
+    }
+  }, [phrases]);
+
+  useEffect(() => {
+    if (!active) return;
+    let timer: ReturnType<typeof setTimeout>;
+    const step = () => {
+      const delay = tick();
+      timer = setTimeout(step, delay);
+    };
+    timer = setTimeout(step, PAUSE_AFTER_DELETE);
+    return () => clearTimeout(timer);
+  }, [active, tick]);
+
+  return text;
+}
 
 type StateOption = { slug: string; name: string; abbr: string };
 
@@ -21,9 +80,14 @@ export default function CourseSearchHero({
   const [isAuto, setIsAuto] = useState(false);
   const [pickerOpen, setPickerOpen] = useState(false);
   const [needsState, setNeedsState] = useState(false);
+  const [inputFocused, setInputFocused] = useState(false);
   const pickerRef = useRef<HTMLDivElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const [dropdownStyle, setDropdownStyle] = useState<React.CSSProperties>({});
+
+  const showTypewriter = query === "" && !inputFocused;
+  const typewriterText = useTypewriter(PLACEHOLDER_QUERIES, showTypewriter);
 
   // Hydrate selected state: a previously-chosen value in localStorage wins
   // (manual choice = highest priority), then geo auto-detect, else nothing.
@@ -118,14 +182,29 @@ export default function CourseSearchHero({
               d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
             />
           </svg>
-          <input
-            type="text"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder={'Try "ENG 111", "intro biology", or "does this transfer to GMU"…'}
-            className="flex-1 min-w-0 py-2 bg-transparent text-base text-slate-900 dark:text-slate-100 placeholder:text-slate-400 focus:outline-none"
-            aria-label="Search courses"
-          />
+          <div className="relative flex-1 min-w-0">
+            <input
+              ref={inputRef}
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              onFocus={() => setInputFocused(true)}
+              onBlur={() => setInputFocused(false)}
+              placeholder={inputFocused ? "Search courses, transfer info, prereqs…" : undefined}
+              className="w-full py-2 bg-transparent text-base text-slate-900 dark:text-slate-100 placeholder:text-slate-400 focus:outline-none"
+              aria-label="Search courses"
+            />
+            {showTypewriter && (
+              <div
+                className="absolute inset-0 flex items-center pointer-events-none text-base text-slate-400 select-none"
+                aria-hidden
+                onClick={() => inputRef.current?.focus()}
+              >
+                {typewriterText}
+                <span className="inline-block w-[2px] h-[1.1em] bg-slate-400 ml-[1px] animate-blink" />
+              </div>
+            )}
+          </div>
           <button
             type="submit"
             className="inline-flex items-center gap-1.5 rounded-xl bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 text-sm font-medium transition-colors"
