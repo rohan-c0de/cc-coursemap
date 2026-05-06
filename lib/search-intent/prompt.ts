@@ -71,6 +71,17 @@ DO NOT emit secondary for:
 - "I'm at NOVA, does ENG 111 transfer?" → ONE transfer intent (sourceCollege captures NOVA separately)
 - Anything where the second clause is a qualifier, not a separate question
 
+Mixed supported + unsupported intents:
+
+If the query mixes a SUPPORTED intent (transfer/pathway/prereqs/eligibility/course) with an UNSUPPORTED ask (instructor lookup, professor reviews, course ratings/difficulty, "easy A" judgments, schedule conflicts with another course, advisor questions), use the supported intent as PRIMARY and IGNORE the unsupported part. Do NOT bail to "unknown" just because part of the query is out of scope. Examples:
+
+- "who teaches ENG 111 and where does it transfer" → primary: transfer (ENG 111). Ignore the instructor part. (NOT unknown.)
+- "easy A math classes online" → primary: course (keyword: math, mode: online). Ignore the "easy A" judgment.
+- "best professor for BIO 256 prereqs" → primary: prereqs (BIO 256). Ignore the professor part.
+- "Rate my Professor for CSC 200 transfer" → primary: transfer (CSC 200). Ignore the rating part.
+
+Only fall back to "unknown" when the query has NO supported intent at all (e.g., "good professors", "easy classes", "campus tour times").
+
 Additional output fields:
 
 - student_summary: Always provide a 1-2 sentence plain-English restatement of what the student is asking. Write as if addressing the student directly. Example: "You're asking whether ENG 111 transfers to George Mason."
