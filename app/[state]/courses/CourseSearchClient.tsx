@@ -223,6 +223,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
   // parallel with the course search; null until a query has resolved or
   // when the classifier returned a non-actionable intent.
   const [answer, setAnswer] = useState<Answer | null>(null);
+  const [secondaryAnswer, setSecondaryAnswer] = useState<Answer | null>(null);
   const [classification, setClassification] = useState<ClassificationSummary | null>(null);
 
   // Fetch transfer lookup data on mount (small, cached 24h)
@@ -255,6 +256,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
     // Reset previous answer card before either fetch resolves so a stale
     // card never lingers under a new query.
     setAnswer(null);
+    setSecondaryAnswer(null);
     setClassification(null);
 
     const trimmed = searchQuery.trim();
@@ -279,6 +281,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
       if (askRes.ok) {
         const askData: {
           answer?: Answer;
+          secondaryAnswer?: Answer;
           classification?: ClassificationSummary & {
             intent?: {
               type: string;
@@ -296,6 +299,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
           };
         } | null = await askRes.json();
         if (askData?.answer) setAnswer(askData.answer);
+        if (askData?.secondaryAnswer) setSecondaryAnswer(askData.secondaryAnswer);
         if (askData?.classification) setClassification(askData.classification);
 
         const intent = askData?.classification?.intent;
@@ -583,14 +587,29 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
         </div>
       )}
 
-      {/* Natural-language answer card. Renders above course results
-          whenever /api/[state]/ask returns a typed answer. NoAnswer
-          variants render nothing — the user just sees course results. */}
+      {/* Natural-language answer cards. The primary card carries the LLM's
+          studentSummary + clarifying question + suggested follow-ups (which
+          describe the WHOLE query). The secondary card, when present for
+          multi-intent queries like "prereqs for ENG 111 and does it
+          transfer to GMU?", renders just its typed answer body — passing
+          classification={null} naturally suppresses the duplicate summary
+          UI on the second card. */}
       {answer && (
         <AnswerCard
           answer={answer}
           state={state}
           classification={classification}
+          onFollowupClick={(q) => {
+            setQuery(q);
+            doSearch(q);
+          }}
+        />
+      )}
+      {secondaryAnswer && (
+        <AnswerCard
+          answer={secondaryAnswer}
+          state={state}
+          classification={null}
           onFollowupClick={(q) => {
             setQuery(q);
             doSearch(q);

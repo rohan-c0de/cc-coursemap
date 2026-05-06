@@ -23,7 +23,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { isValidState } from "@/lib/states/registry";
 import { rateLimit, getClientKey } from "@/lib/rate-limit";
 import { classifyQuery } from "@/lib/search-intent/classify";
-import { lookupAnswer } from "@/lib/search-intent/answer";
+import { lookupAnswers } from "@/lib/search-intent/answer";
 
 type RouteContext = { params: Promise<{ state: string }> };
 
@@ -86,10 +86,13 @@ export async function GET(request: NextRequest, context: RouteContext) {
     );
   }
 
-  const answer = await lookupAnswer(classification.intent, state);
+  const { primary: answer, secondary: secondaryAnswer } = await lookupAnswers(
+    classification,
+    state,
+  );
 
   return NextResponse.json(
-    { classification, answer },
+    { classification, answer, secondaryAnswer },
     {
       headers: {
         // Same query → same answer until data updates. Browser holds 5

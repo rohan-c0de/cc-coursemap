@@ -251,4 +251,65 @@ describe("toClassifiedIntent", () => {
     expect(result.sourceCollege).toBeNull();
     expect(result.suggestedFollowups).toEqual([]);
   });
+
+  it("leaves secondaryIntent null when the LLM omits secondary", () => {
+    const result = toClassifiedIntent("Does ENG 111 transfer to GMU?", {
+      type: "transfer",
+      course_prefix: "ENG",
+      course_number: "111",
+      university: "gmu",
+      confidence: 0.95,
+      reasoning: "x",
+      student_summary: "x",
+    });
+    expect(result.secondaryIntent).toBeNull();
+  });
+
+  it("populates secondaryIntent when LLM emits a secondary block", () => {
+    const result = toClassifiedIntent(
+      "What are the prereqs for ENG 111 and does it transfer to GMU?",
+      {
+        type: "prereqs",
+        course_prefix: "ENG",
+        course_number: "111",
+        confidence: 0.95,
+        reasoning: "two intents",
+        student_summary: "You're asking about prereqs and transfer for ENG 111.",
+        secondary: {
+          type: "transfer",
+          course_prefix: "ENG",
+          course_number: "111",
+          university: "gmu",
+        },
+      },
+    );
+    expect(result.intent).toEqual({
+      type: "prereqs",
+      course: { prefix: "ENG", number: "111" },
+    });
+    expect(result.secondaryIntent).toEqual({
+      type: "transfer",
+      course: { prefix: "ENG", number: "111" },
+      university: "gmu",
+    });
+  });
+
+  it("uppercases secondary course prefix", () => {
+    const result = toClassifiedIntent("test", {
+      type: "transfer",
+      course_prefix: "ENG",
+      course_number: "111",
+      university: "gmu",
+      confidence: 0.95,
+      reasoning: "x",
+      student_summary: "x",
+      secondary: {
+        type: "prereqs",
+        course_prefix: "bio",
+        course_number: "256",
+      },
+    });
+    if (result.secondaryIntent?.type !== "prereqs") throw new Error("wrong type");
+    expect(result.secondaryIntent.course?.prefix).toBe("BIO");
+  });
 });

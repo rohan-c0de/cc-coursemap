@@ -13,11 +13,20 @@ vi.mock("../pathway", () => ({
   lookupPathway: vi.fn().mockResolvedValue({ type: "pathway", status: "no-data" }),
 }));
 
-import { lookupAnswer } from "..";
+import { lookupAnswer, lookupAnswers } from "..";
 import { lookupTransfer } from "../transfer";
 import { lookupPrereqs } from "../prereqs";
 import { lookupEligibility } from "../eligibility";
 import { lookupPathway } from "../pathway";
+import type { ClassifiedIntent } from "../../types";
+
+const BASE_CLASSIFICATION = {
+  confidence: 0.95,
+  studentSummary: "test",
+  clarifyingQuestion: null,
+  sourceCollege: null,
+  suggestedFollowups: [],
+};
 
 describe("lookupAnswer dispatch", () => {
   it("dispatches transfer intents to lookupTransfer", async () => {
@@ -70,5 +79,57 @@ describe("lookupAnswer dispatch", () => {
     expect(result.type).toBe("none");
     if (result.type !== "none") return;
     expect(result.reason).toBe("out-of-scope");
+  });
+});
+
+describe("lookupAnswers (multi-intent)", () => {
+  it("returns only primary when secondaryIntent is null", async () => {
+    const classification: ClassifiedIntent = {
+      ...BASE_CLASSIFICATION,
+      intent: { type: "prereqs", course: { prefix: "BIO", number: "256" } },
+      secondaryIntent: null,
+    };
+    const result = await lookupAnswers(classification, "va");
+    expect(result.primary).toBeDefined();
+    expect(result.secondary).toBeUndefined();
+  });
+
+  it("returns both when secondaryIntent is set", async () => {
+    const classification: ClassifiedIntent = {
+      ...BASE_CLASSIFICATION,
+      intent: { type: "prereqs", course: { prefix: "ENG", number: "111" } },
+      secondaryIntent: {
+        type: "transfer",
+        course: { prefix: "ENG", number: "111" },
+        university: "gmu",
+      },
+    };
+    const result = await lookupAnswers(classification, "va");
+    expect(result.primary).toBeDefined();
+    expect(result.secondary).toBeDefined();
+  });
+
+  it("filters out secondary when it's an intent-not-supported NoAnswer", async () => {
+    // Course intent as secondary always returns intent-not-supported. The
+    // wrapper should hide it — we don't want a confusing empty card.
+    const classification: ClassifiedIntent = {
+      ...BASE_CLASSIFICATION,
+      intent: { type: "prereqs", course: { prefix: "ENG", number: "111" } },
+      secondaryIntent: { type: "course", keyword: "biology", filters: {} },
+    };
+    const result = await lookupAnswers(classification, "va");
+    expect(result.primary).toBeDefined();
+    expect(result.secondary).toBeUndefined();
+  });
+
+  it("filters out secondary when it's an out-of-scope NoAnswer", async () => {
+    const classification: ClassifiedIntent = {
+      ...BASE_CLASSIFICATION,
+      intent: { type: "prereqs", course: { prefix: "ENG", number: "111" } },
+      secondaryIntent: { type: "unknown", raw: "good professors" },
+    };
+    const result = await lookupAnswers(classification, "va");
+    expect(result.primary).toBeDefined();
+    expect(result.secondary).toBeUndefined();
   });
 });

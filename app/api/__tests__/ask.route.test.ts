@@ -11,16 +11,18 @@ vi.mock("@/lib/search-intent/classify", () => ({
 }));
 vi.mock("@/lib/search-intent/answer", () => ({
   lookupAnswer: vi.fn(),
+  lookupAnswers: vi.fn(),
 }));
 
 import { GET } from "../[state]/ask/route";
 import { rateLimit } from "@/lib/rate-limit";
 import { classifyQuery } from "@/lib/search-intent/classify";
-import { lookupAnswer } from "@/lib/search-intent/answer";
+import { lookupAnswer, lookupAnswers } from "@/lib/search-intent/answer";
 
 const rateLimitMock = vi.mocked(rateLimit);
 const classifyMock = vi.mocked(classifyQuery);
 const lookupAnswerMock = vi.mocked(lookupAnswer);
+const lookupAnswersMock = vi.mocked(lookupAnswers);
 
 function makeRequest(state: string, query: Record<string, string>): {
   req: NextRequest;
@@ -39,6 +41,7 @@ beforeEach(() => {
   rateLimitMock.mockReturnValue({ allowed: true, remaining: 99 });
   classifyMock.mockReset();
   lookupAnswerMock.mockReset();
+  lookupAnswersMock.mockReset();
 });
 
 describe("GET /api/[state]/ask", () => {
@@ -86,6 +89,7 @@ describe("GET /api/[state]/ask", () => {
         course: { prefix: "ENG", number: "111" },
         university: "gmu",
       },
+      secondaryIntent: null,
       confidence: 0.95,
       reasoning: "test",
       studentSummary: "You're asking whether ENG 111 transfers to George Mason.",
@@ -113,7 +117,7 @@ describe("GET /api/[state]/ask", () => {
       },
     };
     classifyMock.mockResolvedValue(classification);
-    lookupAnswerMock.mockResolvedValue(answer);
+    lookupAnswersMock.mockResolvedValue({ primary: answer });
 
     const { req, ctx } = makeRequest("va", { q: "Does ENG 111 transfer to GMU?" });
     const res = await GET(req, ctx);
@@ -122,26 +126,23 @@ describe("GET /api/[state]/ask", () => {
     expect(body).toEqual({ classification, answer });
   });
 
-  it("passes the user's state into lookupAnswer (not a hardcoded one)", async () => {
-    classifyMock.mockResolvedValue({
-      intent: { type: "unknown", raw: "x" },
+  it("passes the user's state into lookupAnswers (not a hardcoded one)", async () => {
+    const classification = {
+      intent: { type: "unknown" as const, raw: "x" },
+      secondaryIntent: null,
       confidence: 0.1,
       studentSummary: "test",
       clarifyingQuestion: null,
       sourceCollege: null,
       suggestedFollowups: [],
-    });
-    lookupAnswerMock.mockResolvedValue({
-      type: "none",
-      reason: "out-of-scope",
-      message: "x",
+    };
+    classifyMock.mockResolvedValue(classification);
+    lookupAnswersMock.mockResolvedValue({
+      primary: { type: "none", reason: "out-of-scope", message: "x" },
     });
     const { req, ctx } = makeRequest("nc", { q: "asdf" });
     await GET(req, ctx);
-    expect(lookupAnswerMock).toHaveBeenCalledWith(
-      expect.objectContaining({ type: "unknown" }),
-      "nc",
-    );
+    expect(lookupAnswersMock).toHaveBeenCalledWith(classification, "nc");
   });
 
   it("returns 503 when the classifier throws", async () => {
@@ -152,22 +153,21 @@ describe("GET /api/[state]/ask", () => {
     const body = await res.json();
     expect(body.error).toMatch(/Classifier service unavailable/);
     expect(body.cause).toBe("Anthropic API down");
-    expect(lookupAnswerMock).not.toHaveBeenCalled();
+    expect(lookupAnswersMock).not.toHaveBeenCalled();
   });
 
   it("sets Cache-Control + X-RateLimit-Remaining headers on 200 responses", async () => {
     classifyMock.mockResolvedValue({
       intent: { type: "unknown", raw: "x" },
+      secondaryIntent: null,
       confidence: 0.1,
       studentSummary: "test",
       clarifyingQuestion: null,
       sourceCollege: null,
       suggestedFollowups: [],
     });
-    lookupAnswerMock.mockResolvedValue({
-      type: "none",
-      reason: "out-of-scope",
-      message: "x",
+    lookupAnswersMock.mockResolvedValue({
+      primary: { type: "none", reason: "out-of-scope", message: "x" },
     });
     rateLimitMock.mockReturnValueOnce({ allowed: true, remaining: 12 });
     const { req, ctx } = makeRequest("va", { q: "anything" });
@@ -181,16 +181,15 @@ describe("GET /api/[state]/ask", () => {
   it("trims whitespace from q before length validation", async () => {
     classifyMock.mockResolvedValue({
       intent: { type: "unknown", raw: "x" },
+      secondaryIntent: null,
       confidence: 0,
       studentSummary: "test",
       clarifyingQuestion: null,
       sourceCollege: null,
       suggestedFollowups: [],
     });
-    lookupAnswerMock.mockResolvedValue({
-      type: "none",
-      reason: "out-of-scope",
-      message: "x",
+    lookupAnswersMock.mockResolvedValue({
+      primary: { type: "none", reason: "out-of-scope", message: "x" },
     });
     // 10 spaces + "ENG 111" + 5 spaces — trims to 7 chars, valid
     const { req, ctx } = makeRequest("va", { q: "          ENG 111     " });

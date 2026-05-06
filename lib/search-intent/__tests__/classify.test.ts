@@ -4,6 +4,7 @@ import { hashQuery, memoryCache, normalizeQuery, nullCache } from "../cache";
 import type { Classifier } from "../types";
 
 const BASE_ENRICHMENT = {
+  secondaryIntent: null,
   studentSummary: "test summary",
   clarifyingQuestion: null,
   sourceCollege: null,

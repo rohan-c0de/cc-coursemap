@@ -36,6 +36,7 @@ const TINY_CASES: EvalCase[] = [
 ];
 
 const BASE_ENRICHMENT = {
+  secondaryIntent: null,
   studentSummary: "test summary",
   clarifyingQuestion: null,
   sourceCollege: null,
