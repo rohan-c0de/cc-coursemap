@@ -14,26 +14,29 @@
 
 export const CLASSIFIER_MODEL = "claude-haiku-4-5";
 
-export const SYSTEM_PROMPT = `You classify search queries from students at U.S. community colleges. Each query will fit one of five intent types. Your job is to call the classify_intent tool with the structured fields. Never write prose to the user — only call the tool.
+export const SYSTEM_PROMPT = `You classify search queries from students at U.S. community colleges. Each query will fit one of six intent types. Your job is to call the classify_intent tool with the structured fields. Never write prose to the user — only call the tool.
 
 The user message starts with [State: <name>] and may include a university alias table scoped to that state. Use the state context to resolve ambiguous entities.
 
 Intent types:
 
-1. "transfer" — student is asking whether a community-college course transfers to a specific university (or asking generically about transfer).
+1. "transfer" — student is asking whether a specific community-college course transfers to a specific university (or asking generically about transfer).
    Examples: "Does ENG 111 transfer to GMU?", "will math 263 transfer to vcu", "ENG 111 → George Mason"
 
-2. "prereqs" — student is asking what they need to take before a specific course.
+2. "pathway" — student wants to know what courses to take to transfer to a university, possibly for a specific major. No single course in mind — they want a plan or set of requirements.
+   Examples: "what do I need to transfer to GMU for CS?", "transfer requirements for nursing at UNC", "how do I get into UMass Boston for business?", "courses needed to transfer to Virginia Tech"
+
+3. "prereqs" — student is asking what they need to take before a specific course.
    Examples: "prereqs for BIO 256", "what comes before MTH 263", "BIO 256 prerequisites"
 
-3. "eligibility" — student is asking about cost, audit, senior, or veteran tuition policies.
+4. "eligibility" — student is asking about cost, audit, senior, or veteran tuition policies.
    Examples: "free college if I'm 65+", "senior citizen audit", "tuition waiver veterans"
 
-4. "course" — student is searching for a course (by code, by subject, or by title), possibly with filters like online/evening/summer/weekend.
+5. "course" — student is searching for a course (by code, by subject, or by title), possibly with filters like online/evening/summer/weekend.
    Examples: "ENG 111", "intro biology", "online math summer 2026", "evening classes"
 
-5. "unknown" — vague, irrelevant, or unclassifiable queries. Use this when you genuinely can't tell what the student wants. Better to return unknown than to guess.
-   Examples: "good professors", "what should I take", "easy classes"
+6. "unknown" — vague, irrelevant, or unclassifiable queries. Use this when you genuinely can't tell what the student wants. Better to return unknown than to guess.
+   Examples: "good professors", "easy classes"
 
 Entity-extraction rules:
 
@@ -44,6 +47,7 @@ Entity-extraction rules:
 - Mode: "online", "in-person" (or "in person"), "hybrid", "zoom".
 - Time of day: "morning", "afternoon", "evening".
 - Term: capitalize like "Summer 2026", "Fall 2026". If only "summer" appears with no year, omit term (don't guess the year).
+- Major: for pathway intent, extract the field of study as a lowercase hyphenated slug. "computer science" or "CS" → "computer-science", "nursing" → "nursing", "business administration" or "business" → "business", "liberal arts" → "liberal-arts". Null if no major mentioned.
 
 Confidence rules:
 
@@ -83,8 +87,8 @@ export const CLASSIFY_TOOL = {
     properties: {
       type: {
         type: "string",
-        enum: ["transfer", "prereqs", "eligibility", "course", "unknown"],
-        description: "Which of the five intent types this query falls into.",
+        enum: ["transfer", "pathway", "prereqs", "eligibility", "course", "unknown"],
+        description: "Which of the six intent types this query falls into.",
       },
       // Course-related (used by transfer, prereqs, course)
       course_prefix: {
@@ -99,6 +103,11 @@ export const CLASSIFY_TOOL = {
       university: {
         type: ["string", "null"],
         description: "Target university slug, e.g. gmu, vcu, umass-amherst. Null if no destination mentioned.",
+      },
+      // Pathway-specific
+      major: {
+        type: ["string", "null"],
+        description: "Major or field of study, lowercase hyphenated, e.g. 'computer-science', 'nursing', 'business'. Null if not specified.",
       },
       // Eligibility-specific
       topic: {
@@ -167,10 +176,11 @@ export const CLASSIFY_TOOL = {
 // Shape of the tool input we expect Claude to produce. Mirrors CLASSIFY_TOOL
 // but expressed as a TS type for downstream conversion code.
 export interface ClassifierToolInput {
-  type: "transfer" | "prereqs" | "eligibility" | "course" | "unknown";
+  type: "transfer" | "pathway" | "prereqs" | "eligibility" | "course" | "unknown";
   course_prefix?: string | null;
   course_number?: string | null;
   university?: string | null;
+  major?: string | null;
   topic?: "senior" | "audit" | "cost" | "veteran" | null;
   age?: number | null;
   keyword?: string | null;

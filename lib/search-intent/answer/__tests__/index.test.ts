@@ -9,11 +9,15 @@ vi.mock("../prereqs", () => ({
 vi.mock("../eligibility", () => ({
   lookupEligibility: vi.fn().mockResolvedValue({ type: "eligibility", topic: "senior" }),
 }));
+vi.mock("../pathway", () => ({
+  lookupPathway: vi.fn().mockResolvedValue({ type: "pathway", status: "no-data" }),
+}));
 
 import { lookupAnswer } from "..";
 import { lookupTransfer } from "../transfer";
 import { lookupPrereqs } from "../prereqs";
 import { lookupEligibility } from "../eligibility";
+import { lookupPathway } from "../pathway";
 
 describe("lookupAnswer dispatch", () => {
   it("dispatches transfer intents to lookupTransfer", async () => {
@@ -30,6 +34,14 @@ describe("lookupAnswer dispatch", () => {
       "va",
     );
     expect(lookupPrereqs).toHaveBeenCalled();
+  });
+
+  it("dispatches pathway intents to lookupPathway", async () => {
+    await lookupAnswer(
+      { type: "pathway", university: "gmu", major: "computer-science" },
+      "va",
+    );
+    expect(lookupPathway).toHaveBeenCalled();
   });
 
   it("dispatches eligibility intents to lookupEligibility", async () => {

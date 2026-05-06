@@ -105,6 +105,12 @@ function toSearchIntent(rawQuery: string, input: ClassifierToolInput): SearchInt
         course: courseRef,
         university: input.university ?? null,
       };
+    case "pathway":
+      return {
+        type: "pathway",
+        university: input.university ?? null,
+        major: input.major ?? null,
+      };
     case "prereqs":
       return {
         type: "prereqs",

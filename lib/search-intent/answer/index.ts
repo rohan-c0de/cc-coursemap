@@ -8,6 +8,7 @@
 import type { SearchIntent } from "../types";
 import type { Answer } from "./types";
 import { lookupEligibility } from "./eligibility";
+import { lookupPathway } from "./pathway";
 import { lookupPrereqs } from "./prereqs";
 import { lookupTransfer } from "./transfer";
 
@@ -20,13 +21,13 @@ export async function lookupAnswer(
   switch (intent.type) {
     case "transfer":
       return lookupTransfer(intent, state);
+    case "pathway":
+      return lookupPathway(intent, state);
     case "prereqs":
       return lookupPrereqs(intent, state);
     case "eligibility":
       return lookupEligibility(intent, state);
     case "course":
-      // Course intents flow into the existing course-search results.
-      // No answer card; PR 5 will render the standard course list.
       return {
         type: "none",
         reason: "intent-not-supported",

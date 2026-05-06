@@ -48,6 +48,12 @@ export interface CourseIntent {
   };
 }
 
+export interface PathwayIntent {
+  type: "pathway";
+  university: string | null;
+  major: string | null;
+}
+
 export interface UnknownIntent {
   type: "unknown";
   raw: string;
@@ -58,6 +64,7 @@ export type SearchIntent =
   | PrereqsIntent
   | EligibilityIntent
   | CourseIntent
+  | PathwayIntent
   | UnknownIntent;
 
 export interface ClassifiedIntent {
