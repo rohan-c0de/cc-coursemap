@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
+import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 
 type StateOption = { slug: string; name: string; abbr: string };
@@ -21,6 +22,8 @@ export default function CourseSearchHero({
   const [pickerOpen, setPickerOpen] = useState(false);
   const [needsState, setNeedsState] = useState(false);
   const pickerRef = useRef<HTMLDivElement>(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+  const [dropdownStyle, setDropdownStyle] = useState<React.CSSProperties>({});
 
   // Hydrate selected state: a previously-chosen value in localStorage wins
   // (manual choice = highest priority), then geo auto-detect, else nothing.
@@ -43,13 +46,28 @@ export default function CourseSearchHero({
     }
   }, [states, geoState]);
 
-  // Close picker on outside click.
+  // Position the portal dropdown below the pill row whenever it opens.
+  useEffect(() => {
+    if (!pickerOpen || !pickerRef.current) return;
+    const rect = pickerRef.current.getBoundingClientRect();
+    setDropdownStyle({
+      position: "fixed",
+      top: rect.bottom + 8,
+      left: "50%",
+      transform: "translateX(-50%)",
+      width: Math.min(576, window.innerWidth - 32),
+      zIndex: 9999,
+    });
+  }, [pickerOpen]);
+
+  // Close picker on outside click (pill row or dropdown panel).
   useEffect(() => {
     if (!pickerOpen) return;
     const onDown = (e: MouseEvent) => {
-      if (pickerRef.current && !pickerRef.current.contains(e.target as Node)) {
-        setPickerOpen(false);
-      }
+      const target = e.target as Node;
+      const inPill = pickerRef.current?.contains(target);
+      const inDropdown = dropdownRef.current?.contains(target);
+      if (!inPill && !inDropdown) setPickerOpen(false);
     };
     document.addEventListener("mousedown", onDown);
     return () => document.removeEventListener("mousedown", onDown);
@@ -121,7 +139,7 @@ export default function CourseSearchHero({
       </form>
 
       {/* State filter pill row */}
-      <div className="relative mt-4 flex flex-wrap items-center justify-center gap-2 text-sm" ref={pickerRef}>
+      <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm" ref={pickerRef}>
         <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
           searching in
         </span>
@@ -168,32 +186,6 @@ export default function CourseSearchHero({
           all {states.length} states
         </button>
 
-        {pickerOpen && (
-          <div className="absolute z-20 mt-2 max-w-xl w-full left-1/2 -translate-x-1/2 top-full rounded-xl border border-ink-300/60 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-xl p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 mb-2 px-1">
-              choose a state
-            </div>
-            <div className="grid grid-cols-3 sm:grid-cols-4 gap-1">
-              {states.map((s) => (
-                <button
-                  key={s.slug}
-                  type="button"
-                  onClick={() => pickState(s.slug)}
-                  className={`text-left rounded-lg px-2 py-1.5 text-sm hover:bg-teal-50 dark:hover:bg-teal-900/30 hover:text-teal-700 dark:hover:text-teal-200 transition-colors ${
-                    s.slug === selectedState
-                      ? "bg-teal-50 dark:bg-teal-900/30 text-teal-800 dark:text-teal-200"
-                      : "text-slate-700 dark:text-slate-200"
-                  }`}
-                >
-                  <span className="font-mono text-[10px] uppercase tracking-[0.15em] text-slate-400 dark:text-slate-500 mr-1.5">
-                    {s.abbr}
-                  </span>
-                  {s.name}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
 
       {/* Popular searches */}
@@ -217,6 +209,38 @@ export default function CourseSearchHero({
           </button>
         ))}
       </div>
+
+      {pickerOpen && typeof document !== "undefined" && createPortal(
+        <div
+          ref={dropdownRef}
+          style={dropdownStyle}
+          className="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-xl p-3"
+        >
+          <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 mb-2 px-1">
+            choose a state
+          </div>
+          <div className="grid grid-cols-3 sm:grid-cols-4 gap-1">
+            {states.map((s) => (
+              <button
+                key={s.slug}
+                type="button"
+                onClick={() => pickState(s.slug)}
+                className={`text-left rounded-lg px-2 py-1.5 text-sm hover:bg-teal-50 dark:hover:bg-teal-900/30 hover:text-teal-700 dark:hover:text-teal-200 transition-colors ${
+                  s.slug === selectedState
+                    ? "bg-teal-50 dark:bg-teal-900/30 text-teal-800 dark:text-teal-200"
+                    : "text-slate-700 dark:text-slate-200"
+                }`}
+              >
+                <span className="font-mono text-[10px] uppercase tracking-[0.15em] text-slate-400 dark:text-slate-500 mr-1.5">
+                  {s.abbr}
+                </span>
+                {s.name}
+              </button>
+            ))}
+          </div>
+        </div>,
+        document.body
+      )}
     </div>
   );
 }
