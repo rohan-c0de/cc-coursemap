@@ -517,7 +517,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder='e.g. "PSY 200", "ENG", "psychology"'
                 className="w-full rounded-lg border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100 px-4 py-2.5 text-sm focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-200"
-                maxLength={50}
+                maxLength={250}
               />
             </div>
             <div className="w-full sm:w-36">
