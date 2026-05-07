@@ -36,6 +36,9 @@ export interface AcalogProgramConfig {
   programNavoids: number[];
   /** If true, auto-discover catoid from the catalog dropdown. Default true. */
   autoDiscoverCatoid?: boolean;
+  /** If true, discover programs via search_advanced.php instead of navoids.
+   *  Needed for catalogs where program listing pages are JS-rendered. */
+  useSearchDiscovery?: boolean;
 }
 
 const UA =
@@ -431,6 +434,7 @@ export async function scrapeAcalogPrograms(
     catoidFallback,
     programNavoids,
     autoDiscoverCatoid = true,
+    useSearchDiscovery = false,
   } = config;
 
   // Step 1: Discover catoid
@@ -455,6 +459,23 @@ export async function scrapeAcalogPrograms(
     await sleep(100);
   }
   console.log(`  [${collegeSlug}] Total unique programs: ${allPoids.size}`);
+
+  if (allPoids.size === 0 && useSearchDiscovery) {
+    console.log(`  [${collegeSlug}] Navoids empty — falling back to search_advanced.php`);
+    let page = 1;
+    const maxPages = 20;
+    while (page <= maxPages) {
+      const searchUrl = `${baseUrl}/search_advanced.php?cur_cat_oid=${catoid}&filter%5B1%5D=1&filter%5Bonly_active%5D=1&ppage=${page}`;
+      const html = await retryFetch(searchUrl, `search-page-${page}`);
+      const poids = extractPoids(html);
+      if (poids.length === 0) break;
+      for (const p of poids) allPoids.add(p);
+      console.log(`    search page ${page}: ${poids.length} programs (total: ${allPoids.size})`);
+      page++;
+      await sleep(200);
+    }
+    console.log(`  [${collegeSlug}] Search discovery found ${allPoids.size} programs`);
+  }
 
   if (allPoids.size === 0) {
     return {
