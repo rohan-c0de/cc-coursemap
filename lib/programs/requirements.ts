@@ -20,6 +20,13 @@ import type { Institution } from "@/lib/types";
 // Re-export types for convenience
 export type { ProgramRequirement, RequirementGroup, RequiredCourse };
 
+/**
+ * Map of "PREFIX NUMBER" → section count for a given college + term.
+ * Lets the UI show "8 sections available" or "not offered this term" per
+ * required course.
+ */
+export type CourseAvailabilityMap = Map<string, number>;
+
 interface ProgramRow {
   title: string;
   credential: string;
@@ -182,4 +189,65 @@ function loadProgramsBySlugFromFiles(
     }
   }
   return rows;
+}
+
+// ---------------------------------------------------------------------------
+// Course availability — cross-reference requirements with live sections
+// ---------------------------------------------------------------------------
+
+function collectCourseCodes(programs: ProgramRequirement[]): string[] {
+  const seen = new Set<string>();
+  for (const prog of programs) {
+    for (const group of prog.requirement_groups) {
+      for (const course of group.courses) {
+        seen.add(`${course.prefix} ${course.number}`);
+        for (const alt of course.or_alternatives) {
+          seen.add(`${alt.prefix} ${alt.number}`);
+        }
+      }
+    }
+  }
+  return [...seen];
+}
+
+/**
+ * For a given college + term, count how many sections exist for each
+ * required course. Returns a map of "PREFIX NUMBER" → section count.
+ */
+export async function checkCourseAvailability(
+  state: string,
+  collegeSlug: string,
+  term: string,
+  programs: ProgramRequirement[],
+): Promise<CourseAvailabilityMap> {
+  const codes = collectCourseCodes(programs);
+  if (codes.length === 0) return new Map();
+
+  const prefixes = [...new Set(codes.map((c) => c.split(" ")[0]))];
+  const numbers = [...new Set(codes.map((c) => c.split(" ")[1]))];
+
+  try {
+    const { data, error } = await supabase
+      .from("courses")
+      .select("course_prefix, course_number")
+      .eq("state", state)
+      .eq("college_code", collegeSlug)
+      .eq("term", term)
+      .in("course_prefix", prefixes)
+      .in("course_number", numbers);
+
+    if (error || !data) return new Map();
+
+    const codeSet = new Set(codes);
+    const counts = new Map<string, number>();
+    for (const row of data) {
+      const key = `${row.course_prefix} ${row.course_number}`;
+      if (codeSet.has(key)) {
+        counts.set(key, (counts.get(key) ?? 0) + 1);
+      }
+    }
+    return counts;
+  } catch {
+    return new Map();
+  }
 }
