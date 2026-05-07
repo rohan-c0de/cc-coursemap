@@ -5,7 +5,7 @@
 // the per-domain lookups and returns an `Answer` discriminated union the
 // UI can render directly.
 
-import type { ClassifiedIntent, SearchIntent } from "../types";
+import type { ClassifiedIntent, SearchIntent, CourseIntent } from "../types";
 import type { Answer } from "./types";
 import { lookupEligibility } from "./eligibility";
 import { lookupPathway } from "./pathway";
@@ -19,29 +19,95 @@ export type { Answer, SourceCitation } from "./types";
  * always, and a secondary answer when the classifier identified a second
  * intent. The two lookups run in parallel.
  *
+ * In addition to the LLM-extracted secondary intent, we synthesize a
+ * pathway secondary when the primary is a bare-word course intent
+ * ("biology", "data science"). The classifier reasonably routes these
+ * to `course`, but the student often also wants degree info — so we run
+ * pathway alongside and surface both cards. Same heuristic gates the
+ * `unknown`-branch fallback in `lookupUnknown`. See #266.
+ *
  * Secondary answers that are NoAnswer with `intent-not-supported` (course
  * intent) or `out-of-scope` (unknown) are filtered out — they would render
  * as a confusing empty card with no studentSummary to anchor them. The
- * primary's studentSummary already covers the whole query.
+ * primary's studentSummary already covers the whole query. Pathway
+ * secondaries that resolved to no-data / missing-entity are also filtered:
+ * we synthesized them speculatively, an empty result means no signal.
  */
 export async function lookupAnswers(
   classification: ClassifiedIntent,
   state: string,
 ): Promise<{ primary: Answer; secondary?: Answer }> {
   const primaryPromise = lookupAnswer(classification.intent, state);
-  const secondaryPromise = classification.secondaryIntent
-    ? lookupAnswer(classification.secondaryIntent, state)
+
+  // Use the explicit secondary the classifier provided, otherwise consider
+  // synthesizing one for bare-word course intents.
+  let effectiveSecondaryIntent: SearchIntent | null =
+    classification.secondaryIntent;
+  if (
+    !effectiveSecondaryIntent &&
+    shouldSynthesizePathway(classification.intent)
+  ) {
+    const major = (classification.intent.keyword ?? "").trim().toLowerCase();
+    effectiveSecondaryIntent = {
+      type: "pathway",
+      university: null,
+      major,
+      college: null,
+      credential: null,
+    };
+  }
+
+  const secondaryPromise = effectiveSecondaryIntent
+    ? lookupAnswer(effectiveSecondaryIntent, state)
     : Promise.resolve(null);
 
-  const [primary, secondary] = await Promise.all([primaryPromise, secondaryPromise]);
+  const [primary, secondary] = await Promise.all([
+    primaryPromise,
+    secondaryPromise,
+  ]);
 
   if (!secondary) return { primary };
   if (secondary.type === "none") {
-    if (secondary.reason === "intent-not-supported" || secondary.reason === "out-of-scope") {
+    if (
+      secondary.reason === "intent-not-supported" ||
+      secondary.reason === "out-of-scope"
+    ) {
       return { primary };
     }
   }
+  // Speculative pathway secondaries that returned no-data / missing-entity
+  // are noise — drop them.
+  if (
+    secondary.type === "pathway" &&
+    (secondary.status === "no-data" || secondary.status === "missing-entity")
+  ) {
+    return { primary };
+  }
   return { primary, secondary };
+}
+
+/**
+ * Should a course intent get a synthetic pathway secondary?
+ *
+ *   ✓ "biology"              → keyword="biology", no filters
+ *   ✓ "data science"         → keyword="data science", no filters
+ *   ✗ "BIO 101"              → has filters.course → student wants the section
+ *   ✗ "biology on Wednesday" → has filters.days   → student wants scheduling
+ *   ✗ "online biology"       → has filters.mode   → ditto
+ *   ✗ "biology classes for spring 2026" → filters.term → ditto
+ *
+ * We never synthesize for course intents that have ANY structured filter
+ * other than the keyword — those are unambiguously course-search queries
+ * and a degree card would just clutter the page.
+ */
+function shouldSynthesizePathway(
+  intent: SearchIntent,
+): intent is CourseIntent {
+  if (intent.type !== "course") return false;
+  if (!intent.keyword) return false;
+  const f = intent.filters;
+  if (f.course || f.mode || f.days || f.timeOfDay || f.term) return false;
+  return looksLikeFieldOfStudy(intent.keyword);
 }
 
 export async function lookupAnswer(

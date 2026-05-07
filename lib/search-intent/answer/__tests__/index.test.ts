@@ -200,4 +200,119 @@ describe("lookupAnswers (multi-intent)", () => {
     expect(result.primary).toBeDefined();
     expect(result.secondary).toBeUndefined();
   });
+
+  // ---- #266: bare-word course intents synthesize a pathway secondary -------
+
+  it("bare-word course intent ('biology') synthesizes a pathway secondary", async () => {
+    const lookupPathwayMock = vi.mocked(lookupPathway);
+    lookupPathwayMock.mockResolvedValue({
+      type: "pathway",
+      status: "found-related",
+      university: null,
+      major: "biology",
+      college: null,
+      degreeRequirements: [
+        {
+          title: "Health Science (A.S.)",
+          credential: "AS",
+          total_credits: 60,
+          gpa_minimum: 2.0,
+          catalog_url: "",
+          groups: [],
+        },
+      ],
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } as any);
+
+    const classification: ClassifiedIntent = {
+      ...BASE_CLASSIFICATION,
+      intent: { type: "course", keyword: "biology", filters: {} },
+      secondaryIntent: null,
+    };
+    const result = await lookupAnswers(classification, "vt");
+
+    // Pathway lookup must have been invoked with the synthesized intent
+    expect(lookupPathwayMock).toHaveBeenCalledWith(
+      expect.objectContaining({ type: "pathway", major: "biology" }),
+      "vt",
+    );
+    // Primary stays course (intent-not-supported); secondary is the pathway result
+    expect(result.primary.type).toBe("none");
+    expect(result.secondary?.type).toBe("pathway");
+  });
+
+  it("course intent WITH a specific course code does NOT synthesize pathway", async () => {
+    const lookupPathwayMock = vi.mocked(lookupPathway);
+    lookupPathwayMock.mockClear();
+
+    const classification: ClassifiedIntent = {
+      ...BASE_CLASSIFICATION,
+      intent: {
+        type: "course",
+        keyword: "biology",
+        filters: { course: { prefix: "BIO", number: "101" } },
+      },
+      secondaryIntent: null,
+    };
+    await lookupAnswers(classification, "vt");
+    expect(lookupPathwayMock).not.toHaveBeenCalled();
+  });
+
+  it("course intent WITH scheduling filters does NOT synthesize pathway", async () => {
+    const lookupPathwayMock = vi.mocked(lookupPathway);
+    lookupPathwayMock.mockClear();
+
+    const classification: ClassifiedIntent = {
+      ...BASE_CLASSIFICATION,
+      intent: {
+        type: "course",
+        keyword: "biology",
+        filters: { days: ["W"], mode: "online" },
+      },
+      secondaryIntent: null,
+    };
+    await lookupAnswers(classification, "vt");
+    expect(lookupPathwayMock).not.toHaveBeenCalled();
+  });
+
+  it("synthetic pathway secondary that returns no-data is dropped", async () => {
+    const lookupPathwayMock = vi.mocked(lookupPathway);
+    lookupPathwayMock.mockResolvedValue({
+      type: "pathway",
+      status: "no-data",
+      university: null,
+      major: "biology",
+      college: null,
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } as any);
+
+    const classification: ClassifiedIntent = {
+      ...BASE_CLASSIFICATION,
+      intent: { type: "course", keyword: "biology", filters: {} },
+      secondaryIntent: null,
+    };
+    const result = await lookupAnswers(classification, "vt");
+    // The pathway lookup ran...
+    expect(lookupPathwayMock).toHaveBeenCalled();
+    // ...but its empty result is hidden so we don't surface a confusing
+    // "no degree info" card next to course search results.
+    expect(result.secondary).toBeUndefined();
+  });
+
+  it("does NOT synthesize for non-field-like keywords (digits, too long, etc.)", async () => {
+    const lookupPathwayMock = vi.mocked(lookupPathway);
+    lookupPathwayMock.mockClear();
+
+    const classification: ClassifiedIntent = {
+      ...BASE_CLASSIFICATION,
+      intent: {
+        type: "course",
+        keyword: "the quick brown fox jumps over",
+        filters: {},
+      },
+      secondaryIntent: null,
+    };
+    await lookupAnswers(classification, "vt");
+    expect(lookupPathwayMock).not.toHaveBeenCalled();
+  });
 });
