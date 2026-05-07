@@ -125,6 +125,7 @@ export interface EligibilityAnswer {
 export type PathwayStatus =
   | "found" //              pathway data exists for this university/major
   | "found-degree" //       CC degree requirement data found
+  | "found-related" //      no exact-major match, but related programs found
   | "no-data" //            no pathway data available yet
   | "unknown-university" // university not recognized
   | "missing-entity"; //    no university specified

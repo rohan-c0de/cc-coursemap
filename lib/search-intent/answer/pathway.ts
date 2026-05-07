@@ -11,6 +11,8 @@ import { loadInstitutions } from "../../institutions";
 import {
   loadCollegePrograms,
   loadProgramAcrossColleges,
+  findRelatedPrograms,
+  stateHasProgramData,
 } from "../../programs/requirements";
 import { matchProgramSlug } from "../../programs/matcher";
 
@@ -130,8 +132,47 @@ async function lookupDegreeByMajor(
   const programSlug = slug ?? intent.major!;
 
   const entries = await loadProgramAcrossColleges(state, programSlug);
+  const majorLabel = intent.major!.replace(/-/g, " ");
 
+  // No exact slug match. Two distinct cases:
+  //   (a) the state has program data, but no program titled this major →
+  //       fall back to a substring search for related programs.
+  //   (b) no program data on disk for the state at all → honest "no data".
   if (entries.length === 0) {
+    if (stateHasProgramData(state)) {
+      const related = await findRelatedPrograms(state, majorLabel, 8);
+      if (related.length > 0) {
+        const degreeRequirements: DegreeRequirementSummary[] = [];
+        for (const entry of related) {
+          for (const p of entry.programs) {
+            degreeRequirements.push({
+              title: `${p.title} — ${entry.college.name}`,
+              credential: p.credential,
+              total_credits: p.total_credits,
+              gpa_minimum: p.gpa_minimum,
+              catalog_url: p.catalog_url,
+              groups: p.requirement_groups.map((g) => ({
+                name: g.name,
+                credits_required: g.credits_required,
+                course_count: g.courses.length,
+              })),
+            });
+          }
+        }
+        return makeAnswer({
+          status: "found-related",
+          university: null,
+          major: intent.major,
+          college: null,
+          degreeRequirements,
+          state,
+          followups: [
+            `${majorLabel} courses available this term`,
+            `What are the prereqs for common ${majorLabel} courses?`,
+          ],
+        });
+      }
+    }
     return makeAnswer({
       status: "no-data",
       university: null,
@@ -139,7 +180,7 @@ async function lookupDegreeByMajor(
       college: null,
       state,
       followups: [
-        `Search for ${intent.major!.replace(/-/g, " ")} courses`,
+        `Search for ${majorLabel} courses`,
         "What programs are available?",
       ],
     });
@@ -162,8 +203,6 @@ async function lookupDegreeByMajor(
       });
     }
   }
-
-  const majorLabel = intent.major!.replace(/-/g, " ");
 
   return makeAnswer({
     status: "found-degree",
