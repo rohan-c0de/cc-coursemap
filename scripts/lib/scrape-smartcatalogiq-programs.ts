@@ -28,6 +28,9 @@
  */
 
 import * as cheerio from "cheerio";
+// AnyNode is exported from domhandler (cheerio's underlying DOM lib) but
+// isn't re-exported as `cheerio.AnyNode` in cheerio 1.2 — import directly.
+import type { AnyNode } from "domhandler";
 import type {
   CollegePrograms,
   ProgramCredential,
@@ -250,7 +253,7 @@ function parseCredential(text: string): ProgramCredential {
 
 function parseProgramTable(
   $: cheerio.CheerioAPI,
-  $table: cheerio.Cheerio<cheerio.AnyNode>,
+  $table: cheerio.Cheerio<AnyNode>,
 ): { courses: RequiredCourse[]; totalCredits: number | null } {
   const courses: RequiredCourse[] = [];
   let totalCredits: number | null = null;
