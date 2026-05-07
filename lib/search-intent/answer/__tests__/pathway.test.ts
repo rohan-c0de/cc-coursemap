@@ -122,7 +122,7 @@ describe("lookupPathway", () => {
         programs: [
           {
             title: "Behavioral Science (A.S.)",
-            credential: "AS",
+            credential: "AS" as const,
             program_code: null,
             catalog_url: "https://example.com/behavioral-science",
             total_credits: 60,
@@ -175,7 +175,7 @@ describe("lookupPathway", () => {
         programs: [
           {
             title: "Health Science (A.S.)",
-            credential: "AS",
+            credential: "AS" as const,
             program_code: null,
             catalog_url: "https://example.com/health-sci",
             total_credits: 60,
@@ -210,7 +210,7 @@ describe("lookupPathway", () => {
         programs: [
           {
             title: "Geographic Information Systems",
-            credential: "certificate",
+            credential: "certificate" as const,
             program_code: null,
             catalog_url: "",
             total_credits: 30,
@@ -246,6 +246,183 @@ describe("lookupPathway", () => {
     );
     if (result.type !== "pathway") return;
     expect(result.status).toBe("no-data");
+  });
+
+  // ---- #265: lexical-noise re-rank via LLM ---------------------------------
+
+  it("phase 3b: when lexical returns ≥4 hits, LLM refines and replaces", async () => {
+    loadProgramsMock.mockResolvedValue([]);
+    stateHasDataMock.mockReturnValue(true);
+
+    // Lexical returns 6 noisy "Medical Coding" hits — promiscuous match
+    // because "coding" stem hit a broad family.
+    const noisyLexical = Array.from({ length: 6 }, (_, i) => ({
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      college: { id: `c${i}`, name: `College ${i}` } as any,
+      programs: [
+        {
+          title: `Medical Coding ${i}`,
+          credential: "certificate" as const,
+          program_code: null,
+          catalog_url: "",
+          total_credits: 30,
+          gpa_minimum: 2.0,
+          description: null,
+          requirement_groups: [],
+          matched_program_slug: null,
+        },
+      ],
+    }));
+    findRelatedMock.mockResolvedValue(noisyLexical);
+
+    // LLM returns the actually-relevant programs (different titles than lexical)
+    semanticResolveMock.mockResolvedValue({
+      programTitles: ["Computer Science Transfer", "Information Technology"],
+      subjectPrefixes: ["CSC", "ITP"],
+      rationale: "coding = software / programming, not medical billing.",
+      source: "llm",
+    });
+    loadByTitlesMock.mockResolvedValue([
+      {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        college: { id: "nova", name: "NOVA" } as any,
+        programs: [
+          {
+            title: "Computer Science Transfer",
+            credential: "AS" as const,
+            program_code: null,
+            catalog_url: "",
+            total_credits: 60,
+            gpa_minimum: 2.0,
+            description: null,
+            requirement_groups: [],
+            matched_program_slug: null,
+          },
+        ],
+      },
+    ]);
+
+    const result = await lookupPathway(
+      { type: "pathway", university: null, major: "coding", college: null, credential: null },
+      "va",
+    );
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("found-related");
+    expect(semanticResolveMock).toHaveBeenCalledWith("va", "coding");
+    // Refined result should be the LLM's pick, not the noisy lexical pool.
+    expect(result.degreeRequirements?.length).toBe(1);
+    expect(result.degreeRequirements?.[0].title).toContain(
+      "Computer Science Transfer",
+    );
+  });
+
+  it("phase 3b: ≥4 lexical hits + LLM returns nothing → keep lexical", async () => {
+    loadProgramsMock.mockResolvedValue([]);
+    stateHasDataMock.mockReturnValue(true);
+
+    const lexical = Array.from({ length: 5 }, (_, i) => ({
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      college: { id: `c${i}`, name: `College ${i}` } as any,
+      programs: [
+        {
+          title: `History Major ${i}`,
+          credential: "AA" as const,
+          program_code: null,
+          catalog_url: "",
+          total_credits: 60,
+          gpa_minimum: 2.0,
+          description: null,
+          requirement_groups: [],
+          matched_program_slug: null,
+        },
+      ],
+    }));
+    findRelatedMock.mockResolvedValue(lexical);
+
+    // LLM has nothing more relevant to add — empty programTitles.
+    semanticResolveMock.mockResolvedValue({
+      programTitles: [],
+      subjectPrefixes: [],
+      rationale: "lexical was already correct.",
+      source: "llm",
+    });
+    loadByTitlesMock.mockResolvedValue([]);
+
+    const result = await lookupPathway(
+      { type: "pathway", university: null, major: "history", college: null, credential: null },
+      "va",
+    );
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("found-related");
+    // We KEEP the lexical pool unchanged.
+    expect(result.degreeRequirements?.length).toBe(5);
+  });
+
+  it("phase 3b: ≥4 lexical hits + LLM throws → keep lexical, request not broken", async () => {
+    loadProgramsMock.mockResolvedValue([]);
+    stateHasDataMock.mockReturnValue(true);
+
+    const lexical = Array.from({ length: 4 }, (_, i) => ({
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      college: { id: `c${i}`, name: `College ${i}` } as any,
+      programs: [
+        {
+          title: `Whatever ${i}`,
+          credential: "AS" as const,
+          program_code: null,
+          catalog_url: "",
+          total_credits: 60,
+          gpa_minimum: 2.0,
+          description: null,
+          requirement_groups: [],
+          matched_program_slug: null,
+        },
+      ],
+    }));
+    findRelatedMock.mockResolvedValue(lexical);
+    semanticResolveMock.mockRejectedValue(new Error("classifier down"));
+
+    const result = await lookupPathway(
+      { type: "pathway", university: null, major: "anything", college: null, credential: null },
+      "va",
+    );
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("found-related");
+    expect(result.degreeRequirements?.length).toBe(4);
+  });
+
+  it("phase 3b: lexical 1–3 hits stays below threshold — LLM NOT called", async () => {
+    loadProgramsMock.mockResolvedValue([]);
+    stateHasDataMock.mockReturnValue(true);
+    semanticResolveMock.mockClear();
+
+    const lexical = Array.from({ length: 3 }, (_, i) => ({
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      college: { id: `c${i}`, name: `College ${i}` } as any,
+      programs: [
+        {
+          title: `Geographic Info Systems ${i}`,
+          credential: "certificate" as const,
+          program_code: null,
+          catalog_url: "",
+          total_credits: 30,
+          gpa_minimum: 2.0,
+          description: null,
+          requirement_groups: [],
+          matched_program_slug: null,
+        },
+      ],
+    }));
+    findRelatedMock.mockResolvedValue(lexical);
+
+    const result = await lookupPathway(
+      { type: "pathway", university: null, major: "geography", college: null, credential: null },
+      "va",
+    );
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("found-related");
+    expect(result.degreeRequirements?.length).toBe(3);
+    expect(semanticResolveMock).not.toHaveBeenCalled();
   });
 
   it("includes major-specific followup when major is present", async () => {
