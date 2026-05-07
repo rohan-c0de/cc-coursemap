@@ -20,6 +20,15 @@ import { semanticResolveMajor } from "../../programs/semantic-resolve";
 import type { Institution } from "../../types";
 import type { ProgramRequirement } from "../../programs/requirements";
 
+/**
+ * Number of cross-college lexical hits above which we re-run the query
+ * through the LLM resolver. Below this, the lexical layer's stem matches
+ * are tight enough to trust without the cost. Above it, we've seen
+ * promiscuous matches dominate ("coding" → 8 Medical Coding programs;
+ * "data science" → "Data Cabling"). See #265.
+ */
+const LEXICAL_NOISE_THRESHOLD = 4;
+
 export async function lookupPathway(
   intent: PathwayIntent,
   state: string,
@@ -144,14 +153,19 @@ async function lookupDegreeByMajor(
   //   2. LLM semantic resolution (Phase 3 — async, cached, costs cents on
   //      misses; handles synonyms / colloquialisms / domain knowledge)
   //   3. honest no-data when the state has no program data at all
+  //
+  // The LLM also runs when lexical was *promiscuous* (≥ 4 cross-college
+  // hits). At that volume the matches are almost always lossy (e.g.
+  // "coding" matches 8 Medical Coding programs but the user wanted CS;
+  // "data science" matches Data Cabling). The LLM, given the full state
+  // vocab, picks semantically-relevant titles instead. See #265.
   if (entries.length === 0) {
     if (stateHasProgramData(state)) {
       // Phase 2: lexical stems
       let related = await findRelatedPrograms(state, majorLabel, 8);
 
-      // Phase 3: LLM fallback when stems returned nothing. Wrapped in
-      // try/catch so a transient classifier failure can't break the
-      // request — fall through to no-data instead.
+      // Phase 3a: lexical found nothing → try LLM. Wrapped in try/catch
+      // so a transient classifier failure can't break the request.
       if (related.length === 0) {
         try {
           const semantic = await semanticResolveMajor(state, majorLabel);
@@ -160,6 +174,21 @@ async function lookupDegreeByMajor(
           }
         } catch {
           /* noop — proceed with empty `related` */
+        }
+      } else if (related.length >= LEXICAL_NOISE_THRESHOLD) {
+        // Phase 3b: lexical was promiscuous — ask the LLM to refine.
+        // Keep the lexical pool as fallback if the LLM returns nothing.
+        try {
+          const semantic = await semanticResolveMajor(state, majorLabel);
+          if (semantic && semantic.programTitles.length > 0) {
+            const refined = await loadProgramsByTitles(
+              state,
+              semantic.programTitles,
+            );
+            if (refined.length > 0) related = refined;
+          }
+        } catch {
+          /* keep the lexical results */
         }
       }
 
