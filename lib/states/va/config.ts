@@ -87,6 +87,14 @@ const vaConfig: StateConfig = {
         scripts: ["scripts/va/scrape-courseleaf-programs.ts"],
         runner: "http",
       },
+      {
+        scripts: ["scripts/va/scrape-vhcc-pdf-programs.ts"],
+        runner: "http",
+      },
+      {
+        scripts: ["scripts/va/scrape-camp-pdf-programs.ts"],
+        runner: "http",
+      },
     ],
   },
 };
