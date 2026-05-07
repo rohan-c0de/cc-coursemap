@@ -388,7 +388,7 @@ function parseProgramPage(
   const programCode = parseProgramCode(rawTitle);
 
   // Clean title: remove program code and trailing credential abbreviations
-  let title = rawTitle
+  const title = rawTitle
     .replace(/\s*\([A-Z0-9][-A-Z0-9]+\)\s*$/, "")
     .replace(/\s+-\s+\d{3,}\s*$/, "")
     .trim();
