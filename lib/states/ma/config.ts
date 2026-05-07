@@ -102,6 +102,10 @@ const maConfig: StateConfig = {
         scripts: ["scripts/ma/scrape-qcc-pdf-programs.ts"],
         runner: "http",
       },
+      {
+        scripts: ["scripts/ma/scrape-cleancatalog-programs.ts"],
+        runner: "http",
+      },
     ],
   },
 };
