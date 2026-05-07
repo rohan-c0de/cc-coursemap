@@ -240,6 +240,14 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
   const [answer, setAnswer] = useState<Answer | null>(null);
   const [secondaryAnswer, setSecondaryAnswer] = useState<Answer | null>(null);
   const [classification, setClassification] = useState<ClassificationSummary | null>(null);
+  // The exact (trimmed) query that produced the currently-displayed answer.
+  // Used to dim the answer card once the user starts editing, so a stale
+  // answer doesn't read as the live response to whatever's now in the input.
+  const [answerQuery, setAnswerQuery] = useState<string>("");
+  const isAnswerStale =
+    (answer !== null || secondaryAnswer !== null) &&
+    query.trim() !== answerQuery &&
+    answerQuery !== "";
 
   // Fetch transfer lookup data on mount (small, cached 24h)
   useEffect(() => {
@@ -273,6 +281,7 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
     setAnswer(null);
     setSecondaryAnswer(null);
     setClassification(null);
+    setAnswerQuery(searchQuery.trim());
 
     const trimmed = searchQuery.trim();
     // The user query may be natural language ("Computer Science classes on
@@ -634,27 +643,43 @@ export default function CourseSearchClient({ state, systemName, collegeCount, co
           transfer to GMU?", renders just its typed answer body — passing
           classification={null} naturally suppresses the duplicate summary
           UI on the second card. */}
-      {answer && (
-        <AnswerCard
-          answer={answer}
-          state={state}
-          classification={classification}
-          onFollowupClick={(q) => {
-            setQuery(q);
-            doSearch(q);
-          }}
-        />
-      )}
-      {secondaryAnswer && (
-        <AnswerCard
-          answer={secondaryAnswer}
-          state={state}
-          classification={null}
-          onFollowupClick={(q) => {
-            setQuery(q);
-            doSearch(q);
-          }}
-        />
+      {(answer || secondaryAnswer) && (
+        <div
+          className={
+            isAnswerStale
+              ? "opacity-50 transition-opacity duration-200 relative"
+              : "transition-opacity duration-200"
+          }
+          aria-live="polite"
+        >
+          {isAnswerStale && (
+            <p className="mb-2 text-xs text-gray-500 dark:text-slate-400 italic">
+              Answer below is for your previous query — press Search to refresh.
+            </p>
+          )}
+          {answer && (
+            <AnswerCard
+              answer={answer}
+              state={state}
+              classification={classification}
+              onFollowupClick={(q) => {
+                setQuery(q);
+                doSearch(q);
+              }}
+            />
+          )}
+          {secondaryAnswer && (
+            <AnswerCard
+              answer={secondaryAnswer}
+              state={state}
+              classification={null}
+              onFollowupClick={(q) => {
+                setQuery(q);
+                doSearch(q);
+              }}
+            />
+          )}
+        </div>
       )}
 
       {/* Loading */}
