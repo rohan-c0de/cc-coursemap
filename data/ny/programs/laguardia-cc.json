@@ -4718,7 +4718,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Human Services: Mental Health",
@@ -8336,7 +8336,7 @@
           ]
         }
       ],
-      "matched_program_slug": "liberal-arts"
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Music Recording Technology",
@@ -12195,7 +12195,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "Theater",
@@ -13554,7 +13554,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     }
   ]
 }

@@ -510,7 +510,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Biology",
@@ -1306,7 +1306,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "Foreign Language",
@@ -1503,7 +1503,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "Information Systems",
@@ -1756,7 +1756,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Mechanical Engineering",

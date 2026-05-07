@@ -337,7 +337,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Art/Visual Arts Transfer Block",
@@ -426,7 +426,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Business Administration Gen",
@@ -2084,7 +2084,7 @@
           ]
         }
       ],
-      "matched_program_slug": "liberal-arts"
+      "matched_program_slug": "history"
     },
     {
       "title": "Liberal Arts/Math",
@@ -2138,7 +2138,7 @@
           ]
         }
       ],
-      "matched_program_slug": "liberal-arts"
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Liberal Arts/Plant & Soil Sci",
@@ -3159,7 +3159,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Web Development & Design",

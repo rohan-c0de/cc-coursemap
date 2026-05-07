@@ -76,7 +76,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Mathematics Essentials",
@@ -87,7 +87,7 @@
       "gpa_minimum": null,
       "description": null,
       "requirement_groups": [],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Social Science General Electives",
@@ -679,7 +679,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Social Science, AS",

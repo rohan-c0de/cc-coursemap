@@ -105,6 +105,34 @@ export const PROGRAMS: ProgramDef[] = [
       "Automotive technology programs at community colleges in this state. ASE-aligned coursework for technicians and service writers.",
     prefixes: ["AUT", "AUTO", "AUMT", "ATR"],
   },
+  {
+    slug: "history",
+    name: "History",
+    description:
+      "History coursework at community colleges in this state. U.S., world, and topical history sequences for transfer-track liberal-arts students.",
+    prefixes: ["HIS", "HIST"],
+  },
+  {
+    slug: "mathematics",
+    name: "Mathematics",
+    description:
+      "Mathematics coursework at community colleges in this state. College algebra, precalculus, calculus, and statistics for transfer to four-year programs.",
+    prefixes: ["MTH", "MAT", "MATH"],
+  },
+  {
+    slug: "english",
+    name: "English",
+    description:
+      "English coursework at community colleges in this state. Composition, literature, and writing-track classes for transfer-track liberal-arts students.",
+    prefixes: ["ENG", "ENGL"],
+  },
+  {
+    slug: "art",
+    name: "Art",
+    description:
+      "Art and visual-arts coursework at community colleges in this state. Studio art, art history, and design-track classes for fine-arts transfer.",
+    prefixes: ["ART", "ARTS", "ARTG", "ARTH"],
+  },
 ];
 
 export function getProgramBySlug(slug: string): ProgramDef | undefined {

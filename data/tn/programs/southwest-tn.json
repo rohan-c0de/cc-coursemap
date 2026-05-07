@@ -1571,7 +1571,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Graphic Arts Technology, Interactive Multimedia Production Concentration, A.A.S.",
@@ -3871,7 +3871,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "Political Science Emphasis, A.A.",
@@ -4104,7 +4104,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "Social Work Emphasis, A.A.",
@@ -4287,7 +4287,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Sociology Emphasis, A.A.",
@@ -5807,7 +5807,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "Nutrition & Food Science Emphasis, A.S.",
@@ -5887,7 +5887,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Physics Emphasis, A.S.",

@@ -74,7 +74,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Applied Psychology - APSY.AA",
@@ -1070,7 +1070,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "Fire Protection and Safety Technology - FIRE.AS",
@@ -1203,7 +1203,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Health Science - HLTH.AS",
@@ -1361,7 +1361,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Medical Assistant - MAST.AS",
@@ -2500,7 +2500,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Medical Office Administrative Assistant - MOAA.COC",
