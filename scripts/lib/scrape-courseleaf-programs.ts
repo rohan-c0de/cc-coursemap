@@ -290,8 +290,6 @@ function parseProgramPage(
     const m = firstLine.match(/^Award:\s*(.+)$/);
     if (!m) return;
     const line = m[1].trim().replace(/\s*Degree$/i, "");
-    // @ts-expect-error cheerio doesn't expose document positions directly,
-    // but we can use the DOM-ordered index from $('*').index(el).
     const index = $("*").index(el);
     items.push({ kind: "award", line, index });
   });
