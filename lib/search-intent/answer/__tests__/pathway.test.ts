@@ -13,10 +13,15 @@ vi.mock("../../../programs/requirements", () => ({
   loadProgramAcrossColleges: vi.fn(async () => []),
   findRelatedPrograms: vi.fn(async () => []),
   stateHasProgramData: vi.fn(() => false),
+  loadProgramsByTitles: vi.fn(async () => []),
 }));
 
 vi.mock("../../../programs/matcher", () => ({
   matchProgramSlug: vi.fn(() => null),
+}));
+
+vi.mock("../../../programs/semantic-resolve", () => ({
+  semanticResolveMajor: vi.fn(async () => null),
 }));
 
 import { lookupPathway } from "../pathway";
@@ -25,12 +30,16 @@ import {
   loadProgramAcrossColleges,
   findRelatedPrograms,
   stateHasProgramData,
+  loadProgramsByTitles,
 } from "../../../programs/requirements";
+import { semanticResolveMajor } from "../../../programs/semantic-resolve";
 
 const resolveMock = vi.mocked(resolveUniversity);
 const loadProgramsMock = vi.mocked(loadProgramAcrossColleges);
 const findRelatedMock = vi.mocked(findRelatedPrograms);
 const stateHasDataMock = vi.mocked(stateHasProgramData);
+const loadByTitlesMock = vi.mocked(loadProgramsByTitles);
+const semanticResolveMock = vi.mocked(semanticResolveMajor);
 
 describe("lookupPathway", () => {
   it("looks up degree by major when no university or college specified", async () => {
@@ -142,6 +151,98 @@ describe("lookupPathway", () => {
     const result = await lookupPathway(
       { type: "pathway", university: null, major: "biology", college: null, credential: null },
       "ks",
+    );
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("no-data");
+  });
+
+  it("phase 3: invokes semantic resolver when stems return nothing, hydrates titles", async () => {
+    loadProgramsMock.mockResolvedValue([]);
+    stateHasDataMock.mockReturnValue(true);
+    findRelatedMock.mockResolvedValue([]); // lexical layer misses
+
+    semanticResolveMock.mockResolvedValue({
+      programTitles: ["Health Science (A.S.)"],
+      subjectPrefixes: ["BIO", "HLT"],
+      rationale: "premed students typically take Biology and Health Science.",
+      source: "llm",
+    });
+
+    loadByTitlesMock.mockResolvedValue([
+      {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        college: { id: "ccv", name: "Community College of Vermont" } as any,
+        programs: [
+          {
+            title: "Health Science (A.S.)",
+            credential: "AS",
+            program_code: null,
+            catalog_url: "https://example.com/health-sci",
+            total_credits: 60,
+            gpa_minimum: 2.0,
+            description: null,
+            requirement_groups: [],
+            matched_program_slug: null,
+          },
+        ],
+      },
+    ]);
+
+    const result = await lookupPathway(
+      { type: "pathway", university: null, major: "premed", college: null, credential: null },
+      "vt",
+    );
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("found-related");
+    expect(result.degreeRequirements?.length).toBe(1);
+    expect(result.degreeRequirements?.[0].title).toContain("Health Science");
+    // Sanity-check: semantic resolver was actually called
+    expect(semanticResolveMock).toHaveBeenCalledWith("vt", "premed");
+  });
+
+  it("phase 3: lexical hit short-circuits — semantic resolver NOT called", async () => {
+    loadProgramsMock.mockResolvedValue([]);
+    stateHasDataMock.mockReturnValue(true);
+    findRelatedMock.mockResolvedValue([
+      {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        college: { id: "nova", name: "NOVA" } as any,
+        programs: [
+          {
+            title: "Geographic Information Systems",
+            credential: "certificate",
+            program_code: null,
+            catalog_url: "",
+            total_credits: 30,
+            gpa_minimum: 2.0,
+            description: null,
+            requirement_groups: [],
+            matched_program_slug: null,
+          },
+        ],
+      },
+    ]);
+    semanticResolveMock.mockClear();
+
+    const result = await lookupPathway(
+      { type: "pathway", university: null, major: "geography", college: null, credential: null },
+      "va",
+    );
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("found-related");
+    expect(semanticResolveMock).not.toHaveBeenCalled();
+  });
+
+  it("phase 3: semantic resolver throwing falls through to no-data, request not broken", async () => {
+    loadProgramsMock.mockResolvedValue([]);
+    stateHasDataMock.mockReturnValue(true);
+    findRelatedMock.mockResolvedValue([]);
+    semanticResolveMock.mockRejectedValue(new Error("classifier offline"));
+    loadByTitlesMock.mockResolvedValue([]);
+
+    const result = await lookupPathway(
+      { type: "pathway", university: null, major: "premed", college: null, credential: null },
+      "vt",
     );
     if (result.type !== "pathway") return;
     expect(result.status).toBe("no-data");

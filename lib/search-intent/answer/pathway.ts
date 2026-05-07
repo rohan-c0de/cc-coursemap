@@ -13,8 +13,12 @@ import {
   loadProgramAcrossColleges,
   findRelatedPrograms,
   stateHasProgramData,
+  loadProgramsByTitles,
 } from "../../programs/requirements";
 import { matchProgramSlug } from "../../programs/matcher";
+import { semanticResolveMajor } from "../../programs/semantic-resolve";
+import type { Institution } from "../../types";
+import type { ProgramRequirement } from "../../programs/requirements";
 
 export async function lookupPathway(
   intent: PathwayIntent,
@@ -134,37 +138,38 @@ async function lookupDegreeByMajor(
   const entries = await loadProgramAcrossColleges(state, programSlug);
   const majorLabel = intent.major!.replace(/-/g, " ");
 
-  // No exact slug match. Two distinct cases:
-  //   (a) the state has program data, but no program titled this major →
-  //       fall back to a substring search for related programs.
-  //   (b) no program data on disk for the state at all → honest "no data".
+  // No exact slug match. Resolve in three layers, returning the first
+  // non-empty result:
+  //   1. lexical stem match across program titles (Phase 2 — sync, free)
+  //   2. LLM semantic resolution (Phase 3 — async, cached, costs cents on
+  //      misses; handles synonyms / colloquialisms / domain knowledge)
+  //   3. honest no-data when the state has no program data at all
   if (entries.length === 0) {
     if (stateHasProgramData(state)) {
-      const related = await findRelatedPrograms(state, majorLabel, 8);
-      if (related.length > 0) {
-        const degreeRequirements: DegreeRequirementSummary[] = [];
-        for (const entry of related) {
-          for (const p of entry.programs) {
-            degreeRequirements.push({
-              title: `${p.title} — ${entry.college.name}`,
-              credential: p.credential,
-              total_credits: p.total_credits,
-              gpa_minimum: p.gpa_minimum,
-              catalog_url: p.catalog_url,
-              groups: p.requirement_groups.map((g) => ({
-                name: g.name,
-                credits_required: g.credits_required,
-                course_count: g.courses.length,
-              })),
-            });
+      // Phase 2: lexical stems
+      let related = await findRelatedPrograms(state, majorLabel, 8);
+
+      // Phase 3: LLM fallback when stems returned nothing. Wrapped in
+      // try/catch so a transient classifier failure can't break the
+      // request — fall through to no-data instead.
+      if (related.length === 0) {
+        try {
+          const semantic = await semanticResolveMajor(state, majorLabel);
+          if (semantic && semantic.programTitles.length > 0) {
+            related = await loadProgramsByTitles(state, semantic.programTitles);
           }
+        } catch {
+          /* noop — proceed with empty `related` */
         }
+      }
+
+      if (related.length > 0) {
         return makeAnswer({
           status: "found-related",
           university: null,
           major: intent.major,
           college: null,
-          degreeRequirements,
+          degreeRequirements: summariseRequirements(related),
           state,
           followups: [
             `${majorLabel} courses available this term`,
@@ -186,10 +191,38 @@ async function lookupDegreeByMajor(
     });
   }
 
-  const degreeRequirements: DegreeRequirementSummary[] = [];
-  for (const entry of entries.slice(0, 3)) {
-    for (const p of entry.programs.slice(0, 2)) {
-      degreeRequirements.push({
+  return makeAnswer({
+    status: "found-degree",
+    university: null,
+    major: intent.major,
+    college: null,
+    degreeRequirements: summariseRequirements(entries.slice(0, 3), 2),
+    state,
+    followups: [
+      `${majorLabel} courses available this term`,
+      `What are the prereqs for common ${majorLabel} courses?`,
+    ],
+  });
+}
+
+/**
+ * Flatten a list of `{college, programs}` entries into the cross-college
+ * `DegreeRequirementSummary[]` shape the answer card expects. `perCollege`
+ * caps how many programs each college contributes — so a college with 50
+ * programs doesn't crowd out colleges with just one.
+ */
+function summariseRequirements(
+  entries: Array<{ college: Institution; programs: ProgramRequirement[] }>,
+  perCollege?: number,
+): DegreeRequirementSummary[] {
+  const out: DegreeRequirementSummary[] = [];
+  for (const entry of entries) {
+    const programs =
+      typeof perCollege === "number"
+        ? entry.programs.slice(0, perCollege)
+        : entry.programs;
+    for (const p of programs) {
+      out.push({
         title: `${p.title} — ${entry.college.name}`,
         credential: p.credential,
         total_credits: p.total_credits,
@@ -203,19 +236,7 @@ async function lookupDegreeByMajor(
       });
     }
   }
-
-  return makeAnswer({
-    status: "found-degree",
-    university: null,
-    major: intent.major,
-    college: null,
-    degreeRequirements,
-    state,
-    followups: [
-      `${majorLabel} courses available this term`,
-      `What are the prereqs for common ${majorLabel} courses?`,
-    ],
-  });
+  return out;
 }
 
 async function lookupTransferPathway(

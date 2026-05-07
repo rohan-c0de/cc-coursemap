@@ -260,6 +260,60 @@ export function stateHasProgramData(state: string): boolean {
   return fs.readdirSync(dir).some((f) => f.endsWith(".json"));
 }
 
+/**
+ * Look up programs by their literal `title` string within a state's program
+ * data. Used by the Phase 3 semantic resolver: the LLM returns title
+ * strings (verified-against-vocab), and we hydrate them here to full
+ * `ProgramRequirement` objects with their college metadata. Returns the
+ * same shape as findRelatedPrograms so callers stay uniform.
+ *
+ * Match is case-sensitive on title — the LLM is instructed to return
+ * verbatim titles, and parseResponse in semantic-resolve validates against
+ * the vocab before letting strings through.
+ */
+export async function loadProgramsByTitles(
+  state: string,
+  titles: string[],
+): Promise<Array<{ college: Institution; programs: ProgramRequirement[] }>> {
+  if (titles.length === 0) return [];
+  const dir = path.join(process.cwd(), "data", state, "programs");
+  if (!fs.existsSync(dir)) return [];
+
+  const wanted = new Set(titles);
+  const institutions = loadInstitutions(state);
+  const byCollege = new Map<string, ProgramRow[]>();
+
+  for (const file of fs.readdirSync(dir).filter((f) => f.endsWith(".json"))) {
+    try {
+      const raw = fs.readFileSync(path.join(dir, file), "utf-8");
+      const data = JSON.parse(raw);
+      const collegeSlug = file.replace(".json", "");
+      for (const p of data.programs ?? []) {
+        if (typeof p?.title === "string" && wanted.has(p.title)) {
+          if (!byCollege.has(collegeSlug)) byCollege.set(collegeSlug, []);
+          byCollege.get(collegeSlug)!.push({
+            ...p,
+            college_slug: collegeSlug,
+            catalog_year: data.catalog_year ?? "",
+          });
+        }
+      }
+    } catch {
+      continue;
+    }
+  }
+
+  const results: Array<{ college: Institution; programs: ProgramRequirement[] }> = [];
+  for (const [slug, rows] of byCollege) {
+    const inst = institutions.find(
+      (i) => i.college_slug === slug || i.id === slug,
+    );
+    if (!inst) continue;
+    results.push({ college: inst, programs: rows.map(rowToProgram) });
+  }
+  return results.sort((a, b) => a.college.name.localeCompare(b.college.name));
+}
+
 // ---------------------------------------------------------------------------
 // Course availability — cross-reference requirements with live sections
 // ---------------------------------------------------------------------------
