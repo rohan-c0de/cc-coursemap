@@ -34,7 +34,7 @@ import { execSync } from "node:child_process";
 import { getAllStates } from "../../lib/states/registry";
 import type { ScrapeJob, ScraperCoverage } from "../../lib/states/registry";
 
-type DataType = "courses" | "transfers" | "prereqs";
+type DataType = "courses" | "transfers" | "prereqs" | "programs";
 type Status = "healthy" | "empty" | "failed";
 
 interface JobResult {
@@ -69,7 +69,7 @@ const repo = arg("repo");
 const dataDir = arg("data-dir", false) || "data";
 const statusOut = arg("status-out", false);
 
-if (!["courses", "transfers", "prereqs"].includes(datatype)) {
+if (!["courses", "transfers", "prereqs", "programs"].includes(datatype)) {
   console.error(`Invalid --datatype: ${datatype}`);
   process.exit(2);
 }
@@ -81,6 +81,7 @@ if (!["courses", "transfers", "prereqs"].includes(datatype)) {
 function jobsFor(scrapers: ScraperCoverage, dt: DataType): ScrapeJob[] {
   if (dt === "courses") return scrapers.courses ?? [];
   if (dt === "transfers") return scrapers.transfers ?? [];
+  if (dt === "programs") return scrapers.programs ?? [];
   const p = scrapers.prereqs;
   // `aggregate-from-courses` states have no separate scrape job; nothing to
   // schedule and so nothing to check here.
@@ -216,6 +217,22 @@ function checkSingleFileOutput(
   return { ok: true, detail: `${filename} present (${size} bytes)` };
 }
 
+function checkProgramsOutput(state: string): { ok: boolean; detail: string } {
+  const dir = join(dataDir, state, "programs");
+  if (!existsSync(dir)) {
+    return { ok: false, detail: "no programs directory" };
+  }
+  const files = readdirSync(dir).filter((f) => f.endsWith(".json"));
+  if (files.length === 0) {
+    return { ok: false, detail: "no program JSON files" };
+  }
+  const withData = files.filter((f) => statSync(join(dir, f)).size > 100);
+  if (withData.length === 0) {
+    return { ok: false, detail: `${files.length} file(s) but all <100 bytes` };
+  }
+  return { ok: true, detail: `${withData.length} college(s) with program data` };
+}
+
 function checkOutput(
   state: string,
   scripts: string[]
@@ -224,6 +241,7 @@ function checkOutput(
   if (datatype === "transfers")
     return checkSingleFileOutput(state, "transfer-equiv.json");
   if (datatype === "prereqs") return checkSingleFileOutput(state, "prereqs.json");
+  if (datatype === "programs") return checkProgramsOutput(state);
   return { ok: false, detail: `unknown datatype ${datatype}` };
 }
 

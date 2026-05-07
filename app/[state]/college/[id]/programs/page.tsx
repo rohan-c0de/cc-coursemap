@@ -61,7 +61,40 @@ export default async function CollegeProgramsPage(props: PageProps) {
 
   const url = siteUrl();
 
+  const programsLd = programs.slice(0, 50).map((p) => ({
+    "@type": "EducationalOccupationalProgram",
+    name: p.title,
+    educationalCredentialAwarded: p.credential.toUpperCase(),
+    ...(p.total_credits != null && { numberOfCredits: { "@type": "StructuredValue", value: p.total_credits } }),
+    ...(p.catalog_url && { url: p.catalog_url }),
+    provider: {
+      "@type": "CollegeOrUniversity",
+      name: institution.name,
+      url: `${url}/${state}/college/${id}`,
+    },
+  }));
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `Degree & Certificate Programs at ${institution.name}`,
+    numberOfItems: programs.length,
+    url: `${url}/${state}/college/${id}/programs`,
+    itemListElement: programsLd.map((p, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: p,
+    })),
+  };
+
   return (
+    <>
+      {programs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      )}
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <Breadcrumbs
         siteUrl={url}
@@ -122,5 +155,6 @@ export default async function CollegeProgramsPage(props: PageProps) {
         </Link>
       </div>
     </div>
+    </>
   );
 }
