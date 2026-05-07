@@ -64,11 +64,75 @@ export async function lookupAnswer(
         message: "Use the course search results below.",
       };
     case "unknown":
-      return {
-        type: "none",
-        reason: "out-of-scope",
-        message:
-          "I'm not sure what you're asking. Try a course code (like ENG 111), 'prereqs for BIO 256', or 'does ENG 111 transfer to GMU'.",
-      };
+      return lookupUnknown(intent.raw, state);
   }
+}
+
+/**
+ * Bare-word queries like "premed", "law", "coding", "teaching" land here:
+ * the classifier doesn't have enough context to mark them as a specific
+ * intent type, but they're almost always asking about a field of study.
+ *
+ * Heuristic: if `raw` looks like a field-of-study term (1–3 words,
+ * letters-and-spaces only, 3–40 chars, not a known stop-word), try a
+ * pathway lookup with `major = raw`. The 3-layer pathway resolution
+ * (canonical slug → lexical stem → LLM semantic) takes it from there
+ * and either returns a populated answer or its own no-data. If the
+ * heuristic doesn't fit, fall through to the original out-of-scope copy.
+ */
+async function lookupUnknown(raw: string, state: string): Promise<Answer> {
+  const trimmed = raw.trim();
+  if (looksLikeFieldOfStudy(trimmed)) {
+    const pathwayAnswer = await lookupPathway(
+      {
+        type: "pathway",
+        university: null,
+        major: trimmed.toLowerCase(),
+        college: null,
+        credential: null,
+      },
+      state,
+    );
+    if (
+      pathwayAnswer.type === "pathway" &&
+      (pathwayAnswer.status === "found-degree" ||
+        pathwayAnswer.status === "found-related")
+    ) {
+      return pathwayAnswer;
+    }
+  }
+  return {
+    type: "none",
+    reason: "out-of-scope",
+    message:
+      "I'm not sure what you're asking. Try a course code (like ENG 111), 'prereqs for BIO 256', or 'does ENG 111 transfer to GMU'.",
+  };
+}
+
+const FIELD_STOP_WORDS = new Set([
+  "help",
+  "what",
+  "when",
+  "where",
+  "how",
+  "the",
+  "a",
+  "an",
+  "yes",
+  "no",
+  "ok",
+  "okay",
+  "test",
+  "hello",
+  "hi",
+  "thanks",
+]);
+
+function looksLikeFieldOfStudy(s: string): boolean {
+  if (s.length < 3 || s.length > 40) return false;
+  if (!/^[a-zA-Z][a-zA-Z\s]*$/.test(s)) return false; // letters + spaces, must start with letter
+  const words = s.toLowerCase().split(/\s+/);
+  if (words.length === 0 || words.length > 3) return false;
+  if (words.every((w) => FIELD_STOP_WORDS.has(w))) return false;
+  return true;
 }
