@@ -426,7 +426,7 @@ function parseProgramPage(
     let hasAny = false;
     for (const g of groups) {
       for (const c of g.courses) {
-        if (c.credits > 0) {
+        if (c.credits !== null && c.credits > 0) {
           sum += c.credits;
           hasAny = true;
         }
@@ -442,7 +442,8 @@ function parseProgramPage(
   if (
     finalTotalCredits !== null &&
     finalTotalCredits >= 50 &&
-    (credential === "certificate" || credential === "other")
+    ((credential as ProgramCredential) === "certificate" ||
+      (credential as ProgramCredential) === "other")
   ) {
     credential = "AS";
   }
