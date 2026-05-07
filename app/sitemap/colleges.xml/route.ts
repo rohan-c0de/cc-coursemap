@@ -1,4 +1,4 @@
-import { getAllStates } from "@/lib/states/registry";
+import { getAllStates, hasProgramsCoverage } from "@/lib/states/registry";
 import { loadInstitutions } from "@/lib/institutions";
 import {
   toSitemapXml,
@@ -13,6 +13,7 @@ export function GET() {
   const lastModified = new Date();
 
   for (const state of getAllStates()) {
+    const hasPrograms = hasProgramsCoverage(state.slug);
     for (const inst of loadInstitutions(state.slug)) {
       entries.push({
         url: `${url}/${state.slug}/college/${inst.id}`,
@@ -20,6 +21,14 @@ export function GET() {
         priority: 0.7,
         lastModified,
       });
+      if (hasPrograms) {
+        entries.push({
+          url: `${url}/${state.slug}/college/${inst.id}/programs`,
+          changeFrequency: "monthly",
+          priority: 0.65,
+          lastModified,
+        });
+      }
     }
   }
 
