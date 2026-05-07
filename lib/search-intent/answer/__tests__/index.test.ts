@@ -47,7 +47,7 @@ describe("lookupAnswer dispatch", () => {
 
   it("dispatches pathway intents to lookupPathway", async () => {
     await lookupAnswer(
-      { type: "pathway", university: "gmu", major: "computer-science" },
+      { type: "pathway", university: "gmu", major: "computer-science", college: null, credential: null },
       "va",
     );
     expect(lookupPathway).toHaveBeenCalled();

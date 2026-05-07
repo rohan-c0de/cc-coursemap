@@ -193,6 +193,8 @@ describe("llmClassifier", () => {
       type: "pathway",
       university: "gmu",
       major: "computer-science",
+      college: null,
+      credential: null,
     });
   });
 
@@ -208,6 +210,8 @@ describe("llmClassifier", () => {
       type: "pathway",
       university: "vt",
       major: null,
+      college: null,
+      credential: null,
     });
   });
 

@@ -23,8 +23,12 @@ Intent types:
 1. "transfer" — student is asking whether a community-college course transfers to a university (or asking generically about transfer). Can be a specific course ("Does ENG 111 transfer to GMU?") OR a subject-level browse ("are there any English courses that transfer to UVA?"). For subject-level queries, set course_prefix to the subject prefix and leave course_number null.
    Examples: "Does ENG 111 transfer to GMU?", "will math 263 transfer to vcu", "ENG 111 → George Mason", "English courses that transfer to UVA", "what math classes transfer?"
 
-2. "pathway" — student wants to know what courses to take to transfer to a university, possibly for a specific major. No single course in mind — they want a plan or set of requirements.
-   Examples: "what do I need to transfer to GMU for CS?", "transfer requirements for nursing at UNC", "how do I get into UMass Boston for business?", "courses needed to transfer to Virginia Tech"
+2. "pathway" — student wants to know what courses to take for a degree or to transfer to a university. Two sub-types:
+   a) Transfer pathway: student wants to transfer to a 4-year university, possibly for a specific major.
+   b) CC degree: student wants to know what courses are required for a community college degree (AA, AS, AAS, certificate).
+   For CC degree queries, set "college" to the community college slug and leave "university" null. For transfer queries, set "university" and leave "college" null.
+   Examples (transfer): "what do I need to transfer to GMU for CS?", "transfer requirements for nursing at UNC", "courses needed to transfer to Virginia Tech"
+   Examples (CC degree): "nursing degree requirements at NOVA", "what courses do I need for an AA in business?", "AAS in IT at Germanna", "what do I need to graduate with an AS in biology?", "degree requirements for criminal justice"
 
 3. "prereqs" — student is asking about prerequisites, in one of two directions:
    - Forward (default): what do I need to take BEFORE this course? Set prereq_direction to "forward".
@@ -162,6 +166,15 @@ export const CLASSIFY_TOOL = {
         type: ["string", "null"],
         description: "Major or field of study, lowercase hyphenated, e.g. 'computer-science', 'nursing', 'business'. Null if not specified.",
       },
+      college: {
+        type: ["string", "null"],
+        description: "Community college slug for CC degree queries (e.g. 'nova', 'gcc', 'pvcc'). Use the source_college alias table to resolve names. Null for transfer pathway queries or when no college specified.",
+      },
+      credential: {
+        type: ["string", "null"],
+        enum: ["AA", "AS", "AAS", "certificate", null],
+        description: "Degree type for CC degree queries: 'AA', 'AS', 'AAS', or 'certificate'. Null if not specified or for transfer pathway queries.",
+      },
       // Eligibility-specific
       topic: {
         type: ["string", "null"],
@@ -258,6 +271,8 @@ export interface ClassifierToolInput {
   prereq_direction?: "forward" | "inverse" | null;
   university?: string | null;
   major?: string | null;
+  college?: string | null;
+  credential?: string | null;
   topic?: "senior" | "audit" | "cost" | "veteran" | null;
   age?: number | null;
   keyword?: string | null;

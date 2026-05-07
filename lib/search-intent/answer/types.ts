@@ -124,15 +124,31 @@ export interface EligibilityAnswer {
 
 export type PathwayStatus =
   | "found" //              pathway data exists for this university/major
+  | "found-degree" //       CC degree requirement data found
   | "no-data" //            no pathway data available yet
   | "unknown-university" // university not recognized
   | "missing-entity"; //    no university specified
+
+export interface DegreeRequirementSummary {
+  title: string;
+  credential: string;
+  total_credits: number | null;
+  gpa_minimum: number | null;
+  catalog_url: string;
+  groups: Array<{
+    name: string;
+    credits_required: number | null;
+    course_count: number;
+  }>;
+}
 
 export interface PathwayAnswer {
   type: "pathway";
   status: PathwayStatus;
   university: { slug: string; name: string } | null;
   major: string | null;
+  college: { slug: string; name: string } | null;
+  degreeRequirements?: DegreeRequirementSummary[];
   source: SourceCitation;
   followups?: string[];
 }
