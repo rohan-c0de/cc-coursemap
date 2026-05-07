@@ -58,6 +58,7 @@ const vtConfig: StateConfig = {
     courses: [{ scripts: ["scripts/vt/scrape-colleague.ts"], runner: "playwright" }],
     transfers: [{ scripts: ["scripts/vt/scrape-transfer.ts"], runner: "http" }],
     prereqs: [{ scripts: ["scripts/vt/scrape-catalog-prereqs.ts"], runner: "http" }],
+    programs: [{ scripts: ["scripts/vt/scrape-programs.ts"], runner: "http" }],
   },
 };
 

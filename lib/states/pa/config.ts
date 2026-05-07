@@ -69,6 +69,7 @@ const paConfig: StateConfig = {
       { scripts: ["scripts/pa/scrape-pitt-tes.ts"], runner: "http" },
     ],
     prereqs: [{ scripts: ["scripts/pa/scrape-catalog-prereqs.ts"], runner: "http" }],
+    // manual-only: programs — Acalog program scraper not yet wired up for this state.
   },
 };
 

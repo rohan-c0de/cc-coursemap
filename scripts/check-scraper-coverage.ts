@@ -19,7 +19,7 @@ import { resolve } from "node:path";
 import { getAllStates, type ScraperCoverage } from "../lib/states/registry";
 
 const ROOT = resolve(__dirname, "..");
-const DATATYPES = ["courses", "transfers", "prereqs"] as const;
+const DATATYPES = ["courses", "transfers", "prereqs", "programs"] as const;
 type Datatype = (typeof DATATYPES)[number];
 
 const errors: string[] = [];
@@ -43,7 +43,7 @@ function hasDatatypeMarker(source: string, dt: Datatype): boolean {
 
 function hasBlanketMarker(source: string): boolean {
   // A `manual-only:` whose next non-whitespace token is NOT a datatype keyword.
-  return /manual-only:(?!\s*(?:courses|transfers|prereqs)\b)/i.test(source);
+  return /manual-only:(?!\s*(?:courses|transfers|prereqs|programs)\b)/i.test(source);
 }
 
 function declaredScriptPaths(scrapers: ScraperCoverage): string[] {
@@ -53,6 +53,7 @@ function declaredScriptPaths(scrapers: ScraperCoverage): string[] {
   if (Array.isArray(scrapers.prereqs)) {
     for (const job of scrapers.prereqs) paths.push(...job.scripts);
   }
+  for (const job of scrapers.programs ?? []) paths.push(...job.scripts);
   return paths;
 }
 
@@ -93,7 +94,7 @@ if (errors.length > 0) {
     `\n${errors.length} issue(s) across ${getAllStates().length} registered state(s).`
   );
   console.error(
-    "\nEvery state × {courses, transfers, prereqs} must either be declared in `scrapers` or carry a `manual-only:` marker. See issues #59 and #111."
+    "\nEvery state × {courses, transfers, prereqs, programs} must either be declared in `scrapers` or carry a `manual-only:` marker. See issues #59 and #111."
   );
   process.exit(1);
 }

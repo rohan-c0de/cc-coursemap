@@ -31,12 +31,13 @@ on:
     - cron: "0 6 * * 1,3,5" # Mon/Wed/Fri 06:00 UTC — courses
     - cron: "0 10 * * 3,6"  # Wed/Sat 10:00 UTC — transfers
     - cron: "0 7 * * 0"     # Sun 07:00 UTC — prereqs
+    - cron: "0 8 1 * *"     # 1st of month 08:00 UTC — programs
   workflow_dispatch:
     inputs:
       datatype:
         description: "Which data type to scrape"
         type: choice
-        options: [courses, transfers, prereqs]
+        options: [courses, transfers, prereqs, programs]
         default: courses
 
 permissions:
@@ -71,6 +72,7 @@ jobs:
               "0 6 * * 1,3,5") dt="courses" ;;
               "0 10 * * 3,6")  dt="transfers" ;;
               "0 7 * * 0")     dt="prereqs" ;;
+              "0 8 1 * *")     dt="programs" ;;
               *) echo "Unexpected schedule: ${{ github.event.schedule }}"; exit 1 ;;
             esac
           fi

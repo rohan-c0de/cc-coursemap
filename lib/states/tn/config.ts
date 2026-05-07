@@ -88,6 +88,7 @@ const tnConfig: StateConfig = {
     courses: [{ scripts: ["scripts/tn/scrape-banner-ssb.ts"], runner: "http" }],
     transfers: [{ scripts: ["scripts/tn/transfer/scrape-all.ts"], runner: "http" }],
     prereqs: [{ scripts: ["scripts/tn/scrape-catalog-prereqs.ts"], runner: "http" }],
+    programs: [{ scripts: ["scripts/tn/scrape-programs.ts"], runner: "http" }],
   },
 };
 

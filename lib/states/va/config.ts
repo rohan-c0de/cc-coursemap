@@ -81,6 +81,7 @@ const vaConfig: StateConfig = {
       },
     ],
     prereqs: { source: "aggregate-from-courses" },
+    programs: [{ scripts: ["scripts/va/scrape-programs.ts"], runner: "http" }],
   },
 };
 

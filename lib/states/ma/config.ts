@@ -88,6 +88,7 @@ const maConfig: StateConfig = {
         runner: "http",
       },
     ],
+    programs: [{ scripts: ["scripts/ma/scrape-programs.ts"], runner: "http" }],
   },
 };
 
