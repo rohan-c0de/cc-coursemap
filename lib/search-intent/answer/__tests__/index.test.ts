@@ -71,7 +71,9 @@ describe("lookupAnswer dispatch", () => {
     expect(result.reason).toBe("intent-not-supported");
   });
 
-  it("returns NoAnswer with out-of-scope for unknown intents", async () => {
+  it("returns NoAnswer with out-of-scope for unknown intents whose pathway lookup also misses", async () => {
+    // Mocked lookupPathway returns no-data above, so the fallback short-circuits
+    // back to the unknown out-of-scope copy.
     const result = await lookupAnswer(
       { type: "unknown", raw: "good professors" },
       "va",
@@ -79,6 +81,71 @@ describe("lookupAnswer dispatch", () => {
     expect(result.type).toBe("none");
     if (result.type !== "none") return;
     expect(result.reason).toBe("out-of-scope");
+  });
+
+  it("unknown intent with field-of-study-like raw query falls back to pathway lookup", async () => {
+    const lookupPathwayMock = vi.mocked(lookupPathway);
+    lookupPathwayMock.mockResolvedValueOnce({
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      type: "pathway",
+      status: "found-related",
+      university: null,
+      major: "premed",
+      college: null,
+      degreeRequirements: [
+        {
+          title: "Health Science (A.S.)",
+          credential: "AS",
+          total_credits: 60,
+          gpa_minimum: 2.0,
+          catalog_url: "",
+          groups: [],
+        },
+      ],
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } as any);
+
+    const result = await lookupAnswer(
+      { type: "unknown", raw: "premed" },
+      "va",
+    );
+
+    expect(lookupPathwayMock).toHaveBeenCalledWith(
+      expect.objectContaining({ type: "pathway", major: "premed" }),
+      "va",
+    );
+    expect(result.type).toBe("pathway");
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("found-related");
+  });
+
+  it("unknown intent does NOT call pathway when raw doesn't look like a field of study", async () => {
+    const lookupPathwayMock = vi.mocked(lookupPathway);
+    lookupPathwayMock.mockClear();
+
+    // Has digits → fails the field-of-study heuristic
+    const result1 = await lookupAnswer(
+      { type: "unknown", raw: "blah 123" },
+      "va",
+    );
+    expect(result1.type).toBe("none");
+
+    // Too many words
+    const result2 = await lookupAnswer(
+      { type: "unknown", raw: "the quick brown fox jumps" },
+      "va",
+    );
+    expect(result2.type).toBe("none");
+
+    // Stop-words only
+    const result3 = await lookupAnswer(
+      { type: "unknown", raw: "hi" },
+      "va",
+    );
+    expect(result3.type).toBe("none");
+
+    // The pathway lookup must NOT have been invoked for any of these
+    expect(lookupPathwayMock).not.toHaveBeenCalled();
   });
 });
 
