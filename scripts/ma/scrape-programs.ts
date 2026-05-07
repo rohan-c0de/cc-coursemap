@@ -2,8 +2,19 @@
  * scrape-programs.ts — scrape degree/program requirements for Massachusetts
  * community colleges from Acalog catalogs.
  *
- * Not all MA community colleges use Acalog. This scraper covers the ones
- * that do. Others (Coursedog-based like GCC) need a separate scraper.
+ * Coverage as of 2026-05: 5 of 15 MA community colleges. The other 10
+ * use non-Acalog catalog systems and are tracked in their own follow-up
+ * issues:
+ *   gcc        — Coursedog (existing prereq scraper handles courses)
+ *   berkshire  — Smart Catalog IQ
+ *   northshore — Smart Catalog IQ
+ *   necc       — Smart Catalog IQ
+ *   massasoit  — PDF-only catalog
+ *   qcc        — PDF-only catalog
+ *   mwcc       — CourseLeaf
+ *   bristol    — custom Drupal-based catalog
+ *   capecod    — static HTML, last update 2019-2020
+ *   rcc        — catalog page sparse / unclear system
  *
  * Usage:
  *   npx tsx scripts/ma/scrape-programs.ts
@@ -23,6 +34,34 @@ const COLLEGES: AcalogProgramConfig[] = [
     catoidFallback: 35,
     programNavoids: [3315],
     autoDiscoverCatoid: true,
+  },
+  {
+    collegeSlug: "bhcc",
+    baseUrl: "https://catalog.bhcc.edu",
+    catoidFallback: 15,
+    programNavoids: [786, 806, 807, 813],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "hcc",
+    baseUrl: "https://catalog.hcc.edu",
+    catoidFallback: 13,
+    programNavoids: [562, 97],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "stcc",
+    baseUrl: "https://catalog.stcc.edu",
+    catoidFallback: 32,
+    programNavoids: [6835],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "massbay",
+    baseUrl: "https://massbay.catalog.acalog.com",
+    catoidFallback: 15,
+    programNavoids: [583],
+    autoDiscoverCatoid: false,
   },
 ];
 
