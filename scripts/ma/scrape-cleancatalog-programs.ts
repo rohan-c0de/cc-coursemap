@@ -26,6 +26,18 @@ const COLLEGES: CleanCatalogProgramConfig[] = [
     baseUrl: "https://live-capecod.cleancatalog.io",
     catalogYear: "2025-2026",
   },
+  {
+    // Bristol uses CleanCatalog at its own subdomain (catalog.bristolcc.edu)
+    // rather than the live-{slug}.cleancatalog.io shared host. URL pattern
+    // is also 2-segment (/{division}/{program-slug}) instead of Cape Cod's
+    // 3-segment (/{division}/{credential}/{program-slug}). The shared lib
+    // handles both shapes — see the credentialFromPath / credentialFromProse
+    // fallback there.
+    collegeSlug: "bristol",
+    baseUrl: "https://catalog.bristolcc.edu",
+    catalogYear: "2025-2026",
+    indexPaths: ["/degrees", "/browse-certificates"],
+  },
 ];
 
 async function main() {

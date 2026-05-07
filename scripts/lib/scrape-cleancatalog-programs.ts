@@ -44,8 +44,12 @@ export interface CleanCatalogProgramConfig {
   collegeSlug: string;
   /** Catalog root, e.g. https://live-capecod.cleancatalog.io (no trailing slash). */
   baseUrl: string;
-  /** Program index path. Default "/degrees". */
-  degreesPath?: string;
+  /**
+   * Program index paths. Default ["/degrees"]. Some installs (Bristol) put
+   * degrees at /degrees and certificates at /browse-certificates and need
+   * both walked.
+   */
+  indexPaths?: string[];
   /** Catalog year for output metadata, e.g. "2025-2026". */
   catalogYear: string;
 }
@@ -121,13 +125,40 @@ const CREDENTIAL_SEGMENTS = new Set([
   "diploma",
 ]);
 
-/** A program URL has shape /{division}/{credential-segment}/{program-slug}. */
+// CleanCatalog instances expose two URL shapes for program pages:
+//   • 3-segment: /{division}/{credential-segment}/{program-slug}    (Cape Cod)
+//   • 2-segment: /{division}/{program-slug}                          (Bristol)
+// We accept either: 3-segment iff segment[1] is a known credential
+// keyword (so we don't accept arbitrary nesting), 2-segment iff both
+// segments look like content slugs (lowercase letters/digits/dashes).
+
+const SLUG_RE = /^[a-z0-9][a-z0-9-]*$/;
+
 function isProgramPath(p: string): boolean {
   if (!p.startsWith("/")) return false;
   const parts = p.replace(/^\/+/, "").split("/");
-  if (parts.length < 3) return false;
-  return CREDENTIAL_SEGMENTS.has(parts[1]);
+  if (parts.length === 3) {
+    return (
+      SLUG_RE.test(parts[0]) &&
+      CREDENTIAL_SEGMENTS.has(parts[1]) &&
+      SLUG_RE.test(parts[2])
+    );
+  }
+  if (parts.length === 2) {
+    return SLUG_RE.test(parts[0]) && SLUG_RE.test(parts[1]);
+  }
+  return false;
 }
+
+// Routes Bristol's /degrees index links to that aren't programs.
+const NON_PROGRAM_PATHS = new Set([
+  "/degrees",
+  "/degrees-and-certificates",
+  "/browse-certificates",
+  "/classes",
+  "/about",
+  "/search",
+]);
 
 async function discoverProgramPaths(
   baseUrl: string,
@@ -140,6 +171,7 @@ async function discoverProgramPaths(
     const href = $(a).attr("href");
     if (!href) return;
     const clean = href.split("#")[0].split("?")[0];
+    if (NON_PROGRAM_PATHS.has(clean)) return;
     if (isProgramPath(clean)) found.add(clean);
   });
   return [...found].sort();
@@ -150,7 +182,9 @@ async function discoverProgramPaths(
 // ---------------------------------------------------------------------------
 
 function credentialFromPath(p: string): ProgramCredential {
-  const seg = p.replace(/^\/+/, "").split("/")[1] ?? "";
+  const parts = p.replace(/^\/+/, "").split("/");
+  // Only 3-segment URLs encode credential in the path.
+  const seg = parts.length >= 3 ? parts[1] : "";
   switch (seg) {
     case "associate-in-arts":
       return "AA";
@@ -165,6 +199,17 @@ function credentialFromPath(p: string): ProgramCredential {
     default:
       return "other";
   }
+}
+
+/** Parse credential from a CleanCatalog "degree offered" prose field. */
+function credentialFromProse(text: string): ProgramCredential {
+  const t = text.toLowerCase();
+  if (t.includes("associate in applied science") || t.includes("a.a.s")) return "AAS";
+  if (t.includes("associate in arts") || /\ba\.?a\.?\b/.test(t)) return "AA";
+  if (t.includes("associate in science") || /\ba\.?s\.?\b/.test(t)) return "AS";
+  if (t.includes("certificate")) return "certificate";
+  if (t.includes("diploma")) return "diploma";
+  return "other";
 }
 
 function parseTitle($: cheerio.CheerioAPI): string {
@@ -187,7 +232,12 @@ function parseCredits(text: string): number | null {
   return null;
 }
 
-/** Split a CleanCatalog course code like "ENL101" into prefix + number. */
+/**
+ * Split a CleanCatalog course code into prefix + number. Different
+ * instances render the code differently — Cape Cod glues it together
+ * ("ENL101"), Bristol spaces it ("CIS 111"). Strip whitespace first so
+ * both shapes parse.
+ */
 function splitCourseCode(
   code: string,
 ): { prefix: string; number: string } | null {
@@ -200,22 +250,35 @@ function parseSection(
   $: cheerio.CheerioAPI,
   $section: cheerio.Cheerio<AnyNode>,
 ): RequirementGroup | null {
+  // Section name comes from the section title (Bristol: "Program Courses",
+  // "Concentration Courses") if present, otherwise the per-section
+  // description (Cape Cod: "First Semester", "Second Semester").
+  const titleText = $section
+    .find(".field--name-field-degree-section-title")
+    .first()
+    .text()
+    .replace(/\s+/g, " ")
+    .trim();
   const descText = $section
     .find(".field--name-field-degree-section-description")
     .first()
     .text()
     .replace(/\s+/g, " ")
     .trim();
-  const name = descText || "Required Courses";
+  const name = titleText || descText || "Required Courses";
 
   const courses: RequiredCourse[] = [];
 
   // Only count course rows that belong to *this* section, not ones nested
   // inside an elective-group modal that's a descendant of this section.
+  // Course code lives in .col-2 a (Cape Cod's compact layout) or .col-3 a
+  // (Bristol's wider layout) — try both.
   $section.find("article.node--type-class").each((_, el) => {
     const $el = $(el);
     if ($el.parents(".modal").length > 0) return;
-    const codeRaw = $el.find(".col-2 a").first().text().trim();
+    const codeRaw =
+      $el.find(".col-2 a").first().text().trim() ||
+      $el.find(".col-3 a").first().text().trim();
     if (!codeRaw) return;
     const split = splitCourseCode(codeRaw);
     if (!split) return;
@@ -265,15 +328,29 @@ function parseProgramPage(
   const title = parseTitle($);
   if (!title) return null;
 
-  const credential = credentialFromPath(new URL(pageUrl).pathname);
+  // 3-segment URLs (Cape Cod) carry credential in the path; 2-segment URLs
+  // (Bristol) don't, so fall back to the .field--name-field-degree-offered
+  // prose ("Associate in Science in Business Administration Career …").
+  let credential = credentialFromPath(new URL(pageUrl).pathname);
+  if (credential === "other") {
+    const offered = $(".field--name-field-degree-offered")
+      .first()
+      .text()
+      .replace(/\s+/g, " ")
+      .trim();
+    if (offered) credential = credentialFromProse(offered);
+  }
 
   // Iterate only top-level sections — skip ones nested inside elective-group
-  // modals, where the same selector would otherwise pick up "choose one"
-  // option lists and corrupt the per-semester course / credit counts.
+  // modals (option lists for "choose one") or .field--name-field-course-sequencing
+  // wrappers (Bristol's "Recommended Course Sequence" duplicates the real
+  // Program/Elective/Concentration sections by semester — counting both
+  // would double everything).
   const groups: RequirementGroup[] = [];
   $(".paragraph--type--degree-section").each((_, el) => {
     const $el = $(el);
     if ($el.parents(".modal").length > 0) return;
+    if ($el.parents(".field--name-field-course-sequencing").length > 0) return;
     const group = parseSection($, $el);
     if (group) groups.push(group);
   });
@@ -320,19 +397,27 @@ export async function scrapeCleanCatalogPrograms(
   config: CleanCatalogProgramConfig,
 ): Promise<CollegePrograms> {
   const { collegeSlug, baseUrl, catalogYear } = config;
-  const degreesPath = config.degreesPath ?? "/degrees";
+  const indexPaths = config.indexPaths ?? ["/degrees"];
 
+  const allPaths = new Set<string>();
+  for (const indexPath of indexPaths) {
+    console.log(
+      `  [${collegeSlug}] Discovering programs at ${baseUrl}${indexPath}`,
+    );
+    const paths = await discoverProgramPaths(baseUrl, indexPath);
+    console.log(`  [${collegeSlug}]   Found ${paths.length} candidates`);
+    for (const p of paths) allPaths.add(p);
+  }
+  const paths = [...allPaths].sort();
   console.log(
-    `  [${collegeSlug}] Discovering programs at ${baseUrl}${degreesPath}`,
+    `  [${collegeSlug}] Total ${paths.length} unique program detail pages`,
   );
-  const paths = await discoverProgramPaths(baseUrl, degreesPath);
-  console.log(`  [${collegeSlug}] Found ${paths.length} program detail pages`);
 
   if (paths.length === 0) {
     return {
       college_slug: collegeSlug,
       catalog_year: catalogYear,
-      catalog_url: `${baseUrl}${degreesPath}`,
+      catalog_url: `${baseUrl}${indexPaths[0]}`,
       scraped_at: new Date().toISOString(),
       programs: [],
     };
@@ -363,7 +448,7 @@ export async function scrapeCleanCatalogPrograms(
   return {
     college_slug: collegeSlug,
     catalog_year: catalogYear,
-    catalog_url: `${baseUrl}${degreesPath}`,
+    catalog_url: `${baseUrl}${indexPaths[0]}`,
     scraped_at: new Date().toISOString(),
     programs,
   };
