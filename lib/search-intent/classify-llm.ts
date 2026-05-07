@@ -146,6 +146,8 @@ function toSecondarySearchIntent(
         type: "pathway",
         university: secondary.university ?? null,
         major: null,
+        college: null,
+        credential: null,
       };
     case "prereqs":
       return { type: "prereqs", course: courseRef, direction: "forward" };
@@ -190,6 +192,8 @@ function toSearchIntent(rawQuery: string, input: ClassifierToolInput): SearchInt
         type: "pathway",
         university: input.university ?? null,
         major: input.major ?? null,
+        college: input.college ?? null,
+        credential: input.credential ?? null,
       };
     case "prereqs":
       return {

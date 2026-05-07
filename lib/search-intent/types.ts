@@ -59,6 +59,8 @@ export interface PathwayIntent {
   type: "pathway";
   university: string | null;
   major: string | null;
+  college: string | null;
+  credential: string | null;
 }
 
 export interface UnknownIntent {

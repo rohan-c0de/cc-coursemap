@@ -4,27 +4,52 @@ vi.mock("../validate", () => ({
   resolveUniversity: vi.fn(),
 }));
 
+vi.mock("../../../institutions", () => ({
+  loadInstitutions: vi.fn(() => []),
+}));
+
+vi.mock("../../../programs/requirements", () => ({
+  loadCollegePrograms: vi.fn(async () => []),
+  loadProgramAcrossColleges: vi.fn(async () => []),
+}));
+
+vi.mock("../../../programs/matcher", () => ({
+  matchProgramSlug: vi.fn(() => null),
+}));
+
 import { lookupPathway } from "../pathway";
 import { resolveUniversity } from "../validate";
+import { loadProgramAcrossColleges } from "../../../programs/requirements";
 
 const resolveMock = vi.mocked(resolveUniversity);
+const loadProgramsMock = vi.mocked(loadProgramAcrossColleges);
 
 describe("lookupPathway", () => {
-  it("returns missing-entity when no university specified", async () => {
+  it("looks up degree by major when no university or college specified", async () => {
+    loadProgramsMock.mockResolvedValue([]);
     const result = await lookupPathway(
-      { type: "pathway", university: null, major: "nursing" },
+      { type: "pathway", university: null, major: "nursing", college: null, credential: null },
+      "va",
+    );
+    expect(result.type).toBe("pathway");
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("no-data");
+  });
+
+  it("returns missing-entity when nothing specified", async () => {
+    const result = await lookupPathway(
+      { type: "pathway", university: null, major: null, college: null, credential: null },
       "va",
     );
     expect(result.type).toBe("pathway");
     if (result.type !== "pathway") return;
     expect(result.status).toBe("missing-entity");
-    expect(result.followups).toBeDefined();
   });
 
   it("returns unknown-university when resolution fails", async () => {
     resolveMock.mockResolvedValue({ resolved: null, suggestions: [] });
     const result = await lookupPathway(
-      { type: "pathway", university: "fake-u", major: null },
+      { type: "pathway", university: "fake-u", major: null, college: null, credential: null },
       "va",
     );
     expect(result.type).toBe("pathway");
@@ -38,7 +63,7 @@ describe("lookupPathway", () => {
       suggestions: [],
     });
     const result = await lookupPathway(
-      { type: "pathway", university: "gmu", major: "computer-science" },
+      { type: "pathway", university: "gmu", major: "computer-science", college: null, credential: null },
       "va",
     );
     expect(result.type).toBe("pathway");
@@ -56,7 +81,7 @@ describe("lookupPathway", () => {
       suggestions: [],
     });
     const result = await lookupPathway(
-      { type: "pathway", university: "vcu", major: "nursing" },
+      { type: "pathway", university: "vcu", major: "nursing", college: null, credential: null },
       "va",
     );
     if (result.type !== "pathway") return;

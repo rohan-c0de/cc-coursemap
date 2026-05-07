@@ -5,6 +5,7 @@
 //   transfer     → TransferBody (status-driven: yes / partial / no / etc.)
 //   prereqs      → PrereqsBody  (status-driven: found / no-prereqs / etc.)
 //   eligibility  → EligibilityBody (per-college breakdown + state summary)
+//   pathway      → PathwayBody  (found-degree / no-data / missing-entity)
 //   none         → null (no card; UI just renders course search results)
 //
 // Every typed answer carries a SourceCitation; footer renders that as a
@@ -79,6 +80,7 @@ export default function AnswerCard({ answer, state, classification, onFollowupCl
         {answer.type === "transfer" && <TransferBody answer={answer} />}
         {answer.type === "prereqs" && <PrereqsBody answer={answer} state={state} />}
         {answer.type === "eligibility" && <EligibilityBody answer={answer} />}
+        {answer.type === "pathway" && <PathwayBody answer={answer} state={state} />}
         {classification?.clarifyingQuestion && (
           <ClarifyingPrompt
             question={classification.clarifyingQuestion}
@@ -462,6 +464,138 @@ function EligibilityBody({
         </p>
       )}
     </>
+  );
+}
+
+// ─── Pathway (degree requirements) ──────────────────────────────────────
+
+function PathwayBody({
+  answer,
+  state,
+}: {
+  answer: Extract<Answer, { type: "pathway" }>;
+  state: string;
+}) {
+  if (answer.status === "found-degree" && answer.degreeRequirements?.length) {
+    return (
+      <>
+        <Headline tone="success" icon="📋">
+          {answer.degreeRequirements.length === 1
+            ? `Found degree requirements${answer.college ? ` at ${answer.college.name}` : ""}`
+            : `Found ${answer.degreeRequirements.length} matching programs${answer.college ? ` at ${answer.college.name}` : ""}`}
+        </Headline>
+        <div className="space-y-3">
+          {answer.degreeRequirements.map((req, i) => (
+            <div
+              key={i}
+              className="border border-slate-200 dark:border-slate-700 rounded-md px-3 py-2"
+            >
+              <div className="flex items-baseline justify-between gap-2">
+                <span className="text-sm font-medium text-slate-900 dark:text-slate-100">
+                  {req.title}
+                </span>
+                <span className="text-xs text-slate-500 dark:text-slate-400 whitespace-nowrap">
+                  {req.credential.toUpperCase()}
+                </span>
+              </div>
+              <div className="flex items-center gap-3 mt-1 text-xs text-slate-500 dark:text-slate-400">
+                {req.total_credits != null && (
+                  <span>{req.total_credits} credits</span>
+                )}
+                {req.gpa_minimum != null && (
+                  <span>{req.gpa_minimum} GPA min</span>
+                )}
+                {req.groups.length > 0 && (
+                  <span>
+                    {req.groups.length}{" "}
+                    {req.groups.length === 1
+                      ? "requirement group"
+                      : "requirement groups"}
+                  </span>
+                )}
+              </div>
+              {req.groups.length > 0 && (
+                <ul className="mt-1.5 space-y-0.5">
+                  {req.groups.slice(0, 6).map((g, gi) => (
+                    <li
+                      key={gi}
+                      className="text-xs text-slate-600 dark:text-slate-300 flex items-baseline gap-1.5"
+                    >
+                      <span className="text-slate-400 dark:text-slate-500">
+                        •
+                      </span>
+                      {g.name}
+                      {g.credits_required != null && (
+                        <span className="text-slate-400 dark:text-slate-500">
+                          ({g.credits_required} cr)
+                        </span>
+                      )}
+                      {g.course_count > 0 && (
+                        <span className="text-slate-400 dark:text-slate-500">
+                          · {g.course_count}{" "}
+                          {g.course_count === 1 ? "course" : "courses"}
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                  {req.groups.length > 6 && (
+                    <li className="text-xs text-slate-400 dark:text-slate-500 italic">
+                      + {req.groups.length - 6} more groups
+                    </li>
+                  )}
+                </ul>
+              )}
+              {req.catalog_url && (
+                <a
+                  href={req.catalog_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-teal-600 dark:text-teal-400 hover:underline mt-1 inline-block"
+                >
+                  View in catalog →
+                </a>
+              )}
+            </div>
+          ))}
+        </div>
+        {answer.college && (
+          <Note>
+            <a
+              href={`/${state}/college/${answer.college.slug}/programs`}
+              className="text-teal-600 dark:text-teal-400 hover:underline"
+            >
+              Browse all programs at {answer.college.name} →
+            </a>
+          </Note>
+        )}
+      </>
+    );
+  }
+
+  if (answer.status === "no-data") {
+    const entity = answer.college?.name ?? answer.university?.name ?? "this college";
+    return (
+      <Headline tone="info" icon="📋">
+        Degree requirement data isn&apos;t available yet for {entity}. Check
+        back soon — we&apos;re adding more colleges regularly.
+      </Headline>
+    );
+  }
+
+  if (answer.status === "unknown-university") {
+    return (
+      <Headline tone="info" icon="🔍">
+        We couldn&apos;t find that university in our data. Try a different
+        spelling or check the transfer equivalency tool.
+      </Headline>
+    );
+  }
+
+  return (
+    <Headline tone="info" icon="📋">
+      Tell us which college or university you&apos;re interested in so we can
+      look up requirements.
+    </Headline>
   );
 }
 
