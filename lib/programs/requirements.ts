@@ -10,6 +10,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { supabase } from "@/lib/supabase";
 import { loadInstitutions } from "@/lib/institutions";
+import { titleMatchesMajor } from "@/lib/programs/semantic-match";
 import type {
   ProgramRequirement,
   RequirementGroup,
@@ -194,8 +195,10 @@ function loadProgramsBySlugFromFiles(
 /**
  * Find programs whose title loosely relates to a major term — used as a
  * fallback when no program in the state has matched_program_slug exactly
- * equal to the requested major. Substring match on title (case-insensitive),
- * grouped by college. Returns up to `limit` programs total across colleges.
+ * equal to the requested major. Stem-aware match (see semantic-match.ts):
+ * "geography" matches "Geographic Information Systems", "biology" matches
+ * "Biological Sciences", etc., across the common -y/-ic/-ical/-tion/-ing
+ * morphology variations. Grouped by college; up to `limit` programs total.
  */
 export async function findRelatedPrograms(
   state: string,
@@ -205,7 +208,7 @@ export async function findRelatedPrograms(
   const dir = path.join(process.cwd(), "data", state, "programs");
   if (!fs.existsSync(dir)) return [];
 
-  const needle = majorTerm.toLowerCase().replace(/-/g, " ").trim();
+  const needle = majorTerm.replace(/-/g, " ").trim();
   if (!needle) return [];
 
   const institutions = loadInstitutions(state);
@@ -217,8 +220,7 @@ export async function findRelatedPrograms(
       const data = JSON.parse(raw);
       const collegeSlug = file.replace(".json", "");
       for (const p of data.programs ?? []) {
-        const title = (p.title ?? "").toLowerCase();
-        if (title.includes(needle)) {
+        if (titleMatchesMajor(p.title ?? "", needle)) {
           if (!byCollege.has(collegeSlug)) byCollege.set(collegeSlug, []);
           byCollege.get(collegeSlug)!.push({
             ...p,
