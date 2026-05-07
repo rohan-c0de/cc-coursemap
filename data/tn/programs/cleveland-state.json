@@ -13,7 +13,7 @@
       "gpa_minimum": null,
       "description": "Cleveland State Community College is a Tennessee Board of Regents institution",
       "requirement_groups": [],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "History Emphasis: University Parallel, A.A.",
@@ -24,7 +24,7 @@
       "gpa_minimum": null,
       "description": "Cleveland State Community College is a Tennessee Board of Regents institution",
       "requirement_groups": [],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "Psychology Emphasis: University Parallel, A.A.",
@@ -68,7 +68,7 @@
       "gpa_minimum": null,
       "description": "Cleveland State Community College is a Tennessee Board of Regents institution",
       "requirement_groups": [],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "Accounting Emphasis: University Parallel, A.S.",
@@ -277,7 +277,7 @@
       "gpa_minimum": null,
       "description": "Cleveland State Community College is a Tennessee Board of Regents institution",
       "requirement_groups": [],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Information Systems Emphasis: University Parallel, A.S.",
@@ -332,7 +332,7 @@
       "gpa_minimum": null,
       "description": "Cleveland State Community College is a Tennessee Board of Regents institution",
       "requirement_groups": [],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "Mass Communication Emphasis: University Parallel, A.S.",
@@ -365,7 +365,7 @@
       "gpa_minimum": null,
       "description": "Cleveland State Community College is a Tennessee Board of Regents institution",
       "requirement_groups": [],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Mechanical Engineering Emphasis: University Parallel, A.S.",

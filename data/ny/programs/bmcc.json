@@ -598,7 +598,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Art Foundations Studio Art",
@@ -866,7 +866,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Animation and Motion Graphics",
@@ -6084,7 +6084,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "Health Information Technology",
@@ -8216,7 +8216,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Modern Languages",
@@ -12255,7 +12255,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Secondary Education for Social Studies",

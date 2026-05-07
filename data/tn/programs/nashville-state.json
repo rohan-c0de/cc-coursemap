@@ -1227,7 +1227,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Criminal Justice A.A.",
@@ -2765,7 +2765,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "Electrical Engineering A.S.",
@@ -3498,7 +3498,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "History A.S.",
@@ -3662,7 +3662,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "Exercise Science A.S.",
@@ -4012,7 +4012,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Mechanical Engineering A.S.",
@@ -7786,7 +7786,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "Social Work A.A.",
@@ -8268,7 +8268,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Sociology A.S.",
@@ -18685,7 +18685,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Accounting Clerk Technical Certificate",

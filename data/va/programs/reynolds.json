@@ -2810,7 +2810,7 @@
       "gpa_minimum": null,
       "description": "Powered by Modern Campus Catalog™.",
       "requirement_groups": [],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "Education: Health and Physical Education Major AS",
@@ -2843,7 +2843,7 @@
       "gpa_minimum": null,
       "description": "Powered by Modern Campus Catalog™.",
       "requirement_groups": [],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Education: Secondary Science Education Major AS",
@@ -5307,7 +5307,7 @@
       "gpa_minimum": null,
       "description": "Powered by Modern Campus Catalog™.",
       "requirement_groups": [],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "Social Sciences AS - Pre - Social Work Major",

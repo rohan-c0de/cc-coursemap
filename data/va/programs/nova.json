@@ -3525,7 +3525,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": "liberal-arts"
+      "matched_program_slug": "english"
     },
     {
       "title": "Music A.F.A.",
@@ -4120,7 +4120,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Visual Art, A.F.A.",
@@ -4296,7 +4296,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Interior Design, A.A.S.",
@@ -4743,7 +4743,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "Graphic Design: Interactive Design Specialization, A.A.S.",
@@ -4960,7 +4960,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Photography and Media, A.A.S.",
@@ -12064,7 +12064,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "Early Childhood Development, A.A.S.",
@@ -13300,7 +13300,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "General Studies, A.S.",
@@ -19027,7 +19027,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Engineering, A.S.",

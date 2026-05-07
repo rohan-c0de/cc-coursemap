@@ -1068,7 +1068,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Accounting",
@@ -4080,7 +4080,7 @@
           "courses": []
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "Dance",
@@ -9395,7 +9395,7 @@
           ]
         }
       ],
-      "matched_program_slug": "liberal-arts"
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Medical Assistant",
@@ -10760,7 +10760,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Music",

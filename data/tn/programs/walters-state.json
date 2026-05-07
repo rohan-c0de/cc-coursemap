@@ -402,7 +402,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "Liberal Arts",
@@ -11920,7 +11920,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "Physical Education, Health and Recreation",
@@ -12581,7 +12581,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "Physics",
@@ -19595,7 +19595,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "TTP - A.A. Economics",
@@ -20142,7 +20142,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "english"
     },
     {
       "title": "TTP - A.A. Foreign Language",
@@ -20675,7 +20675,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "TTP - A.A. Mass Communication",
@@ -22829,7 +22829,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "art"
     },
     {
       "title": "TTP - A.F.A. Music",
@@ -27419,7 +27419,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "history"
     },
     {
       "title": "TTP - A.S. Geosciences",
@@ -29629,7 +29629,7 @@
           ]
         }
       ],
-      "matched_program_slug": null
+      "matched_program_slug": "mathematics"
     },
     {
       "title": "TTP - A.S. Nutrition and Food Science",

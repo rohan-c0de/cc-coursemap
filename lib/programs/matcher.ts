@@ -42,6 +42,28 @@ const RULES: MatchRule[] = [
     slug: "criminal-justice",
     keywords: /\bcriminal\s+justice\b|\blaw\s+enforcement\b|\bcorrections\b/i,
   },
+  // History / Math / English / Art are placed BEFORE liberal-arts so that a
+  // title like "Liberal Arts: History Major, A.A." gets the more specific
+  // slug — falls back to liberal-arts only if none of these fire.
+  {
+    slug: "history",
+    keywords: /\bhistory\b/i,
+    antiKeywords: /\bart\s+history\b|\bnatural\s+history\b/i,
+  },
+  {
+    slug: "mathematics",
+    keywords: /\b(?:mathematics|math)\b/i,
+  },
+  {
+    slug: "english",
+    keywords: /\benglish\b|\bcomposition\b/i,
+    antiKeywords: /\benglish\s+as\s+a\s+second\s+language\b|\besl\b/i,
+  },
+  {
+    slug: "art",
+    keywords: /\b(?:art|fine\s+arts|visual\s+arts|studio\s+art|graphic\s+design)\b/i,
+    antiKeywords: /\bculinary\s+arts\b|\bliberal\s+arts\b|\bmartial\s+arts\b|\blanguage\s+arts\b/i,
+  },
   {
     slug: "liberal-arts",
     keywords: /\bliberal\s+arts\b|\bgeneral\s+studies\b|\bliberal\s+studies\b/i,
