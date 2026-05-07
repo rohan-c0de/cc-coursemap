@@ -115,11 +115,24 @@ function discoverProgramPaths(
   const $ = cheerio.load(indexHtml);
   const paths = new Set<string>();
   $(`a[href^="${programIndexPath}"]`).each((_, el) => {
-    const href = $(el).attr("href");
+    const rawHref = $(el).attr("href");
+    if (!rawHref) return;
+    // Drop URL fragments — same page, different anchor.
+    let href = rawHref.split("#")[0];
     if (!href) return;
+    // Skip the index page itself, or sibling assets like the section's PDF.
     if (href === programIndexPath) return;
     if (href === programIndexPath.replace(/\/$/, "")) return;
-    if (!href.endsWith("/")) return;
+    if (href.endsWith(".pdf")) return;
+    if (href.endsWith(".css")) return;
+    // Some CourseLeaf catalogs link to "/section/program/index.html" instead
+    // of "/section/program/" — both render the same page. Normalize to dir.
+    if (href.endsWith("/index.html")) {
+      href = href.slice(0, -"index.html".length);
+    } else if (!href.endsWith("/")) {
+      // Trailing slash is missing (e.g. typo'd link). Add it so dedup works.
+      href += "/";
+    }
     paths.add(href);
   });
   return Array.from(paths).sort();
@@ -328,33 +341,85 @@ function parseProgramPage(
     lastAward = "";
   }
 
-  // Some pages have a curriculum table that's not wrapped in a textcontainer.
-  // Fall back to scanning the page for any un-claimed table.
+  // Fall back when the page doesn't use <strong>Award:</strong> markers
+  // (some CourseLeaf catalogs — e.g. Mount Wachusett — describe the credential
+  // in prose like "earn an Associate of Science Degree in Biology"). Scan the
+  // page for the first credential phrase and use that with the first table.
   if (programs.length === 0) {
     const $tables = $(TABLE_SELECTOR);
-    if ($tables.length > 0) {
-      const $first = $tables.first();
-      const { courses, totalCredits } = parsePlanGrid($, $first);
-      if (courses.length > 0) {
-        programs.push({
-          title: programTitle,
-          credential: "other",
-          program_code: null,
-          catalog_url: catalogUrl,
-          total_credits: totalCredits,
-          gpa_minimum: 2.0,
-          description: null,
-          requirement_groups: [
-            {
-              name: "Recommended Course Sequence",
-              credits_required: totalCredits,
-              choose_n: null,
-              courses,
-            },
-          ],
-          matched_program_slug: null,
-        });
+    if ($tables.length === 0) return programs;
+
+    const pageText = $("main, article, body")
+      .first()
+      .text()
+      .replace(/​/g, "")
+      .replace(/\s+/g, " ");
+    // Find every credential phrase on the page, then pick the most specific.
+    // The page often mentions "Career Studies Certificate" or generic
+    // "Certificate" in nav/footer text BEFORE the program-specific
+    // "Associate of Science Degree in X" prose, so taking the first match
+    // by position misclassifies. Scan all matches and prefer the most-
+    // specific credential.
+    const credPatterns: { re: RegExp; rank: number }[] = [
+      {
+        re: /Associate of (?:Applied Science|Arts|Science)\s+Degree/gi,
+        rank: 4,
+      },
+      { re: /Associate of (?:Applied Science|Arts|Science)/gi, rank: 3 },
+      { re: /Career Studies Certificate/gi, rank: 2 },
+      { re: /Certificate of Completion/gi, rank: 2 },
+      { re: /Diploma/gi, rank: 1 },
+      { re: /Certificate/gi, rank: 0 },
+    ];
+    let proseAward = "";
+    let proseRank = -1;
+    for (const { re, rank } of credPatterns) {
+      const m = pageText.match(re);
+      if (m && rank > proseRank) {
+        proseAward = m[0];
+        proseRank = rank;
       }
+    }
+    let credential = parseCredential(proseAward);
+    let suffix = proseAward ? ` — ${proseAward.replace(/\s*Degree$/i, "")}` : "";
+
+    const $first = $tables.first();
+    const { courses, totalCredits } = parsePlanGrid($, $first);
+
+    // Credit-hour sanity override. Pages that don't have an explicit
+    // "X Certificate" heading but DO mention "Certificate" elsewhere
+    // (breadcrumbs / nav / footnotes) get misclassified as certificate.
+    // Programs with 50+ credits are virtually never certificates at MA/VA
+    // community colleges — bump up to AS when the prose-detected award is
+    // certificate or undetermined.
+    if (
+      totalCredits !== null &&
+      totalCredits >= 50 &&
+      (credential === "certificate" || credential === "other")
+    ) {
+      credential = "AS";
+      suffix = " — Associate of Science";
+    }
+
+    if (courses.length > 0) {
+      programs.push({
+        title: `${programTitle}${suffix}`,
+        credential,
+        program_code: null,
+        catalog_url: catalogUrl,
+        total_credits: totalCredits,
+        gpa_minimum: 2.0,
+        description: null,
+        requirement_groups: [
+          {
+            name: "Recommended Course Sequence",
+            credits_required: totalCredits,
+            choose_n: null,
+            courses,
+          },
+        ],
+        matched_program_slug: null,
+      });
     }
   }
 
