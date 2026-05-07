@@ -61,11 +61,22 @@ async function retryFetch(
   let lastErr: unknown;
   for (let i = 0; i < attempts; i++) {
     try {
+      // Some TBR Acalog catalogs (NSCC, Northeast State, Southwest TN, Volunteer
+      // State, Walters State) sit behind AWS WAF Bot Control, which 202s the
+      // basic UA-only request. Send a full Chrome-like header set so the WAF
+      // accepts the request as a navigation. Harmless on catalogs without WAF.
       const res = await fetch(url, {
         headers: {
           "User-Agent": UA,
           Accept:
-            "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+          "Accept-Language": "en-US,en;q=0.9",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Sec-Fetch-Dest": "document",
+          "Sec-Fetch-Mode": "navigate",
+          "Sec-Fetch-Site": "none",
+          "Sec-Fetch-User": "?1",
+          "Upgrade-Insecure-Requests": "1",
         },
       });
       if (res.ok) return res.text();

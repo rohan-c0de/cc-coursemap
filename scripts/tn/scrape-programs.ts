@@ -3,12 +3,24 @@
  * community colleges from Acalog catalogs.
  *
  * TBR colleges share a common course numbering system. Pellissippi State
- * is used as the authoritative catalog source (same pattern as the prereq
- * scraper). Other TN colleges with Acalog catalogs can be added below.
+ * is the authoritative catalog source for prereqs (see scrape-catalog-prereqs.ts);
+ * for programs, every TBR college with an Acalog catalog is scraped directly
+ * because degree requirements vary by college.
+ *
+ * Coverage as of 2026-05: 11 of 12 active TBR community colleges.
+ *   Excluded: jackson-state — publishes PDF-only catalogs, no Acalog instance.
+ *   Excluded by config: roane-state — Ellucian Experience + SAML auth (see
+ *     lib/states/tn/config.ts).
+ *
+ * Catoids are auto-discovered from the catalog dropdown. Navoids were
+ * identified by scanning each catalog's main nav for links containing
+ * "program / degree / certificate / associate"; the library filters out
+ * navoids that contain no program POIDs at scrape time.
  *
  * Usage:
  *   npx tsx scripts/tn/scrape-programs.ts
  *   npx tsx scripts/tn/scrape-programs.ts --college pstcc
+ *   npx tsx scripts/tn/scrape-programs.ts --limit 5     # smoke test
  */
 
 import * as fs from "fs";
@@ -24,6 +36,77 @@ const COLLEGES: AcalogProgramConfig[] = [
     catoidFallback: 20,
     programNavoids: [1127, 1140, 1132],
     autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "chattanooga-state",
+    baseUrl: "https://catalog.chattanoogastate.edu",
+    catoidFallback: 38,
+    programNavoids: [8328, 8329],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "cleveland-state",
+    baseUrl: "https://catalog.clevelandstatecc.edu",
+    catoidFallback: 24,
+    programNavoids: [1465, 1469],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "columbia-state",
+    baseUrl: "https://catalog.columbiastate.edu",
+    catoidFallback: 21,
+    programNavoids: [2758, 2902, 926],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "dyersburg-state",
+    baseUrl: "https://catalog.dscc.edu",
+    catoidFallback: 48,
+    programNavoids: [2894, 2914, 2934],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "motlow-state",
+    baseUrl: "https://catalog.mscc.edu",
+    catoidFallback: 26,
+    programNavoids: [3256, 3269],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "nashville-state",
+    baseUrl: "https://catalog.nscc.edu",
+    catoidFallback: 24,
+    programNavoids: [1619, 1658, 1659, 1660, 1670],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "northeast-state",
+    baseUrl: "https://catalog.northeaststate.edu",
+    catoidFallback: 44,
+    programNavoids: [17164, 17165, 17167, 17174],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "southwest-tn",
+    baseUrl: "https://catalog.southwest.tn.edu",
+    catoidFallback: 41,
+    programNavoids: [1785, 1791, 1826],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "volunteer-state",
+    baseUrl: "https://catalog.volstate.edu",
+    catoidFallback: 37,
+    programNavoids: [1687, 1693, 1697, 1701, 1706, 1710, 1727, 1732],
+    autoDiscoverCatoid: false,
+  },
+  {
+    collegeSlug: "walters-state",
+    baseUrl: "https://catalog.ws.edu",
+    catoidFallback: 30,
+    programNavoids: [2306],
+    autoDiscoverCatoid: false,
+    useSearchDiscovery: true,
   },
 ];
 
