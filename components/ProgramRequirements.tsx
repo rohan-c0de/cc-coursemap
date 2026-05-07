@@ -5,6 +5,12 @@ import Link from "next/link";
 import type { ProgramRequirement } from "@/lib/types";
 import type { Institution } from "@/lib/types";
 
+/**
+ * Serializable availability data: "PREFIX NUMBER" → section count.
+ * Passed from server components as a plain object (Maps aren't serializable).
+ */
+export type AvailabilityRecord = Record<string, number>;
+
 // ---------------------------------------------------------------------------
 // Per-college expandable card
 // ---------------------------------------------------------------------------
@@ -13,10 +19,12 @@ function ProgramCard({
   program,
   state,
   defaultOpen,
+  availability,
 }: {
   program: ProgramRequirement;
   state: string;
   defaultOpen?: boolean;
+  availability?: AvailabilityRecord;
 }) {
   const [open, setOpen] = useState(defaultOpen ?? false);
 
@@ -103,6 +111,7 @@ function ProgramCard({
                 key={gi}
                 group={group}
                 state={state}
+                availability={availability}
               />
             ))
           )}
@@ -130,12 +139,34 @@ function ProgramCard({
 // Requirement group (e.g. "Core Requirements", "General Education")
 // ---------------------------------------------------------------------------
 
+function AvailabilityBadge({ code, availability }: { code: string; availability?: AvailabilityRecord }) {
+  if (!availability) return null;
+  const count = availability[code];
+  if (count != null && count > 0) {
+    return (
+      <span className="inline-flex items-center rounded-full bg-emerald-50 dark:bg-emerald-900/30 px-1.5 py-0.5 text-[10px] font-medium text-emerald-700 dark:text-emerald-400 whitespace-nowrap">
+        {count} {count === 1 ? "section" : "sections"}
+      </span>
+    );
+  }
+  if (count === 0 || (availability && count == null)) {
+    return (
+      <span className="inline-flex items-center rounded-full bg-amber-50 dark:bg-amber-900/30 px-1.5 py-0.5 text-[10px] font-medium text-amber-700 dark:text-amber-400 whitespace-nowrap">
+        not offered
+      </span>
+    );
+  }
+  return null;
+}
+
 function RequirementGroupBlock({
   group,
   state,
+  availability,
 }: {
   group: ProgramRequirement["requirement_groups"][number];
   state: string;
+  availability?: AvailabilityRecord;
 }) {
   return (
     <div>
@@ -158,7 +189,7 @@ function RequirementGroupBlock({
       {group.courses.length > 0 ? (
         <ul className="space-y-0.5">
           {group.courses.map((course, ci) => (
-            <li key={ci} className="flex items-baseline gap-1.5 text-sm">
+            <li key={ci} className="flex items-baseline gap-1.5 text-sm flex-wrap">
               <Link
                 href={`/${state}/course/${course.prefix.toLowerCase()}-${course.number.toLowerCase()}`}
                 className="font-mono text-xs font-medium text-teal-600 dark:text-teal-400 hover:underline whitespace-nowrap"
@@ -173,6 +204,7 @@ function RequirementGroupBlock({
                   ({course.credits} cr)
                 </span>
               )}
+              <AvailabilityBadge code={`${course.prefix} ${course.number}`} availability={availability} />
               {course.or_alternatives.length > 0 && (
                 <span className="text-xs text-gray-500 dark:text-slate-400">
                   or{" "}
@@ -208,9 +240,11 @@ function RequirementGroupBlock({
 export default function ProgramRequirements({
   state,
   entries,
+  availabilityByCollege,
 }: {
   state: string;
   entries: Array<{ college: Institution; programs: ProgramRequirement[] }>;
+  availabilityByCollege?: Record<string, AvailabilityRecord>;
 }) {
   if (entries.length === 0) return null;
 
@@ -246,6 +280,7 @@ export default function ProgramRequirements({
                   program={prog}
                   state={state}
                   defaultOpen={programs.length === 1}
+                  availability={availabilityByCollege?.[college.college_slug]}
                 />
               ))}
             </div>
@@ -263,9 +298,11 @@ export default function ProgramRequirements({
 export function ProgramList({
   state,
   programs,
+  availability,
 }: {
   state: string;
   programs: ProgramRequirement[];
+  availability?: AvailabilityRecord;
 }) {
   const byCredential = new Map<string, ProgramRequirement[]>();
   for (const p of programs) {
@@ -302,7 +339,7 @@ export function ProgramList({
             {progs
               .sort((a, b) => a.title.localeCompare(b.title))
               .map((prog, pi) => (
-                <ProgramCard key={pi} program={prog} state={state} />
+                <ProgramCard key={pi} program={prog} state={state} availability={availability} />
               ))}
           </div>
         </section>

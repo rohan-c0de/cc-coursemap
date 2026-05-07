@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 import { loadInstitutions } from "@/lib/institutions";
 import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getAllStates } from "@/lib/states/registry";
-import { loadCollegePrograms } from "@/lib/programs/requirements";
+import { loadCollegePrograms, checkCourseAvailability } from "@/lib/programs/requirements";
+import { getCurrentTerm } from "@/lib/terms";
 import { ProgramList } from "@/components/ProgramRequirements";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
@@ -48,10 +49,15 @@ export default async function CollegeProgramsPage(props: PageProps) {
   const institution = institutions.find((i) => i.id === id);
   if (!institution) notFound();
 
-  const programs = await loadCollegePrograms(
-    state,
-    institution.college_slug,
-  );
+  const [programs, term] = await Promise.all([
+    loadCollegePrograms(state, institution.college_slug),
+    getCurrentTerm(state),
+  ]);
+
+  const availabilityMap = programs.length > 0
+    ? await checkCourseAvailability(state, institution.college_slug, term, programs)
+    : new Map<string, number>();
+  const availability = Object.fromEntries(availabilityMap);
 
   const url = siteUrl();
 
@@ -104,7 +110,7 @@ export default async function CollegeProgramsPage(props: PageProps) {
       </header>
 
       {programs.length > 0 && (
-        <ProgramList state={state} programs={programs} />
+        <ProgramList state={state} programs={programs} availability={availability} />
       )}
 
       <div className="mt-10 pt-6 border-t border-gray-200 dark:border-slate-700">

@@ -21,7 +21,7 @@ import {
   getProgramBySlug,
   PROGRAMS,
 } from "@/lib/programs";
-import { loadProgramAcrossColleges } from "@/lib/programs/requirements";
+import { loadProgramAcrossColleges, checkCourseAvailability } from "@/lib/programs/requirements";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProgramRequirements from "@/components/ProgramRequirements";
 
@@ -97,6 +97,20 @@ export default async function ProgramPage(props: PageProps) {
     getCurrentTerm(state),
     loadProgramAcrossColleges(state, slug),
   ]);
+
+  const availabilityByCollege: Record<string, Record<string, number>> = {};
+  if (requirementEntries.length > 0) {
+    const results = await Promise.all(
+      requirementEntries.map(async ({ college, programs }) => {
+        const avMap = await checkCourseAvailability(state, college.college_slug, term, programs);
+        return [college.college_slug, Object.fromEntries(avMap)] as const;
+      }),
+    );
+    for (const [slug, av] of results) {
+      availabilityByCollege[slug] = av;
+    }
+  }
+
   const url = siteUrl();
 
   const itemListLd = {
@@ -210,6 +224,7 @@ export default async function ProgramPage(props: PageProps) {
         <ProgramRequirements
           state={state}
           entries={requirementEntries}
+          availabilityByCollege={availabilityByCollege}
         />
 
         {data.sampleCourses.length > 0 && (
