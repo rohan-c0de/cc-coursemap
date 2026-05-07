@@ -476,13 +476,28 @@ function PathwayBody({
   answer: Extract<Answer, { type: "pathway" }>;
   state: string;
 }) {
-  if (answer.status === "found-degree" && answer.degreeRequirements?.length) {
+  if (
+    (answer.status === "found-degree" || answer.status === "found-related") &&
+    answer.degreeRequirements?.length
+  ) {
+    const isRelated = answer.status === "found-related";
+    const majorLabel = answer.major?.replace(/-/g, " ") ?? null;
     return (
       <>
-        <Headline tone="success" icon="📋">
-          {answer.degreeRequirements.length === 1
-            ? `Found degree requirements${answer.college ? ` at ${answer.college.name}` : ""}`
-            : `Found ${answer.degreeRequirements.length} matching programs${answer.college ? ` at ${answer.college.name}` : ""}`}
+        <Headline tone={isRelated ? "info" : "success"} icon="📋">
+          {isRelated
+            ? `No standalone ${majorLabel ?? "matching"} degree found${
+                answer.college ? ` at ${answer.college.name}` : ""
+              } — here ${
+                answer.degreeRequirements.length === 1 ? "is" : "are"
+              } ${answer.degreeRequirements.length} related program${
+                answer.degreeRequirements.length === 1 ? "" : "s"
+              } that include${
+                answer.degreeRequirements.length === 1 ? "s" : ""
+              } ${majorLabel ?? "this"} coursework:`
+            : answer.degreeRequirements.length === 1
+              ? `Found degree requirements${answer.college ? ` at ${answer.college.name}` : ""}`
+              : `Found ${answer.degreeRequirements.length} matching programs${answer.college ? ` at ${answer.college.name}` : ""}`}
         </Headline>
         <div className="space-y-3">
           {answer.degreeRequirements.map((req, i) => (

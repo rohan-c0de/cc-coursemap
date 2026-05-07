@@ -191,6 +191,73 @@ function loadProgramsBySlugFromFiles(
   return rows;
 }
 
+/**
+ * Find programs whose title loosely relates to a major term — used as a
+ * fallback when no program in the state has matched_program_slug exactly
+ * equal to the requested major. Substring match on title (case-insensitive),
+ * grouped by college. Returns up to `limit` programs total across colleges.
+ */
+export async function findRelatedPrograms(
+  state: string,
+  majorTerm: string,
+  limit = 8,
+): Promise<Array<{ college: Institution; programs: ProgramRequirement[] }>> {
+  const dir = path.join(process.cwd(), "data", state, "programs");
+  if (!fs.existsSync(dir)) return [];
+
+  const needle = majorTerm.toLowerCase().replace(/-/g, " ").trim();
+  if (!needle) return [];
+
+  const institutions = loadInstitutions(state);
+  const byCollege = new Map<string, ProgramRow[]>();
+
+  for (const file of fs.readdirSync(dir).filter((f) => f.endsWith(".json"))) {
+    try {
+      const raw = fs.readFileSync(path.join(dir, file), "utf-8");
+      const data = JSON.parse(raw);
+      const collegeSlug = file.replace(".json", "");
+      for (const p of data.programs ?? []) {
+        const title = (p.title ?? "").toLowerCase();
+        if (title.includes(needle)) {
+          if (!byCollege.has(collegeSlug)) byCollege.set(collegeSlug, []);
+          byCollege.get(collegeSlug)!.push({
+            ...p,
+            college_slug: collegeSlug,
+            catalog_year: data.catalog_year ?? "",
+          });
+        }
+      }
+    } catch {
+      continue;
+    }
+  }
+
+  const results: Array<{ college: Institution; programs: ProgramRequirement[] }> = [];
+  let total = 0;
+  for (const [slug, rows] of byCollege) {
+    const inst = institutions.find(
+      (i) => i.college_slug === slug || i.id === slug,
+    );
+    if (!inst) continue;
+    const remaining = Math.max(0, limit - total);
+    if (remaining === 0) break;
+    const trimmed = rows.slice(0, remaining);
+    results.push({ college: inst, programs: trimmed.map(rowToProgram) });
+    total += trimmed.length;
+  }
+  return results.sort((a, b) => a.college.name.localeCompare(b.college.name));
+}
+
+/**
+ * Whether a state has *any* program data on disk — used to distinguish
+ * "no programs at all in this state" from "no programs match this major".
+ */
+export function stateHasProgramData(state: string): boolean {
+  const dir = path.join(process.cwd(), "data", state, "programs");
+  if (!fs.existsSync(dir)) return false;
+  return fs.readdirSync(dir).some((f) => f.endsWith(".json"));
+}
+
 // ---------------------------------------------------------------------------
 // Course availability — cross-reference requirements with live sections
 // ---------------------------------------------------------------------------
