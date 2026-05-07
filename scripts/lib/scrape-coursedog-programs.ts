@@ -521,7 +521,7 @@ export async function scrapeCoursedogPrograms(
         if (degreeReqGroup && degreeReqGroup.credits_required !== null) {
           totalCredits = degreeReqGroup.credits_required;
         } else {
-          // Fallback: any group that names itself as a credit total
+          // Fallback 1: any group that names itself as a credit total
           // ("Total Credits", "Major Requirements - Total Credits", etc.).
           // Bronx CC encodes the program-wide credit floor this way.
           const anchor = requirementGroups.find(
@@ -530,6 +530,21 @@ export async function scrapeCoursedogPrograms(
               /(total credits|minimum credits|credits required)/i.test(g.name),
           );
           if (anchor) totalCredits = anchor.credits_required;
+          // Fallback 2: GCC (Greenfield) embeds credits directly in group
+          // names ("General Education Requirements: 32-33 Credits"). Sum
+          // those tags across groups.
+          if (totalCredits === null) {
+            let sum = 0;
+            let any = false;
+            for (const g of requirementGroups) {
+              const m = g.name.match(/:\s*(\d+)(?:\s*[-–]\s*\d+)?\s*credits?\b/i);
+              if (m) {
+                sum += Number(m[1]);
+                any = true;
+              }
+            }
+            if (any) totalCredits = sum;
+          }
         }
 
         const credential = classifyCredential(detail.degreeDesignation, detail.type);

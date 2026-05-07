@@ -114,6 +114,10 @@ const maConfig: StateConfig = {
         scripts: ["scripts/ma/scrape-massasoit-programs.ts"],
         runner: "http",
       },
+      {
+        scripts: ["scripts/ma/scrape-coursedog-programs.ts"],
+        runner: "playwright",
+      },
     ],
   },
 };
