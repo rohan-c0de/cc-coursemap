@@ -101,7 +101,7 @@ const nyConfig: StateConfig = {
     courses: [{ scripts: ["scripts/ny/scrape-cuny.ts"], runner: "http" }],
     transfers: [{ scripts: ["scripts/ny/scrape-transfer-trex.ts"], runner: "http" }],
     prereqs: [{ scripts: ["scripts/ny/scrape-catalog-prereqs.ts"], runner: "playwright" }],
-    // manual-only: programs — Acalog program scraper not yet wired up for this state.
+    programs: [{ scripts: ["scripts/ny/scrape-programs.ts"], runner: "playwright" }],
   },
 };
 
