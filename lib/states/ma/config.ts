@@ -110,6 +110,10 @@ const maConfig: StateConfig = {
         scripts: ["scripts/ma/scrape-rcc-programs.ts"],
         runner: "http",
       },
+      {
+        scripts: ["scripts/ma/scrape-massasoit-programs.ts"],
+        runner: "http",
+      },
     ],
   },
 };
