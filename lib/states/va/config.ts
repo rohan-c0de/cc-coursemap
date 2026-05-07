@@ -81,7 +81,13 @@ const vaConfig: StateConfig = {
       },
     ],
     prereqs: { source: "aggregate-from-courses" },
-    programs: [{ scripts: ["scripts/va/scrape-programs.ts"], runner: "http" }],
+    programs: [
+      { scripts: ["scripts/va/scrape-programs.ts"], runner: "http" },
+      {
+        scripts: ["scripts/va/scrape-courseleaf-programs.ts"],
+        runner: "http",
+      },
+    ],
   },
 };
 
