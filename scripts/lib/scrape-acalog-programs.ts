@@ -61,10 +61,16 @@ async function retryFetch(
   let lastErr: unknown;
   for (let i = 0; i < attempts; i++) {
     try {
-      // Some TBR Acalog catalogs (NSCC, Northeast State, Southwest TN, Volunteer
-      // State, Walters State) sit behind AWS WAF Bot Control, which 202s the
-      // basic UA-only request. Send a full Chrome-like header set so the WAF
-      // accepts the request as a navigation. Harmless on catalogs without WAF.
+      // Some Acalog catalogs sit behind AWS WAF Bot Control:
+      //   - TBR colleges (NSCC, Northeast, Southwest TN, Volunteer, Walters)
+      //     just need the full Chrome-like header set.
+      //   - 5 VCCS colleges (RCC, TCC, VPCC, VWCC, WCC) also require
+      //     Sec-Fetch-Site: same-origin + a Referer to look like an in-site
+      //     navigation. Without it, the WAF returns a 1991-byte JS challenge
+      //     page (200 OK with empty preview_program links).
+      // Both are harmless on catalogs without WAF.
+      const u = new URL(url);
+      const referer = `${u.protocol}//${u.host}/`;
       const res = await fetch(url, {
         headers: {
           "User-Agent": UA,
@@ -72,9 +78,10 @@ async function retryFetch(
             "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
           "Accept-Language": "en-US,en;q=0.9",
           "Accept-Encoding": "gzip, deflate, br",
+          Referer: referer,
           "Sec-Fetch-Dest": "document",
           "Sec-Fetch-Mode": "navigate",
-          "Sec-Fetch-Site": "none",
+          "Sec-Fetch-Site": "same-origin",
           "Sec-Fetch-User": "?1",
           "Upgrade-Insecure-Requests": "1",
         },
