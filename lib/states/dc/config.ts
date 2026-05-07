@@ -74,6 +74,7 @@ const dcConfig: StateConfig = {
     courses: [{ scripts: ["scripts/dc/scrape-banner.ts"], runner: "http" }],
     // manual-only: transfers — DC has no in-state CC→4yr articulation pipeline; see `transferSupported` comment above.
     prereqs: { source: "aggregate-from-courses" },
+    // manual-only: programs — Acalog program scraper not yet wired up for this state.
   },
 };
 

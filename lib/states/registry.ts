@@ -56,6 +56,8 @@ export interface ScraperCoverage {
    * scraped independently.
    */
   prereqs?: ScrapeJob[] | { source: "aggregate-from-courses" };
+  /** Degree/program requirement scrapers, writing data/{state}/programs/**. */
+  programs?: ScrapeJob[];
 }
 
 export interface StateConfig {
@@ -200,4 +202,9 @@ export function hasPrereqsCoverage(slug: string): boolean {
   const p = cfg.scrapers.prereqs;
   // Either a list of scrape jobs OR the aggregate-from-courses sentinel.
   return Array.isArray(p) ? p.length > 0 : p.source === "aggregate-from-courses";
+}
+
+export function hasProgramsCoverage(slug: string): boolean {
+  const cfg = configs[slug];
+  return (cfg?.scrapers?.programs ?? []).length > 0;
 }

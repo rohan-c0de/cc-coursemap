@@ -25,13 +25,13 @@
 import { getAllStates } from "../../lib/states/registry";
 import type { ScrapeJob, ScraperCoverage } from "../../lib/states/registry";
 
-type DataType = "courses" | "transfers" | "prereqs";
+type DataType = "courses" | "transfers" | "prereqs" | "programs";
 
 const args = process.argv.slice(2);
 const dtIdx = args.indexOf("--datatype");
 const datatype = (dtIdx >= 0 ? args[dtIdx + 1] : null) as DataType | null;
-if (!datatype || !["courses", "transfers", "prereqs"].includes(datatype)) {
-  console.error("Usage: scraper-matrix.ts --datatype courses|transfers|prereqs [--mode scrape|states]");
+if (!datatype || !["courses", "transfers", "prereqs", "programs"].includes(datatype)) {
+  console.error("Usage: scraper-matrix.ts --datatype courses|transfers|prereqs|programs [--mode scrape|states]");
   process.exit(1);
 }
 const modeIdx = args.indexOf("--mode");
@@ -40,6 +40,7 @@ const mode = (modeIdx >= 0 ? args[modeIdx + 1] : "scrape") as "scrape" | "states
 function jobsFor(scrapers: ScraperCoverage, dt: DataType): ScrapeJob[] {
   if (dt === "courses") return scrapers.courses ?? [];
   if (dt === "transfers") return scrapers.transfers ?? [];
+  if (dt === "programs") return scrapers.programs ?? [];
   const p = scrapers.prereqs;
   // `aggregate-from-courses` states have no separate scrape job — the
   // courses scrape already captured `prerequisite_text` per section and a

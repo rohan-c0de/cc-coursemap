@@ -62,6 +62,7 @@ const ctConfig: StateConfig = {
     courses: [{ scripts: ["scripts/ct/scrape-banner.ts"], runner: "http" }],
     transfers: [{ scripts: ["scripts/ct/scrape-transfer-all.ts"], runner: "http" }],
     prereqs: [{ scripts: ["scripts/ct/scrape-catalog-prereqs.ts"], runner: "http" }],
+    programs: [{ scripts: ["scripts/ct/scrape-programs.ts"], runner: "http" }],
   },
 };
 
