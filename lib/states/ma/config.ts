@@ -94,6 +94,10 @@ const maConfig: StateConfig = {
         scripts: ["scripts/ma/scrape-courseleaf-programs.ts"],
         runner: "http",
       },
+      {
+        scripts: ["scripts/ma/scrape-smartcatalogiq-programs.ts"],
+        runner: "http",
+      },
     ],
   },
 };
