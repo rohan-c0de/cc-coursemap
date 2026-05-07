@@ -210,6 +210,18 @@ export default async function CollegeDetailPage(props: PageProps) {
             </span>
           )}
         </div>
+
+        <div className="mt-3">
+          <Link
+            href={`/${state}/college/${id}/programs`}
+            className="inline-flex items-center gap-1 text-sm text-teal-600 dark:text-teal-400 hover:underline"
+          >
+            View degree &amp; certificate programs
+            <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
       </div>
 
       {/* Campus map */}

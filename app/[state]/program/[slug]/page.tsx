@@ -21,7 +21,9 @@ import {
   getProgramBySlug,
   PROGRAMS,
 } from "@/lib/programs";
+import { loadProgramAcrossColleges } from "@/lib/programs/requirements";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProgramRequirements from "@/components/ProgramRequirements";
 
 export const revalidate = 604800; // 7 days
 
@@ -91,7 +93,10 @@ export default async function ProgramPage(props: PageProps) {
   if (!data || !qualifies(data)) notFound();
 
   const config = requireStateConfig(state);
-  const term = await getCurrentTerm(state);
+  const [term, requirementEntries] = await Promise.all([
+    getCurrentTerm(state),
+    loadProgramAcrossColleges(state, slug),
+  ]);
   const url = siteUrl();
 
   const itemListLd = {
@@ -201,6 +206,11 @@ export default async function ProgramPage(props: PageProps) {
             </table>
           </div>
         </section>
+
+        <ProgramRequirements
+          state={state}
+          entries={requirementEntries}
+        />
 
         {data.sampleCourses.length > 0 && (
           <section className="mb-10">
