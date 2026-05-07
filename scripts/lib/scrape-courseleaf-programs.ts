@@ -17,6 +17,9 @@
  */
 
 import * as cheerio from "cheerio";
+// AnyNode is exported from domhandler (cheerio's underlying DOM lib) but
+// isn't re-exported as `cheerio.AnyNode` in cheerio 1.2 — import directly.
+import type { AnyNode } from "domhandler";
 import type {
   CollegePrograms,
   ProgramCredential,
@@ -164,7 +167,7 @@ interface PlanGridResult {
 
 function parsePlanGrid(
   $: cheerio.CheerioAPI,
-  $table: cheerio.Cheerio<cheerio.AnyNode>,
+  $table: cheerio.Cheerio<AnyNode>,
 ): PlanGridResult {
   const courses: RequiredCourse[] = [];
   const seen = new Set<string>();
@@ -268,7 +271,7 @@ function parseProgramPage(
   // in unrelated paragraph content.
   type DocItem = { kind: "award"; line: string; index: number } | {
     kind: "table";
-    el: cheerio.AnyNode;
+    el: AnyNode;
     index: number;
   };
   const items: DocItem[] = [];
