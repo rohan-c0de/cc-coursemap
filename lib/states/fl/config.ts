@@ -66,15 +66,20 @@ const flConfig: StateConfig = {
     { slug: "rollins", names: ["Rollins", "Rollins College"] },
   ],
   scrapers: {
-    // manual-only: courses — no scraper yet; SIS platform survey is part of
-    // Phase 2. The 28 FCS colleges run a mix of Banner SSB 9 (e.g. Valencia,
-    // MDC), Banner 8, Workday Student (St. Petersburg College), and custom
-    // portals. Each platform family will need its own scraper following the
-    // existing template (see scripts/{tn,ga,nh}/).
+    courses: [
+      // Banner SSB 9 — 8 colleges (the largest cluster after the platform
+      // survey in #270). The other 20 FCS colleges use Banner 8, Jenzabar,
+      // Workday, custom apps, or are auth-gated; those will land in
+      // separate scrapers as Phase 2 follow-up PRs.
+      { scripts: ["scripts/fl/scrape-banner-ssb.ts"], runner: "http" },
+    ],
     // manual-only: transfers — Phase 3. FloridaShines + SCNS are the
     // state-run sources; one scrape can cover all 28 × every public
     // university destination.
-    // manual-only: prereqs — Phase 4.
+    // manual-only: prereqs — Phase 4. Banner SSB 9 prereqs come along
+    // inline in scrape-banner-ssb.ts; the other platforms (Banner 8,
+    // Jenzabar, custom) need separate catalog scrapers when those Phase 2
+    // follow-ups land.
     // manual-only: programs — Phase 5+.
   },
 };
