@@ -24,6 +24,10 @@ vi.mock("../../../programs/semantic-resolve", () => ({
   semanticResolveMajor: vi.fn(async () => null),
 }));
 
+vi.mock("../../../programs/subject-vocab", () => ({
+  summariseSubjectsByPrefix: vi.fn(() => []),
+}));
+
 import { lookupPathway } from "../pathway";
 import { resolveUniversity } from "../validate";
 import {
@@ -33,6 +37,7 @@ import {
   loadProgramsByTitles,
 } from "../../../programs/requirements";
 import { semanticResolveMajor } from "../../../programs/semantic-resolve";
+import { summariseSubjectsByPrefix } from "../../../programs/subject-vocab";
 
 const resolveMock = vi.mocked(resolveUniversity);
 const loadProgramsMock = vi.mocked(loadProgramAcrossColleges);
@@ -40,6 +45,7 @@ const findRelatedMock = vi.mocked(findRelatedPrograms);
 const stateHasDataMock = vi.mocked(stateHasProgramData);
 const loadByTitlesMock = vi.mocked(loadProgramsByTitles);
 const semanticResolveMock = vi.mocked(semanticResolveMajor);
+const summariseSubjectsMock = vi.mocked(summariseSubjectsByPrefix);
 
 describe("lookupPathway", () => {
   it("looks up degree by major when no university or college specified", async () => {
@@ -436,5 +442,121 @@ describe("lookupPathway", () => {
     );
     if (result.type !== "pathway") return;
     expect(result.followups!.some((f) => f.toLowerCase().includes("nursing"))).toBe(true);
+  });
+
+  // ---- course-pivot: surface subjectPrefixes from semantic resolver ---------
+
+  it("course pivot: when LLM returns subjects but no programs, status=found-courses-only", async () => {
+    loadProgramsMock.mockResolvedValue([]);
+    stateHasDataMock.mockReturnValue(true);
+    findRelatedMock.mockResolvedValue([]);
+
+    semanticResolveMock.mockResolvedValue({
+      programTitles: [], // no degree match
+      subjectPrefixes: ["GEO", "GIS"], // but courses exist
+      rationale: "no Geography degree, but GEO and GIS courses are taught.",
+      source: "llm",
+    });
+    summariseSubjectsMock.mockReturnValue([
+      {
+        prefix: "GEO",
+        name: "Geography",
+        course_count: 7,
+        section_count: 130,
+        college_count: 23,
+        search_url: "/va/courses?q=GEO",
+      },
+      {
+        prefix: "GIS",
+        name: "Geographic Information Systems",
+        course_count: 5,
+        section_count: 12,
+        college_count: 6,
+        search_url: "/va/courses?q=GIS",
+      },
+    ]);
+
+    const result = await lookupPathway(
+      { type: "pathway", university: null, major: "geography", college: null, credential: null },
+      "va",
+    );
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("found-courses-only");
+    expect(result.relatedSubjects?.length).toBe(2);
+    expect(result.relatedSubjects?.[0].prefix).toBe("GEO");
+    expect(result.relatedSubjects?.[0].search_url).toBe("/va/courses?q=GEO");
+    expect(result.degreeRequirements).toBeUndefined();
+  });
+
+  it("course pivot: found-related ALSO carries relatedSubjects when LLM returns both", async () => {
+    loadProgramsMock.mockResolvedValue([]);
+    stateHasDataMock.mockReturnValue(true);
+    findRelatedMock.mockResolvedValue([]);
+
+    semanticResolveMock.mockResolvedValue({
+      programTitles: ["Health Science (A.S.)"],
+      subjectPrefixes: ["BIO", "HLT"],
+      rationale: "premed = bio + health.",
+      source: "llm",
+    });
+    loadByTitlesMock.mockResolvedValue([
+      {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        college: { id: "ccv", name: "Community College of Vermont" } as any,
+        programs: [
+          {
+            title: "Health Science (A.S.)",
+            credential: "AS" as const,
+            program_code: null,
+            catalog_url: "",
+            total_credits: 60,
+            gpa_minimum: 2.0,
+            description: null,
+            requirement_groups: [],
+            matched_program_slug: null,
+          },
+        ],
+      },
+    ]);
+    summariseSubjectsMock.mockReturnValue([
+      {
+        prefix: "BIO",
+        name: "Biology",
+        course_count: 8,
+        section_count: 50,
+        college_count: 1,
+        search_url: "/vt/courses?q=BIO",
+      },
+    ]);
+
+    const result = await lookupPathway(
+      { type: "pathway", university: null, major: "premed", college: null, credential: null },
+      "vt",
+    );
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("found-related");
+    expect(result.degreeRequirements?.length).toBe(1);
+    expect(result.relatedSubjects?.length).toBe(1);
+    expect(result.relatedSubjects?.[0].prefix).toBe("BIO");
+  });
+
+  it("course pivot: no programs AND no subjects → still no-data", async () => {
+    loadProgramsMock.mockResolvedValue([]);
+    stateHasDataMock.mockReturnValue(true);
+    findRelatedMock.mockResolvedValue([]);
+    semanticResolveMock.mockResolvedValue({
+      programTitles: [],
+      subjectPrefixes: [],
+      rationale: "nothing matches.",
+      source: "llm",
+    });
+    summariseSubjectsMock.mockReturnValue([]);
+
+    const result = await lookupPathway(
+      { type: "pathway", university: null, major: "underwater-basketweaving", college: null, credential: null },
+      "vt",
+    );
+    if (result.type !== "pathway") return;
+    expect(result.status).toBe("no-data");
   });
 });

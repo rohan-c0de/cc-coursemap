@@ -123,12 +123,15 @@ export interface EligibilityAnswer {
 // ─── Pathway ────────────────────────────────────────────────────────────
 
 export type PathwayStatus =
-  | "found" //              pathway data exists for this university/major
-  | "found-degree" //       CC degree requirement data found
-  | "found-related" //      no exact-major match, but related programs found
-  | "no-data" //            no pathway data available yet
-  | "unknown-university" // university not recognized
-  | "missing-entity"; //    no university specified
+  | "found" //                pathway data exists for this university/major
+  | "found-degree" //         CC degree requirement data found
+  | "found-related" //        no exact-major match, but related programs found
+  | "found-courses-only" //   no degree match at any level, but related courses
+                              // exist in the state's catalog (Phase 3 LLM
+                              // returned subjectPrefixes but no programTitles)
+  | "no-data" //              no pathway data available yet
+  | "unknown-university" //   university not recognized
+  | "missing-entity"; //      no university specified
 
 export interface DegreeRequirementSummary {
   title: string;
@@ -143,6 +146,21 @@ export interface DegreeRequirementSummary {
   }>;
 }
 
+/**
+ * Aggregated info about a subject prefix used in a state's course catalog.
+ * Surfaces when the answer pivots from "no degree" to "but here are
+ * related courses you can take" — see #265 follow-up.
+ */
+export interface SubjectMatchSummary {
+  prefix: string; // e.g. "GEO"
+  name: string; // human-readable, e.g. "Geography"
+  course_count: number;
+  section_count: number;
+  college_count: number;
+  // Pre-built deep link into the per-state course search.
+  search_url: string;
+}
+
 export interface PathwayAnswer {
   type: "pathway";
   status: PathwayStatus;
@@ -150,6 +168,12 @@ export interface PathwayAnswer {
   major: string | null;
   college: { slug: string; name: string } | null;
   degreeRequirements?: DegreeRequirementSummary[];
+  /**
+   * Optional course-level pivot. Populated either alongside
+   * degreeRequirements (when found-related and the LLM also returned
+   * subjects) or as the only content (when status is found-courses-only).
+   */
+  relatedSubjects?: SubjectMatchSummary[];
   source: SourceCitation;
   followups?: string[];
 }

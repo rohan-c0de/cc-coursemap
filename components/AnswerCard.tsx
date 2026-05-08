@@ -583,6 +583,35 @@ function PathwayBody({
             </a>
           </Note>
         )}
+        {answer.relatedSubjects && answer.relatedSubjects.length > 0 && (
+          <RelatedSubjectsPanel
+            subjects={answer.relatedSubjects}
+            // For found-related we add it as a "you can also" extension; for
+            // found-degree it would be unusual but harmless.
+            label={
+              answer.status === "found-related"
+                ? "Related courses you could take in this state"
+                : "Related courses"
+            }
+          />
+        )}
+      </>
+    );
+  }
+
+  if (
+    answer.status === "found-courses-only" &&
+    answer.relatedSubjects?.length
+  ) {
+    const majorLabel = answer.major?.replace(/-/g, " ") ?? null;
+    return (
+      <>
+        <Headline tone="info" icon="📚">
+          {majorLabel
+            ? `No standalone ${majorLabel} associate degree found in this state, but ${answer.relatedSubjects.length === 1 ? "this subject is" : "these subjects are"} taught in the catalog:`
+            : `No matching degree found, but related subjects are taught in the catalog:`}
+        </Headline>
+        <RelatedSubjectsPanel subjects={answer.relatedSubjects} />
       </>
     );
   }
@@ -646,6 +675,53 @@ function Note({ children }: { children: React.ReactNode }) {
     <p className="text-xs text-slate-500 dark:text-slate-400 italic">
       {children}
     </p>
+  );
+}
+
+function RelatedSubjectsPanel({
+  subjects,
+  label,
+}: {
+  subjects: Array<{
+    prefix: string;
+    name: string;
+    course_count: number;
+    section_count: number;
+    college_count: number;
+    search_url: string;
+  }>;
+  label?: string;
+}) {
+  return (
+    <div className="mt-4 pt-3 border-t border-slate-200 dark:border-slate-700 space-y-1.5">
+      {label && (
+        <p className="text-xs font-medium text-slate-700 dark:text-slate-300">
+          {label}
+        </p>
+      )}
+      <ul className="space-y-1">
+        {subjects.map((s) => (
+          <li
+            key={s.prefix}
+            className="text-sm text-slate-700 dark:text-slate-300"
+          >
+            <a
+              href={s.search_url}
+              className="text-teal-600 dark:text-teal-400 hover:underline font-medium"
+            >
+              {s.name} ({s.prefix})
+            </a>
+            <span className="text-xs text-slate-500 dark:text-slate-400 ml-2">
+              {s.course_count}{" "}
+              {s.course_count === 1 ? "course" : "courses"}
+              {s.college_count > 0 &&
+                ` across ${s.college_count} ${s.college_count === 1 ? "college" : "colleges"}`}
+              {s.section_count > 0 && ` · ${s.section_count} sections`}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
 
