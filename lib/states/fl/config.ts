@@ -20,11 +20,12 @@ const flConfig: StateConfig = {
       "Florida law allows residents aged 60+ to attend Florida College System credit courses with tuition and fees waived on a space-available basis. Each college sets its own policy on which fees are waivable; credit earned this way generally does not apply toward graduation.",
   },
 
-  // Florida runs a state-wide articulation system (SCNS — Statewide Course
-  // Numbering System) plus the FloridaShines transfer portal. That's a
-  // Phase 3 source. Until that scrape lands, transferSupported stays false
-  // so the UI doesn't surface the empty transfer tool.
-  transferSupported: false,
+  // Florida transfers run on SCNS (Statewide Course Numbering System) —
+  // courses with the same prefix + 3-digit number + lab code at any FL
+  // public institution are equivalent by FL Stat. § 1007.24. Phase 3
+  // scraper at scripts/fl/scrape-scns-flatfile.ts builds transfer-equiv
+  // from SCNS's public flat-file dump.
+  transferSupported: true,
   popularCourses: ["ENC 1101", "MAC 1105", "BSC 1010", "PSY 2012", "AMH 2010", "SYG 2000"],
   defaultZip: "33132",
   defaultZipCity: "Miami",
@@ -62,6 +63,8 @@ const flConfig: StateConfig = {
     { slug: "fgcu", names: ["FGCU", "Florida Gulf Coast", "Florida Gulf Coast University"] },
     { slug: "unf", names: ["UNF", "North Florida", "University of North Florida"] },
     { slug: "uwf", names: ["UWF", "West Florida", "University of West Florida"] },
+    { slug: "ncf", names: ["NCF", "New College", "New College of Florida"] },
+    { slug: "flpoly", names: ["Florida Poly", "Florida Polytechnic", "Florida Polytechnic University"] },
     { slug: "miami", names: ["Miami", "University of Miami", "UM"] },
     { slug: "rollins", names: ["Rollins", "Rollins College"] },
   ],
@@ -73,9 +76,12 @@ const flConfig: StateConfig = {
       // separate scrapers as Phase 2 follow-up PRs.
       { scripts: ["scripts/fl/scrape-banner-ssb.ts"], runner: "http" },
     ],
-    // manual-only: transfers — Phase 3. FloridaShines + SCNS are the
-    // state-run sources; one scrape can cover all 28 × every public
-    // university destination.
+    transfers: [
+      // SCNS flat-file dump — single 80 MB download, no auth, covers all
+      // 28 FCS × 12 public 4-year articulations in one run. Replaces the
+      // per-receiver scraper pattern used in other states.
+      { scripts: ["scripts/fl/scrape-scns-flatfile.ts"], runner: "http" },
+    ],
     // manual-only: prereqs — Phase 4. Banner SSB 9 prereqs come along
     // inline in scrape-banner-ssb.ts; the other platforms (Banner 8,
     // Jenzabar, custom) need separate catalog scrapers when those Phase 2
