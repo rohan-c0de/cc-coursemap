@@ -16,7 +16,11 @@ import {
   loadProgramsByTitles,
 } from "../../programs/requirements";
 import { matchProgramSlug } from "../../programs/matcher";
-import { semanticResolveMajor } from "../../programs/semantic-resolve";
+import {
+  semanticResolveMajor,
+  type SemanticResolveResult,
+} from "../../programs/semantic-resolve";
+import { summariseSubjectsByPrefix } from "../../programs/subject-vocab";
 import type { Institution } from "../../types";
 import type { ProgramRequirement } from "../../programs/requirements";
 
@@ -164,11 +168,16 @@ async function lookupDegreeByMajor(
       // Phase 2: lexical stems
       let related = await findRelatedPrograms(state, majorLabel, 8);
 
+      // We hold onto the semantic result (if it was called) so we can
+      // surface its subjectPrefixes alongside or instead of programs —
+      // see the `relatedSubjects` field on PathwayAnswer.
+      let semantic: SemanticResolveResult | null = null;
+
       // Phase 3a: lexical found nothing → try LLM. Wrapped in try/catch
       // so a transient classifier failure can't break the request.
       if (related.length === 0) {
         try {
-          const semantic = await semanticResolveMajor(state, majorLabel);
+          semantic = await semanticResolveMajor(state, majorLabel);
           if (semantic && semantic.programTitles.length > 0) {
             related = await loadProgramsByTitles(state, semantic.programTitles);
           }
@@ -179,7 +188,7 @@ async function lookupDegreeByMajor(
         // Phase 3b: lexical was promiscuous — ask the LLM to refine.
         // Keep the lexical pool as fallback if the LLM returns nothing.
         try {
-          const semantic = await semanticResolveMajor(state, majorLabel);
+          semantic = await semanticResolveMajor(state, majorLabel);
           if (semantic && semantic.programTitles.length > 0) {
             const refined = await loadProgramsByTitles(
               state,
@@ -192,6 +201,10 @@ async function lookupDegreeByMajor(
         }
       }
 
+      const relatedSubjects = semantic?.subjectPrefixes
+        ? summariseSubjectsByPrefix(state, semantic.subjectPrefixes)
+        : [];
+
       if (related.length > 0) {
         return makeAnswer({
           status: "found-related",
@@ -199,10 +212,29 @@ async function lookupDegreeByMajor(
           major: intent.major,
           college: null,
           degreeRequirements: summariseRequirements(related),
+          relatedSubjects: relatedSubjects.length > 0 ? relatedSubjects : undefined,
           state,
           followups: [
             `${majorLabel} courses available this term`,
             `What are the prereqs for common ${majorLabel} courses?`,
+          ],
+        });
+      }
+
+      // No programs anywhere, but the LLM identified course-level
+      // subjects we *do* have. Pivot to a course-level answer instead
+      // of returning no-data.
+      if (relatedSubjects.length > 0) {
+        return makeAnswer({
+          status: "found-courses-only",
+          university: null,
+          major: intent.major,
+          college: null,
+          relatedSubjects,
+          state,
+          followups: [
+            `${majorLabel} courses available this term`,
+            `Browse all programs in this state`,
           ],
         });
       }
