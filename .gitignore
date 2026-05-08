@@ -46,3 +46,6 @@ supabase/.temp/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scraper caches (e.g. tmp/scns/crslist-*.txt — re-downloadable, ~80 MB)
+/tmp/
