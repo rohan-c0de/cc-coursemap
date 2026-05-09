@@ -389,7 +389,7 @@ export function parseBanner8Html(
     const courseTitle = parts[0].trim();
     const crn = parts[1].trim();
     const subjNum = parts[2].trim();
-    const subjMatch = subjNum.match(/^([A-Z]{2,4})\s+(\d{3}[A-Z]?)$/);
+    const subjMatch = subjNum.match(/^([A-Z]{2,5})\s+(\d{3,4}[A-Z]?)$/);
     if (!subjMatch) continue;
     const [, prefix, number] = subjMatch;
 
