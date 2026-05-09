@@ -682,4 +682,37 @@ export const articles: ArticleMeta[] = [
       },
     ],
   },
+
+  // --- Cluster C spoke: MD session timing ---
+  {
+    slug: "maryland-community-college-session-timing-guide",
+    title:
+      "Maryland Community College Sessions Explained: Full-Term, 8-Week, Mini-Mester, and Late-Start Across MD's 16 Colleges",
+    description:
+      "AACC alone has 93 distinct start dates per term. Here's how MD's 16 community colleges actually structure session length, when each format helps, and how to spot the right one before you register.",
+    date: "2026-05-09",
+    category: "session-timing",
+    state: "md",
+    author: "Community College Path",
+    tags: ["sessions", "session-timing", "maryland", "8-week", "mini-mester", "macc"],
+    cluster: "session-timing-guide",
+    clusterRole: "spoke",
+  },
+
+  // --- Cluster E spoke: Germanna audit-at-college (per-college) ---
+  {
+    slug: "germanna-community-college-audit-class-guide",
+    title:
+      "How to Audit a Class at Germanna Community College: Cost, Application, and Eligibility",
+    description:
+      "Germanna allows auditing at full credit-equivalent cost — or free for VA residents 60+ under the senior tuition waiver. Here's the application process, the constraints, and when auditing makes sense.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "va",
+    college: "gcc",
+    author: "Community College Path",
+    tags: ["auditing", "virginia", "germanna", "vccs", "senior-waiver"],
+    cluster: "audit-at-college-guide",
+    clusterRole: "spoke",
+  },
 ];
