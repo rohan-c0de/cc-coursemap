@@ -218,18 +218,20 @@ export const articles: ArticleMeta[] = [
     clusterRole: "hub",
   },
 
-  // --- Standalone: Registration timing ---
+  // --- Cluster G: Late-start by state (hub + future state spokes) ---
   {
     slug: "how-to-find-late-start-community-college-classes",
     title:
       "How Late Can You Enroll in Community College? Late-Start Classes Explained",
     description:
-      "You can enroll days before a late-start section begins — weeks after the main semester started. Here's how to find open sections and what to expect.",
+      "Late-start sections are 8.5% of community college fall offerings nationally — but range from 18% in NH to 1% in ME. Here's how to find them and what the state-by-state variation means for you.",
     date: "2026-04-04",
     category: "registration-timing",
     state: null,
     author: "Community College Path",
-    tags: ["late-start", "mini-session", "registration", "accelerated"],
+    tags: ["late-start", "mini-session", "registration", "accelerated", "density"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "hub",
   },
 
   // --- Standalone: Transfer verification ---
