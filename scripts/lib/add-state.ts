@@ -1,0 +1,779 @@
+/**
+ * add-state.ts (orchestrator)
+ *
+ * Top-level orchestrator for the auto-add-state skill. Given a state slug,
+ * runs the entire 5-phase workflow end-to-end:
+ *
+ *   Phase 1  Bootstrap (PR 6)        — institutions.json, zipcodes.json,
+ *                                       config.ts skeleton, registry edits
+ *   Phase 2a Fingerprint (PR 1)       — classify each college's SIS platform
+ *   Phase 2b Course scraping          — instantiate the matching template:
+ *                                       - banner-ssb-9 → PR 2's template
+ *                                       - colleague    → PR 3's template
+ *                                       - banner-8     → PR 4's template
+ *                                       - other        → flag manual TODO
+ *   Phase 3  Articulation (PR 5)      — lookup state in articulation-portals
+ *                                       registry; run scripts if registered,
+ *                                       else flag CollegeTransfer.Net fallback
+ *   Phase 4  Prereqs aggregation      — call existing aggregate-prereqs.ts
+ *                                       to roll inline prereq data into
+ *                                       data/{state}/prereqs.json
+ *
+ * Phase 5 (programs) is left as a manual TODO — IPEDS-driven program
+ * discovery isn't templated yet, and the existing program-scraper
+ * templates (Acalog/Coursedog/etc.) require per-college catalog URLs that
+ * the orchestrator can't reliably auto-derive.
+ *
+ * Failure handling: every phase runs in a try/catch. A single college's
+ * scraper failure or a single phase's API hiccup is recorded in
+ * `manualTodos` and the orchestrator continues to the next phase. Only
+ * bootstrap failure is fatal (without it there are no files to scrape into).
+ *
+ * This script does NOT touch git or open PRs. The auto-add-state skill
+ * (PR 8) wraps this orchestrator with the commit/push/PR flow so the
+ * scope of "what data was generated" is cleanly separated from "how was
+ * it shipped." Run this script directly to generate files, then commit
+ * them yourself; or invoke the skill for the full autonomous flow.
+ *
+ * CLI:
+ *   npx tsx scripts/lib/add-state.ts --state oh
+ *   npx tsx scripts/lib/add-state.ts --state oh --dry-run
+ *   npx tsx scripts/lib/add-state.ts --state oh --skip-courses --skip-transfers
+ *   npx tsx scripts/lib/add-state.ts --state oh --college-filter sinclair
+ *
+ * Library:
+ *   import { addState } from "../lib/add-state";
+ *   const result = await addState({ state: "oh" });
+ */
+
+import { spawn } from "child_process";
+import path from "path";
+import {
+  bootstrapState,
+  type BootstrapStateResult,
+} from "./bootstrap-state";
+import {
+  fingerprint,
+  type FingerprintResult,
+  type Platform,
+} from "./fingerprint-college";
+import {
+  discoverPublicCommunityColleges,
+  type DiscoveredCollege,
+} from "./discover-colleges";
+import {
+  scrapeBannerSsbState,
+  type ScrapeStateResult as SsbStateResult,
+} from "./scrape-banner-ssb";
+import {
+  scrapeColleagueState,
+  type ScrapeStateResult as ColleagueStateResult,
+} from "./scrape-colleague";
+import {
+  scrapeBanner8ByHost,
+  type ScrapeStateResult as Banner8StateResult,
+} from "./scrape-banner-8";
+import {
+  lookupArticulationPortal,
+  getFallbackPortal,
+  type PortalEntry,
+} from "./articulation-portals";
+
+// ---------------------------------------------------------------------------
+// Public types
+// ---------------------------------------------------------------------------
+
+export interface AddStateOptions {
+  state: string;
+  /** Plan everything but don't write files, don't run scrapers, don't import. */
+  dryRun?: boolean;
+  /** Skip Phase 1 (useful when re-running on an existing state). */
+  skipBootstrap?: boolean;
+  /** Skip Phase 2a (fingerprint). Phase 2b is auto-skipped if no fingerprint data. */
+  skipFingerprint?: boolean;
+  /** Skip Phase 2b (course scraping). Useful for "fingerprint only" runs. */
+  skipCourses?: boolean;
+  /** Skip Phase 3 (transfers). */
+  skipTransfers?: boolean;
+  /** Skip Phase 4 (prereqs). */
+  skipPrereqs?: boolean;
+  /** Filter to a single college slug (debug aid). */
+  collegeFilter?: string;
+  /** Override IPEDS year. Default = latest known. */
+  ipedsYear?: number;
+}
+
+export interface FingerprintedCollege {
+  college: DiscoveredCollege;
+  fingerprint: FingerprintResult;
+}
+
+export interface AddStateResult {
+  state: string;
+  startedAt: string;
+  finishedAt: string;
+  bootstrap: BootstrapStateResult | null;
+  fingerprint: {
+    byPlatform: Partial<Record<Platform, FingerprintedCollege[]>>;
+    flagged: { slug: string; platform: Platform; note: string }[];
+  };
+  courses: {
+    bannerSsb?: SsbStateResult;
+    colleague?: ColleagueStateResult;
+    banner8?: Banner8StateResult;
+    /** Colleges whose platform has no scraper template yet. */
+    skippedPlatforms: { slug: string; platform: Platform; reason: string }[];
+  };
+  transfers: {
+    portal: PortalEntry | null;
+    scriptsRun: { script: string; ok: boolean; ms: number }[];
+    fallbackSuggestion: string | null;
+  };
+  prereqs: {
+    aggregated: boolean;
+    error?: string;
+  };
+  manualTodos: string[];
+  durations: Record<string, number>;
+}
+
+// ---------------------------------------------------------------------------
+// Platform → scraper-template dispatcher
+// ---------------------------------------------------------------------------
+
+/** Platforms we have course-scraper templates for in PRs 2–4. */
+const TEMPLATED_COURSE_PLATFORMS: Platform[] = [
+  "banner-ssb-9",
+  "colleague",
+  "banner-8",
+];
+
+/** Platforms we KNOW are course-search platforms but don't have a template
+ *  for. Marking them explicitly distinguishes "no template yet" from
+ *  "platform unrecognized" in the final report. */
+const UNTEMPLATED_COURSE_PLATFORMS: Platform[] = [
+  "peoplesoft",
+  "jenzabar",
+  "coursedog",
+  "workday",
+  "ellucian-experience",
+  "webadvisor",
+];
+
+// ---------------------------------------------------------------------------
+// Helper — run a child process and capture exit code + duration
+// ---------------------------------------------------------------------------
+
+function runSubprocess(
+  command: string,
+  args: string[],
+  silent = false
+): Promise<{ ok: boolean; ms: number; stdout: string; stderr: string }> {
+  return new Promise((resolve) => {
+    const start = Date.now();
+    const child = spawn(command, args, {
+      cwd: process.cwd(),
+      stdio: silent ? ["ignore", "pipe", "pipe"] : "inherit",
+    });
+    let stdout = "";
+    let stderr = "";
+    if (silent) {
+      child.stdout?.on("data", (d) => {
+        stdout += d.toString();
+      });
+      child.stderr?.on("data", (d) => {
+        stderr += d.toString();
+      });
+    }
+    child.on("close", (code) => {
+      resolve({ ok: code === 0, ms: Date.now() - start, stdout, stderr });
+    });
+    child.on("error", (err) => {
+      resolve({ ok: false, ms: Date.now() - start, stdout, stderr: String(err) });
+    });
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Phase 1: Bootstrap
+// ---------------------------------------------------------------------------
+
+async function phaseBootstrap(
+  state: string,
+  opts: AddStateOptions,
+  todos: string[]
+): Promise<BootstrapStateResult | null> {
+  if (opts.skipBootstrap) {
+    console.log("Phase 1 (bootstrap): skipped (--skip-bootstrap).");
+    return null;
+  }
+  console.log("\n=== Phase 1: Bootstrap ===");
+  const r = await bootstrapState({
+    state,
+    dryRun: opts.dryRun,
+    ipedsYear: opts.ipedsYear,
+  });
+  // Forward all bootstrap TODOs to the orchestrator's TODO list
+  for (const t of r.manualTodos) todos.push(`[bootstrap] ${t}`);
+  if (r.collegesDiscovered === 0) {
+    todos.push(
+      `[bootstrap] CRITICAL: 0 colleges discovered. The remaining phases will be no-ops.`
+    );
+  }
+  return r;
+}
+
+// ---------------------------------------------------------------------------
+// Phase 2a: Fingerprint every college
+// ---------------------------------------------------------------------------
+
+async function phaseFingerprint(
+  state: string,
+  opts: AddStateOptions,
+  todos: string[]
+): Promise<{
+  byPlatform: Partial<Record<Platform, FingerprintedCollege[]>>;
+  flagged: { slug: string; platform: Platform; note: string }[];
+}> {
+  if (opts.skipFingerprint) {
+    console.log("Phase 2a (fingerprint): skipped (--skip-fingerprint).");
+    return { byPlatform: {}, flagged: [] };
+  }
+  console.log("\n=== Phase 2a: Fingerprint ===");
+
+  // Re-discover colleges (cheap; same IPEDS query as bootstrap). We could
+  // pipe through bootstrap's result, but recomputing decouples the phase
+  // and lets --skip-bootstrap still produce a fingerprint pass.
+  const colleges = await discoverPublicCommunityColleges(state, {
+    year: opts.ipedsYear,
+  });
+  const filtered = opts.collegeFilter
+    ? colleges.filter((c) => c.slug === opts.collegeFilter)
+    : colleges;
+
+  if (filtered.length === 0) {
+    console.log(`  No colleges to fingerprint (filter=${opts.collegeFilter ?? "(none)"}).`);
+    return { byPlatform: {}, flagged: [] };
+  }
+
+  console.log(`  Probing ${filtered.length} college(s)...`);
+  const byPlatform: Partial<Record<Platform, FingerprintedCollege[]>> = {};
+  const flagged: { slug: string; platform: Platform; note: string }[] = [];
+
+  for (let i = 0; i < filtered.length; i++) {
+    const c = filtered[i];
+    if (!c.primaryUrl) {
+      console.log(`  [${i + 1}/${filtered.length}] ${c.slug} — IPEDS has no URL; skipping`);
+      flagged.push({
+        slug: c.slug,
+        platform: "unknown",
+        note: "IPEDS returned no primary URL — manual lookup needed",
+      });
+      todos.push(
+        `[fingerprint] ${c.slug} (${c.name}): no website URL in IPEDS. Look up manually and re-run with the URL.`
+      );
+      continue;
+    }
+    const fp = await fingerprint(`https://${c.primaryUrl}`);
+    process.stdout.write(
+      `  [${i + 1}/${filtered.length}] ${c.slug.padEnd(36)} ${fp.platform} (${fp.confidence})\n`
+    );
+    const arr = byPlatform[fp.platform] ?? [];
+    arr.push({ college: c, fingerprint: fp });
+    byPlatform[fp.platform] = arr;
+  }
+
+  // Flag platforms that aren't templated for course scraping
+  for (const platform of Object.keys(byPlatform) as Platform[]) {
+    const cohort = byPlatform[platform]!;
+    if (TEMPLATED_COURSE_PLATFORMS.includes(platform)) continue;
+    const reason = UNTEMPLATED_COURSE_PLATFORMS.includes(platform)
+      ? `platform '${platform}' has no scraper template yet — manual scraper needed`
+      : platform === "auth-gated"
+        ? "auth-gated (SSO/SAML) — no public guest access; can't scrape"
+        : platform === "custom"
+          ? "custom HTML/SPA — no template fits; bespoke scraper needed"
+          : platform === "unknown"
+            ? "no SIS platform detected — verify the college's URL and re-fingerprint"
+            : `platform '${platform}' is not a course-search system (catalog/programs only)`;
+    for (const entry of cohort) {
+      flagged.push({ slug: entry.college.slug, platform, note: reason });
+      todos.push(`[fingerprint] ${entry.college.slug}: ${reason}`);
+    }
+  }
+
+  return { byPlatform, flagged };
+}
+
+// ---------------------------------------------------------------------------
+// Phase 2b: Course scraping — dispatch by platform to the right template
+// ---------------------------------------------------------------------------
+
+async function phaseCourseScraping(
+  state: string,
+  opts: AddStateOptions,
+  byPlatform: Partial<Record<Platform, FingerprintedCollege[]>>,
+  todos: string[]
+): Promise<AddStateResult["courses"]> {
+  const courses: AddStateResult["courses"] = { skippedPlatforms: [] };
+  if (opts.skipCourses) {
+    console.log("\nPhase 2b (course scraping): skipped (--skip-courses).");
+    return courses;
+  }
+  console.log("\n=== Phase 2b: Course scraping ===");
+
+  // banner-ssb-9
+  const ssbCohort = byPlatform["banner-ssb-9"];
+  if (ssbCohort && ssbCohort.length > 0) {
+    const hosts: Record<string, string> = {};
+    for (const e of ssbCohort) {
+      // Prefer the courseSearchUrl returned by the fingerprinter; fall
+      // back to the bare domain if the fingerprinter found a marker
+      // without a specific course-search URL.
+      const url = e.fingerprint.courseSearchUrl;
+      if (url) {
+        // Strip the path back to the SSB base URL (everything before
+        // /StudentRegistrationSsb/...). The scrape-banner-ssb template
+        // appends the rest of the path itself.
+        const stripped = url.replace(
+          /\/StudentRegistrationSsb\/.*$/,
+          ""
+        );
+        hosts[e.college.slug] = stripped;
+      } else {
+        hosts[e.college.slug] = `https://${e.college.primaryUrl}`;
+      }
+    }
+    console.log(`  Banner SSB 9: ${Object.keys(hosts).length} college(s)`);
+    if (!opts.dryRun) {
+      try {
+        courses.bannerSsb = await scrapeBannerSsbState({
+          state,
+          hosts,
+          noImport: true, // orchestrator never auto-imports to Supabase
+        });
+      } catch (e) {
+        const msg = `Banner SSB scraping failed: ${e}`;
+        console.error(`  ${msg}`);
+        todos.push(`[courses/banner-ssb-9] ${msg}`);
+      }
+    } else {
+      console.log("  (dry-run; not running scraper)");
+    }
+  }
+
+  // colleague
+  const colleagueCohort = byPlatform["colleague"];
+  if (colleagueCohort && colleagueCohort.length > 0) {
+    const hosts: Record<string, string> = {};
+    for (const e of colleagueCohort) {
+      const url = e.fingerprint.courseSearchUrl;
+      if (url) {
+        const stripped = url.replace(/\/Student\/.*$/, "");
+        hosts[e.college.slug] = stripped;
+      } else {
+        hosts[e.college.slug] = `https://${e.college.primaryUrl}`;
+      }
+    }
+    console.log(`  Colleague: ${Object.keys(hosts).length} college(s)`);
+    if (!opts.dryRun) {
+      try {
+        courses.colleague = await scrapeColleagueState({
+          state,
+          hosts,
+          noImport: true,
+        });
+      } catch (e) {
+        const msg = `Colleague scraping failed: ${e}`;
+        console.error(`  ${msg}`);
+        todos.push(`[courses/colleague] ${msg}`);
+      }
+    } else {
+      console.log("  (dry-run; not running scraper)");
+    }
+  }
+
+  // banner-8
+  const banner8Cohort = byPlatform["banner-8"];
+  if (banner8Cohort && banner8Cohort.length > 0) {
+    const hosts: Record<string, string> = {};
+    for (const e of banner8Cohort) {
+      const url = e.fingerprint.courseSearchUrl;
+      if (url) {
+        // Banner 8 paths are like /pls/PROD/bwckschd... — strip back to
+        // the prod-path root that our template expects.
+        const stripped = url.replace(/\/bwck.*$/i, "").replace(/\/pls\/[^/]+/i, "$&");
+        // Actually the cleanest base URL for our Banner 8 template is the
+        // prefix up through the prod path. e.g.
+        //   https://web.sjrstate.edu/pls/prod/bwckschd... → keep up through /pls/prod
+        const m = url.match(/^(.*?\/pls\/[a-z0-9]+)/i);
+        hosts[e.college.slug] = m ? m[1] : stripped;
+      } else {
+        hosts[e.college.slug] = `https://${e.college.primaryUrl}`;
+      }
+    }
+    console.log(`  Banner 8: ${Object.keys(hosts).length} college(s)`);
+    if (!opts.dryRun) {
+      try {
+        courses.banner8 = await scrapeBanner8ByHost({
+          state,
+          hosts,
+          noImport: true,
+        });
+      } catch (e) {
+        const msg = `Banner 8 scraping failed: ${e}`;
+        console.error(`  ${msg}`);
+        todos.push(`[courses/banner-8] ${msg}`);
+      }
+    } else {
+      console.log("  (dry-run; not running scraper)");
+    }
+  }
+
+  // Untemplated platforms — record as skipped (already in `todos` from
+  // fingerprint phase, but record here for the structured result too)
+  for (const platform of Object.keys(byPlatform) as Platform[]) {
+    if (TEMPLATED_COURSE_PLATFORMS.includes(platform)) continue;
+    const cohort = byPlatform[platform]!;
+    for (const e of cohort) {
+      courses.skippedPlatforms.push({
+        slug: e.college.slug,
+        platform,
+        reason: `no scraper template for '${platform}'`,
+      });
+    }
+  }
+
+  return courses;
+}
+
+// ---------------------------------------------------------------------------
+// Phase 3: Articulation
+// ---------------------------------------------------------------------------
+
+async function phaseArticulation(
+  state: string,
+  opts: AddStateOptions,
+  todos: string[]
+): Promise<AddStateResult["transfers"]> {
+  if (opts.skipTransfers) {
+    console.log("\nPhase 3 (transfers): skipped (--skip-transfers).");
+    return { portal: null, scriptsRun: [], fallbackSuggestion: null };
+  }
+  console.log("\n=== Phase 3: Articulation ===");
+
+  const portal = lookupArticulationPortal(state);
+  if (!portal) {
+    const fb = getFallbackPortal();
+    const note = `No registered articulation portal for ${state.toUpperCase()}. Fallback: ${fb.name}. Add an entry to data/articulation-portals.json once you've identified the state's portal, OR use the CollegeTransfer.Net library at ${fb.templateLib} (requires per-college SourceInstitutionIds — look up in CT.Net's institution search).`;
+    console.log(`  ${note}`);
+    todos.push(`[transfers] ${note}`);
+    return { portal: null, scriptsRun: [], fallbackSuggestion: fb.name };
+  }
+
+  console.log(`  Portal: ${portal.name} (${portal.type})`);
+  console.log(`  Scripts to run: ${portal.scripts.length}`);
+
+  const scriptsRun: { script: string; ok: boolean; ms: number }[] = [];
+  if (opts.dryRun) {
+    console.log("  (dry-run; not running scripts)");
+    for (const s of portal.scripts) scriptsRun.push({ script: s, ok: false, ms: 0 });
+    return { portal, scriptsRun, fallbackSuggestion: null };
+  }
+
+  for (const script of portal.scripts) {
+    console.log(`  Running ${script}...`);
+    const result = await runSubprocess("npx", ["tsx", script, "--no-import"]);
+    scriptsRun.push({ script, ok: result.ok, ms: result.ms });
+    if (!result.ok) {
+      todos.push(
+        `[transfers] ${script} failed (exit non-zero, ${result.ms}ms). Check the script's logs and re-run.`
+      );
+    }
+  }
+
+  return { portal, scriptsRun, fallbackSuggestion: null };
+}
+
+// ---------------------------------------------------------------------------
+// Phase 4: Aggregate prereqs from inline course data
+// ---------------------------------------------------------------------------
+
+async function phasePrereqs(
+  state: string,
+  opts: AddStateOptions,
+  todos: string[]
+): Promise<AddStateResult["prereqs"]> {
+  if (opts.skipPrereqs || opts.dryRun) {
+    if (opts.skipPrereqs) console.log("\nPhase 4 (prereqs): skipped (--skip-prereqs).");
+    else console.log("\nPhase 4 (prereqs): skipped (--dry-run).");
+    return { aggregated: false };
+  }
+  console.log("\n=== Phase 4: Aggregate prereqs ===");
+
+  const result = await runSubprocess(
+    "npx",
+    ["tsx", "scripts/lib/aggregate-prereqs.ts", state],
+    true
+  );
+  if (!result.ok) {
+    const msg = `aggregate-prereqs failed: ${result.stderr || "(no stderr)"}`;
+    console.error(`  ${msg}`);
+    todos.push(`[prereqs] ${msg}`);
+    return { aggregated: false, error: msg };
+  }
+  // Print the aggregator's stdout so the user sees the per-state line count
+  process.stdout.write(result.stdout);
+  return { aggregated: true };
+}
+
+// ---------------------------------------------------------------------------
+// Reporter — pretty-prints the result for end-of-run consumption
+// ---------------------------------------------------------------------------
+
+export function formatReport(r: AddStateResult): string {
+  const lines: string[] = [];
+  lines.push("");
+  lines.push("=".repeat(72));
+  lines.push(`  Auto-add-state report: ${r.state}`);
+  lines.push("=".repeat(72));
+
+  // Phase 1
+  if (r.bootstrap) {
+    lines.push(
+      `Phase 1 — Bootstrap:        ${r.bootstrap.collegesDiscovered} colleges, ${r.bootstrap.filesCreated.length} files, ${r.bootstrap.registryEdits.length} registry edits`
+    );
+  } else {
+    lines.push(`Phase 1 — Bootstrap:        skipped`);
+  }
+
+  // Phase 2a
+  const platformCounts = Object.entries(r.fingerprint.byPlatform).map(
+    ([p, c]) => `${p}=${c?.length ?? 0}`
+  );
+  lines.push(
+    `Phase 2a — Fingerprint:     ${platformCounts.length > 0 ? platformCounts.join(", ") : "no colleges fingerprinted"}`
+  );
+
+  // Phase 2b
+  let totalSections = 0;
+  if (r.courses.bannerSsb) totalSections += r.courses.bannerSsb.grandTotal;
+  if (r.courses.colleague) totalSections += r.courses.colleague.grandTotal;
+  if (r.courses.banner8) totalSections += r.courses.banner8.grandTotal;
+  lines.push(
+    `Phase 2b — Course scraping: ${totalSections.toLocaleString()} sections${r.courses.skippedPlatforms.length > 0 ? `, ${r.courses.skippedPlatforms.length} colleges skipped (untemplated platforms)` : ""}`
+  );
+
+  // Phase 3
+  if (r.transfers.portal) {
+    const ok = r.transfers.scriptsRun.filter((s) => s.ok).length;
+    const total = r.transfers.scriptsRun.length;
+    lines.push(
+      `Phase 3 — Articulation:     ${r.transfers.portal.name} (${ok}/${total} scripts ran clean)`
+    );
+  } else {
+    lines.push(
+      `Phase 3 — Articulation:     no portal registered${r.transfers.fallbackSuggestion ? `; suggested fallback: ${r.transfers.fallbackSuggestion}` : ""}`
+    );
+  }
+
+  // Phase 4
+  lines.push(
+    `Phase 4 — Prereqs:          ${r.prereqs.aggregated ? "aggregated from inline data" : `not aggregated${r.prereqs.error ? ` (${r.prereqs.error})` : ""}`}`
+  );
+
+  // Manual TODOs
+  if (r.manualTodos.length > 0) {
+    lines.push("");
+    lines.push(`⚠ Manual TODOs (${r.manualTodos.length}):`);
+    for (const t of r.manualTodos) lines.push(`  - ${t}`);
+  } else {
+    lines.push("");
+    lines.push("✅ No manual TODOs surfaced.");
+  }
+
+  // Duration summary
+  if (Object.keys(r.durations).length > 0) {
+    lines.push("");
+    lines.push("Phase durations:");
+    for (const [phase, ms] of Object.entries(r.durations)) {
+      lines.push(`  ${phase.padEnd(20)} ${(ms / 1000).toFixed(1)}s`);
+    }
+  }
+
+  return lines.join("\n");
+}
+
+// ---------------------------------------------------------------------------
+// Main orchestrator
+// ---------------------------------------------------------------------------
+
+export async function addState(
+  opts: AddStateOptions
+): Promise<AddStateResult> {
+  const state = opts.state.toLowerCase();
+  const startedAt = new Date().toISOString();
+  const result: AddStateResult = {
+    state,
+    startedAt,
+    finishedAt: "",
+    bootstrap: null,
+    fingerprint: { byPlatform: {}, flagged: [] },
+    courses: { skippedPlatforms: [] },
+    transfers: { portal: null, scriptsRun: [], fallbackSuggestion: null },
+    prereqs: { aggregated: false },
+    manualTodos: [],
+    durations: {},
+  };
+
+  console.log(`\n🚀 auto-add-state: ${state.toUpperCase()}`);
+  if (opts.dryRun) console.log("    (--dry-run; no files will be written)");
+
+  // Phase 1
+  const t1 = Date.now();
+  try {
+    result.bootstrap = await phaseBootstrap(state, opts, result.manualTodos);
+  } catch (e) {
+    const msg = `bootstrap aborted: ${e}`;
+    console.error(`\n❌ ${msg}`);
+    result.manualTodos.push(`[bootstrap] FATAL: ${msg}`);
+    result.finishedAt = new Date().toISOString();
+    return result;
+  }
+  result.durations["1-bootstrap"] = Date.now() - t1;
+
+  // Phase 2a (fingerprint)
+  const t2a = Date.now();
+  try {
+    result.fingerprint = await phaseFingerprint(
+      state,
+      opts,
+      result.manualTodos
+    );
+  } catch (e) {
+    result.manualTodos.push(`[fingerprint] failed: ${e}`);
+  }
+  result.durations["2a-fingerprint"] = Date.now() - t2a;
+
+  // Phase 2b (course scraping)
+  const t2b = Date.now();
+  try {
+    result.courses = await phaseCourseScraping(
+      state,
+      opts,
+      result.fingerprint.byPlatform,
+      result.manualTodos
+    );
+  } catch (e) {
+    result.manualTodos.push(`[courses] failed: ${e}`);
+  }
+  result.durations["2b-courses"] = Date.now() - t2b;
+
+  // Phase 3 (articulation)
+  const t3 = Date.now();
+  try {
+    result.transfers = await phaseArticulation(state, opts, result.manualTodos);
+  } catch (e) {
+    result.manualTodos.push(`[transfers] failed: ${e}`);
+  }
+  result.durations["3-transfers"] = Date.now() - t3;
+
+  // Phase 4 (prereqs)
+  const t4 = Date.now();
+  try {
+    result.prereqs = await phasePrereqs(state, opts, result.manualTodos);
+  } catch (e) {
+    result.manualTodos.push(`[prereqs] failed: ${e}`);
+  }
+  result.durations["4-prereqs"] = Date.now() - t4;
+
+  result.finishedAt = new Date().toISOString();
+  return result;
+}
+
+// ---------------------------------------------------------------------------
+// CLI
+// ---------------------------------------------------------------------------
+
+interface CliArgs extends AddStateOptions {
+  json: boolean;
+  help: boolean;
+  err?: string;
+}
+
+function parseArgs(argv: string[]): CliArgs {
+  const out: CliArgs = { state: "", json: false, help: false };
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i];
+    if (a === "--state") out.state = argv[++i];
+    else if (a === "--dry-run") out.dryRun = true;
+    else if (a === "--skip-bootstrap") out.skipBootstrap = true;
+    else if (a === "--skip-fingerprint") out.skipFingerprint = true;
+    else if (a === "--skip-courses") out.skipCourses = true;
+    else if (a === "--skip-transfers") out.skipTransfers = true;
+    else if (a === "--skip-prereqs") out.skipPrereqs = true;
+    else if (a === "--college-filter") out.collegeFilter = argv[++i];
+    else if (a === "--ipeds-year") out.ipedsYear = parseInt(argv[++i], 10);
+    else if (a === "--json") out.json = true;
+    else if (a === "--help" || a === "-h") out.help = true;
+    else out.err = `Unknown argument: ${a}`;
+  }
+  return out;
+}
+
+function printHelp() {
+  console.log(`Usage:
+  npx tsx scripts/lib/add-state.ts --state <slug> [options]
+
+Top-level orchestrator for the auto-add-state skill. Runs all 5 phases:
+bootstrap → fingerprint → course scraping → articulation → prereqs.
+
+Options:
+  --state <slug>          Required. Lowercase 2-letter state slug.
+  --dry-run               Plan only; don't write files or run scrapers.
+  --skip-bootstrap        Skip Phase 1 (re-running on existing state).
+  --skip-fingerprint      Skip Phase 2a.
+  --skip-courses          Skip Phase 2b.
+  --skip-transfers        Skip Phase 3.
+  --skip-prereqs          Skip Phase 4.
+  --college-filter <slug> Only fingerprint+scrape this one college.
+  --ipeds-year <YYYY>     Override IPEDS data year (default: latest).
+  --json                  Print structured JSON result instead of report.
+
+Examples:
+  npx tsx scripts/lib/add-state.ts --state oh
+  npx tsx scripts/lib/add-state.ts --state oh --dry-run
+  npx tsx scripts/lib/add-state.ts --state oh --skip-courses --skip-transfers
+  npx tsx scripts/lib/add-state.ts --state oh --college-filter sinclair
+`);
+}
+
+async function main() {
+  const args = parseArgs(process.argv.slice(2));
+  if (args.help || args.err || !args.state) {
+    if (args.err) console.error(`Error: ${args.err}`);
+    if (!args.state && !args.help && !args.err)
+      console.error("Error: --state is required");
+    printHelp();
+    process.exit(args.err || !args.state ? 1 : 0);
+  }
+
+  const result = await addState(args);
+  if (args.json) {
+    console.log(JSON.stringify(result, null, 2));
+    return;
+  }
+  console.log(formatReport(result));
+}
+
+const isMain =
+  import.meta.url.startsWith("file:") &&
+  process.argv[1] &&
+  import.meta.url === `file://${path.resolve(process.argv[1])}`;
+
+if (isMain) {
+  main().catch((e) => {
+    console.error("Fatal:", e);
+    process.exit(1);
+  });
+}
