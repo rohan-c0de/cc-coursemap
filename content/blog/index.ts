@@ -589,6 +589,21 @@ export const articles: ArticleMeta[] = [
     cluster: "prereq-chains-guide",
     clusterRole: "hub",
   },
+  // --- Pipeline batch 2026-05-09d: FL prereq spoke ---
+  {
+    slug: "florida-community-college-prereq-bottlenecks",
+    title:
+      "Florida Community College Prerequisite Chains: How Developmental English Gates 319 Courses Across FCS",
+    description:
+      "ENC 0025 is the most consequential course in Florida's state college system — a prerequisite for 319 other courses. The deepest chain reaches 22 levels into nursing. Here's how FL's prereq structure shapes planning.",
+    date: "2026-05-09",
+    category: "mistake-avoidance",
+    state: "fl",
+    author: "Community College Path",
+    tags: ["prerequisites", "florida", "fcs", "developmental", "bottlenecks", "course-sequence", "nursing"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
   {
     slug: "georgia-community-college-prereq-bottlenecks",
     title:
