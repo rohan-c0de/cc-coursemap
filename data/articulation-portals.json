@@ -70,6 +70,13 @@
       ],
       "notes": "UNC System Course Numbering System covers in-system universities. Per-receiver scripts cover the private/independent destinations CNS doesn't include."
     },
+    "ok": {
+      "type": "state-portal",
+      "name": "Oklahoma Course Equivalency Project (OCEP)",
+      "url": "https://vita.okhighered.org/CourseSearch/",
+      "scripts": ["scripts/ok/scrape-transfer-ocep.ts"],
+      "notes": "Run by the Oklahoma State Regents for Higher Education. Covers OK two-year colleges ↔ OK senior institutions. Public landing: https://okhighered.org/transfer-students/course-transfer/. The referenced script is currently a stub; once a real OCEP scraper is implemented, the orchestrator will start producing OK transfer data automatically."
+    },
     "nh": {
       "type": "mixed",
       "name": "CollegeTransfer.Net + Keene direct",
