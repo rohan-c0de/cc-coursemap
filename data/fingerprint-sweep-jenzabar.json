@@ -1,0 +1,204 @@
+{
+  "$comment": "Per-college jenzabar URLs recovered from sweep re-runs. Use this when building/validating scripts/lib/scrape-jenzabar.ts so we never need to re-sweep the same states. States covered grow as we re-sweep — do not assume completeness; check the swept[] list.",
+  "generatedAt": "2026-05-09",
+  "swept": [
+    "ks",
+    "mi",
+    "sd"
+  ],
+  "jenzabarColleges": {
+    "ks": [
+      {
+        "slug": "allen-county-community-college",
+        "name": "Allen County Community College",
+        "primaryUrl": "allencc.edu",
+        "courseSearchUrl": "https://accportal.jenzabarcloud.com/ICS/Admissions/Admissions_Homepage.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=cdd1b7e4-bea0-466a-a0c4-1f36c4482fbf",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://accportal.jenzabarcloud.com/ICS/Admissions/Admissions_Homepage.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=cdd1b7e4-bea0-466a-a0c4-1f36c4482fbf → https://accportal.jenzabarcloud.com/ICS/Admissions/Admissions_Homepage.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=cdd1b7e4-bea0-466a-a0c4-1f36c4482fbf (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "cowley-county-community-college",
+        "name": "Cowley County Community College",
+        "primaryUrl": "cowley.edu",
+        "courseSearchUrl": "https://mycc.cowley.edu/ICS/Admissions/",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://mycc.cowley.edu/ICS/Admissions/ → https://mycc.cowley.edu/ICS/Admissions/ (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "dodge-city-community-college",
+        "name": "Dodge City Community College",
+        "primaryUrl": "dc3.edu",
+        "courseSearchUrl": "https://conqs.dc3.edu/ICS/Admissions/",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://conqs.dc3.edu/ICS/Admissions/ → https://conqs.dc3.edu/ICS/Admissions/ (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "flint-hills-technical-college",
+        "name": "Flint Hills Technical College",
+        "primaryUrl": "fhtc.edu",
+        "courseSearchUrl": "https://my.fhtc.edu/ICS/Careers/",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://my.fhtc.edu/ICS/Careers/ → https://my.fhtc.edu/ICS/Careers/ (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "fort-scott-community-college",
+        "name": "Fort Scott Community College",
+        "primaryUrl": "fortscott.edu",
+        "courseSearchUrl": "https://my.fortscott.edu/ICS/Course_Schedule.jnz",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://my.fortscott.edu/ICS/Course_Schedule.jnz → https://my.fortscott.edu/ICS/Course_Schedule.jnz (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "labette-community-college",
+        "name": "Labette Community College",
+        "primaryUrl": "labette.edu",
+        "courseSearchUrl": "https://redzone.labette.edu/ICS/Admissions/Admission_Information.jnz?portlet=Apply_Online_2.0",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://redzone.labette.edu/ICS/Admissions/Admission_Information.jnz?portlet=Apply_Online_2.0 → https://redzone.labette.edu/ICS/Admissions/Admission_Information.jnz?portlet=Apply_Online_2.0 (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "neosho-county-community-college",
+        "name": "Neosho County Community College",
+        "primaryUrl": "neosho.edu",
+        "courseSearchUrl": "https://web.neosho.edu/ICS/Guest_Home.jnz?portlet=Course_Schedules&screen=Advanced+Course+Search&screenType=next",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://web.neosho.edu/ICS/Guest_Home.jnz?portlet=Course_Schedules&screen=Advanced+Course+Search&screenType=next → https://web.neosho.edu/ICS/Guest_Home.jnz?portlet=Course_Schedules&screen=Advanced+Course+Search&screenType=next (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      }
+    ],
+    "mi": [
+      {
+        "slug": "bay-de-noc-community-college",
+        "name": "Bay de Noc Community College",
+        "primaryUrl": "baycollege.edu",
+        "courseSearchUrl": "https://mybay.baycollege.edu/ICS/Apply/",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://mybay.baycollege.edu/ICS/Apply/ → https://mybay.baycollege.edu/ICS/Apply/ (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "gogebic-community-college",
+        "name": "Gogebic Community College",
+        "primaryUrl": "gogebic.edu",
+        "courseSearchUrl": "https://gccics.gogebic.edu/ICS/",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://gccics.gogebic.edu/ICS/ → https://gccics.gogebic.edu/ICS/ (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "keweenaw-bay-ojibwa-community-college",
+        "name": "Keweenaw Bay Ojibwa Community College",
+        "primaryUrl": "kbocc.edu",
+        "courseSearchUrl": "https://my.kbocc.edu/ICS/Financial_Aid/",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://my.kbocc.edu/ICS/Financial_Aid/ → https://my.kbocc.edu/ICS/Financial_Aid/ (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "kirtland-community-college",
+        "name": "Kirtland Community College",
+        "primaryUrl": "kirtland.edu",
+        "courseSearchUrl": "https://my.kirtland.edu/ICS/",
+        "confidence": "high",
+        "evidence": [
+          "HTTP 200 at https://my.kirtland.edu/ICS/",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "montcalm-community-college",
+        "name": "Montcalm Community College",
+        "primaryUrl": "montcalm.edu",
+        "courseSearchUrl": "https://my.montcalm.edu/ICS/Academics/?portlet=Student_Registration&amp;screen=StudentRegistrationPortlet_CourseSearchView&amp;screenType=next",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://my.montcalm.edu/ICS/Academics/?portlet=Student_Registration&amp;screen=StudentRegistrationPortlet_CourseSearchView&amp;screenType=next → https://my.montcalm.edu/ICS/Academics/?portlet=Student_Registration&amp;screen=StudentRegistrationPortlet_CourseSearchView&amp;screenType=next (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "north-central-michigan-college",
+        "name": "North Central Michigan College",
+        "primaryUrl": "ncmich.edu",
+        "courseSearchUrl": "https://my.ncmich.edu/ICS/Schedule.jnz?portlet=AddDrop_Courses&amp;screen=Advanced+Course+Search&amp;screenType=next",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://my.ncmich.edu/ICS/Schedule.jnz?portlet=AddDrop_Courses&amp;screen=Advanced+Course+Search&amp;screenType=next → https://my.ncmich.edu/ICS/Schedule.jnz?portlet=AddDrop_Courses&amp;screen=Advanced+Course+Search&amp;screenType=next (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      }
+    ],
+    "sd": [
+      {
+        "slug": "lake-area-technical-college",
+        "name": "Lake Area Technical College",
+        "primaryUrl": "lakeareatech.edu",
+        "courseSearchUrl": "https://my.lakeareatech.edu/ICS/",
+        "confidence": "high",
+        "evidence": [
+          "HTTP 200 at https://my.lakeareatech.edu/ICS/",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "sisseton-wahpeton-college",
+        "name": "Sisseton Wahpeton College",
+        "primaryUrl": "swcollege.edu",
+        "courseSearchUrl": "https://my.swcollege.edu/ICS/",
+        "confidence": "high",
+        "evidence": [
+          "HTTP 200 at https://my.swcollege.edu/ICS/",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "southeast-technical-college",
+        "name": "Southeast Technical College",
+        "primaryUrl": "southeasttech.edu",
+        "courseSearchUrl": "https://my.southeasttech.edu/ICS/Admissions/Course_Schedule.jnz",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://stinet.southeasttech.edu/ICS/Admissions/Course_Schedule.jnz → https://my.southeasttech.edu/ICS/Admissions/Course_Schedule.jnz (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      },
+      {
+        "slug": "western-dakota-technical-college",
+        "name": "Western Dakota Technical College",
+        "primaryUrl": "wdt.edu",
+        "courseSearchUrl": "https://my.wdt.edu/ICS/Portal_Homepage.jnz",
+        "confidence": "high",
+        "evidence": [
+          "homepage link https://my.wdt.edu/ICS/Portal_Homepage.jnz → https://my.wdt.edu/ICS/Portal_Homepage.jnz (HTTP 200)",
+          "body contains marker: Jenzabar"
+        ]
+      }
+    ]
+  }
+}
