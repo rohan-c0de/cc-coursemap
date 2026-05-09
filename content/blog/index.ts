@@ -277,9 +277,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "when-do-community-college-schedules-go-live",
     title:
-      "When Do Community College Class Schedules Usually Go Live?",
+      "Community College Class Schedules: Typical Times and When They Go Live",
     description:
-      "Course schedules typically post 2–4 months before the semester. Here's the general timeline and how to plan before the schedule drops.",
+      "Most community college classes run in morning (8–noon), afternoon (noon–5pm), or evening (5–9:30pm) blocks. Here's what to expect for class times — and when the schedule for next semester posts.",
     date: "2026-04-04",
     category: "registration-timing",
     state: null,
@@ -447,9 +447,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-jersey-community-college-transfer-credit-guide",
     title:
-      "NJTransfer.org Explained: How NJ Community College Transfer Credit Actually Works",
+      "NJ Community College Transfer Credits: Where Your Courses Go at Rutgers, Rowan & 38 More Schools",
     description:
-      "NJTransfer.org shows equivalencies for 40 NJ universities — but the same course can be a direct match at Rowan (96%) and worth nothing at Rutgers Engineering (13%). Here's how to read it.",
+      "NJTransfer.org publishes course equivalencies for every NJ community college at 40 four-year schools. Here's which universities accept the most credits — and why the same course counts at Rowan but not at Rutgers Engineering.",
     date: "2026-04-12",
     category: "state-system-explainers",
     state: "nj",
