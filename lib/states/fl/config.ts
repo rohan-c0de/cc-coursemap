@@ -75,6 +75,9 @@ const flConfig: StateConfig = {
       // Workday, custom apps, or are auth-gated; those will land in
       // separate scrapers as Phase 2 follow-up PRs.
       { scripts: ["scripts/fl/scrape-banner-ssb.ts"], runner: "http" },
+      // Banner 8 (legacy) — fgc + cfk, the only two FCS colleges on
+      // classic Banner. Uses the shared template at lib/scrape-banner-8.
+      { scripts: ["scripts/fl/scrape-banner8.ts"], runner: "http" },
     ],
     transfers: [
       // SCNS flat-file dump — single 80 MB download, no auth, covers all
