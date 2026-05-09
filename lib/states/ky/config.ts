@@ -36,13 +36,19 @@ const kyConfig: StateConfig = {
     ],
   },
   scrapers: {
-    // manual-only: courses — KCTCS uses PeopleSoft Campus Solutions (auth-gated).
-    //   No template available yet; per-college scrapers needed once a public
-    //   guest endpoint or system-wide scraper is built. See PR description.
+    // KCTCS exposes a public read-only class-search JSON API at
+    // class-search.kctcsweb.com. One scraper covers all 16 colleges by
+    // paginating through the system-wide search and partitioning results
+    // by campus code (issue #289 build decision). The scraper auto-
+    // discovers terms via /api/terms, so no termSystem registration is
+    // needed.
+    courses: [
+      { scripts: ["scripts/ky/scrape-courses.ts"], runner: "http" },
+    ],
+    prereqs: { source: "aggregate-from-courses" },
     // manual-only: transfers — no entry in data/articulation-portals.json for KY.
     //   Fallback options: KYTransfer.org (transfer.ky.gov) state portal, or
     //   CollegeTransfer.Net per-college lookup.
-    // manual-only: prereqs — depends on courses (Phase 2) landing first.
     // manual-only: programs — Phase 5+.
   },
 };
