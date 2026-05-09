@@ -1,0 +1,51 @@
+import type { StateConfig } from "../registry";
+
+const msConfig: StateConfig = {
+  slug: "ms",
+  name: "Mississippi",
+  systemName: "MCCB",
+  systemFullName: "Mississippi Community College Board",
+  systemUrl: "https://www.mccb.edu/",
+  collegeCount: 15,
+
+  // TODO: research senior-waiver statute for MS. Mississippi does not appear
+  // to have a statewide senior tuition waiver statute for community colleges.
+  // Individual colleges may offer senior discounts — verify before populating.
+  seniorWaiver: null,
+
+  transferSupported: false,
+  popularCourses: [],
+  defaultZip: "39201",
+  defaultZipCity: "Jackson",
+
+  courseDiscoveryUrl: (_collegeSlug: string, _prefix: string, _number: string) =>
+    "https://www.mccb.edu/",
+
+  collegeCoursesUrl: (_collegeSlug: string) =>
+    "https://www.mccb.edu/",
+
+  branding: {
+    siteName: "Community College Path Mississippi",
+    tagline: "Search MCCB courses across all 15 Mississippi community colleges.",
+    footerText: "Community College Path Mississippi — Find courses across all 15 MCCB colleges.",
+    disclaimer: "This is an independent project and is not affiliated with, endorsed by, or sponsored by the Mississippi Community College Board (MCCB).",
+    metaKeywords: [
+      "Mississippi community college courses",
+      "MCCB course search",
+      "Mississippi Community College Board",
+    ],
+  },
+  scrapers: {
+    // manual-only: courses — Phase 2 (course scraper) not yet wired up.
+    //   MS colleges use a mix of platforms (Colleague, Banner SSB 9,
+    //   Banner 8, Jenzabar, custom). SIS fingerprinting identifies each
+    //   college's platform for targeted scraping.
+    // manual-only: transfers — Phase 3. Mississippi runs MTAG
+    //   (Mississippi Transfer Agreement Guide) — check as a potential
+    //   Phase 3 source for state-level articulation data.
+    // manual-only: prereqs — Phase 4.
+    // manual-only: programs — Phase 5+.
+  },
+};
+
+export default msConfig;

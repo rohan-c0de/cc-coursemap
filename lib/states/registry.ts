@@ -136,6 +136,7 @@ import wvConfig from "./wv/config";
 import flConfig from "./fl/config";
 import kyConfig from "./ky/config";
 import alConfig from "./al/config";
+import msConfig from "./ms/config";
 
 const ALL_CONFIGS: StateConfig[] = [
   vaConfig,
@@ -159,6 +160,7 @@ const ALL_CONFIGS: StateConfig[] = [
   flConfig,
   kyConfig,
   alConfig,
+  msConfig,
 ];
 
 const configs: Record<string, StateConfig> = Object.fromEntries(
