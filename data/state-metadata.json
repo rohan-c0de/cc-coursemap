@@ -150,6 +150,16 @@
         "bannerDetail": "Maine law waives community-college tuition for residents 65+ who enroll on a space-available basis. Course fees and books are not included."
       }
     },
+    "ms": {
+      "fullName": "Mississippi",
+      "fipsCode": "28",
+      "systemName": "MCCB",
+      "systemFullName": "Mississippi Community College Board",
+      "systemUrl": "https://www.mccb.edu/",
+      "defaultZip": "39201",
+      "defaultZipCity": "Jackson",
+      "seniorWaiver": null
+    },
     "nc": {
       "fullName": "North Carolina",
       "fipsCode": "37",
