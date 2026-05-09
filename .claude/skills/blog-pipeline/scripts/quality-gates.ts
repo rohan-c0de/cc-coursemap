@@ -48,10 +48,13 @@ const TOOL_LINK_PATTERNS = [
 ];
 
 function wordCount(mdx: string): number {
-  // Strip frontmatter and JSX tags before counting
+  // Strip frontmatter and JSX tags before counting. The JSX regex requires
+  // the tag start with `<` (or `</`) immediately followed by a letter, so
+  // bare `<` characters in prose ("< 7% hybrid") and tables don't trigger
+  // a greedy multi-line match that swallows real article content.
   const body = mdx
     .replace(/^---[\s\S]*?---/, "")
-    .replace(/<[^>]+>/g, " ")
+    .replace(/<\/?[A-Za-z][^>]*>/g, " ")
     .replace(/```[\s\S]*?```/g, " ");
   return body.trim().split(/\s+/).filter(Boolean).length;
 }
