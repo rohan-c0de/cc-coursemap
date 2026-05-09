@@ -16,13 +16,52 @@ type Candidate = {
   topic: string;
   targetReader: string;
   searchIntentHypothesis: string;
-  articleType: "state-spoke";
+  articleType: "state-spoke" | "college-spoke";
   state: string;
+  college?: string;
   cluster: string;
   nonDuplicateRationale: string;
   dataSlicePaths: string[];
   rankScore: number;
 };
+
+type Institution = {
+  id?: string;
+  college_slug?: string;
+  name: string;
+  audit_policy?: {
+    allowed?: boolean;
+    cost_model?: string;
+    application_process?: {
+      steps?: string[];
+      contact_email?: string;
+      contact_phone?: string;
+    };
+    eligibility?: {
+      senior_discount?: { available?: boolean };
+    };
+  };
+};
+
+function readInstitutions(stateSlug: string): Institution[] {
+  const path = resolve(REPO_ROOT, `data/${stateSlug}/institutions.json`);
+  if (!existsSync(path)) return [];
+  try {
+    const data = JSON.parse(readFileSync(path, "utf-8"));
+    return Array.isArray(data) ? data : [];
+  } catch {
+    return [];
+  }
+}
+
+function hasRichAuditPolicy(inst: Institution): boolean {
+  const ap = inst.audit_policy;
+  if (!ap?.allowed) return false;
+  const proc = ap.application_process;
+  if (!proc?.steps || proc.steps.length < 3) return false;
+  if (!proc.contact_email) return false;
+  return true;
+}
 
 function transferEquivCount(stateSlug: string): number {
   const path = resolve(REPO_ROOT, `data/${stateSlug}/transfer-equiv.json`);
@@ -74,6 +113,45 @@ function detect(): Candidate[] {
     const isSessionTheme =
       hub.category === "session-timing" ||
       hub.tags.includes("session-timing");
+    const isAuditAtCollegeTheme = cluster === "audit-at-college-guide";
+
+    if (isAuditAtCollegeTheme) {
+      // Per-college spokes — one candidate per qualifying college, not
+      // per state. The hub answers "what is auditing"; spokes answer
+      // "how do I audit at THIS college" using the institution's actual
+      // audit_policy data (cost, contact email, application steps).
+      const coveredColleges = new Set(
+        spokes
+          .map((s) => s.college)
+          .filter((c): c is string => Boolean(c))
+      );
+      for (const s of states) {
+        const insts = readInstitutions(s.slug);
+        for (const inst of insts) {
+          const collegeSlug = inst.college_slug ?? inst.id;
+          if (!collegeSlug) continue;
+          if (coveredColleges.has(collegeSlug)) continue;
+          if (!hasRichAuditPolicy(inst)) continue;
+          candidates.push({
+            triggerSource: "cluster-gap",
+            topic: `${inst.name}: state-specific audit guide for "${hub.title}"`,
+            targetReader: `${s.name} community college student or ${s.name} resident considering auditing a course at ${inst.name}`,
+            searchIntentHypothesis: `User searching "audit class ${inst.name.toLowerCase()}" or "${inst.name.toLowerCase()} audit cost" wants to know whether ${inst.name} accepts auditors, what it costs, and how to apply`,
+            articleType: "college-spoke",
+            state: s.slug,
+            college: collegeSlug,
+            cluster,
+            nonDuplicateRationale: `Cluster "${cluster}" has ${spokes.length} spoke(s); none for college "${collegeSlug}". Institution has rich audit_policy data (allowed=true, application steps >= 3, contact email present).`,
+            dataSlicePaths: [
+              `data/${s.slug}/institutions.json#${collegeSlug}`,
+              `lib/states/${s.slug}/config.ts`,
+            ],
+            rankScore: 100 + (inst.audit_policy?.eligibility?.senior_discount?.available ? 50 : 0),
+          });
+        }
+      }
+      continue;
+    }
 
     if (!isTransferTheme && !isSeniorTheme && !isSessionTheme) continue;
 

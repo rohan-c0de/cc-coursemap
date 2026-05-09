@@ -13,6 +13,11 @@ export type ArticleMeta = {
   date: string;
   category: string;
   state: string | null; // null = general, "va" = Virginia-specific, etc.
+  // Optional college binding for college-specific spokes. The post still
+  // routes under its `state` (renderer uses StateToolsCTA for state); the
+  // college slug ties the article to a specific institution for cluster
+  // gap detection and cross-linking.
+  college?: string;
   author: string;
   tags: string[];
   cluster?: string; // optional cluster ID for hub/spoke linking
@@ -196,7 +201,7 @@ export const articles: ArticleMeta[] = [
     clusterRole: "spoke",
   },
 
-  // --- Standalone: Auditing explainer ---
+  // --- Cluster E: Auditing-at-college (hub + future per-college spokes) ---
   {
     slug: "what-does-audit-a-class-mean",
     title:
@@ -208,6 +213,8 @@ export const articles: ArticleMeta[] = [
     state: null,
     author: "Community College Path",
     tags: ["auditing", "audit-vs-credit", "community-college"],
+    cluster: "audit-at-college-guide",
+    clusterRole: "hub",
   },
 
   // --- Standalone: Registration timing ---
