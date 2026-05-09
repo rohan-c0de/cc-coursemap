@@ -340,26 +340,30 @@ export function parsePrereqHtml(
 // Banner API helpers
 // ---------------------------------------------------------------------------
 
-export async function getTerms(baseUrl: string): Promise<BannerTerm[]> {
+export async function getTerms(baseUrl: string, mepCode?: string): Promise<BannerTerm[]> {
+  const mep = mepCode ? `&mepCode=${mepCode}` : "";
   const res = await fetch(
-    `${baseUrl}/StudentRegistrationSsb/ssb/classSearch/getTerms?searchTerm=&offset=1&max=30`
+    `${baseUrl}/StudentRegistrationSsb/ssb/classSearch/getTerms?searchTerm=&offset=1&max=30${mep}`
   );
   return res.json();
 }
 
 export async function initSession(
   baseUrl: string,
-  termCode: string
+  termCode: string,
+  mepCode?: string
 ): Promise<string> {
+  const mep = mepCode ? `?mepCode=${mepCode}` : "";
   const res1 = await fetch(
-    `${baseUrl}/StudentRegistrationSsb/ssb/classSearch/classSearch`,
+    `${baseUrl}/StudentRegistrationSsb/ssb/classSearch/classSearch${mep}`,
     { redirect: "manual" }
   );
   const setCookies = res1.headers.getSetCookie?.() || [];
   const cookies = setCookies.map((c) => c.split(";")[0]).join("; ");
 
+  const mepAmp = mepCode ? `&mepCode=${mepCode}` : "";
   await fetch(
-    `${baseUrl}/StudentRegistrationSsb/ssb/term/search?mode=search`,
+    `${baseUrl}/StudentRegistrationSsb/ssb/term/search?mode=search${mepAmp}`,
     {
       method: "POST",
       headers: {
@@ -376,12 +380,14 @@ export async function initSession(
 export async function buildSubjectMap(
   baseUrl: string,
   termCode: string,
-  cookies: string
+  cookies: string,
+  mepCode?: string
 ): Promise<Map<string, string>> {
   const map = new Map<string, string>();
+  const mep = mepCode ? `&mepCode=${mepCode}` : "";
   try {
     const res = await fetch(
-      `${baseUrl}/StudentRegistrationSsb/ssb/classSearch/get_subject?term=${termCode}&offset=1&max=500`,
+      `${baseUrl}/StudentRegistrationSsb/ssb/classSearch/get_subject?term=${termCode}&offset=1&max=500${mep}`,
       { headers: { Cookie: cookies } }
     );
     const subjects: { code: string; description: string }[] = await res.json();
@@ -399,13 +405,15 @@ export async function searchSections(
   baseUrl: string,
   termCode: string,
   cookies: string,
-  log?: (msg: string) => void
+  log?: (msg: string) => void,
+  mepCode?: string
 ): Promise<BannerSection[]> {
   const all: BannerSection[] = [];
   let offset = 0;
+  const mep = mepCode ? `&mepCode=${mepCode}` : "";
 
   while (true) {
-    const url = `${baseUrl}/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_term=${termCode}&pageOffset=${offset}&pageMaxSize=${PAGE_SIZE}&sortColumn=subjectDescription&sortDirection=asc`;
+    const url = `${baseUrl}/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_term=${termCode}&pageOffset=${offset}&pageMaxSize=${PAGE_SIZE}&sortColumn=subjectDescription&sortDirection=asc${mep}`;
     const res = await fetch(url, { headers: { Cookie: cookies } });
     const data = await res.json();
 
@@ -426,7 +434,8 @@ export async function fetchPrerequisites(
   sections: BannerSection[],
   cookies: string,
   subjectMap: Map<string, string>,
-  log?: (msg: string) => void
+  log?: (msg: string) => void,
+  mepCode?: string
 ): Promise<Map<string, PrereqInfo>> {
   const courseMap = new Map<string, string>();
   for (const s of sections) {
@@ -446,7 +455,7 @@ export async function fetchPrerequisites(
       batch.map(async ([courseKey, crn]) => {
         try {
           const res = await fetch(
-            `${baseUrl}/StudentRegistrationSsb/ssb/searchResults/getSectionPrerequisites?term=${termCode}&courseReferenceNumber=${crn}`,
+            `${baseUrl}/StudentRegistrationSsb/ssb/searchResults/getSectionPrerequisites?term=${termCode}&courseReferenceNumber=${crn}${mepCode ? `&mepCode=${mepCode}` : ""}`,
             { headers: { Cookie: cookies } }
           );
           const html = await res.text();
@@ -537,12 +546,19 @@ export interface ScrapeCollegeOptions {
   dryRun?: boolean;
   /** When true, suppress per-term progress logging. */
   silent?: boolean;
+  /**
+   * Multi-institution Banner instances (e.g. Alabama's OneACCS) serve
+   * multiple colleges from a single host, distinguished by a `mepCode`
+   * query parameter on every API call. When set, this value is appended
+   * to all Banner SSB API URLs.
+   */
+  mepCode?: string;
 }
 
 export async function scrapeBannerSsbCollege(
   opts: ScrapeCollegeOptions
 ): Promise<ScrapeCollegeResult> {
-  const { state, slug, baseUrl, hooks = {}, dryRun = false, silent = false } = opts;
+  const { state, slug, baseUrl, hooks = {}, dryRun = false, silent = false, mepCode } = opts;
   const log = silent ? () => {} : (m: string) => console.log(m);
   const result: ScrapeCollegeResult = {
     slug,
@@ -557,7 +573,7 @@ export async function scrapeBannerSsbCollege(
   let terms: BannerTerm[];
   try {
     log("  Fetching available terms...");
-    terms = await getTerms(baseUrl);
+    terms = await getTerms(baseUrl, mepCode);
   } catch (e) {
     const msg = `Could not connect to ${baseUrl}: ${e}`;
     log(`  ERROR: ${msg}`);
@@ -594,11 +610,11 @@ export async function scrapeBannerSsbCollege(
     log(`\n  Scraping ${term.description} (${term.code} → ${standardTerm})...`);
 
     try {
-      const cookies = await initSession(baseUrl, term.code);
-      const subjectMap = await buildSubjectMap(baseUrl, term.code, cookies);
+      const cookies = await initSession(baseUrl, term.code, mepCode);
+      const subjectMap = await buildSubjectMap(baseUrl, term.code, cookies, mepCode);
       log(`  Built subject map: ${subjectMap.size} subjects`);
 
-      const sections = await searchSections(baseUrl, term.code, cookies, log);
+      const sections = await searchSections(baseUrl, term.code, cookies, log, mepCode);
       if (sections.length === 0) {
         log(`  No sections found for ${term.description}`);
         continue;
@@ -610,7 +626,8 @@ export async function scrapeBannerSsbCollege(
         sections,
         cookies,
         subjectMap,
-        log
+        log,
+        mepCode
       );
       log(`  Found prerequisites for ${prereqs.size} courses (Banner)`);
 
