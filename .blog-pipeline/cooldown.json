@@ -139,6 +139,21 @@
       "slug": "danville-community-college-audit-class-guide",
       "draftedAt": "2026-05-10T01:00:00Z",
       "trigger": "cluster-gap"
+    },
+    {
+      "slug": "georgia-community-college-prereq-bottlenecks",
+      "draftedAt": "2026-05-10T03:00:00Z",
+      "trigger": "prereq-bottleneck"
+    },
+    {
+      "slug": "maryland-community-college-prereq-bottlenecks",
+      "draftedAt": "2026-05-10T03:00:00Z",
+      "trigger": "prereq-bottleneck"
+    },
+    {
+      "slug": "north-carolina-community-college-prereq-bottlenecks",
+      "draftedAt": "2026-05-10T03:00:00Z",
+      "trigger": "prereq-bottleneck"
     }
   ]
 }
