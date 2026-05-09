@@ -43,6 +43,7 @@ Run the detectors in parallel. Each returns 0..N candidate briefs. See `referenc
 npx tsx .claude/skills/blog-pipeline/scripts/detect-cluster-gaps.ts > /tmp/blog-candidates-c.json
 npx tsx .claude/skills/blog-pipeline/scripts/detect-data-deltas.ts > /tmp/blog-candidates-a.json
 npx tsx .claude/skills/blog-pipeline/scripts/detect-prereq-bottlenecks.ts > /tmp/blog-candidates-d.json
+npx tsx .claude/skills/blog-pipeline/scripts/detect-hybrid-density.ts > /tmp/blog-candidates-e.json
 # Trigger B (keyword/search) — see references/triggers.md for CSV + GSC sources
 ```
 
@@ -72,7 +73,7 @@ Apply the rules below in order. They override rankScore.
 
 Before ranking, check spoke counts per cluster in `content/blog/index.ts`. A cluster with **≥ 6 existing spokes is saturated** for the purposes of automated drafting. Drop ALL candidates from saturated clusters from this run, even if they top the rankScore list. Saturation isn't permanent — a future run can revisit once the corpus shape changes — but each pipeline batch should never deepen an already-deep cluster while shallow themes have zero spokes.
 
-As of 2026-05-10, saturated clusters: `senior-waivers-guide` (13), `transfer-credit-guide` (18), `session-timing-guide` (8), `audit-at-college-guide` (9). Skip candidates pointing at these in the next run; surface that decision in the run summary so the human sees it.
+As of 2026-05-10, saturated clusters: `senior-waivers-guide` (13), `transfer-credit-guide` (18), `session-timing-guide` (8), `audit-at-college-guide` (9). Non-saturated clusters with hubs ready for spokes: `prereq-chains-guide` (3 spokes; detector: `detect-prereq-bottlenecks.ts`), `hybrid-course-density-guide` (0 spokes; detector: `detect-hybrid-density.ts`). Skip candidates pointing at saturated clusters in the next run; surface that decision in the run summary so the human sees it.
 
 If every remaining candidate sits in a saturated cluster, **stop and report** — that's the signal to add a new hub or detector before drafting more.
 
@@ -88,7 +89,7 @@ If two candidates tie on cluster-non-saturation, pick the one whose data slice h
 
 As of 2026-05-10:
 - ✅ Heavily covered: transfer confusion, senior waivers, session timing
-- ⚠️ Lightly covered: prereq sequencing (1 hub, 0 spokes), registration timing (1 hub, 0 spokes), online vs in-person (1 hub, 0 spokes), academic calendar (covered via session-timing already)
+- ⚠️ Lightly covered: prereq sequencing (1 hub, 3 spokes — detector ready), online vs hybrid (1 hub, 0 spokes — detector ready), registration timing (1 hub, 0 spokes), academic calendar (covered via session-timing already)
 - ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), course availability patterns, instructor density, program-level content, mistake-avoidance beyond prereqs
 
 The next batches should disproportionately fill the lightly- and zero-covered themes. That's where the real editorial value sits.
@@ -188,7 +189,7 @@ These map to BRIEF.md theme areas with 0 or 1 spokes. Each, once seeded with a h
 |---|---|---|---|
 | `prereq-chains-guide` (hub exists) | (existing) | ✅ `detect-prereq-bottlenecks.ts` | §7 Prereqs |
 | `course-availability-guide` | "How to Find a Specific Community College Course This Term" | new: scan `data/{state}/courses/` for course-by-term coverage gaps; emit per-state spoke when ≥ 3 popular gen-eds run at < 50% of state's colleges in any term | §2 Registration timing |
-| `hybrid-course-density-guide` | "Hybrid Courses at Community Colleges: Where They're Common, Where They're Rare" | new: aggregate `mode` field across `data/{state}/courses/`; emit state spokes for colleges where hybrid > 20% or < 5% of sections | §8 Online vs hybrid |
+| `hybrid-course-density-guide` (hub exists; spokes pending) | (existing) | ✅ `detect-hybrid-density.ts` | §8 Online vs hybrid |
 | `late-start-by-state-guide` | (existing standalone `how-to-find-late-start-community-college-classes` could become hub) | new: count distinct start dates after week 2 of term per state; emit per-state spokes | §2 Registration timing |
 | `cross-college-scheduling-guide` | "Taking Classes at More Than One Community College" (existing standalone) | (no detector needed; per-state spokes editorially driven) | §3 Cross-college |
 | `transfer-receiver-patterns-guide` | "Which Universities Are the Toughest Transfer Receivers in [State]?" | new: aggregate `data/{state}/transfer-equiv.json` per receiver, score by % direct match; emit state-by-receiver spoke candidates | §1 Transfer confusion |
@@ -237,6 +238,7 @@ If you (Claude) are invoked from inside the workflow, behave identically to a ma
 | `scripts/detect-cluster-gaps.ts` | Trigger C — find hubs with missing state spokes; for the `audit-at-college-guide` cluster, surfaces per-college spokes for institutions with rich `audit_policy` data. Detectors return rankScore by data-presence; Stage 2 (Prioritize) is responsible for editorial-value filtering on top |
 | `scripts/detect-data-deltas.ts` | Trigger A — diff current data against last snapshot |
 | `scripts/detect-prereq-bottlenecks.ts` | Trigger D — mine `data/{state}/prereqs.json` for chain depth and blocker courses; emits a candidate per state with ≥5 chains of depth ≥3, plus a precomputed stats slice the drafter must consume. Pattern template for future data-driven detectors |
+| `scripts/detect-hybrid-density.ts` | Trigger E — mine `data/{state}/courses/<college>/<term>.json` for hybrid/online/in-person mode share; emits a candidate per state where hybrid ≥ 3% of sections, plus a precomputed stats slice. The 3% threshold filters out states where hybrid is unmarked (FL, TN, GA, CT, DE, DC categorize blended sections as in-person rather than hybrid in scraped data) |
 | `scripts/snapshot-state.ts` | Capture current registry/data state |
 | `scripts/quality-gates.ts` | Run all quality gates against a draft |
 
