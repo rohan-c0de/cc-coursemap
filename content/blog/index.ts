@@ -571,7 +571,7 @@ export const articles: ArticleMeta[] = [
     clusterRole: "spoke",
   },
 
-  // --- Cluster D: Prereq chains (hub + future state spokes) ---
+  // --- Cluster D: Prereq chains (hub + state-specific spokes) ---
   {
     slug: "prerequisite-chains-why-four-semester-plans-take-six",
     title:
@@ -585,6 +585,48 @@ export const articles: ArticleMeta[] = [
     tags: ["prerequisites", "planning", "two-year-degree", "course-sequence", "developmental"],
     cluster: "prereq-chains-guide",
     clusterRole: "hub",
+  },
+  {
+    slug: "georgia-community-college-prereq-bottlenecks",
+    title:
+      "Georgia TCSG Prereq Chains: How Developmental English Gates 1,400+ Downstream Courses",
+    description:
+      "Across the 22 colleges of TCSG, developmental English and reading courses sit at the base of prereq chains for 1,400+ downstream courses. Here's how the chains are structured and how to sequence around them.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "ga",
+    author: "Community College Path",
+    tags: ["prerequisites", "georgia", "tcsg", "developmental", "bottlenecks", "course-sequence"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "maryland-community-college-prereq-bottlenecks",
+    title:
+      "Maryland Community College Prereq Chains: How ESOL and Dev English Gate 400+ Downstream Courses",
+    description:
+      "Across MD's 16 community colleges, ESOL and developmental English courses gate 400+ downstream courses. Surgical Tech and Nursing chains run 14 levels deep. Here's how to sequence around them.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "md",
+    author: "Community College Path",
+    tags: ["prerequisites", "maryland", "esol", "developmental", "bottlenecks", "course-sequence"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "north-carolina-community-college-prereq-bottlenecks",
+    title:
+      "North Carolina Community College Prereq Chains: How ACA 085 and Dev English Gate 900+ Downstream Courses",
+    description:
+      "Across NCCCS's 58 colleges, ACA 085 (academic orientation) and developmental English gate 900+ downstream courses. Nursing and EMS chains run 15 levels deep. Here's how to sequence around them.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "nc",
+    author: "Community College Path",
+    tags: ["prerequisites", "north-carolina", "ncccs", "developmental", "bottlenecks", "course-sequence"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
   },
 
   // --- Cluster A spoke: transfer equivalency reading ---
