@@ -628,6 +628,60 @@ export const articles: ArticleMeta[] = [
     cluster: "prereq-chains-guide",
     clusterRole: "spoke",
   },
+  {
+    slug: "south-carolina-technical-college-prereq-bottlenecks",
+    title:
+      "South Carolina SCCTCS Prereq Chains: How RDG 100 and Dev English Gate 460+ Downstream Courses",
+    description:
+      "Across SCCTCS colleges, RDG 100 and developmental English gate 460+ downstream courses. The nursing chain runs 21 levels deep. Here's how to sequence around the bottlenecks.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "sc",
+    author: "Community College Path",
+    tags: ["prerequisites", "south-carolina", "scctcs", "developmental", "bottlenecks", "course-sequence"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "delaware-technical-community-college-prereq-bottlenecks",
+    title:
+      "Delaware Technical Community College Prereq Chains: How SSC 100 Gates 606 Downstream Courses",
+    description:
+      "At Del Tech, SSC 100 sits upstream of 606 courses statewide — more than any English or math prereq. Engineering and MLT chains reach depth 9. Here's what to map before registering.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "de",
+    author: "Community College Path",
+    tags: ["prerequisites", "delaware", "dtcc", "developmental", "bottlenecks", "course-sequence"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "massachusetts-community-college-prereq-bottlenecks",
+    title:
+      "Massachusetts Community College Prereq Chains: How Dev English Gates 400+ Downstream Courses",
+    description:
+      "Across MA community colleges, ENG 109 and related developmental courses gate 400+ downstream courses. Nursing chains reach depth 13. The English sequence is the primary planning variable.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "ma",
+    author: "Community College Path",
+    tags: ["prerequisites", "massachusetts", "mcccs", "developmental", "bottlenecks", "course-sequence"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "last-day-to-add-drop-community-college-class",
+    title:
+      "What Is the Last Day to Add a Class at Community College? How Add/Drop Deadlines Work",
+    description:
+      "The add deadline is usually 1-2 weeks into the semester for full-term courses — but just days for late-start sections. Here's how the three key deadlines work and how to find yours.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: null,
+    author: "Community College Path",
+    tags: ["add-drop", "registration", "deadlines", "late-start", "financial-aid"],
+  },
 
   // --- Cluster A spoke: transfer equivalency reading ---
   {
