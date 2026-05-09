@@ -564,7 +564,7 @@ export const articles: ArticleMeta[] = [
     clusterRole: "spoke",
   },
 
-  // --- Standalone: Prerequisite chains ---
+  // --- Cluster D: Prereq chains (hub + future state spokes) ---
   {
     slug: "prerequisite-chains-why-four-semester-plans-take-six",
     title:
@@ -576,6 +576,8 @@ export const articles: ArticleMeta[] = [
     state: null,
     author: "Community College Path",
     tags: ["prerequisites", "planning", "two-year-degree", "course-sequence", "developmental"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "hub",
   },
 
   // --- Cluster A spoke: transfer equivalency reading ---

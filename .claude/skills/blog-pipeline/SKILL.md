@@ -37,17 +37,20 @@ Stages 3 and 4 loop per candidate. A single invocation can produce N draft PRs w
 
 ### Stage 1 — Detect
 
-Run the three detectors in parallel. Each returns 0..N candidate briefs. See `references/triggers.md` for the full design of each trigger source.
+Run the detectors in parallel. Each returns 0..N candidate briefs. See `references/triggers.md` for the full design of each trigger source.
 
 ```bash
 npx tsx .claude/skills/blog-pipeline/scripts/detect-cluster-gaps.ts > /tmp/blog-candidates-c.json
 npx tsx .claude/skills/blog-pipeline/scripts/detect-data-deltas.ts > /tmp/blog-candidates-a.json
+npx tsx .claude/skills/blog-pipeline/scripts/detect-prereq-bottlenecks.ts > /tmp/blog-candidates-d.json
 # Trigger B (keyword/search) is manual-input for now — see references/triggers.md
 ```
 
 A candidate brief is JSON with: `triggerSource`, `topic`, `targetReader`, `searchIntentHypothesis`, `articleType` (`general` | `state-spoke` | `hub`), `state` (or `null`), `cluster` (or `null`), `nonDuplicateRationale`, `dataSlicePaths` (file paths whose contents the drafter must read).
 
-If all three detectors return zero candidates, **stop and report "no triggers fired this run"**. This is the expected outcome most of the time.
+If all detectors return zero candidates, **stop and report "no triggers fired this run"**. This is the expected outcome most of the time.
+
+**Data-driven detectors write precomputed slice files** (under `.blog-pipeline/slices/`) and reference them in `dataSlicePaths`. The drafter consumes those slices verbatim — every numeric claim in the article must come from a slice file, not LLM speculation. The prereq-bottleneck detector is the first such detector; future ones (course-availability, instructor-density, transfer-mapping patterns) follow the same convention.
 
 ### Stage 2 — Prioritize
 
@@ -141,6 +144,7 @@ If you (Claude) are invoked from inside the workflow, behave identically to a ma
 |---|---|
 | `scripts/detect-cluster-gaps.ts` | Trigger C — find hubs with missing state spokes |
 | `scripts/detect-data-deltas.ts` | Trigger A — diff current data against last snapshot |
+| `scripts/detect-prereq-bottlenecks.ts` | Trigger D — mine `data/{state}/prereqs.json` for chain depth and blocker courses; emits a candidate per state with ≥5 chains of depth ≥3, plus a precomputed stats slice the drafter must consume |
 | `scripts/snapshot-state.ts` | Capture current registry/data state |
 | `scripts/quality-gates.ts` | Run all quality gates against a draft |
 
