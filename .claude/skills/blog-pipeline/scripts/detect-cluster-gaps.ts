@@ -97,9 +97,13 @@ function detect(): Candidate[] {
 
     if (gaps.length === 0) continue;
 
-    // Pick the single best gap per hub. Ranking proxies are crude on
-    // purpose — institution count and transfer-equiv volume are the only
-    // signals the repo has natively without external data.
+    // Surface every qualifying gap as a candidate. Stage 2 of the pipeline
+    // priority-orders candidates and the quality gates (G3 banned-phrase,
+    // G4 embedding similarity) block thin or near-duplicate output. The
+    // earlier "pick gaps[0]" cap was a crude per-hub throttle; with three
+    // hubs that capped the entire pipeline at three candidates per run no
+    // matter how many real gaps existed. Ranking still happens — the
+    // priority bands consume rankScore — it just doesn't truncate.
     gaps.sort((a, b) => {
       const aScore =
         institutionCount(a.slug) * 2 + transferEquivCount(a.slug);
@@ -108,43 +112,44 @@ function detect(): Candidate[] {
       return bScore - aScore;
     });
 
-    const top = gaps[0];
-    const stateName = top.name;
-    const slicePaths = isTransferTheme
-      ? [`data/${top.slug}/transfer-equiv.json`, `lib/states/${top.slug}/config.ts`]
-      : isSessionTheme
-        ? [`data/${top.slug}/courses`, `lib/states/${top.slug}/config.ts`]
-        : [`lib/states/${top.slug}/config.ts`];
+    for (const gap of gaps) {
+      const stateName = gap.name;
+      const slicePaths = isTransferTheme
+        ? [`data/${gap.slug}/transfer-equiv.json`, `lib/states/${gap.slug}/config.ts`]
+        : isSessionTheme
+          ? [`data/${gap.slug}/courses`, `lib/states/${gap.slug}/config.ts`]
+          : [`lib/states/${gap.slug}/config.ts`];
 
-    const topic = isTransferTheme
-      ? `${stateName} community college transfer: state-specific spoke for "${hub.title}"`
-      : isSessionTheme
-        ? `${stateName} community college sessions and calendar timing: state-specific spoke for "${hub.title}"`
-        : `${stateName} senior tuition waivers: state-specific spoke for "${hub.title}"`;
-    const targetReader = isTransferTheme
-      ? `${stateName} community college student planning to transfer`
-      : isSessionTheme
-        ? `${stateName} community college student planning a schedule across full-term, 8-week, mini-mester, and summer sessions`
-        : `${stateName} resident 60+ considering free or reduced-cost classes`;
-    const searchIntentHypothesis = isTransferTheme
-      ? `User searching "${stateName.toLowerCase()} community college transfer" wants to know how the in-state articulation works and what their credits will count for`
-      : isSessionTheme
-        ? `User searching "${stateName.toLowerCase()} community college 8-week classes" or "${stateName.toLowerCase()} mini-mester" wants to know what session formats local colleges actually offer and when they run`
-        : `User searching "${stateName.toLowerCase()} senior tuition waiver" wants to know if they qualify and what restrictions apply`;
+      const topic = isTransferTheme
+        ? `${stateName} community college transfer: state-specific spoke for "${hub.title}"`
+        : isSessionTheme
+          ? `${stateName} community college sessions and calendar timing: state-specific spoke for "${hub.title}"`
+          : `${stateName} senior tuition waivers: state-specific spoke for "${hub.title}"`;
+      const targetReader = isTransferTheme
+        ? `${stateName} community college student planning to transfer`
+        : isSessionTheme
+          ? `${stateName} community college student planning a schedule across full-term, 8-week, mini-mester, and summer sessions`
+          : `${stateName} resident 60+ considering free or reduced-cost classes`;
+      const searchIntentHypothesis = isTransferTheme
+        ? `User searching "${stateName.toLowerCase()} community college transfer" wants to know how the in-state articulation works and what their credits will count for`
+        : isSessionTheme
+          ? `User searching "${stateName.toLowerCase()} community college 8-week classes" or "${stateName.toLowerCase()} mini-mester" wants to know what session formats local colleges actually offer and when they run`
+          : `User searching "${stateName.toLowerCase()} senior tuition waiver" wants to know if they qualify and what restrictions apply`;
 
-    candidates.push({
-      triggerSource: "cluster-gap",
-      topic,
-      targetReader,
-      searchIntentHypothesis,
-      articleType: "state-spoke",
-      state: top.slug,
-      cluster,
-      nonDuplicateRationale: `Cluster "${cluster}" has ${spokes.length} spoke(s), none for ${stateName}. Verified by querying articles[].cluster.`,
-      dataSlicePaths: slicePaths,
-      rankScore:
-        institutionCount(top.slug) * 2 + transferEquivCount(top.slug),
-    });
+      candidates.push({
+        triggerSource: "cluster-gap",
+        topic,
+        targetReader,
+        searchIntentHypothesis,
+        articleType: "state-spoke",
+        state: gap.slug,
+        cluster,
+        nonDuplicateRationale: `Cluster "${cluster}" has ${spokes.length} spoke(s), none for ${stateName}. Verified by querying articles[].cluster.`,
+        dataSlicePaths: slicePaths,
+        rankScore:
+          institutionCount(gap.slug) * 2 + transferEquivCount(gap.slug),
+      });
+    }
   }
 
   return candidates;
