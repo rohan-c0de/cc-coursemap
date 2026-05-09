@@ -36,6 +36,7 @@ export const CATEGORIES: Record<string, string> = {
   "state-system-explainers": "State System Explainers",
   "mistake-avoidance": "Mistake Avoidance",
   "session-timing": "Sessions & Calendar Timing",
+  "course-format-density": "Course Format & Density",
 };
 
 export const articles: ArticleMeta[] = [
@@ -677,18 +678,20 @@ export const articles: ArticleMeta[] = [
     clusterRole: "spoke",
   },
 
-  // --- Standalone: hybrid classes ---
+  // --- Cluster F: Course format density (hub + future state spokes) ---
   {
     slug: "hybrid-community-college-classes-explained",
     title:
       "Hybrid Community College Classes: The Hidden Third Option",
     description:
-      "Hybrid courses are now 10-20% of community college offerings in most states. Here's what they actually are (including HyFlex), when hybrid wins over online or in-person, and how to spot them in registration.",
+      "Hybrid courses are 4.7% of community college offerings nationally — but vary 0% to 14.6% by state. Here's what hybrid actually is (including HyFlex), where it's common vs hidden under other labels, and when it wins.",
     date: "2026-04-20",
-    category: "registration-timing",
+    category: "course-format-density",
     state: null,
     author: "Community College Path",
-    tags: ["hybrid", "hyflex", "online", "in-person", "course-format", "scheduling"],
+    tags: ["hybrid", "hyflex", "online", "in-person", "course-format", "scheduling", "density"],
+    cluster: "hybrid-course-density-guide",
+    clusterRole: "hub",
   },
 
   // --- Cluster C: Sessions and academic calendar timing (hub + future spokes) ---
