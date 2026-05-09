@@ -46,7 +46,9 @@ npx tsx .claude/skills/blog-pipeline/scripts/detect-prereq-bottlenecks.ts > /tmp
 # Trigger B (keyword/search) is manual-input for now — see references/triggers.md
 ```
 
-A candidate brief is JSON with: `triggerSource`, `topic`, `targetReader`, `searchIntentHypothesis`, `articleType` (`general` | `state-spoke` | `hub`), `state` (or `null`), `cluster` (or `null`), `nonDuplicateRationale`, `dataSlicePaths` (file paths whose contents the drafter must read).
+A candidate brief is JSON with: `triggerSource`, `topic`, `targetReader`, `searchIntentHypothesis`, `articleType` (`general` | `state-spoke` | `college-spoke` | `hub`), `state` (or `null`), optional `college` (slug), `cluster` (or `null`), `nonDuplicateRationale`, `dataSlicePaths` (file paths whose contents the drafter must read).
+
+**College-spoke articles** are pinned to a specific institution within a covered state (e.g., Germanna Community College, Wake Tech, Brookdale Community College). They draft from that institution's `audit_policy` data — costs, contact email, application steps — and target search-intent tail like "[college name] audit class." The hub is general; the spoke is institutional. The renderer still routes the article under its `state` for navigation; the `college` field ties it to the institution for cluster-gap detection and cross-linking. Word-count range: 800–1500.
 
 If all detectors return zero candidates, **stop and report "no triggers fired this run"**. This is the expected outcome most of the time.
 
@@ -142,7 +144,7 @@ If you (Claude) are invoked from inside the workflow, behave identically to a ma
 
 | Script | Purpose |
 |---|---|
-| `scripts/detect-cluster-gaps.ts` | Trigger C — find hubs with missing state spokes |
+| `scripts/detect-cluster-gaps.ts` | Trigger C — find hubs with missing state spokes; for the `audit-at-college-guide` cluster, surfaces per-college spokes for institutions with rich `audit_policy` data |
 | `scripts/detect-data-deltas.ts` | Trigger A — diff current data against last snapshot |
 | `scripts/detect-prereq-bottlenecks.ts` | Trigger D — mine `data/{state}/prereqs.json` for chain depth and blocker courses; emits a candidate per state with ≥5 chains of depth ≥3, plus a precomputed stats slice the drafter must consume |
 | `scripts/snapshot-state.ts` | Capture current registry/data state |

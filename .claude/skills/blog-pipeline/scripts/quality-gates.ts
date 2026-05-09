@@ -6,7 +6,7 @@
  * Usage: npx tsx .claude/skills/blog-pipeline/scripts/quality-gates.ts \
  *   --draft /tmp/blog-draft.json --slug pa-senior-waivers
  *
- * The draft JSON must include: { mdx: string, meta: ArticleMeta, articleType: "general"|"state-spoke"|"hub" }
+ * The draft JSON must include: { mdx: string, meta: ArticleMeta, articleType: "general"|"state-spoke"|"college-spoke"|"hub" }
  *
  * G4 (embedding similarity) and G5 (build) are skipped here because they
  * need external API keys and a full repo build respectively. The skill
@@ -19,7 +19,7 @@ import { articles, type ArticleMeta } from "../../../../content/blog/index";
 type Draft = {
   mdx: string;
   meta: ArticleMeta;
-  articleType: "general" | "state-spoke" | "hub";
+  articleType: "general" | "state-spoke" | "college-spoke" | "hub";
 };
 
 type GateResult = {
@@ -61,6 +61,7 @@ function gateG1(draft: Draft): GateResult {
   const ranges = {
     general: [600, 1200],
     "state-spoke": [1000, 1800],
+    "college-spoke": [800, 1500],
     hub: [1500, 2500],
   } as const;
   const [lo, hi] = ranges[draft.articleType];
@@ -99,7 +100,11 @@ function gateG2(draft: Draft): GateResult {
     }
   }
 
-  if (draft.articleType === "state-spoke" && draft.meta.cluster) {
+  if (
+    (draft.articleType === "state-spoke" ||
+      draft.articleType === "college-spoke") &&
+    draft.meta.cluster
+  ) {
     const hub = articles.find(
       (a) => a.cluster === draft.meta.cluster && a.clusterRole === "hub"
     );
