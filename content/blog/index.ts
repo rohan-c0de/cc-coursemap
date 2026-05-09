@@ -30,6 +30,7 @@ export const CATEGORIES: Record<string, string> = {
   "senior-waivers": "Senior Waivers & Auditing",
   "state-system-explainers": "State System Explainers",
   "mistake-avoidance": "Mistake Avoidance",
+  "session-timing": "Sessions & Calendar Timing",
 };
 
 export const articles: ArticleMeta[] = [
@@ -637,5 +638,39 @@ export const articles: ArticleMeta[] = [
     state: null,
     author: "Community College Path",
     tags: ["hybrid", "hyflex", "online", "in-person", "course-format", "scheduling"],
+  },
+
+  // --- Cluster C: Sessions and academic calendar timing (hub + future spokes) ---
+  {
+    slug: "community-college-sessions-explained",
+    title:
+      "Community College Sessions Explained: Full-Term, 8-Week, Mini-Mester, Late-Start, and Summer",
+    description:
+      "Community college schedules look like one 16-week term but actually contain a stack of overlapping sessions. Here's how each format works, when to use which, and how to stack them to finish faster.",
+    date: "2026-05-09",
+    category: "session-timing",
+    state: null,
+    author: "Community College Path",
+    tags: ["sessions", "session-timing", "academic-calendar", "8-week", "mini-mester", "summer", "scheduling"],
+    cluster: "session-timing-guide",
+    clusterRole: "hub",
+    faqs: [
+      {
+        q: "What's the difference between a full-term and 8-week community college class?",
+        a: "Full-term classes run for the standard 15-16 weeks of the semester. 8-week classes cover the same content and award the same credits, but meet twice as often or twice as long to fit into half the calendar. Each 8-week session has its own registration, drop, and refund deadlines separate from the main term.",
+      },
+      {
+        q: "What is a mini-mester?",
+        a: "A mini-mester (also called intersession, winter session, or May-mester) is a compressed 2-5 week term, usually wedged between fall and spring or spring and summer. Course content from a full 3-credit class is delivered in a few weeks of intensive meetings — roughly 36 hours per week of total work for a single course.",
+      },
+      {
+        q: "Are 8-week or summer credits worth less than full-term credits?",
+        a: "No. A 3-credit course is a 3-credit course regardless of session length. Credits transfer the same, count toward financial aid the same, and post to your transcript the same. What changes is the weekly workload, not the value of the credit.",
+      },
+      {
+        q: "Can I take 8-week classes back-to-back to fit two courses in one semester?",
+        a: "Yes — this is one of the most common ways students compress an associate degree timeline. Take one course in the first 8-week session, finish it, then take another in the second 8-week session. You earn 6 credits over the same calendar period as a single full-term course.",
+      },
+    ],
   },
 ];

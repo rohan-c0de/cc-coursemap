@@ -71,8 +71,11 @@ function detect(): Candidate[] {
     const isSeniorTheme =
       hub.category === "senior-waivers" ||
       hub.tags.includes("seniors");
+    const isSessionTheme =
+      hub.category === "session-timing" ||
+      hub.tags.includes("session-timing");
 
-    if (!isTransferTheme && !isSeniorTheme) continue;
+    if (!isTransferTheme && !isSeniorTheme && !isSessionTheme) continue;
 
     const gaps = states.filter((s) => {
       if (coveredStates.has(s.slug)) return false;
@@ -81,6 +84,13 @@ function detect(): Candidate[] {
       }
       if (isSeniorTheme) {
         return Boolean(s.seniorWaiver);
+      }
+      if (isSessionTheme) {
+        // Session-timing spokes only make sense for states where we have
+        // real course data — the spoke needs to cite actual session codes
+        // and start dates from the schedule. Use institution count as the
+        // proxy for "we have data here."
+        return institutionCount(s.slug) >= 1;
       }
       return false;
     });
@@ -102,19 +112,31 @@ function detect(): Candidate[] {
     const stateName = top.name;
     const slicePaths = isTransferTheme
       ? [`data/${top.slug}/transfer-equiv.json`, `lib/states/${top.slug}/config.ts`]
-      : [`lib/states/${top.slug}/config.ts`];
+      : isSessionTheme
+        ? [`data/${top.slug}/courses`, `lib/states/${top.slug}/config.ts`]
+        : [`lib/states/${top.slug}/config.ts`];
+
+    const topic = isTransferTheme
+      ? `${stateName} community college transfer: state-specific spoke for "${hub.title}"`
+      : isSessionTheme
+        ? `${stateName} community college sessions and calendar timing: state-specific spoke for "${hub.title}"`
+        : `${stateName} senior tuition waivers: state-specific spoke for "${hub.title}"`;
+    const targetReader = isTransferTheme
+      ? `${stateName} community college student planning to transfer`
+      : isSessionTheme
+        ? `${stateName} community college student planning a schedule across full-term, 8-week, mini-mester, and summer sessions`
+        : `${stateName} resident 60+ considering free or reduced-cost classes`;
+    const searchIntentHypothesis = isTransferTheme
+      ? `User searching "${stateName.toLowerCase()} community college transfer" wants to know how the in-state articulation works and what their credits will count for`
+      : isSessionTheme
+        ? `User searching "${stateName.toLowerCase()} community college 8-week classes" or "${stateName.toLowerCase()} mini-mester" wants to know what session formats local colleges actually offer and when they run`
+        : `User searching "${stateName.toLowerCase()} senior tuition waiver" wants to know if they qualify and what restrictions apply`;
 
     candidates.push({
       triggerSource: "cluster-gap",
-      topic: isTransferTheme
-        ? `${stateName} community college transfer: state-specific spoke for "${hub.title}"`
-        : `${stateName} senior tuition waivers: state-specific spoke for "${hub.title}"`,
-      targetReader: isTransferTheme
-        ? `${stateName} community college student planning to transfer`
-        : `${stateName} resident 60+ considering free or reduced-cost classes`,
-      searchIntentHypothesis: isTransferTheme
-        ? `User searching "${stateName.toLowerCase()} community college transfer" wants to know how the in-state articulation works and what their credits will count for`
-        : `User searching "${stateName.toLowerCase()} senior tuition waiver" wants to know if they qualify and what restrictions apply`,
+      topic,
+      targetReader,
+      searchIntentHypothesis,
       articleType: "state-spoke",
       state: top.slug,
       cluster,
