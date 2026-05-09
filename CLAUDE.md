@@ -38,7 +38,10 @@ Source of truth: `.env.example` in repo root. Local dev uses `.env.local` (gitig
 
 ## Adding a new state
 
-This is the most frequent multi-step workflow. See the `add-new-state` skill (`.claude/skills/add-new-state/`). Short version: bootstrap (data + config + registry) → course scraper → transfer data → prereqs → Supabase import. Each phase is its own PR.
+This is the most frequent multi-step workflow. Two skills cover it:
+
+- **`auto-add-state`** (`.claude/skills/auto-add-state/`) — autonomous; one command, one PR. Runs `scripts/lib/add-state.ts` end-to-end: bootstrap → fingerprint → scrape (Banner SSB / Colleague / Banner 8 templates) → articulation lookup → prereq aggregation. Surfaces a manual-TODO list for what couldn't be automated. Use when the user says "/auto-add-state ohio", "add Kentucky", or similar.
+- **`add-new-state`** (`.claude/skills/add-new-state/`) — manual fallback; 5 phases, 5 PRs, full human control over each step. Use when the autonomous flow's TODOs need to be addressed one-by-one, when adding bespoke scrapers for custom-platform colleges, or when the user explicitly asks for the manual flow.
 
 ## Where guidance lives
 
