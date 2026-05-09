@@ -1120,4 +1120,92 @@ export const articles: ArticleMeta[] = [
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
   },
+
+  // --- Cluster F spokes (hybrid-course-density): ME, MD, MA ---
+  {
+    slug: "maine-community-college-hybrid-density",
+    title:
+      "Maine Community College Hybrid Classes: Where the State's 16.2% Hybrid Share Actually Lives",
+    description:
+      "MCCS runs 16.2% hybrid sections statewide — second highest in the East. EMCC, SMCC, and YCCC each top 20% hybrid. Here's what the data shows and how to use it as an MCCS student.",
+    date: "2026-05-10",
+    category: "course-format-density",
+    state: "me",
+    author: "Community College Path",
+    tags: ["hybrid", "maine", "mccs", "course-format", "density", "adult-learners"],
+    cluster: "hybrid-course-density-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "maryland-community-college-hybrid-density",
+    title:
+      "Maryland Community College Hybrid Classes: How Frederick CC's 63% Hybrid Share Skews the State Average",
+    description:
+      "MACC reports 13.7% hybrid sections statewide — but Frederick CC alone runs 63%. The state-level number hides extreme college-level variation. Here's what the data shows and how to navigate it.",
+    date: "2026-05-10",
+    category: "course-format-density",
+    state: "md",
+    author: "Community College Path",
+    tags: ["hybrid", "maryland", "macc", "frederick", "course-format", "density"],
+    cluster: "hybrid-course-density-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "massachusetts-community-college-hybrid-density",
+    title:
+      "Massachusetts Community College Hybrid Classes: How BHCC's 40% Concentration Drives the State's 14.2% Hybrid Share",
+    description:
+      "MassCC reports 14.2% hybrid sections statewide — but Bunker Hill CC alone runs 40%. The bimodal distribution shapes what 'hybrid in Massachusetts' actually means depending on which college you attend.",
+    date: "2026-05-10",
+    category: "course-format-density",
+    state: "ma",
+    author: "Community College Path",
+    tags: ["hybrid", "massachusetts", "masscc", "bhcc", "course-format", "density"],
+    cluster: "hybrid-course-density-guide",
+    clusterRole: "spoke",
+  },
+
+  // --- Cluster G spokes (late-start-by-state): NH, GA, SC ---
+  {
+    slug: "new-hampshire-community-college-late-start-classes",
+    title:
+      "New Hampshire Community College Late-Start Classes: Why CCSNH Has 18% Late-Start — Highest in the East",
+    description:
+      "CCSNH runs 18.1% late-start sections — the highest density in any East Coast community college system. LRCC, GBCC, WMCC, and MCCNH all top 21%. Here's how to use the catalog if you missed main registration.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "nh",
+    author: "Community College Path",
+    tags: ["late-start", "new-hampshire", "ccsnh", "registration", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "georgia-community-college-late-start-classes",
+    title:
+      "Georgia TCSG Late-Start Classes: Where the System's 14.5% Late-Start Density Actually Lives",
+    description:
+      "TCSG runs 1,307 late-start sections across 22 colleges — the largest absolute late-start catalog on the East Coast. Albany Tech leads at 29.4%. Here's how to use it if you missed main registration.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "ga",
+    author: "Community College Path",
+    tags: ["late-start", "georgia", "tcsg", "registration", "workforce", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "south-carolina-technical-college-late-start-classes",
+    title:
+      "South Carolina Technical College Late-Start Classes: Why Piedmont Tech's 38% Late-Start Density Skews the State Average",
+    description:
+      "SC tech colleges run 11.8% late-start sections — but Piedmont Tech alone reports 38%, carrying 60% of the statewide late-start catalog. Here's what the data shows and how to navigate it.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "sc",
+    author: "Community College Path",
+    tags: ["late-start", "south-carolina", "piedmont-tech", "registration", "workforce"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
 ];
