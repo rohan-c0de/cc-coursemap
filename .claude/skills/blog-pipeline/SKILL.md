@@ -70,13 +70,11 @@ Detector `rankScore` is a *data-presence* signal, not an editorial-value signal.
 
 Apply the rules below in order. They override rankScore.
 
-#### Step 2a — Skip saturated clusters
+#### Step 2a — Check detector output for empty candidate lists
 
-Before ranking, check spoke counts per cluster in `content/blog/index.ts`. A cluster with **≥ 6 existing spokes is saturated** for the purposes of automated drafting. Drop ALL candidates from saturated clusters from this run, even if they top the rankScore list. Saturation isn't permanent — a future run can revisit once the corpus shape changes — but each pipeline batch should never deepen an already-deep cluster while shallow themes have zero spokes.
+Every detector self-filters: before emitting a candidate for a state or college, it checks `articles[]` in `content/blog/index.ts` and skips entries that already have a spoke. A cluster is naturally exhausted when its detector returns zero candidates — no hardcoded spoke-count cap is needed or correct (a cap would fire before all covered states have spokes, and would need manual updating whenever new states are added).
 
-As of 2026-05-10, saturated clusters: `senior-waivers-guide` (13), `transfer-credit-guide` (18), `session-timing-guide` (8), `audit-at-college-guide` (9). Non-saturated clusters with hubs ready for spokes: `prereq-chains-guide` (detector: `detect-prereq-bottlenecks.ts`), `hybrid-course-density-guide` (detector: `detect-hybrid-density.ts`), `late-start-by-state-guide` (detector: `detect-late-start-density.ts`). Skip candidates pointing at saturated clusters in the next run; surface that decision in the run summary so the human sees it.
-
-If every remaining candidate sits in a saturated cluster, **stop and report** — that's the signal to add a new hub or detector before drafting more.
+If all detectors return zero candidates after self-filtering, **stop and report "no triggers fired this run"** — that's the signal to add a new hub, a new detector, or new state data before drafting more. Do not manufacture candidates to fill a batch.
 
 #### Step 2b — Bias toward data depth
 
@@ -88,10 +86,19 @@ If two candidates tie on cluster-non-saturation, pick the one whose data slice h
 
 `content/blog/BRIEF.md` § "What kinds of articles to create" lists nine theme areas. Audit which themes have ≥ 3 spokes vs. which have 0. Push candidates that fill 0-spoke themes ahead of candidates that pile onto already-covered themes, even when rankScores favor the latter.
 
+<<<<<<< HEAD
+As of 2026-05-10 (update this after each batch):
+- ✅ Heavily covered: transfer confusion (18 spokes), senior waivers (13), session timing (8), audit-at-college (9), prereq sequencing (7 spokes — GA, MD, NC, SC, DE, MA; detector will self-saturate remaining states)
+- ⚠️ Lightly covered: online vs hybrid (1 hub, 0 spokes — detector ready), registration timing / late-start (1 hub, 0 spokes — detector ready)
+- ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), course availability patterns, instructor density, program-level content
+
+The next batches should disproportionately fill the lightly- and zero-covered themes. Run `detect-hybrid-density.ts` and `detect-late-start-density.ts` first; they'll self-filter to states that aren't yet covered.
+=======
 As of 2026-05-10:
 - ✅ Heavily covered: transfer confusion, senior waivers, session timing
 - ⚠️ Lightly covered: prereq sequencing (1 hub, 3 spokes — detector ready), online vs hybrid (1 hub, 0 spokes — detector ready), registration timing / late-start (1 hub, 0 spokes — detector ready), academic calendar (covered via session-timing already)
 - ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), course availability patterns, instructor density, program-level content, mistake-avoidance beyond prereqs
+>>>>>>> origin/main
 
 The next batches should disproportionately fill the lightly- and zero-covered themes. That's where the real editorial value sits.
 
@@ -99,7 +106,7 @@ The next batches should disproportionately fill the lightly- and zero-covered th
 
 No more than **3 articles from the same cluster** in a single batch run, regardless of how many candidates the detector found. Rotate across themes. A batch of 10 articles drafting 8 from one cluster is a saturation-in-disguise pattern and produces drafter-quality decay (G4 catches some; subjective sameness it doesn't).
 
-If a cluster only has 1–2 candidates that pass step 2a–2c, take all of them. If it has 4+, take the top 3 by rankScore and defer the rest.
+If a cluster only has 1–2 candidates that pass steps 2b–2c, take all of them. If it has 4+, take the top 3 by rankScore and defer the rest.
 
 #### Step 2e — Skip already-drafted slugs
 
@@ -109,12 +116,12 @@ The ledger file name is preserved (`cooldown.json`) for backward compatibility w
 
 #### Step 2f — Final ordering after the filters
 
-Among the candidates that survive 2a–2e, draft in this priority order:
+Among the candidates that survive steps 2b–2e, draft in this priority order:
 
 1. Data-delta candidates from a brand-new state (registry just gained an entry)
 2. Data-driven detector candidates (prereq-bottleneck and any future ones) for under-covered BRIEF.md themes
 3. Cluster-gap candidates for hubs with 1–2 existing spokes (the cluster is proven but shallow)
-4. Cluster-gap candidates for hubs with 3–5 spokes (still pre-saturation)
+4. Cluster-gap candidates for hubs with 3+ existing spokes (established cluster, filling remaining state gaps)
 5. Data-delta candidates from a new transfer agreement or senior-waiver rule change
 6. Keyword candidates (only when both intent quality and product alignment are high)
 
