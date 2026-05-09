@@ -89,6 +89,56 @@
       "slug": "tcc-tidewater-community-college-audit-class-guide",
       "draftedAt": "2026-05-09T23:30:00Z",
       "trigger": "cluster-gap"
+    },
+    {
+      "slug": "connecticut-senior-citizens-ct-state-tuition-waiver",
+      "draftedAt": "2026-05-10T01:00:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "georgia-senior-citizens-tcsg-tuition-waiver",
+      "draftedAt": "2026-05-10T01:00:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "pennsylvania-senior-citizens-community-college-tuition-waiver",
+      "draftedAt": "2026-05-10T01:00:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "florida-senior-citizens-fcs-tuition-waiver",
+      "draftedAt": "2026-05-10T01:00:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "south-carolina-technical-college-session-timing-guide",
+      "draftedAt": "2026-05-10T01:00:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "blue-ridge-community-college-audit-class-guide",
+      "draftedAt": "2026-05-10T01:00:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "brightpoint-community-college-audit-class-guide",
+      "draftedAt": "2026-05-10T01:00:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "camp-paul-d-camp-community-college-audit-class-guide",
+      "draftedAt": "2026-05-10T01:00:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "central-virginia-community-college-audit-class-guide",
+      "draftedAt": "2026-05-10T01:00:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "danville-community-college-audit-class-guide",
+      "draftedAt": "2026-05-10T01:00:00Z",
+      "trigger": "cluster-gap"
     }
   ]
 }

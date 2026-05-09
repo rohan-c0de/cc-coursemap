@@ -866,4 +866,157 @@ export const articles: ArticleMeta[] = [
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
   },
+
+  // --- Pipeline batch 2026-05-09c: 4 senior-waiver state-spokes + 1 session + 5 audit college-spokes ---
+
+  // Cluster B spokes (senior-waivers): CT, GA, PA, FL
+  {
+    slug: "connecticut-senior-citizens-ct-state-tuition-waiver",
+    title:
+      "Connecticut Senior Citizens at CT State Community College: How the 62+ Audit Program Actually Works",
+    description:
+      "CGS § 10a-27 lets CT residents 62+ audit courses at CT State Community College tuition-free. Here's what's covered, what isn't, and how the unified-system structure affects access.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "ct",
+    author: "Community College Path",
+    tags: ["seniors", "connecticut", "ct-state", "tuition-waiver", "auditing", "audit-only"],
+    cluster: "senior-waivers-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "georgia-senior-citizens-tcsg-tuition-waiver",
+    title:
+      "Georgia Senior Citizens at TCSG Technical Colleges: How the 62+ Tuition Waiver Actually Works",
+    description:
+      "OCGA 20-4-20 waives tuition at all 22 TCSG technical colleges for residents 62+ — covering credit enrollment, not just audit. Here's the credit-eligible structure and how to use it.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "ga",
+    author: "Community College Path",
+    tags: ["seniors", "georgia", "tcsg", "tuition-waiver", "credit-eligible"],
+    cluster: "senior-waivers-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "pennsylvania-senior-citizens-community-college-tuition-waiver",
+    title:
+      "Pennsylvania Senior Citizens at Community Colleges: How the 60+ Audit Program Actually Works",
+    description:
+      "24 P.S. § 19-1908-B lets PA residents 60+ audit community college courses tuition-free. Here's how it works across PA's 14 community colleges and what makes the sponsor-district structure unique.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "pa",
+    author: "Community College Path",
+    tags: ["seniors", "pennsylvania", "tuition-waiver", "auditing", "audit-only"],
+    cluster: "senior-waivers-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "florida-senior-citizens-fcs-tuition-waiver",
+    title:
+      "Florida Senior Citizens at FCS Colleges: How the 60+ Tuition Waiver Actually Works (And Why Credit Doesn't Count Toward Graduation)",
+    description:
+      "FL Stat. § 1009.26(4) waives tuition and fees at all 28 FCS colleges for residents 60+ — but credit earned doesn't count toward an associate degree. Here's what that constraint actually means.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "fl",
+    author: "Community College Path",
+    tags: ["seniors", "florida", "fcs", "tuition-waiver", "fee-waiver"],
+    cluster: "senior-waivers-guide",
+    clusterRole: "spoke",
+  },
+
+  // Cluster C spoke (session-timing): SC
+  {
+    slug: "south-carolina-technical-college-session-timing-guide",
+    title:
+      "South Carolina Technical College Sessions Explained: How SC's 16 Technical Colleges Use 8-Week, Mini-Mester, and Late-Start Formats",
+    description:
+      "Horry-Georgetown publishes 83 distinct start dates per term; Greenville Tech 76. Here's how SC's 16 technical colleges actually structure session length and how to find the right one.",
+    date: "2026-05-09",
+    category: "session-timing",
+    state: "sc",
+    author: "Community College Path",
+    tags: ["sessions", "session-timing", "south-carolina", "technical-college", "8-week"],
+    cluster: "session-timing-guide",
+    clusterRole: "spoke",
+  },
+
+  // Cluster E spokes (audit-at-college): BRCC, Brightpoint, Camp, CVCC, DCC
+  {
+    slug: "blue-ridge-community-college-audit-class-guide",
+    title:
+      "How to Audit a Class at Blue Ridge Community College: Cost, Application, and Eligibility",
+    description:
+      "Blue Ridge Community College in the Shenandoah Valley allows auditing at full credit cost — or free for VA residents 60+. Here's the process across the Weyers Cave campus and education centers.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "va",
+    college: "brcc",
+    author: "Community College Path",
+    tags: ["auditing", "virginia", "brcc", "vccs", "senior-waiver", "shenandoah-valley"],
+    cluster: "audit-at-college-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "brightpoint-community-college-audit-class-guide",
+    title:
+      "How to Audit a Class at Brightpoint Community College: Cost, Application, and Eligibility",
+    description:
+      "Brightpoint Community College (formerly John Tyler) serves the Tri-Cities region with two campuses. Auditing rules, cost (free for seniors), and the application process for the south-of-Richmond auditor.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "va",
+    college: "brightpoint",
+    author: "Community College Path",
+    tags: ["auditing", "virginia", "brightpoint", "vccs", "senior-waiver", "tri-cities"],
+    cluster: "audit-at-college-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "camp-paul-d-camp-community-college-audit-class-guide",
+    title:
+      "How to Audit a Class at Paul D. Camp Community College: Cost, Application, and Eligibility",
+    description:
+      "Paul D. Camp Community College serves Western Tidewater with smaller class sizes and a focused workforce-program catalog. Auditing rules, cost (free for seniors), and how to enroll.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "va",
+    college: "camp",
+    author: "Community College Path",
+    tags: ["auditing", "virginia", "camp", "paul-d-camp", "vccs", "senior-waiver", "western-tidewater"],
+    cluster: "audit-at-college-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "central-virginia-community-college-audit-class-guide",
+    title:
+      "How to Audit a Class at Central Virginia Community College: Cost, Application, and Eligibility",
+    description:
+      "Central Virginia Community College serves the Lynchburg region from main campus plus the Bedford and Amherst centers. Auditing rules, cost (free for seniors), and the application process.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "va",
+    college: "cvcc",
+    author: "Community College Path",
+    tags: ["auditing", "virginia", "cvcc", "vccs", "senior-waiver", "lynchburg"],
+    cluster: "audit-at-college-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "danville-community-college-audit-class-guide",
+    title:
+      "How to Audit a Class at Danville Community College: Cost, Application, and Eligibility",
+    description:
+      "Danville Community College serves Southside Virginia with a workforce-program emphasis and smaller class sizes. Auditing rules, cost (free for seniors), and how to enroll.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "va",
+    college: "dcc",
+    author: "Community College Path",
+    tags: ["auditing", "virginia", "dcc", "danville", "vccs", "senior-waiver", "southside"],
+    cluster: "audit-at-college-guide",
+    clusterRole: "spoke",
+  },
 ];
