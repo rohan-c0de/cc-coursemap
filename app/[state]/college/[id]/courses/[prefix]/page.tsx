@@ -101,8 +101,43 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     filtered.map((c) => `${c.course_prefix} ${c.course_number}`)
   ).size;
 
-  const title = `${subject} Courses at ${institution.name} — ${termLabel(resolvedTerm)} Schedule`;
-  const description = `Browse ${filtered.length} ${subject} sections (${uniqueCourses} courses) at ${institution.name} for ${termLabel(resolvedTerm)}.${onlineCount > 0 ? ` ${onlineCount} available online.` : ""} View schedules, instructors, and prerequisites.`;
+  // Build a deduplicated list of unique courses ordered by section count so
+  // the most common course appears first (e.g. SDV 100 before SDV 106).
+  const courseMap = new Map<string, { number: string; title: string; credits: number; count: number }>();
+  for (const c of filtered) {
+    const key = `${c.course_prefix} ${c.course_number}`;
+    const existing = courseMap.get(key);
+    if (existing) {
+      existing.count++;
+    } else {
+      courseMap.set(key, { number: c.course_number, title: c.course_title, credits: c.credits, count: 1 });
+    }
+  }
+  const sortedCourses = [...courseMap.values()].sort((a, b) => b.count - a.count);
+  const primaryCourse = sortedCourses[0];
+
+  const term = termLabel(resolvedTerm);
+  let title: string;
+  let description: string;
+
+  if (uniqueCourses === 1 && primaryCourse) {
+    // Single-course prefix: include full course name in the title so the page
+    // matches queries like "SDV 100 college success skills danville community college".
+    const creditStr = `${primaryCourse.credits} ${primaryCourse.credits === 1 ? "credit" : "credits"}`;
+    title = `${prefix} ${primaryCourse.number}: ${primaryCourse.title} at ${institution.name} — ${term}`;
+    description = `${prefix} ${primaryCourse.number} (${primaryCourse.title}, ${creditStr}) at ${institution.name} for ${term}. ${filtered.length} section${filtered.length !== 1 ? "s" : ""}${onlineCount > 0 ? `, ${onlineCount} online` : ""}. View schedule, instructors, and prerequisites.`;
+  } else {
+    // Multi-course prefix: keep the generic title but enumerate course codes and
+    // names in the description so SERP snippets surface the specific course the
+    // searcher is looking for.
+    const courseSnippet = sortedCourses
+      .slice(0, 3)
+      .map((c) => `${prefix} ${c.number} (${c.title})`)
+      .join(", ");
+    const andMore = uniqueCourses > 3 ? `, and ${uniqueCourses - 3} more` : "";
+    title = `${subject} Courses at ${institution.name} — ${term} Schedule`;
+    description = `Browse ${courseSnippet}${andMore} at ${institution.name} for ${term}. ${filtered.length} section${filtered.length !== 1 ? "s" : ""}${onlineCount > 0 ? `, ${onlineCount} online` : ""}. View schedules, instructors, and prerequisites.`;
+  }
 
   return {
     title,
