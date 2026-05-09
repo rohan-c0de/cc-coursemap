@@ -68,25 +68,32 @@ The detector loads this, recomputes the same shape from current code/data, and d
 
 ## Trigger C — Cluster gap detection
 
-**Fires when:** an existing hub article has missing spokes for states that have the relevant data.
+**Fires when:** an existing hub article has missing spokes for states (or colleges) that have the relevant data.
 
 ### Algorithm
 
 For each article with `clusterRole === 'hub'`:
-1. Get all spokes via `getClusterArticles(hub.cluster)`. Note which states are covered.
-2. For each state in `getAllStates()` not yet covered:
-   - For transfer-themed hubs: check that the state has `StateConfig.transferSupported === true` and a non-trivial `data/{state}/transfer-equiv.json`. If not, skip — there's nothing to write about yet.
-   - For senior-waiver-themed hubs: check that `StateConfig.seniorWaiver` exists and is non-trivial. If not, skip.
-3. Rank remaining gaps by:
-   - State population (proxy for search demand) — desc
-   - Number of institutions in the state — desc
-   - Hub age (older hub = more PageRank to share) — desc
+1. Get all spokes via `getClusterArticles(hub.cluster)`. Note which states (and colleges, for per-college clusters) are covered.
+2. **For per-college clusters** (currently `audit-at-college-guide`): for each institution in `data/{state}/institutions.json` across covered states, gate on rich data presence (e.g., `audit_policy.allowed && application_process.steps.length >= 3 && contact_email`); emit a `college-spoke` candidate per qualifying institution that isn't already covered.
+3. **For state-spoke clusters**: for each state in `getAllStates()` not yet covered, gate on theme-specific data:
+   - Transfer-themed hubs: `transferSupported === true` and `data/{state}/transfer-equiv.json` ≥ 5 entries.
+   - Senior-waiver-themed hubs: `StateConfig.seniorWaiver` exists.
+   - Session-timing-themed hubs: institution count ≥ 1 (we have data on the state).
+4. Rank remaining gaps by `institutionCount * 2 + transferEquivCount` (a data-presence proxy). Emit ALL qualifying candidates — Stage 2 of the pipeline filters for editorial value, saturation, and theme diversity.
 
-Return the top candidate per hub, capped at one candidate per hub per run. (Don't generate three PA-themed posts in one run because three different hubs each lack a PA spoke.)
+The detector is intentionally permissive. It does not cap candidates per hub or per run. Editorial filtering (which clusters are saturated, which themes are under-covered) happens in SKILL.md Stage 2 — see "Stage 2 — Prioritize" for the saturation cap and theme-diversity rules.
 
 ### Why "gaps with data backing" only
 
 A spoke without underlying data becomes filler. The reader hits "Pennsylvania transfer pathways" expecting a substantive guide and gets a thin generic restatement of the hub. That's the failure mode BRIEF.md is designed to prevent. The detector enforces it at the trigger layer.
+
+### What this detector does NOT do
+
+- It does not consider whether a cluster is already saturated. A cluster with 13 spokes will still surface every additional state's gap — the saturation check happens at Stage 2.
+- It does not account for which BRIEF.md theme has the most/fewest existing posts. Theme-diversity is also a Stage 2 concern.
+- It does not enforce a per-hub or per-run cap. The earlier cap (`gaps[0]`) was removed in 2026-05; the per-hub-per-run cap (one candidate per hub) was likewise removed.
+
+This separation matters: detectors should be reproducible and mechanical, so detector output is itself a reviewable surface for "what *could* draft." The skill's prioritization stage is where the editorial judgment lives.
 
 ## Trigger B — Keyword / search-intent
 
