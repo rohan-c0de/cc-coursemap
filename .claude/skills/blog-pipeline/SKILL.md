@@ -86,12 +86,19 @@ If two candidates tie on cluster-non-saturation, pick the one whose data slice h
 
 `content/blog/BRIEF.md` § "What kinds of articles to create" lists nine theme areas. Audit which themes have ≥ 3 spokes vs. which have 0. Push candidates that fill 0-spoke themes ahead of candidates that pile onto already-covered themes, even when rankScores favor the latter.
 
+<<<<<<< HEAD
 As of 2026-05-10 (update this after each batch):
 - ✅ Heavily covered: transfer confusion (18 spokes), senior waivers (13), session timing (8), audit-at-college (9), prereq sequencing (7 spokes — GA, MD, NC, SC, DE, MA; detector will self-saturate remaining states)
 - ⚠️ Lightly covered: online vs hybrid (1 hub, 0 spokes — detector ready), registration timing / late-start (1 hub, 0 spokes — detector ready)
 - ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), course availability patterns, instructor density, program-level content
 
 The next batches should disproportionately fill the lightly- and zero-covered themes. Run `detect-hybrid-density.ts` and `detect-late-start-density.ts` first; they'll self-filter to states that aren't yet covered.
+=======
+As of 2026-05-10:
+- ✅ Heavily covered: transfer confusion, senior waivers, session timing
+- ⚠️ Lightly covered: prereq sequencing (1 hub, 3 spokes — detector ready), online vs hybrid (1 hub, 0 spokes — detector ready), registration timing / late-start (1 hub, 0 spokes — detector ready), academic calendar (covered via session-timing already)
+- ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), course availability patterns, instructor density, program-level content, mistake-avoidance beyond prereqs
+>>>>>>> origin/main
 
 The next batches should disproportionately fill the lightly- and zero-covered themes. That's where the real editorial value sits.
 
