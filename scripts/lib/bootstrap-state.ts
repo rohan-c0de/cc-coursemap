@@ -325,12 +325,25 @@ function capitalize(s: string): string {
 // alphabetical-ish but non-strict ordering so simple append is safe.
 // ---------------------------------------------------------------------------
 
-function applyRegistryEdit(
+export function applyRegistryEdit(
   filePath: string,
   importLine: string,
   importAnchor: RegExp,
   registryLine: string,
   registryEntryAnchor: RegExp,
+  /**
+   * Pattern that matches *any* existing registry entry in this file, used
+   * as the anchor for "append my entry after the last matching one." Must
+   * be per-file because the three files use two different shapes:
+   *   - registry.ts ALL_CONFIGS is a `StateConfig[]` array → entries look
+   *     like `  vaConfig,`
+   *   - institutions.ts REGISTRY and geo.ts ZIP_REGISTRY are
+   *     `Record<string, …>` objects → entries look like `  va: vaInstitutions as ...,`
+   * A single hardcoded pattern can't catch both. (See PRs #285 #286 — KY
+   * and AL bootstrap runs both required hand-fixes because the previous
+   * one-pattern-fits-all approach failed silently in registry.ts.)
+   */
+  registryAnchorPattern: RegExp,
   dryRun: boolean
 ): { applied: boolean; reason: string } {
   if (!fs.existsSync(filePath)) {
@@ -344,17 +357,13 @@ function applyRegistryEdit(
   }
 
   // Insert the import after the last matching import line; insert the
-  // registry entry after the last matching registry entry line. The
-  // registry-entry anchor is a generic "any 2-space-indented `key:` line
-  // ending in a comma" pattern, which matches every existing entry across
-  // all three files.
-  const REGISTRY_ENTRY_PATTERN = /^(\s+[a-z]{2}:\s.+,)$/gm;
+  // registry entry after the last matching registry entry line.
   let updated = content;
   if (!updated.includes(importLine.trim())) {
     updated = appendAfterLastMatch(updated, importAnchor, importLine);
   }
   if (!registryEntryAnchor.test(updated)) {
-    updated = appendAfterLastMatch(updated, REGISTRY_ENTRY_PATTERN, registryLine);
+    updated = appendAfterLastMatch(updated, registryAnchorPattern, registryLine);
   }
 
   if (!dryRun) fs.writeFileSync(filePath, updated);
@@ -479,36 +488,51 @@ export async function bootstrapState(
   }
 
   // --- Registry edits (idempotent) ---
+
+  // lib/states/registry.ts: ALL_CONFIGS is `StateConfig[]` — entries are
+  // bare values (`  vaConfig,`), no `slug:` key prefix. The anchor pattern
+  // matches existing array entries; the registry line must match the
+  // same array shape.
   const regEdit = applyRegistryEdit(
     path.join(process.cwd(), "lib", "states", "registry.ts"),
     `import ${slug}Config from "./${slug}/config";`,
     /^import [a-z]{2}Config from "\.\/[a-z]{2}\/config";$/gm,
-    `  ${slug}: ${slug}Config,`,
-    new RegExp(`^\\s+${slug}:\\s+${slug}Config,$`, "m"),
+    `  ${slug}Config,`,
+    new RegExp(`^\\s+${slug}Config,$`, "m"),
+    /^\s+[a-z]{2}Config,$/gm,
     opts.dryRun ?? false
   );
   if (regEdit.applied) result.registryEdits.push("lib/states/registry.ts");
   else if (regEdit.reason !== "already present")
     result.manualTodos.push(`registry.ts: ${regEdit.reason}`);
 
+  // lib/institutions.ts: REGISTRY is `Record<string, Institution[]>` —
+  // every entry uses an `as unknown as Institution[]` double-cast to
+  // appease TS's structural comparison of the JSON-inferred narrow
+  // null-types vs. the stricter Institution interface. Bootstrap output
+  // MUST include the cast or the build fails with TS2322.
   const instEdit = applyRegistryEdit(
     path.join(process.cwd(), "lib", "institutions.ts"),
     `import ${slug}Institutions from "@/data/${slug}/institutions.json";`,
     /^import [a-z]{2}Institutions from "@\/data\/[a-z]{2}\/institutions\.json";$/gm,
-    `  ${slug}: ${slug}Institutions,`,
-    new RegExp(`^\\s+${slug}:\\s+${slug}Institutions,$`, "m"),
+    `  ${slug}: ${slug}Institutions as unknown as Institution[],`,
+    new RegExp(`^\\s+${slug}:\\s+${slug}Institutions\\s+as\\s+unknown\\s+as\\s+Institution\\[\\],$`, "m"),
+    /^\s+[a-z]{2}:\s+[a-z]{2}Institutions\s+as\s+unknown\s+as\s+Institution\[\],$/gm,
     opts.dryRun ?? false
   );
   if (instEdit.applied) result.registryEdits.push("lib/institutions.ts");
   else if (instEdit.reason !== "already present")
     result.manualTodos.push(`institutions.ts: ${instEdit.reason}`);
 
+  // lib/geo.ts: ZIP_REGISTRY is `Record<string, Record<string, ZipEntry>>`
+  // — every entry uses `as Record<string, ZipEntry>` cast.
   const geoEdit = applyRegistryEdit(
     path.join(process.cwd(), "lib", "geo.ts"),
     `import ${slug}Zipcodes from "@/data/${slug}/zipcodes.json";`,
     /^import [a-z]{2}Zipcodes from "@\/data\/[a-z]{2}\/zipcodes\.json";$/gm,
     `  ${slug}: ${slug}Zipcodes as Record<string, ZipEntry>,`,
     new RegExp(`^\\s+${slug}:\\s+${slug}Zipcodes`, "m"),
+    /^\s+[a-z]{2}:\s+[a-z]{2}Zipcodes\s+as\s+Record<string,\s+ZipEntry>,$/gm,
     opts.dryRun ?? false
   );
   if (geoEdit.applied) result.registryEdits.push("lib/geo.ts");
