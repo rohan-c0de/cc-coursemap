@@ -29,6 +29,16 @@
       "slug": "florida-community-college-transfer-credit-guide",
       "draftedAt": "2026-05-09T19:30:00Z",
       "trigger": "cluster-gap"
+    },
+    {
+      "slug": "maryland-community-college-session-timing-guide",
+      "draftedAt": "2026-05-09T22:30:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "germanna-community-college-audit-class-guide",
+      "draftedAt": "2026-05-09T22:30:00Z",
+      "trigger": "cluster-gap"
     }
   ]
 }
