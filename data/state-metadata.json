@@ -79,6 +79,16 @@
         "bannerDetail": "Georgia law allows residents aged 62+ to attend any unit of the University System of Georgia or TCSG without paying tuition or mandatory fees, on a space-available basis."
       }
     },
+    "ky": {
+      "fullName": "Kentucky",
+      "fipsCode": "21",
+      "systemName": "KCTCS",
+      "systemFullName": "Kentucky Community and Technical College System",
+      "systemUrl": "https://kctcs.edu/",
+      "defaultZip": "40202",
+      "defaultZipCity": "Louisville",
+      "seniorWaiver": null
+    },
     "ma": {
       "fullName": "Massachusetts",
       "fipsCode": "25",
