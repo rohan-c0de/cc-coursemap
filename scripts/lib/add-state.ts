@@ -74,6 +74,10 @@ import {
   type ScrapeStateResult as Banner8StateResult,
 } from "./scrape-banner-8";
 import {
+  scrapeCoursedogCatalog,
+  type ScrapeCoursedogResult,
+} from "./scrape-coursedog";
+import {
   lookupArticulationPortal,
   getFallbackPortal,
   type PortalEntry,
@@ -124,6 +128,10 @@ export interface AddStateResult {
     /** Colleges whose platform has no scraper template yet. */
     skippedPlatforms: { slug: string; platform: Platform; reason: string }[];
   };
+  catalog: {
+    /** One result per college whose fingerprint matched a catalog platform. */
+    coursedog?: ScrapeCoursedogResult[];
+  };
   transfers: {
     portal: PortalEntry | null;
     scriptsRun: { script: string; ok: boolean; ms: number }[];
@@ -141,12 +149,18 @@ export interface AddStateResult {
 // Platform → scraper-template dispatcher
 // ---------------------------------------------------------------------------
 
-/** Platforms we have course-scraper templates for in PRs 2–4. */
+/** Platforms we have course-scraper templates for in PRs 2–4. These are
+ *  primary class-section platforms — return per-term schedule data. */
 const TEMPLATED_COURSE_PLATFORMS: Platform[] = [
   "banner-ssb-9",
   "colleague",
   "banner-8",
 ];
+
+/** Catalog/curriculum platforms — return course definitions + prereqs but
+ *  not class sections. Scraped in Phase 2c (separate from Phase 2b
+ *  course-section scraping); the data feeds Phase 4 prereq aggregation. */
+const CATALOG_PLATFORMS: Platform[] = ["coursedog"];
 
 /** Platforms we KNOW are course-search platforms but don't have a template
  *  for. Marking them explicitly distinguishes "no template yet" from
@@ -154,7 +168,6 @@ const TEMPLATED_COURSE_PLATFORMS: Platform[] = [
 const UNTEMPLATED_COURSE_PLATFORMS: Platform[] = [
   "peoplesoft",
   "jenzabar",
-  "coursedog",
   "workday",
   "ellucian-experience",
   "webadvisor",
@@ -283,10 +296,14 @@ async function phaseFingerprint(
     byPlatform[fp.platform] = arr;
   }
 
-  // Flag platforms that aren't templated for course scraping
+  // Flag platforms that aren't templated for course scraping. Catalog
+  // platforms (Coursedog, etc.) are NOT flagged here — they're handled
+  // by Phase 2c instead, since they yield catalog/prereq data rather
+  // than class sections.
   for (const platform of Object.keys(byPlatform) as Platform[]) {
     const cohort = byPlatform[platform]!;
     if (TEMPLATED_COURSE_PLATFORMS.includes(platform)) continue;
+    if (CATALOG_PLATFORMS.includes(platform)) continue;
     const reason = UNTEMPLATED_COURSE_PLATFORMS.includes(platform)
       ? `platform '${platform}' has no scraper template yet — manual scraper needed`
       : platform === "auth-gated"
@@ -431,9 +448,11 @@ async function phaseCourseScraping(
   }
 
   // Untemplated platforms — record as skipped (already in `todos` from
-  // fingerprint phase, but record here for the structured result too)
+  // fingerprint phase, but record here for the structured result too).
+  // Catalog platforms are NOT skipped: they're handled by Phase 2c.
   for (const platform of Object.keys(byPlatform) as Platform[]) {
     if (TEMPLATED_COURSE_PLATFORMS.includes(platform)) continue;
+    if (CATALOG_PLATFORMS.includes(platform)) continue;
     const cohort = byPlatform[platform]!;
     for (const e of cohort) {
       courses.skippedPlatforms.push({
@@ -445,6 +464,76 @@ async function phaseCourseScraping(
   }
 
   return courses;
+}
+
+// ---------------------------------------------------------------------------
+// Phase 2c: Catalog scraping (Coursedog and other catalog/curriculum
+// platforms). Produces course-definition data + prereqs that Phase 4
+// can merge into prereqs.json. Does not produce class sections.
+// ---------------------------------------------------------------------------
+
+async function phaseCatalog(
+  opts: AddStateOptions,
+  byPlatform: Partial<Record<Platform, FingerprintedCollege[]>>,
+  todos: string[]
+): Promise<AddStateResult["catalog"]> {
+  const catalog: AddStateResult["catalog"] = {};
+  // Phase 2c is intentionally NOT gated by --skip-courses. Catalog data
+  // is independent from class sections — a user might skip the heavy
+  // course-section scrape but still want catalog/prereq data.
+  const coursedogCohort = byPlatform["coursedog"];
+  if (!coursedogCohort || coursedogCohort.length === 0) return catalog;
+
+  console.log("\n=== Phase 2c: Catalog scraping ===");
+  console.log(`  Coursedog: ${coursedogCohort.length} college(s)`);
+
+  if (opts.dryRun) {
+    console.log("  (dry-run; not running scraper)");
+    return catalog;
+  }
+
+  const results: ScrapeCoursedogResult[] = [];
+  for (const entry of coursedogCohort) {
+    // Extract catalog domain from the fingerprinter's courseSearchUrl
+    // (e.g. "https://catalog.nwfsc.edu/courses" → "catalog.nwfsc.edu").
+    const url = entry.fingerprint.courseSearchUrl;
+    if (!url) {
+      todos.push(
+        `[catalog/coursedog] ${entry.college.slug}: fingerprinter found Coursedog but no URL — manual lookup needed.`
+      );
+      continue;
+    }
+    let domain: string;
+    try {
+      domain = new URL(url).hostname;
+    } catch {
+      todos.push(
+        `[catalog/coursedog] ${entry.college.slug}: malformed Coursedog URL '${url}'.`
+      );
+      continue;
+    }
+    try {
+      const r = await scrapeCoursedogCatalog({
+        state: opts.state,
+        slug: entry.college.slug,
+        catalogDomain: domain,
+      });
+      results.push(r);
+      if (r.error) {
+        todos.push(`[catalog/coursedog] ${entry.college.slug}: ${r.error}`);
+      } else if (r.coursesCount === 0) {
+        todos.push(
+          `[catalog/coursedog] ${entry.college.slug}: scraped 0 courses (tenant=${r.tenantId}). Verify the catalog URL is correct.`
+        );
+      }
+    } catch (e) {
+      const msg = `Coursedog scrape failed for ${entry.college.slug}: ${e}`;
+      console.error(`  ${msg}`);
+      todos.push(`[catalog/coursedog] ${msg}`);
+    }
+  }
+  catalog.coursedog = results;
+  return catalog;
 }
 
 // ---------------------------------------------------------------------------
@@ -564,6 +653,18 @@ export function formatReport(r: AddStateResult): string {
     `Phase 2b — Course scraping: ${totalSections.toLocaleString()} sections${r.courses.skippedPlatforms.length > 0 ? `, ${r.courses.skippedPlatforms.length} colleges skipped (untemplated platforms)` : ""}`
   );
 
+  // Phase 2c (catalog)
+  if (r.catalog.coursedog && r.catalog.coursedog.length > 0) {
+    const total = r.catalog.coursedog.reduce((n, c) => n + c.coursesCount, 0);
+    const totalPrereqs = r.catalog.coursedog.reduce(
+      (n, c) => n + c.withPrereqs,
+      0
+    );
+    lines.push(
+      `Phase 2c — Catalog (Coursedog): ${total.toLocaleString()} courses across ${r.catalog.coursedog.length} college(s), ${totalPrereqs} with prereqs`
+    );
+  }
+
   // Phase 3
   if (r.transfers.portal) {
     const ok = r.transfers.scriptsRun.filter((s) => s.ok).length;
@@ -620,6 +721,7 @@ export async function addState(
     bootstrap: null,
     fingerprint: { byPlatform: {}, flagged: [] },
     courses: { skippedPlatforms: [] },
+    catalog: {},
     transfers: { portal: null, scriptsRun: [], fallbackSuggestion: null },
     prereqs: { aggregated: false },
     manualTodos: [],
@@ -668,6 +770,19 @@ export async function addState(
     result.manualTodos.push(`[courses] failed: ${e}`);
   }
   result.durations["2b-courses"] = Date.now() - t2b;
+
+  // Phase 2c (catalog scraping — Coursedog and other catalog platforms)
+  const t2c = Date.now();
+  try {
+    result.catalog = await phaseCatalog(
+      opts,
+      result.fingerprint.byPlatform,
+      result.manualTodos
+    );
+  } catch (e) {
+    result.manualTodos.push(`[catalog] failed: ${e}`);
+  }
+  result.durations["2c-catalog"] = Date.now() - t2c;
 
   // Phase 3 (articulation)
   const t3 = Date.now();
