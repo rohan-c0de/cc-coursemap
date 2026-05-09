@@ -43,8 +43,16 @@ Run the detectors in parallel. Each returns 0..N candidate briefs. See `referenc
 npx tsx .claude/skills/blog-pipeline/scripts/detect-cluster-gaps.ts > /tmp/blog-candidates-c.json
 npx tsx .claude/skills/blog-pipeline/scripts/detect-data-deltas.ts > /tmp/blog-candidates-a.json
 npx tsx .claude/skills/blog-pipeline/scripts/detect-prereq-bottlenecks.ts > /tmp/blog-candidates-d.json
-# Trigger B (keyword/search) is manual-input for now — see references/triggers.md
+# Trigger B (keyword/search) — see references/triggers.md for CSV + GSC sources
 ```
+
+**GSC refresh (run before every pipeline invocation):** If `~/gsc_token.json` exists, pull fresh Search Console data first — it feeds Trigger B with real click and impression signals:
+
+```bash
+source ~/gsc-venv/bin/activate && python3 ~/gsc_audit.py
+```
+
+This writes `~/gsc_audit_output.json`. The detect stage reads `blog_queries` (impressions with 0 clicks) and `quick_wins` (position 5–20, low CTR) from that file and promotes them as Trigger B candidates. If the script is unavailable or fails, continue without it — the other detectors are unaffected.
 
 A candidate brief is JSON with: `triggerSource`, `topic`, `targetReader`, `searchIntentHypothesis`, `articleType` (`general` | `state-spoke` | `college-spoke` | `hub`), `state` (or `null`), optional `college` (slug), `cluster` (or `null`), `nonDuplicateRationale`, `dataSlicePaths` (file paths whose contents the drafter must read).
 

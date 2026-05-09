@@ -221,9 +221,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "how-to-find-late-start-community-college-classes",
     title:
-      "How to Find Late-Start Community College Classes Before the Semester Is Lost",
+      "How Late Can You Enroll in Community College? Late-Start Classes Explained",
     description:
-      "Missed the start of the semester? Late-start classes begin weeks later and carry the same credits. Here's how to find them.",
+      "You can enroll days before a late-start section begins — weeks after the main semester started. Here's how to find open sections and what to expect.",
     date: "2026-04-04",
     category: "registration-timing",
     state: null,
@@ -447,9 +447,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-jersey-community-college-transfer-credit-guide",
     title:
-      "How New Jersey Community College Transfer Credit Actually Works: An NJTransfer Student's Guide",
+      "NJTransfer.org Explained: How NJ Community College Transfer Credit Actually Works",
     description:
-      "NJ has 40 receiving institutions — but the same course can be a direct match at Rowan (96%) and worth nothing at Rutgers Engineering (13%). Here's how to navigate it.",
+      "NJTransfer.org shows equivalencies for 40 NJ universities — but the same course can be a direct match at Rowan (96%) and worth nothing at Rutgers Engineering (13%). Here's how to read it.",
     date: "2026-04-12",
     category: "state-system-explainers",
     state: "nj",

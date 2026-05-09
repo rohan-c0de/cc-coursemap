@@ -99,9 +99,28 @@ This separation matters: detectors should be reproducible and mechanical, so det
 
 **Fires when:** external search demand reveals an uncovered topic.
 
-### v1 — manual CSV
+### Source 1 — GSC audit (primary, automated)
 
-For v1, this is fully manual. Drop a file at `.blog-pipeline/keyword-candidates.csv`:
+Before each pipeline run, refresh GSC data:
+
+```bash
+source ~/gsc-venv/bin/activate && python3 ~/gsc_audit.py
+# writes ~/gsc_audit_output.json
+```
+
+Read two sections of the output:
+
+**`blog_queries`** — queries where one of our blog pages already shows up in Google but gets 0 clicks (impressions > 0, clicks = 0). These prove search demand exists and we're close to ranking — a topic refinement or new companion article can capture the traffic.
+
+**`quick_wins`** — queries where a course/college page ranks position 5–20 with low CTR. A blog post explaining the course or concept can lift the entire cluster.
+
+For each entry, synthesize a candidate brief: the `query` becomes the `searchIntentHypothesis`, the page URL informs `state` and `articleType`. Treat `impressions` as a proxy for monthly volume. Apply the same filters as the CSV source (intent ≥ 3, alignment ≥ 3, no near-duplicate against existing posts).
+
+Prioritize `blog_queries` with position < 20 — these are one article away from page 1.
+
+### Source 2 — manual CSV
+
+For topics not yet appearing in GSC, drop a file at `.blog-pipeline/keyword-candidates.csv`:
 
 ```csv
 query,monthly_volume,intent_quality_0_to_5,product_alignment_0_to_5
@@ -112,14 +131,14 @@ query,monthly_volume,intent_quality_0_to_5,product_alignment_0_to_5
 The detector:
 1. Reads the CSV (returns zero candidates if file is missing — that's fine)
 2. Filters to rows where `monthly_volume >= 200`, `intent_quality >= 3`, `product_alignment >= 3`
-3. For each surviving row, runs an embedding-similarity check against existing 33 articles. Reject if cosine similarity > 0.82 against any existing post.
+3. For each surviving row, runs an embedding-similarity check against existing articles. Reject if cosine similarity > 0.82 against any existing post.
 4. Returns surviving rows as candidate briefs
 
 The thresholds are intentional. 200/mo is the floor where ranking is worth the effort. Intent and alignment ≥ 3 filters out vanity traffic — the visitor must plausibly use Community College Path.
 
-### v2 — automated
+### v2 — fully automated
 
-Wire to DataForSEO, Ahrefs MCP, or Google Trends only after the manual flow proves which kinds of queries actually convert to good articles. Premature automation here will fill the pipeline with junk.
+Wire to DataForSEO, Ahrefs MCP, or Google Trends only after the GSC + CSV flow proves which kinds of queries actually convert to good articles. Premature automation here will fill the pipeline with junk.
 
 ### Why this trigger is third-priority
 
