@@ -56,17 +56,59 @@ If all detectors return zero candidates, **stop and report "no triggers fired th
 
 ### Stage 2 — Prioritize
 
-Sort candidates by the priority bands below (high to low). The pipeline drafts every qualifying candidate, in priority order, in the same invocation. The ordering matters because: (a) each draft consumes context budget, so the highest-value posts should be drafted while the model is freshest, and (b) if you abort the run mid-batch, you want the most important PRs to already exist.
+Detector `rankScore` is a *data-presence* signal, not an editorial-value signal. Sorting by rankScore alone systematically over-picks templated articles for clusters where every state has the same shape of data (statute citations, audit policies). Pre-2026-05-10 the pipeline drafted a stack of senior-waiver and audit-at-college spokes for that exact reason, and the user pushed back: "We have tons of other good data. Why are you always writing about that instead?"
 
-1. Data-delta candidates from a brand-new state (registry just gained an entry)
-2. Cluster-gap candidates for a hub with ≥2 existing spokes (proves the cluster has demand)
-3. Data-delta candidates from a new transfer agreement or senior-waiver rule change
-4. Cluster-gap candidates for hubs with 0–1 spokes
-5. Keyword candidates (only when both intent quality and product alignment are high)
+Apply the rules below in order. They override rankScore.
 
-**Already-drafted check:** read `.blog-pipeline/cooldown.json` (kept as a ledger of what's already been drafted) and skip any candidate whose slug appears there. The original 2-per-7-days rate cap was removed in favor of relying on the quality gates: G1 word-count, G3 banned-phrase, and G4 embedding similarity already block thin or near-duplicate output, which is what a rate cap was a crude proxy for. Reviewer throughput is the real bottleneck — the human can ignore unreviewed PRs without skill changes.
+#### Step 2a — Skip saturated clusters
+
+Before ranking, check spoke counts per cluster in `content/blog/index.ts`. A cluster with **≥ 6 existing spokes is saturated** for the purposes of automated drafting. Drop ALL candidates from saturated clusters from this run, even if they top the rankScore list. Saturation isn't permanent — a future run can revisit once the corpus shape changes — but each pipeline batch should never deepen an already-deep cluster while shallow themes have zero spokes.
+
+As of 2026-05-10, saturated clusters: `senior-waivers-guide` (13), `transfer-credit-guide` (18), `session-timing-guide` (8), `audit-at-college-guide` (9). Skip candidates pointing at these in the next run; surface that decision in the run summary so the human sees it.
+
+If every remaining candidate sits in a saturated cluster, **stop and report** — that's the signal to add a new hub or detector before drafting more.
+
+#### Step 2b — Bias toward data depth
+
+Within the remaining candidates, prefer articles whose `dataSlicePaths` include precomputed slice files (`.blog-pipeline/slices/...`) or large structured datasets (`data/{state}/courses/`, `data/{state}/transfer-equiv.json`, `data/{state}/prereqs.json`) over articles that source from a single config field. The latter become templated; the former force the drafter to reason from real numbers and produce posts that BRIEF.md actually wants.
+
+If two candidates tie on cluster-non-saturation, pick the one whose data slice has more numeric content the article must cite. A prereq-bottleneck candidate with a 200-entry slice file outranks a state-spoke whose only data input is a one-paragraph `seniorWaiver` config block.
+
+#### Step 2c — Cover BRIEF.md themes the corpus is missing
+
+`content/blog/BRIEF.md` § "What kinds of articles to create" lists nine theme areas. Audit which themes have ≥ 3 spokes vs. which have 0. Push candidates that fill 0-spoke themes ahead of candidates that pile onto already-covered themes, even when rankScores favor the latter.
+
+As of 2026-05-10:
+- ✅ Heavily covered: transfer confusion, senior waivers, session timing
+- ⚠️ Lightly covered: prereq sequencing (1 hub, 0 spokes), registration timing (1 hub, 0 spokes), online vs in-person (1 hub, 0 spokes), academic calendar (covered via session-timing already)
+- ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), course availability patterns, instructor density, program-level content, mistake-avoidance beyond prereqs
+
+The next batches should disproportionately fill the lightly- and zero-covered themes. That's where the real editorial value sits.
+
+#### Step 2d — Cap any single cluster's share of a batch
+
+No more than **3 articles from the same cluster** in a single batch run, regardless of how many candidates the detector found. Rotate across themes. A batch of 10 articles drafting 8 from one cluster is a saturation-in-disguise pattern and produces drafter-quality decay (G4 catches some; subjective sameness it doesn't).
+
+If a cluster only has 1–2 candidates that pass step 2a–2c, take all of them. If it has 4+, take the top 3 by rankScore and defer the rest.
+
+#### Step 2e — Skip already-drafted slugs
+
+Read `.blog-pipeline/cooldown.json` and skip any candidate whose slug appears there. The original 2-per-7-days rate cap was removed in favor of relying on the quality gates: G1 word-count, G3 banned-phrase, and G4 embedding similarity already block thin or near-duplicate output, which is what a rate cap was a crude proxy for. Reviewer throughput is the real bottleneck — the human can ignore unreviewed PRs without skill changes.
 
 The ledger file name is preserved (`cooldown.json`) for backward compatibility with existing entries, even though it no longer enforces a cooldown.
+
+#### Step 2f — Final ordering after the filters
+
+Among the candidates that survive 2a–2e, draft in this priority order:
+
+1. Data-delta candidates from a brand-new state (registry just gained an entry)
+2. Data-driven detector candidates (prereq-bottleneck and any future ones) for under-covered BRIEF.md themes
+3. Cluster-gap candidates for hubs with 1–2 existing spokes (the cluster is proven but shallow)
+4. Cluster-gap candidates for hubs with 3–5 spokes (still pre-saturation)
+5. Data-delta candidates from a new transfer agreement or senior-waiver rule change
+6. Keyword candidates (only when both intent quality and product alignment are high)
+
+Within each band, rankScore breaks ties.
 
 ### Stage 3 — Draft
 
@@ -114,6 +156,46 @@ Reviewer checklist (paste into PR body):
 - [ ] If review-cadence flag is true, add a calendar reminder for annual review
 ```
 
+## Adding new clusters and detectors
+
+When the existing clusters all saturate (Stage 2a returns only saturated candidates), the pipeline is signaling that the next investment should be **a new cluster or a new detector**, not more drafting against the existing surface. Adding a hub article unlocks dozens of state-spoke candidates; adding a data-driven detector unlocks per-state article potential against data the repo already collects.
+
+### Underused data sources (as of 2026-05-10)
+
+The repo has substantial data the pipeline doesn't currently mine:
+
+- **Course sections per state**: `data/{state}/courses/<college>/<term>.json`. 50,000+ sections for many states. Includes start dates, instructors, modes (in-person/hybrid/online), credits, days, prereqs. Used today only for session-timing distinct-start-date counts.
+- **Transfer equivalencies**: `data/{state}/transfer-equiv.json`. 78k entries in FL, 122k in MD, 53k+ in TN/GA/NC. Used today only as a rankScore signal; not mined for direct-vs-elective patterns, receiver tightness, or course-portability analysis.
+- **Prereq graphs**: `data/{state}/prereqs.json`. Used by `detect-prereq-bottlenecks.ts`. Pattern proven; one cluster (`prereq-chains-guide`) ready for state-spoke drafting.
+- **Programs and degree maps**: `data/{state}/programs/`. Untapped.
+- **Section modes**: every section has `mode` (in-person, hybrid, online). Hybrid course density per state per term — never analyzed.
+- **Instructor data**: section records carry `instructor`. Per-course instructor variance — never analyzed.
+- **Section availability and timing**: `start_date`, `start_time`, `days`, `seats_open`. Late-start patterns, evening/weekend density, fill states — never analyzed.
+
+### Cluster ideas to build next
+
+These map to BRIEF.md theme areas with 0 or 1 spokes. Each, once seeded with a hub, opens 15–24 state-spoke candidates by detector convention.
+
+| Proposed cluster | Hub article topic | Detector | BRIEF.md theme |
+|---|---|---|---|
+| `prereq-chains-guide` (hub exists) | (existing) | ✅ `detect-prereq-bottlenecks.ts` | §7 Prereqs |
+| `course-availability-guide` | "How to Find a Specific Community College Course This Term" | new: scan `data/{state}/courses/` for course-by-term coverage gaps; emit per-state spoke when ≥ 3 popular gen-eds run at < 50% of state's colleges in any term | §2 Registration timing |
+| `hybrid-course-density-guide` | "Hybrid Courses at Community Colleges: Where They're Common, Where They're Rare" | new: aggregate `mode` field across `data/{state}/courses/`; emit state spokes for colleges where hybrid > 20% or < 5% of sections | §8 Online vs hybrid |
+| `late-start-by-state-guide` | (existing standalone `how-to-find-late-start-community-college-classes` could become hub) | new: count distinct start dates after week 2 of term per state; emit per-state spokes | §2 Registration timing |
+| `cross-college-scheduling-guide` | "Taking Classes at More Than One Community College" (existing standalone) | (no detector needed; per-state spokes editorially driven) | §3 Cross-college |
+| `transfer-receiver-patterns-guide` | "Which Universities Are the Toughest Transfer Receivers in [State]?" | new: aggregate `data/{state}/transfer-equiv.json` per receiver, score by % direct match; emit state-by-receiver spoke candidates | §1 Transfer confusion |
+| `instructor-density-guide` | "Same Course, Different Instructor: How [Course] Staffs Across [State]" | new: per-course instructor count from `data/{state}/courses/`; emit per-course-per-state spokes for high-variance combos | (cross-cuts §3 and §6) |
+
+When a cluster idea above looks ready, the implementation pattern is:
+
+1. Write the hub article (general explainer, 1500-2500 words). This is editorial work, not pipeline output.
+2. Add the hub entry to `content/blog/index.ts` with `clusterRole: "hub"`.
+3. Implement the detector under `.claude/skills/blog-pipeline/scripts/detect-<theme>-<pattern>.ts` following the `detect-prereq-bottlenecks.ts` template — read data, compute stats, write a slice file per state to `.blog-pipeline/slices/<theme>/<state>.json`, emit candidates with `dataSlicePaths` pointing at the slice.
+4. Update `SKILL.md` "Bundled scripts" table to register the new detector.
+5. Update Stage 2c "covered themes" tally so future runs reflect the new cluster.
+
+The detector pattern enforces data-grounded drafting: every numeric claim in the resulting article has to come from the slice file, which makes the article concretely useful instead of templated boilerplate.
+
 ## Kill switch
 
 If a bad post ships, disable the pipeline immediately by creating an empty file at the repo root:
@@ -144,11 +226,13 @@ If you (Claude) are invoked from inside the workflow, behave identically to a ma
 
 | Script | Purpose |
 |---|---|
-| `scripts/detect-cluster-gaps.ts` | Trigger C — find hubs with missing state spokes; for the `audit-at-college-guide` cluster, surfaces per-college spokes for institutions with rich `audit_policy` data |
+| `scripts/detect-cluster-gaps.ts` | Trigger C — find hubs with missing state spokes; for the `audit-at-college-guide` cluster, surfaces per-college spokes for institutions with rich `audit_policy` data. Detectors return rankScore by data-presence; Stage 2 (Prioritize) is responsible for editorial-value filtering on top |
 | `scripts/detect-data-deltas.ts` | Trigger A — diff current data against last snapshot |
-| `scripts/detect-prereq-bottlenecks.ts` | Trigger D — mine `data/{state}/prereqs.json` for chain depth and blocker courses; emits a candidate per state with ≥5 chains of depth ≥3, plus a precomputed stats slice the drafter must consume |
+| `scripts/detect-prereq-bottlenecks.ts` | Trigger D — mine `data/{state}/prereqs.json` for chain depth and blocker courses; emits a candidate per state with ≥5 chains of depth ≥3, plus a precomputed stats slice the drafter must consume. Pattern template for future data-driven detectors |
 | `scripts/snapshot-state.ts` | Capture current registry/data state |
 | `scripts/quality-gates.ts` | Run all quality gates against a draft |
+
+**Note on detector vs. prioritization roles:** Detectors are intentionally permissive — they flag everything that *could* support an article. The skill's Stage 2 rules (saturation cap, theme diversity, BRIEF.md coverage) decide what *should* draft this run. Don't push editorial filtering down into the detectors; keep them mechanical and reproducible, and let SKILL.md's prioritization stage do the editorial work.
 
 Trigger B (keyword/search-intent) is intentionally manual for v1: drop a CSV at `.blog-pipeline/keyword-candidates.csv` with columns `query,monthly_volume,intent_quality_0_to_5,product_alignment_0_to_5`. The pipeline reads it during the detect stage. Wire to DataForSEO or similar later when the manual flow proves valuable.
 
