@@ -166,6 +166,34 @@ export const articles: ArticleMeta[] = [
     cluster: "senior-waivers-guide",
     clusterRole: "spoke",
   },
+  {
+    slug: "massachusetts-senior-citizens-community-college-tuition-waiver",
+    title:
+      "Massachusetts Senior Citizens at Community Colleges: How the 60+ Tuition Waiver Actually Works",
+    description:
+      "Massachusetts law waives tuition for residents 60+ at all 15 community colleges — no income cap, no retirement requirement. Here's how to actually use it.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "ma",
+    author: "Community College Path",
+    tags: ["seniors", "massachusetts", "tuition-waiver", "auditing", "masscc"],
+    cluster: "senior-waivers-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "florida-community-college-transfer-credit-guide",
+    title:
+      "How Florida Community College Transfer Credit Actually Works: An SCNS Student's Guide",
+    description:
+      "Florida's Statewide Course Numbering System makes 100% of community college courses direct matches at every public university — but the catches are in prerequisites, limited-access majors, and excess credit hours.",
+    date: "2026-05-09",
+    category: "state-system-explainers",
+    state: "fl",
+    author: "Community College Path",
+    tags: ["transfer", "florida", "fcs", "scns", "2+2"],
+    cluster: "transfer-credit-guide",
+    clusterRole: "spoke",
+  },
 
   // --- Standalone: Auditing explainer ---
   {
