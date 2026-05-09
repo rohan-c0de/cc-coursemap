@@ -715,4 +715,155 @@ export const articles: ArticleMeta[] = [
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
   },
+
+  // --- Pipeline batch 2026-05-09b: 7 state-spokes + 3 college-spokes ---
+
+  // Cluster C spokes (session-timing): TN, MA, NY, NC, VA, CT
+  {
+    slug: "tennessee-community-college-session-timing-guide",
+    title:
+      "Tennessee Community College Sessions Explained: How TBR's 12 Colleges Use 8-Week, Mini-Mester, and Late-Start Formats",
+    description:
+      "Northeast State publishes 62 distinct start dates per term. Here's how TBR's 12 community colleges actually structure session length, when each format helps, and how to find the right one before you register.",
+    date: "2026-05-09",
+    category: "session-timing",
+    state: "tn",
+    author: "Community College Path",
+    tags: ["sessions", "session-timing", "tennessee", "tbr", "8-week", "wintermester"],
+    cluster: "session-timing-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "massachusetts-community-college-session-timing-guide",
+    title:
+      "Massachusetts Community College Sessions Explained: How MassCC's 15 Colleges Use Full-Term, 8-Week, and Summer Formats",
+    description:
+      "MassCC runs leaner session menus than peer states. Here's how the 15 colleges structure session length, when each format helps, and where Middlesex and Greenfield offer the deepest options.",
+    date: "2026-05-09",
+    category: "session-timing",
+    state: "ma",
+    author: "Community College Path",
+    tags: ["sessions", "session-timing", "massachusetts", "masscc", "8-week", "intersession"],
+    cluster: "session-timing-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "new-york-cuny-community-college-session-timing-guide",
+    title:
+      "New York CUNY Community College Sessions Explained: How the 7 CUNY-CC Colleges Use 8-Week, Winter, and Summer Formats",
+    description:
+      "CUNY's 7 community colleges run a centrally synchronized session menu — narrower than peer systems but with a unique cross-campus enrollment advantage in winter and summer terms.",
+    date: "2026-05-09",
+    category: "session-timing",
+    state: "ny",
+    author: "Community College Path",
+    tags: ["sessions", "session-timing", "new-york", "cuny", "8-week", "winter-session"],
+    cluster: "session-timing-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "north-carolina-community-college-session-timing-guide",
+    title:
+      "North Carolina Community College Sessions Explained: How NCCCS's 58 Colleges Use 8-Week, Mini-Mester, and Late-Start Formats",
+    description:
+      "Central Piedmont alone publishes 49 distinct start dates per term. Here's how NCCCS's 58 community colleges actually structure session length, when each format helps, and how to find the right one.",
+    date: "2026-05-09",
+    category: "session-timing",
+    state: "nc",
+    author: "Community College Path",
+    tags: ["sessions", "session-timing", "north-carolina", "ncccs", "8-week", "mini-session"],
+    cluster: "session-timing-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "virginia-community-college-session-timing-guide",
+    title:
+      "Virginia Community College Sessions Explained: How VCCS's 23 Colleges Use 8-Week, Dynamic, and Late-Start Formats",
+    description:
+      "TCC publishes 74 distinct start dates per term. Here's how VCCS's 23 community colleges actually structure session length, including the dynamic-dated sections unique to Virginia.",
+    date: "2026-05-09",
+    category: "session-timing",
+    state: "va",
+    author: "Community College Path",
+    tags: ["sessions", "session-timing", "virginia", "vccs", "8-week", "dynamic-dated"],
+    cluster: "session-timing-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "connecticut-state-community-college-session-timing-guide",
+    title:
+      "Connecticut State Community College Sessions Explained: How CT State's Unified System Uses 8-Week, Late-Start, and Summer Formats",
+    description:
+      "CT State's 2023 merger created a unified 12-campus system with shared accreditation. Here's how that affects session diversity and cross-campus enrollment for 8-week, intersession, and summer formats.",
+    date: "2026-05-09",
+    category: "session-timing",
+    state: "ct",
+    author: "Community College Path",
+    tags: ["sessions", "session-timing", "connecticut", "ct-state", "8-week", "unified-system"],
+    cluster: "session-timing-guide",
+    clusterRole: "spoke",
+  },
+
+  // Cluster B spoke: NY senior waivers
+  {
+    slug: "new-york-cuny-senior-citizens-tuition-waiver",
+    title:
+      "New York CUNY Senior Citizens at Community Colleges: How the 60+ Audit Program Actually Works",
+    description:
+      "N.Y. Education Law § 6304(5) waives tuition for residents 60+ at all 7 CUNY community colleges — but only for audit enrollment, not credit. Here's what's covered and how it compares to nearby states.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "ny",
+    author: "Community College Path",
+    tags: ["seniors", "new-york", "cuny", "tuition-waiver", "auditing", "audit-only"],
+    cluster: "senior-waivers-guide",
+    clusterRole: "spoke",
+  },
+
+  // Cluster E spokes (audit-at-college): NOVA, Reynolds, TCC
+  {
+    slug: "nova-northern-virginia-community-college-audit-class-guide",
+    title:
+      "How to Audit a Class at Northern Virginia Community College: Cost, Application, and Eligibility",
+    description:
+      "NOVA, Virginia's largest community college, allows auditing at full credit cost — or free for VA residents 60+. Here's the process across NOVA's six campuses and online catalog.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "va",
+    college: "nova",
+    author: "Community College Path",
+    tags: ["auditing", "virginia", "nova", "vccs", "senior-waiver", "northern-virginia"],
+    cluster: "audit-at-college-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "reynolds-community-college-audit-class-guide",
+    title:
+      "How to Audit a Class at Reynolds Community College: Cost, Application, and Eligibility",
+    description:
+      "Reynolds Community College in central Virginia allows auditing at full credit cost — or free for VA residents 60+. Here's the process across the three Richmond-area campuses.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "va",
+    college: "reynolds",
+    author: "Community College Path",
+    tags: ["auditing", "virginia", "reynolds", "vccs", "senior-waiver", "richmond"],
+    cluster: "audit-at-college-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "tcc-tidewater-community-college-audit-class-guide",
+    title:
+      "How to Audit a Class at Tidewater Community College: Cost, Application, and Eligibility",
+    description:
+      "TCC serves Hampton Roads with four campuses and a heavy military-affiliated student body. Auditing rules, cost (free for seniors), and important notes for military and veteran auditors.",
+    date: "2026-05-09",
+    category: "senior-waivers",
+    state: "va",
+    college: "tcc",
+    author: "Community College Path",
+    tags: ["auditing", "virginia", "tcc", "tidewater", "vccs", "senior-waiver", "hampton-roads"],
+    cluster: "audit-at-college-guide",
+    clusterRole: "spoke",
+  },
 ];

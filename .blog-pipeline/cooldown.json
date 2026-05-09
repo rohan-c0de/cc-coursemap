@@ -39,6 +39,56 @@
       "slug": "germanna-community-college-audit-class-guide",
       "draftedAt": "2026-05-09T22:30:00Z",
       "trigger": "cluster-gap"
+    },
+    {
+      "slug": "tennessee-community-college-session-timing-guide",
+      "draftedAt": "2026-05-09T23:30:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "massachusetts-community-college-session-timing-guide",
+      "draftedAt": "2026-05-09T23:30:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "new-york-cuny-community-college-session-timing-guide",
+      "draftedAt": "2026-05-09T23:30:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "north-carolina-community-college-session-timing-guide",
+      "draftedAt": "2026-05-09T23:30:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "virginia-community-college-session-timing-guide",
+      "draftedAt": "2026-05-09T23:30:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "connecticut-state-community-college-session-timing-guide",
+      "draftedAt": "2026-05-09T23:30:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "new-york-cuny-senior-citizens-tuition-waiver",
+      "draftedAt": "2026-05-09T23:30:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "nova-northern-virginia-community-college-audit-class-guide",
+      "draftedAt": "2026-05-09T23:30:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "reynolds-community-college-audit-class-guide",
+      "draftedAt": "2026-05-09T23:30:00Z",
+      "trigger": "cluster-gap"
+    },
+    {
+      "slug": "tcc-tidewater-community-college-audit-class-guide",
+      "draftedAt": "2026-05-09T23:30:00Z",
+      "trigger": "cluster-gap"
     }
   ]
 }
