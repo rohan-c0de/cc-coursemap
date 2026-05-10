@@ -5,6 +5,7 @@ import AdSenseScript from "@/components/AdSenseScript";
 import ThemeProvider from "@/components/ThemeProvider";
 import AuthProvider from "@/components/AuthProvider";
 import LoginModal from "@/components/auth/LoginModal";
+import JsonLd from "@/components/JsonLd";
 import { getAllStates } from "@/lib/states/registry";
 import "./globals.css";
 
@@ -51,6 +52,43 @@ export const metadata: Metadata = {
   },
 };
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
+
+// Site-wide JSON-LD: WebSite (with sitelink search action), and an
+// EducationalOrganization that aggregates the state systems we cover.
+// Lives in the root layout so it appears on every page; per-route pages
+// can layer additional structured data on top (CollegeOrUniversity,
+// ItemList, BreadcrumbList, etc.).
+const siteJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      url: SITE_URL,
+      name: "Community College Path",
+      description: `Search courses, plan transfers, and build schedules across ${_totalColleges}+ community colleges in ${_states.length} states.`,
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${SITE_URL}/colleges?q={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": `${SITE_URL}/#organization`,
+      url: SITE_URL,
+      name: "Community College Path",
+      description: `An independent guide to ${_totalColleges}+ community colleges across ${_states.length} U.S. states. Free course finder, transfer lookup, and schedule planning tools for community college students.`,
+      sameAs: [],
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -63,6 +101,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-white dark:bg-slate-900 text-gray-900 dark:text-slate-100">
+        <JsonLd data={siteJsonLd} />
         <ThemeProvider>
           <AuthProvider>
             <GoogleAnalytics />

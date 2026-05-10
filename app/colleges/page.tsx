@@ -107,13 +107,36 @@ export default async function AllCollegesPage() {
     ],
   };
 
+  // Build itemListElement entries for every college we cover. Listing
+  // each college explicitly gives Google a structured entry per item
+  // rather than just a count — important for sitelinks and for
+  // appearing in itemList-aware result types (rich results, knowledge
+  // panels, etc.).
+  const collegeListItems = stateData.flatMap((s, stateIdx) =>
+    s.institutions.map((inst, instIdx) => ({
+      "@type": "ListItem",
+      position:
+        stateData
+          .slice(0, stateIdx)
+          .reduce((sum, st) => sum + st.institutions.length, 0) +
+        instIdx +
+        1,
+      url: `${siteUrl}/${s.slug}/college/${inst.id}`,
+      name: inst.name,
+    }))
+  );
+
   const collectionLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "All Community Colleges",
     description: `Browse ${totalColleges} community colleges across ${states.length} states.`,
     url: `${siteUrl}/colleges`,
-    numberOfItems: totalColleges,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: totalColleges,
+      itemListElement: collegeListItems,
+    },
   };
 
   return (
