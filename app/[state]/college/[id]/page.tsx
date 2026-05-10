@@ -15,6 +15,8 @@ import { buildTransferLookupForCourses } from "@/lib/transfer-scoped";
 import { getAllStates } from "@/lib/states/registry";
 import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getTopInstructors } from "@/lib/instructors";
+import { computeOfferingProfile } from "@/lib/college-stats";
+import { subjectName } from "@/lib/subjects";
 import type { CourseSection } from "@/lib/types";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
@@ -124,6 +126,16 @@ export default async function CollegeDetailPage(props: PageProps) {
   // so the map stays the same regardless of which term the client picks.
   // Targeted Supabase query instead of loading the whole state catalog.
   const transferLookup = await buildTransferLookupForCourses(union, state);
+
+  // Course Offering Profile — server-side computed stats from the
+  // most-recent term's sections. Surfaces mode breakdown, start-date
+  // diversity, and top subject prefixes so the per-college page has
+  // substantive unique content beyond the standard course catalog
+  // (which is rendered client-side and not seen by Googlebot until JS
+  // runs). Computed inline from data already in scope, no extra I/O.
+  const offeringProfile = computeOfferingProfile(
+    coursesByTerm[defaultTerm] ?? []
+  );
 
   const systemCollegeCoursesUrl = config.collegeCoursesUrl(collegeSlug);
 
@@ -391,6 +403,117 @@ export default async function CollegeDetailPage(props: PageProps) {
           </div>
         </details>
       </section>
+
+      {/* Course Offering Profile — server-rendered summary of this term's
+          mode breakdown, start-date diversity, and top subjects. Gives
+          Googlebot substantive unique content per-college that doesn't
+          require running the client-side course catalog component. */}
+      {offeringProfile && offeringProfile.total > 0 && (
+        <section className="mt-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-6">
+          <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+            Course Offering Profile
+          </h2>
+          <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
+            What {institution.name} is offering for{" "}
+            {defaultTerm.toUpperCase()} — {offeringProfile.total} sections
+            across {Object.keys(offeringProfile.modes.modes).length} delivery
+            modes.
+          </p>
+
+          <div className="grid sm:grid-cols-2 gap-6">
+            {/* Format mix */}
+            <div>
+              <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
+                Format mix
+              </h3>
+              <ul className="text-sm text-gray-700 dark:text-slate-300 space-y-1">
+                {Object.entries(offeringProfile.modes.modes)
+                  .sort((a, b) => b[1] - a[1])
+                  .map(([mode, count]) => (
+                    <li key={mode} className="flex justify-between">
+                      <span className="capitalize">
+                        {mode.replace("-", " ")}
+                      </span>
+                      <span>
+                        <span className="font-medium text-gray-900 dark:text-slate-100">
+                          {count}
+                        </span>{" "}
+                        <span className="text-xs text-gray-500 dark:text-slate-400">
+                          ({offeringProfile.modes.modePcts[mode].toFixed(0)}
+                          %)
+                        </span>
+                      </span>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+
+            {/* Section start dates */}
+            <div>
+              <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
+                Section start dates
+              </h3>
+              {offeringProfile.distinctStartDates > 0 ? (
+                <p className="text-sm text-gray-700 dark:text-slate-300">
+                  Sections begin on{" "}
+                  <span className="font-medium text-gray-900 dark:text-slate-100">
+                    {offeringProfile.distinctStartDates}
+                  </span>{" "}
+                  distinct date
+                  {offeringProfile.distinctStartDates === 1 ? "" : "s"} this
+                  term.
+                  {offeringProfile.lateStartCount > 0 && (
+                    <>
+                      {" "}
+                      <Link
+                        href={`/${state}/starting-soon`}
+                        className="font-medium text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300"
+                      >
+                        {offeringProfile.lateStartCount} late-start sections
+                      </Link>{" "}
+                      begin more than two weeks after the term starts.
+                    </>
+                  )}
+                </p>
+              ) : (
+                <p className="text-sm text-gray-500 dark:text-slate-400">
+                  Start-date data not available for this term.
+                </p>
+              )}
+            </div>
+          </div>
+
+          {/* Top subjects */}
+          {offeringProfile.topSubjects.length > 0 && (
+            <div className="mt-6 pt-4 border-t border-gray-100 dark:border-slate-700">
+              <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
+                Most-offered subjects this term
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {offeringProfile.topSubjects.map((s) => {
+                  const label = subjectName(s.prefix);
+                  const display =
+                    label && label !== s.prefix
+                      ? `${label} (${s.prefix})`
+                      : s.prefix;
+                  return (
+                    <Link
+                      key={s.prefix}
+                      href={`/${state}/college/${id}/courses/${s.prefix.toLowerCase()}`}
+                      className="inline-flex items-center gap-1.5 rounded-md border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-900 px-3 py-1.5 text-xs font-medium text-gray-700 dark:text-slate-300 hover:border-teal-300 dark:hover:border-teal-700 hover:text-teal-700 dark:hover:text-teal-400 transition-colors"
+                    >
+                      <span>{display}</span>
+                      <span className="text-gray-400 dark:text-slate-500">
+                        {s.sections}
+                      </span>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </section>
+      )}
 
       {/* In-page ad (well after main content per AdSense policy) */}
       <div className="mt-8">
