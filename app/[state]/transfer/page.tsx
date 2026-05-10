@@ -71,11 +71,40 @@ export default async function TransferPage({ params }: Props) {
     ],
   };
 
+  // WebPage + SearchAction for the transfer-lookup tool. Tells Google
+  // this state's transfer page is a searchable surface (the receiving
+  // university dropdown + course lookup), and ties back to the site-wide
+  // WebSite/Organization entities declared in the root layout via @id.
+  const webPageLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${siteUrl}/${state}/transfer#webpage`,
+    url: `${siteUrl}/${state}/transfer`,
+    name: `${config.name} Community College Transfer Course Finder`,
+    description: `Find which ${config.name} community college courses transfer to universities. See direct equivalencies, elective credit, and course availability.`,
+    isPartOf: { "@id": `${siteUrl}/#website` },
+    about: { "@id": `${siteUrl}/#organization` },
+    breadcrumb: { "@id": `${siteUrl}/${state}/transfer#breadcrumb` },
+    primaryImageOfPage: { "@type": "ImageObject", url: `${siteUrl}/${state}/opengraph-image` },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${siteUrl}/${state}/transfer?course={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageLd) }}
       />
       <Link
         href={`/${state}`}
