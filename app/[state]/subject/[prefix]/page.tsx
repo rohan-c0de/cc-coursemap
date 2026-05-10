@@ -172,10 +172,14 @@ export default async function StateSubjectPage(props: PageProps) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
+    "@id": `${siteUrl}/${state}/subject/${rawPrefix}#itemlist`,
     name: `${subject} Courses — ${config.systemName}`,
     description: `${sections.length} ${subject} sections across ${collegeCount} ${config.systemName} colleges for ${term}.`,
     numberOfItems: courses.length,
     url: `${siteUrl}/${state}/subject/${rawPrefix}`,
+    // Connect to the site-wide WebSite/Organization graph from the root
+    // layout so Google sees this subject list as part of the site.
+    isPartOf: { "@id": `${siteUrl}/#website` },
     itemListElement: courses.slice(0, 25).map((c, i) => ({
       "@type": "ListItem",
       position: i + 1,

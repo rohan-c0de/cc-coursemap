@@ -116,10 +116,14 @@ export default async function ProgramPage(props: PageProps) {
   const itemListLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
+    "@id": `${url}/${state}/program/${slug}#itemlist`,
     name: `${program.name} programs at ${config.name} community colleges`,
     description: data.program.description,
     numberOfItems: data.colleges.length,
     url: `${url}/${state}/program/${slug}`,
+    // Connect to the site-wide WebSite/Organization graph from the root
+    // layout so Google sees this program list as part of the site.
+    isPartOf: { "@id": `${url}/#website` },
     itemListElement: data.colleges.slice(0, 25).map((c, i) => ({
       "@type": "ListItem",
       position: i + 1,

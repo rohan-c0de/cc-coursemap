@@ -323,8 +323,12 @@ export default async function CoursePage(props: PageProps) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Course",
+    "@id": `${siteUrl}/${state}/course/${code}#course`,
     name: `${prefix} ${number}: ${courseTitle}`,
     description: `${courseTitle} (${credits} credits) offered at ${colleges.length} ${config.systemName} community colleges.`,
+    // Connect to the site-wide WebSite/Organization graph from the root
+    // layout so Google sees this Course as part of the site, not isolated.
+    isPartOf: { "@id": `${siteUrl}/#website` },
     provider: {
       "@type": "Organization",
       name: config.systemFullName,
