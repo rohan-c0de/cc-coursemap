@@ -145,7 +145,11 @@ interface KctcsSearchResponse {
 
 const API_BASE = "https://class-search.kctcsweb.com/api";
 const REQUEST_TIMEOUT_MS = 30_000;
-const PAGE_DELAY_MS = 150; // gentle pacing — public API but no need to hammer
+const PAGE_DELAY_MS = 400; // gentle pacing — bumped from 150ms after a 429 cut
+                          // off Summer 2026 mid-pull (~13,700 Spring requests
+                          // in a row tripped the rate-limit). 400ms × ~700
+                          // pages = ~5 min/term, well within tolerance.
+const RATE_LIMIT_BACKOFF_MS = 60_000; // 429 fallback when no Retry-After
 const UA =
   "Mozilla/5.0 (compatible; CommunityCollegePathBot/1.0; +https://communitycollegepath.com)";
 
@@ -237,6 +241,18 @@ async function fetchJson<T>(url: string, attempt = 1): Promise<T> {
       headers: { "User-Agent": UA, Accept: "application/json" },
       signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
     });
+    // Rate limit: honor Retry-After (seconds) if present, else use a long
+    // default. Don't count 429s against the regular retry budget — they're
+    // a server-side traffic-cop signal, not a transient flake.
+    if (res.status === 429) {
+      const ra = res.headers.get("retry-after");
+      const sec = ra && /^\d+$/.test(ra) ? parseInt(ra, 10) * 1000 : RATE_LIMIT_BACKOFF_MS;
+      console.warn(
+        `  [429] rate-limited at ${url} — sleeping ${Math.round(sec / 1000)}s before retry`
+      );
+      await sleep(sec);
+      return fetchJson<T>(url, attempt); // same attempt count
+    }
     if (!res.ok) {
       throw new Error(`HTTP ${res.status} for ${url}`);
     }
