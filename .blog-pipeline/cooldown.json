@@ -179,6 +179,51 @@
       "slug": "florida-community-college-prereq-bottlenecks",
       "draftedAt": "2026-05-09T23:36:00Z",
       "trigger": "prereq-bottleneck"
+    },
+    {
+      "slug": "rhode-island-community-college-prereq-bottlenecks",
+      "draftedAt": "2026-05-10T05:00:00Z",
+      "trigger": "prereq-bottleneck"
+    },
+    {
+      "slug": "new-york-cuny-community-college-prereq-bottlenecks",
+      "draftedAt": "2026-05-10T05:00:00Z",
+      "trigger": "prereq-bottleneck"
+    },
+    {
+      "slug": "pennsylvania-community-college-prereq-bottlenecks",
+      "draftedAt": "2026-05-10T05:00:00Z",
+      "trigger": "prereq-bottleneck"
+    },
+    {
+      "slug": "virginia-community-college-hybrid-density",
+      "draftedAt": "2026-05-10T05:00:00Z",
+      "trigger": "hybrid-density"
+    },
+    {
+      "slug": "south-carolina-community-college-hybrid-density",
+      "draftedAt": "2026-05-10T05:00:00Z",
+      "trigger": "hybrid-density"
+    },
+    {
+      "slug": "north-carolina-community-college-hybrid-density",
+      "draftedAt": "2026-05-10T05:00:00Z",
+      "trigger": "hybrid-density"
+    },
+    {
+      "slug": "tennessee-community-college-late-start-classes",
+      "draftedAt": "2026-05-10T05:00:00Z",
+      "trigger": "late-start-density"
+    },
+    {
+      "slug": "maryland-community-college-late-start-classes",
+      "draftedAt": "2026-05-10T05:00:00Z",
+      "trigger": "late-start-density"
+    },
+    {
+      "slug": "north-carolina-community-college-late-start-classes",
+      "draftedAt": "2026-05-10T05:00:00Z",
+      "trigger": "late-start-density"
     }
   ]
 }

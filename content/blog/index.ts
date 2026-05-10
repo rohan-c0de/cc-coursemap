@@ -1223,4 +1223,133 @@ export const articles: ArticleMeta[] = [
     cluster: "late-start-by-state-guide",
     clusterRole: "spoke",
   },
+  // --- Pipeline batch 2026-05-10a: prereq spokes (RI, NY, PA) ---
+  {
+    slug: "rhode-island-community-college-prereq-bottlenecks",
+    title:
+      "Rhode Island Community College Prerequisite Chains: How CCRI's Single-College System Concentrates the Bottleneck",
+    description:
+      "Rhode Island has one community college — CCRI. ENGL 0700 gates 262 downstream courses; the nursing chain runs 21 levels deep. Here's how to sequence around the bottleneck when there's no alternative campus.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "ri",
+    author: "Community College Path",
+    tags: ["prerequisites", "rhode-island", "ccri", "developmental", "bottlenecks", "course-sequence", "nursing"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "new-york-cuny-community-college-prereq-bottlenecks",
+    title:
+      "CUNY Community College Prerequisite Chains: Why a Maximum Depth of 8 Is a Structural Advantage Worth Understanding",
+    description:
+      "Across CUNY's seven community colleges, the maximum prereq chain depth is 8 — far below the 21-22 levels in FL and SC. Co-requisite remediation explains the ceiling. Here's what it means for CUNY planning.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "ny",
+    author: "Community College Path",
+    tags: ["prerequisites", "new-york", "cuny", "developmental", "bottlenecks", "course-sequence", "co-requisite"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "pennsylvania-community-college-prereq-bottlenecks",
+    title:
+      "Pennsylvania Community College Prerequisite Chains: How Fundamental Math Gates Vocational-Tech Programs at CCP",
+    description:
+      "At CCP and across PA, FNMT developmental math — not English — drives the deepest chains. Biomedical tech (BMET) reaches depth 12, diagnostic imaging (DMI) depth 11. Here's how PA's prereq structure works.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "pa",
+    author: "Community College Path",
+    tags: ["prerequisites", "pennsylvania", "ccp", "developmental", "math", "bottlenecks", "vocational", "course-sequence"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  // --- Pipeline batch 2026-05-10a: hybrid-density spokes (VA, SC, NC) ---
+  {
+    slug: "virginia-community-college-hybrid-density",
+    title:
+      "Virginia Community College Hybrid Classes: Rural Southwest Colleges Lead at 35%, While NOVA's 17% Anchors the DC Suburbs",
+    description:
+      "VCCS runs 11.3% hybrid across 26,236 sections. Mountain Gateway leads at 35%; NRCC and WCC are under 2%. NOVA at 17% is the largest hybrid footprint in dollar-volume terms. Here's the full per-college breakdown.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "va",
+    author: "Community College Path",
+    tags: ["hybrid", "virginia", "vccs", "online", "nova", "schedule", "format"],
+    cluster: "hybrid-course-density-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "south-carolina-community-college-hybrid-density",
+    title:
+      "South Carolina Technical College Hybrid Classes: Trident at 23% with Zero Online, Greenville at 0% with 3,500 Sections",
+    description:
+      "SCCTCS runs 10.6% hybrid statewide — but Trident Technical College (23%) runs zero online, making hybrid its only remote option. Greenville Tech (3,563 sections) and Midlands Tech both run 0% hybrid.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "sc",
+    author: "Community College Path",
+    tags: ["hybrid", "south-carolina", "scctcs", "trident", "online", "schedule", "format"],
+    cluster: "hybrid-course-density-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "north-carolina-community-college-hybrid-density",
+    title:
+      "North Carolina Community College Hybrid Classes: 4.8% Statewide — But That Number Conceals a Bimodal Split Larger Than Any Other East Coast System",
+    description:
+      "NCCCS has 55 colleges and 53,631 sections — the largest East Coast system we track. Sandhills CC runs 31% hybrid; CPCC (4,982 sections) and Wake Tech (4,311 sections) both run 0%. Here's the full breakdown.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "nc",
+    author: "Community College Path",
+    tags: ["hybrid", "north-carolina", "ncccs", "sandhills", "wake-tech", "cpcc", "online", "schedule", "format"],
+    cluster: "hybrid-course-density-guide",
+    clusterRole: "spoke",
+  },
+  // --- Pipeline batch 2026-05-10a: late-start spokes (TN, MD, NC) ---
+  {
+    slug: "tennessee-community-college-late-start-classes",
+    title:
+      "Tennessee Community College Late-Start Classes: How TBR's 7.8% Late-Start Share Is Distributed",
+    description:
+      "TBR's 12 community colleges hold 1,157 late-start sections for fall 2026 — a 7.8% share. Chattanooga State leads at 26.4%; Pellissippi State is at 2.3%. Here's how to find and use Tennessee's late-start catalog.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "tn",
+    author: "Community College Path",
+    tags: ["late-start", "tennessee", "tbr", "registration", "chattanooga-state", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "maryland-community-college-late-start-classes",
+    title:
+      "Maryland Community College Late-Start Classes: AACC and PGCC Lead a 9.0% System Average",
+    description:
+      "Maryland's 12 tracked community colleges hold 847 late-start sections for fall 2026 — a 9.0% share. AACC leads on rate at 14.9%; PGCC leads on volume at 267 sections. Here's how to find and use Maryland's late-start catalog.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "md",
+    author: "Community College Path",
+    tags: ["late-start", "maryland", "aacc", "pgcc", "registration", "montgomery-college", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "north-carolina-community-college-late-start-classes",
+    title:
+      "North Carolina Community College Late-Start Classes: Rural Colleges Lead a 9.6% System Average",
+    description:
+      "NC community colleges hold 366 late-start sections in the fall 2026 catalog — a 9.6% share, above the East Coast average. College of Albemarle leads at 15.8%. Here's how rural geography shapes NC's late-start distribution.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "nc",
+    author: "Community College Path",
+    tags: ["late-start", "north-carolina", "ncccs", "registration", "rural", "albemarle", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
 ];

@@ -86,12 +86,12 @@ If two candidates tie on cluster-non-saturation, pick the one whose data slice h
 
 `content/blog/BRIEF.md` § "What kinds of articles to create" lists nine theme areas. Audit which themes have ≥ 3 spokes vs. which have 0. Push candidates that fill 0-spoke themes ahead of candidates that pile onto already-covered themes, even when rankScores favor the latter.
 
-As of 2026-05-09 (update this after each batch):
+As of 2026-05-10 (update this after each batch):
 - ✅ Heavily covered: transfer confusion (18 spokes), senior waivers (13), session timing (8 spokes — MD, TN, MA, NY, NC, VA, CT, SC), audit-at-college (9 college spokes)
-- ⚠️ Lightly covered: prereq sequencing (7 spokes — FL, GA, MD, NC, SC, DE, MA; 9 more states have slice data ready: CT, DC, NH, NY, PA, RI, TN, VA, VT), hybrid-course-density (3 spokes — ME, MD, MA; 5 more states have slices: AL, NC, NY, SC, VA), late-start-by-state (3 spokes — NH, GA, SC; 11 more states have slices: AL, DC, DE, FL, MA, MD, MS, NC, RI, TN, VT)
+- ⚠️ Lightly covered: prereq sequencing (10 spokes — FL, GA, MD, NC, SC, DE, MA, RI, NY, PA; 6 more states have slice data ready: CT, DC, NH, TN, VA, VT), hybrid-course-density (6 spokes — ME, MD, MA, VA, SC, NC; 2 more states have slices: AL, NY), late-start-by-state (6 spokes — NH, GA, SC, TN, MD, NC; 8 more states have slices: AL, DC, DE, FL, MA, MS, RI, VT)
 - ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), course availability patterns, instructor density, program-level content
 
-The next batches should pull from the three lightly-covered clusters — all have detector-ready slice data. Run the detectors; they'll self-filter to states without spokes.
+The next batches should disproportionately fill the lightly- and zero-covered themes. That's where the real editorial value sits.
 
 #### Step 2d — Cap any single cluster's share of a batch
 
