@@ -8,6 +8,7 @@ import { getAllStates, isValidState, getStateConfig } from "@/lib/states/registr
 import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getTransferInfo, getUniversities } from "@/lib/transfer";
 import { subjectName } from "@/lib/subjects";
+import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
 import type { CourseSection } from "@/lib/types";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
@@ -285,11 +286,17 @@ export default async function CoursePage(props: PageProps) {
   // Group by college
   const colleges = groupByCollege(sections, institutions);
 
-  // Mode breakdown across all sections
+  // Mode breakdown across all sections (consumed by the existing pill row)
   const modeBreakdown: Record<string, number> = {};
   for (const s of sections) {
     modeBreakdown[s.mode] = (modeBreakdown[s.mode] || 0) + 1;
   }
+
+  // Course Availability Profile — server-rendered summary that gives the
+  // page substantive unique content per term beyond the section table
+  // (rendered later in this file). Consumed by the JSX block below the
+  // existing transfer-equivalency section.
+  const availabilityProfile = computeCourseAvailabilityProfile(sections);
 
   // Transfer data
   const transferInfo = config.transferSupported
@@ -551,6 +558,151 @@ export default async function CoursePage(props: PageProps) {
                   })}
                 </tbody>
               </table>
+            </div>
+          </section>
+        )}
+
+        {/* Course Availability Profile — server-rendered substantive
+            content per term. Helps long-tail SEO ("[course] online
+            community college", "[course] evening class [state]") and
+            gives users the at-a-glance shape of how this course is
+            offered without having to scroll through every section. */}
+        {availabilityProfile && availabilityProfile.totalSections > 0 && (
+          <section className="mb-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-6">
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+              Availability Profile
+            </h2>
+            <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
+              How {prefix} {number} is being offered across {availabilityProfile.collegeCount}{" "}
+              {availabilityProfile.collegeCount === 1 ? "college" : "colleges"}{" "}
+              this term ({availabilityProfile.totalSections}{" "}
+              {availabilityProfile.totalSections === 1 ? "section" : "sections"} total).
+            </p>
+
+            <div className="grid sm:grid-cols-2 gap-6">
+              {/* Format mix */}
+              <div>
+                <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
+                  Delivery format
+                </h3>
+                <ul className="text-sm text-gray-700 dark:text-slate-300 space-y-1">
+                  {Object.entries(availabilityProfile.modes.counts)
+                    .sort((a, b) => b[1] - a[1])
+                    .map(([mode, count]) => (
+                      <li key={mode} className="flex justify-between">
+                        <span className="capitalize">
+                          {mode.replace("-", " ")}
+                        </span>
+                        <span>
+                          <span className="font-medium text-gray-900 dark:text-slate-100">
+                            {count}
+                          </span>{" "}
+                          <span className="text-xs text-gray-500 dark:text-slate-400">
+                            ({availabilityProfile.modes.pcts[mode].toFixed(0)}%)
+                          </span>
+                        </span>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+
+              {/* Time of day */}
+              <div>
+                <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
+                  When sections meet
+                </h3>
+                <ul className="text-sm text-gray-700 dark:text-slate-300 space-y-1">
+                  {availabilityProfile.timeOfDay.morning > 0 && (
+                    <li className="flex justify-between">
+                      <span>Morning (before noon)</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {availabilityProfile.timeOfDay.morning}
+                      </span>
+                    </li>
+                  )}
+                  {availabilityProfile.timeOfDay.afternoon > 0 && (
+                    <li className="flex justify-between">
+                      <span>Afternoon (noon–5 PM)</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {availabilityProfile.timeOfDay.afternoon}
+                      </span>
+                    </li>
+                  )}
+                  {availabilityProfile.timeOfDay.evening > 0 && (
+                    <li className="flex justify-between">
+                      <span>Evening (5 PM and after)</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {availabilityProfile.timeOfDay.evening}
+                      </span>
+                    </li>
+                  )}
+                  {availabilityProfile.timeOfDay.asynchronous > 0 && (
+                    <li className="flex justify-between">
+                      <span>Asynchronous / TBA</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {availabilityProfile.timeOfDay.asynchronous}
+                      </span>
+                    </li>
+                  )}
+                </ul>
+              </div>
+            </div>
+
+            {/* Start dates + instructor diversity footer */}
+            <div className="mt-6 pt-4 border-t border-gray-100 dark:border-slate-700 grid sm:grid-cols-2 gap-6 text-sm">
+              <div>
+                <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">
+                  Start dates
+                </h3>
+                {availabilityProfile.startDates.distinct > 0 ? (
+                  <p className="text-gray-700 dark:text-slate-300">
+                    Sections begin on{" "}
+                    <span className="font-medium text-gray-900 dark:text-slate-100">
+                      {availabilityProfile.startDates.distinct}
+                    </span>{" "}
+                    distinct date
+                    {availabilityProfile.startDates.distinct === 1 ? "" : "s"}.
+                    {availabilityProfile.startDates.lateStartCount > 0 && (
+                      <>
+                        {" "}
+                        <Link
+                          href={`/${state}/starting-soon`}
+                          className="font-medium text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300"
+                        >
+                          {availabilityProfile.startDates.lateStartCount}{" "}
+                          late-start
+                        </Link>{" "}
+                        more than two weeks after the term&apos;s earliest start.
+                      </>
+                    )}
+                  </p>
+                ) : (
+                  <p className="text-gray-500 dark:text-slate-400">
+                    Start-date data not available for this term.
+                  </p>
+                )}
+              </div>
+              <div>
+                <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">
+                  Instructor diversity
+                </h3>
+                {availabilityProfile.instructorCount > 0 ? (
+                  <p className="text-gray-700 dark:text-slate-300">
+                    Taught by{" "}
+                    <span className="font-medium text-gray-900 dark:text-slate-100">
+                      {availabilityProfile.instructorCount}
+                    </span>{" "}
+                    distinct instructor
+                    {availabilityProfile.instructorCount === 1 ? "" : "s"}{" "}
+                    across {availabilityProfile.collegeCount}{" "}
+                    {availabilityProfile.collegeCount === 1 ? "college" : "colleges"}.
+                  </p>
+                ) : (
+                  <p className="text-gray-500 dark:text-slate-400">
+                    Instructor assignments not yet published for this term.
+                  </p>
+                )}
+              </div>
             </div>
           </section>
         )}
