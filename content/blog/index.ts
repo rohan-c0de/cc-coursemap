@@ -1352,4 +1352,133 @@ export const articles: ArticleMeta[] = [
     cluster: "late-start-by-state-guide",
     clusterRole: "spoke",
   },
+  // --- Pipeline batch 2026-05-10b: prereq spokes (DC, CT, NH) ---
+  {
+    slug: "district-of-columbia-community-college-prereq-bottlenecks",
+    title:
+      "District of Columbia Community College Prerequisite Chains: How UDC-CC's Single-Institution System Concentrates the Bottleneck",
+    description:
+      "UDC Community College is DC's sole community college. 100% of indexed courses carry explicit prerequisites. MATH 151 gates 149 courses; architecture, engineering, and dietetics chains reach depth 7.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "dc",
+    author: "Community College Path",
+    tags: ["prerequisites", "district-of-columbia", "udc", "developmental", "bottlenecks", "course-sequence"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "connecticut-community-college-prereq-bottlenecks",
+    title:
+      "Connecticut Community College Prerequisite Chains: How ENG 0930 Gates 200 Downstream Courses Across CT-State",
+    description:
+      "Across CT-State's 12 campuses, ENG 0930 is the single most consequential course — gating 200 downstream courses despite a max depth of only 5. Music, CMGT, and CSC chains run unexpectedly deep.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "ct",
+    author: "Community College Path",
+    tags: ["prerequisites", "connecticut", "ct-state", "developmental", "bottlenecks", "course-sequence"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "new-hampshire-community-college-prereq-bottlenecks",
+    title:
+      "New Hampshire Community College Prerequisite Chains: How Radiologic Technology Dominates CCSNH's Deepest Sequences",
+    description:
+      "CCSNH's prereq structure is broadly shallow — but Radiologic Technology (RADT) chains reach depth 8, the deepest in the system. Only 78 deep chains out of 592 total courses. Here's what that means for NH planning.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "nh",
+    author: "Community College Path",
+    tags: ["prerequisites", "new-hampshire", "ccsnh", "radiologic-technology", "bottlenecks", "course-sequence"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  // --- Pipeline batch 2026-05-10b: hybrid-density spokes (KY, AL, NY) ---
+  {
+    slug: "kentucky-community-college-hybrid-density",
+    title:
+      "Kentucky Community College Hybrid Classes: KCTCS at 13.2% — Gateway Leads at 22.8%, Henderson Runs Zero",
+    description:
+      "KCTCS runs 13.2% hybrid across 16,512 sections and 16 colleges. Gateway CTC leads at 22.8% (hybrid is the plurality format); Henderson CC runs 0%. Online at 48.2% dwarfs hybrid statewide.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "ky",
+    author: "Community College Path",
+    tags: ["hybrid", "kentucky", "kctcs", "gateway", "online", "schedule", "format", "workforce"],
+    cluster: "hybrid-course-density-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "alabama-community-college-hybrid-density",
+    title:
+      "Alabama Community College Hybrid Classes: Enterprise State at 35.6%, Coastal Alabama at 5.4% — and Why the Gap Matters",
+    description:
+      "ACCS runs 10.9% hybrid across 8,883 sections and 6 colleges. Enterprise State leads at 35.6% (Fort Novosel military enrollment). Coastal Alabama (43% of all sections) runs only 5.4%, pulling the statewide average down.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "al",
+    author: "Community College Path",
+    tags: ["hybrid", "alabama", "accs", "enterprise-state", "coastal-alabama", "online", "schedule", "format"],
+    cluster: "hybrid-course-density-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "new-york-community-college-hybrid-density",
+    title:
+      "New York Community College Hybrid Classes: CUNY's 6.2% Reflects NYC Transit Density — Kingsborough Leads at 17%",
+    description:
+      "CUNY's 7 community colleges run 6.2% hybrid across 5,775 sections — below all East Coast peers. Kingsborough leads at 17%; BMCC and LaGuardia together hold 43% of sections and anchor the system near zero.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "ny",
+    author: "Community College Path",
+    tags: ["hybrid", "new-york", "cuny", "kingsborough", "bmcc", "laguardia", "online", "schedule", "format"],
+    cluster: "hybrid-course-density-guide",
+    clusterRole: "spoke",
+  },
+  // --- Pipeline batch 2026-05-10b: late-start spokes (DE, RI, FL) ---
+  {
+    slug: "delaware-community-college-late-start-classes",
+    title:
+      "Delaware Community College Late-Start Classes: Del Tech's 12.5% Rate Across 12 Dates at 4 Campuses",
+    description:
+      "Delaware Technical Community College is DE's sole community college — 275 late-start sections across 12 distinct dates, clustered in two cohort windows (late September, mid-October). Here's how to navigate Del Tech's late-start calendar.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "de",
+    author: "Community College Path",
+    tags: ["late-start", "delaware", "dtcc", "del-tech", "registration", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "rhode-island-community-college-late-start-classes",
+    title:
+      "Rhode Island Community College Late-Start Classes: CCRI's 12.8% Rate in Just 4 Distinct Date Windows",
+    description:
+      "CCRI is RI's only community college — 240 late-start sections at a 12.8% rate, but only 4 distinct start dates. The concentrated calendar means missing one window shifts you weeks forward. Here's how CCRI's late-start structure works.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "ri",
+    author: "Community College Path",
+    tags: ["late-start", "rhode-island", "ccri", "registration", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "florida-community-college-late-start-classes",
+    title:
+      "Florida Community College Late-Start Classes: 42 Distinct Dates Across 8 Colleges — and What That Means for Registration",
+    description:
+      "Florida's state college system holds 753 late-start sections across 8 colleges at a 7.0% rate — with 42 distinct start dates. CFK leads at 22.4%; Valencia anchors volume. Each college manages its own registration separately.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "fl",
+    author: "Community College Path",
+    tags: ["late-start", "florida", "fcs", "valencia", "cfk", "registration", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
 ];
