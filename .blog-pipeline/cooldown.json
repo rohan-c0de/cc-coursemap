@@ -299,6 +299,21 @@
       "slug": "massachusetts-community-college-late-start-classes",
       "draftedAt": "2026-05-10T09:00:00Z",
       "trigger": "late-start-density"
+    },
+    {
+      "slug": "vermont-community-college-late-start-classes",
+      "draftedAt": "2026-05-10T11:00:00Z",
+      "trigger": "late-start-density"
+    },
+    {
+      "slug": "alabama-community-college-late-start-classes",
+      "draftedAt": "2026-05-10T11:00:00Z",
+      "trigger": "late-start-density"
+    },
+    {
+      "slug": "district-of-columbia-community-college-late-start-classes",
+      "draftedAt": "2026-05-10T11:00:00Z",
+      "trigger": "late-start-density"
     }
   ]
 }

@@ -1567,4 +1567,46 @@ export const articles: ArticleMeta[] = [
     cluster: "late-start-by-state-guide",
     clusterRole: "spoke",
   },
+  {
+    slug: "vermont-community-college-late-start-classes",
+    title:
+      "Vermont Community College Late-Start Classes: 6.8% Rate Across a Single Unified System",
+    description:
+      "Vermont State University runs the state's only community college track. Fall 2026 data: 112 late-start sections, 6.8% rate, 8 distinct dates from mid-September through early November.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "vt",
+    author: "Community College Path",
+    tags: ["late-start", "vermont", "vtsu", "ccv", "registration", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "alabama-community-college-late-start-classes",
+    title:
+      "Alabama Community College Late-Start Classes: 5.3% Rate, 6 Colleges, 16 Distinct Dates",
+    description:
+      "ACCS fall 2026 data across 6 colleges: 236 late-start sections at 5.3%. Chattahoochee Valley and Enterprise State lead at 9.6% each; Wallace–Dothan trails at 3.4%. Sixteen distinct entry points from September through November.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "al",
+    author: "Community College Path",
+    tags: ["late-start", "alabama", "accs", "enterprise-state", "coastal-alabama", "registration", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "district-of-columbia-community-college-late-start-classes",
+    title:
+      "DC Community College Late-Start Classes: UDC-CC's 5.6% Rate and 6 Entry Points",
+    description:
+      "UDC Community College is DC's only public two-year institution. Fall 2026: 59 late-start sections, 5.6% rate, 6 distinct dates — including a tight September 22–28 rescue window and two December short-format dates.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "dc",
+    author: "Community College Path",
+    tags: ["late-start", "district-of-columbia", "udc-cc", "registration", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
 ];
