@@ -132,8 +132,13 @@ export default async function CollegeDetailPage(props: PageProps) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollegeOrUniversity",
+    "@id": `${siteUrl}/${state}/college/${institution.id}#college`,
     name: institution.name,
     url: `${siteUrl}/${state}/college/${institution.id}`,
+    // Tie the institution back to the site-wide WebSite + Organization
+    // declared in the root layout so Google can build a connected entity
+    // graph rather than treating each page's schema as isolated.
+    isPartOf: { "@id": `${siteUrl}/#website` },
     parentOrganization: {
       "@type": "EducationalOrganization",
       name: config.systemName,
