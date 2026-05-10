@@ -88,7 +88,7 @@ If two candidates tie on cluster-non-saturation, pick the one whose data slice h
 
 As of 2026-05-10 (update this after each batch):
 - ✅ Heavily covered: transfer confusion (18 spokes), senior waivers (13), session timing (8 spokes — MD, TN, MA, NY, NC, VA, CT, SC), audit-at-college (9 college spokes)
-- ⚠️ Lightly covered: prereq sequencing (10 spokes — FL, GA, MD, NC, SC, DE, MA, RI, NY, PA; 6 more states have slice data ready: CT, DC, NH, TN, VA, VT), hybrid-course-density (6 spokes — ME, MD, MA, VA, SC, NC; 2 more states have slices: AL, NY), late-start-by-state (6 spokes — NH, GA, SC, TN, MD, NC; 8 more states have slices: AL, DC, DE, FL, MA, MS, RI, VT)
+- ⚠️ Lightly covered: prereq sequencing (13 spokes — FL, GA, MD, NC, SC, DE, MA, RI, NY, PA, DC, CT, NH; 3 more states have slice data ready: TN, VA, VT), hybrid-course-density (9 spokes — ME, MD, MA, VA, SC, NC, KY, AL, NY; detector exhausted — no more slice data for covered states), late-start-by-state (9 spokes — NH, GA, SC, TN, MD, NC, DE, RI, FL; 5 more states have slices: MS, VT, AL, DC, MA)
 - ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), course availability patterns, instructor density, program-level content
 
 The next batches should disproportionately fill the lightly- and zero-covered themes. That's where the real editorial value sits.
