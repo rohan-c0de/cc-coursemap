@@ -1481,4 +1481,90 @@ export const articles: ArticleMeta[] = [
     cluster: "late-start-by-state-guide",
     clusterRole: "spoke",
   },
+  // --- Pipeline batch 2026-05-10c: prereq spokes (TN, VA, VT) ---
+  {
+    slug: "tennessee-community-college-prereq-bottlenecks",
+    title:
+      "Tennessee Community College Prerequisite Chains: ENGL 1010 Gates 64 Courses, CITC 1301 Is the Non-Obvious Bottleneck",
+    description:
+      "Across TBR's 12 community colleges, ENGL 1010 is the widest gate at 64 downstream courses. But CITC 1301 (a CIS course) gates 31 — the non-obvious bottleneck. Agriculture chains reach the max depth of 8.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "tn",
+    author: "Community College Path",
+    tags: ["prerequisites", "tennessee", "tbr", "developmental", "bottlenecks", "course-sequence", "cis"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "virginia-community-college-prereq-bottlenecks",
+    title:
+      "Virginia Community College Prerequisite Chains: VCCS Has the Shallowest Chains in Any Multi-College System We've Indexed",
+    description:
+      "VCCS's max depth is 4 — the shallowest of any multi-college system in our dataset. Only 19 deep chains across 292 prereq-bearing courses. ENG 111 gates just 23 courses. Here's what that means for VA students.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "va",
+    author: "Community College Path",
+    tags: ["prerequisites", "virginia", "vccs", "bottlenecks", "course-sequence", "shallow-chains"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "vermont-community-college-prereq-bottlenecks",
+    title:
+      "Vermont Community College Prerequisite Chains: How VTSU's Post-Merger System Structures Its 101 Prereq-Bearing Courses",
+    description:
+      "Vermont State University merged CCV, Johnson, Lyndon, and Castleton in 2022. The prereq dataset has 101 courses; CIS 1100 and MAT 0310 tie as top bottlenecks at 15 each. STEM chains reach depth 5.",
+    date: "2026-05-10",
+    category: "mistake-avoidance",
+    state: "vt",
+    author: "Community College Path",
+    tags: ["prerequisites", "vermont", "vtsu", "merger", "bottlenecks", "course-sequence", "stem"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  // --- Pipeline batch 2026-05-10c: late-start spokes (KY, MS, MA) ---
+  {
+    slug: "kentucky-community-college-late-start-classes",
+    title:
+      "Kentucky Community College Late-Start Classes: KCTCS at 14.9% — Elizabethtown Leads at 39.7%",
+    description:
+      "KCTCS runs 14.9% late-start across 13,048 sections and 16 colleges — the highest rate in our dataset. Elizabethtown CTC leads at 39.7%. Jefferson (Louisville) and Bluegrass (Lexington) run at 9.2–9.5%.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "ky",
+    author: "Community College Path",
+    tags: ["late-start", "kentucky", "kctcs", "elizabethtown", "registration", "workforce", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "mississippi-community-college-late-start-classes",
+    title:
+      "Mississippi Community College Late-Start Classes: Meridian CC's 9.1% Rate Across 16 Distinct Dates",
+    description:
+      "Meridian Community College is the only MS institution in our dataset — 71 late-start sections at 9.1%, spread across 16 distinct dates between September 15 and November 16. Here's how the calendar is structured.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "ms",
+    author: "Community College Path",
+    tags: ["late-start", "mississippi", "meridian", "registration", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "massachusetts-community-college-late-start-classes",
+    title:
+      "Massachusetts Community College Late-Start Classes: Middlesex and BHCC Lead, STCC Runs Zero Across 1,087 Sections",
+    description:
+      "MA's 6 tracked community colleges hold 389 late-start sections at 7.5% — but STCC (Springfield) runs 0% across 1,087 sections. Middlesex leads at 10.9%, BHCC at 10.8%. 18 distinct dates across the system.",
+    date: "2026-05-10",
+    category: "planning",
+    state: "ma",
+    author: "Community College Path",
+    tags: ["late-start", "massachusetts", "middlesex", "bhcc", "stcc", "registration", "adult-learners"],
+    cluster: "late-start-by-state-guide",
+    clusterRole: "spoke",
+  },
 ];
