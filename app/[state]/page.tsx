@@ -64,11 +64,40 @@ export default async function HomePage({ params }: Props) {
     ],
   };
 
+  // WebPage + SearchAction. Tells Google that this state landing is a
+  // searchable surface (the course-search hero is the entry point) and
+  // ties it back to the site-wide WebSite/Organization entities declared
+  // in the root layout via @id references.
+  const webPageLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${siteUrl}/${state}#webpage`,
+    url: `${siteUrl}/${state}`,
+    name: `${config.name} Community College Course Finder`,
+    description: config.branding.tagline,
+    isPartOf: { "@id": `${siteUrl}/#website` },
+    about: { "@id": `${siteUrl}/#organization` },
+    breadcrumb: { "@id": `${siteUrl}/${state}#breadcrumb` },
+    primaryImageOfPage: { "@type": "ImageObject", url: `${siteUrl}/${state}/opengraph-image` },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${siteUrl}/${state}/courses?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageLd) }}
       />
       {/* Search section */}
       <section id="search" className="py-16 px-4 sm:px-6 lg:px-8">
