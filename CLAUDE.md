@@ -63,6 +63,27 @@ Before adding a new rule, recommendation, or reminder anywhere in this repo, ask
 
 CLAUDE.md is always in context; every line here costs per-session tokens. Keep it tight. Use skills and code comments for the bulky stuff.
 
+## Git — branch and worktree awareness
+
+**Before touching any file, always confirm which branch you're on and whether a worktree is active.**
+
+```bash
+git branch --show-current   # what branch am I on?
+git worktree list            # are any worktrees checked out, and which branches do they hold?
+```
+
+This matters because:
+- A branch checked out in a worktree cannot be checked out anywhere else simultaneously — attempting it corrupts state.
+- The blog pipeline and add-state skills create worktrees on named branches. If you switch to or create a branch that matches an active worktree's branch, git will refuse or silently operate on the wrong tree.
+- Files edited in the main repo at `.claude/worktrees/<name>/` affect the Next.js build even though they live in a worktree path — the MDX scanner picks them up.
+
+**Concrete checks to run before starting any branch work:**
+1. `git branch --show-current` — confirm you're on the right base (usually `main`).
+2. `git worktree list` — if any worktrees are listed, confirm the branch you're about to create or check out is not already held by one.
+3. If a worktree holds the target branch, either work inside that worktree's directory or remove it first (`git worktree remove <path>`).
+
+Never assume the working directory is the main repo — skills like `blog-pipeline` and `auto-add-state` call `EnterWorktree`, which changes the CWD. After any skill completes, verify `pwd` and `git branch --show-current` before proceeding.
+
 ## Git — narrate as you go
 
 The user is learning git in real time and wants to understand what's happening, not just approve blind steps. When running any git or `gh` command, narrate it in **one or two plain-English sentences** before or after the tool call:
