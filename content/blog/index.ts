@@ -208,7 +208,7 @@ export const articles: ArticleMeta[] = [
   {
     slug: "virginia-community-college-transfer-guaranteed-admission",
     title:
-      "Virginia Community College Transfer: How Guaranteed Admission Actually Works",
+      "Virginia GAA Transfer: What Guaranteed Admission Actually Covers",
     description:
       "Virginia's GAA promises guaranteed admission to public universities — but it doesn't guarantee your major or your credits. Here's what it actually covers.",
     date: "2026-04-04",
@@ -238,7 +238,7 @@ export const articles: ArticleMeta[] = [
   {
     slug: "free-community-college-classes-for-seniors",
     title:
-      "Free or Reduced-Cost Community College Classes for Seniors: Which States Actually Offer Them?",
+      "Free Community College for Seniors: Which 17 States Offer It",
     description:
       "Several states waive tuition for seniors at community colleges. Here's what exists, how it works, and what the fine print says.",
     date: "2026-04-04",
@@ -284,7 +284,7 @@ export const articles: ArticleMeta[] = [
   {
     slug: "north-carolina-senior-citizens-community-colleges",
     title:
-      "North Carolina Senior Citizens at Community Colleges: What 65+ Students Can Still Do",
+      "North Carolina 65+ Free Community College Waiver (Audit Only)",
     description:
       "North Carolina waives tuition for residents 65+ at all 58 community colleges — but it's audit only. Here's what that means and how to get started.",
     date: "2026-04-04",
@@ -312,9 +312,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-jersey-senior-citizens-county-college-tuition-waiver",
     title:
-      "New Jersey Senior Citizens at County Colleges: How the 65+ Tuition Waiver Actually Works",
+      "New Jersey 65+ Free County College Tuition Waiver (Credit OK)",
     description:
-      "New Jersey law waives tuition at all 18 county colleges for residents 65+. The waiver covers credit enrollment, not just auditing. Here's how to actually use it.",
+      "NJ law waives tuition at all 18 county colleges for residents 65+ — credit enrollment, not just auditing. Here's exactly how to use it.",
     date: "2026-05-02",
     category: "senior-waivers",
     state: "nj",
@@ -509,9 +509,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "georgia-tcsg-transfer-credit-guide",
     title:
-      "How Georgia Transfer Credit Actually Works: A TCSG Student's Guide",
+      "Georgia TCSG Transfer Credit to UGA, Georgia Tech, GSU, KSU, UWG",
     description:
-      "The same TCSG course can be a direct match at one Georgia university and worth nothing at another. Here's how transfer credit works across Georgia Tech, UGA, GSU, KSU, and UWG.",
+      "Same TCSG course = direct match at Georgia Tech but worth nothing at UGA? Here's how transfer credit works at the 5 public Georgia universities.",
     date: "2026-04-06",
     category: "state-system-explainers",
     state: "ga",
@@ -557,7 +557,7 @@ export const articles: ArticleMeta[] = [
   {
     slug: "south-carolina-senior-citizens-technical-colleges",
     title:
-      "South Carolina Senior Citizens at Technical Colleges: How the 60+ Tuition Waiver Works",
+      "South Carolina 60+ Free Tech College Tuition Waiver (Credit OK)",
     description:
       "SC residents aged 60+ can take technical college classes with tuition waived — and unlike NC, it's for credit, not just auditing. Here's how it works.",
     date: "2026-04-04",
