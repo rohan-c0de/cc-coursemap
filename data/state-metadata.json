@@ -214,6 +214,23 @@
         "bannerDetail": "Most NY public community colleges, including all 7 CUNY CCs, allow residents 60+ to audit credit courses tuition-free on a space-available basis. Verify with each college."
       }
     },
+    "oh": {
+      "fullName": "Ohio",
+      "fipsCode": "39",
+      "systemName": "OACC",
+      "systemFullName": "Ohio Association of Community Colleges",
+      "systemUrl": "https://www.ohiocommunitycolleges.org/",
+      "defaultZip": "43215",
+      "defaultZipCity": "Columbus",
+      "seniorWaiver": {
+        "ageThreshold": 60,
+        "legalCitation": "Ohio Revised Code § 3345.27 (Program 60)",
+        "description": "Ohio residents 60+ may audit courses at state-supported colleges tuition-free on a space-available basis.",
+        "bannerTitle": "Ohio Program 60",
+        "bannerSummary": "Over 60 in Ohio? You can audit classes at state-supported colleges tuition-free.",
+        "bannerDetail": "Ohio Revised Code § 3345.27 (Program 60) lets Ohio residents 60+ audit courses at state-assisted institutions tuition-free on a space-available basis. Confirm with each college's registrar."
+      }
+    },
     "pa": {
       "fullName": "Pennsylvania",
       "fipsCode": "42",
