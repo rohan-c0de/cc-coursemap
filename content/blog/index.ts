@@ -382,6 +382,24 @@ export const articles: ArticleMeta[] = [
     tags: ["late-start", "mini-session", "registration", "accelerated", "density"],
     cluster: "late-start-by-state-guide",
     clusterRole: "hub",
+    faqs: [
+      {
+        q: "What are late-start community college classes?",
+        a: "Late-start classes (also called mini-sessions, second-start, or accelerated sections) are regular college courses that begin weeks or months after the main semester starts. They're compressed into 8, 10, or 12 weeks instead of the full 16, but cover the same material, carry the same credits, and transfer the same way.",
+      },
+      {
+        q: "Do late-start classes count the same as full-term classes for transfer?",
+        a: "Yes. A late-start section of a course has the same course number, same credits, and same transfer equivalency as a full-term section. Universities do not distinguish between a 16-week and an 8-week section of the same course.",
+      },
+      {
+        q: "How do I find late-start classes at my community college?",
+        a: "Filter your college's course search by start date (look for courses starting 2-8 weeks after the semester begins), look for session labels like '2nd 8-week' or 'Mini-Session 2,' and check online sections first — they're more likely to have late-start options.",
+      },
+      {
+        q: "How common are late-start classes at community colleges?",
+        a: "Nationally, late-start sections make up about 8.5% of fall offerings, but this varies dramatically by state — from 18% in New Hampshire to 1.3% in Maine. Individual colleges vary even more: some run 30%+ late-start sections while others offer almost none.",
+      },
+    ],
   },
 
   // --- Standalone: Transfer verification ---
@@ -738,6 +756,24 @@ export const articles: ArticleMeta[] = [
     tags: ["prerequisites", "planning", "two-year-degree", "course-sequence", "developmental"],
     cluster: "prereq-chains-guide",
     clusterRole: "hub",
+    faqs: [
+      {
+        q: "What percentage of community college courses have prerequisites?",
+        a: "Across the 12 community college systems indexed, roughly 40-60% of courses have at least one prerequisite. A meaningful share have chains two, three, or four levels deep — especially in math, science, and nursing sequences.",
+      },
+      {
+        q: "Why does a two-year degree take longer than two years?",
+        a: "Prerequisite chains are a major contributor. Students who place into developmental math or English face 1-4 extra semesters of catch-up courses before they can start their major-track classes. Only about 15% of community college students finish an associate degree in two years.",
+      },
+      {
+        q: "How do I plan around prerequisite chains?",
+        a: "Start with your destination major's last required course and work backwards to the community college level. Take placement tests early — where you place in math and English determines your entire runway. Budget a failure buffer so one bad semester doesn't reset your timeline by 6-12 months.",
+      },
+      {
+        q: "Do minimum grade requirements affect prerequisite chains?",
+        a: "Yes. 'Prereq: ENG 101' is different from 'Prereq: ENG 101 with C or better.' Some programs — nursing is notorious — require B+ or better in prereqs. A grade below the minimum means retaking the course, which adds a semester to your plan.",
+      },
+    ],
   },
   // --- Pipeline batch 2026-05-09d: FL prereq spoke ---
   {
@@ -913,6 +949,24 @@ export const articles: ArticleMeta[] = [
     tags: ["hybrid", "hyflex", "online", "in-person", "course-format", "scheduling", "density"],
     cluster: "hybrid-course-density-guide",
     clusterRole: "hub",
+    faqs: [
+      {
+        q: "What is a hybrid community college class?",
+        a: "A hybrid class blends in-person and online components. Some portion of class time happens synchronously in a physical classroom, and the rest happens asynchronously online. Common formats include 50/50 splits (one in-person meeting per week plus online work), front-loaded hybrids, and periodic in-person sessions for exams or labs.",
+      },
+      {
+        q: "What is HyFlex and how is it different from hybrid?",
+        a: "HyFlex is a subset of hybrid that gives students per-class flexibility. Each class session is offered simultaneously in-person, synchronously online via Zoom, and asynchronously via recording. You choose which modality to use each week. It started as a pandemic response but several colleges have kept it permanently.",
+      },
+      {
+        q: "Do hybrid classes transfer the same as in-person classes?",
+        a: "Yes. A hybrid section transfers as a regular credit-bearing course. The receiving university doesn't see or care about the delivery format — only the course number and credits matter. Format flexibility costs you nothing on transfer.",
+      },
+      {
+        q: "How common are hybrid classes at community colleges?",
+        a: "Nationally, hybrid sections are about 4.7% of all offerings, but this varies widely by state. Maryland leads at 14.6%, followed by Massachusetts at 14.2% and Virginia at 11.3%. Some states like Florida and Tennessee report near-zero hybrid sections, though this often reflects labeling differences rather than a true absence of blended courses.",
+      },
+    ],
   },
 
   // --- Cluster C: Sessions and academic calendar timing (hub + future spokes) ---
