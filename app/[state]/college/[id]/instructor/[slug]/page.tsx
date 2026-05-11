@@ -130,10 +130,17 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   const canonical = `${process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com"}/${state}/college/${id}/instructor/${slug}`;
 
+  // Thin-content guard (#337 deliverable 5): an instructor with fewer than
+  // 3 sections in their active term has too little content to justify
+  // indexing. Render the page for the few users who arrive at it, but
+  // signal noindex so Google doesn't class it as thin.
+  const isThin = profile.sections.length < 3;
+
   return {
     title,
     description,
     alternates: { canonical },
+    ...(isThin && { robots: { index: false, follow: true } }),
     openGraph: {
       title,
       description,
