@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import ThemeToggle from "@/components/ThemeToggle";
 import UserMenu from "@/components/auth/UserMenu";
@@ -16,8 +16,64 @@ const NAV_ITEMS = [
   { path: "/about", label: "About" },
 ];
 
+// Guides dropdown — exposes high-traffic blog clusters from sitewide nav.
+// Issue #374: senior waivers cluster pulled 600+ monthly impressions across
+// 13 spokes; transfer-credit cluster pulled 930+ on 2 hubs alone. Both were
+// previously only discoverable via direct organic search, not header.
+const GUIDES_ITEMS = [
+  {
+    href: "/blog/free-community-college-classes-for-seniors",
+    label: "Senior Waivers",
+    description: "Free tuition for seniors by state",
+  },
+  {
+    href: "/blog/how-to-check-if-community-college-course-transfers",
+    label: "Transfer Guides",
+    description: "Direct match vs elective credit",
+  },
+  {
+    href: "/blog/what-does-audit-a-class-mean",
+    label: "Auditing a Class",
+    description: "Sit in without credit pressure",
+  },
+  {
+    href: "/blog/how-to-find-late-start-community-college-classes",
+    label: "Late-Start Classes",
+    description: "Enroll after the semester started",
+  },
+  {
+    href: "/blog",
+    label: "All Articles →",
+    description: "",
+  },
+];
+
 export default function Header({ state, stateName, transferSupported = true, prereqsAvailable = false }: { state: string; stateName?: string; transferSupported?: boolean; prereqsAvailable?: boolean }) {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [guidesOpen, setGuidesOpen] = useState(false);
+  const guidesRef = useRef<HTMLDivElement>(null);
+
+  // Close guides dropdown on outside click (matches UserMenu pattern)
+  useEffect(() => {
+    if (!guidesOpen) return;
+    const handleClickOutside = (e: MouseEvent) => {
+      if (guidesRef.current && !guidesRef.current.contains(e.target as Node)) {
+        setGuidesOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [guidesOpen]);
+
+  // Close guides dropdown on Escape
+  useEffect(() => {
+    if (!guidesOpen) return;
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setGuidesOpen(false);
+    };
+    document.addEventListener("keydown", handleEsc);
+    return () => document.removeEventListener("keydown", handleEsc);
+  }, [guidesOpen]);
 
   const links = NAV_ITEMS
     .filter((item) => item.path !== "/transfer" || transferSupported)
@@ -58,12 +114,49 @@ export default function Header({ state, stateName, transferSupported = true, pre
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/blog"
-            className="hover:text-teal-600 transition-colors"
-          >
-            Blog
-          </Link>
+          {/* Guides dropdown — replaces the plain "Blog" link (#374) */}
+          <div className="relative" ref={guidesRef}>
+            <button
+              type="button"
+              onClick={() => setGuidesOpen(!guidesOpen)}
+              className="inline-flex items-center gap-1 hover:text-teal-600 transition-colors"
+              aria-expanded={guidesOpen}
+              aria-haspopup="true"
+            >
+              Guides
+              <svg
+                className={`w-3 h-3 transition-transform ${guidesOpen ? "rotate-180" : ""}`}
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            {guidesOpen && (
+              <div className="absolute right-0 mt-2 w-72 rounded-md shadow-lg bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 py-1 z-50">
+                {GUIDES_ITEMS.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setGuidesOpen(false)}
+                    className="block px-4 py-2.5 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+                  >
+                    <div className="text-sm font-medium text-gray-900 dark:text-slate-100">
+                      {item.label}
+                    </div>
+                    {item.description && (
+                      <div className="text-xs text-gray-500 dark:text-slate-400 mt-0.5">
+                        {item.description}
+                      </div>
+                    )}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
           <UserMenu />
           <ThemeToggle />
         </nav>
@@ -112,13 +205,22 @@ export default function Header({ state, stateName, transferSupported = true, pre
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/blog"
-            onClick={() => setMobileOpen(false)}
-            className="block py-2.5 text-sm text-gray-700 dark:text-slate-300 hover:text-teal-600 transition-colors"
-          >
-            Blog
-          </Link>
+          {/* Guides section (#374) — same destinations as the desktop dropdown */}
+          <div className="mt-3 pt-3 border-t border-gray-100 dark:border-slate-700">
+            <p className="text-[11px] uppercase tracking-wide font-medium text-gray-400 dark:text-slate-500 mb-1">
+              Guides
+            </p>
+            {GUIDES_ITEMS.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setMobileOpen(false)}
+                className="block py-2 text-sm text-gray-700 dark:text-slate-300 hover:text-teal-600 transition-colors"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
         </nav>
       )}
     </header>
