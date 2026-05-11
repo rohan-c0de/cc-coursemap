@@ -2,42 +2,53 @@ import type { StateConfig } from "../registry";
 
 const ohConfig: StateConfig = {
   slug: "oh",
-  name: "Oh",
-  systemName: "Public 2-year",
-  systemFullName: "Oh Public 2-year Colleges",
-  systemUrl: "",
+  name: "Ohio",
+  systemName: "OACC",
+  systemFullName: "Ohio Association of Community Colleges",
+  systemUrl: "https://www.ohiocommunitycolleges.org/",
   collegeCount: 22,
 
-  // TODO: research senior-waiver statute for Oh.
-  // Set to null if no waiver exists, or fill in per the SeniorWaiverConfig shape.
-  seniorWaiver: null,
+  seniorWaiver: {
+    ageThreshold: 60,
+    legalCitation: "Ohio Revised Code § 3345.27 (Program 60)",
+    description:
+      "Ohio residents 60 and older may audit courses at state-supported colleges tuition-free on a space-available basis. Regular fees may still apply and audited courses do not count for degree credit.",
+    bannerTitle: "Ohio Program 60",
+    bannerSummary:
+      "Over 60 in Ohio? You can audit classes at state-supported colleges tuition-free.",
+    bannerDetail:
+      "Ohio Revised Code § 3345.27 (Program 60) lets Ohio residents 60+ audit courses at state-assisted institutions tuition-free on a space-available basis. Confirm with each college's registrar.",
+  },
 
   transferSupported: false,
   popularCourses: [],
-  defaultZip: "",
-  defaultZipCity: "",
+  defaultZip: "43215",
+  defaultZipCity: "Columbus",
 
   courseDiscoveryUrl: (_collegeSlug: string, _prefix: string, _number: string) =>
-    "https://www.example.edu/",
+    "https://www.ohiocommunitycolleges.org/",
 
   collegeCoursesUrl: (_collegeSlug: string) =>
-    "https://www.example.edu/",
+    "https://www.ohiocommunitycolleges.org/",
 
   branding: {
-    siteName: "Community College Path Oh",
-    tagline: "Search Public 2-year courses across all 22 colleges.",
-    footerText: "Community College Path Oh — Find courses across all 22 Public 2-year colleges.",
-    disclaimer: "This is an independent project and is not affiliated with, endorsed by, or sponsored by Oh Public 2-year Colleges.",
+    siteName: "Community College Path Ohio",
+    tagline: "Search Ohio community college courses across all 22 colleges.",
+    footerText:
+      "Community College Path Ohio — Find courses across all 22 Ohio community colleges.",
+    disclaimer:
+      "This is an independent project and is not affiliated with, endorsed by, or sponsored by the Ohio Association of Community Colleges.",
     metaKeywords: [
-      "Oh community college courses",
-      "Public 2-year course search",
-      "Oh Public 2-year Colleges",
+      "Ohio community college courses",
+      "Ohio community college class search",
+      "Ohio Association of Community Colleges",
+      "Ohio Program 60",
     ],
   },
   scrapers: {
-    // manual-only: courses — Phase 2 (course scraper) not yet wired up.
-    // manual-only: transfers — Phase 3 (transfer-equiv) not yet wired up.
-    // manual-only: prereqs — Phase 4.
+    // manual-only: courses — mixed-platform state, 8 colleges scraped via banner-ssb-9 / colleague / banner-8 templates per-college; per-state cron not yet wired.
+    // manual-only: transfers — no articulation portal registered for OH yet.
+    // manual-only: prereqs — runs as part of course aggregation.
     // manual-only: programs — Phase 5+.
   },
 };
