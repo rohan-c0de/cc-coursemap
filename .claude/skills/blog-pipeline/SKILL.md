@@ -65,6 +65,8 @@ If all detectors return zero candidates, **stop and report "no triggers fired th
 
 **Data-driven detectors write precomputed slice files** (under `.blog-pipeline/slices/`) and reference them in `dataSlicePaths`. The drafter consumes those slices verbatim — every numeric claim in the article must come from a slice file, not LLM speculation. The prereq-bottleneck detector is the first such detector; future ones (course-availability, instructor-density, transfer-mapping patterns) follow the same convention.
 
+**GSC-driven detectors are a separate pattern** (introduced 2026-05-11 with issue #368). Instead of reading data presence, they read search demand: parse `~/gsc_audit_output.json` for queries matching a specific pattern (e.g., course-code-shaped queries with 0 clicks at top-10 positions) and emit candidates for content that would convert that demand. The slice file for a GSC-driven candidate combines (a) the GSC stats backing the candidate (impressions, position, query variants), and (b) the actual product data the article must cite. Use this pattern when search demand is the strongest signal — typically for capture-existing-demand content, not for expanding into new theme areas.
+
 ### Stage 2 — Prioritize
 
 Detector `rankScore` is a *data-presence* signal, not an editorial-value signal. Sorting by rankScore alone systematically over-picks templated articles for clusters where every state has the same shape of data (statute citations, audit policies). Pre-2026-05-10 the pipeline drafted a stack of senior-waiver and audit-at-college spokes for that exact reason, and the user pushed back: "We have tons of other good data. Why are you always writing about that instead?"
@@ -87,12 +89,14 @@ If two candidates tie on cluster-non-saturation, pick the one whose data slice h
 
 `content/blog/BRIEF.md` § "What kinds of articles to create" lists nine theme areas. Audit which themes have ≥ 3 spokes vs. which have 0. Push candidates that fill 0-spoke themes ahead of candidates that pile onto already-covered themes, even when rankScores favor the latter.
 
-As of 2026-05-10 (update this after each batch):
-- ✅ Heavily covered: transfer confusion (18 spokes), senior waivers (13), session timing (10 spokes — MD, TN, MA, NY, NC, VA, CT, SC, GA, FL; PRs #347), audit-at-college (9 college spokes)
+As of 2026-05-11 (update this after each batch):
+- ✅ Heavily covered: transfer confusion (18 spokes), senior waivers (13 — see issue #366 for ~25 more eligible states), session timing (10 spokes — MD, TN, MA, NY, NC, VA, CT, SC, GA, FL; PRs #347), audit-at-college (9 college spokes)
 - ⚠️ Lightly covered: prereq sequencing (16 spokes — FL, GA, MD, NC, SC, DE, MA, RI, NY, PA, DC, CT, NH, TN, VA, VT; detector exhausted — all covered states have spokes), hybrid-course-density (9 spokes — ME, MD, MA, VA, SC, NC, KY, AL, NY; detector exhausted — no more slice data for covered states), late-start-by-state (15 spokes — NH, GA, SC, TN, MD, NC, DE, RI, FL, KY, MS, MA, VT, AL, DC; detector exhausted — all covered states have spokes), course-availability (hub + 6 spokes: NC, GA, KY, VA, TN, SC (PRs #336, #346); FL and AL still pending)
-- ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), instructor density, program-level content
+- ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), instructor density, program-level content, transfer-receiver patterns (issue #367), course-explainer cluster from GSC demand (issue #368), cost-of-college / financial vertical (issue #369), community-college comparison content (issue #370)
 
 The next batches should disproportionately fill the lightly- and zero-covered themes. That's where the real editorial value sits.
+
+**New cluster issues filed during 2026-05-11 SEO review** (#366-#375): these encode the highest-leverage editorial gaps identified from Search Console data. The proposed clusters in the table below now have corresponding GitHub issues with hub-article briefs and detector designs.
 
 #### Step 2d — Cap any single cluster's share of a batch
 
@@ -185,15 +189,18 @@ The repo has substantial data the pipeline doesn't currently mine:
 
 These map to BRIEF.md theme areas with 0 or 1 spokes. Each, once seeded with a hub, opens 15–24 state-spoke candidates by detector convention.
 
-| Proposed cluster | Hub article topic | Detector | BRIEF.md theme |
-|---|---|---|---|
-| `prereq-chains-guide` (hub exists) | (existing) | ✅ `detect-prereq-bottlenecks.ts` | §7 Prereqs |
-| `course-availability-guide` ✅ hub + detector live | "Which Community College Courses Are Actually Hard to Find" | ✅ `detect-course-scarcity.ts` — classifies courses as universal/scarce/point-source; 8 state spokes pending | §2 Registration timing |
-| `hybrid-course-density-guide` (hub exists; spokes pending) | (existing) | ✅ `detect-hybrid-density.ts` | §8 Online vs hybrid |
-| `late-start-by-state-guide` (hub exists; spokes pending) | (existing) | ✅ `detect-late-start-density.ts` | §2 Registration timing |
-| `cross-college-scheduling-guide` | "Taking Classes at More Than One Community College" (existing standalone) | (no detector needed; per-state spokes editorially driven) | §3 Cross-college |
-| `transfer-receiver-patterns-guide` | "Which Universities Are the Toughest Transfer Receivers in [State]?" | new: aggregate `data/{state}/transfer-equiv.json` per receiver, score by % direct match; emit state-by-receiver spoke candidates | §1 Transfer confusion |
-| `instructor-density-guide` | "Same Course, Different Instructor: How [Course] Staffs Across [State]" | new: per-course instructor count from `data/{state}/courses/`; emit per-course-per-state spokes for high-variance combos | (cross-cuts §3 and §6) |
+| Proposed cluster | Hub article topic | Detector | BRIEF.md theme | Issue |
+|---|---|---|---|---|
+| `prereq-chains-guide` (hub exists) | (existing) | ✅ `detect-prereq-bottlenecks.ts` | §7 Prereqs | — |
+| `course-availability-guide` ✅ hub + detector live | "Which Community College Courses Are Actually Hard to Find" | ✅ `detect-course-scarcity.ts` — classifies courses as universal/scarce/point-source; 8 state spokes pending | §2 Registration timing | — |
+| `hybrid-course-density-guide` (hub exists; spokes pending) | (existing) | ✅ `detect-hybrid-density.ts` | §8 Online vs hybrid | — |
+| `late-start-by-state-guide` (hub exists; spokes pending) | (existing) | ✅ `detect-late-start-density.ts` | §2 Registration timing | — |
+| `cross-college-scheduling-guide` | "Taking Classes at More Than One Community College" (existing standalone) | (no detector needed; per-state spokes editorially driven) | §3 Cross-college | — |
+| `transfer-receiver-patterns-guide` | "Which Universities Are the Toughest Transfer Receivers in [State]?" | new: aggregate `data/{state}/transfer-equiv.json` per receiver, score by % direct match; emit state-by-receiver spoke candidates | §1 Transfer confusion | [#367](https://github.com/rohan-c0de/cc-coursemap/issues/367) |
+| `instructor-density-guide` | "Same Course, Different Instructor: How [Course] Staffs Across [State]" | new: per-course instructor count from `data/{state}/courses/`; emit per-course-per-state spokes for high-variance combos | (cross-cuts §3 and §6) | — |
+| `course-explainer-guide` ⭐ **GSC-driven, new detector pattern** | "Decoding Community College Course Codes: What [SDV/BIO/ENG/MAT] Numbers Mean" | new: `detect-course-explainer-demand.ts` reads `~/gsc_audit_output.json` for course-code-shaped queries with high impressions + low CTR; emits a candidate per high-demand course code with state + college identified from quoted phrases. **First detector that reads search demand, not data presence.** | §6 College-specific | [#368](https://github.com/rohan-c0de/cc-coursemap/issues/368) |
+| `cost-of-college-guide` ⭐ **high-RPM financial vertical** | "What Community College Actually Costs in 2026 (After Aid)" | (initially no detector; editorially driven national + state-pair spokes) | new theme #10 (financial) | [#369](https://github.com/rohan-c0de/cc-coursemap/issues/369) |
+| `comparison-guide` ⭐ **high-CTR comparison content** | "Community College vs 4-Year University: Real Cost-and-Outcome Breakdown 2026" | (no detector; state-pair generation is mechanical over neighboring states) | new theme #11 (comparison) | [#370](https://github.com/rohan-c0de/cc-coursemap/issues/370) |
 
 When a cluster idea above looks ready, the implementation pattern is:
 
