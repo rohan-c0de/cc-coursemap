@@ -38,6 +38,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const institution = institutions.find((i) => i.id === id);
   if (!institution) return { title: "College Not Found" };
 
+  const baseUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
+
   return {
     title: `${institution.name} — Courses & Transfer Info | Community College Path ${requireStateConfig(state).name}`,
     description: `Find out how to audit courses at ${institution.name}. ${
@@ -46,6 +49,14 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
         : "Contact the college to confirm audit policies."
     }`,
     alternates: { canonical: `/${state}/college/${id}` },
+    openGraph: {
+      images: [{
+        url: `${baseUrl}/${state}/college/${id}/opengraph-image`,
+        width: 1200,
+        height: 630,
+        alt: `${institution.name} — courses, audit policy, and transfer info on Community College Path`,
+      }],
+    },
   };
 }
 

@@ -37,6 +37,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: meta.date,
       url: `${siteUrl}/blog/${meta.slug}`,
       siteName: "Community College Path",
+      images: [{
+        url: `${siteUrl}/blog/${meta.slug}/opengraph-image`,
+        width: 1200,
+        height: 630,
+        alt: `${meta.title} — Community College Path Blog`,
+      }],
     },
     twitter: {
       card: "summary_large_image",

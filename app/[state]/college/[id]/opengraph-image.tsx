@@ -6,7 +6,7 @@ import { getCourseCount } from "@/lib/courses";
 import { getCurrentTerm } from "@/lib/terms";
 
 export const runtime = "nodejs";
-export const alt = "College Detail — Community College Path";
+export const alt = "Community College Path — community college details, courses, audit policy, and transfer info";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

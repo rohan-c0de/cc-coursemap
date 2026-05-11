@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { isValidState } from "@/lib/states/registry";
 import { requireStateConfig } from "@/lib/states/route-helpers";
 export const runtime = "nodejs";
-export const alt = "Community College Path — Community College Course Finder";
+export const alt = "Community College Path — state community college course finder, transfer lookup, and schedule builder";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
