@@ -7,7 +7,7 @@ import NotifyBanner from "@/components/NotifyBanner";
 import { getNextTerm } from "@/lib/terms";
 import { getAllStates, isValidState } from "@/lib/states/registry";
 import { requireStateConfig } from "@/lib/states/route-helpers";
-import { getArticlesByState, categoryLabel } from "@/lib/blog";
+import { getArticlesByState, getStateTopicLinks, categoryLabel } from "@/lib/blog";
 import { getQualifyingProgramSlugs, getProgramBySlug } from "@/lib/programs";
 import { loadOnlineData, onlineQualifies } from "@/lib/online";
 
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const b = config.branding;
   return {
     title: `${config.name} Community College Course Finder`,
-    description: b.tagline,
+    description: `Search courses, check transfer equivalencies, find late-start sections, and compare ${config.collegeCount} ${config.systemName} colleges. ${b.tagline}`,
     keywords: b.metaKeywords,
     alternates: { canonical: `/${state}` },
   };
@@ -43,7 +43,8 @@ export default async function HomePage({ params }: Props) {
   if (!isValidState(state)) notFound();
   const config = requireStateConfig(state);
   const nextTerm = await getNextTerm(state);
-  const stateArticles = getArticlesByState(state).slice(0, 4);
+  const stateArticles = getArticlesByState(state);
+  const topicLinks = getStateTopicLinks(state);
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
 
@@ -312,7 +313,40 @@ export default async function HomePage({ params }: Props) {
         </section>
       )}
 
-      {/* Related guides — blog posts tagged for this state */}
+      {/* Topics hub — one card per state-level cluster spoke */}
+      {topicLinks.length > 0 && (
+        <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-slate-100 mb-2 text-center">
+              What We Cover for {config.name}
+            </h2>
+            <p className="text-center text-sm text-gray-600 dark:text-slate-400 mb-8">
+              Data-driven guides built from {config.systemName} course records.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {topicLinks.map(({ cluster, title, blurb, article }) => (
+                <Link
+                  key={cluster}
+                  href={`/blog/${article.slug}`}
+                  className="group rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-5 transition hover:border-teal-300 dark:hover:border-teal-700 hover:shadow-sm"
+                >
+                  <h3 className="font-semibold text-gray-900 dark:text-slate-100 group-hover:text-teal-600 transition-colors">
+                    {title}
+                  </h3>
+                  <p className="mt-1 text-sm text-gray-600 dark:text-slate-400">
+                    {blurb}
+                  </p>
+                  <span className="mt-3 inline-block text-xs font-medium text-teal-600 dark:text-teal-400 group-hover:text-teal-700 dark:group-hover:text-teal-300 transition-colors">
+                    Read the guide &rarr;
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Related guides — all blog posts tagged for this state */}
       {stateArticles.length > 0 && (
         <section className="py-12 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
