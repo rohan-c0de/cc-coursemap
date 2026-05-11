@@ -369,6 +369,12 @@ When generating an article, produce:
 8. **Suggested internal link opportunities** (both tool pages and other articles)
 9. **If relevant, suggested follow-up companion articles**
 
+### MDX formatting rule — do not include the title as a leading H1
+
+The page template (`app/blog/[slug]/page.tsx`) renders the article title from `ArticleMeta.title`. The MDX body **must start directly with prose** (or an H2), not with `# Title`. Including a leading `# ...` line in the MDX causes the title to render twice on the page — once from the template, once from the markdown — and produces two `<h1>` elements (bad for SEO and accessibility).
+
+A CI check at `scripts/check-blog-mdx.ts` blocks any MDX that starts with `# `.
+
 ---
 
 ## Final instruction

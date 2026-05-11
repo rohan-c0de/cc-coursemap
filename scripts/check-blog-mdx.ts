@@ -14,7 +14,7 @@
  * one such silent miss; this check prevents the next one.
  */
 
-import { existsSync, readdirSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { articles } from "../content/blog/index";
 
@@ -29,6 +29,17 @@ for (const article of articles) {
   if (!existsSync(path)) {
     errors.push(
       `Missing MDX for registered slug "${article.slug}" — expected at content/blog/${article.slug}.mdx`
+    );
+    continue;
+  }
+  // No leading H1 — the page template renders the article title from
+  // ArticleMeta. A leading `# Title` in the MDX duplicates the title
+  // on the rendered page (and creates two <h1>s, which is bad for SEO
+  // and accessibility). See the PR that fixed this across 117 files.
+  const firstLine = readFileSync(path, "utf-8").split("\n", 1)[0];
+  if (firstLine.startsWith("# ")) {
+    errors.push(
+      `Leading H1 in content/blog/${article.slug}.mdx — the page template already renders the title from ArticleMeta. Remove the "# ..." line (and the blank line after it) from the MDX.`
     );
   }
 }
