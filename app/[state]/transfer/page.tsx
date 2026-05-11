@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
-  loadTransferMappings,
+  loadTransferMappingsByUniversity,
   getUniversities,
   getUniversitiesWithCounts,
 } from "@/lib/transfer";
@@ -43,8 +43,13 @@ export default async function TransferPage({ params }: Props) {
   if (!config.transferSupported) notFound();
   const universities = await getUniversities(state);
   const defaultUni = universities[0]?.slug || "";
-  // Pass ALL mappings — client filters by selected university
-  const mappings = await loadTransferMappings(state);
+  // Only ship the default university's mappings in the initial payload.
+  // The client fetches other universities on demand via
+  // /api/{state}/transfer/mappings?university=X, reducing the initial
+  // HTML from ~7 MB (full state dataset) to ~500 KB.
+  const mappings = defaultUni
+    ? await loadTransferMappingsByUniversity(state, defaultUni)
+    : [];
 
   // Get course availability for current term (matches what course search shows)
   const allCourses = await loadAllCourses(await getCurrentTerm(state), state);

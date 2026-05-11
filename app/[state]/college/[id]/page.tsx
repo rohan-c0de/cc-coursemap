@@ -123,7 +123,13 @@ export default async function CollegeDetailPage(props: PageProps) {
     termsWithData.map(async (t) => {
       const courses =
         termCoursePairs.find((p) => p.term === t)?.courses ?? [];
-      coursesByTerm[t] = trimCoursesForClient(courses);
+      // Only ship the default term's courses in the initial RSC payload.
+      // Other terms are fetched on demand by CollegeTermSection via
+      // /api/{state}/college/{id}/courses?term=X, cutting the initial
+      // HTML from ~1 MB (all terms) to ~250 KB.
+      if (t === defaultTerm) {
+        coursesByTerm[t] = trimCoursesForClient(courses);
+      }
       staleByTerm[t] = await isDataStale(collegeSlug, t, state);
       topInstructorsByTerm[t] = await getTopInstructors(
         collegeSlug,
@@ -136,6 +142,9 @@ export default async function CollegeDetailPage(props: PageProps) {
         "__NUMBER__",
         t
       );
+      // Build union from all terms so the transfer lookup covers
+      // every course the college offers, regardless of which term
+      // the user has selected.
       union.push(...courses);
     })
   );
