@@ -28,7 +28,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: "en_US",
       url: `${baseUrl}/${state}`,
-      images: [{ url: `${baseUrl}/${state}/opengraph-image`, width: 1200, height: 630 }],
+      images: [{
+        url: `${baseUrl}/${state}/opengraph-image`,
+        width: 1200,
+        height: 630,
+        alt: `${config.name} community college course finder — search ${config.collegeCount} ${config.systemName} colleges, transfer equivalencies, and schedules`,
+      }],
     },
     twitter: {
       card: "summary_large_image",

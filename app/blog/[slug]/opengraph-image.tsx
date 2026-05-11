@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { getArticleBySlug, categoryLabel } from "@/lib/blog";
 
 export const runtime = "nodejs";
-export const alt = "Community College Path Blog";
+export const alt = "Community College Path Blog — practical guides for community college students";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
