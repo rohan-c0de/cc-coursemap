@@ -88,8 +88,8 @@ If two candidates tie on cluster-non-saturation, pick the one whose data slice h
 `content/blog/BRIEF.md` § "What kinds of articles to create" lists nine theme areas. Audit which themes have ≥ 3 spokes vs. which have 0. Push candidates that fill 0-spoke themes ahead of candidates that pile onto already-covered themes, even when rankScores favor the latter.
 
 As of 2026-05-10 (update this after each batch):
-- ✅ Heavily covered: transfer confusion (18 spokes), senior waivers (13), session timing (8 spokes — MD, TN, MA, NY, NC, VA, CT, SC), audit-at-college (9 college spokes)
-- ⚠️ Lightly covered: prereq sequencing (16 spokes — FL, GA, MD, NC, SC, DE, MA, RI, NY, PA, DC, CT, NH, TN, VA, VT; detector exhausted — all covered states have spokes), hybrid-course-density (9 spokes — ME, MD, MA, VA, SC, NC, KY, AL, NY; detector exhausted — no more slice data for covered states), late-start-by-state (15 spokes — NH, GA, SC, TN, MD, NC, DE, RI, FL, KY, MS, MA, VT, AL, DC; detector exhausted — all covered states have spokes), course-availability (hub live; 8 state spokes pending — NC, GA, KY, VA, TN, SC, FL, AL; detector `detect-course-scarcity.ts` active)
+- ✅ Heavily covered: transfer confusion (18 spokes), senior waivers (13), session timing (10 spokes — MD, TN, MA, NY, NC, VA, CT, SC, GA, FL; PRs #347), audit-at-college (9 college spokes)
+- ⚠️ Lightly covered: prereq sequencing (16 spokes — FL, GA, MD, NC, SC, DE, MA, RI, NY, PA, DC, CT, NH, TN, VA, VT; detector exhausted — all covered states have spokes), hybrid-course-density (9 spokes — ME, MD, MA, VA, SC, NC, KY, AL, NY; detector exhausted — no more slice data for covered states), late-start-by-state (15 spokes — NH, GA, SC, TN, MD, NC, DE, RI, FL, KY, MS, MA, VT, AL, DC; detector exhausted — all covered states have spokes), course-availability (hub + 6 spokes: NC, GA, KY, VA, TN, SC (PRs #336, #346); FL and AL still pending)
 - ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), instructor density, program-level content
 
 The next batches should disproportionately fill the lightly- and zero-covered themes. That's where the real editorial value sits.
