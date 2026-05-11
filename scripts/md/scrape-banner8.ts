@@ -15,6 +15,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { pickRecentSsbTerms } from "../lib/resolve-terms";
+import { fetchWithRetry } from "../lib/http-retry";
 
 type CourseMode = "in-person" | "online" | "hybrid" | "zoom";
 
@@ -81,9 +82,10 @@ async function getAvailableTerms(
   baseUrl: string,
   prodPath: string
 ): Promise<{ code: string; description: string }[]> {
-  const resp = await fetch(
+  const resp = await fetchWithRetry(
     `${baseUrl}${prodPath}/bwckschd.p_disp_dyn_sched`,
-    { headers: { "User-Agent": HEADERS["User-Agent"] } }
+    { headers: { "User-Agent": HEADERS["User-Agent"] } },
+    { label: `getAvailableTerms(${baseUrl})` }
   );
   const html = await resp.text();
 
@@ -103,13 +105,14 @@ async function getSubjects(
   prodPath: string,
   termCode: string
 ): Promise<string[]> {
-  const resp = await fetch(
+  const resp = await fetchWithRetry(
     `${baseUrl}${prodPath}/bwckgens.p_proc_term_date`,
     {
       method: "POST",
       headers: HEADERS,
       body: `p_calling_proc=bwckschd.p_disp_dyn_sched&p_term=${termCode}`,
-    }
+    },
+    { label: `getSubjects(${baseUrl}, ${termCode})` }
   );
   const html = await resp.text();
 
@@ -160,13 +163,14 @@ async function searchSubject(
   params.append("end_mi", "0");
   params.append("end_ap", "a");
 
-  const resp = await fetch(
+  const resp = await fetchWithRetry(
     `${baseUrl}${prodPath}/bwckschd.p_get_crse_unsec`,
     {
       method: "POST",
       headers: HEADERS,
       body: params.toString(),
-    }
+    },
+    { label: `searchSubject(${baseUrl}, ${termCode}, ${subject})` }
   );
   return resp.text();
 }
@@ -497,11 +501,22 @@ async function main() {
     return;
   }
 
+  // Per-college isolation: a durable outage at one source must not abandon
+  // every later college's data. See scrape-banner-ssb.ts and issue #161.
   let grandTotal = 0;
+  const failed: { slug: string; error: string }[] = [];
   for (const [slug, config] of targets) {
-    const count = await scrapeCollege(slug, config);
-    grandTotal += count;
+    try {
+      const count = await scrapeCollege(slug, config);
+      grandTotal += count;
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e);
+      console.error(`\n[!] ${slug} failed: ${msg}`);
+      failed.push({ slug, error: msg });
+    }
   }
+
+  const successCount = targets.length - failed.length;
 
   // Auto-import into Supabase
   if (!args.includes("--no-import") && grandTotal > 0) {
@@ -511,7 +526,15 @@ async function main() {
     await importCoursesToSupabase("md");
   }
 
-  console.log(`\nDone. ${grandTotal} total sections scraped.`);
+  console.log(
+    `\nDone. ${grandTotal} total sections scraped from ${successCount}/${targets.length} colleges.`
+  );
+  if (failed.length > 0) {
+    console.log(`Failed: ${failed.map((f) => f.slug).join(", ")}`);
+  }
+  if (successCount === 0) {
+    process.exit(1);
+  }
 }
 
 main().catch((err) => {
