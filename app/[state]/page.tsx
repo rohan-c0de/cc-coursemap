@@ -15,6 +15,12 @@ type Props = {
   params: Promise<{ state: string }>;
 };
 
+// Force HTTP 404 (not a cached HTTP 200 soft-404) for any state slug
+// that isn't in the registry. Vercel ISR otherwise caches the rendered
+// `notFound()` UI as a 200 response, causing soft-404 floods in Search
+// Console for every garbage URL bots probe. See issue #337.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getAllStates().map((s) => ({ state: s.slug }));
 }
