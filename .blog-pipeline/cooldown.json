@@ -314,6 +314,21 @@
       "slug": "district-of-columbia-community-college-late-start-classes",
       "draftedAt": "2026-05-10T11:00:00Z",
       "trigger": "late-start-density"
+    },
+    {
+      "slug": "north-carolina-community-college-course-availability",
+      "draftedAt": "2026-05-10T13:00:00Z",
+      "trigger": "course-scarcity"
+    },
+    {
+      "slug": "georgia-community-college-course-availability",
+      "draftedAt": "2026-05-10T13:00:00Z",
+      "trigger": "course-scarcity"
+    },
+    {
+      "slug": "kentucky-community-college-course-availability",
+      "draftedAt": "2026-05-10T13:00:00Z",
+      "trigger": "course-scarcity"
     }
   ]
 }

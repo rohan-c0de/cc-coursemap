@@ -61,6 +61,71 @@ export const articles: ArticleMeta[] = [
     cluster: "course-availability-guide",
     clusterRole: "hub",
   },
+  {
+    slug: "north-carolina-community-college-course-availability",
+    title:
+      "North Carolina Community College Course Availability: What's at Every Campus, What's at One, and How to Tell the Difference",
+    description:
+      "NC's 55-college system has a 78.9% scarcity ratio — nearly 4 in 5 courses concentrate at fewer than 25% of campuses. ENG-111 is at all 55; architecture, animal science, and ASL are at one or two.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "nc",
+    author: "Community College Path",
+    tags: [
+      "course-availability",
+      "registration",
+      "north-carolina",
+      "ncccs",
+      "anchor-campus",
+      "schedule-planning",
+    ],
+    cluster: "course-availability-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "georgia-community-college-course-availability",
+    title:
+      "Georgia Technical College Course Availability: Central Georgia Tech Holds 41% of the State's Point-Source Courses — And Nursing Is Almost Entirely Concentrated",
+    description:
+      "Central Georgia Technical College holds 43 exclusive courses in Georgia's 20-college TCSG system. Nursing (RNSG) is 100% concentrated statewide — 59 courses, none available outside a handful of campuses.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "ga",
+    author: "Community College Path",
+    tags: [
+      "course-availability",
+      "registration",
+      "georgia",
+      "tcsg",
+      "anchor-campus",
+      "nursing",
+      "schedule-planning",
+    ],
+    cluster: "course-availability-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "kentucky-community-college-course-availability",
+    title:
+      "Kentucky KCTCS Course Availability: Nursing Prereqs at Every Campus, Three Anchor Colleges Each Holding 20+ Exclusive Programs",
+    description:
+      "KCTCS puts NAA-100 and both A&P courses at all 16 colleges — unusual universal access for nursing tracks. But Jefferson, Madisonville, and Bluegrass each hold 20+ exclusive courses.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "ky",
+    author: "Community College Path",
+    tags: [
+      "course-availability",
+      "registration",
+      "kentucky",
+      "kctcs",
+      "anchor-campus",
+      "nursing",
+      "schedule-planning",
+    ],
+    cluster: "course-availability-guide",
+    clusterRole: "spoke",
+  },
 
   // --- Cluster A: Transfer credit confusion (hub + spokes) ---
   {
