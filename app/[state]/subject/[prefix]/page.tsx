@@ -17,6 +17,7 @@ import { getCurrentTerm, termLabel } from "@/lib/terms";
 import { isValidState } from "@/lib/states/registry";
 import { requireStateConfig } from "@/lib/states/route-helpers";
 import { subjectName } from "@/lib/subjects";
+import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
 import type { CourseSection } from "@/lib/types";
@@ -160,6 +161,12 @@ export default async function StateSubjectPage(props: PageProps) {
   const hybridCount = sections.filter((s) => s.mode === "hybrid").length;
   const inPersonCount = sections.filter((s) => s.mode === "in-person").length;
   const term = termLabel(currentTerm);
+
+  // Subject Availability Snapshot — server-rendered substantive content
+  // pulled from the same sections already loaded for the course list.
+  // Same helper used by /[state]/course/[code] and /[state]/program/[slug]
+  // for consistency.
+  const subjectProfile = computeCourseAvailabilityProfile(sections);
 
   // Other subjects for browse links — distinct prefix scan, not full catalog
   const allSubjects = (await getDistinctSubjects(currentTerm, state)).filter(
@@ -309,6 +316,110 @@ export default async function StateSubjectPage(props: PageProps) {
             </span>
           )}
         </div>
+
+        {/* Subject Availability Snapshot — server-rendered substantive
+            content per term. Helps long-tail SEO ("[subject] online
+            community college [state]", "[subject] evening sections").
+            Computed inline from sections — no extra I/O. */}
+        {subjectProfile && subjectProfile.totalSections > 0 && (
+          <section className="mb-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6">
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+              {subject} Availability Snapshot
+            </h2>
+            <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
+              How {subject.toLowerCase()} sections are being offered across{" "}
+              {subjectProfile.collegeCount}{" "}
+              {subjectProfile.collegeCount === 1 ? "college" : "colleges"} in{" "}
+              {config.name} this term ({subjectProfile.totalSections}{" "}
+              {subjectProfile.totalSections === 1 ? "section" : "sections"}{" "}
+              total).
+            </p>
+
+            <div className="grid sm:grid-cols-2 gap-6">
+              <div>
+                <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
+                  When sections meet
+                </h3>
+                <ul className="text-sm text-gray-700 dark:text-slate-300 space-y-1">
+                  {subjectProfile.timeOfDay.morning > 0 && (
+                    <li className="flex justify-between">
+                      <span>Morning (before noon)</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {subjectProfile.timeOfDay.morning}
+                      </span>
+                    </li>
+                  )}
+                  {subjectProfile.timeOfDay.afternoon > 0 && (
+                    <li className="flex justify-between">
+                      <span>Afternoon (noon&ndash;5 PM)</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {subjectProfile.timeOfDay.afternoon}
+                      </span>
+                    </li>
+                  )}
+                  {subjectProfile.timeOfDay.evening > 0 && (
+                    <li className="flex justify-between">
+                      <span>Evening (5 PM and after)</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {subjectProfile.timeOfDay.evening}
+                      </span>
+                    </li>
+                  )}
+                  {subjectProfile.timeOfDay.asynchronous > 0 && (
+                    <li className="flex justify-between">
+                      <span>Asynchronous / TBA</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {subjectProfile.timeOfDay.asynchronous}
+                      </span>
+                    </li>
+                  )}
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
+                  Start dates &amp; instructors
+                </h3>
+                <div className="text-sm text-gray-700 dark:text-slate-300 space-y-2">
+                  {subjectProfile.startDates.distinct > 0 && (
+                    <p>
+                      Sections begin on{" "}
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {subjectProfile.startDates.distinct}
+                      </span>{" "}
+                      distinct date
+                      {subjectProfile.startDates.distinct === 1 ? "" : "s"}
+                      {subjectProfile.startDates.lateStartCount > 0 && (
+                        <>
+                          ,{" "}
+                          <Link
+                            href={`/${state}/starting-soon`}
+                            className="font-medium text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300"
+                          >
+                            {subjectProfile.startDates.lateStartCount}{" "}
+                            late-start
+                          </Link>
+                        </>
+                      )}
+                      .
+                    </p>
+                  )}
+                  {subjectProfile.instructorCount > 0 && (
+                    <p>
+                      Taught by{" "}
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {subjectProfile.instructorCount}
+                      </span>{" "}
+                      distinct instructor
+                      {subjectProfile.instructorCount === 1 ? "" : "s"} across
+                      the state.
+                    </p>
+                  )}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Course table */}
         <section className="mb-8">
