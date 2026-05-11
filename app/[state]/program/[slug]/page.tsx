@@ -12,13 +12,14 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { isValidState } from "@/lib/states/registry";
+import { getAllStates, isValidState } from "@/lib/states/registry";
 import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
 import {
   loadProgramData,
   qualifies,
   getProgramBySlug,
+  getQualifyingProgramSlugs,
   PROGRAMS,
 } from "@/lib/programs";
 import { loadProgramAcrossColleges, checkCourseAvailability } from "@/lib/programs/requirements";
@@ -32,9 +33,23 @@ type PageProps = {
   params: Promise<{ state: string; slug: string }>;
 };
 
+// Force HTTP 404 (not a cached 200 soft-404) for any (state, slug) pair
+// that's not in the qualifying-program set. See #337. Build cost: one
+// loadProgramData call per (state, PROGRAMS[i]) pair (~22 × ~10 = ~220).
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
-  // On-demand ISR: sitemap drives discovery, no upfront generation
-  return [];
+  // Serialize across states — each call iterates every program and runs
+  // multiple subject queries, so a parallel fan-out across 22 states would
+  // saturate Supabase connections at build time.
+  const out: { state: string; slug: string }[] = [];
+  for (const s of getAllStates()) {
+    const slugs = await getQualifyingProgramSlugs(s.slug).catch(
+      () => [] as string[]
+    );
+    for (const slug of slugs) out.push({ state: s.slug, slug });
+  }
+  return out;
 }
 
 function siteUrl() {
