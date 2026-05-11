@@ -165,14 +165,6 @@
     ],
     "source": "middlesex"
   },
-  "ART 121": {
-    "text": "ENG 094 or concurrent enrollment or satisfactory placement.Recomm: ENG 090 or satisfactory placement",
-    "courses": [
-      "ENG 090",
-      "ENG 094"
-    ],
-    "source": "gcc"
-  },
   "ART 122": {
     "text": "Completion of ART 121",
     "courses": [
@@ -213,14 +205,6 @@
     "courses": [
       "ENG 090",
       "ENG 094"
-    ],
-    "source": "gcc"
-  },
-  "ART 132": {
-    "text": "ART 121 and ART 131",
-    "courses": [
-      "ART 121",
-      "ART 131"
     ],
     "source": "gcc"
   },
@@ -373,27 +357,12 @@
     ],
     "source": "gcc"
   },
-  "ART 243": {
-    "text": "ART 242",
-    "courses": [
-      "ART 242"
-    ],
-    "source": "gcc"
-  },
   "ART 244": {
     "text": "ART 144 or the permission of the instructor",
     "courses": [
       "ART 144"
     ],
     "source": "middlesex"
-  },
-  "ART 247": {
-    "text": "ART 121 and 132Recomm: ART 241",
-    "courses": [
-      "ART 121",
-      "ART 241"
-    ],
-    "source": "gcc"
   },
   "ART 251": {
     "text": "ART 151Recomm: ART 152",
@@ -422,6 +391,13 @@
     "courses": [
       "ART 121",
       "ART 161"
+    ],
+    "source": "gcc"
+  },
+  "ART 282": {
+    "text": "ART 281",
+    "courses": [
+      "ART 281"
     ],
     "source": "gcc"
   },
@@ -1224,6 +1200,15 @@
     ],
     "source": "gcc"
   },
+  "CHE 111": {
+    "text": "ENG 090, ENG 094, MAT 120, or satisfactory placement",
+    "courses": [
+      "ENG 090",
+      "ENG 094",
+      "MAT 120"
+    ],
+    "source": "gcc"
+  },
   "CHE 111H": {
     "text": "ENG 090 and ENG 094, MAT 120, or satisfactory placement.",
     "courses": [
@@ -1289,6 +1274,13 @@
       "TMA 100"
     ],
     "source": "middlesex"
+  },
+  "CHE 201": {
+    "text": "CHE 112",
+    "courses": [
+      "CHE 112"
+    ],
+    "source": "gcc"
   },
   "CHE 202": {
     "text": "CHE 201",
@@ -1508,6 +1500,21 @@
     ],
     "source": "gcc"
   },
+  "CRJ 103": {
+    "text": "ENG 090 and ENG 094, or satisfactory placement",
+    "courses": [
+      "ENG 090",
+      "ENG 094"
+    ],
+    "source": "gcc"
+  },
+  "CRJ 107": {
+    "text": "CRJ 101 and 103, or permission of instructor",
+    "courses": [
+      "CRJ 101"
+    ],
+    "source": "gcc"
+  },
   "CRJ 109": {
     "text": "CRJ 101 or permission of instructor",
     "courses": [
@@ -1537,13 +1544,6 @@
       "ENG 101"
     ],
     "source": "middlesex"
-  },
-  "CRJ 113": {
-    "text": "CRJ 101 or permission of instructor",
-    "courses": [
-      "CRJ 101"
-    ],
-    "source": "gcc"
   },
   "CRJ 121": {
     "text": "ENG 090 and ENG 094, or satisfactory placement",
@@ -1575,12 +1575,12 @@
     "source": "middlesex"
   },
   "CRJ 131": {
-    "text": "ENG 090 and ENG 094, or satisfactory placement",
+    "text": "Completion of ENG 101 and CRJ 112",
     "courses": [
-      "ENG 090",
-      "ENG 094"
+      "CRJ 112",
+      "ENG 101"
     ],
-    "source": "gcc"
+    "source": "middlesex"
   },
   "CRJ 153": {
     "text": "Completion of ENG101 or concurrent enrollment or completion of SOC101",
@@ -1779,21 +1779,9 @@
     ],
     "source": "middlesex"
   },
-  "CSW 058": {
-    "text": "64 continual training hours w/in 3 years of start date with any wilderness medical training program. Students must be 18 years of age to attend this course.",
-    "courses": [],
-    "source": "gcc"
-  },
   "CSW 066": {
     "text": "must be hungry. If more of us valued food and cheer and song above hoarded gold, it would be a merrier world. J.R.R. Tolkien",
     "courses": [],
-    "source": "gcc"
-  },
-  "CSW 086": {
-    "text": "Medical Insurance Billing (CSW 082) or previous knowledge. May be taken concurrently with CSW 082.",
-    "courses": [
-      "CSW 082"
-    ],
     "source": "gcc"
   },
   "CSW 333": {
@@ -1803,11 +1791,6 @@
   },
   "CSW 391": {
     "text": "Students must have proficiency with mathematical operations with whole numbers, decimals, fractions and percents (or permission of instructor)",
-    "courses": [],
-    "source": "gcc"
-  },
-  "CSW 415": {
-    "text": "basic computer skills.",
     "courses": [],
     "source": "gcc"
   },
@@ -2194,6 +2177,14 @@
     ],
     "source": "gcc"
   },
+  "EDU 144": {
+    "text": "ENG 090 and ENG 094, or satisfactory placement.",
+    "courses": [
+      "ENG 090",
+      "ENG 094"
+    ],
+    "source": "gcc"
+  },
   "EDU 150": {
     "text": "Eligible for ENG 101",
     "courses": [
@@ -2537,6 +2528,14 @@
     ],
     "source": "middlesex"
   },
+  "ENG 101D": {
+    "text": "ENG 090 and ENG 094, or satisfactory placement",
+    "courses": [
+      "ENG 090",
+      "ENG 094"
+    ],
+    "source": "gcc"
+  },
   "ENG 102": {
     "text": "Completion of ENG 101 with a C- or better",
     "courses": [
@@ -2569,6 +2568,13 @@
       "ENG 101"
     ],
     "source": "middlesex"
+  },
+  "ENG 114": {
+    "text": "ENG 101",
+    "courses": [
+      "ENG 101"
+    ],
+    "source": "gcc"
   },
   "ENG 116": {
     "text": "ENG 101",
@@ -2697,20 +2703,6 @@
     ],
     "source": "middlesex"
   },
-  "ENG 203": {
-    "text": "ENG 112, 114, or 116",
-    "courses": [
-      "ENG 112"
-    ],
-    "source": "gcc"
-  },
-  "ENG 204": {
-    "text": "ENG 112, 114, or 116",
-    "courses": [
-      "ENG 112"
-    ],
-    "source": "gcc"
-  },
   "ENG 205": {
     "text": "ENG 112, 114, or 116",
     "courses": [
@@ -2741,13 +2733,6 @@
     ],
     "source": "gcc"
   },
-  "ENG 210": {
-    "text": "ENG 112, 114, or 116",
-    "courses": [
-      "ENG 112"
-    ],
-    "source": "gcc"
-  },
   "ENG 210H": {
     "text": "ENG 112, 114, or 116",
     "courses": [
@@ -2771,6 +2756,20 @@
   },
   "ENG 221H": {
     "text": "ENG 112, 114, or 116",
+    "courses": [
+      "ENG 112"
+    ],
+    "source": "gcc"
+  },
+  "ENG 228": {
+    "text": "ENG 112, 114, or 116",
+    "courses": [
+      "ENG 112"
+    ],
+    "source": "gcc"
+  },
+  "ENG 229": {
+    "text": "ENG 112, 114, or 116.",
     "courses": [
       "ENG 112"
     ],
@@ -2815,6 +2814,15 @@
     "text": "ENG 112, 114, or 116",
     "courses": [
       "ENG 112"
+    ],
+    "source": "gcc"
+  },
+  "ENG 256": {
+    "text": "ENG 112, ENG 114, or ENG 116",
+    "courses": [
+      "ENG 112",
+      "ENG 114",
+      "ENG 116"
     ],
     "source": "gcc"
   },
@@ -4923,6 +4931,11 @@
     ],
     "source": "gcc"
   },
+  "MUS 138": {
+    "text": "LCMS or MRP majors only or permission of instructor",
+    "courses": [],
+    "source": "gcc"
+  },
   "MUS 139": {
     "text": "Permission of instructor or Program Coordinator; basic instrumental or vocal proficiency; the ability to read and play chord changes",
     "courses": [],
@@ -5085,6 +5098,26 @@
     ],
     "source": "middlesex"
   },
+  "NUR 101A": {
+    "text": "Either ENG 101, or concurrent enrollment in ENG 101. Either a grade of C+ or better in BIO 215 within the last 5 years, or concurrent enrollment in BIO 215, or a grade of B or better in BIO 194 within the last 5 years. Either a grade of C or better in PSY 101 or concurrent enrollment in PSY 101. This course is limited to AD Nursing majors only.",
+    "courses": [
+      "BIO 194",
+      "BIO 215",
+      "ENG 101",
+      "PSY 101"
+    ],
+    "source": "gcc"
+  },
+  "NUR 101C": {
+    "text": "Either ENG 101 or concurrent enrollment in ENG 101. Either a grade of C+ or better in BIO 215 within the last 5 years, or concurrent enrollment in BIO 215, or a grade of B or better in BIO 194within the last 5 years. Either a grade of C or better in PSY 101 or concurrent enrollment in PSY 101.Concurrent enrollment in NUR 101A. This course is limited to AD Nursing majors only.",
+    "courses": [
+      "BIO 215",
+      "ENG 101",
+      "NUR 101A",
+      "PSY 101"
+    ],
+    "source": "gcc"
+  },
   "NUR 103A": {
     "text": "ENG 101 with a C or better.  HUD 138 or MAT 095 equivalent or a higher level math course with a C+ grade or better within the last seven (7) years of program start date.  Concurrent enrollment in either BIO 194 or BIO 216 or a C or better in BIO 194 taken within the last seven (7) years; or a C or better in BIO 215 and BIO 216 within the last seven (7) years.  Concurrent enrollment in PSY 101 or a C or better in PSY 101 within the last seven (7) years.  This course is limited to Practical Nursing majors only.",
     "courses": [
@@ -5133,6 +5166,19 @@
     ],
     "source": "gcc"
   },
+  "NUR 105C": {
+    "text": "NUR 103A with a grade of C or better and successful completion of NUR 103C; BIO 194 or BIO 215 and BIO 216 with a C or better within the last seven (7) years; PSY 101 with a C or better within the last seven (7) years. This course is limited to Practical Nursing majors only.Recomm: PSY 217 with a C or better",
+    "courses": [
+      "BIO 194",
+      "BIO 215",
+      "BIO 216",
+      "NUR 103A",
+      "NUR 103C",
+      "PSY 101",
+      "PSY 217"
+    ],
+    "source": "gcc"
+  },
   "NUR 106A": {
     "text": "Either components of NUR 101, namely, NUR 101A (with a grade of C+ or better) and NUR 101C, or the single course NUR 111, or concurrent enrollment in NUR 111; Either a grade of C+ or better in BIO 216 within the last 5 years or concurrent enrollment in BIO 216; Either a grade of C or better in SOC 101 or concurrent enrollment in SOC 101;Either a grade of C or better in PSY 217 or concurrent enrollment in PSY 217. This course is limited to AD Nursing majors only.",
     "courses": [
@@ -5140,22 +5186,6 @@
       "NUR 101",
       "NUR 101A",
       "NUR 101C",
-      "NUR 111",
-      "PSY 217",
-      "SOC 101"
-    ],
-    "source": "gcc"
-  },
-  "NUR 106C": {
-    "text": "Either both components of NUR 101, namely, NUR 101A(with a grade of C+ or better) and NUR 101C, or the singlecourse NUR 111, or concurrent enrollment in NUR 111; Eithera grade of C+ or better in BIO 216 within the last 5 yearsor concurrent enrollment in BIO 216; Either a grade of C orbetter in SOC 101 or concurrent enrollment in SOC 101;Either a grade of C or better in PSY 217 or concurrentenrollment in PSY 217. Concurrent enrollment in NUR 106A.This course is limited to AD Nursing majors only.Recomm: Concurrent enrollment in NUR 108A and NUR 108C",
-    "courses": [
-      "BIO 216",
-      "NUR 101",
-      "NUR 101A",
-      "NUR 101C",
-      "NUR 106A",
-      "NUR 108A",
-      "NUR 108C",
       "NUR 111",
       "PSY 217",
       "SOC 101"
@@ -5206,23 +5236,6 @@
       "NUR 111",
       "PSY 217",
       "SOC 101"
-    ],
-    "source": "gcc"
-  },
-  "NUR 109A": {
-    "text": "NUR 107A with a C or better and successful completion of NUR 107C.  This course is limited to Practical Nursing majors only.",
-    "courses": [
-      "NUR 107A",
-      "NUR 107C"
-    ],
-    "source": "gcc"
-  },
-  "NUR 109C": {
-    "text": "NUR 107A with a C or better and successful completion of NUR 107C.  Concurrent enrollment in NUR 109A.  This course is limited to Practical Nursing majors only.",
-    "courses": [
-      "NUR 107A",
-      "NUR 107C",
-      "NUR 109A"
     ],
     "source": "gcc"
   },
@@ -5311,20 +5324,6 @@
     ],
     "source": "middlesex"
   },
-  "NUR 201A": {
-    "text": "NUR 106A (NUR 106) with a grade of C+ or better and successful completion of NUR 106C. NUR 108A (NUR 108) with a grade of C+ or better and successful completion of NUR108C. For students entering the ADN bridge program: NUR 112(which substitutes for the NUR 106 and NUR 108 requirement).For all students: either a grade of C+ or better in BIO 205or concurrent enrollment in BIO 205. This course is limited to AD Nursing majors only.",
-    "courses": [
-      "BIO 205",
-      "NUR 106",
-      "NUR 106A",
-      "NUR 106C",
-      "NUR 108",
-      "NUR 108A",
-      "NUR 108C",
-      "NUR 112"
-    ],
-    "source": "gcc"
-  },
   "NUR 201C": {
     "text": "NUR 106A (NUR 106) with a grade of C+ or better andsuccessful completion of NUR 106C. NUR 108A (NUR 108)  witha grade of C+ or better and successful completion of NUR108C. For students entering the ADN bridge program: NUR 112(which substitutes for the NUR 106 and NUR 108 requirement).For all students: either a grade of C+ or better in BIO 205or concurrent enrollment in BIO 205. Concurrent enrollmentin NUR 201A. This course is limited to AD Nursing majorsonly.Recomm: Concurrent enrollment in NUR 203A and NUR 203C",
     "courses": [
@@ -5337,6 +5336,21 @@
       "NUR 108C",
       "NUR 112",
       "NUR 201A",
+      "NUR 203A",
+      "NUR 203C"
+    ],
+    "source": "gcc"
+  },
+  "NUR 202A": {
+    "text": "NUR 201A (NUR 201) with a grade of C+ or better and successful completion of NUR 201C. NUR 203A (NUR 203) with a grade of C+ or better and successful completion of NUR203C.Either a grade of C or better in one of the following: ENG 112, ENG114, ENG 116 or concurrent enrollment in ENG 112, ENG114, ENG 116; Either a grade of C or better in one 3-4credit course from the list of Humanities and Fine Arts General Education electives or concurrent enrollment in one 3-4 credit course from the list of Humanities and Fine Arts General Education electives .This course is limited to AD Nursing majors only.",
+    "courses": [
+      "ENG 112",
+      "ENG 114",
+      "ENG 116",
+      "NUR 201",
+      "NUR 201A",
+      "NUR 201C",
+      "NUR 203",
       "NUR 203A",
       "NUR 203C"
     ],
@@ -5366,6 +5380,22 @@
       "PSY 124"
     ],
     "source": "middlesex"
+  },
+  "NUR 203C": {
+    "text": "NUR 106A (NUR 106) with a grade of C+ or better andsuccessful completion of NUR 106C. NUR 108A (NUR 108) with agrade of C+ or better and successful completion of NUR 108C.For students entering the ADN bridge program: NUR 112 (whichsubstitutes for the NUR 106 and NUR 108 requirement). Forall students: either a grade of C+ or better in BIO 205 orconcurrent enrollment in BIO 205. Concurrent enrollment inNUR 203A. This course is limited to AD Nursing majors only.Recomm: Concurrent enrollment in NUR 201A and NUR 201C.",
+    "courses": [
+      "BIO 205",
+      "NUR 106",
+      "NUR 106A",
+      "NUR 106C",
+      "NUR 108",
+      "NUR 108A",
+      "NUR 108C",
+      "NUR 112",
+      "NUR 201A",
+      "NUR 201C"
+    ],
+    "source": "gcc"
   },
   "NUR 204": {
     "text": "Completion of NUR 110 and NUR 111, all with a C or better. Concurrent enrollment in or completion of PSY 124",
@@ -6049,6 +6079,15 @@
     ],
     "source": "gcc"
   },
+  "PSY 210": {
+    "text": "ENG 112, 114 or 116; PSY 101. Recomm: MAT 120",
+    "courses": [
+      "ENG 112",
+      "MAT 120",
+      "PSY 101"
+    ],
+    "source": "gcc"
+  },
   "PSY 212": {
     "text": "PSY 101; PSY 210 or MAT 114 or permission of Social Sciences department chair",
     "courses": [
@@ -6068,14 +6107,7 @@
     ],
     "source": "gcc"
   },
-  "PSY 215": {
-    "text": "PSY 101",
-    "courses": [
-      "PSY 101"
-    ],
-    "source": "gcc"
-  },
-  "PSY 217D": {
+  "PSY 217": {
     "text": "PSY 101 or permission of instructor",
     "courses": [
       "PSY 101"
@@ -6279,35 +6311,6 @@
       "ENG 101"
     ],
     "source": "middlesex"
-  },
-  "SCI 137": {
-    "text": "ENG 090 and ENG 094, or satisfactory placement.Recomm: Any of the following: BIO 102, BIO 124, SCI 138, any course coded AGR.",
-    "courses": [
-      "BIO 102",
-      "BIO 124",
-      "ENG 090",
-      "ENG 094",
-      "SCI 138"
-    ],
-    "source": "gcc"
-  },
-  "SCI 138": {
-    "text": "ENG 090 and ENG 094, or satisfactory placement.",
-    "courses": [
-      "ENG 090",
-      "ENG 094"
-    ],
-    "source": "gcc"
-  },
-  "SCI 138H": {
-    "text": "MAT 090 or MAT 090S, ENG 090, ENG 094,satisfactory placement",
-    "courses": [
-      "ENG 090",
-      "ENG 094",
-      "MAT 090",
-      "MAT 090S"
-    ],
-    "source": "gcc"
   },
   "SCI 201": {
     "text": "Eligible for MAT 080, Math Module 70 or 80; a college lab science with a C or better; and permission of the course instructor",
@@ -6885,6 +6888,27 @@
     ],
     "source": "middlesex"
   },
+  "TSW 027": {
+    "text": "Experience with CAD or permission of instructor (call 413-775-1606). Course cost: $425 TSW 027-7: (Location: Smith Vocational High School) M, 6:00-9:00 p.m., 1/31-4/11(no class 2/21), 10 wks.",
+    "courses": [],
+    "source": "gcc"
+  },
+  "gcc:EDU 101": {
+    "text": "ENG 090 and ENG 094, or satisfactory placement",
+    "courses": [
+      "ENG 090",
+      "ENG 094"
+    ],
+    "source": "gcc"
+  },
+  "gcc:ENG 101": {
+    "text": "ENG 090 and ENG 094, or satisfactory placement",
+    "courses": [
+      "ENG 090",
+      "ENG 094"
+    ],
+    "source": "gcc"
+  },
   "middlesex:ART 123": {
     "text": "Completion of ART 121",
     "courses": [
@@ -6982,14 +7006,6 @@
   "middlesex:CRJ 121": {
     "text": "Eligible for ENG 101",
     "courses": [
-      "ENG 101"
-    ],
-    "source": "middlesex"
-  },
-  "middlesex:CRJ 131": {
-    "text": "Completion of ENG 101 and CRJ 112",
-    "courses": [
-      "CRJ 112",
       "ENG 101"
     ],
     "source": "middlesex"
