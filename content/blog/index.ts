@@ -1208,6 +1208,35 @@ export const articles: ArticleMeta[] = [
     cluster: "session-timing-guide",
     clusterRole: "spoke",
   },
+  // Cluster C spokes (session-timing): GA, FL
+  {
+    slug: "georgia-technical-college-session-timing-guide",
+    title:
+      "Georgia TCSG Session Timing: Central Georgia Tech's 195 Start Dates and What Session Diversity Means for Technical College Students",
+    description:
+      "Central Georgia Technical College has 195 distinct start dates across all terms — the highest session diversity of any college we've indexed, nearly 2.7x Virginia's most flexible VCCS campus. Here's how TCSG's workforce-first calendar works and how to find sections that fit your schedule.",
+    date: "2026-05-10",
+    category: "session-timing",
+    state: "ga",
+    author: "Community College Path",
+    tags: ["sessions", "session-timing", "georgia", "tcsg", "8-week", "workforce", "technical-college"],
+    cluster: "session-timing-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "florida-community-college-session-timing-guide",
+    title:
+      "Florida College System Session Timing: South Florida State's 111 Start Dates vs. Valencia's 4",
+    description:
+      "South Florida State College runs 111 distinct start dates; Valencia College runs 4 — but with 5,672 sections. How Florida's FCS colleges divide between rolling-start flexibility and high-density conventional semesters, and what that means for your scheduling strategy.",
+    date: "2026-05-10",
+    category: "session-timing",
+    state: "fl",
+    author: "Community College Path",
+    tags: ["sessions", "session-timing", "florida", "fcs", "8-week", "mini-mester", "summer"],
+    cluster: "session-timing-guide",
+    clusterRole: "spoke",
+  },
 
   // Cluster E spokes (audit-at-college): BRCC, Brightpoint, Camp, CVCC, DCC
   {
