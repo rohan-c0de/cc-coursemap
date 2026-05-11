@@ -112,30 +112,61 @@ export interface ScrapeStateResult {
  * stays in sync with how the rest of the site stores terms.
  */
 export function jenzabarTermLabelToCode(label: string): string | null {
-  const m = label.trim().match(/^(Spring|Summer|Fall|Winter)\s+(\d{4})$/i);
-  if (!m) return null;
-  const season = m[1].toLowerCase();
-  const year = m[2];
-  const suffix =
-    season === "spring"
-      ? "SP"
-      : season === "summer"
-        ? "SU"
-        : season === "fall"
-          ? "FA"
-          : "WI";
-  return `${year}${suffix}`;
+  const clean = label.trim();
+  // Standard variant: "Spring 2026", "Fall 2026", etc.
+  const std = clean.match(/^(Spring|Summer|Fall|Winter)\s+(\d{4})$/i);
+  if (std) {
+    return `${std[2]}${seasonSuffix(std[1])}`;
+  }
+  // AddDrop variant: "2025-2026 - Winter - Winter Full Semester",
+  //                  "2026-2027 - Fall - Fall Full Semester", etc.
+  // The academic year YYYY-(YYYY+1) maps:
+  //   Fall    → calendar year = first year
+  //   Winter/Spring/Summer → calendar year = first year + 1
+  // We ignore sub-term qualifiers (Full Semester, 8 week, Concurrent) for
+  // the output code. Sub-terms write to the same JSON file; downstream
+  // dedup is by CRN. Skipping sub-term labels that would collide.
+  const ad = clean.match(/^(\d{4})-(\d{4})\s+-\s+(Spring|Summer|Fall|Winter)(?:\s+-\s+.+)?$/i);
+  if (ad) {
+    const firstYear = parseInt(ad[1], 10);
+    const season = ad[3].toLowerCase();
+    const year = season === "fall" ? firstYear : firstYear + 1;
+    return `${year}${seasonSuffix(ad[3])}`;
+  }
+  return null;
 }
 
-/** "ACCT-115--01" → { prefix: "ACCT", number: "115", section: "01" }. */
+function seasonSuffix(season: string): string {
+  const s = season.toLowerCase();
+  if (s === "spring") return "SP";
+  if (s === "summer") return "SU";
+  if (s === "fall") return "FA";
+  return "WI";
+}
+
+/**
+ * Parse a Jenzabar course code into prefix/number/section. Two formats
+ * are in the wild:
+ *   "ACCT-115--01"  (standard Student_Registration portlet)
+ *   "ACC 211 A"     (AddDrop_Courses portlet; modifiers like "HY" may
+ *                    appear between the number and section letter)
+ */
 export function parseCourseCode(
   code: string,
 ): { prefix: string; number: string; section: string } | null {
-  // Jenzabar's standard format is PREFIX-NUMBER--SECTION (double dash).
-  // Some installs use PREFIX-NUMBER-SECTION (single dash). Accept both.
-  const m = code.trim().match(/^([A-Z]{2,5})-([A-Z0-9]+)-{1,2}([A-Z0-9]+)$/);
-  if (!m) return null;
-  return { prefix: m[1], number: m[2], section: m[3] };
+  const clean = code.trim();
+  // Dashed: "ACCT-115--01" or "ACCT-115-01"
+  const dashed = clean.match(/^([A-Z]{2,5})-([A-Z0-9]+)-{1,2}([A-Z0-9 ]+)$/);
+  if (dashed) {
+    return { prefix: dashed[1], number: dashed[2], section: dashed[3].trim() };
+  }
+  // Spaced: "ACC 211 A" or "ACC 211 HY A". Everything after the second
+  // whitespace-separated token is the section designator.
+  const spaced = clean.match(/^([A-Z]{2,5})\s+([A-Z0-9]+)\s+(.+)$/);
+  if (spaced) {
+    return { prefix: spaced[1], number: spaced[2], section: spaced[3].trim() };
+  }
+  return null;
 }
 
 /** "10/24" → { open: 10, total: 24 }. Returns nulls if unparseable. */
@@ -184,13 +215,16 @@ export function parseSchedule(text: string): {
   let end_time = "";
   if (dateRange) {
     const before = clean.slice(0, dateRange.index ?? 0).trim();
+    // Handle both "8:00-9:55 AM" (one trailing meridian, standard format)
+    // and "8:00 AM-9:55 AM" (meridian on each side, AddDrop format).
     const timeMatch = before.match(
-      /(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})\s*(AM|PM|am|pm)?/,
+      /(\d{1,2}:\d{2})\s*(AM|PM|am|pm)?\s*-\s*(\d{1,2}:\d{2})\s*(AM|PM|am|pm)?/,
     );
     if (timeMatch) {
-      const meridian = (timeMatch[3] ?? "").toUpperCase();
-      start_time = meridian ? `${timeMatch[1]} ${meridian}` : timeMatch[1];
-      end_time = meridian ? `${timeMatch[2]} ${meridian}` : timeMatch[2];
+      const startMeridian = (timeMatch[2] ?? timeMatch[4] ?? "").toUpperCase();
+      const endMeridian = (timeMatch[4] ?? timeMatch[2] ?? "").toUpperCase();
+      start_time = startMeridian ? `${timeMatch[1]} ${startMeridian}` : timeMatch[1];
+      end_time = endMeridian ? `${timeMatch[3]} ${endMeridian}` : timeMatch[3];
       days = before.slice(0, timeMatch.index ?? 0).trim();
     } else {
       // Online-only / async — no day/time, just date range.
@@ -198,19 +232,46 @@ export function parseSchedule(text: string): {
     }
   }
 
-  // Everything after the date range is location info ending in "- CODE".
+  // Location parsing. Two layouts in the wild:
+  //  Standard:  "<days> <time> <date range> <campus> - <room-code>"
+  //             — location info trails the date range, ends in " - CODE"
+  //  AddDrop:   "<days> <time>; <campus>, <room> <date range>"
+  //             — location info is between time and date range, joined
+  //               to time by "; "
   let location = "";
   let campus = "";
   if (dateRange) {
     const afterIdx = (dateRange.index ?? 0) + dateRange[0].length;
     const after = clean.slice(afterIdx).trim();
-    // Last "- XYZ" token is the room/building code.
-    const dashSplit = after.lastIndexOf(" - ");
-    if (dashSplit > -1) {
-      location = after.slice(dashSplit + 3).trim();
-      campus = after.slice(0, dashSplit).trim();
-    } else {
-      campus = after;
+    const before = clean.slice(0, dateRange.index ?? 0);
+
+    // First try the AddDrop "; campus, location" layout in the before-portion.
+    const semiIdx = before.indexOf(";");
+    if (semiIdx > -1) {
+      const locInfo = before
+        .slice(semiIdx + 1)
+        .replace(/\s+/g, " ")
+        .trim();
+      // "Petoskey, Borra Learning Center, Room 142" — last comma piece is
+      // room/location, earlier pieces form campus name.
+      const commaIdx = locInfo.lastIndexOf(",");
+      if (commaIdx > -1) {
+        location = locInfo.slice(commaIdx + 1).trim();
+        campus = locInfo.slice(0, commaIdx).trim();
+      } else {
+        campus = locInfo;
+      }
+    }
+
+    // Then the standard "<campus> - <code>" trailing layout.
+    if (!campus && !location && after) {
+      const dashSplit = after.lastIndexOf(" - ");
+      if (dashSplit > -1) {
+        location = after.slice(dashSplit + 3).trim();
+        campus = after.slice(0, dashSplit).trim();
+      } else {
+        campus = after;
+      }
     }
   }
 
@@ -244,9 +305,45 @@ interface RawJenzabarRow {
   status: string;
   schedule: string;
   credits: string;
+  /** AddDrop variant only — start date in MM/DD/YYYY. */
+  startDate?: string;
+  /** AddDrop variant only — end date in MM/DD/YYYY (unused downstream). */
+  endDate?: string;
 }
 
-async function clickSearchCourses(page: Page): Promise<void> {
+/**
+ * Two variants of the Jenzabar JICS course search are deployed:
+ *   "standard"  — Student_Registration portlet, #stuRegTermSelect dropdown,
+ *                 footable.js result table (#CourseSearchResultsTable).
+ *                 e.g. Montcalm Community College.
+ *   "adddrop"   — AddDrop_Courses portlet, #pg0_V_ddlTerm dropdown,
+ *                 ASP.NET DataGrid result table (#pg0_V_dgCourses) with
+ *                 alternating subItem textbook sub-rows, __doPostBack
+ *                 pagination.
+ *                 e.g. North Central Michigan College.
+ *
+ * The two share term-code parsing (jenzabarTermLabelToCode handles both
+ * label formats) and the high-level orchestration; the rest is variant-
+ * specific.
+ */
+export type JenzabarVariant = "standard" | "adddrop";
+
+async function detectVariant(page: Page): Promise<JenzabarVariant | null> {
+  const standard = await page.$("#stuRegTermSelect");
+  if (standard) return "standard";
+  const adddrop = await page.$("#pg0_V_ddlTerm");
+  if (adddrop) return "adddrop";
+  return null;
+}
+
+async function clickSearchCourses(
+  page: Page,
+  variant: JenzabarVariant,
+): Promise<void> {
+  if (variant === "adddrop") {
+    await page.click("#pg0_V_btnSearch");
+    return;
+  }
   await page.evaluate(() => {
     const candidates = Array.from(
       document.querySelectorAll("button, input"),
@@ -261,7 +358,106 @@ async function clickSearchCourses(page: Page): Promise<void> {
   });
 }
 
-async function getRows(page: Page): Promise<RawJenzabarRow[]> {
+async function getRows(
+  page: Page,
+  variant: JenzabarVariant,
+): Promise<RawJenzabarRow[]> {
+  if (variant === "adddrop") {
+    return getRowsAddDrop(page);
+  }
+  return getRowsStandard(page);
+}
+
+/**
+ * AddDrop result rows alternate: data row (no subItem class) followed by
+ * a hidden textbook row (.subItem). Columns:
+ *   0: spacer (1%)
+ *   1: +/- expand image
+ *   2: <a> course code link (e.g. "ACC 211 A", "ACC 211 HY A")
+ *   3: Title
+ *   4: Instructor (inside <span class="ju-word-wrap">)
+ *   5: Seats ("14/24")
+ *   6: Status ("Open"/"Closed"/etc)
+ *   7: Schedule (<ul><li>days time; campus, location</li>...</ul>)
+ *   8: Credits ("4.00")
+ *   9: Start date
+ *   10: End date
+ *   11: Hours
+ *
+ * The CRN-equivalent isn't exposed in this view; we synthesize one from
+ * the postback link's section index in lieu of a real CRN.
+ */
+async function getRowsAddDrop(page: Page): Promise<RawJenzabarRow[]> {
+  return page.$$eval(
+    "#pg0_V_dgCourses > tbody > tr, #pg0_V_dgCourses > tr",
+    (trs) =>
+      trs
+        .map((tr) => {
+          // Skip textbook subItems and header rows.
+          if (tr.classList.contains("subItem")) return null;
+          const ths = tr.querySelectorAll("th");
+          if (ths.length > 0) return null;
+          const tds = Array.from(tr.querySelectorAll(":scope > td"));
+          if (tds.length < 9) return null;
+          const link = tds[2]?.querySelector("a");
+          if (!link) return null;
+          const code = (link.textContent || "").replace(/\s+/g, " ").trim();
+          if (!code) return null;
+          // Inline cell extraction — see standard variant for why.
+          const cells: (Element | undefined | null)[] = [
+            link,
+            tds[3],
+            tds[4],
+            tds[5],
+            tds[6],
+            tds[7],
+            tds[8],
+            tds[9],
+            tds[10],
+          ];
+          const texts: string[] = [];
+          for (let ci = 0; ci < cells.length; ci++) {
+            const el = cells[ci];
+            if (!el) {
+              texts.push("");
+              continue;
+            }
+            const clone = el.cloneNode(true) as Element;
+            const labels = clone.querySelectorAll(".sr-only");
+            for (let li = 0; li < labels.length; li++) labels[li].remove();
+            texts.push(
+              (clone.textContent || "").replace(/\s+/g, " ").trim(),
+            );
+          }
+          const [t0, t1, t2, t3, t4, t5, t6, t7, t8] = texts;
+          // Synthesize a stable CRN from the postback link's row index.
+          const linkId = (link as HTMLAnchorElement).id || "";
+          const idMatch = linkId.match(/row(\d+)_lnkCourse/);
+          const sectionId = idMatch ? `nc-row-${idMatch[1]}` : "";
+          // Embed start/end dates in the schedule string so the existing
+          // parseSchedule()-style logic can pick them up; we override with
+          // the explicit columns below in the section assembly step.
+          const sched = `${t5} ${t7} - ${t8}`.trim();
+          return {
+            yearterm: "",
+            sectionId,
+            advisingCode: "",
+            courseCode: code,
+            title: t1,
+            faculty: t2,
+            seats: t3,
+            status: t4,
+            schedule: sched,
+            credits: t6,
+            startDate: t7,
+            endDate: t8,
+          } as RawJenzabarRow;
+        })
+        .filter((r): r is RawJenzabarRow => r !== null),
+  );
+}
+
+async function getRowsStandard(page: Page): Promise<RawJenzabarRow[]> {
   return page.$$eval(
     "#CourseSearchResultsTable tbody tr, #CourseSearchResultsTable tr",
     (trs) =>
@@ -322,7 +518,31 @@ async function getRows(page: Page): Promise<RawJenzabarRow[]> {
   );
 }
 
-async function clickNextPage(page: Page): Promise<boolean> {
+async function clickNextPage(
+  page: Page,
+  variant: JenzabarVariant,
+): Promise<boolean> {
+  if (variant === "adddrop") {
+    return page.evaluate(() => {
+      // AddDrop pagination is an ASP.NET postback link rendered by the
+      // `ltrNav` literal. The link's href is javascript:__doPostBack(...);
+      // clicking the <a> directly is enough — ASP.NET wires the rest.
+      const links = Array.from(document.querySelectorAll("a"));
+      for (const a of links) {
+        const txt = (a.textContent || "").trim();
+        const href = (a as HTMLAnchorElement).getAttribute("href") || "";
+        if (
+          /Next\s*page/i.test(txt) &&
+          /ltrNav/.test(href) &&
+          !a.classList.contains("aspNetDisabled")
+        ) {
+          (a as HTMLElement).click();
+          return true;
+        }
+      }
+      return false;
+    });
+  }
   return page.evaluate(() => {
     // footable.js binds clicks on the inner <a class="footable-page-link">.
     // Clicking the <li> directly does nothing; clicking the <a> triggers
@@ -341,18 +561,32 @@ async function clickNextPage(page: Page): Promise<boolean> {
 
 async function harvestTerms(
   page: Page,
+  variant: JenzabarVariant,
 ): Promise<{ value: string; label: string; code: string }[]> {
-  const opts = await page.$$eval("#stuRegTermSelect option", (os) =>
+  const selector =
+    variant === "adddrop"
+      ? "#pg0_V_ddlTerm option"
+      : "#stuRegTermSelect option";
+  const opts = await page.$$eval(selector, (os) =>
     os.map((o) => ({
       value: (o as HTMLOptionElement).value,
       label: o.textContent?.trim() ?? "",
     })),
   );
-  return opts
-    .map((o) => ({ ...o, code: jenzabarTermLabelToCode(o.label) }))
-    .filter(
-      (o): o is { value: string; label: string; code: string } => o.code !== null,
-    );
+  // De-dup by output term code: AddDrop sometimes lists both
+  // "2026-2027 - Fall" and "2026-2027 - Fall - Fall Full Semester" which
+  // map to the same 2026FA code. Keep the longest/most-specific label so
+  // we run the search against the more concrete sub-term.
+  const byCode = new Map<string, { value: string; label: string; code: string }>();
+  for (const o of opts) {
+    const code = jenzabarTermLabelToCode(o.label);
+    if (!code) continue;
+    const existing = byCode.get(code);
+    if (!existing || o.label.length > existing.label.length) {
+      byCode.set(code, { value: o.value, label: o.label, code });
+    }
+  }
+  return Array.from(byCode.values());
 }
 
 function rowsToSections(
@@ -367,6 +601,12 @@ function rowsToSections(
     const seats = parseSeats(r.seats);
     const sched = parseSchedule(r.schedule);
     const credits = parseFloat(r.credits) || 0;
+    // AddDrop exposes the section start/end dates in dedicated columns,
+    // so prefer those over what parseSchedule extracted from the cell
+    // text (which can drift when the cell omits a date range).
+    const startDate = r.startDate
+      ? normalizeDate(r.startDate)
+      : sched.start_date;
     out.push({
       college_code: collegeSlug,
       term: termCode,
@@ -378,7 +618,7 @@ function rowsToSections(
       days: sched.days,
       start_time: sched.start_time,
       end_time: sched.end_time,
-      start_date: sched.start_date,
+      start_date: startDate,
       location: sched.location,
       campus: sched.campus,
       mode: sched.mode,
@@ -422,17 +662,18 @@ export async function scrapeJenzabarCollege(
     });
     await page.waitForTimeout(2000);
 
-    // Check we can see the term dropdown — if not, this college isn't a
-    // straight-Jenzabar JICS course-search page (auth-gated, wrong URL,
-    // etc.). Bail without writing anything.
-    const hasTermSelect = await page.$("#stuRegTermSelect");
-    if (!hasTermSelect) {
-      result.errors.push("stuRegTermSelect not found — wrong URL or auth-gated");
+    // Detect which Jenzabar variant this college runs.
+    const variant = await detectVariant(page);
+    if (!variant) {
+      result.errors.push(
+        "no Jenzabar term dropdown found (#stuRegTermSelect or #pg0_V_ddlTerm) — wrong URL or auth-gated",
+      );
       log(`  skip: term dropdown not found`);
       return result;
     }
+    log(`  variant: ${variant}`);
 
-    const terms = await harvestTerms(page);
+    const terms = await harvestTerms(page, variant);
     if (terms.length === 0) {
       result.errors.push("no terms discovered");
       log(`  skip: no terms discovered`);
@@ -440,22 +681,48 @@ export async function scrapeJenzabarCollege(
     }
     log(`  ${terms.length} term(s): ${terms.map((t) => t.label).join(", ")}`);
 
+    const termSelector =
+      variant === "adddrop" ? "#pg0_V_ddlTerm" : "#stuRegTermSelect";
+    const tableSelector =
+      variant === "adddrop"
+        ? "#pg0_V_dgCourses"
+        : "#CourseSearchResultsTable";
+
     for (const term of terms) {
       try {
-        await page.selectOption("#stuRegTermSelect", term.value);
-        await page.waitForTimeout(500);
-        await clickSearchCourses(page);
+        await page.selectOption(termSelector, term.value);
+        await page.waitForTimeout(800);
+        // Record the current first-row identifier so we can wait for the
+        // search results to actually swap after clicking Search. Without
+        // this, a search click that fires before the table fully rebuilds
+        // can return stale page-1 rows from the previous term.
+        const beforeFirst = await page
+          .$$eval(
+            tableSelector + " tbody tr a, " + tableSelector + " tr a",
+            (els) =>
+              (els[0]?.textContent || "").replace(/\s+/g, " ").trim() ||
+              (els[0]?.getAttribute("data-sectionid") ?? ""),
+          )
+          .catch(() => "");
+        await clickSearchCourses(page, variant);
 
-        // Wait for results to render — at least one populated <td> or a
-        // "no rows" placeholder. We poll for up to 20s.
+        // Wait for results to render — at least one populated row, and
+        // ideally one whose link is different from the previous term's.
         await page
           .waitForFunction(
-            () => {
-              const tbl = document.querySelector("#CourseSearchResultsTable");
+            (params: { sel: string; prev: string }) => {
+              const tbl = document.querySelector(params.sel);
               if (!tbl) return false;
-              const rows = tbl.querySelectorAll("tbody tr");
-              return rows.length > 0;
+              const links = tbl.querySelectorAll("tbody tr a, tr a");
+              if (links.length === 0) return false;
+              const first = (links[0].textContent || "")
+                .replace(/\s+/g, " ")
+                .trim();
+              const firstId = links[0].getAttribute("data-sectionid") || "";
+              if (!params.prev) return links.length > 1;
+              return first !== params.prev && firstId !== params.prev;
             },
+            { sel: tableSelector, prev: beforeFirst },
             { timeout: 20_000 },
           )
           .catch(() => {
@@ -467,36 +734,59 @@ export async function scrapeJenzabarCollege(
         const seen = new Set<string>();
         const MAX_PAGES = 500;
         for (let i = 0; i < MAX_PAGES; i++) {
-          const pageRows = await getRows(page);
+          const pageRows = await getRows(page, variant);
           let added = 0;
           for (const r of pageRows) {
-            const key = `${r.yearterm}|${r.sectionId}|${r.courseCode}`;
-            if (seen.has(key)) continue;
-            seen.add(key);
+            // For AddDrop synthesized IDs (nc-row-N), the row indices reset
+            // across pagination postbacks — use the course code + section
+            // designator as a more stable dedup key.
+            const dedupKey =
+              variant === "adddrop"
+                ? `${term.code}|${r.courseCode}`
+                : `${r.yearterm}|${r.sectionId}|${r.courseCode}`;
+            if (seen.has(dedupKey)) continue;
+            seen.add(dedupKey);
             all.push(r);
             added++;
           }
           if (added === 0 && i > 0) break;
-          // Record the first row's section ID, then click next and wait
-          // for the row set to change (server-side pagination XHR).
           const firstSectionId = pageRows[0]?.sectionId ?? "";
-          const advanced = await clickNextPage(page);
+          const firstCourseCode = pageRows[0]?.courseCode ?? "";
+          const advanced = await clickNextPage(page, variant);
           if (!advanced) break;
           await page
             .waitForFunction(
-              (prev: string) => {
-                const tbl = document.querySelector("#CourseSearchResultsTable");
+              (params: { sel: string; v: string; prevId: string; prevCode: string }) => {
+                const tbl = document.querySelector(params.sel);
                 if (!tbl) return false;
+                if (params.v === "adddrop") {
+                  const firstLink = tbl.querySelector(
+                    ":scope > tbody > tr > td a, :scope > tr > td a",
+                  ) as HTMLAnchorElement | null;
+                  if (!firstLink) return false;
+                  return (
+                    (firstLink.textContent || "").replace(/\s+/g, " ").trim() !==
+                    params.prevCode
+                  );
+                }
                 const firstLink = tbl.querySelector(
                   "tbody tr a[data-yearterm]",
                 ) as HTMLAnchorElement | null;
                 if (!firstLink) return false;
-                return firstLink.getAttribute("data-sectionid") !== prev;
+                return firstLink.getAttribute("data-sectionid") !== params.prevId;
               },
-              firstSectionId,
+              {
+                sel: tableSelector,
+                v: variant,
+                prevId: firstSectionId,
+                prevCode: firstCourseCode,
+              },
               { timeout: 15_000 },
             )
             .catch(() => undefined);
+          // Extra settle time after the wait — server-side postbacks
+          // sometimes return before the table is fully rebuilt.
+          await page.waitForTimeout(800);
         }
 
         const sections = rowsToSections(all, opts.slug, term.code);
