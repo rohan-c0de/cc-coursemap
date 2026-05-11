@@ -40,6 +40,28 @@ export const CATEGORIES: Record<string, string> = {
 };
 
 export const articles: ArticleMeta[] = [
+  // --- Cluster H: Course availability (hub + state spokes) ---
+  {
+    slug: "which-community-college-courses-are-hard-to-find",
+    title:
+      "Which Community College Courses Are Actually Hard to Find — And What to Do When Yours Isn't Available",
+    description:
+      "A small set of gen-ed courses run at every college in a state system. Most of the catalog concentrates at 1–3 anchor campuses. Here's how to tell which type your course is before you build your schedule around it.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: null,
+    author: "Community College Path",
+    tags: [
+      "course-availability",
+      "registration",
+      "course-search",
+      "schedule-planning",
+      "anchor-campus",
+    ],
+    cluster: "course-availability-guide",
+    clusterRole: "hub",
+  },
+
   // --- Cluster A: Transfer credit confusion (hub + spokes) ---
   {
     slug: "what-direct-match-vs-elective-credit-means",
