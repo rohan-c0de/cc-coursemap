@@ -10,6 +10,7 @@ import {
 import RelatedArticles from "@/components/blog/RelatedArticles";
 import MoreStateGuides from "@/components/blog/MoreStateGuides";
 import StateToolsCTA from "@/components/blog/StateToolsCTA";
+import BlogProgrammaticLinks from "@/components/blog/BlogProgrammaticLinks";
 import { isValidState } from "@/lib/states/registry";
 import AdUnit from "@/components/AdUnit";
 import Link from "next/link";
@@ -202,6 +203,17 @@ export default async function BlogPostPage({ params }: Props) {
 
       {/* State tools CTA at the foot — also state-only */}
       {stateForCta && <StateToolsCTA state={stateForCta} variant="bottom" />}
+
+      {/* Programmatic-route links — category-aware curation that pushes
+          blog traffic to the broader programmatic surface (per-college,
+          courses search, starting-soon, transfer lookup) and helps Google
+          discover programmatic routes that need indexing budget. */}
+      {stateForCta && (
+        <BlogProgrammaticLinks
+          state={stateForCta}
+          category={meta.category}
+        />
+      )}
 
       {/* End-of-article ad */}
       <div className="my-10">
