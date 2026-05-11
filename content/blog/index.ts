@@ -190,6 +190,28 @@ export const articles: ArticleMeta[] = [
     clusterRole: "spoke",
   },
 
+  // --- Cluster I: Course-code explainer (hub + GSC-driven spokes per issue #368) ---
+  {
+    slug: "community-college-course-codes-explained",
+    title:
+      "Community College Course Codes Explained: What BIO 101, SDV 100, and MAT 271 Actually Mean",
+    description:
+      "Course codes look the same but mean different things across states. Here's how to read the prefix, level, and suffix — and why the catalog description matters more than the code.",
+    date: "2026-05-11",
+    category: "mistake-avoidance",
+    state: null,
+    author: "Community College Path",
+    tags: [
+      "course-codes",
+      "course-catalog",
+      "registration",
+      "transfer",
+      "course-numbering",
+    ],
+    cluster: "course-explainer-guide",
+    clusterRole: "hub",
+  },
+
   // --- Cluster A: Transfer credit confusion (hub + spokes) ---
   {
     slug: "what-direct-match-vs-elective-credit-means",
