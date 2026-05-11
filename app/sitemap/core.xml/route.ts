@@ -13,7 +13,7 @@ export async function GET() {
   const url = siteOrigin();
   const now = new Date();
   const entries: SitemapEntry[] = [
-    { url, changeFrequency: "weekly", priority: 1, lastModified: now },
+    { url, changeFrequency: "daily", priority: 1, lastModified: now },
     { url: `${url}/colleges`, changeFrequency: "weekly", priority: 0.9, lastModified: now },
   ];
 
@@ -23,16 +23,16 @@ export async function GET() {
     const s = state.slug;
     entries.push(
       { url: `${url}/${s}`, changeFrequency: "weekly", priority: 1, lastModified: now },
-      { url: `${url}/${s}/courses`, changeFrequency: "weekly", priority: 0.9, lastModified: now },
+      { url: `${url}/${s}/courses`, changeFrequency: "weekly", priority: 0.85, lastModified: now },
       { url: `${url}/${s}/colleges`, changeFrequency: "weekly", priority: 0.9, lastModified: now },
       // /starting-soon is noindex (client-rendered tool page) — omit from sitemap
-      { url: `${url}/${s}/about`, changeFrequency: "monthly", priority: 0.6, lastModified: now }
+      { url: `${url}/${s}/about`, changeFrequency: "yearly", priority: 0.5, lastModified: now }
     );
     if (state.transferSupported) {
       entries.push({
         url: `${url}/${s}/transfer`,
         changeFrequency: "weekly",
-        priority: 0.85,
+        priority: 0.9,
         lastModified: now,
       });
     }

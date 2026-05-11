@@ -20,8 +20,8 @@ export async function GET() {
       const lastModified = new Date();
       return codes.map((c) => ({
         url: `${url}/${state.slug}/course/${`${c.prefix}-${c.number}`.toLowerCase()}`,
-        changeFrequency: "weekly" as const,
-        priority: 0.7,
+        changeFrequency: "monthly" as const,
+        priority: 0.5,
         lastModified,
       }));
     })

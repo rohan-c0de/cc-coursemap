@@ -19,7 +19,7 @@ export async function GET() {
       return slugs.map((slug) => ({
         url: `${url}/${state.slug}/program/${slug}`,
         changeFrequency: "weekly" as const,
-        priority: 0.75,
+        priority: 0.6,
         lastModified,
       }));
     })

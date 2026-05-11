@@ -23,8 +23,8 @@ export async function GET() {
       const lastModified = new Date();
       return instructors.map((e) => ({
         url: `${url}/${state.slug}/college/${e.collegeId}/instructor/${e.slug}`,
-        changeFrequency: "weekly" as const,
-        priority: 0.6,
+        changeFrequency: "monthly" as const,
+        priority: 0.4,
         lastModified,
       }));
     })
