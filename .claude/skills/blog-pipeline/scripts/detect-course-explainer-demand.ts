@@ -268,12 +268,28 @@ function detect(): Candidate[] {
 
   const grouped = aggregateByCode(allQueries);
 
-  // Existing spokes — skip already-drafted course codes
-  const existingSpokes = new Set(
-    articles
-      .filter((a) => a.cluster === CLUSTER && a.clusterRole === "spoke")
-      .map((a) => a.slug)
-  );
+  // Existing spokes — skip already-drafted course codes. Match by the
+  // (state, college, prefix-number) signature rather than exact slug,
+  // because the slug form chosen by the drafter may differ from what
+  // articleSlugFor() predicts (e.g. "danville-community-college" instead
+  // of "dcc"). Parse the code out of each existing slug via regex.
+  const SLUG_CODE_RE = /what-is-([a-z]{2,4})-(\d{2,4})/i;
+  const existingSignatures = new Set<string>();
+  for (const a of articles) {
+    if (a.cluster !== CLUSTER || a.clusterRole !== "spoke") continue;
+    const m = a.slug.match(SLUG_CODE_RE);
+    if (!m) continue;
+    const prefix = m[1].toUpperCase();
+    const number = m[2];
+    const state = a.state ?? "_";
+    const college = a.college ?? "_";
+    existingSignatures.add(`${state}|${college}|${prefix} ${number}`);
+  }
+  function candidateSignature(stats: CourseCodeStats): string {
+    const state = stats.matchedState ?? "_";
+    const college = stats.matchedCollege ?? "_";
+    return `${state}|${college}|${stats.code}`;
+  }
 
   mkdirSync(SLICE_OUT_DIR, { recursive: true });
 
@@ -285,7 +301,7 @@ function detect(): Candidate[] {
     if (stats.bestPosition > MAX_BEST_POSITION) continue;
 
     const targetSlug = articleSlugFor(stats);
-    if (existingSpokes.has(targetSlug)) continue;
+    if (existingSignatures.has(candidateSignature(stats))) continue;
 
     const slicePath = resolve(
       SLICE_OUT_DIR,

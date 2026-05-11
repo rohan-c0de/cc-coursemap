@@ -233,6 +233,52 @@ export const articles: ArticleMeta[] = [
     cluster: "course-explainer-guide",
     clusterRole: "spoke",
   },
+  {
+    slug: "what-is-bio-101-danville-community-college",
+    title:
+      "What Is BIO 101 (General Biology I) at Danville Community College?",
+    description:
+      "BIO 101 at DCC is 4 credits (lecture + lab), no prereqs, ~13 sections per term — and transfers as a direct match to virtually every Virginia public university. Here's what it covers, who needs it, and how the credit moves.",
+    date: "2026-05-11",
+    category: "mistake-avoidance",
+    state: "va",
+    college: "dcc",
+    author: "Community College Path",
+    tags: [
+      "course-codes",
+      "bio",
+      "biology",
+      "danville",
+      "vccs",
+      "transfer",
+      "stem",
+    ],
+    cluster: "course-explainer-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "what-is-exsc-240-frederick-community-college",
+    title:
+      "What Is EXSC 240 (Fitness Assessment and Programming) at Frederick Community College?",
+    description:
+      "EXSC 240 is a 3-credit hybrid course at Frederick CC bridging intro exercise science to applied capstone work. Prereqs: A&P I + EXSC 170. Transfers as a direct match to UMD's KNES 214 — making Frederick a deliberate pathway into UMD Kinesiology.",
+    date: "2026-05-11",
+    category: "mistake-avoidance",
+    state: "md",
+    college: "frederick",
+    author: "Community College Path",
+    tags: [
+      "course-codes",
+      "exsc",
+      "exercise-science",
+      "frederick",
+      "maryland",
+      "kinesiology",
+      "umd-transfer",
+    ],
+    cluster: "course-explainer-guide",
+    clusterRole: "spoke",
+  },
 
   // --- Cluster A: Transfer credit confusion (hub + spokes) ---
   {
