@@ -24,6 +24,8 @@ import { subjectName } from "@/lib/subjects";
 import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
+import RelatedBlogPosts from "@/components/RelatedBlogPosts";
+import { getBlogRecommendations } from "@/lib/blog-recommendations";
 import type { CourseSection } from "@/lib/types";
 
 export const revalidate = 604800; // 7 days — pSEO content rarely changes
@@ -523,6 +525,15 @@ export default async function StateSubjectPage(props: PageProps) {
         <div className="mb-10">
           <AdUnit slot="2854671930" format="auto" className="min-h-[100px]" />
         </div>
+
+        {/* Related blog posts — programmatic → editorial cross-pollination (#371) */}
+        <RelatedBlogPosts
+          articles={getBlogRecommendations({
+            state,
+            pageType: "subject",
+          })}
+          heading={`Related ${config.name} guides`}
+        />
 
         {/* Browse other subjects */}
         {allSubjects.length > 0 && (

@@ -21,6 +21,8 @@ import { subjectName } from "@/lib/subjects";
 import type { CourseSection } from "@/lib/types";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
+import RelatedBlogPosts from "@/components/RelatedBlogPosts";
+import { getBlogRecommendations } from "@/lib/blog-recommendations";
 
 export const revalidate = 604800; // 7 days — pSEO content rarely changes
 
@@ -477,6 +479,16 @@ export default async function InstructorPage(props: PageProps) {
         <div className="mb-8">
           <AdUnit slot="7261548390" format="auto" className="min-h-[100px]" />
         </div>
+
+        {/* Related blog posts — programmatic → editorial cross-pollination (#371) */}
+        <RelatedBlogPosts
+          articles={getBlogRecommendations({
+            state,
+            pageType: "instructor",
+            college: institution.college_slug,
+          })}
+          heading={`Related ${config.name} guides`}
+        />
 
         {/* Rate My Professors link */}
         <div className="mb-8 rounded-lg border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800 px-4 py-3">
