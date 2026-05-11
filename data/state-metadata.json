@@ -197,6 +197,16 @@
         "bannerDetail": "New Jersey law allows residents aged 65+ to enroll in NJ community college credit courses tuition-free on a space-available basis."
       }
     },
+    "mi": {
+      "fullName": "Michigan",
+      "fipsCode": "26",
+      "systemName": "MCCA",
+      "systemFullName": "Michigan Community College Association",
+      "systemUrl": "https://www.mcca.org/",
+      "defaultZip": "48933",
+      "defaultZipCity": "Lansing",
+      "seniorWaiver": null
+    },
     "ny": {
       "fullName": "New York",
       "fipsCode": "36",
