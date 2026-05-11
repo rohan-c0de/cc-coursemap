@@ -74,6 +74,10 @@ import {
   type ScrapeStateResult as Banner8StateResult,
 } from "./scrape-banner-8";
 import {
+  scrapeJenzabarState,
+  type ScrapeStateResult as JenzabarStateResult,
+} from "./scrape-jenzabar";
+import {
   scrapeCoursedogCatalog,
   type ScrapeCoursedogResult,
 } from "./scrape-coursedog";
@@ -125,6 +129,7 @@ export interface AddStateResult {
     bannerSsb?: SsbStateResult;
     colleague?: ColleagueStateResult;
     banner8?: Banner8StateResult;
+    jenzabar?: JenzabarStateResult;
     /** Colleges whose platform has no scraper template yet. */
     skippedPlatforms: { slug: string; platform: Platform; reason: string }[];
   };
@@ -155,6 +160,7 @@ const TEMPLATED_COURSE_PLATFORMS: Platform[] = [
   "banner-ssb-9",
   "colleague",
   "banner-8",
+  "jenzabar",
 ];
 
 /** Catalog/curriculum platforms — return course definitions + prereqs but
@@ -167,7 +173,6 @@ const CATALOG_PLATFORMS: Platform[] = ["coursedog"];
  *  "platform unrecognized" in the final report. */
 const UNTEMPLATED_COURSE_PLATFORMS: Platform[] = [
   "peoplesoft",
-  "jenzabar",
   "workday",
   "ellucian-experience",
   "webadvisor",
@@ -447,6 +452,46 @@ async function phaseCourseScraping(
     }
   }
 
+  // jenzabar
+  const jenzabarCohort = byPlatform["jenzabar"];
+  if (jenzabarCohort && jenzabarCohort.length > 0) {
+    const hosts: Record<string, string> = {};
+    for (const e of jenzabarCohort) {
+      // The Jenzabar scraper expects the full Course_Search.jnz portlet
+      // URL; the fingerprinter only puts a candidate URL in
+      // `courseSearchUrl` when it actually found one matching the
+      // course-search portlet path. If the fingerprinter only saw
+      // `/ICS/` (the bare portal root), skip this college — the
+      // scraper would fail to find the term dropdown.
+      const url = e.fingerprint.courseSearchUrl;
+      if (url && /\/ICS\/Academics\//i.test(url)) {
+        hosts[e.college.slug] = url;
+      } else {
+        todos.push(
+          `[courses/jenzabar] ${e.college.slug}: no Course_Search.jnz portlet URL detected — skipping (manual config needed)`,
+        );
+      }
+    }
+    if (Object.keys(hosts).length > 0) {
+      console.log(`  Jenzabar: ${Object.keys(hosts).length} college(s)`);
+      if (!opts.dryRun) {
+        try {
+          courses.jenzabar = await scrapeJenzabarState({
+            state,
+            hosts,
+            noImport: true,
+          });
+        } catch (e) {
+          const msg = `Jenzabar scraping failed: ${e}`;
+          console.error(`  ${msg}`);
+          todos.push(`[courses/jenzabar] ${msg}`);
+        }
+      } else {
+        console.log("  (dry-run; not running scraper)");
+      }
+    }
+  }
+
   // Untemplated platforms — record as skipped (already in `todos` from
   // fingerprint phase, but record here for the structured result too).
   // Catalog platforms are NOT skipped: they're handled by Phase 2c.
@@ -649,6 +694,7 @@ export function formatReport(r: AddStateResult): string {
   if (r.courses.bannerSsb) totalSections += r.courses.bannerSsb.grandTotal;
   if (r.courses.colleague) totalSections += r.courses.colleague.grandTotal;
   if (r.courses.banner8) totalSections += r.courses.banner8.grandTotal;
+  if (r.courses.jenzabar) totalSections += r.courses.jenzabar.grandTotal;
   lines.push(
     `Phase 2b — Course scraping: ${totalSections.toLocaleString()} sections${r.courses.skippedPlatforms.length > 0 ? `, ${r.courses.skippedPlatforms.length} colleges skipped (untemplated platforms)` : ""}`
   );
