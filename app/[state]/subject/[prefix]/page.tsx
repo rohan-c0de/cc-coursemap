@@ -12,9 +12,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { loadCoursesBySubject, getDistinctSubjects } from "@/lib/courses";
+import {
+  loadCoursesBySubject,
+  getDistinctSubjects,
+  getSitemapCourseIndex,
+} from "@/lib/courses";
 import { getCurrentTerm, termLabel } from "@/lib/terms";
-import { isValidState } from "@/lib/states/registry";
+import { getAllStates, isValidState } from "@/lib/states/registry";
 import { requireStateConfig } from "@/lib/states/route-helpers";
 import { subjectName } from "@/lib/subjects";
 import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
@@ -29,11 +33,34 @@ type PageProps = {
 };
 
 // ---------------------------------------------------------------------------
-// Static params — empty, all pages generated on-demand via ISR
+// Static params — enumerate every (state, prefix) pair with ≥5 sections in
+// the current term, matching the sitemap's threshold. `dynamicParams = false`
+// causes unlisted pairs to return HTTP 404 instead of a cached 200 soft-404.
+// See #337. Prefixes are lowercased to match the canonical URLs Google sees.
 // ---------------------------------------------------------------------------
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
-  return [];
+  const out: { state: string; prefix: string }[] = [];
+  for (const s of getAllStates()) {
+    try {
+      const term = await getCurrentTerm(s.slug);
+      const { subjectSectionCounts } = await getSitemapCourseIndex(
+        term,
+        s.slug
+      );
+      for (const [prefix, count] of subjectSectionCounts) {
+        if (count >= 5) {
+          out.push({ state: s.slug, prefix: prefix.toLowerCase() });
+        }
+      }
+    } catch {
+      // If the catalog can't be loaded for a state at build time, skip it
+      // rather than fail the whole build — the route is non-critical.
+    }
+  }
+  return out;
 }
 
 // ---------------------------------------------------------------------------
