@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import CollegeDetailClient from "./CollegeDetailClient";
 import TermSelector from "./TermSelector";
 import { termLabel } from "@/lib/term-label";
@@ -45,7 +45,7 @@ interface Props {
 }
 
 export default function CollegeTermSection({
-  coursesByTerm,
+  coursesByTerm: initialCoursesByTerm,
   termsWithData,
   defaultTerm,
   staleByTerm,
@@ -64,6 +64,24 @@ export default function CollegeTermSection({
   // popstate + run once on mount to pick up `?term=` deep links and browser
   // back/forward navigation, updating state outside the hydration path.
   const [currentTerm, setCurrentTerm] = useState(defaultTerm);
+
+  // Client-side cache: starts with the server-provided default term data;
+  // other terms are fetched on demand from /api/{state}/college/{id}/courses.
+  const [coursesByTerm, setCoursesByTerm] = useState(initialCoursesByTerm);
+  const [loadingTerm, setLoadingTerm] = useState(false);
+  const pendingFetches = useRef(new Set<string>());
+
+  useEffect(() => {
+    if (coursesByTerm[currentTerm] || pendingFetches.current.has(currentTerm)) return;
+    pendingFetches.current.add(currentTerm);
+    setLoadingTerm(true);
+    fetch(`/api/${state}/college/${id}/courses?term=${encodeURIComponent(currentTerm)}`)
+      .then((r) => r.json())
+      .then((data: { courses: CourseSection[] }) => {
+        setCoursesByTerm((prev) => ({ ...prev, [currentTerm]: data.courses }));
+      })
+      .finally(() => setLoadingTerm(false));
+  }, [currentTerm, state, id, coursesByTerm]);
 
   useEffect(() => {
     function readTermFromUrl() {
@@ -155,6 +173,14 @@ export default function CollegeTermSection({
             {`View on ${systemName} →`}
           </a>
         </div>
+
+        {/* Loading indicator while fetching a non-default term */}
+        {loadingTerm && (
+          <div className="mb-4 flex items-center gap-2 text-sm text-gray-500 dark:text-slate-400">
+            <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-gray-300 border-t-teal-600" />
+            Loading courses…
+          </div>
+        )}
 
         {/* Registration status summary */}
         {courses.length > 0 &&

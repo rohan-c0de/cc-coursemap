@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import Link from "next/link";
 import type { TransferMapping } from "@/lib/types";
 import TransferCompare from "./TransferCompare";
@@ -22,7 +22,7 @@ type GroupMode = "outcome" | "subject";
 
 export default function TransferClient({
   universities,
-  mappings,
+  mappings: initialMappings,
   courseAvailability,
   defaultUniversity,
   state,
@@ -37,10 +37,38 @@ export default function TransferClient({
   const [availableOnly, setAvailableOnly] = useState(false);
   const [groupMode, setGroupMode] = useState<GroupMode>("outcome");
 
-  // Filter mappings by selected university first
-  const universityMappings = useMemo(() => {
-    return mappings.filter((m) => m.university === selectedUniversity);
-  }, [mappings, selectedUniversity]);
+  // Cache of per-university mappings. Seeded with the server-rendered
+  // default university's data; other universities are fetched on demand.
+  const [mappingsCache, setMappingsCache] = useState<Record<string, TransferMapping[]>>(
+    () => ({ [defaultUniversity]: initialMappings })
+  );
+  const [loadingUniversity, setLoadingUniversity] = useState(false);
+  // Tracks which universities have been requested to avoid duplicate fetches.
+  const pendingFetches = useRef(new Set<string>());
+
+  useEffect(() => {
+    if (mappingsCache[selectedUniversity] || pendingFetches.current.has(selectedUniversity)) return;
+    pendingFetches.current.add(selectedUniversity);
+    setLoadingUniversity(true);
+    fetch(`/api/${state}/transfer/mappings?university=${encodeURIComponent(selectedUniversity)}`)
+      .then((r) => r.json())
+      .then((data: { mappings: TransferMapping[] }) => {
+        setMappingsCache((prev) => ({ ...prev, [selectedUniversity]: data.mappings }));
+      })
+      .finally(() => setLoadingUniversity(false));
+  }, [selectedUniversity, state, mappingsCache]);
+
+  // All mappings across cached universities — used by compare view.
+  const allCachedMappings = useMemo(
+    () => Object.values(mappingsCache).flat(),
+    [mappingsCache]
+  );
+
+  // Current university's mappings (may be empty while loading).
+  const universityMappings = useMemo(
+    () => mappingsCache[selectedUniversity] ?? [],
+    [mappingsCache, selectedUniversity]
+  );
 
   // Get unique subjects from university-filtered mappings
   const subjects = useMemo(() => {
@@ -263,7 +291,7 @@ export default function TransferClient({
       {viewMode === "compare" ? (
         <TransferCompare
           universities={universities}
-          mappings={mappings}
+          mappings={allCachedMappings}
           courseAvailability={courseAvailability}
           state={state}
           popularCourses={popularCourses}
@@ -291,6 +319,14 @@ export default function TransferClient({
           ))}
         </select>
       </div>
+
+      {/* Loading indicator while fetching a new university */}
+      {loadingUniversity && (
+        <div className="mb-4 flex items-center gap-2 text-sm text-gray-500 dark:text-slate-400">
+          <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-gray-300 border-t-teal-600" />
+          Loading transfer data…
+        </div>
+      )}
 
       {/* Stats banner */}
       <div className="mb-6 grid grid-cols-2 sm:grid-cols-4 gap-3">

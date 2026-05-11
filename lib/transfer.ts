@@ -95,6 +95,46 @@ const transferCache: Record<string, TransferMapping[]> = {};
 const PAGE_SIZE = 1000;
 
 /**
+ * Load transfer mappings for a single university from Supabase.
+ * Used by the transfer page API route to avoid sending the full state
+ * dataset (~15 K rows) as the initial RSC payload.
+ */
+export async function loadTransferMappingsByUniversity(
+  state: string,
+  university: string
+): Promise<TransferMapping[]> {
+  try {
+    const allData: TransferMapping[] = [];
+    let offset = 0;
+    let hasMore = true;
+
+    while (hasMore) {
+      const { data, error } = await supabase
+        .from("transfers")
+        .select(
+          "cc_prefix, cc_number, cc_course, cc_title, cc_credits, university, university_name, univ_course, univ_title, univ_credits, notes, no_credit, is_elective"
+        )
+        .eq("state", state)
+        .eq("university", university)
+        .range(offset, offset + PAGE_SIZE - 1);
+
+      if (error) throw error;
+      if (!data || data.length === 0) break;
+
+      allData.push(...(data as TransferMapping[]));
+      hasMore = data.length === PAGE_SIZE;
+      offset += PAGE_SIZE;
+    }
+
+    return allData;
+  } catch {
+    // Fallback: filter from the full local JSON
+    const all = await loadTransferMappings(state);
+    return all.filter((m) => m.university === university);
+  }
+}
+
+/**
  * Load all transfer mappings from Supabase (with local JSON fallback).
  * Cached after first load.
  */
