@@ -126,6 +126,69 @@ export const articles: ArticleMeta[] = [
     cluster: "course-availability-guide",
     clusterRole: "spoke",
   },
+  {
+    slug: "virginia-community-college-course-availability",
+    title:
+      "Virginia VCCS Course Availability: Which Courses Are at All 23 Colleges and Which Are at One",
+    description:
+      "VCCS's 23-college system has a 68.6% scarcity ratio — lower than NC's 78.9% but still meaning 2 in 3 courses concentrate at fewer than 25% of campuses. NOVA and TCC each hold 5 exclusive programs; veterinary technology and architecture are entirely scarce statewide.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "va",
+    author: "Community College Path",
+    tags: [
+      "course-availability",
+      "registration",
+      "virginia",
+      "vccs",
+      "anchor-campus",
+      "schedule-planning",
+    ],
+    cluster: "course-availability-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "tennessee-community-college-course-availability",
+    title:
+      "Tennessee Community College Course Availability: 251 Point-Source Courses, Three Regional Anchors, and the Best Scarcity Ratio in the Southeast",
+    description:
+      "Tennessee's TBR system has the best scarcity ratio of any southeastern system in this cluster — but 19.5% of its catalog (251 courses) is available at exactly one campus. Here's how gen-ed breadth and specialized concentration coexist across 12 colleges.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "tn",
+    author: "Community College Path",
+    tags: [
+      "course-availability",
+      "registration",
+      "tennessee",
+      "tbr",
+      "anchor-campus",
+      "schedule-planning",
+    ],
+    cluster: "course-availability-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "south-carolina-technical-college-course-availability",
+    title:
+      "South Carolina Technical College Course Availability: Tri-County Holds 40% of All Exclusive Programs",
+    description:
+      "SCTCS has only 21 universal courses (1.7% of the catalog) — the lowest of any state in the cluster. Tri-County Technical College holds 43 exclusive point-source courses, 40% of all concentrated programs in a 14-college system. Nursing concentrates at Horry-Georgetown; auto body repair (ABR) is 100% scarce statewide.",
+    date: "2026-05-10",
+    category: "registration-timing",
+    state: "sc",
+    author: "Community College Path",
+    tags: [
+      "course-availability",
+      "registration",
+      "south-carolina",
+      "sctcs",
+      "anchor-campus",
+      "schedule-planning",
+    ],
+    cluster: "course-availability-guide",
+    clusterRole: "spoke",
+  },
 
   // --- Cluster A: Transfer credit confusion (hub + spokes) ---
   {
