@@ -57,3 +57,29 @@ body {
   --tw-prose-th-borders: #475569;
   --tw-prose-td-borders: #334155;
 }
+
+/* Anchor links on headings — hover-only, desktop-only */
+.heading-anchor {
+  position: relative;
+}
+
+.heading-anchor > a:first-child {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .heading-anchor > a:first-child {
+    display: block;
+    position: absolute;
+    left: -1.25em;
+    opacity: 0;
+    text-decoration: none;
+    color: #94a3b8;
+    font-weight: 400;
+    transition: opacity 0.15s;
+  }
+
+  .heading-anchor:hover > a:first-child {
+    opacity: 1;
+  }
+}
