@@ -138,6 +138,7 @@ import kyConfig from "./ky/config";
 import alConfig from "./al/config";
 import msConfig from "./ms/config";
 import ohConfig from "./oh/config";
+import miConfig from "./mi/config";
 
 const ALL_CONFIGS: StateConfig[] = [
   vaConfig,
@@ -163,6 +164,7 @@ const ALL_CONFIGS: StateConfig[] = [
   alConfig,
   msConfig,
   ohConfig,
+  miConfig,
 ];
 
 const configs: Record<string, StateConfig> = Object.fromEntries(
