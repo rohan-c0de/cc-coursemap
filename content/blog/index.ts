@@ -382,6 +382,15 @@ export const articles: ArticleMeta[] = [
     tags: ["late-start", "mini-session", "registration", "accelerated", "density"],
     cluster: "late-start-by-state-guide",
     clusterRole: "hub",
+    howTo: {
+      name: "How to find late-start community college classes",
+      steps: [
+        { name: "Filter by start date", text: "Use your college's course search tool to sort or filter by date. Look for courses starting 2-8 weeks after the semester's official start date." },
+        { name: "Look for session indicators", text: "Many colleges label late-start sections with codes like '2nd 8-week,' 'Mini-Session 2,' '12W,' or 'Dynamic.' The labels vary by institution but all indicate a non-standard start date." },
+        { name: "Check online sections first", text: "Online courses are more likely to have late-start options than in-person sections. Colleges can run more online sections with less scheduling friction." },
+        { name: "Verify registration deadlines", text: "Late-start courses have their own registration deadlines, usually 1-3 days before the section starts. Drop and withdrawal deadlines are also compressed. Don't assume you have as much time as a full-term course." },
+      ],
+    },
     faqs: [
       {
         q: "What are late-start community college classes?",
@@ -414,6 +423,16 @@ export const articles: ArticleMeta[] = [
     state: null,
     author: "Community College Path",
     tags: ["transfer", "equivalency", "course-planning"],
+    howTo: {
+      name: "How to check if a community college course transfers",
+      steps: [
+        { name: "Know your target university", text: "Identify at least a shortlist of universities you plan to transfer to. Transfer equivalencies are university-specific — the same course can be a direct match at one school and elective credit at another." },
+        { name: "Find the transfer equivalency table", text: "Look up the state community college system's published transfer information. Virginia uses the SCHEV Transfer Guide; North Carolina uses the Comprehensive Articulation Agreement. Each shows course-by-course mappings." },
+        { name: "Read the equivalency type", text: "Check whether the course maps to a specific course number (direct match) or a generic designation like ELEC 1XX or FREE ELEC (elective credit). Direct matches fulfill requirements; elective credit just fills total hours." },
+        { name: "Check your major's requirements", text: "Verify the course satisfies your major-specific requirements, not just general education. A psychology major may need a specific statistics course, not just 'any math.' Check the target major's curriculum sheet." },
+        { name: "Verify with an advisor", text: "Do your research first, build a list of courses with their mappings, then bring it to an advisor and ask them to verify. This catches mistakes before registration, not after." },
+      ],
+    },
   },
 
   // --- Standalone: Multi-college enrollment ---
@@ -442,6 +461,18 @@ export const articles: ArticleMeta[] = [
     state: null,
     author: "Community College Path",
     tags: ["scheduling", "multi-campus", "schedule-builder", "commute"],
+    howTo: {
+      name: "How to build a community college schedule across multiple campuses",
+      steps: [
+        { name: "Lock in must-have courses first", text: "Start with prerequisites, major requirements, and courses only offered once a year. Register for these first at whichever campus offers them — they become your schedule anchors." },
+        { name: "Map your weekly time blocks", text: "Sketch work hours, commute times between campuses, childcare obligations, and study time. Account for real-world travel: a 45-minute drive needs at least a 90-minute gap between classes." },
+        { name: "Cluster days by location", text: "Assign each campus to specific days (e.g., Mon/Wed at Campus A, Tue/Thu at Campus B, Fri online). This minimizes driving and creates natural study blocks." },
+        { name: "Use online courses to fill gaps", text: "Online sections don't require travel and can fill credit-hour requirements without adding commute days. Use them for subjects where lecture attendance isn't critical." },
+        { name: "Check for hidden conflicts", text: "Verify final exam schedules, lab hours not shown in the main schedule, and academic calendar differences between colleges. A schedule that works weeks 1-8 but breaks in week 9 isn't workable." },
+        { name: "Handle financial aid early", text: "If taking courses at more than one college, set up a consortium agreement between schools so combined credits count toward your enrollment status. Ask your home college's financial aid office before registering at the second school." },
+        { name: "Keep a master schedule", text: "Maintain a single document with every course, section number, days/times/locations, start and end dates, instructor contact info, and key deadlines. Neither college sees your full picture — this is your source of truth." },
+      ],
+    },
   },
 
   // --- Standalone: Schedule timing ---
@@ -901,6 +932,16 @@ export const articles: ArticleMeta[] = [
     tags: ["transfer", "equivalency", "direct-match", "elective-credit", "notation"],
     cluster: "transfer-credit-guide",
     clusterRole: "spoke",
+    howTo: {
+      name: "How to read a community college transfer equivalency table",
+      steps: [
+        { name: "Identify the three basic outcomes", text: "Every course maps to one of three buckets: direct match (a specific course number like ENG 101), elective credit (a generic designation like BIOL 1XX or Gen Elec), or no credit / does not transfer." },
+        { name: "Check restriction notation", text: "Look for grade minimums (C or better, B or better), credit caps (max 3 cr, max 60 cr total), time limits (within 10 years), and 'combines with' requirements that pair courses together." },
+        { name: "Decode wildcards and prefixes", text: "Understand compact notation: 1XX means any 100-level course, 2XX means 200-level, Gen Elec means any elective credit. These tell you the level of credit awarded without a specific course match." },
+        { name: "Read the footnotes", text: "Never ignore asterisks. Footnotes contain critical restrictions: admission-year cutoffs, writing-intensive exclusions, credit caps across equivalents, and department-specific applicability." },
+        { name: "Verify with the receiving institution", text: "Check the table's effective date, confirm with an advisor for courses close to requirements you need, request an official transfer evaluation, and get written confirmation attached to your transcript." },
+      ],
+    },
   },
 
   // --- Cluster B spoke: 15-state senior tuition comparison ---
@@ -1034,6 +1075,16 @@ export const articles: ArticleMeta[] = [
     tags: ["auditing", "virginia", "germanna", "vccs", "senior-waiver"],
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
+    howTo: {
+      name: "How to audit a class at Germanna Community College",
+      steps: [
+        { name: "Apply for admission", text: "Apply through the VCCS portal at apply.vccs.edu. There is no separate auditor application — you apply as a regular student." },
+        { name: "Contact the registrar", text: "Email admissions@germanna.edu or call 540-423-9030 with the course code and section number. They will confirm the section is open to auditors and walk you through any instructor-approval step." },
+        { name: "Register for the course", text: "Register through the normal Germanna enrollment system. Most audit registrations are completed by the registrar based on your email request, though some terms require you to submit a separate audit-status form." },
+        { name: "Pay tuition and fees", text: "Pay by the published deadline. If you are a senior using Virginia's 60+ tuition waiver, complete the waiver paperwork at the same time. Otherwise you pay full credit-equivalent rates." },
+        { name: "Attend the course", text: "Once enrolled as an auditor, attend throughout the term. To switch between audit and credit status, file the request before the add/drop deadline — typically end of the second week." },
+      ],
+    },
   },
 
   // --- Pipeline batch 2026-05-09b: 7 state-spokes + 3 college-spokes ---
@@ -1155,6 +1206,16 @@ export const articles: ArticleMeta[] = [
     tags: ["auditing", "virginia", "nova", "vccs", "senior-waiver", "northern-virginia"],
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
+    howTo: {
+      name: "How to audit a class at Northern Virginia Community College",
+      steps: [
+        { name: "Apply for admission", text: "Apply through the VCCS portal at apply.vccs.edu. There is no separate auditor application — you apply as a regular student." },
+        { name: "Contact admissions", text: "Email admissions@nvcc.edu or call 703-323-3000 with the course code, section number, campus, and delivery mode. They will confirm availability and handle any instructor-approval step." },
+        { name: "Register for the course", text: "Register through the normal NOVA enrollment system. Admissions may complete the registration on your behalf, or you submit an audit-status form before the add/drop deadline." },
+        { name: "Pay tuition and fees", text: "Pay by the published deadline. If you are a senior using Virginia's 60+ tuition waiver, complete the waiver paperwork at the same time. Otherwise you pay full credit-equivalent rates." },
+        { name: "Attend the course", text: "Once enrolled as an auditor, attend throughout the term. To switch between audit and credit status, file the request before the add/drop deadline." },
+      ],
+    },
   },
   {
     slug: "reynolds-community-college-audit-class-guide",
@@ -1170,6 +1231,16 @@ export const articles: ArticleMeta[] = [
     tags: ["auditing", "virginia", "reynolds", "vccs", "senior-waiver", "richmond"],
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
+    howTo: {
+      name: "How to audit a class at Reynolds Community College",
+      steps: [
+        { name: "Apply for admission", text: "Apply through the VCCS portal at apply.vccs.edu. There is no separate auditor application — you apply as a regular student." },
+        { name: "Contact admissions", text: "Email admissions@reynolds.edu or call 804-371-3000 with the course code, section number, and campus. They will confirm availability and handle any instructor-approval step." },
+        { name: "Register for the course", text: "Register through the normal Reynolds enrollment system. Admissions may complete the registration on your behalf, or you submit an audit-status form before the add/drop deadline." },
+        { name: "Pay tuition and fees", text: "Pay by the published deadline. If you are a senior using Virginia's 60+ tuition waiver, complete the waiver paperwork at the same time. Otherwise you pay full credit-equivalent rates." },
+        { name: "Attend the course", text: "Once enrolled as an auditor, attend throughout the term. To switch between audit and credit status, file the request before the add/drop deadline." },
+      ],
+    },
   },
   {
     slug: "tcc-tidewater-community-college-audit-class-guide",
@@ -1185,6 +1256,16 @@ export const articles: ArticleMeta[] = [
     tags: ["auditing", "virginia", "tcc", "tidewater", "vccs", "senior-waiver", "hampton-roads"],
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
+    howTo: {
+      name: "How to audit a class at Tidewater Community College",
+      steps: [
+        { name: "Apply for admission", text: "Apply through the VCCS portal at apply.vccs.edu. There is no separate auditor application — you apply as a regular student." },
+        { name: "Contact admissions", text: "Email admissions@tcc.edu or call 757-822-1122 with the course code, section number, and campus. They will confirm availability and handle any instructor-approval step." },
+        { name: "Register for the course", text: "Register through the normal TCC enrollment system. Admissions may complete the registration on your behalf, or you submit an audit-status form before the add/drop deadline." },
+        { name: "Pay tuition and fees", text: "Pay by the published deadline. If you are a senior using Virginia's 60+ tuition waiver, complete the waiver paperwork at the same time. Military TA and GI Bill do not cover audit enrollment." },
+        { name: "Attend the course", text: "Once enrolled as an auditor, attend throughout the term. To switch between audit and credit status, file the request before the add/drop deadline." },
+      ],
+    },
   },
 
   // --- Pipeline batch 2026-05-09c: 4 senior-waiver state-spokes + 1 session + 5 audit college-spokes ---
@@ -1307,6 +1388,16 @@ export const articles: ArticleMeta[] = [
     tags: ["auditing", "virginia", "brcc", "vccs", "senior-waiver", "shenandoah-valley"],
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
+    howTo: {
+      name: "How to audit a class at Blue Ridge Community College",
+      steps: [
+        { name: "Apply for admission", text: "Apply through the VCCS portal at apply.vccs.edu. There is no separate auditor application — you apply as a regular student." },
+        { name: "Contact admissions", text: "Email admissions@brcc.edu or call 540-234-9261 with the course code, section number, and location. They will confirm availability and handle any instructor-approval step." },
+        { name: "Register for the course", text: "Register through the normal BRCC enrollment system. Admissions completes most audit registrations based on your email request." },
+        { name: "Pay tuition and fees", text: "Pay by the published deadline. If you are a senior using Virginia's 60+ tuition waiver, complete the waiver paperwork at the same time. Otherwise you pay full credit-equivalent rates." },
+        { name: "Attend the course", text: "Once enrolled as an auditor, attend throughout the term. To switch between audit and credit status, file the request before the add/drop deadline." },
+      ],
+    },
   },
   {
     slug: "brightpoint-community-college-audit-class-guide",
@@ -1322,6 +1413,16 @@ export const articles: ArticleMeta[] = [
     tags: ["auditing", "virginia", "brightpoint", "vccs", "senior-waiver", "tri-cities"],
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
+    howTo: {
+      name: "How to audit a class at Brightpoint Community College",
+      steps: [
+        { name: "Apply for admission", text: "Apply through the VCCS portal at apply.vccs.edu. There is no separate auditor application — you apply as a regular student." },
+        { name: "Contact admissions and records", text: "Email admissionsandrecords@brightpoint.edu or call 804-796-4000 with the course code, section number, campus, and delivery mode. They will confirm availability and handle any instructor-approval step." },
+        { name: "Register for the course", text: "Register through the normal Brightpoint enrollment system. The admissions and records office completes most audit registrations based on your email request." },
+        { name: "Pay tuition and fees", text: "Pay by the published deadline. If you are a senior using Virginia's 60+ tuition waiver, complete the waiver paperwork at the same time. Otherwise you pay full credit-equivalent rates." },
+        { name: "Attend the course", text: "Once enrolled as an auditor, attend throughout the term. To switch between audit and credit status, file the request before the add/drop deadline." },
+      ],
+    },
   },
   {
     slug: "camp-paul-d-camp-community-college-audit-class-guide",
@@ -1337,6 +1438,16 @@ export const articles: ArticleMeta[] = [
     tags: ["auditing", "virginia", "camp", "paul-d-camp", "vccs", "senior-waiver", "western-tidewater"],
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
+    howTo: {
+      name: "How to audit a class at Paul D. Camp Community College",
+      steps: [
+        { name: "Apply for admission", text: "Apply through the VCCS portal at apply.vccs.edu. There is no separate auditor application — you apply as a regular student." },
+        { name: "Contact admissions", text: "Email info@pdc.edu or call 757-569-6700 with the course code, section number, and campus. They will confirm availability and handle any instructor-approval step." },
+        { name: "Register for the course", text: "Register through the normal Camp enrollment system. Admissions completes most audit registrations based on your email request." },
+        { name: "Pay tuition and fees", text: "Pay by the published deadline. If you are a senior using Virginia's 60+ tuition waiver, complete the waiver paperwork at the same time. Otherwise you pay full credit-equivalent rates." },
+        { name: "Attend the course", text: "Once enrolled as an auditor, attend throughout the term. To switch between audit and credit status, file the request before the add/drop deadline." },
+      ],
+    },
   },
   {
     slug: "central-virginia-community-college-audit-class-guide",
@@ -1352,6 +1463,16 @@ export const articles: ArticleMeta[] = [
     tags: ["auditing", "virginia", "cvcc", "vccs", "senior-waiver", "lynchburg"],
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
+    howTo: {
+      name: "How to audit a class at Central Virginia Community College",
+      steps: [
+        { name: "Apply for admission", text: "Apply through the VCCS portal at apply.vccs.edu. There is no separate auditor application — you apply as a regular student." },
+        { name: "Contact student records", text: "Email studentrecords@centralvirginia.edu or call 434-832-7633 with the course code, section number, and campus. They will confirm availability and handle any instructor-approval step." },
+        { name: "Register for the course", text: "Register through the normal CVCC enrollment system. Student records completes most audit registrations based on your email request." },
+        { name: "Pay tuition and fees", text: "Pay by the published deadline. If you are a senior using Virginia's 60+ tuition waiver, complete the waiver paperwork at the same time. Otherwise you pay full credit-equivalent rates." },
+        { name: "Attend the course", text: "Once enrolled as an auditor, attend throughout the term. To switch between audit and credit status, file the request before the add/drop deadline." },
+      ],
+    },
   },
   {
     slug: "danville-community-college-audit-class-guide",
@@ -1367,6 +1488,16 @@ export const articles: ArticleMeta[] = [
     tags: ["auditing", "virginia", "dcc", "danville", "vccs", "senior-waiver", "southside"],
     cluster: "audit-at-college-guide",
     clusterRole: "spoke",
+    howTo: {
+      name: "How to audit a class at Danville Community College",
+      steps: [
+        { name: "Apply for admission", text: "Apply through the VCCS portal at apply.vccs.edu. There is no separate auditor application — you apply as a regular student." },
+        { name: "Contact admissions", text: "Email admissions@danville.edu or call 434-797-8467 with the course code, section number, and campus. They will confirm availability and handle any instructor-approval step." },
+        { name: "Register for the course", text: "Register through the normal DCC enrollment system. Admissions completes most audit registrations based on your email request." },
+        { name: "Pay tuition and fees", text: "Pay by the published deadline. If you are a senior using Virginia's 60+ tuition waiver, complete the waiver paperwork at the same time. Otherwise you pay full credit-equivalent rates." },
+        { name: "Attend the course", text: "Once enrolled as an auditor, attend throughout the term. To switch between audit and credit status, file the request before the add/drop deadline." },
+      ],
+    },
   },
 
   // --- Cluster F spokes (hybrid-course-density): ME, MD, MA ---
