@@ -31,6 +31,73 @@ export function getClusterArticles(clusterId: string): ArticleMeta[] {
   return getAllArticles().filter((a) => a.cluster === clusterId);
 }
 
+export type TopicLink = {
+  cluster: string;
+  title: string;
+  blurb: string;
+  article: ArticleMeta;
+};
+
+const CLUSTER_DISPLAY: Record<string, { title: string; blurb: string }> = {
+  "course-availability-guide": {
+    title: "Course Availability",
+    blurb: "Which courses run at every campus vs. just one or two",
+  },
+  "transfer-credit-guide": {
+    title: "Transfer Credits",
+    blurb: "How courses map to 4-year university requirements",
+  },
+  "senior-waivers-guide": {
+    title: "Senior Waivers",
+    blurb: "Free or reduced tuition for qualifying older adults",
+  },
+  "late-start-by-state-guide": {
+    title: "Late-Start Classes",
+    blurb: "Sections that begin weeks after the standard start date",
+  },
+  "prereq-chains-guide": {
+    title: "Prerequisite Chains",
+    blurb: "Courses that gate transfer-ready sequences",
+  },
+  "hybrid-course-density-guide": {
+    title: "Hybrid & Online",
+    blurb: "How courses split between in-person, hybrid, and online",
+  },
+  "session-timing-guide": {
+    title: "Session Timing",
+    blurb: "Multiple start dates, mini-terms, and accelerated sessions",
+  },
+};
+
+/**
+ * State-level topic links for the pillar page.
+ * Returns one entry per cluster where a state-level spoke exists (college
+ * spokes are excluded — they link to a specific institution, not the state).
+ */
+export function getStateTopicLinks(state: string): TopicLink[] {
+  const seen = new Set<string>();
+  const results: TopicLink[] = [];
+  for (const article of getAllArticles()) {
+    if (
+      article.state === state &&
+      article.cluster &&
+      article.clusterRole === "spoke" &&
+      !article.college &&
+      CLUSTER_DISPLAY[article.cluster] &&
+      !seen.has(article.cluster)
+    ) {
+      seen.add(article.cluster);
+      results.push({
+        cluster: article.cluster,
+        title: CLUSTER_DISPLAY[article.cluster].title,
+        blurb: CLUSTER_DISPLAY[article.cluster].blurb,
+        article,
+      });
+    }
+  }
+  return results;
+}
+
 /** Human-readable category label. */
 export function categoryLabel(category: string): string {
   return CATEGORIES[category] ?? category;
