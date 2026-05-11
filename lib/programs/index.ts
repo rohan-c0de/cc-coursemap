@@ -38,6 +38,12 @@ export type ProgramData = {
   totalColleges: number;
   totalOnline: number;
   colleges: ProgramCollegeRow[];
+  // Flattened sections across all matched prefixes for the program. Used
+  // by the per-program landing page to compute an availability profile
+  // (mode mix, time-of-day, start dates, instructor diversity) without
+  // re-loading. Already in scope inside loadProgramData; returning it
+  // here saves the page from a second round of Supabase calls.
+  flatSections: CourseSection[];
   // Sample of representative courses for an ItemList block.
   sampleCourses: {
     prefix: string;
@@ -143,6 +149,7 @@ export async function loadProgramData(
     totalOnline: all.filter((s) => s.mode === "online" || s.mode === "zoom")
       .length,
     colleges,
+    flatSections: all,
     sampleCourses,
   };
 }

@@ -22,6 +22,7 @@ import {
   PROGRAMS,
 } from "@/lib/programs";
 import { loadProgramAcrossColleges, checkCourseAvailability } from "@/lib/programs/requirements";
+import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProgramRequirements from "@/components/ProgramRequirements";
 
@@ -135,6 +136,11 @@ export default async function ProgramPage(props: PageProps) {
     })),
   };
 
+  // Program Availability Snapshot — server-rendered substantive content
+  // pulled from the same flatSections that loadProgramData has already
+  // aggregated. Same helper used by /[state]/course/[code] for consistency.
+  const programProfile = computeCourseAvailabilityProfile(data.flatSections);
+
   // Other programs offered in this state (for cross-linking footer)
   const otherProgramSlugs = PROGRAMS.filter((p) => p.slug !== slug).map(
     (p) => p.slug
@@ -224,6 +230,148 @@ export default async function ProgramPage(props: PageProps) {
             </table>
           </div>
         </section>
+
+        {/* Program Availability Snapshot — server-rendered substantive
+            content per term. Helps long-tail SEO ("[program] online
+            community college [state]", "[program] evening sections").
+            Computed inline from data.flatSections — no extra I/O. */}
+        {programProfile && programProfile.totalSections > 0 && (
+          <section className="mb-10 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6">
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+              {program.name} Availability Snapshot
+            </h2>
+            <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
+              How {program.name.toLowerCase()} sections are being offered
+              across {programProfile.collegeCount}{" "}
+              {programProfile.collegeCount === 1 ? "college" : "colleges"} in{" "}
+              {config.name} this term ({programProfile.totalSections}{" "}
+              {programProfile.totalSections === 1 ? "section" : "sections"}{" "}
+              total).
+            </p>
+
+            <div className="grid sm:grid-cols-2 gap-6">
+              <div>
+                <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
+                  Delivery format
+                </h3>
+                <ul className="text-sm text-gray-700 dark:text-slate-300 space-y-1">
+                  {Object.entries(programProfile.modes.counts)
+                    .sort((a, b) => b[1] - a[1])
+                    .map(([mode, count]) => (
+                      <li key={mode} className="flex justify-between">
+                        <span className="capitalize">
+                          {mode.replace("-", " ")}
+                        </span>
+                        <span>
+                          <span className="font-medium text-gray-900 dark:text-slate-100">
+                            {count}
+                          </span>{" "}
+                          <span className="text-xs text-gray-500 dark:text-slate-400">
+                            ({programProfile.modes.pcts[mode].toFixed(0)}%)
+                          </span>
+                        </span>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
+                  When sections meet
+                </h3>
+                <ul className="text-sm text-gray-700 dark:text-slate-300 space-y-1">
+                  {programProfile.timeOfDay.morning > 0 && (
+                    <li className="flex justify-between">
+                      <span>Morning (before noon)</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {programProfile.timeOfDay.morning}
+                      </span>
+                    </li>
+                  )}
+                  {programProfile.timeOfDay.afternoon > 0 && (
+                    <li className="flex justify-between">
+                      <span>Afternoon (noon&ndash;5 PM)</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {programProfile.timeOfDay.afternoon}
+                      </span>
+                    </li>
+                  )}
+                  {programProfile.timeOfDay.evening > 0 && (
+                    <li className="flex justify-between">
+                      <span>Evening (5 PM and after)</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {programProfile.timeOfDay.evening}
+                      </span>
+                    </li>
+                  )}
+                  {programProfile.timeOfDay.asynchronous > 0 && (
+                    <li className="flex justify-between">
+                      <span>Asynchronous / TBA</span>
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {programProfile.timeOfDay.asynchronous}
+                      </span>
+                    </li>
+                  )}
+                </ul>
+              </div>
+            </div>
+
+            {(programProfile.startDates.distinct > 0 ||
+              programProfile.instructorCount > 0) && (
+              <div className="mt-6 pt-4 border-t border-gray-100 dark:border-slate-700 grid sm:grid-cols-2 gap-6 text-sm">
+                {programProfile.startDates.distinct > 0 && (
+                  <div>
+                    <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">
+                      Start dates
+                    </h3>
+                    <p className="text-gray-700 dark:text-slate-300">
+                      Sections begin on{" "}
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {programProfile.startDates.distinct}
+                      </span>{" "}
+                      distinct date
+                      {programProfile.startDates.distinct === 1 ? "" : "s"}.
+                      {programProfile.startDates.lateStartCount > 0 && (
+                        <>
+                          {" "}
+                          <Link
+                            href={`/${state}/starting-soon`}
+                            className="font-medium text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300"
+                          >
+                            {programProfile.startDates.lateStartCount}{" "}
+                            late-start
+                          </Link>{" "}
+                          more than two weeks after the term&apos;s earliest
+                          start.
+                        </>
+                      )}
+                    </p>
+                  </div>
+                )}
+                {programProfile.instructorCount > 0 && (
+                  <div>
+                    <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">
+                      Instructor diversity
+                    </h3>
+                    <p className="text-gray-700 dark:text-slate-300">
+                      Taught by{" "}
+                      <span className="font-medium text-gray-900 dark:text-slate-100">
+                        {programProfile.instructorCount}
+                      </span>{" "}
+                      distinct instructor
+                      {programProfile.instructorCount === 1 ? "" : "s"} across{" "}
+                      {programProfile.collegeCount}{" "}
+                      {programProfile.collegeCount === 1
+                        ? "college"
+                        : "colleges"}
+                      .
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
+          </section>
+        )}
 
         <ProgramRequirements
           state={state}
