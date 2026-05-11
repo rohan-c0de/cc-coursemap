@@ -16,6 +16,8 @@ import type { TransferMapping } from "@/lib/types";
 import TransferHubClient from "./TransferHubClient";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
+import RelatedBlogPosts from "@/components/RelatedBlogPosts";
+import { getBlogRecommendations } from "@/lib/blog-recommendations";
 
 export const revalidate = 86400;
 
@@ -351,6 +353,15 @@ export default async function TransferHubPage(props: PageProps) {
       <div className="mb-8">
         <AdUnit slot="9402617538" format="auto" className="min-h-[100px]" />
       </div>
+
+      {/* Related blog posts — programmatic → editorial cross-pollination (#371) */}
+      <RelatedBlogPosts
+        articles={getBlogRecommendations({
+          state,
+          pageType: "transfer",
+        })}
+        heading={`Related ${config.name} guides`}
+      />
 
       {/* Other universities in this state */}
       {universities.length > 1 && (

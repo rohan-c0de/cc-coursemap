@@ -16,6 +16,8 @@ import { termLabel } from "@/lib/terms";
 import { subjectName } from "@/lib/subjects";
 import { loadOnlineData, onlineQualifies } from "@/lib/online";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedBlogPosts from "@/components/RelatedBlogPosts";
+import { getBlogRecommendations } from "@/lib/blog-recommendations";
 
 export const revalidate = 604800; // 7 days
 
@@ -204,6 +206,15 @@ export default async function OnlinePage(props: PageProps) {
             </ul>
           </section>
         )}
+
+        {/* Related blog posts — programmatic → editorial cross-pollination (#371) */}
+        <RelatedBlogPosts
+          articles={getBlogRecommendations({
+            state,
+            pageType: "online",
+          })}
+          heading={`Related ${config.name} guides`}
+        />
       </div>
     </>
   );

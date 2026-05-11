@@ -20,6 +20,8 @@ import { subjectName } from "@/lib/subjects";
 import type { CourseSection } from "@/lib/types";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
+import RelatedBlogPosts from "@/components/RelatedBlogPosts";
+import { getBlogRecommendations } from "@/lib/blog-recommendations";
 
 // Revalidate every 24 hours — course data only changes when re-scraped
 export const revalidate = 86400;
@@ -535,6 +537,16 @@ export default async function CollegeDetailPage(props: PageProps) {
       <div className="mt-8">
         <AdUnit slot="3816492750" format="auto" className="min-h-[100px]" />
       </div>
+
+      {/* Related blog posts — programmatic → editorial cross-pollination (#371) */}
+      <RelatedBlogPosts
+        articles={getBlogRecommendations({
+          state,
+          pageType: "college",
+          college: institution.college_slug,
+        })}
+        heading={`Related ${config.name} guides`}
+      />
 
       {/* Other colleges in this state — internal linking for SEO */}
       {(() => {
