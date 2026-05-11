@@ -49,6 +49,11 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   };
 }
 
+// Force HTTP 404 (not a cached 200 soft-404) for any (state, college-id) pair
+// not in `loadInstitutions`. `generateStaticParams` already enumerates every
+// valid pair at build time, so this is zero extra build cost. See #337.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getAllStates().flatMap((config) =>
     loadInstitutions(config.slug).map((i) => ({ state: config.slug, id: i.id }))
