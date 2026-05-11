@@ -190,6 +190,29 @@ export const articles: ArticleMeta[] = [
     clusterRole: "spoke",
   },
 
+  // --- Cluster J: Transfer-receiver patterns (hub + data-driven spokes per issue #367) ---
+  {
+    slug: "which-universities-are-toughest-transfer-receivers",
+    title:
+      "Which Universities Are the Toughest Transfer Receivers? Direct Match vs Elective vs No-Credit Across 16 States",
+    description:
+      "Across 441,481 course-transfer mappings in 16 state systems, Florida is 100% direct match while Georgia is 12% and rejects 78% at UGA. Here's how transfer-receiver patterns actually look at scale.",
+    date: "2026-05-11",
+    category: "transfer-confusion",
+    state: null,
+    author: "Community College Path",
+    tags: [
+      "transfer",
+      "transfer-credit",
+      "direct-match",
+      "elective-credit",
+      "receiver-patterns",
+      "transfer-equivalency",
+    ],
+    cluster: "transfer-receiver-patterns-guide",
+    clusterRole: "hub",
+  },
+
   // --- Cluster I: Course-code explainer (hub + GSC-driven spokes per issue #368) ---
   {
     slug: "community-college-course-codes-explained",
