@@ -212,6 +212,30 @@ export const articles: ArticleMeta[] = [
     cluster: "transfer-receiver-patterns-guide",
     clusterRole: "hub",
   },
+  {
+    slug: "georgia-transfer-receivers-compared",
+    title:
+      "Georgia Transfer Receivers Compared: Why UGA Rejects 78% of TCSG Credits While Kennesaw State Accepts 90%",
+    description:
+      "Within Georgia public higher ed, the same TCSG transcript can land as a clean credit transfer at Kennesaw State (90% direct match) or a near-total reset at UGA/GSU (78-81% rejected). Here's how the four major Georgia receivers compare — and how to plan accordingly.",
+    date: "2026-05-11",
+    category: "transfer-confusion",
+    state: "ga",
+    author: "Community College Path",
+    tags: [
+      "transfer",
+      "georgia",
+      "tcsg",
+      "usg",
+      "uga",
+      "gsu",
+      "kennesaw-state",
+      "uwg",
+      "receiver-patterns",
+    ],
+    cluster: "transfer-receiver-patterns-guide",
+    clusterRole: "spoke",
+  },
 
   // --- Cluster I: Course-code explainer (hub + GSC-driven spokes per issue #368) ---
   {
