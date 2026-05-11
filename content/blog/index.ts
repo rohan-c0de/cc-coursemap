@@ -211,6 +211,28 @@ export const articles: ArticleMeta[] = [
     cluster: "course-explainer-guide",
     clusterRole: "hub",
   },
+  {
+    slug: "what-is-sdv-100-danville-community-college",
+    title:
+      "What Is SDV 100 (College Success Skills) at Danville Community College?",
+    description:
+      "SDV 100 is a 1-credit required course for most DCC associate degree programs — teaches study habits, time management, academic planning. Here's what it covers, who must take it, and how it transfers.",
+    date: "2026-05-11",
+    category: "mistake-avoidance",
+    state: "va",
+    college: "dcc",
+    author: "Community College Path",
+    tags: [
+      "course-codes",
+      "sdv",
+      "danville",
+      "vccs",
+      "college-success",
+      "first-semester",
+    ],
+    cluster: "course-explainer-guide",
+    clusterRole: "spoke",
+  },
 
   // --- Cluster A: Transfer credit confusion (hub + spokes) ---
   {
