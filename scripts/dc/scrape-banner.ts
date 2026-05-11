@@ -8,6 +8,7 @@
 import fs from "fs";
 import path from "path";
 import { pickRecentSsbTerms } from "../lib/resolve-terms";
+import { safeWriteSections } from "../lib/safe-write-sections";
 
 const BASE_URL = "https://reg-prod.ec.udc.edu";
 const COLLEGE_SLUG = "udc-cc";
@@ -360,10 +361,12 @@ async function main() {
     });
 
     const outFile = path.join(outDir, `${standardTerm}.json`);
-    fs.writeFileSync(outFile, JSON.stringify(converted, null, 2));
-    const withPrereqs = converted.filter((c) => c.prerequisite_text).length;
-    console.log(`  → ${converted.length} sections written to ${standardTerm}.json (${withPrereqs} with prereqs)`);
-    totalSections += converted.length;
+    const wrote = safeWriteSections(outFile, converted, standardTerm);
+    if (wrote) {
+      const withPrereqs = converted.filter((c) => c.prerequisite_text).length;
+      console.log(`  → ${converted.length} sections written to ${standardTerm}.json (${withPrereqs} with prereqs)`);
+      totalSections += converted.length;
+    }
   }
 
   // Auto-import into Supabase (skip with --no-import)
