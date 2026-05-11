@@ -18,8 +18,37 @@ const nextConfig: NextConfig = {
     "/api/[state]/prereqs/**": ["./data/*/prereqs.json"],
   },
   async redirects() {
-    // Backward-compatible redirects from old routes to /va/ prefixed routes
+    // VCCS 2022 renames — these colleges officially changed names in 2022
+    // and external links (press, Wikipedia, prior PDFs) may still point at
+    // the old slug. Map each old slug to the current one before the generic
+    // /college/:id → /va/college/:id rule below so the rename wins.
+    // See issue #337.
+    const vccsRenames: Array<{ old: string; current: string }> = [
+      { old: "john-tyler", current: "brightpoint" },
+      { old: "jtcc", current: "brightpoint" },
+      { old: "thomas-nelson", current: "vpcc" },
+      { old: "tncc", current: "vpcc" },
+      { old: "dabney-s-lancaster", current: "mgcc" },
+      { old: "dslcc", current: "mgcc" },
+      { old: "lord-fairfax", current: "laurelridge" },
+      { old: "lfcc", current: "laurelridge" },
+    ];
+    const renameRedirects = vccsRenames.flatMap((r) => [
+      {
+        source: `/va/college/${r.old}`,
+        destination: `/va/college/${r.current}`,
+        permanent: true,
+      },
+      {
+        source: `/college/${r.old}`,
+        destination: `/va/college/${r.current}`,
+        permanent: true,
+      },
+    ]);
+
+    // Backward-compatible redirects from old un-prefixed routes to /va/.
     return [
+      ...renameRedirects,
       // /colleges is now a real all-states directory page — no redirect
       { source: "/college/:id", destination: "/va/college/:id", permanent: true },
       { source: "/courses", destination: "/va/courses", permanent: true },
@@ -28,6 +57,7 @@ const nextConfig: NextConfig = {
       { source: "/transfer", destination: "/va/transfer", permanent: true },
       { source: "/results", destination: "/va/results", permanent: true },
       { source: "/about", destination: "/va/about", permanent: true },
+      { source: "/program/:slug", destination: "/va/program/:slug", permanent: true },
     ];
   },
 };
