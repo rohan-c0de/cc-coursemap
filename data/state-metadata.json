@@ -89,6 +89,16 @@
         "bannerDetail": "Georgia law allows residents aged 62+ to attend any unit of the University System of Georgia or TCSG without paying tuition or mandatory fees, on a space-available basis."
       }
     },
+    "ia": {
+      "fullName": "Iowa",
+      "fipsCode": "19",
+      "systemName": "Iowa Community Colleges",
+      "systemFullName": "Iowa Community Colleges (managed by the Iowa Department of Education)",
+      "systemUrl": "https://educate.iowa.gov/higher-ed/community-colleges",
+      "defaultZip": "50309",
+      "defaultZipCity": "Des Moines",
+      "seniorWaiver": null
+    },
     "ky": {
       "fullName": "Kentucky",
       "fipsCode": "21",
