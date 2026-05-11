@@ -45,6 +45,7 @@ npx tsx .claude/skills/blog-pipeline/scripts/detect-data-deltas.ts > /tmp/blog-c
 npx tsx .claude/skills/blog-pipeline/scripts/detect-prereq-bottlenecks.ts > /tmp/blog-candidates-d.json
 npx tsx .claude/skills/blog-pipeline/scripts/detect-hybrid-density.ts > /tmp/blog-candidates-e.json
 npx tsx .claude/skills/blog-pipeline/scripts/detect-late-start-density.ts > /tmp/blog-candidates-f.json
+npx tsx .claude/skills/blog-pipeline/scripts/detect-course-scarcity.ts > /tmp/blog-candidates-g.json
 # Trigger B (keyword/search) — see references/triggers.md for CSV + GSC sources
 ```
 
@@ -88,8 +89,8 @@ If two candidates tie on cluster-non-saturation, pick the one whose data slice h
 
 As of 2026-05-10 (update this after each batch):
 - ✅ Heavily covered: transfer confusion (18 spokes), senior waivers (13), session timing (8 spokes — MD, TN, MA, NY, NC, VA, CT, SC), audit-at-college (9 college spokes)
-- ⚠️ Lightly covered: prereq sequencing (16 spokes — FL, GA, MD, NC, SC, DE, MA, RI, NY, PA, DC, CT, NH, TN, VA, VT; detector exhausted — all covered states have spokes), hybrid-course-density (9 spokes — ME, MD, MA, VA, SC, NC, KY, AL, NY; detector exhausted — no more slice data for covered states), late-start-by-state (15 spokes — NH, GA, SC, TN, MD, NC, DE, RI, FL, KY, MS, MA, VT, AL, DC; detector exhausted — all covered states have spokes)
-- ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), course availability patterns, instructor density, program-level content
+- ⚠️ Lightly covered: prereq sequencing (16 spokes — FL, GA, MD, NC, SC, DE, MA, RI, NY, PA, DC, CT, NH, TN, VA, VT; detector exhausted — all covered states have spokes), hybrid-course-density (9 spokes — ME, MD, MA, VA, SC, NC, KY, AL, NY; detector exhausted — no more slice data for covered states), late-start-by-state (15 spokes — NH, GA, SC, TN, MD, NC, DE, RI, FL, KY, MS, MA, VT, AL, DC; detector exhausted — all covered states have spokes), course-availability (hub live; 8 state spokes pending — NC, GA, KY, VA, TN, SC, FL, AL; detector `detect-course-scarcity.ts` active)
+- ❌ Zero coverage: cross-college schedule building (BRIEF.md §3), instructor density, program-level content
 
 The next batches should disproportionately fill the lightly- and zero-covered themes. That's where the real editorial value sits.
 
@@ -187,7 +188,7 @@ These map to BRIEF.md theme areas with 0 or 1 spokes. Each, once seeded with a h
 | Proposed cluster | Hub article topic | Detector | BRIEF.md theme |
 |---|---|---|---|
 | `prereq-chains-guide` (hub exists) | (existing) | ✅ `detect-prereq-bottlenecks.ts` | §7 Prereqs |
-| `course-availability-guide` | "How to Find a Specific Community College Course This Term" | new: scan `data/{state}/courses/` for course-by-term coverage gaps; emit per-state spoke when ≥ 3 popular gen-eds run at < 50% of state's colleges in any term | §2 Registration timing |
+| `course-availability-guide` ✅ hub + detector live | "Which Community College Courses Are Actually Hard to Find" | ✅ `detect-course-scarcity.ts` — classifies courses as universal/scarce/point-source; 8 state spokes pending | §2 Registration timing |
 | `hybrid-course-density-guide` (hub exists; spokes pending) | (existing) | ✅ `detect-hybrid-density.ts` | §8 Online vs hybrid |
 | `late-start-by-state-guide` (hub exists; spokes pending) | (existing) | ✅ `detect-late-start-density.ts` | §2 Registration timing |
 | `cross-college-scheduling-guide` | "Taking Classes at More Than One Community College" (existing standalone) | (no detector needed; per-state spokes editorially driven) | §3 Cross-college |
@@ -239,6 +240,7 @@ If you (Claude) are invoked from inside the workflow, behave identically to a ma
 | `scripts/detect-prereq-bottlenecks.ts` | Trigger D — mine `data/{state}/prereqs.json` for chain depth and blocker courses; emits a candidate per state with ≥5 chains of depth ≥3, plus a precomputed stats slice the drafter must consume. Pattern template for future data-driven detectors |
 | `scripts/detect-hybrid-density.ts` | Trigger E — mine `data/{state}/courses/<college>/<term>.json` for hybrid/online/in-person mode share; emits a candidate per state where hybrid ≥ 3% of sections, plus a precomputed stats slice. The 3% threshold filters out states where hybrid is unmarked (FL, TN, GA, CT, DE, DC categorize blended sections as in-person rather than hybrid in scraped data) |
 | `scripts/detect-late-start-density.ts` | Trigger F — mine `data/{state}/courses/<college>/2026FA*.json` for sections starting > 2 weeks after the standard fall start date; emits a candidate per state where late-start ≥ 5% of fall sections, plus a precomputed stats slice. The LATE_CUTOFF date is hardcoded for the current term — update annually before fall registration |
+| `scripts/detect-course-scarcity.ts` | Trigger G — mine `data/{state}/courses/<college>/<term>.json` for cross-college course coverage; classifies each course as universal/common/selective/scarce/point-source; emits a candidate per state where multiChoiceCount ≥ 50 and collegeCount ≥ 5, plus a precomputed slice at `.blog-pipeline/slices/course-scarcity/{state}.json`. Fires for NC, GA, KY, VA, TN, SC, FL, AL. States without common course numbering (MD, NY) don't fire. Hub article `which-community-college-courses-are-hard-to-find` must exist before spokes are gated |
 | `scripts/snapshot-state.ts` | Capture current registry/data state |
 | `scripts/quality-gates.ts` | Run all quality gates against a draft |
 
