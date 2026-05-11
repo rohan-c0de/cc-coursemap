@@ -18,14 +18,14 @@ export function GET() {
       entries.push({
         url: `${url}/${state.slug}/college/${inst.id}`,
         changeFrequency: "weekly",
-        priority: 0.7,
+        priority: 0.8,
         lastModified,
       });
       if (hasPrograms) {
         entries.push({
           url: `${url}/${state.slug}/college/${inst.id}/programs`,
           changeFrequency: "monthly",
-          priority: 0.65,
+          priority: 0.6,
           lastModified,
         });
       }

@@ -24,7 +24,7 @@ export async function GET() {
           .map((u) => ({
             url: `${url}/${state.slug}/transfer/to/${u.slug}`,
             changeFrequency: "weekly" as const,
-            priority: 0.8,
+            priority: 0.75,
             lastModified: new Date(),
           }));
       })

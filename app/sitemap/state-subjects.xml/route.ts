@@ -26,7 +26,7 @@ export async function GET() {
           entries.push({
             url: `${url}/${state.slug}/subject/${prefix.toLowerCase()}`,
             changeFrequency: "weekly",
-            priority: 0.65,
+            priority: 0.6,
             lastModified: new Date(),
           });
         }
