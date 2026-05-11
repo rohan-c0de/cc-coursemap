@@ -15,6 +15,7 @@
 import fs from "fs";
 import path from "path";
 import { pickRecentSsbTerms } from "../lib/resolve-terms";
+import { fetchWithRetry } from "../lib/http-retry";
 
 const PAGE_SIZE = 500;
 
@@ -206,9 +207,10 @@ async function buildSubjectMap(
   cookies: string
 ): Promise<void> {
   try {
-    const res = await fetch(
+    const res = await fetchWithRetry(
       `${baseUrl}/StudentRegistrationSsb/ssb/classSearch/get_subject?term=${termCode}&offset=1&max=500`,
-      { headers: { Cookie: cookies } }
+      { headers: { Cookie: cookies } },
+      { label: `subjects(${baseUrl})` }
     );
     const subjects: { code: string; description: string }[] = await res.json();
     // Clear stale entries from previous colleges
@@ -253,9 +255,10 @@ async function fetchPrerequisites(
     const results = await Promise.all(
       batch.map(async ([courseKey, crn]) => {
         try {
-          const res = await fetch(
+          const res = await fetchWithRetry(
             `${baseUrl}/StudentRegistrationSsb/ssb/searchResults/getSectionPrerequisites?term=${termCode}&courseReferenceNumber=${crn}`,
-            { headers: { Cookie: cookies } }
+            { headers: { Cookie: cookies } },
+            { label: `prereqs(${crn})`, attempts: 2 }
           );
           const html = await res.text();
           const info = parsePrereqHtml(html);
@@ -280,8 +283,10 @@ async function fetchPrerequisites(
 }
 
 async function getTerms(baseUrl: string): Promise<BannerTerm[]> {
-  const res = await fetch(
-    `${baseUrl}/StudentRegistrationSsb/ssb/classSearch/getTerms?searchTerm=&offset=1&max=30`
+  const res = await fetchWithRetry(
+    `${baseUrl}/StudentRegistrationSsb/ssb/classSearch/getTerms?searchTerm=&offset=1&max=30`,
+    {},
+    { label: `getTerms(${baseUrl})` }
   );
   return res.json();
 }
@@ -296,9 +301,11 @@ async function searchSections(
 
   while (true) {
     const url = `${baseUrl}/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_term=${termCode}&pageOffset=${offset}&pageMaxSize=${PAGE_SIZE}&sortColumn=subjectDescription&sortDirection=asc`;
-    const res = await fetch(url, {
-      headers: { Cookie: cookies },
-    });
+    const res = await fetchWithRetry(
+      url,
+      { headers: { Cookie: cookies } },
+      { label: `sections(${baseUrl}, offset=${offset})` }
+    );
     const data = await res.json();
 
     if (!data.success || !data.data || data.data.length === 0) break;
@@ -316,14 +323,15 @@ async function initSession(
   baseUrl: string,
   termCode: string
 ): Promise<string> {
-  const res1 = await fetch(
+  const res1 = await fetchWithRetry(
     `${baseUrl}/StudentRegistrationSsb/ssb/classSearch/classSearch`,
-    { redirect: "manual" }
+    { redirect: "manual" },
+    { label: `initSession.classSearch(${baseUrl})` }
   );
   const setCookies = res1.headers.getSetCookie?.() || [];
   const cookies = setCookies.map((c) => c.split(";")[0]).join("; ");
 
-  await fetch(
+  await fetchWithRetry(
     `${baseUrl}/StudentRegistrationSsb/ssb/term/search?mode=search`,
     {
       method: "POST",
@@ -332,7 +340,8 @@ async function initSession(
         Cookie: cookies,
       },
       body: `term=${termCode}&studyPath=&studyPathText=&startDatepicker=&endDatepicker=`,
-    }
+    },
+    { label: `initSession.term(${baseUrl})` }
   );
 
   return cookies;
@@ -408,6 +417,23 @@ async function scrapeCollege(slug: string, baseUrl: string): Promise<void> {
     });
 
     const outFile = path.join(outDir, `${standardTerm}.json`);
+    // Guard against silently overwriting good data with an empty result —
+    // CLAUDE.md invariant #4. If the source returned 0 sections but the
+    // previous scrape had data, treat this run as a transient failure and
+    // skip the write so the existing file stays intact.
+    if (converted.length === 0 && fs.existsSync(outFile)) {
+      try {
+        const prev = JSON.parse(fs.readFileSync(outFile, "utf-8"));
+        if (Array.isArray(prev) && prev.length > 0) {
+          console.warn(
+            `  ⚠ ${standardTerm}: scraper returned 0 sections but existing file has ${prev.length}; keeping previous data`
+          );
+          continue;
+        }
+      } catch {
+        // Existing file unreadable — fall through and write the empty result
+      }
+    }
     fs.writeFileSync(outFile, JSON.stringify(converted, null, 2));
     const withPrereqs = converted.filter((c) => c.prerequisite_text).length;
     console.log(
@@ -450,17 +476,39 @@ async function main() {
     targets = Object.entries(BANNER_COLLEGES);
   }
 
+  // Per-college isolation: a durable outage at one source (issue #161 —
+  // Harford Banner) must not abandon every later college's data. We log
+  // the failure and continue. The scraper exits non-zero only if every
+  // college failed; partial success keeps the workflow's `set -e` loop
+  // moving on to the next script (banner8, custom).
+  const failed: { slug: string; error: string }[] = [];
   for (const [slug, baseUrl] of targets) {
-    await scrapeCollege(slug, baseUrl);
+    try {
+      await scrapeCollege(slug, baseUrl);
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e);
+      console.error(`\n[!] ${slug} failed: ${msg}`);
+      failed.push({ slug, error: msg });
+    }
   }
 
+  const successCount = targets.length - failed.length;
+
   // Auto-import into Supabase
-  if (!args.includes("--no-import")) {
+  if (!args.includes("--no-import") && successCount > 0) {
     const { importCoursesToSupabase } = await import("../lib/supabase-import");
     await importCoursesToSupabase("md");
   }
 
-  console.log("\nDone.");
+  console.log(
+    `\nDone. ${successCount}/${targets.length} colleges scraped successfully.`
+  );
+  if (failed.length > 0) {
+    console.log(`Failed: ${failed.map((f) => f.slug).join(", ")}`);
+  }
+  if (successCount === 0) {
+    process.exit(1);
+  }
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
