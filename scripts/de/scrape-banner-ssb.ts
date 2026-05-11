@@ -16,6 +16,7 @@
 import fs from "fs";
 import path from "path";
 import { pickRecentSsbTerms } from "../lib/resolve-terms";
+import { safeWriteSections } from "../lib/safe-write-sections";
 
 const PAGE_SIZE = 500;
 const BASE_URL = "https://banner.dtcc.edu";
@@ -478,7 +479,8 @@ async function scrapeTerm(term: BannerTerm): Promise<number> {
     fs.mkdirSync(outDir, { recursive: true });
 
     const outFile = path.join(outDir, `${standardTerm}.json`);
-    fs.writeFileSync(outFile, JSON.stringify(converted, null, 2));
+    const wrote = safeWriteSections(outFile, converted, standardTerm);
+    if (!wrote) return 0;
     const withPrereqs = converted.filter((c) => c.prerequisite_text).length;
     console.log(
       `  → ${converted.length} sections written to ${standardTerm}.json (${withPrereqs} with prereqs)`

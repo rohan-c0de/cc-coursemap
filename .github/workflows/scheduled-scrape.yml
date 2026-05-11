@@ -151,18 +151,50 @@ jobs:
           # can write to prod from this workflow. See #59 design doc.
           SUPABASE_SERVICE_ROLE_KEY: ""
         run: |
-          set -e
+          # Per-script isolation: one bad script must not abort the rest of
+          # the leg. Without this, the first non-zero exit (one college's
+          # source 404'd, one Banner connect-timed-out) takes every later
+          # script in the same matrix entry offline — see issues #159, #160,
+          # #161 and the May 2026 scheduled-scrape failures where one bad
+          # PDF download killed seven NC college scrapes.
+          #
+          # We capture each script's exit code, log it, and continue. The
+          # step fails (exit 1) only if every script in the leg failed,
+          # preserving the red-x signal for genuine outages while letting
+          # partial successes ship their data through the rest of the
+          # workflow (upload, diff, commit).
           term_arg="${{ steps.terms.outputs.term_arg }}"
-          echo "${{ matrix.scripts }}" | while IFS= read -r script; do
+          succeeded=0
+          failed_scripts=()
+          while IFS= read -r script; do
             [ -z "$script" ] && continue
             echo "::group::$script"
+            rc=0
             if [ -n "$term_arg" ]; then
-              npx tsx "$script" --no-import --term "$term_arg"
+              npx tsx "$script" --no-import --term "$term_arg" || rc=$?
             else
-              npx tsx "$script" --no-import
+              npx tsx "$script" --no-import || rc=$?
             fi
             echo "::endgroup::"
-          done
+            if [ "$rc" -eq 0 ]; then
+              succeeded=$((succeeded + 1))
+            else
+              echo "::warning title=Scraper script failed::$script exited with code $rc"
+              failed_scripts+=("$script")
+            fi
+          done <<< "${{ matrix.scripts }}"
+
+          echo ""
+          echo "Leg summary: ${succeeded} script(s) succeeded, ${#failed_scripts[@]} failed"
+          if [ ${#failed_scripts[@]} -gt 0 ]; then
+            printf '  failed: %s\n' "${failed_scripts[@]}"
+          fi
+          # Red the step only when nothing worked. Partial success is
+          # still a success — the data that did get scraped should ship.
+          if [ "$succeeded" -eq 0 ]; then
+            echo "::error::All scripts in this leg failed"
+            exit 1
+          fi
 
       - name: Upload scraped data
         # Run even when the scrape step failed so any diagnostic dumps the
