@@ -1,0 +1,40 @@
+{
+  "unitid": 206011,
+  "schoolName": "Terra State Community College",
+  "state": "OH",
+  "city": "Fremont",
+  "schoolUrl": "https://terra.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:15:24.252Z",
+  "size": 1028,
+  "shareFirstGeneration": 0.528057554,
+  "cost": {
+    "tuitionInState": 5748,
+    "tuitionOutOfState": 8544,
+    "attendanceAcademicYear": 23647,
+    "avgNetPricePublic": 17345,
+    "bookSupply": 1268,
+    "roomBoardOffCampus": 14280,
+    "netPriceByIncome": {
+      "0_30000": 16285,
+      "30001_48000": 17371,
+      "48001_75000": 19266,
+      "75001_110000": 19553,
+      "110001_plus": 22802
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2724,
+    "federalLoanRate": 0.2245,
+    "medianDebtCompleters": 17500
+  },
+  "completion": {
+    "completionRate150nt": 0.3879,
+    "completionRate200nt": 0.3861,
+    "transferRate": 0.303
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 36612
+  }
+}

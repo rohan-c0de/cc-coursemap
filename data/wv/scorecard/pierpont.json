@@ -1,0 +1,40 @@
+{
+  "unitid": 443492,
+  "schoolName": "Pierpont Community and Technical College",
+  "state": "WV",
+  "city": "Fairmont",
+  "schoolUrl": "https://www.pierpont.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:16:01.402Z",
+  "size": 959,
+  "shareFirstGeneration": 0.4822888283,
+  "cost": {
+    "tuitionInState": 5762,
+    "tuitionOutOfState": 13660,
+    "attendanceAcademicYear": 14707,
+    "avgNetPricePublic": 8325,
+    "bookSupply": 1173,
+    "roomBoardOffCampus": 11261,
+    "netPriceByIncome": {
+      "0_30000": 7780,
+      "30001_48000": 6956,
+      "48001_75000": 9360,
+      "75001_110000": 13453,
+      "110001_plus": 14707
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2192,
+    "federalLoanRate": 0.1398,
+    "medianDebtCompleters": 12110
+  },
+  "completion": {
+    "completionRate150nt": 0.4215,
+    "completionRate200nt": 0.4169,
+    "transferRate": 0.0843
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 35132
+  }
+}

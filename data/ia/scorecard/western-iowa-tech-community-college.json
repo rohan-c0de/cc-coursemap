@@ -1,0 +1,40 @@
+{
+  "unitid": 154572,
+  "schoolName": "Western Iowa Tech Community College",
+  "state": "IA",
+  "city": "Sioux City",
+  "schoolUrl": "https://www.witcc.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:13:40.520Z",
+  "size": 2647,
+  "shareFirstGeneration": 0.4493506494,
+  "cost": {
+    "tuitionInState": 5186,
+    "tuitionOutOfState": 5330,
+    "attendanceAcademicYear": 14894,
+    "avgNetPricePublic": 8770,
+    "bookSupply": 1200,
+    "roomBoardOffCampus": 6795,
+    "netPriceByIncome": {
+      "0_30000": 7662,
+      "30001_48000": 7636,
+      "48001_75000": 8887,
+      "75001_110000": 10033,
+      "110001_plus": 12955
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2739,
+    "federalLoanRate": 0.1729,
+    "medianDebtCompleters": 11000
+  },
+  "completion": {
+    "completionRate150nt": 0.4955,
+    "completionRate200nt": 0.5015,
+    "transferRate": 0.0664
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 40473
+  }
+}

@@ -32,6 +32,8 @@ const FIELDS = [
   "school.state",
   "school.city",
   "school.school_url",
+  "school.ownership",
+  "school.degrees_awarded.predominant",
   "latest.student.size",
   "latest.student.share_firstgeneration",
   "latest.cost.tuition.in_state",
@@ -71,6 +73,17 @@ export interface ScorecardRecord {
   state: string;
   city: string;
   schoolUrl: string | null;
+  /**
+   * 1 = public, 2 = private nonprofit, 3 = private for-profit.
+   * Community colleges in this codebase should all be ownership === 1.
+   */
+  ownership: number | null;
+  /**
+   * Predominant degree awarded: 1 = certificate, 2 = associate's,
+   * 3 = bachelor's, 4 = graduate. Used during the unitid-mapping flow
+   * to filter to two-year institutions.
+   */
+  predominantDegree: number | null;
   /** When this record was fetched, ISO 8601. Used for freshness checks. */
   fetchedAt: string;
 
@@ -130,6 +143,8 @@ interface ScorecardApiRow {
   "school.state"?: string | null;
   "school.city"?: string | null;
   "school.school_url"?: string | null;
+  "school.ownership"?: number | null;
+  "school.degrees_awarded.predominant"?: number | null;
   "latest.student.size"?: number | null;
   "latest.student.share_firstgeneration"?: number | null;
   "latest.cost.tuition.in_state"?: number | null;
@@ -178,6 +193,8 @@ function rowToRecord(row: ScorecardApiRow): ScorecardRecord {
     state: row["school.state"] ?? "",
     city: row["school.city"] ?? "",
     schoolUrl: row["school.school_url"] ?? null,
+    ownership: row["school.ownership"] ?? null,
+    predominantDegree: row["school.degrees_awarded.predominant"] ?? null,
     fetchedAt: new Date().toISOString(),
     size: row["latest.student.size"] ?? null,
     shareFirstGeneration: row["latest.student.share_firstgeneration"] ?? null,

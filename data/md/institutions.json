@@ -44,7 +44,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.allegany.edu"
-    }
+    },
+    "unitid": 161688
   },
   {
     "id": "aacc",
@@ -97,7 +98,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.aacc.edu"
-    }
+    },
+    "unitid": 161767
   },
   {
     "id": "bccc",
@@ -144,7 +146,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.bccc.edu"
-    }
+    },
+    "unitid": 161864
   },
   {
     "id": "carroll",
@@ -191,7 +194,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.carrollcc.edu"
-    }
+    },
+    "unitid": 405872
   },
   {
     "id": "cecil",
@@ -244,7 +248,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.cecil.edu"
-    }
+    },
+    "unitid": 162104
   },
   {
     "id": "chesapeake",
@@ -291,7 +296,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.chesapeake.edu"
-    }
+    },
+    "unitid": 162168
   },
   {
     "id": "csm",
@@ -350,7 +356,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.csmd.edu"
-    }
+    },
+    "unitid": 162122
   },
   {
     "id": "ccbc",
@@ -409,7 +416,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.ccbcmd.edu"
-    }
+    },
+    "unitid": 434672
   },
   {
     "id": "frederick",
@@ -462,7 +470,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.frederick.edu"
-    }
+    },
+    "unitid": 162557
   },
   {
     "id": "garrett",
@@ -509,7 +518,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.garrettcollege.edu"
-    }
+    },
+    "unitid": 162609
   },
   {
     "id": "hagerstown",
@@ -556,7 +566,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.hagerstowncc.edu"
-    }
+    },
+    "unitid": 162690
   },
   {
     "id": "harford",
@@ -603,7 +614,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.harford.edu"
-    }
+    },
+    "unitid": 162706
   },
   {
     "id": "howardcc",
@@ -650,7 +662,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.howardcc.edu"
-    }
+    },
+    "unitid": 162779
   },
   {
     "id": "montgomery",
@@ -673,7 +686,7 @@
       {
         "name": "Germantown Campus",
         "lat": 39.1771,
-        "lng": -77.2680,
+        "lng": -77.268,
         "address": "20200 Observation Dr, Germantown, MD 20876"
       }
     ],
@@ -709,7 +722,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.montgomerycollege.edu"
-    }
+    },
+    "unitid": 163426
   },
   {
     "id": "pgcc",
@@ -762,7 +776,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.pgcc.edu"
-    }
+    },
+    "unitid": 163657
   },
   {
     "id": "wor-wic",
@@ -810,6 +825,7 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.worwic.edu"
-    }
+    },
+    "unitid": 164313
   }
 ]

@@ -1,0 +1,40 @@
+{
+  "unitid": 154059,
+  "schoolName": "North Iowa Area Community College",
+  "state": "IA",
+  "city": "Mason City",
+  "schoolUrl": "www.niacc.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:13:37.747Z",
+  "size": 1320,
+  "shareFirstGeneration": 0.311790393,
+  "cost": {
+    "tuitionInState": 6653,
+    "tuitionOutOfState": 9551,
+    "attendanceAcademicYear": 17040,
+    "avgNetPricePublic": 10010,
+    "bookSupply": 1830,
+    "roomBoardOffCampus": 7758,
+    "netPriceByIncome": {
+      "0_30000": 8471,
+      "30001_48000": 7723,
+      "48001_75000": 9644,
+      "75001_110000": 12376,
+      "110001_plus": 13705
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2359,
+    "federalLoanRate": 0.2036,
+    "medianDebtCompleters": 9500
+  },
+  "completion": {
+    "completionRate150nt": 0.6054,
+    "completionRate200nt": 0.5598,
+    "transferRate": 0.1273
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 43462
+  }
+}

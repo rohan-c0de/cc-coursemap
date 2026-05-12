@@ -1,0 +1,40 @@
+{
+  "unitid": 101736,
+  "schoolName": "Northwest Shoals Community College",
+  "state": "AL",
+  "city": "Muscle Shoals",
+  "schoolUrl": "https://www.nwscc.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:13:01.072Z",
+  "size": 1969,
+  "shareFirstGeneration": 0.5141117875,
+  "cost": {
+    "tuitionInState": 5131,
+    "tuitionOutOfState": 9001,
+    "attendanceAcademicYear": 11340,
+    "avgNetPricePublic": 2838,
+    "bookSupply": 1600,
+    "roomBoardOffCampus": 10000,
+    "netPriceByIncome": {
+      "0_30000": 1356,
+      "30001_48000": 2081,
+      "48001_75000": 4259,
+      "75001_110000": 7601,
+      "110001_plus": 10089
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2669,
+    "federalLoanRate": 0.2425,
+    "medianDebtCompleters": 10000
+  },
+  "completion": {
+    "completionRate150nt": 0.3873,
+    "completionRate200nt": 0.3897,
+    "transferRate": 0.1275
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 33828
+  }
+}

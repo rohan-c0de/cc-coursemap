@@ -1,0 +1,40 @@
+{
+  "unitid": 203678,
+  "schoolName": "James A. Rhodes State College",
+  "state": "OH",
+  "city": "Lima",
+  "schoolUrl": "www.rhodesstate.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:15:15.772Z",
+  "size": 1590,
+  "shareFirstGeneration": 0.4724809483,
+  "cost": {
+    "tuitionInState": 4560,
+    "tuitionOutOfState": 9120,
+    "attendanceAcademicYear": 14578,
+    "avgNetPricePublic": 8757,
+    "bookSupply": 1400,
+    "roomBoardOffCampus": 7330,
+    "netPriceByIncome": {
+      "0_30000": 7461,
+      "30001_48000": 7850,
+      "48001_75000": 10275,
+      "75001_110000": 11062,
+      "110001_plus": 13392
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.1515,
+    "federalLoanRate": 0.0774,
+    "medianDebtCompleters": 12000
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 41855
+  }
+}

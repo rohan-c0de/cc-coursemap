@@ -48,7 +48,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 183150
   },
   {
     "id": "lrcc",
@@ -93,7 +94,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 183123
   },
   {
     "id": "mccnh",
@@ -138,7 +140,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 183132
   },
   {
     "id": "nashuacc",
@@ -183,7 +186,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 183141
   },
   {
     "id": "nhti",
@@ -228,7 +232,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 183099
   },
   {
     "id": "rvcc",
@@ -244,7 +249,7 @@
       },
       {
         "name": "Keene Academic Center",
-        "lat": 42.9370,
+        "lat": 42.937,
         "lng": -72.2784,
         "address": "438 Washington St, Keene, NH 03431"
       },
@@ -285,7 +290,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 183114
   },
   {
     "id": "wmcc",
@@ -330,6 +336,7 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 183105
   }
 ]

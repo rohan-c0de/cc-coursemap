@@ -1,0 +1,40 @@
+{
+  "unitid": 133021,
+  "schoolName": "Chipola College",
+  "state": "FL",
+  "city": "Marianna",
+  "schoolUrl": "https://www.chipola.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:13:07.773Z",
+  "size": 1312,
+  "shareFirstGeneration": 0.5083969466,
+  "cost": {
+    "tuitionInState": 3120,
+    "tuitionOutOfState": 8950,
+    "attendanceAcademicYear": 9262,
+    "avgNetPricePublic": 1133,
+    "bookSupply": 1050,
+    "roomBoardOffCampus": 5388,
+    "netPriceByIncome": {
+      "0_30000": 210,
+      "30001_48000": 1109,
+      "48001_75000": 3279,
+      "75001_110000": 6537,
+      "110001_plus": 6917
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2676,
+    "federalLoanRate": 0,
+    "medianDebtCompleters": null
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 37378
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "unitid": 251260,
+  "schoolName": "Southern Union State Community College",
+  "state": "AL",
+  "city": "Wadley",
+  "schoolUrl": "www.suscc.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:13:05.599Z",
+  "size": 4173,
+  "shareFirstGeneration": 0.4423157018,
+  "cost": {
+    "tuitionInState": 5040,
+    "tuitionOutOfState": 8910,
+    "attendanceAcademicYear": 13637,
+    "avgNetPricePublic": 6142,
+    "bookSupply": 1700,
+    "roomBoardOffCampus": 7600,
+    "netPriceByIncome": {
+      "0_30000": 3543,
+      "30001_48000": 5160,
+      "48001_75000": 7173,
+      "75001_110000": 10247,
+      "110001_plus": 10953
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.3405,
+    "federalLoanRate": 0.2247,
+    "medianDebtCompleters": 11000
+  },
+  "completion": {
+    "completionRate150nt": 0.3578,
+    "completionRate200nt": 0.3388,
+    "transferRate": 0.2959
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 36597
+  }
+}

@@ -53,7 +53,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.atlantic.edu"
-    }
+    },
+    "unitid": 183655
   },
   {
     "id": "bergen",
@@ -63,7 +64,7 @@
     "campuses": [
       {
         "name": "Main Campus (Paramus)",
-        "lat": 40.9590,
+        "lat": 40.959,
         "lng": -74.0726,
         "address": "400 Paramus Rd, Paramus, NJ 07652"
       }
@@ -103,7 +104,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.bergen.edu"
-    }
+    },
+    "unitid": 183743
   },
   {
     "id": "brookdale",
@@ -153,7 +155,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.brookdalecc.edu"
-    }
+    },
+    "unitid": 183859
   },
   {
     "id": "camden",
@@ -169,7 +172,7 @@
       },
       {
         "name": "Camden City Campus",
-        "lat": 39.9440,
+        "lat": 39.944,
         "lng": -75.1198,
         "address": "200 N Broadway, Camden, NJ 08102"
       }
@@ -209,7 +212,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.camdencc.edu"
-    }
+    },
+    "unitid": 183938
   },
   {
     "id": "ccm",
@@ -259,7 +263,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.ccm.edu"
-    }
+    },
+    "unitid": 184180
   },
   {
     "id": "essex",
@@ -269,7 +274,7 @@
     "campuses": [
       {
         "name": "Main Campus (Newark)",
-        "lat": 40.7420,
+        "lat": 40.742,
         "lng": -74.1821,
         "address": "303 University Ave, Newark, NJ 07102"
       }
@@ -309,7 +314,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.essex.edu"
-    }
+    },
+    "unitid": 184481
   },
   {
     "id": "hccc",
@@ -359,7 +365,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.hccc.edu"
-    }
+    },
+    "unitid": 184995
   },
   {
     "id": "mercer",
@@ -415,7 +422,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.mccc.edu"
-    }
+    },
+    "unitid": 185509
   },
   {
     "id": "middlesex",
@@ -471,7 +479,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.middlesexcc.edu"
-    }
+    },
+    "unitid": 185536
   },
   {
     "id": "ocean",
@@ -521,7 +530,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.ocean.edu"
-    }
+    },
+    "unitid": 185873
   },
   {
     "id": "passaic",
@@ -571,7 +581,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.pccc.edu"
-    }
+    },
+    "unitid": 186034
   },
   {
     "id": "rvcc",
@@ -581,7 +592,7 @@
     "campuses": [
       {
         "name": "Main Campus (Branchburg)",
-        "lat": 40.5640,
+        "lat": 40.564,
         "lng": -74.6826,
         "address": "118 Lamington Rd, Branchburg, NJ 08876"
       }
@@ -621,7 +632,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.raritanval.edu"
-    }
+    },
+    "unitid": 186645
   },
   {
     "id": "rcbc",
@@ -671,7 +683,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.rcbc.edu"
-    }
+    },
+    "unitid": 183877
   },
   {
     "id": "rcsj-cumberland",
@@ -681,7 +694,7 @@
     "campuses": [
       {
         "name": "Cumberland Campus (Vineland)",
-        "lat": 39.4720,
+        "lat": 39.472,
         "lng": -75.0202,
         "address": "3322 College Dr, Vineland, NJ 08360"
       }
@@ -721,7 +734,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.rcsj.edu"
-    }
+    },
+    "unitid": 184205
   },
   {
     "id": "rcsj-gloucester",
@@ -771,7 +785,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.rcsj.edu"
-    }
+    },
+    "unitid": 184791
   },
   {
     "id": "salem",
@@ -821,7 +836,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.salemcc.edu"
-    }
+    },
+    "unitid": 186469
   },
   {
     "id": "sussex",
@@ -832,7 +848,7 @@
       {
         "name": "Main Campus (Newton)",
         "lat": 41.0463,
-        "lng": -74.7680,
+        "lng": -74.768,
         "address": "1 College Hill Rd, Newton, NJ 07860"
       }
     ],
@@ -871,7 +887,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.sussex.edu"
-    }
+    },
+    "unitid": 247603
   },
   {
     "id": "ucnj",
@@ -927,7 +944,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.ucc.edu"
-    }
+    },
+    "unitid": 187198
   },
   {
     "id": "warren",
@@ -977,6 +995,7 @@
       ],
       "last_verified": null,
       "source_url": "https://www.warren.edu"
-    }
+    },
+    "unitid": 245625
   }
 ]

@@ -1,0 +1,40 @@
+{
+  "unitid": 130907,
+  "schoolName": "Delaware Technical Community College-Terry",
+  "state": "DE",
+  "city": "Dover",
+  "schoolUrl": "https://www.dtcc.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:13:06.864Z",
+  "size": 10867,
+  "shareFirstGeneration": 0.4992614476,
+  "cost": {
+    "tuitionInState": 5445,
+    "tuitionOutOfState": 12308,
+    "attendanceAcademicYear": 17232,
+    "avgNetPricePublic": 11578,
+    "bookSupply": 2000,
+    "roomBoardOffCampus": 16860,
+    "netPriceByIncome": {
+      "0_30000": 10934,
+      "30001_48000": 10973,
+      "48001_75000": 12317,
+      "75001_110000": 14178,
+      "110001_plus": 14968
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.3829,
+    "federalLoanRate": 0.1379,
+    "medianDebtCompleters": 10500
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 41448
+  }
+}

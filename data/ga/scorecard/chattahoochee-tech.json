@@ -1,0 +1,40 @@
+{
+  "unitid": 140331,
+  "schoolName": "Chattahoochee Technical College",
+  "state": "GA",
+  "city": "Marietta",
+  "schoolUrl": "www.chattahoocheetech.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:13:24.671Z",
+  "size": 8727,
+  "shareFirstGeneration": 0.4184714961,
+  "cost": {
+    "tuitionInState": 3540,
+    "tuitionOutOfState": 6108,
+    "attendanceAcademicYear": 12532,
+    "avgNetPricePublic": 3407,
+    "bookSupply": 1200,
+    "roomBoardOffCampus": 10408,
+    "netPriceByIncome": {
+      "0_30000": 2561,
+      "30001_48000": 2622,
+      "48001_75000": 5697,
+      "75001_110000": 7410,
+      "110001_plus": 10158
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.3404,
+    "federalLoanRate": 0,
+    "medianDebtCompleters": null
+  },
+  "completion": {
+    "completionRate150nt": 0.3827,
+    "completionRate200nt": 0.4652,
+    "transferRate": 0.128
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 37138
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "unitid": 199856,
+  "schoolName": "Wake Technical Community College",
+  "state": "NC",
+  "city": "Raleigh",
+  "schoolUrl": "www.waketech.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:14:55.719Z",
+  "size": 19675,
+  "shareFirstGeneration": 0.3840341255,
+  "cost": {
+    "tuitionInState": 2254,
+    "tuitionOutOfState": 6862,
+    "attendanceAcademicYear": 15953,
+    "avgNetPricePublic": 8759,
+    "bookSupply": 1648,
+    "roomBoardOffCampus": 17334,
+    "netPriceByIncome": {
+      "0_30000": 6682,
+      "30001_48000": 7486,
+      "48001_75000": 9108,
+      "75001_110000": 12603,
+      "110001_plus": 15067
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.283,
+    "federalLoanRate": 0.1556,
+    "medianDebtCompleters": 12000
+  },
+  "completion": {
+    "completionRate150nt": 0.3296,
+    "completionRate200nt": 0.3908,
+    "transferRate": 0.1769
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 41769
+  }
+}

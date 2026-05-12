@@ -1,0 +1,40 @@
+{
+  "unitid": 101143,
+  "schoolName": "Enterprise State Community College",
+  "state": "AL",
+  "city": "Enterprise",
+  "schoolUrl": "www.escc.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:12:54.356Z",
+  "size": 1585,
+  "shareFirstGeneration": 0.4218916047,
+  "cost": {
+    "tuitionInState": 5100,
+    "tuitionOutOfState": 8970,
+    "attendanceAcademicYear": 19956,
+    "avgNetPricePublic": 12609,
+    "bookSupply": 1500,
+    "roomBoardOffCampus": 14400,
+    "netPriceByIncome": {
+      "0_30000": 11191,
+      "30001_48000": 12347,
+      "48001_75000": 14457,
+      "75001_110000": 16322,
+      "110001_plus": 17300
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.3496,
+    "federalLoanRate": 0.1882,
+    "medianDebtCompleters": 7499
+  },
+  "completion": {
+    "completionRate150nt": 0.4176,
+    "completionRate200nt": 0.3259,
+    "transferRate": 0.1853
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 42572
+  }
+}

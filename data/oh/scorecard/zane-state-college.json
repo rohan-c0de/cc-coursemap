@@ -1,0 +1,40 @@
+{
+  "unitid": 204255,
+  "schoolName": "Zane State College",
+  "state": "OH",
+  "city": "Zanesville",
+  "schoolUrl": "www.zanestate.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:15:17.451Z",
+  "size": 715,
+  "shareFirstGeneration": 0.4825253664,
+  "cost": {
+    "tuitionInState": 6006,
+    "tuitionOutOfState": 11766,
+    "attendanceAcademicYear": 13935,
+    "avgNetPricePublic": 8062,
+    "bookSupply": 1600,
+    "roomBoardOffCampus": 6328,
+    "netPriceByIncome": {
+      "0_30000": 6648,
+      "30001_48000": 7668,
+      "48001_75000": 8632,
+      "75001_110000": 10907,
+      "110001_plus": 13460
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.1834,
+    "federalLoanRate": 0.113,
+    "medianDebtCompleters": 6834
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 35006
+  }
+}

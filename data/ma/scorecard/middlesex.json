@@ -1,0 +1,40 @@
+{
+  "unitid": 166887,
+  "schoolName": "Middlesex Community College",
+  "state": "MA",
+  "city": "Bedford",
+  "schoolUrl": "https://www.middlesex.mass.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:13:53.302Z",
+  "size": 5412,
+  "shareFirstGeneration": 0.4976355038,
+  "cost": {
+    "tuitionInState": 6048,
+    "tuitionOutOfState": 12120,
+    "attendanceAcademicYear": 10342,
+    "avgNetPricePublic": 2624,
+    "bookSupply": 1200,
+    "roomBoardOffCampus": 13000,
+    "netPriceByIncome": {
+      "0_30000": 943,
+      "30001_48000": 1646,
+      "48001_75000": 1399,
+      "75001_110000": 4356,
+      "110001_plus": 8426
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2,
+    "federalLoanRate": 0.0529,
+    "medianDebtCompleters": 7291
+  },
+  "completion": {
+    "completionRate150nt": 0.2343,
+    "completionRate200nt": 0.2882,
+    "transferRate": 0.2115
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 50651
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "unitid": 199023,
+  "schoolName": "Montgomery Community College",
+  "state": "NC",
+  "city": "Troy",
+  "schoolUrl": "www.montgomery.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:14:46.297Z",
+  "size": 852,
+  "shareFirstGeneration": 0.4524590164,
+  "cost": {
+    "tuitionInState": 2538,
+    "tuitionOutOfState": 8682,
+    "attendanceAcademicYear": 17669,
+    "avgNetPricePublic": 13832,
+    "bookSupply": 2702,
+    "roomBoardOffCampus": 8514,
+    "netPriceByIncome": {
+      "0_30000": 12034,
+      "30001_48000": 14634,
+      "48001_75000": 15251,
+      "75001_110000": 17339,
+      "110001_plus": null
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.3318,
+    "federalLoanRate": 0,
+    "medianDebtCompleters": null
+  },
+  "completion": {
+    "completionRate150nt": 0.8387,
+    "completionRate200nt": 0.5769,
+    "transferRate": 0
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 32742
+  }
+}

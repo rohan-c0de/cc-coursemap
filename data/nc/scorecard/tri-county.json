@@ -1,0 +1,40 @@
+{
+  "unitid": 199795,
+  "schoolName": "Tri-County Community College",
+  "state": "NC",
+  "city": "Murphy",
+  "schoolUrl": "https://www.tricountycc.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:14:54.785Z",
+  "size": 472,
+  "shareFirstGeneration": 0.4590163934,
+  "cost": {
+    "tuitionInState": 2636,
+    "tuitionOutOfState": 8780,
+    "attendanceAcademicYear": 18830,
+    "avgNetPricePublic": 7799,
+    "bookSupply": 1470,
+    "roomBoardOffCampus": 17488,
+    "netPriceByIncome": {
+      "0_30000": 7220,
+      "30001_48000": 7224,
+      "48001_75000": 8984,
+      "75001_110000": 10013,
+      "110001_plus": null
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.289,
+    "federalLoanRate": 0,
+    "medianDebtCompleters": null
+  },
+  "completion": {
+    "completionRate150nt": 0.5429,
+    "completionRate200nt": 0.6087,
+    "transferRate": 0.1
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 32232
+  }
+}

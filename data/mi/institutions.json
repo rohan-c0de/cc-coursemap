@@ -43,7 +43,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://alpenacc.edu"
-    }
+    },
+    "unitid": 168607
   },
   {
     "id": "henry-ford-college",
@@ -89,7 +90,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://hfcc.edu"
-    }
+    },
+    "unitid": 170240
   },
   {
     "id": "jackson-college",
@@ -135,7 +137,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://jccmi.edu"
-    }
+    },
+    "unitid": 170444
   },
   {
     "id": "northwestern-michigan-college",
@@ -181,7 +184,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://nmc.edu"
-    }
+    },
+    "unitid": 171483
   },
   {
     "id": "schoolcraft-community-college-district",
@@ -227,7 +231,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://schoolcraft.edu"
-    }
+    },
+    "unitid": 172200
   },
   {
     "id": "bay-mills-community-college",
@@ -273,7 +278,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://bmcc.edu"
-    }
+    },
+    "unitid": 380359
   },
   {
     "id": "bay-de-noc-community-college",
@@ -319,7 +325,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://baycollege.edu"
-    }
+    },
+    "unitid": 168883
   },
   {
     "id": "mott-community-college",
@@ -365,7 +372,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://mcc.edu"
-    }
+    },
+    "unitid": 169275
   },
   {
     "id": "delta-college",
@@ -411,7 +419,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://delta.edu"
-    }
+    },
+    "unitid": 169521
   },
   {
     "id": "glen-oaks-community-college",
@@ -457,7 +466,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://glenoaks.edu"
-    }
+    },
+    "unitid": 169974
   },
   {
     "id": "gogebic-community-college",
@@ -503,7 +513,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://gogebic.edu"
-    }
+    },
+    "unitid": 169992
   },
   {
     "id": "grand-rapids-community-college",
@@ -549,7 +560,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://grcc.edu"
-    }
+    },
+    "unitid": 170055
   },
   {
     "id": "kalamazoo-valley-community-college",
@@ -595,7 +607,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://kvcc.edu"
-    }
+    },
+    "unitid": 170541
   },
   {
     "id": "kellogg-community-college",
@@ -641,7 +654,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://kellogg.edu"
-    }
+    },
+    "unitid": 170550
   },
   {
     "id": "kirtland-community-college",
@@ -687,7 +701,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://kirtland.edu"
-    }
+    },
+    "unitid": 170587
   },
   {
     "id": "lake-michigan-college",
@@ -733,7 +748,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://lakemichigancollege.edu"
-    }
+    },
+    "unitid": 170620
   },
   {
     "id": "lansing-community-college",
@@ -779,7 +795,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://lcc.edu"
-    }
+    },
+    "unitid": 170657
   },
   {
     "id": "macomb-community-college",
@@ -825,7 +842,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://macomb.edu"
-    }
+    },
+    "unitid": 170790
   },
   {
     "id": "mid-michigan-college",
@@ -871,7 +889,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://midmich.edu"
-    }
+    },
+    "unitid": 171155
   },
   {
     "id": "monroe-county-community-college",
@@ -917,7 +936,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://monroeccc.edu"
-    }
+    },
+    "unitid": 171225
   },
   {
     "id": "montcalm-community-college",
@@ -963,7 +983,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://montcalm.edu"
-    }
+    },
+    "unitid": 171234
   },
   {
     "id": "muskegon-community-college",
@@ -1009,7 +1030,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://muskegoncc.edu"
-    }
+    },
+    "unitid": 171304
   },
   {
     "id": "north-central-michigan-college",
@@ -1055,7 +1077,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://ncmich.edu"
-    }
+    },
+    "unitid": 171395
   },
   {
     "id": "oakland-community-college",
@@ -1101,7 +1124,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://oaklandcc.edu"
-    }
+    },
+    "unitid": 171535
   },
   {
     "id": "st-clair-county-community-college",
@@ -1147,7 +1171,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://sc4.edu"
-    }
+    },
+    "unitid": 172291
   },
   {
     "id": "southwestern-michigan-college",
@@ -1193,7 +1218,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://swmich.edu"
-    }
+    },
+    "unitid": 172307
   },
   {
     "id": "washtenaw-community-college",
@@ -1239,7 +1265,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://wccnet.edu"
-    }
+    },
+    "unitid": 172617
   },
   {
     "id": "wayne-county-community-college-district",
@@ -1285,7 +1312,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://wcccd.edu"
-    }
+    },
+    "unitid": 172635
   },
   {
     "id": "west-shore-community-college",
@@ -1331,7 +1359,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://westshore.edu"
-    }
+    },
+    "unitid": 172671
   },
   {
     "id": "saginaw-chippewa-tribal-college",
@@ -1377,7 +1406,8 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://sagchip.edu"
-    }
+    },
+    "unitid": 441070
   },
   {
     "id": "keweenaw-bay-ojibwa-community-college",
@@ -1423,6 +1453,7 @@
       ],
       "last_verified": "2026-05-11",
       "source_url": "https://kbocc.edu"
-    }
+    },
+    "unitid": 461315
   }
 ]

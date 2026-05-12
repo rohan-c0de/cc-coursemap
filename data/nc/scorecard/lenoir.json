@@ -1,0 +1,40 @@
+{
+  "unitid": 198817,
+  "schoolName": "Lenoir Community College",
+  "state": "NC",
+  "city": "Kinston",
+  "schoolUrl": "https://www.lenoircc.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:14:43.803Z",
+  "size": 1469,
+  "shareFirstGeneration": 0.4756756757,
+  "cost": {
+    "tuitionInState": 2578,
+    "tuitionOutOfState": 8722,
+    "attendanceAcademicYear": 14929,
+    "avgNetPricePublic": 4127,
+    "bookSupply": 2250,
+    "roomBoardOffCampus": 8062,
+    "netPriceByIncome": {
+      "0_30000": 3261,
+      "30001_48000": 3366,
+      "48001_75000": 5973,
+      "75001_110000": 10681,
+      "110001_plus": null
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.4206,
+    "federalLoanRate": 0,
+    "medianDebtCompleters": null
+  },
+  "completion": {
+    "completionRate150nt": 0.3568,
+    "completionRate200nt": 0.3267,
+    "transferRate": 0.2216
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 33866
+  }
+}

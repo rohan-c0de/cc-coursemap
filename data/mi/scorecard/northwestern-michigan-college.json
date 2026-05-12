@@ -1,0 +1,40 @@
+{
+  "unitid": 171483,
+  "schoolName": "Northwestern Michigan College",
+  "state": "MI",
+  "city": "Traverse City",
+  "schoolUrl": "https://www.nmc.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:14:09.651Z",
+  "size": 2813,
+  "shareFirstGeneration": 0.3807138384,
+  "cost": {
+    "tuitionInState": 5860,
+    "tuitionOutOfState": 13476,
+    "attendanceAcademicYear": 13753,
+    "avgNetPricePublic": 6231,
+    "bookSupply": 300,
+    "roomBoardOffCampus": 12850,
+    "netPriceByIncome": {
+      "0_30000": 5237,
+      "30001_48000": 3168,
+      "48001_75000": 7568,
+      "75001_110000": 8909,
+      "110001_plus": 11630
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.3001,
+    "federalLoanRate": 0.2139,
+    "medianDebtCompleters": 12500
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 38167
+  }
+}

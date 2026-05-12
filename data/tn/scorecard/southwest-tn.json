@@ -1,0 +1,40 @@
+{
+  "unitid": 221485,
+  "schoolName": "Southwest Tennessee Community College",
+  "state": "TN",
+  "city": "Memphis",
+  "schoolUrl": "www.southwest.tn.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:15:45.161Z",
+  "size": 5047,
+  "shareFirstGeneration": 0.4572353213,
+  "cost": {
+    "tuitionInState": 4778,
+    "tuitionOutOfState": 17750,
+    "attendanceAcademicYear": 12999,
+    "avgNetPricePublic": 4754,
+    "bookSupply": 1545,
+    "roomBoardOffCampus": 9431,
+    "netPriceByIncome": {
+      "0_30000": 4286,
+      "30001_48000": 4304,
+      "48001_75000": 6567,
+      "75001_110000": 6796,
+      "110001_plus": 6815
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.4135,
+    "federalLoanRate": 0,
+    "medianDebtCompleters": null
+  },
+  "completion": {
+    "completionRate150nt": 0.1899,
+    "completionRate200nt": 0.2376,
+    "transferRate": 0.1564
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 34071
+  }
+}

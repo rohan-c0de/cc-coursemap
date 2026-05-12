@@ -41,7 +41,7 @@
           "available": true,
           "age_threshold": 62,
           "cost": "free",
-          "notes": "Delaware Code Title 14, \u00A79009A allows Delaware residents aged 62+ to audit courses at Del Tech tuition-free on a space-available basis. Fees may still apply.",
+          "notes": "Delaware Code Title 14, §9009A allows Delaware residents aged 62+ to audit courses at Del Tech tuition-free on a space-available basis. Fees may still apply.",
           "source_url": "https://www.dtcc.edu"
         }
       },
@@ -67,6 +67,7 @@
       ],
       "last_verified": "2026-04-05",
       "source_url": "https://www.dtcc.edu"
-    }
+    },
+    "unitid": 130907
   }
 ]

@@ -1,0 +1,40 @@
+{
+  "unitid": 233903,
+  "schoolName": "Virginia Highlands Community College",
+  "state": "VA",
+  "city": "Abingdon",
+  "schoolUrl": "www.vhcc.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:15:56.232Z",
+  "size": 1349,
+  "shareFirstGeneration": 0.5,
+  "cost": {
+    "tuitionInState": 5022,
+    "tuitionOutOfState": 11460,
+    "attendanceAcademicYear": 12955,
+    "avgNetPricePublic": 5375,
+    "bookSupply": 1800,
+    "roomBoardOffCampus": 4150,
+    "netPriceByIncome": {
+      "0_30000": 4927,
+      "30001_48000": 5078,
+      "48001_75000": 6189,
+      "75001_110000": 7489,
+      "110001_plus": 8843
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.4337,
+    "federalLoanRate": 0,
+    "medianDebtCompleters": null
+  },
+  "completion": {
+    "completionRate150nt": 0.4006,
+    "completionRate200nt": 0.4549,
+    "transferRate": 0.0932
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 32681
+  }
+}

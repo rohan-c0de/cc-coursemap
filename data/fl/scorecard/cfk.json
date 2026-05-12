@@ -1,0 +1,40 @@
+{
+  "unitid": 133960,
+  "schoolName": "The College of the Florida Keys",
+  "state": "FL",
+  "city": "Key West",
+  "schoolUrl": "https://www.cfk.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:13:10.556Z",
+  "size": 1012,
+  "shareFirstGeneration": 0.4184782609,
+  "cost": {
+    "tuitionInState": 3276,
+    "tuitionOutOfState": 13162,
+    "attendanceAcademicYear": 19667,
+    "avgNetPricePublic": 13636,
+    "bookSupply": 1697,
+    "roomBoardOffCampus": 23938,
+    "netPriceByIncome": {
+      "0_30000": 10373,
+      "30001_48000": 11077,
+      "48001_75000": 15101,
+      "75001_110000": 17635,
+      "110001_plus": 17804
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2775,
+    "federalLoanRate": 0.3279,
+    "medianDebtCompleters": 9500
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 42508
+  }
+}

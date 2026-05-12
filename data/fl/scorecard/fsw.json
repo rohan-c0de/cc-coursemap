@@ -1,0 +1,40 @@
+{
+  "unitid": 133508,
+  "schoolName": "Florida SouthWestern State College",
+  "state": "FL",
+  "city": "Fort Myers",
+  "schoolUrl": "https://www.fsw.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:13:11.000Z",
+  "size": 11052,
+  "shareFirstGeneration": 0.504302926,
+  "cost": {
+    "tuitionInState": 3401,
+    "tuitionOutOfState": 12979,
+    "attendanceAcademicYear": 14254,
+    "avgNetPricePublic": 7247,
+    "bookSupply": 1470,
+    "roomBoardOffCampus": 14251,
+    "netPriceByIncome": {
+      "0_30000": 6011,
+      "30001_48000": 6484,
+      "48001_75000": 8516,
+      "75001_110000": 11200,
+      "110001_plus": 13337
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.347,
+    "federalLoanRate": 0.1065,
+    "medianDebtCompleters": 8000
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 43421
+  }
+}

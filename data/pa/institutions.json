@@ -23,7 +23,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.bucks.edu"
         }
       },
@@ -47,7 +47,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.bucks.edu"
-    }
+    },
+    "unitid": 211307
   },
   {
     "id": "butler",
@@ -57,8 +58,8 @@
     "campuses": [
       {
         "name": "Main Campus",
-        "lat": 40.8770,
-        "lng": -79.9260,
+        "lat": 40.877,
+        "lng": -79.926,
         "address": "107 College Drive, Butler, PA 16002"
       }
     ],
@@ -73,7 +74,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.bc3.edu"
         }
       },
@@ -97,7 +98,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.bc3.edu"
-    }
+    },
+    "unitid": 211343
   },
   {
     "id": "ccac",
@@ -123,7 +125,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.ccac.edu"
         }
       },
@@ -147,7 +149,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.ccac.edu"
-    }
+    },
+    "unitid": 210605
   },
   {
     "id": "ccbc",
@@ -173,7 +176,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.ccbc.edu"
         }
       },
@@ -197,7 +200,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.ccbc.edu"
-    }
+    },
+    "unitid": 211079
   },
   {
     "id": "ccp",
@@ -223,7 +227,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.ccp.edu"
         }
       },
@@ -247,7 +251,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.ccp.edu"
-    }
+    },
+    "unitid": 215239
   },
   {
     "id": "dccc",
@@ -257,7 +262,7 @@
     "campuses": [
       {
         "name": "Marple Campus",
-        "lat": 39.9640,
+        "lat": 39.964,
         "lng": -75.3649,
         "address": "901 South Media Line Road, Media, PA 19063"
       }
@@ -273,7 +278,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.dccc.edu"
         }
       },
@@ -297,7 +302,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.dccc.edu"
-    }
+    },
+    "unitid": 211927
   },
   {
     "id": "hacc",
@@ -323,7 +329,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.hacc.edu"
         }
       },
@@ -347,7 +353,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.hacc.edu"
-    }
+    },
+    "unitid": 212878
   },
   {
     "id": "lccc",
@@ -373,7 +380,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.lccc.edu"
         }
       },
@@ -397,7 +404,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.lccc.edu"
-    }
+    },
+    "unitid": 213525
   },
   {
     "id": "luzerne",
@@ -407,7 +415,7 @@
     "campuses": [
       {
         "name": "Main Campus (Nanticoke)",
-        "lat": 41.1930,
+        "lat": 41.193,
         "lng": -76.0016,
         "address": "1333 South Prospect Street, Nanticoke, PA 18634"
       }
@@ -423,7 +431,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.luzerne.edu"
         }
       },
@@ -447,7 +455,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.luzerne.edu"
-    }
+    },
+    "unitid": 213659
   },
   {
     "id": "mc3",
@@ -473,7 +482,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.mc3.edu"
         }
       },
@@ -497,7 +506,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.mc3.edu"
-    }
+    },
+    "unitid": 214111
   },
   {
     "id": "northampton",
@@ -523,7 +533,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.northampton.edu"
         }
       },
@@ -547,7 +557,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.northampton.edu"
-    }
+    },
+    "unitid": 214379
   },
   {
     "id": "pa-highlands",
@@ -573,7 +584,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.pennhighlands.edu"
         }
       },
@@ -597,7 +608,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.pennhighlands.edu"
-    }
+    },
+    "unitid": 414911
   },
   {
     "id": "racc",
@@ -623,7 +635,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.racc.edu"
         }
       },
@@ -647,7 +659,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.racc.edu"
-    }
+    },
+    "unitid": 215585
   },
   {
     "id": "westmoreland",
@@ -658,7 +671,7 @@
       {
         "name": "Main Campus (Youngwood)",
         "lat": 40.2392,
-        "lng": -79.5740,
+        "lng": -79.574,
         "address": "145 Pavilion Lane, Youngwood, PA 15697"
       }
     ],
@@ -673,7 +686,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis.",
           "source_url": "https://www.westmoreland.edu"
         }
       },
@@ -697,7 +710,8 @@
       ],
       "last_verified": null,
       "source_url": "https://www.westmoreland.edu"
-    }
+    },
+    "unitid": 216825
   },
   {
     "id": "penn-college",
@@ -723,7 +737,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "Pennsylvania law (24 P.S. \u00A7 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis. Applicability to Penn College (a 4-year affiliate) should be verified.",
+          "notes": "Pennsylvania law (24 P.S. § 19-1908-B) allows residents aged 60+ to audit courses tuition-free at community colleges on a space-available basis. Applicability to Penn College (a 4-year affiliate) should be verified.",
           "source_url": "https://www.pct.edu"
         }
       },
@@ -748,6 +762,7 @@
       ],
       "last_verified": null,
       "source_url": "https://www.pct.edu"
-    }
+    },
+    "unitid": 366252
   }
 ]

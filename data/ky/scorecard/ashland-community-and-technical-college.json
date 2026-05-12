@@ -1,0 +1,40 @@
+{
+  "unitid": 156231,
+  "schoolName": "Ashland Community and Technical College",
+  "state": "KY",
+  "city": "Ashland",
+  "schoolUrl": "https://ashland.kctcs.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:13:40.992Z",
+  "size": 1631,
+  "shareFirstGeneration": 0.5445094217,
+  "cost": {
+    "tuitionInState": 4728,
+    "tuitionOutOfState": 6432,
+    "attendanceAcademicYear": 14374,
+    "avgNetPricePublic": 5717,
+    "bookSupply": 1268,
+    "roomBoardOffCampus": 8814,
+    "netPriceByIncome": {
+      "0_30000": 4881,
+      "30001_48000": 5068,
+      "48001_75000": 6629,
+      "75001_110000": 8806,
+      "110001_plus": 11667
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.4064,
+    "federalLoanRate": 0.1782,
+    "medianDebtCompleters": 10950
+  },
+  "completion": {
+    "completionRate150nt": 0.5091,
+    "completionRate200nt": 0.613,
+    "transferRate": 0.0732
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 34504
+  }
+}
