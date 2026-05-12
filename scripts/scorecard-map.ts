@@ -186,17 +186,30 @@ async function mapOne(
   };
 }
 
-async function runMapping(): Promise<MappingRow[]> {
+async function runMapping(stateFilter: string[] = []): Promise<MappingRow[]> {
+  // Load existing mapping. When running with a state filter, rows for
+  // other states must be preserved on disk; this map carries them forward.
+  const existingRows = loadMapping();
   const existing = new Map<string, MappingRow>(
-    loadMapping().map((r) => [`${r.state}:${r.id}`, r])
+    existingRows.map((r) => [`${r.state}:${r.id}`, r])
   );
-  const rows: MappingRow[] = [];
 
-  const stateDirs = fs
+  const allStateDirs = fs
     .readdirSync("data", { withFileTypes: true })
     .filter((d) => d.isDirectory())
     .map((d) => d.name)
     .filter((s) => fs.existsSync(`data/${s}/institutions.json`));
+  const stateDirs =
+    stateFilter.length > 0
+      ? allStateDirs.filter((s) => stateFilter.includes(s))
+      : allStateDirs;
+
+  // Track which (state, id) we touch this run and the fresh row for each.
+  // We preserve original row order — when we re-run for a subset of states,
+  // rows for that subset are updated in place, others stay untouched.
+  // Brand-new rows (a college not present in the existing mapping yet)
+  // get appended at the end.
+  const freshByKey = new Map<string, MappingRow>();
 
   for (const state of stateDirs) {
     const insts = JSON.parse(
@@ -204,17 +217,41 @@ async function runMapping(): Promise<MappingRow[]> {
     ) as Institution[];
     process.stdout.write(`${state} (${insts.length}): `);
     for (const inst of insts) {
+      const key = `${state}:${inst.id}`;
       const row = await mapOne(state, inst, existing);
-      rows.push(row);
+      freshByKey.set(key, row);
       process.stdout.write(
         row.unitid != null ? "·" : row.tier === "review" ? "?" : "x"
       );
-      // Save after each row so a crash mid-run preserves progress.
-      saveMapping(rows);
+      // Save after each step so a crash mid-run preserves progress.
+      saveMapping(mergeOrdered(existingRows, freshByKey));
     }
     process.stdout.write("\n");
   }
-  return rows;
+
+  return mergeOrdered(existingRows, freshByKey);
+}
+
+/**
+ * Preserve original-file row order. Any (state, id) present in existingRows
+ * is updated in place if it appears in freshByKey; rows not in
+ * existingRows yet (brand-new colleges) are appended at the end.
+ */
+function mergeOrdered(
+  existingRows: MappingRow[],
+  freshByKey: Map<string, MappingRow>
+): MappingRow[] {
+  const seen = new Set<string>();
+  const out: MappingRow[] = [];
+  for (const r of existingRows) {
+    const key = `${r.state}:${r.id}`;
+    seen.add(key);
+    out.push(freshByKey.get(key) ?? r);
+  }
+  for (const [key, r] of freshByKey) {
+    if (!seen.has(key)) out.push(r);
+  }
+  return out;
 }
 
 function summarize(rows: MappingRow[]): void {
@@ -279,20 +316,38 @@ function applyMappings(rows: MappingRow[]): void {
   console.log(`\nApplied ${totalWritten} unitids across ${byState.size} states.`);
 }
 
+function parseStateFilter(argv: string[]): string[] {
+  const out: string[] = [];
+  for (let i = 0; i < argv.length; i++) {
+    if (argv[i] === "--state") {
+      const v = argv[i + 1];
+      if (v && !v.startsWith("--")) out.push(v.toLowerCase());
+    } else if (argv[i].startsWith("--state=")) {
+      out.push(argv[i].slice("--state=".length).toLowerCase());
+    }
+  }
+  return out;
+}
+
 async function main(): Promise<void> {
   const apply = process.argv.includes("--apply");
+  const stateFilter = parseStateFilter(process.argv.slice(2));
 
+  const scopeLabel =
+    stateFilter.length > 0 ? ` (state${stateFilter.length > 1 ? "s" : ""}: ${stateFilter.join(", ")})` : "";
   console.log(
     apply
-      ? "Running scorecard-map with --apply (will write unitid to institutions.json)\n"
-      : "Running scorecard-map dry-run (mapping JSON only)\n"
+      ? `Running scorecard-map with --apply${scopeLabel} (will write unitid to institutions.json)\n`
+      : `Running scorecard-map dry-run${scopeLabel} (mapping JSON only)\n`
   );
 
   // Skip the API run if a fresh mapping already exists AND we're in apply
-  // mode. This makes --apply act on whatever's in the mapping file (so the
-  // human can edit it and re-apply without re-hitting the API).
+  // mode AND no state filter was passed. This makes a bare `--apply` act on
+  // whatever's in the mapping file (so a human can edit it and re-apply
+  // without re-hitting the API). When a --state filter is passed, we DO
+  // re-run the API for that state so new colleges get fresh candidates.
   let rows: MappingRow[];
-  if (apply && fs.existsSync(MAPPING_FILE)) {
+  if (apply && stateFilter.length === 0 && fs.existsSync(MAPPING_FILE)) {
     const existing = loadMapping();
     if (existing.length > 0) {
       console.log(`Loading existing mapping (${existing.length} rows) from ${MAPPING_FILE}.\n`);
@@ -301,7 +356,7 @@ async function main(): Promise<void> {
       rows = await runMapping();
     }
   } else {
-    rows = await runMapping();
+    rows = await runMapping(stateFilter);
   }
 
   summarize(rows);
@@ -309,7 +364,7 @@ async function main(): Promise<void> {
 
   if (apply) {
     console.log("");
-    applyMappings(rows);
+    applyMappings(rows.filter((r) => stateFilter.length === 0 || stateFilter.includes(r.state)));
   } else {
     console.log(
       `\nDry run complete. Inspect ${MAPPING_FILE}, edit ${REVIEW_FILE} for any 'review' rows, then re-run with --apply.`

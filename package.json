@@ -15,6 +15,7 @@
     "check:scraper-terms": "tsx scripts/check-scraper-term-hardcoding.ts",
     "check:data": "tsx scripts/check-data-integrity.ts",
     "check:blog-mdx": "tsx scripts/check-blog-mdx.ts",
+    "check:scorecard": "tsx scripts/check-scorecard-freshness.ts",
     "eval:search": "tsx scripts/eval-search-intent.ts",
     "scrape": "tsx scripts/scrape-vccs.ts",
     "scrape:college": "tsx scripts/scrape-vccs.ts --college",

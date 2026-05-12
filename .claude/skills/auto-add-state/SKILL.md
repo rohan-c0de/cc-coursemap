@@ -17,6 +17,10 @@ The full pipeline (orchestrated by `scripts/lib/add-state.ts`):
   (`scripts/lib/scrape-{banner-ssb,colleague,banner-8}.ts`)
 - Phase 3 — articulation lookup (`data/articulation-portals.json`)
 - Phase 4 — prereq aggregation (`scripts/lib/aggregate-prereqs.ts`)
+- Phase 5 — Scorecard ingest (`scripts/scorecard-map.ts` + `scripts/ingest-scorecard.ts`).
+  Maps each new college to its IPEDS unitid then fetches federal cost / aid /
+  completion data into `data/{slug}/scorecard/`. Auto-skips if
+  `COLLEGE_SCORECARD_API_KEY` is unset.
 
 ## Workflow
 
@@ -50,6 +54,7 @@ The full pipeline (orchestrated by `scripts/lib/add-state.ts`):
      `courses.banner8.grandTotal`
    - `transfers.portal` (or null + `fallbackSuggestion`)
    - `prereqs.aggregated`
+   - `scorecard.mapped` / `scorecard.ingested` / `scorecard.ran`
    - `manualTodos[]`
 
 6. **Sanity-check the result.** If `bootstrap.collegesDiscovered === 0`,
@@ -87,6 +92,10 @@ The full pipeline (orchestrated by `scripts/lib/add-state.ts`):
    # Phase 3 + 4 (if any transfer / prereq data)
    git add data/{slug}/prereqs.json
    git commit -m "feat: aggregate {state} prereqs — {N} courses"
+
+   # Phase 5 (if any scorecard data — only when COLLEGE_SCORECARD_API_KEY is set)
+   git add data/{slug}/scorecard/ data/{slug}/institutions.json data/scorecard-mapping.json
+   git commit -m "feat: ingest {state} College Scorecard data — {ingested} colleges"
    ```
 
    Skip a chunk if its files don't exist (e.g. if every college had a
