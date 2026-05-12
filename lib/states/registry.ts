@@ -140,6 +140,7 @@ import msConfig from "./ms/config";
 import ohConfig from "./oh/config";
 import miConfig from "./mi/config";
 import iaConfig from "./ia/config";
+import moConfig from "./mo/config";
 
 const ALL_CONFIGS: StateConfig[] = [
   vaConfig,
@@ -167,6 +168,7 @@ const ALL_CONFIGS: StateConfig[] = [
   ohConfig,
   miConfig,
   iaConfig,
+  moConfig,
 ];
 
 const configs: Record<string, StateConfig> = Object.fromEntries(
