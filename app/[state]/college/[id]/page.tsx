@@ -10,6 +10,7 @@ import {
 } from "@/lib/courses";
 import { getCurrentTerm } from "@/lib/terms";
 import CollegeMap from "./CollegeMap";
+import CollegeScorecardSection from "./CollegeScorecardSection";
 import CollegeTermSection from "./CollegeTermSection";
 import { buildTransferLookupForCourses } from "@/lib/transfer-scoped";
 import { getAllStates } from "@/lib/states/registry";
@@ -274,6 +275,14 @@ export default async function CollegeDetailPage(props: PageProps) {
           <CollegeMap institution={institution} />
         </div>
       )}
+
+      {/* Cost & outcomes — federal Scorecard data. Renders nothing when
+          the institution lacks a Scorecard mapping (2 of 382 today). */}
+      <CollegeScorecardSection
+        state={state}
+        collegeId={id}
+        collegeName={institution.name}
+      />
 
       {/* Term-dependent content (staleness, term picker, course table, subject
           browser, instructor browser) — client-rendered so ?term= switches
