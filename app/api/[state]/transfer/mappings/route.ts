@@ -2,8 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 import { loadTransferMappingsByUniversity } from "@/lib/transfer";
 import { isValidState } from "@/lib/states/registry";
 
-export const runtime = "edge";
-
 type RouteContext = {
   params: Promise<{ state: string }>;
 };
