@@ -2,7 +2,7 @@
  * add-state.ts (orchestrator)
  *
  * Top-level orchestrator for the auto-add-state skill. Given a state slug,
- * runs the entire 5-phase workflow end-to-end:
+ * runs the entire 6-phase workflow end-to-end:
  *
  *   Phase 1  Bootstrap (PR 6)        — institutions.json, zipcodes.json,
  *                                       config.ts skeleton, registry edits
@@ -18,8 +18,11 @@
  *   Phase 4  Prereqs aggregation      — call existing aggregate-prereqs.ts
  *                                       to roll inline prereq data into
  *                                       data/{state}/prereqs.json
+ *   Phase 5  Scorecard ingest (#392)  — map each college to its IPEDS unitid,
+ *                                       fetch federal cost/aid/completion
+ *                                       data into data/{state}/scorecard/.
  *
- * Phase 5 (programs) is left as a manual TODO — IPEDS-driven program
+ * Programs discovery is left as a manual TODO — IPEDS-driven program
  * discovery isn't templated yet, and the existing program-scraper
  * templates (Acalog/Coursedog/etc.) require per-college catalog URLs that
  * the orchestrator can't reliably auto-derive.
@@ -47,7 +50,9 @@
  */
 
 import { spawn } from "child_process";
+import fs from "fs";
 import path from "path";
+import { loadEnv } from "./load-env";
 import {
   bootstrapState,
   type BootstrapStateResult,
@@ -105,6 +110,8 @@ export interface AddStateOptions {
   skipTransfers?: boolean;
   /** Skip Phase 4 (prereqs). */
   skipPrereqs?: boolean;
+  /** Skip Phase 5 (scorecard ingest). Useful when the API key isn't set. */
+  skipScorecard?: boolean;
   /** Filter to a single college slug (debug aid). */
   collegeFilter?: string;
   /** Override IPEDS year. Default = latest known. */
@@ -144,6 +151,15 @@ export interface AddStateResult {
   };
   prereqs: {
     aggregated: boolean;
+    error?: string;
+  };
+  scorecard: {
+    /** Number of (state, college) pairs with a unitid after mapping. */
+    mapped: number;
+    /** Number of scorecard JSON files written under data/{state}/scorecard/. */
+    ingested: number;
+    /** True if the phase ran and produced data; false if skipped/failed. */
+    ran: boolean;
     error?: string;
   };
   manualTodos: string[];
@@ -662,6 +678,93 @@ async function phasePrereqs(
 }
 
 // ---------------------------------------------------------------------------
+// Phase 5: Scorecard — map IPEDS unitids + ingest per-college Scorecard data
+// ---------------------------------------------------------------------------
+
+async function phaseScorecard(
+  state: string,
+  opts: AddStateOptions,
+  todos: string[]
+): Promise<AddStateResult["scorecard"]> {
+  if (opts.skipScorecard || opts.dryRun) {
+    if (opts.skipScorecard)
+      console.log("\nPhase 5 (scorecard): skipped (--skip-scorecard).");
+    else console.log("\nPhase 5 (scorecard): skipped (--dry-run).");
+    return { mapped: 0, ingested: 0, ran: false };
+  }
+  // Load .env.local so the API-key check below sees the key the same way
+  // the subprocesses will. (Subprocesses load it on their own via the
+  // college-scorecard module; this parent check would otherwise miss a
+  // key that's only set via .env.local.)
+  loadEnv();
+  if (!process.env.COLLEGE_SCORECARD_API_KEY) {
+    const msg =
+      "COLLEGE_SCORECARD_API_KEY is not set; skipping scorecard ingest. Get a free key at https://api.data.gov/signup and add it to .env.local.";
+    console.warn(`\nPhase 5 (scorecard): ${msg}`);
+    todos.push(`[scorecard] ${msg}`);
+    return { mapped: 0, ingested: 0, ran: false, error: "no API key" };
+  }
+  console.log("\n=== Phase 5: Scorecard ingest ===");
+
+  // 5a — map every college in this state to its IPEDS unitid.
+  const mapResult = await runSubprocess(
+    "npx",
+    ["tsx", "scripts/scorecard-map.ts", "--apply", "--state", state],
+    true
+  );
+  if (!mapResult.ok) {
+    const msg = `scorecard-map failed: ${mapResult.stderr || "(no stderr)"}`;
+    console.error(`  ${msg}`);
+    todos.push(`[scorecard] ${msg}`);
+    return { mapped: 0, ingested: 0, ran: false, error: msg };
+  }
+  process.stdout.write(mapResult.stdout);
+
+  // Count how many colleges in this state now have a unitid.
+  const instsFile = `data/${state}/institutions.json`;
+  let mapped = 0;
+  try {
+    const insts = JSON.parse(fs.readFileSync(instsFile, "utf-8")) as Array<{
+      unitid?: number;
+    }>;
+    mapped = insts.filter((i) => typeof i.unitid === "number").length;
+    const unmapped = insts.length - mapped;
+    if (unmapped > 0) {
+      todos.push(
+        `[scorecard] ${unmapped} college(s) in ${state} have no Scorecard unitid — see data/scorecard-mapping-review.json for candidates and edit the file then re-run \`tsx scripts/scorecard-map.ts --apply --state ${state}\`.`
+      );
+    }
+  } catch (e) {
+    todos.push(`[scorecard] failed to count mapped colleges: ${e}`);
+  }
+
+  // 5b — fetch the Scorecard record for each mapped college.
+  const ingestResult = await runSubprocess(
+    "npx",
+    ["tsx", "scripts/ingest-scorecard.ts", state],
+    true
+  );
+  if (!ingestResult.ok) {
+    const msg = `ingest-scorecard failed: ${ingestResult.stderr || "(no stderr)"}`;
+    console.error(`  ${msg}`);
+    todos.push(`[scorecard] ${msg}`);
+    return { mapped, ingested: 0, ran: false, error: msg };
+  }
+  process.stdout.write(ingestResult.stdout);
+
+  // Count ingested files on disk.
+  let ingested = 0;
+  const scoredir = `data/${state}/scorecard`;
+  if (fs.existsSync(scoredir)) {
+    ingested = fs
+      .readdirSync(scoredir)
+      .filter((f) => f.endsWith(".json")).length;
+  }
+
+  return { mapped, ingested, ran: true };
+}
+
+// ---------------------------------------------------------------------------
 // Reporter — pretty-prints the result for end-of-run consumption
 // ---------------------------------------------------------------------------
 
@@ -729,6 +832,17 @@ export function formatReport(r: AddStateResult): string {
     `Phase 4 — Prereqs:          ${r.prereqs.aggregated ? "aggregated from inline data" : `not aggregated${r.prereqs.error ? ` (${r.prereqs.error})` : ""}`}`
   );
 
+  // Phase 5
+  if (r.scorecard.ran) {
+    lines.push(
+      `Phase 5 — Scorecard:        ${r.scorecard.mapped} unitid(s) mapped, ${r.scorecard.ingested} record(s) ingested`
+    );
+  } else {
+    lines.push(
+      `Phase 5 — Scorecard:        not run${r.scorecard.error ? ` (${r.scorecard.error})` : ""}`
+    );
+  }
+
   // Manual TODOs
   if (r.manualTodos.length > 0) {
     lines.push("");
@@ -770,6 +884,7 @@ export async function addState(
     catalog: {},
     transfers: { portal: null, scriptsRun: [], fallbackSuggestion: null },
     prereqs: { aggregated: false },
+    scorecard: { mapped: 0, ingested: 0, ran: false },
     manualTodos: [],
     durations: {},
   };
@@ -848,6 +963,15 @@ export async function addState(
   }
   result.durations["4-prereqs"] = Date.now() - t4;
 
+  // Phase 5 (scorecard ingest — federal cost/aid/completion data)
+  const t5 = Date.now();
+  try {
+    result.scorecard = await phaseScorecard(state, opts, result.manualTodos);
+  } catch (e) {
+    result.manualTodos.push(`[scorecard] failed: ${e}`);
+  }
+  result.durations["5-scorecard"] = Date.now() - t5;
+
   result.finishedAt = new Date().toISOString();
   return result;
 }
@@ -873,6 +997,7 @@ function parseArgs(argv: string[]): CliArgs {
     else if (a === "--skip-courses") out.skipCourses = true;
     else if (a === "--skip-transfers") out.skipTransfers = true;
     else if (a === "--skip-prereqs") out.skipPrereqs = true;
+    else if (a === "--skip-scorecard") out.skipScorecard = true;
     else if (a === "--college-filter") out.collegeFilter = argv[++i];
     else if (a === "--ipeds-year") out.ipedsYear = parseInt(argv[++i], 10);
     else if (a === "--json") out.json = true;
@@ -886,8 +1011,8 @@ function printHelp() {
   console.log(`Usage:
   npx tsx scripts/lib/add-state.ts --state <slug> [options]
 
-Top-level orchestrator for the auto-add-state skill. Runs all 5 phases:
-bootstrap → fingerprint → course scraping → articulation → prereqs.
+Top-level orchestrator for the auto-add-state skill. Runs all 6 phases:
+bootstrap → fingerprint → course scraping → articulation → prereqs → scorecard.
 
 Options:
   --state <slug>          Required. Lowercase 2-letter state slug.
@@ -897,6 +1022,7 @@ Options:
   --skip-courses          Skip Phase 2b.
   --skip-transfers        Skip Phase 3.
   --skip-prereqs          Skip Phase 4.
+  --skip-scorecard        Skip Phase 5 (auto-skipped if COLLEGE_SCORECARD_API_KEY unset).
   --college-filter <slug> Only fingerprint+scrape this one college.
   --ipeds-year <YYYY>     Override IPEDS data year (default: latest).
   --json                  Print structured JSON result instead of report.
