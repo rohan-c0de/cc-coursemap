@@ -170,6 +170,23 @@
       "defaultZipCity": "Jackson",
       "seniorWaiver": null
     },
+    "mo": {
+      "fullName": "Missouri",
+      "fipsCode": "29",
+      "systemName": "MCCA",
+      "systemFullName": "Missouri Community College Association",
+      "systemUrl": "https://www.mccatoday.org/",
+      "defaultZip": "65101",
+      "defaultZipCity": "Jefferson City",
+      "seniorWaiver": {
+        "ageThreshold": 65,
+        "legalCitation": "Missouri Revised Statutes § 173.270",
+        "description": "Missouri residents 65 and older may enroll in courses at state-supported colleges tuition-free on a space-available basis. Regular fees may still apply.",
+        "bannerTitle": "Missouri Senior Citizen Tuition Waiver",
+        "bannerSummary": "Age 65+ in Missouri? Enroll tuition-free at state-supported colleges on a space-available basis.",
+        "bannerDetail": "Missouri Revised Statutes § 173.270 lets Missouri residents 65+ enroll in courses at state-supported colleges tuition-free on a space-available basis. Confirm with each college's registrar."
+      }
+    },
     "nc": {
       "fullName": "North Carolina",
       "fipsCode": "37",
