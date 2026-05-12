@@ -1,0 +1,40 @@
+{
+  "unitid": 137281,
+  "schoolName": "Saint Johns River State College",
+  "state": "FL",
+  "city": "Palatka",
+  "schoolUrl": "www.sjrstate.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:13:19.254Z",
+  "size": 4403,
+  "shareFirstGeneration": 0.4292929293,
+  "cost": {
+    "tuitionInState": 2591,
+    "tuitionOutOfState": 9335,
+    "attendanceAcademicYear": 12906,
+    "avgNetPricePublic": 6135,
+    "bookSupply": 2134,
+    "roomBoardOffCampus": 12604,
+    "netPriceByIncome": {
+      "0_30000": 6157,
+      "30001_48000": 4635,
+      "48001_75000": 6860,
+      "75001_110000": null,
+      "110001_plus": null
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.187,
+    "federalLoanRate": 0.0678,
+    "medianDebtCompleters": 12000
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 41728
+  }
+}

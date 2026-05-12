@@ -1,0 +1,40 @@
+{
+  "unitid": 176354,
+  "schoolName": "Southwest Mississippi Community College",
+  "state": "MS",
+  "city": "Summit",
+  "schoolUrl": "https://www.smcc.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:14:29.796Z",
+  "size": 1474,
+  "shareFirstGeneration": 0.4214079074,
+  "cost": {
+    "tuitionInState": 4080,
+    "tuitionOutOfState": 6780,
+    "attendanceAcademicYear": 11644,
+    "avgNetPricePublic": 2525,
+    "bookSupply": 440,
+    "roomBoardOffCampus": 5850,
+    "netPriceByIncome": {
+      "0_30000": 2171,
+      "30001_48000": 2136,
+      "48001_75000": 4511,
+      "75001_110000": 4410,
+      "110001_plus": null
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.561,
+    "federalLoanRate": 0,
+    "medianDebtCompleters": null
+  },
+  "completion": {
+    "completionRate150nt": 0.5586,
+    "completionRate200nt": 0.4165,
+    "transferRate": 0.1352
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 33227
+  }
+}

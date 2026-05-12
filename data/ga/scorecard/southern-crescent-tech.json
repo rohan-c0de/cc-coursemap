@@ -1,0 +1,40 @@
+{
+  "unitid": 139986,
+  "schoolName": "Southern Crescent Technical College",
+  "state": "GA",
+  "city": "Griffin",
+  "schoolUrl": "www.sctech.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:13:30.975Z",
+  "size": 4098,
+  "shareFirstGeneration": 0.492650147,
+  "cost": {
+    "tuitionInState": 3516,
+    "tuitionOutOfState": 6084,
+    "attendanceAcademicYear": 16430,
+    "avgNetPricePublic": 5661,
+    "bookSupply": 1346,
+    "roomBoardOffCampus": 17656,
+    "netPriceByIncome": {
+      "0_30000": 4265,
+      "30001_48000": 5034,
+      "48001_75000": 8589,
+      "75001_110000": 9872,
+      "110001_plus": 14117
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.4828,
+    "federalLoanRate": 0.1035,
+    "medianDebtCompleters": 9500
+  },
+  "completion": {
+    "completionRate150nt": 0.5828,
+    "completionRate200nt": 0.5934,
+    "transferRate": 0.0724
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 36104
+  }
+}

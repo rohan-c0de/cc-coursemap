@@ -1,0 +1,40 @@
+{
+  "unitid": 203748,
+  "schoolName": "Lorain County Community College",
+  "state": "OH",
+  "city": "Elyria",
+  "schoolUrl": "https://www.lorainccc.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:15:16.286Z",
+  "size": 5373,
+  "shareFirstGeneration": 0.5126231527,
+  "cost": {
+    "tuitionInState": 4265,
+    "tuitionOutOfState": 8860,
+    "attendanceAcademicYear": 9860,
+    "avgNetPricePublic": 3967,
+    "bookSupply": 806,
+    "roomBoardOffCampus": 8272,
+    "netPriceByIncome": {
+      "0_30000": 3099,
+      "30001_48000": 3261,
+      "48001_75000": 4874,
+      "75001_110000": 6686,
+      "110001_plus": 9202
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2552,
+    "federalLoanRate": 0.0742,
+    "medianDebtCompleters": 13680
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 38837
+  }
+}

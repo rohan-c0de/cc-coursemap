@@ -15,7 +15,7 @@
     "audit_policy": {
       "allowed": true,
       "cost_model": "tuition_free_for_seniors",
-      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law \u00a7 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
+      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law § 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
       "eligibility": {
         "minimum_age": 18,
         "residency_required": false,
@@ -23,7 +23,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "N.Y. Education Law \u00a7 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
+          "notes": "N.Y. Education Law § 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
           "source_url": "https://www.bmcc.cuny.edu"
         }
       },
@@ -46,7 +46,8 @@
       ],
       "last_verified": "2026-04-09",
       "source_url": "https://www.bmcc.cuny.edu"
-    }
+    },
+    "unitid": 190521
   },
   {
     "id": "bronx-cc",
@@ -64,7 +65,7 @@
     "audit_policy": {
       "allowed": true,
       "cost_model": "tuition_free_for_seniors",
-      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law \u00a7 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
+      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law § 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
       "eligibility": {
         "minimum_age": 18,
         "residency_required": false,
@@ -72,7 +73,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "N.Y. Education Law \u00a7 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
+          "notes": "N.Y. Education Law § 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
           "source_url": "https://www.bcc.cuny.edu"
         }
       },
@@ -95,7 +96,8 @@
       ],
       "last_verified": "2026-04-09",
       "source_url": "https://www.bcc.cuny.edu"
-    }
+    },
+    "unitid": 190530
   },
   {
     "id": "guttman-cc",
@@ -113,7 +115,7 @@
     "audit_policy": {
       "allowed": true,
       "cost_model": "tuition_free_for_seniors",
-      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law \u00a7 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
+      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law § 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
       "eligibility": {
         "minimum_age": 18,
         "residency_required": false,
@@ -121,7 +123,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "N.Y. Education Law \u00a7 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
+          "notes": "N.Y. Education Law § 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
           "source_url": "https://guttman.cuny.edu"
         }
       },
@@ -144,11 +146,12 @@
       ],
       "last_verified": "2026-04-09",
       "source_url": "https://guttman.cuny.edu"
-    }
+    },
+    "unitid": 475565
   },
   {
     "id": "hostos-cc",
-    "name": "Eugenio Mar\u00eda de Hostos Community College",
+    "name": "Eugenio María de Hostos Community College",
     "system": "CUNY",
     "college_slug": "hostos-cc",
     "campuses": [
@@ -162,7 +165,7 @@
     "audit_policy": {
       "allowed": true,
       "cost_model": "tuition_free_for_seniors",
-      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law \u00a7 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
+      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law § 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
       "eligibility": {
         "minimum_age": 18,
         "residency_required": false,
@@ -170,7 +173,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "N.Y. Education Law \u00a7 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
+          "notes": "N.Y. Education Law § 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
           "source_url": "https://www.hostos.cuny.edu"
         }
       },
@@ -193,7 +196,8 @@
       ],
       "last_verified": "2026-04-09",
       "source_url": "https://www.hostos.cuny.edu"
-    }
+    },
+    "unitid": 190585
   },
   {
     "id": "kingsborough-cc",
@@ -211,7 +215,7 @@
     "audit_policy": {
       "allowed": true,
       "cost_model": "tuition_free_for_seniors",
-      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law \u00a7 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
+      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law § 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
       "eligibility": {
         "minimum_age": 18,
         "residency_required": false,
@@ -219,7 +223,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "N.Y. Education Law \u00a7 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
+          "notes": "N.Y. Education Law § 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
           "source_url": "https://www.kbcc.cuny.edu"
         }
       },
@@ -242,7 +246,8 @@
       ],
       "last_verified": "2026-04-09",
       "source_url": "https://www.kbcc.cuny.edu"
-    }
+    },
+    "unitid": 190619
   },
   {
     "id": "laguardia-cc",
@@ -260,7 +265,7 @@
     "audit_policy": {
       "allowed": true,
       "cost_model": "tuition_free_for_seniors",
-      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law \u00a7 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
+      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law § 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
       "eligibility": {
         "minimum_age": 18,
         "residency_required": false,
@@ -268,7 +273,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "N.Y. Education Law \u00a7 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
+          "notes": "N.Y. Education Law § 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
           "source_url": "https://www.laguardia.edu"
         }
       },
@@ -291,7 +296,8 @@
       ],
       "last_verified": "2026-04-09",
       "source_url": "https://www.laguardia.edu"
-    }
+    },
+    "unitid": 190628
   },
   {
     "id": "queensborough-cc",
@@ -302,14 +308,14 @@
       {
         "name": "Main Campus",
         "lat": 40.7608,
-        "lng": -73.7620,
+        "lng": -73.762,
         "address": "222-05 56th Ave, Bayside, NY 11364"
       }
     ],
     "audit_policy": {
       "allowed": true,
       "cost_model": "tuition_free_for_seniors",
-      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law \u00a7 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
+      "cost_note": "New York State residents aged 60+ may audit undergraduate courses at CUNY community colleges on a space-available basis with tuition waived under N.Y. Education Law § 6304(5). Standard tuition applies to all other audit students, and regular fees may still apply.",
       "eligibility": {
         "minimum_age": 18,
         "residency_required": false,
@@ -317,7 +323,7 @@
           "available": true,
           "age_threshold": 60,
           "cost": "free",
-          "notes": "N.Y. Education Law \u00a7 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
+          "notes": "N.Y. Education Law § 6304(5) allows NYS residents aged 60+ to audit undergraduate courses at CUNY community colleges tuition-free on a space-available basis. Audited courses do not count toward a degree.",
           "source_url": "https://www.qcc.cuny.edu"
         }
       },
@@ -340,6 +346,7 @@
       ],
       "last_verified": "2026-04-09",
       "source_url": "https://www.qcc.cuny.edu"
-    }
+    },
+    "unitid": 190673
   }
 ]

@@ -1,0 +1,40 @@
+{
+  "unitid": 198923,
+  "schoolName": "McDowell Technical Community College",
+  "state": "NC",
+  "city": "Marion",
+  "schoolUrl": "https://www.mcdowelltech.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:14:45.375Z",
+  "size": 608,
+  "shareFirstGeneration": 0.4986595174,
+  "cost": {
+    "tuitionInState": 2032,
+    "tuitionOutOfState": 6640,
+    "attendanceAcademicYear": 18783,
+    "avgNetPricePublic": 7784,
+    "bookSupply": 1750,
+    "roomBoardOffCampus": 11943,
+    "netPriceByIncome": {
+      "0_30000": 7084,
+      "30001_48000": 7478,
+      "48001_75000": 9301,
+      "75001_110000": 13766,
+      "110001_plus": null
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2705,
+    "federalLoanRate": 0,
+    "medianDebtCompleters": null
+  },
+  "completion": {
+    "completionRate150nt": 0.4839,
+    "completionRate200nt": 0.5714,
+    "transferRate": 0.129
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 33035
+  }
+}

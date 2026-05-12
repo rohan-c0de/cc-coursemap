@@ -45,6 +45,13 @@ export interface Institution {
   college_slug: string;
   campuses: Campus[];
   audit_policy: AuditPolicy;
+  /**
+   * IPEDS unitid for cross-reference with the federal College Scorecard
+   * dataset. Optional because not every institution has a Scorecard record
+   * (e.g. UDC's embedded community college, recently closed institutions).
+   * Populated by `scripts/scorecard-map.ts`. See issue #392.
+   */
+  unitid?: number;
 }
 
 export type CourseMode = "in-person" | "online" | "hybrid" | "zoom";

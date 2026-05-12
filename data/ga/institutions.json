@@ -7,7 +7,7 @@
     "campuses": [
       {
         "name": "Main Campus",
-        "lat": 31.5560,
+        "lat": 31.556,
         "lng": -84.1288,
         "address": "1704 S Slappey Blvd, Albany, GA 31701"
       }
@@ -44,7 +44,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.albanytech.edu"
-    }
+    },
+    "unitid": 138682
   },
   {
     "id": "athens-tech",
@@ -97,7 +98,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.athenstech.edu"
-    }
+    },
+    "unitid": 246813
   },
   {
     "id": "atlanta-tech",
@@ -144,7 +146,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.atlantatech.edu"
-    }
+    },
+    "unitid": 138840
   },
   {
     "id": "augusta-tech",
@@ -154,7 +157,7 @@
     "campuses": [
       {
         "name": "Main Campus",
-        "lat": 33.4340,
+        "lat": 33.434,
         "lng": -82.0218,
         "address": "3200 Augusta Tech Dr, Augusta, GA 30906"
       },
@@ -197,7 +200,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.augustatech.edu"
-    }
+    },
+    "unitid": 138956
   },
   {
     "id": "central-ga-tech",
@@ -208,7 +212,7 @@
       {
         "name": "Warner Robins Campus",
         "lat": 32.5862,
-        "lng": -83.6550,
+        "lng": -83.655,
         "address": "80 Cohen Walker Dr, Warner Robins, GA 31088"
       },
       {
@@ -256,7 +260,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.centralgatech.edu"
-    }
+    },
+    "unitid": 483045
   },
   {
     "id": "chattahoochee-tech",
@@ -321,7 +326,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.chattahoocheetech.edu"
-    }
+    },
+    "unitid": 140331
   },
   {
     "id": "coastal-pines-tech",
@@ -332,7 +338,7 @@
       {
         "name": "Waycross Campus",
         "lat": 31.2044,
-        "lng": -82.3540,
+        "lng": -82.354,
         "address": "1701 Carswell Ave, Waycross, GA 31503"
       },
       {
@@ -374,7 +380,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.coastalpines.edu"
-    }
+    },
+    "unitid": 485458
   },
   {
     "id": "columbus-tech",
@@ -384,7 +391,7 @@
     "campuses": [
       {
         "name": "Main Campus",
-        "lat": 32.4510,
+        "lat": 32.451,
         "lng": -84.9877,
         "address": "928 Manchester Expy, Columbus, GA 31904"
       }
@@ -421,7 +428,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.columbustech.edu"
-    }
+    },
+    "unitid": 139357
   },
   {
     "id": "ga-northwestern-tech",
@@ -480,7 +488,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.gntc.edu"
-    }
+    },
+    "unitid": 139384
   },
   {
     "id": "ga-piedmont-tech",
@@ -533,7 +542,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.gptc.edu"
-    }
+    },
+    "unitid": 244446
   },
   {
     "id": "gwinnett-tech",
@@ -586,7 +596,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.gwinnetttech.edu"
-    }
+    },
+    "unitid": 140012
   },
   {
     "id": "lanier-tech",
@@ -639,7 +650,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.laniertech.edu"
-    }
+    },
+    "unitid": 140243
   },
   {
     "id": "north-ga-tech",
@@ -692,7 +704,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.northgatech.edu"
-    }
+    },
+    "unitid": 140678
   },
   {
     "id": "oconee-fall-line-tech",
@@ -709,7 +722,7 @@
       {
         "name": "Dublin Campus",
         "lat": 32.5407,
-        "lng": -82.9040,
+        "lng": -82.904,
         "address": "560 Pinehill Rd, Dublin, GA 31021"
       }
     ],
@@ -745,7 +758,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.oftc.edu"
-    }
+    },
+    "unitid": 420431
   },
   {
     "id": "ogeechee-tech",
@@ -792,7 +806,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.ogeecheetech.edu"
-    }
+    },
+    "unitid": 366465
   },
   {
     "id": "savannah-tech",
@@ -845,7 +860,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.savannahtech.edu"
-    }
+    },
+    "unitid": 140942
   },
   {
     "id": "south-ga-tech",
@@ -898,7 +914,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.southgatech.edu"
-    }
+    },
+    "unitid": 141006
   },
   {
     "id": "southeastern-tech",
@@ -915,7 +932,7 @@
       {
         "name": "Swainsboro Campus",
         "lat": 32.5974,
-        "lng": -82.3340,
+        "lng": -82.334,
         "address": "346 Kite Rd, Swainsboro, GA 30401"
       }
     ],
@@ -951,7 +968,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.southeasterntech.edu"
-    }
+    },
+    "unitid": 368911
   },
   {
     "id": "southern-crescent-tech",
@@ -1010,7 +1028,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.sctech.edu"
-    }
+    },
+    "unitid": 139986
   },
   {
     "id": "southern-regional-tech",
@@ -1069,7 +1088,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.southernregional.edu"
-    }
+    },
+    "unitid": 487162
   },
   {
     "id": "west-ga-tech",
@@ -1128,7 +1148,8 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.westgatech.edu"
-    }
+    },
+    "unitid": 139278
   },
   {
     "id": "wiregrass-tech",
@@ -1187,6 +1208,7 @@
       ],
       "last_verified": "2026-04-04",
       "source_url": "https://www.wiregrass.edu"
-    }
+    },
+    "unitid": 141255
   }
 ]

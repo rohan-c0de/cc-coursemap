@@ -1,0 +1,40 @@
+{
+  "unitid": 447582,
+  "schoolName": "New River Community and Technical College",
+  "state": "WV",
+  "city": "Beaver",
+  "schoolUrl": "https://www.newriver.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:16:00.933Z",
+  "size": 770,
+  "shareFirstGeneration": 0.587040619,
+  "cost": {
+    "tuitionInState": 5156,
+    "tuitionOutOfState": 9646,
+    "attendanceAcademicYear": 12132,
+    "avgNetPricePublic": 3599,
+    "bookSupply": 1552,
+    "roomBoardOffCampus": 4938,
+    "netPriceByIncome": {
+      "0_30000": 2657,
+      "30001_48000": 3804,
+      "48001_75000": 5989,
+      "75001_110000": 4891,
+      "110001_plus": 2187
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.3899,
+    "federalLoanRate": 0.1165,
+    "medianDebtCompleters": 7250
+  },
+  "completion": {
+    "completionRate150nt": 0.3598,
+    "completionRate200nt": 0.3196,
+    "transferRate": 0.0688
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 29073
+  }
+}

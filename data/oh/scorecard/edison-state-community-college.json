@@ -1,0 +1,40 @@
+{
+  "unitid": 202648,
+  "schoolName": "Edison State Community College",
+  "state": "OH",
+  "city": "Piqua",
+  "schoolUrl": "https://www.edisonohio.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:15:20.857Z",
+  "size": 1302,
+  "shareFirstGeneration": 0.5187566988,
+  "cost": {
+    "tuitionInState": 4499,
+    "tuitionOutOfState": 8346,
+    "attendanceAcademicYear": 13472,
+    "avgNetPricePublic": 7142,
+    "bookSupply": 1792,
+    "roomBoardOffCampus": 10448,
+    "netPriceByIncome": {
+      "0_30000": 6708,
+      "30001_48000": 8925,
+      "48001_75000": 8674,
+      "75001_110000": 6342,
+      "110001_plus": 12146
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.1711,
+    "federalLoanRate": 0.0591,
+    "medianDebtCompleters": 16250
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 41360
+  }
+}

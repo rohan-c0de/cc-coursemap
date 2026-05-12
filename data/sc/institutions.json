@@ -46,7 +46,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 217615
   },
   {
     "id": "central-carolina",
@@ -95,7 +96,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218858
   },
   {
     "id": "denmark",
@@ -144,7 +146,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 217989
   },
   {
     "id": "florence-darlington",
@@ -193,7 +196,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218025
   },
   {
     "id": "greenville",
@@ -242,7 +246,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218113
   },
   {
     "id": "horry-georgetown",
@@ -291,7 +296,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218140
   },
   {
     "id": "midlands",
@@ -302,7 +308,7 @@
       {
         "name": "Airport Campus",
         "lat": 33.9502,
-        "lng": -81.1170,
+        "lng": -81.117,
         "address": "1260 Lexington Drive, West Columbia, SC 29170"
       }
     ],
@@ -340,7 +346,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218353
   },
   {
     "id": "northeastern",
@@ -389,7 +396,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 217837
   },
   {
     "id": "orangeburg-calhoun",
@@ -438,7 +446,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218487
   },
   {
     "id": "piedmont",
@@ -487,7 +496,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218520
   },
   {
     "id": "spartanburg",
@@ -536,7 +546,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218830
   },
   {
     "id": "lowcountry",
@@ -585,7 +596,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 217712
   },
   {
     "id": "tri-county",
@@ -634,7 +646,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218885
   },
   {
     "id": "trident",
@@ -683,7 +696,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218894
   },
   {
     "id": "williamsburg",
@@ -732,7 +746,8 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218955
   },
   {
     "id": "york",
@@ -781,6 +796,7 @@
       ],
       "last_verified": "2026-04-01",
       "source_url": ""
-    }
+    },
+    "unitid": 218991
   }
 ]

@@ -1,0 +1,40 @@
+{
+  "unitid": 198251,
+  "schoolName": "Central Carolina Community College",
+  "state": "NC",
+  "city": "Sanford",
+  "schoolUrl": "www.cccc.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:14:35.087Z",
+  "size": 3237,
+  "shareFirstGeneration": 0.4618345093,
+  "cost": {
+    "tuitionInState": 2711,
+    "tuitionOutOfState": 8855,
+    "attendanceAcademicYear": 14901,
+    "avgNetPricePublic": 5446,
+    "bookSupply": 1470,
+    "roomBoardOffCampus": 9643,
+    "netPriceByIncome": {
+      "0_30000": 4326,
+      "30001_48000": 4660,
+      "48001_75000": 6961,
+      "75001_110000": 8936,
+      "110001_plus": 12542
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2569,
+    "federalLoanRate": 0,
+    "medianDebtCompleters": null
+  },
+  "completion": {
+    "completionRate150nt": 0.4293,
+    "completionRate200nt": 0.4778,
+    "transferRate": 0.1631
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 33525
+  }
+}

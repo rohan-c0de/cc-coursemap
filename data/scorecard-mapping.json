@@ -1,0 +1,6637 @@
+[
+  {
+    "state": "al",
+    "id": "central-alabama-community-college",
+    "name": "Central Alabama Community College",
+    "unitid": 100760,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 100760,
+        "name": "Central Alabama Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5110,
+        "size": 1203
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "chattahoochee-valley-community-college",
+    "name": "Chattahoochee Valley Community College",
+    "unitid": 101028,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101028,
+        "name": "Chattahoochee Valley Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5100,
+        "size": 1110
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "enterprise-state-community-college",
+    "name": "Enterprise State Community College",
+    "unitid": 101143,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101143,
+        "name": "Enterprise State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5100,
+        "size": 1585
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "coastal-alabama-community-college",
+    "name": "Coastal Alabama Community College",
+    "unitid": 101161,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101161,
+        "name": "Coastal Alabama Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5040,
+        "size": 4798
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "gadsden-state-community-college",
+    "name": "Gadsden State Community College",
+    "unitid": 101240,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101240,
+        "name": "Gadsden State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4272,
+        "size": 3548
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "george-c-wallace-community-college-dothan",
+    "name": "George C Wallace Community College-Dothan",
+    "unitid": 101286,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101286,
+        "name": "George C Wallace Community College-Dothan",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4980,
+        "size": 3017
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "george-c-wallace-state-community-college-hanceville",
+    "name": "George C Wallace State Community College-Hanceville",
+    "unitid": 101295,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101295,
+        "name": "George C Wallace State Community College-Hanceville",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5220,
+        "size": 4423
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "george-c-wallace-state-community-college-selma",
+    "name": "George C Wallace State Community College-Selma",
+    "unitid": 101301,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101301,
+        "name": "George C Wallace State Community College-Selma",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4740,
+        "size": 855
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "j-f-drake-state-community-and-technical-college",
+    "name": "J. F. Drake State Community and Technical College",
+    "unitid": 101462,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101462,
+        "name": "J. F. Drake State Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5190,
+        "size": 755
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "jefferson-state-community-college",
+    "name": "Jefferson State Community College",
+    "unitid": 101505,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101505,
+        "name": "Jefferson State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5100,
+        "size": 5470
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "john-c-calhoun-state-community-college",
+    "name": "John C Calhoun State Community College",
+    "unitid": 101514,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101514,
+        "name": "John C Calhoun State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5120,
+        "size": 7070
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "lawson-state-community-college",
+    "name": "Lawson State Community College",
+    "unitid": 101569,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101569,
+        "name": "Lawson State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5040,
+        "size": 2900
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "lurleen-b-wallace-community-college",
+    "name": "Lurleen B Wallace Community College",
+    "unitid": 101602,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101602,
+        "name": "Lurleen B Wallace Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5190,
+        "size": 1097
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "marion-military-institute",
+    "name": "Marion Military Institute",
+    "unitid": 101648,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101648,
+        "name": "Marion Military Institute",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 9538,
+        "size": 329
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "northwest-shoals-community-college",
+    "name": "Northwest Shoals Community College",
+    "unitid": 101736,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101736,
+        "name": "Northwest Shoals Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5131,
+        "size": 1969
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "northeast-alabama-community-college",
+    "name": "Northeast Alabama Community College",
+    "unitid": 101897,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101897,
+        "name": "Northeast Alabama Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5040,
+        "size": 1629
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "reid-state-technical-college",
+    "name": "Reid State Technical College",
+    "unitid": 101994,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 101994,
+        "name": "Reid State Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5454,
+        "size": 416
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "bishop-state-community-college",
+    "name": "Bishop State Community College",
+    "unitid": 102030,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 102030,
+        "name": "Bishop State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5340,
+        "size": 2437
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "shelton-state-community-college",
+    "name": "Shelton State Community College",
+    "unitid": 102067,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 102067,
+        "name": "Shelton State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5127,
+        "size": 3148
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "snead-state-community-college",
+    "name": "Snead State Community College",
+    "unitid": 102076,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 102076,
+        "name": "Snead State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5278,
+        "size": 1427
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "h-councill-trenholm-state-community-college",
+    "name": "H Councill Trenholm State Community College",
+    "unitid": 102313,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 102313,
+        "name": "H Councill Trenholm State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5190,
+        "size": 1674
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "bevill-state-community-college",
+    "name": "Bevill State Community College",
+    "unitid": 102429,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 102429,
+        "name": "Bevill State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4734,
+        "size": 2177
+      }
+    ]
+  },
+  {
+    "state": "al",
+    "id": "southern-union-state-community-college",
+    "name": "Southern Union State Community College",
+    "unitid": 251260,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 251260,
+        "name": "Southern Union State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5040,
+        "size": 4173
+      }
+    ]
+  },
+  {
+    "state": "ct",
+    "id": "ct-state",
+    "name": "CT State Community College",
+    "unitid": 129367,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 129367,
+        "name": "Connecticut State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5338,
+        "size": 33645
+      }
+    ]
+  },
+  {
+    "state": "dc",
+    "id": "udc-cc",
+    "name": "UDC Community College",
+    "unitid": null,
+    "tier": "review",
+    "candidates": [],
+    "note": "no candidates returned by Scorecard"
+  },
+  {
+    "state": "de",
+    "id": "dtcc",
+    "name": "Delaware Technical Community College",
+    "unitid": 130907,
+    "tier": "tier2",
+    "candidates": [
+      {
+        "unitid": 130907,
+        "name": "Delaware Technical Community College-Terry",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5445,
+        "size": 10867
+      },
+      {
+        "unitid": 13090701,
+        "name": "Delaware Technical Community College-Owens",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5445,
+        "size": null
+      },
+      {
+        "unitid": 13090702,
+        "name": "Delaware Technical Community College-Stanton/Wilmington",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5445,
+        "size": null
+      }
+    ],
+    "note": "chose by dominant enrollment over 2 others"
+  },
+  {
+    "state": "fl",
+    "id": "broward",
+    "name": "Broward College",
+    "unitid": 132709,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 132709,
+        "name": "Broward College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2830,
+        "size": 24922
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "chipola",
+    "name": "Chipola College",
+    "unitid": 133021,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 133021,
+        "name": "Chipola College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3120,
+        "size": 1312
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "cf",
+    "name": "College of Central Florida",
+    "unitid": 132851,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 132851,
+        "name": "College of Central Florida",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2710,
+        "size": 5033
+      },
+      {
+        "unitid": 13552201,
+        "name": "Maynard A. Traviss Technical College - Central Florida Aerospace Academy",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": null,
+        "size": null
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "daytonastate",
+    "name": "Daytona State College",
+    "unitid": 133386,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 133386,
+        "name": "Daytona State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3106,
+        "size": 10176
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "easternflorida",
+    "name": "Eastern Florida State College",
+    "unitid": 132693,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 132693,
+        "name": "Eastern Florida State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2496,
+        "size": 10490
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "fgc",
+    "name": "Florida Gateway College",
+    "unitid": 135160,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 135160,
+        "name": "Florida Gateway College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3100,
+        "size": 2301
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "cfk",
+    "name": "The College of the Florida Keys",
+    "unitid": 133960,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 133960,
+        "name": "The College of the Florida Keys",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3276,
+        "size": 1012
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "fsw",
+    "name": "Florida SouthWestern State College",
+    "unitid": 133508,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 133508,
+        "name": "Florida SouthWestern State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3401,
+        "size": 11052
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "fscj",
+    "name": "Florida State College at Jacksonville",
+    "unitid": 133702,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 133702,
+        "name": "Florida State College at Jacksonville",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2878,
+        "size": 19648
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "gulfcoast",
+    "name": "Gulf Coast State College",
+    "unitid": 134343,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 134343,
+        "name": "Gulf Coast State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2370,
+        "size": 3934
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "hccfl",
+    "name": "Hillsborough Community College",
+    "unitid": 134495,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 134495,
+        "name": "Hillsborough Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2506,
+        "size": 21472
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "irsc",
+    "name": "Indian River State College",
+    "unitid": 134608,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 134608,
+        "name": "Indian River State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2764,
+        "size": 11822
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "lssc",
+    "name": "Lake-Sumter State College",
+    "unitid": 135188,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 135188,
+        "name": "Lake-Sumter State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3292,
+        "size": 4177
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "mdc",
+    "name": "Miami Dade College",
+    "unitid": 135717,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 135717,
+        "name": "Miami Dade College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2838,
+        "size": 46182
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "nfc",
+    "name": "North Florida College",
+    "unitid": 136145,
+    "tier": "manual",
+    "candidates": [
+      {
+        "unitid": 132675,
+        "name": "North Florida Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 84
+      },
+      {
+        "unitid": 136145,
+        "name": "North Florida College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3054,
+        "size": 793
+      },
+      {
+        "unitid": 136233,
+        "name": "Northwest Florida State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2583,
+        "size": 3010
+      }
+    ],
+    "note": "2 plausible public CCs returned — needs human disambiguation | resolved manually via name-prefix search"
+  },
+  {
+    "state": "fl",
+    "id": "nwfsc",
+    "name": "Northwest Florida State College",
+    "unitid": 136233,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 136233,
+        "name": "Northwest Florida State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2583,
+        "size": 3010
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "palmbeachstate",
+    "name": "Palm Beach State College",
+    "unitid": 136358,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 136358,
+        "name": "Palm Beach State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3050,
+        "size": 21956
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "phsc",
+    "name": "Pasco-Hernando State College",
+    "unitid": 136400,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 136400,
+        "name": "Pasco-Hernando State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3155,
+        "size": 6900
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "pensacolastate",
+    "name": "Pensacola State College",
+    "unitid": 136473,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 136473,
+        "name": "Pensacola State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2361,
+        "size": 7538
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "polk",
+    "name": "Polk State College",
+    "unitid": 136516,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 136516,
+        "name": "Polk State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2694,
+        "size": 7180
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "sfcollege",
+    "name": "Santa Fe College",
+    "unitid": 137096,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 137096,
+        "name": "Santa Fe College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2563,
+        "size": 11122
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "seminolestate",
+    "name": "Seminole State College of Florida",
+    "unitid": 137209,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 137209,
+        "name": "Seminole State College of Florida",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3122,
+        "size": 12864
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "southflorida",
+    "name": "South Florida State College",
+    "unitid": 137315,
+    "tier": "manual",
+    "candidates": [
+      {
+        "unitid": 133508,
+        "name": "Florida SouthWestern State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3401,
+        "size": 11052
+      },
+      {
+        "unitid": 137315,
+        "name": "South Florida State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3165,
+        "size": 2045
+      }
+    ],
+    "note": "2 plausible public CCs returned — needs human disambiguation | resolved manually via name-prefix search"
+  },
+  {
+    "state": "fl",
+    "id": "sjrstate",
+    "name": "St. Johns River State College",
+    "unitid": 137281,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 137281,
+        "name": "Saint Johns River State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2591,
+        "size": 4403
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "spcollege",
+    "name": "St. Petersburg College",
+    "unitid": 137078,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 137078,
+        "name": "St Petersburg College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2682,
+        "size": 18950
+      },
+      {
+        "unitid": 137087,
+        "name": "Pinellas Technical College-St. Petersburg",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 810
+      }
+    ]
+  },
+  {
+    "state": "fl",
+    "id": "scf",
+    "name": "State College of Florida, Manatee-Sarasota",
+    "unitid": 135391,
+    "tier": "manual",
+    "candidates": [],
+    "note": "Scorecard fetch failed: scorecard-search:State College of Florida, Manatee-Sarasota/fl: failed after 3 attempts (HTTP 500) | resolved manually via name-prefix search"
+  },
+  {
+    "state": "fl",
+    "id": "tcc-fl",
+    "name": "Tallahassee Community College",
+    "unitid": 137759,
+    "tier": "manual",
+    "candidates": [],
+    "note": "no candidates returned by Scorecard | resolved manually via name-prefix search"
+  },
+  {
+    "state": "fl",
+    "id": "valencia",
+    "name": "Valencia College",
+    "unitid": 138187,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 138187,
+        "name": "Valencia College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2664,
+        "size": 39486
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "albany-tech",
+    "name": "Albany Technical College",
+    "unitid": 138682,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 138682,
+        "name": "Albany Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3364,
+        "size": 2029
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "athens-tech",
+    "name": "Athens Technical College",
+    "unitid": 246813,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 246813,
+        "name": "Athens Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3390,
+        "size": 3318
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "atlanta-tech",
+    "name": "Atlanta Technical College",
+    "unitid": 138840,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 138840,
+        "name": "Atlanta Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3382,
+        "size": 3875
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "augusta-tech",
+    "name": "Augusta Technical College",
+    "unitid": 138956,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 138956,
+        "name": "Augusta Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4282,
+        "size": 3923
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "central-ga-tech",
+    "name": "Central Georgia Technical College",
+    "unitid": 483045,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 483045,
+        "name": "Central Georgia Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3448,
+        "size": 6174
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "chattahoochee-tech",
+    "name": "Chattahoochee Technical College",
+    "unitid": 140331,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 140331,
+        "name": "Chattahoochee Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3540,
+        "size": 8727
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "coastal-pines-tech",
+    "name": "Coastal Pines Technical College",
+    "unitid": 485458,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 485458,
+        "name": "Coastal Pines Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3268,
+        "size": 1648
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "columbus-tech",
+    "name": "Columbus Technical College",
+    "unitid": 139357,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 139357,
+        "name": "Columbus Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4052,
+        "size": 2719
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "ga-northwestern-tech",
+    "name": "Georgia Northwestern Technical College",
+    "unitid": 139384,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 139384,
+        "name": "Georgia Northwestern Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3300,
+        "size": 4244
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "ga-piedmont-tech",
+    "name": "Georgia Piedmont Technical College",
+    "unitid": 244446,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 244446,
+        "name": "Georgia Piedmont Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3386,
+        "size": 2198
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "gwinnett-tech",
+    "name": "Gwinnett Technical College",
+    "unitid": 140012,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 140012,
+        "name": "Gwinnett Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3524,
+        "size": 8728
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "lanier-tech",
+    "name": "Lanier Technical College",
+    "unitid": 140243,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 140243,
+        "name": "Lanier Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3980,
+        "size": 4613
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "north-ga-tech",
+    "name": "North Georgia Technical College",
+    "unitid": 140678,
+    "tier": "manual",
+    "candidates": [
+      {
+        "unitid": 139384,
+        "name": "Georgia Northwestern Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3300,
+        "size": 4244
+      },
+      {
+        "unitid": 140678,
+        "name": "North Georgia Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3330,
+        "size": 1910
+      }
+    ],
+    "note": "2 plausible public CCs returned — needs human disambiguation | resolved manually via name-prefix search"
+  },
+  {
+    "state": "ga",
+    "id": "oconee-fall-line-tech",
+    "name": "Oconee Fall Line Technical College",
+    "unitid": 420431,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 420431,
+        "name": "Oconee Fall Line Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3380,
+        "size": 1708
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "ogeechee-tech",
+    "name": "Ogeechee Technical College",
+    "unitid": 366465,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 366465,
+        "name": "Ogeechee Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3388,
+        "size": 1820
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "savannah-tech",
+    "name": "Savannah Technical College",
+    "unitid": 140942,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 140942,
+        "name": "Savannah Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3330,
+        "size": 3366
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "south-ga-tech",
+    "name": "South Georgia Technical College",
+    "unitid": 141006,
+    "tier": "manual",
+    "candidates": [
+      {
+        "unitid": 487162,
+        "name": "Southern Regional Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3007,
+        "size": 3098
+      },
+      {
+        "unitid": 141006,
+        "name": "South Georgia Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3992,
+        "size": 1407
+      }
+    ],
+    "note": "2 plausible public CCs returned — needs human disambiguation | resolved manually via name-prefix search"
+  },
+  {
+    "state": "ga",
+    "id": "southeastern-tech",
+    "name": "Southeastern Technical College",
+    "unitid": 368911,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 368911,
+        "name": "Southeastern Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3400,
+        "size": 1008
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "southern-crescent-tech",
+    "name": "Southern Crescent Technical College",
+    "unitid": 139986,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 139986,
+        "name": "Southern Crescent Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3516,
+        "size": 4098
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "southern-regional-tech",
+    "name": "Southern Regional Technical College",
+    "unitid": 487162,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 487162,
+        "name": "Southern Regional Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3007,
+        "size": 3098
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "west-ga-tech",
+    "name": "West Georgia Technical College",
+    "unitid": 139278,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 139278,
+        "name": "West Georgia Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3410,
+        "size": 5163
+      }
+    ]
+  },
+  {
+    "state": "ga",
+    "id": "wiregrass-tech",
+    "name": "Wiregrass Georgia Technical College",
+    "unitid": 141255,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 141255,
+        "name": "Wiregrass Georgia Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3480,
+        "size": 2887
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "des-moines-area-community-college",
+    "name": "Des Moines Area Community College",
+    "unitid": 153214,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 153214,
+        "name": "Des Moines Area Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5790,
+        "size": 10446
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "ellsworth-community-college",
+    "name": "Ellsworth Community College",
+    "unitid": 153296,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 153296,
+        "name": "Ellsworth Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5496,
+        "size": 499
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "eastern-iowa-community-college-district",
+    "name": "Eastern Iowa Community College District",
+    "unitid": 153311,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 153311,
+        "name": "Eastern Iowa Community College District",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4848,
+        "size": 3520
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "hawkeye-community-college",
+    "name": "Hawkeye Community College",
+    "unitid": 153445,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 153445,
+        "name": "Hawkeye Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6525,
+        "size": 2626
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "indian-hills-community-college",
+    "name": "Indian Hills Community College",
+    "unitid": 153472,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 153472,
+        "name": "Indian Hills Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5040,
+        "size": 1495
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "iowa-central-community-college",
+    "name": "Iowa Central Community College",
+    "unitid": 153524,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 153524,
+        "name": "Iowa Central Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5496,
+        "size": 3103
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "iowa-lakes-community-college",
+    "name": "Iowa Lakes Community College",
+    "unitid": 153533,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 153533,
+        "name": "Iowa Lakes Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 7392,
+        "size": 941
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "iowa-western-community-college",
+    "name": "Iowa Western Community College",
+    "unitid": 153630,
+    "tier": "manual",
+    "candidates": [
+      {
+        "unitid": 153630,
+        "name": "Iowa Western Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 6930,
+        "size": 2916
+      },
+      {
+        "unitid": 154572,
+        "name": "Western Iowa Tech Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5186,
+        "size": 2647
+      }
+    ],
+    "note": "2 plausible public CCs returned — needs human disambiguation | resolved manually via name-prefix search"
+  },
+  {
+    "state": "ia",
+    "id": "kirkwood-community-college",
+    "name": "Kirkwood Community College",
+    "unitid": 153737,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 153737,
+        "name": "Kirkwood Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6176,
+        "size": 7591
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "marshalltown-community-college",
+    "name": "Marshalltown Community College",
+    "unitid": 153922,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 153922,
+        "name": "Marshalltown Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5496,
+        "size": 788
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "north-iowa-area-community-college",
+    "name": "North Iowa Area Community College",
+    "unitid": 154059,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 154059,
+        "name": "North Iowa Area Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6653,
+        "size": 1320
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "northeast-iowa-community-college",
+    "name": "Northeast Iowa Community College",
+    "unitid": 154110,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 154110,
+        "name": "Northeast Iowa Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6780,
+        "size": 1697
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "northwest-iowa-community-college",
+    "name": "Northwest Iowa Community College",
+    "unitid": 154129,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 154129,
+        "name": "Northwest Iowa Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 7350,
+        "size": 864
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "southeastern-community-college",
+    "name": "Southeastern Community College",
+    "unitid": 154378,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 154378,
+        "name": "Southeastern Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 6420,
+        "size": 1699
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "southwestern-community-college",
+    "name": "Southwestern Community College",
+    "unitid": 154396,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 154396,
+        "name": "Southwestern Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 8064,
+        "size": 729
+      }
+    ]
+  },
+  {
+    "state": "ia",
+    "id": "western-iowa-tech-community-college",
+    "name": "Western Iowa Tech Community College",
+    "unitid": 154572,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 154572,
+        "name": "Western Iowa Tech Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5186,
+        "size": 2647
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "ashland-community-and-technical-college",
+    "name": "Ashland Community and Technical College",
+    "unitid": 156231,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 156231,
+        "name": "Ashland Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 1631
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "southcentral-kentucky-community-and-technical-college",
+    "name": "Southcentral Kentucky Community and Technical College",
+    "unitid": 156338,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 156338,
+        "name": "Southcentral Kentucky Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 3308
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "bluegrass-community-and-technical-college",
+    "name": "Bluegrass Community and Technical College",
+    "unitid": 156392,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 156392,
+        "name": "Bluegrass Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4808,
+        "size": 8244
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "elizabethtown-community-and-technical-college",
+    "name": "Elizabethtown Community and Technical College",
+    "unitid": 156648,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 156648,
+        "name": "Elizabethtown Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 4088
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "hazard-community-and-technical-college",
+    "name": "Hazard Community and Technical College",
+    "unitid": 156790,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 156790,
+        "name": "Hazard Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 1506
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "henderson-community-college",
+    "name": "Henderson Community College",
+    "unitid": 156851,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 156851,
+        "name": "Henderson Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 880
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "hopkinsville-community-college",
+    "name": "Hopkinsville Community College",
+    "unitid": 156860,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 156860,
+        "name": "Hopkinsville Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 1630
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "jefferson-community-and-technical-college",
+    "name": "Jefferson Community and Technical College",
+    "unitid": 156921,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 156921,
+        "name": "Jefferson Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4808,
+        "size": 7744
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "madisonville-community-college",
+    "name": "Madisonville Community College",
+    "unitid": 157304,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 157304,
+        "name": "Madisonville Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 1841
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "maysville-community-and-technical-college",
+    "name": "Maysville Community and Technical College",
+    "unitid": 157331,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 157331,
+        "name": "Maysville Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 2284
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "gateway-community-and-technical-college",
+    "name": "Gateway Community and Technical College",
+    "unitid": 157438,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 157438,
+        "name": "Gateway Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 3167
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "west-kentucky-community-and-technical-college",
+    "name": "West Kentucky Community and Technical College",
+    "unitid": 157483,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 157483,
+        "name": "West Kentucky Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 2851
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "big-sandy-community-and-technical-college",
+    "name": "Big Sandy Community and Technical College",
+    "unitid": 157553,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 157553,
+        "name": "Big Sandy Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 1604
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "somerset-community-college",
+    "name": "Somerset Community College",
+    "unitid": 157711,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 157711,
+        "name": "Somerset Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 4166
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "southeast-kentucky-community-and-technical-college",
+    "name": "Southeast Kentucky Community & Technical College",
+    "unitid": 157739,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 157739,
+        "name": "Southeast Kentucky Community & Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 1721
+      }
+    ]
+  },
+  {
+    "state": "ky",
+    "id": "owensboro-community-and-technical-college",
+    "name": "Owensboro Community and Technical College",
+    "unitid": 247940,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 247940,
+        "name": "Owensboro Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4728,
+        "size": 2648
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "berkshire",
+    "name": "Berkshire Community College",
+    "unitid": 164775,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 164775,
+        "name": "Berkshire Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6164,
+        "size": 1358
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "bristol",
+    "name": "Bristol Community College",
+    "unitid": 165033,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 165033,
+        "name": "Bristol Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5832,
+        "size": 6083
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "bhcc",
+    "name": "Bunker Hill Community College",
+    "unitid": 165112,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 165112,
+        "name": "Bunker Hill Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6168,
+        "size": 8612
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "capecod",
+    "name": "Cape Cod Community College",
+    "unitid": 165194,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 165194,
+        "name": "Cape Cod Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6000,
+        "size": 2911
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "gcc",
+    "name": "Greenfield Community College",
+    "unitid": 165981,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 165981,
+        "name": "Greenfield Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5810,
+        "size": 1395
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "hcc",
+    "name": "Holyoke Community College",
+    "unitid": 166133,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 166133,
+        "name": "Holyoke Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5988,
+        "size": 3591
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "massbay",
+    "name": "MassBay Community College",
+    "unitid": 166647,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 166647,
+        "name": "Massachusetts Bay Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5856,
+        "size": 3837
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "massasoit",
+    "name": "Massasoit Community College",
+    "unitid": 166823,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 166823,
+        "name": "Massasoit Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5376,
+        "size": 4235
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "middlesex",
+    "name": "Middlesex Community College",
+    "unitid": 166887,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 166887,
+        "name": "Middlesex Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6048,
+        "size": 5412
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "mwcc",
+    "name": "Mount Wachusett Community College",
+    "unitid": 166957,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 166957,
+        "name": "Mount Wachusett Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6160,
+        "size": 3059
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "northshore",
+    "name": "North Shore Community College",
+    "unitid": 167312,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 167312,
+        "name": "North Shore Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5352,
+        "size": 4393
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "necc",
+    "name": "Northern Essex Community College",
+    "unitid": 167376,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 167376,
+        "name": "Northern Essex Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6732,
+        "size": 3685
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "qcc",
+    "name": "Quinsigamond Community College",
+    "unitid": 167534,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 167534,
+        "name": "Quinsigamond Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6262,
+        "size": 6447
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "rcc",
+    "name": "Roxbury Community College",
+    "unitid": 167631,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 167631,
+        "name": "Roxbury Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6024,
+        "size": 1977
+      }
+    ]
+  },
+  {
+    "state": "ma",
+    "id": "stcc",
+    "name": "Springfield Technical Community College",
+    "unitid": 167905,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 167905,
+        "name": "Springfield Technical Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5904,
+        "size": 4759
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "allegany",
+    "name": "Allegany College of Maryland",
+    "unitid": 161688,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 161688,
+        "name": "Allegany College of Maryland",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4938,
+        "size": 1831
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "aacc",
+    "name": "Anne Arundel Community College",
+    "unitid": 161767,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 161767,
+        "name": "Anne Arundel Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4322,
+        "size": 8997
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "bccc",
+    "name": "Baltimore City Community College",
+    "unitid": 161864,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 161864,
+        "name": "Baltimore City Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3314,
+        "size": 3700
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "carroll",
+    "name": "Carroll Community College",
+    "unitid": 405872,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 405872,
+        "name": "Carroll Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4308,
+        "size": 1990
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "cecil",
+    "name": "Cecil College",
+    "unitid": 162104,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 162104,
+        "name": "Cecil College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5640,
+        "size": 1363
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "chesapeake",
+    "name": "Chesapeake College",
+    "unitid": 162168,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 162168,
+        "name": "Chesapeake College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4274,
+        "size": 1320
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "csm",
+    "name": "College of Southern Maryland",
+    "unitid": 162122,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 162122,
+        "name": "College of Southern Maryland",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4200,
+        "size": 4512
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "ccbc",
+    "name": "Community College of Baltimore County",
+    "unitid": 434672,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 434672,
+        "name": "Community College of Baltimore County",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4432,
+        "size": 13872
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "frederick",
+    "name": "Frederick Community College",
+    "unitid": 162557,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 162557,
+        "name": "Frederick Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3849,
+        "size": 4203
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "garrett",
+    "name": "Garrett College",
+    "unitid": 162609,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 162609,
+        "name": "Garrett College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4144,
+        "size": 411
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "hagerstown",
+    "name": "Hagerstown Community College",
+    "unitid": 162690,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 162690,
+        "name": "Hagerstown Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4320,
+        "size": 2948
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "harford",
+    "name": "Harford Community College",
+    "unitid": 162706,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 162706,
+        "name": "Harford Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4032,
+        "size": 3696
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "howardcc",
+    "name": "Howard Community College",
+    "unitid": 162779,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 162779,
+        "name": "Howard Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4080,
+        "size": 6649
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "montgomery",
+    "name": "Montgomery College",
+    "unitid": 163426,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 163426,
+        "name": "Montgomery College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5394,
+        "size": 13773
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "pgcc",
+    "name": "Prince George's Community College",
+    "unitid": 163657,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 163657,
+        "name": "Prince George's Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4034,
+        "size": 8815
+      }
+    ]
+  },
+  {
+    "state": "md",
+    "id": "wor-wic",
+    "name": "Wor-Wic Community College",
+    "unitid": 164313,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 164313,
+        "name": "Wor-Wic Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3840,
+        "size": 2169
+      }
+    ]
+  },
+  {
+    "state": "me",
+    "id": "cmcc",
+    "name": "Central Maine Community College",
+    "unitid": 161077,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 161077,
+        "name": "Central Maine Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4140,
+        "size": 2952
+      }
+    ]
+  },
+  {
+    "state": "me",
+    "id": "emcc",
+    "name": "Eastern Maine Community College",
+    "unitid": 161138,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 161138,
+        "name": "Eastern Maine Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4156,
+        "size": 1840
+      }
+    ]
+  },
+  {
+    "state": "me",
+    "id": "kvcc",
+    "name": "Kennebec Valley Community College",
+    "unitid": 161192,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 161192,
+        "name": "Kennebec Valley Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4156,
+        "size": 1597
+      }
+    ]
+  },
+  {
+    "state": "me",
+    "id": "nmcc",
+    "name": "Northern Maine Community College",
+    "unitid": 161484,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 161484,
+        "name": "Northern Maine Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4156,
+        "size": 638
+      }
+    ]
+  },
+  {
+    "state": "me",
+    "id": "smcc",
+    "name": "Southern Maine Community College",
+    "unitid": 161545,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 161545,
+        "name": "Southern Maine Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4156,
+        "size": 5675
+      }
+    ]
+  },
+  {
+    "state": "me",
+    "id": "wccc",
+    "name": "Washington County Community College",
+    "unitid": 161581,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 161581,
+        "name": "Washington County Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4156,
+        "size": 443
+      }
+    ]
+  },
+  {
+    "state": "me",
+    "id": "yccc",
+    "name": "York County Community College",
+    "unitid": 420440,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 420440,
+        "name": "York County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4156,
+        "size": 1133
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "alpena-community-college",
+    "name": "Alpena Community College",
+    "unitid": 168607,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 168607,
+        "name": "Alpena Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5250,
+        "size": 732
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "henry-ford-college",
+    "name": "Henry Ford College",
+    "unitid": 170240,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 170240,
+        "name": "Henry Ford College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3568,
+        "size": 8643
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "jackson-college",
+    "name": "Jackson College",
+    "unitid": 170444,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 170444,
+        "name": "Jackson College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 7350,
+        "size": 3422
+      },
+      {
+        "unitid": 16884706,
+        "name": "Baker College of Jackson",
+        "ownership": 2,
+        "predominantDegree": 0,
+        "inStateTuition": 13000,
+        "size": null
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "northwestern-michigan-college",
+    "name": "Northwestern Michigan College",
+    "unitid": 171483,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 171483,
+        "name": "Northwestern Michigan College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5860,
+        "size": 2813
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "schoolcraft-community-college-district",
+    "name": "Schoolcraft Community College District",
+    "unitid": 172200,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 172200,
+        "name": "Schoolcraft Community College District",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4736,
+        "size": 7511
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "bay-mills-community-college",
+    "name": "Bay Mills Community College",
+    "unitid": 380359,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 380359,
+        "name": "Bay Mills Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3480,
+        "size": 662
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "bay-de-noc-community-college",
+    "name": "Bay de Noc Community College",
+    "unitid": 168883,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 168883,
+        "name": "Bay de Noc Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5712,
+        "size": 1223
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "mott-community-college",
+    "name": "Mott Community College",
+    "unitid": 169275,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 169275,
+        "name": "Mott Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6845,
+        "size": 5251
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "delta-college",
+    "name": "Delta College",
+    "unitid": 169521,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 169521,
+        "name": "Delta College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4820,
+        "size": 6573
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "glen-oaks-community-college",
+    "name": "Glen Oaks Community College",
+    "unitid": 169974,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 169974,
+        "name": "Glen Oaks Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4176,
+        "size": 600
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "gogebic-community-college",
+    "name": "Gogebic Community College",
+    "unitid": 169992,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 169992,
+        "name": "Gogebic Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4800,
+        "size": 511
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "grand-rapids-community-college",
+    "name": "Grand Rapids Community College",
+    "unitid": 170055,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 170055,
+        "name": "Grand Rapids Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4179,
+        "size": 10698
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "kalamazoo-valley-community-college",
+    "name": "Kalamazoo Valley Community College",
+    "unitid": 170541,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 170541,
+        "name": "Kalamazoo Valley Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4144,
+        "size": 4997
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "kellogg-community-college",
+    "name": "Kellogg Community College",
+    "unitid": 170550,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 170550,
+        "name": "Kellogg Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4118,
+        "size": 2971
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "kirtland-community-college",
+    "name": "Kirtland Community College",
+    "unitid": 170587,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 170587,
+        "name": "Kirtland Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5190,
+        "size": 1023
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "lake-michigan-college",
+    "name": "Lake Michigan College",
+    "unitid": 170620,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 170620,
+        "name": "Lake Michigan College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5445,
+        "size": 2105
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "lansing-community-college",
+    "name": "Lansing Community College",
+    "unitid": 170657,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 170657,
+        "name": "Lansing Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4100,
+        "size": 8207
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "macomb-community-college",
+    "name": "Macomb Community College",
+    "unitid": 170790,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 170790,
+        "name": "Macomb Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3660,
+        "size": 13876
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "mid-michigan-college",
+    "name": "Mid Michigan College",
+    "unitid": 171155,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 171155,
+        "name": "Mid Michigan College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6132,
+        "size": 2098
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "monroe-county-community-college",
+    "name": "Monroe County Community College",
+    "unitid": 171225,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 171225,
+        "name": "Monroe County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4759,
+        "size": 1435
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "montcalm-community-college",
+    "name": "Montcalm Community College",
+    "unitid": 171234,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 171234,
+        "name": "Montcalm Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4662,
+        "size": 1122
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "muskegon-community-college",
+    "name": "Muskegon Community College",
+    "unitid": 171304,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 171304,
+        "name": "Muskegon Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 7250,
+        "size": 2760
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "north-central-michigan-college",
+    "name": "North Central Michigan College",
+    "unitid": 171395,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 171395,
+        "name": "North Central Michigan College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5430,
+        "size": 942
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "oakland-community-college",
+    "name": "Oakland Community College",
+    "unitid": 171535,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 171535,
+        "name": "Oakland Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3020,
+        "size": 12748
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "st-clair-county-community-college",
+    "name": "St Clair County Community College",
+    "unitid": 172291,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 172291,
+        "name": "St Clair County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5212,
+        "size": 2138
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "southwestern-michigan-college",
+    "name": "Southwestern Michigan College",
+    "unitid": 172307,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 172307,
+        "name": "Southwestern Michigan College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6417,
+        "size": 1431
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "washtenaw-community-college",
+    "name": "Washtenaw Community College",
+    "unitid": 172617,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 172617,
+        "name": "Washtenaw Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2736,
+        "size": 7816
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "wayne-county-community-college-district",
+    "name": "Wayne County Community College District",
+    "unitid": 172635,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 172635,
+        "name": "Wayne County Community College District",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3112,
+        "size": 7423
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "west-shore-community-college",
+    "name": "West Shore Community College",
+    "unitid": 172671,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 172671,
+        "name": "West Shore Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4470,
+        "size": 782
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "saginaw-chippewa-tribal-college",
+    "name": "Saginaw Chippewa Tribal College",
+    "unitid": 441070,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 441070,
+        "name": "Saginaw Chippewa Tribal College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2730,
+        "size": 164
+      }
+    ]
+  },
+  {
+    "state": "mi",
+    "id": "keweenaw-bay-ojibwa-community-college",
+    "name": "Keweenaw Bay Ojibwa Community College",
+    "unitid": 461315,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 461315,
+        "name": "Keweenaw Bay Ojibwa Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5000,
+        "size": 139
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "coahoma-community-college",
+    "name": "Coahoma Community College",
+    "unitid": 175519,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 175519,
+        "name": "Coahoma Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3490,
+        "size": 1144
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "copiah-lincoln-community-college",
+    "name": "Copiah-Lincoln Community College",
+    "unitid": 175573,
+    "tier": "tier2",
+    "candidates": [
+      {
+        "unitid": 175573,
+        "name": "Copiah-Lincoln Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4000,
+        "size": 1922
+      },
+      {
+        "unitid": 17557301,
+        "name": "Copiah-Lincoln Community College Simpson County Center",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 4200,
+        "size": null
+      },
+      {
+        "unitid": 17557302,
+        "name": "Copiah-Lincoln Community College-Natchez Campus",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 4200,
+        "size": null
+      }
+    ],
+    "note": "chose by dominant enrollment over 2 others"
+  },
+  {
+    "state": "ms",
+    "id": "east-central-community-college",
+    "name": "East Central Community College",
+    "unitid": 175643,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 175643,
+        "name": "East Central Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4160,
+        "size": 1520
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "east-mississippi-community-college",
+    "name": "East Mississippi Community College",
+    "unitid": 175652,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 175652,
+        "name": "East Mississippi Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4095,
+        "size": 2838
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "hinds-community-college",
+    "name": "Hinds Community College",
+    "unitid": 175786,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 175786,
+        "name": "Hinds Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4250,
+        "size": 6397
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "holmes-community-college",
+    "name": "Holmes Community College",
+    "unitid": 175810,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 175810,
+        "name": "Holmes Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3710,
+        "size": 3958
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "itawamba-community-college",
+    "name": "Itawamba Community College",
+    "unitid": 175829,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 175829,
+        "name": "Itawamba Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3420,
+        "size": 4167
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "jones-county-junior-college",
+    "name": "Jones County Junior College",
+    "unitid": 175883,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 175883,
+        "name": "Jones County Junior College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4806,
+        "size": 3535
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "meridian-community-college",
+    "name": "Meridian Community College",
+    "unitid": 175935,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 175935,
+        "name": "Meridian Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4078,
+        "size": 2156
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "mississippi-delta-community-college",
+    "name": "Mississippi Delta Community College",
+    "unitid": 176008,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 176008,
+        "name": "Mississippi Delta Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3540,
+        "size": 1413
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "mississippi-gulf-coast-community-college",
+    "name": "Mississippi Gulf Coast Community College",
+    "unitid": 176071,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 176071,
+        "name": "Mississippi Gulf Coast Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4250,
+        "size": 6353
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "northeast-mississippi-community-college",
+    "name": "Northeast Mississippi Community College",
+    "unitid": 176169,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 176169,
+        "name": "Northeast Mississippi Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4470,
+        "size": 2698
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "northwest-mississippi-community-college",
+    "name": "Northwest Mississippi Community College",
+    "unitid": 176178,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 176178,
+        "name": "Northwest Mississippi Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3740,
+        "size": 5452
+      }
+    ]
+  },
+  {
+    "state": "ms",
+    "id": "pearl-river-community-college",
+    "name": "Pearl River Community College",
+    "unitid": 176239,
+    "tier": "tier2",
+    "candidates": [
+      {
+        "unitid": 176239,
+        "name": "Pearl River Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3700,
+        "size": 4903
+      },
+      {
+        "unitid": 17623901,
+        "name": "Pearl River Community College-Forrest County Campus",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 3700,
+        "size": null
+      }
+    ],
+    "note": "chose by dominant enrollment over 1 others"
+  },
+  {
+    "state": "ms",
+    "id": "southwest-mississippi-community-college",
+    "name": "Southwest Mississippi Community College",
+    "unitid": 176354,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 176354,
+        "name": "Southwest Mississippi Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4080,
+        "size": 1474
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "alamance",
+    "name": "Alamance Community College",
+    "unitid": 199786,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199786,
+        "name": "Alamance Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2592,
+        "size": 3080
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "asheville-buncombe-technical",
+    "name": "Asheville-Buncombe Technical Community College",
+    "unitid": 197887,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 197887,
+        "name": "Asheville-Buncombe Technical Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2882,
+        "size": 5110
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "beaufort-county",
+    "name": "Beaufort County Community College",
+    "unitid": 197966,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 197966,
+        "name": "Beaufort County Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2540,
+        "size": 1074
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "bladen",
+    "name": "Bladen Community College",
+    "unitid": 198011,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198011,
+        "name": "Bladen Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2618,
+        "size": 1030
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "blue-ridge",
+    "name": "Blue Ridge Community College",
+    "unitid": 198039,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198039,
+        "name": "Blue Ridge Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2660,
+        "size": 1758
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "brunswick",
+    "name": "Brunswick Community College",
+    "unitid": 198084,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198084,
+        "name": "Brunswick Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2553,
+        "size": 1211
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "caldwell",
+    "name": "Caldwell Community College and Technical Institute",
+    "unitid": 198118,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198118,
+        "name": "Caldwell Community College and Technical Institute",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2526,
+        "size": 2393
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "cape-fear",
+    "name": "Cape Fear Community College",
+    "unitid": 198154,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198154,
+        "name": "Cape Fear Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2748,
+        "size": 9764
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "carteret",
+    "name": "Carteret Community College",
+    "unitid": 198206,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198206,
+        "name": "Carteret Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2310,
+        "size": 1172
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "catawba-valley",
+    "name": "Catawba Valley Community College",
+    "unitid": 198233,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198233,
+        "name": "Catawba Valley Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2427,
+        "size": 2741
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "central-carolina",
+    "name": "Central Carolina Community College",
+    "unitid": 198251,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198251,
+        "name": "Central Carolina Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2711,
+        "size": 3237
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "central-piedmont",
+    "name": "Central Piedmont Community College",
+    "unitid": 198260,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198260,
+        "name": "Central Piedmont Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2792,
+        "size": 15067
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "cleveland",
+    "name": "Cleveland Community College",
+    "unitid": 198321,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198321,
+        "name": "Cleveland Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2602,
+        "size": 1097
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "coastal-carolina",
+    "name": "Coastal Carolina Community College",
+    "unitid": 198330,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198330,
+        "name": "Coastal Carolina Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2512,
+        "size": 2724
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "college-of-the-albemarle",
+    "name": "College of The Albemarle",
+    "unitid": 197814,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 197814,
+        "name": "College of the Albemarle",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2242,
+        "size": 2001
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "craven",
+    "name": "Craven Community College",
+    "unitid": 198367,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198367,
+        "name": "Craven Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2022,
+        "size": 1989
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "davidson-davie",
+    "name": "Davidson-Davie Community College",
+    "unitid": 198376,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198376,
+        "name": "Davidson-Davie Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 1980,
+        "size": 2633
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "durham-technical",
+    "name": "Durham Technical Community College",
+    "unitid": 198455,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198455,
+        "name": "Durham Technical Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 1986,
+        "size": 3890
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "edgecombe",
+    "name": "Edgecombe Community College",
+    "unitid": 198491,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198491,
+        "name": "Edgecombe Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2640,
+        "size": 1397
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "fayetteville-technical",
+    "name": "Fayetteville Technical Community College",
+    "unitid": 198534,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198534,
+        "name": "Fayetteville Technical Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2628,
+        "size": 9471
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "forsyth-technical",
+    "name": "Forsyth Technical Community College",
+    "unitid": 198552,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198552,
+        "name": "Forsyth Technical Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2276,
+        "size": 7113
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "gaston",
+    "name": "Gaston College",
+    "unitid": 198570,
+    "tier": "tier2",
+    "candidates": [
+      {
+        "unitid": 198570,
+        "name": "Gaston College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3186,
+        "size": 3518
+      },
+      {
+        "unitid": 19857001,
+        "name": "Gaston College",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 3186,
+        "size": null
+      }
+    ],
+    "note": "chose by dominant enrollment over 1 others"
+  },
+  {
+    "state": "nc",
+    "id": "guilford-technical",
+    "name": "Guilford Technical Community College",
+    "unitid": 198622,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198622,
+        "name": "Guilford Technical Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2320,
+        "size": 9260
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "halifax",
+    "name": "Halifax Community College",
+    "unitid": 198640,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198640,
+        "name": "Halifax Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2608,
+        "size": 723
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "haywood",
+    "name": "Haywood Community College",
+    "unitid": 198668,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198668,
+        "name": "Haywood Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2580,
+        "size": 849
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "isothermal",
+    "name": "Isothermal Community College",
+    "unitid": 198710,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198710,
+        "name": "Isothermal Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2030,
+        "size": 1169
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "james-sprunt",
+    "name": "James Sprunt Community College",
+    "unitid": 198729,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198729,
+        "name": "James Sprunt Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2592,
+        "size": 799
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "johnston",
+    "name": "Johnston Community College",
+    "unitid": 198774,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198774,
+        "name": "Johnston Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2756,
+        "size": 3453
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "lenoir",
+    "name": "Lenoir Community College",
+    "unitid": 198817,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198817,
+        "name": "Lenoir Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2578,
+        "size": 1469
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "martin",
+    "name": "Martin Community College",
+    "unitid": 198905,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198905,
+        "name": "Martin Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2523,
+        "size": 313
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "mayland",
+    "name": "Mayland Community College",
+    "unitid": 198914,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198914,
+        "name": "Mayland Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2626,
+        "size": 362
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "mcdowell-technical",
+    "name": "McDowell Technical Community College",
+    "unitid": 198923,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198923,
+        "name": "McDowell Technical Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2032,
+        "size": 608
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "mitchell",
+    "name": "Mitchell Community College",
+    "unitid": 198987,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 198987,
+        "name": "Mitchell Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2641,
+        "size": 1948
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "montgomery",
+    "name": "Montgomery Community College",
+    "unitid": 199023,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199023,
+        "name": "Montgomery Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2538,
+        "size": 852
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "nash",
+    "name": "Nash Community College",
+    "unitid": 199087,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199087,
+        "name": "Nash Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2866,
+        "size": 1689
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "pamlico",
+    "name": "Pamlico Community College",
+    "unitid": 199263,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199263,
+        "name": "Pamlico Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 1867,
+        "size": 165
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "piedmont",
+    "name": "Piedmont Community College",
+    "unitid": 199324,
+    "tier": "manual",
+    "candidates": [
+      {
+        "unitid": 197850,
+        "name": "South Piedmont Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2022,
+        "size": 1833
+      },
+      {
+        "unitid": 198260,
+        "name": "Central Piedmont Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2792,
+        "size": 15067
+      },
+      {
+        "unitid": 199324,
+        "name": "Piedmont Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2556,
+        "size": 457
+      },
+      {
+        "unitid": 199908,
+        "name": "Western Piedmont Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2650,
+        "size": 1339
+      }
+    ],
+    "note": "4 plausible public CCs returned — needs human disambiguation | resolved manually via name-prefix search"
+  },
+  {
+    "state": "nc",
+    "id": "pitt",
+    "name": "Pitt Community College",
+    "unitid": 199333,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199333,
+        "name": "Pitt Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2580,
+        "size": 5317
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "randolph",
+    "name": "Randolph Community College",
+    "unitid": 199421,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199421,
+        "name": "Randolph Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2416,
+        "size": 1417
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "richmond",
+    "name": "Richmond Community College",
+    "unitid": 199449,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199449,
+        "name": "Richmond Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 1956,
+        "size": 1352
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "roanoke-chowan",
+    "name": "Roanoke-Chowan Community College",
+    "unitid": 199467,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199467,
+        "name": "Roanoke-Chowan Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2642,
+        "size": 309
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "robeson",
+    "name": "Robeson Community College",
+    "unitid": 199476,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199476,
+        "name": "Robeson Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2581,
+        "size": 1551
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "rockingham",
+    "name": "Rockingham Community College",
+    "unitid": 199485,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199485,
+        "name": "Rockingham Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 1966,
+        "size": 1065
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "rowan-cabarrus",
+    "name": "Rowan-Cabarrus Community College",
+    "unitid": 199494,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199494,
+        "name": "Rowan-Cabarrus Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2064,
+        "size": 4164
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "sampson",
+    "name": "Sampson Community College",
+    "unitid": 199625,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199625,
+        "name": "Sampson Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2877,
+        "size": 846
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "sandhills",
+    "name": "Sandhills Community College",
+    "unitid": 199634,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199634,
+        "name": "Sandhills Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2040,
+        "size": 2539
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "south-piedmont",
+    "name": "South Piedmont Community College",
+    "unitid": 197850,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 197850,
+        "name": "South Piedmont Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2022,
+        "size": 1833
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "southeastern",
+    "name": "Southeastern Community College",
+    "unitid": 199722,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199722,
+        "name": "Southeastern Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2600,
+        "size": 820
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "southwestern",
+    "name": "Southwestern Community College",
+    "unitid": 199731,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199731,
+        "name": "Southwestern Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4112,
+        "size": 1249
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "stanly",
+    "name": "Stanly Community College",
+    "unitid": 199740,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199740,
+        "name": "Stanly Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2672,
+        "size": 1465
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "surry",
+    "name": "Surry Community College",
+    "unitid": 199768,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199768,
+        "name": "Surry Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2668,
+        "size": 1475
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "tri-county",
+    "name": "Tri-County Community College",
+    "unitid": 199795,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199795,
+        "name": "Tri-County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2636,
+        "size": 472
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "vance-granville",
+    "name": "Vance-Granville Community College",
+    "unitid": 199838,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199838,
+        "name": "Vance-Granville Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 1944,
+        "size": 1665
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "wake-technical",
+    "name": "Wake Technical Community College",
+    "unitid": 199856,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199856,
+        "name": "Wake Technical Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2254,
+        "size": 19675
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "wayne",
+    "name": "Wayne Community College",
+    "unitid": 199892,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199892,
+        "name": "Wayne Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2566,
+        "size": 2739
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "western-piedmont",
+    "name": "Western Piedmont Community College",
+    "unitid": 199908,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199908,
+        "name": "Western Piedmont Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2650,
+        "size": 1339
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "wilkes",
+    "name": "Wilkes Community College",
+    "unitid": 199926,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199926,
+        "name": "Wilkes Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2572,
+        "size": 1355
+      }
+    ]
+  },
+  {
+    "state": "nc",
+    "id": "wilson",
+    "name": "Wilson Community College",
+    "unitid": 199953,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 199953,
+        "name": "Wilson Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2572,
+        "size": 1373
+      }
+    ]
+  },
+  {
+    "state": "nh",
+    "id": "gbcc",
+    "name": "Great Bay Community College",
+    "unitid": 183150,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 183150,
+        "name": "Great Bay Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 7200,
+        "size": 1259
+      }
+    ]
+  },
+  {
+    "state": "nh",
+    "id": "lrcc",
+    "name": "Lakes Region Community College",
+    "unitid": 183123,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 183123,
+        "name": "Lakes Region Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6720,
+        "size": 482
+      }
+    ]
+  },
+  {
+    "state": "nh",
+    "id": "mccnh",
+    "name": "Manchester Community College",
+    "unitid": 183132,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 183132,
+        "name": "Manchester Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 7090,
+        "size": 1587
+      }
+    ]
+  },
+  {
+    "state": "nh",
+    "id": "nashuacc",
+    "name": "Nashua Community College",
+    "unitid": 183141,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 183141,
+        "name": "Nashua Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 7140,
+        "size": 1135
+      }
+    ]
+  },
+  {
+    "state": "nh",
+    "id": "nhti",
+    "name": "NHTI, Concord's Community College",
+    "unitid": 183099,
+    "tier": "manual",
+    "candidates": [],
+    "note": "Scorecard fetch failed: scorecard-search:NHTI, Concord's Community College/nh: failed after 3 attempts (HTTP 500) | resolved manually via name-prefix search"
+  },
+  {
+    "state": "nh",
+    "id": "rvcc",
+    "name": "River Valley Community College",
+    "unitid": 183114,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 183114,
+        "name": "River Valley Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6940,
+        "size": 608
+      }
+    ]
+  },
+  {
+    "state": "nh",
+    "id": "wmcc",
+    "name": "White Mountains Community College",
+    "unitid": 183105,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 183105,
+        "name": "White Mountains Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 7050,
+        "size": 450
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "atlantic-cape",
+    "name": "Atlantic Cape Community College",
+    "unitid": 183655,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 183655,
+        "name": "Atlantic Cape Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6068,
+        "size": 3755
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "bergen",
+    "name": "Bergen Community College",
+    "unitid": 183743,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 183743,
+        "name": "Bergen Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4913,
+        "size": 10557
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "brookdale",
+    "name": "Brookdale Community College",
+    "unitid": 183859,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 183859,
+        "name": "Brookdale Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6270,
+        "size": 7901
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "camden",
+    "name": "Camden County College",
+    "unitid": 183938,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 183938,
+        "name": "Camden County College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4320,
+        "size": 6636
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "ccm",
+    "name": "County College of Morris",
+    "unitid": 184180,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 184180,
+        "name": "County College of Morris",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6210,
+        "size": 5360
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "essex",
+    "name": "Essex County College",
+    "unitid": 184481,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 184481,
+        "name": "Essex County College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5415,
+        "size": 5855
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "hccc",
+    "name": "Hudson County Community College",
+    "unitid": 184995,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 184995,
+        "name": "Hudson County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5384,
+        "size": 6626
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "mercer",
+    "name": "Mercer County Community College",
+    "unitid": 185509,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 185509,
+        "name": "Mercer County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5310,
+        "size": 5404
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "middlesex",
+    "name": "Middlesex College",
+    "unitid": 185536,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 185536,
+        "name": "Middlesex College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4764,
+        "size": 8469
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "ocean",
+    "name": "Ocean County College",
+    "unitid": 185873,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 185873,
+        "name": "Ocean County College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4906,
+        "size": 5424
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "passaic",
+    "name": "Passaic County Community College",
+    "unitid": 186034,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 186034,
+        "name": "Passaic County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6300,
+        "size": 4260
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "rvcc",
+    "name": "Raritan Valley Community College",
+    "unitid": 186645,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 186645,
+        "name": "Raritan Valley Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5664,
+        "size": 5416
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "rcbc",
+    "name": "Rowan College at Burlington County",
+    "unitid": 183877,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 183877,
+        "name": "Rowan College at Burlington County",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6990,
+        "size": 6267
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "rcsj-cumberland",
+    "name": "Rowan College of South Jersey - Cumberland Campus",
+    "unitid": 184205,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 184205,
+        "name": "Rowan College of South Jersey-Cumberland Campus",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5160,
+        "size": 2074
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "rcsj-gloucester",
+    "name": "Rowan College of South Jersey - Gloucester Campus",
+    "unitid": 184791,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 184791,
+        "name": "Rowan College of South Jersey-Gloucester Campus",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5160,
+        "size": 4234
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "salem",
+    "name": "Salem Community College",
+    "unitid": 186469,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 186469,
+        "name": "Salem Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6360,
+        "size": 910
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "sussex",
+    "name": "Sussex County Community College",
+    "unitid": 247603,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 247603,
+        "name": "Sussex County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5544,
+        "size": 2086
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "ucnj",
+    "name": "UCNJ Union College",
+    "unitid": 187198,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 187198,
+        "name": "UCNJ Union College of Union County New Jersey",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5280,
+        "size": 7939
+      }
+    ]
+  },
+  {
+    "state": "nj",
+    "id": "warren",
+    "name": "Warren County Community College",
+    "unitid": 245625,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 245625,
+        "name": "Warren County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5460,
+        "size": 836
+      }
+    ]
+  },
+  {
+    "state": "ny",
+    "id": "bmcc",
+    "name": "Borough of Manhattan Community College",
+    "unitid": 190521,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 190521,
+        "name": "CUNY Borough of Manhattan Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5170,
+        "size": 18623
+      }
+    ]
+  },
+  {
+    "state": "ny",
+    "id": "bronx-cc",
+    "name": "Bronx Community College",
+    "unitid": 190530,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 190530,
+        "name": "CUNY Bronx Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5206,
+        "size": 5964
+      }
+    ]
+  },
+  {
+    "state": "ny",
+    "id": "guttman-cc",
+    "name": "Stella and Charles Guttman Community College",
+    "unitid": 475565,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 475565,
+        "name": "CUNY Stella and Charles Guttman Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5194,
+        "size": 978
+      }
+    ]
+  },
+  {
+    "state": "ny",
+    "id": "hostos-cc",
+    "name": "Eugenio María de Hostos Community College",
+    "unitid": 190585,
+    "tier": "manual",
+    "candidates": [],
+    "note": "no candidates returned by Scorecard | resolved manually via name-prefix search"
+  },
+  {
+    "state": "ny",
+    "id": "kingsborough-cc",
+    "name": "Kingsborough Community College",
+    "unitid": 190619,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 190619,
+        "name": "CUNY Kingsborough Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5252,
+        "size": 7670
+      }
+    ]
+  },
+  {
+    "state": "ny",
+    "id": "laguardia-cc",
+    "name": "Fiorello H. LaGuardia Community College",
+    "unitid": 190628,
+    "tier": "manual",
+    "candidates": [],
+    "note": "no candidates returned by Scorecard | resolved manually via name-prefix search"
+  },
+  {
+    "state": "ny",
+    "id": "queensborough-cc",
+    "name": "Queensborough Community College",
+    "unitid": 190673,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 190673,
+        "name": "CUNY Queensborough Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5210,
+        "size": 8940
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "central-ohio-technical-college",
+    "name": "Central Ohio Technical College",
+    "unitid": 201672,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 201672,
+        "name": "Central Ohio Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5256,
+        "size": 1941
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "cincinnati-state-technical-and-community-college",
+    "name": "Cincinnati State Technical and Community College",
+    "unitid": 201928,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 201928,
+        "name": "Cincinnati State Technical and Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5517,
+        "size": 5667
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "clark-state-college",
+    "name": "Clark State College",
+    "unitid": 201973,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 201973,
+        "name": "Clark State College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4393,
+        "size": 3456
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "james-a-rhodes-state-college",
+    "name": "James A. Rhodes State College",
+    "unitid": 203678,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 203678,
+        "name": "James A. Rhodes State College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4560,
+        "size": 1590
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "lorain-county-community-college",
+    "name": "Lorain County Community College",
+    "unitid": 203748,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 203748,
+        "name": "Lorain County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4265,
+        "size": 5373
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "marion-technical-college",
+    "name": "Marion Technical College",
+    "unitid": 203881,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 203881,
+        "name": "Marion Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6595,
+        "size": 1475
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "zane-state-college",
+    "name": "Zane State College",
+    "unitid": 204255,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 204255,
+        "name": "Zane State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6006,
+        "size": 715
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "north-central-state-college",
+    "name": "North Central State College",
+    "unitid": 204422,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 204422,
+        "name": "North Central State College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4624,
+        "size": 1273
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "sinclair-community-college",
+    "name": "Sinclair Community College",
+    "unitid": 205470,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 205470,
+        "name": "Sinclair Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3675,
+        "size": 13308
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "washington-state-community-college",
+    "name": "Washington State Community College",
+    "unitid": 206446,
+    "tier": "manual",
+    "candidates": [],
+    "note": "no candidates returned by Scorecard | resolved manually via name-prefix search"
+  },
+  {
+    "state": "oh",
+    "id": "belmont-college",
+    "name": "Belmont College",
+    "unitid": 201283,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 201283,
+        "name": "Belmont College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4698,
+        "size": 600
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "columbus-state-community-college",
+    "name": "Columbus State Community College",
+    "unitid": 202222,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 202222,
+        "name": "Columbus State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5488,
+        "size": 17549
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "cuyahoga-community-college-district",
+    "name": "Cuyahoga Community College District",
+    "unitid": 202356,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 202356,
+        "name": "Cuyahoga Community College District",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3249,
+        "size": 13382
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "edison-state-community-college",
+    "name": "Edison State Community College",
+    "unitid": 202648,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 202648,
+        "name": "Edison State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4499,
+        "size": 1302
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "hocking-college",
+    "name": "Hocking College",
+    "unitid": 203155,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 203155,
+        "name": "Hocking College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5540,
+        "size": 1311
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "eastern-gateway-community-college",
+    "name": "Eastern Gateway Community College",
+    "unitid": null,
+    "tier": "review",
+    "candidates": [],
+    "note": "no candidates returned by Scorecard"
+  },
+  {
+    "state": "oh",
+    "id": "lakeland-community-college",
+    "name": "Lakeland Community College",
+    "unitid": 203599,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 203599,
+        "name": "Lakeland Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3872,
+        "size": 2773
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "northwest-state-community-college",
+    "name": "Northwest State Community College",
+    "unitid": 204440,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 204440,
+        "name": "Northwest State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4698,
+        "size": 1115
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "owens-community-college",
+    "name": "Owens Community College",
+    "unitid": 204945,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 204945,
+        "name": "Owens Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5870,
+        "size": 4361
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "stark-state-college",
+    "name": "Stark State College",
+    "unitid": 205841,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 205841,
+        "name": "Stark State College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4790,
+        "size": 5749
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "southern-state-community-college",
+    "name": "Southern State Community College",
+    "unitid": 205966,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 205966,
+        "name": "Southern State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5912,
+        "size": 761
+      }
+    ]
+  },
+  {
+    "state": "oh",
+    "id": "terra-state-community-college",
+    "name": "Terra State Community College",
+    "unitid": 206011,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 206011,
+        "name": "Terra State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5748,
+        "size": 1028
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "bucks",
+    "name": "Bucks County Community College",
+    "unitid": 211307,
+    "tier": "tier2",
+    "candidates": [
+      {
+        "unitid": 21130701,
+        "name": "Bucks County Community College-Upper Bucks Campus",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5683,
+        "size": null
+      },
+      {
+        "unitid": 21130702,
+        "name": "Bucks County Community College-Gene and Marlene Epstein Campus at Lower Bucks",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5683,
+        "size": null
+      },
+      {
+        "unitid": 211307,
+        "name": "Bucks County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5683,
+        "size": 5289
+      }
+    ],
+    "note": "chose by dominant enrollment over 2 others"
+  },
+  {
+    "state": "pa",
+    "id": "butler",
+    "name": "Butler County Community College",
+    "unitid": 211343,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 211343,
+        "name": "Butler County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5910,
+        "size": 1789
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "ccac",
+    "name": "Community College of Allegheny County",
+    "unitid": 210605,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 210605,
+        "name": "Community College of Allegheny County",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4842,
+        "size": 9544
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "ccbc",
+    "name": "Community College of Beaver County",
+    "unitid": 211079,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 211079,
+        "name": "Community College of Beaver County",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 7500,
+        "size": 1247
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "ccp",
+    "name": "Community College of Philadelphia",
+    "unitid": 215239,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 215239,
+        "name": "Community College of Philadelphia",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4632,
+        "size": 11948
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "dccc",
+    "name": "Delaware County Community College",
+    "unitid": 211927,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 211927,
+        "name": "Delaware County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6930,
+        "size": 6861
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "hacc",
+    "name": "Harrisburg Area Community College",
+    "unitid": 212878,
+    "tier": "tier2",
+    "candidates": [
+      {
+        "unitid": 212878,
+        "name": "Harrisburg Area Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6975,
+        "size": 9533
+      },
+      {
+        "unitid": 21287801,
+        "name": "Harrisburg Area Community College-Lancaster",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 6975,
+        "size": null
+      },
+      {
+        "unitid": 21287802,
+        "name": "Harrisburg Area Community College-Gettysburg",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 6975,
+        "size": null
+      },
+      {
+        "unitid": 21287803,
+        "name": "Harrisburg Area Community College-Lebanon",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 6975,
+        "size": null
+      },
+      {
+        "unitid": 21287804,
+        "name": "Harrisburg Area Community College-York",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 6975,
+        "size": null
+      }
+    ],
+    "note": "chose by dominant enrollment over 4 others"
+  },
+  {
+    "state": "pa",
+    "id": "lccc",
+    "name": "Lehigh Carbon Community College",
+    "unitid": 213525,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 213525,
+        "name": "Lehigh Carbon Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5280,
+        "size": 4148
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "luzerne",
+    "name": "Luzerne County Community College",
+    "unitid": 213659,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 213659,
+        "name": "Luzerne County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6600,
+        "size": 3317
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "mc3",
+    "name": "Montgomery County Community College",
+    "unitid": 214111,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 214111,
+        "name": "Montgomery County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6690,
+        "size": 7301
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "northampton",
+    "name": "Northampton Community College",
+    "unitid": 214379,
+    "tier": "tier2",
+    "candidates": [
+      {
+        "unitid": 214379,
+        "name": "Northampton County Area Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5550,
+        "size": 7667
+      },
+      {
+        "unitid": 21437901,
+        "name": "Northampton County Area Community College-Monroe",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5550,
+        "size": null
+      }
+    ],
+    "note": "chose by dominant enrollment over 1 others"
+  },
+  {
+    "state": "pa",
+    "id": "pa-highlands",
+    "name": "Pennsylvania Highlands Community College",
+    "unitid": 414911,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 414911,
+        "name": "Pennsylvania Highlands Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 7110,
+        "size": 788
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "racc",
+    "name": "Reading Area Community College",
+    "unitid": 215585,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 215585,
+        "name": "Reading Area Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6480,
+        "size": 3703
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "westmoreland",
+    "name": "Westmoreland County Community College",
+    "unitid": 216825,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 216825,
+        "name": "Westmoreland County Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6018,
+        "size": 2441
+      }
+    ]
+  },
+  {
+    "state": "pa",
+    "id": "penn-college",
+    "name": "Pennsylvania College of Technology",
+    "unitid": 366252,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 366252,
+        "name": "Pennsylvania College of Technology",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 18240,
+        "size": 4464
+      }
+    ]
+  },
+  {
+    "state": "ri",
+    "id": "ccri",
+    "name": "Community College of Rhode Island",
+    "unitid": 217475,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 217475,
+        "name": "Community College of Rhode Island",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5550,
+        "size": 11171
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "aiken",
+    "name": "Aiken Technical College",
+    "unitid": 217615,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 217615,
+        "name": "Aiken Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5174,
+        "size": 1925
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "central-carolina",
+    "name": "Central Carolina Technical College",
+    "unitid": 218858,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218858,
+        "name": "Central Carolina Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5715,
+        "size": 2163
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "denmark",
+    "name": "Denmark Technical College",
+    "unitid": 217989,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 217989,
+        "name": "Denmark Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 6315,
+        "size": 519
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "florence-darlington",
+    "name": "Florence-Darlington Technical College",
+    "unitid": 218025,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218025,
+        "name": "Florence-Darlington Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4636,
+        "size": 3055
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "greenville",
+    "name": "Greenville Technical College",
+    "unitid": 218113,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218113,
+        "name": "Greenville Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5495,
+        "size": 8916
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "horry-georgetown",
+    "name": "Horry-Georgetown Technical College",
+    "unitid": 218140,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218140,
+        "name": "Horry-Georgetown Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4468,
+        "size": 6274
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "midlands",
+    "name": "Midlands Technical College",
+    "unitid": 218353,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218353,
+        "name": "Midlands Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5100,
+        "size": 7564
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "northeastern",
+    "name": "Northeastern Technical College",
+    "unitid": 217837,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 217837,
+        "name": "Northeastern Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5664,
+        "size": 921
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "orangeburg-calhoun",
+    "name": "Orangeburg-Calhoun Technical College",
+    "unitid": 218487,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218487,
+        "name": "Orangeburg Calhoun Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5210,
+        "size": 1539
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "piedmont",
+    "name": "Piedmont Technical College",
+    "unitid": 218520,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218520,
+        "name": "Piedmont Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4775,
+        "size": 3977
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "spartanburg",
+    "name": "Spartanburg Community College",
+    "unitid": 218830,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218830,
+        "name": "Spartanburg Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5071,
+        "size": 5006
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "lowcountry",
+    "name": "Technical College of the Lowcountry",
+    "unitid": 217712,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 217712,
+        "name": "Technical College of the Lowcountry",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6156,
+        "size": 1679
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "tri-county",
+    "name": "Tri-County Technical College",
+    "unitid": 218885,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218885,
+        "name": "Tri-County Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4448,
+        "size": 5071
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "trident",
+    "name": "Trident Technical College",
+    "unitid": 218894,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218894,
+        "name": "Trident Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4546,
+        "size": 10512
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "williamsburg",
+    "name": "Williamsburg Technical College",
+    "unitid": 218955,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218955,
+        "name": "Williamsburg Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4488,
+        "size": 448
+      }
+    ]
+  },
+  {
+    "state": "sc",
+    "id": "york",
+    "name": "York Technical College",
+    "unitid": 218991,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 218991,
+        "name": "York Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 8036,
+        "size": 3816
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "chattanooga-state",
+    "name": "Chattanooga State Community College",
+    "unitid": 219824,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 219824,
+        "name": "Chattanooga State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4772,
+        "size": 5284
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "cleveland-state",
+    "name": "Cleveland State Community College",
+    "unitid": 219879,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 219879,
+        "name": "Cleveland State Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4762,
+        "size": 1975
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "columbia-state",
+    "name": "Columbia State Community College",
+    "unitid": 219888,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 219888,
+        "name": "Columbia State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5296,
+        "size": 3897
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "dyersburg-state",
+    "name": "Dyersburg State Community College",
+    "unitid": 220057,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 220057,
+        "name": "Dyersburg State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4758,
+        "size": 2103
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "jackson-state",
+    "name": "Jackson State Community College",
+    "unitid": 220400,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 220400,
+        "name": "Jackson State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4740,
+        "size": 2511
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "motlow-state",
+    "name": "Motlow State Community College",
+    "unitid": 221096,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 221096,
+        "name": "Motlow State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4738,
+        "size": 3962
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "nashville-state",
+    "name": "Nashville State Community College",
+    "unitid": 221184,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 221184,
+        "name": "Nashville State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4730,
+        "size": 5653
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "northeast-state",
+    "name": "Northeast State Community College",
+    "unitid": 221908,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 221908,
+        "name": "Northeast State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4782,
+        "size": 4404
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "pellissippi-state",
+    "name": "Pellissippi State Community College",
+    "unitid": 221643,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 221643,
+        "name": "Pellissippi State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4786,
+        "size": 6715
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "southwest-tn",
+    "name": "Southwest Tennessee Community College",
+    "unitid": 221485,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 221485,
+        "name": "Southwest Tennessee Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4778,
+        "size": 5047
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "volunteer-state",
+    "name": "Volunteer State Community College",
+    "unitid": 222053,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 222053,
+        "name": "Volunteer State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4756,
+        "size": 5339
+      }
+    ]
+  },
+  {
+    "state": "tn",
+    "id": "walters-state",
+    "name": "Walters State Community College",
+    "unitid": 222062,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 222062,
+        "name": "Walters State Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4752,
+        "size": 3591
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "gcc",
+    "name": "Germanna Community College",
+    "unitid": 232195,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 232195,
+        "name": "Germanna Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5257,
+        "size": 5508
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "nova",
+    "name": "Northern Virginia Community College",
+    "unitid": 232946,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 232946,
+        "name": "Northern Virginia Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5891,
+        "size": 33048
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "reynolds",
+    "name": "Reynolds Community College",
+    "unitid": 232414,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 232414,
+        "name": "J Sargeant Reynolds Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5280,
+        "size": 5586
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "tcc",
+    "name": "Tidewater Community College",
+    "unitid": 233772,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 233772,
+        "name": "Tidewater Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5588,
+        "size": 12082
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "brcc",
+    "name": "Blue Ridge Community College",
+    "unitid": 231536,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 231536,
+        "name": "Blue Ridge Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5646,
+        "size": 2730
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "brightpoint",
+    "name": "Brightpoint Community College",
+    "unitid": 232450,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 232450,
+        "name": "Brightpoint Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5082,
+        "size": 5792
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "camp",
+    "name": "Camp Community College",
+    "unitid": 233037,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 233037,
+        "name": "Paul D Camp Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5012,
+        "size": 613
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "cvcc",
+    "name": "Central Virginia Community College",
+    "unitid": 231697,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 231697,
+        "name": "Central Virginia Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5157,
+        "size": 2249
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "dcc",
+    "name": "Danville Community College",
+    "unitid": 231882,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 231882,
+        "name": "Danville Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4992,
+        "size": 1306
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "escc",
+    "name": "Eastern Shore Community College",
+    "unitid": 232052,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 232052,
+        "name": "Eastern Shore Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5082,
+        "size": 495
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "laurelridge",
+    "name": "Laurel Ridge Community College",
+    "unitid": 232575,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 232575,
+        "name": "Laurel Ridge Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5072,
+        "size": 3195
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "mecc",
+    "name": "Mountain Empire Community College",
+    "unitid": 232788,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 232788,
+        "name": "Mountain Empire Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5007,
+        "size": 1282
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "mgcc",
+    "name": "Mountain Gateway Community College",
+    "unitid": 231873,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 231873,
+        "name": "Mountain Gateway Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5022,
+        "size": 425
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "nrcc",
+    "name": "New River Community College",
+    "unitid": 232867,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 232867,
+        "name": "New River Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4979,
+        "size": 1965
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "phcc",
+    "name": "Patrick & Henry Community College",
+    "unitid": 233019,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 233019,
+        "name": "Patrick & Henry Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5002,
+        "size": 1350
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "pvcc",
+    "name": "Piedmont Virginia Community College",
+    "unitid": 233116,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 233116,
+        "name": "Piedmont Virginia Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5072,
+        "size": 3045
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "rcc",
+    "name": "Rappahannock Community College",
+    "unitid": 233310,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 233310,
+        "name": "Rappahannock Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5102,
+        "size": 1367
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "svcc",
+    "name": "Southside Virginia Community College",
+    "unitid": 233639,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 233639,
+        "name": "Southside Virginia Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5007,
+        "size": 1807
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "swcc",
+    "name": "Southwest Virginia Community College",
+    "unitid": 233648,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 233648,
+        "name": "Southwest Virginia Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5075,
+        "size": 1651
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "vhcc",
+    "name": "Virginia Highlands Community College",
+    "unitid": 233903,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 233903,
+        "name": "Virginia Highlands Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5022,
+        "size": 1349
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "vpcc",
+    "name": "Virginia Peninsula Community College",
+    "unitid": 233754,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 233754,
+        "name": "Virginia Peninsula Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5088,
+        "size": 3941
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "vwcc",
+    "name": "Virginia Western Community College",
+    "unitid": 233949,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 233949,
+        "name": "Virginia Western Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5400,
+        "size": 3898
+      }
+    ]
+  },
+  {
+    "state": "va",
+    "id": "wcc",
+    "name": "Wytheville Community College",
+    "unitid": 234377,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 234377,
+        "name": "Wytheville Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5007,
+        "size": 1255
+      }
+    ]
+  },
+  {
+    "state": "vt",
+    "id": "ccv",
+    "name": "Community College of Vermont",
+    "unitid": 230861,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 230861,
+        "name": "Community College of Vermont",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6920,
+        "size": 2841
+      }
+    ]
+  },
+  {
+    "state": "wv",
+    "id": "blueridge",
+    "name": "Blue Ridge Community and Technical College",
+    "unitid": 446774,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 446774,
+        "name": "Blue Ridge Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4752,
+        "size": 1661
+      }
+    ]
+  },
+  {
+    "state": "wv",
+    "id": "bridgevalley",
+    "name": "BridgeValley Community and Technical College",
+    "unitid": 484932,
+    "tier": "manual",
+    "candidates": [],
+    "note": "no candidates returned by Scorecard | resolved manually via name-prefix search"
+  },
+  {
+    "state": "wv",
+    "id": "eastern",
+    "name": "Eastern West Virginia Community and Technical College",
+    "unitid": 438708,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 438708,
+        "name": "Eastern West Virginia Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4722,
+        "size": 225
+      }
+    ]
+  },
+  {
+    "state": "wv",
+    "id": "mountwest",
+    "name": "Mountwest Community and Technical College",
+    "unitid": 444954,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 444954,
+        "name": "Mountwest Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4938,
+        "size": 1160
+      }
+    ]
+  },
+  {
+    "state": "wv",
+    "id": "newriver",
+    "name": "New River Community and Technical College",
+    "unitid": 447582,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 447582,
+        "name": "New River Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5156,
+        "size": 770
+      }
+    ]
+  },
+  {
+    "state": "wv",
+    "id": "pierpont",
+    "name": "Pierpont Community and Technical College",
+    "unitid": 443492,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 443492,
+        "name": "Pierpont Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5762,
+        "size": 959
+      }
+    ]
+  },
+  {
+    "state": "wv",
+    "id": "southern",
+    "name": "Southern West Virginia Community and Technical College",
+    "unitid": 237817,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 237817,
+        "name": "Southern West Virginia Community and Technical College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5136,
+        "size": 1064
+      }
+    ]
+  },
+  {
+    "state": "wv",
+    "id": "wvncc",
+    "name": "West Virginia Northern Community College",
+    "unitid": 238014,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 238014,
+        "name": "West Virginia Northern Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4706,
+        "size": 1014
+      }
+    ]
+  },
+  {
+    "state": "wv",
+    "id": "wvup",
+    "name": "West Virginia University at Parkersburg",
+    "unitid": 237686,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 237686,
+        "name": "West Virginia University at Parkersburg",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4612,
+        "size": 1868
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "unitid": 215585,
+  "schoolName": "Reading Area Community College",
+  "state": "PA",
+  "city": "Reading",
+  "schoolUrl": "https://www.racc.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:15:30.687Z",
+  "size": 3703,
+  "shareFirstGeneration": 0.5391644909,
+  "cost": {
+    "tuitionInState": 6480,
+    "tuitionOutOfState": 12510,
+    "attendanceAcademicYear": 14563,
+    "avgNetPricePublic": 9228,
+    "bookSupply": 1800,
+    "roomBoardOffCampus": 10800,
+    "netPriceByIncome": {
+      "0_30000": 7968,
+      "30001_48000": 8553,
+      "48001_75000": 8987,
+      "75001_110000": 12121,
+      "110001_plus": 14049
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.3469,
+    "federalLoanRate": 0.1984,
+    "medianDebtCompleters": 8750
+  },
+  "completion": {
+    "completionRate150nt": 0.3363,
+    "completionRate200nt": 0.2794,
+    "transferRate": 0.1321
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 39082
+  }
+}

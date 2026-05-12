@@ -1,0 +1,40 @@
+{
+  "unitid": 166133,
+  "schoolName": "Holyoke Community College",
+  "state": "MA",
+  "city": "Holyoke",
+  "schoolUrl": "www.hcc.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:13:51.912Z",
+  "size": 3591,
+  "shareFirstGeneration": 0.4725609756,
+  "cost": {
+    "tuitionInState": 5988,
+    "tuitionOutOfState": 10932,
+    "attendanceAcademicYear": 15043,
+    "avgNetPricePublic": 8068,
+    "bookSupply": 1200,
+    "roomBoardOffCampus": 11330,
+    "netPriceByIncome": {
+      "0_30000": 6522,
+      "30001_48000": 6637,
+      "48001_75000": 8688,
+      "75001_110000": 9415,
+      "110001_plus": 13014
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.4269,
+    "federalLoanRate": 0.2434,
+    "medianDebtCompleters": 8250
+  },
+  "completion": {
+    "completionRate150nt": 0.2938,
+    "completionRate200nt": 0.3636,
+    "transferRate": 0.1801
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 37277
+  }
+}

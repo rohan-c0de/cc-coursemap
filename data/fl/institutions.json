@@ -54,7 +54,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 132709
   },
   {
     "id": "chipola",
@@ -99,7 +100,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 133021
   },
   {
     "id": "cf",
@@ -156,7 +158,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 132851
   },
   {
     "id": "daytonastate",
@@ -207,7 +210,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 133386
   },
   {
     "id": "easternflorida",
@@ -270,7 +274,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 132693
   },
   {
     "id": "fgc",
@@ -315,7 +320,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 135160
   },
   {
     "id": "cfk",
@@ -372,7 +378,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 133960
   },
   {
     "id": "fsw",
@@ -435,7 +442,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 133508
   },
   {
     "id": "fscj",
@@ -498,7 +506,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 133702
   },
   {
     "id": "gulfcoast",
@@ -543,7 +552,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 134343
   },
   {
     "id": "hccfl",
@@ -612,7 +622,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 134495
   },
   {
     "id": "irsc",
@@ -681,7 +692,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 134608
   },
   {
     "id": "lssc",
@@ -738,7 +750,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 135188
   },
   {
     "id": "mdc",
@@ -825,7 +838,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 135717
   },
   {
     "id": "nfc",
@@ -870,7 +884,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 136145
   },
   {
     "id": "nwfsc",
@@ -927,7 +942,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 136233
   },
   {
     "id": "palmbeachstate",
@@ -996,7 +1012,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 136358
   },
   {
     "id": "phsc",
@@ -1065,7 +1082,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 136400
   },
   {
     "id": "pensacolastate",
@@ -1128,7 +1146,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 136473
   },
   {
     "id": "polk",
@@ -1179,7 +1198,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 136516
   },
   {
     "id": "sfcollege",
@@ -1236,7 +1256,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 137096
   },
   {
     "id": "seminolestate",
@@ -1299,7 +1320,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 137209
   },
   {
     "id": "southflorida",
@@ -1356,7 +1378,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 137315
   },
   {
     "id": "sjrstate",
@@ -1413,7 +1436,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 137281
   },
   {
     "id": "spcollege",
@@ -1506,7 +1530,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 137078
   },
   {
     "id": "scf",
@@ -1563,7 +1588,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 135391
   },
   {
     "id": "tcc-fl",
@@ -1620,7 +1646,8 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 137759
   },
   {
     "id": "valencia",
@@ -1707,6 +1734,7 @@
         "contact_email": "",
         "contact_phone": ""
       }
-    }
+    },
+    "unitid": 138187
   }
 ]

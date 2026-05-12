@@ -1,0 +1,40 @@
+{
+  "unitid": 139278,
+  "schoolName": "West Georgia Technical College",
+  "state": "GA",
+  "city": "Waco",
+  "schoolUrl": "https://www.westgatech.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:13:31.890Z",
+  "size": 5163,
+  "shareFirstGeneration": 0.4755351682,
+  "cost": {
+    "tuitionInState": 3410,
+    "tuitionOutOfState": 5978,
+    "attendanceAcademicYear": 11209,
+    "avgNetPricePublic": 2457,
+    "bookSupply": 954,
+    "roomBoardOffCampus": 7493,
+    "netPriceByIncome": {
+      "0_30000": 1311,
+      "30001_48000": 1655,
+      "48001_75000": 4394,
+      "75001_110000": 7320,
+      "110001_plus": 9102
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.4146,
+    "federalLoanRate": 0.1226,
+    "medianDebtCompleters": 11110
+  },
+  "completion": {
+    "completionRate150nt": 0.3539,
+    "completionRate200nt": 0.3615,
+    "transferRate": 0.098
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 35479
+  }
+}

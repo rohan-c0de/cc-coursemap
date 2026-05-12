@@ -1,0 +1,40 @@
+{
+  "unitid": 218113,
+  "schoolName": "Greenville Technical College",
+  "state": "SC",
+  "city": "Greenville",
+  "schoolUrl": "www.gvltec.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:15:34.754Z",
+  "size": 8916,
+  "shareFirstGeneration": 0.4249955301,
+  "cost": {
+    "tuitionInState": 5495,
+    "tuitionOutOfState": 10775,
+    "attendanceAcademicYear": 20166,
+    "avgNetPricePublic": 11713,
+    "bookSupply": 1407,
+    "roomBoardOffCampus": 18914,
+    "netPriceByIncome": {
+      "0_30000": 11138,
+      "30001_48000": 11388,
+      "48001_75000": 12221,
+      "75001_110000": 13455,
+      "110001_plus": 15198
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.3396,
+    "federalLoanRate": 0.0904,
+    "medianDebtCompleters": 15392
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 39473
+  }
+}

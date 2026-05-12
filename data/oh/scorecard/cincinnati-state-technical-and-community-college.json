@@ -1,0 +1,40 @@
+{
+  "unitid": 201928,
+  "schoolName": "Cincinnati State Technical and Community College",
+  "state": "OH",
+  "city": "Cincinnati",
+  "schoolUrl": "www.cincinnatistate.edu/",
+  "ownership": 1,
+  "predominantDegree": 1,
+  "fetchedAt": "2026-05-12T00:15:14.752Z",
+  "size": 5667,
+  "shareFirstGeneration": 0.4643213573,
+  "cost": {
+    "tuitionInState": 5517,
+    "tuitionOutOfState": 10044,
+    "attendanceAcademicYear": 12229,
+    "avgNetPricePublic": 4968,
+    "bookSupply": 2169,
+    "roomBoardOffCampus": 5130,
+    "netPriceByIncome": {
+      "0_30000": 2823,
+      "30001_48000": 3377,
+      "48001_75000": 6077,
+      "75001_110000": 10062,
+      "110001_plus": 11878
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.2969,
+    "federalLoanRate": 0.2678,
+    "medianDebtCompleters": 14715
+  },
+  "completion": {
+    "completionRate150nt": null,
+    "completionRate200nt": null,
+    "transferRate": null
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 40137
+  }
+}

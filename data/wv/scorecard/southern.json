@@ -1,0 +1,40 @@
+{
+  "unitid": 237817,
+  "schoolName": "Southern West Virginia Community and Technical College",
+  "state": "WV",
+  "city": "Logan",
+  "schoolUrl": "https://www.southernwv.edu/",
+  "ownership": 1,
+  "predominantDegree": 2,
+  "fetchedAt": "2026-05-12T00:16:01.863Z",
+  "size": 1064,
+  "shareFirstGeneration": 0.6130604288,
+  "cost": {
+    "tuitionInState": 5136,
+    "tuitionOutOfState": 7872,
+    "attendanceAcademicYear": 18725,
+    "avgNetPricePublic": 10321,
+    "bookSupply": 2500,
+    "roomBoardOffCampus": 6800,
+    "netPriceByIncome": {
+      "0_30000": 9480,
+      "30001_48000": 10437,
+      "48001_75000": 11793,
+      "75001_110000": 13704,
+      "110001_plus": 15027
+    }
+  },
+  "aid": {
+    "pellGrantRate": 0.5058,
+    "federalLoanRate": 0.1574,
+    "medianDebtCompleters": 9190
+  },
+  "completion": {
+    "completionRate150nt": 0.2876,
+    "completionRate200nt": 0.3137,
+    "transferRate": 0.0618
+  },
+  "earnings": {
+    "median10YrsAfterEntry": 32153
+  }
+}

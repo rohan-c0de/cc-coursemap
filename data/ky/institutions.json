@@ -43,7 +43,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://ashland.kctcs.edu"
-    }
+    },
+    "unitid": 156231
   },
   {
     "id": "southcentral-kentucky-community-and-technical-college",
@@ -89,7 +90,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://southcentral.kctcs.edu"
-    }
+    },
+    "unitid": 156338
   },
   {
     "id": "bluegrass-community-and-technical-college",
@@ -135,7 +137,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://bluegrass.kctcs.edu"
-    }
+    },
+    "unitid": 156392
   },
   {
     "id": "elizabethtown-community-and-technical-college",
@@ -181,7 +184,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://elizabethtown.kctcs.edu"
-    }
+    },
+    "unitid": 156648
   },
   {
     "id": "hazard-community-and-technical-college",
@@ -227,7 +231,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://hazard.kctcs.edu"
-    }
+    },
+    "unitid": 156790
   },
   {
     "id": "henderson-community-college",
@@ -273,7 +278,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://henderson.kctcs.edu"
-    }
+    },
+    "unitid": 156851
   },
   {
     "id": "hopkinsville-community-college",
@@ -319,7 +325,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://hopkinsville.kctcs.edu/index.aspx"
-    }
+    },
+    "unitid": 156860
   },
   {
     "id": "jefferson-community-and-technical-college",
@@ -365,7 +372,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://jefferson.kctcs.edu"
-    }
+    },
+    "unitid": 156921
   },
   {
     "id": "madisonville-community-college",
@@ -411,7 +419,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://madisonville.kctcs.edu"
-    }
+    },
+    "unitid": 157304
   },
   {
     "id": "maysville-community-and-technical-college",
@@ -457,7 +466,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://maysville.kctcs.edu"
-    }
+    },
+    "unitid": 157331
   },
   {
     "id": "gateway-community-and-technical-college",
@@ -503,7 +513,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://gateway.kctcs.edu/index.aspx"
-    }
+    },
+    "unitid": 157438
   },
   {
     "id": "west-kentucky-community-and-technical-college",
@@ -549,7 +560,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://westkentucky.kctcs.edu"
-    }
+    },
+    "unitid": 157483
   },
   {
     "id": "big-sandy-community-and-technical-college",
@@ -595,7 +607,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://bigsandy.kctcs.edu"
-    }
+    },
+    "unitid": 157553
   },
   {
     "id": "somerset-community-college",
@@ -641,7 +654,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://somerset.kctcs.edu"
-    }
+    },
+    "unitid": 157711
   },
   {
     "id": "southeast-kentucky-community-and-technical-college",
@@ -687,7 +701,8 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://southeast.kctcs.edu"
-    }
+    },
+    "unitid": 157739
   },
   {
     "id": "owensboro-community-and-technical-college",
@@ -733,6 +748,7 @@
       ],
       "last_verified": "2026-05-09",
       "source_url": "https://owensboro.kctcs.edu"
-    }
+    },
+    "unitid": 247940
   }
 ]
