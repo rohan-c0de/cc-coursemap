@@ -1,625 +1,2818 @@
 {
-  "ACC 1010": {
-    "text": "Financial Accounting",
+  "ACC 2121": {
+    "text": "BUS 1090 or BUS 1210",
     "courses": [
-      "ACC 2121"
-    ]
-  },
-  "ACC 1030": {
-    "text": "Financial Accounting",
-    "courses": [
-      "ACC 2121"
+      "BUS 1090",
+      "BUS 1210"
     ]
   },
   "ACC 2122": {
-    "text": "Financial Accounting",
+    "text": "ACC 2121",
     "courses": [
       "ACC 2121"
     ]
   },
   "ACC 2201": {
-    "text": "Managerial Accounting",
+    "text": "ACC 2122",
     "courses": [
       "ACC 2122"
     ]
   },
-  "ACC 2202": {
-    "text": "Intermediate Accounting I",
+  "ACC 3310": {
+    "text": "ACC 2201",
     "courses": [
       "ACC 2201"
     ]
   },
-  "ACC 2210": {
-    "text": "Managerial Accounting",
+  "ACC 4041": {
+    "text": "ACC 2202 and ACC 4041L",
     "courses": [
-      "ACC 2122"
+      "ACC 2202",
+      "ACC 4041L"
     ]
   },
-  "ACC 2230": {
-    "text": "Financial Accounting",
+  "ACC 4041L": {
+    "text": "ACC 4041",
     "courses": [
-      "ACC 2121"
+      "ACC 4041"
     ]
   },
-  "AHS 1810": {
-    "text": "Administrative Medical Assisting",
+  "ACC 4060": {
+    "text": "ACC 2202",
     "courses": [
-      "AHS 2200"
+      "ACC 2202"
     ]
   },
-  "AHS 2070": {
-    "text": "Human Biology , Medical Terminology , or equivalent knowledge, and a criminal background check",
+  "AER 1010": {
+    "text": "AER 1021",
     "courses": [
-      "AHS 1205",
-      "BIO 1140"
+      "AER 1021"
     ]
   },
-  "AHS 2121": {
-    "text": "Medical Terminology and Introduction to Health Information Systems",
+  "AER 1021": {
+    "text": "AER 1010",
     "courses": [
-      "AHS 1015",
-      "AHS 1205"
+      "AER 1010"
     ]
   },
-  "AHS 2122": {
-    "text": "Medical Coding I",
+  "AER 1110": {
+    "text": "AER 1120 and AER 1021",
     "courses": [
-      "AHS 2121"
+      "AER 1120",
+      "AER 1021"
     ]
   },
-  "AHS 2165": {
-    "text": "Medical Terminology and Introduction to Health Information Systems",
+  "AER 1120": {
+    "text": "AER 1022 and AER 1110",
     "courses": [
-      "AHS 1015",
-      "AHS 1205"
+      "AER 1022",
+      "AER 1110"
     ]
   },
-  "AHS 2200": {
-    "text": "Medical Terminology , and a criminal background check",
+  "AER 3010": {
+    "text": "AER 3020",
     "courses": [
-      "AHS 1205"
+      "AER 3020"
     ]
   },
-  "AHS 2470": {
-    "text": "Human Biology and Medical Terminology",
+  "AER 3020": {
+    "text": "AER 3010",
     "courses": [
-      "AHS 1205",
-      "BIO 1140"
+      "AER 3010"
     ]
   },
-  "AHS 2820": {
-    "text": "Human Biology , Medical Terminology , Introduction to Phlebotomy , Fundamentals of Pharmacology , Clinical Medical Assisting , Basic Life Support for Healthcare Providers, and a criminal background check",
+  "AER 3040": {
+    "text": "AER 3040L",
     "courses": [
-      "AHS 1205",
-      "AHS 1410",
-      "AHS 2070",
-      "AHS 2470",
-      "BIO 1140"
+      "AER 3040L"
     ]
   },
-  "ART 1111": {
-    "text": "Introduction to Adobe Creative Cloud",
+  "AER 3040L": {
+    "text": "AER 3040",
     "courses": [
-      "ART 1210"
+      "AER 3040"
     ]
   },
-  "ART 1112": {
-    "text": "Graphic Design I",
+  "AFF 1020": {
+    "text": "AFF 1010 and AFF 1015",
     "courses": [
-      "ART 1111"
+      "AFF 1010",
+      "AFF 1015"
     ]
   },
-  "ART 1160": {
-    "text": "Drawing I or Introduction to Studio Art",
+  "AFF 1025": {
+    "text": "AFF 1010 and AFF 1015",
     "courses": [
-      "ART 1011",
-      "ART 1020"
+      "AFF 1010",
+      "AFF 1015"
     ]
   },
-  "ART 1310": {
-    "text": "Basic computer skills are required",
-    "courses": []
-  },
-  "ART 1350": {
-    "text": "Introduction to Adobe Creative Cloud",
-    "courses": [
-      "ART 1210"
-    ]
-  },
-  "ART 2012": {
-    "text": "Drawing I",
-    "courses": [
-      "ART 1011"
-    ]
-  },
-  "ART 2031": {
-    "text": "Drawing I",
-    "courses": [
-      "ART 1011"
-    ]
-  },
-  "ART 2090": {
-    "text": "Introduction to Adobe Creative Cloud or equivalent skills",
-    "courses": [
-      "ART 1210"
-    ]
-  },
-  "ART 2170": {
-    "text": "Minimum of 30 college-level credits or advisor permission",
-    "courses": []
-  },
-  "ART 2211": {
-    "text": "Recommended prior learning: Drawing I or Introduction to Studio Art",
-    "courses": [
-      "ART 1011",
-      "ART 1020"
-    ]
-  },
-  "ART 2212": {
-    "text": "Painting I or similar experience",
-    "courses": [
-      "ART 2211"
-    ]
-  },
-  "ART 2232": {
-    "text": "Ceramics I",
-    "courses": [
-      "ART 1231"
-    ]
-  },
-  "ART 2315": {
-    "text": "Digital Photography I",
-    "courses": [
-      "ART 1310"
-    ]
-  },
-  "ART 2440": {
-    "text": "Digital Animation",
-    "courses": [
-      "ART 1420"
-    ]
-  },
-  "BIO 2012": {
-    "text": "Human Anatomy & Physiology I",
+  "AHS 2160": {
+    "text": "BIO 2011",
     "courses": [
       "BIO 2011"
     ]
   },
-  "BIO 2120": {
-    "text": "Prior successful completion of Human Anatomy & Physiology II is recommended",
+  "AHS 3043": {
+    "text": "AHS 3043L",
+    "courses": [
+      "AHS 3043L"
+    ]
+  },
+  "AHS 3043L": {
+    "text": "AHS 3043",
+    "courses": [
+      "AHS 3043"
+    ]
+  },
+  "AHS 3180": {
+    "text": "CHE 1031 or BIO 2011 or BIO 2060 or BIO 1030",
+    "courses": [
+      "CHE 1031",
+      "BIO 2011",
+      "BIO 2060",
+      "BIO 1030"
+    ]
+  },
+  "AHS 3210": {
+    "text": "AHS 2160 and AHS 3210L",
+    "courses": [
+      "AHS 2160",
+      "AHS 3210L"
+    ]
+  },
+  "AHS 3210L": {
+    "text": "AHS 3210",
+    "courses": [
+      "AHS 3210"
+    ]
+  },
+  "AHS 4025": {
+    "text": "PSY 1010",
+    "courses": [
+      "PSY 1010"
+    ]
+  },
+  "AHS 5012": {
+    "text": "AHS 5011",
+    "courses": [
+      "AHS 5011"
+    ]
+  },
+  "AHS 5021": {
+    "text": "AHS 5021L",
+    "courses": [
+      "AHS 5021L"
+    ]
+  },
+  "AHS 5021L": {
+    "text": "AHS 5021",
+    "courses": [
+      "AHS 5021"
+    ]
+  },
+  "AHS 5032": {
+    "text": "AHS 5031 and AHS 5032 and AHS 5032L",
+    "courses": [
+      "AHS 5031",
+      "AHS 5032",
+      "AHS 5032L"
+    ]
+  },
+  "AHS 6010": {
+    "text": "AHS 5035",
+    "courses": [
+      "AHS 5035"
+    ]
+  },
+  "AHS 6040": {
+    "text": "AHS 6035",
+    "courses": [
+      "AHS 6035"
+    ]
+  },
+  "AHS 6045": {
+    "text": "AHS 5035",
+    "courses": [
+      "AHS 5035"
+    ]
+  },
+  "ARE 2022": {
+    "text": "ARE 1011 or CET 1031",
+    "courses": [
+      "ARE 1011",
+      "CET 1031"
+    ]
+  },
+  "ARE 2031": {
+    "text": "PHY 1052 and ARE 2031L",
+    "courses": [
+      "PHY 1052",
+      "ARE 2031L"
+    ]
+  },
+  "ARE 2031L": {
+    "text": "ARE 2031 and ARE 2031 and ARE 2031",
+    "courses": [
+      "ARE 2031"
+    ]
+  },
+  "ARE 2040": {
+    "text": "ARE 1212 or CET 1020 and ARE 2040L",
+    "courses": [
+      "ARE 1212",
+      "CET 1020",
+      "ARE 2040L"
+    ]
+  },
+  "ARE 2040L": {
+    "text": "ARE 2040 and ARE 2040 and ARE 2040",
+    "courses": [
+      "ARE 2040"
+    ]
+  },
+  "ARE 2051": {
+    "text": "ARE 1011 and ARE 1220",
+    "courses": [
+      "ARE 1011",
+      "ARE 1220"
+    ]
+  },
+  "ARE 3010": {
+    "text": "ARE 3030 and ARE 3040",
+    "courses": [
+      "ARE 3030",
+      "ARE 3040"
+    ]
+  },
+  "ARE 3050": {
+    "text": "PHY 1052 and ARE 3050L",
+    "courses": [
+      "PHY 1052",
+      "ARE 3050L"
+    ]
+  },
+  "ARE 3050L": {
+    "text": "ARE 3050",
+    "courses": [
+      "ARE 3050"
+    ]
+  },
+  "ARE 4010": {
+    "text": "CET 2120 and ARE 3020",
+    "courses": [
+      "CET 2120",
+      "ARE 3020"
+    ]
+  },
+  "ARH 3080": {
+    "text": "ENG 1061",
+    "courses": [
+      "ENG 1061"
+    ]
+  },
+  "ART 3015": {
+    "text": "ART 2211 or ART 2311 or ART 2301",
+    "courses": [
+      "ART 2211",
+      "ART 2311",
+      "ART 2301"
+    ]
+  },
+  "ART 3020": {
+    "text": "ART 2125",
+    "courses": [
+      "ART 2125"
+    ]
+  },
+  "ART 3031": {
+    "text": "ART 1011",
+    "courses": [
+      "ART 1011"
+    ]
+  },
+  "ART 3290": {
+    "text": "ART 1109 and ART 1055 and ART 2224",
+    "courses": [
+      "ART 1109",
+      "ART 1055",
+      "ART 2224"
+    ]
+  },
+  "ART 3314": {
+    "text": "ART 2311",
+    "courses": [
+      "ART 2311"
+    ]
+  },
+  "ART 4015": {
+    "text": "ART 3015",
+    "courses": [
+      "ART 3015"
+    ]
+  },
+  "ART 4040": {
+    "text": "ART 2301",
+    "courses": [
+      "ART 2301"
+    ]
+  },
+  "ART 4825": {
+    "text": "ART 2223",
+    "courses": [
+      "ART 2223"
+    ]
+  },
+  "ART 5301": {
+    "text": "ART 5811",
+    "courses": [
+      "ART 5811"
+    ]
+  },
+  "ART 5303": {
+    "text": "ART 5813",
+    "courses": [
+      "ART 5813"
+    ]
+  },
+  "ART 5312": {
+    "text": "ART 5311",
+    "courses": [
+      "ART 5311"
+    ]
+  },
+  "ART 5812": {
+    "text": "ART 5811",
+    "courses": [
+      "ART 5811"
+    ]
+  },
+  "ART 5813": {
+    "text": "ART 5812",
+    "courses": [
+      "ART 5812"
+    ]
+  },
+  "ART 5832": {
+    "text": "ART 5831",
+    "courses": [
+      "ART 5831"
+    ]
+  },
+  "ART 5833": {
+    "text": "ART 5832",
+    "courses": [
+      "ART 5832"
+    ]
+  },
+  "ART 5834": {
+    "text": "ART 5833",
+    "courses": [
+      "ART 5833"
+    ]
+  },
+  "ART 5835": {
+    "text": "ART 5834",
+    "courses": [
+      "ART 5834"
+    ]
+  },
+  "ART 5836": {
+    "text": "ART 5835",
+    "courses": [
+      "ART 5835"
+    ]
+  },
+  "ART 5912": {
+    "text": "ART 5915",
+    "courses": [
+      "ART 5915"
+    ]
+  },
+  "ART 5915": {
+    "text": "ART 5912",
+    "courses": [
+      "ART 5912"
+    ]
+  },
+  "ATM 1010": {
+    "text": "PLM 0002",
+    "courses": [
+      "PLM 0002"
+    ]
+  },
+  "ATM 2025": {
+    "text": "ATM 1010",
+    "courses": [
+      "ATM 1010"
+    ]
+  },
+  "ATM 3331": {
+    "text": "ATM 2025 or PHY 2061 or MAT 2532",
+    "courses": [
+      "ATM 2025",
+      "PHY 2061",
+      "MAT 2532"
+    ]
+  },
+  "ATM 4140": {
+    "text": "ATM 3062",
+    "courses": [
+      "ATM 3062"
+    ]
+  },
+  "ATM 4712": {
+    "text": "ATM 3321 and ATM 3332 and ATM 3140",
+    "courses": [
+      "ATM 3321",
+      "ATM 3332",
+      "ATM 3140"
+    ]
+  },
+  "ATT 2010": {
+    "text": "GTS 1040 and PHY 1030 and ATT 2010L",
+    "courses": [
+      "GTS 1040",
+      "PHY 1030",
+      "ATT 2010L"
+    ]
+  },
+  "ATT 2010L": {
+    "text": "ATT 2010",
+    "courses": [
+      "ATT 2010"
+    ]
+  },
+  "ATT 2060": {
+    "text": "GTS 1040 and ATT 2060L",
+    "courses": [
+      "GTS 1040",
+      "ATT 2060L"
+    ]
+  },
+  "ATT 2060L": {
+    "text": "ATT 2060",
+    "courses": [
+      "ATT 2060"
+    ]
+  },
+  "BIO 1010": {
+    "text": "BIO 1010L",
+    "courses": [
+      "BIO 1010L"
+    ]
+  },
+  "BIO 1121": {
+    "text": "BIO 1121L and BIO 1121L and BIO 1121L and BIO 1121L and BIO 1121L and BIO 1121L",
+    "courses": [
+      "BIO 1121L"
+    ]
+  },
+  "BIO 1210": {
+    "text": "BIO 1210L",
+    "courses": [
+      "BIO 1210L"
+    ]
+  },
+  "BIO 2011L": {
+    "text": "BIO 2011 and BIO 2011 and BIO 2011",
+    "courses": [
+      "BIO 2011"
+    ]
+  },
+  "BIO 2012": {
+    "text": "BIO 2011 and BIO 2012L",
+    "courses": [
+      "BIO 2011",
+      "BIO 2012L"
+    ]
+  },
+  "BIO 2012L": {
+    "text": "BIO 2012",
     "courses": [
       "BIO 2012"
     ]
   },
-  "BIO 2260": {
-    "text": "Intermediate Algebra or equivalent",
+  "BIO 2120L": {
+    "text": "BIO 2120",
     "courses": [
-      "MAT 1020"
+      "BIO 2120"
     ]
   },
-  "BIO 2340": {
-    "text": "Introduction to Biology or Introduction to Biology: Ecology & Evolution",
+  "BIO 2320": {
+    "text": "BIO 2320L and BIO 2320L and BIO 2320L",
     "courses": [
-      "BIO 1210",
-      "BIO 1211"
+      "BIO 2320L"
     ]
   },
-  "BUS 2245": {
-    "text": "Prerequisite: Introduction to Digital Marketing or equivalent skills",
-    "courses": []
-  },
-  "BUS 2445": {
-    "text": "Prerequisite: Human Resource Management",
-    "courses": []
-  },
-  "BUS 2740": {
-    "text": "Introduction to Business , Financial Accounting , Principles of Management or Small Business Management , and Principles of Marketing or Small Business Marketing",
+  "BIO 2320L": {
+    "text": "BIO 2320",
     "courses": [
-      "ACC 2121",
-      "BUS 1010",
+      "BIO 2320"
+    ]
+  },
+  "BIO 3060": {
+    "text": "BIO 1121 or BIO 1122 or CHE 1031 or CHE 1031 or CHE 1041 or CHE 1051 or ENV 1080 and BIO 3060L",
+    "courses": [
+      "BIO 1121",
+      "BIO 1122",
+      "CHE 1031",
+      "CHE 1041",
+      "CHE 1051",
+      "ENV 1080",
+      "BIO 3060L"
+    ]
+  },
+  "BIO 3070": {
+    "text": "BIO 3025 and BIO 3140 and CHE 1031",
+    "courses": [
+      "BIO 3025",
+      "BIO 3140",
+      "CHE 1031"
+    ]
+  },
+  "BIO 3155": {
+    "text": "BIO 1121 and BIO 1122 and BIO 3155L",
+    "courses": [
+      "BIO 1121",
+      "BIO 1122",
+      "BIO 3155L"
+    ]
+  },
+  "BIO 3155L": {
+    "text": "BIO 3155",
+    "courses": [
+      "BIO 3155"
+    ]
+  },
+  "BIO 3160": {
+    "text": "BIO 1211 or BIO 2340 or BIO 1121 and BIO 3160L",
+    "courses": [
+      "BIO 1211",
+      "BIO 2340",
+      "BIO 1121",
+      "BIO 3160L"
+    ]
+  },
+  "BIO 3180": {
+    "text": "CHE 1031 or BIO 2011 or BIO 1030",
+    "courses": [
+      "CHE 1031",
+      "BIO 2011",
+      "BIO 1030"
+    ]
+  },
+  "BIO 3270": {
+    "text": "BIO 1121 or BIO 1122 or CHE 1041 or CHE 1051 or CHE 1110 or ENV 1080 and BIO 3270L and BIO 3270 and BIO 3270L",
+    "courses": [
+      "BIO 1121",
+      "BIO 1122",
+      "CHE 1041",
+      "CHE 1051",
+      "CHE 1110",
+      "ENV 1080",
+      "BIO 3270L",
+      "BIO 3270"
+    ]
+  },
+  "BIO 3270L": {
+    "text": "BIO 3270",
+    "courses": [
+      "BIO 3270"
+    ]
+  },
+  "BIO 3320": {
+    "text": "BIO 1121 and BIO 3320L",
+    "courses": [
+      "BIO 1121",
+      "BIO 3320L"
+    ]
+  },
+  "BIO 4015": {
+    "text": "BIO 4015L",
+    "courses": [
+      "BIO 4015L"
+    ]
+  },
+  "BUS 3060": {
+    "text": "BUS 2230",
+    "courses": [
+      "BUS 2230"
+    ]
+  },
+  "BUS 3140": {
+    "text": "ACC 2101 and BUS 2020 and BUS 2230",
+    "courses": [
+      "ACC 2101",
       "BUS 2020",
-      "BUS 2210",
-      "BUS 2230",
-      "BUS 2430"
+      "BUS 2230"
     ]
   },
-  "CED 0211": {
-    "text": "Recommended near completion of the Cybersecurity and Networking Certificate + or focus area in the Information Technology (A.S.) +",
-    "courses": []
+  "BUS 3150": {
+    "text": "MAT 2021",
+    "courses": [
+      "MAT 2021"
+    ]
   },
-  "CED 0221": {
-    "text": "Recommended near completion of the Cybersecurity and Networking Certificate + or focus area in the Information Technology (A.S.) +",
-    "courses": []
+  "BUS 3230": {
+    "text": "ACC 1020",
+    "courses": [
+      "ACC 1020"
+    ]
+  },
+  "BUS 3250": {
+    "text": "BUS 2020",
+    "courses": [
+      "BUS 2020"
+    ]
+  },
+  "BUS 3270": {
+    "text": "BUS 2230",
+    "courses": [
+      "BUS 2230"
+    ]
+  },
+  "BUS 3272": {
+    "text": "BUS 2230",
+    "courses": [
+      "BUS 2230"
+    ]
+  },
+  "BUS 3290": {
+    "text": "BUS 2230",
+    "courses": [
+      "BUS 2230"
+    ]
+  },
+  "BUS 4030": {
+    "text": "BUS 2230 or MAT 2021 or MAT 3130 or MAT 2030 or MAT 2022",
+    "courses": [
+      "BUS 2230",
+      "MAT 2021",
+      "MAT 3130",
+      "MAT 2030",
+      "MAT 2022"
+    ]
+  },
+  "BUS 4060": {
+    "text": "BUS 3230",
+    "courses": [
+      "BUS 3230"
+    ]
+  },
+  "BUS 4110": {
+    "text": "MAT 2021 and MAT 3260",
+    "courses": [
+      "MAT 2021",
+      "MAT 3260"
+    ]
+  },
+  "BUS 4130": {
+    "text": "MAT 2021 and MAT 3260",
+    "courses": [
+      "MAT 2021",
+      "MAT 3260"
+    ]
+  },
+  "CET 1011": {
+    "text": "CET 1011L and MAT 1311",
+    "courses": [
+      "CET 1011L",
+      "MAT 1311"
+    ]
+  },
+  "CET 1011L": {
+    "text": "CET 1011 and CET 1011 and CET 1011",
+    "courses": [
+      "CET 1011"
+    ]
+  },
+  "CET 2012": {
+    "text": "CET 1011 and CET 1032 and CET 2012L and MAT 1531",
+    "courses": [
+      "CET 1011",
+      "CET 1032",
+      "CET 2012L",
+      "MAT 1531"
+    ]
+  },
+  "CET 2012L": {
+    "text": "CET 2012 and CET 2012 and CET 2012",
+    "courses": [
+      "CET 2012"
+    ]
+  },
+  "CET 2020": {
+    "text": "MAT 1312 and PHY 1051 and CET 2020L and MAT 1531",
+    "courses": [
+      "MAT 1312",
+      "PHY 1051",
+      "CET 2020L",
+      "MAT 1531"
+    ]
+  },
+  "CET 2020L": {
+    "text": "CET 2020 and CET 2020 and CET 2020",
+    "courses": [
+      "CET 2020"
+    ]
+  },
+  "CET 2040": {
+    "text": "PHY 1041 and CET 2040L and MAT 1520",
+    "courses": [
+      "PHY 1041",
+      "CET 2040L",
+      "MAT 1520"
+    ]
+  },
+  "CET 2040L": {
+    "text": "CET 2040 and CET 2040 and CET 2040",
+    "courses": [
+      "CET 2040"
+    ]
   },
   "CHE 1031": {
-    "text": "Intermediate Algebra or above",
+    "text": "MAT 1020 or MAT 1030 or MAT 1100 or MAT 1210 or MAT 1221 and CHE 1031L and CHE 1031L and CHE 1031L",
     "courses": [
-      "MAT 1020"
+      "MAT 1020",
+      "MAT 1030",
+      "MAT 1100",
+      "MAT 1210",
+      "MAT 1221",
+      "CHE 1031L"
     ]
   },
-  "CHE 1032": {
-    "text": "General Chemistry I",
+  "CHE 1031L": {
+    "text": "CHE 1031",
     "courses": [
       "CHE 1031"
     ]
   },
-  "CHE 2041": {
-    "text": "General Chemistry II",
+  "CHE 2040": {
+    "text": "CHE 1031 and CHE 1032 and CHE 2040L and CHE 2040L and CHE 2040L",
     "courses": [
-      "CHE 1032"
+      "CHE 1031",
+      "CHE 1032",
+      "CHE 2040L"
     ]
   },
-  "CHE 2042": {
-    "text": "Organic Chemistry I",
+  "CHE 2040L": {
+    "text": "CHE 2040",
     "courses": [
-      "CHE 2041"
+      "CHE 2040"
     ]
   },
-  "CIS 1152": {
-    "text": "Website Development . Recommended prior or concurrent learning: JavaScript for Web Development",
+  "CHE 2113": {
+    "text": "CHE 1042 or CHE 1052 and CHE 2111",
+    "courses": [
+      "CHE 1042",
+      "CHE 1052",
+      "CHE 2111"
+    ]
+  },
+  "CIS 1151L": {
+    "text": "CIS 1151",
     "courses": [
       "CIS 1151"
     ]
   },
-  "CIS 1170": {
-    "text": "Website Development or Introduction to Computer Science",
+  "CIS 2025": {
+    "text": "CIS 2025L",
     "courses": [
-      "CIS 1100",
-      "CIS 1151"
+      "CIS 2025L"
     ]
   },
-  "CIS 1350": {
-    "text": "Recommended prior or concurrent learning: Introduction to Computer Science or equivalent skills",
+  "CIS 2025L": {
+    "text": "CIS 2025",
     "courses": [
-      "CIS 1100"
+      "CIS 2025"
     ]
   },
-  "CIS 1450": {
-    "text": "Prerequisite: Introduction to Computer Science or equivalent technology skills. Recommended prior or concurrent learning: Operating Systems",
+  "CIS 2261L": {
+    "text": "CIS 2261",
     "courses": [
-      "CIS 1100",
-      "CIS 1350"
+      "CIS 2261"
     ]
   },
-  "CIS 2080": {
-    "text": "Website Development",
+  "CIS 2270": {
+    "text": "CIS 2262 and CIS 2270L",
     "courses": [
-      "CIS 1151"
+      "CIS 2262",
+      "CIS 2270L"
     ]
   },
-  "CIS 2120": {
-    "text": "Recommended prior or concurrent learning: Operating Systems",
+  "CIS 2291": {
+    "text": "CIS 2210 or CIS 2262 or CIS 2271",
     "courses": [
-      "CIS 1350"
+      "CIS 2210",
+      "CIS 2262",
+      "CIS 2271"
     ]
   },
-  "CIS 2140": {
-    "text": "Website Development",
+  "CIS 3012": {
+    "text": "CIS 2010 or CIS 2025 or CIS 2260",
     "courses": [
-      "CIS 1151"
+      "CIS 2010",
+      "CIS 2025",
+      "CIS 2260"
     ]
   },
-  "CIS 2145": {
-    "text": "Programming I",
+  "CIS 4310": {
+    "text": "CIS 2151 and CIS 2230",
     "courses": [
-      "CIS 1145"
-    ]
-  },
-  "CIS 2212": {
-    "text": "Python Programming or equivalent skills",
-    "courses": [
-      "CIS 2210"
-    ]
-  },
-  "CIS 2230": {
-    "text": "Desktop Operating Systems . Recommended prior or concurrent learning: Network and Security Foundations",
-    "courses": [
-      "CIS 1350",
-      "CIS 2120"
-    ]
-  },
-  "CIS 2235": {
-    "text": "System Administration",
-    "courses": [
+      "CIS 2151",
       "CIS 2230"
     ]
   },
-  "CIS 2245": {
-    "text": "Recommended prior or concurrent learning: Networking Foundations and Operating Systems",
+  "CIS 4721": {
+    "text": "CIS 4721L",
     "courses": [
-      "CIS 1350",
-      "CIS 2120"
+      "CIS 4721L"
     ]
   },
-  "CIS 2265": {
-    "text": "System Administration",
+  "CIS 4721L": {
+    "text": "CIS 4721",
     "courses": [
-      "CIS 2230"
+      "CIS 4721"
     ]
   },
-  "CIS 2295": {
-    "text": "Recommended prior or concurrent learning: Python Programming or Programming I",
+  "CMH 6465": {
+    "text": "CMH 6455 and CMH 6105 and CMH 6805",
     "courses": [
-      "CIS 1145",
-      "CIS 2210"
+      "CMH 6455",
+      "CMH 6105",
+      "CMH 6805"
     ]
   },
-  "CIS 2300": {
-    "text": "Recommended prior or concurrent learning: Introduction to Computer Science , Networking Foundations , or equivalent experience",
+  "CMH 6895": {
+    "text": "CMH 6825",
     "courses": [
-      "CIS 1100",
-      "CIS 2120"
+      "CMH 6825"
     ]
   },
-  "CIS 2330": {
-    "text": "Introduction to Computer Science",
+  "CMH 6905": {
+    "text": "CMH 6155 and CHM 6505 and CMH 6655",
     "courses": [
-      "CIS 1100"
+      "CMH 6155",
+      "CHM 6505",
+      "CMH 6655"
     ]
   },
-  "CIS 2350": {
-    "text": "Foundations of Cloud Computing , Concepts of Computer Security , and Desktop Operating Systems",
+  "CMH 6925": {
+    "text": "CMH 6825",
     "courses": [
-      "CIS 1350",
-      "CIS 1450",
-      "CIS 2245"
+      "CMH 6825"
     ]
   },
-  "CIS 2360": {
-    "text": "Operating Systems",
+  "CNX 2020": {
+    "text": "ENG 1061",
     "courses": [
-      "CIS 1350"
+      "ENG 1061"
     ]
   },
-  "CIS 2380": {
-    "text": "Recommended prior or concurrent learning: Introduction to Artificial Intelligence (AI) , Introduction to Computer Science , and/or Python Programming",
+  "COM 2085": {
+    "text": "ENG 1061",
     "courses": [
-      "CIS 1100",
-      "CIS 1270",
-      "CIS 2210"
+      "ENG 1061"
     ]
   },
-  "CIS 2420": {
-    "text": "Introduction to Computer Science",
+  "COM 2145": {
+    "text": "COM 1125 or COM 1220 or ENG 1061",
     "courses": [
-      "CIS 1100"
+      "COM 1125",
+      "COM 1220",
+      "ENG 1061"
     ]
   },
-  "CIS 2460": {
-    "text": "Foundations of Cloud Computing , Concepts of Computer Security , and Desktop Operating Systems",
+  "COM 2212": {
+    "text": "COM 1211",
     "courses": [
-      "CIS 1350",
-      "CIS 1450",
-      "CIS 2245"
+      "COM 1211"
     ]
   },
-  "COM 2180": {
-    "text": "Introduction to Adobe Creative Cloud",
+  "COM 2815": {
+    "text": "COM 1420 or COM 2145 and COM 3240",
     "courses": [
-      "ART 1210"
+      "COM 1420",
+      "COM 2145",
+      "COM 3240"
     ]
   },
-  "CRJ 2010": {
-    "text": "Introduction to Criminal Justice",
+  "COM 2843": {
+    "text": "COM 1221 and ATM 3331 or ATM 3332",
     "courses": [
-      "CRJ 1010"
+      "COM 1221",
+      "ATM 3331",
+      "ATM 3332"
     ]
   },
-  "CRJ 2020": {
-    "text": "Introduction to Criminal Justice",
+  "COM 3060": {
+    "text": "COM 1040 and COM 2230",
     "courses": [
-      "CRJ 1010"
+      "COM 1040",
+      "COM 2230"
+    ]
+  },
+  "COM 3065": {
+    "text": "COM 1150 and COM 2065",
+    "courses": [
+      "COM 1150",
+      "COM 2065"
+    ]
+  },
+  "COM 3222": {
+    "text": "COM 2843",
+    "courses": [
+      "COM 2843"
+    ]
+  },
+  "COM 3240": {
+    "text": "COM 2815 or COM 2828 or COM 3815",
+    "courses": [
+      "COM 2815",
+      "COM 2828",
+      "COM 3815"
+    ]
+  },
+  "COM 3760": {
+    "text": "COM 1220",
+    "courses": [
+      "COM 1220"
+    ]
+  },
+  "COM 3790": {
+    "text": "COM 1420",
+    "courses": [
+      "COM 1420"
+    ]
+  },
+  "COM 3815": {
+    "text": "COM 2815 and COM 3240",
+    "courses": [
+      "COM 2815",
+      "COM 3240"
+    ]
+  },
+  "COM 4550": {
+    "text": "COM 3240 and COM 4825 or COM 4826",
+    "courses": [
+      "COM 3240",
+      "COM 4825",
+      "COM 4826"
+    ]
+  },
+  "COM 4825": {
+    "text": "COM 3815 and COM 4550",
+    "courses": [
+      "COM 3815",
+      "COM 4550"
+    ]
+  },
+  "CPM 1021": {
+    "text": "CPM 1021L",
+    "courses": [
+      "CPM 1021L"
+    ]
+  },
+  "CPM 1021L": {
+    "text": "CPM 1021",
+    "courses": [
+      "CPM 1021"
+    ]
+  },
+  "CPM 1031": {
+    "text": "CPM 1032",
+    "courses": [
+      "CPM 1032"
+    ]
+  },
+  "CPM 1032": {
+    "text": "CPM 1031",
+    "courses": [
+      "CPM 1031"
+    ]
+  },
+  "CPM 2010": {
+    "text": "CET 2120 or CPM 1111 or LAH 1031 or MAT 1210 and CPM 2010L",
+    "courses": [
+      "CET 2120",
+      "CPM 1111",
+      "LAH 1031",
+      "MAT 1210",
+      "CPM 2010L"
+    ]
+  },
+  "CPM 2010L": {
+    "text": "CPM 2010",
+    "courses": [
+      "CPM 2010"
+    ]
+  },
+  "CPM 2020": {
+    "text": "CET 2120 or CPM 1111 or LAH 1031 or MAT 1210",
+    "courses": [
+      "CET 2120",
+      "CPM 1111",
+      "LAH 1031",
+      "MAT 1210"
+    ]
+  },
+  "CPM 2050": {
+    "text": "CPM 1022",
+    "courses": [
+      "CPM 1022"
+    ]
+  },
+  "CPM 2060": {
+    "text": "CPM 1022 and MAT 1210 and CPM 2060L",
+    "courses": [
+      "CPM 1022",
+      "MAT 1210",
+      "CPM 2060L"
+    ]
+  },
+  "CPM 2060L": {
+    "text": "CPM 2060",
+    "courses": [
+      "CPM 2060"
+    ]
+  },
+  "CPM 3131": {
+    "text": "CPM 2730 or CET 2120 and CPM 3131L",
+    "courses": [
+      "CPM 2730",
+      "CET 2120",
+      "CPM 3131L"
+    ]
+  },
+  "CPM 3131L": {
+    "text": "CPM 3131",
+    "courses": [
+      "CPM 3131"
+    ]
+  },
+  "CPM 4040": {
+    "text": "CPM 4040L and CPM 2020 or CPM 2730 or CPM 3010 or CPM 3020 or CPM 2802 or CPM 4802",
+    "courses": [
+      "CPM 4040L",
+      "CPM 2020",
+      "CPM 2730",
+      "CPM 3010",
+      "CPM 3020",
+      "CPM 2802",
+      "CPM 4802"
+    ]
+  },
+  "CPM 4040L": {
+    "text": "CPM 4040",
+    "courses": [
+      "CPM 4040"
+    ]
+  },
+  "CPM 4730": {
+    "text": "CPM 3010 and CPM 3020 and CPM 4040",
+    "courses": [
+      "CPM 3010",
+      "CPM 3020",
+      "CPM 4040"
     ]
   },
   "CRJ 2080": {
-    "text": "Introduction to Criminal Justice",
+    "text": "CRJ 1010",
     "courses": [
       "CRJ 1010"
     ]
   },
   "CRJ 2510": {
-    "text": "American Judicial Process or advisor permission",
+    "text": "CRJ 2020 or CRJ 1010",
     "courses": [
-      "CRJ 2020"
+      "CRJ 2020",
+      "CRJ 1010"
     ]
   },
-  "EDU 1270": {
-    "text": "a child development course. This course introduces concepts that are aligned with the National Association for the Education of Young Children (NAEYC) Professional Standards for Early Childhood Educators: Standards 1-6",
-    "courses": []
-  },
-  "EDU 1430": {
-    "text": "Recommended prior or concurrent learning: Perspectives on Development , Child Development , or a course focused on child development",
+  "CRJ 3030": {
+    "text": "CRJ 1010",
     "courses": [
-      "EDU 2365",
-      "PSY 2010"
+      "CRJ 1010"
     ]
   },
-  "EDU 2045": {
-    "text": "Recommended Prior Learning: a course in child development",
-    "courses": []
-  },
-  "EDU 2145": {
-    "text": "Afterschool Education & Development of the School-Aged Child or Child Development",
+  "CRJ 3060": {
+    "text": "CRJ 1010",
     "courses": [
-      "EDU 2065",
-      "PSY 2010"
+      "CRJ 1010"
     ]
   },
-  "EDU 2470": {
-    "text": "Recommended prior or concurrent learning: Perspectives on Development , Child Development , or a course focused on child development",
+  "CRJ 3070": {
+    "text": "CRJ 1010",
     "courses": [
-      "EDU 2365",
-      "PSY 2010"
+      "CRJ 1010"
     ]
   },
-  "ENG 1020": {
-    "text": "English Composition",
+  "CRJ 3080": {
+    "text": "CRJ 1010",
     "courses": [
-      "ENG 1061"
+      "CRJ 1010"
     ]
   },
-  "ENG 1062": {
-    "text": "English Composition",
+  "CRJ 3165": {
+    "text": "CRJ 1010",
     "courses": [
-      "ENG 1061"
+      "CRJ 1010"
     ]
   },
-  "ENG 1310": {
-    "text": "English Composition",
+  "CRJ 3170": {
+    "text": "CRJ 1010",
     "courses": [
-      "ENG 1061"
+      "CRJ 1010"
     ]
   },
-  "ENG 2050": {
-    "text": "English Composition",
+  "CSL 5110": {
+    "text": "CSL 5010",
+    "courses": [
+      "CSL 5010"
+    ]
+  },
+  "CSL 5120": {
+    "text": "CSL 5010",
+    "courses": [
+      "CSL 5010"
+    ]
+  },
+  "CSL 5810": {
+    "text": "CSL 5220",
+    "courses": [
+      "CSL 5220"
+    ]
+  },
+  "CSL 6050": {
+    "text": "CSL 5030",
+    "courses": [
+      "CSL 5030"
+    ]
+  },
+  "CSL 6120": {
+    "text": "CSL 5010 or CSL 5030",
+    "courses": [
+      "CSL 5010",
+      "CSL 5030"
+    ]
+  },
+  "CSL 6720": {
+    "text": "CSL 5810",
+    "courses": [
+      "CSL 5810"
+    ]
+  },
+  "CSL 6820": {
+    "text": "CSL 6720",
+    "courses": [
+      "CSL 6720"
+    ]
+  },
+  "CSL 6880": {
+    "text": "CSL 5140 and CSL 6050",
+    "courses": [
+      "CSL 5140",
+      "CSL 6050"
+    ]
+  },
+  "DSL 2010": {
+    "text": "DSL 2010L",
+    "courses": [
+      "DSL 2010L"
+    ]
+  },
+  "DSL 2010L": {
+    "text": "DSL 2010",
+    "courses": [
+      "DSL 2010"
+    ]
+  },
+  "DSL 2030": {
+    "text": "DSL 1020 and DSL 2030L",
+    "courses": [
+      "DSL 1020",
+      "DSL 2030L"
+    ]
+  },
+  "DSL 2030L": {
+    "text": "DSL 2030",
+    "courses": [
+      "DSL 2030"
+    ]
+  },
+  "EDU 2052": {
+    "text": "EDU 2051",
+    "courses": [
+      "EDU 2051"
+    ]
+  },
+  "EDU 3455": {
+    "text": "EDU 1410 and EDU 1420",
+    "courses": [
+      "EDU 1410",
+      "EDU 1420"
+    ]
+  },
+  "EDU 4420": {
+    "text": "EDU 4470",
+    "courses": [
+      "EDU 4470"
+    ]
+  },
+  "EDU 4600": {
+    "text": "EDU 2135 and EDU 2200 and EDU 3115",
+    "courses": [
+      "EDU 2135",
+      "EDU 2200",
+      "EDU 3115"
+    ]
+  },
+  "EDU 4820": {
+    "text": "EDU 4630 and EDU 4368",
+    "courses": [
+      "EDU 4630",
+      "EDU 4368"
+    ]
+  },
+  "EDU 6245": {
+    "text": "EDU 6100 and EDU 6123",
+    "courses": [
+      "EDU 6100",
+      "EDU 6123"
+    ]
+  },
+  "EGR 4010": {
+    "text": "MAT 1312",
+    "courses": [
+      "MAT 1312"
+    ]
+  },
+  "ELM 3015": {
+    "text": "ELT 1110 or ELT 2072 or PHY 1052 and CIS 2025 and ELT 1032 and MAT 2532 and ELM 3015L",
+    "courses": [
+      "ELT 1110",
+      "ELT 2072",
+      "PHY 1052",
+      "CIS 2025",
+      "ELT 1032",
+      "MAT 2532",
+      "ELM 3015L"
+    ]
+  },
+  "ELM 3015L": {
+    "text": "ELM 3015",
+    "courses": [
+      "ELM 3015"
+    ]
+  },
+  "ELM 4020": {
+    "text": "ELM 3015 and MAT 3170 and ELM 4020L",
+    "courses": [
+      "ELM 3015",
+      "MAT 3170",
+      "ELM 4020L"
+    ]
+  },
+  "ELM 4020L": {
+    "text": "ELM 4020",
+    "courses": [
+      "ELM 4020"
+    ]
+  },
+  "ELM 4310": {
+    "text": "ELT 2061 and MAT 3170 and ELM 4231L and ELM 4310L",
+    "courses": [
+      "ELT 2061",
+      "MAT 3170",
+      "ELM 4231L",
+      "ELM 4310L"
+    ]
+  },
+  "ELM 4310L": {
+    "text": "ELM 4310",
+    "courses": [
+      "ELM 4310"
+    ]
+  },
+  "ELM 4701": {
+    "text": "ELM 4020 and ELM 4310 and ELT 1032 and ELT 2041 and ELT 2050 and ELM 4701L and MEC 1020 or MEC 2010 or MEC 2071 or ELT 3050 or ELT 3053 and ELM 4701L and ELM 4701L",
+    "courses": [
+      "ELM 4020",
+      "ELM 4310",
+      "ELT 1032",
+      "ELT 2041",
+      "ELT 2050",
+      "ELM 4701L",
+      "MEC 1020",
+      "MEC 2010",
+      "MEC 2071",
+      "ELT 3050",
+      "ELT 3053"
+    ]
+  },
+  "ELM 4701L": {
+    "text": "ELM 4701",
+    "courses": [
+      "ELM 4701"
+    ]
+  },
+  "ELT 1015": {
+    "text": "ELT 1031 or MAT 1311 or MAT 1360",
+    "courses": [
+      "ELT 1031",
+      "MAT 1311",
+      "MAT 1360"
+    ]
+  },
+  "ELT 1031": {
+    "text": "ELT 1031L and ELT 1015 or MAT 1311 or MAT 1360",
+    "courses": [
+      "ELT 1031L",
+      "ELT 1015",
+      "MAT 1311",
+      "MAT 1360"
+    ]
+  },
+  "ELT 1031L": {
+    "text": "ELT 1031",
+    "courses": [
+      "ELT 1031"
+    ]
+  },
+  "ELT 1032": {
+    "text": "ELT 1031 or ELT 2071 or MAT 1312 or MAT 1360 and ELT 1032L and ELT 1032L and ELT 1032L",
+    "courses": [
+      "ELT 1031",
+      "ELT 2071",
+      "MAT 1312",
+      "MAT 1360",
+      "ELT 1032L"
+    ]
+  },
+  "ELT 1032L": {
+    "text": "ELT 1032",
+    "courses": [
+      "ELT 1032"
+    ]
+  },
+  "ELT 2015": {
+    "text": "ELT 1110 and ELT 2041",
+    "courses": [
+      "ELT 1110",
+      "ELT 2041"
+    ]
+  },
+  "ELT 2041": {
+    "text": "ELT 2041L and ELT 1031 or ELT 2071 and MAT 1312 or MAT 1360",
+    "courses": [
+      "ELT 2041L",
+      "ELT 1031",
+      "ELT 2071",
+      "MAT 1312",
+      "MAT 1360"
+    ]
+  },
+  "ELT 2041L": {
+    "text": "ELT 2041",
+    "courses": [
+      "ELT 2041"
+    ]
+  },
+  "ELT 2050": {
+    "text": "CIS 2025 or CIS 2262 or CIS 2271 or ELT 1110 or ELT 2072 and ELT 2050L and ELT 2050L and ELT 2050L",
+    "courses": [
+      "CIS 2025",
+      "CIS 2262",
+      "CIS 2271",
+      "ELT 1110",
+      "ELT 2072",
+      "ELT 2050L"
+    ]
+  },
+  "ELT 2050L": {
+    "text": "ELT 2050 and ELT 2050 and ELT 2050",
+    "courses": [
+      "ELT 2050"
+    ]
+  },
+  "ELT 2071": {
+    "text": "MAT 1312 or MAT 1360 and ELT 2071L and ELT 2071L and ELT 2071L",
+    "courses": [
+      "MAT 1312",
+      "MAT 1360",
+      "ELT 2071L"
+    ]
+  },
+  "ELT 2071L": {
+    "text": "ELT 2071",
+    "courses": [
+      "ELT 2071"
+    ]
+  },
+  "ELT 2210": {
+    "text": "MAT 1312 or PHY 1051 and ELT 2210L",
+    "courses": [
+      "MAT 1312",
+      "PHY 1051",
+      "ELT 2210L"
+    ]
+  },
+  "ELT 2210L": {
+    "text": "ELT 2210",
+    "courses": [
+      "ELT 2210"
+    ]
+  },
+  "ELT 2710L": {
+    "text": "ELT 2710",
+    "courses": [
+      "ELT 2710"
+    ]
+  },
+  "ELT 3010": {
+    "text": "ELT 2050 and ELT 3010L",
+    "courses": [
+      "ELT 2050",
+      "ELT 3010L"
+    ]
+  },
+  "ELT 3010L": {
+    "text": "ELT 3010",
+    "courses": [
+      "ELT 3010"
+    ]
+  },
+  "ELT 3053": {
+    "text": "ELT 2042 and PHY 1052 and ELT 3053L and ELT 3053L and ELT 3053L",
+    "courses": [
+      "ELT 2042",
+      "PHY 1052",
+      "ELT 3053L"
+    ]
+  },
+  "ELT 3053L": {
+    "text": "ELT 3053",
+    "courses": [
+      "ELT 3053"
+    ]
+  },
+  "EMS 1290": {
+    "text": "EMS 1131 and EMS 1804",
+    "courses": [
+      "EMS 1131",
+      "EMS 1804"
+    ]
+  },
+  "EMS 2010": {
+    "text": "EMS 2010L",
+    "courses": [
+      "EMS 2010L"
+    ]
+  },
+  "EMS 2010L": {
+    "text": "EMS 2010",
+    "courses": [
+      "EMS 2010"
+    ]
+  },
+  "ENG 2080": {
+    "text": "ENG 1061",
     "courses": [
       "ENG 1061"
     ]
   },
   "ENG 2101": {
-    "text": "English Composition",
+    "text": "ENG 1061 or ENG 1071",
+    "courses": [
+      "ENG 1061",
+      "ENG 1071"
+    ]
+  },
+  "ENG 3120": {
+    "text": "ENG 2101",
+    "courses": [
+      "ENG 2101"
+    ]
+  },
+  "ENG 3130": {
+    "text": "ENG 2101",
+    "courses": [
+      "ENG 2101"
+    ]
+  },
+  "ENV 1080": {
+    "text": "ENV 1080L and ENV 1080 and ENV 1080L",
+    "courses": [
+      "ENV 1080L",
+      "ENV 1080"
+    ]
+  },
+  "GTS 1120": {
+    "text": "ATT 1090 or DSL 1030",
+    "courses": [
+      "ATT 1090",
+      "DSL 1030"
+    ]
+  },
+  "HED 2310": {
+    "text": "PED 1015 and PED 2420",
+    "courses": [
+      "PED 1015",
+      "PED 2420"
+    ]
+  },
+  "HED 4040": {
+    "text": "HED 2310",
+    "courses": [
+      "HED 2310"
+    ]
+  },
+  "HED 4811": {
+    "text": "HED 3020",
+    "courses": [
+      "HED 3020"
+    ]
+  },
+  "HED 4812": {
+    "text": "HED 3020",
+    "courses": [
+      "HED 3020"
+    ]
+  },
+  "HIS 3056": {
+    "text": "ENG 1043 or ENG 1052 or ENG 1051 or ENG 1060 or ENG 1061 or PLE 0003 or PLE 0004 or ENG 2270",
+    "courses": [
+      "ENG 1043",
+      "ENG 1052",
+      "ENG 1051",
+      "ENG 1060",
+      "ENG 1061",
+      "PLE 0003",
+      "PLE 0004",
+      "ENG 2270"
+    ]
+  },
+  "HIS 3165": {
+    "text": "ENG 1061 or ENG 1060 or ENG 1043",
+    "courses": [
+      "ENG 1061",
+      "ENG 1060",
+      "ENG 1043"
+    ]
+  },
+  "HUM 2020": {
+    "text": "ENG 1061 or ENG 1060 or ENG 1043",
+    "courses": [
+      "ENG 1061",
+      "ENG 1060",
+      "ENG 1043"
+    ]
+  },
+  "HUM 3025": {
+    "text": "ENG 1061",
     "courses": [
       "ENG 1061"
     ]
   },
-  "ENG 2135": {
-    "text": "English Composition",
+  "HUM 4010": {
+    "text": "ENG 1061",
     "courses": [
       "ENG 1061"
     ]
   },
-  "FLM 2060": {
-    "text": "Digital Filmmaking I",
+  "INT 1053": {
+    "text": "INT 1051",
     "courses": [
-      "FLM 1050"
+      "INT 1051"
     ]
   },
-  "FRE 1112": {
-    "text": "French I or equivalent skills",
+  "INT 3054": {
+    "text": "INT 1053",
     "courses": [
-      "FRE 1111"
+      "INT 1053"
     ]
   },
-  "HUM 2010": {
-    "text": "English Composition and a Research & Writing Intensive course, or equivalent skills",
+  "MAT 1085L": {
+    "text": "MAT 1085 and PLM 0001",
     "courses": [
-      "ENG 1061"
+      "MAT 1085",
+      "PLM 0001"
     ]
   },
-  "INT 2860": {
-    "text": "Degree students must successfully complete English Composition and a minimum of 30 prior college credits or advisor permission. Certificate seeking students generally enroll during the final semester of their program with advisor assistance. and a minimum of 30 prior college credits or advisor permission",
+  "MAT 1210": {
+    "text": "MAT 1210L",
     "courses": [
-      "ENG 1061"
+      "MAT 1210L"
     ]
   },
-  "MAT 1020": {
-    "text": "Math and Algebra for College or equivalent skills",
+  "MAT 1210L": {
+    "text": "MAT 1210 and PLM 0001 and MAT 1210 and MAT 1210 and MAT 1210",
     "courses": [
-      "MAT 0310"
+      "MAT 1210",
+      "PLM 0001"
     ]
   },
-  "MAT 1030": {
-    "text": "Math and Algebra for College or equivalent skills",
+  "MAT 1311": {
+    "text": "MAT 1315L",
     "courses": [
-      "MAT 0310"
+      "MAT 1315L"
     ]
   },
-  "MAT 1221": {
-    "text": "Math & Algebra for College or equivalent skills",
+  "MAT 1315L": {
+    "text": "MAT 1311 and PLM 0001 and PLM 0002 and MAT 1311 and MAT 1311 and MAT 1311 and MAT 1311",
     "courses": [
-      "MAT 0310"
+      "MAT 1311",
+      "PLM 0001",
+      "PLM 0002"
     ]
   },
-  "MAT 1230": {
-    "text": "Intermediate Algebra or equivalent skills",
-    "courses": [
-      "MAT 1020"
-    ]
-  },
-  "MAT 1330": {
-    "text": "College Algebra or equivalent skills",
+  "MAT 1360": {
+    "text": "MAT 1230",
     "courses": [
       "MAT 1230"
     ]
   },
-  "MAT 1531": {
-    "text": "Pre-Calculus Mathematics or equivalent skills",
+  "MAT 1440L": {
+    "text": "MAT 1440 and PLM 0001",
     "courses": [
-      "MAT 1330"
+      "MAT 1440",
+      "PLM 0001"
     ]
   },
-  "MAT 2021": {
-    "text": "Math and Algebra for College or equivalent skills",
+  "MAT 1531": {
+    "text": "MAT 1312 or MAT 1360 or MAT 1420",
     "courses": [
-      "MAT 0310"
+      "MAT 1312",
+      "MAT 1360",
+      "MAT 1420"
     ]
   },
   "MAT 2532": {
-    "text": "Calculus I or equivalent transfer course",
+    "text": "MAT 1514 or MAT 1520 or MAT 1531",
+    "courses": [
+      "MAT 1514",
+      "MAT 1520",
+      "MAT 1531"
+    ]
+  },
+  "MAT 3210": {
+    "text": "MAT 1531",
     "courses": [
       "MAT 1531"
     ]
   },
-  "MEC 1320": {
-    "text": "Principles of Manufacturing or at least one year of manufacturing experience required",
+  "MAT 3220": {
+    "text": "MAT 2532",
     "courses": [
-      "MEC 1310"
+      "MAT 2532"
     ]
   },
-  "MET 1020": {
-    "text": "Basic algebra skills are required",
-    "courses": []
+  "MAT 3260": {
+    "text": "MAT 2021",
+    "courses": [
+      "MAT 2021"
+    ]
   },
-  "PHY 1041": {
-    "text": "College Algebra . Pre-Calculus Mathematics is strongly recommended",
+  "MAT 3310": {
+    "text": "MAT 2532 and MAT 3210",
+    "courses": [
+      "MAT 2532",
+      "MAT 3210"
+    ]
+  },
+  "MAT 3430": {
+    "text": "MAT 2022 or MAT 3135 or MAT 3260 or MAT 3230",
+    "courses": [
+      "MAT 2022",
+      "MAT 3135",
+      "MAT 3260",
+      "MAT 3230"
+    ]
+  },
+  "MAT 4140": {
+    "text": "MAT 2020 and MAT 3210",
+    "courses": [
+      "MAT 2020",
+      "MAT 3210"
+    ]
+  },
+  "MBI 3315": {
+    "text": "MBI 1360",
+    "courses": [
+      "MBI 1360"
+    ]
+  },
+  "MBI 4220": {
+    "text": "MBI 1360",
+    "courses": [
+      "MBI 1360"
+    ]
+  },
+  "MEC 0010": {
+    "text": "MEC 1020",
+    "courses": [
+      "MEC 1020"
+    ]
+  },
+  "MEC 1020": {
+    "text": "MEC 1020L and MEC 1020L and MEC 1020L and MEC 1020L",
+    "courses": [
+      "MEC 1020L"
+    ]
+  },
+  "MEC 1020L": {
+    "text": "MEC 1020 and MEC 0010 and MEC 1020 and MEC 1020",
+    "courses": [
+      "MEC 1020",
+      "MEC 0010"
+    ]
+  },
+  "MEC 1040": {
+    "text": "PHY 1041 and MEC 1040L",
+    "courses": [
+      "PHY 1041",
+      "MEC 1040L"
+    ]
+  },
+  "MEC 1040L": {
+    "text": "MEC 1040",
+    "courses": [
+      "MEC 1040"
+    ]
+  },
+  "MEC 1060": {
+    "text": "MEC 1060L",
+    "courses": [
+      "MEC 1060L"
+    ]
+  },
+  "MEC 1060L": {
+    "text": "MEC 1060",
+    "courses": [
+      "MEC 1060"
+    ]
+  },
+  "MEC 1180": {
+    "text": "MEC 1180L and MEC 1180L and MEC 1180L and MEC 1180L",
+    "courses": [
+      "MEC 1180L"
+    ]
+  },
+  "MEC 1180L": {
+    "text": "MEC 1180",
+    "courses": [
+      "MEC 1180"
+    ]
+  },
+  "MEC 2010": {
+    "text": "MEC 1010 and PHY 1041 and MEC 2010L and MAT 1531 and MEC 2010L and MEC 2010L",
+    "courses": [
+      "MEC 1010",
+      "PHY 1041",
+      "MEC 2010L",
+      "MAT 1531"
+    ]
+  },
+  "MEC 2010L": {
+    "text": "MEC 2010 and MEC 2010 and MEC 2010",
+    "courses": [
+      "MEC 2010"
+    ]
+  },
+  "MEC 2035": {
+    "text": "MEC 1011 and PHY 1041 and MEC 2035L and MAT 1531 and MEC 2035L and MEC 2035L",
+    "courses": [
+      "MEC 1011",
+      "PHY 1041",
+      "MEC 2035L",
+      "MAT 1531"
+    ]
+  },
+  "MEC 2035L": {
+    "text": "MEC 2035 and MEC 2035 and MEC 2035",
+    "courses": [
+      "MEC 2035"
+    ]
+  },
+  "MEC 2040": {
+    "text": "MEC 1011 and MEC 1020 and MEC 2040L and MEC 2040L and MEC 2040L and MEC 2040L",
+    "courses": [
+      "MEC 1011",
+      "MEC 1020",
+      "MEC 2040L"
+    ]
+  },
+  "MEC 2040L": {
+    "text": "MEC 2040 and MEC 2040 and MEC 2040 and MEC 2040",
+    "courses": [
+      "MEC 2040"
+    ]
+  },
+  "MEC 3031": {
+    "text": "MAT 1520 and MEC 1020 and MEC 1040 and MEC 2035 and MEC 3031L and MAT 2532",
+    "courses": [
+      "MAT 1520",
+      "MEC 1020",
+      "MEC 1040",
+      "MEC 2035",
+      "MEC 3031L",
+      "MAT 2532"
+    ]
+  },
+  "MEC 3031L": {
+    "text": "MEC 3031 and MEC 3031 and MEC 3031",
+    "courses": [
+      "MEC 3031"
+    ]
+  },
+  "MEC 3120": {
+    "text": "MEC 2040 and MAT 1531 and ELT 2072 and MEC 3120L",
+    "courses": [
+      "MEC 2040",
+      "MAT 1531",
+      "ELT 2072",
+      "MEC 3120L"
+    ]
+  },
+  "MEC 3120L": {
+    "text": "MEC 3120 and MEC 3120 and MEC 3120",
+    "courses": [
+      "MEC 3120"
+    ]
+  },
+  "MEC 4220": {
+    "text": "MEC 3041 or MEC 3121 and MEC 1060 and MEC 3021 and MEC 3031 and MEC 3120 and MEC 4020 and MEC 4220L",
+    "courses": [
+      "MEC 3041",
+      "MEC 3121",
+      "MEC 1060",
+      "MEC 3021",
+      "MEC 3031",
+      "MEC 3120",
+      "MEC 4020",
+      "MEC 4220L"
+    ]
+  },
+  "MEC 4220L": {
+    "text": "MEC 4220 and MEC 4220 and MEC 4220",
+    "courses": [
+      "MEC 4220"
+    ]
+  },
+  "MUS 2051": {
+    "text": "MUS 1231",
+    "courses": [
+      "MUS 1231"
+    ]
+  },
+  "MUS 2070": {
+    "text": "MUS 1085",
+    "courses": [
+      "MUS 1085"
+    ]
+  },
+  "MUS 2092": {
+    "text": "MUS 1091 and MUS 2232",
+    "courses": [
+      "MUS 1091",
+      "MUS 2232"
+    ]
+  },
+  "MUS 2120": {
+    "text": "MUS 1231",
+    "courses": [
+      "MUS 1231"
+    ]
+  },
+  "MUS 2125": {
+    "text": "MUS 2125L",
+    "courses": [
+      "MUS 2125L"
+    ]
+  },
+  "MUS 2125L": {
+    "text": "MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125 and MUS 2125",
+    "courses": [
+      "MUS 2125"
+    ]
+  },
+  "MUS 2232": {
+    "text": "MUS 1231",
+    "courses": [
+      "MUS 1231"
+    ]
+  },
+  "MUS 2430": {
+    "text": "MUS 1431",
+    "courses": [
+      "MUS 1431"
+    ]
+  },
+  "MUS 3165": {
+    "text": "MUS 1090",
+    "courses": [
+      "MUS 1090"
+    ]
+  },
+  "MUS 3320": {
+    "text": "MUS 2232",
+    "courses": [
+      "MUS 2232"
+    ]
+  },
+  "MUS 3400": {
+    "text": "MUS 2051 and MUS 2052",
+    "courses": [
+      "MUS 2051",
+      "MUS 2052"
+    ]
+  },
+  "MUS 3743": {
+    "text": "MUS 2125",
+    "courses": [
+      "MUS 2125"
+    ]
+  },
+  "NUR 2030": {
+    "text": "NUR 2060 and NUR 2040",
+    "courses": [
+      "NUR 2060",
+      "NUR 2040"
+    ]
+  },
+  "NUR 2040": {
+    "text": "NUR 2030 and NUR 2060",
+    "courses": [
+      "NUR 2030",
+      "NUR 2060"
+    ]
+  },
+  "NUR 2045": {
+    "text": "NUR 2055 and NUR 2510 and NUR 3085 and NUR 2045L and NUR 2045L and NUR 2045L and NUR 2045L and NUR 2045L",
+    "courses": [
+      "NUR 2055",
+      "NUR 2510",
+      "NUR 3085",
+      "NUR 2045L"
+    ]
+  },
+  "NUR 2045L": {
+    "text": "NUR 2045",
+    "courses": [
+      "NUR 2045"
+    ]
+  },
+  "NUR 2060": {
+    "text": "NUR 2030 and NUR 2040",
+    "courses": [
+      "NUR 2030",
+      "NUR 2040"
+    ]
+  },
+  "NUR 2510": {
+    "text": "MAT 1350",
+    "courses": [
+      "MAT 1350"
+    ]
+  },
+  "NUR 3080": {
+    "text": "NUR 3045 and NUR 4035 and NUR 4045 and NUR 4030 and NUR 3080L and NUR 3080L and NUR 3080L and NUR 3080L and NUR 3080L and NUR 3080L",
+    "courses": [
+      "NUR 3045",
+      "NUR 4035",
+      "NUR 4045",
+      "NUR 4030",
+      "NUR 3080L"
+    ]
+  },
+  "NUR 3080L": {
+    "text": "NUR 3080",
+    "courses": [
+      "NUR 3080"
+    ]
+  },
+  "NUR 3085": {
+    "text": "NUR 2055 and NUR 2045 and NUR 3085L",
+    "courses": [
+      "NUR 2055",
+      "NUR 2045",
+      "NUR 3085L"
+    ]
+  },
+  "NUR 3085L": {
+    "text": "NUR 3085",
+    "courses": [
+      "NUR 3085"
+    ]
+  },
+  "NUR 3110": {
+    "text": "NUR 3100",
+    "courses": [
+      "NUR 3100"
+    ]
+  },
+  "NUR 3140": {
+    "text": "BIO 2012 and NUR 3100 and NUR 3110",
+    "courses": [
+      "BIO 2012",
+      "NUR 3100",
+      "NUR 3110"
+    ]
+  },
+  "NUR 3210": {
+    "text": "NUR 3100",
+    "courses": [
+      "NUR 3100"
+    ]
+  },
+  "NUR 4011": {
+    "text": "NUR 3110 or NUR 3140 or NUR 3120 or NUR 3121",
+    "courses": [
+      "NUR 3110",
+      "NUR 3140",
+      "NUR 3120",
+      "NUR 3121"
+    ]
+  },
+  "NUR 4012": {
+    "text": "NUR 3100 or NUR 3110 or NUR 3140 or NUR 3120 or NUR 3121 and NUR 3210 and PSY 3070",
+    "courses": [
+      "NUR 3100",
+      "NUR 3110",
+      "NUR 3140",
+      "NUR 3120",
+      "NUR 3121",
+      "NUR 3210",
+      "PSY 3070"
+    ]
+  },
+  "NUR 4030": {
+    "text": "NUR 3080 and NUR 4045 and NUR 3045 and NUR 4035",
+    "courses": [
+      "NUR 3080",
+      "NUR 4045",
+      "NUR 3045",
+      "NUR 4035"
+    ]
+  },
+  "NUR 4045": {
+    "text": "NUR 3080 and NUR 4030 and NUR 3045 and NUR 4035 and NUR 4045L and NUR 4045L and NUR 4045L and NUR 4045L",
+    "courses": [
+      "NUR 3080",
+      "NUR 4030",
+      "NUR 3045",
+      "NUR 4035",
+      "NUR 4045L"
+    ]
+  },
+  "NUR 4045L": {
+    "text": "NUR 4045",
+    "courses": [
+      "NUR 4045"
+    ]
+  },
+  "NUR 4110": {
+    "text": "MAT 2021 and NUR 3100",
+    "courses": [
+      "MAT 2021",
+      "NUR 3100"
+    ]
+  },
+  "NUR 4130": {
+    "text": "NUR 3110",
+    "courses": [
+      "NUR 3110"
+    ]
+  },
+  "NUR 4210": {
+    "text": "NUR 3110",
+    "courses": [
+      "NUR 3110"
+    ]
+  },
+  "NUR 4410": {
+    "text": "MAT 2021 and NUR 3100 and NUR 3110 and SOC 1010",
+    "courses": [
+      "MAT 2021",
+      "NUR 3100",
+      "NUR 3110",
+      "SOC 1010"
+    ]
+  },
+  "OEL 3240": {
+    "text": "OEL 1000 and OEL 2900",
+    "courses": [
+      "OEL 1000",
+      "OEL 2900"
+    ]
+  },
+  "OEL 3850": {
+    "text": "OEL 2900 and OEL 3240",
+    "courses": [
+      "OEL 2900",
+      "OEL 3240"
+    ]
+  },
+  "OHS 1011": {
+    "text": "OHS 1011L and OHS 1021 and OHS 1011L and OHS 1011L and OHS 1011L and OHS 1011L and OHS 1011L and OHS 1011L",
+    "courses": [
+      "OHS 1011L",
+      "OHS 1021"
+    ]
+  },
+  "OHS 1011L": {
+    "text": "OHS 1011",
+    "courses": [
+      "OHS 1011"
+    ]
+  },
+  "OHS 1021": {
+    "text": "OHS 1021L and OHS 1011 and OHS 1021L and OHS 1021L",
+    "courses": [
+      "OHS 1021L",
+      "OHS 1011"
+    ]
+  },
+  "OHS 1021L": {
+    "text": "OHS 1021",
+    "courses": [
+      "OHS 1021"
+    ]
+  },
+  "OHS 2030": {
+    "text": "BIO 2012 and OHS 1012 and OHS 1022 and OHS 1030 and OHS 2721",
+    "courses": [
+      "BIO 2012",
+      "OHS 1012",
+      "OHS 1022",
+      "OHS 1030",
+      "OHS 2721"
+    ]
+  },
+  "OHS 2210": {
+    "text": "OHS 2722 and OHS 3821",
+    "courses": [
+      "OHS 2722",
+      "OHS 3821"
+    ]
+  },
+  "OHS 2721": {
+    "text": "OHS 1012 and OHS 1022 and OHS 1030 or OHS 2030 or OHS 2220 and OHS 2721L and OHS 2721L and OHS 2721L and OHS 2721L and OHS 2721L and OHS 2721L",
+    "courses": [
+      "OHS 1012",
+      "OHS 1022",
+      "OHS 1030",
+      "OHS 2030",
+      "OHS 2220",
+      "OHS 2721L"
+    ]
+  },
+  "OHS 2721L": {
+    "text": "OHS 1012 and OHS 1022 and OHS 1030 or OHS 2030 or OHS 2220 and OHS 2721",
+    "courses": [
+      "OHS 1012",
+      "OHS 1022",
+      "OHS 1030",
+      "OHS 2030",
+      "OHS 2220",
+      "OHS 2721"
+    ]
+  },
+  "OHS 3821": {
+    "text": "OHS 2722 and OHS 2030 and OHS 3821L and OHS 3821L and OHS 3821L and OHS 3821L and OHS 3821L",
+    "courses": [
+      "OHS 2722",
+      "OHS 2030",
+      "OHS 3821L"
+    ]
+  },
+  "OHS 3821L": {
+    "text": "OHS 3821",
+    "courses": [
+      "OHS 3821"
+    ]
+  },
+  "OHS 4010": {
+    "text": "OHS 3010",
+    "courses": [
+      "OHS 3010"
+    ]
+  },
+  "PED 2160": {
+    "text": "PED 2160L",
+    "courses": [
+      "PED 2160L"
+    ]
+  },
+  "PED 2160L": {
+    "text": "PED 2160",
+    "courses": [
+      "PED 2160"
+    ]
+  },
+  "PED 2310": {
+    "text": "PED 1015",
+    "courses": [
+      "PED 1015"
+    ]
+  },
+  "PED 2320": {
+    "text": "PED 2320L",
+    "courses": [
+      "PED 2320L"
+    ]
+  },
+  "PED 2420": {
+    "text": "PED 1015",
+    "courses": [
+      "PED 1015"
+    ]
+  },
+  "PED 3110": {
+    "text": "PED 3410 or PED 2420",
+    "courses": [
+      "PED 3410",
+      "PED 2420"
+    ]
+  },
+  "PED 3220": {
+    "text": "PED 3410",
+    "courses": [
+      "PED 3410"
+    ]
+  },
+  "PED 3320": {
+    "text": "PED 3410",
+    "courses": [
+      "PED 3410"
+    ]
+  },
+  "PED 4030": {
+    "text": "PED 3410",
+    "courses": [
+      "PED 3410"
+    ]
+  },
+  "PED 4070": {
+    "text": "PED 3410 and PED 4070L",
+    "courses": [
+      "PED 3410",
+      "PED 4070L"
+    ]
+  },
+  "PED 4871": {
+    "text": "PED 4872",
+    "courses": [
+      "PED 4872"
+    ]
+  },
+  "PED 4872": {
+    "text": "PED 4720 and PED 4871",
+    "courses": [
+      "PED 4720",
+      "PED 4871"
+    ]
+  },
+  "PHY 1051": {
+    "text": "MAT 1230 and PHY 1051L and PHY 1051L and PHY 1051L and PHY 1051L",
     "courses": [
       "MAT 1230",
-      "MAT 1330"
+      "PHY 1051L"
     ]
   },
-  "PHY 1042": {
-    "text": "Physics I",
+  "PHY 1051L": {
+    "text": "PHY 1051 and PHY 1051 and PHY 1051",
     "courses": [
-      "PHY 1041"
+      "PHY 1051"
     ]
   },
-  "PHY 1110": {
-    "text": "Basic Algebra skills required",
-    "courses": []
+  "PHY 1052": {
+    "text": "PHY 1051 and PHY 1052L",
+    "courses": [
+      "PHY 1051",
+      "PHY 1052L"
+    ]
   },
-  "PSY 2060": {
-    "text": "Introduction to Psychology",
+  "PHY 1052L": {
+    "text": "PHY 1052 and PHY 1052 and PHY 1052",
+    "courses": [
+      "PHY 1052"
+    ]
+  },
+  "PHY 2061": {
+    "text": "MAT 1531 and PHY 2061L",
+    "courses": [
+      "MAT 1531",
+      "PHY 2061L"
+    ]
+  },
+  "PHY 2061L": {
+    "text": "PHY 2061",
+    "courses": [
+      "PHY 2061"
+    ]
+  },
+  "PSY 2410": {
+    "text": "PSY 1010 and PSY 2415",
+    "courses": [
+      "PSY 1010",
+      "PSY 2415"
+    ]
+  },
+  "PSY 2415": {
+    "text": "PSY 2410 or MAT 2021 and PSY 2410",
+    "courses": [
+      "PSY 2410",
+      "MAT 2021"
+    ]
+  },
+  "PSY 3010": {
+    "text": "PSY 1010",
     "courses": [
       "PSY 1010"
     ]
   },
-  "SLS 1012": {
-    "text": "American Sign Language I",
+  "PSY 3025": {
+    "text": "PSY 1010",
     "courses": [
-      "SLS 1011"
+      "PSY 1010"
     ]
   },
-  "SPA 1012": {
-    "text": "Spanish I or equivalent skills",
+  "PSY 3070": {
+    "text": "PSY 1010",
     "courses": [
-      "SPA 1011"
+      "PSY 1010"
     ]
   },
-  "SWK 2020": {
-    "text": "Introduction to Psychology or Introduction to Sociology",
+  "PSY 3110": {
+    "text": "PSY 1050 or PSY 2070",
+    "courses": [
+      "PSY 1050",
+      "PSY 2070"
+    ]
+  },
+  "PSY 3135": {
+    "text": "PSY 1010 and PSY 3070",
     "courses": [
       "PSY 1010",
+      "PSY 3070"
+    ]
+  },
+  "PSY 3260": {
+    "text": "PSY 2070",
+    "courses": [
+      "PSY 2070"
+    ]
+  },
+  "PSY 3425": {
+    "text": "PSY 3040",
+    "courses": [
+      "PSY 3040"
+    ]
+  },
+  "PSY 3510": {
+    "text": "PSY 1010",
+    "courses": [
+      "PSY 1010"
+    ]
+  },
+  "PSY 4055": {
+    "text": "PSY 1010",
+    "courses": [
+      "PSY 1010"
+    ]
+  },
+  "PSY 4085": {
+    "text": "PSY 1010",
+    "courses": [
+      "PSY 1010"
+    ]
+  },
+  "PSY 4151": {
+    "text": "PSY 1010 and PSY 3070",
+    "courses": [
+      "PSY 1010",
+      "PSY 3070"
+    ]
+  },
+  "PSY 4340": {
+    "text": "PSY 1010",
+    "courses": [
+      "PSY 1010"
+    ]
+  },
+  "PSY 4710": {
+    "text": "PSY 1010",
+    "courses": [
+      "PSY 1010"
+    ]
+  },
+  "RAD 1011": {
+    "text": "RAD 1210 and RAD 1310",
+    "courses": [
+      "RAD 1210",
+      "RAD 1310"
+    ]
+  },
+  "RAD 1210": {
+    "text": "RAD 1011 and RAD 1310",
+    "courses": [
+      "RAD 1011",
+      "RAD 1310"
+    ]
+  },
+  "RAD 1310": {
+    "text": "RAD 1310L and RAD 1210 and RAD 1011 and RAD 1310L and RAD 1310L and RAD 1310L and RAD 1310L",
+    "courses": [
+      "RAD 1310L",
+      "RAD 1210",
+      "RAD 1011"
+    ]
+  },
+  "RAD 1310L": {
+    "text": "RAD 1310",
+    "courses": [
+      "RAD 1310"
+    ]
+  },
+  "RAD 2113": {
+    "text": "RAD 1012 and RAD 1211 and RAD 1311 and RAD 2230 and RAD 2312",
+    "courses": [
+      "RAD 1012",
+      "RAD 1211",
+      "RAD 1311",
+      "RAD 2230",
+      "RAD 2312"
+    ]
+  },
+  "RAD 2312": {
+    "text": "RAD 1012 and RAD 1211 and RAD 1311 and RAD 2113 and RAD 2230",
+    "courses": [
+      "RAD 1012",
+      "RAD 1211",
+      "RAD 1311",
+      "RAD 2113",
+      "RAD 2230"
+    ]
+  },
+  "RSJ 2010": {
+    "text": "RSJ 1015 and CRJ 2150",
+    "courses": [
+      "RSJ 1015",
+      "CRJ 2150"
+    ]
+  },
+  "RSP 1011": {
+    "text": "RSP 1020 and RSP 1011L and BIO 2011 and BIO 2012",
+    "courses": [
+      "RSP 1020",
+      "RSP 1011L",
+      "BIO 2011",
+      "BIO 2012"
+    ]
+  },
+  "RSP 1011L": {
+    "text": "RSP 1011",
+    "courses": [
+      "RSP 1011"
+    ]
+  },
+  "RSP 1020": {
+    "text": "RSP 1011 and BIO 2011 and BIO 2012",
+    "courses": [
+      "RSP 1011",
+      "BIO 2011",
+      "BIO 2012"
+    ]
+  },
+  "RSP 1023": {
+    "text": "BIO 2011 and BIO 2012",
+    "courses": [
+      "BIO 2011",
+      "BIO 2012"
+    ]
+  },
+  "RSP 2011": {
+    "text": "RSP 2801 and RSP 2013 and RSP 2602",
+    "courses": [
+      "RSP 2801",
+      "RSP 2013",
+      "RSP 2602"
+    ]
+  },
+  "RSP 2013": {
+    "text": "RSP 2801 and RSP 2013L and RSP 2011 and RSP 2602",
+    "courses": [
+      "RSP 2801",
+      "RSP 2013L",
+      "RSP 2011",
+      "RSP 2602"
+    ]
+  },
+  "RSP 2013L": {
+    "text": "RSP 2013 and RSP 2013 and RSP 2013",
+    "courses": [
+      "RSP 2013"
+    ]
+  },
+  "RSP 2602": {
+    "text": "RSP 2801 and RSP 2011 and RSP 2013",
+    "courses": [
+      "RSP 2801",
+      "RSP 2011",
+      "RSP 2013"
+    ]
+  },
+  "SCI 2210": {
+    "text": "SCI 2210L and SCI 2210 and SCI 2210L",
+    "courses": [
+      "SCI 2210L",
+      "SCI 2210"
+    ]
+  },
+  "SCI 2560": {
+    "text": "SCI 2560L",
+    "courses": [
+      "SCI 2560L"
+    ]
+  },
+  "SMT 2470": {
+    "text": "SMT 1350",
+    "courses": [
+      "SMT 1350"
+    ]
+  },
+  "SMT 3020": {
+    "text": "BUS 1210 or SMT 1350",
+    "courses": [
+      "BUS 1210",
+      "SMT 1350"
+    ]
+  },
+  "SMT 3170": {
+    "text": "SMT 1350",
+    "courses": [
+      "SMT 1350"
+    ]
+  },
+  "SMT 3210": {
+    "text": "BUS 2230",
+    "courses": [
+      "BUS 2230"
+    ]
+  },
+  "SMT 3821": {
+    "text": "SMT 1350",
+    "courses": [
+      "SMT 1350"
+    ]
+  },
+  "SMT 3822": {
+    "text": "SMT 1350",
+    "courses": [
+      "SMT 1350"
+    ]
+  },
+  "SMT 4110": {
+    "text": "SMT 1350",
+    "courses": [
+      "SMT 1350"
+    ]
+  },
+  "SOC 3210": {
+    "text": "SOC 1010",
+    "courses": [
       "SOC 1010"
     ]
   },
-  "SWK 2070": {
-    "text": "Introduction to Research Methods and one of the following courses: Introduction to Criminal Justice or Introduction to Early Childhood Education or Introduction to Substance Use Disorders , Human Growth & Development , or Introduction to Human Services",
+  "SWK 1810": {
+    "text": "SWK 1010",
     "courses": [
-      "CRJ 1010",
-      "EDU 1030",
-      "ENG 1020",
-      "PSY 1130",
       "SWK 1010"
+    ]
+  },
+  "SWK 2011": {
+    "text": "SOC 1010 or PSY 1010 or BIO 1010 or BIO 2011",
+    "courses": [
+      "SOC 1010",
+      "PSY 1010",
+      "BIO 1010",
+      "BIO 2011"
+    ]
+  },
+  "SWK 2050": {
+    "text": "SWK 1010 or SOC 1010 or PSY 1012",
+    "courses": [
+      "SWK 1010",
+      "SOC 1010",
+      "PSY 1012"
+    ]
+  },
+  "SWK 3040": {
+    "text": "SWK 1010 and SWK 2011",
+    "courses": [
+      "SWK 1010",
+      "SWK 2011"
+    ]
+  },
+  "SWK 4010": {
+    "text": "SWK 2040 and SWK 3020",
+    "courses": [
+      "SWK 2040",
+      "SWK 3020"
+    ]
+  },
+  "SWK 4020": {
+    "text": "SWK 3010 or SWK 3020",
+    "courses": [
+      "SWK 3010",
+      "SWK 3020"
+    ]
+  },
+  "SWK 4811": {
+    "text": "SWK 4020",
+    "courses": [
+      "SWK 4020"
+    ]
+  },
+  "VET 1030": {
+    "text": "VET 1030L and VET 1030L and VET 1030L and VET 1030L",
+    "courses": [
+      "VET 1030L"
+    ]
+  },
+  "VET 1030L": {
+    "text": "VET 1030",
+    "courses": [
+      "VET 1030"
+    ]
+  },
+  "VET 1051": {
+    "text": "VET 1051L",
+    "courses": [
+      "VET 1051L"
+    ]
+  },
+  "VET 1051L": {
+    "text": "VET 1051",
+    "courses": [
+      "VET 1051"
+    ]
+  },
+  "VET 2011": {
+    "text": "VET 1020 and VET 1040 and VET 1060 and VET 2011L and VET 2011L and VET 2011L and VET 2011L",
+    "courses": [
+      "VET 1020",
+      "VET 1040",
+      "VET 1060",
+      "VET 2011L"
+    ]
+  },
+  "VET 2011L": {
+    "text": "VET 2011",
+    "courses": [
+      "VET 2011"
+    ]
+  },
+  "VET 2050": {
+    "text": "VET 1020 and VET 1040 and VET 1060 and VET 2050L and VET 2050L and VET 2050L and VET 2050L",
+    "courses": [
+      "VET 1020",
+      "VET 1040",
+      "VET 1060",
+      "VET 2050L"
+    ]
+  },
+  "VET 2050L": {
+    "text": "VET 2050",
+    "courses": [
+      "VET 2050"
+    ]
+  },
+  "VET 2070": {
+    "text": "VET 1020 and VET 1040 and VET 1060",
+    "courses": [
+      "VET 1020",
+      "VET 1040",
+      "VET 1060"
+    ]
+  },
+  "VET 2720": {
+    "text": "VET 1051 and VET 2720L",
+    "courses": [
+      "VET 1051",
+      "VET 2720L"
+    ]
+  },
+  "VET 2720L": {
+    "text": "VET 2720",
+    "courses": [
+      "VET 2720"
+    ]
+  },
+  "WFC 1015": {
+    "text": "WFC 1015L",
+    "courses": [
+      "WFC 1015L"
+    ]
+  },
+  "WFC 1015L": {
+    "text": "WFC 1015",
+    "courses": [
+      "WFC 1015"
+    ]
+  },
+  "WFC 4010": {
+    "text": "BIO 1122 or BIO 3060 and WFC 4010L",
+    "courses": [
+      "BIO 1122",
+      "BIO 3060",
+      "WFC 4010L"
+    ]
+  },
+  "WFD 1020": {
+    "text": "WFD 1010",
+    "courses": [
+      "WFD 1010"
+    ]
+  },
+  "WFD 2010": {
+    "text": "WFD 1010 and WFD 1020",
+    "courses": [
+      "WFD 1010",
+      "WFD 1020"
+    ]
+  },
+  "WFD 2020": {
+    "text": "WFD 1010 and WFD 1020 and WFD 2010",
+    "courses": [
+      "WFD 1010",
+      "WFD 1020",
+      "WFD 2010"
+    ]
+  },
+  "WFD 2030": {
+    "text": "WFD 1010",
+    "courses": [
+      "WFD 1010"
+    ]
+  },
+  "WFD 3010": {
+    "text": "WFD 1010",
+    "courses": [
+      "WFD 1010"
+    ]
+  },
+  "WFD 3020": {
+    "text": "WFD 1010 and WFD 1020 and WFD 2010 and WFD 2020",
+    "courses": [
+      "WFD 1010",
+      "WFD 1020",
+      "WFD 2010",
+      "WFD 2020"
+    ]
+  },
+  "WFD 4120": {
+    "text": "WFD 1010 and WFD 1020 and WFD 2010 and WFD 2020 and WFD 3020",
+    "courses": [
+      "WFD 1010",
+      "WFD 1020",
+      "WFD 2010",
+      "WFD 2020",
+      "WFD 3020"
+    ]
+  },
+  "XSC 3120": {
+    "text": "BIO 2012",
+    "courses": [
+      "BIO 2012"
+    ]
+  },
+  "XSC 3150": {
+    "text": "BIO 2012 and XSC 3150L and XSC 3150L and XSC 3150L",
+    "courses": [
+      "BIO 2012",
+      "XSC 3150L"
+    ]
+  },
+  "XSC 4071": {
+    "text": "MAT 2021",
+    "courses": [
+      "MAT 2021"
+    ]
+  },
+  "XSC 4090": {
+    "text": "XSC 3150 and XSC 4090L",
+    "courses": [
+      "XSC 3150",
+      "XSC 4090L"
+    ]
+  },
+  "XSC 4220": {
+    "text": "XSC 3150",
+    "courses": [
+      "XSC 3150"
     ]
   }
 }
