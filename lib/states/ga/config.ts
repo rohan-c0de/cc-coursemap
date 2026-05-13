@@ -104,7 +104,7 @@ const gaConfig: StateConfig = {
       { scripts: ["scripts/ga/scrape-transfer-usg.ts"], runner: "playwright" },
     ],
     prereqs: { source: "aggregate-from-courses" },
-    // manual-only: programs — Acalog program scraper not yet wired up for this state.
+    programs: [{ scripts: ["scripts/ga/scrape-programs.ts"], runner: "http" }],
   },
 };
 

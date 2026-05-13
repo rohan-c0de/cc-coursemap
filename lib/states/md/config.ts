@@ -159,7 +159,7 @@ const mdConfig: StateConfig = {
     ],
     transfers: [{ scripts: ["scripts/md/scrape-transfer-artsys.ts"], runner: "http" }],
     prereqs: { source: "aggregate-from-courses" },
-    // manual-only: programs — Acalog program scraper not yet wired up for this state.
+    programs: [{ scripts: ["scripts/md/scrape-programs.ts"], runner: "http" }],
   },
 };
 
