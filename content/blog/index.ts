@@ -189,6 +189,48 @@ export const articles: ArticleMeta[] = [
     cluster: "course-availability-guide",
     clusterRole: "spoke",
   },
+  {
+    slug: "florida-community-college-course-availability",
+    title:
+      "Florida Community College Course Availability: 69.2% Scarcity Despite the Best Transfer System in the Country",
+    description:
+      "Florida's Statewide Course Numbering System guarantees transfer — but 69.2% of course IDs are scarce or point-source across 10 colleges. Valencia College alone holds 69 exclusive courses. Here's what actually transfers vs. what you can actually find.",
+    date: "2026-05-12",
+    category: "registration-timing",
+    state: "fl",
+    author: "Community College Path",
+    tags: [
+      "course-availability",
+      "registration",
+      "florida",
+      "fcs",
+      "anchor-campus",
+      "transfer",
+      "schedule-planning",
+    ],
+    cluster: "course-availability-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "alabama-community-college-course-availability",
+    title:
+      "Alabama Community College Course Availability: 6 Colleges, 8,883 Sections, and Why Wallace-Dothan Is the Campus That Matters Most",
+    description:
+      "Alabama's community college system has only 6 colleges in our dataset, but the universal-vs-concentrated pattern still holds. George C. Wallace Community College (Dothan) holds 17 exclusive courses — the most in the state.",
+    date: "2026-05-12",
+    category: "registration-timing",
+    state: "al",
+    author: "Community College Path",
+    tags: [
+      "course-availability",
+      "registration",
+      "alabama",
+      "anchor-campus",
+      "schedule-planning",
+    ],
+    cluster: "course-availability-guide",
+    clusterRole: "spoke",
+  },
 
   // --- Cluster J: Transfer-receiver patterns (hub + data-driven spokes per issue #367) ---
   {
@@ -231,6 +273,75 @@ export const articles: ArticleMeta[] = [
       "gsu",
       "kennesaw-state",
       "uwg",
+      "receiver-patterns",
+    ],
+    cluster: "transfer-receiver-patterns-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "new-jersey-transfer-receivers-compared",
+    title:
+      "New Jersey Transfer Receivers Compared: Why Rutgers Engineering Accepts 13% While Rowan Accepts 96%",
+    description:
+      "NJ has 40 transfer receivers with direct-match rates from 13% to 96% — and the widest variance is within Rutgers itself. Here's how all 40 receivers compare across 68,357 mappings.",
+    date: "2026-05-12",
+    category: "transfer-confusion",
+    state: "nj",
+    author: "Community College Path",
+    tags: [
+      "transfer",
+      "new-jersey",
+      "rutgers",
+      "njit",
+      "rowan",
+      "nj-transfer",
+      "receiver-patterns",
+    ],
+    cluster: "transfer-receiver-patterns-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "north-carolina-transfer-receivers-compared",
+    title:
+      "North Carolina Transfer Receivers Compared: No Rejections Anywhere, but an 80-Point Spread in Direct-Match Rates",
+    description:
+      "Every NC university accepts every NCCCS course for at least elective credit — no student loses hours entirely. But direct-match rates range from 20% at ECU to 100% at Winston-Salem State and NC A&T across 25,622 mappings.",
+    date: "2026-05-12",
+    category: "transfer-confusion",
+    state: "nc",
+    author: "Community College Path",
+    tags: [
+      "transfer",
+      "north-carolina",
+      "ncccs",
+      "unc",
+      "nc-state",
+      "ecu",
+      "receiver-patterns",
+      "caa",
+    ],
+    cluster: "transfer-receiver-patterns-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "maryland-transfer-receivers-compared",
+    title:
+      "Maryland Transfer Receivers Compared: UMGC Grants 30% Direct Match While Bowie State Hits 99% — Across 123,477 Mappings",
+    description:
+      "Maryland's 8 public university receivers all grant at least elective credit — no outright rejections. But the direct-match spread ranges from 30% (UMGC) to 98.9% (Bowie State) across the largest single-state dataset we track.",
+    date: "2026-05-12",
+    category: "transfer-confusion",
+    state: "md",
+    author: "Community College Path",
+    tags: [
+      "transfer",
+      "maryland",
+      "artsys",
+      "umgc",
+      "umd",
+      "towson",
+      "bowie-state",
+      "umbc",
       "receiver-patterns",
     ],
     cluster: "transfer-receiver-patterns-guide",
