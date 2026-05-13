@@ -16,6 +16,42 @@ const nextConfig: NextConfig = {
   // /api/[state]/prereqs/* handlers actually read the files.
   outputFileTracingIncludes: {
     "/api/[state]/prereqs/**": ["./data/*/prereqs.json"],
+    // Routes that read transfer-equiv.json at runtime via lib/transfer.ts
+    // (or its sitemap helper). Re-included after the blanket exclusion
+    // below so the data ships only to functions that need it.
+    "/api/[state]/transfer/**": ["./data/*/transfer-equiv.json"],
+    "/sitemap/transfer.xml/**": ["./data/*/transfer-equiv.json"],
+    "/[state]/transfer/**": ["./data/*/transfer-equiv.json"],
+    "/[state]/course/[code]/**": ["./data/*/transfer-equiv.json"],
+    "/[state]/schedule/**": ["./data/*/transfer-equiv.json"],
+  },
+  // `lib/data-freshness.ts` (#401) calls `fs.readdirSync(path.join(
+  // "data", state, "courses", collegeSlug))` with dynamic state+slug
+  // parameters to look up the latest mtime per course-data directory.
+  // Next.js' tracer can't narrow the dynamic pattern, so it
+  // conservatively bundles ALL matching files into every function that
+  // imports the module — ~180 MB of course JSON across 25+ states.
+  // That blew past Vercel's 250 MB serverless function cap on the
+  // post-#402 main deploy.
+  //
+  // Course JSON is in Supabase at runtime; the on-disk files exist
+  // only for build-time generation and the freshness mtime lookup.
+  // Excluding the dirs from function tracing means freshness lookups
+  // return null in production (no files to stat) and callers degrade
+  // to hiding the "Last updated" line — better than failing the deploy.
+  // Same exclusion for transfer-equiv.json (heavy per-state mappings,
+  // also read by data-freshness via `getTransferLastUpdated` and at
+  // runtime in `lib/transfer.ts`; the transfer routes that genuinely
+  // need it are re-included below).
+  //
+  // The follow-up to drop the null-degradation is to pre-build a
+  // small `data/{state}/.last-updated.json` manifest at scrape time
+  // and read that instead. Out of scope for this hotfix.
+  outputFileTracingExcludes: {
+    "**/*": [
+      "./data/*/courses/**",
+      "./data/*/transfer-equiv.json",
+    ],
   },
   async redirects() {
     // VCCS 2022 renames — these colleges officially changed names in 2022
