@@ -521,28 +521,6 @@
       "BFIN 2100"
     ]
   },
-  "BMED 2010": {
-    "text": "CENT 1036",
-    "courses": [
-      "CENT 1036"
-    ]
-  },
-  "BMED 2012": {
-    "text": "BMED 2010",
-    "courses": [
-      "BMED 2010"
-    ]
-  },
-  "BMED 2014": {
-    "text": "BMED 2010",
-    "courses": [
-      "BMED 2010"
-    ]
-  },
-  "BMED 2020": {
-    "text": "Approval of Program Coordinator",
-    "courses": []
-  },
   "BMGT 2020": {
     "text": "ENG 1010 with a grade of C- or higher",
     "courses": [
@@ -666,22 +644,6 @@
       "BOT 1101"
     ]
   },
-  "BOT 1801": {
-    "text": "BOT 1800 or HIMT 1000 or MDAS 1025",
-    "courses": [
-      "BOT 1800",
-      "HIMT 1000",
-      "MDAS 1025"
-    ]
-  },
-  "BOT 1802": {
-    "text": "BOT 1800 or HIMT 1000 or MDAS 1025",
-    "courses": [
-      "BOT 1800",
-      "HIMT 1000",
-      "MDAS 1025"
-    ]
-  },
   "BOT 2095": {
     "text": "Permission of Program Coordinator",
     "courses": []
@@ -707,25 +669,6 @@
     "courses": [
       "BOT 1101",
       "BOT 2701"
-    ]
-  },
-  "BOT 2807": {
-    "text": "BOT 1800 or HIMT 1000",
-    "courses": [
-      "BOT 1800",
-      "HIMT 1000"
-    ]
-  },
-  "BOT 2808": {
-    "text": "BOT 1800",
-    "courses": [
-      "BOT 1800"
-    ]
-  },
-  "BOT 2810": {
-    "text": "BOT 2808 with C or Higher",
-    "courses": [
-      "BOT 2808"
     ]
   },
   "BUSN 2090": {
@@ -810,14 +753,6 @@
     "courses": [
       "CAD 2204"
     ]
-  },
-  "CAT 2001": {
-    "text": "Admission to the Computed Tomography (CT) Program and American Registry of Radiologic Technologists (ARRT) Registered Radiographer, or Nuclear Medicine (Certification in Nuclear Medicine Technology Certification Board (NMTCB), or Radiation Therapy Permission of the Middlesex Campus Program Coordinator",
-    "courses": []
-  },
-  "CAT 2002": {
-    "text": "Admission to the Computed Tomography (CT) Program and American Registry of Radiologic Technologists (ARRT) Registered Radiographer, or Nuclear Medicine (Certification in Nuclear Medicine Technology Certification Board (NMTCB), or Radiation Therapy Permission of the Middlesex Campus Program Coordinator",
-    "courses": []
   },
   "CCS 1001": {
     "text": "Must be eligible to take intensive/developmental-level English class (",
@@ -1862,14 +1797,6 @@
       "DAT 2411",
       "DAT 2421",
       "DAT 2535"
-    ]
-  },
-  "DHYG 2268": {
-    "text": "C or higher in DHYG 2259 - Dental Hygiene III Theory , DHYG 2260C - Dental Hygiene III Clinic , and DHYG 2267 - Community Oral Health",
-    "courses": [
-      "DHYG 2259",
-      "DHYG 2260C",
-      "DHYG 2267"
     ]
   },
   "DTS 2201": {
@@ -3083,18 +3010,6 @@
     "text": "Second-year status, and/or permission from the Graphic Design Program Coordinator",
     "courses": []
   },
-  "HLTH 1055": {
-    "text": "eligibility for ENG 1010",
-    "courses": [
-      "ENG 1010"
-    ]
-  },
-  "HPE 2161": {
-    "text": "HPE 1061 or demonstrated proficiency",
-    "courses": [
-      "HPE 1061"
-    ]
-  },
   "INTD 1001": {
     "text": "ARCH 1005 or permission of Interior Design Coordinator",
     "courses": [
@@ -3183,26 +3098,6 @@
     "text": "Students must have earned a grade of C- or higher in JAPN 1011 , or complete a",
     "courses": [
       "JAPN 1011"
-    ]
-  },
-  "KORA 1011": {
-    "text": "Students must complete the",
-    "courses": []
-  },
-  "KORA 1012": {
-    "text": "Students must have earned a grade of C- or higher in KORA 1011 or complete the",
-    "courses": [
-      "KORA 1011"
-    ]
-  },
-  "LATN 1011": {
-    "text": "Students with previous language experience must complete a",
-    "courses": []
-  },
-  "LATN 1012": {
-    "text": "Students must have earned a grade of C- or higher in LATN 1011 , or complete a",
-    "courses": [
-      "LATN 1011"
     ]
   },
   "LGL 1001": {
@@ -3314,12 +3209,6 @@
   "LGL 2195": {
     "text": "Permission of the program coordinator",
     "courses": []
-  },
-  "MDAS 2050L": {
-    "text": "Eligible MATH 1000",
-    "courses": [
-      "MATH 1000"
-    ]
   },
   "MECH 1014": {
     "text": "MATH 1610 or higher and PHYS 1201",
@@ -4304,10 +4193,6 @@
       "PHYS 1105"
     ]
   },
-  "POLH 1011": {
-    "text": "Students with previous language experience must complete a Language and Culture placement test or permission of the instructor",
-    "courses": []
-  },
   "RRET 1001": {
     "text": "ENG 0930 or Placement into ENG 0940 or Higher",
     "courses": [
@@ -4381,107 +4266,6 @@
     "courses": [
       "RRET 2020"
     ]
-  },
-  "RUSN 1011": {
-    "text": "Students with previous language experience must complete a",
-    "courses": []
-  },
-  "SPAN 1011": {
-    "text": "Students with previous language experience must complete a",
-    "courses": []
-  },
-  "SPAN 1012": {
-    "text": "SPAN 1011 with a C- or higher or complete a",
-    "courses": [
-      "SPAN 1011"
-    ]
-  },
-  "SPAN 1013": {
-    "text": "Students with previous language experience must complete a",
-    "courses": []
-  },
-  "SPAN 1014": {
-    "text": "Students must have earned a grade of C- or higher in SPAN 1011 , complete a",
-    "courses": [
-      "SPAN 1011"
-    ]
-  },
-  "SPAN 1021": {
-    "text": "A grade of C- or higher in SPAN 1020 - Beginning Spanish Conversation I , SPAN 1011 - Elementary Spanish I , SPAN 1012 - Elementary Spanish II , or SPAN 1013 - Elementary Spanish I-II or permission of instructor",
-    "courses": [
-      "SPAN 1011",
-      "SPAN 1012",
-      "SPAN 1013",
-      "SPAN 1020"
-    ]
-  },
-  "SPAN 1030": {
-    "text": "A grade of C- or higher in SPAN 1013",
-    "courses": [
-      "SPAN 1013"
-    ]
-  },
-  "SPAN 2010": {
-    "text": "A grade of C- or higher in one of the following courses: SPAN 1012 or SPAN 1013 , or complete a",
-    "courses": [
-      "SPAN 1012",
-      "SPAN 1013"
-    ]
-  },
-  "SPAN 2011": {
-    "text": "A grade of C-or higher in one of the following courses: SPAN 1012 or SPAN 1013 , or",
-    "courses": [
-      "SPAN 1012",
-      "SPAN 1013"
-    ]
-  },
-  "SPAN 2012": {
-    "text": "A grade of C-or higher in SPAN 2011",
-    "courses": [
-      "SPAN 2011"
-    ]
-  },
-  "SPAN 2013": {
-    "text": "A grade of C- or higher in SPAN 1012 - Elementary Spanish II , SPAN 1013 - Elementary Spanish I-II , or complete a",
-    "courses": [
-      "SPAN 1012",
-      "SPAN 1013"
-    ]
-  },
-  "SPAN 2030": {
-    "text": "A grade of C- or higher in SPAN 1011 or SPAN 2013 , or complete a",
-    "courses": [
-      "SPAN 1011",
-      "SPAN 2013"
-    ]
-  },
-  "SPAN 2095": {
-    "text": "Permission of the Instructor",
-    "courses": []
-  },
-  "SPAN 2098": {
-    "text": "SPAN 2012 and either SPAN 2011 or SPAN 1012 or permission of Instructor",
-    "courses": [
-      "SPAN 1012",
-      "SPAN 2011",
-      "SPAN 2012"
-    ]
-  },
-  "SPAN 2111": {
-    "text": "A grade of C- or higher in SPAN 2012 , or complete a",
-    "courses": [
-      "SPAN 2012"
-    ]
-  },
-  "SPAN 2112": {
-    "text": "A grade of C- or higher in SPAN 2111 , or complete a",
-    "courses": [
-      "SPAN 2111"
-    ]
-  },
-  "SPAN 2199": {
-    "text": "Permission of the Supervising Faculty. All Independent Studies must be arranged in the semester prior to registration, with advance departmental approval and the permission of a full-time Language and Culture faculty member",
-    "courses": []
   },
   "SPED 1012": {
     "text": "ENG 1010 and PSY 2004 or ECED 1002",
