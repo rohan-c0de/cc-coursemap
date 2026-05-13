@@ -174,7 +174,7 @@ Do **not** optimize for vanity traffic.
 ## Preferred article structure
 Unless there is a strong reason not to, structure each article like this:
 
-1. **Clear headline**
+1. **Clear headline** (under 60 characters — see title rules above)
 2. **Sharp intro** that frames the real problem in plain English
 3. **Why this is confusing / what people get wrong**
 4. **Practical explanation**
@@ -356,10 +356,47 @@ It can point them to a useful action, not just a generic summary.
 
 ---
 
+## Title and meta-description rules (SEO)
+
+Google truncates titles at ~60 characters and descriptions at ~155 characters. Everything past the cutoff is invisible in search results. These limits are hard constraints, not guidelines.
+
+### Title rules
+
+- **Under 60 characters.** Count every character including spaces. If it's 61, shorten it.
+- **Front-load the keyword.** The most important term (state, topic, action) goes first. "NC Prereq Chains" beats "Community College Prerequisite Chains in North Carolina".
+- **Use state abbreviations in titles.** NC not "North Carolina", GA not "Georgia", FL not "Florida", etc. The full state name belongs in the description and body, not the title.
+- **Add `(2026)` when the content is date-sensitive.** Transfer guides, waiver rules, session timing, course availability — anything a searcher would want to know is current. Conceptual explainers ("What is elective credit?") don't need a year.
+- **No long subtitles after colons.** "NC Course Availability: 78.9% Scarcity (2026)" is good. "NC Course Availability: What's at Every Campus, What's at One, and How to Tell the Difference" is 120 characters and gets truncated.
+- **Preserve the search-intent keyword.** A clever title that drops the keyword a searcher would type is worse than a plain title that includes it.
+
+### Description rules
+
+- **Under 155 characters.** Google truncates past this.
+- **Lead with the answer or the most specific fact.** Not "Here's how…" — start with what the reader will learn. "17 states waive tuition for residents 60–65+" beats "Several states have programs that may help senior citizens."
+- **Include one concrete data point** when available (a percentage, a count, a comparison).
+- **No vague teasers.** The description is a promise of specific value — if it could apply to any article, it's too generic.
+
+### Template patterns for common article types
+
+| Type | Title pattern | Example |
+|---|---|---|
+| Course availability spoke | `{ST} Course Availability: {stat} ({year})` | NC Course Availability: 78.9% Scarcity (2026) |
+| Prereq chain spoke | `{ST} Prereq Chains: {bottleneck} ({year})` | FL Prereq Chains: Dev English Gates 319 Courses |
+| Senior waiver spoke | `{ST} Free College for {age}+: {differentiator}` | GA Free College for 62+: Credit, All 22 Campuses |
+| Transfer credit spoke | `{ST} Transfer Credit Guide ({year})` | MD Transfer Credit: ARTSYS Guide (2026) |
+| Session timing spoke | `{ST} College Sessions: {stat} ({year})` | MD College Sessions: 93 Start Dates at AACC |
+| Late-start spoke | `{ST} Late-Start Classes: {stat} ({year})` | NH Late-Start Classes: 18%, Highest in East |
+| Hybrid density spoke | `{ST} Hybrid Classes: {stat} ({year})` | ME Hybrid Classes: 16.2% Share (2026) |
+| Transfer receiver spoke | `{ST} Transfer Receivers: {comparison}` | GA Receivers: UGA 12% vs Kennesaw 90% |
+| Audit-at-college spoke | `Audit a Class at {Name}: Cost & How-To` | Audit a Class at NOVA: Cost & How-To |
+| Hub article | Descriptive, under 60 chars, `(2026)` if dated | Free College for Seniors: 17 States (2026) |
+
+---
+
 ## Output expectations for article generation
 When generating an article, produce:
 
-1. **Recommended title**
+1. **Recommended title** (must be under 60 characters — verify before submitting)
 2. **Article type**: general / state-specific / cluster (hub or spoke)
 3. **Target reader**
 4. **Search intent**
