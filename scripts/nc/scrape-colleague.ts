@@ -81,6 +81,7 @@ const COLLEAGUE_COLLEGES: Record<string, string> = {
   "davidson-davie": "https://selfservice.cloud.davidsondavie.edu",
   "halifax": "https://sss.halifaxcc.edu",
   "brunswick": "https://ss2-prod-cloud.brunswickcc.edu",
+  "wilson": "https://wilson-ss.colleague.elluciancloud.com",
 };
 
 type CourseMode = "in-person" | "online" | "hybrid" | "zoom";
