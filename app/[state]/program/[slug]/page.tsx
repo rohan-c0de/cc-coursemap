@@ -36,6 +36,12 @@ import {
   formatDollar,
   type ScorecardProgramRecord,
 } from "@/lib/scorecard";
+import { PROGRAM_COPY } from "@/lib/programs/copy";
+import {
+  getStateSocStats,
+  getApproxNationalMedian,
+  getBlsReportingYear,
+} from "@/lib/bls";
 
 export const revalidate = 604800; // 7 days
 
@@ -205,6 +211,30 @@ export default async function ProgramPage(props: PageProps) {
     (p) => p.slug
   );
 
+  // Per-program content depth: intro paragraphs + FAQ (issue #413 #6).
+  // Template tokens {stateName}, {systemName}, {totalColleges},
+  // {totalSections} get interpolated. Programs without copy entries
+  // (none currently, but defensive) skip the intro/FAQ sections.
+  const copy = PROGRAM_COPY[slug];
+  const renderTemplate = (s: string): string =>
+    s
+      .replace(/\{stateName\}/g, config.name)
+      .replace(/\{systemName\}/g, config.systemName)
+      .replace(/\{totalColleges\}/g, String(data.totalColleges))
+      .replace(/\{totalSections\}/g, String(data.totalSections));
+
+  // BLS career-outlook data: state-level median wage + a derived national
+  // benchmark. Both can be null (no BLS file, suppressed cohort, or
+  // transfer-track program with no `primarySoc`). The Career Outlook
+  // section renders only when at least one of them populates.
+  const blsStats = program.primarySoc
+    ? getStateSocStats(state, program.primarySoc)
+    : null;
+  const blsNationalMedian = program.primarySoc
+    ? getApproxNationalMedian(program.primarySoc)
+    : null;
+  const blsYear = getBlsReportingYear();
+
   // Cross-state nav (#413): same program in every other state where it
   // qualifies. Builds a topic cluster — both for student comparison
   // (\"how does nursing in NC stack up vs VA, SC, GA?\") and for SEO
@@ -265,6 +295,13 @@ export default async function ProgramPage(props: PageProps) {
             )}
           </p>
         </header>
+
+        {copy && (
+          <section className="mb-10 prose prose-sm max-w-none dark:prose-invert prose-p:text-gray-700 dark:prose-p:text-slate-300">
+            <p>{renderTemplate(copy.intro[0])}</p>
+            <p>{renderTemplate(copy.intro[1])}</p>
+          </section>
+        )}
 
         {(collegesWithEarnings.length > 0 || nationalBenchmark != null) && (
           <section className="mb-10 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6">
@@ -585,6 +622,118 @@ export default async function ProgramPage(props: PageProps) {
                 </li>
               ))}
             </ul>
+          </section>
+        )}
+
+        {(blsStats?.medianAnnualWage != null ||
+          blsNationalMedian != null) && (
+          <section className="mb-10 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6">
+            <h2
+              id="career-outlook"
+              className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-1"
+            >
+              Career outlook for {program.name} graduates
+            </h2>
+            <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
+              Federal Bureau of Labor Statistics wage data for the primary
+              career outcome of this program{blsYear ? ` (${blsYear} OEWS release)` : ""}.
+              Compare {config.name}&rsquo;s typical pay to the national
+              picture before choosing where to study.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {blsStats?.medianAnnualWage != null && (
+                <div className="rounded-lg border border-gray-200 dark:border-slate-700 p-4">
+                  <div className="text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-slate-400">
+                    {config.name} median wage
+                  </div>
+                  <div className="mt-1 text-2xl font-bold text-gray-900 dark:text-slate-100">
+                    {formatDollar(blsStats.medianAnnualWage)}
+                  </div>
+                  <div className="mt-0.5 text-xs text-gray-500 dark:text-slate-400">
+                    annual, all workers in occupation
+                  </div>
+                </div>
+              )}
+              {blsNationalMedian != null && (
+                <div className="rounded-lg border border-gray-200 dark:border-slate-700 p-4">
+                  <div className="text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-slate-400">
+                    Typical state median (national reference)
+                  </div>
+                  <div className="mt-1 text-2xl font-bold text-gray-900 dark:text-slate-100">
+                    {formatDollar(blsNationalMedian)}
+                  </div>
+                  <div className="mt-0.5 text-xs text-gray-500 dark:text-slate-400">
+                    median across covered states
+                  </div>
+                </div>
+              )}
+            </div>
+            {blsStats?.medianAnnualWage != null &&
+              blsNationalMedian != null && (
+                <p className="mt-3 text-sm text-gray-600 dark:text-slate-300">
+                  {(() => {
+                    const diff =
+                      blsStats.medianAnnualWage - blsNationalMedian;
+                    const pct = Math.abs(
+                      (diff / blsNationalMedian) * 100,
+                    ).toFixed(0);
+                    if (Math.abs(diff) < blsNationalMedian * 0.03)
+                      return `${config.name}'s typical pay for this occupation is roughly in line with the national picture.`;
+                    return diff > 0
+                      ? `${config.name}'s typical pay is about ${pct}% above the typical state — a strong sign of healthy local demand.`
+                      : `${config.name}'s typical pay is about ${pct}% below the typical state — common for lower cost-of-living states, but worth weighing against tuition savings.`;
+                  })()}
+                </p>
+              )}
+            <p className="mt-4 text-xs text-gray-500 dark:text-slate-400">
+              Wage data reflects all workers in the occupation, not just
+              recent CC graduates — entry-level pay is typically lower.
+              Source: U.S. Bureau of Labor Statistics OEWS.
+            </p>
+          </section>
+        )}
+
+        {copy && copy.faq.length > 0 && (
+          <section className="mb-10">
+            <h2
+              id="faq"
+              className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4"
+            >
+              Frequently asked questions
+            </h2>
+            <dl className="space-y-4">
+              {copy.faq.map((qa, i) => (
+                <div
+                  key={i}
+                  className="rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-5"
+                >
+                  <dt className="font-medium text-gray-900 dark:text-slate-100">
+                    {renderTemplate(qa.q)}
+                  </dt>
+                  <dd className="mt-2 text-sm text-gray-700 dark:text-slate-300 leading-relaxed">
+                    {renderTemplate(qa.a)}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+            <script
+              type="application/ld+json"
+              // eslint-disable-next-line react/no-danger
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "FAQPage",
+                  mainEntity: copy.faq.map((qa) => ({
+                    "@type": "Question",
+                    name: renderTemplate(qa.q),
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: renderTemplate(qa.a),
+                    },
+                  })),
+                }),
+              }}
+            />
           </section>
         )}
 
