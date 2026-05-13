@@ -106,6 +106,17 @@ Merging is the user's job — they click "Squash and merge" on GitHub. Don't run
 
 Never push a commit and _hope_ the user hasn't merged yet. That's what caused the lost commits.
 
+## Pull request descriptions — lead with plain English
+
+Every PR body must open with a short section that a non-technical reader could understand, written before the detailed tables / test plan / dependencies / commit lists. Two things to cover, in this order:
+
+1. **What changes for someone using the site.** Concrete and specific: "the college page now shows a '1st-year retention 71%' tile in a new 'After enrollment' section." Not abstract: "improved transparency around outcomes." Name the page, the element, the visible value when relevant. If the change is invisible to users (build fix, infra refactor), say so plainly — "users see nothing new; this unblocks deploys that were failing at the 250 MB function-size cap" — instead of trying to manufacture a UX angle.
+2. **What changes on the technical front, when there's a story worth telling.** A sentence or two on the mechanism: which file does the work, what the underlying data source is, what the gotcha was. Reviewers (and you, six months from now) learn what's possible by reading this.
+
+Resist marketing copy. "Empowers students to make informed decisions" tells the reviewer nothing. "Adds three new tiles (retention, 1-year earnings, '% earning above HS median') sourced from federal College Scorecard API fields we weren't fetching before" tells them exactly what landed. **Completely accurate beats vaguely impressive every time** — if a change only helps a subset of pages, or has a known gap, name it.
+
+The detailed tables, file lists, test plans, and dependency notes that already populate PR bodies stay — this is an addition at the top, not a replacement.
+
 ## Verifying your work — three checks, in order
 
 Typecheck passing and a scraper completing without errors are necessary but not sufficient. Data can be wrong, APIs can return the right shape with broken content, and a PR that looks fine in isolation can break the UI for real users. Do these three, every time:
