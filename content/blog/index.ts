@@ -2136,6 +2136,49 @@ export const articles: ArticleMeta[] = [
     cluster: "prereq-chains-guide",
     clusterRole: "spoke",
   },
+  // --- Pipeline batch 2026-05-12: prereq spokes (NJ, MI, OH) ---
+  {
+    slug: "new-jersey-community-college-prereq-bottlenecks",
+    title:
+      "New Jersey Community College Prerequisite Chains: A Record 31-Level Depth and the ESL-to-Nursing Bottleneck",
+    description:
+      "NJ's 12-college system holds the deepest prereq chain in the dataset — 31 levels from ESL 037 through 13 ESL courses, college English, 6 biology courses, and 11 nursing courses to NUR 216. ENG 087 gates 727 downstream courses.",
+    date: "2026-05-12",
+    category: "mistake-avoidance",
+    state: "nj",
+    author: "Community College Path",
+    tags: ["prerequisites", "new-jersey", "esl", "nursing", "bottlenecks", "course-sequence", "developmental"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "michigan-community-college-prereq-bottlenecks",
+    title:
+      "Michigan Community College Prerequisite Chains: When Reading Development Blocks Math — and Math Blocks Nursing",
+    description:
+      "Michigan's ACRD 080 (Academic Reading Development) gates 710 downstream courses — more than any English course. ACRD 090 is a prerequisite for MATH 018, meaning reading blocks math access. The deepest chain reaches 23 levels into nursing.",
+    date: "2026-05-12",
+    category: "mistake-avoidance",
+    state: "mi",
+    author: "Community College Path",
+    tags: ["prerequisites", "michigan", "acrd", "reading", "nursing", "bottlenecks", "course-sequence", "developmental"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
+  {
+    slug: "ohio-community-college-prereq-bottlenecks",
+    title:
+      "Ohio Community College Prerequisite Chains: IDS 102, the Nursing Triplet Structure, and a Concentrated Bottleneck Pattern",
+    description:
+      "Ohio's IDS 102 (Integrated Development Studies) gates 231 downstream courses — more than any English course. The deepest chain reaches 16 levels through nursing's lecture-lab-clinical triplet structure. Deep chains concentrate in health sciences rather than spreading system-wide.",
+    date: "2026-05-12",
+    category: "mistake-avoidance",
+    state: "oh",
+    author: "Community College Path",
+    tags: ["prerequisites", "ohio", "ids", "nursing", "bottlenecks", "course-sequence", "health-sciences"],
+    cluster: "prereq-chains-guide",
+    clusterRole: "spoke",
+  },
   // --- Pipeline batch 2026-05-10c: late-start spokes (KY, MS, MA) ---
   {
     slug: "kentucky-community-college-late-start-classes",
