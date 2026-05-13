@@ -13,10 +13,16 @@
  *   OEUS370000000000029114101 → annual employment count
  *   OEUS370000000000029114109 → annual median wage
  *
- * Data type codes:
+ * Data type codes (verified empirically against NC RN data — BLS docs
+ * disagree across sources, so trust the actual returned values):
  *   01 = Employment count
+ *   03 = Hourly mean wage
  *   04 = Annual mean wage
- *   09 = Annual median wage
+ *   08 = Hourly median wage
+ *   09 = Hourly 75th percentile wage
+ *   13 = Annual median wage   ← what we want for the page tile
+ *   14 = Annual 75th percentile wage
+ *   15 = Annual 90th percentile wage
  *
  * National data: BLS publishes national-level OEWS but the public-API
  * series prefix is not the obvious "OEUN" or "OEUS00" — both probe as
@@ -33,8 +39,15 @@
 import fs from "fs";
 import { PROGRAMS } from "@/lib/programs/registry";
 import { getAllStates } from "@/lib/states/registry";
+import { loadEnv } from "./lib/load-env";
+
+loadEnv();
 
 const BLS_API = "https://api.bls.gov/publicAPI/v2/timeseries/data/";
+// Registered API key bumps the daily cap from 25 → 500 queries and lets
+// the response include current-year revisions. Optional; the script
+// falls back to unauthenticated requests when unset.
+const BLS_API_KEY = process.env.BLS_API_KEY ?? "";
 
 interface BlsResponse {
   status: string;
@@ -68,10 +81,12 @@ function fipsForState(slug: string): string | null {
 }
 
 async function fetchBls(seriesIds: string[]): Promise<BlsResponse> {
+  const body: Record<string, unknown> = { seriesid: seriesIds };
+  if (BLS_API_KEY) body.registrationkey = BLS_API_KEY;
   const res = await fetch(BLS_API, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ seriesid: seriesIds }),
+    body: JSON.stringify(body),
   });
   if (!res.ok) throw new Error(`BLS API HTTP ${res.status}`);
   return (await res.json()) as BlsResponse;
@@ -99,7 +114,8 @@ async function main(): Promise<void> {
   // unauthenticated daily cap. Employment + mean are nice-to-haves we
   // can add later if we register a BLS API key (free, instant, 500/day).
   console.log(
-    `Fetching BLS OEWS state median wages: ${states.length} states × ${socs.length} SOCs`,
+    `Fetching BLS OEWS state median wages: ${states.length} states × ${socs.length} SOCs` +
+      (BLS_API_KEY ? " (registered tier, 500/day)" : " (unauth tier, 25/day)"),
   );
 
   const byState: WagesFile["byState"] = {};
@@ -116,19 +132,25 @@ async function main(): Promise<void> {
 
   let latestYear = 0;
 
-  // Build the full series list, then batch.
+  // Build the full series list, then batch. With a registered API key
+  // the daily budget is 500 queries; fetch employment (01), annual mean
+  // wage (04), AND annual median wage (13) per (state, SOC) — 3× the
+  // unauth scope. Without a key, fall back to median-only to stay
+  // under the 25/day unauth cap.
+  const dataTypes = BLS_API_KEY ? ["01", "04", "13"] : ["13"];
   const seriesList: Array<{ id: string; state: string; soc: string; dt: string }> = [];
   for (const state of states) {
     const fips = fipsForState(state.slug);
     if (!fips) continue;
     for (const soc of socs) {
-      // Median wage only — see comment above re: 25/day cap.
-      seriesList.push({
-        id: stateSeriesId(fips, soc, "09"),
-        state: state.slug,
-        soc,
-        dt: "09",
-      });
+      for (const dt of dataTypes) {
+        seriesList.push({
+          id: stateSeriesId(fips, soc, dt),
+          state: state.slug,
+          soc,
+          dt,
+        });
+      }
     }
   }
 
@@ -161,7 +183,7 @@ async function main(): Promise<void> {
       const stats = byState[meta.state][meta.soc];
       if (meta.dt === "01") stats.employment = value;
       else if (meta.dt === "04") stats.meanAnnualWage = value;
-      else if (meta.dt === "09") stats.medianAnnualWage = value;
+      else if (meta.dt === "13") stats.medianAnnualWage = value;
       got++;
     }
     console.log(`${got} values`);
