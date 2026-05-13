@@ -30,17 +30,18 @@ import { resolveCollegeTerms } from "../lib/colleague-terms";
 const DELAY_MS = 500;
 const PAGE_SIZE = 500; // max per request to minimize pagination
 
-// NJ colleges using Ellucian Colleague Self-Service (10 confirmed publicly accessible)
+// NJ colleges using Ellucian Colleague Self-Service (11 confirmed publicly accessible)
 const COLLEAGUE_COLLEGES: Record<string, string> = {
+  "atlantic-cape": "https://acccdtsfss22.atlantic.edu",
   "bergen": "https://selfservice.bergen.edu",
   "brookdale": "https://selfservice.brookdalecc.edu",
+  "camden": "https://selfservice.camdencc.edu",
   "ccm": "https://titansdirect.ccm.edu",
   "hccc": "https://libertylink.hccc.edu",
-  "passaic": "https://eselfservice.pccc.edu",
-  "rcbc": "https://selfservice2019.rcbc.edu",
-  "atlantic-cape": "https://acccdtsfss22.atlantic.edu",
   "mercer": "https://mercer-ss.colleague.elluciancloud.com",
   "middlesex": "https://middlesexcollege-ss.colleague.elluciancloud.com",
+  "passaic": "https://eselfservice.pccc.edu",
+  "rcbc": "https://selfservice2019.rcbc.edu",
   "ucnj": "https://ucc-ss.colleague.elluciancloud.com",
 };
 
