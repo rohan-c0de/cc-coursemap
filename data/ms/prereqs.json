@@ -1,0 +1,1342 @@
+{
+  "ACC 2223": {
+    "text": "ACC 2213 . (3,3,0)",
+    "courses": [
+      "ACC 2213"
+    ]
+  },
+  "ART 1323": {
+    "text": "ART 1313 or permission of instructor. (3,0,6)",
+    "courses": [
+      "ART 1313"
+    ]
+  },
+  "ART 2513": {
+    "text": "ART 1313 & ART 1433 or permission of instructor. (3,0,6)",
+    "courses": [
+      "ART 1313",
+      "ART 1433"
+    ]
+  },
+  "ART 2523": {
+    "text": "ART 2513 or permission of instructor. (3,0,6)",
+    "courses": [
+      "ART 2513"
+    ]
+  },
+  "ART 2623": {
+    "text": "ART 2613 or permission of the instructor. (3,0,6)",
+    "courses": [
+      "ART 2613"
+    ]
+  },
+  "BAD 2323": {
+    "text": "MAT 1313 or MAT 1314 . (3,3,0)",
+    "courses": [
+      "MAT 1313",
+      "MAT 1314"
+    ]
+  },
+  "BAD 2743": {
+    "text": "BAD 2713 or Real Estate Sales or Broker License. (3,3,0)",
+    "courses": [
+      "BAD 2713"
+    ]
+  },
+  "BIO 1144": {
+    "text": "BIO 1134 (4,3,2)",
+    "courses": [
+      "BIO 1134"
+    ]
+  },
+  "BIO 1314": {
+    "text": "Completion of one of the following: a) minimum ACT composite of 21 on the science component, b) completion of three high school science courses (biology or chemistry) with no grade lower than a “C”, or c) credit for BIO 1134 .(4,3,2)",
+    "courses": [
+      "BIO 1134"
+    ]
+  },
+  "BIO 1613": {
+    "text": "BIO 1134 , BIO 2514 and BIO 2524 recommended. (3,3,0)",
+    "courses": [
+      "BIO 1134",
+      "BIO 2514",
+      "BIO 2524"
+    ]
+  },
+  "BIO 1721": {
+    "text": "BIO 1711 (By invitation only.) (1,0,2)",
+    "courses": [
+      "BIO 1711"
+    ]
+  },
+  "BIO 2214": {
+    "text": "Completion of one of the following: a) minimum ACT composite of 21 on the science component, b) completion of three high school science courses (biology or chemistry) with no grade lower than a “C”, or c) credit for BIO 1134 .(4,3,2)",
+    "courses": [
+      "BIO 1134"
+    ]
+  },
+  "BIO 2231": {
+    "text": "BIO 1134 or higher. Co-requisite: BIO 2233 (1,0,1)",
+    "courses": [
+      "BIO 1134",
+      "BIO 2233"
+    ]
+  },
+  "BIO 2233": {
+    "text": "BIO 1134 or higher. Co-requisite: BIO 2231 . (3,3,0)",
+    "courses": [
+      "BIO 1134",
+      "BIO 2231"
+    ]
+  },
+  "BIO 2234": {
+    "text": "BIO 1134 or higher. (4,3,2)",
+    "courses": [
+      "BIO 1134"
+    ]
+  },
+  "BIO 2414": {
+    "text": "Completion of one of the following: a) minimum ACT composite of 21 on the science component, b) completion of three high school science courses (biology or chemistry) with no grade lower than a “C”, or c) credit for BIO 1134 . (4,3,2)",
+    "courses": [
+      "BIO 1134"
+    ]
+  },
+  "BIO 2424": {
+    "text": "Completion of one of the following: a) minimum ACT composite of 21 on the science component, b) completion of three high school science courses (biology or chemistry) with no grade lower than a “C”, or c) credit for BIO 1134 . (4,3,2)",
+    "courses": [
+      "BIO 1134"
+    ]
+  },
+  "BIO 2514": {
+    "text": "Completion of one of the following: a) minimum ACT composite of 21 on the science component, b) completion of three high school science courses (biology or chemistry) with no grade lower than a “C”, or c) credit for BIO 1134 . (4,3,2)",
+    "courses": [
+      "BIO 1134"
+    ]
+  },
+  "BIO 2524": {
+    "text": "BIO 2514 . (4,3,2)",
+    "courses": [
+      "BIO 2514"
+    ]
+  },
+  "BIO 2924": {
+    "text": "BIO 1134 (4,3,2)",
+    "courses": [
+      "BIO 1134"
+    ]
+  },
+  "BOT 1233": {
+    "text": "Instructor Approved. (3,2,2)",
+    "courses": []
+  },
+  "BOT 1243": {
+    "text": "Instructor Approved (3,2,2)",
+    "courses": []
+  },
+  "BOT 1443": {
+    "text": "BOT 1433 (3,3,0)",
+    "courses": [
+      "BOT 1433"
+    ]
+  },
+  "BOT 1823": {
+    "text": "BOT 1313 (3,2,2)",
+    "courses": [
+      "BOT 1313"
+    ]
+  },
+  "BOT 1853": {
+    "text": "BOT 1823 (3,2,2)",
+    "courses": [
+      "BOT 1823"
+    ]
+  },
+  "BOT 2423": {
+    "text": "BOT 1433 or ACC 2213 . (3,2,2)",
+    "courses": [
+      "ACC 2213",
+      "BOT 1433"
+    ]
+  },
+  "BOT 2433": {
+    "text": "ACC 2213 or BOT 1433 (3,2,2)",
+    "courses": [
+      "ACC 2213",
+      "BOT 1433"
+    ]
+  },
+  "BOT 2463": {
+    "text": "BOT 1433 or ACC 2213 . (3,2,2)",
+    "courses": [
+      "ACC 2213",
+      "BOT 1433"
+    ]
+  },
+  "BOT 2473": {
+    "text": "ACC 2213 or BOT 1433 . (3,2,2)",
+    "courses": [
+      "ACC 2213",
+      "BOT 1433"
+    ]
+  },
+  "BOT 2813": {
+    "text": "BOT 1713 , BOT 1233 , or by consent of instructor. (3,3,0)",
+    "courses": [
+      "BOT 1233",
+      "BOT 1713"
+    ]
+  },
+  "CAT 2133": {
+    "text": "CAT 1113, CAT 1213. (3,1,4)",
+    "courses": [
+      "CAT 1113",
+      "CAT 1213"
+    ]
+  },
+  "CAT 2263": {
+    "text": "CAT 1213. (3,1,4)",
+    "courses": [
+      "CAT 1213"
+    ]
+  },
+  "CAT 2313": {
+    "text": "CAT 1113 , CAT 1213 , or by consent of instructor. (3,1,4)",
+    "courses": [
+      "CAT 1113",
+      "CAT 1213"
+    ]
+  },
+  "CAT 2323": {
+    "text": "CAT 2313 (3,1,4)",
+    "courses": [
+      "CAT 2313"
+    ]
+  },
+  "CAT 2333": {
+    "text": "CAT 2313 or by consent of instructor. (3,1,4)",
+    "courses": [
+      "CAT 2313"
+    ]
+  },
+  "CAT 2914": {
+    "text": "Completion of one semester of coursework in the Graphic Design Technology program (4,2,4)",
+    "courses": []
+  },
+  "CDT 2813": {
+    "text": "CDT 2913 (3,3,0)",
+    "courses": [
+      "CDT 2913"
+    ]
+  },
+  "CDT 2913": {
+    "text": "CDT 2613 . (3,0,6)",
+    "courses": [
+      "CDT 2613"
+    ]
+  },
+  "CDT 2943": {
+    "text": "CDT 2913 (3,0,6)",
+    "courses": [
+      "CDT 2913"
+    ]
+  },
+  "CHE 1214": {
+    "text": "The student must meet one or more of the following requirements: (1) completed CHE 1314 , (2) completed one year of high school chemistry and one year of algebra, (3) ACT math score of 19 or higher, (4) satisfactory score on challenge exam, (5) Corequisite: MAT 1313 or higher (4,3,2)",
+    "courses": [
+      "CHE 1314",
+      "MAT 1313"
+    ]
+  },
+  "CHE 1224": {
+    "text": "CHE 1214 . (4,3,2)",
+    "courses": [
+      "CHE 1214"
+    ]
+  },
+  "CHE 1324": {
+    "text": "CHE 1314 or CHE 1214 . (4,3,2)",
+    "courses": [
+      "CHE 1214",
+      "CHE 1314"
+    ]
+  },
+  "CHE 2425": {
+    "text": "CHE 1214 and CHE 1224 . (5,3,4)",
+    "courses": [
+      "CHE 1214",
+      "CHE 1224"
+    ]
+  },
+  "CHE 2435": {
+    "text": "CHE 2425 (5,3,4)",
+    "courses": [
+      "CHE 2425"
+    ]
+  },
+  "CON 2123": {
+    "text": "CON 1223 and CON 1213 . (3,2,2)",
+    "courses": [
+      "CON 1213",
+      "CON 1223"
+    ]
+  },
+  "CON 2233": {
+    "text": "CON 1233 . (3,2,2)",
+    "courses": [
+      "CON 1233"
+    ]
+  },
+  "COV 1732": {
+    "text": "COV 1722 . (2,1,3)",
+    "courses": [
+      "COV 1722"
+    ]
+  },
+  "CSC 1213": {
+    "text": "a) minimum ACT score of 19 on the math component, b) credit for MAT 1313 or MAT 1314 , or c) permission of the instructor. (3,3,0)",
+    "courses": [
+      "MAT 1313",
+      "MAT 1314"
+    ]
+  },
+  "CSC 2134": {
+    "text": "MAT 1313 or MAT 1314 and CSC 1213 , previous programming experience or permission of instructor. (4,3,2)",
+    "courses": [
+      "CSC 1213",
+      "MAT 1313",
+      "MAT 1314"
+    ]
+  },
+  "CSC 2144": {
+    "text": "CSC 2134 - Programming I with C++ . (4,3,2)",
+    "courses": [
+      "CSC 2134"
+    ]
+  },
+  "CSC 2844": {
+    "text": "CSC 2144 . (4,3,2)",
+    "courses": [
+      "CSC 2144"
+    ]
+  },
+  "CST 2123": {
+    "text": "CST 2113 . (3,2,2)",
+    "courses": [
+      "CST 2113"
+    ]
+  },
+  "CST 2223": {
+    "text": "CST 1213 . (3,2,2)",
+    "courses": [
+      "CST 1213"
+    ]
+  },
+  "CST 2913": {
+    "text": "Consent of Instructor. (3,0,6)",
+    "courses": []
+  },
+  "CUT 1513": {
+    "text": "CUT 1114 (3,1,4)",
+    "courses": [
+      "CUT 1114"
+    ]
+  },
+  "CUT 2314": {
+    "text": "CUT 1114 (4,2,4)",
+    "courses": [
+      "CUT 1114"
+    ]
+  },
+  "CUT 2424": {
+    "text": "CUT 1124 , CUT 1114 or permission of instructor. (4,2,4)",
+    "courses": [
+      "CUT 1114",
+      "CUT 1124"
+    ]
+  },
+  "DDT 1173": {
+    "text": "DDT 1163 , DDT 1313 , DDT 1323 (3,1,4)",
+    "courses": [
+      "DDT 1163",
+      "DDT 1313",
+      "DDT 1323"
+    ]
+  },
+  "DDT 1313": {
+    "text": "DDT 1163 (3,2,2)",
+    "courses": [
+      "DDT 1163"
+    ]
+  },
+  "DDT 1323": {
+    "text": "DDT 1313 (3,1,4)",
+    "courses": [
+      "DDT 1313"
+    ]
+  },
+  "DDT 1613": {
+    "text": "DDT 1313 , DDT 1323 , DDT 1513 . (3,1,4)",
+    "courses": [
+      "DDT 1313",
+      "DDT 1323",
+      "DDT 1513"
+    ]
+  },
+  "DDT 2153": {
+    "text": "DDT 1163 , DDT 1313 , DDT 1323 , DDT 1513 (3,1,4)",
+    "courses": [
+      "DDT 1163",
+      "DDT 1313",
+      "DDT 1323",
+      "DDT 1513"
+    ]
+  },
+  "DDT 2213": {
+    "text": "DDT 1163 , DDT 1313 , DDT 1323 , DDT 1513 (3,1,4)",
+    "courses": [
+      "DDT 1163",
+      "DDT 1313",
+      "DDT 1323",
+      "DDT 1513"
+    ]
+  },
+  "DDT 2373": {
+    "text": "DDT 1163 , DDT 1313 and DDT 1323 . (3,1,4)",
+    "courses": [
+      "DDT 1163",
+      "DDT 1313",
+      "DDT 1323"
+    ]
+  },
+  "DDT 2523": {
+    "text": "DDT 1313 , DDT 1323 (3,1,4)",
+    "courses": [
+      "DDT 1313",
+      "DDT 1323"
+    ]
+  },
+  "DDT 2563": {
+    "text": "DDT 1313 , DDT 1323 , DDT 1513 (3,2,2)",
+    "courses": [
+      "DDT 1313",
+      "DDT 1323",
+      "DDT 1513"
+    ]
+  },
+  "DDT 2623": {
+    "text": "DDT 1613 . (3,1,4)",
+    "courses": [
+      "DDT 1613"
+    ]
+  },
+  "DDT 2723": {
+    "text": "DDT 1313 , DDT 1323 , DDT 1513 (3,1,4)",
+    "courses": [
+      "DDT 1313",
+      "DDT 1323",
+      "DDT 1513"
+    ]
+  },
+  "DDT 2753": {
+    "text": "DDT 2373 (3,1,4)",
+    "courses": [
+      "DDT 2373"
+    ]
+  },
+  "DDT 2823": {
+    "text": "DDT 1513 , DDT 1613 (3,1,4)",
+    "courses": [
+      "DDT 1513",
+      "DDT 1613"
+    ]
+  },
+  "DDT 2913": {
+    "text": "Consent of instructor. (3,0,6)",
+    "courses": []
+  },
+  "EET 1123": {
+    "text": "EET 1114 . (3,2,2)",
+    "courses": [
+      "EET 1114"
+    ]
+  },
+  "EET 2913": {
+    "text": "Consent of instructor. (3,2,2)",
+    "courses": []
+  },
+  "EGR 2413": {
+    "text": "C or Higher in both MAT 1623 and PHY 2514 . (3,3,0)",
+    "courses": [
+      "MAT 1623",
+      "PHY 2514"
+    ]
+  },
+  "EGR 2433": {
+    "text": "EGR 2413 and credit or enrollment in MAT 2613 , Calculus III. (3,3,0)",
+    "courses": [
+      "EGR 2413",
+      "MAT 2613"
+    ]
+  },
+  "ELT 1113": {
+    "text": "ELT 1123 (3,2,2)",
+    "courses": [
+      "ELT 1123"
+    ]
+  },
+  "ELT 1123": {
+    "text": "ELT 1233 . (3,2,2)",
+    "courses": [
+      "ELT 1233"
+    ]
+  },
+  "ELT 1183": {
+    "text": "ELT 1113 (3,2,2)",
+    "courses": [
+      "ELT 1113"
+    ]
+  },
+  "ELT 1213": {
+    "text": "ELT 1143 . (3,2,2)",
+    "courses": [
+      "ELT 1143"
+    ]
+  },
+  "ELT 1253": {
+    "text": "ELT 1213 . (3,2,2)",
+    "courses": [
+      "ELT 1213"
+    ]
+  },
+  "ELT 1263": {
+    "text": "ELT 1253 . (3,2,2)",
+    "courses": [
+      "ELT 1253"
+    ]
+  },
+  "ELT 1413": {
+    "text": "ELT 1263 . (3,2,2)",
+    "courses": [
+      "ELT 1263"
+    ]
+  },
+  "ELT 2423": {
+    "text": "ELT 2113 . (3,1,4)",
+    "courses": [
+      "ELT 2113"
+    ]
+  },
+  "ELT 2613": {
+    "text": "ELT 2423 . (3,2,2)",
+    "courses": [
+      "ELT 2423"
+    ]
+  },
+  "ELT 2623": {
+    "text": "ELT 2613 - Programmable Logic Controllers and ELT 1413 - Motor Control Systems . (3,2,2)",
+    "courses": [
+      "ELT 1413",
+      "ELT 2613"
+    ]
+  },
+  "EMS 1222": {
+    "text": "Instructor approved (2,1,2)",
+    "courses": []
+  },
+  "EMS 1231": {
+    "text": "Instructor approved (1,1,0)",
+    "courses": []
+  },
+  "EMS 1262": {
+    "text": "Instructor approved (2,1,2)",
+    "courses": []
+  },
+  "EMS 1362": {
+    "text": "Instructor approved (2,1,2)",
+    "courses": []
+  },
+  "EMS 1373": {
+    "text": "Instructor approved (3,2,2)",
+    "courses": []
+  },
+  "EMS 1384": {
+    "text": "Instructor approved (4,3,2)",
+    "courses": []
+  },
+  "EMS 1533": {
+    "text": "Instructor approved (3,0,9)",
+    "courses": []
+  },
+  "EMS 1543": {
+    "text": "Instructor approved (3,2,2)",
+    "courses": []
+  },
+  "EMS 1552": {
+    "text": "Instructor approved (2,1,2)",
+    "courses": []
+  },
+  "EMS 1593": {
+    "text": "Instructor approved (3,3,0)",
+    "courses": []
+  },
+  "EMS 2764": {
+    "text": "Instructor approved (4,2,4)",
+    "courses": []
+  },
+  "EMS 2773": {
+    "text": "Instructor approved (3,2,2)",
+    "courses": []
+  },
+  "EMS 2784": {
+    "text": "Instructor approved (4,0,12)",
+    "courses": []
+  },
+  "EMS 2863": {
+    "text": "Instructor approved (3,2,2)",
+    "courses": []
+  },
+  "EMS 2873": {
+    "text": "Instructor approved (3,0,9)",
+    "courses": []
+  },
+  "EMS 2883": {
+    "text": "Instructor approved (3,1,4)",
+    "courses": []
+  },
+  "EMS 2893": {
+    "text": "Instructor approved (3,0,9)",
+    "courses": []
+  },
+  "ENG 1113": {
+    "text": "ACT English 17 or higher or Equivalent ACCUPLACER score in writing. (3,3,0)",
+    "courses": []
+  },
+  "ENG 1123": {
+    "text": "ENG 1113 (3,3,0)",
+    "courses": [
+      "ENG 1113"
+    ]
+  },
+  "ENG 2133": {
+    "text": "ENG 1123H or ENG 1123 . (3,3,0)",
+    "courses": [
+      "ENG 1123",
+      "ENG 1123H"
+    ]
+  },
+  "ENG 2143": {
+    "text": "ENG 2133 (3,3,0)",
+    "courses": [
+      "ENG 2133"
+    ]
+  },
+  "ENG 2223": {
+    "text": "ENG 1123 . (3,3,0)",
+    "courses": [
+      "ENG 1123"
+    ]
+  },
+  "ENG 2233": {
+    "text": "ENG 1123H or ENG 1123 . (3,3,0)",
+    "courses": [
+      "ENG 1123",
+      "ENG 1123H"
+    ]
+  },
+  "ENG 2323": {
+    "text": "ENG 1123 or ENG 1123H . (3,3,0)",
+    "courses": [
+      "ENG 1123",
+      "ENG 1123H"
+    ]
+  },
+  "ENG 2333": {
+    "text": "ENG 1123H or ENG 1123 . (3,3,0)",
+    "courses": [
+      "ENG 1123",
+      "ENG 1123H"
+    ]
+  },
+  "ENG 2333H": {
+    "text": "ENG 1123H . (3,3,0)",
+    "courses": [
+      "ENG 1123H"
+    ]
+  },
+  "ENG 2423": {
+    "text": "ENG 1123H or ENG 1123 . (3,3,0)",
+    "courses": [
+      "ENG 1123",
+      "ENG 1123H"
+    ]
+  },
+  "ENG 2423H": {
+    "text": "ENG 1123 or ENG 1123H. (3,3,0)",
+    "courses": [
+      "ENG 1123",
+      "ENG 1123H"
+    ]
+  },
+  "ENG 2433": {
+    "text": "ENG 1123H or ENG 1123 . (3,3,0)",
+    "courses": [
+      "ENG 1123",
+      "ENG 1123H"
+    ]
+  },
+  "ENG 2513": {
+    "text": "ENG 1113 and ENG 1123 . (3,3,0)",
+    "courses": [
+      "ENG 1113",
+      "ENG 1123"
+    ]
+  },
+  "ENG 2613": {
+    "text": "ENG 1113 or ENG 1114 . (3,3,0)",
+    "courses": [
+      "ENG 1113",
+      "ENG 1114"
+    ]
+  },
+  "ENT 2353": {
+    "text": "ENT 1313 (3,2,2)",
+    "courses": [
+      "ENT 1313"
+    ]
+  },
+  "EPY 2513": {
+    "text": "PSY 1513 . (3,3,0)",
+    "courses": [
+      "PSY 1513"
+    ]
+  },
+  "EPY 2533": {
+    "text": "PSY 1513 . (3,3,0)",
+    "courses": [
+      "PSY 1513"
+    ]
+  },
+  "FCS 1253": {
+    "text": "BIO 1134 , BIO 2514 , and BIO 2524 recommended. (3,3,0)",
+    "courses": [
+      "BIO 1134",
+      "BIO 2514",
+      "BIO 2524"
+    ]
+  },
+  "HIT 1114": {
+    "text": "Admission to the Health Information Technology: Billing and Coding Program",
+    "courses": []
+  },
+  "HIT 1322": {
+    "text": "HIT 1114 (2,2,0)",
+    "courses": [
+      "HIT 1114"
+    ]
+  },
+  "HIT 2615": {
+    "text": "HIT 1214 , HIT 1114 , and BIO 2524 . (5,3,4)",
+    "courses": [
+      "BIO 2524",
+      "HIT 1114",
+      "HIT 1214"
+    ]
+  },
+  "HIT 2626": {
+    "text": "HIT 2615 . (6,4,4)",
+    "courses": [
+      "HIT 2615"
+    ]
+  },
+  "HIT 2633": {
+    "text": "HIT 2615 . (3,3,0)",
+    "courses": [
+      "HIT 2615"
+    ]
+  },
+  "HIT 2713": {
+    "text": "HIT 2133 . (3,3,0)",
+    "courses": [
+      "HIT 2133"
+    ]
+  },
+  "HPR 2222": {
+    "text": "Completed American Red Cross swimmer level course or have equivalent skills. (2,0,2)",
+    "courses": []
+  },
+  "IDT 1234": {
+    "text": "IDT 1224 . (4,3,2)",
+    "courses": [
+      "IDT 1224"
+    ]
+  },
+  "IDT 2243": {
+    "text": "IDT 1224 and IDT 1234 . (3,2,2)",
+    "courses": [
+      "IDT 1224",
+      "IDT 1234"
+    ]
+  },
+  "IDT 2263": {
+    "text": "IDT 1224 and IDT 1253 . (3,3,0)",
+    "courses": [
+      "IDT 1224",
+      "IDT 1253"
+    ]
+  },
+  "IDT 2413": {
+    "text": "Approval of Instructor. (3,150 clock hours) (3,0,9)",
+    "courses": []
+  },
+  "IET 1113": {
+    "text": "IET 1214 , EET 1114 . (3,2,2)",
+    "courses": [
+      "EET 1114",
+      "IET 1214"
+    ]
+  },
+  "IET 1214": {
+    "text": "IET 1113 , EET 1114 . (4,2,4)",
+    "courses": [
+      "EET 1114",
+      "IET 1113"
+    ]
+  },
+  "IET 1313": {
+    "text": "IET 1113 , IET 1214 , EET 1114 (3,2,2)",
+    "courses": [
+      "EET 1114",
+      "IET 1113",
+      "IET 1214"
+    ]
+  },
+  "IET 2113": {
+    "text": "IET 1313 (3,2,2)",
+    "courses": [
+      "IET 1313"
+    ]
+  },
+  "IET 2413": {
+    "text": "IET 2113 (3,2,2)",
+    "courses": [
+      "IET 2113"
+    ]
+  },
+  "IST 1224": {
+    "text": "IST 1134 . (4,2,4)",
+    "courses": [
+      "IST 1134"
+    ]
+  },
+  "IST 1414": {
+    "text": "IST 1154 or IST 1433 (4,2,4)",
+    "courses": [
+      "IST 1154",
+      "IST 1433"
+    ]
+  },
+  "IST 1534": {
+    "text": "IST 1513 . (4,3,2)",
+    "courses": [
+      "IST 1513"
+    ]
+  },
+  "IST 1624": {
+    "text": "IST 1134 (4,2,4)",
+    "courses": [
+      "IST 1134"
+    ]
+  },
+  "IST 1633": {
+    "text": "IST 1134 and IST 1624 . (3,2,2)",
+    "courses": [
+      "IST 1134",
+      "IST 1624"
+    ]
+  },
+  "IST 1934": {
+    "text": "IST 1914 (4,2,4)",
+    "courses": [
+      "IST 1914"
+    ]
+  },
+  "IST 2224": {
+    "text": "IST 1224 (4,2,4)",
+    "courses": [
+      "IST 1224"
+    ]
+  },
+  "IST 2263": {
+    "text": "IST 1253 (3,1,4)",
+    "courses": [
+      "IST 1253"
+    ]
+  },
+  "IST 2283": {
+    "text": "IST 2563 (3,2,2)",
+    "courses": [
+      "IST 2563"
+    ]
+  },
+  "IST 2324": {
+    "text": "IST 1154 or IST 1433 (4,2,4)",
+    "courses": [
+      "IST 1154",
+      "IST 1433"
+    ]
+  },
+  "IST 2334": {
+    "text": "IST 1313 . (4,2,4)",
+    "courses": [
+      "IST 1313"
+    ]
+  },
+  "IST 2524": {
+    "text": "IST 1124 (4,2,4)",
+    "courses": [
+      "IST 1124"
+    ]
+  },
+  "IST 2563": {
+    "text": "IST 2293 (3,2,2)",
+    "courses": [
+      "IST 2293"
+    ]
+  },
+  "IST 2594": {
+    "text": "IST 2584 (4,2,4)",
+    "courses": [
+      "IST 2584"
+    ]
+  },
+  "IST 2653": {
+    "text": "IST 2563 (3,2,2)",
+    "courses": [
+      "IST 2563"
+    ]
+  },
+  "IST 2814": {
+    "text": "IST 1433 or IST 1154 and IST 1723 . (4,2,4)",
+    "courses": [
+      "IST 1154",
+      "IST 1433",
+      "IST 1723"
+    ]
+  },
+  "LVT 1211": {
+    "text": "C or better in LVT 1114 (1,1,0)",
+    "courses": [
+      "LVT 1114"
+    ]
+  },
+  "LVT 1223": {
+    "text": "C or better in LVT 1123 (3,1,4)",
+    "courses": [
+      "LVT 1123"
+    ]
+  },
+  "LVT 1253": {
+    "text": "C or better in LVT 1114 and LVT 1211 (3,2,2)",
+    "courses": [
+      "LVT 1114",
+      "LVT 1211"
+    ]
+  },
+  "LVT 2332": {
+    "text": "C or better in LVT 2321 (2,1,2)",
+    "courses": [
+      "LVT 2321"
+    ]
+  },
+  "LVT 2343": {
+    "text": "C or better in LVT 1114 , LVT 1211 , and LVT 1253 . (3,1,4)",
+    "courses": [
+      "LVT 1114",
+      "LVT 1211",
+      "LVT 1253"
+    ]
+  },
+  "LVT 2353": {
+    "text": "C or better in LVT 1123 , LVT 1223 , LVT 1253 , and LVT 2343 . (3,1,4)",
+    "courses": [
+      "LVT 1123",
+      "LVT 1223",
+      "LVT 1253",
+      "LVT 2343"
+    ]
+  },
+  "LVT 2363": {
+    "text": "C or better in LVT 1114 and LVT 1211 . (3,2,2)",
+    "courses": [
+      "LVT 1114",
+      "LVT 1211"
+    ]
+  },
+  "LVT 2373": {
+    "text": "C or better in LVT 1133 . (3,2,2)",
+    "courses": [
+      "LVT 1133"
+    ]
+  },
+  "LVT 2383": {
+    "text": "C or better in LVT 1133 and LVT 2373 . (3,2,2)",
+    "courses": [
+      "LVT 1133",
+      "LVT 2373"
+    ]
+  },
+  "LVT 2393": {
+    "text": "C or better in LVT 1114 and LVT 1133 . (3,1,4)",
+    "courses": [
+      "LVT 1114",
+      "LVT 1133"
+    ]
+  },
+  "MAR 1123": {
+    "text": "MAR 1113 . (3,2,2)",
+    "courses": [
+      "MAR 1113"
+    ]
+  },
+  "MAT 1313": {
+    "text": "ACT Math 19 or higher or equivalent ACCUPLACER score. (3,3,0)",
+    "courses": []
+  },
+  "MAT 1323": {
+    "text": "C or higher in two years of high school algebra or ACT Math minimum score of 21 or C or higher in MAT 1313 /1314 . (3,3,0)",
+    "courses": [
+      "MAT 1313",
+      "MAT 1314"
+    ]
+  },
+  "MAT 1343": {
+    "text": "C or higher in two years of high school algebra or ACT Math miniumum score of 21 or C or higher in MAT 1323 . (3,3,0)",
+    "courses": [
+      "MAT 1323"
+    ]
+  },
+  "MAT 1513": {
+    "text": "MAT 1313 /1314 . (3,3,0)",
+    "courses": [
+      "MAT 1313",
+      "MAT 1314"
+    ]
+  },
+  "MAT 1613": {
+    "text": "C or higher in MAT 1313 /1314 and MAT 1323 or C or higher in MAT 1343 or high school equivalents and ACT Math minimum of 25. (3,3,0)",
+    "courses": [
+      "MAT 1313",
+      "MAT 1314",
+      "MAT 1323",
+      "MAT 1343"
+    ]
+  },
+  "MAT 1623": {
+    "text": "C or higher in MAT 1613 (3,3,0)",
+    "courses": [
+      "MAT 1613"
+    ]
+  },
+  "MAT 1733": {
+    "text": "MAT 1313 or MAT 1314 . (3,3,0)",
+    "courses": [
+      "MAT 1313",
+      "MAT 1314"
+    ]
+  },
+  "MAT 2113": {
+    "text": "MAT 1623 (3,3,0)",
+    "courses": [
+      "MAT 1623"
+    ]
+  },
+  "MAT 2323": {
+    "text": "C or higher in MAT 1313 /1314 or MAT 1753 (3,3,0)",
+    "courses": [
+      "MAT 1313",
+      "MAT 1314",
+      "MAT 1753"
+    ]
+  },
+  "MAT 2613": {
+    "text": "C or higher in MAT 1623 (3,3,0)",
+    "courses": [
+      "MAT 1623"
+    ]
+  },
+  "MAT 2623": {
+    "text": "C or higher in MAT 2613 . (3,3,0)",
+    "courses": [
+      "MAT 2613"
+    ]
+  },
+  "MAT 2913": {
+    "text": "MAT 2623 or enrollment in MAT 2623 . (3,3,0)",
+    "courses": [
+      "MAT 2623"
+    ]
+  },
+  "MET 1313": {
+    "text": "MET 1113 , MET 1513 , and CPR-Health Care Provider certification",
+    "courses": [
+      "MET 1113",
+      "MET 1513"
+    ]
+  },
+  "MFL 1123": {
+    "text": "MFL 1113 or 1 year of previous language study. One laboratory hour per week. (3,3,0)",
+    "courses": [
+      "MFL 1113"
+    ]
+  },
+  "MFL 1223": {
+    "text": "MFL 1213 or 1 year of previous language study. One laboratory hour per week. (3,3,0)",
+    "courses": [
+      "MFL 1213"
+    ]
+  },
+  "MFL 1423": {
+    "text": "MFL 1413 (3,3,0)",
+    "courses": [
+      "MFL 1413"
+    ]
+  },
+  "MFL 2113": {
+    "text": "MFL 1113 and MFL 1123 or two years of high school French. One laboratory hour per week. (3,3,0)",
+    "courses": [
+      "MFL 1113",
+      "MFL 1123"
+    ]
+  },
+  "MFL 2123": {
+    "text": "MFL 2113 . One laboratory hour per week. (3,3,0)",
+    "courses": [
+      "MFL 2113"
+    ]
+  },
+  "MFL 2213": {
+    "text": "MFL 1213 and MFL 1223 or two years high school Spanish. One laboratory hour per week. (3,3,0)",
+    "courses": [
+      "MFL 1213",
+      "MFL 1223"
+    ]
+  },
+  "MFL 2223": {
+    "text": "MFL 2213 . One laboratory hour per week. (3,3,0)",
+    "courses": [
+      "MFL 2213"
+    ]
+  },
+  "MLT 1314": {
+    "text": "MLT 1212 , 2612, BIO 2514 , CHE 1214 . (4,3,2)",
+    "courses": [
+      "BIO 2514",
+      "CHE 1214",
+      "MLT 1212"
+    ]
+  },
+  "MLT 1324": {
+    "text": "MLT 1314 , MLT 1413 ; (4,2,4)",
+    "courses": [
+      "MLT 1314",
+      "MLT 1413"
+    ]
+  },
+  "MLT 1413": {
+    "text": "MLT 1212 , 2612, BIO 2514 , CHE 1214 . (3,2,2)",
+    "courses": [
+      "BIO 2514",
+      "CHE 1214",
+      "MLT 1212"
+    ]
+  },
+  "MLT 1515": {
+    "text": "MLT 1413 . (5,3,4)",
+    "courses": [
+      "MLT 1413"
+    ]
+  },
+  "MLT 2424": {
+    "text": "MLT 1314 , MLT 1413 (4,2,4)",
+    "courses": [
+      "MLT 1314",
+      "MLT 1413"
+    ]
+  },
+  "MLT 2614": {
+    "text": "MLT 1314 , MLT 1413 ; BIO 2924 . (4,2,4)",
+    "courses": [
+      "BIO 2924",
+      "MLT 1314",
+      "MLT 1413"
+    ]
+  },
+  "MLT 2711": {
+    "text": "Completion of all didactic Medical Laboratory Technology courses. (1,0,2)",
+    "courses": []
+  },
+  "MLT 2943": {
+    "text": "MLT 1113 , MLT 1212 , MLT 1413 (3,0,9)",
+    "courses": [
+      "MLT 1113",
+      "MLT 1212",
+      "MLT 1413"
+    ]
+  },
+  "MLT 2954": {
+    "text": "MLT 1324 , MLT 2424 , MLT 2614 . (4,0,12)",
+    "courses": [
+      "MLT 1324",
+      "MLT 2424",
+      "MLT 2614"
+    ]
+  },
+  "MLT 2964": {
+    "text": "MLT 1324 , MLT 2424 , MLT 2614 . (4,0,12)",
+    "courses": [
+      "MLT 1324",
+      "MLT 2424",
+      "MLT 2614"
+    ]
+  },
+  "MLT 2974": {
+    "text": "MLT 1324 , MLT 2424 , MLT 2614 . (4,0,12)",
+    "courses": [
+      "MLT 1324",
+      "MLT 2424",
+      "MLT 2614"
+    ]
+  },
+  "MMT 1123": {
+    "text": "MMT 1113 . (3,2,2)",
+    "courses": [
+      "MMT 1113"
+    ]
+  },
+  "MST 1212": {
+    "text": "MST 1412 (2,1,2)",
+    "courses": [
+      "MST 1412"
+    ]
+  },
+  "MST 1243": {
+    "text": "MST 1222 (3,2,2)",
+    "courses": [
+      "MST 1222"
+    ]
+  },
+  "MST 1263": {
+    "text": "MST 1232 (3,2,2)",
+    "courses": [
+      "MST 1232"
+    ]
+  },
+  "MST 1412": {
+    "text": "MST 1313 (2,1,2)",
+    "courses": [
+      "MST 1313"
+    ]
+  },
+  "MST 1422": {
+    "text": "MST 1412 (2,1,2)",
+    "courses": [
+      "MST 1412"
+    ]
+  },
+  "MST 2513": {
+    "text": "MST 1243 (3,2,2)",
+    "courses": [
+      "MST 1243"
+    ]
+  },
+  "MST 2523": {
+    "text": "MST 1263 (3,2,2)",
+    "courses": [
+      "MST 1263"
+    ]
+  },
+  "MST 2532": {
+    "text": "MST 1251 (2,1,2)",
+    "courses": [
+      "MST 1251"
+    ]
+  },
+  "MST 2542": {
+    "text": "MST 1263 (2,1,2)",
+    "courses": [
+      "MST 1263"
+    ]
+  },
+  "MST 2552": {
+    "text": "MST 2725 (2,1,2)",
+    "courses": [
+      "MST 2725"
+    ]
+  },
+  "MST 2725": {
+    "text": "MST 2714 (5,2,6)",
+    "courses": [
+      "MST 2714"
+    ]
+  },
+  "MUA 1721": {
+    "text": "MUA 1711 (1,1,0)",
+    "courses": [
+      "MUA 1711"
+    ]
+  },
+  "MUA 1782": {
+    "text": "MUA 1772 (2,1,0)",
+    "courses": [
+      "MUA 1772"
+    ]
+  },
+  "MUA 2711": {
+    "text": "MUA 1721 (1,1,0)",
+    "courses": [
+      "MUA 1721"
+    ]
+  },
+  "MUA 2721": {
+    "text": "MUA 2711 (1,1,0)",
+    "courses": [
+      "MUA 2711"
+    ]
+  },
+  "MUA 2772": {
+    "text": "MUA 1782 (2,1,0)",
+    "courses": [
+      "MUA 1782"
+    ]
+  },
+  "MUA 2782": {
+    "text": "MUA 2772 (2,1,0)",
+    "courses": [
+      "MUA 2772"
+    ]
+  },
+  "MUO 1221": {
+    "text": "MUO 1211 (1,1,0)",
+    "courses": [
+      "MUO 1211"
+    ]
+  },
+  "MUO 2211": {
+    "text": "MUO 1221 (1,1,0)",
+    "courses": [
+      "MUO 1221"
+    ]
+  },
+  "MUO 2221": {
+    "text": "MUO 2211 (1,1,0)",
+    "courses": [
+      "MUO 2211"
+    ]
+  },
+  "MUS 1224": {
+    "text": "MUS 1214 (4,3,2)",
+    "courses": [
+      "MUS 1214"
+    ]
+  }
+}
