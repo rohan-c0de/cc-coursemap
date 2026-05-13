@@ -104,6 +104,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const title = `${subject} Courses at ${institution.name} — ${termLabel(resolvedTerm)} Schedule`;
   const description = `Browse ${filtered.length} ${subject} sections (${uniqueCourses} courses) at ${institution.name} for ${termLabel(resolvedTerm)}.${onlineCount > 0 ? ` ${onlineCount} available online.` : ""} View schedules, instructors, and prerequisites.`;
 
+  const canonical = `/${state}/college/${id}/courses/${rawPrefix}`;
   return {
     title,
     description,
@@ -114,8 +115,18 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       `${subject.toLowerCase()} community college ${config.name}`,
       ...config.branding.metaKeywords,
     ],
-    alternates: {
-      canonical: `/${state}/college/${id}/courses/${rawPrefix}`,
+    alternates: { canonical },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      type: "website",
+      siteName: config.branding.siteName,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
     },
   };
 }

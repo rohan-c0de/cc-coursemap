@@ -315,7 +315,7 @@ export default async function TransferHubPage(props: PageProps) {
       {/* Browse by subject */}
       {subjects.length > 0 && (
         <section className="mb-8">
-          <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+          <h2 id="subjects" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
             Browse by Subject
           </h2>
           <div className="flex flex-wrap gap-2">
@@ -337,7 +337,7 @@ export default async function TransferHubPage(props: PageProps) {
 
       {/* Filterable course table (client) */}
       <section className="mb-8">
-        <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+        <h2 id="courses" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
           All Transferable Courses
         </h2>
         <TransferHubClient
@@ -366,7 +366,7 @@ export default async function TransferHubPage(props: PageProps) {
       {/* Other universities in this state */}
       {universities.length > 1 && (
         <section className="mt-10">
-          <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+          <h2 id="other-universities" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
             Transfer to Other Universities from {config.name} CCs
           </h2>
           <div className="flex flex-wrap gap-2">
@@ -394,7 +394,7 @@ export default async function TransferHubPage(props: PageProps) {
       {/* Browse all community colleges in the state */}
       {institutions.length > 0 && (
         <section className="mt-10">
-          <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+          <h2 id="colleges" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
             Community Colleges in {config.name}
           </h2>
           <div className="flex flex-wrap gap-2">

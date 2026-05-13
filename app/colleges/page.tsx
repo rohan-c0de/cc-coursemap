@@ -22,6 +22,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/colleges",
   },
+  openGraph: {
+    title:
+      "All Community Colleges — Browse Every College Across All States | Community College Path",
+    description:
+      "Browse every community college on Community College Path. Find courses, check transfer equivalencies, and compare colleges across states — all in one place.",
+    url: "/colleges",
+    type: "website",
+    siteName: "Community College Path",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "All Community Colleges — Browse Every College Across All States | Community College Path",
+    description:
+      "Browse every community college on Community College Path. Find courses, check transfer equivalencies, and compare colleges across states — all in one place.",
+  },
 };
 
 export default async function AllCollegesPage() {

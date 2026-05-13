@@ -26,6 +26,10 @@ import { loadProgramAcrossColleges, checkCourseAvailability } from "@/lib/progra
 import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProgramRequirements from "@/components/ProgramRequirements";
+import {
+  getProgramLastUpdated,
+  formatLastUpdated,
+} from "@/lib/data-freshness";
 
 export const revalidate = 604800; // 7 days
 
@@ -128,6 +132,7 @@ export default async function ProgramPage(props: PageProps) {
   }
 
   const url = siteUrl();
+  const lastUpdated = getProgramLastUpdated(state);
 
   const itemListLd = {
     "@context": "https://schema.org",
@@ -140,6 +145,7 @@ export default async function ProgramPage(props: PageProps) {
     // Connect to the site-wide WebSite/Organization graph from the root
     // layout so Google sees this program list as part of the site.
     isPartOf: { "@id": `${url}/#website` },
+    ...(lastUpdated && { dateModified: lastUpdated.toISOString() }),
     itemListElement: data.colleges.slice(0, 25).map((c, i) => ({
       "@type": "ListItem",
       position: i + 1,
@@ -197,11 +203,14 @@ export default async function ProgramPage(props: PageProps) {
             {data.totalColleges === 1 ? "college" : "colleges"} &middot;{" "}
             {data.totalSections} sections &middot; {data.totalUniqueCourses}{" "}
             unique courses &middot; {termLabel(term)}
+            {lastUpdated && (
+              <> &middot; {formatLastUpdated(lastUpdated)}</>
+            )}
           </p>
         </header>
 
         <section className="mb-10">
-          <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
+          <h2 id="colleges" className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
             Colleges offering {program.name}
           </h2>
           <div className="rounded-xl border border-gray-200 dark:border-slate-700 overflow-hidden bg-white dark:bg-slate-900">
@@ -252,7 +261,7 @@ export default async function ProgramPage(props: PageProps) {
             Computed inline from data.flatSections — no extra I/O. */}
         {programProfile && programProfile.totalSections > 0 && (
           <section className="mb-10 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6">
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+            <h2 id="availability" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
               {program.name} Availability Snapshot
             </h2>
             <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
@@ -396,7 +405,7 @@ export default async function ProgramPage(props: PageProps) {
 
         {data.sampleCourses.length > 0 && (
           <section className="mb-10">
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
+            <h2 id="common-courses" className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
               Common {program.name} courses
             </h2>
             <ul className="grid sm:grid-cols-2 gap-2">
@@ -424,7 +433,7 @@ export default async function ProgramPage(props: PageProps) {
         )}
 
         <section className="mb-10">
-          <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
+          <h2 id="other-programs" className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
             Other programs in {config.name}
           </h2>
           <div className="flex flex-wrap gap-2">

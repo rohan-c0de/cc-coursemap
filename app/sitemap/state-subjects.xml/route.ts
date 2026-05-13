@@ -7,6 +7,7 @@ import {
   xmlResponse,
   type SitemapEntry,
 } from "@/lib/sitemap-xml";
+import { getSubjectLastUpdated } from "@/lib/data-freshness";
 
 export const revalidate = 86400;
 
@@ -20,6 +21,7 @@ export async function GET() {
         currentTerm,
         state.slug
       );
+      const lastModified = getSubjectLastUpdated(state.slug) ?? undefined;
       const entries: SitemapEntry[] = [];
       for (const [prefix, count] of subjectSectionCounts) {
         if (count >= 5) {
@@ -27,7 +29,7 @@ export async function GET() {
             url: `${url}/${state.slug}/subject/${prefix.toLowerCase()}`,
             changeFrequency: "weekly",
             priority: 0.6,
-            lastModified: new Date(),
+            lastModified,
           });
         }
       }

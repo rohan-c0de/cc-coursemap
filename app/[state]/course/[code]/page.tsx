@@ -14,6 +14,10 @@ import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
 import RelatedBlogPosts from "@/components/RelatedBlogPosts";
 import { getBlogRecommendations } from "@/lib/blog-recommendations";
+import {
+  getCourseLastUpdated,
+  formatLastUpdated,
+} from "@/lib/data-freshness";
 
 export const revalidate = 604800; // 7 days — pSEO content rarely changes
 
@@ -335,6 +339,8 @@ export default async function CoursePage(props: PageProps) {
   const totalSeats = sections.reduce((sum, s) => sum + (s.seats_open ?? 0), 0);
   const sectionsWithSeats = sections.filter((s) => s.seats_open !== null && s.seats_open > 0).length;
 
+  const lastUpdated = getCourseLastUpdated(state);
+
   // JSON-LD
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
   const jsonLd = {
@@ -354,6 +360,7 @@ export default async function CoursePage(props: PageProps) {
     educationalLevel: "Community College",
     isAccessibleForFree: false,
     inLanguage: "en",
+    ...(lastUpdated && { dateModified: lastUpdated.toISOString() }),
     hasCourseInstance: colleges.slice(0, 10).map((c) => ({
       "@type": "CourseInstance",
       name: `${prefix} ${number} at ${c.name}`,
@@ -458,6 +465,11 @@ export default async function CoursePage(props: PageProps) {
                 {totalSeats} {totalSeats === 1 ? "seat" : "seats"} open
               </span>
             )}
+            {lastUpdated && (
+              <span className="text-gray-400 dark:text-slate-500">
+                {formatLastUpdated(lastUpdated)}
+              </span>
+            )}
           </div>
         </div>
 
@@ -510,7 +522,7 @@ export default async function CoursePage(props: PageProps) {
         {/* Transfer equivalencies */}
         {transferInfo.length > 0 && (
           <section className="mb-8">
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+            <h2 id="transfer" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
               Transfer Equivalencies
             </h2>
             <div className="rounded-xl border border-gray-200 dark:border-slate-700 overflow-hidden">
@@ -579,7 +591,7 @@ export default async function CoursePage(props: PageProps) {
             offered without having to scroll through every section. */}
         {availabilityProfile && availabilityProfile.totalSections > 0 && (
           <section className="mb-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-6">
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+            <h2 id="availability" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
               Availability Profile
             </h2>
             <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
@@ -719,7 +731,7 @@ export default async function CoursePage(props: PageProps) {
 
         {/* Availability by college */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+          <h2 id="colleges" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
             Available at {colleges.length} {colleges.length === 1 ? "college" : "colleges"}
           </h2>
           <div className="space-y-3">

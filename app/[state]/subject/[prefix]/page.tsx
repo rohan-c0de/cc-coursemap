@@ -27,6 +27,10 @@ import TrackView from "@/components/TrackView";
 import RelatedBlogPosts from "@/components/RelatedBlogPosts";
 import { getBlogRecommendations } from "@/lib/blog-recommendations";
 import type { CourseSection } from "@/lib/types";
+import {
+  getSubjectLastUpdated,
+  formatLastUpdated,
+} from "@/lib/data-freshness";
 
 export const revalidate = 604800; // 7 days — pSEO content rarely changes
 
@@ -202,6 +206,8 @@ export default async function StateSubjectPage(props: PageProps) {
     (s) => s !== prefix
   );
 
+  const lastUpdated = getSubjectLastUpdated(state);
+
   // Structured data — ItemList of courses
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
@@ -216,6 +222,7 @@ export default async function StateSubjectPage(props: PageProps) {
     // Connect to the site-wide WebSite/Organization graph from the root
     // layout so Google sees this subject list as part of the site.
     isPartOf: { "@id": `${siteUrl}/#website` },
+    ...(lastUpdated && { dateModified: lastUpdated.toISOString() }),
     itemListElement: courses.slice(0, 25).map((c, i) => ({
       "@type": "ListItem",
       position: i + 1,
@@ -321,6 +328,9 @@ export default async function StateSubjectPage(props: PageProps) {
             {sections.length} sections &middot; {courses.length} courses
             &middot; {collegeCount} {collegeCount === 1 ? "college" : "colleges"}{" "}
             &middot; {term}
+            {lastUpdated && (
+              <> &middot; {formatLastUpdated(lastUpdated)}</>
+            )}
           </p>
         </div>
 
@@ -352,7 +362,7 @@ export default async function StateSubjectPage(props: PageProps) {
             Computed inline from sections — no extra I/O. */}
         {subjectProfile && subjectProfile.totalSections > 0 && (
           <section className="mb-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6">
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+            <h2 id="availability" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
               {subject} Availability Snapshot
             </h2>
             <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
@@ -452,7 +462,7 @@ export default async function StateSubjectPage(props: PageProps) {
 
         {/* Course table */}
         <section className="mb-8">
-          <h2 className="sr-only">All {subject} courses</h2>
+          <h2 id="courses" className="sr-only">All {subject} courses</h2>
           <div className="rounded-xl border border-gray-200 dark:border-slate-700 overflow-hidden bg-white dark:bg-slate-900">
             <table className="w-full text-left text-sm">
               <thead className="bg-gray-50 dark:bg-slate-800 text-xs uppercase tracking-wider text-gray-500 dark:text-slate-400">
@@ -538,7 +548,7 @@ export default async function StateSubjectPage(props: PageProps) {
         {/* Browse other subjects */}
         {allSubjects.length > 0 && (
           <section className="mt-10">
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+            <h2 id="other-subjects" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
               Browse Other Subjects
             </h2>
             <div className="flex flex-wrap gap-2">

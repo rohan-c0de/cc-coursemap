@@ -1,10 +1,15 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
 import CourseTable from "@/components/CourseTableDynamic";
-import AuditInstructions from "@/components/AuditInstructions";
 import PrintInstructions from "@/components/PrintInstructions";
 import ScheduleBuilder from "@/components/ScheduleBuilder";
+
+const AuditInstructions = dynamic(
+  () => import("@/components/AuditInstructions"),
+  { ssr: false }
+);
 import type { Institution, CourseSection } from "@/lib/types";
 
 type TransferLookup = Record<
