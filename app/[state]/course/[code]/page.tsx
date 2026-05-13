@@ -522,7 +522,7 @@ export default async function CoursePage(props: PageProps) {
         {/* Transfer equivalencies */}
         {transferInfo.length > 0 && (
           <section className="mb-8">
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+            <h2 id="transfer" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
               Transfer Equivalencies
             </h2>
             <div className="rounded-xl border border-gray-200 dark:border-slate-700 overflow-hidden">
@@ -591,7 +591,7 @@ export default async function CoursePage(props: PageProps) {
             offered without having to scroll through every section. */}
         {availabilityProfile && availabilityProfile.totalSections > 0 && (
           <section className="mb-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-6">
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+            <h2 id="availability" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
               Availability Profile
             </h2>
             <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
@@ -731,7 +731,7 @@ export default async function CoursePage(props: PageProps) {
 
         {/* Availability by college */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+          <h2 id="colleges" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
             Available at {colleges.length} {colleges.length === 1 ? "college" : "colleges"}
           </h2>
           <div className="space-y-3">

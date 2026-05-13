@@ -316,7 +316,7 @@ export default async function CollegeDetailPage(props: PageProps) {
       />
 
       {/* Audit Policy — collapsed by default, below courses */}
-      <section className="mt-8">
+      <section id="audit-policy" className="mt-8">
         <details className="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-lg">
           <summary className="px-6 py-4 cursor-pointer select-none flex items-center justify-between text-lg font-semibold text-gray-900 dark:text-slate-100 hover:bg-gray-50 dark:hover:bg-slate-800 transition-colors rounded-lg">
             <span>Audit Policy</span>
@@ -458,7 +458,7 @@ export default async function CollegeDetailPage(props: PageProps) {
           require running the client-side course catalog component. */}
       {offeringProfile && offeringProfile.total > 0 && (
         <section className="mt-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-6">
-          <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+          <h2 id="offering-profile" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
             Course Offering Profile
           </h2>
           <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
@@ -588,7 +588,7 @@ export default async function CollegeDetailPage(props: PageProps) {
         if (others.length === 0) return null;
         return (
           <section className="mt-8">
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+            <h2 id="other-colleges" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
               Other {config.systemName} Colleges
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">

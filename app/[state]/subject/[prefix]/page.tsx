@@ -362,7 +362,7 @@ export default async function StateSubjectPage(props: PageProps) {
             Computed inline from sections — no extra I/O. */}
         {subjectProfile && subjectProfile.totalSections > 0 && (
           <section className="mb-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6">
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+            <h2 id="availability" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
               {subject} Availability Snapshot
             </h2>
             <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
@@ -462,7 +462,7 @@ export default async function StateSubjectPage(props: PageProps) {
 
         {/* Course table */}
         <section className="mb-8">
-          <h2 className="sr-only">All {subject} courses</h2>
+          <h2 id="courses" className="sr-only">All {subject} courses</h2>
           <div className="rounded-xl border border-gray-200 dark:border-slate-700 overflow-hidden bg-white dark:bg-slate-900">
             <table className="w-full text-left text-sm">
               <thead className="bg-gray-50 dark:bg-slate-800 text-xs uppercase tracking-wider text-gray-500 dark:text-slate-400">
@@ -548,7 +548,7 @@ export default async function StateSubjectPage(props: PageProps) {
         {/* Browse other subjects */}
         {allSubjects.length > 0 && (
           <section className="mt-10">
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+            <h2 id="other-subjects" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
               Browse Other Subjects
             </h2>
             <div className="flex flex-wrap gap-2">
