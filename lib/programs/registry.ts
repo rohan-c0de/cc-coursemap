@@ -31,6 +31,19 @@ export type ProgramDef = {
    * the dot (e.g. "5138"). We store the API form to make lookups direct.
    */
   cips: string[];
+  /**
+   * BLS Standard Occupational Classification (SOC) code — the primary
+   * career outcome for this program, used to pull state-level wage and
+   * employment data from the BLS OEWS API. 6-digit form without the
+   * hyphen (e.g. "291141" for Registered Nurses, not "29-1141").
+   *
+   * Pick the single most-representative SOC. Programs whose graduates
+   * typically transfer before entering a career (liberal-arts, history,
+   * english, biology, math, psychology) use `null` — wage data for those
+   * SOCs reflects post-bachelor's earnings, not CC-grad earnings, so
+   * showing it would be misleading.
+   */
+  primarySoc: string | null;
 };
 
 export const PROGRAMS: ProgramDef[] = [
@@ -44,6 +57,7 @@ export const PROGRAMS: ProgramDef[] = [
     // 5139 = Practical Nursing/Vocational Nursing (LPN/LVN)
     // 5116 = Nursing Administration / nursing-research adjacencies
     cips: ["5138", "5139", "5116"],
+    primarySoc: "291141", // Registered Nurses
   },
   {
     slug: "business-administration",
@@ -53,6 +67,7 @@ export const PROGRAMS: ProgramDef[] = [
     prefixes: ["BUS", "MGT", "MGMT", "MKT", "MKTG", "ACC", "ACCT", "ECO", "ECON", "FIN"],
     // 5202 = Business Administration, Management and Operations
     cips: ["5202"],
+    primarySoc: "111021", // General and Operations Managers
   },
   {
     slug: "computer-science",
@@ -63,6 +78,7 @@ export const PROGRAMS: ProgramDef[] = [
     // 1101 = Computer and Information Sciences, General (the CC catch-all)
     // 1107 = Computer Science (transfer-track CS)
     cips: ["1101", "1107"],
+    primarySoc: "151232", // Computer User Support Specialists (the most common CC-grad direct path; SDE 15-1252 typically requires a BA)
   },
   {
     slug: "accounting",
@@ -72,6 +88,7 @@ export const PROGRAMS: ProgramDef[] = [
     prefixes: ["ACC", "ACCT", "ACG"],
     // 5203 = Accounting and Related Services
     cips: ["5203"],
+    primarySoc: "132011", // Accountants and Auditors
   },
   {
     slug: "early-childhood-education",
@@ -82,6 +99,7 @@ export const PROGRAMS: ProgramDef[] = [
     // 1312 = Teacher Education and Professional Development, Specific Levels
     // 1909 = Child Care and Support Services Management (related vocational track)
     cips: ["1312", "1909"],
+    primarySoc: "252011", // Preschool Teachers, except Special Education
   },
   {
     slug: "criminal-justice",
@@ -92,6 +110,7 @@ export const PROGRAMS: ProgramDef[] = [
     // 4301 = Criminal Justice and Corrections
     // 4304 = Criminal Justice/Police Science (NCES has split these)
     cips: ["4301", "4304"],
+    primarySoc: "333051", // Police and Sheriff's Patrol Officers
   },
   {
     slug: "liberal-arts",
@@ -101,6 +120,11 @@ export const PROGRAMS: ProgramDef[] = [
     prefixes: ["ENG", "ENGL", "HIS", "HIST", "PHI", "PHIL"],
     // 2401 = Liberal Arts and Sciences/General Studies and Humanities
     cips: ["2401"],
+    // Transfer-oriented program; SOC data for a specific career would
+    // misrepresent the typical liberal-arts CC pathway (transfer →
+    // bachelor's → varied careers). Career FAQ surfaces general
+    // post-transfer paths qualitatively instead.
+    primarySoc: null,
   },
   {
     slug: "engineering",
@@ -111,6 +135,7 @@ export const PROGRAMS: ProgramDef[] = [
     // 1401 = Engineering, General (transfer-track)
     // 1501 = Engineering Technology, General (career-track)
     cips: ["1401", "1501"],
+    primarySoc: "173026", // Industrial Engineering Technologists and Technicians (CC-grad direct path; engineering proper requires BA)
   },
   {
     slug: "biology",
@@ -120,6 +145,7 @@ export const PROGRAMS: ProgramDef[] = [
     prefixes: ["BIO", "BIOL"],
     // 2601 = Biology, General
     cips: ["2601"],
+    primarySoc: null, // Transfer-oriented; career paths require BA+
   },
   {
     slug: "psychology",
@@ -129,6 +155,7 @@ export const PROGRAMS: ProgramDef[] = [
     prefixes: ["PSY", "PSYC"],
     // 4201 = Psychology, General
     cips: ["4201"],
+    primarySoc: null, // Transfer-oriented; career paths require BA+
   },
   {
     slug: "welding",
@@ -138,6 +165,7 @@ export const PROGRAMS: ProgramDef[] = [
     prefixes: ["WEL", "WLD", "WLDG"],
     // 4805 = Welding Technology/Welder
     cips: ["4805"],
+    primarySoc: "514121", // Welders, Cutters, Solderers, and Brazers
   },
   {
     slug: "automotive-technology",
@@ -148,6 +176,7 @@ export const PROGRAMS: ProgramDef[] = [
     // 4706 = Vehicle Maintenance and Repair Technologies (Automotive)
     // 4704 = Heavy Equipment Maintenance (related)
     cips: ["4706", "4704"],
+    primarySoc: "493023", // Automotive Service Technicians and Mechanics
   },
   {
     slug: "history",
@@ -157,6 +186,7 @@ export const PROGRAMS: ProgramDef[] = [
     prefixes: ["HIS", "HIST"],
     // 5401 = History
     cips: ["5401"],
+    primarySoc: null, // Transfer-oriented
   },
   {
     slug: "mathematics",
@@ -166,6 +196,7 @@ export const PROGRAMS: ProgramDef[] = [
     prefixes: ["MTH", "MAT", "MATH"],
     // 2701 = Mathematics
     cips: ["2701"],
+    primarySoc: null, // Transfer-oriented
   },
   {
     slug: "english",
@@ -175,6 +206,7 @@ export const PROGRAMS: ProgramDef[] = [
     prefixes: ["ENG", "ENGL"],
     // 2301 = English Language and Literature, General
     cips: ["2301"],
+    primarySoc: null, // Transfer-oriented
   },
   {
     slug: "art",
@@ -185,6 +217,7 @@ export const PROGRAMS: ProgramDef[] = [
     // 5007 = Fine and Studio Arts
     // 5004 = Design and Applied Arts
     cips: ["5007", "5004"],
+    primarySoc: "271024", // Graphic Designers (most common CC-grad direct career; fine artists 27-1013 is harder to ground in BLS wages)
   },
 ];
 
