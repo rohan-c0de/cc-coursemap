@@ -1,4 +1,11 @@
 {
+  "ACC 1010": {
+    "text": "ACC 1020 or ACC 2121",
+    "courses": [
+      "ACC 1020",
+      "ACC 2121"
+    ]
+  },
   "ACC 2121": {
     "text": "BUS 1090 or BUS 1210",
     "courses": [
@@ -16,6 +23,25 @@
     "text": "ACC 2122",
     "courses": [
       "ACC 2122"
+    ]
+  },
+  "ACC 2202": {
+    "text": "ACC 2201",
+    "courses": [
+      "ACC 2201"
+    ]
+  },
+  "ACC 2210": {
+    "text": "ACC 2122 or ACC 3010",
+    "courses": [
+      "ACC 2122",
+      "ACC 3010"
+    ]
+  },
+  "ACC 2215": {
+    "text": "ACC 2121",
+    "courses": [
+      "ACC 2121"
     ]
   },
   "ACC 3310": {
@@ -37,7 +63,19 @@
       "ACC 4041"
     ]
   },
+  "ACC 4050": {
+    "text": "ACC 2202",
+    "courses": [
+      "ACC 2202"
+    ]
+  },
   "ACC 4060": {
+    "text": "ACC 2202",
+    "courses": [
+      "ACC 2202"
+    ]
+  },
+  "ACC 4120": {
     "text": "ACC 2202",
     "courses": [
       "ACC 2202"
@@ -55,6 +93,31 @@
       "AER 1010"
     ]
   },
+  "AER 1022": {
+    "text": "AER 1021",
+    "courses": [
+      "AER 1021"
+    ]
+  },
+  "AER 1033": {
+    "text": "AER 1031",
+    "courses": [
+      "AER 1031"
+    ]
+  },
+  "AER 1053": {
+    "text": "MAT 1311 and AER 1053L",
+    "courses": [
+      "MAT 1311",
+      "AER 1053L"
+    ]
+  },
+  "AER 1053L": {
+    "text": "AER 1053",
+    "courses": [
+      "AER 1053"
+    ]
+  },
   "AER 1110": {
     "text": "AER 1120 and AER 1021",
     "courses": [
@@ -67,6 +130,18 @@
     "courses": [
       "AER 1022",
       "AER 1110"
+    ]
+  },
+  "AER 2010": {
+    "text": "AER 2031",
+    "courses": [
+      "AER 2031"
+    ]
+  },
+  "AER 2031": {
+    "text": "AER 2010",
+    "courses": [
+      "AER 2010"
     ]
   },
   "AER 3010": {
@@ -93,6 +168,18 @@
       "AER 3040"
     ]
   },
+  "AER 4020": {
+    "text": "AER 3020",
+    "courses": [
+      "AER 3020"
+    ]
+  },
+  "AER 4030": {
+    "text": "AER 4010",
+    "courses": [
+      "AER 4010"
+    ]
+  },
   "AFF 1020": {
     "text": "AFF 1010 and AFF 1015",
     "courses": [
@@ -107,10 +194,49 @@
       "AFF 1015"
     ]
   },
+  "AGR 1061": {
+    "text": "AGR 1061L",
+    "courses": [
+      "AGR 1061L"
+    ]
+  },
+  "AGR 1801": {
+    "text": "AGR 1801L",
+    "courses": [
+      "AGR 1801L"
+    ]
+  },
+  "AGR 2130": {
+    "text": "AGR 2130L",
+    "courses": [
+      "AGR 2130L"
+    ]
+  },
   "AHS 2160": {
     "text": "BIO 2011",
     "courses": [
       "BIO 2011"
+    ]
+  },
+  "AHS 2420": {
+    "text": "AHS 2160 and AHS 2420L",
+    "courses": [
+      "AHS 2160",
+      "AHS 2420L"
+    ]
+  },
+  "AHS 2420L": {
+    "text": "AHS 2420",
+    "courses": [
+      "AHS 2420"
+    ]
+  },
+  "AHS 2470": {
+    "text": "AHS 1205 and BIO 1140 and MAT 0221",
+    "courses": [
+      "AHS 1205",
+      "BIO 1140",
+      "MAT 0221"
     ]
   },
   "AHS 3043": {
@@ -153,6 +279,21 @@
       "PSY 1010"
     ]
   },
+  "AHS 4110": {
+    "text": "PSY 1010 or BIO 2012 or PSY 4010",
+    "courses": [
+      "PSY 1010",
+      "BIO 2012",
+      "PSY 4010"
+    ]
+  },
+  "AHS 4840": {
+    "text": "AHS 2480 or AHS 4025",
+    "courses": [
+      "AHS 2480",
+      "AHS 4025"
+    ]
+  },
   "AHS 5012": {
     "text": "AHS 5011",
     "courses": [
@@ -171,12 +312,50 @@
       "AHS 5021"
     ]
   },
+  "AHS 5022": {
+    "text": "AHS 5021 and AHS 5022L",
+    "courses": [
+      "AHS 5021",
+      "AHS 5022L"
+    ]
+  },
+  "AHS 5022L": {
+    "text": "AHS 5022",
+    "courses": [
+      "AHS 5022"
+    ]
+  },
   "AHS 5032": {
     "text": "AHS 5031 and AHS 5032 and AHS 5032L",
     "courses": [
       "AHS 5031",
       "AHS 5032",
       "AHS 5032L"
+    ]
+  },
+  "AHS 5033": {
+    "text": "AHS 5032 and AHS 5033L",
+    "courses": [
+      "AHS 5032",
+      "AHS 5033L"
+    ]
+  },
+  "AHS 5033L": {
+    "text": "AHS 5033",
+    "courses": [
+      "AHS 5033"
+    ]
+  },
+  "AHS 5045": {
+    "text": "AHS 5032",
+    "courses": [
+      "AHS 5032"
+    ]
+  },
+  "AHS 5050": {
+    "text": "AHS 5021",
+    "courses": [
+      "AHS 5021"
     ]
   },
   "AHS 6010": {
@@ -197,6 +376,39 @@
       "AHS 5035"
     ]
   },
+  "AHS 6050": {
+    "text": "AHS 6045",
+    "courses": [
+      "AHS 6045"
+    ]
+  },
+  "AHS 6055": {
+    "text": "AHS 6045",
+    "courses": [
+      "AHS 6045"
+    ]
+  },
+  "AHS 6060": {
+    "text": "AHS 6020",
+    "courses": [
+      "AHS 6020"
+    ]
+  },
+  "ARE 1212L": {
+    "text": "ARE 1212 and ARE 1212 and ARE 1212",
+    "courses": [
+      "ARE 1212"
+    ]
+  },
+  "ARE 1214": {
+    "text": "ARE 1011 and CET 1031 and ARE 1212 or CET 1020",
+    "courses": [
+      "ARE 1011",
+      "CET 1031",
+      "ARE 1212",
+      "CET 1020"
+    ]
+  },
   "ARE 2022": {
     "text": "ARE 1011 or CET 1031",
     "courses": [
@@ -215,6 +427,20 @@
     "text": "ARE 2031 and ARE 2031 and ARE 2031",
     "courses": [
       "ARE 2031"
+    ]
+  },
+  "ARE 2032": {
+    "text": "ARE 2032L and ARE 2031 or CPM 1010",
+    "courses": [
+      "ARE 2032L",
+      "ARE 2031",
+      "CPM 1010"
+    ]
+  },
+  "ARE 2032L": {
+    "text": "ARE 2032 and ARE 2032 and ARE 2032",
+    "courses": [
+      "ARE 2032"
     ]
   },
   "ARE 2040": {
@@ -238,11 +464,29 @@
       "ARE 1220"
     ]
   },
+  "ARE 2052": {
+    "text": "ARE 2051",
+    "courses": [
+      "ARE 2051"
+    ]
+  },
   "ARE 3010": {
     "text": "ARE 3030 and ARE 3040",
     "courses": [
       "ARE 3030",
       "ARE 3040"
+    ]
+  },
+  "ARE 3030": {
+    "text": "CET 2120",
+    "courses": [
+      "CET 2120"
+    ]
+  },
+  "ARE 3040": {
+    "text": "ARE 2032",
+    "courses": [
+      "ARE 2032"
     ]
   },
   "ARE 3050": {
@@ -265,10 +509,47 @@
       "ARE 3020"
     ]
   },
+  "ARE 4030": {
+    "text": "ARE 3050 or MEC 2050 and ARE 4030L",
+    "courses": [
+      "ARE 3050",
+      "MEC 2050",
+      "ARE 4030L"
+    ]
+  },
+  "ARE 4030L": {
+    "text": "ARE 4030 and ARE 4030 and ARE 4030",
+    "courses": [
+      "ARE 4030"
+    ]
+  },
+  "ARE 4720": {
+    "text": "ARE 2022 and ARE 4020 and ARE 4720L and ARE 3030 and ARE 3040 and ARE 4030",
+    "courses": [
+      "ARE 2022",
+      "ARE 4020",
+      "ARE 4720L",
+      "ARE 3030",
+      "ARE 3040",
+      "ARE 4030"
+    ]
+  },
+  "ARE 4720L": {
+    "text": "ARE 4720 and ARE 4720 and ARE 4720",
+    "courses": [
+      "ARE 4720"
+    ]
+  },
   "ARH 3080": {
     "text": "ENG 1061",
     "courses": [
       "ENG 1061"
+    ]
+  },
+  "ART 2223": {
+    "text": "ART 1109",
+    "courses": [
+      "ART 1109"
     ]
   },
   "ART 3015": {
@@ -291,6 +572,14 @@
       "ART 1011"
     ]
   },
+  "ART 3260": {
+    "text": "ART 1410 or ART 2301 or ART 2125",
+    "courses": [
+      "ART 1410",
+      "ART 2301",
+      "ART 2125"
+    ]
+  },
   "ART 3290": {
     "text": "ART 1109 and ART 1055 and ART 2224",
     "courses": [
@@ -303,6 +592,19 @@
     "text": "ART 2311",
     "courses": [
       "ART 2311"
+    ]
+  },
+  "ART 3330": {
+    "text": "ART 2223 and ART 1355",
+    "courses": [
+      "ART 2223",
+      "ART 1355"
+    ]
+  },
+  "ART 4007": {
+    "text": "ART 1011",
+    "courses": [
+      "ART 1011"
     ]
   },
   "ART 4015": {
@@ -401,10 +703,43 @@
       "PLM 0002"
     ]
   },
+  "ATM 1030": {
+    "text": "PLM 0002",
+    "courses": [
+      "PLM 0002"
+    ]
+  },
   "ATM 2025": {
     "text": "ATM 1010",
     "courses": [
       "ATM 1010"
+    ]
+  },
+  "ATM 2030": {
+    "text": "ATM 1010",
+    "courses": [
+      "ATM 1010"
+    ]
+  },
+  "ATM 3062": {
+    "text": "ATM 1020",
+    "courses": [
+      "ATM 1020"
+    ]
+  },
+  "ATM 3140": {
+    "text": "ATM 3030",
+    "courses": [
+      "ATM 3030"
+    ]
+  },
+  "ATM 3321": {
+    "text": "ATM 2020 and ATM 3331 and MAT 2543 and PHY 2062",
+    "courses": [
+      "ATM 2020",
+      "ATM 3331",
+      "MAT 2543",
+      "PHY 2062"
     ]
   },
   "ATM 3331": {
@@ -413,6 +748,13 @@
       "ATM 2025",
       "PHY 2061",
       "MAT 2532"
+    ]
+  },
+  "ATM 4120": {
+    "text": "ATM 3321 or ATM 3331",
+    "courses": [
+      "ATM 3321",
+      "ATM 3331"
     ]
   },
   "ATM 4140": {
@@ -429,6 +771,71 @@
       "ATM 3140"
     ]
   },
+  "ATM 4713": {
+    "text": "ATM 3322 and ATM 4120 and ATM 4712",
+    "courses": [
+      "ATM 3322",
+      "ATM 4120",
+      "ATM 4712"
+    ]
+  },
+  "ATT 1011": {
+    "text": "ATT 1011L",
+    "courses": [
+      "ATT 1011L"
+    ]
+  },
+  "ATT 1012": {
+    "text": "ATT 1011 and ATT 1012L",
+    "courses": [
+      "ATT 1011",
+      "ATT 1012L"
+    ]
+  },
+  "ATT 1020": {
+    "text": "ATT 1020L",
+    "courses": [
+      "ATT 1020L"
+    ]
+  },
+  "ATT 1020L": {
+    "text": "ATT 1020",
+    "courses": [
+      "ATT 1020"
+    ]
+  },
+  "ATT 1051": {
+    "text": "ATT 1012 and ATT 1051L",
+    "courses": [
+      "ATT 1012",
+      "ATT 1051L"
+    ]
+  },
+  "ATT 1051L": {
+    "text": "ATT 1051",
+    "courses": [
+      "ATT 1051"
+    ]
+  },
+  "ATT 1052": {
+    "text": "ATT 1051 and ATT 1052L",
+    "courses": [
+      "ATT 1051",
+      "ATT 1052L"
+    ]
+  },
+  "ATT 1052L": {
+    "text": "ATT 1052",
+    "courses": [
+      "ATT 1052"
+    ]
+  },
+  "ATT 1110": {
+    "text": "GTS 1040",
+    "courses": [
+      "GTS 1040"
+    ]
+  },
   "ATT 2010": {
     "text": "GTS 1040 and PHY 1030 and ATT 2010L",
     "courses": [
@@ -441,6 +848,47 @@
     "text": "ATT 2010",
     "courses": [
       "ATT 2010"
+    ]
+  },
+  "ATT 2020": {
+    "text": "ATT 1012 and GTS 1040 and PHY 1030 and ATT 2020L",
+    "courses": [
+      "ATT 1012",
+      "GTS 1040",
+      "PHY 1030",
+      "ATT 2020L"
+    ]
+  },
+  "ATT 2020L": {
+    "text": "ATT 2020",
+    "courses": [
+      "ATT 2020"
+    ]
+  },
+  "ATT 2030": {
+    "text": "ATT 2010 and ATT 2030L",
+    "courses": [
+      "ATT 2010",
+      "ATT 2030L"
+    ]
+  },
+  "ATT 2030L": {
+    "text": "ATT 2030",
+    "courses": [
+      "ATT 2030"
+    ]
+  },
+  "ATT 2040": {
+    "text": "ATT 1012 and ATT 2040L",
+    "courses": [
+      "ATT 1012",
+      "ATT 2040L"
+    ]
+  },
+  "ATT 2040L": {
+    "text": "ATT 2040",
+    "courses": [
+      "ATT 2040"
     ]
   },
   "ATT 2060": {
@@ -511,6 +959,27 @@
       "BIO 2320"
     ]
   },
+  "BIO 3025": {
+    "text": "BIO 1121 and BIO 1122 and BIO 3025L",
+    "courses": [
+      "BIO 1121",
+      "BIO 1122",
+      "BIO 3025L"
+    ]
+  },
+  "BIO 3025L": {
+    "text": "BIO 3025",
+    "courses": [
+      "BIO 3025"
+    ]
+  },
+  "BIO 3035": {
+    "text": "BIO 1121 and BIO 1122",
+    "courses": [
+      "BIO 1121",
+      "BIO 1122"
+    ]
+  },
   "BIO 3060": {
     "text": "BIO 1121 or BIO 1122 or CHE 1031 or CHE 1031 or CHE 1041 or CHE 1051 or ENV 1080 and BIO 3060L",
     "courses": [
@@ -529,6 +998,14 @@
       "BIO 3025",
       "BIO 3140",
       "CHE 1031"
+    ]
+  },
+  "BIO 3140": {
+    "text": "BIO 1121 and BIO 1122 and BIO 3140L",
+    "courses": [
+      "BIO 1121",
+      "BIO 1122",
+      "BIO 3140L"
     ]
   },
   "BIO 3155": {
@@ -562,6 +1039,14 @@
       "BIO 1030"
     ]
   },
+  "BIO 3240": {
+    "text": "BIO 2011 and BIO 2012 and CHE 1041",
+    "courses": [
+      "BIO 2011",
+      "BIO 2012",
+      "CHE 1041"
+    ]
+  },
   "BIO 3270": {
     "text": "BIO 1121 or BIO 1122 or CHE 1041 or CHE 1051 or CHE 1110 or ENV 1080 and BIO 3270L and BIO 3270 and BIO 3270L",
     "courses": [
@@ -588,10 +1073,31 @@
       "BIO 3320L"
     ]
   },
+  "BIO 3530": {
+    "text": "BIO 1121 and BIO 1122",
+    "courses": [
+      "BIO 1121",
+      "BIO 1122"
+    ]
+  },
   "BIO 4015": {
     "text": "BIO 4015L",
     "courses": [
       "BIO 4015L"
+    ]
+  },
+  "BIO 4360": {
+    "text": "BIO 3025 or BIO 3140 or CHE 1031",
+    "courses": [
+      "BIO 3025",
+      "BIO 3140",
+      "CHE 1031"
+    ]
+  },
+  "BUS 3045": {
+    "text": "BUS 2230",
+    "courses": [
+      "BUS 2230"
     ]
   },
   "BUS 3060": {
@@ -614,16 +1120,41 @@
       "MAT 2021"
     ]
   },
+  "BUS 3160": {
+    "text": "BUS 2230",
+    "courses": [
+      "BUS 2230"
+    ]
+  },
+  "BUS 3210": {
+    "text": "BUS 2230",
+    "courses": [
+      "BUS 2230"
+    ]
+  },
   "BUS 3230": {
     "text": "ACC 1020",
     "courses": [
       "ACC 1020"
     ]
   },
+  "BUS 3245": {
+    "text": "BUS 2230",
+    "courses": [
+      "BUS 2230"
+    ]
+  },
   "BUS 3250": {
     "text": "BUS 2020",
     "courses": [
       "BUS 2020"
+    ]
+  },
+  "BUS 3260": {
+    "text": "ACC 2121 and BUS 3230",
+    "courses": [
+      "ACC 2121",
+      "BUS 3230"
     ]
   },
   "BUS 3270": {
@@ -674,6 +1205,12 @@
       "MAT 3260"
     ]
   },
+  "BUS 5110": {
+    "text": "BUS 5010",
+    "courses": [
+      "BUS 5010"
+    ]
+  },
   "CET 1011": {
     "text": "CET 1011L and MAT 1311",
     "courses": [
@@ -685,6 +1222,24 @@
     "text": "CET 1011 and CET 1011 and CET 1011",
     "courses": [
       "CET 1011"
+    ]
+  },
+  "CET 1020": {
+    "text": "CET 1020L",
+    "courses": [
+      "CET 1020L"
+    ]
+  },
+  "CET 1020L": {
+    "text": "CET 1020 and CET 1020 and CET 1020",
+    "courses": [
+      "CET 1020"
+    ]
+  },
+  "CET 1032": {
+    "text": "CET 1031",
+    "courses": [
+      "CET 1031"
     ]
   },
   "CET 2012": {
@@ -717,6 +1272,21 @@
       "CET 2020"
     ]
   },
+  "CET 2030": {
+    "text": "CHE 1031 and MAT 1520 and PHY 1041 and CET 2030L",
+    "courses": [
+      "CHE 1031",
+      "MAT 1520",
+      "PHY 1041",
+      "CET 2030L"
+    ]
+  },
+  "CET 2030L": {
+    "text": "CET 2030 and CET 2030 and CET 2030",
+    "courses": [
+      "CET 2030"
+    ]
+  },
   "CET 2040": {
     "text": "PHY 1041 and CET 2040L and MAT 1520",
     "courses": [
@@ -729,6 +1299,56 @@
     "text": "CET 2040 and CET 2040 and CET 2040",
     "courses": [
       "CET 2040"
+    ]
+  },
+  "CET 2050": {
+    "text": "CET 2012 and CET 2020 and CET 2030 and CET 2110 and CET 2120 and CET 2050L",
+    "courses": [
+      "CET 2012",
+      "CET 2020",
+      "CET 2030",
+      "CET 2110",
+      "CET 2120",
+      "CET 2050L"
+    ]
+  },
+  "CET 2050L": {
+    "text": "CET 2050 and CET 2050 and CET 2050",
+    "courses": [
+      "CET 2050"
+    ]
+  },
+  "CET 2110": {
+    "text": "CET 2040 and CET 2110L",
+    "courses": [
+      "CET 2040",
+      "CET 2110L"
+    ]
+  },
+  "CET 2110L": {
+    "text": "CET 2110 and CET 2110 and CET 2110",
+    "courses": [
+      "CET 2110"
+    ]
+  },
+  "CET 2120": {
+    "text": "CET 2040 or MEC 2035 and CET 2120L",
+    "courses": [
+      "CET 2040",
+      "MEC 2035",
+      "CET 2120L"
+    ]
+  },
+  "CET 2120L": {
+    "text": "CET 2120 and CET 2120 and CET 2120",
+    "courses": [
+      "CET 2120"
+    ]
+  },
+  "CHE 1020L": {
+    "text": "CHE 1020",
+    "courses": [
+      "CHE 1020"
     ]
   },
   "CHE 1031": {
@@ -748,6 +1368,13 @@
       "CHE 1031"
     ]
   },
+  "CHE 1032": {
+    "text": "CHE 1031 and CHE 1032L and CHE 1032L",
+    "courses": [
+      "CHE 1031",
+      "CHE 1032L"
+    ]
+  },
   "CHE 2040": {
     "text": "CHE 1031 and CHE 1032 and CHE 2040L and CHE 2040L and CHE 2040L",
     "courses": [
@@ -762,6 +1389,13 @@
       "CHE 2040"
     ]
   },
+  "CHE 2050": {
+    "text": "CHE 2040 or CHE 2111",
+    "courses": [
+      "CHE 2040",
+      "CHE 2111"
+    ]
+  },
   "CHE 2113": {
     "text": "CHE 1042 or CHE 1052 and CHE 2111",
     "courses": [
@@ -770,10 +1404,51 @@
       "CHE 2111"
     ]
   },
+  "CHE 3011": {
+    "text": "CHE 2111 and CHE 2112",
+    "courses": [
+      "CHE 2111",
+      "CHE 2112"
+    ]
+  },
+  "CHE 3020": {
+    "text": "CHE 1031 and CHE 3020L",
+    "courses": [
+      "CHE 1031",
+      "CHE 3020L"
+    ]
+  },
   "CIS 1151L": {
     "text": "CIS 1151",
     "courses": [
       "CIS 1151"
+    ]
+  },
+  "CIS 1152": {
+    "text": "CIS 1151 and CIS 1152L and CIS 1152L",
+    "courses": [
+      "CIS 1151",
+      "CIS 1152L"
+    ]
+  },
+  "CIS 1152L": {
+    "text": "CIS 1152",
+    "courses": [
+      "CIS 1152"
+    ]
+  },
+  "CIS 2010": {
+    "text": "CIS 2025 or CIS 2262 and CIS 2010L",
+    "courses": [
+      "CIS 2025",
+      "CIS 2262",
+      "CIS 2010L"
+    ]
+  },
+  "CIS 2010L": {
+    "text": "CIS 2010",
+    "courses": [
+      "CIS 2010"
     ]
   },
   "CIS 2025": {
@@ -788,7 +1463,38 @@
       "CIS 2025"
     ]
   },
+  "CIS 2120": {
+    "text": "CIS 1350",
+    "courses": [
+      "CIS 1350"
+    ]
+  },
+  "CIS 2151": {
+    "text": "CIS 2151L",
+    "courses": [
+      "CIS 2151L"
+    ]
+  },
+  "CIS 2151L": {
+    "text": "CIS 2151 and CIS 2151 and CIS 2151",
+    "courses": [
+      "CIS 2151"
+    ]
+  },
+  "CIS 2235": {
+    "text": "CIS 2151 and CIS 2230",
+    "courses": [
+      "CIS 2151",
+      "CIS 2230"
+    ]
+  },
   "CIS 2261L": {
+    "text": "CIS 2261",
+    "courses": [
+      "CIS 2261"
+    ]
+  },
+  "CIS 2262": {
     "text": "CIS 2261",
     "courses": [
       "CIS 2261"
@@ -809,12 +1515,99 @@
       "CIS 2271"
     ]
   },
+  "CIS 2360": {
+    "text": "CIS 1350 or CIS 2151 or CIS 2230",
+    "courses": [
+      "CIS 1350",
+      "CIS 2151",
+      "CIS 2230"
+    ]
+  },
+  "CIS 2730": {
+    "text": "CIS 2025 or CIS 2262 or CIS 2271 and CIS 2730L",
+    "courses": [
+      "CIS 2025",
+      "CIS 2262",
+      "CIS 2271",
+      "CIS 2730L"
+    ]
+  },
+  "CIS 2730L": {
+    "text": "CIS 2730",
+    "courses": [
+      "CIS 2730"
+    ]
+  },
+  "CIS 3010": {
+    "text": "CIS 2262 or CIS 2271 and CIS 3010L",
+    "courses": [
+      "CIS 2262",
+      "CIS 2271",
+      "CIS 3010L"
+    ]
+  },
+  "CIS 3010L": {
+    "text": "CIS 3010",
+    "courses": [
+      "CIS 3010"
+    ]
+  },
   "CIS 3012": {
     "text": "CIS 2010 or CIS 2025 or CIS 2260",
     "courses": [
       "CIS 2010",
       "CIS 2025",
       "CIS 2260"
+    ]
+  },
+  "CIS 3030": {
+    "text": "CIS 3050 or CIS 3052 and CIS 2260",
+    "courses": [
+      "CIS 3050",
+      "CIS 3052",
+      "CIS 2260"
+    ]
+  },
+  "CIS 3035": {
+    "text": "CIS 1151 or CIS 2261 or CIS 2271 or CIS 2210 and CIS 3035L",
+    "courses": [
+      "CIS 1151",
+      "CIS 2261",
+      "CIS 2271",
+      "CIS 2210",
+      "CIS 3035L"
+    ]
+  },
+  "CIS 3035L": {
+    "text": "CIS 3035",
+    "courses": [
+      "CIS 3035"
+    ]
+  },
+  "CIS 3050": {
+    "text": "CIS 3025",
+    "courses": [
+      "CIS 3025"
+    ]
+  },
+  "CIS 3065": {
+    "text": "CIS 2291 and CIS 3065L",
+    "courses": [
+      "CIS 2291",
+      "CIS 3065L"
+    ]
+  },
+  "CIS 4140": {
+    "text": "CIS 1152 or CIS 2260",
+    "courses": [
+      "CIS 1152",
+      "CIS 2260"
+    ]
+  },
+  "CIS 4240": {
+    "text": "CIS 2151",
+    "courses": [
+      "CIS 2151"
     ]
   },
   "CIS 4310": {
@@ -834,6 +1627,26 @@
     "text": "CIS 4721",
     "courses": [
       "CIS 4721"
+    ]
+  },
+  "CIS 4722": {
+    "text": "CIS 4721 and CIS 4722L and CIS 4722L and CIS 4722L",
+    "courses": [
+      "CIS 4721",
+      "CIS 4722L"
+    ]
+  },
+  "CIS 4722L": {
+    "text": "CIS 4722",
+    "courses": [
+      "CIS 4722"
+    ]
+  },
+  "CMH 6455": {
+    "text": "CHM 6105 and CMH 6805",
+    "courses": [
+      "CHM 6105",
+      "CMH 6805"
     ]
   },
   "CMH 6465": {
@@ -906,6 +1719,12 @@
       "ATM 3332"
     ]
   },
+  "COM 3010": {
+    "text": "ENG 1061",
+    "courses": [
+      "ENG 1061"
+    ]
+  },
   "COM 3060": {
     "text": "COM 1040 and COM 2230",
     "courses": [
@@ -953,6 +1772,24 @@
       "COM 3240"
     ]
   },
+  "COM 3820": {
+    "text": "COM 1040",
+    "courses": [
+      "COM 1040"
+    ]
+  },
+  "COM 4020": {
+    "text": "COM 1420",
+    "courses": [
+      "COM 1420"
+    ]
+  },
+  "COM 4125": {
+    "text": "COM 1420",
+    "courses": [
+      "COM 1420"
+    ]
+  },
   "COM 4550": {
     "text": "COM 3240 and COM 4825 or COM 4826",
     "courses": [
@@ -968,6 +1805,22 @@
       "COM 4550"
     ]
   },
+  "CPM 1010": {
+    "text": "CPM 1021 or ARE 1021 or CET 1031 or CPM 1031 and CPM 1010L",
+    "courses": [
+      "CPM 1021",
+      "ARE 1021",
+      "CET 1031",
+      "CPM 1031",
+      "CPM 1010L"
+    ]
+  },
+  "CPM 1010L": {
+    "text": "CPM 1010",
+    "courses": [
+      "CPM 1010"
+    ]
+  },
   "CPM 1021": {
     "text": "CPM 1021L",
     "courses": [
@@ -980,6 +1833,22 @@
       "CPM 1021"
     ]
   },
+  "CPM 1022": {
+    "text": "CPM 1021 or ARE 1011 or CET 1031 or CPM 1031 and CPM 1022L",
+    "courses": [
+      "CPM 1021",
+      "ARE 1011",
+      "CET 1031",
+      "CPM 1031",
+      "CPM 1022L"
+    ]
+  },
+  "CPM 1022L": {
+    "text": "CPM 1022",
+    "courses": [
+      "CPM 1022"
+    ]
+  },
   "CPM 1031": {
     "text": "CPM 1032",
     "courses": [
@@ -989,6 +1858,15 @@
   "CPM 1032": {
     "text": "CPM 1031",
     "courses": [
+      "CPM 1031"
+    ]
+  },
+  "CPM 1111": {
+    "text": "CPM 1021 or ARE 1011 or CET 1031 or CPM 1031",
+    "courses": [
+      "CPM 1021",
+      "ARE 1011",
+      "CET 1031",
       "CPM 1031"
     ]
   },
@@ -1017,6 +1895,21 @@
       "MAT 1210"
     ]
   },
+  "CPM 2030": {
+    "text": "CPM 1111 and MAT 1210 and PHY 1030 and CPM 2030L",
+    "courses": [
+      "CPM 1111",
+      "MAT 1210",
+      "PHY 1030",
+      "CPM 2030L"
+    ]
+  },
+  "CPM 2030L": {
+    "text": "CPM 2030",
+    "courses": [
+      "CPM 2030"
+    ]
+  },
   "CPM 2050": {
     "text": "CPM 1022",
     "courses": [
@@ -1037,6 +1930,52 @@
       "CPM 2060"
     ]
   },
+  "CPM 2730": {
+    "text": "CPM 2730L and CPM 2010",
+    "courses": [
+      "CPM 2730L",
+      "CPM 2010"
+    ]
+  },
+  "CPM 2730L": {
+    "text": "CPM 2730",
+    "courses": [
+      "CPM 2730"
+    ]
+  },
+  "CPM 3010": {
+    "text": "CPM 2010 and CPM 3010L",
+    "courses": [
+      "CPM 2010",
+      "CPM 3010L"
+    ]
+  },
+  "CPM 3010L": {
+    "text": "CPM 3010",
+    "courses": [
+      "CPM 3010"
+    ]
+  },
+  "CPM 3020": {
+    "text": "CPM 2020",
+    "courses": [
+      "CPM 2020"
+    ]
+  },
+  "CPM 3030": {
+    "text": "CPM 3030L and CET 2120 or CPM 2030",
+    "courses": [
+      "CPM 3030L",
+      "CET 2120",
+      "CPM 2030"
+    ]
+  },
+  "CPM 3030L": {
+    "text": "CPM 3030",
+    "courses": [
+      "CPM 3030"
+    ]
+  },
   "CPM 3131": {
     "text": "CPM 2730 or CET 2120 and CPM 3131L",
     "courses": [
@@ -1049,6 +1988,14 @@
     "text": "CPM 3131",
     "courses": [
       "CPM 3131"
+    ]
+  },
+  "CPM 4010": {
+    "text": "CPM 2020 and CPM 2730 and CPM 3020",
+    "courses": [
+      "CPM 2020",
+      "CPM 2730",
+      "CPM 3020"
     ]
   },
   "CPM 4040": {
@@ -1069,6 +2016,21 @@
       "CPM 4040"
     ]
   },
+  "CPM 4120": {
+    "text": "ACC 1020 and BUS 3230 and CPM 3020",
+    "courses": [
+      "ACC 1020",
+      "BUS 3230",
+      "CPM 3020"
+    ]
+  },
+  "CPM 4140": {
+    "text": "BUS 2440 and CPM 3020",
+    "courses": [
+      "BUS 2440",
+      "CPM 3020"
+    ]
+  },
   "CPM 4730": {
     "text": "CPM 3010 and CPM 3020 and CPM 4040",
     "courses": [
@@ -1077,10 +2039,22 @@
       "CPM 4040"
     ]
   },
+  "CRJ 2010": {
+    "text": "CRJ 1010",
+    "courses": [
+      "CRJ 1010"
+    ]
+  },
   "CRJ 2080": {
     "text": "CRJ 1010",
     "courses": [
       "CRJ 1010"
+    ]
+  },
+  "CRJ 2110": {
+    "text": "CRJ 2010",
+    "courses": [
+      "CRJ 2010"
     ]
   },
   "CRJ 2510": {
@@ -1091,6 +2065,12 @@
     ]
   },
   "CRJ 3030": {
+    "text": "CRJ 1010",
+    "courses": [
+      "CRJ 1010"
+    ]
+  },
+  "CRJ 3050": {
     "text": "CRJ 1010",
     "courses": [
       "CRJ 1010"
@@ -1138,6 +2118,18 @@
       "CSL 5010"
     ]
   },
+  "CSL 5140": {
+    "text": "CSL 5010",
+    "courses": [
+      "CSL 5010"
+    ]
+  },
+  "CSL 5212": {
+    "text": "CSL 5010",
+    "courses": [
+      "CSL 5010"
+    ]
+  },
   "CSL 5810": {
     "text": "CSL 5220",
     "courses": [
@@ -1148,6 +2140,21 @@
     "text": "CSL 5030",
     "courses": [
       "CSL 5030"
+    ]
+  },
+  "CSL 6070": {
+    "text": "CSL 5030 and CSL 5010",
+    "courses": [
+      "CSL 5030",
+      "CSL 5010"
+    ]
+  },
+  "CSL 6110": {
+    "text": "CSL 5010 or CSL 5030 or CSL 5211",
+    "courses": [
+      "CSL 5010",
+      "CSL 5030",
+      "CSL 5211"
     ]
   },
   "CSL 6120": {
@@ -1176,6 +2183,37 @@
       "CSL 6050"
     ]
   },
+  "DSL 1020": {
+    "text": "DSL 1020L",
+    "courses": [
+      "DSL 1020L"
+    ]
+  },
+  "DSL 1020L": {
+    "text": "DSL 1020",
+    "courses": [
+      "DSL 1020"
+    ]
+  },
+  "DSL 1070": {
+    "text": "GTS 1040",
+    "courses": [
+      "GTS 1040"
+    ]
+  },
+  "DSL 1110": {
+    "text": "DSL 1110L and DSL 1010",
+    "courses": [
+      "DSL 1110L",
+      "DSL 1010"
+    ]
+  },
+  "DSL 1110L": {
+    "text": "DSL 1110",
+    "courses": [
+      "DSL 1110"
+    ]
+  },
   "DSL 2010": {
     "text": "DSL 2010L",
     "courses": [
@@ -1186,6 +2224,21 @@
     "text": "DSL 2010",
     "courses": [
       "DSL 2010"
+    ]
+  },
+  "DSL 2020": {
+    "text": "DSL 1020 and DSL 2020L and DSL 1020L",
+    "courses": [
+      "DSL 1020",
+      "DSL 2020L",
+      "DSL 1020L"
+    ]
+  },
+  "DSL 2020L": {
+    "text": "DSL 2020 and DSL 1020",
+    "courses": [
+      "DSL 2020",
+      "DSL 1020"
     ]
   },
   "DSL 2030": {
@@ -1201,10 +2254,58 @@
       "DSL 2030"
     ]
   },
+  "DSL 2050": {
+    "text": "DSL 2010 and DSL 2050L",
+    "courses": [
+      "DSL 2010",
+      "DSL 2050L"
+    ]
+  },
+  "DSL 2050L": {
+    "text": "DSL 2050",
+    "courses": [
+      "DSL 2050"
+    ]
+  },
+  "DSL 2070": {
+    "text": "DSL 1030 and ATT 2020 or DSL 2020 and DSL 2070L",
+    "courses": [
+      "DSL 1030",
+      "ATT 2020",
+      "DSL 2020",
+      "DSL 2070L"
+    ]
+  },
+  "DSL 2070L": {
+    "text": "DSL 2040 and DSL 2070",
+    "courses": [
+      "DSL 2040",
+      "DSL 2070"
+    ]
+  },
+  "EDU 1420": {
+    "text": "EDU 1410",
+    "courses": [
+      "EDU 1410"
+    ]
+  },
   "EDU 2052": {
     "text": "EDU 2051",
     "courses": [
       "EDU 2051"
+    ]
+  },
+  "EDU 3051": {
+    "text": "EDU 2052",
+    "courses": [
+      "EDU 2052"
+    ]
+  },
+  "EDU 3435": {
+    "text": "EDU 2410 and EDU 2420 and EDU 2420",
+    "courses": [
+      "EDU 2410",
+      "EDU 2420"
     ]
   },
   "EDU 3455": {
@@ -1214,10 +2315,26 @@
       "EDU 1420"
     ]
   },
+  "EDU 4250": {
+    "text": "ECE 4811 and EDU 4730",
+    "courses": [
+      "ECE 4811",
+      "EDU 4730"
+    ]
+  },
   "EDU 4420": {
     "text": "EDU 4470",
     "courses": [
       "EDU 4470"
+    ]
+  },
+  "EDU 4470": {
+    "text": "EDU 3435 and EDU 3455 and EDU 3470 and EDU 3480",
+    "courses": [
+      "EDU 3435",
+      "EDU 3455",
+      "EDU 3470",
+      "EDU 3480"
     ]
   },
   "EDU 4600": {
@@ -1228,6 +2345,13 @@
       "EDU 3115"
     ]
   },
+  "EDU 4730": {
+    "text": "ECE 4811 and EDU 4250",
+    "courses": [
+      "ECE 4811",
+      "EDU 4250"
+    ]
+  },
   "EDU 4820": {
     "text": "EDU 4630 and EDU 4368",
     "courses": [
@@ -1235,11 +2359,30 @@
       "EDU 4368"
     ]
   },
+  "EDU 4850": {
+    "text": "EDU 4130 or EDU 4310",
+    "courses": [
+      "EDU 4130",
+      "EDU 4310"
+    ]
+  },
+  "EDU 5021": {
+    "text": "EDU 5015",
+    "courses": [
+      "EDU 5015"
+    ]
+  },
   "EDU 6245": {
     "text": "EDU 6100 and EDU 6123",
     "courses": [
       "EDU 6100",
       "EDU 6123"
+    ]
+  },
+  "EDU 6601": {
+    "text": "EDU 6245",
+    "courses": [
+      "EDU 6245"
     ]
   },
   "EGR 4010": {
@@ -1295,6 +2438,19 @@
       "ELM 4310"
     ]
   },
+  "ELM 4311": {
+    "text": "ELM 4310 and ELM 4311L",
+    "courses": [
+      "ELM 4310",
+      "ELM 4311L"
+    ]
+  },
+  "ELM 4311L": {
+    "text": "ELM 4311",
+    "courses": [
+      "ELM 4311"
+    ]
+  },
   "ELM 4701": {
     "text": "ELM 4020 and ELM 4310 and ELT 1032 and ELT 2041 and ELT 2050 and ELM 4701L and MEC 1020 or MEC 2010 or MEC 2071 or ELT 3050 or ELT 3053 and ELM 4701L and ELM 4701L",
     "courses": [
@@ -1315,6 +2471,21 @@
     "text": "ELM 4701",
     "courses": [
       "ELM 4701"
+    ]
+  },
+  "ELM 4702": {
+    "text": "ELM 4311 and ELT 3110 and ELM 4701 and ELM 4702L and ELM 4702L and ELM 4702L",
+    "courses": [
+      "ELM 4311",
+      "ELT 3110",
+      "ELM 4701",
+      "ELM 4702L"
+    ]
+  },
+  "ELM 4702L": {
+    "text": "ELM 4702",
+    "courses": [
+      "ELM 4702"
     ]
   },
   "ELT 1015": {
@@ -1356,6 +2527,18 @@
       "ELT 1032"
     ]
   },
+  "ELT 1110": {
+    "text": "ELT 1110L and ELT 1110L and ELT 1110L",
+    "courses": [
+      "ELT 1110L"
+    ]
+  },
+  "ELT 1110L": {
+    "text": "ELT 1110",
+    "courses": [
+      "ELT 1110"
+    ]
+  },
   "ELT 2015": {
     "text": "ELT 1110 and ELT 2041",
     "courses": [
@@ -1379,6 +2562,20 @@
       "ELT 2041"
     ]
   },
+  "ELT 2042": {
+    "text": "ELT 2042L and ELT 2041 or MAT 1531 and ELT 2042L and ELT 2042L",
+    "courses": [
+      "ELT 2042L",
+      "ELT 2041",
+      "MAT 1531"
+    ]
+  },
+  "ELT 2042L": {
+    "text": "ELT 2042",
+    "courses": [
+      "ELT 2042"
+    ]
+  },
   "ELT 2050": {
     "text": "CIS 2025 or CIS 2262 or CIS 2271 or ELT 1110 or ELT 2072 and ELT 2050L and ELT 2050L and ELT 2050L",
     "courses": [
@@ -1396,6 +2593,21 @@
       "ELT 2050"
     ]
   },
+  "ELT 2061": {
+    "text": "ELT 1031 or MAT 1520 or PHY 1052 and ELT 2061L",
+    "courses": [
+      "ELT 1031",
+      "MAT 1520",
+      "PHY 1052",
+      "ELT 2061L"
+    ]
+  },
+  "ELT 2061L": {
+    "text": "ELT 2061",
+    "courses": [
+      "ELT 2061"
+    ]
+  },
   "ELT 2071": {
     "text": "MAT 1312 or MAT 1360 and ELT 2071L and ELT 2071L and ELT 2071L",
     "courses": [
@@ -1408,6 +2620,36 @@
     "text": "ELT 2071",
     "courses": [
       "ELT 2071"
+    ]
+  },
+  "ELT 2072": {
+    "text": "CIS 1050 and ELT 2071 and ELT 2072L and ELT 2072L and ELT 2072L",
+    "courses": [
+      "CIS 1050",
+      "ELT 2071",
+      "ELT 2072L"
+    ]
+  },
+  "ELT 2072L": {
+    "text": "ELT 2072",
+    "courses": [
+      "ELT 2072"
+    ]
+  },
+  "ELT 2130": {
+    "text": "ELT 1032 and ELT 2041 and MAT 1520 and ELT 2130L and ELT 2042 and ELT 2130L and ELT 2130L",
+    "courses": [
+      "ELT 1032",
+      "ELT 2041",
+      "MAT 1520",
+      "ELT 2130L",
+      "ELT 2042"
+    ]
+  },
+  "ELT 2130L": {
+    "text": "ELT 2130",
+    "courses": [
+      "ELT 2130"
     ]
   },
   "ELT 2210": {
@@ -1430,6 +2672,23 @@
       "ELT 2710"
     ]
   },
+  "ELT 2720": {
+    "text": "ELT 2015 and ELT 2041 and ELT 2050 and CIS 2151 or ELT 2130 and ELT 2720L",
+    "courses": [
+      "ELT 2015",
+      "ELT 2041",
+      "ELT 2050",
+      "CIS 2151",
+      "ELT 2130",
+      "ELT 2720L"
+    ]
+  },
+  "ELT 2720L": {
+    "text": "ELT 2720",
+    "courses": [
+      "ELT 2720"
+    ]
+  },
   "ELT 3010": {
     "text": "ELT 2050 and ELT 3010L",
     "courses": [
@@ -1441,6 +2700,19 @@
     "text": "ELT 3010",
     "courses": [
       "ELT 3010"
+    ]
+  },
+  "ELT 3050": {
+    "text": "ELT 2050 and ELT 3050L",
+    "courses": [
+      "ELT 2050",
+      "ELT 3050L"
+    ]
+  },
+  "ELT 3050L": {
+    "text": "ELT 3050",
+    "courses": [
+      "ELT 3050"
     ]
   },
   "ELT 3053": {
@@ -1457,11 +2729,45 @@
       "ELT 3053"
     ]
   },
+  "ELT 3110": {
+    "text": "CIS 2025 and ELT 2050 and MAT 1520 and ELT 3110L and ELT 3110L and ELT 3110L",
+    "courses": [
+      "CIS 2025",
+      "ELT 2050",
+      "MAT 1520",
+      "ELT 3110L"
+    ]
+  },
+  "ELT 3110L": {
+    "text": "ELT 3110",
+    "courses": [
+      "ELT 3110"
+    ]
+  },
+  "ELT 4020": {
+    "text": "ELT 2050 and MAT 2532",
+    "courses": [
+      "ELT 2050",
+      "MAT 2532"
+    ]
+  },
+  "EMS 1070": {
+    "text": "EMS 1070L",
+    "courses": [
+      "EMS 1070L"
+    ]
+  },
   "EMS 1290": {
     "text": "EMS 1131 and EMS 1804",
     "courses": [
       "EMS 1131",
       "EMS 1804"
+    ]
+  },
+  "EMS 1804": {
+    "text": "EMS 1131",
+    "courses": [
+      "EMS 1131"
     ]
   },
   "EMS 2010": {
@@ -1474,6 +2780,31 @@
     "text": "EMS 2010",
     "courses": [
       "EMS 2010"
+    ]
+  },
+  "EMS 2011": {
+    "text": "EMS 2010 and EMS 2011L and EMS 2011L and EMS 2011L",
+    "courses": [
+      "EMS 2010",
+      "EMS 2011L"
+    ]
+  },
+  "EMS 2011L": {
+    "text": "EMS 2011",
+    "courses": [
+      "EMS 2011"
+    ]
+  },
+  "ENG 1062": {
+    "text": "ENG 1061",
+    "courses": [
+      "ENG 1061"
+    ]
+  },
+  "ENG 2031": {
+    "text": "ENG 1071",
+    "courses": [
+      "ENG 1071"
     ]
   },
   "ENG 2080": {
@@ -1489,6 +2820,18 @@
       "ENG 1071"
     ]
   },
+  "ENG 2135": {
+    "text": "ENG 1061",
+    "courses": [
+      "ENG 1061"
+    ]
+  },
+  "ENG 3101": {
+    "text": "ENG 1061",
+    "courses": [
+      "ENG 1061"
+    ]
+  },
   "ENG 3120": {
     "text": "ENG 2101",
     "courses": [
@@ -1501,11 +2844,49 @@
       "ENG 2101"
     ]
   },
+  "ENG 3590": {
+    "text": "ENG 1061",
+    "courses": [
+      "ENG 1061"
+    ]
+  },
   "ENV 1080": {
     "text": "ENV 1080L and ENV 1080 and ENV 1080L",
     "courses": [
       "ENV 1080L",
       "ENV 1080"
+    ]
+  },
+  "ENV 2110": {
+    "text": "ENG 1061",
+    "courses": [
+      "ENG 1061"
+    ]
+  },
+  "GEY 1050": {
+    "text": "GEY 1050L",
+    "courses": [
+      "GEY 1050L"
+    ]
+  },
+  "GEY 1050L": {
+    "text": "GEY 1050",
+    "courses": [
+      "GEY 1050"
+    ]
+  },
+  "GLB 4610": {
+    "text": "GLB 3810",
+    "courses": [
+      "GLB 3810"
+    ]
+  },
+  "GTS 1040": {
+    "text": "ATT 1110 or DSL 1070 and GTS 1120",
+    "courses": [
+      "ATT 1110",
+      "DSL 1070",
+      "GTS 1120"
     ]
   },
   "GTS 1120": {
@@ -1522,10 +2903,28 @@
       "PED 2420"
     ]
   },
+  "HED 2330": {
+    "text": "HED 2310",
+    "courses": [
+      "HED 2310"
+    ]
+  },
+  "HED 3020": {
+    "text": "HED 2310",
+    "courses": [
+      "HED 2310"
+    ]
+  },
   "HED 4040": {
     "text": "HED 2310",
     "courses": [
       "HED 2310"
+    ]
+  },
+  "HED 4810": {
+    "text": "HED 4052",
+    "courses": [
+      "HED 4052"
     ]
   },
   "HED 4811": {
@@ -1561,6 +2960,12 @@
       "ENG 1043"
     ]
   },
+  "HIS 4602": {
+    "text": "HIS 4601",
+    "courses": [
+      "HIS 4601"
+    ]
+  },
   "HUM 2020": {
     "text": "ENG 1061 or ENG 1060 or ENG 1043",
     "courses": [
@@ -1570,6 +2975,18 @@
     ]
   },
   "HUM 3025": {
+    "text": "ENG 1061",
+    "courses": [
+      "ENG 1061"
+    ]
+  },
+  "HUM 3060": {
+    "text": "ENG 1061",
+    "courses": [
+      "ENG 1061"
+    ]
+  },
+  "HUM 3490": {
     "text": "ENG 1061",
     "courses": [
       "ENG 1061"
@@ -1587,10 +3004,22 @@
       "INT 1051"
     ]
   },
+  "INT 2860": {
+    "text": "CED 0286",
+    "courses": [
+      "CED 0286"
+    ]
+  },
   "INT 3054": {
     "text": "INT 1053",
     "courses": [
       "INT 1053"
+    ]
+  },
+  "LAH 1050": {
+    "text": "LAH 1050L",
+    "courses": [
+      "LAH 1050L"
     ]
   },
   "MAT 1085L": {
@@ -1619,6 +3048,12 @@
       "MAT 1315L"
     ]
   },
+  "MAT 1312": {
+    "text": "MAT 1311",
+    "courses": [
+      "MAT 1311"
+    ]
+  },
   "MAT 1315L": {
     "text": "MAT 1311 and PLM 0001 and PLM 0002 and MAT 1311 and MAT 1311 and MAT 1311 and MAT 1311",
     "courses": [
@@ -1640,6 +3075,12 @@
       "PLM 0001"
     ]
   },
+  "MAT 1530": {
+    "text": "MAT 1360",
+    "courses": [
+      "MAT 1360"
+    ]
+  },
   "MAT 1531": {
     "text": "MAT 1312 or MAT 1360 or MAT 1420",
     "courses": [
@@ -1648,12 +3089,38 @@
       "MAT 1420"
     ]
   },
+  "MAT 2020": {
+    "text": "MAT 1531 or MAT 2020",
+    "courses": [
+      "MAT 1531",
+      "MAT 2020"
+    ]
+  },
+  "MAT 2120": {
+    "text": "MAT 1311",
+    "courses": [
+      "MAT 1311"
+    ]
+  },
   "MAT 2532": {
     "text": "MAT 1514 or MAT 1520 or MAT 1531",
     "courses": [
       "MAT 1514",
       "MAT 1520",
       "MAT 1531"
+    ]
+  },
+  "MAT 3135": {
+    "text": "MAT 2021 or MAT 2040",
+    "courses": [
+      "MAT 2021",
+      "MAT 2040"
+    ]
+  },
+  "MAT 3170": {
+    "text": "MAT 2532",
+    "courses": [
+      "MAT 2532"
     ]
   },
   "MAT 3210": {
@@ -1666,6 +3133,22 @@
     "text": "MAT 2532",
     "courses": [
       "MAT 2532"
+    ]
+  },
+  "MAT 3230": {
+    "text": "MAT 3220 or MAT 2532",
+    "courses": [
+      "MAT 3220",
+      "MAT 2532"
+    ]
+  },
+  "MAT 3250": {
+    "text": "MAT 2022 or MAT 3230 or MAT 3260 or MAT 3135",
+    "courses": [
+      "MAT 2022",
+      "MAT 3230",
+      "MAT 3260",
+      "MAT 3135"
     ]
   },
   "MAT 3260": {
@@ -1690,11 +3173,29 @@
       "MAT 3230"
     ]
   },
+  "MAT 4040": {
+    "text": "MAT 3533",
+    "courses": [
+      "MAT 3533"
+    ]
+  },
   "MAT 4140": {
     "text": "MAT 2020 and MAT 3210",
     "courses": [
       "MAT 2020",
       "MAT 3210"
+    ]
+  },
+  "MBI 2170": {
+    "text": "MBI 1160",
+    "courses": [
+      "MBI 1160"
+    ]
+  },
+  "MBI 3310": {
+    "text": "MBI 1360",
+    "courses": [
+      "MBI 1360"
     ]
   },
   "MBI 3315": {
@@ -1713,6 +3214,12 @@
     "text": "MEC 1020",
     "courses": [
       "MEC 1020"
+    ]
+  },
+  "MEC 1012": {
+    "text": "MEC 1011",
+    "courses": [
+      "MEC 1011"
     ]
   },
   "MEC 1020": {
@@ -1753,6 +3260,18 @@
       "MEC 1060"
     ]
   },
+  "MEC 1070": {
+    "text": "MEC 1070L",
+    "courses": [
+      "MEC 1070L"
+    ]
+  },
+  "MEC 1070L": {
+    "text": "MEC 1070",
+    "courses": [
+      "MEC 1070"
+    ]
+  },
   "MEC 1180": {
     "text": "MEC 1180L and MEC 1180L and MEC 1180L and MEC 1180L",
     "courses": [
@@ -1763,6 +3282,19 @@
     "text": "MEC 1180",
     "courses": [
       "MEC 1180"
+    ]
+  },
+  "MEC 1310": {
+    "text": "CED 1311",
+    "courses": [
+      "CED 1311"
+    ]
+  },
+  "MEC 1320": {
+    "text": "MEC 1310 and CED 1311",
+    "courses": [
+      "MEC 1310",
+      "CED 1311"
     ]
   },
   "MEC 2010": {
@@ -1809,6 +3341,64 @@
       "MEC 2040"
     ]
   },
+  "MEC 2050": {
+    "text": "MAT 1520 and MEC 2010 and PHY 1041 and MEC 2050L and MEC 2050L and MEC 2050L",
+    "courses": [
+      "MAT 1520",
+      "MEC 2010",
+      "PHY 1041",
+      "MEC 2050L"
+    ]
+  },
+  "MEC 2050L": {
+    "text": "MEC 2050 and MEC 2050 and MEC 2050",
+    "courses": [
+      "MEC 2050"
+    ]
+  },
+  "MEC 2065": {
+    "text": "MAT 1531 and MEC 1011 and PHY 1051 and MEC 2065L and MEC 2065L and MEC 2065L",
+    "courses": [
+      "MAT 1531",
+      "MEC 1011",
+      "PHY 1051",
+      "MEC 2065L"
+    ]
+  },
+  "MEC 2065L": {
+    "text": "MEC 2065 and MEC 2065 and MEC 2065",
+    "courses": [
+      "MEC 2065"
+    ]
+  },
+  "MEC 2071": {
+    "text": "MEC 2035",
+    "courses": [
+      "MEC 2035"
+    ]
+  },
+  "MEC 2710": {
+    "text": "MEC 2710L and MEC 2030",
+    "courses": [
+      "MEC 2710L",
+      "MEC 2030"
+    ]
+  },
+  "MEC 2720": {
+    "text": "MEC 2010 and MEC 2035 and MEC 2040 and MEC 2720L and MEC 2720L and MEC 2720L",
+    "courses": [
+      "MEC 2010",
+      "MEC 2035",
+      "MEC 2040",
+      "MEC 2720L"
+    ]
+  },
+  "MEC 2720L": {
+    "text": "MEC 2720 and MEC 2720 and MEC 2720",
+    "courses": [
+      "MEC 2720"
+    ]
+  },
   "MEC 3031": {
     "text": "MAT 1520 and MEC 1020 and MEC 1040 and MEC 2035 and MEC 3031L and MAT 2532",
     "courses": [
@@ -1841,6 +3431,26 @@
       "MEC 3120"
     ]
   },
+  "MEC 3121": {
+    "text": "MEC 1011 and MEC 1040 and MEC 3121L and MEC 3121L and MEC 3121L",
+    "courses": [
+      "MEC 1011",
+      "MEC 1040",
+      "MEC 3121L"
+    ]
+  },
+  "MEC 3121L": {
+    "text": "MEC 3121 and MEC 3121 and MEC 3121",
+    "courses": [
+      "MEC 3121"
+    ]
+  },
+  "MEC 4010": {
+    "text": "MAT 2021",
+    "courses": [
+      "MAT 2021"
+    ]
+  },
   "MEC 4220": {
     "text": "MEC 3041 or MEC 3121 and MEC 1060 and MEC 3021 and MEC 3031 and MEC 3120 and MEC 4020 and MEC 4220L",
     "courses": [
@@ -1858,6 +3468,39 @@
     "text": "MEC 4220 and MEC 4220 and MEC 4220",
     "courses": [
       "MEC 4220"
+    ]
+  },
+  "MEC 4721": {
+    "text": "MEC 4721L and MEC 1060 and MEC 3021 and MEC 3031 and MEC 4020 and MEC 4220 and MEC 3041 and MEC 3121 and MEC 4010",
+    "courses": [
+      "MEC 4721L",
+      "MEC 1060",
+      "MEC 3021",
+      "MEC 3031",
+      "MEC 4020",
+      "MEC 4220",
+      "MEC 3041",
+      "MEC 3121",
+      "MEC 4010"
+    ]
+  },
+  "MEC 4721L": {
+    "text": "MEC 4721 and MEC 4721 and MEC 4721",
+    "courses": [
+      "MEC 4721"
+    ]
+  },
+  "MUS 1091": {
+    "text": "MUS 1030 and MUS 1231",
+    "courses": [
+      "MUS 1030",
+      "MUS 1231"
+    ]
+  },
+  "MUS 1231": {
+    "text": "MUS 1091",
+    "courses": [
+      "MUS 1091"
     ]
   },
   "MUS 2051": {
@@ -1903,16 +3546,41 @@
       "MUS 1231"
     ]
   },
+  "MUS 2240": {
+    "text": "MUS 1231",
+    "courses": [
+      "MUS 1231"
+    ]
+  },
   "MUS 2430": {
     "text": "MUS 1431",
     "courses": [
       "MUS 1431"
     ]
   },
+  "MUS 3025": {
+    "text": "MUS 2092",
+    "courses": [
+      "MUS 2092"
+    ]
+  },
+  "MUS 3035": {
+    "text": "MUS 2232 and MUS 3025",
+    "courses": [
+      "MUS 2232",
+      "MUS 3025"
+    ]
+  },
   "MUS 3165": {
     "text": "MUS 1090",
     "courses": [
       "MUS 1090"
+    ]
+  },
+  "MUS 3283": {
+    "text": "MUS 2125",
+    "courses": [
+      "MUS 2125"
     ]
   },
   "MUS 3320": {
@@ -1932,6 +3600,27 @@
     "text": "MUS 2125",
     "courses": [
       "MUS 2125"
+    ]
+  },
+  "MUS 4610": {
+    "text": "MUS 4871 and MUS 4872",
+    "courses": [
+      "MUS 4871",
+      "MUS 4872"
+    ]
+  },
+  "MUS 4871": {
+    "text": "MUS 4610 and MUS 4872",
+    "courses": [
+      "MUS 4610",
+      "MUS 4872"
+    ]
+  },
+  "MUS 4872": {
+    "text": "MUS 4610 and MUS 4871",
+    "courses": [
+      "MUS 4610",
+      "MUS 4871"
     ]
   },
   "NUR 2030": {
@@ -1963,9 +3652,44 @@
       "NUR 2045"
     ]
   },
+  "NUR 2055": {
+    "text": "NUR 1015 and BIO 2011 and BIO 2012 and NUR 2055L and NUR 2055L and NUR 2055L and NUR 2055L and NUR 2055L",
+    "courses": [
+      "NUR 1015",
+      "BIO 2011",
+      "BIO 2012",
+      "NUR 2055L"
+    ]
+  },
+  "NUR 2055L": {
+    "text": "NUR 2055",
+    "courses": [
+      "NUR 2055"
+    ]
+  },
   "NUR 2060": {
     "text": "NUR 2030 and NUR 2040",
     "courses": [
+      "NUR 2030",
+      "NUR 2040"
+    ]
+  },
+  "NUR 2130": {
+    "text": "BIO 2120 and NUR 2060 and NUR 2030 and NUR 2040 and NUR 2140",
+    "courses": [
+      "BIO 2120",
+      "NUR 2060",
+      "NUR 2030",
+      "NUR 2040",
+      "NUR 2140"
+    ]
+  },
+  "NUR 2140": {
+    "text": "NUR 2130 and BIO 2120 and NUR 2060 and NUR 2030 and NUR 2040",
+    "courses": [
+      "NUR 2130",
+      "BIO 2120",
+      "NUR 2060",
       "NUR 2030",
       "NUR 2040"
     ]
@@ -1974,6 +3698,22 @@
     "text": "MAT 1350",
     "courses": [
       "MAT 1350"
+    ]
+  },
+  "NUR 3045": {
+    "text": "NUR 2510 and NUR 2045 and NUR 3085 and NUR 4035 and NUR 3045L and NUR 3045L and NUR 3045L and NUR 3045L and NUR 3045L and NUR 3045L and NUR 3045L",
+    "courses": [
+      "NUR 2510",
+      "NUR 2045",
+      "NUR 3085",
+      "NUR 4035",
+      "NUR 3045L"
+    ]
+  },
+  "NUR 3045L": {
+    "text": "NUR 3045",
+    "courses": [
+      "NUR 3045"
     ]
   },
   "NUR 3080": {
@@ -2056,6 +3796,22 @@
       "NUR 4035"
     ]
   },
+  "NUR 4035": {
+    "text": "NUR 2045 and NUR 2510 and NUR 3085 and NUR 3045 and NUR 4035L and NUR 4035L and NUR 4035L and NUR 4035L and NUR 4035L and NUR 4035L and NUR 4035L",
+    "courses": [
+      "NUR 2045",
+      "NUR 2510",
+      "NUR 3085",
+      "NUR 3045",
+      "NUR 4035L"
+    ]
+  },
+  "NUR 4035L": {
+    "text": "NUR 4035",
+    "courses": [
+      "NUR 4035"
+    ]
+  },
   "NUR 4045": {
     "text": "NUR 3080 and NUR 4030 and NUR 3045 and NUR 4035 and NUR 4045L and NUR 4045L and NUR 4045L and NUR 4045L",
     "courses": [
@@ -2091,6 +3847,12 @@
       "NUR 3110"
     ]
   },
+  "NUR 4220": {
+    "text": "NUR 2055",
+    "courses": [
+      "NUR 2055"
+    ]
+  },
   "NUR 4410": {
     "text": "MAT 2021 and NUR 3100 and NUR 3110 and SOC 1010",
     "courses": [
@@ -2098,6 +3860,54 @@
       "NUR 3100",
       "NUR 3110",
       "SOC 1010"
+    ]
+  },
+  "NUR 4515": {
+    "text": "NUR 3080 and NUR 4030 and NUR 4040 and NUR 4045 and NUR 4820 and NUR 4520 and NUR 4625",
+    "courses": [
+      "NUR 3080",
+      "NUR 4030",
+      "NUR 4040",
+      "NUR 4045",
+      "NUR 4820",
+      "NUR 4520",
+      "NUR 4625"
+    ]
+  },
+  "NUR 4520": {
+    "text": "NUR 3080 and NUR 4040 and NUR 4030 and NUR 4045 and NUR 4515 and NUR 4625 and NUR 4820",
+    "courses": [
+      "NUR 3080",
+      "NUR 4040",
+      "NUR 4030",
+      "NUR 4045",
+      "NUR 4515",
+      "NUR 4625",
+      "NUR 4820"
+    ]
+  },
+  "NUR 4625": {
+    "text": "NUR 3080 and NUR 4040 and NUR 4030 and NUR 4045 and NUR 4615 and NUR 4620 and NUR 4810",
+    "courses": [
+      "NUR 3080",
+      "NUR 4040",
+      "NUR 4030",
+      "NUR 4045",
+      "NUR 4615",
+      "NUR 4620",
+      "NUR 4810"
+    ]
+  },
+  "NUR 4820": {
+    "text": "NUR 3080 and NUR 4040 and NUR 4030 and NUR 4045 and NUR 4515 and NUR 4625 and NUR 4520",
+    "courses": [
+      "NUR 3080",
+      "NUR 4040",
+      "NUR 4030",
+      "NUR 4045",
+      "NUR 4515",
+      "NUR 4625",
+      "NUR 4520"
     ]
   },
   "OEL 3240": {
@@ -2127,6 +3937,21 @@
       "OHS 1011"
     ]
   },
+  "OHS 1012": {
+    "text": "OHS 1012L and OHS 1011 and OHS 1021 and OHS 1022 and OHS 1012L and OHS 1012L and OHS 1012L and OHS 1012L and OHS 1012L",
+    "courses": [
+      "OHS 1012L",
+      "OHS 1011",
+      "OHS 1021",
+      "OHS 1022"
+    ]
+  },
+  "OHS 1012L": {
+    "text": "OHS 1012",
+    "courses": [
+      "OHS 1012"
+    ]
+  },
   "OHS 1021": {
     "text": "OHS 1021L and OHS 1011 and OHS 1021L and OHS 1021L",
     "courses": [
@@ -2138,6 +3963,58 @@
     "text": "OHS 1021",
     "courses": [
       "OHS 1021"
+    ]
+  },
+  "OHS 1022": {
+    "text": "OHS 1021 and OHS 1012 and OHS 1022L and OHS 1022L and OHS 1022L",
+    "courses": [
+      "OHS 1021",
+      "OHS 1012",
+      "OHS 1022L"
+    ]
+  },
+  "OHS 1022L": {
+    "text": "OHS 1022",
+    "courses": [
+      "OHS 1022"
+    ]
+  },
+  "OHS 1030": {
+    "text": "OHS 1012 or OHS 1011 and OHS 1012 or OHS 2721 and OHS 1030L and OHS 1030L and OHS 1030L and OHS 1030L and OHS 1030L",
+    "courses": [
+      "OHS 1012",
+      "OHS 1011",
+      "OHS 2721",
+      "OHS 1030L"
+    ]
+  },
+  "OHS 1030L": {
+    "text": "OHS 1030",
+    "courses": [
+      "OHS 1030"
+    ]
+  },
+  "OHS 2010": {
+    "text": "OHS 1011 or OHS 2721 and OHS 2020 or OHS 2722 and OHS 2010L and OHS 2010L and OHS 2010L and OHS 2010L",
+    "courses": [
+      "OHS 1011",
+      "OHS 2721",
+      "OHS 2020",
+      "OHS 2722",
+      "OHS 2010L"
+    ]
+  },
+  "OHS 2010L": {
+    "text": "OHS 2010",
+    "courses": [
+      "OHS 2010"
+    ]
+  },
+  "OHS 2020": {
+    "text": "BIO 2120 and OHS 2721",
+    "courses": [
+      "BIO 2120",
+      "OHS 2721"
     ]
   },
   "OHS 2030": {
@@ -2155,6 +4032,24 @@
     "courses": [
       "OHS 2722",
       "OHS 3821"
+    ]
+  },
+  "OHS 2211": {
+    "text": "OHS 2210 and OHS 3821 and OHS 2220 and OHS 3822",
+    "courses": [
+      "OHS 2210",
+      "OHS 3821",
+      "OHS 2220",
+      "OHS 3822"
+    ]
+  },
+  "OHS 2220": {
+    "text": "OHS 1012 or OHS 3821 and OHS 2721 or OHS 3822",
+    "courses": [
+      "OHS 1012",
+      "OHS 3821",
+      "OHS 2721",
+      "OHS 3822"
     ]
   },
   "OHS 2721": {
@@ -2179,6 +4074,29 @@
       "OHS 2721"
     ]
   },
+  "OHS 2722": {
+    "text": "OHS 2030 and OHS 2721 and OHS 2020 and OHS 2010 and OHS 2722L and OHS 2722L and OHS 2722L and OHS 2722L and OHS 2722L",
+    "courses": [
+      "OHS 2030",
+      "OHS 2721",
+      "OHS 2020",
+      "OHS 2010",
+      "OHS 2722L"
+    ]
+  },
+  "OHS 2722L": {
+    "text": "OHS 2722",
+    "courses": [
+      "OHS 2722"
+    ]
+  },
+  "OHS 3020": {
+    "text": "OHS 2030 and OHS 3010",
+    "courses": [
+      "OHS 2030",
+      "OHS 3010"
+    ]
+  },
   "OHS 3821": {
     "text": "OHS 2722 and OHS 2030 and OHS 3821L and OHS 3821L and OHS 3821L and OHS 3821L and OHS 3821L",
     "courses": [
@@ -2193,7 +4111,33 @@
       "OHS 3821"
     ]
   },
+  "OHS 3822": {
+    "text": "OHS 3821 and OHS 2211 and OHS 3822L and OHS 3822L and OHS 3822L and OHS 3822L and OHS 3822L and OHS 3822L and OHS 3822L",
+    "courses": [
+      "OHS 3821",
+      "OHS 2211",
+      "OHS 3822L"
+    ]
+  },
+  "OHS 3822L": {
+    "text": "OHS 3822",
+    "courses": [
+      "OHS 3822"
+    ]
+  },
   "OHS 4010": {
+    "text": "OHS 3010",
+    "courses": [
+      "OHS 3010"
+    ]
+  },
+  "OHS 4013": {
+    "text": "OHS 3010",
+    "courses": [
+      "OHS 3010"
+    ]
+  },
+  "OHS 4237": {
     "text": "OHS 3010",
     "courses": [
       "OHS 3010"
@@ -2229,11 +4173,23 @@
       "PED 1015"
     ]
   },
+  "PED 3055": {
+    "text": "PED 3410",
+    "courses": [
+      "PED 3410"
+    ]
+  },
   "PED 3110": {
     "text": "PED 3410 or PED 2420",
     "courses": [
       "PED 3410",
       "PED 2420"
+    ]
+  },
+  "PED 3135": {
+    "text": "PED 3410",
+    "courses": [
+      "PED 3410"
     ]
   },
   "PED 3220": {
@@ -2246,6 +4202,13 @@
     "text": "PED 3410",
     "courses": [
       "PED 3410"
+    ]
+  },
+  "PED 3410": {
+    "text": "PED 1015 and PED 2420",
+    "courses": [
+      "PED 1015",
+      "PED 2420"
     ]
   },
   "PED 4030": {
@@ -2261,6 +4224,19 @@
       "PED 4070L"
     ]
   },
+  "PED 4140": {
+    "text": "PED 3410 and PED 4140L",
+    "courses": [
+      "PED 3410",
+      "PED 4140L"
+    ]
+  },
+  "PED 4140L": {
+    "text": "PED 4140",
+    "courses": [
+      "PED 4140"
+    ]
+  },
   "PED 4871": {
     "text": "PED 4872",
     "courses": [
@@ -2272,6 +4248,25 @@
     "courses": [
       "PED 4720",
       "PED 4871"
+    ]
+  },
+  "PHY 1030": {
+    "text": "MAT 1210 and PHY 1030L and PHY 1030L and PHY 1030L",
+    "courses": [
+      "MAT 1210",
+      "PHY 1030L"
+    ]
+  },
+  "PHY 1030L": {
+    "text": "PHY 1030",
+    "courses": [
+      "PHY 1030"
+    ]
+  },
+  "PHY 1042": {
+    "text": "PHY 1041",
+    "courses": [
+      "PHY 1041"
     ]
   },
   "PHY 1051": {
@@ -2300,6 +4295,12 @@
       "PHY 1052"
     ]
   },
+  "PHY 2010L": {
+    "text": "PHY 2010",
+    "courses": [
+      "PHY 2010"
+    ]
+  },
   "PHY 2061": {
     "text": "MAT 1531 and PHY 2061L",
     "courses": [
@@ -2311,6 +4312,19 @@
     "text": "PHY 2061",
     "courses": [
       "PHY 2061"
+    ]
+  },
+  "PHY 2062": {
+    "text": "PHY 2061 and PHY 2062L",
+    "courses": [
+      "PHY 2061",
+      "PHY 2062L"
+    ]
+  },
+  "PHY 2062L": {
+    "text": "PHY 2062",
+    "courses": [
+      "PHY 2062"
     ]
   },
   "PSY 2410": {
@@ -2325,6 +4339,19 @@
     "courses": [
       "PSY 2410",
       "MAT 2021"
+    ]
+  },
+  "PSY 2811": {
+    "text": "PSY 1040 and PSY 2812",
+    "courses": [
+      "PSY 1040",
+      "PSY 2812"
+    ]
+  },
+  "PSY 2812": {
+    "text": "PSY 1040",
+    "courses": [
+      "PSY 1040"
     ]
   },
   "PSY 3010": {
@@ -2345,6 +4372,12 @@
       "PSY 1010"
     ]
   },
+  "PSY 3080": {
+    "text": "PSY 2270",
+    "courses": [
+      "PSY 2270"
+    ]
+  },
   "PSY 3110": {
     "text": "PSY 1050 or PSY 2070",
     "courses": [
@@ -2359,10 +4392,34 @@
       "PSY 3070"
     ]
   },
+  "PSY 3165": {
+    "text": "PSY 2415",
+    "courses": [
+      "PSY 2415"
+    ]
+  },
+  "PSY 3230": {
+    "text": "PSY 1010",
+    "courses": [
+      "PSY 1010"
+    ]
+  },
   "PSY 3260": {
     "text": "PSY 2070",
     "courses": [
       "PSY 2070"
+    ]
+  },
+  "PSY 3410": {
+    "text": "PSY 1010",
+    "courses": [
+      "PSY 1010"
+    ]
+  },
+  "PSY 3415": {
+    "text": "PSY 3410",
+    "courses": [
+      "PSY 3410"
     ]
   },
   "PSY 3425": {
@@ -2377,7 +4434,19 @@
       "PSY 1010"
     ]
   },
+  "PSY 4020": {
+    "text": "PSY 1010",
+    "courses": [
+      "PSY 1010"
+    ]
+  },
   "PSY 4055": {
+    "text": "PSY 1010",
+    "courses": [
+      "PSY 1010"
+    ]
+  },
+  "PSY 4065": {
     "text": "PSY 1010",
     "courses": [
       "PSY 1010"
@@ -2396,6 +4465,12 @@
       "PSY 3070"
     ]
   },
+  "PSY 4330": {
+    "text": "PSY 1010",
+    "courses": [
+      "PSY 1010"
+    ]
+  },
   "PSY 4340": {
     "text": "PSY 1010",
     "courses": [
@@ -2408,6 +4483,13 @@
       "PSY 1010"
     ]
   },
+  "PSY 4820": {
+    "text": "PSY 2811 and PSY 2812",
+    "courses": [
+      "PSY 2811",
+      "PSY 2812"
+    ]
+  },
   "RAD 1011": {
     "text": "RAD 1210 and RAD 1310",
     "courses": [
@@ -2415,11 +4497,31 @@
       "RAD 1310"
     ]
   },
+  "RAD 1012": {
+    "text": "RAD 1011 and RAD 1210 and RAD 1310 and RAD 1211 and RAD 1311",
+    "courses": [
+      "RAD 1011",
+      "RAD 1210",
+      "RAD 1310",
+      "RAD 1211",
+      "RAD 1311"
+    ]
+  },
   "RAD 1210": {
     "text": "RAD 1011 and RAD 1310",
     "courses": [
       "RAD 1011",
       "RAD 1310"
+    ]
+  },
+  "RAD 1211": {
+    "text": "RAD 1210 and RAD 1310 and RAD 1011 and RAD 1012 and RAD 1311",
+    "courses": [
+      "RAD 1210",
+      "RAD 1310",
+      "RAD 1011",
+      "RAD 1012",
+      "RAD 1311"
     ]
   },
   "RAD 1310": {
@@ -2436,6 +4538,21 @@
       "RAD 1310"
     ]
   },
+  "RAD 1311": {
+    "text": "RAD 1310 and RAD 1210 and RAD 1011 and RAD 1311L and RAD 1311L and RAD 1311L and RAD 1311L",
+    "courses": [
+      "RAD 1310",
+      "RAD 1210",
+      "RAD 1011",
+      "RAD 1311L"
+    ]
+  },
+  "RAD 1311L": {
+    "text": "RAD 1311",
+    "courses": [
+      "RAD 1311"
+    ]
+  },
   "RAD 2113": {
     "text": "RAD 1012 and RAD 1211 and RAD 1311 and RAD 2230 and RAD 2312",
     "courses": [
@@ -2444,6 +4561,39 @@
       "RAD 1311",
       "RAD 2230",
       "RAD 2312"
+    ]
+  },
+  "RAD 2114": {
+    "text": "RAD 2113 and RAD 2230 and RAD 2312 and RAD 2210 and RAD 2220 and RAD 2240",
+    "courses": [
+      "RAD 2113",
+      "RAD 2230",
+      "RAD 2312",
+      "RAD 2210",
+      "RAD 2220",
+      "RAD 2240"
+    ]
+  },
+  "RAD 2210": {
+    "text": "RAD 2113 and RAD 2230 and RAD 2312 and RAD 2114 and RAD 2220 and RAD 2240",
+    "courses": [
+      "RAD 2113",
+      "RAD 2230",
+      "RAD 2312",
+      "RAD 2114",
+      "RAD 2220",
+      "RAD 2240"
+    ]
+  },
+  "RAD 2240": {
+    "text": "RAD 2113 and RAD 2230 and RAD 2312 and RAD 2114 and RAD 2210 and RAD 2220",
+    "courses": [
+      "RAD 2113",
+      "RAD 2230",
+      "RAD 2312",
+      "RAD 2114",
+      "RAD 2210",
+      "RAD 2220"
     ]
   },
   "RAD 2312": {
@@ -2463,6 +4613,27 @@
       "CRJ 2150"
     ]
   },
+  "RSJ 3015": {
+    "text": "RSJ 1015 or CRJ 1010",
+    "courses": [
+      "RSJ 1015",
+      "CRJ 1010"
+    ]
+  },
+  "RSJ 3030": {
+    "text": "RSJ 1015 or CRJ 2150 and RSJ 3030L",
+    "courses": [
+      "RSJ 1015",
+      "CRJ 2150",
+      "RSJ 3030L"
+    ]
+  },
+  "RSJ 3030L": {
+    "text": "RSJ 3030",
+    "courses": [
+      "RSJ 3030"
+    ]
+  },
   "RSP 1011": {
     "text": "RSP 1020 and RSP 1011L and BIO 2011 and BIO 2012",
     "courses": [
@@ -2476,6 +4647,23 @@
     "text": "RSP 1011",
     "courses": [
       "RSP 1011"
+    ]
+  },
+  "RSP 1012": {
+    "text": "RSP 1020 and RSP 1011 and RSP 1023 and RSP 1210 and RSP 1601 and RSP 1012L",
+    "courses": [
+      "RSP 1020",
+      "RSP 1011",
+      "RSP 1023",
+      "RSP 1210",
+      "RSP 1601",
+      "RSP 1012L"
+    ]
+  },
+  "RSP 1012L": {
+    "text": "RSP 1012",
+    "courses": [
+      "RSP 1012"
     ]
   },
   "RSP 1020": {
@@ -2493,12 +4681,43 @@
       "BIO 2012"
     ]
   },
+  "RSP 1210": {
+    "text": "RSP 1020 and RSP 1011 and RSP 1023 and RSP 1012 and RSP 1601",
+    "courses": [
+      "RSP 1020",
+      "RSP 1011",
+      "RSP 1023",
+      "RSP 1012",
+      "RSP 1601"
+    ]
+  },
+  "RSP 1601": {
+    "text": "RSP 1020 and RSP 1011 and RSP 1023 and RSP 1012 and RSP 1210",
+    "courses": [
+      "RSP 1020",
+      "RSP 1011",
+      "RSP 1023",
+      "RSP 1012",
+      "RSP 1210"
+    ]
+  },
   "RSP 2011": {
     "text": "RSP 2801 and RSP 2013 and RSP 2602",
     "courses": [
       "RSP 2801",
       "RSP 2013",
       "RSP 2602"
+    ]
+  },
+  "RSP 2012": {
+    "text": "BIO 2120 and RSP 2011 and RSP 2013 and RSP 2602 and RSP 2603 and RSP 2802",
+    "courses": [
+      "BIO 2120",
+      "RSP 2011",
+      "RSP 2013",
+      "RSP 2602",
+      "RSP 2603",
+      "RSP 2802"
     ]
   },
   "RSP 2013": {
@@ -2524,6 +4743,17 @@
       "RSP 2013"
     ]
   },
+  "RSP 2603": {
+    "text": "BIO 2120 and RSP 2011 and RSP 2013 and RSP 2602 and RSP 2012 and RSP 2802",
+    "courses": [
+      "BIO 2120",
+      "RSP 2011",
+      "RSP 2013",
+      "RSP 2602",
+      "RSP 2012",
+      "RSP 2802"
+    ]
+  },
   "SCI 2210": {
     "text": "SCI 2210L and SCI 2210 and SCI 2210L",
     "courses": [
@@ -2543,10 +4773,28 @@
       "SMT 1350"
     ]
   },
+  "SMT 3010": {
+    "text": "SMT 1350",
+    "courses": [
+      "SMT 1350"
+    ]
+  },
   "SMT 3020": {
     "text": "BUS 1210 or SMT 1350",
     "courses": [
       "BUS 1210",
+      "SMT 1350"
+    ]
+  },
+  "SMT 3130": {
+    "text": "SMT 1350",
+    "courses": [
+      "SMT 1350"
+    ]
+  },
+  "SMT 3160": {
+    "text": "SMT 1350",
+    "courses": [
       "SMT 1350"
     ]
   },
@@ -2574,6 +4822,12 @@
       "SMT 1350"
     ]
   },
+  "SMT 4080": {
+    "text": "SMT 1350",
+    "courses": [
+      "SMT 1350"
+    ]
+  },
   "SMT 4110": {
     "text": "SMT 1350",
     "courses": [
@@ -2584,6 +4838,13 @@
     "text": "SOC 1010",
     "courses": [
       "SOC 1010"
+    ]
+  },
+  "SSC 3140": {
+    "text": "ENG 1060 or ENG 1061",
+    "courses": [
+      "ENG 1060",
+      "ENG 1061"
     ]
   },
   "SWK 1810": {
@@ -2601,12 +4862,34 @@
       "BIO 2011"
     ]
   },
+  "SWK 2040": {
+    "text": "SOC 1010",
+    "courses": [
+      "SOC 1010"
+    ]
+  },
   "SWK 2050": {
     "text": "SWK 1010 or SOC 1010 or PSY 1012",
     "courses": [
       "SWK 1010",
       "SOC 1010",
       "PSY 1012"
+    ]
+  },
+  "SWK 3010": {
+    "text": "SWK 1810 and SWK 2011 and SWK 3020",
+    "courses": [
+      "SWK 1810",
+      "SWK 2011",
+      "SWK 3020"
+    ]
+  },
+  "SWK 3020": {
+    "text": "SOC 1010 and SWK 1010 and SWK 2011",
+    "courses": [
+      "SOC 1010",
+      "SWK 1010",
+      "SWK 2011"
     ]
   },
   "SWK 3040": {
@@ -2630,10 +4913,59 @@
       "SWK 3020"
     ]
   },
+  "SWK 4030": {
+    "text": "SWK 4020 or SWK 4811 and SWK 4812",
+    "courses": [
+      "SWK 4020",
+      "SWK 4811",
+      "SWK 4812"
+    ]
+  },
+  "SWK 4720": {
+    "text": "SWK 4020 and SWK 4811 and SWK 4030 and SWK 4812",
+    "courses": [
+      "SWK 4020",
+      "SWK 4811",
+      "SWK 4030",
+      "SWK 4812"
+    ]
+  },
   "SWK 4811": {
     "text": "SWK 4020",
     "courses": [
       "SWK 4020"
+    ]
+  },
+  "SWK 4812": {
+    "text": "SWK 4020 or SWK 4811",
+    "courses": [
+      "SWK 4020",
+      "SWK 4811"
+    ]
+  },
+  "THA 2122": {
+    "text": "THA 2121",
+    "courses": [
+      "THA 2121"
+    ]
+  },
+  "THA 3212": {
+    "text": "THA 3211",
+    "courses": [
+      "THA 3211"
+    ]
+  },
+  "VET 1020": {
+    "text": "BIO 2320 and VET 1020L and VET 1020L and VET 1020L",
+    "courses": [
+      "BIO 2320",
+      "VET 1020L"
+    ]
+  },
+  "VET 1020L": {
+    "text": "VET 1020",
+    "courses": [
+      "VET 1020"
     ]
   },
   "VET 1030": {
@@ -2648,6 +4980,20 @@
       "VET 1030"
     ]
   },
+  "VET 1040": {
+    "text": "BIO 2320 and VET 1030 and VET 1040L and VET 1040L and VET 1040L",
+    "courses": [
+      "BIO 2320",
+      "VET 1030",
+      "VET 1040L"
+    ]
+  },
+  "VET 1040L": {
+    "text": "VET 1040",
+    "courses": [
+      "VET 1040"
+    ]
+  },
   "VET 1051": {
     "text": "VET 1051L",
     "courses": [
@@ -2658,6 +5004,33 @@
     "text": "VET 1051",
     "courses": [
       "VET 1051"
+    ]
+  },
+  "VET 1052": {
+    "text": "VET 1051 and VET 1052L",
+    "courses": [
+      "VET 1051",
+      "VET 1052L"
+    ]
+  },
+  "VET 1052L": {
+    "text": "VET 1052",
+    "courses": [
+      "VET 1052"
+    ]
+  },
+  "VET 1060": {
+    "text": "BIO 2320 and VET 1030 and VET 1060L and VET 1060L and VET 1060L",
+    "courses": [
+      "BIO 2320",
+      "VET 1030",
+      "VET 1060L"
+    ]
+  },
+  "VET 1060L": {
+    "text": "VET 1060",
+    "courses": [
+      "VET 1060"
     ]
   },
   "VET 2011": {
@@ -2673,6 +5046,33 @@
     "text": "VET 2011",
     "courses": [
       "VET 2011"
+    ]
+  },
+  "VET 2012": {
+    "text": "VET 2011 and VET 2050 and VET 2070 and VET 2012L and VET 2012L and VET 2012L",
+    "courses": [
+      "VET 2011",
+      "VET 2050",
+      "VET 2070",
+      "VET 2012L"
+    ]
+  },
+  "VET 2012L": {
+    "text": "VET 2012",
+    "courses": [
+      "VET 2012"
+    ]
+  },
+  "VET 2030": {
+    "text": "VET 1020",
+    "courses": [
+      "VET 1020"
+    ]
+  },
+  "VET 2040": {
+    "text": "VET 2070",
+    "courses": [
+      "VET 2070"
     ]
   },
   "VET 2050": {
@@ -2698,6 +5098,15 @@
       "VET 1060"
     ]
   },
+  "VET 2090": {
+    "text": "VET 2011 and VET 2030 and VET 2050 and VET 2070",
+    "courses": [
+      "VET 2011",
+      "VET 2030",
+      "VET 2050",
+      "VET 2070"
+    ]
+  },
   "VET 2720": {
     "text": "VET 1051 and VET 2720L",
     "courses": [
@@ -2721,6 +5130,14 @@
     "text": "WFC 1015",
     "courses": [
       "WFC 1015"
+    ]
+  },
+  "WFC 2015": {
+    "text": "BIO 1121 and BIO 1122 and WFC 2015L",
+    "courses": [
+      "BIO 1121",
+      "BIO 1122",
+      "WFC 2015L"
     ]
   },
   "WFC 4010": {
@@ -2783,6 +5200,12 @@
       "WFD 3020"
     ]
   },
+  "XSC 1255L": {
+    "text": "XSC 1255",
+    "courses": [
+      "XSC 1255"
+    ]
+  },
   "XSC 3120": {
     "text": "BIO 2012",
     "courses": [
@@ -2796,10 +5219,37 @@
       "XSC 3150L"
     ]
   },
+  "XSC 3151": {
+    "text": "XSC 3150 and XSC 3151L",
+    "courses": [
+      "XSC 3150",
+      "XSC 3151L"
+    ]
+  },
+  "XSC 3151L": {
+    "text": "XSC 3151",
+    "courses": [
+      "XSC 3151"
+    ]
+  },
   "XSC 4071": {
     "text": "MAT 2021",
     "courses": [
       "MAT 2021"
+    ]
+  },
+  "XSC 4080": {
+    "text": "XSC 3120 and XSC 3150 and XSC 4080L",
+    "courses": [
+      "XSC 3120",
+      "XSC 3150",
+      "XSC 4080L"
+    ]
+  },
+  "XSC 4080L": {
+    "text": "XSC 4080",
+    "courses": [
+      "XSC 4080"
     ]
   },
   "XSC 4090": {
@@ -2809,10 +5259,22 @@
       "XSC 4090L"
     ]
   },
+  "XSC 4152": {
+    "text": "XSC 3151",
+    "courses": [
+      "XSC 3151"
+    ]
+  },
   "XSC 4220": {
     "text": "XSC 3150",
     "courses": [
       "XSC 3150"
+    ]
+  },
+  "XSC 4221": {
+    "text": "XSC 3151",
+    "courses": [
+      "XSC 3151"
     ]
   }
 }
