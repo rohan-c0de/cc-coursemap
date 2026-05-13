@@ -8,6 +8,8 @@ import { getAllStates, isValidState, getStateConfig } from "@/lib/states/registr
 import { requireStateConfig } from "@/lib/states/route-helpers";
 import { getTransferInfo, getUniversities } from "@/lib/transfer";
 import { subjectName } from "@/lib/subjects";
+import { getBestProgramForPrefix } from "@/lib/programs/registry";
+import { getQualifyingProgramSlugs } from "@/lib/programs";
 import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
 import type { CourseSection } from "@/lib/types";
 import AdUnit from "@/components/AdUnit";
@@ -341,6 +343,20 @@ export default async function CoursePage(props: PageProps) {
 
   const lastUpdated = getCourseLastUpdated(state);
 
+  // Program-pathway bridge (#413): when this course's subject prefix
+  // maps to one of our curated programs and the program qualifies in
+  // this state, surface a small "Part of {program}" link so the
+  // course-detail visitor can step up to the program comparison view
+  // with earnings + per-college data.
+  const matchedProgram = getBestProgramForPrefix(prefix);
+  const qualifyingSlugs = matchedProgram
+    ? await getQualifyingProgramSlugs(state)
+    : [];
+  const programLink =
+    matchedProgram && qualifyingSlugs.includes(matchedProgram.slug)
+      ? matchedProgram
+      : null;
+
   // JSON-LD
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
   const jsonLd = {
@@ -437,12 +453,25 @@ export default async function CoursePage(props: PageProps) {
 
         {/* Header */}
         <div className="mb-8">
-          <Link
-            href={`/${state}/subject/${prefix.toLowerCase()}`}
-            className="text-sm font-medium text-teal-600 dark:text-teal-400 mb-1 inline-block hover:underline"
-          >
-            {subjectName(prefix)}
-          </Link>
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mb-1 text-sm">
+            <Link
+              href={`/${state}/subject/${prefix.toLowerCase()}`}
+              className="font-medium text-teal-600 dark:text-teal-400 hover:underline"
+            >
+              {subjectName(prefix)}
+            </Link>
+            {programLink && (
+              <>
+                <span className="text-gray-300 dark:text-slate-600">·</span>
+                <Link
+                  href={`/${state}/program/${programLink.slug}`}
+                  className="text-gray-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 hover:underline"
+                >
+                  Part of the {programLink.name} pathway →
+                </Link>
+              </>
+            )}
+          </div>
           <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100">
             {prefix} {number}
             <span className="font-normal text-gray-500 dark:text-slate-400 text-2xl ml-2">
