@@ -30,6 +30,7 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { chromium } from "playwright";
 import { discoverAcalogCatoid } from "../lib/discover-catalog.js";
 
 const UA =
@@ -107,16 +108,53 @@ interface CourseDetail {
 
 const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
-async function retryFetch(url: string, label: string, attempts = 3): Promise<string> {
+// Per-domain WAF cookies acquired via Playwright.
+const wafCookies = new Map<string, string>();
+
+async function acquireWafCookies(baseUrl: string): Promise<string> {
+  const cached = wafCookies.get(baseUrl);
+  if (cached) return cached;
+
+  const browser = await chromium.launch({ headless: true });
+  try {
+    const ctx = await browser.newContext({ userAgent: UA });
+    const page = await ctx.newPage();
+    await page.goto(baseUrl, { waitUntil: "networkidle", timeout: 30_000 });
+    const cookies = await ctx.cookies();
+    const cookieStr = cookies.map((c) => `${c.name}=${c.value}`).join("; ");
+    wafCookies.set(baseUrl, cookieStr);
+    return cookieStr;
+  } finally {
+    await browser.close();
+  }
+}
+
+async function retryFetch(
+  url: string,
+  label: string,
+  attempts = 3,
+  baseUrl?: string,
+): Promise<string> {
   let lastErr: unknown;
   for (let i = 0; i < attempts; i++) {
     try {
-      const res = await fetch(url, {
-        headers: {
-          "User-Agent": UA,
-          Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        },
-      });
+      const headers: Record<string, string> = {
+        "User-Agent": UA,
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      };
+      if (baseUrl) {
+        const cookies = wafCookies.get(baseUrl);
+        if (cookies) headers["Cookie"] = cookies;
+      }
+      const res = await fetch(url, { headers });
+
+      // 202 = Imperva WAF challenge — acquire cookies via Playwright and retry
+      if (res.status === 202 && baseUrl && i === 0) {
+        console.log(`  WAF challenge on ${label}, acquiring cookies via browser...`);
+        await acquireWafCookies(baseUrl);
+        continue;
+      }
+
       if (res.ok) return res.text();
       if (res.status >= 500) {
         lastErr = new Error(`HTTP ${res.status}`);
@@ -266,6 +304,21 @@ async function scrapeCollege(
   console.log(`\n--- ${config.name} (${slug}) ---`);
   console.log(`  Base: ${config.base}`);
 
+  // Pre-acquire WAF cookies before any fetch (including catoid discovery)
+  try {
+    const probe = await fetch(config.base, {
+      headers: { "User-Agent": UA },
+      redirect: "follow",
+    });
+    if (probe.status === 202) {
+      console.log(`  WAF detected, acquiring cookies via browser...`);
+      await acquireWafCookies(config.base);
+    }
+  } catch {
+    console.log(`  Probe failed (network error), trying WAF acquisition anyway...`);
+    await acquireWafCookies(config.base);
+  }
+
   let catoid = config.catoid;
   try {
     const discovered = await discoverAcalogCatoid(config.base, config.catoid);
@@ -281,6 +334,8 @@ async function scrapeCollege(
     const html = await retryFetch(
       listUrl(config.base, catoid, config.navoid, cpage),
       `${slug}/list(cpage=${cpage})`,
+      3,
+      config.base,
     );
     const coids = extractCoids(html);
     if (coids.length === 0) break;
@@ -302,6 +357,8 @@ async function scrapeCollege(
     const html = await retryFetch(
       detailUrl(config.base, catoid, coid),
       `${slug}/detail(${coid})`,
+      3,
+      config.base,
     );
     if (!html) return;
     const code = extractCourseCode(html);
