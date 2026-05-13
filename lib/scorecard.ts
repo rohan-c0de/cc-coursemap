@@ -167,6 +167,96 @@ export function formatPercent(v: number | null | undefined): string {
 }
 
 // ---------------------------------------------------------------------------
+// Benchmarks — state + national context for stat tiles (issue #411)
+// ---------------------------------------------------------------------------
+
+export interface BenchmarkBucket {
+  median: number;
+  count: number;
+}
+
+export interface NationalBenchmarkBucket extends BenchmarkBucket {
+  percentiles: Record<string, number>;
+}
+
+interface ScorecardBenchmarks {
+  generatedAt: string;
+  totalColleges: number;
+  national: Record<string, NationalBenchmarkBucket>;
+  byState: Record<string, Record<string, BenchmarkBucket>>;
+}
+
+let benchmarksCache: ScorecardBenchmarks | null | undefined;
+
+function loadBenchmarks(): ScorecardBenchmarks | null {
+  if (benchmarksCache !== undefined) return benchmarksCache;
+  const p = path.join(process.cwd(), "data", "_benchmarks", "scorecard.json");
+  if (!fs.existsSync(p)) {
+    benchmarksCache = null;
+    return null;
+  }
+  try {
+    benchmarksCache = JSON.parse(
+      fs.readFileSync(p, "utf-8"),
+    ) as ScorecardBenchmarks;
+    return benchmarksCache;
+  } catch {
+    benchmarksCache = null;
+    return null;
+  }
+}
+
+/**
+ * Return benchmark stats for a metric. Pass `state` for per-state median,
+ * omit for the national median. Returns null when benchmarks are missing
+ * or the metric/state combination has insufficient data.
+ */
+export function getBenchmark(
+  metric: string,
+  state?: string,
+): BenchmarkBucket | null {
+  const b = loadBenchmarks();
+  if (!b) return null;
+  if (state) return b.byState[state.toLowerCase()]?.[metric] ?? null;
+  return b.national[metric] ?? null;
+}
+
+/**
+ * Approximate percentile rank of `value` within the national CC
+ * distribution for `metric`. Returns 0–100 (e.g. 73 means "higher than
+ * 73% of US community colleges"). Uses linear interpolation between the
+ * stored p5…p95 breakpoints.
+ */
+export function getNationalPercentileRank(
+  metric: string,
+  value: number,
+): number | null {
+  const b = loadBenchmarks();
+  if (!b) return null;
+  const nat = b.national[metric];
+  if (!nat?.percentiles) return null;
+
+  const pcts = Object.entries(nat.percentiles)
+    .map(([k, v]) => [Number(k), v] as [number, number])
+    .sort((a, b) => a[0] - b[0]);
+
+  if (pcts.length === 0) return null;
+  if (value <= pcts[0][1]) return pcts[0][0];
+  if (value >= pcts[pcts.length - 1][1]) return pcts[pcts.length - 1][0];
+
+  for (let i = 0; i < pcts.length - 1; i++) {
+    const [p1, v1] = pcts[i];
+    const [p2, v2] = pcts[i + 1];
+    if (value >= v1 && value <= v2) {
+      if (v2 === v1) return p1;
+      const t = (value - v1) / (v2 - v1);
+      return Math.round(p1 + t * (p2 - p1));
+    }
+  }
+  return null;
+}
+
+// ---------------------------------------------------------------------------
 // Per-program (CIP) reader — issue #406
 // ---------------------------------------------------------------------------
 

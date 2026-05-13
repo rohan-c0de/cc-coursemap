@@ -10,6 +10,7 @@
 
 import {
   getScorecard,
+  getBenchmark,
   formatDollar,
   formatPercent,
   type ScorecardRecord,
@@ -21,11 +22,37 @@ interface Props {
   collegeName: string;
 }
 
+/**
+ * Build a one-line comparison string like "11% below VA CC median ($2,847)".
+ * Returns undefined when benchmark data is missing or the difference is
+ * negligible (< 3%).
+ */
+function benchmarkLabel(
+  value: number | null | undefined,
+  metric: string,
+  stateAbbr: string,
+  fmt: "dollar" | "percent",
+): string | undefined {
+  if (value == null) return undefined;
+  const bench = getBenchmark(metric, stateAbbr);
+  if (!bench || bench.median === 0) return undefined;
+
+  const diff = value - bench.median;
+  const pctDiff = Math.abs(Math.round((diff / bench.median) * 100));
+  if (pctDiff < 3) return `near ${stateAbbr.toUpperCase()} CC median`;
+
+  const direction = diff > 0 ? "above" : "below";
+  const formattedMedian =
+    fmt === "dollar" ? formatDollar(bench.median) : formatPercent(bench.median);
+  return `${pctDiff}% ${direction} ${stateAbbr.toUpperCase()} CC median (${formattedMedian})`;
+}
+
 function StatCard({
   label,
   value,
   sub,
   tooltip,
+  benchmark,
 }: {
   label: string;
   value: string;
@@ -37,6 +64,7 @@ function StatCard({
    * who tap-and-hold also get the tooltip via the OS-level long-press menu.
    */
   tooltip?: string;
+  benchmark?: string;
 }) {
   return (
     <div className="rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
@@ -58,6 +86,11 @@ function StatCard({
       {sub && (
         <div className="mt-0.5 text-xs text-gray-500 dark:text-slate-400">
           {sub}
+        </div>
+      )}
+      {benchmark && (
+        <div className="mt-1 text-xs font-medium text-teal-700 dark:text-teal-400">
+          {benchmark}
         </div>
       )}
     </div>
@@ -202,7 +235,7 @@ function CostBreakdown({ record }: { record: ScorecardRecord }) {
  * more likely to graduate than those who don't), and the federal
  * Scorecard site doesn't prominently feature it.
  */
-function OutcomesSection({ record }: { record: ScorecardRecord }) {
+function OutcomesSection({ record, state }: { record: ScorecardRecord; state: string }) {
   const retentionFt = record.completion.retentionRateFullTime;
   const retentionPt = record.completion.retentionRatePartTime;
   const transfer = record.completion.transferRate;
@@ -226,6 +259,7 @@ function OutcomesSection({ record }: { record: ScorecardRecord }) {
             value={formatPercent(retentionFt)}
             sub="full-time students"
             tooltip={retentionTooltip}
+            benchmark={benchmarkLabel(retentionFt, "retentionFt", state, "percent")}
           />
         )}
         {transfer != null && (
@@ -234,6 +268,7 @@ function OutcomesSection({ record }: { record: ScorecardRecord }) {
             value={formatPercent(transfer)}
             sub="to a 4-year school"
             tooltip="Share of full-time students who transferred out to a 4-year institution. Important for community colleges where transferring is a common goal."
+            benchmark={benchmarkLabel(transfer, "transferRate", state, "percent")}
           />
         )}
         {completion200 != null && (
@@ -242,6 +277,7 @@ function OutcomesSection({ record }: { record: ScorecardRecord }) {
             value={formatPercent(completion200)}
             sub="200% of normal time"
             tooltip="Share of students who completed within 200% of the normal program length — i.e., 4 years for a 2-year associate's. Broader, more realistic figure for working students."
+            benchmark={benchmarkLabel(completion200, "completionRate200", state, "percent")}
           />
         )}
       </div>
@@ -255,7 +291,7 @@ function OutcomesSection({ record }: { record: ScorecardRecord }) {
  * stat, plus loan rate and median debt. Together these answer "did the
  * money pay off."
  */
-function EarningsSection({ record }: { record: ScorecardRecord }) {
+function EarningsSection({ record, state }: { record: ScorecardRecord; state: string }) {
   const earn1Yr = record.earnings.median1YrAfterCompletion;
   const earn10Yr = record.earnings.median10YrsAfterEntry;
   const p25 = record.earnings.percentile25_10YrsAfterEntry;
@@ -291,6 +327,7 @@ function EarningsSection({ record }: { record: ScorecardRecord }) {
             value={formatDollar(earn1Yr)}
             sub="median, completers"
             tooltip="Median annual earnings one year after completion, completers only. Faster post-graduation signal than the 10-year figure (which mixes completers and non-completers)."
+            benchmark={benchmarkLabel(earn1Yr, "earnings1Yr", state, "dollar")}
           />
         )}
         {earn10Yr != null && (
@@ -303,6 +340,7 @@ function EarningsSection({ record }: { record: ScorecardRecord }) {
                 ? `Median annual earnings 10 years after first entering college. The range shown is the 25th–75th percentile (middle half of working former students), so half earn within this band and half are outside it.`
                 : "Median annual earnings 10 years after first entering college, working former students."
             }
+            benchmark={benchmarkLabel(earn10Yr, "earnings10Yr", state, "dollar")}
           />
         )}
         {aboveHs != null && (
@@ -311,6 +349,7 @@ function EarningsSection({ record }: { record: ScorecardRecord }) {
             value={formatPercent(aboveHs)}
             sub="10 yrs after entry"
             tooltip="Share of former students earning more than $28,000 — roughly the median annual wage for someone with only a high school diploma. The federal Scorecard's headline 'did college pay off' metric."
+            benchmark={benchmarkLabel(aboveHs, "aboveHsGrad", state, "percent")}
           />
         )}
       </div>
@@ -322,6 +361,7 @@ function EarningsSection({ record }: { record: ScorecardRecord }) {
               value={formatDollar(debt)}
               sub="federal loans, completers"
               tooltip="Median federal student loan debt for students who completed their program. Excludes private loans."
+              benchmark={benchmarkLabel(debt, "medianDebt", state, "dollar")}
             />
           )}
           {loanRate != null && loanRate > 0 && (
@@ -393,16 +433,19 @@ export default function CollegeScorecardSection({
           value={formatDollar(record.cost.tuitionInState)}
           sub="per year (sticker)"
           tooltip="Published tuition and required fees for in-state students. Does not include books, transportation, or living expenses."
+          benchmark={benchmarkLabel(record.cost.tuitionInState, "tuitionInState", state, "dollar")}
         />
         <StatCard
           label="Receive Pell"
           value={formatPercent(record.aid.pellGrantRate)}
           sub="federal grant"
+          benchmark={benchmarkLabel(record.aid.pellGrantRate, "pellRate", state, "percent")}
         />
         <StatCard
           label="Completion rate"
           value={formatPercent(record.completion.completionRate150nt)}
           sub="150% of normal time"
+          benchmark={benchmarkLabel(record.completion.completionRate150nt, "completionRate150", state, "percent")}
         />
       </div>
 
@@ -425,9 +468,9 @@ export default function CollegeScorecardSection({
         </div>
       )}
 
-      <OutcomesSection record={record} />
+      <OutcomesSection record={record} state={state} />
 
-      <EarningsSection record={record} />
+      <EarningsSection record={record} state={state} />
 
       <p className="mt-4 text-xs text-gray-500 dark:text-slate-400">
         Source:{" "}

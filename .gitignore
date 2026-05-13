@@ -50,5 +50,8 @@ next-env.d.ts
 # scraper caches (e.g. tmp/scns/crslist-*.txt — re-downloadable, ~80 MB)
 /tmp/
 
+# benchmark build cache (bulk Scorecard CSV, re-downloadable)
+/.cache/
+
 # blog-pipeline regenerable slices (snapshot/cooldown stay; per-state computed slices regenerate)
 .blog-pipeline/slices/
