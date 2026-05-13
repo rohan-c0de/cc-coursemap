@@ -44,9 +44,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "which-community-college-courses-are-hard-to-find",
     title:
-      "Which Community College Courses Are Actually Hard to Find — And What to Do When Yours Isn't Available",
+      "Hard-to-Find Community College Courses: What to Do",
     description:
-      "A small set of gen-ed courses run at every college in a state system. Most of the catalog concentrates at 1–3 anchor campuses. Here's how to tell which type your course is before you build your schedule around it.",
+      "A few gen-ed courses run at every college; most concentrate at 1–3 anchor campuses. Here's how to tell which type your course is before you register.",
     date: "2026-05-10",
     category: "registration-timing",
     state: null,
@@ -64,9 +64,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "north-carolina-community-college-course-availability",
     title:
-      "North Carolina Community College Course Availability: What's at Every Campus, What's at One, and How to Tell the Difference",
+      "NC Course Availability: 78.9% Scarcity Across 55 Colleges",
     description:
-      "NC's 55-college system has a 78.9% scarcity ratio — nearly 4 in 5 courses concentrate at fewer than 25% of campuses. ENG-111 is at all 55; architecture, animal science, and ASL are at one or two.",
+      "78.9% scarcity ratio across NC's 55 community colleges: ENG-111 is at every campus; architecture, animal science, and ASL exist at just 1 or 2.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "nc",
@@ -85,9 +85,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "georgia-community-college-course-availability",
     title:
-      "Georgia Technical College Course Availability: Central Georgia Tech Holds 41% of the State's Point-Source Courses — And Nursing Is Almost Entirely Concentrated",
+      "GA Course Availability: Central GA Tech Holds 41% (2026)",
     description:
-      "Central Georgia Technical College holds 43 exclusive courses in Georgia's 20-college TCSG system. Nursing (RNSG) is 100% concentrated statewide — 59 courses, none available outside a handful of campuses.",
+      "Central Georgia Tech holds 43 exclusive courses in TCSG's 20-college system. Nursing is 100% concentrated — 59 courses at a handful of campuses.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "ga",
@@ -107,9 +107,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "kentucky-community-college-course-availability",
     title:
-      "Kentucky KCTCS Course Availability: Nursing Prereqs at Every Campus, Three Anchor Colleges Each Holding 20+ Exclusive Programs",
+      "KY Course Availability: KCTCS Anchor Colleges (2026)",
     description:
-      "KCTCS puts NAA-100 and both A&P courses at all 16 colleges — unusual universal access for nursing tracks. But Jefferson, Madisonville, and Bluegrass each hold 20+ exclusive courses.",
+      "KCTCS gives nursing prereqs universal access at all 16 campuses, but Jefferson, Madisonville & Bluegrass each hold 20+ exclusive programs.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "ky",
@@ -129,9 +129,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "virginia-community-college-course-availability",
     title:
-      "Virginia VCCS Course Availability: Which Courses Are at All 23 Colleges and Which Are at One",
+      "VA Course Availability: 68.6% Scarcity Across VCCS (2026)",
     description:
-      "VCCS's 23-college system has a 68.6% scarcity ratio — lower than NC's 78.9% but still meaning 2 in 3 courses concentrate at fewer than 25% of campuses. NOVA and TCC each hold 5 exclusive programs; veterinary technology and architecture are entirely scarce statewide.",
+      "68.6% of VCCS courses concentrate at fewer than 25% of its 23 campuses. NOVA and TCC each hold 5 exclusive programs; vet tech is scarce statewide.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "va",
@@ -150,9 +150,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "tennessee-community-college-course-availability",
     title:
-      "Tennessee Community College Course Availability: 251 Point-Source Courses, Three Regional Anchors, and the Best Scarcity Ratio in the Southeast",
+      "TN Course Availability: 251 Point-Source Courses (2026)",
     description:
-      "Tennessee's TBR system has the best scarcity ratio of any southeastern system in this cluster — but 19.5% of its catalog (251 courses) is available at exactly one campus. Here's how gen-ed breadth and specialized concentration coexist across 12 colleges.",
+      "TN's TBR system has the Southeast's best scarcity ratio, but 19.5% of its catalog (251 courses) is at exactly one campus across 12 colleges.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "tn",
@@ -171,9 +171,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "south-carolina-technical-college-course-availability",
     title:
-      "South Carolina Technical College Course Availability: Tri-County Holds 40% of All Exclusive Programs",
+      "SC Course Availability: Tri-County Holds 40% Exclusives",
     description:
-      "SCTCS has only 21 universal courses (1.7% of the catalog) — the lowest of any state in the cluster. Tri-County Technical College holds 43 exclusive point-source courses, 40% of all concentrated programs in a 14-college system. Nursing concentrates at Horry-Georgetown; auto body repair (ABR) is 100% scarce statewide.",
+      "Only 1.7% of SCTCS courses run at every campus. Tri-County Tech holds 40% of all exclusive programs; nursing concentrates at Horry-Georgetown.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "sc",
@@ -192,9 +192,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "florida-community-college-course-availability",
     title:
-      "Florida Community College Course Availability: 69.2% Scarcity Despite the Best Transfer System in the Country",
+      "FL Course Availability: 69.2% Scarcity Despite SCNS (2026)",
     description:
-      "Florida's Statewide Course Numbering System guarantees transfer — but 69.2% of course IDs are scarce or point-source across 10 colleges. Valencia College alone holds 69 exclusive courses. Here's what actually transfers vs. what you can actually find.",
+      "Florida's SCNS guarantees transfer, but 69.2% of course IDs are scarce across 10 colleges. Valencia alone holds 69 exclusive courses.",
     date: "2026-05-12",
     category: "registration-timing",
     state: "fl",
@@ -214,9 +214,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "alabama-community-college-course-availability",
     title:
-      "Alabama Community College Course Availability: 6 Colleges, 8,883 Sections, and Why Wallace-Dothan Is the Campus That Matters Most",
+      "AL Course Availability: Wallace-Dothan Anchors ACCS (2026)",
     description:
-      "Alabama's community college system has only 6 colleges in our dataset, but the universal-vs-concentrated pattern still holds. George C. Wallace Community College (Dothan) holds 17 exclusive courses — the most in the state.",
+      "Alabama's ACCS has 6 colleges and 8,883 sections. Wallace–Dothan holds 17 exclusive courses — the most in the state and the campus that matters.",
     date: "2026-05-12",
     category: "registration-timing",
     state: "al",
@@ -236,9 +236,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "which-universities-are-toughest-transfer-receivers",
     title:
-      "Which Universities Are the Toughest Transfer Receivers? Direct Match vs Elective vs No-Credit Across 16 States",
+      "Toughest Transfer Receivers: 16-State Data (2026)",
     description:
-      "Across 441,481 course-transfer mappings in 16 state systems, Florida is 100% direct match while Georgia is 12% and rejects 78% at UGA. Here's how transfer-receiver patterns actually look at scale.",
+      "Across 441K transfer mappings in 16 states: Florida is 100% direct match; Georgia is 12% and UGA rejects 78%. Receiver patterns at scale.",
     date: "2026-05-11",
     category: "transfer-confusion",
     state: null,
@@ -257,9 +257,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "georgia-transfer-receivers-compared",
     title:
-      "Georgia Transfer Receivers Compared: Why UGA Rejects 78% of TCSG Credits While Kennesaw State Accepts 90%",
+      "GA Transfer Receivers: UGA 12% vs Kennesaw 90% (2026)",
     description:
-      "Within Georgia public higher ed, the same TCSG transcript can land as a clean credit transfer at Kennesaw State (90% direct match) or a near-total reset at UGA/GSU (78-81% rejected). Here's how the four major Georgia receivers compare — and how to plan accordingly.",
+      "The same TCSG transcript is 90% direct match at Kennesaw but 78–81% rejected at UGA and GSU. How Georgia's 4 major receivers compare.",
     date: "2026-05-11",
     category: "transfer-confusion",
     state: "ga",
@@ -281,9 +281,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-jersey-transfer-receivers-compared",
     title:
-      "New Jersey Transfer Receivers Compared: Why Rutgers Engineering Accepts 13% While Rowan Accepts 96%",
+      "NJ Transfer Receivers: Rowan 96% vs Rutgers Eng 13%",
     description:
-      "NJ has 40 transfer receivers with direct-match rates from 13% to 96% — and the widest variance is within Rutgers itself. Here's how all 40 receivers compare across 68,357 mappings.",
+      "NJ's 40 transfer receivers range from 13% to 96% direct match — and the widest spread is within Rutgers itself. Full comparison across 68K mappings.",
     date: "2026-05-12",
     category: "transfer-confusion",
     state: "nj",
@@ -303,9 +303,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "north-carolina-transfer-receivers-compared",
     title:
-      "North Carolina Transfer Receivers Compared: No Rejections Anywhere, but an 80-Point Spread in Direct-Match Rates",
+      "NC Transfer Receivers: 20% ECU vs 100% WSSU (2026)",
     description:
-      "Every NC university accepts every NCCCS course for at least elective credit — no student loses hours entirely. But direct-match rates range from 20% at ECU to 100% at Winston-Salem State and NC A&T across 25,622 mappings.",
+      "Every NC university takes NCCCS courses for at least elective credit, but direct-match rates run 20% (ECU) to 100% (WSSU, NC A&T) across 25,622 mappings.",
     date: "2026-05-12",
     category: "transfer-confusion",
     state: "nc",
@@ -326,9 +326,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "maryland-transfer-receivers-compared",
     title:
-      "Maryland Transfer Receivers Compared: UMGC Grants 30% Direct Match While Bowie State Hits 99% — Across 123,477 Mappings",
+      "MD Transfer Receivers: UMGC 30% vs Bowie 99% (2026)",
     description:
-      "Maryland's 8 public university receivers all grant at least elective credit — no outright rejections. But the direct-match spread ranges from 30% (UMGC) to 98.9% (Bowie State) across the largest single-state dataset we track.",
+      "Across 123K MD transfer mappings, no university rejects outright — but direct-match rates run from 30% at UMGC to 99% at Bowie State.",
     date: "2026-05-12",
     category: "transfer-confusion",
     state: "md",
@@ -352,9 +352,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "community-college-course-codes-explained",
     title:
-      "Community College Course Codes Explained: What BIO 101, SDV 100, and MAT 271 Actually Mean",
+      "Community College Course Codes Explained (2026)",
     description:
-      "Course codes look the same but mean different things across states. Here's how to read the prefix, level, and suffix — and why the catalog description matters more than the code.",
+      "Course codes look the same across states but mean different things. Decode the prefix, level, and suffix — and why the catalog beats the code.",
     date: "2026-05-11",
     category: "mistake-avoidance",
     state: null,
@@ -372,9 +372,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "what-is-sdv-100-danville-community-college",
     title:
-      "What Is SDV 100 (College Success Skills) at Danville Community College?",
+      "What Is SDV 100 at Danville Community College? (DCC)",
     description:
-      "SDV 100 is a 1-credit required course for most DCC associate degree programs — teaches study habits, time management, academic planning. Here's what it covers, who must take it, and how it transfers.",
+      "SDV 100 is a 1-credit required course at DCC covering study habits, time management, and academic planning. Who must take it and how it transfers.",
     date: "2026-05-11",
     category: "mistake-avoidance",
     state: "va",
@@ -394,9 +394,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "what-is-bio-101-danville-community-college",
     title:
-      "What Is BIO 101 (General Biology I) at Danville Community College?",
+      "What Is BIO 101 at Danville Community College? (4 cr)",
     description:
-      "BIO 101 at DCC is 4 credits (lecture + lab), no prereqs, ~13 sections per term — and transfers as a direct match to virtually every Virginia public university. Here's what it covers, who needs it, and how the credit moves.",
+      "BIO 101 at DCC: 4 credits, lecture + lab, no prereqs, 13 sections per term. Direct-match transfer to every VA public university.",
     date: "2026-05-11",
     category: "mistake-avoidance",
     state: "va",
@@ -417,9 +417,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "what-is-exsc-240-frederick-community-college",
     title:
-      "What Is EXSC 240 (Fitness Assessment and Programming) at Frederick Community College?",
+      "What Is EXSC 240 at Frederick Community College? (3 cr)",
     description:
-      "EXSC 240 is a 3-credit hybrid course at Frederick CC bridging intro exercise science to applied capstone work. Prereqs: A&P I + EXSC 170. Transfers as a direct match to UMD's KNES 214 — making Frederick a deliberate pathway into UMD Kinesiology.",
+      "EXSC 240 at Frederick CC: 3-credit hybrid course bridging exercise science to applied work. Direct-match transfer to UMD KNES 214.",
     date: "2026-05-11",
     category: "mistake-avoidance",
     state: "md",
@@ -442,9 +442,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "what-direct-match-vs-elective-credit-means",
     title:
-      'Community College Transfer Credit: What "Direct Match" vs "Elective Credit" Actually Means',
+      'Direct Match vs Elective Credit: What Transfer Means',
     description:
-      "Your course transferred — but did it actually count? Learn the difference between a direct match and elective credit, and why it matters for graduation.",
+      "Your course transferred — but did it actually count? Direct match vs. elective credit, and why the difference decides whether you graduate on time.",
     date: "2026-04-04",
     category: "transfer-confusion",
     state: null,
@@ -458,7 +458,7 @@ export const articles: ArticleMeta[] = [
     title:
       "Virginia GAA Transfer: What's Actually Guaranteed (2026)",
     description:
-      "VCCS guaranteed admission covers university entry — not your major or your credits. Here's what the GAA promises, what it doesn't, and how to avoid surprises.",
+      "VCCS guaranteed admission covers university entry — not your major or your credits. What the GAA promises and how to avoid surprises.",
     date: "2026-04-04",
     category: "state-system-explainers",
     state: "va",
@@ -518,9 +518,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "virginia-senior-citizens-community-college-free-tuition",
     title:
-      "Virginia Senior Citizens and Community College: Free Tuition vs Audit-Only Explained",
+      "VA Free College for 60+: Tuition vs Audit (2026)",
     description:
-      "Virginia residents 60+ can take community college classes for free — but there's an income cap for credit enrollment. Here's how the waiver actually works.",
+      "VA residents 60+ can take community college classes free — but credit enrollment has an income cap. Here's how the waiver actually works.",
     date: "2026-04-04",
     category: "senior-waivers",
     state: "va",
@@ -534,7 +534,7 @@ export const articles: ArticleMeta[] = [
     title:
       "NC Free College for 65+: All 58 Campuses (Audit Only)",
     description:
-      "North Carolina waives tuition at all 58 community colleges for residents 65+. It's audit-only — no grade, no credit. Here's how to register and what to expect.",
+      "North Carolina waives tuition at all 58 community colleges for residents 65+. Audit-only — no grade, no credit. How to register.",
     date: "2026-04-04",
     category: "senior-waivers",
     state: "nc",
@@ -546,9 +546,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "maryland-senior-citizens-community-college-tuition-waiver",
     title:
-      "Maryland Senior Citizens at Community Colleges: How the 60+ Tuition Waiver Actually Works",
+      "MD Free College for 60+: All 16 Campuses (No Cap)",
     description:
-      "Maryland law waives tuition for residents 60+ at all 16 community colleges — no income cap, no retirement requirement. Here's how to actually use it.",
+      "Maryland waives tuition for residents 60+ at all 16 community colleges — no income cap, no retirement requirement. Here's how to use it.",
     date: "2026-05-02",
     category: "senior-waivers",
     state: "md",
@@ -560,7 +560,7 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-jersey-senior-citizens-county-college-tuition-waiver",
     title:
-      "New Jersey 65+ Free County College Tuition Waiver (Credit OK)",
+      "NJ Free County College for 65+ (Credit OK, 2026)",
     description:
       "NJ law waives tuition at all 18 county colleges for residents 65+ — credit enrollment, not just auditing. Here's exactly how to use it.",
     date: "2026-05-02",
@@ -574,9 +574,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "massachusetts-senior-citizens-community-college-tuition-waiver",
     title:
-      "Massachusetts Senior Citizens at Community Colleges: How the 60+ Tuition Waiver Actually Works",
+      "MA Free College for 60+: All 15 Campuses (No Cap)",
     description:
-      "Massachusetts law waives tuition for residents 60+ at all 15 community colleges — no income cap, no retirement requirement. Here's how to actually use it.",
+      "Massachusetts waives tuition for residents 60+ at all 15 community colleges — no income cap, no retirement requirement. Here's how to use it.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "ma",
@@ -588,9 +588,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "florida-community-college-transfer-credit-guide",
     title:
-      "How Florida Community College Transfer Credit Actually Works: An SCNS Student's Guide",
+      "FL Transfer Credit: SCNS Guarantees 100% Direct Match",
     description:
-      "Florida's Statewide Course Numbering System makes 100% of community college courses direct matches at every public university — but the catches are in prerequisites, limited-access majors, and excess credit hours.",
+      "Florida's SCNS makes 100% of CC courses direct matches at every public university — but prereqs, limited-access majors, and excess hours trip you up.",
     date: "2026-05-09",
     category: "state-system-explainers",
     state: "fl",
@@ -604,7 +604,7 @@ export const articles: ArticleMeta[] = [
   {
     slug: "what-does-audit-a-class-mean",
     title:
-      'What Does "Audit a Class" Actually Mean at a Community College?',
+      'What Does "Audit a Class" Mean? (Community College)',
     description:
       "Auditing means attending a course without earning credits or a grade. Here's who does it, how it works, and what it costs.",
     date: "2026-04-04",
@@ -620,9 +620,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "how-to-find-late-start-community-college-classes",
     title:
-      "How Late Can You Enroll in Community College? Late-Start Classes Explained",
+      "Late-Start Community College Classes: How to Find Them",
     description:
-      "Late-start sections are 8.5% of community college fall offerings nationally — but range from 18% in NH to 1% in ME. Here's how to find them and what the state-by-state variation means for you.",
+      "Late-start sections are 8.5% of CC fall offerings nationally — but range from 18% in NH to 1% in ME. Here's how to find them and what varies by state.",
     date: "2026-04-04",
     category: "registration-timing",
     state: null,
@@ -663,7 +663,7 @@ export const articles: ArticleMeta[] = [
   {
     slug: "how-to-check-if-community-college-course-transfers",
     title:
-      "How to Tell if a Community College Course Will Count for Your Target University Before You Enroll",
+      "Will My CC Course Transfer? Check Before You Enroll",
     description:
       "Checking transfer equivalencies before registration takes 15 minutes. Not checking can cost you a semester. Here's the step-by-step process.",
     date: "2026-04-04",
@@ -701,9 +701,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "how-to-build-community-college-schedule",
     title:
-      "How to Build a Community College Schedule Across Multiple Campuses or Colleges",
+      "How to Build a Multi-Campus CC Schedule (Step-by-Step)",
     description:
-      "Multi-campus scheduling takes more planning, but it's entirely doable. Here's a step-by-step system for building a workable schedule across locations.",
+      "Multi-campus scheduling takes more planning, but it's entirely doable. A step-by-step system for building a workable schedule across locations.",
     date: "2026-04-04",
     category: "cross-college-scheduling",
     state: null,
@@ -727,9 +727,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "when-do-community-college-schedules-go-live",
     title:
-      "Community College Class Schedules: Typical Times and When They Go Live",
+      "When Do Community College Schedules Go Live? (2026)",
     description:
-      "Most community college classes run in morning (8–noon), afternoon (noon–5pm), or evening (5–9:30pm) blocks. Here's what to expect for class times — and when the schedule for next semester posts.",
+      "Community college classes run morning, afternoon, or evening blocks. When the schedule for next semester posts, and how to grab seats early.",
     date: "2026-04-04",
     category: "registration-timing",
     state: null,
@@ -741,9 +741,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "north-carolina-transfer-guides-how-to-use",
     title:
-      "North Carolina Community College Transfer Guides: How to Use Them Without Getting Lost",
+      "NC Transfer Guides: How to Use Them Without Getting Lost",
     description:
-      "NC has transfer guides, equivalency tables, and pre-major pathways — but most students don't know how to find or read them. Here's a practical walkthrough.",
+      "NC has transfer guides, equivalency tables, and pre-major pathways — but most students don't know how to find or read them. Practical walkthrough.",
     date: "2026-04-04",
     category: "state-system-explainers",
     state: "nc",
@@ -773,9 +773,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "comparing-transfer-credit-across-universities",
     title:
-      "Why Transfer Credits Differ by University (Direct Match vs Elective)",
+      "Why Transfer Credits Differ by University",
     description:
-      "Two schools can evaluate the same transcript and reach opposite conclusions. Learn to compare direct matches vs. elective credit before you pick a transfer destination.",
+      "Two schools can evaluate the same transcript and reach opposite conclusions. Compare direct matches vs. elective credit before picking a destination.",
     date: "2026-04-06",
     category: "transfer-confusion",
     state: null,
@@ -789,9 +789,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "south-carolina-technical-college-transfer",
     title:
-      "South Carolina Technical College Transfer: What Transfers to USC, Clemson, and Other Universities",
+      "SC Tech College Transfer: USC, Clemson & Others (2026)",
     description:
-      "SC technical college courses can transfer to public universities — but equivalencies vary by school. Here's how the system works and how to check before you register.",
+      "SC technical college credits transfer to public universities, but equivalencies vary by school. How the system works and how to check first.",
     date: "2026-04-04",
     category: "state-system-explainers",
     state: "sc",
@@ -821,7 +821,7 @@ export const articles: ArticleMeta[] = [
   {
     slug: "dc-senior-citizens-udc-community-college",
     title:
-      "DC Senior Citizens and UDC Community College: What the 65+ Tuition Waiver Covers",
+      "DC Free College for 65+ at UDC: What's Covered (2026)",
     description:
       "DC residents 65+ may have tuition and fees waived at UDC Community College. Here's what the waiver covers, what it doesn't, and how to enroll.",
     date: "2026-04-04",
@@ -851,9 +851,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "maryland-community-college-transfer-credit-guide",
     title:
-      "How Maryland Community College Transfer Credit Actually Works: An ARTSYS Student's Guide",
+      "MD Transfer Credit: ARTSYS Guide for 8 Universities (2026)",
     description:
-      "Maryland has 122,000+ published transfer equivalencies across 8 universities — but the same course can be a direct match at Towson and elective credit at UMGC. Here's how to navigate it.",
+      "MD's ARTSYS has 122K+ transfer equivalencies across 8 universities — but the same course can be a direct match at Towson and elective at UMGC.",
     date: "2026-04-11",
     category: "state-system-explainers",
     state: "md",
@@ -867,9 +867,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-york-cuny-community-college-transfer-guide",
     title:
-      "How CUNY Community College Transfer Credit Actually Works: A Student's Guide",
+      "CUNY Community College Transfer Credit Guide (2026)",
     description:
-      "CUNY's 7 community colleges feed into 14 senior colleges — but transfer outcomes vary wildly. Brooklyn College accepts 68% as direct matches; Medgar Evers rejects 57%. Here's what to know.",
+      "CUNY's 7 CCs feed 14 senior colleges. Brooklyn accepts 68% as direct matches; Medgar Evers rejects 57%. What to know before you transfer.",
     date: "2026-04-11",
     category: "state-system-explainers",
     state: "ny",
@@ -899,7 +899,7 @@ export const articles: ArticleMeta[] = [
     title:
       "NJ Transfer Credits: Rutgers, Rowan & 38 More (2026 Data)",
     description:
-      "We analyzed every NJTransfer.org equivalency across 40 universities. See which schools accept the most NJ community college credits — and which reject them.",
+      "We analyzed every NJTransfer.org equivalency across 40 universities. See which schools accept the most NJ CC credits — and which reject them.",
     date: "2026-04-12",
     category: "state-system-explainers",
     state: "nj",
@@ -913,9 +913,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "comparing-transfer-credit-across-states",
     title:
-      "How Transfer Credit Compares Across States: What 300,000+ Equivalencies Reveal",
+      "Transfer Credit Across States: 300K+ Mappings (2026)",
     description:
-      "We analyzed 300,000+ transfer equivalencies across 12 states. Direct match rates range from 12% to 56%. Here's what the data shows — and what it means for your transfer plan.",
+      "We analyzed 300K+ transfer equivalencies across 12 states. Direct-match rates range 12% to 56%. What it means for your transfer plan.",
     date: "2026-04-12",
     category: "transfer-confusion",
     state: null,
@@ -929,9 +929,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "pennsylvania-community-college-transfer-credit-guide",
     title:
-      "How Pennsylvania Community College Transfer Credit Actually Works",
+      "PA Transfer Credit: Penn State, Pitt, Temple (2026)",
     description:
-      "PA has 14 community colleges but no statewide articulation agreement. Penn State, Pitt, Temple, West Chester, and Drexel each evaluate CC credits independently. Here's what that actually looks like.",
+      "PA has 14 community colleges but no statewide articulation. Penn State, Pitt, Temple & others each evaluate credits independently — see how it plays out.",
     date: "2026-04-20",
     category: "state-system-explainers",
     state: "pa",
@@ -945,9 +945,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "massachusetts-community-college-transfer-credit-guide",
     title:
-      "How Massachusetts Community College Transfer Credit Actually Works: A MassTransfer Student's Guide",
+      "MA Transfer Credit: MassTransfer Guide (2026)",
     description:
-      "MA has 46k+ published transfer mappings via MassTransfer — but at UMass Amherst, more than half come back as elective credit. Here's how to read MassTransfer before you register.",
+      "MA has 46K+ MassTransfer mappings, but more than half come back as elective credit at UMass Amherst. How to read MassTransfer before you register.",
     date: "2026-05-02",
     category: "state-system-explainers",
     state: "ma",
@@ -961,9 +961,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-hampshire-ccsnh-transfer-credit-guide",
     title:
-      "How New Hampshire Community College Transfer Credit Actually Works: A CCSNH Student's Guide",
+      "NH Transfer Credit: CCSNH Guide for 7 Colleges (2026)",
     description:
-      "NH has 7 CCSNH colleges and transfer equivalencies published for only one university so far — Keene State, with a 31.1% direct match rate. Here's what that means if you're planning to transfer.",
+      "NH has 7 CCSNH colleges and published equivalencies for only one university so far — Keene State, at 31.1% direct match. What that means for transfer.",
     date: "2026-05-04",
     category: "state-system-explainers",
     state: "nh",
@@ -977,9 +977,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "tennessee-tbr-community-college-transfer-guide",
     title:
-      "Tennessee TBR Transfer Credit: Why It's Easier Than Most States",
+      "TN TBR Transfer Credit: Easier Than Most States (2026)",
     description:
-      "TN is the only state that enforces common course numbering across all 13 community colleges. ENGL 1010 is ENGL 1010 everywhere. Here's why that matters and how the Tennessee Transfer Pathways work.",
+      "TN is the only state with common course numbering across all 13 CCs — ENGL 1010 is ENGL 1010 everywhere. Why that matters and how TTP works.",
     date: "2026-04-20",
     category: "state-system-explainers",
     state: "tn",
@@ -995,7 +995,7 @@ export const articles: ArticleMeta[] = [
     title:
       "Delaware Community College Transfer: A DTCC Student's Guide",
     description:
-      "Delaware has one community college (DTCC, four campuses) and three primary transfer destinations (UDel, Delaware State, Wilmington). Here's how the Connected Degree program works and when to use it.",
+      "Delaware has one CC (DTCC, four campuses) and three primary transfer destinations: UDel, Delaware State, Wilmington. How Connected Degree works.",
     date: "2026-04-20",
     category: "state-system-explainers",
     state: "de",
@@ -1009,9 +1009,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "connecticut-ct-state-unified-system-guide",
     title:
-      "Connecticut's CT State Community College: What the 2023 Merger Means for Students",
+      "CT State Community College: 2023 Merger Explained",
     description:
-      "Connecticut merged 12 community colleges into one accredited institution in 2023. One transcript, one catalog, one articulation agreement. Here's what changed and what didn't.",
+      "Connecticut merged 12 community colleges into one accredited institution in 2023. One transcript, one catalog — here's what changed and what didn't.",
     date: "2026-04-20",
     category: "state-system-explainers",
     state: "ct",
@@ -1025,9 +1025,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "prerequisite-chains-why-four-semester-plans-take-six",
     title:
-      "Why Your Four-Semester Community College Plan Is Actually Six",
+      "Why a 2-Year Community College Plan Takes 3 Years",
     description:
-      "Across 12 states, 40-60% of courses have at least one prerequisite. Some chains go four levels deep. Here's how to spot them before you register — using real data from community college catalogs.",
+      "Across 12 states, 40–60% of CC courses have a prereq, and chains go 4+ levels deep. How to spot them before you register, with real catalog data.",
     date: "2026-04-20",
     category: "mistake-avoidance",
     state: null,
@@ -1058,9 +1058,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "florida-community-college-prereq-bottlenecks",
     title:
-      "Florida Community College Prerequisite Chains: How Developmental English Gates 319 Courses Across FCS",
+      "FL Prereq Chains: Dev English Gates 319 Courses (2026)",
     description:
-      "ENC 0025 is the most consequential course in Florida's state college system — a prerequisite for 319 other courses. The deepest chain reaches 22 levels into nursing. Here's how FL's prereq structure shapes planning.",
+      "ENC 0025 gates 319 downstream courses in Florida's FCS — the system's most consequential course. The nursing chain reaches 22 levels deep.",
     date: "2026-05-09",
     category: "mistake-avoidance",
     state: "fl",
@@ -1072,9 +1072,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "georgia-community-college-prereq-bottlenecks",
     title:
-      "Georgia TCSG Prereq Chains: How Developmental English Gates 1,400+ Downstream Courses",
+      "GA Prereq Chains: Dev English Gates 1,400+ (2026)",
     description:
-      "Across the 22 colleges of TCSG, developmental English and reading courses sit at the base of prereq chains for 1,400+ downstream courses. Here's how the chains are structured and how to sequence around them.",
+      "Across TCSG's 22 colleges, developmental English and reading sit at the base of prereq chains for 1,400+ downstream courses. How to sequence them.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "ga",
@@ -1086,9 +1086,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "maryland-community-college-prereq-bottlenecks",
     title:
-      "Maryland Community College Prereq Chains: How ESOL and Dev English Gate 400+ Downstream Courses",
+      "MD Prereq Chains: ESOL & Dev English Gate 400+ (2026)",
     description:
-      "Across MD's 16 community colleges, ESOL and developmental English courses gate 400+ downstream courses. Surgical Tech and Nursing chains run 14 levels deep. Here's how to sequence around them.",
+      "Across MD's 16 CCs, ESOL and developmental English gate 400+ courses. Surgical Tech and nursing chains run 14 levels deep — how to sequence them.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "md",
@@ -1100,9 +1100,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "north-carolina-community-college-prereq-bottlenecks",
     title:
-      "North Carolina Community College Prereq Chains: How ACA 085 and Dev English Gate 900+ Downstream Courses",
+      "NC Prereq Chains: ACA 085 Gates 900+ Courses (2026)",
     description:
-      "Across NCCCS's 58 colleges, ACA 085 (academic orientation) and developmental English gate 900+ downstream courses. Nursing and EMS chains run 15 levels deep. Here's how to sequence around them.",
+      "Across NCCCS's 58 colleges, ACA 085 and developmental English gate 900+ downstream courses. Nursing and EMS chains run 15 levels deep.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "nc",
@@ -1114,9 +1114,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "south-carolina-technical-college-prereq-bottlenecks",
     title:
-      "South Carolina SCCTCS Prereq Chains: How RDG 100 and Dev English Gate 460+ Downstream Courses",
+      "SC Prereq Chains: RDG 100 Gates 460+ Courses (2026)",
     description:
-      "Across SCCTCS colleges, RDG 100 and developmental English gate 460+ downstream courses. The nursing chain runs 21 levels deep. Here's how to sequence around the bottlenecks.",
+      "Across SCCTCS colleges, RDG 100 and developmental English gate 460+ downstream courses. The nursing chain runs 21 levels deep — sequence carefully.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "sc",
@@ -1128,9 +1128,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "delaware-technical-community-college-prereq-bottlenecks",
     title:
-      "Delaware Technical Community College Prereq Chains: How SSC 100 Gates 606 Downstream Courses",
+      "DE Prereq Chains: SSC 100 Gates 606 Courses (2026)",
     description:
-      "At Del Tech, SSC 100 sits upstream of 606 courses statewide — more than any English or math prereq. Engineering and MLT chains reach depth 9. Here's what to map before registering.",
+      "At Del Tech, SSC 100 sits upstream of 606 courses — more than any English or math prereq. Engineering and MLT chains reach depth 9.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "de",
@@ -1142,9 +1142,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "massachusetts-community-college-prereq-bottlenecks",
     title:
-      "Massachusetts Community College Prereq Chains: How Dev English Gates 400+ Downstream Courses",
+      "MA Prereq Chains: Dev English Gates 400+ (2026)",
     description:
-      "Across MA community colleges, ENG 109 and related developmental courses gate 400+ downstream courses. Nursing chains reach depth 13. The English sequence is the primary planning variable.",
+      "Across MA CCs, ENG 109 and related developmental courses gate 400+ downstream courses. Nursing chains reach depth 13. English is the planning variable.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "ma",
@@ -1156,9 +1156,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "last-day-to-add-drop-community-college-class",
     title:
-      "What Is the Last Day to Add a Class at Community College? How Add/Drop Deadlines Work",
+      "Last Day to Add/Drop a Community College Class (2026)",
     description:
-      "The add deadline is usually 1-2 weeks into the semester for full-term courses — but just days for late-start sections. Here's how the three key deadlines work and how to find yours.",
+      "Add deadlines run 1–2 weeks into the semester for full-term courses but days for late-start sections. The three key deadlines and how to find yours.",
     date: "2026-05-10",
     category: "registration-timing",
     state: null,
@@ -1170,9 +1170,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "how-to-read-transfer-equivalency-table",
     title:
-      "How to Read a Community College Transfer Equivalency Table",
+      "How to Read a CC Transfer Equivalency Table (2026)",
     description:
-      "Transfer tables use notation nobody teaches: direct match vs elective, wildcards, grade minimums, credit caps. Here's how to decode them before you lose a semester assuming a course will count.",
+      "Transfer tables use notation nobody teaches: direct match vs. elective, wildcards, grade minimums, credit caps. Decode them before you lose a semester.",
     date: "2026-04-20",
     category: "transfer-confusion",
     state: null,
@@ -1196,9 +1196,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "senior-citizen-community-college-tuition-all-15-states",
     title:
-      "Senior Citizen Community College Tuition: All 15 States Compared",
+      "Senior College Tuition: 15 States Compared (2026)",
     description:
-      "Age thresholds, income caps, audit-only vs credit-eligible. Senior tuition waiver rules vary dramatically across states. Here's the complete comparison matrix for all 15 states we track.",
+      "Age thresholds, income caps, audit-only vs. credit. Senior tuition waiver rules vary dramatically — complete comparison matrix for all 15 states.",
     date: "2026-04-20",
     category: "senior-waivers",
     state: null,
@@ -1212,9 +1212,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "tennessee-senior-citizens-tbr-community-colleges",
     title:
-      "Tennessee Senior Citizens at TBR Community Colleges: How the 65+ Tuition Waiver Actually Works",
+      "TN Free College for 65+: TBR Tuition Waiver (2026)",
     description:
-      "Tennessee residents aged 65+ can take credit courses at TBR community colleges with tuition and most fees waived under Tenn. Code Ann. § 49-7-113. A small service fee (~$70/term) still applies. Here's how it works.",
+      "Tennessee residents 65+ take credit courses at TBR community colleges with tuition waived under § 49-7-113. A $70/term service fee still applies.",
     date: "2026-05-04",
     category: "senior-waivers",
     state: "tn",
@@ -1230,7 +1230,7 @@ export const articles: ArticleMeta[] = [
     title:
       "Hybrid Community College Classes: The Hidden Third Option",
     description:
-      "Hybrid courses are 4.7% of community college offerings nationally — but vary 0% to 14.6% by state. Here's what hybrid actually is (including HyFlex), where it's common vs hidden under other labels, and when it wins.",
+      "Hybrid courses are 4.7% of CC offerings nationally — but vary 0% to 14.6% by state. What hybrid actually is, including HyFlex, and when it wins.",
     date: "2026-04-20",
     category: "course-format-density",
     state: null,
@@ -1262,9 +1262,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "community-college-sessions-explained",
     title:
-      "Community College Sessions Explained: Full-Term, 8-Week, Mini-Mester, Late-Start, and Summer",
+      "Community College Sessions Explained (2026)",
     description:
-      "Community college schedules look like one 16-week term but actually contain a stack of overlapping sessions. Here's how each format works, when to use which, and how to stack them to finish faster.",
+      "CC schedules look like one 16-week term but contain a stack of overlapping sessions. Each format, when to use which, and how to stack them faster.",
     date: "2026-05-09",
     category: "session-timing",
     state: null,
@@ -1296,9 +1296,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "maryland-community-college-session-timing-guide",
     title:
-      "Maryland Community College Sessions Explained: Full-Term, 8-Week, Mini-Mester, and Late-Start Across MD's 16 Colleges",
+      "MD College Sessions: 93 Start Dates at AACC (2026)",
     description:
-      "AACC alone has 93 distinct start dates per term. Here's how MD's 16 community colleges actually structure session length, when each format helps, and how to spot the right one before you register.",
+      "AACC alone has 93 distinct start dates per term. How MD's 16 CCs structure session length, when each format helps, and how to spot the right one.",
     date: "2026-05-09",
     category: "session-timing",
     state: "md",
@@ -1312,9 +1312,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "germanna-community-college-audit-class-guide",
     title:
-      "How to Audit a Class at Germanna Community College: Cost, Application, and Eligibility",
+      "Audit a Class at Germanna CC: Cost & How-To (2026)",
     description:
-      "Germanna allows auditing at full credit-equivalent cost — or free for VA residents 60+ under the senior tuition waiver. Here's the application process, the constraints, and when auditing makes sense.",
+      "Germanna allows auditing at full credit cost — or free for VA residents 60+. Application, constraints, and when auditing makes sense.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "va",
@@ -1341,9 +1341,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "tennessee-community-college-session-timing-guide",
     title:
-      "Tennessee Community College Sessions Explained: How TBR's 12 Colleges Use 8-Week, Mini-Mester, and Late-Start Formats",
+      "TN College Sessions: 62 Start Dates at Northeast (2026)",
     description:
-      "Northeast State publishes 62 distinct start dates per term. Here's how TBR's 12 community colleges actually structure session length, when each format helps, and how to find the right one before you register.",
+      "Northeast State publishes 62 distinct start dates per term. How TBR's 12 CCs structure session length and how to find the right one before you register.",
     date: "2026-05-09",
     category: "session-timing",
     state: "tn",
@@ -1355,9 +1355,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "massachusetts-community-college-session-timing-guide",
     title:
-      "Massachusetts Community College Sessions Explained: How MassCC's 15 Colleges Use Full-Term, 8-Week, and Summer Formats",
+      "MA College Sessions: 8-Week & Summer Formats (2026)",
     description:
-      "MassCC runs leaner session menus than peer states. Here's how the 15 colleges structure session length, when each format helps, and where Middlesex and Greenfield offer the deepest options.",
+      "MassCC runs leaner session menus than peer states. How the 15 colleges structure session length — and where Middlesex and Greenfield go deepest.",
     date: "2026-05-09",
     category: "session-timing",
     state: "ma",
@@ -1369,9 +1369,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-york-cuny-community-college-session-timing-guide",
     title:
-      "New York CUNY Community College Sessions Explained: How the 7 CUNY-CC Colleges Use 8-Week, Winter, and Summer Formats",
+      "CUNY College Sessions: 8-Week, Winter & Summer (2026)",
     description:
-      "CUNY's 7 community colleges run a centrally synchronized session menu — narrower than peer systems but with a unique cross-campus enrollment advantage in winter and summer terms.",
+      "CUNY's 7 CCs run a centrally synchronized session menu — narrower than peer systems but with a unique cross-campus advantage in winter and summer.",
     date: "2026-05-09",
     category: "session-timing",
     state: "ny",
@@ -1383,9 +1383,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "north-carolina-community-college-session-timing-guide",
     title:
-      "North Carolina Community College Sessions Explained: How NCCCS's 58 Colleges Use 8-Week, Mini-Mester, and Late-Start Formats",
+      "NC College Sessions: 49 Start Dates at CPCC (2026)",
     description:
-      "Central Piedmont alone publishes 49 distinct start dates per term. Here's how NCCCS's 58 community colleges actually structure session length, when each format helps, and how to find the right one.",
+      "Central Piedmont alone publishes 49 distinct start dates per term. How NCCCS's 58 CCs structure session length and how to find the right one.",
     date: "2026-05-09",
     category: "session-timing",
     state: "nc",
@@ -1397,9 +1397,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "virginia-community-college-session-timing-guide",
     title:
-      "Virginia Community College Sessions Explained: How VCCS's 23 Colleges Use 8-Week, Dynamic, and Late-Start Formats",
+      "VA College Sessions: 74 Start Dates at TCC (2026)",
     description:
-      "TCC publishes 74 distinct start dates per term. Here's how VCCS's 23 community colleges actually structure session length, including the dynamic-dated sections unique to Virginia.",
+      "TCC publishes 74 distinct start dates per term. How VCCS's 23 CCs structure session length, including the dynamic-dated sections unique to VA.",
     date: "2026-05-09",
     category: "session-timing",
     state: "va",
@@ -1411,9 +1411,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "connecticut-state-community-college-session-timing-guide",
     title:
-      "Connecticut State Community College Sessions Explained: How CT State's Unified System Uses 8-Week, Late-Start, and Summer Formats",
+      "CT State Sessions: Unified 12-Campus System (2026)",
     description:
-      "CT State's 2023 merger created a unified 12-campus system with shared accreditation. Here's how that affects session diversity and cross-campus enrollment for 8-week, intersession, and summer formats.",
+      "CT State's 2023 merger created a unified 12-campus system. How it affects session diversity and cross-campus enrollment for 8-week and summer formats.",
     date: "2026-05-09",
     category: "session-timing",
     state: "ct",
@@ -1427,9 +1427,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-york-cuny-senior-citizens-tuition-waiver",
     title:
-      "New York CUNY Senior Citizens at Community Colleges: How the 60+ Audit Program Actually Works",
+      "NY CUNY Free Audit for 60+: How It Works (2026)",
     description:
-      "N.Y. Education Law § 6304(5) waives tuition for residents 60+ at all 7 CUNY community colleges — but only for audit enrollment, not credit. Here's what's covered and how it compares to nearby states.",
+      "NY § 6304(5) waives tuition for residents 60+ at all 7 CUNY community colleges — audit only, no credit. What's covered and state comparisons.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "ny",
@@ -1443,9 +1443,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "nova-northern-virginia-community-college-audit-class-guide",
     title:
-      "How to Audit a Class at Northern Virginia Community College: Cost, Application, and Eligibility",
+      "Audit a Class at NOVA: Cost & How-To (2026)",
     description:
-      "NOVA, Virginia's largest community college, allows auditing at full credit cost — or free for VA residents 60+. Here's the process across NOVA's six campuses and online catalog.",
+      "NOVA, VA's largest CC, allows auditing at full credit cost — or free for VA residents 60+. The process across six campuses and online catalog.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "va",
@@ -1468,9 +1468,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "reynolds-community-college-audit-class-guide",
     title:
-      "How to Audit a Class at Reynolds Community College: Cost, Application, and Eligibility",
+      "Audit a Class at Reynolds CC: Cost & How-To (2026)",
     description:
-      "Reynolds Community College in central Virginia allows auditing at full credit cost — or free for VA residents 60+. Here's the process across the three Richmond-area campuses.",
+      "Reynolds CC in central VA allows auditing at full credit cost — or free for VA residents 60+. The process across three Richmond-area campuses.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "va",
@@ -1493,9 +1493,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "tcc-tidewater-community-college-audit-class-guide",
     title:
-      "How to Audit a Class at Tidewater Community College: Cost, Application, and Eligibility",
+      "Audit a Class at Tidewater CC: Cost & How-To (2026)",
     description:
-      "TCC serves Hampton Roads with four campuses and a heavy military-affiliated student body. Auditing rules, cost (free for seniors), and important notes for military and veteran auditors.",
+      "TCC serves Hampton Roads with four campuses and a military-affiliated student body. Auditing rules, cost (free for 60+), and notes for veterans.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "va",
@@ -1522,9 +1522,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "connecticut-senior-citizens-ct-state-tuition-waiver",
     title:
-      "Connecticut Senior Citizens at CT State Community College: How the 62+ Audit Program Actually Works",
+      "CT Free Audit for 62+: CT State Community College",
     description:
-      "CGS § 10a-27 lets CT residents 62+ audit courses at CT State Community College tuition-free. Here's what's covered, what isn't, and how the unified-system structure affects access.",
+      "CGS § 10a-27 lets CT residents 62+ audit courses at CT State CC tuition-free. What's covered and how the unified-system structure affects access.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "ct",
@@ -1536,9 +1536,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "georgia-senior-citizens-tcsg-tuition-waiver",
     title:
-      "Georgia Senior Citizens at TCSG Technical Colleges: How the 62+ Tuition Waiver Actually Works",
+      "GA Free College for 62+: TCSG Credit Waiver (2026)",
     description:
-      "OCGA 20-4-20 waives tuition at all 22 TCSG technical colleges for residents 62+ — covering credit enrollment, not just audit. Here's the credit-eligible structure and how to use it.",
+      "OCGA 20-4-20 waives tuition at all 22 TCSG technical colleges for residents 62+ — covering credit enrollment, not just audit. How to use it.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "ga",
@@ -1550,9 +1550,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "pennsylvania-senior-citizens-community-college-tuition-waiver",
     title:
-      "Pennsylvania Senior Citizens at Community Colleges: How the 60+ Audit Program Actually Works",
+      "PA Free Audit for 60+ at All 14 Community Colleges",
     description:
-      "24 P.S. § 19-1908-B lets PA residents 60+ audit community college courses tuition-free. Here's how it works across PA's 14 community colleges and what makes the sponsor-district structure unique.",
+      "24 P.S. § 19-1908-B lets PA residents 60+ audit CC courses tuition-free. How it works across 14 colleges and the sponsor-district rule.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "pa",
@@ -1564,9 +1564,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "florida-senior-citizens-fcs-tuition-waiver",
     title:
-      "Florida Senior Citizens at FCS Colleges: How the 60+ Tuition Waiver Actually Works (And Why Credit Doesn't Count Toward Graduation)",
+      "FL Free College for 60+: FCS Waiver Catch (2026)",
     description:
-      "FL Stat. § 1009.26(4) waives tuition and fees at all 28 FCS colleges for residents 60+ — but credit earned doesn't count toward an associate degree. Here's what that constraint actually means.",
+      "FL § 1009.26(4) waives tuition at all 28 FCS colleges for residents 60+ — but credit earned doesn't count toward a degree. What that means.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "fl",
@@ -1580,9 +1580,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "south-carolina-technical-college-session-timing-guide",
     title:
-      "South Carolina Technical College Sessions Explained: How SC's 16 Technical Colleges Use 8-Week, Mini-Mester, and Late-Start Formats",
+      "SC Tech College Sessions: 83 Dates at Horry-Geo (2026)",
     description:
-      "Horry-Georgetown publishes 83 distinct start dates per term; Greenville Tech 76. Here's how SC's 16 technical colleges actually structure session length and how to find the right one.",
+      "Horry-Georgetown publishes 83 distinct start dates per term; Greenville Tech 76. How SC's 16 tech colleges structure session length.",
     date: "2026-05-09",
     category: "session-timing",
     state: "sc",
@@ -1595,9 +1595,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "georgia-technical-college-session-timing-guide",
     title:
-      "Georgia TCSG Session Timing: Central Georgia Tech's 195 Start Dates and What Session Diversity Means for Technical College Students",
+      "GA Tech Sessions: 195 Start Dates at Central GA Tech",
     description:
-      "Central Georgia Technical College has 195 distinct start dates across all terms — the highest session diversity of any college we've indexed, nearly 2.7x Virginia's most flexible VCCS campus. Here's how TCSG's workforce-first calendar works and how to find sections that fit your schedule.",
+      "Central Georgia Tech runs 195 distinct start dates — the highest session diversity we've indexed, nearly 2.7x VCCS's most flexible campus.",
     date: "2026-05-10",
     category: "session-timing",
     state: "ga",
@@ -1609,9 +1609,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "florida-community-college-session-timing-guide",
     title:
-      "Florida College System Session Timing: South Florida State's 111 Start Dates vs. Valencia's 4",
+      "FL College Sessions: 111 Dates at SFS vs 4 at Valencia",
     description:
-      "South Florida State College runs 111 distinct start dates; Valencia College runs 4 — but with 5,672 sections. How Florida's FCS colleges divide between rolling-start flexibility and high-density conventional semesters, and what that means for your scheduling strategy.",
+      "South Florida State runs 111 distinct start dates; Valencia runs 4 — with 5,672 sections. Rolling-start flexibility vs. high-density semesters.",
     date: "2026-05-10",
     category: "session-timing",
     state: "fl",
@@ -1625,9 +1625,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "blue-ridge-community-college-audit-class-guide",
     title:
-      "How to Audit a Class at Blue Ridge Community College: Cost, Application, and Eligibility",
+      "Audit a Class at Blue Ridge CC: Cost & How-To (2026)",
     description:
-      "Blue Ridge Community College in the Shenandoah Valley allows auditing at full credit cost — or free for VA residents 60+. Here's the process across the Weyers Cave campus and education centers.",
+      "Blue Ridge CC in the Shenandoah Valley allows auditing at full credit cost — or free for VA residents 60+. Process across Weyers Cave and centers.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "va",
@@ -1650,9 +1650,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "brightpoint-community-college-audit-class-guide",
     title:
-      "How to Audit a Class at Brightpoint Community College: Cost, Application, and Eligibility",
+      "Audit a Class at Brightpoint CC: Cost & How-To (2026)",
     description:
-      "Brightpoint Community College (formerly John Tyler) serves the Tri-Cities region with two campuses. Auditing rules, cost (free for seniors), and the application process for the south-of-Richmond auditor.",
+      "Brightpoint CC (formerly John Tyler) serves the Tri-Cities region with two campuses. Auditing rules, cost (free for 60+), and how to apply.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "va",
@@ -1675,9 +1675,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "camp-paul-d-camp-community-college-audit-class-guide",
     title:
-      "How to Audit a Class at Paul D. Camp Community College: Cost, Application, and Eligibility",
+      "Audit a Class at Paul D. Camp CC: Cost & How-To (2026)",
     description:
-      "Paul D. Camp Community College serves Western Tidewater with smaller class sizes and a focused workforce-program catalog. Auditing rules, cost (free for seniors), and how to enroll.",
+      "Paul D. Camp CC serves Western Tidewater with small classes and workforce programs. Auditing rules, cost (free for 60+), and how to enroll.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "va",
@@ -1700,9 +1700,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "central-virginia-community-college-audit-class-guide",
     title:
-      "How to Audit a Class at Central Virginia Community College: Cost, Application, and Eligibility",
+      "Audit a Class at Central VA CC: Cost & How-To (2026)",
     description:
-      "Central Virginia Community College serves the Lynchburg region from main campus plus the Bedford and Amherst centers. Auditing rules, cost (free for seniors), and the application process.",
+      "CVCC serves the Lynchburg region from main campus plus Bedford and Amherst centers. Auditing rules, cost (free for 60+), and how to apply.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "va",
@@ -1725,9 +1725,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "danville-community-college-audit-class-guide",
     title:
-      "How to Audit a Class at Danville Community College: Cost, Application, and Eligibility",
+      "Audit a Class at Danville CC: Cost & How-To (2026)",
     description:
-      "Danville Community College serves Southside Virginia with a workforce-program emphasis and smaller class sizes. Auditing rules, cost (free for seniors), and how to enroll.",
+      "DCC serves Southside Virginia with workforce programs and small classes. Auditing rules, cost (free for 60+), and how to enroll.",
     date: "2026-05-09",
     category: "senior-waivers",
     state: "va",
@@ -1752,9 +1752,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "maine-community-college-hybrid-density",
     title:
-      "Maine Community College Hybrid Classes: Where the State's 16.2% Hybrid Share Actually Lives",
+      "ME Hybrid Classes: 16.2%, 2nd Highest in East (2026)",
     description:
-      "MCCS runs 16.2% hybrid sections statewide — second highest in the East. EMCC, SMCC, and YCCC each top 20% hybrid. Here's what the data shows and how to use it as an MCCS student.",
+      "MCCS runs 16.2% hybrid sections statewide — second highest in the East. EMCC, SMCC, and YCCC each top 20%. What it means for MCCS students.",
     date: "2026-05-10",
     category: "course-format-density",
     state: "me",
@@ -1766,9 +1766,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "maryland-community-college-hybrid-density",
     title:
-      "Maryland Community College Hybrid Classes: How Frederick CC's 63% Hybrid Share Skews the State Average",
+      "MD Hybrid Classes: Frederick CC at 63% (2026)",
     description:
-      "MACC reports 13.7% hybrid sections statewide — but Frederick CC alone runs 63%. The state-level number hides extreme college-level variation. Here's what the data shows and how to navigate it.",
+      "MACC reports 13.7% hybrid sections statewide — but Frederick CC alone runs 63%. The state average hides extreme college-level variation.",
     date: "2026-05-10",
     category: "course-format-density",
     state: "md",
@@ -1780,9 +1780,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "massachusetts-community-college-hybrid-density",
     title:
-      "Massachusetts Community College Hybrid Classes: How BHCC's 40% Concentration Drives the State's 14.2% Hybrid Share",
+      "MA Hybrid Classes: BHCC at 40%, State at 14.2% (2026)",
     description:
-      "MassCC reports 14.2% hybrid sections statewide — but Bunker Hill CC alone runs 40%. The bimodal distribution shapes what 'hybrid in Massachusetts' actually means depending on which college you attend.",
+      "MassCC reports 14.2% hybrid sections statewide — but Bunker Hill CC alone runs 40%. What 'hybrid in MA' means depends on the college.",
     date: "2026-05-10",
     category: "course-format-density",
     state: "ma",
@@ -1796,9 +1796,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-hampshire-community-college-late-start-classes",
     title:
-      "New Hampshire Community College Late-Start Classes: Why CCSNH Has 18% Late-Start — Highest in the East",
+      "NH Late-Start Classes: 18%, Highest in the East (2026)",
     description:
-      "CCSNH runs 18.1% late-start sections — the highest density in any East Coast community college system. LRCC, GBCC, WMCC, and MCCNH all top 21%. Here's how to use the catalog if you missed main registration.",
+      "CCSNH runs 18.1% late-start sections — highest in any East Coast CC system. LRCC, GBCC, WMCC, and MCCNH all top 21%. How to use the catalog.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "nh",
@@ -1810,9 +1810,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "georgia-community-college-late-start-classes",
     title:
-      "Georgia TCSG Late-Start Classes: Where the System's 14.5% Late-Start Density Actually Lives",
+      "GA Late-Start Classes: TCSG 14.5%, 1,307 Sections (2026)",
     description:
-      "TCSG runs 1,307 late-start sections across 22 colleges — the largest absolute late-start catalog on the East Coast. Albany Tech leads at 29.4%. Here's how to use it if you missed main registration.",
+      "TCSG runs 1,307 late-start sections across 22 colleges — the largest catalog on the East Coast. Albany Tech leads at 29.4%.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "ga",
@@ -1824,9 +1824,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "south-carolina-technical-college-late-start-classes",
     title:
-      "South Carolina Technical College Late-Start Classes: Why Piedmont Tech's 38% Late-Start Density Skews the State Average",
+      "SC Late-Start Classes: Piedmont Tech at 38% (2026)",
     description:
-      "SC tech colleges run 11.8% late-start sections — but Piedmont Tech alone reports 38%, carrying 60% of the statewide late-start catalog. Here's what the data shows and how to navigate it.",
+      "SC tech colleges run 11.8% late-start sections — but Piedmont Tech alone reports 38%, carrying 60% of the statewide catalog.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "sc",
@@ -1839,9 +1839,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "rhode-island-community-college-prereq-bottlenecks",
     title:
-      "Rhode Island Community College Prerequisite Chains: How CCRI's Single-College System Concentrates the Bottleneck",
+      "RI Prereq Chains: CCRI's Single-College Bottleneck (2026)",
     description:
-      "Rhode Island has one community college — CCRI. ENGL 0700 gates 262 downstream courses; the nursing chain runs 21 levels deep. Here's how to sequence around the bottleneck when there's no alternative campus.",
+      "RI has one CC — CCRI. ENGL 0700 gates 262 downstream courses; the nursing chain runs 21 levels deep. How to sequence with no alternative campus.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "ri",
@@ -1853,9 +1853,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-york-cuny-community-college-prereq-bottlenecks",
     title:
-      "CUNY Community College Prerequisite Chains: Why a Maximum Depth of 8 Is a Structural Advantage Worth Understanding",
+      "NY CUNY Prereq Chains: Max Depth 8, an Advantage (2026)",
     description:
-      "Across CUNY's seven community colleges, the maximum prereq chain depth is 8 — far below the 21-22 levels in FL and SC. Co-requisite remediation explains the ceiling. Here's what it means for CUNY planning.",
+      "Across CUNY's 7 CCs, max prereq chain depth is 8 — far below FL and SC's 21–22 levels. Co-requisite remediation explains the ceiling.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "ny",
@@ -1867,9 +1867,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "pennsylvania-community-college-prereq-bottlenecks",
     title:
-      "Pennsylvania Community College Prerequisite Chains: How Fundamental Math Gates Vocational-Tech Programs at CCP",
+      "PA Prereq Chains: FNMT Math Gates Vocational Tech (2026)",
     description:
-      "At CCP and across PA, FNMT developmental math — not English — drives the deepest chains. Biomedical tech (BMET) reaches depth 12, diagnostic imaging (DMI) depth 11. Here's how PA's prereq structure works.",
+      "At CCP and across PA, FNMT developmental math — not English — drives the deepest chains. BMET reaches depth 12; DMI reaches depth 11.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "pa",
@@ -1882,9 +1882,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "virginia-community-college-hybrid-density",
     title:
-      "Virginia Community College Hybrid Classes: Rural Southwest Colleges Lead at 35%, While NOVA's 17% Anchors the DC Suburbs",
+      "VA Hybrid Classes: Rural SW Leads at 35% (2026)",
     description:
-      "VCCS runs 11.3% hybrid across 26,236 sections. Mountain Gateway leads at 35%; NRCC and WCC are under 2%. NOVA at 17% is the largest hybrid footprint in dollar-volume terms. Here's the full per-college breakdown.",
+      "VCCS runs 11.3% hybrid across 26,236 sections. Mountain Gateway leads at 35%; NRCC and WCC under 2%; NOVA at 17% is the largest by volume.",
     date: "2026-05-10",
     category: "planning",
     state: "va",
@@ -1896,9 +1896,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "south-carolina-community-college-hybrid-density",
     title:
-      "South Carolina Technical College Hybrid Classes: Trident at 23% with Zero Online, Greenville at 0% with 3,500 Sections",
+      "SC Hybrid Classes: Trident 23%, Greenville 0% (2026)",
     description:
-      "SCCTCS runs 10.6% hybrid statewide — but Trident Technical College (23%) runs zero online, making hybrid its only remote option. Greenville Tech (3,563 sections) and Midlands Tech both run 0% hybrid.",
+      "SCCTCS runs 10.6% hybrid statewide. Trident Tech (23%) runs zero online; Greenville Tech (3,563 sections) and Midlands Tech both run 0% hybrid.",
     date: "2026-05-10",
     category: "planning",
     state: "sc",
@@ -1910,9 +1910,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "north-carolina-community-college-hybrid-density",
     title:
-      "North Carolina Community College Hybrid Classes: 4.8% Statewide — But That Number Conceals a Bimodal Split Larger Than Any Other East Coast System",
+      "NC Hybrid Classes: 4.8%, Bimodal Distribution (2026)",
     description:
-      "NCCCS has 55 colleges and 53,631 sections — the largest East Coast system we track. Sandhills CC runs 31% hybrid; CPCC (4,982 sections) and Wake Tech (4,311 sections) both run 0%. Here's the full breakdown.",
+      "NCCCS has 55 colleges and 53,631 sections. Sandhills CC runs 31% hybrid; CPCC (4,982 sections) and Wake Tech (4,311 sections) both run 0%.",
     date: "2026-05-10",
     category: "planning",
     state: "nc",
@@ -1925,9 +1925,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "tennessee-community-college-late-start-classes",
     title:
-      "Tennessee Community College Late-Start Classes: How TBR's 7.8% Late-Start Share Is Distributed",
+      "TN Late-Start Classes: TBR at 7.8%, 1,157 Sections",
     description:
-      "TBR's 12 community colleges hold 1,157 late-start sections for fall 2026 — a 7.8% share. Chattanooga State leads at 26.4%; Pellissippi State is at 2.3%. Here's how to find and use Tennessee's late-start catalog.",
+      "TBR's 12 CCs hold 1,157 late-start sections for fall 2026 — a 7.8% share. Chattanooga State leads at 26.4%; Pellissippi at 2.3%.",
     date: "2026-05-10",
     category: "planning",
     state: "tn",
@@ -1939,9 +1939,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "maryland-community-college-late-start-classes",
     title:
-      "Maryland Community College Late-Start Classes: AACC and PGCC Lead a 9.0% System Average",
+      "MD Late-Start Classes: AACC 14.9%, PGCC Volume (2026)",
     description:
-      "Maryland's 12 tracked community colleges hold 847 late-start sections for fall 2026 — a 9.0% share. AACC leads on rate at 14.9%; PGCC leads on volume at 267 sections. Here's how to find and use Maryland's late-start catalog.",
+      "MD's 12 tracked CCs hold 847 late-start sections for fall 2026 — a 9.0% share. AACC leads on rate at 14.9%; PGCC leads on volume with 267.",
     date: "2026-05-10",
     category: "planning",
     state: "md",
@@ -1953,9 +1953,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "north-carolina-community-college-late-start-classes",
     title:
-      "North Carolina Community College Late-Start Classes: Rural Colleges Lead a 9.6% System Average",
+      "NC Late-Start Classes: 9.6% Rate, Rural Leaders (2026)",
     description:
-      "NC community colleges hold 366 late-start sections in the fall 2026 catalog — a 9.6% share, above the East Coast average. College of Albemarle leads at 15.8%. Here's how rural geography shapes NC's late-start distribution.",
+      "NC CCs hold 366 late-start sections in fall 2026 — a 9.6% share, above the East Coast average. College of Albemarle leads at 15.8%.",
     date: "2026-05-10",
     category: "planning",
     state: "nc",
@@ -1968,9 +1968,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "district-of-columbia-community-college-prereq-bottlenecks",
     title:
-      "District of Columbia Community College Prerequisite Chains: How UDC-CC's Single-Institution System Concentrates the Bottleneck",
+      "DC Prereq Chains: UDC-CC Single-Institution (2026)",
     description:
-      "UDC Community College is DC's sole community college. 100% of indexed courses carry explicit prerequisites. MATH 151 gates 149 courses; architecture, engineering, and dietetics chains reach depth 7.",
+      "UDC Community College is DC's sole CC. 100% of indexed courses carry explicit prereqs. MATH 151 gates 149 courses; architecture reaches depth 7.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "dc",
@@ -1982,9 +1982,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "connecticut-community-college-prereq-bottlenecks",
     title:
-      "Connecticut Community College Prerequisite Chains: How ENG 0930 Gates 200 Downstream Courses Across CT-State",
+      "CT Prereq Chains: ENG 0930 Gates 200 Courses (2026)",
     description:
-      "Across CT-State's 12 campuses, ENG 0930 is the single most consequential course — gating 200 downstream courses despite a max depth of only 5. Music, CMGT, and CSC chains run unexpectedly deep.",
+      "Across CT State's 12 campuses, ENG 0930 gates 200 downstream courses despite a max depth of only 5. Music, CMGT, and CSC chains run deep.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "ct",
@@ -1996,9 +1996,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-hampshire-community-college-prereq-bottlenecks",
     title:
-      "New Hampshire Community College Prerequisite Chains: How Radiologic Technology Dominates CCSNH's Deepest Sequences",
+      "NH Prereq Chains: Radiologic Tech Dominates (2026)",
     description:
-      "CCSNH's prereq structure is broadly shallow — but Radiologic Technology (RADT) chains reach depth 8, the deepest in the system. Only 78 deep chains out of 592 total courses. Here's what that means for NH planning.",
+      "CCSNH's prereq structure is broadly shallow, but Radiologic Tech (RADT) chains reach depth 8 — the deepest in the system. Only 78 deep chains.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "nh",
@@ -2011,9 +2011,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "kentucky-community-college-hybrid-density",
     title:
-      "Kentucky Community College Hybrid Classes: KCTCS at 13.2% — Gateway Leads at 22.8%, Henderson Runs Zero",
+      "KY Hybrid Classes: KCTCS 13.2%, Gateway 22.8% (2026)",
     description:
-      "KCTCS runs 13.2% hybrid across 16,512 sections and 16 colleges. Gateway CTC leads at 22.8% (hybrid is the plurality format); Henderson CC runs 0%. Online at 48.2% dwarfs hybrid statewide.",
+      "KCTCS runs 13.2% hybrid across 16,512 sections. Gateway CTC leads at 22.8%; Henderson CC runs 0%. Online at 48.2% dwarfs hybrid statewide.",
     date: "2026-05-10",
     category: "planning",
     state: "ky",
@@ -2025,9 +2025,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "alabama-community-college-hybrid-density",
     title:
-      "Alabama Community College Hybrid Classes: Enterprise State at 35.6%, Coastal Alabama at 5.4% — and Why the Gap Matters",
+      "AL Hybrid Classes: Enterprise 35.6% vs Coastal 5.4%",
     description:
-      "ACCS runs 10.9% hybrid across 8,883 sections and 6 colleges. Enterprise State leads at 35.6% (Fort Novosel military enrollment). Coastal Alabama (43% of all sections) runs only 5.4%, pulling the statewide average down.",
+      "ACCS runs 10.9% hybrid across 8,883 sections. Enterprise State leads at 35.6% (Fort Novosel); Coastal AL runs 5.4% but holds 43% of sections.",
     date: "2026-05-10",
     category: "planning",
     state: "al",
@@ -2039,9 +2039,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-york-community-college-hybrid-density",
     title:
-      "New York Community College Hybrid Classes: CUNY's 6.2% Reflects NYC Transit Density — Kingsborough Leads at 17%",
+      "NY Hybrid Classes: CUNY 6.2%, Kingsborough 17% (2026)",
     description:
-      "CUNY's 7 community colleges run 6.2% hybrid across 5,775 sections — below all East Coast peers. Kingsborough leads at 17%; BMCC and LaGuardia together hold 43% of sections and anchor the system near zero.",
+      "CUNY's 7 CCs run 6.2% hybrid across 5,775 sections — below all East Coast peers. Kingsborough leads at 17%; BMCC and LaGuardia anchor near zero.",
     date: "2026-05-10",
     category: "planning",
     state: "ny",
@@ -2054,9 +2054,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "delaware-community-college-late-start-classes",
     title:
-      "Delaware Community College Late-Start Classes: Del Tech's 12.5% Rate Across 12 Dates at 4 Campuses",
+      "DE Late-Start Classes: Del Tech 12.5%, 12 Dates (2026)",
     description:
-      "Delaware Technical Community College is DE's sole community college — 275 late-start sections across 12 distinct dates, clustered in two cohort windows (late September, mid-October). Here's how to navigate Del Tech's late-start calendar.",
+      "Del Tech is DE's sole CC — 275 late-start sections across 12 distinct dates, clustered in late September and mid-October windows.",
     date: "2026-05-10",
     category: "planning",
     state: "de",
@@ -2068,9 +2068,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "rhode-island-community-college-late-start-classes",
     title:
-      "Rhode Island Community College Late-Start Classes: CCRI's 12.8% Rate in Just 4 Distinct Date Windows",
+      "RI Late-Start Classes: CCRI 12.8%, Only 4 Dates (2026)",
     description:
-      "CCRI is RI's only community college — 240 late-start sections at a 12.8% rate, but only 4 distinct start dates. The concentrated calendar means missing one window shifts you weeks forward. Here's how CCRI's late-start structure works.",
+      "CCRI is RI's only CC — 240 late-start sections at 12.8%, but only 4 start dates. Missing one window shifts you weeks forward.",
     date: "2026-05-10",
     category: "planning",
     state: "ri",
@@ -2082,9 +2082,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "florida-community-college-late-start-classes",
     title:
-      "Florida Community College Late-Start Classes: 42 Distinct Dates Across 8 Colleges — and What That Means for Registration",
+      "FL Late-Start Classes: 42 Dates, 7.0% Rate (2026)",
     description:
-      "Florida's state college system holds 753 late-start sections across 8 colleges at a 7.0% rate — with 42 distinct start dates. CFK leads at 22.4%; Valencia anchors volume. Each college manages its own registration separately.",
+      "FL's FCS holds 753 late-start sections across 8 colleges at 7.0% — with 42 distinct start dates. CFK leads at 22.4%; Valencia anchors volume.",
     date: "2026-05-10",
     category: "planning",
     state: "fl",
@@ -2097,9 +2097,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "tennessee-community-college-prereq-bottlenecks",
     title:
-      "Tennessee Community College Prerequisite Chains: ENGL 1010 Gates 64 Courses, CITC 1301 Is the Non-Obvious Bottleneck",
+      "TN Prereq Chains: ENGL 1010 Gates 64 Courses (2026)",
     description:
-      "Across TBR's 12 community colleges, ENGL 1010 is the widest gate at 64 downstream courses. But CITC 1301 (a CIS course) gates 31 — the non-obvious bottleneck. Agriculture chains reach the max depth of 8.",
+      "Across TBR's 12 CCs, ENGL 1010 gates 64 downstream courses. But CITC 1301 gates 31 — the non-obvious bottleneck. Agriculture chains reach depth 8.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "tn",
@@ -2111,9 +2111,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "virginia-community-college-prereq-bottlenecks",
     title:
-      "Virginia Community College Prerequisite Chains: VCCS Has the Shallowest Chains in Any Multi-College System We've Indexed",
+      "VA Prereq Chains: VCCS Has the Shallowest in US (2026)",
     description:
-      "VCCS's max depth is 4 — the shallowest of any multi-college system in our dataset. Only 19 deep chains across 292 prereq-bearing courses. ENG 111 gates just 23 courses. Here's what that means for VA students.",
+      "VCCS's max prereq depth is 4 — the shallowest in any multi-college system we've indexed. Only 19 deep chains across 292 prereq-bearing courses.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "va",
@@ -2125,9 +2125,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "vermont-community-college-prereq-bottlenecks",
     title:
-      "Vermont Community College Prerequisite Chains: How VTSU's Post-Merger System Structures Its 101 Prereq-Bearing Courses",
+      "VT Prereq Chains: VTSU Post-Merger Structure (2026)",
     description:
-      "Vermont State University merged CCV, Johnson, Lyndon, and Castleton in 2022. The prereq dataset has 101 courses; CIS 1100 and MAT 0310 tie as top bottlenecks at 15 each. STEM chains reach depth 5.",
+      "VTSU merged CCV, Johnson, Lyndon, and Castleton in 2022. CIS 1100 and MAT 0310 tie as top bottlenecks at 15 each; STEM chains reach depth 5.",
     date: "2026-05-10",
     category: "mistake-avoidance",
     state: "vt",
@@ -2140,9 +2140,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-jersey-community-college-prereq-bottlenecks",
     title:
-      "New Jersey Community College Prerequisite Chains: A Record 31-Level Depth and the ESL-to-Nursing Bottleneck",
+      "NJ Prereq Chains: Record 31-Level ESL-to-Nursing (2026)",
     description:
-      "NJ's 12-college system holds the deepest prereq chain in the dataset — 31 levels from ESL 037 through 13 ESL courses, college English, 6 biology courses, and 11 nursing courses to NUR 216. ENG 087 gates 727 downstream courses.",
+      "NJ's 12-college system holds the deepest prereq chain in the dataset — 31 levels from ESL 037 to NUR 216. ENG 087 gates 727 courses.",
     date: "2026-05-12",
     category: "mistake-avoidance",
     state: "nj",
@@ -2154,9 +2154,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "michigan-community-college-prereq-bottlenecks",
     title:
-      "Michigan Community College Prerequisite Chains: When Reading Development Blocks Math — and Math Blocks Nursing",
+      "MI Prereq Chains: Reading Blocks Math, Math Blocks RN",
     description:
-      "Michigan's ACRD 080 (Academic Reading Development) gates 710 downstream courses — more than any English course. ACRD 090 is a prerequisite for MATH 018, meaning reading blocks math access. The deepest chain reaches 23 levels into nursing.",
+      "MI's ACRD 080 gates 710 downstream courses — more than any English course. Reading is the prereq for math, which is the prereq for nursing.",
     date: "2026-05-12",
     category: "mistake-avoidance",
     state: "mi",
@@ -2168,9 +2168,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "ohio-community-college-prereq-bottlenecks",
     title:
-      "Ohio Community College Prerequisite Chains: IDS 102, the Nursing Triplet Structure, and a Concentrated Bottleneck Pattern",
+      "OH Prereq Chains: IDS 102 Gates 231 Courses (2026)",
     description:
-      "Ohio's IDS 102 (Integrated Development Studies) gates 231 downstream courses — more than any English course. The deepest chain reaches 16 levels through nursing's lecture-lab-clinical triplet structure. Deep chains concentrate in health sciences rather than spreading system-wide.",
+      "Ohio's IDS 102 gates 231 downstream courses — more than any English course. The deepest chain reaches 16 levels through nursing's lec-lab-clinical.",
     date: "2026-05-12",
     category: "mistake-avoidance",
     state: "oh",
@@ -2183,9 +2183,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "kentucky-community-college-late-start-classes",
     title:
-      "Kentucky Community College Late-Start Classes: KCTCS at 14.9% — Elizabethtown Leads at 39.7%",
+      "KY Late-Start Classes: KCTCS 14.9%, E-town 39.7% (2026)",
     description:
-      "KCTCS runs 14.9% late-start across 13,048 sections and 16 colleges — the highest rate in our dataset. Elizabethtown CTC leads at 39.7%. Jefferson (Louisville) and Bluegrass (Lexington) run at 9.2–9.5%.",
+      "KCTCS runs 14.9% late-start across 13,048 sections — highest in our dataset. Elizabethtown CTC leads at 39.7%; Jefferson and Bluegrass at ~9%.",
     date: "2026-05-10",
     category: "planning",
     state: "ky",
@@ -2197,9 +2197,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "mississippi-community-college-late-start-classes",
     title:
-      "Mississippi Community College Late-Start Classes: Meridian CC's 9.1% Rate Across 16 Distinct Dates",
+      "MS Late-Start Classes: Meridian CC 9.1%, 16 Dates (2026)",
     description:
-      "Meridian Community College is the only MS institution in our dataset — 71 late-start sections at 9.1%, spread across 16 distinct dates between September 15 and November 16. Here's how the calendar is structured.",
+      "Meridian CC is the only MS institution we track — 71 late-start sections at 9.1%, across 16 distinct dates between Sep 15 and Nov 16.",
     date: "2026-05-10",
     category: "planning",
     state: "ms",
@@ -2211,9 +2211,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "massachusetts-community-college-late-start-classes",
     title:
-      "Massachusetts Community College Late-Start Classes: Middlesex and BHCC Lead, STCC Runs Zero Across 1,087 Sections",
+      "MA Late-Start Classes: Middlesex Leads, STCC Zero (2026)",
     description:
-      "MA's 6 tracked community colleges hold 389 late-start sections at 7.5% — but STCC (Springfield) runs 0% across 1,087 sections. Middlesex leads at 10.9%, BHCC at 10.8%. 18 distinct dates across the system.",
+      "MA's 6 tracked CCs hold 389 late-start sections at 7.5% — but STCC runs 0% across 1,087 sections. Middlesex leads at 10.9%; BHCC at 10.8%.",
     date: "2026-05-10",
     category: "planning",
     state: "ma",
@@ -2225,9 +2225,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "vermont-community-college-late-start-classes",
     title:
-      "Vermont Community College Late-Start Classes: 6.8% Rate Across a Single Unified System",
+      "VT Late-Start Classes: VTSU 6.8% Rate (2026)",
     description:
-      "Vermont State University runs the state's only community college track. Fall 2026 data: 112 late-start sections, 6.8% rate, 8 distinct dates from mid-September through early November.",
+      "VTSU runs Vermont's only community college track. Fall 2026: 112 late-start sections, 6.8% rate, 8 dates from mid-Sept to early Nov.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "vt",
@@ -2239,9 +2239,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "alabama-community-college-late-start-classes",
     title:
-      "Alabama Community College Late-Start Classes: 5.3% Rate, 6 Colleges, 16 Distinct Dates",
+      "AL Late-Start Classes: 5.3%, 16 Distinct Dates (2026)",
     description:
-      "ACCS fall 2026 data across 6 colleges: 236 late-start sections at 5.3%. Chattahoochee Valley and Enterprise State lead at 9.6% each; Wallace–Dothan trails at 3.4%. Sixteen distinct entry points from September through November.",
+      "ACCS fall 2026: 236 late-start sections at 5.3% across 6 colleges. Chattahoochee Valley and Enterprise State lead at 9.6%; Wallace–Dothan at 3.4%.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "al",
@@ -2253,9 +2253,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "district-of-columbia-community-college-late-start-classes",
     title:
-      "DC Community College Late-Start Classes: UDC-CC's 5.6% Rate and 6 Entry Points",
+      "DC Late-Start Classes: UDC-CC 5.6%, 6 Entry Points (2026)",
     description:
-      "UDC Community College is DC's only public two-year institution. Fall 2026: 59 late-start sections, 5.6% rate, 6 distinct dates — including a tight September 22–28 rescue window and two December short-format dates.",
+      "UDC Community College is DC's only public two-year. Fall 2026: 59 late-start sections at 5.6%, 6 distinct dates including a Sep 22–28 rescue window.",
     date: "2026-05-10",
     category: "registration-timing",
     state: "dc",
