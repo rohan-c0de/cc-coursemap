@@ -13,6 +13,10 @@ const NAV_ITEMS = [
   { path: "/transfer", label: "Transfer" },
   { path: "/plan", label: "Semester Planner" },
   { path: "/colleges", label: "All Colleges" },
+  // Programs index — every page in the site links here so the
+  // /[state]/program/[slug] comparison hubs (federal earnings data, awards
+  // counts) are one click away regardless of entry point. See #413.
+  { path: "/programs", label: "Programs" },
   { path: "/about", label: "About" },
 ];
 
