@@ -10,6 +10,7 @@ import { getTransferInfo, getUniversities } from "@/lib/transfer";
 import { subjectName } from "@/lib/subjects";
 import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
 import type { CourseSection } from "@/lib/types";
+import SectionHeading from "@/components/SectionHeading";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
 import RelatedBlogPosts from "@/components/RelatedBlogPosts";
@@ -256,9 +257,9 @@ export default async function CoursePage(props: PageProps) {
         </p>
         {relatedSubjectCourses.length > 0 && (
           <section className="mb-8">
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-3">
+            <SectionHeading id="related-courses" className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-3">
               Other {subjectName(prefix)} courses this term
-            </h2>
+            </SectionHeading>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {relatedSubjectCourses.map((c) => (
                 <li key={c.course_number}>
@@ -522,9 +523,9 @@ export default async function CoursePage(props: PageProps) {
         {/* Transfer equivalencies */}
         {transferInfo.length > 0 && (
           <section className="mb-8">
-            <h2 id="transfer" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+            <SectionHeading id="transfer" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
               Transfer Equivalencies
-            </h2>
+            </SectionHeading>
             <div className="rounded-xl border border-gray-200 dark:border-slate-700 overflow-hidden">
               <table className="w-full text-left text-sm">
                 <thead className="bg-gray-50 dark:bg-slate-800 text-xs uppercase tracking-wider text-gray-500 dark:text-slate-400">
@@ -591,9 +592,9 @@ export default async function CoursePage(props: PageProps) {
             offered without having to scroll through every section. */}
         {availabilityProfile && availabilityProfile.totalSections > 0 && (
           <section className="mb-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-6">
-            <h2 id="availability" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+            <SectionHeading id="availability" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
               Availability Profile
-            </h2>
+            </SectionHeading>
             <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
               How {prefix} {number} is being offered across {availabilityProfile.collegeCount}{" "}
               {availabilityProfile.collegeCount === 1 ? "college" : "colleges"}{" "}
@@ -731,9 +732,9 @@ export default async function CoursePage(props: PageProps) {
 
         {/* Availability by college */}
         <section className="mb-8">
-          <h2 id="colleges" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+          <SectionHeading id="colleges" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
             Available at {colleges.length} {colleges.length === 1 ? "college" : "colleges"}
-          </h2>
+          </SectionHeading>
           <div className="space-y-3">
             {colleges.map((college) => (
               <CollegeBlock key={college.slug} college={college} state={state} config={config} />
@@ -758,9 +759,9 @@ export default async function CoursePage(props: PageProps) {
         {/* Related courses */}
         {related.length > 0 && (
           <section className="mb-8">
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+            <SectionHeading id="more-courses" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
               More {subjectName(prefix)} Courses
-            </h2>
+            </SectionHeading>
             <div className="flex flex-wrap gap-2">
               {related.map(([key, title]) => (
                 <Link

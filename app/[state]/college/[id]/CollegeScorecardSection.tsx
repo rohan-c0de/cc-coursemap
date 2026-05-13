@@ -15,6 +15,7 @@ import {
   formatPercent,
   type ScorecardRecord,
 } from "@/lib/scorecard";
+import SectionHeading from "@/components/SectionHeading";
 
 interface Props {
   state: string;
@@ -249,9 +250,9 @@ function OutcomesSection({ record, state }: { record: ScorecardRecord; state: st
 
   return (
     <div className="mt-6">
-      <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-700 dark:text-slate-300">
+      <SectionHeading as="h3" id="after-enrollment" className="text-sm font-semibold uppercase tracking-wide text-gray-700 dark:text-slate-300">
         After enrollment
-      </h3>
+      </SectionHeading>
       <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
         {retentionFt != null && (
           <StatCard
@@ -317,9 +318,9 @@ function EarningsSection({ record, state }: { record: ScorecardRecord; state: st
 
   return (
     <div className="mt-6">
-      <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-700 dark:text-slate-300">
+      <SectionHeading as="h3" id="earnings-debt" className="text-sm font-semibold uppercase tracking-wide text-gray-700 dark:text-slate-300">
         Earnings &amp; debt
-      </h3>
+      </SectionHeading>
       <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
         {earn1Yr != null && (
           <StatCard
@@ -415,13 +416,13 @@ export default function CollegeScorecardSection({
   const reportedYear = fetched.getUTCMonth() >= 9 ? year : year - 1; // Scorecard refreshes in October
 
   return (
-    <section className="mt-8" aria-labelledby="scorecard-heading">
-      <h2
-        id="scorecard-heading"
+    <section className="mt-8" aria-labelledby="cost-outcomes">
+      <SectionHeading
+        id="cost-outcomes"
         className="text-xl font-semibold text-gray-900 dark:text-slate-100"
       >
         Cost &amp; outcomes
-      </h2>
+      </SectionHeading>
       <p className="mt-1 text-sm text-gray-600 dark:text-slate-400">
         Federal data on tuition, financial aid, and student outcomes at{" "}
         {collegeName}.

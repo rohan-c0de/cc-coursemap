@@ -9,6 +9,8 @@
  * cover.
  */
 
+import SectionHeading from "@/components/SectionHeading";
+
 import Link from "next/link";
 import { getScorecardPrograms } from "@/lib/scorecard";
 import {
@@ -81,13 +83,13 @@ export default function TopProgramsSection({
   if (ranked.length === 0) return null;
 
   return (
-    <section className="mt-8" aria-labelledby="top-programs-heading">
-      <h2
-        id="top-programs-heading"
+    <section className="mt-8" aria-labelledby="top-programs">
+      <SectionHeading
+        id="top-programs"
         className="text-xl font-semibold text-gray-900 dark:text-slate-100"
       >
         Top programs at {collegeName}
-      </h2>
+      </SectionHeading>
       <p className="mt-1 text-sm text-gray-600 dark:text-slate-400">
         Ranked by federal IPEDS award counts. Click any program to compare it
         across every community college in this state — including median
