@@ -35,10 +35,23 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const title = `Degree Programs at ${institution.name} | Community College Path`;
   const description = `Browse degree and certificate programs at ${institution.name}. See requirements, courses, and credits needed for graduation.`;
 
+  const canonical = `/${state}/college/${id}/programs`;
   return {
     title,
     description,
-    alternates: { canonical: `/${state}/college/${id}/programs` },
+    alternates: { canonical },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      type: "website",
+      siteName: config.branding.siteName,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 
