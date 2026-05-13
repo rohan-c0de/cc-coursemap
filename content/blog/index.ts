@@ -456,9 +456,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "virginia-community-college-transfer-guaranteed-admission",
     title:
-      "Virginia GAA Transfer: What Guaranteed Admission Actually Covers",
+      "Virginia GAA Transfer: What's Actually Guaranteed (2026)",
     description:
-      "Virginia's GAA promises guaranteed admission to public universities — but it doesn't guarantee your major or your credits. Here's what it actually covers.",
+      "VCCS guaranteed admission covers university entry — not your major or your credits. Here's what the GAA promises, what it doesn't, and how to avoid surprises.",
     date: "2026-04-04",
     category: "state-system-explainers",
     state: "va",
@@ -470,9 +470,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "north-carolina-community-college-unc-transfer-caa",
     title:
-      "North Carolina Community College to UNC Transfer: What the CAA Covers and What It Does Not",
+      "NC Community College to UNC Transfer Guide (2026 CAA Rules)",
     description:
-      "The Comprehensive Articulation Agreement defines NC transfer rules — but it doesn't guarantee admission to every school or program. Here's what to know.",
+      "How the Comprehensive Articulation Agreement works: which courses transfer as a block, GPA minimums, and the gaps that catch NC students off guard.",
     date: "2026-04-04",
     category: "state-system-explainers",
     state: "nc",
@@ -486,9 +486,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "free-community-college-classes-for-seniors",
     title:
-      "Free Community College for Seniors: Which 17 States Offer It",
+      "Free Community College for Seniors: 17 States (2026)",
     description:
-      "Several states waive tuition for seniors at community colleges. Here's what exists, how it works, and what the fine print says.",
+      "17 states waive tuition for residents 60–65+ at public community colleges. See each state's age threshold, credit vs. audit rules, and hidden fees.",
     date: "2026-04-04",
     category: "senior-waivers",
     state: null,
@@ -532,9 +532,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "north-carolina-senior-citizens-community-colleges",
     title:
-      "North Carolina 65+ Free Community College Waiver (Audit Only)",
+      "NC Free College for 65+: All 58 Campuses (Audit Only)",
     description:
-      "North Carolina waives tuition for residents 65+ at all 58 community colleges — but it's audit only. Here's what that means and how to get started.",
+      "North Carolina waives tuition at all 58 community colleges for residents 65+. It's audit-only — no grade, no credit. Here's how to register and what to expect.",
     date: "2026-04-04",
     category: "senior-waivers",
     state: "nc",
@@ -687,9 +687,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "taking-classes-at-multiple-community-colleges",
     title:
-      "Can You Take Classes at More Than One Community College at the Same Time?",
+      "Taking Classes at Two Community Colleges at Once (How-To)",
     description:
-      "Yes — and sometimes it's the smartest option. Here's how multi-campus enrollment works, including financial aid, schedules, and transfer.",
+      "Yes, you can enroll at multiple community colleges simultaneously. Here's how financial aid, transcripts, and transfer credits work across campuses.",
     date: "2026-04-04",
     category: "cross-college-scheduling",
     state: null,
@@ -757,9 +757,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "georgia-tcsg-transfer-credit-guide",
     title:
-      "Georgia TCSG Transfer Credit to UGA, Georgia Tech, GSU, KSU, UWG",
+      "Georgia Tech College Transfer Credits: UGA, GT, GSU (2026)",
     description:
-      "Same TCSG course = direct match at Georgia Tech but worth nothing at UGA? Here's how transfer credit works at the 5 public Georgia universities.",
+      "The same TCSG course can be a direct match at Georgia Tech and worth nothing at UGA. See acceptance rates at all 5 Georgia public universities.",
     date: "2026-04-06",
     category: "state-system-explainers",
     state: "ga",
@@ -773,9 +773,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "comparing-transfer-credit-across-universities",
     title:
-      'Comparing Transfer Credit Across Universities: What "Transfers" Really Means',
+      "Why Transfer Credits Differ by University (Direct Match vs Elective)",
     description:
-      "Two universities can evaluate the same transcript and reach completely different conclusions. Here's how to compare transfer credit across schools — and why direct matches matter more than total credits.",
+      "Two schools can evaluate the same transcript and reach opposite conclusions. Learn to compare direct matches vs. elective credit before you pick a transfer destination.",
     date: "2026-04-06",
     category: "transfer-confusion",
     state: null,
@@ -805,9 +805,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "south-carolina-senior-citizens-technical-colleges",
     title:
-      "South Carolina 60+ Free Tech College Tuition Waiver (Credit OK)",
+      "SC Free College for 60+: Credit Courses, Not Just Audit",
     description:
-      "SC residents aged 60+ can take technical college classes with tuition waived — and unlike NC, it's for credit, not just auditing. Here's how it works.",
+      "South Carolina waives tuition at all 16 technical colleges for residents 60+. Unlike most states, it covers credit-bearing courses — not just auditing.",
     date: "2026-04-04",
     category: "senior-waivers",
     state: "sc",
@@ -883,9 +883,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "online-vs-in-person-community-college-classes",
     title:
-      "Online vs In-Person vs Hybrid Community College Classes: How to Choose the Right Format",
+      "Online vs In-Person vs Hybrid: Which Format to Pick",
     description:
-      "Online isn't automatically easier. Hybrid has mandatory attendance. Here's how to pick the right course format for your situation.",
+      "Online isn't easier. Hybrid still has mandatory attendance. Compare completion rates, workload, and schedule flexibility for each community college format.",
     date: "2026-04-04",
     category: "mistake-avoidance",
     state: null,
@@ -897,9 +897,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-jersey-community-college-transfer-credit-guide",
     title:
-      "NJ Community College Transfer Credits: Where Your Courses Go at Rutgers, Rowan & 38 More Schools",
+      "NJ Transfer Credits: Rutgers, Rowan & 38 More (2026 Data)",
     description:
-      "NJTransfer.org publishes course equivalencies for every NJ community college at 40 four-year schools. Here's which universities accept the most credits — and why the same course counts at Rowan but not at Rutgers Engineering.",
+      "We analyzed every NJTransfer.org equivalency across 40 universities. See which schools accept the most NJ community college credits — and which reject them.",
     date: "2026-04-12",
     category: "state-system-explainers",
     state: "nj",
