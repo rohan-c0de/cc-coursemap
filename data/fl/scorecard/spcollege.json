@@ -6,7 +6,7 @@
   "schoolUrl": "www.spcollege.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:19.858Z",
+  "fetchedAt": "2026-05-13T02:12:37.947Z",
   "size": 18950,
   "shareFirstGeneration": 0.4442639594,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 42557
+    "median10YrsAfterEntry": 42557,
+    "median1YrAfterCompletion": 45775,
+    "percentile25_10YrsAfterEntry": 23808,
+    "percentile75_10YrsAfterEntry": 63709,
+    "shareEarningAboveHsGrad": 0.582
   }
 }

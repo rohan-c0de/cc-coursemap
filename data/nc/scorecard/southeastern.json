@@ -6,7 +6,7 @@
   "schoolUrl": "www.sccnc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:52.961Z",
+  "fetchedAt": "2026-05-13T02:14:07.325Z",
   "size": 820,
   "shareFirstGeneration": 0.4717314488,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4348,
     "completionRate200nt": 0.6327,
-    "transferRate": 0.2609
+    "transferRate": 0.2609,
+    "retentionRateFullTime": 0.5696,
+    "retentionRatePartTime": 0.325
   },
   "earnings": {
-    "median10YrsAfterEntry": 30284
+    "median10YrsAfterEntry": 30284,
+    "median1YrAfterCompletion": 39536,
+    "percentile25_10YrsAfterEntry": 15100,
+    "percentile75_10YrsAfterEntry": 47045,
+    "shareEarningAboveHsGrad": 0.43
   }
 }

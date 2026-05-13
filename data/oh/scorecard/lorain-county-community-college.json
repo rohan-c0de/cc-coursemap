@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.lorainccc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:16.286Z",
+  "fetchedAt": "2026-05-13T02:14:29.282Z",
   "size": 5373,
   "shareFirstGeneration": 0.5126231527,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 38837
+    "median10YrsAfterEntry": 38837,
+    "median1YrAfterCompletion": 41713,
+    "percentile25_10YrsAfterEntry": 19860,
+    "percentile75_10YrsAfterEntry": 58085,
+    "shareEarningAboveHsGrad": 0.542
   }
 }

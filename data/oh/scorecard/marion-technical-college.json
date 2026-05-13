@@ -6,7 +6,7 @@
   "schoolUrl": "www.mtc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:16.779Z",
+  "fetchedAt": "2026-05-13T02:14:29.709Z",
   "size": 1475,
   "shareFirstGeneration": 0.5040214477,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 41495
+    "median10YrsAfterEntry": 41495,
+    "median1YrAfterCompletion": 43998,
+    "percentile25_10YrsAfterEntry": 23062,
+    "percentile75_10YrsAfterEntry": 59326,
+    "shareEarningAboveHsGrad": 0.532
   }
 }

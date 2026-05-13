@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.wallacestate.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:12:56.594Z",
+  "fetchedAt": "2026-05-13T02:12:16.746Z",
   "size": 4423,
   "shareFirstGeneration": 0.498813157,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.512,
     "completionRate200nt": 0.5114,
-    "transferRate": 0.1238
+    "transferRate": 0.1238,
+    "retentionRateFullTime": 0.6553,
+    "retentionRatePartTime": 0.4713
   },
   "earnings": {
-    "median10YrsAfterEntry": 39842
+    "median10YrsAfterEntry": 39842,
+    "median1YrAfterCompletion": 44726,
+    "percentile25_10YrsAfterEntry": 22380,
+    "percentile75_10YrsAfterEntry": 58549,
+    "shareEarningAboveHsGrad": 0.569
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.virginiawestern.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:15:57.245Z",
+  "fetchedAt": "2026-05-13T02:15:07.796Z",
   "size": 3898,
   "shareFirstGeneration": 0.4424214838,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4012,
     "completionRate200nt": 0.4607,
-    "transferRate": 0.142
+    "transferRate": 0.142,
+    "retentionRateFullTime": 0.6274,
+    "retentionRatePartTime": 0.4424
   },
   "earnings": {
-    "median10YrsAfterEntry": 38787
+    "median10YrsAfterEntry": 38787,
+    "median1YrAfterCompletion": 36217,
+    "percentile25_10YrsAfterEntry": 21582,
+    "percentile75_10YrsAfterEntry": 56450,
+    "shareEarningAboveHsGrad": 0.55
   }
 }

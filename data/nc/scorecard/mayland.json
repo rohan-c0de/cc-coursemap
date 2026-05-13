@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.mayland.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:44.900Z",
+  "fetchedAt": "2026-05-13T02:13:59.498Z",
   "size": 362,
   "shareFirstGeneration": 0.5164179104,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.46,
     "completionRate200nt": 0.5,
-    "transferRate": 0.12
+    "transferRate": 0.12,
+    "retentionRateFullTime": 0.7619,
+    "retentionRatePartTime": 0.4773
   },
   "earnings": {
-    "median10YrsAfterEntry": 34663
+    "median10YrsAfterEntry": 34663,
+    "median1YrAfterCompletion": 34534,
+    "percentile25_10YrsAfterEntry": 16040,
+    "percentile75_10YrsAfterEntry": 51340,
+    "shareEarningAboveHsGrad": 0.463
   }
 }

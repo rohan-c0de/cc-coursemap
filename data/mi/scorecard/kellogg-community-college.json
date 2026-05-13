@@ -6,7 +6,7 @@
   "schoolUrl": "www.kellogg.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:14.474Z",
+  "fetchedAt": "2026-05-13T02:13:30.794Z",
   "size": 2971,
   "shareFirstGeneration": 0.4804983749,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2991,
     "completionRate200nt": 0.2877,
-    "transferRate": 0.0897
+    "transferRate": 0.0897,
+    "retentionRateFullTime": 0.6203,
+    "retentionRatePartTime": 0.4061
   },
   "earnings": {
-    "median10YrsAfterEntry": 38329
+    "median10YrsAfterEntry": 38329,
+    "median1YrAfterCompletion": 39909,
+    "percentile25_10YrsAfterEntry": 19971,
+    "percentile75_10YrsAfterEntry": 56170,
+    "shareEarningAboveHsGrad": 0.56
   }
 }

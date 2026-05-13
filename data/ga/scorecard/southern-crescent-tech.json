@@ -6,7 +6,7 @@
   "schoolUrl": "www.sctech.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:30.975Z",
+  "fetchedAt": "2026-05-13T02:12:49.330Z",
   "size": 4098,
   "shareFirstGeneration": 0.492650147,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.5828,
     "completionRate200nt": 0.5934,
-    "transferRate": 0.0724
+    "transferRate": 0.0724,
+    "retentionRateFullTime": 0.628,
+    "retentionRatePartTime": 0.4839
   },
   "earnings": {
-    "median10YrsAfterEntry": 36104
+    "median10YrsAfterEntry": 36104,
+    "median1YrAfterCompletion": 36503,
+    "percentile25_10YrsAfterEntry": 18492,
+    "percentile75_10YrsAfterEntry": 52236,
+    "shareEarningAboveHsGrad": 0.481
   }
 }

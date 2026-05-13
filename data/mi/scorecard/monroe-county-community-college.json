@@ -6,7 +6,7 @@
   "schoolUrl": "www.monroeccc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:17.455Z",
+  "fetchedAt": "2026-05-13T02:13:33.478Z",
   "size": 1435,
   "shareFirstGeneration": 0.479202773,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3412,
     "completionRate200nt": 0.3607,
-    "transferRate": 0.1765
+    "transferRate": 0.1765,
+    "retentionRateFullTime": 0.6519,
+    "retentionRatePartTime": 0.478
   },
   "earnings": {
-    "median10YrsAfterEntry": 41646
+    "median10YrsAfterEntry": 41646,
+    "median1YrAfterCompletion": 47177,
+    "percentile25_10YrsAfterEntry": 22144,
+    "percentile75_10YrsAfterEntry": 65997,
+    "shareEarningAboveHsGrad": 0.55
   }
 }

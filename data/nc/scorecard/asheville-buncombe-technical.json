@@ -6,7 +6,7 @@
   "schoolUrl": "www.abtech.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:30.730Z",
+  "fetchedAt": "2026-05-13T02:13:46.181Z",
   "size": 5110,
   "shareFirstGeneration": 0.3876208897,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3984,
     "completionRate200nt": 0.3624,
-    "transferRate": 0.0885
+    "transferRate": 0.0885,
+    "retentionRateFullTime": 0.5905,
+    "retentionRatePartTime": 0.473
   },
   "earnings": {
-    "median10YrsAfterEntry": 36048
+    "median10YrsAfterEntry": 36048,
+    "median1YrAfterCompletion": 35528,
+    "percentile25_10YrsAfterEntry": 17505,
+    "percentile75_10YrsAfterEntry": 54112,
+    "shareEarningAboveHsGrad": 0.523
   }
 }

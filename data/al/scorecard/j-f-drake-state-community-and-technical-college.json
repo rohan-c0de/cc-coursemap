@@ -6,7 +6,7 @@
   "schoolUrl": "https://drakestate.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:12:57.531Z",
+  "fetchedAt": "2026-05-13T02:12:17.844Z",
   "size": 755,
   "shareFirstGeneration": 0.5899653979,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.1404,
     "completionRate200nt": 0.127,
-    "transferRate": 0.1579
+    "transferRate": 0.1579,
+    "retentionRateFullTime": 0.5052,
+    "retentionRatePartTime": 0.4
   },
   "earnings": {
-    "median10YrsAfterEntry": 28281
+    "median10YrsAfterEntry": 28281,
+    "median1YrAfterCompletion": 34491,
+    "percentile25_10YrsAfterEntry": 13620,
+    "percentile75_10YrsAfterEntry": 45400,
+    "shareEarningAboveHsGrad": 0.42
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.pennhighlands.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:30.237Z",
+  "fetchedAt": "2026-05-13T02:14:43.020Z",
   "size": 788,
   "shareFirstGeneration": 0.4697469747,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3825,
     "completionRate200nt": 0.4717,
-    "transferRate": 0.1694
+    "transferRate": 0.1694,
+    "retentionRateFullTime": 0.5864,
+    "retentionRatePartTime": 0.5106
   },
   "earnings": {
-    "median10YrsAfterEntry": 38752
+    "median10YrsAfterEntry": 38752,
+    "median1YrAfterCompletion": 27785,
+    "percentile25_10YrsAfterEntry": 22580,
+    "percentile75_10YrsAfterEntry": 56482,
+    "shareEarningAboveHsGrad": 0.499
   }
 }

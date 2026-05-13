@@ -6,7 +6,7 @@
   "schoolUrl": "https://westkentucky.kctcs.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:46.428Z",
+  "fetchedAt": "2026-05-13T02:13:04.433Z",
   "size": 2851,
   "shareFirstGeneration": 0.477191184,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4983,
     "completionRate200nt": 0.5194,
-    "transferRate": 0.0943
+    "transferRate": 0.0943,
+    "retentionRateFullTime": 0.7057,
+    "retentionRatePartTime": 0.5329
   },
   "earnings": {
-    "median10YrsAfterEntry": 34891
+    "median10YrsAfterEntry": 34891,
+    "median1YrAfterCompletion": 32770,
+    "percentile25_10YrsAfterEntry": 18094,
+    "percentile75_10YrsAfterEntry": 52276,
+    "shareEarningAboveHsGrad": 0.482
   }
 }

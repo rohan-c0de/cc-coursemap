@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.nmc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:09.651Z",
+  "fetchedAt": "2026-05-13T02:13:26.025Z",
   "size": 2813,
   "shareFirstGeneration": 0.3807138384,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 38167
+    "median10YrsAfterEntry": 38167,
+    "median1YrAfterCompletion": 46908,
+    "percentile25_10YrsAfterEntry": 22451,
+    "percentile75_10YrsAfterEntry": 56520,
+    "shareEarningAboveHsGrad": 0.548
   }
 }

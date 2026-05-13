@@ -6,7 +6,7 @@
   "schoolUrl": "www.midmich.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:16.995Z",
+  "fetchedAt": "2026-05-13T02:13:33.045Z",
   "size": 2098,
   "shareFirstGeneration": 0.4401154401,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2752,
     "completionRate200nt": 0.2547,
-    "transferRate": 0.2651
+    "transferRate": 0.2651,
+    "retentionRateFullTime": 0.6364,
+    "retentionRatePartTime": 0.3819
   },
   "earnings": {
-    "median10YrsAfterEntry": 37319
+    "median10YrsAfterEntry": 37319,
+    "median1YrAfterCompletion": 35458,
+    "percentile25_10YrsAfterEntry": 21167,
+    "percentile75_10YrsAfterEntry": 57525,
+    "shareEarningAboveHsGrad": 0.495
   }
 }

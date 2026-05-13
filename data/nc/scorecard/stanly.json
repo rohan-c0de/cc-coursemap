@@ -6,7 +6,7 @@
   "schoolUrl": "www.stanly.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:53.881Z",
+  "fetchedAt": "2026-05-13T02:14:08.222Z",
   "size": 1465,
   "shareFirstGeneration": 0.5099526066,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4776,
     "completionRate200nt": 0.7391,
-    "transferRate": 0.1119
+    "transferRate": 0.1119,
+    "retentionRateFullTime": 0.6316,
+    "retentionRatePartTime": 0.52
   },
   "earnings": {
-    "median10YrsAfterEntry": 36686
+    "median10YrsAfterEntry": 36686,
+    "median1YrAfterCompletion": 38792,
+    "percentile25_10YrsAfterEntry": 19705,
+    "percentile75_10YrsAfterEntry": 52468,
+    "shareEarningAboveHsGrad": 0.504
   }
 }

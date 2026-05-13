@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.yccc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:07.733Z",
+  "fetchedAt": "2026-05-13T02:13:24.036Z",
   "size": 1133,
   "shareFirstGeneration": 0.4810725552,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3383,
     "completionRate200nt": 0.3448,
-    "transferRate": 0.1654
+    "transferRate": 0.1654,
+    "retentionRateFullTime": 0.568,
+    "retentionRatePartTime": 0.3664
   },
   "earnings": {
-    "median10YrsAfterEntry": 44873
+    "median10YrsAfterEntry": 44873,
+    "median1YrAfterCompletion": 36028,
+    "percentile25_10YrsAfterEntry": 23391,
+    "percentile75_10YrsAfterEntry": 58729,
+    "shareEarningAboveHsGrad": 0.498
   }
 }

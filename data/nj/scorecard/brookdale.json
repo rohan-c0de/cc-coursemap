@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.brookdalecc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:02.670Z",
+  "fetchedAt": "2026-05-13T02:14:16.305Z",
   "size": 7901,
   "shareFirstGeneration": 0.4851943245,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2992,
     "completionRate200nt": 0.3568,
-    "transferRate": 0.1372
+    "transferRate": 0.1372,
+    "retentionRateFullTime": 0.6955,
+    "retentionRatePartTime": 0.5775
   },
   "earnings": {
-    "median10YrsAfterEntry": 44379
+    "median10YrsAfterEntry": 44379,
+    "median1YrAfterCompletion": 33617,
+    "percentile25_10YrsAfterEntry": 22624,
+    "percentile75_10YrsAfterEntry": 69122,
+    "shareEarningAboveHsGrad": 0.602
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.bhcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:50.202Z",
+  "fetchedAt": "2026-05-13T02:13:07.603Z",
   "size": 8612,
   "shareFirstGeneration": 0.5489702517,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.1323,
     "completionRate200nt": 0.2437,
-    "transferRate": 0.0683
+    "transferRate": 0.0683,
+    "retentionRateFullTime": 0.6651,
+    "retentionRatePartTime": 0.4597
   },
   "earnings": {
-    "median10YrsAfterEntry": 47618
+    "median10YrsAfterEntry": 47618,
+    "median1YrAfterCompletion": 43564,
+    "percentile25_10YrsAfterEntry": 23320,
+    "percentile75_10YrsAfterEntry": 74837,
+    "shareEarningAboveHsGrad": 0.614
   }
 }

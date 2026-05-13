@@ -6,7 +6,7 @@
   "schoolUrl": "https://guttman.cuny.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:11.922Z",
+  "fetchedAt": "2026-05-13T02:14:25.083Z",
   "size": 978,
   "shareFirstGeneration": 0.529739777,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2288,
     "completionRate200nt": 0.2835,
-    "transferRate": 0.1922
+    "transferRate": 0.1922,
+    "retentionRateFullTime": 0.5247,
+    "retentionRatePartTime": 0.375
   },
   "earnings": {
-    "median10YrsAfterEntry": null
+    "median10YrsAfterEntry": null,
+    "median1YrAfterCompletion": 21190,
+    "percentile25_10YrsAfterEntry": null,
+    "percentile75_10YrsAfterEntry": null,
+    "shareEarningAboveHsGrad": null
   }
 }

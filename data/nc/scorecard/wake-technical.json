@@ -6,7 +6,7 @@
   "schoolUrl": "www.waketech.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:55.719Z",
+  "fetchedAt": "2026-05-13T02:14:10.040Z",
   "size": 19675,
   "shareFirstGeneration": 0.3840341255,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3296,
     "completionRate200nt": 0.3908,
-    "transferRate": 0.1769
+    "transferRate": 0.1769,
+    "retentionRateFullTime": 0.7179,
+    "retentionRatePartTime": 0.5501
   },
   "earnings": {
-    "median10YrsAfterEntry": 41769
+    "median10YrsAfterEntry": 41769,
+    "median1YrAfterCompletion": 38942,
+    "percentile25_10YrsAfterEntry": 23081,
+    "percentile75_10YrsAfterEntry": 62435,
+    "shareEarningAboveHsGrad": 0.555
   }
 }

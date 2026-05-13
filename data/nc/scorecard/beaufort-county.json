@@ -6,7 +6,7 @@
   "schoolUrl": "www.beaufortccc.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:31.240Z",
+  "fetchedAt": "2026-05-13T02:13:46.638Z",
   "size": 1074,
   "shareFirstGeneration": 0.4951923077,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4771,
     "completionRate200nt": 0.4,
-    "transferRate": 0
+    "transferRate": 0,
+    "retentionRateFullTime": 0.7558,
+    "retentionRatePartTime": 0.4286
   },
   "earnings": {
-    "median10YrsAfterEntry": 32519
+    "median10YrsAfterEntry": 32519,
+    "median1YrAfterCompletion": 31180,
+    "percentile25_10YrsAfterEntry": 16959,
+    "percentile75_10YrsAfterEntry": 50058,
+    "shareEarningAboveHsGrad": 0.437
   }
 }

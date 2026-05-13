@@ -6,7 +6,7 @@
   "schoolUrl": "www.garrettcollege.edu/index.php",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:01.341Z",
+  "fetchedAt": "2026-05-13T02:13:17.877Z",
   "size": 411,
   "shareFirstGeneration": 0.409610984,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3396,
     "completionRate200nt": 0.331,
-    "transferRate": 0.2453
+    "transferRate": 0.2453,
+    "retentionRateFullTime": 0.5024,
+    "retentionRatePartTime": 0.3333
   },
   "earnings": {
-    "median10YrsAfterEntry": 35823
+    "median10YrsAfterEntry": 35823,
+    "median1YrAfterCompletion": 17189,
+    "percentile25_10YrsAfterEntry": 18551,
+    "percentile75_10YrsAfterEntry": 55658,
+    "shareEarningAboveHsGrad": 0.491
   }
 }

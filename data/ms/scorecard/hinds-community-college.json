@@ -6,7 +6,7 @@
   "schoolUrl": "www.hindscc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:25.187Z",
+  "fetchedAt": "2026-05-13T02:13:40.856Z",
   "size": 6397,
   "shareFirstGeneration": 0.3823441247,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4328,
     "completionRate200nt": 0.4595,
-    "transferRate": 0.1645
+    "transferRate": 0.1645,
+    "retentionRateFullTime": 0.5786,
+    "retentionRatePartTime": 0.2266
   },
   "earnings": {
-    "median10YrsAfterEntry": 30774
+    "median10YrsAfterEntry": 30774,
+    "median1YrAfterCompletion": 31611,
+    "percentile25_10YrsAfterEntry": 16453,
+    "percentile75_10YrsAfterEntry": 47856,
+    "shareEarningAboveHsGrad": 0.47
   }
 }

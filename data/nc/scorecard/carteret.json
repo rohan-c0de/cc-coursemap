@@ -6,7 +6,7 @@
   "schoolUrl": "https://carteret.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:34.200Z",
+  "fetchedAt": "2026-05-13T02:13:49.298Z",
   "size": 1172,
   "shareFirstGeneration": 0.4782608696,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4898,
     "completionRate200nt": 0.4407,
-    "transferRate": 0.1429
+    "transferRate": 0.1429,
+    "retentionRateFullTime": 0.6165,
+    "retentionRatePartTime": 0.5743
   },
   "earnings": {
-    "median10YrsAfterEntry": 33357
+    "median10YrsAfterEntry": 33357,
+    "median1YrAfterCompletion": 35075,
+    "percentile25_10YrsAfterEntry": 16208,
+    "percentile75_10YrsAfterEntry": 50992,
+    "shareEarningAboveHsGrad": 0.433
   }
 }

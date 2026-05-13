@@ -6,7 +6,7 @@
   "schoolUrl": "www.wilkescc.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:57.224Z",
+  "fetchedAt": "2026-05-13T02:14:11.380Z",
   "size": 1355,
   "shareFirstGeneration": 0.4842436975,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.5536,
     "completionRate200nt": 0.5714,
-    "transferRate": 0.0607
+    "transferRate": 0.0607,
+    "retentionRateFullTime": 0.6865,
+    "retentionRatePartTime": 0.5963
   },
   "earnings": {
-    "median10YrsAfterEntry": 34728
+    "median10YrsAfterEntry": 34728,
+    "median1YrAfterCompletion": 34672,
+    "percentile25_10YrsAfterEntry": 18574,
+    "percentile75_10YrsAfterEntry": 48863,
+    "shareEarningAboveHsGrad": 0.447
   }
 }

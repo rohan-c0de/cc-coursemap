@@ -6,7 +6,7 @@
   "schoolUrl": "www.bridgevalley.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:59.220Z",
+  "fetchedAt": "2026-05-13T02:15:09.652Z",
   "size": 1854,
   "shareFirstGeneration": 0.5512510089,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3421,
     "completionRate200nt": 0.3458,
-    "transferRate": 0.1316
+    "transferRate": 0.1316,
+    "retentionRateFullTime": 0.467,
+    "retentionRatePartTime": 0.3478
   },
   "earnings": {
-    "median10YrsAfterEntry": 36432
+    "median10YrsAfterEntry": 36432,
+    "median1YrAfterCompletion": 48340,
+    "percentile25_10YrsAfterEntry": 20059,
+    "percentile75_10YrsAfterEntry": 57225,
+    "shareEarningAboveHsGrad": null
   }
 }

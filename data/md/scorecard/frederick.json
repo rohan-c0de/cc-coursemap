@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.frederick.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:00.659Z",
+  "fetchedAt": "2026-05-13T02:13:17.454Z",
   "size": 4203,
   "shareFirstGeneration": 0.4339869281,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3738,
     "completionRate200nt": 0.4006,
-    "transferRate": 0.2379
+    "transferRate": 0.2379,
+    "retentionRateFullTime": 0.6589,
+    "retentionRatePartTime": 0.4862
   },
   "earnings": {
-    "median10YrsAfterEntry": 46449
+    "median10YrsAfterEntry": 46449,
+    "median1YrAfterCompletion": 42473,
+    "percentile25_10YrsAfterEntry": 26189,
+    "percentile75_10YrsAfterEntry": 70468,
+    "shareEarningAboveHsGrad": 0.63
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.savannahtech.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:29.445Z",
+  "fetchedAt": "2026-05-13T02:12:47.936Z",
   "size": 3366,
   "shareFirstGeneration": 0.4419836302,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4249,
     "completionRate200nt": 0.4,
-    "transferRate": 0.0806
+    "transferRate": 0.0806,
+    "retentionRateFullTime": 0.558,
+    "retentionRatePartTime": 0.4856
   },
   "earnings": {
-    "median10YrsAfterEntry": 33018
+    "median10YrsAfterEntry": 33018,
+    "median1YrAfterCompletion": 35235,
+    "percentile25_10YrsAfterEntry": 17510,
+    "percentile75_10YrsAfterEntry": 49609,
+    "shareEarningAboveHsGrad": 0.445
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.ptc.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:15:37.285Z",
+  "fetchedAt": "2026-05-13T02:14:49.430Z",
   "size": 3977,
   "shareFirstGeneration": 0.4747097844,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3307,
     "completionRate200nt": 0.4531,
-    "transferRate": 0.0956
+    "transferRate": 0.0956,
+    "retentionRateFullTime": 0.6147,
+    "retentionRatePartTime": 0.3904
   },
   "earnings": {
-    "median10YrsAfterEntry": 35768
+    "median10YrsAfterEntry": 35768,
+    "median1YrAfterCompletion": 37589,
+    "percentile25_10YrsAfterEntry": 19937,
+    "percentile75_10YrsAfterEntry": 52341,
+    "shareEarningAboveHsGrad": 0.48
   }
 }

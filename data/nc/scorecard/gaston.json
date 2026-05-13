@@ -6,7 +6,7 @@
   "schoolUrl": "www.gaston.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:40.453Z",
+  "fetchedAt": "2026-05-13T02:13:55.351Z",
   "size": 3518,
   "shareFirstGeneration": 0.4826932195,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.6313,
     "completionRate200nt": 0.5349,
-    "transferRate": 0.1194
+    "transferRate": 0.1194,
+    "retentionRateFullTime": 0.5441,
+    "retentionRatePartTime": 0.4367
   },
   "earnings": {
-    "median10YrsAfterEntry": 35386
+    "median10YrsAfterEntry": 35386,
+    "median1YrAfterCompletion": 37690,
+    "percentile25_10YrsAfterEntry": 18295,
+    "percentile75_10YrsAfterEntry": 51204,
+    "shareEarningAboveHsGrad": 0.459
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.cmcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:04.712Z",
+  "fetchedAt": "2026-05-13T02:13:21.289Z",
   "size": 2952,
   "shareFirstGeneration": 0.4681571816,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3031,
     "completionRate200nt": 0.3395,
-    "transferRate": 0.1695
+    "transferRate": 0.1695,
+    "retentionRateFullTime": 0.5682,
+    "retentionRatePartTime": 0.3102
   },
   "earnings": {
-    "median10YrsAfterEntry": 42448
+    "median10YrsAfterEntry": 42448,
+    "median1YrAfterCompletion": 39555,
+    "percentile25_10YrsAfterEntry": 26707,
+    "percentile75_10YrsAfterEntry": 60852,
+    "shareEarningAboveHsGrad": 0.595
   }
 }

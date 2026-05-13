@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.dtcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:06.864Z",
+  "fetchedAt": "2026-05-13T02:12:25.825Z",
   "size": 10867,
   "shareFirstGeneration": 0.4992614476,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 41448
+    "median10YrsAfterEntry": 41448,
+    "median1YrAfterCompletion": 41830,
+    "percentile25_10YrsAfterEntry": 23434,
+    "percentile75_10YrsAfterEntry": 61211,
+    "shareEarningAboveHsGrad": 0.567
   }
 }

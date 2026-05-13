@@ -6,7 +6,7 @@
   "schoolUrl": "www.gcc.mass.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:51.395Z",
+  "fetchedAt": "2026-05-13T02:13:08.670Z",
   "size": 1395,
   "shareFirstGeneration": 0.3669724771,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3077,
     "completionRate200nt": 0.2925,
-    "transferRate": 0.2088
+    "transferRate": 0.2088,
+    "retentionRateFullTime": 0.63,
+    "retentionRatePartTime": 0.5694
   },
   "earnings": {
-    "median10YrsAfterEntry": 37132
+    "median10YrsAfterEntry": 37132,
+    "median1YrAfterCompletion": 40039,
+    "percentile25_10YrsAfterEntry": 18690,
+    "percentile75_10YrsAfterEntry": 55452,
+    "shareEarningAboveHsGrad": 0.573
   }
 }

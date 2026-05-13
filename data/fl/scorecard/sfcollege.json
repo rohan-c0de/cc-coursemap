@@ -6,7 +6,7 @@
   "schoolUrl": "www.sfcollege.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:17.806Z",
+  "fetchedAt": "2026-05-13T02:12:36.206Z",
   "size": 11122,
   "shareFirstGeneration": 0.4184346586,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 41631
+    "median10YrsAfterEntry": 41631,
+    "median1YrAfterCompletion": 42955,
+    "percentile25_10YrsAfterEntry": 23742,
+    "percentile75_10YrsAfterEntry": 62377,
+    "shareEarningAboveHsGrad": 0.622
   }
 }

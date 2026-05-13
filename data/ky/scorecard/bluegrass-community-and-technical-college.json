@@ -6,7 +6,7 @@
   "schoolUrl": "https://bluegrass.kctcs.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:41.917Z",
+  "fetchedAt": "2026-05-13T02:13:00.396Z",
   "size": 8244,
   "shareFirstGeneration": 0.445931362,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4311,
     "completionRate200nt": 0.435,
-    "transferRate": 0.1274
+    "transferRate": 0.1274,
+    "retentionRateFullTime": 0.6691,
+    "retentionRatePartTime": 0.4813
   },
   "earnings": {
-    "median10YrsAfterEntry": 36343
+    "median10YrsAfterEntry": 36343,
+    "median1YrAfterCompletion": 42755,
+    "percentile25_10YrsAfterEntry": 18236,
+    "percentile75_10YrsAfterEntry": 55372,
+    "shareEarningAboveHsGrad": 0.501
   }
 }

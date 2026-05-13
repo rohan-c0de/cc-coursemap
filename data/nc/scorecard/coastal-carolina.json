@@ -6,7 +6,7 @@
   "schoolUrl": "www.coastalcarolina.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:36.452Z",
+  "fetchedAt": "2026-05-13T02:13:51.570Z",
   "size": 2724,
   "shareFirstGeneration": 0.4489583333,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4936,
     "completionRate200nt": 0.4684,
-    "transferRate": 0.1841
+    "transferRate": 0.1841,
+    "retentionRateFullTime": 0.5859,
+    "retentionRatePartTime": 0.3625
   },
   "earnings": {
-    "median10YrsAfterEntry": 36444
+    "median10YrsAfterEntry": 36444,
+    "median1YrAfterCompletion": 28082,
+    "percentile25_10YrsAfterEntry": 19043,
+    "percentile75_10YrsAfterEntry": 54243,
+    "shareEarningAboveHsGrad": 0.489
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.berkshirecc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:49.245Z",
+  "fetchedAt": "2026-05-13T02:13:06.662Z",
   "size": 1358,
   "shareFirstGeneration": 0.4486842105,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2,
     "completionRate200nt": 0.2868,
-    "transferRate": 0.1857
+    "transferRate": 0.1857,
+    "retentionRateFullTime": 0.569,
+    "retentionRatePartTime": 0.4038
   },
   "earnings": {
-    "median10YrsAfterEntry": 38832
+    "median10YrsAfterEntry": 38832,
+    "median1YrAfterCompletion": 40052,
+    "percentile25_10YrsAfterEntry": 13684,
+    "percentile75_10YrsAfterEntry": 62484,
+    "shareEarningAboveHsGrad": 0.553
   }
 }

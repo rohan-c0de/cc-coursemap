@@ -6,7 +6,7 @@
   "schoolUrl": "www.cotc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:14.235Z",
+  "fetchedAt": "2026-05-13T02:14:27.397Z",
   "size": 1941,
   "shareFirstGeneration": 0.5031958164,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 39168
+    "median10YrsAfterEntry": 39168,
+    "median1YrAfterCompletion": 53229,
+    "percentile25_10YrsAfterEntry": 20554,
+    "percentile75_10YrsAfterEntry": 59572,
+    "shareEarningAboveHsGrad": 0.571
   }
 }

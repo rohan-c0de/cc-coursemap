@@ -6,7 +6,7 @@
   "schoolUrl": "www.ocean.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:06.049Z",
+  "fetchedAt": "2026-05-13T02:14:19.491Z",
   "size": 5424,
   "shareFirstGeneration": 0.5195270512,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4151,
     "completionRate200nt": 0.4382,
-    "transferRate": 0.1016
+    "transferRate": 0.1016,
+    "retentionRateFullTime": 0.6906,
+    "retentionRatePartTime": 0.4576
   },
   "earnings": {
-    "median10YrsAfterEntry": 45210
+    "median10YrsAfterEntry": 45210,
+    "median1YrAfterCompletion": 29547,
+    "percentile25_10YrsAfterEntry": 23779,
+    "percentile75_10YrsAfterEntry": 68956,
+    "shareEarningAboveHsGrad": 0.606
   }
 }

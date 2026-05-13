@@ -6,7 +6,7 @@
   "schoolUrl": "www.northampton.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:29.765Z",
+  "fetchedAt": "2026-05-13T02:14:42.562Z",
   "size": 7667,
   "shareFirstGeneration": 0.4803605924,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2361,
     "completionRate200nt": 0.2774,
-    "transferRate": 0.2021
+    "transferRate": 0.2021,
+    "retentionRateFullTime": 0.6359,
+    "retentionRatePartTime": 0.3941
   },
   "earnings": {
-    "median10YrsAfterEntry": 41566
+    "median10YrsAfterEntry": 41566,
+    "median1YrAfterCompletion": 37066,
+    "percentile25_10YrsAfterEntry": 23180,
+    "percentile75_10YrsAfterEntry": 62111,
+    "shareEarningAboveHsGrad": 0.586
   }
 }

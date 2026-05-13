@@ -6,7 +6,7 @@
   "schoolUrl": "www.centralvirginia.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:15:50.265Z",
+  "fetchedAt": "2026-05-13T02:15:01.422Z",
   "size": 2249,
   "shareFirstGeneration": 0.4324142569,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4458,
     "completionRate200nt": 0.5067,
-    "transferRate": 0.125
+    "transferRate": 0.125,
+    "retentionRateFullTime": 0.6405,
+    "retentionRatePartTime": 0.4392
   },
   "earnings": {
-    "median10YrsAfterEntry": 36627
+    "median10YrsAfterEntry": 36627,
+    "median1YrAfterCompletion": 35672,
+    "percentile25_10YrsAfterEntry": 20812,
+    "percentile75_10YrsAfterEntry": 53563,
+    "shareEarningAboveHsGrad": 0.494
   }
 }

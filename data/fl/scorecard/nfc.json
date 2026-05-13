@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.nfc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:14.619Z",
+  "fetchedAt": "2026-05-13T02:12:33.138Z",
   "size": 793,
   "shareFirstGeneration": 0.5452586207,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 33929
+    "median10YrsAfterEntry": 33929,
+    "median1YrAfterCompletion": 38687,
+    "percentile25_10YrsAfterEntry": 18775,
+    "percentile75_10YrsAfterEntry": 52202,
+    "shareEarningAboveHsGrad": 0.529
   }
 }

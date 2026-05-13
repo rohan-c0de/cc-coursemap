@@ -6,7 +6,7 @@
   "schoolUrl": "www.netc.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:15:36.261Z",
+  "fetchedAt": "2026-05-13T02:14:48.555Z",
   "size": 921,
   "shareFirstGeneration": 0.5460251046,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2143,
     "completionRate200nt": 0.4177,
-    "transferRate": 0.2857
+    "transferRate": 0.2857,
+    "retentionRateFullTime": 0.7021,
+    "retentionRatePartTime": 0.3918
   },
   "earnings": {
-    "median10YrsAfterEntry": 32141
+    "median10YrsAfterEntry": 32141,
+    "median1YrAfterCompletion": 38509,
+    "percentile25_10YrsAfterEntry": 18277,
+    "percentile75_10YrsAfterEntry": 45777,
+    "shareEarningAboveHsGrad": 0.4
   }
 }

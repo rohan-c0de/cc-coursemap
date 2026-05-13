@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.sscc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:23.809Z",
+  "fetchedAt": "2026-05-13T02:14:36.475Z",
   "size": 761,
   "shareFirstGeneration": 0.5214408233,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.37,
     "completionRate200nt": 0.3413,
-    "transferRate": 0.13
+    "transferRate": 0.13,
+    "retentionRateFullTime": 0.6371,
+    "retentionRatePartTime": 0.5169
   },
   "earnings": {
-    "median10YrsAfterEntry": 35463
+    "median10YrsAfterEntry": 35463,
+    "median1YrAfterCompletion": 40283,
+    "percentile25_10YrsAfterEntry": 18617,
+    "percentile75_10YrsAfterEntry": 52108,
+    "shareEarningAboveHsGrad": 0.496
   }
 }

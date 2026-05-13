@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.newriver.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:16:00.933Z",
+  "fetchedAt": "2026-05-13T02:15:11.027Z",
   "size": 770,
   "shareFirstGeneration": 0.587040619,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3598,
     "completionRate200nt": 0.3196,
-    "transferRate": 0.0688
+    "transferRate": 0.0688,
+    "retentionRateFullTime": 0.5976,
+    "retentionRatePartTime": 0.3137
   },
   "earnings": {
-    "median10YrsAfterEntry": 29073
+    "median10YrsAfterEntry": 29073,
+    "median1YrAfterCompletion": 32457,
+    "percentile25_10YrsAfterEntry": 14158,
+    "percentile75_10YrsAfterEntry": 43901,
+    "shareEarningAboveHsGrad": null
   }
 }

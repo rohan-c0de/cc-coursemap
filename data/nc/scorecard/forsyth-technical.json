@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.forsythtech.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:39.985Z",
+  "fetchedAt": "2026-05-13T02:13:54.920Z",
   "size": 7113,
   "shareFirstGeneration": 0.444701795,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.342,
     "completionRate200nt": 0.3283,
-    "transferRate": 0.1214
+    "transferRate": 0.1214,
+    "retentionRateFullTime": 0.7317,
+    "retentionRatePartTime": 0.3676
   },
   "earnings": {
-    "median10YrsAfterEntry": 34139
+    "median10YrsAfterEntry": 34139,
+    "median1YrAfterCompletion": 39115,
+    "percentile25_10YrsAfterEntry": 18534,
+    "percentile75_10YrsAfterEntry": 50990,
+    "shareEarningAboveHsGrad": 0.47
   }
 }

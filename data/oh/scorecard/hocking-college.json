@@ -6,7 +6,7 @@
   "schoolUrl": "www.hocking.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:21.317Z",
+  "fetchedAt": "2026-05-13T02:14:34.022Z",
   "size": 1311,
   "shareFirstGeneration": 0.4532019704,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3716,
     "completionRate200nt": 0.3027,
-    "transferRate": 0.1345
+    "transferRate": 0.1345,
+    "retentionRateFullTime": 0.4289,
+    "retentionRatePartTime": 0.1905
   },
   "earnings": {
-    "median10YrsAfterEntry": 37791
+    "median10YrsAfterEntry": 37791,
+    "median1YrAfterCompletion": 33200,
+    "percentile25_10YrsAfterEntry": 20664,
+    "percentile75_10YrsAfterEntry": 55570,
+    "shareEarningAboveHsGrad": 0.526
   }
 }

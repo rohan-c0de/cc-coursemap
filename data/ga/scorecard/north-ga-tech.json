@@ -6,7 +6,7 @@
   "schoolUrl": "https://northgatech.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:28.013Z",
+  "fetchedAt": "2026-05-13T02:12:46.607Z",
   "size": 1910,
   "shareFirstGeneration": 0.4933949802,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3925,
     "completionRate200nt": 0.5121,
-    "transferRate": 0.0966
+    "transferRate": 0.0966,
+    "retentionRateFullTime": 0.5824,
+    "retentionRatePartTime": 0.5962
   },
   "earnings": {
-    "median10YrsAfterEntry": 32932
+    "median10YrsAfterEntry": 32932,
+    "median1YrAfterCompletion": 32985,
+    "percentile25_10YrsAfterEntry": 16709,
+    "percentile75_10YrsAfterEntry": 49841,
+    "shareEarningAboveHsGrad": 0.432
   }
 }

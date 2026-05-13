@@ -6,7 +6,7 @@
   "schoolUrl": "https://gateway.kctcs.edu/index.aspx",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:45.975Z",
+  "fetchedAt": "2026-05-13T02:13:03.981Z",
   "size": 3167,
   "shareFirstGeneration": 0.521817095,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.5905,
     "completionRate200nt": 0.5105,
-    "transferRate": 0.1164
+    "transferRate": 0.1164,
+    "retentionRateFullTime": 0.7017,
+    "retentionRatePartTime": 0.6545
   },
   "earnings": {
-    "median10YrsAfterEntry": 36147
+    "median10YrsAfterEntry": 36147,
+    "median1YrAfterCompletion": 44644,
+    "percentile25_10YrsAfterEntry": 16749,
+    "percentile75_10YrsAfterEntry": 55386,
+    "shareEarningAboveHsGrad": 0.511
   }
 }

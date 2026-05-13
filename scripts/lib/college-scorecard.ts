@@ -54,6 +54,22 @@ const FIELDS = [
   "latest.completion.completion_rate_less_than_4yr_200nt",
   "latest.completion.transfer_rate.less_than_4yr.full_time",
   "latest.earnings.10_yrs_after_entry.median",
+  // Tier 1 outcomes additions — see issue #405.
+  // Retention is the strongest leading indicator of completion; CCs often
+  // have wildly different FT vs PT retention so we surface both.
+  "latest.student.retention_rate.lt_four_year.full_time",
+  "latest.student.retention_rate.lt_four_year.part_time",
+  // 1yr earnings is a faster post-completion signal than the headline 10yr
+  // figure (which mixes completers and non-completers entering the
+  // workforce). 10yr percentiles (P25 / P75) give us a distribution
+  // alongside the median for the existing earnings tile.
+  "latest.earnings.1_yr_after_completion.median",
+  "latest.earnings.10_yrs_after_entry.working_not_enrolled.earnings_percentile.25",
+  "latest.earnings.10_yrs_after_entry.working_not_enrolled.earnings_percentile.75",
+  // % of former students earning above $28k (federal threshold ~ median
+  // for a HS graduate). The fed Scorecard's flagship "did college pay off"
+  // outcome stat. Available where the 10yr earnings cohort is large enough.
+  "latest.earnings.10_yrs_after_entry.percent_greater_than_28000",
 ];
 
 const FIELDS_PARAM = FIELDS.join(",");
@@ -128,11 +144,26 @@ export interface ScorecardRecord {
     completionRate200nt: number | null;
     /** Transfer-out rate for full-time <4yr students (0–1). */
     transferRate: number | null;
+    /** 1st-year retention rate for full-time students at <4yr schools (0–1). */
+    retentionRateFullTime: number | null;
+    /** 1st-year retention rate for part-time students at <4yr schools (0–1). */
+    retentionRatePartTime: number | null;
   };
 
   earnings: {
     /** Median earnings 10 years after enrollment entry, $. */
     median10YrsAfterEntry: number | null;
+    /** Median earnings 1 year after completion, $. Faster signal than the
+     * 10yr figure; only includes completers, so a cleaner per-cohort number. */
+    median1YrAfterCompletion: number | null;
+    /** 25th percentile, 10 years after entry — working, not enrolled, $. */
+    percentile25_10YrsAfterEntry: number | null;
+    /** 75th percentile, 10 years after entry — working, not enrolled, $. */
+    percentile75_10YrsAfterEntry: number | null;
+    /** Share of former students earning above $28k 10 years after entry —
+     * roughly the median wage for a high-school graduate (0–1). Federal
+     * Scorecard's flagship "did college pay off" outcome metric. */
+    shareEarningAboveHsGrad: number | null;
   };
 }
 
@@ -165,6 +196,13 @@ interface ScorecardApiRow {
   "latest.completion.completion_rate_less_than_4yr_200nt"?: number | null;
   "latest.completion.transfer_rate.less_than_4yr.full_time"?: number | null;
   "latest.earnings.10_yrs_after_entry.median"?: number | null;
+  // Tier 1 (issue #405)
+  "latest.student.retention_rate.lt_four_year.full_time"?: number | null;
+  "latest.student.retention_rate.lt_four_year.part_time"?: number | null;
+  "latest.earnings.1_yr_after_completion.median"?: number | null;
+  "latest.earnings.10_yrs_after_entry.working_not_enrolled.earnings_percentile.25"?: number | null;
+  "latest.earnings.10_yrs_after_entry.working_not_enrolled.earnings_percentile.75"?: number | null;
+  "latest.earnings.10_yrs_after_entry.percent_greater_than_28000"?: number | null;
 }
 
 interface ScorecardApiResponse {
@@ -225,10 +263,26 @@ function rowToRecord(row: ScorecardApiRow): ScorecardRecord {
         row["latest.completion.completion_rate_less_than_4yr_200nt"] ?? null,
       transferRate:
         row["latest.completion.transfer_rate.less_than_4yr.full_time"] ?? null,
+      retentionRateFullTime:
+        row["latest.student.retention_rate.lt_four_year.full_time"] ?? null,
+      retentionRatePartTime:
+        row["latest.student.retention_rate.lt_four_year.part_time"] ?? null,
     },
     earnings: {
       median10YrsAfterEntry:
         row["latest.earnings.10_yrs_after_entry.median"] ?? null,
+      median1YrAfterCompletion:
+        row["latest.earnings.1_yr_after_completion.median"] ?? null,
+      percentile25_10YrsAfterEntry:
+        row[
+          "latest.earnings.10_yrs_after_entry.working_not_enrolled.earnings_percentile.25"
+        ] ?? null,
+      percentile75_10YrsAfterEntry:
+        row[
+          "latest.earnings.10_yrs_after_entry.working_not_enrolled.earnings_percentile.75"
+        ] ?? null,
+      shareEarningAboveHsGrad:
+        row["latest.earnings.10_yrs_after_entry.percent_greater_than_28000"] ?? null,
     },
   };
 }

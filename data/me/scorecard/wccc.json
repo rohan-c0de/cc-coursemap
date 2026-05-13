@@ -6,7 +6,7 @@
   "schoolUrl": "www.wccc.me.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:07.270Z",
+  "fetchedAt": "2026-05-13T02:13:23.580Z",
   "size": 443,
   "shareFirstGeneration": 0.4411764706,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.5517,
     "completionRate200nt": 0.5,
-    "transferRate": 0.1034
+    "transferRate": 0.1034,
+    "retentionRateFullTime": 0.6078,
+    "retentionRatePartTime": 0.3448
   },
   "earnings": {
-    "median10YrsAfterEntry": 34407
+    "median10YrsAfterEntry": 34407,
+    "median1YrAfterCompletion": null,
+    "percentile25_10YrsAfterEntry": 20455,
+    "percentile75_10YrsAfterEntry": 47980,
+    "shareEarningAboveHsGrad": 0.5
   }
 }

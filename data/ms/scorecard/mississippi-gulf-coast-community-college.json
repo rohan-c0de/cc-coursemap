@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.mgccc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:27.947Z",
+  "fetchedAt": "2026-05-13T02:13:43.522Z",
   "size": 6353,
   "shareFirstGeneration": 0.435149809,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4754,
     "completionRate200nt": 0.4883,
-    "transferRate": 0.1053
+    "transferRate": 0.1053,
+    "retentionRateFullTime": 0.6239,
+    "retentionRatePartTime": 0.2273
   },
   "earnings": {
-    "median10YrsAfterEntry": 33017
+    "median10YrsAfterEntry": 33017,
+    "median1YrAfterCompletion": 34792,
+    "percentile25_10YrsAfterEntry": 16481,
+    "percentile75_10YrsAfterEntry": 52584,
+    "shareEarningAboveHsGrad": 0.499
   }
 }

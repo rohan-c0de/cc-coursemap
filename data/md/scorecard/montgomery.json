@@ -6,7 +6,7 @@
   "schoolUrl": "www.montgomerycollege.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:03.265Z",
+  "fetchedAt": "2026-05-13T02:13:19.900Z",
   "size": 13773,
   "shareFirstGeneration": 0.4362119725,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3244,
     "completionRate200nt": 0.3407,
-    "transferRate": 0.1931
+    "transferRate": 0.1931,
+    "retentionRateFullTime": 0.7467,
+    "retentionRatePartTime": 0.5104
   },
   "earnings": {
-    "median10YrsAfterEntry": 50159
+    "median10YrsAfterEntry": 50159,
+    "median1YrAfterCompletion": 29914,
+    "percentile25_10YrsAfterEntry": 26375,
+    "percentile75_10YrsAfterEntry": 77215,
+    "shareEarningAboveHsGrad": 0.692
   }
 }

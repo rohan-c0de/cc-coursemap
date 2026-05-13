@@ -6,7 +6,7 @@
   "schoolUrl": "www.jccmi.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:09.210Z",
+  "fetchedAt": "2026-05-13T02:13:25.561Z",
   "size": 3422,
   "shareFirstGeneration": 0.4578696343,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 36898
+    "median10YrsAfterEntry": 36898,
+    "median1YrAfterCompletion": 36400,
+    "percentile25_10YrsAfterEntry": 18666,
+    "percentile75_10YrsAfterEntry": 55412,
+    "shareEarningAboveHsGrad": 0.551
   }
 }

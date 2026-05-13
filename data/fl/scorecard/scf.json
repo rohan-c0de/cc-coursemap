@@ -6,7 +6,7 @@
   "schoolUrl": "www.scf.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:20.338Z",
+  "fetchedAt": "2026-05-13T02:12:38.412Z",
   "size": 7379,
   "shareFirstGeneration": 0.4584276018,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 40318
+    "median10YrsAfterEntry": 40318,
+    "median1YrAfterCompletion": 44016,
+    "percentile25_10YrsAfterEntry": 22359,
+    "percentile75_10YrsAfterEntry": 58900,
+    "shareEarningAboveHsGrad": 0.563
   }
 }

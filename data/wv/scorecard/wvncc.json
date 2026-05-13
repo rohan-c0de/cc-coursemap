@@ -6,7 +6,7 @@
   "schoolUrl": "www.wvncc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:16:02.368Z",
+  "fetchedAt": "2026-05-13T02:15:12.538Z",
   "size": 1014,
   "shareFirstGeneration": 0.4854910714,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3333,
     "completionRate200nt": 0.309,
-    "transferRate": 0.1264
+    "transferRate": 0.1264,
+    "retentionRateFullTime": 0.6121,
+    "retentionRatePartTime": 0.6667
   },
   "earnings": {
-    "median10YrsAfterEntry": 30162
+    "median10YrsAfterEntry": 30162,
+    "median1YrAfterCompletion": 34276,
+    "percentile25_10YrsAfterEntry": 15886,
+    "percentile75_10YrsAfterEntry": 48309,
+    "shareEarningAboveHsGrad": 0.461
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.pierpont.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:16:01.402Z",
+  "fetchedAt": "2026-05-13T02:15:11.478Z",
   "size": 959,
   "shareFirstGeneration": 0.4822888283,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4215,
     "completionRate200nt": 0.4169,
-    "transferRate": 0.0843
+    "transferRate": 0.0843,
+    "retentionRateFullTime": 0.5902,
+    "retentionRatePartTime": 0.2097
   },
   "earnings": {
-    "median10YrsAfterEntry": 35132
+    "median10YrsAfterEntry": 35132,
+    "median1YrAfterCompletion": 37659,
+    "percentile25_10YrsAfterEntry": 17707,
+    "percentile75_10YrsAfterEntry": 54406,
+    "shareEarningAboveHsGrad": null
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.montcalm.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:18.018Z",
+  "fetchedAt": "2026-05-13T02:13:33.913Z",
   "size": 1122,
   "shareFirstGeneration": 0.4845814978,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3061,
     "completionRate200nt": 0.3011,
-    "transferRate": 0.2245
+    "transferRate": 0.2245,
+    "retentionRateFullTime": 0.5682,
+    "retentionRatePartTime": 0.5545
   },
   "earnings": {
-    "median10YrsAfterEntry": 35499
+    "median10YrsAfterEntry": 35499,
+    "median1YrAfterCompletion": 45335,
+    "percentile25_10YrsAfterEntry": 18970,
+    "percentile75_10YrsAfterEntry": 52313,
+    "shareEarningAboveHsGrad": 0.499
   }
 }

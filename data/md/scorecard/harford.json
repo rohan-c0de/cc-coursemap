@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.harford.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:02.263Z",
+  "fetchedAt": "2026-05-13T02:13:18.845Z",
   "size": 3696,
   "shareFirstGeneration": 0.4127358491,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3926,
     "completionRate200nt": 0.4612,
-    "transferRate": 0.2131
+    "transferRate": 0.2131,
+    "retentionRateFullTime": 0.6657,
+    "retentionRatePartTime": 0.5278
   },
   "earnings": {
-    "median10YrsAfterEntry": 44608
+    "median10YrsAfterEntry": 44608,
+    "median1YrAfterCompletion": 41402,
+    "percentile25_10YrsAfterEntry": 24777,
+    "percentile75_10YrsAfterEntry": 68409,
+    "shareEarningAboveHsGrad": 0.583
   }
 }

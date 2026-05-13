@@ -6,7 +6,7 @@
   "schoolUrl": "gogebic.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:13.004Z",
+  "fetchedAt": "2026-05-13T02:13:29.404Z",
   "size": 511,
   "shareFirstGeneration": 0.3898635478,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3561,
     "completionRate200nt": 0.3563,
-    "transferRate": 0.3182
+    "transferRate": 0.3182,
+    "retentionRateFullTime": 0.637,
+    "retentionRatePartTime": 0.5417
   },
   "earnings": {
-    "median10YrsAfterEntry": 40950
+    "median10YrsAfterEntry": 40950,
+    "median1YrAfterCompletion": 37816,
+    "percentile25_10YrsAfterEntry": 22211,
+    "percentile75_10YrsAfterEntry": 61817,
+    "shareEarningAboveHsGrad": 0.514
   }
 }

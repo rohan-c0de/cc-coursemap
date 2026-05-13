@@ -6,7 +6,7 @@
   "schoolUrl": "www.cccc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:35.087Z",
+  "fetchedAt": "2026-05-13T02:13:50.210Z",
   "size": 3237,
   "shareFirstGeneration": 0.4618345093,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4293,
     "completionRate200nt": 0.4778,
-    "transferRate": 0.1631
+    "transferRate": 0.1631,
+    "retentionRateFullTime": 0.7251,
+    "retentionRatePartTime": 0.5856
   },
   "earnings": {
-    "median10YrsAfterEntry": 33525
+    "median10YrsAfterEntry": 33525,
+    "median1YrAfterCompletion": 32911,
+    "percentile25_10YrsAfterEntry": 17814,
+    "percentile75_10YrsAfterEntry": 48995,
+    "shareEarningAboveHsGrad": 0.439
   }
 }

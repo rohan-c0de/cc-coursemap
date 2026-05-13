@@ -196,6 +196,149 @@ function CostBreakdown({ record }: { record: ScorecardRecord }) {
 }
 
 /**
+ * Outcomes block: retention + completion + transfer. Surfaces retention
+ * specifically because it's the single strongest leading indicator of
+ * completion (Pell-eligible students who return for year two are 3-4x
+ * more likely to graduate than those who don't), and the federal
+ * Scorecard site doesn't prominently feature it.
+ */
+function OutcomesSection({ record }: { record: ScorecardRecord }) {
+  const retentionFt = record.completion.retentionRateFullTime;
+  const retentionPt = record.completion.retentionRatePartTime;
+  const transfer = record.completion.transferRate;
+  const completion200 = record.completion.completionRate200nt;
+  if (retentionFt == null && transfer == null && completion200 == null)
+    return null;
+  const retentionTooltip =
+    retentionPt != null
+      ? `Share of full-time first-year students who returned the next year. Part-time retention is ${formatPercent(retentionPt)}. Returning for year two is the single best predictor of finishing.`
+      : "Share of full-time first-year students who returned the next year. Returning for year two is the single best predictor of finishing.";
+
+  return (
+    <div className="mt-6">
+      <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-700 dark:text-slate-300">
+        After enrollment
+      </h3>
+      <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
+        {retentionFt != null && (
+          <StatCard
+            label="1st-year retention"
+            value={formatPercent(retentionFt)}
+            sub="full-time students"
+            tooltip={retentionTooltip}
+          />
+        )}
+        {transfer != null && (
+          <StatCard
+            label="Transfer rate"
+            value={formatPercent(transfer)}
+            sub="to a 4-year school"
+            tooltip="Share of full-time students who transferred out to a 4-year institution. Important for community colleges where transferring is a common goal."
+          />
+        )}
+        {completion200 != null && (
+          <StatCard
+            label="Completion rate"
+            value={formatPercent(completion200)}
+            sub="200% of normal time"
+            tooltip="Share of students who completed within 200% of the normal program length — i.e., 4 years for a 2-year associate's. Broader, more realistic figure for working students."
+          />
+        )}
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Earnings block: 1yr-after-completion, 10yr-after-entry median with a
+ * P25/P75 range, the federal "% earning above HS-grad median" flagship
+ * stat, plus loan rate and median debt. Together these answer "did the
+ * money pay off."
+ */
+function EarningsSection({ record }: { record: ScorecardRecord }) {
+  const earn1Yr = record.earnings.median1YrAfterCompletion;
+  const earn10Yr = record.earnings.median10YrsAfterEntry;
+  const p25 = record.earnings.percentile25_10YrsAfterEntry;
+  const p75 = record.earnings.percentile75_10YrsAfterEntry;
+  const aboveHs = record.earnings.shareEarningAboveHsGrad;
+  const debt = record.aid.medianDebtCompleters;
+  const loanRate = record.aid.federalLoanRate;
+
+  if (
+    earn1Yr == null &&
+    earn10Yr == null &&
+    aboveHs == null &&
+    debt == null &&
+    (loanRate == null || loanRate === 0)
+  ) {
+    return null;
+  }
+
+  const earn10YrSub =
+    p25 != null && p75 != null
+      ? `10 yrs after entry · ${formatDollar(p25)}–${formatDollar(p75)}`
+      : "10 years after entry";
+
+  return (
+    <div className="mt-6">
+      <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-700 dark:text-slate-300">
+        Earnings &amp; debt
+      </h3>
+      <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
+        {earn1Yr != null && (
+          <StatCard
+            label="Earnings 1 yr after"
+            value={formatDollar(earn1Yr)}
+            sub="median, completers"
+            tooltip="Median annual earnings one year after completion, completers only. Faster post-graduation signal than the 10-year figure (which mixes completers and non-completers)."
+          />
+        )}
+        {earn10Yr != null && (
+          <StatCard
+            label="Median earnings"
+            value={formatDollar(earn10Yr)}
+            sub={earn10YrSub}
+            tooltip={
+              p25 != null && p75 != null
+                ? `Median annual earnings 10 years after first entering college. The range shown is the 25th–75th percentile (middle half of working former students), so half earn within this band and half are outside it.`
+                : "Median annual earnings 10 years after first entering college, working former students."
+            }
+          />
+        )}
+        {aboveHs != null && (
+          <StatCard
+            label="Earn above $28k"
+            value={formatPercent(aboveHs)}
+            sub="10 yrs after entry"
+            tooltip="Share of former students earning more than $28,000 — roughly the median annual wage for someone with only a high school diploma. The federal Scorecard's headline 'did college pay off' metric."
+          />
+        )}
+      </div>
+      {(debt != null || (loanRate != null && loanRate > 0)) && (
+        <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {debt != null && (
+            <StatCard
+              label="Median debt at completion"
+              value={formatDollar(debt)}
+              sub="federal loans, completers"
+              tooltip="Median federal student loan debt for students who completed their program. Excludes private loans."
+            />
+          )}
+          {loanRate != null && loanRate > 0 && (
+            <StatCard
+              label="Take federal loans"
+              value={formatPercent(loanRate)}
+              sub="of all students"
+              tooltip="Share of students taking out federal student loans. A 0% or very low rate (common at low-tuition community colleges) means loan debt isn't a typical part of the cost story here."
+            />
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/**
  * Returns true if the record has enough non-null fields to be worth
  * rendering. A record with everything null (rare but possible) would render
  * a wall of "—" — we'd rather omit the whole section.
@@ -282,33 +425,9 @@ export default function CollegeScorecardSection({
         </div>
       )}
 
-      {(record.completion.transferRate != null ||
-        record.earnings.median10YrsAfterEntry != null ||
-        record.aid.medianDebtCompleters != null) && (
-        <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
-          {record.completion.transferRate != null && (
-            <StatCard
-              label="Transfer rate"
-              value={formatPercent(record.completion.transferRate)}
-              sub="full-time students"
-            />
-          )}
-          {record.aid.medianDebtCompleters != null && (
-            <StatCard
-              label="Median debt at completion"
-              value={formatDollar(record.aid.medianDebtCompleters)}
-              sub="federal loans"
-            />
-          )}
-          {record.earnings.median10YrsAfterEntry != null && (
-            <StatCard
-              label="Median earnings"
-              value={formatDollar(record.earnings.median10YrsAfterEntry)}
-              sub="10 years after entry"
-            />
-          )}
-        </div>
-      )}
+      <OutcomesSection record={record} />
+
+      <EarningsSection record={record} />
 
       <p className="mt-4 text-xs text-gray-500 dark:text-slate-400">
         Source:{" "}

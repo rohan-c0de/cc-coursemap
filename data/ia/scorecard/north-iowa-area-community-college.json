@@ -6,7 +6,7 @@
   "schoolUrl": "www.niacc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:37.747Z",
+  "fetchedAt": "2026-05-13T02:12:56.497Z",
   "size": 1320,
   "shareFirstGeneration": 0.311790393,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.6054,
     "completionRate200nt": 0.5598,
-    "transferRate": 0.1273
+    "transferRate": 0.1273,
+    "retentionRateFullTime": 0.6674,
+    "retentionRatePartTime": 0.4167
   },
   "earnings": {
-    "median10YrsAfterEntry": 43462
+    "median10YrsAfterEntry": 43462,
+    "median1YrAfterCompletion": 40016,
+    "percentile25_10YrsAfterEntry": 26244,
+    "percentile75_10YrsAfterEntry": 59290,
+    "shareEarningAboveHsGrad": 0.623
   }
 }

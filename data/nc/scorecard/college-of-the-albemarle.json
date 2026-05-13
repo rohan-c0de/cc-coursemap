@@ -6,7 +6,7 @@
   "schoolUrl": "www.albemarle.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:36.964Z",
+  "fetchedAt": "2026-05-13T02:13:52.029Z",
   "size": 2001,
   "shareFirstGeneration": 0.4525862069,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3478,
     "completionRate200nt": 0.4294,
-    "transferRate": 0.3116
+    "transferRate": 0.3116,
+    "retentionRateFullTime": 0.716,
+    "retentionRatePartTime": 0.5053
   },
   "earnings": {
-    "median10YrsAfterEntry": 33234
+    "median10YrsAfterEntry": 33234,
+    "median1YrAfterCompletion": 34395,
+    "percentile25_10YrsAfterEntry": 17302,
+    "percentile75_10YrsAfterEntry": 48725,
+    "shareEarningAboveHsGrad": 0.361
   }
 }

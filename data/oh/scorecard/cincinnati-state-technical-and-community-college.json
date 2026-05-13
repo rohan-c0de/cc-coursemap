@@ -6,7 +6,7 @@
   "schoolUrl": "www.cincinnatistate.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:15:14.752Z",
+  "fetchedAt": "2026-05-13T02:14:27.837Z",
   "size": 5667,
   "shareFirstGeneration": 0.4643213573,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 40137
+    "median10YrsAfterEntry": 40137,
+    "median1YrAfterCompletion": 49323,
+    "percentile25_10YrsAfterEntry": 21530,
+    "percentile75_10YrsAfterEntry": 60507,
+    "shareEarningAboveHsGrad": 0.567
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.bishop.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:02.872Z",
+  "fetchedAt": "2026-05-13T02:12:22.303Z",
   "size": 2437,
   "shareFirstGeneration": 0.4853977845,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3596,
     "completionRate200nt": 0.2634,
-    "transferRate": 0.3012
+    "transferRate": 0.3012,
+    "retentionRateFullTime": 0.5504,
+    "retentionRatePartTime": 0.3116
   },
   "earnings": {
-    "median10YrsAfterEntry": 29916
+    "median10YrsAfterEntry": 29916,
+    "median1YrAfterCompletion": 35298,
+    "percentile25_10YrsAfterEntry": 15254,
+    "percentile75_10YrsAfterEntry": 47250,
+    "shareEarningAboveHsGrad": 0.394
   }
 }

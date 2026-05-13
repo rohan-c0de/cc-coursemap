@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.eccc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:24.221Z",
+  "fetchedAt": "2026-05-13T02:13:39.931Z",
   "size": 1520,
   "shareFirstGeneration": 0.3713178295,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.361,
     "completionRate200nt": 0.4175,
-    "transferRate": 0.152
+    "transferRate": 0.152,
+    "retentionRateFullTime": 0.6014,
+    "retentionRatePartTime": 0.05
   },
   "earnings": {
-    "median10YrsAfterEntry": 32421
+    "median10YrsAfterEntry": 32421,
+    "median1YrAfterCompletion": 26766,
+    "percentile25_10YrsAfterEntry": 17712,
+    "percentile75_10YrsAfterEntry": 48709,
+    "shareEarningAboveHsGrad": 0.515
   }
 }

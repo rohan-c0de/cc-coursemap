@@ -6,7 +6,7 @@
   "schoolUrl": "www.northshore.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:54.464Z",
+  "fetchedAt": "2026-05-13T02:13:11.381Z",
   "size": 4393,
   "shareFirstGeneration": 0.5212981744,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.1778,
     "completionRate200nt": 0.2244,
-    "transferRate": 0.1689
+    "transferRate": 0.1689,
+    "retentionRateFullTime": 0.6086,
+    "retentionRatePartTime": 0.4456
   },
   "earnings": {
-    "median10YrsAfterEntry": 45391
+    "median10YrsAfterEntry": 45391,
+    "median1YrAfterCompletion": 40704,
+    "percentile25_10YrsAfterEntry": 23689,
+    "percentile75_10YrsAfterEntry": 69477,
+    "shareEarningAboveHsGrad": 0.617
   }
 }

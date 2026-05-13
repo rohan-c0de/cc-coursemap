@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.blueridgectc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:58.751Z",
+  "fetchedAt": "2026-05-13T02:15:09.035Z",
   "size": 1661,
   "shareFirstGeneration": 0.5343777198,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3232,
     "completionRate200nt": 0.6123,
-    "transferRate": 0.1263
+    "transferRate": 0.1263,
+    "retentionRateFullTime": 0.7837,
+    "retentionRatePartTime": 0.4968
   },
   "earnings": {
-    "median10YrsAfterEntry": 39293
+    "median10YrsAfterEntry": 39293,
+    "median1YrAfterCompletion": 34268,
+    "percentile25_10YrsAfterEntry": 19202,
+    "percentile75_10YrsAfterEntry": 58443,
+    "shareEarningAboveHsGrad": null
   }
 }

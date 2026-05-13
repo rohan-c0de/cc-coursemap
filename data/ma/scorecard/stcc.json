@@ -6,7 +6,7 @@
   "schoolUrl": "www.stcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:56.287Z",
+  "fetchedAt": "2026-05-13T02:13:13.173Z",
   "size": 4759,
   "shareFirstGeneration": 0.4805900621,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.318,
     "completionRate200nt": 0.3318,
-    "transferRate": 0.1432
+    "transferRate": 0.1432,
+    "retentionRateFullTime": 0.6268,
+    "retentionRatePartTime": 0.4548
   },
   "earnings": {
-    "median10YrsAfterEntry": 36966
+    "median10YrsAfterEntry": 36966,
+    "median1YrAfterCompletion": 39700,
+    "percentile25_10YrsAfterEntry": 16733,
+    "percentile75_10YrsAfterEntry": 59183,
+    "shareEarningAboveHsGrad": 0.57
   }
 }

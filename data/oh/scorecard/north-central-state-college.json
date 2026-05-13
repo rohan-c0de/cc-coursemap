@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.ncstatecollege.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:17.890Z",
+  "fetchedAt": "2026-05-13T02:14:30.638Z",
   "size": 1273,
   "shareFirstGeneration": 0.4966118103,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 38158
+    "median10YrsAfterEntry": 38158,
+    "median1YrAfterCompletion": 47054,
+    "percentile25_10YrsAfterEntry": 19672,
+    "percentile75_10YrsAfterEntry": 55523,
+    "shareEarningAboveHsGrad": 0.498
   }
 }

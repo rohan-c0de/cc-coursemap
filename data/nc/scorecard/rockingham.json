@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.rockinghamcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:50.573Z",
+  "fetchedAt": "2026-05-13T02:14:05.115Z",
   "size": 1065,
   "shareFirstGeneration": 0.5221088435,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3507,
     "completionRate200nt": 0.3373,
-    "transferRate": 0.128
+    "transferRate": 0.128,
+    "retentionRateFullTime": 0.6829,
+    "retentionRatePartTime": 0.4918
   },
   "earnings": {
-    "median10YrsAfterEntry": 32480
+    "median10YrsAfterEntry": 32480,
+    "median1YrAfterCompletion": 38815,
+    "percentile25_10YrsAfterEntry": 17360,
+    "percentile75_10YrsAfterEntry": 46513,
+    "shareEarningAboveHsGrad": 0.472
   }
 }
