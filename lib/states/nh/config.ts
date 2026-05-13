@@ -71,7 +71,7 @@ const nhConfig: StateConfig = {
       },
     ],
     prereqs: [{ scripts: ["scripts/nh/scrape-catalog-prereqs.ts"], runner: "http" }],
-    // manual-only: programs — Acalog program scraper not yet wired up for this state.
+    programs: [{ scripts: ["scripts/nh/scrape-programs.ts"], runner: "http" }],
   },
 };
 

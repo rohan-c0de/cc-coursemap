@@ -42,7 +42,7 @@ const msConfig: StateConfig = {
     // manual-only: transfers — Mississippi runs MTAG (Mississippi Transfer
     //   Agreement Guide) — check as a potential source for articulation data.
     prereqs: [{ scripts: ["scripts/ms/scrape-catalog-prereqs.ts"], runner: "playwright" }],
-    // manual-only: programs — Phase 5+.
+    programs: [{ scripts: ["scripts/ms/scrape-programs.ts"], runner: "http" }],
   },
 };
 

@@ -60,7 +60,7 @@ const riConfig: StateConfig = {
     courses: [{ scripts: ["scripts/ri/scrape-banner8.ts"], runner: "http" }],
     transfers: [{ scripts: ["scripts/ri/scrape-transfer.ts"], runner: "http" }],
     prereqs: [{ scripts: ["scripts/ri/scrape-catalog-prereqs.ts"], runner: "http" }],
-    // manual-only: programs — Acalog program scraper not yet wired up for this state.
+    programs: [{ scripts: ["scripts/ri/scrape-programs.ts"], runner: "http" }],
   },
 };
 

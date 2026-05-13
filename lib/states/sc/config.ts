@@ -125,7 +125,7 @@ const scConfig: StateConfig = {
       },
     ],
     prereqs: { source: "aggregate-from-courses" },
-    // manual-only: programs — Acalog program scraper not yet wired up for this state.
+    programs: [{ scripts: ["scripts/sc/scrape-programs.ts"], runner: "http" }],
   },
 };
 

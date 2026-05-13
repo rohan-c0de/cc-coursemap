@@ -51,7 +51,7 @@ const kyConfig: StateConfig = {
     // manual-only: transfers — no entry in data/articulation-portals.json for KY.
     //   Fallback options: KYTransfer.org (transfer.ky.gov) state portal, or
     //   CollegeTransfer.Net per-college lookup.
-    // manual-only: programs — Phase 5+.
+    programs: [{ scripts: ["scripts/ky/scrape-programs.ts"], runner: "http" }],
   },
 };
 

@@ -89,7 +89,7 @@ const njConfig: StateConfig = {
     ],
     transfers: [{ scripts: ["scripts/nj/scrape-transfer.ts"], runner: "http" }],
     prereqs: { source: "aggregate-from-courses" },
-    // manual-only: programs — Acalog program scraper not yet wired up for this state.
+    programs: [{ scripts: ["scripts/nj/scrape-programs.ts"], runner: "http" }],
   },
 
   branding: {

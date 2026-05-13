@@ -70,7 +70,7 @@ const deConfig: StateConfig = {
       },
     ],
     prereqs: [{ scripts: ["scripts/de/scrape-catalog-prereqs.ts"], runner: "http" }],
-    // manual-only: programs — Acalog program scraper not yet wired up for this state.
+    programs: [{ scripts: ["scripts/de/scrape-programs.ts"], runner: "http" }],
   },
 };
 
