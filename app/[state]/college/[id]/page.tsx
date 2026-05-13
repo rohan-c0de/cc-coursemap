@@ -12,6 +12,7 @@ import { getCurrentTerm } from "@/lib/terms";
 import CollegeMap from "./CollegeMap";
 import CollegeScorecardSection from "./CollegeScorecardSection";
 import CollegeTermSection from "./CollegeTermSection";
+import TopProgramsSection from "./TopProgramsSection";
 import { buildTransferLookupForCourses } from "@/lib/transfer-scoped";
 import { getAllStates } from "@/lib/states/registry";
 import { requireStateConfig } from "@/lib/states/route-helpers";
@@ -291,6 +292,16 @@ export default async function CollegeDetailPage(props: PageProps) {
       {/* Cost & outcomes — federal Scorecard data. Renders nothing when
           the institution lacks a Scorecard mapping (2 of 382 today). */}
       <CollegeScorecardSection
+        state={state}
+        collegeId={id}
+        collegeName={institution.name}
+      />
+
+      {/* Top programs at this college — bridges the per-college page to
+          the state-wide program comparison hub at /[state]/program/[slug].
+          Driven by federal IPEDS award counts in the scorecard-programs
+          data ingested by #410. See issue #414. */}
+      <TopProgramsSection
         state={state}
         collegeId={id}
         collegeName={institution.name}

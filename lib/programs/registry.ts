@@ -191,3 +191,52 @@ export const PROGRAMS: ProgramDef[] = [
 export function getProgramBySlug(slug: string): ProgramDef | undefined {
   return PROGRAMS.find((p) => p.slug === slug);
 }
+
+/**
+ * Reverse-lookup: given a 4-digit NCES CIP code (as the Scorecard API
+ * returns it, no dot), return the ProgramDef whose `cips` list contains
+ * it. Returns undefined if no program in our curated set matches.
+ *
+ * CIP→slug mapping is unambiguous as of the current PROGRAMS list (all 16
+ * programs have disjoint CIP sets). If a future addition introduces a
+ * CIP collision, this helper picks the first match in PROGRAMS order;
+ * audit cips: [] entries with a `npm run lint` regression test if that
+ * starts to matter.
+ */
+export function getProgramByCip(cip: string): ProgramDef | undefined {
+  return PROGRAMS.find((p) => p.cips.includes(cip));
+}
+
+/**
+ * Reverse-lookup: given a course-code prefix (e.g. "NUR" or "ACC"),
+ * return every ProgramDef that lists it. One prefix can match multiple
+ * programs because the underlying prefix lists overlap by design
+ * (e.g. "ENG" appears under both `english` and `liberal-arts`).
+ *
+ * Use `getBestProgramForPrefix` when you need a single answer.
+ */
+export function getProgramsByPrefix(prefix: string): ProgramDef[] {
+  const up = prefix.toUpperCase();
+  return PROGRAMS.filter((p) => p.prefixes.some((x) => x.toUpperCase() === up));
+}
+
+/**
+ * Pick the single best program for a given course prefix. The rule:
+ * prefer the program whose prefixes list is **shorter** — i.e., more
+ * specific — on the theory that a narrowly-scoped program (like
+ * `english` with two prefixes) is a better target than a broad
+ * umbrella program (like `liberal-arts` with six) when a student is
+ * browsing a single subject. Alphabetical slug tie-break.
+ */
+export function getBestProgramForPrefix(
+  prefix: string,
+): ProgramDef | undefined {
+  const candidates = getProgramsByPrefix(prefix);
+  if (candidates.length === 0) return undefined;
+  if (candidates.length === 1) return candidates[0];
+  candidates.sort((a, b) => {
+    const dif = a.prefixes.length - b.prefixes.length;
+    return dif !== 0 ? dif : a.slug.localeCompare(b.slug);
+  });
+  return candidates[0];
+}

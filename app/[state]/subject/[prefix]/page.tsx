@@ -22,6 +22,8 @@ import { getAllStates, isValidState } from "@/lib/states/registry";
 import { requireStateConfig } from "@/lib/states/route-helpers";
 import { subjectName } from "@/lib/subjects";
 import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
+import { getBestProgramForPrefix } from "@/lib/programs/registry";
+import { getQualifyingProgramSlugs } from "@/lib/programs";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
 import RelatedBlogPosts from "@/components/RelatedBlogPosts";
@@ -188,6 +190,20 @@ export default async function StateSubjectPage(props: PageProps) {
   const subject = subjectName(prefix);
   const courses = aggregateCourses(sections);
   const collegeCount = new Set(sections.map((s) => s.college_code)).size;
+
+  // Program-hub bridge (issue #416): when this prefix maps to one of our
+  // curated programs *and* that program qualifies for the state's
+  // program-comparison hub at `/[state]/program/[slug]`, surface a banner
+  // link so subject-page visitors discover the cross-college comparison
+  // view with earnings data.
+  const matchedProgram = getBestProgramForPrefix(prefix);
+  const qualifyingSlugs = matchedProgram
+    ? await getQualifyingProgramSlugs(state)
+    : [];
+  const programLink =
+    matchedProgram && qualifyingSlugs.includes(matchedProgram.slug)
+      ? matchedProgram
+      : null;
   const onlineCount = sections.filter(
     (s) => s.mode === "online" || s.mode === "zoom"
   ).length;
@@ -355,6 +371,39 @@ export default async function StateSubjectPage(props: PageProps) {
             </span>
           )}
         </div>
+
+        {programLink && (
+          <div className="mb-8">
+            <Link
+              href={`/${state}/program/${programLink.slug}`}
+              className="group flex items-center justify-between rounded-lg border border-teal-200 dark:border-teal-800 bg-teal-50 dark:bg-teal-900/20 px-4 py-3 hover:border-teal-400 dark:hover:border-teal-600 transition-colors"
+            >
+              <div>
+                <div className="text-sm font-semibold text-teal-800 dark:text-teal-300">
+                  Compare full {programLink.name} programs across{" "}
+                  {config.name} community colleges
+                </div>
+                <div className="text-xs text-teal-700 dark:text-teal-400 mt-0.5">
+                  Per-college program size, graduate earnings, and transfer
+                  details.
+                </div>
+              </div>
+              <svg
+                className="h-4 w-4 text-teal-600 dark:text-teal-400 group-hover:translate-x-0.5 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </Link>
+          </div>
+        )}
 
         {/* Subject Availability Snapshot — server-rendered substantive
             content per term. Helps long-tail SEO ("[subject] online
