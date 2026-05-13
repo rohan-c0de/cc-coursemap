@@ -20,6 +20,7 @@ import { getTopInstructors } from "@/lib/instructors";
 import { computeOfferingProfile } from "@/lib/college-stats";
 import { subjectName } from "@/lib/subjects";
 import type { CourseSection } from "@/lib/types";
+import SectionHeading from "@/components/SectionHeading";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
 import RelatedBlogPosts from "@/components/RelatedBlogPosts";
@@ -469,9 +470,9 @@ export default async function CollegeDetailPage(props: PageProps) {
           require running the client-side course catalog component. */}
       {offeringProfile && offeringProfile.total > 0 && (
         <section className="mt-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-6">
-          <h2 id="offering-profile" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+          <SectionHeading id="offering-profile" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
             Course Offering Profile
-          </h2>
+          </SectionHeading>
           <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
             What {institution.name} is offering for{" "}
             {defaultTerm.toUpperCase()} — {offeringProfile.total} sections
@@ -599,9 +600,9 @@ export default async function CollegeDetailPage(props: PageProps) {
         if (others.length === 0) return null;
         return (
           <section className="mt-8">
-            <h2 id="other-colleges" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+            <SectionHeading id="other-colleges" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
               Other {config.systemName} Colleges
-            </h2>
+            </SectionHeading>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {others.map((inst) => (
                 <Link

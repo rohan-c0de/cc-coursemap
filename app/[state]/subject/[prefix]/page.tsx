@@ -24,6 +24,7 @@ import { subjectName } from "@/lib/subjects";
 import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
 import { getBestProgramForPrefix } from "@/lib/programs/registry";
 import { getQualifyingProgramSlugs } from "@/lib/programs";
+import SectionHeading from "@/components/SectionHeading";
 import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
 import RelatedBlogPosts from "@/components/RelatedBlogPosts";
@@ -411,9 +412,9 @@ export default async function StateSubjectPage(props: PageProps) {
             Computed inline from sections — no extra I/O. */}
         {subjectProfile && subjectProfile.totalSections > 0 && (
           <section className="mb-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6">
-            <h2 id="availability" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+            <SectionHeading id="availability" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
               {subject} Availability Snapshot
-            </h2>
+            </SectionHeading>
             <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
               How {subject.toLowerCase()} sections are being offered across{" "}
               {subjectProfile.collegeCount}{" "}
@@ -597,9 +598,9 @@ export default async function StateSubjectPage(props: PageProps) {
         {/* Browse other subjects */}
         {allSubjects.length > 0 && (
           <section className="mt-10">
-            <h2 id="other-subjects" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
+            <SectionHeading id="other-subjects" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
               Browse Other Subjects
-            </h2>
+            </SectionHeading>
             <div className="flex flex-wrap gap-2">
               {allSubjects.slice(0, 48).map((s) => (
                 <Link

@@ -24,6 +24,7 @@ import {
 } from "@/lib/programs";
 import { loadProgramAcrossColleges, checkCourseAvailability } from "@/lib/programs/requirements";
 import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
+import SectionHeading from "@/components/SectionHeading";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProgramRequirements from "@/components/ProgramRequirements";
 import {
@@ -267,12 +268,12 @@ export default async function ProgramPage(props: PageProps) {
 
         {(collegesWithEarnings.length > 0 || nationalBenchmark != null) && (
           <section className="mb-10 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6">
-            <h2
+            <SectionHeading
               id="outcomes"
               className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-1"
             >
               Earnings &amp; outcomes for {program.name} graduates
-            </h2>
+            </SectionHeading>
             <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
               Federal College Scorecard data on what graduates of this program
               actually earn after completion. Where a school&rsquo;s cohort is
@@ -332,9 +333,9 @@ export default async function ProgramPage(props: PageProps) {
         )}
 
         <section className="mb-10">
-          <h2 id="colleges" className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
+          <SectionHeading id="colleges" className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
             Colleges offering {program.name}
-          </h2>
+          </SectionHeading>
           <div className="rounded-xl border border-gray-200 dark:border-slate-700 overflow-hidden bg-white dark:bg-slate-900">
             <table className="w-full text-left text-sm">
               <thead className="bg-gray-50 dark:bg-slate-800 text-xs uppercase tracking-wider text-gray-500 dark:text-slate-400">
@@ -416,9 +417,9 @@ export default async function ProgramPage(props: PageProps) {
             Computed inline from data.flatSections — no extra I/O. */}
         {programProfile && programProfile.totalSections > 0 && (
           <section className="mb-10 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6">
-            <h2 id="availability" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
+            <SectionHeading id="availability" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
               {program.name} Availability Snapshot
-            </h2>
+            </SectionHeading>
             <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
               How {program.name.toLowerCase()} sections are being offered
               across {programProfile.collegeCount}{" "}
@@ -560,9 +561,9 @@ export default async function ProgramPage(props: PageProps) {
 
         {data.sampleCourses.length > 0 && (
           <section className="mb-10">
-            <h2 id="common-courses" className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
+            <SectionHeading id="common-courses" className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
               Common {program.name} courses
-            </h2>
+            </SectionHeading>
             <ul className="grid sm:grid-cols-2 gap-2">
               {data.sampleCourses.map((c) => (
                 <li key={`${c.prefix}-${c.number}`}>
@@ -616,9 +617,9 @@ export default async function ProgramPage(props: PageProps) {
         )}
 
         <section className="mb-10">
-          <h2 id="other-programs" className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
+          <SectionHeading id="other-programs" className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
             Other programs in {config.name}
-          </h2>
+          </SectionHeading>
           <div className="flex flex-wrap gap-2">
             {otherProgramSlugs.map((s) => {
               const p = getProgramBySlug(s)!;
