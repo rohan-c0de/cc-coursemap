@@ -25,15 +25,32 @@ function StatCard({
   label,
   value,
   sub,
+  tooltip,
 }: {
   label: string;
   value: string;
   sub?: string;
+  /**
+   * Optional explanatory text. Rendered as a small "ⓘ" next to the label
+   * with a native `title` attribute — works without client JS (the section
+   * is a server component) and surfaces on hover on desktop. Mobile users
+   * who tap-and-hold also get the tooltip via the OS-level long-press menu.
+   */
+  tooltip?: string;
 }) {
   return (
     <div className="rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
-      <div className="text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-slate-400">
-        {label}
+      <div className="flex items-center gap-1 text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-slate-400">
+        <span>{label}</span>
+        {tooltip && (
+          <span
+            title={tooltip}
+            aria-label={tooltip}
+            className="cursor-help text-gray-400 dark:text-slate-500"
+          >
+            ⓘ
+          </span>
+        )}
       </div>
       <div className="mt-1 text-2xl font-bold text-gray-900 dark:text-slate-100">
         {value}
@@ -118,11 +135,13 @@ export default function CollegeScorecardSection({
           label="In-state tuition"
           value={formatDollar(record.cost.tuitionInState)}
           sub="per year (sticker)"
+          tooltip="Published tuition and required fees for in-state students. Does not include books, transportation, or living expenses."
         />
         <StatCard
           label="Avg net price"
           value={formatDollar(record.cost.avgNetPricePublic)}
           sub="after aid"
+          tooltip="Federal IPEDS definition: total cost of attendance (tuition, fees, books, room & board, transportation, personal expenses) minus the average grant and scholarship aid. Often higher than sticker tuition because it adds living expenses."
         />
         <StatCard
           label="Receive Pell"
