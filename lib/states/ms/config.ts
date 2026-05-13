@@ -36,14 +36,12 @@ const msConfig: StateConfig = {
     ],
   },
   scrapers: {
-    // manual-only: courses — Phase 2 (course scraper) not yet wired up.
-    //   MS colleges use a mix of platforms (Colleague, Banner SSB 9,
-    //   Banner 8, Jenzabar, custom). SIS fingerprinting identifies each
-    //   college's platform for targeted scraping.
-    // manual-only: transfers — Phase 3. Mississippi runs MTAG
-    //   (Mississippi Transfer Agreement Guide) — check as a potential
-    //   Phase 3 source for state-level articulation data.
-    // manual-only: prereqs — Phase 4.
+    // manual-only: courses — MS colleges use a mix of platforms (Colleague,
+    //   Banner SSB 9, Banner 8, Jenzabar, custom). SIS fingerprinting
+    //   identifies each college's platform for targeted scraping.
+    // manual-only: transfers — Mississippi runs MTAG (Mississippi Transfer
+    //   Agreement Guide) — check as a potential source for articulation data.
+    prereqs: [{ scripts: ["scripts/ms/scrape-catalog-prereqs.ts"], runner: "playwright" }],
     // manual-only: programs — Phase 5+.
   },
 };

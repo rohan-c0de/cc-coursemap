@@ -45,7 +45,9 @@ const kyConfig: StateConfig = {
     courses: [
       { scripts: ["scripts/ky/scrape-courses.ts"], runner: "http" },
     ],
-    prereqs: { source: "aggregate-from-courses" },
+    prereqs: [
+      { scripts: ["scripts/ky/scrape-catalog-prereqs.ts"], runner: "http" },
+    ],
     // manual-only: transfers — no entry in data/articulation-portals.json for KY.
     //   Fallback options: KYTransfer.org (transfer.ky.gov) state portal, or
     //   CollegeTransfer.Net per-college lookup.

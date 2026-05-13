@@ -62,7 +62,7 @@ const meConfig: StateConfig = {
   scrapers: {
     courses: [{ scripts: ["scripts/me/scrape-mccs.ts"], runner: "playwright" }],
     transfers: [{ scripts: ["scripts/me/scrape-transfer-mainestreet.ts"], runner: "playwright" }],
-    // manual-only: prereqs — ME prereq scraper not yet built. Tracked in #106.
+    prereqs: [{ scripts: ["scripts/me/scrape-catalog-prereqs.ts"], runner: "http" }],
     // manual-only: programs — Acalog program scraper not yet wired up for this state.
   },
 };
