@@ -7,9 +7,14 @@ import type { CourseMode } from "@/lib/types";
 import type { Answer } from "@/lib/search-intent/answer";
 import { expandDays } from "@/lib/time-utils";
 import { termCodeFromLabel } from "@/lib/term-label";
+import dynamic from "next/dynamic";
 import DayToggle from "@/components/DayToggle";
 import PrereqChain from "@/components/PrereqChain";
-import AnswerCard, { type ClassificationSummary } from "@/components/AnswerCard";
+import type { ClassificationSummary } from "@/components/AnswerCard";
+
+const AnswerCard = dynamic(() => import("@/components/AnswerCard"), {
+  ssr: false,
+});
 import { useAuth } from "@/lib/hooks/useAuth";
 import { createClient } from "@/lib/supabase/client";
 import { track } from "@/lib/analytics";
