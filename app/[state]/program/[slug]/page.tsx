@@ -30,6 +30,11 @@ import {
   getProgramLastUpdated,
   formatLastUpdated,
 } from "@/lib/data-freshness";
+import {
+  getScorecardProgramForCips,
+  formatDollar,
+  type ScorecardProgramRecord,
+} from "@/lib/scorecard";
 
 export const revalidate = 604800; // 7 days
 
@@ -134,6 +139,38 @@ export default async function ProgramPage(props: PageProps) {
   const url = siteUrl();
   const lastUpdated = getProgramLastUpdated(state);
 
+  // Per-college Scorecard program outcomes for the CIP codes this program
+  // maps to. Many entries will be null (no Scorecard data, or unitid not
+  // mapped, or all relevant CIPs suppressed at that school).
+  const outcomesByCollege: Record<string, ScorecardProgramRecord | null> = {};
+  if (program.cips.length > 0) {
+    for (const c of data.colleges) {
+      outcomesByCollege[c.collegeCode] = getScorecardProgramForCips(
+        state,
+        c.collegeId,
+        program.cips,
+      );
+    }
+  }
+  // National benchmark — same for every college, so grab the first
+  // non-null we see. Used as a fallback in the summary when no college
+  // has school-specific earnings populated.
+  const nationalBenchmark: ScorecardProgramRecord | null = (() => {
+    for (const c of data.colleges) {
+      const r = outcomesByCollege[c.collegeCode];
+      if (r?.earnings4YrMedianNational != null) return r;
+    }
+    return null;
+  })();
+  const collegesWithEarnings = data.colleges
+    .map((c) => ({ college: c, outcomes: outcomesByCollege[c.collegeCode] }))
+    .filter(
+      (x): x is { college: typeof data.colleges[number]; outcomes: ScorecardProgramRecord } =>
+        x.outcomes != null &&
+        (x.outcomes.earnings5YrMedian != null ||
+          x.outcomes.earnings1YrMedian != null),
+    );
+
   const itemListLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -209,6 +246,72 @@ export default async function ProgramPage(props: PageProps) {
           </p>
         </header>
 
+        {(collegesWithEarnings.length > 0 || nationalBenchmark != null) && (
+          <section className="mb-10 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6">
+            <h2
+              id="outcomes"
+              className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-1"
+            >
+              Earnings &amp; outcomes for {program.name} graduates
+            </h2>
+            <p className="text-sm text-gray-500 dark:text-slate-400 mb-4">
+              Federal College Scorecard data on what graduates of this program
+              actually earn after completion. Where a school&rsquo;s cohort is
+              too small to publish, we show the national benchmark for the
+              same field of study.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {nationalBenchmark?.earnings4YrMedianNational != null && (
+                <div className="rounded-lg border border-gray-200 dark:border-slate-700 p-4">
+                  <div className="text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-slate-400">
+                    National median (4 yrs after completion)
+                  </div>
+                  <div className="mt-1 text-2xl font-bold text-gray-900 dark:text-slate-100">
+                    {formatDollar(nationalBenchmark.earnings4YrMedianNational)}
+                  </div>
+                  {nationalBenchmark.earnings4YrP25National != null &&
+                    nationalBenchmark.earnings4YrP75National != null && (
+                      <div className="mt-0.5 text-xs text-gray-500 dark:text-slate-400">
+                        Range:{" "}
+                        {formatDollar(nationalBenchmark.earnings4YrP25National)}
+                        &thinsp;–&thinsp;
+                        {formatDollar(nationalBenchmark.earnings4YrP75National)}
+                      </div>
+                    )}
+                </div>
+              )}
+              {collegesWithEarnings.slice(0, 5).map(({ college, outcomes }) => (
+                <div
+                  key={college.collegeCode}
+                  className="rounded-lg border border-gray-200 dark:border-slate-700 p-4"
+                >
+                  <div className="text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-slate-400">
+                    {college.collegeName} graduates
+                  </div>
+                  <div className="mt-1 text-2xl font-bold text-gray-900 dark:text-slate-100">
+                    {formatDollar(
+                      outcomes.earnings5YrMedian ?? outcomes.earnings1YrMedian,
+                    )}
+                  </div>
+                  <div className="mt-0.5 text-xs text-gray-500 dark:text-slate-400">
+                    {outcomes.earnings5YrMedian != null
+                      ? "median, 5 yrs after completion"
+                      : "median, 1 yr after completion"}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="mt-4 text-xs text-gray-500 dark:text-slate-400">
+              Source: U.S. Department of Education College Scorecard,
+              per-program (4-digit CIP) data.{" "}
+              {nationalBenchmark != null &&
+                `CIP ${nationalBenchmark.cipCode} — ${nationalBenchmark.cipTitle}.`}{" "}
+              School cohorts are suppressed by the federal source when fewer
+              than ~30 completers in the reporting cohort.
+            </p>
+          </section>
+        )}
+
         <section className="mb-10">
           <h2 id="colleges" className="text-xl font-semibold text-gray-900 dark:text-slate-100 mb-4">
             Colleges offering {program.name}
@@ -223,33 +326,66 @@ export default async function ProgramPage(props: PageProps) {
                   </th>
                   <th className="px-4 py-2.5 font-medium text-right">Courses</th>
                   <th className="px-4 py-2.5 font-medium text-right">Online</th>
+                  {program.cips.length > 0 && (
+                    <>
+                      <th
+                        className="px-4 py-2.5 font-medium text-right"
+                        title="Annual program awards reported to IPEDS — sum of certificate + associate awards in the most recent year. A higher number suggests the program is more established at that college."
+                      >
+                        Awards/yr
+                      </th>
+                      <th
+                        className="px-4 py-2.5 font-medium text-right"
+                        title="Median earnings of completers 5 years after completion (federal Scorecard). '—' means the cohort was too small to publish."
+                      >
+                        5-yr earnings
+                      </th>
+                    </>
+                  )}
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100 dark:divide-slate-700">
-                {data.colleges.map((c) => (
-                  <tr
-                    key={c.collegeCode}
-                    className="hover:bg-gray-50 dark:hover:bg-slate-800"
-                  >
-                    <td className="px-4 py-2.5">
-                      <Link
-                        href={`/${state}/college/${c.collegeId}`}
-                        className="font-medium text-teal-600 dark:text-teal-400 hover:underline"
-                      >
-                        {c.collegeName}
-                      </Link>
-                    </td>
-                    <td className="px-4 py-2.5 text-right text-gray-900 dark:text-slate-100">
-                      {c.sectionCount}
-                    </td>
-                    <td className="px-4 py-2.5 text-right text-gray-600 dark:text-slate-400">
-                      {c.uniqueCourses}
-                    </td>
-                    <td className="px-4 py-2.5 text-right text-gray-600 dark:text-slate-400">
-                      {c.onlineCount > 0 ? c.onlineCount : "—"}
-                    </td>
-                  </tr>
-                ))}
+                {data.colleges.map((c) => {
+                  const o = outcomesByCollege[c.collegeCode];
+                  const awards =
+                    (o?.awardsLevel1 ?? 0) + (o?.awardsLevel2 ?? 0);
+                  return (
+                    <tr
+                      key={c.collegeCode}
+                      className="hover:bg-gray-50 dark:hover:bg-slate-800"
+                    >
+                      <td className="px-4 py-2.5">
+                        <Link
+                          href={`/${state}/college/${c.collegeId}`}
+                          className="font-medium text-teal-600 dark:text-teal-400 hover:underline"
+                        >
+                          {c.collegeName}
+                        </Link>
+                      </td>
+                      <td className="px-4 py-2.5 text-right text-gray-900 dark:text-slate-100">
+                        {c.sectionCount}
+                      </td>
+                      <td className="px-4 py-2.5 text-right text-gray-600 dark:text-slate-400">
+                        {c.uniqueCourses}
+                      </td>
+                      <td className="px-4 py-2.5 text-right text-gray-600 dark:text-slate-400">
+                        {c.onlineCount > 0 ? c.onlineCount : "—"}
+                      </td>
+                      {program.cips.length > 0 && (
+                        <>
+                          <td className="px-4 py-2.5 text-right text-gray-600 dark:text-slate-400">
+                            {awards > 0 ? awards : "—"}
+                          </td>
+                          <td className="px-4 py-2.5 text-right text-gray-900 dark:text-slate-100">
+                            {o?.earnings5YrMedian != null
+                              ? formatDollar(o.earnings5YrMedian)
+                              : "—"}
+                          </td>
+                        </>
+                      )}
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>

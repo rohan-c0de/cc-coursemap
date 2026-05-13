@@ -165,3 +165,79 @@ export function formatPercent(v: number | null | undefined): string {
   if (v == null) return "—";
   return `${(v * 100).toFixed(0)}%`;
 }
+
+// ---------------------------------------------------------------------------
+// Per-program (CIP) reader — issue #406
+// ---------------------------------------------------------------------------
+
+import type { ScorecardProgramRecord } from "@/scripts/lib/college-scorecard";
+
+export type { ScorecardProgramRecord };
+
+const programsCache = new Map<string, ScorecardProgramRecord[] | null>();
+
+function programsPath(state: string, collegeId: string): string {
+  return path.join(
+    process.cwd(),
+    "data",
+    state,
+    "scorecard-programs",
+    `${collegeId}.json`,
+  );
+}
+
+/**
+ * Return all per-program outcome records for one college, or null when
+ * the file is missing (college not ingested yet or no programs data
+ * exists). Empty array means we tried but the school had no programs in
+ * Scorecard at the CC credential levels (1 or 2).
+ */
+export function getScorecardPrograms(
+  state: string,
+  collegeId: string,
+): ScorecardProgramRecord[] | null {
+  const key = `${state}:${collegeId}`;
+  const cached = programsCache.get(key);
+  if (cached !== undefined) return cached;
+
+  const p = programsPath(state, collegeId);
+  if (!fs.existsSync(p)) {
+    programsCache.set(key, null);
+    return null;
+  }
+  try {
+    const parsed = JSON.parse(
+      fs.readFileSync(p, "utf-8"),
+    ) as ScorecardProgramRecord[];
+    programsCache.set(key, parsed);
+    return parsed;
+  } catch {
+    programsCache.set(key, null);
+    return null;
+  }
+}
+
+/**
+ * Pick the most-relevant per-program record at a college for a set of
+ * CIP codes (e.g. `["5138", "5139", "5116"]` for Nursing). Returns the
+ * record with the most awards/year — picks the dominant CC track rather
+ * than a niche related certificate.
+ */
+export function getScorecardProgramForCips(
+  state: string,
+  collegeId: string,
+  cips: string[],
+): ScorecardProgramRecord | null {
+  if (cips.length === 0) return null;
+  const all = getScorecardPrograms(state, collegeId);
+  if (!all || all.length === 0) return null;
+  const cipSet = new Set(cips);
+  const matches = all.filter((p) => cipSet.has(p.cipCode));
+  if (matches.length === 0) return null;
+  matches.sort((a, b) => {
+    const awA = (a.awardsLevel2 ?? 0) + (a.awardsLevel1 ?? 0);
+    const awB = (b.awardsLevel2 ?? 0) + (b.awardsLevel1 ?? 0);
+    return awB - awA;
+  });
+  return matches[0];
+}

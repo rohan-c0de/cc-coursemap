@@ -328,3 +328,149 @@ export async function searchScorecardByName(
   });
   return (data.results ?? []).map(rowToRecord);
 }
+
+
+/**
+ * Per-program (4-digit CIP) outcomes record. Stored at
+ * `data/{state}/scorecard-programs/{college_slug}.json` as an array, one
+ * entry per CIP at that institution. Issue #406.
+ *
+ * Two-tier data: most fields capture the school-specific cohort (often
+ * suppressed when the cohort is small). When suppressed, the API still
+ * provides a NATIONAL benchmark (same CIP, all institutions); we store
+ * both and the UI shows whichever is available.
+ */
+export interface ScorecardProgramRecord {
+  /** 4-digit CIP code (e.g. "5138" for Registered Nursing). */
+  cipCode: string;
+  /** Human-readable CIP title from the API (e.g. "Registered Nursing/Registered Nurse."). */
+  cipTitle: string;
+  /** Credential level: 1=cert/diploma, 2=associate's, 3=bachelor's, 4=graduate. */
+  credentialLevel: number | null;
+  /** Human-readable credential title from the API. */
+  credentialTitle: string | null;
+  /** Annual IPEDS awards count for credential level 1 (certs). */
+  awardsLevel1: number | null;
+  /** Annual IPEDS awards count for credential level 2 (associate's). */
+  awardsLevel2: number | null;
+
+  // ----- School-specific earnings (often null due to small-cohort suppression) -----
+
+  /** Median earnings 1 year after completion, this CIP at this school, $. */
+  earnings1YrMedian: number | null;
+  /** Median earnings 5 years after completion, this CIP at this school, $. */
+  earnings5YrMedian: number | null;
+  /** Median earnings 5 yrs after for Pell-recipient completers, $ (equity stat). */
+  earnings5YrPellMedian: number | null;
+  /** Median earnings 5 yrs after for non-Pell-recipient completers, $ (equity stat). */
+  earnings5YrNonPellMedian: number | null;
+
+  // ----- National benchmarks (populated even when school-specific is suppressed) -----
+
+  /** National median earnings 4 yrs after completion for this CIP across all schools, $. */
+  earnings4YrMedianNational: number | null;
+  /** National P25 earnings 4 yrs after completion for this CIP, $. */
+  earnings4YrP25National: number | null;
+  /** National P75 earnings 4 yrs after completion for this CIP, $. */
+  earnings4YrP75National: number | null;
+}
+
+
+
+/**
+ * Fetch per-program (CIP) outcomes for one institution. Returns an array,
+ * filtered to credential levels 1 (certificate) and 2 (associate's) — the
+ * CC-relevant tiers. Programs with zero awards AND no earnings data are
+ * dropped (no signal at all).
+ *
+ * Each program's response payload is large (~3 KB), so we request only
+ * the fields we'll persist. Empty array if the institution isn't found
+ * or has no program data.
+ */
+export async function fetchScorecardProgramsByUnitid(
+  unitid: number,
+): Promise<ScorecardProgramRecord[]> {
+  const key = requireApiKey();
+  const programFields = [
+    "latest.programs.cip_4_digit.code",
+    "latest.programs.cip_4_digit.title",
+    "latest.programs.cip_4_digit.credential.level",
+    "latest.programs.cip_4_digit.credential.title",
+    "latest.programs.cip_4_digit.counts.ipeds_awards1",
+    "latest.programs.cip_4_digit.counts.ipeds_awards2",
+    "latest.programs.cip_4_digit.earnings.1_yr.overall_median_earnings",
+    "latest.programs.cip_4_digit.earnings.5_yr.overall_median_earnings",
+    "latest.programs.cip_4_digit.earnings.5_yr.pell_median_earnings",
+    "latest.programs.cip_4_digit.earnings.5_yr.nonpell_median_earnings",
+    "latest.programs.cip_4_digit.earnings.4_yr.overall_median_earnings_national",
+    "latest.programs.cip_4_digit.earnings.4_yr.overall_p25_earnings_national",
+    "latest.programs.cip_4_digit.earnings.4_yr.overall_p75_earnings_national",
+  ].join(",");
+  const url = `${API_BASE}?id=${unitid}&fields=id,${encodeURIComponent(programFields)}&api_key=${key}`;
+  const data = await fetchJsonWithRetry<{
+    results: Array<{ "latest.programs.cip_4_digit"?: ScorecardProgramApiRow[] }>;
+  }>(url, undefined, { label: `scorecard-programs:${unitid}` });
+  if (!data.results || data.results.length === 0) return [];
+  const rows = data.results[0]["latest.programs.cip_4_digit"] ?? [];
+  const out: ScorecardProgramRecord[] = [];
+  for (const r of rows) {
+    const credLevel = r.credential?.level ?? null;
+    // Filter to CC-relevant credentials.
+    if (credLevel !== 1 && credLevel !== 2 && credLevel !== null) continue;
+    const awards1 = r.counts?.ipeds_awards1 ?? null;
+    const awards2 = r.counts?.ipeds_awards2 ?? null;
+    const e1 = r.earnings?.["1_yr"]?.overall_median_earnings ?? null;
+    const e5 = r.earnings?.["5_yr"]?.overall_median_earnings ?? null;
+    const eNat = r.earnings?.["4_yr"]?.overall_median_earnings_national ?? null;
+    // Drop rows with no signal whatsoever (no awards, no earnings local
+    // or national). Keeps the file size reasonable.
+    if (
+      awards1 == null &&
+      awards2 == null &&
+      e1 == null &&
+      e5 == null &&
+      eNat == null
+    ) {
+      continue;
+    }
+    out.push({
+      cipCode: r.code ?? "",
+      cipTitle: (r.title ?? "").replace(/\.$/, ""),
+      credentialLevel: credLevel,
+      credentialTitle: r.credential?.title ?? null,
+      awardsLevel1: awards1,
+      awardsLevel2: awards2,
+      earnings1YrMedian: e1,
+      earnings5YrMedian: e5,
+      earnings5YrPellMedian: r.earnings?.["5_yr"]?.pell_median_earnings ?? null,
+      earnings5YrNonPellMedian:
+        r.earnings?.["5_yr"]?.nonpell_median_earnings ?? null,
+      earnings4YrMedianNational: eNat,
+      earnings4YrP25National:
+        r.earnings?.["4_yr"]?.overall_p25_earnings_national ?? null,
+      earnings4YrP75National:
+        r.earnings?.["4_yr"]?.overall_p75_earnings_national ?? null,
+    });
+  }
+  return out;
+}
+
+interface ScorecardProgramApiRow {
+  code?: string;
+  title?: string;
+  credential?: { level?: number | null; title?: string | null };
+  counts?: { ipeds_awards1?: number | null; ipeds_awards2?: number | null };
+  earnings?: {
+    "1_yr"?: { overall_median_earnings?: number | null };
+    "5_yr"?: {
+      overall_median_earnings?: number | null;
+      pell_median_earnings?: number | null;
+      nonpell_median_earnings?: number | null;
+    };
+    "4_yr"?: {
+      overall_median_earnings_national?: number | null;
+      overall_p25_earnings_national?: number | null;
+      overall_p75_earnings_national?: number | null;
+    };
+  };
+}
