@@ -26,6 +26,10 @@ import { loadProgramAcrossColleges, checkCourseAvailability } from "@/lib/progra
 import { computeCourseAvailabilityProfile } from "@/lib/course-stats";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProgramRequirements from "@/components/ProgramRequirements";
+import {
+  getProgramLastUpdated,
+  formatLastUpdated,
+} from "@/lib/data-freshness";
 
 export const revalidate = 604800; // 7 days
 
@@ -128,6 +132,7 @@ export default async function ProgramPage(props: PageProps) {
   }
 
   const url = siteUrl();
+  const lastUpdated = getProgramLastUpdated(state);
 
   const itemListLd = {
     "@context": "https://schema.org",
@@ -140,6 +145,7 @@ export default async function ProgramPage(props: PageProps) {
     // Connect to the site-wide WebSite/Organization graph from the root
     // layout so Google sees this program list as part of the site.
     isPartOf: { "@id": `${url}/#website` },
+    ...(lastUpdated && { dateModified: lastUpdated.toISOString() }),
     itemListElement: data.colleges.slice(0, 25).map((c, i) => ({
       "@type": "ListItem",
       position: i + 1,
@@ -197,6 +203,9 @@ export default async function ProgramPage(props: PageProps) {
             {data.totalColleges === 1 ? "college" : "colleges"} &middot;{" "}
             {data.totalSections} sections &middot; {data.totalUniqueCourses}{" "}
             unique courses &middot; {termLabel(term)}
+            {lastUpdated && (
+              <> &middot; {formatLastUpdated(lastUpdated)}</>
+            )}
           </p>
         </header>
 

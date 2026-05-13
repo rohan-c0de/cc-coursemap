@@ -23,6 +23,10 @@ import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
 import RelatedBlogPosts from "@/components/RelatedBlogPosts";
 import { getBlogRecommendations } from "@/lib/blog-recommendations";
+import {
+  getCollegeLastUpdated,
+  formatLastUpdated,
+} from "@/lib/data-freshness";
 
 // Revalidate every 24 hours — course data only changes when re-scraped
 export const revalidate = 86400;
@@ -167,6 +171,8 @@ export default async function CollegeDetailPage(props: PageProps) {
 
   const systemCollegeCoursesUrl = config.collegeCoursesUrl(collegeSlug);
 
+  const lastUpdated = getCollegeLastUpdated(state, institution.college_slug);
+
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
   const stateAbbr = state.toUpperCase();
   const jsonLd = {
@@ -195,6 +201,7 @@ export default async function CollegeDetailPage(props: PageProps) {
         longitude: institution.campuses[0].lng,
       },
     }),
+    ...(lastUpdated && { dateModified: lastUpdated.toISOString() }),
   };
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -236,6 +243,11 @@ export default async function CollegeDetailPage(props: PageProps) {
         <p className="text-gray-600 dark:text-slate-400 mt-1">
           {institution.campuses.map((c) => c.name).join(" · ")}
         </p>
+        {lastUpdated && (
+          <p className="text-xs text-gray-400 dark:text-slate-500 mt-1">
+            {formatLastUpdated(lastUpdated)}
+          </p>
+        )}
 
         {/* Status badge */}
         <div className="mt-3">

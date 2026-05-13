@@ -27,6 +27,10 @@ import TrackView from "@/components/TrackView";
 import RelatedBlogPosts from "@/components/RelatedBlogPosts";
 import { getBlogRecommendations } from "@/lib/blog-recommendations";
 import type { CourseSection } from "@/lib/types";
+import {
+  getSubjectLastUpdated,
+  formatLastUpdated,
+} from "@/lib/data-freshness";
 
 export const revalidate = 604800; // 7 days — pSEO content rarely changes
 
@@ -202,6 +206,8 @@ export default async function StateSubjectPage(props: PageProps) {
     (s) => s !== prefix
   );
 
+  const lastUpdated = getSubjectLastUpdated(state);
+
   // Structured data — ItemList of courses
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
@@ -216,6 +222,7 @@ export default async function StateSubjectPage(props: PageProps) {
     // Connect to the site-wide WebSite/Organization graph from the root
     // layout so Google sees this subject list as part of the site.
     isPartOf: { "@id": `${siteUrl}/#website` },
+    ...(lastUpdated && { dateModified: lastUpdated.toISOString() }),
     itemListElement: courses.slice(0, 25).map((c, i) => ({
       "@type": "ListItem",
       position: i + 1,
@@ -321,6 +328,9 @@ export default async function StateSubjectPage(props: PageProps) {
             {sections.length} sections &middot; {courses.length} courses
             &middot; {collegeCount} {collegeCount === 1 ? "college" : "colleges"}{" "}
             &middot; {term}
+            {lastUpdated && (
+              <> &middot; {formatLastUpdated(lastUpdated)}</>
+            )}
           </p>
         </div>
 

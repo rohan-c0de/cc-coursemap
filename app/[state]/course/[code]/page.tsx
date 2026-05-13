@@ -14,6 +14,10 @@ import AdUnit from "@/components/AdUnit";
 import TrackView from "@/components/TrackView";
 import RelatedBlogPosts from "@/components/RelatedBlogPosts";
 import { getBlogRecommendations } from "@/lib/blog-recommendations";
+import {
+  getCourseLastUpdated,
+  formatLastUpdated,
+} from "@/lib/data-freshness";
 
 export const revalidate = 604800; // 7 days — pSEO content rarely changes
 
@@ -335,6 +339,8 @@ export default async function CoursePage(props: PageProps) {
   const totalSeats = sections.reduce((sum, s) => sum + (s.seats_open ?? 0), 0);
   const sectionsWithSeats = sections.filter((s) => s.seats_open !== null && s.seats_open > 0).length;
 
+  const lastUpdated = getCourseLastUpdated(state);
+
   // JSON-LD
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
   const jsonLd = {
@@ -354,6 +360,7 @@ export default async function CoursePage(props: PageProps) {
     educationalLevel: "Community College",
     isAccessibleForFree: false,
     inLanguage: "en",
+    ...(lastUpdated && { dateModified: lastUpdated.toISOString() }),
     hasCourseInstance: colleges.slice(0, 10).map((c) => ({
       "@type": "CourseInstance",
       name: `${prefix} ${number} at ${c.name}`,
@@ -456,6 +463,11 @@ export default async function CoursePage(props: PageProps) {
             {sectionsWithSeats > 0 && (
               <span className="text-emerald-600 dark:text-emerald-400">
                 {totalSeats} {totalSeats === 1 ? "seat" : "seats"} open
+              </span>
+            )}
+            {lastUpdated && (
+              <span className="text-gray-400 dark:text-slate-500">
+                {formatLastUpdated(lastUpdated)}
               </span>
             )}
           </div>

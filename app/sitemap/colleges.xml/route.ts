@@ -6,11 +6,14 @@ import {
   xmlResponse,
   type SitemapEntry,
 } from "@/lib/sitemap-xml";
+import {
+  getCollegeLastUpdated,
+  getProgramLastUpdated,
+} from "@/lib/data-freshness";
 
 export function GET() {
   const url = siteOrigin();
   const entries: SitemapEntry[] = [];
-  const lastModified = new Date();
 
   for (const state of getAllStates()) {
     const hasPrograms = hasProgramsCoverage(state.slug);
@@ -19,14 +22,16 @@ export function GET() {
         url: `${url}/${state.slug}/college/${inst.id}`,
         changeFrequency: "weekly",
         priority: 0.8,
-        lastModified,
+        lastModified:
+          getCollegeLastUpdated(state.slug, inst.college_slug) ?? undefined,
       });
       if (hasPrograms) {
         entries.push({
           url: `${url}/${state.slug}/college/${inst.id}/programs`,
           changeFrequency: "monthly",
           priority: 0.6,
-          lastModified,
+          lastModified:
+            getProgramLastUpdated(state.slug, inst.college_slug) ?? undefined,
         });
       }
     }

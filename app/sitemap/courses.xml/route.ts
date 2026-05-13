@@ -7,6 +7,7 @@ import {
   xmlResponse,
   type SitemapEntry,
 } from "@/lib/sitemap-xml";
+import { getCourseLastUpdated } from "@/lib/data-freshness";
 
 export const revalidate = 86400;
 
@@ -17,7 +18,7 @@ export async function GET() {
     getAllStates().map(async (state) => {
       const currentTerm = await getCurrentTerm(state.slug);
       const { codes } = await getSitemapCourseIndex(currentTerm, state.slug);
-      const lastModified = new Date();
+      const lastModified = getCourseLastUpdated(state.slug) ?? undefined;
       return codes.map((c) => ({
         url: `${url}/${state.slug}/course/${`${c.prefix}-${c.number}`.toLowerCase()}`,
         changeFrequency: "monthly" as const,
