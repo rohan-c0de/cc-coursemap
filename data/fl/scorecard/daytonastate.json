@@ -6,7 +6,7 @@
   "schoolUrl": "www.daytonastate.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:08.924Z",
+  "fetchedAt": "2026-05-13T02:12:27.868Z",
   "size": 10176,
   "shareFirstGeneration": 0.41995441,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 37096
+    "median10YrsAfterEntry": 37096,
+    "median1YrAfterCompletion": 39145,
+    "percentile25_10YrsAfterEntry": 19272,
+    "percentile75_10YrsAfterEntry": 56849,
+    "shareEarningAboveHsGrad": 0.514
   }
 }

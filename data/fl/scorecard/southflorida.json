@@ -6,7 +6,7 @@
   "schoolUrl": "www.southflorida.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:18.758Z",
+  "fetchedAt": "2026-05-13T02:12:37.108Z",
   "size": 2045,
   "shareFirstGeneration": 0.5544354839,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 39990
+    "median10YrsAfterEntry": 39990,
+    "median1YrAfterCompletion": 37102,
+    "percentile25_10YrsAfterEntry": 24070,
+    "percentile75_10YrsAfterEntry": 57852,
+    "shareEarningAboveHsGrad": 0.483
   }
 }

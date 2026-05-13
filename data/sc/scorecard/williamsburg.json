@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.wiltech.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:15:39.943Z",
+  "fetchedAt": "2026-05-13T02:14:51.670Z",
   "size": 448,
   "shareFirstGeneration": 0.5408560311,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.1515,
     "completionRate200nt": 0.2727,
-    "transferRate": 0.2424
+    "transferRate": 0.2424,
+    "retentionRateFullTime": 0.6957,
+    "retentionRatePartTime": 0.5556
   },
   "earnings": {
-    "median10YrsAfterEntry": 29935
+    "median10YrsAfterEntry": 29935,
+    "median1YrAfterCompletion": null,
+    "percentile25_10YrsAfterEntry": 17026,
+    "percentile75_10YrsAfterEntry": 44503,
+    "shareEarningAboveHsGrad": 0.329
   }
 }

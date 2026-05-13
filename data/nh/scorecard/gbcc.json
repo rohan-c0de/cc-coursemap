@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.greatbay.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:58.132Z",
+  "fetchedAt": "2026-05-13T02:14:12.264Z",
   "size": 1259,
   "shareFirstGeneration": 0.3459570113,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3351,
     "completionRate200nt": 0.3618,
-    "transferRate": 0.2287
+    "transferRate": 0.2287,
+    "retentionRateFullTime": 0.6603,
+    "retentionRatePartTime": 0.5102
   },
   "earnings": {
-    "median10YrsAfterEntry": 42397
+    "median10YrsAfterEntry": 42397,
+    "median1YrAfterCompletion": 43175,
+    "percentile25_10YrsAfterEntry": 24592,
+    "percentile75_10YrsAfterEntry": 70375,
+    "shareEarningAboveHsGrad": null
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.robeson.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:50.128Z",
+  "fetchedAt": "2026-05-13T02:14:04.659Z",
   "size": 1551,
   "shareFirstGeneration": 0.5506072874,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3265,
     "completionRate200nt": 0.365,
-    "transferRate": 0.1497
+    "transferRate": 0.1497,
+    "retentionRateFullTime": 0.5682,
+    "retentionRatePartTime": 0.3178
   },
   "earnings": {
-    "median10YrsAfterEntry": 29036
+    "median10YrsAfterEntry": 29036,
+    "median1YrAfterCompletion": 39346,
+    "percentile25_10YrsAfterEntry": 15020,
+    "percentile75_10YrsAfterEntry": 45807,
+    "shareEarningAboveHsGrad": 0.331
   }
 }

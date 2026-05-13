@@ -6,7 +6,7 @@
   "schoolUrl": "www.bucks.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:24.742Z",
+  "fetchedAt": "2026-05-13T02:14:37.345Z",
   "size": 5289,
   "shareFirstGeneration": 0.4724637681,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3232,
     "completionRate200nt": 0.3252,
-    "transferRate": 0.2195
+    "transferRate": 0.2195,
+    "retentionRateFullTime": 0.751,
+    "retentionRatePartTime": 0.5179
   },
   "earnings": {
-    "median10YrsAfterEntry": 47324
+    "median10YrsAfterEntry": 47324,
+    "median1YrAfterCompletion": 33535,
+    "percentile25_10YrsAfterEntry": 27775,
+    "percentile75_10YrsAfterEntry": 72979,
+    "shareEarningAboveHsGrad": 0.672
   }
 }

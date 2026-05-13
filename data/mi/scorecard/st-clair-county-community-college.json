@@ -6,7 +6,7 @@
   "schoolUrl": "www.sc4.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:20.022Z",
+  "fetchedAt": "2026-05-13T02:13:35.726Z",
   "size": 2138,
   "shareFirstGeneration": 0.4259868421,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3354,
     "completionRate200nt": 0.3694,
-    "transferRate": 0.2492
+    "transferRate": 0.2492,
+    "retentionRateFullTime": 0.6,
+    "retentionRatePartTime": 0.5385
   },
   "earnings": {
-    "median10YrsAfterEntry": 40177
+    "median10YrsAfterEntry": 40177,
+    "median1YrAfterCompletion": 47694,
+    "percentile25_10YrsAfterEntry": 20720,
+    "percentile75_10YrsAfterEntry": 62796,
+    "shareEarningAboveHsGrad": 0.544
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.octech.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:15:36.719Z",
+  "fetchedAt": "2026-05-13T02:14:48.990Z",
   "size": 1539,
   "shareFirstGeneration": 0.4570475396,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3228,
     "completionRate200nt": 0.4551,
-    "transferRate": 0.1772
+    "transferRate": 0.1772,
+    "retentionRateFullTime": 0.6555,
+    "retentionRatePartTime": 0.3121
   },
   "earnings": {
-    "median10YrsAfterEntry": 35761
+    "median10YrsAfterEntry": 35761,
+    "median1YrAfterCompletion": 53257,
+    "percentile25_10YrsAfterEntry": 18482,
+    "percentile75_10YrsAfterEntry": 53657,
+    "shareEarningAboveHsGrad": 0.455
   }
 }

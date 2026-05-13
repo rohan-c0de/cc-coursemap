@@ -6,7 +6,7 @@
   "schoolUrl": "www.lrcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:58.568Z",
+  "fetchedAt": "2026-05-13T02:14:12.691Z",
   "size": 482,
   "shareFirstGeneration": 0.4258289703,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4615,
     "completionRate200nt": 0.4388,
-    "transferRate": 0.1648
+    "transferRate": 0.1648,
+    "retentionRateFullTime": 0.5579,
+    "retentionRatePartTime": 0.451
   },
   "earnings": {
-    "median10YrsAfterEntry": 51182
+    "median10YrsAfterEntry": 51182,
+    "median1YrAfterCompletion": null,
+    "percentile25_10YrsAfterEntry": 24669,
+    "percentile75_10YrsAfterEntry": 68520,
+    "shareEarningAboveHsGrad": null
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.racc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:30.687Z",
+  "fetchedAt": "2026-05-13T02:14:43.460Z",
   "size": 3703,
   "shareFirstGeneration": 0.5391644909,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3363,
     "completionRate200nt": 0.2794,
-    "transferRate": 0.1321
+    "transferRate": 0.1321,
+    "retentionRateFullTime": 0.6559,
+    "retentionRatePartTime": 0.4829
   },
   "earnings": {
-    "median10YrsAfterEntry": 39082
+    "median10YrsAfterEntry": 39082,
+    "median1YrAfterCompletion": 36380,
+    "percentile25_10YrsAfterEntry": 21317,
+    "percentile75_10YrsAfterEntry": 58433,
+    "shareEarningAboveHsGrad": 0.548
   }
 }

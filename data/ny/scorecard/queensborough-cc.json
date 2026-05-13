@@ -6,7 +6,7 @@
   "schoolUrl": "www.qcc.cuny.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:13.793Z",
+  "fetchedAt": "2026-05-13T02:14:26.967Z",
   "size": 8940,
   "shareFirstGeneration": 0.5189328744,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2405,
     "completionRate200nt": 0.2718,
-    "transferRate": 0.192
+    "transferRate": 0.192,
+    "retentionRateFullTime": 0.6451,
+    "retentionRatePartTime": 0.3922
   },
   "earnings": {
-    "median10YrsAfterEntry": 44214
+    "median10YrsAfterEntry": 44214,
+    "median1YrAfterCompletion": 22936,
+    "percentile25_10YrsAfterEntry": 20990,
+    "percentile75_10YrsAfterEntry": 69408,
+    "shareEarningAboveHsGrad": 0.639
   }
 }

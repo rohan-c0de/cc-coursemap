@@ -6,7 +6,7 @@
   "schoolUrl": "www.jeffersonstate.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:12:57.979Z",
+  "fetchedAt": "2026-05-13T02:12:18.279Z",
   "size": 5470,
   "shareFirstGeneration": 0.4502907782,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2564,
     "completionRate200nt": 0.2866,
-    "transferRate": 0.3718
+    "transferRate": 0.3718,
+    "retentionRateFullTime": 0.5919,
+    "retentionRatePartTime": 0.4365
   },
   "earnings": {
-    "median10YrsAfterEntry": 40719
+    "median10YrsAfterEntry": 40719,
+    "median1YrAfterCompletion": 51892,
+    "percentile25_10YrsAfterEntry": 24505,
+    "percentile75_10YrsAfterEntry": 62034,
+    "shareEarningAboveHsGrad": 0.546
   }
 }

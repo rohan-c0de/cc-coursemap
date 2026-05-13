@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.dmacc.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:32.829Z",
+  "fetchedAt": "2026-05-13T02:12:51.156Z",
   "size": 10446,
   "shareFirstGeneration": 0.368889583,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3917,
     "completionRate200nt": 0.4028,
-    "transferRate": 0.1658
+    "transferRate": 0.1658,
+    "retentionRateFullTime": 0.634,
+    "retentionRatePartTime": 0.4691
   },
   "earnings": {
-    "median10YrsAfterEntry": 41018
+    "median10YrsAfterEntry": 41018,
+    "median1YrAfterCompletion": 42189,
+    "percentile25_10YrsAfterEntry": 21828,
+    "percentile75_10YrsAfterEntry": 60028,
+    "shareEarningAboveHsGrad": 0.624
   }
 }

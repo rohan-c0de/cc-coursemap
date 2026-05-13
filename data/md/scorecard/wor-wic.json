@@ -6,7 +6,7 @@
   "schoolUrl": "www.worwic.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:04.189Z",
+  "fetchedAt": "2026-05-13T02:13:20.819Z",
   "size": 2169,
   "shareFirstGeneration": 0.4895209581,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2708,
     "completionRate200nt": 0.3134,
-    "transferRate": 0.2656
+    "transferRate": 0.2656,
+    "retentionRateFullTime": 0.6647,
+    "retentionRatePartTime": 0.534
   },
   "earnings": {
-    "median10YrsAfterEntry": 36748
+    "median10YrsAfterEntry": 36748,
+    "median1YrAfterCompletion": 47951,
+    "percentile25_10YrsAfterEntry": 21348,
+    "percentile75_10YrsAfterEntry": 55114,
+    "shareEarningAboveHsGrad": 0.496
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.capecod.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:50.654Z",
+  "fetchedAt": "2026-05-13T02:13:08.061Z",
   "size": 2911,
   "shareFirstGeneration": 0.4132302405,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.223,
     "completionRate200nt": 0.2765,
-    "transferRate": 0.1463
+    "transferRate": 0.1463,
+    "retentionRateFullTime": 0.6875,
+    "retentionRatePartTime": 0.5372
   },
   "earnings": {
-    "median10YrsAfterEntry": 43670
+    "median10YrsAfterEntry": 43670,
+    "median1YrAfterCompletion": 42250,
+    "percentile25_10YrsAfterEntry": 23811,
+    "percentile75_10YrsAfterEntry": 63744,
+    "shareEarningAboveHsGrad": 0.573
   }
 }

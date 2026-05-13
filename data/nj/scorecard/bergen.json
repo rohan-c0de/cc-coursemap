@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.bergen.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:02.195Z",
+  "fetchedAt": "2026-05-13T02:14:15.875Z",
   "size": 10557,
   "shareFirstGeneration": 0.4935856993,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2069,
     "completionRate200nt": 0.3122,
-    "transferRate": 0.153
+    "transferRate": 0.153,
+    "retentionRateFullTime": 0.6397,
+    "retentionRatePartTime": 0.4313
   },
   "earnings": {
-    "median10YrsAfterEntry": 46624
+    "median10YrsAfterEntry": 46624,
+    "median1YrAfterCompletion": 32872,
+    "percentile25_10YrsAfterEntry": 24615,
+    "percentile75_10YrsAfterEntry": 72304,
+    "shareEarningAboveHsGrad": 0.658
   }
 }

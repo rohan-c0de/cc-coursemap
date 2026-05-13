@@ -6,7 +6,7 @@
   "schoolUrl": "www.necc.mass.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:54.908Z",
+  "fetchedAt": "2026-05-13T02:13:11.849Z",
   "size": 3685,
   "shareFirstGeneration": 0.5093194625,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2087,
     "completionRate200nt": 0.2238,
-    "transferRate": 0.1673
+    "transferRate": 0.1673,
+    "retentionRateFullTime": 0.6106,
+    "retentionRatePartTime": 0.5015
   },
   "earnings": {
-    "median10YrsAfterEntry": 42862
+    "median10YrsAfterEntry": 42862,
+    "median1YrAfterCompletion": 40197,
+    "percentile25_10YrsAfterEntry": 22038,
+    "percentile75_10YrsAfterEntry": 61430,
+    "shareEarningAboveHsGrad": 0.59
   }
 }

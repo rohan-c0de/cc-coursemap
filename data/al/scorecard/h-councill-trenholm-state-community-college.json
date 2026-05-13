@@ -6,7 +6,7 @@
   "schoolUrl": "www.trenholmstate.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:04.415Z",
+  "fetchedAt": "2026-05-13T02:12:23.771Z",
   "size": 1674,
   "shareFirstGeneration": 0.4304399524,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.1614,
     "completionRate200nt": 0.2781,
-    "transferRate": 0.1772
+    "transferRate": 0.1772,
+    "retentionRateFullTime": 0.5084,
+    "retentionRatePartTime": 0.3333
   },
   "earnings": {
-    "median10YrsAfterEntry": 32183
+    "median10YrsAfterEntry": 32183,
+    "median1YrAfterCompletion": 39198,
+    "percentile25_10YrsAfterEntry": 16879,
+    "percentile75_10YrsAfterEntry": 48592,
+    "shareEarningAboveHsGrad": 0.398
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.rstc.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:02.210Z",
+  "fetchedAt": "2026-05-13T02:12:21.835Z",
   "size": 416,
   "shareFirstGeneration": 0.5903225806,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.589,
     "completionRate200nt": 0.5946,
-    "transferRate": 0
+    "transferRate": 0,
+    "retentionRateFullTime": 0.6329,
+    "retentionRatePartTime": 0.4286
   },
   "earnings": {
-    "median10YrsAfterEntry": 28982
+    "median10YrsAfterEntry": 28982,
+    "median1YrAfterCompletion": 35385,
+    "percentile25_10YrsAfterEntry": 15362,
+    "percentile75_10YrsAfterEntry": 48258,
+    "shareEarningAboveHsGrad": 0.361
   }
 }

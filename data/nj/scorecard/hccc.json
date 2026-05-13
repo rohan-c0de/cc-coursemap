@@ -6,7 +6,7 @@
   "schoolUrl": "www.hccc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:04.614Z",
+  "fetchedAt": "2026-05-13T02:14:18.178Z",
   "size": 6626,
   "shareFirstGeneration": 0.5876705407,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2574,
     "completionRate200nt": 0.2998,
-    "transferRate": 0.0762
+    "transferRate": 0.0762,
+    "retentionRateFullTime": 0.613,
+    "retentionRatePartTime": 0.4336
   },
   "earnings": {
-    "median10YrsAfterEntry": 34333
+    "median10YrsAfterEntry": 34333,
+    "median1YrAfterCompletion": 28176,
+    "percentile25_10YrsAfterEntry": 15126,
+    "percentile75_10YrsAfterEntry": 55589,
+    "shareEarningAboveHsGrad": 0.515
   }
 }

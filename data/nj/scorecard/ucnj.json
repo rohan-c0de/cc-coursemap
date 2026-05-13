@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.ucc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:09.997Z",
+  "fetchedAt": "2026-05-13T02:14:23.160Z",
   "size": 7939,
   "shareFirstGeneration": 0.5370780299,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3542,
     "completionRate200nt": 0.3944,
-    "transferRate": 0.0611
+    "transferRate": 0.0611,
+    "retentionRateFullTime": 0.6583,
+    "retentionRatePartTime": 0.5969
   },
   "earnings": {
-    "median10YrsAfterEntry": 41595
+    "median10YrsAfterEntry": 41595,
+    "median1YrAfterCompletion": 37476,
+    "percentile25_10YrsAfterEntry": 20181,
+    "percentile75_10YrsAfterEntry": 63773,
+    "shareEarningAboveHsGrad": 0.589
   }
 }

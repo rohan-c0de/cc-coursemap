@@ -6,7 +6,7 @@
   "schoolUrl": "www.cfcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:33.687Z",
+  "fetchedAt": "2026-05-13T02:13:48.848Z",
   "size": 9764,
   "shareFirstGeneration": 0.3828345567,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3446,
     "completionRate200nt": 0.3698,
-    "transferRate": 0.0176
+    "transferRate": 0.0176,
+    "retentionRateFullTime": 0.6747,
+    "retentionRatePartTime": 0.5621
   },
   "earnings": {
-    "median10YrsAfterEntry": 38654
+    "median10YrsAfterEntry": 38654,
+    "median1YrAfterCompletion": 35317,
+    "percentile25_10YrsAfterEntry": 19768,
+    "percentile75_10YrsAfterEntry": 58224,
+    "shareEarningAboveHsGrad": 0.496
   }
 }

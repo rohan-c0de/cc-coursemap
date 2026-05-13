@@ -6,7 +6,7 @@
   "schoolUrl": "www.volstate.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:45.674Z",
+  "fetchedAt": "2026-05-13T02:14:57.225Z",
   "size": 5339,
   "shareFirstGeneration": 0.4577534791,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2818,
     "completionRate200nt": 0.2689,
-    "transferRate": 0.1373
+    "transferRate": 0.1373,
+    "retentionRateFullTime": 0.5123,
+    "retentionRatePartTime": 0.3741
   },
   "earnings": {
-    "median10YrsAfterEntry": 41150
+    "median10YrsAfterEntry": 41150,
+    "median1YrAfterCompletion": 36410,
+    "percentile25_10YrsAfterEntry": 24273,
+    "percentile75_10YrsAfterEntry": 58163,
+    "shareEarningAboveHsGrad": 0.58
   }
 }

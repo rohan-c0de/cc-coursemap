@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.randolph.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:48.788Z",
+  "fetchedAt": "2026-05-13T02:14:03.334Z",
   "size": 1417,
   "shareFirstGeneration": 0.5864374403,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.5818,
     "completionRate200nt": 0.5663,
-    "transferRate": 0.1212
+    "transferRate": 0.1212,
+    "retentionRateFullTime": 0.6825,
+    "retentionRatePartTime": 0.4868
   },
   "earnings": {
-    "median10YrsAfterEntry": 33336
+    "median10YrsAfterEntry": 33336,
+    "median1YrAfterCompletion": 28166,
+    "percentile25_10YrsAfterEntry": 18813,
+    "percentile75_10YrsAfterEntry": 47556,
+    "shareEarningAboveHsGrad": 0.442
   }
 }

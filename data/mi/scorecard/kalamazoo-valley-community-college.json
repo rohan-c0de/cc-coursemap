@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.kvcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:14.025Z",
+  "fetchedAt": "2026-05-13T02:13:30.317Z",
   "size": 4997,
   "shareFirstGeneration": 0.384593191,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2818,
     "completionRate200nt": 0.2868,
-    "transferRate": 0.2338
+    "transferRate": 0.2338,
+    "retentionRateFullTime": 0.6398,
+    "retentionRatePartTime": 0.5038
   },
   "earnings": {
-    "median10YrsAfterEntry": 38618
+    "median10YrsAfterEntry": 38618,
+    "median1YrAfterCompletion": 38888,
+    "percentile25_10YrsAfterEntry": 18872,
+    "percentile75_10YrsAfterEntry": 58903,
+    "shareEarningAboveHsGrad": 0.536
   }
 }

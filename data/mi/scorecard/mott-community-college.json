@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.mcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:11.499Z",
+  "fetchedAt": "2026-05-13T02:13:27.860Z",
   "size": 5251,
   "shareFirstGeneration": 0.4028740056,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3189,
     "completionRate200nt": 0.255,
-    "transferRate": 0.1417
+    "transferRate": 0.1417,
+    "retentionRateFullTime": 0.5975,
+    "retentionRatePartTime": 0.4682
   },
   "earnings": {
-    "median10YrsAfterEntry": 32538
+    "median10YrsAfterEntry": 32538,
+    "median1YrAfterCompletion": 37461,
+    "percentile25_10YrsAfterEntry": 15045,
+    "percentile75_10YrsAfterEntry": 52285,
+    "shareEarningAboveHsGrad": 0.462
   }
 }

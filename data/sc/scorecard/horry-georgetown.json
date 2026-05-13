@@ -6,7 +6,7 @@
   "schoolUrl": "www.hgtc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:35.229Z",
+  "fetchedAt": "2026-05-13T02:14:47.457Z",
   "size": 6274,
   "shareFirstGeneration": 0.4201631702,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3782,
     "completionRate200nt": 0.3252,
-    "transferRate": 0.109
+    "transferRate": 0.109,
+    "retentionRateFullTime": 0.642,
+    "retentionRatePartTime": 0.3966
   },
   "earnings": {
-    "median10YrsAfterEntry": 35507
+    "median10YrsAfterEntry": 35507,
+    "median1YrAfterCompletion": 37706,
+    "percentile25_10YrsAfterEntry": 18794,
+    "percentile75_10YrsAfterEntry": 53910,
+    "shareEarningAboveHsGrad": 0.45
   }
 }

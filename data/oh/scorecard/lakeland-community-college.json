@@ -6,7 +6,7 @@
   "schoolUrl": "www.lakelandcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:21.787Z",
+  "fetchedAt": "2026-05-13T02:14:34.668Z",
   "size": 2773,
   "shareFirstGeneration": 0.4900584795,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2353,
     "completionRate200nt": 0.2819,
-    "transferRate": 0.1824
+    "transferRate": 0.1824,
+    "retentionRateFullTime": 0.6216,
+    "retentionRatePartTime": 0.5382
   },
   "earnings": {
-    "median10YrsAfterEntry": 39612
+    "median10YrsAfterEntry": 39612,
+    "median1YrAfterCompletion": 48984,
+    "percentile25_10YrsAfterEntry": 20617,
+    "percentile75_10YrsAfterEntry": 59546,
+    "shareEarningAboveHsGrad": 0.576
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.lagcc.cuny.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:13.322Z",
+  "fetchedAt": "2026-05-13T02:14:26.439Z",
   "size": 11254,
   "shareFirstGeneration": 0.5400579887,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2389,
     "completionRate200nt": 0.295,
-    "transferRate": 0.1625
+    "transferRate": 0.1625,
+    "retentionRateFullTime": 0.5716,
+    "retentionRatePartTime": 0.39
   },
   "earnings": {
-    "median10YrsAfterEntry": 41653
+    "median10YrsAfterEntry": 41653,
+    "median1YrAfterCompletion": 26851,
+    "percentile25_10YrsAfterEntry": 19367,
+    "percentile75_10YrsAfterEntry": 66179,
+    "shareEarningAboveHsGrad": 0.613
   }
 }

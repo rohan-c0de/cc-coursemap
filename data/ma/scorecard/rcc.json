@@ -6,7 +6,7 @@
   "schoolUrl": "www.rcc.mass.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:55.847Z",
+  "fetchedAt": "2026-05-13T02:13:12.742Z",
   "size": 1977,
   "shareFirstGeneration": 0.5338541667,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2833,
     "completionRate200nt": 0.1771,
-    "transferRate": 0
+    "transferRate": 0,
+    "retentionRateFullTime": 0.3614,
+    "retentionRatePartTime": 0.4294
   },
   "earnings": {
-    "median10YrsAfterEntry": 38773
+    "median10YrsAfterEntry": 38773,
+    "median1YrAfterCompletion": 41027,
+    "percentile25_10YrsAfterEntry": 16745,
+    "percentile75_10YrsAfterEntry": 63228,
+    "shareEarningAboveHsGrad": 0.6
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.bccc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:57.844Z",
+  "fetchedAt": "2026-05-13T02:13:14.573Z",
   "size": 3700,
   "shareFirstGeneration": 0.5645879733,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.1705,
     "completionRate200nt": 0.1637,
-    "transferRate": 0.1648
+    "transferRate": 0.1648,
+    "retentionRateFullTime": 0.4792,
+    "retentionRatePartTime": 0.3096
   },
   "earnings": {
-    "median10YrsAfterEntry": 36025
+    "median10YrsAfterEntry": 36025,
+    "median1YrAfterCompletion": 47247,
+    "percentile25_10YrsAfterEntry": 17349,
+    "percentile75_10YrsAfterEntry": 53239,
+    "shareEarningAboveHsGrad": 0.531
   }
 }

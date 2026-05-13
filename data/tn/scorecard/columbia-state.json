@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.columbiastate.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:41.858Z",
+  "fetchedAt": "2026-05-13T02:14:53.476Z",
   "size": 3897,
   "shareFirstGeneration": 0.4403048264,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2963,
     "completionRate200nt": 0.3084,
-    "transferRate": 0.1731
+    "transferRate": 0.1731,
+    "retentionRateFullTime": 0.5548,
+    "retentionRatePartTime": 0.398
   },
   "earnings": {
-    "median10YrsAfterEntry": 40256
+    "median10YrsAfterEntry": 40256,
+    "median1YrAfterCompletion": 38474,
+    "percentile25_10YrsAfterEntry": 22723,
+    "percentile75_10YrsAfterEntry": 59308,
+    "shareEarningAboveHsGrad": 0.575
   }
 }

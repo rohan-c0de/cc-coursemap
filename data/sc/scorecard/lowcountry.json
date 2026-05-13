@@ -6,7 +6,7 @@
   "schoolUrl": "www.tcl.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:38.225Z",
+  "fetchedAt": "2026-05-13T02:14:50.318Z",
   "size": 1679,
   "shareFirstGeneration": 0.4473924977,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.1765,
     "completionRate200nt": 0.1656,
-    "transferRate": 0.268
+    "transferRate": 0.268,
+    "retentionRateFullTime": 0.5819,
+    "retentionRatePartTime": 0.3982
   },
   "earnings": {
-    "median10YrsAfterEntry": 35090
+    "median10YrsAfterEntry": 35090,
+    "median1YrAfterCompletion": 42055,
+    "percentile25_10YrsAfterEntry": 19877,
+    "percentile75_10YrsAfterEntry": 53992,
+    "shareEarningAboveHsGrad": 0.477
   }
 }

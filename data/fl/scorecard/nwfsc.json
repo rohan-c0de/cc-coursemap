@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.nwfsc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:15.059Z",
+  "fetchedAt": "2026-05-13T02:12:33.611Z",
   "size": 3010,
   "shareFirstGeneration": 0.4357734807,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 39664
+    "median10YrsAfterEntry": 39664,
+    "median1YrAfterCompletion": 38825,
+    "percentile25_10YrsAfterEntry": 21051,
+    "percentile75_10YrsAfterEntry": 57646,
+    "shareEarningAboveHsGrad": 0.498
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.meridiancc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:27.028Z",
+  "fetchedAt": "2026-05-13T02:13:42.618Z",
   "size": 2156,
   "shareFirstGeneration": 0.4185750636,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.344,
     "completionRate200nt": 0.4902,
-    "transferRate": 0.117
+    "transferRate": 0.117,
+    "retentionRateFullTime": 0.6615,
+    "retentionRatePartTime": 0.1923
   },
   "earnings": {
-    "median10YrsAfterEntry": 31002
+    "median10YrsAfterEntry": 31002,
+    "median1YrAfterCompletion": 38486,
+    "percentile25_10YrsAfterEntry": 16778,
+    "percentile75_10YrsAfterEntry": 49370,
+    "shareEarningAboveHsGrad": 0.467
   }
 }

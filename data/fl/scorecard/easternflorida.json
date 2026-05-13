@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.easternflorida.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:09.499Z",
+  "fetchedAt": "2026-05-13T02:12:28.456Z",
   "size": 10490,
   "shareFirstGeneration": 0.4004611837,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 37195
+    "median10YrsAfterEntry": 37195,
+    "median1YrAfterCompletion": 37099,
+    "percentile25_10YrsAfterEntry": 20193,
+    "percentile75_10YrsAfterEntry": 56671,
+    "shareEarningAboveHsGrad": 0.522
   }
 }

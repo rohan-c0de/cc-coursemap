@@ -6,7 +6,7 @@
   "schoolUrl": "www.mctc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:16:00.279Z",
+  "fetchedAt": "2026-05-13T02:15:10.571Z",
   "size": 1160,
   "shareFirstGeneration": 0.5185185185,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.1905,
     "completionRate200nt": 0.1971,
-    "transferRate": 0.0582
+    "transferRate": 0.0582,
+    "retentionRateFullTime": 0.3769,
+    "retentionRatePartTime": 0.303
   },
   "earnings": {
-    "median10YrsAfterEntry": 28951
+    "median10YrsAfterEntry": 28951,
+    "median1YrAfterCompletion": 38840,
+    "percentile25_10YrsAfterEntry": 13902,
+    "percentile75_10YrsAfterEntry": 47079,
+    "shareEarningAboveHsGrad": null
   }
 }

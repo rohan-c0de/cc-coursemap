@@ -6,7 +6,7 @@
   "schoolUrl": "jamessprunt.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:42.864Z",
+  "fetchedAt": "2026-05-13T02:13:57.635Z",
   "size": 799,
   "shareFirstGeneration": 0.5197215777,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4779,
     "completionRate200nt": 0.4306,
-    "transferRate": 0.0177
+    "transferRate": 0.0177,
+    "retentionRateFullTime": 0.7677,
+    "retentionRatePartTime": 0.4912
   },
   "earnings": {
-    "median10YrsAfterEntry": 29307
+    "median10YrsAfterEntry": 29307,
+    "median1YrAfterCompletion": 24341,
+    "percentile25_10YrsAfterEntry": 15375,
+    "percentile75_10YrsAfterEntry": 46074,
+    "shareEarningAboveHsGrad": 0.422
   }
 }

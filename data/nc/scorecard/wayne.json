@@ -6,7 +6,7 @@
   "schoolUrl": "www.waynecc.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:56.286Z",
+  "fetchedAt": "2026-05-13T02:14:10.507Z",
   "size": 2739,
   "shareFirstGeneration": 0.4739093242,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4931,
     "completionRate200nt": 0.6316,
-    "transferRate": 0.1528
+    "transferRate": 0.1528,
+    "retentionRateFullTime": 0.6701,
+    "retentionRatePartTime": 0.6952
   },
   "earnings": {
-    "median10YrsAfterEntry": 34148
+    "median10YrsAfterEntry": 34148,
+    "median1YrAfterCompletion": 36704,
+    "percentile25_10YrsAfterEntry": 18213,
+    "percentile75_10YrsAfterEntry": 49961,
+    "shareEarningAboveHsGrad": 0.489
   }
 }

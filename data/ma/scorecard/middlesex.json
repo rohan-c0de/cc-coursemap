@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.middlesex.mass.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:53.302Z",
+  "fetchedAt": "2026-05-13T02:13:10.472Z",
   "size": 5412,
   "shareFirstGeneration": 0.4976355038,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2343,
     "completionRate200nt": 0.2882,
-    "transferRate": 0.2115
+    "transferRate": 0.2115,
+    "retentionRateFullTime": 0.6364,
+    "retentionRatePartTime": 0.4064
   },
   "earnings": {
-    "median10YrsAfterEntry": 50651
+    "median10YrsAfterEntry": 50651,
+    "median1YrAfterCompletion": 40236,
+    "percentile25_10YrsAfterEntry": 29121,
+    "percentile75_10YrsAfterEntry": 73366,
+    "shareEarningAboveHsGrad": 0.628
   }
 }

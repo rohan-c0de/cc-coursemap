@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.laurelridge.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:15:51.688Z",
+  "fetchedAt": "2026-05-13T02:15:02.739Z",
   "size": 3195,
   "shareFirstGeneration": 0.5097545626,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.446,
     "completionRate200nt": 0.4162,
-    "transferRate": 0.15
+    "transferRate": 0.15,
+    "retentionRateFullTime": 0.6866,
+    "retentionRatePartTime": 0.4562
   },
   "earnings": {
-    "median10YrsAfterEntry": 41000
+    "median10YrsAfterEntry": 41000,
+    "median1YrAfterCompletion": 38268,
+    "percentile25_10YrsAfterEntry": 23671,
+    "percentile75_10YrsAfterEntry": 62528,
+    "shareEarningAboveHsGrad": 0.548
   }
 }

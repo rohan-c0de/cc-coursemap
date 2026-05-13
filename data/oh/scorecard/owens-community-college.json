@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.owens.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:22.762Z",
+  "fetchedAt": "2026-05-13T02:14:35.592Z",
   "size": 4361,
   "shareFirstGeneration": 0.4428790984,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3511,
     "completionRate200nt": 0.362,
-    "transferRate": 0.1755
+    "transferRate": 0.1755,
+    "retentionRateFullTime": 0.6,
+    "retentionRatePartTime": 0.4902
   },
   "earnings": {
-    "median10YrsAfterEntry": 37275
+    "median10YrsAfterEntry": 37275,
+    "median1YrAfterCompletion": 48168,
+    "percentile25_10YrsAfterEntry": 19291,
+    "percentile75_10YrsAfterEntry": 56978,
+    "shareEarningAboveHsGrad": 0.559
   }
 }

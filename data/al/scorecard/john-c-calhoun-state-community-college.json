@@ -6,7 +6,7 @@
   "schoolUrl": "https://calhoun.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:12:58.679Z",
+  "fetchedAt": "2026-05-13T02:12:18.914Z",
   "size": 7070,
   "shareFirstGeneration": 0.455343703,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4147,
     "completionRate200nt": 0.4626,
-    "transferRate": 0.1695
+    "transferRate": 0.1695,
+    "retentionRateFullTime": 0.6516,
+    "retentionRatePartTime": 0.4783
   },
   "earnings": {
-    "median10YrsAfterEntry": 38192
+    "median10YrsAfterEntry": 38192,
+    "median1YrAfterCompletion": 43676,
+    "percentile25_10YrsAfterEntry": 21172,
+    "percentile75_10YrsAfterEntry": 57398,
+    "shareEarningAboveHsGrad": 0.498
   }
 }

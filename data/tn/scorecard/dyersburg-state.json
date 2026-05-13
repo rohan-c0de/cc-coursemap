@@ -6,7 +6,7 @@
   "schoolUrl": "www.dscc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:42.320Z",
+  "fetchedAt": "2026-05-13T02:14:53.920Z",
   "size": 2103,
   "shareFirstGeneration": 0.56006628,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3354,
     "completionRate200nt": 0.3056,
-    "transferRate": 0.1214
+    "transferRate": 0.1214,
+    "retentionRateFullTime": 0.6337,
+    "retentionRatePartTime": 0.4595
   },
   "earnings": {
-    "median10YrsAfterEntry": 36132
+    "median10YrsAfterEntry": 36132,
+    "median1YrAfterCompletion": 61845,
+    "percentile25_10YrsAfterEntry": 18634,
+    "percentile75_10YrsAfterEntry": 52500,
+    "shareEarningAboveHsGrad": 0.477
   }
 }

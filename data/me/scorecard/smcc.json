@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.smccme.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:06.755Z",
+  "fetchedAt": "2026-05-13T02:13:23.119Z",
   "size": 5675,
   "shareFirstGeneration": 0.3910998553,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2819,
     "completionRate200nt": 0.2612,
-    "transferRate": 0.1558
+    "transferRate": 0.1558,
+    "retentionRateFullTime": 0.5729,
+    "retentionRatePartTime": 0.4768
   },
   "earnings": {
-    "median10YrsAfterEntry": 41661
+    "median10YrsAfterEntry": 41661,
+    "median1YrAfterCompletion": 42029,
+    "percentile25_10YrsAfterEntry": 21198,
+    "percentile75_10YrsAfterEntry": 59974,
+    "shareEarningAboveHsGrad": 0.623
   }
 }

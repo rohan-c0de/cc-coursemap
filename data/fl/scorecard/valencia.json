@@ -6,7 +6,7 @@
   "schoolUrl": "valenciacollege.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:21.538Z",
+  "fetchedAt": "2026-05-13T02:12:39.493Z",
   "size": 39486,
   "shareFirstGeneration": 0.4214585852,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 40594
+    "median10YrsAfterEntry": 40594,
+    "median1YrAfterCompletion": 30627,
+    "percentile25_10YrsAfterEntry": 22495,
+    "percentile75_10YrsAfterEntry": 60732,
+    "shareEarningAboveHsGrad": 0.596
   }
 }

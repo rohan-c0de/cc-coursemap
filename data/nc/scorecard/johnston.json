@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.johnstoncc.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:43.338Z",
+  "fetchedAt": "2026-05-13T02:13:58.061Z",
   "size": 3453,
   "shareFirstGeneration": 0.4661654135,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3661,
     "completionRate200nt": 0.3236,
-    "transferRate": 0.2351
+    "transferRate": 0.2351,
+    "retentionRateFullTime": 0.6678,
+    "retentionRatePartTime": 0.4811
   },
   "earnings": {
-    "median10YrsAfterEntry": 37310
+    "median10YrsAfterEntry": 37310,
+    "median1YrAfterCompletion": 38533,
+    "percentile25_10YrsAfterEntry": 20703,
+    "percentile75_10YrsAfterEntry": 53369,
+    "shareEarningAboveHsGrad": 0.527
   }
 }

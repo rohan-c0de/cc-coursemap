@@ -6,7 +6,7 @@
   "schoolUrl": "www.lssc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:13.549Z",
+  "fetchedAt": "2026-05-13T02:12:32.070Z",
   "size": 4177,
   "shareFirstGeneration": 0.4565217391,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 39876
+    "median10YrsAfterEntry": 39876,
+    "median1YrAfterCompletion": 34175,
+    "percentile25_10YrsAfterEntry": 23045,
+    "percentile75_10YrsAfterEntry": 57179,
+    "shareEarningAboveHsGrad": 0.565
   }
 }

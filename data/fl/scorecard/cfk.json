@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.cfk.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:10.556Z",
+  "fetchedAt": "2026-05-13T02:12:29.355Z",
   "size": 1012,
   "shareFirstGeneration": 0.4184782609,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 42508
+    "median10YrsAfterEntry": 42508,
+    "median1YrAfterCompletion": 42669,
+    "percentile25_10YrsAfterEntry": 22938,
+    "percentile75_10YrsAfterEntry": 66494,
+    "shareEarningAboveHsGrad": 0.535
   }
 }

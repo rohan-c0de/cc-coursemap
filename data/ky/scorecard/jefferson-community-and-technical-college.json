@@ -6,7 +6,7 @@
   "schoolUrl": "https://jefferson.kctcs.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:44.495Z",
+  "fetchedAt": "2026-05-13T02:13:02.656Z",
   "size": 7744,
   "shareFirstGeneration": 0.4840193148,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3547,
     "completionRate200nt": 0.3596,
-    "transferRate": 0.1459
+    "transferRate": 0.1459,
+    "retentionRateFullTime": 0.5952,
+    "retentionRatePartTime": 0.5292
   },
   "earnings": {
-    "median10YrsAfterEntry": 38171
+    "median10YrsAfterEntry": 38171,
+    "median1YrAfterCompletion": 42070,
+    "percentile25_10YrsAfterEntry": 19055,
+    "percentile75_10YrsAfterEntry": 56456,
+    "shareEarningAboveHsGrad": 0.517
   }
 }

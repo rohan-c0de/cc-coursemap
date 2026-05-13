@@ -6,7 +6,7 @@
   "schoolUrl": "www.lccc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:28.272Z",
+  "fetchedAt": "2026-05-13T02:14:40.868Z",
   "size": 4148,
   "shareFirstGeneration": 0.5108769545,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3032,
     "completionRate200nt": 0.3308,
-    "transferRate": 0.186
+    "transferRate": 0.186,
+    "retentionRateFullTime": 0.5904,
+    "retentionRatePartTime": 0.4129
   },
   "earnings": {
-    "median10YrsAfterEntry": 42436
+    "median10YrsAfterEntry": 42436,
+    "median1YrAfterCompletion": 38915,
+    "percentile25_10YrsAfterEntry": 25257,
+    "percentile75_10YrsAfterEntry": 62508,
+    "shareEarningAboveHsGrad": 0.597
   }
 }

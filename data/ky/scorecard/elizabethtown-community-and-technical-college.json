@@ -6,7 +6,7 @@
   "schoolUrl": "https://elizabethtown.kctcs.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:42.483Z",
+  "fetchedAt": "2026-05-13T02:13:00.849Z",
   "size": 4088,
   "shareFirstGeneration": 0.4796453043,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.5946,
     "completionRate200nt": 0.5274,
-    "transferRate": 0.0888
+    "transferRate": 0.0888,
+    "retentionRateFullTime": 0.7634,
+    "retentionRatePartTime": 0.4594
   },
   "earnings": {
-    "median10YrsAfterEntry": 36143
+    "median10YrsAfterEntry": 36143,
+    "median1YrAfterCompletion": 38824,
+    "percentile25_10YrsAfterEntry": 18734,
+    "percentile75_10YrsAfterEntry": 54609,
+    "shareEarningAboveHsGrad": 0.523
   }
 }

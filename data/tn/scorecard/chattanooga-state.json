@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.chattanoogastate.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:40.910Z",
+  "fetchedAt": "2026-05-13T02:14:52.569Z",
   "size": 5284,
   "shareFirstGeneration": 0.4602997092,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2593,
     "completionRate200nt": 0.2508,
-    "transferRate": 0.1388
+    "transferRate": 0.1388,
+    "retentionRateFullTime": 0.5671,
+    "retentionRatePartTime": 0.2713
   },
   "earnings": {
-    "median10YrsAfterEntry": 37598
+    "median10YrsAfterEntry": 37598,
+    "median1YrAfterCompletion": 38260,
+    "percentile25_10YrsAfterEntry": 19870,
+    "percentile75_10YrsAfterEntry": 56331,
+    "shareEarningAboveHsGrad": 0.527
   }
 }

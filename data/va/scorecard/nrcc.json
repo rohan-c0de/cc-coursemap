@@ -6,7 +6,7 @@
   "schoolUrl": "www.nr.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:15:53.186Z",
+  "fetchedAt": "2026-05-13T02:15:04.071Z",
   "size": 1965,
   "shareFirstGeneration": 0.43281471,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4989,
     "completionRate200nt": 0.4749,
-    "transferRate": 0.0658
+    "transferRate": 0.0658,
+    "retentionRateFullTime": 0.6754,
+    "retentionRatePartTime": 0.5366
   },
   "earnings": {
-    "median10YrsAfterEntry": 40025
+    "median10YrsAfterEntry": 40025,
+    "median1YrAfterCompletion": 37888,
+    "percentile25_10YrsAfterEntry": 22670,
+    "percentile75_10YrsAfterEntry": 58527,
+    "shareEarningAboveHsGrad": 0.561
   }
 }

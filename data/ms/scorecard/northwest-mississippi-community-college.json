@@ -6,7 +6,7 @@
   "schoolUrl": "www.northwestms.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:28.828Z",
+  "fetchedAt": "2026-05-13T02:13:44.407Z",
   "size": 5452,
   "shareFirstGeneration": 0.4165450122,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4532,
     "completionRate200nt": 0.4566,
-    "transferRate": 0.1535
+    "transferRate": 0.1535,
+    "retentionRateFullTime": 0.6767,
+    "retentionRatePartTime": 0.4063
   },
   "earnings": {
-    "median10YrsAfterEntry": 36396
+    "median10YrsAfterEntry": 36396,
+    "median1YrAfterCompletion": 32587,
+    "percentile25_10YrsAfterEntry": 19430,
+    "percentile75_10YrsAfterEntry": 54473,
+    "shareEarningAboveHsGrad": 0.517
   }
 }

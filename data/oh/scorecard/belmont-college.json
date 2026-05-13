@@ -6,7 +6,7 @@
   "schoolUrl": "www.belmontcollege.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:19.420Z",
+  "fetchedAt": "2026-05-13T02:14:32.142Z",
   "size": 600,
   "shareFirstGeneration": 0.5089430894,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4261,
     "completionRate200nt": 0.4344,
-    "transferRate": 0.0435
+    "transferRate": 0.0435,
+    "retentionRateFullTime": 0.5846,
+    "retentionRatePartTime": 0.3158
   },
   "earnings": {
-    "median10YrsAfterEntry": 35329
+    "median10YrsAfterEntry": 35329,
+    "median1YrAfterCompletion": 44610,
+    "percentile25_10YrsAfterEntry": 18238,
+    "percentile75_10YrsAfterEntry": 56456,
+    "shareEarningAboveHsGrad": 0.524
   }
 }

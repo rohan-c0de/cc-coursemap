@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.grcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:13.513Z",
+  "fetchedAt": "2026-05-13T02:13:29.867Z",
   "size": 10698,
   "shareFirstGeneration": 0.4142663504,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2113,
     "completionRate200nt": 0.2645,
-    "transferRate": 0.2034
+    "transferRate": 0.2034,
+    "retentionRateFullTime": 0.5913,
+    "retentionRatePartTime": 0.4961
   },
   "earnings": {
-    "median10YrsAfterEntry": 38377
+    "median10YrsAfterEntry": 38377,
+    "median1YrAfterCompletion": 38948,
+    "percentile25_10YrsAfterEntry": 19532,
+    "percentile75_10YrsAfterEntry": 56633,
+    "shareEarningAboveHsGrad": 0.567
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.wccnet.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:20.943Z",
+  "fetchedAt": "2026-05-13T02:13:36.797Z",
   "size": 7816,
   "shareFirstGeneration": 0.3917378917,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3294,
     "completionRate200nt": 0.3579,
-    "transferRate": 0.2095
+    "transferRate": 0.2095,
+    "retentionRateFullTime": 0.6436,
+    "retentionRatePartTime": 0.5604
   },
   "earnings": {
-    "median10YrsAfterEntry": 39449
+    "median10YrsAfterEntry": 39449,
+    "median1YrAfterCompletion": 42780,
+    "percentile25_10YrsAfterEntry": 18980,
+    "percentile75_10YrsAfterEntry": 62107,
+    "shareEarningAboveHsGrad": 0.524
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.wvup.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:16:02.879Z",
+  "fetchedAt": "2026-05-13T02:15:12.971Z",
   "size": 1868,
   "shareFirstGeneration": 0.449031171,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 35171
+    "median10YrsAfterEntry": 35171,
+    "median1YrAfterCompletion": 47476,
+    "percentile25_10YrsAfterEntry": 18143,
+    "percentile75_10YrsAfterEntry": 55301,
+    "shareEarningAboveHsGrad": 0.5
   }
 }

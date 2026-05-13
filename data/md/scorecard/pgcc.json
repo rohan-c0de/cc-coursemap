@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.pgcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:03.708Z",
+  "fetchedAt": "2026-05-13T02:13:20.343Z",
   "size": 8815,
   "shareFirstGeneration": 0.4608466769,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.1842,
     "completionRate200nt": 0.3217,
-    "transferRate": 0.1446
+    "transferRate": 0.1446,
+    "retentionRateFullTime": 0.6745,
+    "retentionRatePartTime": 0.5079
   },
   "earnings": {
-    "median10YrsAfterEntry": 47548
+    "median10YrsAfterEntry": 47548,
+    "median1YrAfterCompletion": 44417,
+    "percentile25_10YrsAfterEntry": 25064,
+    "percentile75_10YrsAfterEntry": 74457,
+    "shareEarningAboveHsGrad": 0.675
   }
 }

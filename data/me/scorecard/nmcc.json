@@ -6,7 +6,7 @@
   "schoolUrl": "www.nmcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:06.140Z",
+  "fetchedAt": "2026-05-13T02:13:22.660Z",
   "size": 638,
   "shareFirstGeneration": 0.4671532847,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4231,
     "completionRate200nt": 0.3571,
-    "transferRate": 0.1058
+    "transferRate": 0.1058,
+    "retentionRateFullTime": 0.4828,
+    "retentionRatePartTime": 0.3333
   },
   "earnings": {
-    "median10YrsAfterEntry": 43348
+    "median10YrsAfterEntry": 43348,
+    "median1YrAfterCompletion": 41476,
+    "percentile25_10YrsAfterEntry": 24065,
+    "percentile75_10YrsAfterEntry": 54954,
+    "shareEarningAboveHsGrad": 0.547
   }
 }

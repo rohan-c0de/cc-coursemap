@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.fsw.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:11.000Z",
+  "fetchedAt": "2026-05-13T02:12:29.789Z",
   "size": 11052,
   "shareFirstGeneration": 0.504302926,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 43421
+    "median10YrsAfterEntry": 43421,
+    "median1YrAfterCompletion": 39162,
+    "percentile25_10YrsAfterEntry": 26268,
+    "percentile75_10YrsAfterEntry": 63096,
+    "shareEarningAboveHsGrad": 0.621
   }
 }

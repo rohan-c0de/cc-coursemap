@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.faytechcc.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:39.510Z",
+  "fetchedAt": "2026-05-13T02:13:54.483Z",
   "size": 9471,
   "shareFirstGeneration": 0.4509353462,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.235,
     "completionRate200nt": 0.253,
-    "transferRate": 0.1774
+    "transferRate": 0.1774,
+    "retentionRateFullTime": 0.5806,
+    "retentionRatePartTime": 0.4233
   },
   "earnings": {
-    "median10YrsAfterEntry": 31861
+    "median10YrsAfterEntry": 31861,
+    "median1YrAfterCompletion": 41705,
+    "percentile25_10YrsAfterEntry": 16162,
+    "percentile75_10YrsAfterEntry": 48844,
+    "shareEarningAboveHsGrad": 0.455
   }
 }

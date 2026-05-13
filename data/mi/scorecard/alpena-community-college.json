@@ -6,7 +6,7 @@
   "schoolUrl": "www.alpenacc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:08.210Z",
+  "fetchedAt": "2026-05-13T02:13:24.479Z",
   "size": 732,
   "shareFirstGeneration": 0.4283646889,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 36442
+    "median10YrsAfterEntry": 36442,
+    "median1YrAfterCompletion": 33191,
+    "percentile25_10YrsAfterEntry": 18123,
+    "percentile75_10YrsAfterEntry": 57939,
+    "shareEarningAboveHsGrad": 0.559
   }
 }

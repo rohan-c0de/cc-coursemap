@@ -6,7 +6,7 @@
   "schoolUrl": "www.csmd.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:59.695Z",
+  "fetchedAt": "2026-05-13T02:13:16.377Z",
   "size": 4512,
   "shareFirstGeneration": 0.4511520737,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3304,
     "completionRate200nt": 0.4,
-    "transferRate": 0.1894
+    "transferRate": 0.1894,
+    "retentionRateFullTime": 0.6576,
+    "retentionRatePartTime": 0.398
   },
   "earnings": {
-    "median10YrsAfterEntry": 44435
+    "median10YrsAfterEntry": 44435,
+    "median1YrAfterCompletion": 39619,
+    "percentile25_10YrsAfterEntry": 23525,
+    "percentile75_10YrsAfterEntry": 70743,
+    "shareEarningAboveHsGrad": 0.632
   }
 }

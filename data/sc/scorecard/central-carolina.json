@@ -6,7 +6,7 @@
   "schoolUrl": "www.cctech.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:15:33.386Z",
+  "fetchedAt": "2026-05-13T02:14:45.694Z",
   "size": 2163,
   "shareFirstGeneration": 0.4624183007,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3427,
     "completionRate200nt": 0.3697,
-    "transferRate": 0.1538
+    "transferRate": 0.1538,
+    "retentionRateFullTime": 0.5319,
+    "retentionRatePartTime": 0.3207
   },
   "earnings": {
-    "median10YrsAfterEntry": 32603
+    "median10YrsAfterEntry": 32603,
+    "median1YrAfterCompletion": 39368,
+    "percentile25_10YrsAfterEntry": 18051,
+    "percentile75_10YrsAfterEntry": 48220,
+    "shareEarningAboveHsGrad": 0.449
   }
 }

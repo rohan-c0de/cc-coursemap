@@ -6,7 +6,7 @@
   "schoolUrl": "www.martincc.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:44.292Z",
+  "fetchedAt": "2026-05-13T02:13:59.072Z",
   "size": 313,
   "shareFirstGeneration": 0.5414364641,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3929,
     "completionRate200nt": 0.4688,
-    "transferRate": 0.1071
+    "transferRate": 0.1071,
+    "retentionRateFullTime": 0.7609,
+    "retentionRatePartTime": 0.5294
   },
   "earnings": {
-    "median10YrsAfterEntry": 26016
+    "median10YrsAfterEntry": 26016,
+    "median1YrAfterCompletion": 28131,
+    "percentile25_10YrsAfterEntry": 13138,
+    "percentile75_10YrsAfterEntry": 38307,
+    "shareEarningAboveHsGrad": 0.302
   }
 }

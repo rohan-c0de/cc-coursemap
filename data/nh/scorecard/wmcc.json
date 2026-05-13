@@ -6,7 +6,7 @@
   "schoolUrl": "www.wmcc.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:15:01.260Z",
+  "fetchedAt": "2026-05-13T02:14:14.950Z",
   "size": 450,
   "shareFirstGeneration": 0.4526748971,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.618,
     "completionRate200nt": 0.6421,
-    "transferRate": 0.1011
+    "transferRate": 0.1011,
+    "retentionRateFullTime": 0.84,
+    "retentionRatePartTime": 0.5435
   },
   "earnings": {
-    "median10YrsAfterEntry": 35037
+    "median10YrsAfterEntry": 35037,
+    "median1YrAfterCompletion": 49704,
+    "percentile25_10YrsAfterEntry": 19064,
+    "percentile75_10YrsAfterEntry": 53053,
+    "shareEarningAboveHsGrad": 0.633
   }
 }

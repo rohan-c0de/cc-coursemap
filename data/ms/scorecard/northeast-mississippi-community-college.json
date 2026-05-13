@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.nemcc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:14:28.390Z",
+  "fetchedAt": "2026-05-13T02:13:43.978Z",
   "size": 2698,
   "shareFirstGeneration": 0.4473826228,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3362,
     "completionRate200nt": 0.3573,
-    "transferRate": 0.2621
+    "transferRate": 0.2621,
+    "retentionRateFullTime": 0.6841,
+    "retentionRatePartTime": 0.2727
   },
   "earnings": {
-    "median10YrsAfterEntry": 34081
+    "median10YrsAfterEntry": 34081,
+    "median1YrAfterCompletion": 38017,
+    "percentile25_10YrsAfterEntry": 19311,
+    "percentile75_10YrsAfterEntry": 49169,
+    "shareEarningAboveHsGrad": 0.527
   }
 }

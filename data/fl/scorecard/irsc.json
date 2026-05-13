@@ -6,7 +6,7 @@
   "schoolUrl": "www.irsc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:13.095Z",
+  "fetchedAt": "2026-05-13T02:12:31.607Z",
   "size": 11822,
   "shareFirstGeneration": 0.4801352494,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 38315
+    "median10YrsAfterEntry": 38315,
+    "median1YrAfterCompletion": 36684,
+    "percentile25_10YrsAfterEntry": 21540,
+    "percentile75_10YrsAfterEntry": 56244,
+    "shareEarningAboveHsGrad": 0.535
   }
 }

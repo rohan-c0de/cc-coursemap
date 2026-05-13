@@ -6,7 +6,7 @@
   "schoolUrl": "www.pdc.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:49.686Z",
+  "fetchedAt": "2026-05-13T02:15:00.964Z",
   "size": 613,
   "shareFirstGeneration": 0.495256167,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.3571,
     "completionRate200nt": 0.2584,
-    "transferRate": 0.1161
+    "transferRate": 0.1161,
+    "retentionRateFullTime": 0.5789,
+    "retentionRatePartTime": 0.2766
   },
   "earnings": {
-    "median10YrsAfterEntry": 36031
+    "median10YrsAfterEntry": 36031,
+    "median1YrAfterCompletion": 33316,
+    "percentile25_10YrsAfterEntry": 20130,
+    "percentile75_10YrsAfterEntry": 54676,
+    "shareEarningAboveHsGrad": 0.405
   }
 }

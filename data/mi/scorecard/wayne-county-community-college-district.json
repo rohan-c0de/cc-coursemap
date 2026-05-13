@@ -6,7 +6,7 @@
   "schoolUrl": "https://www.wcccd.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:14:21.391Z",
+  "fetchedAt": "2026-05-13T02:13:37.263Z",
   "size": 7423,
   "shareFirstGeneration": 0.5362029208,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.2211,
     "completionRate200nt": 0.3029,
-    "transferRate": 0.1859
+    "transferRate": 0.1859,
+    "retentionRateFullTime": 0.5442,
+    "retentionRatePartTime": 0.3817
   },
   "earnings": {
-    "median10YrsAfterEntry": 29079
+    "median10YrsAfterEntry": 29079,
+    "median1YrAfterCompletion": 35189,
+    "percentile25_10YrsAfterEntry": 11953,
+    "percentile75_10YrsAfterEntry": 48505,
+    "shareEarningAboveHsGrad": 0.442
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.broward.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:07.315Z",
+  "fetchedAt": "2026-05-13T02:12:26.273Z",
   "size": 24922,
   "shareFirstGeneration": 0.4873697419,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 41939
+    "median10YrsAfterEntry": 41939,
+    "median1YrAfterCompletion": 38818,
+    "percentile25_10YrsAfterEntry": 21991,
+    "percentile75_10YrsAfterEntry": 63877,
+    "shareEarningAboveHsGrad": 0.625
   }
 }

@@ -6,7 +6,7 @@
   "schoolUrl": "www.bcc.cuny.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:15:11.478Z",
+  "fetchedAt": "2026-05-13T02:14:24.659Z",
   "size": 5964,
   "shareFirstGeneration": 0.5240631164,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.1622,
     "completionRate200nt": 0.2161,
-    "transferRate": 0.1356
+    "transferRate": 0.1356,
+    "retentionRateFullTime": 0.5102,
+    "retentionRatePartTime": 0.4889
   },
   "earnings": {
-    "median10YrsAfterEntry": 41307
+    "median10YrsAfterEntry": 41307,
+    "median1YrAfterCompletion": 29416,
+    "percentile25_10YrsAfterEntry": 18821,
+    "percentile75_10YrsAfterEntry": 62930,
+    "shareEarningAboveHsGrad": 0.613
   }
 }

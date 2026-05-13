@@ -6,7 +6,7 @@
   "schoolUrl": "www.ogeecheetech.edu/",
   "ownership": 1,
   "predominantDegree": 1,
-  "fetchedAt": "2026-05-12T00:13:28.966Z",
+  "fetchedAt": "2026-05-13T02:12:47.507Z",
   "size": 1820,
   "shareFirstGeneration": 0.459937565,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": 0.4294,
     "completionRate200nt": 0.4386,
-    "transferRate": 0.0734
+    "transferRate": 0.0734,
+    "retentionRateFullTime": 0.5851,
+    "retentionRatePartTime": 0.5056
   },
   "earnings": {
-    "median10YrsAfterEntry": 31248
+    "median10YrsAfterEntry": 31248,
+    "median1YrAfterCompletion": 33804,
+    "percentile25_10YrsAfterEntry": 16362,
+    "percentile75_10YrsAfterEntry": 48302,
+    "shareEarningAboveHsGrad": 0.439
   }
 }

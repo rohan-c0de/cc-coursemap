@@ -6,7 +6,7 @@
   "schoolUrl": "www.pensacolastate.edu/",
   "ownership": 1,
   "predominantDegree": 2,
-  "fetchedAt": "2026-05-12T00:13:16.823Z",
+  "fetchedAt": "2026-05-13T02:12:35.141Z",
   "size": 7538,
   "shareFirstGeneration": 0.4935842601,
   "cost": {
@@ -32,9 +32,15 @@
   "completion": {
     "completionRate150nt": null,
     "completionRate200nt": null,
-    "transferRate": null
+    "transferRate": null,
+    "retentionRateFullTime": null,
+    "retentionRatePartTime": null
   },
   "earnings": {
-    "median10YrsAfterEntry": 36739
+    "median10YrsAfterEntry": 36739,
+    "median1YrAfterCompletion": 37504,
+    "percentile25_10YrsAfterEntry": 19318,
+    "percentile75_10YrsAfterEntry": 56096,
+    "shareEarningAboveHsGrad": 0.503
   }
 }
