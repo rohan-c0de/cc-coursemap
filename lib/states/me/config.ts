@@ -20,20 +20,12 @@ const meConfig: StateConfig = {
       "Maine law allows residents aged 65+ to audit credit courses at Maine Community College System institutions tuition-free on a space-available basis.",
   },
 
-  // CollegeTransfer.Net is the wrong source for ME: across the 4 MCCS
-  // colleges that fit under the free-tier API quota (CMCC/EMCC/KVCC/NMCC),
-  // 1,649 raw equivalencies target zero in-state institutions. The
-  // authoritative in-state source is UMaine's MaineStreet Transfer
-  // Equivalency Guest portal at
-  // https://mainestreetcs.maine.edu/psp/CSPRDG/EMPLOYEE/SA/c/UM_SA.UM_TRNSFER_GUEST.GBL
-  // — PeopleSoft, no login required, ~49 (MCCS-sender × UMS-receiver)
-  // pairs. Building that scraper is tracked separately. Until then, the
-  // me-transfers cron job is removed from `scrapers` below (2026-05) so
-  // empty output stops being flagged as a regression. Flip
-  // `transferSupported` back to true once a MaineStreet scraper lands.
-  // The CT.Net script `scripts/me/scrape-transfer.ts` is retained for
-  // manual use if the in-state rule is ever relaxed.
-  transferSupported: false,
+  // In-state transfers sourced from UMaine's MaineStreet Transfer
+  // Equivalency Guest portal (PeopleSoft, no login required). The
+  // old CollegeTransfer.Net script (`scripts/me/scrape-transfer.ts`)
+  // is retained manual-only for out-of-state use if the in-state rule
+  // is ever relaxed.
+  transferSupported: true,
   popularCourses: ["ENG 101", "MAT 101", "BIO 101", "PSY 101", "HIS 101", "SOC 101"],
   defaultZip: "04101",
   defaultZipCity: "Portland",
@@ -60,15 +52,16 @@ const meConfig: StateConfig = {
     ],
   },
   universityAliases: [
-    { slug: "umaine", names: ["UMaine", "University of Maine", "Maine"] },
+    { slug: "uma", names: ["UMA", "University of Maine at Augusta"] },
+    { slug: "umf", names: ["UMF", "University of Maine at Farmington"] },
+    { slug: "umfk", names: ["UMFK", "University of Maine at Fort Kent"] },
+    { slug: "umaine", names: ["UMaine", "University of Maine", "University of Maine & University of Maine at Machias"] },
     { slug: "usm", names: ["USM", "University of Southern Maine"] },
-    { slug: "bowdoin", names: ["Bowdoin", "Bowdoin College"] },
-    { slug: "bates", names: ["Bates", "Bates College"] },
-    { slug: "colby", names: ["Colby", "Colby College"] },
+    { slug: "umpi", names: ["UMPI", "University of Maine at Presque Isle"] },
   ],
   scrapers: {
     courses: [{ scripts: ["scripts/me/scrape-mccs.ts"], runner: "playwright" }],
-    // manual-only: transfers — CT.Net has zero in-state targets for ME; MaineStreet PeopleSoft scraper is the real fix. See `transferSupported` comment above.
+    transfers: [{ scripts: ["scripts/me/scrape-transfer-mainestreet.ts"], runner: "playwright" }],
     // manual-only: prereqs — ME prereq scraper not yet built. Tracked in #106.
     // manual-only: programs — Acalog program scraper not yet wired up for this state.
   },
