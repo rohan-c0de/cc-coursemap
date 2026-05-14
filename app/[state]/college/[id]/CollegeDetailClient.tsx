@@ -25,6 +25,8 @@ interface Props {
   systemName?: string;
   courseListingUrl?: string;
   state?: string;
+  defaultStatusFilter?: string;
+  defaultModeFilter?: string;
 }
 
 export default function CollegeDetailClient({
@@ -35,6 +37,8 @@ export default function CollegeDetailClient({
   transferLookup,
   courseListingUrl,
   state,
+  defaultStatusFilter,
+  defaultModeFilter,
 }: Props) {
   const [selectedCourse, setSelectedCourse] = useState<CourseSection | null>(
     null
@@ -78,6 +82,9 @@ export default function CollegeDetailClient({
         onTogglePin={togglePin}
         transferLookup={transferLookup}
         state={state}
+        groupBySubject
+        defaultStatusFilter={defaultStatusFilter}
+        defaultModeFilter={defaultModeFilter}
       />
 
       <ScheduleBuilder
