@@ -9,7 +9,6 @@ import {
   trimCoursesForClient,
 } from "@/lib/courses";
 import { getCurrentTerm } from "@/lib/terms";
-import CollegeMap from "./CollegeMap";
 import CollegeScorecardSection from "./CollegeScorecardSection";
 import CollegeTermSection from "./CollegeTermSection";
 import TopProgramsSection from "./TopProgramsSection";
@@ -29,6 +28,11 @@ import {
   getCollegeLastUpdated,
   formatLastUpdated,
 } from "@/lib/data-freshness";
+import {
+  getScorecard,
+  formatDollar,
+  formatPercent,
+} from "@/lib/scorecard";
 
 // Revalidate every 24 hours — course data only changes when re-scraped
 export const revalidate = 86400;
@@ -175,6 +179,9 @@ export default async function CollegeDetailPage(props: PageProps) {
 
   const lastUpdated = getCollegeLastUpdated(state, institution.college_slug);
 
+  // Scorecard data for the hero stat card (students, tuition, completion rate)
+  const scorecard = getScorecard(state, id);
+
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://communitycollegepath.com";
   const stateAbbr = state.toUpperCase();
   const jsonLd = {
@@ -215,8 +222,18 @@ export default async function CollegeDetailPage(props: PageProps) {
     ],
   };
 
+  // Derive audit cost stat for hero card
+  const sd = institution.audit_policy.eligibility.senior_discount;
+  const auditCostStat = sd.available
+    ? `Free ${sd.age_threshold ?? 60}+`
+    : institution.audit_policy.allowed === false
+    ? "N/A"
+    : institution.audit_policy.cost_note
+    ? institution.audit_policy.cost_note.slice(0, 14)
+    : "—";
+
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
       <TrackView
         event="college_detail_view"
         params={{ state, college: id }}
@@ -229,88 +246,92 @@ export default async function CollegeDetailPage(props: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
+
       {/* Breadcrumb */}
       <Link
-        href={`/${state}`}
-        className="text-sm text-teal-600 hover:text-teal-700 mb-4 inline-block"
+        href={`/${state}/colleges`}
+        className="text-sm text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 mb-5 inline-block"
       >
-        &larr; Back to search
+        &larr; {config.name} colleges
       </Link>
 
-      {/* Header */}
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-slate-100">
-          {institution.name}
-        </h1>
-        <p className="text-gray-600 dark:text-slate-400 mt-1">
-          {institution.campuses.map((c) => c.name).join(" · ")}
-        </p>
-        {lastUpdated && (
-          <p className="text-xs text-gray-400 dark:text-slate-500 mt-1">
-            {formatLastUpdated(lastUpdated)}
-          </p>
-        )}
-
-        {/* Status badge */}
-        <div className="mt-3">
-          {institution.audit_policy.allowed === true && (
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-400">
-              Verified
+      {/* COMPACT HERO */}
+      <section className="mb-0 pb-7 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-end">
+        {/* Left — identity */}
+        <div className="lg:col-span-7">
+          <div className="flex flex-wrap items-center gap-3 mb-2">
+            <span className="text-xs font-mono font-medium uppercase tracking-wider text-teal-700 dark:text-teal-400">
+              {config.systemName}
             </span>
+            {lastUpdated && (
+              <span className="text-xs font-mono text-gray-400 dark:text-slate-500">
+                {formatLastUpdated(lastUpdated)}
+              </span>
+            )}
+          </div>
+          <h1 className="text-4xl font-semibold tracking-tight leading-tight text-gray-900 dark:text-slate-100">
+            {institution.name}
+          </h1>
+          {institution.campuses.length > 0 && (
+            <div className="mt-2.5 flex flex-wrap gap-x-4 gap-y-1 text-sm text-gray-600 dark:text-slate-400">
+              {institution.campuses.map((c) => (
+                <span key={c.name} className="inline-flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-teal-500 shrink-0" />
+                  {c.name}
+                </span>
+              ))}
+            </div>
           )}
-          {institution.audit_policy.allowed === null && (
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-400">
-              Contact to Confirm
-            </span>
-          )}
-          {institution.audit_policy.allowed === false && (
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-400">
-              Auditing Not Available
-            </span>
-          )}
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            {institution.audit_policy.allowed === true && (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-800 text-green-800 dark:text-green-400 px-3 py-1 text-xs font-medium">
+                <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.7 5.3a1 1 0 010 1.4l-8 8a1 1 0 01-1.4 0l-4-4a1 1 0 011.4-1.4L8 12.6l7.3-7.3a1 1 0 011.4 0z" clipRule="evenodd" />
+                </svg>
+                Audit verified
+              </span>
+            )}
+            {institution.audit_policy.allowed === null && (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-yellow-50 dark:bg-yellow-900/30 border border-yellow-200 dark:border-yellow-800 text-yellow-800 dark:text-yellow-400 px-3 py-1 text-xs font-medium">
+                Contact to confirm
+              </span>
+            )}
+            {sd.available && (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-800 text-amber-800 dark:text-amber-400 px-3 py-1 text-xs font-medium">
+                <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.9L10 1.5z" />
+                </svg>
+                Free for {sd.age_threshold ?? 60}+ {state.toUpperCase()} residents
+              </span>
+            )}
+            <Link
+              href={`/${state}/college/${id}/programs`}
+              className="text-sm text-teal-600 dark:text-teal-400 hover:underline inline-flex items-center gap-1"
+            >
+              View programs &rarr;
+            </Link>
+          </div>
         </div>
 
-        <div className="mt-3">
-          <Link
-            href={`/${state}/college/${id}/programs`}
-            className="inline-flex items-center gap-1 text-sm text-teal-600 dark:text-teal-400 hover:underline"
-          >
-            View degree &amp; certificate programs
-            <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
+        {/* Right — stat card */}
+        <div className="lg:col-span-5">
+          <div className="grid grid-cols-4 gap-px rounded-xl overflow-hidden border border-gray-200 dark:border-slate-700 bg-gray-200 dark:bg-slate-700">
+            {[
+              { label: "Students", value: scorecard?.size ? scorecard.size.toLocaleString() : "—" },
+              { label: "In-state/yr", value: scorecard?.cost?.tuitionInState != null ? formatDollar(scorecard.cost.tuitionInState) : "—" },
+              { label: "Completion", value: scorecard?.completion?.completionRate150nt != null ? formatPercent(scorecard.completion.completionRate150nt) : "—" },
+              { label: "Audit cost", value: auditCostStat },
+            ].map(({ label, value }) => (
+              <div key={label} className="bg-white dark:bg-slate-800 px-3 py-4">
+                <p className="text-[10px] font-mono font-medium uppercase tracking-wider text-gray-400 dark:text-slate-500">{label}</p>
+                <p className="text-xl font-semibold tracking-tight text-gray-900 dark:text-slate-100 mt-1">{value}</p>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
 
-      {/* Campus map */}
-      {institution.campuses.length > 0 && (
-        <div className="mb-8 h-[250px] rounded-lg overflow-hidden border border-gray-200 dark:border-slate-700 isolate">
-          <CollegeMap institution={institution} />
-        </div>
-      )}
-
-      {/* Cost & outcomes — federal Scorecard data. Renders nothing when
-          the institution lacks a Scorecard mapping (2 of 382 today). */}
-      <CollegeScorecardSection
-        state={state}
-        collegeId={id}
-        collegeName={institution.name}
-      />
-
-      {/* Top programs at this college — bridges the per-college page to
-          the state-wide program comparison hub at /[state]/program/[slug].
-          Driven by federal IPEDS award counts in the scorecard-programs
-          data ingested by #410. See issue #414. */}
-      <TopProgramsSection
-        state={state}
-        collegeId={id}
-        collegeName={institution.name}
-      />
-
-      {/* Term-dependent content (staleness, term picker, course table, subject
-          browser, instructor browser) — client-rendered so ?term= switches
-          happen without a server round-trip. */}
+      {/* COURSES — immediately after hero (courses-first layout) */}
       <CollegeTermSection
         coursesByTerm={coursesByTerm}
         termsWithData={termsWithData}
@@ -327,147 +348,92 @@ export default async function CollegeDetailPage(props: PageProps) {
         systemCollegeCoursesUrl={systemCollegeCoursesUrl}
       />
 
-      {/* Audit Policy — collapsed by default, below courses */}
-      <section id="audit-policy" className="mt-8">
-        <details className="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-lg">
-          <summary className="px-6 py-4 cursor-pointer select-none flex items-center justify-between text-lg font-semibold text-gray-900 dark:text-slate-100 hover:bg-gray-50 dark:hover:bg-slate-800 transition-colors rounded-lg">
-            <span>Audit Policy</span>
-            <svg className="w-5 h-5 text-gray-400 dark:text-slate-500 transition-transform details-open:rotate-180" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-            </svg>
-          </summary>
-          <div className="px-6 pb-6">
-            {institution.audit_policy.allowed === null ? (
-              <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4">
-                <p className="text-yellow-800 dark:text-yellow-400">
-                  We haven&apos;t verified this college&apos;s audit policy yet.
-                  Contact the registrar to confirm whether auditing is available.
-                </p>
-                {institution.audit_policy.application_process.contact_email && (
-                  <p className="mt-2 text-yellow-800 dark:text-yellow-400">
-                    Email:{" "}
-                    <a
-                      href={`mailto:${institution.audit_policy.application_process.contact_email}`}
-                      className="underline"
-                    >
-                      {institution.audit_policy.application_process.contact_email}
-                    </a>
-                  </p>
-                )}
-                {institution.audit_policy.application_process.contact_phone && (
-                  <p className="mt-1 text-yellow-800 dark:text-yellow-400">
-                    Phone:{" "}
-                    {institution.audit_policy.application_process.contact_phone}
-                  </p>
-                )}
-              </div>
-            ) : (
-              <div className="space-y-6">
-                {/* Cost */}
-                <div>
-                  <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">Cost</h3>
-                  <p className="text-gray-600 dark:text-slate-400">
-                    {institution.audit_policy.cost_note}
-                  </p>
-                  {institution.audit_policy.eligibility.senior_discount
-                    .available && (
-                    <div className="mt-2 bg-teal-50 dark:bg-teal-900/30 border border-teal-200 dark:border-teal-800 rounded p-3">
-                      <p className="text-teal-800 dark:text-teal-300 text-sm font-medium">
-                        {institution.audit_policy.eligibility.senior_discount.age_threshold ?? 60}+ Senior Discount:{" "}
-                        {institution.audit_policy.eligibility.senior_discount.cost}
-                      </p>
-                      <p className="text-teal-700 dark:text-teal-400 text-xs mt-1">
-                        {institution.audit_policy.eligibility.senior_discount.notes}
-                      </p>
-                    </div>
-                  )}
-                </div>
+      {/* CONTEXT CARDS — 3-col grid below courses */}
+      <section className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-5">
+        {/* Top programs */}
+        <div className="rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-5">
+          <div className="flex items-baseline justify-between mb-3">
+            <h3 className="text-base font-semibold tracking-tight text-gray-900 dark:text-slate-100">Top programs</h3>
+            <span className="text-[10px] font-mono font-medium uppercase tracking-wider text-gray-400 dark:text-slate-500">awards · IPEDS</span>
+          </div>
+          <TopProgramsSection
+            state={state}
+            collegeId={id}
+            collegeName={institution.name}
+          />
+        </div>
 
-                {/* Eligibility */}
-                <div>
-                  <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">Eligibility</h3>
-                  <ul className="text-gray-600 dark:text-slate-400 text-sm space-y-1">
-                    <li>Minimum age: {institution.audit_policy.eligibility.minimum_age}</li>
-                    <li>Residency required: {institution.audit_policy.eligibility.residency_required ? "Yes" : "No"}</li>
-                  </ul>
-                </div>
+        {/* Cost & outcomes */}
+        <div className="rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-5">
+          <div className="flex items-baseline justify-between mb-3">
+            <h3 className="text-base font-semibold tracking-tight text-gray-900 dark:text-slate-100">Cost &amp; outcomes</h3>
+            <span className="text-[10px] font-mono font-medium uppercase tracking-wider text-gray-400 dark:text-slate-500">federal scorecard</span>
+          </div>
+          <CollegeScorecardSection
+            state={state}
+            collegeId={id}
+            collegeName={institution.name}
+          />
+        </div>
 
-                {/* Application process */}
-                {institution.audit_policy.application_process.steps.length > 0 && (
-                  <div>
-                    <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-2">How to Apply</h3>
-                    <ol className="list-decimal list-inside text-gray-600 dark:text-slate-400 text-sm space-y-2">
-                      {institution.audit_policy.application_process.steps.map((step, i) => (
-                        <li key={i}>{step}</li>
-                      ))}
-                    </ol>
-                    {institution.audit_policy.application_process.timing && (
-                      <p className="mt-2 text-sm text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-800 rounded p-2">
-                        Deadline: {institution.audit_policy.application_process.timing}
-                      </p>
-                    )}
-                  </div>
-                )}
-
-                {/* Contact */}
-                <div>
-                  <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">Contact</h3>
-                  <div className="text-sm text-gray-600 dark:text-slate-400 space-y-1">
-                    {institution.audit_policy.application_process.contact_email && (
-                      <p>
-                        Email:{" "}
-                        <a href={`mailto:${institution.audit_policy.application_process.contact_email}`} className="text-teal-600 hover:underline">
-                          {institution.audit_policy.application_process.contact_email}
-                        </a>
-                      </p>
-                    )}
-                    {institution.audit_policy.application_process.contact_phone && (
-                      <p>Phone: {institution.audit_policy.application_process.contact_phone}</p>
-                    )}
-                    {institution.audit_policy.application_process.form_url && (
-                      <p>
-                        <a href={institution.audit_policy.application_process.form_url} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">
-                          Audit Request Form &rarr;
-                        </a>
-                      </p>
-                    )}
-                  </div>
-                </div>
-
-                {/* Restrictions */}
-                {institution.audit_policy.restrictions.length > 0 && (
-                  <div>
-                    <h3 className="font-medium text-gray-900 dark:text-slate-100 mb-1">Restrictions</h3>
-                    <ul className="text-gray-600 dark:text-slate-400 text-sm space-y-1 list-disc list-inside">
-                      {institution.audit_policy.restrictions.map((r, i) => (
-                        <li key={i}>{r}</li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-
-                {/* Verification */}
-                <div className="border-t border-gray-200 dark:border-slate-700 pt-4 text-xs text-gray-400 dark:text-slate-500">
-                  Last verified: {institution.audit_policy.last_verified}
-                  {institution.audit_policy.source_url && (
-                    <>
-                      {" · "}
-                      <a href={institution.audit_policy.source_url} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600 dark:hover:text-slate-400">
-                        Source
-                      </a>
-                    </>
-                  )}
-                </div>
-              </div>
+        {/* Audit policy */}
+        <div id="audit-policy" className="rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-5">
+          <div className="flex items-baseline justify-between mb-3">
+            <h3 className="text-base font-semibold tracking-tight text-gray-900 dark:text-slate-100">Audit policy</h3>
+            {institution.audit_policy.last_verified && (
+              <span className="text-[10px] font-mono font-medium uppercase tracking-wider text-gray-400 dark:text-slate-500">
+                verified {institution.audit_policy.last_verified}
+              </span>
             )}
           </div>
-        </details>
+          {institution.audit_policy.allowed === null ? (
+            <p className="text-sm text-yellow-800 dark:text-yellow-400 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-3">
+              We haven&apos;t verified this college&apos;s audit policy yet. Contact the registrar to confirm.
+              {institution.audit_policy.application_process.contact_email && (
+                <> Email: <a href={`mailto:${institution.audit_policy.application_process.contact_email}`} className="underline">{institution.audit_policy.application_process.contact_email}</a></>
+              )}
+            </p>
+          ) : (
+            <div className="text-sm text-gray-700 dark:text-slate-300 space-y-2 leading-relaxed">
+              {institution.audit_policy.allowed === false ? (
+                <p className="text-red-700 dark:text-red-400">Auditing is not available at this college.</p>
+              ) : (
+                <p>
+                  <strong>Auditing allowed.</strong>{" "}
+                  {institution.audit_policy.cost_note}
+                </p>
+              )}
+              {sd.available && (
+                <p className="text-teal-700 dark:text-teal-400 font-medium">
+                  Free for residents {sd.age_threshold ?? 60}+ (space-available).
+                </p>
+              )}
+              {institution.audit_policy.application_process.steps.length > 0 && (
+                <ul className="space-y-1 text-gray-600 dark:text-slate-400">
+                  {institution.audit_policy.application_process.steps.slice(0, 3).map((step, i) => (
+                    <li key={i}>· {step}</li>
+                  ))}
+                </ul>
+              )}
+              {institution.audit_policy.application_process.contact_email && (
+                <p>
+                  Contact:{" "}
+                  <a href={`mailto:${institution.audit_policy.application_process.contact_email}`} className="text-teal-600 dark:text-teal-400 hover:underline">
+                    {institution.audit_policy.application_process.contact_email}
+                  </a>
+                </p>
+              )}
+              {institution.audit_policy.source_url && (
+                <a href={institution.audit_policy.source_url} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-400 dark:text-slate-500 hover:underline block mt-2">
+                  Source &rarr;
+                </a>
+              )}
+            </div>
+          )}
+        </div>
       </section>
 
-      {/* Course Offering Profile — server-rendered summary of this term's
-          mode breakdown, start-date diversity, and top subjects. Gives
-          Googlebot substantive unique content per-college that doesn't
-          require running the client-side course catalog component. */}
+      {/* Course Offering Profile — server-rendered summary for SEO */}
       {offeringProfile && offeringProfile.total > 0 && (
         <section className="mt-8 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-6">
           <SectionHeading id="offering-profile" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-1">
@@ -481,91 +447,53 @@ export default async function CollegeDetailPage(props: PageProps) {
           </p>
 
           <div className="grid sm:grid-cols-2 gap-6">
-            {/* Format mix */}
             <div>
-              <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
-                Format mix
-              </h3>
+              <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">Format mix</h3>
               <ul className="text-sm text-gray-700 dark:text-slate-300 space-y-1">
                 {Object.entries(offeringProfile.modes.modes)
                   .sort((a, b) => b[1] - a[1])
                   .map(([mode, count]) => (
                     <li key={mode} className="flex justify-between">
-                      <span className="capitalize">
-                        {mode.replace("-", " ")}
-                      </span>
+                      <span className="capitalize">{mode.replace("-", " ")}</span>
                       <span>
-                        <span className="font-medium text-gray-900 dark:text-slate-100">
-                          {count}
-                        </span>{" "}
-                        <span className="text-xs text-gray-500 dark:text-slate-400">
-                          ({offeringProfile.modes.modePcts[mode].toFixed(0)}
-                          %)
-                        </span>
+                        <span className="font-medium text-gray-900 dark:text-slate-100">{count}</span>{" "}
+                        <span className="text-xs text-gray-500 dark:text-slate-400">({offeringProfile.modes.modePcts[mode].toFixed(0)}%)</span>
                       </span>
                     </li>
                   ))}
               </ul>
             </div>
 
-            {/* Section start dates */}
             <div>
-              <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
-                Section start dates
-              </h3>
+              <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">Section start dates</h3>
               {offeringProfile.distinctStartDates > 0 ? (
                 <p className="text-sm text-gray-700 dark:text-slate-300">
                   Sections begin on{" "}
-                  <span className="font-medium text-gray-900 dark:text-slate-100">
-                    {offeringProfile.distinctStartDates}
-                  </span>{" "}
-                  distinct date
-                  {offeringProfile.distinctStartDates === 1 ? "" : "s"} this
-                  term.
+                  <span className="font-medium text-gray-900 dark:text-slate-100">{offeringProfile.distinctStartDates}</span>{" "}
+                  distinct date{offeringProfile.distinctStartDates === 1 ? "" : "s"} this term.
                   {offeringProfile.lateStartCount > 0 && (
-                    <>
-                      {" "}
-                      <Link
-                        href={`/${state}/starting-soon`}
-                        className="font-medium text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300"
-                      >
-                        {offeringProfile.lateStartCount} late-start sections
-                      </Link>{" "}
-                      begin more than two weeks after the term starts.
-                    </>
+                    <>{" "}<Link href={`/${state}/starting-soon`} className="font-medium text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300">{offeringProfile.lateStartCount} late-start sections</Link>{" "}begin more than two weeks after the term starts.</>
                   )}
                 </p>
               ) : (
-                <p className="text-sm text-gray-500 dark:text-slate-400">
-                  Start-date data not available for this term.
-                </p>
+                <p className="text-sm text-gray-500 dark:text-slate-400">Start-date data not available for this term.</p>
               )}
             </div>
           </div>
 
-          {/* Top subjects */}
           {offeringProfile.topSubjects.length > 0 && (
             <div className="mt-6 pt-4 border-t border-gray-100 dark:border-slate-700">
-              <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">
-                Most-offered subjects this term
-              </h3>
+              <h3 className="text-sm font-medium text-gray-900 dark:text-slate-100 mb-2">Most-offered subjects this term</h3>
               <div className="flex flex-wrap gap-2">
                 {offeringProfile.topSubjects.map((s) => {
                   const label = subjectName(s.prefix);
-                  const display =
-                    label && label !== s.prefix
-                      ? `${label} (${s.prefix})`
-                      : s.prefix;
+                  const display = label && label !== s.prefix ? `${label} (${s.prefix})` : s.prefix;
                   return (
-                    <Link
-                      key={s.prefix}
-                      href={`/${state}/college/${id}/courses/${s.prefix.toLowerCase()}`}
+                    <Link key={s.prefix} href={`/${state}/college/${id}/courses/${s.prefix.toLowerCase()}`}
                       className="inline-flex items-center gap-1.5 rounded-md border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-900 px-3 py-1.5 text-xs font-medium text-gray-700 dark:text-slate-300 hover:border-teal-300 dark:hover:border-teal-700 hover:text-teal-700 dark:hover:text-teal-400 transition-colors"
                     >
                       <span>{display}</span>
-                      <span className="text-gray-400 dark:text-slate-500">
-                        {s.sections}
-                      </span>
+                      <span className="text-gray-400 dark:text-slate-500">{s.sections}</span>
                     </Link>
                   );
                 })}
@@ -575,12 +503,12 @@ export default async function CollegeDetailPage(props: PageProps) {
         </section>
       )}
 
-      {/* In-page ad (well after main content per AdSense policy) */}
+      {/* In-page ad */}
       <div className="mt-8">
         <AdUnit slot="3816492750" format="auto" className="min-h-[100px]" />
       </div>
 
-      {/* Related blog posts — programmatic → editorial cross-pollination (#371) */}
+      {/* Related blog posts */}
       <RelatedBlogPosts
         articles={getBlogRecommendations({
           state,
@@ -590,43 +518,42 @@ export default async function CollegeDetailPage(props: PageProps) {
         heading={`Related ${config.name} guides`}
       />
 
-      {/* Other colleges in this state — internal linking for SEO */}
+      {/* OTHER COLLEGES — footer band */}
       {(() => {
         const allInstitutions = loadInstitutions(state);
         const others = allInstitutions
           .filter((i) => i.id !== id)
           .sort((a, b) => a.name.localeCompare(b.name))
-          .slice(0, 6);
+          .slice(0, 8);
         if (others.length === 0) return null;
         return (
-          <section className="mt-8">
-            <SectionHeading id="other-colleges" className="text-lg font-semibold text-gray-900 dark:text-slate-100 mb-3">
-              Other {config.systemName} Colleges
-            </SectionHeading>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {others.map((inst) => (
-                <Link
-                  key={inst.id}
-                  href={`/${state}/college/${inst.id}`}
-                  className="group block rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-3 transition hover:shadow-md hover:border-teal-300"
-                >
-                  <h3 className="font-medium text-sm text-gray-900 dark:text-slate-100 group-hover:text-teal-700 transition-colors">
-                    {inst.name}
-                  </h3>
-                  <p className="text-[11px] text-gray-400 dark:text-slate-500 truncate mt-0.5">
-                    {inst.campuses?.map((c) => c.name).join(", ")}
-                  </p>
+          <section className="mt-12 -mx-4 sm:-mx-6 lg:-mx-8 border-t border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/50">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+              <div className="flex items-baseline justify-between mb-4">
+                <h3 className="text-lg font-semibold tracking-tight text-gray-900 dark:text-slate-100">
+                  Other {config.name} community colleges
+                </h3>
+                <Link href={`/${state}/colleges`} className="text-sm text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300">
+                  View all {config.collegeCount} &rarr;
                 </Link>
-              ))}
+              </div>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                {others.map((inst) => (
+                  <Link
+                    key={inst.id}
+                    href={`/${state}/college/${inst.id}`}
+                    className="group block rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-3 hover:border-teal-300 dark:hover:border-teal-700 hover:shadow-sm transition"
+                  >
+                    <p className="font-medium text-sm text-gray-900 dark:text-slate-100 group-hover:text-teal-700 dark:group-hover:text-teal-400 transition-colors">
+                      {inst.name}
+                    </p>
+                    <p className="text-[11px] text-gray-400 dark:text-slate-500 mt-0.5">
+                      {inst.audit_policy.allowed === true ? "Audit verified" : "Contact to confirm"}
+                    </p>
+                  </Link>
+                ))}
+              </div>
             </div>
-            <p className="text-center mt-3">
-              <Link
-                href={`/${state}/colleges`}
-                className="text-sm text-teal-600 hover:text-teal-700 transition-colors"
-              >
-                View all {config.collegeCount} {config.systemName} colleges &rarr;
-              </Link>
-            </p>
           </section>
         );
       })()}

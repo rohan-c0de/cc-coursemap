@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import CollegeDetailClient from "./CollegeDetailClient";
-import TermSelector from "./TermSelector";
 import { termLabel } from "@/lib/term-label";
 import { isInProgress } from "@/lib/course-status";
 import { subjectName } from "@/lib/subjects";
@@ -122,11 +121,19 @@ export default function CollegeTermSection({
   const upcoming = courses.filter((c) => !isInProgress(c.start_date)).length;
   const started = courses.length - upcoming;
 
+  // Quick-filter chip state — drives defaultStatusFilter / defaultModeFilter on
+  // CollegeDetailClient. Keying CollegeDetailClient on this resets CourseTable
+  // filter state each time the chip changes.
+  const [quickFilter, setQuickFilter] = useState<"" | "open" | "online">("");
+
+  const quickStatusFilter = quickFilter === "open" ? "upcoming" : "";
+  const quickModeFilter = quickFilter === "online" ? "online" : "";
+
   return (
     <>
       {/* Staleness warning */}
       {stale && courses.length > 0 && (
-        <div className="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-800 rounded-lg p-4 mb-6">
+        <div className="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-800 rounded-lg p-4 mb-4">
           <p className="text-amber-800 dark:text-amber-300 text-sm">
             <strong>Note:</strong> Course data may be outdated (last updated
             more than 3 days ago). Check{" "}
@@ -143,69 +150,94 @@ export default function CollegeTermSection({
         </div>
       )}
 
-      {/* Course Listings */}
-      <section>
-        <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-          <div className="flex items-center gap-3">
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100">
-              {termLabel(currentTerm)} Courses{" "}
-              <span className="text-gray-500 dark:text-slate-400 font-normal text-base">
-                ({courses.length} sections)
-              </span>
-            </h2>
-            {termsWithData.length > 1 && (
-              <TermSelector
-                terms={termsWithData.map((t) => ({
-                  code: t,
-                  label: termLabel(t),
-                }))}
-                currentTerm={currentTerm}
-                onTermChange={handleTermChange}
-              />
+      {/* TERM BRIDGE BAR — term tabs + section counts + quick-filter chips */}
+      <section className="border-y border-gray-200 dark:border-slate-700 bg-gradient-to-b from-teal-50/50 dark:from-teal-900/10 to-transparent -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-4 mb-6">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          {/* Left: term picker + counts */}
+          <div className="flex flex-wrap items-end gap-4">
+            {/* Term tabs */}
+            <div>
+              <p className="text-xs font-medium uppercase tracking-wider text-gray-400 dark:text-slate-500 mb-1.5">Term</p>
+              <div className="flex items-center gap-1">
+                {termsWithData.map((t) => (
+                  <button
+                    key={t}
+                    type="button"
+                    onClick={() => handleTermChange(t)}
+                    className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                      t === currentTerm
+                        ? "bg-gray-900 dark:bg-slate-100 text-white dark:text-slate-900"
+                        : "text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-700"
+                    }`}
+                  >
+                    {termLabel(t)}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Section counts */}
+            {courses.length > 0 && (
+              <div className="hidden sm:flex items-baseline gap-2 pb-0.5">
+                <span className="w-px h-8 bg-gray-200 dark:bg-slate-700 self-center" />
+                <span className="text-3xl font-semibold tracking-tight text-gray-900 dark:text-slate-100">{courses.length}</span>
+                <span className="text-sm text-gray-500 dark:text-slate-400">sections</span>
+                {upcoming > 0 && (
+                  <>
+                    <span className="text-gray-300 dark:text-slate-600">·</span>
+                    <span className="text-sm font-medium text-emerald-700 dark:text-emerald-400">{upcoming} open</span>
+                    <span className="text-gray-300 dark:text-slate-600">·</span>
+                    <span className="text-sm text-gray-500 dark:text-slate-400">{started} in progress</span>
+                  </>
+                )}
+              </div>
             )}
           </div>
-          <a
-            href={systemCollegeCoursesUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-teal-600 hover:text-teal-700"
-          >
-            {`View on ${systemName} →`}
-          </a>
+
+          {/* Right: quick-filter chips */}
+          {courses.length > 0 && (
+            <div className="flex flex-wrap items-center gap-2">
+              {(["", "open", "online"] as const).map((f) => {
+                const label = f === "" ? "All" : f === "open" ? "Open only" : "Online";
+                const active = quickFilter === f;
+                return (
+                  <button
+                    key={f}
+                    type="button"
+                    onClick={() => setQuickFilter(f)}
+                    className={`text-xs px-3 py-1.5 rounded-full border font-medium transition-colors ${
+                      active
+                        ? "border-teal-600 bg-teal-600 text-white"
+                        : "border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-gray-700 dark:text-slate-300 hover:border-teal-400 dark:hover:border-teal-600"
+                    }`}
+                  >
+                    {label}
+                  </button>
+                );
+              })}
+              <a
+                href={systemCollegeCoursesUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-gray-400 dark:text-slate-500 hover:text-gray-600 dark:hover:text-slate-300 ml-1"
+              >
+                {systemName} ↗
+              </a>
+            </div>
+          )}
         </div>
 
         {/* Loading indicator while fetching a non-default term */}
         {loadingTerm && (
-          <div className="mb-4 flex items-center gap-2 text-sm text-gray-500 dark:text-slate-400">
+          <div className="mt-3 flex items-center gap-2 text-sm text-gray-500 dark:text-slate-400">
             <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-gray-300 border-t-teal-600" />
             Loading courses…
           </div>
         )}
+      </section>
 
-        {/* Registration status summary */}
-        {courses.length > 0 &&
-          (upcoming > 0 ? (
-            <div className="mb-4 flex items-center gap-2 rounded-lg border border-emerald-200 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-900/30 px-4 py-2.5 text-sm">
-              <span className="inline-block h-2 w-2 rounded-full bg-emerald-400" />
-              <span className="text-emerald-800 dark:text-emerald-400">
-                <strong>{upcoming}</strong>{" "}
-                {upcoming === 1 ? "section" : "sections"} still open for
-                registration
-              </span>
-              <span className="text-emerald-600">·</span>
-              <span className="text-emerald-600">
-                {started} already in progress
-              </span>
-            </div>
-          ) : (
-            <div className="mb-4 flex items-center gap-2 rounded-lg border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800 px-4 py-2.5 text-sm">
-              <span className="inline-block h-2 w-2 rounded-full bg-gray-300 dark:bg-slate-600" />
-              <span className="text-gray-600 dark:text-slate-400">
-                All {started} sections have already started
-              </span>
-            </div>
-          ))}
-
+      {/* Course Listings */}
+      <section>
         {courses.length === 0 ? (
           <div className="bg-gray-50 dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-lg p-8 text-center">
             <p className="text-gray-600 dark:text-slate-400 mb-2">
@@ -222,10 +254,8 @@ export default function CollegeTermSection({
           </div>
         ) : (
           <CollegeDetailClient
-            // keyed on term so filter/sort state in the inner tree resets when
-            // the user switches terms (pinned CRNs from another term wouldn't
-            // match the new course list)
-            key={currentTerm}
+            // keyed on term+quickFilter so filter/sort state resets on both changes
+            key={`${currentTerm}-${quickFilter}`}
             courses={courses}
             institution={institution}
             collegeSlug={collegeSlug}
@@ -233,6 +263,8 @@ export default function CollegeTermSection({
             systemName={systemName}
             courseListingUrl={courseListingUrl}
             state={state}
+            defaultStatusFilter={quickStatusFilter}
+            defaultModeFilter={quickModeFilter}
           />
         )}
       </section>
