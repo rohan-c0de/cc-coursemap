@@ -24,7 +24,7 @@ import TrackView from "@/components/TrackView";
 import RelatedBlogPosts from "@/components/RelatedBlogPosts";
 import { getBlogRecommendations } from "@/lib/blog-recommendations";
 
-export const revalidate = 604800; // 7 days — pSEO content rarely changes
+export const revalidate = 86400; // 1 day — matches sitemap revalidation cycle to prevent stale soft-404s
 
 type PageProps = {
   params: Promise<{ state: string; id: string; slug: string }>;
