@@ -276,7 +276,7 @@ function OutcomesSection({ record, state }: { record: ScorecardRecord; state: st
           <StatCard
             label="Completion rate"
             value={formatPercent(completion200)}
-            sub="200% of normal time"
+            sub="within 4 years"
             tooltip="Share of students who completed within 200% of the normal program length — i.e., 4 years for a 2-year associate's. Broader, more realistic figure for working students."
             benchmark={benchmarkLabel(completion200, "completionRate200", state, "percent")}
           />
@@ -445,7 +445,8 @@ export default function CollegeScorecardSection({
         <StatCard
           label="Completion rate"
           value={formatPercent(record.completion.completionRate150nt)}
-          sub="150% of normal time"
+          sub="within 3 years"
+          tooltip="Share of first-time, full-time students who earned a degree or certificate within 3 years (federal standard for 2-year programs)."
           benchmark={benchmarkLabel(record.completion.completionRate150nt, "completionRate150", state, "percent")}
         />
       </div>
