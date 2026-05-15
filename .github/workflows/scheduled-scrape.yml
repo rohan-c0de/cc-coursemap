@@ -105,12 +105,13 @@ jobs:
     needs: plan
     if: needs.plan.outputs.empty == 'false'
     runs-on: ubuntu-latest
-    # 200 (not 60 or 120) so VA's PeopleSoft scrape can finish all three
+    # 360 (not 200) so VA's PeopleSoft scrape can finish all three
     # terms (Spring/Summer/Fall) end-to-end. Run 25268053426 verified
     # the PS scraper produces ~24k sections for the first two terms in
-    # ~120 min; Fall iteration adds ~60 min. Other states finish well
-    # under 60 — this is the worst-case ceiling, not the budget.
-    timeout-minutes: 200
+    # ~120 min; Fall iteration adds ~60 min. Spring may run concurrently
+    # in May, pushing total to ~240–270 min. 360 gives comfortable headroom.
+    # Other states finish well under 60 — this is the worst-case ceiling.
+    timeout-minutes: 360
     strategy:
       fail-fast: false
       matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
