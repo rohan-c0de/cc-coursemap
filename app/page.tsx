@@ -125,6 +125,12 @@ export default async function LandingPage() {
             >
               Blog
             </Link>
+            <Link
+              href="/about"
+              className="hidden sm:inline text-sm text-slate-600 dark:text-slate-400 hover:text-teal-600 transition-colors"
+            >
+              About
+            </Link>
             <UserMenu />
             <ThemeToggle />
           </nav>
