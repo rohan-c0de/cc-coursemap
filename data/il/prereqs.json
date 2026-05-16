@@ -1,4 +1,354 @@
 {
+  "330BKPS 765": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98; concurrent enrollment in 330BKPS 766, 767, 768, 769.",
+    "courses": []
+  },
+  "330BKPS 767": {
+    "text": "Eligibility for English 101  and eligibility for MATH 118 + MATH 18, MATH 124 + MATH 24, MATH 125 + MATH 25 (or higher) OR eligibility for MATH 99;  concurrent enrollment in 330BKPS 765, 330BKPS  768, 330CUL 700 and 330CUL 703.",
+    "courses": [
+      "MATH 118",
+      "MATH 124",
+      "MATH 125"
+    ]
+  },
+  "330BKPS 768": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98; concurrent enrollment in 330BKPS 765, 766, 767, 769.",
+    "courses": []
+  },
+  "330BKPS 776": {
+    "text": "Grade of C or better in 330BKPS 767, 768 and 769; concurrent enrollment in 330BKPS 774 and 775.",
+    "courses": []
+  },
+  "330BKPS 777": {
+    "text": "Grade of C or better in 330BKPS 765, 330BKPS 767, 330BKPS 768, 330CUL 700 and 330CUL 703, 330BKPS 784, 330BKPS 776, and 330CUL 714; concurrent enrollment in 330BKPS 788,330CUL 717, and HMGT 724.",
+    "courses": [
+      "HMGT 724"
+    ]
+  },
+  "330BKPS 784": {
+    "text": "Grade of C or better in 330BKPS 765, 330BKPS 767, 330BKPS 768, 330CUL 700 and 330CUL 703; concurrent enrollment in 330BKPS 776, and 330CUL 714.",
+    "courses": []
+  },
+  "330BKPS 788": {
+    "text": "Grade of C or better in 330BKPS 765, 330BKPS 767, 330BKPS 768, 330CUL 700 and 330CUL 703, 330BKPS 784, 330BKPS 776, and 330CUL 714; concurrent enrollment in 330BKPS 777, 330CUL 717, and HMGT 724.",
+    "courses": [
+      "HMGT 724"
+    ]
+  },
+  "330BKPS 800": {
+    "text": "Grade of C or better in 330BKPS 765, 330BKPS 767, 330BKPS 768, 330CUL 700 and 330CUL 703, 330BKPS 784, 330BKPS 776, 330CUL 714, 330BKPS 788, 330BKPS 777, 330CUL 717, and HMGT 724; concurrent enrollment in HMGT 860.",
+    "courses": [
+      "HMGT 724",
+      "HMGT 860"
+    ]
+  },
+  "330CUL 700": {
+    "text": "Eligibility for ENGLISH 96 AND MATH 98.",
+    "courses": []
+  },
+  "330CUL 703": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98; Concurrent enrollment in 330CUL 701,705,708.",
+    "courses": []
+  },
+  "330CUL 705": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98, Concurrent enrollment in 330CUL 701,703 and 708.",
+    "courses": []
+  },
+  "330CUL 706": {
+    "text": "Grade of C or better in 330CUL 701, 330CUL 703, 330CUL 705, and 330CUL 708 or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "330CUL 708": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98; concurrent enrollment in 330CUL 701, 703, and 705.",
+    "courses": []
+  },
+  "330CUL 709": {
+    "text": "Grade of C or better in 330CUL 701, 330CUL 703, 330CUL 705, and 330CUL 708 or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "330CUL 710": {
+    "text": "Grade of C or better in 330CUL 701, 330CUL 703, 330CUL 705, and 330CUL 708 or consent of Department Chairperson.",
+    "courses": []
+  },
+  "330CUL 714": {
+    "text": "Grade of C or better in 330CUL 701,703,705 and 708 or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "330CUL 717": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98 or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "330CUL 728": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98.  Grade of C or better in (330CUL 701, 330CUL 703, 330CUL 705, and 330CUL 708), or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "330CUL 730": {
+    "text": "Grade of C or better in 330CUL 701, 330CUL 703, 330CUL 705, and 330CUL 708 or consent of Department Chairperson.",
+    "courses": []
+  },
+  "330TRNS 111": {
+    "text": "Eligibility for ENGLISH 101 and MATH 107.",
+    "courses": [
+      "ENGLISH 101",
+      "MATH 107"
+    ]
+  },
+  "330TRNS 114": {
+    "text": "Eligibility for ENGLISH 101 and MATH 107.  Grade of C or better in 330TRNS 111 and 330TRNS 113.",
+    "courses": [
+      "ENGLISH 101",
+      "MATH 107"
+    ]
+  },
+  "330TRNS 115": {
+    "text": "Eligibility for ENGLISH 101 and MATH 107.  Grade of C or better in 330TRNS 111 and 330TRNS 113.",
+    "courses": [
+      "ENGLISH 101",
+      "MATH 107"
+    ]
+  },
+  "330TRNS 116": {
+    "text": "Eligibility for ENGLISH 101 and MATH 107.  Grade of C or better in 330TRNS 111,112,113,114,115, AND PHY SCI 112.",
+    "courses": [
+      "ENGLISH 101",
+      "MATH 107",
+      "SCI 112"
+    ]
+  },
+  "330TRNS 213": {
+    "text": "Eligibility for English 101 and Math 107.  Grade of C or better in 330TRNS 111,112,113,114,115, AND PHY SCI 112.",
+    "courses": [
+      "SCI 112"
+    ]
+  },
+  "330TRNS 214": {
+    "text": "Eligibility for English 101 and Math 107.  Grade of C or better in 330TRNS 111,112,113,114,115, 116,209,211,213, AND PHY SCI 112.",
+    "courses": [
+      "SCI 112"
+    ]
+  },
+  "330TRNS 215": {
+    "text": "Eligibility for English 101 and Math 107.  Grade of C or better in 330TRNS 111,112,113,114,115, 116,209,211,213, AND PHY SCI 112.",
+    "courses": [
+      "SCI 112"
+    ]
+  },
+  "330TRNS 216": {
+    "text": "Eligibility for English 101 and Math 107.  Grade of C or better in 330TRNS 111,112,113,114,115, 116,209,211,213, AND PHY SCI 112.",
+    "courses": [
+      "SCI 112"
+    ]
+  },
+  "330TRNS 217": {
+    "text": "Eligibility for English 101 and Math 107.  Grade of C or better in 330TRNS 111,112,113,114,115, 116,209,211,213, AND PHY SCI 112.",
+    "courses": [
+      "SCI 112"
+    ]
+  },
+  "332TECH 427-1": {
+    "text": "Grade of C or better in 332TECH440",
+    "courses": []
+  },
+  "332TECH 430-1": {
+    "text": "C or better in 332TECH 440",
+    "courses": []
+  },
+  "332TECH 437": {
+    "text": "Grade of C or better in 332TECH 434",
+    "courses": []
+  },
+  "332TECH 440": {
+    "text": "Placement into ENGLISH 96 and MATH 98.",
+    "courses": []
+  },
+  "332TECH 453-1": {
+    "text": "Grade of C or better in MATH 107, ENGLISH 197, 332TECH448-1 and 449.",
+    "courses": [
+      "MATH 107",
+      "ENGLISH 197"
+    ]
+  },
+  "332TECH 458-1": {
+    "text": "Grade of C or better in 332TECH 452 and 332TECH 453 and 462.",
+    "courses": []
+  },
+  "332TECH 459-1": {
+    "text": "Grade of C or better in 332TECH 452, 453 and 462.",
+    "courses": []
+  },
+  "332TECH 462": {
+    "text": "Grade of C or better in 332TECH 448.",
+    "courses": []
+  },
+  "332TECH 463": {
+    "text": "Grade of C or better in 332TECH 462.",
+    "courses": []
+  },
+  "332TECH 464": {
+    "text": "Grade of C or better in MATH 107, ENGLISH 197, 332TECH 448-1 and 449.",
+    "courses": [
+      "MATH 107",
+      "ENGLISH 197"
+    ]
+  },
+  "332TECH 470": {
+    "text": "Grade of C or better in Math 107, and English 197, and 332TECH 448, and 332TECH 449 and 332TECH 464.",
+    "courses": []
+  },
+  "332TECH 503": {
+    "text": "Grade of C or better in 432CMGT 609 - Construction Safety II",
+    "courses": []
+  },
+  "332TECH 504": {
+    "text": "Grade of C or better in 332TECH 503-Gas Utility Training I",
+    "courses": []
+  },
+  "332TECH 505": {
+    "text": "Grade of C or better in 332TECH 504-Gas Utility Training II",
+    "courses": []
+  },
+  "332TECH 506": {
+    "text": "Grade of C or better in 332TECH 505-Gas Utility Training III",
+    "courses": []
+  },
+  "332TECH 520-1": {
+    "text": "Grade of C or better in 332TECH 509.",
+    "courses": []
+  },
+  "340MFGT 105": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 106": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 107": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 108": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 109": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 110": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 153": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 154": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 160": {
+    "text": "Grade of C or better in 340MFGT 110 OR Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 170": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96  OR  Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 171": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96  OR  Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 172": {
+    "text": "Grade of C or better in of 340MFGT 171 Metrology 2 Beginning Quality Assurance, or consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 188": {
+    "text": "Eligibility for MATH 99 and ENGLISH 96 or consent of Department Chairperson",
+    "courses": []
+  },
+  "340MFGT 189": {
+    "text": "Grade of C or better in 340MFGT 188 or consent of Department Chairperson",
+    "courses": []
+  },
+  "340MFGT 195": {
+    "text": "Grade of C or better in 340MFGT 109 , or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 208": {
+    "text": "Grade of C or better in 340MFGT 108 Robotics 1 and 340MFGT 288 Industrial Electricity 3 Programmable Logic Controls (PLCs)",
+    "courses": []
+  },
+  "340MFGT 209": {
+    "text": "Grade of C or better in 340MFGT 110 or consent of Department Chairperson",
+    "courses": []
+  },
+  "340MFGT 210": {
+    "text": "Grade of C or better in 340MFGT 108 AND 340MFGT 153 OR Consent of department chair.",
+    "courses": []
+  },
+  "340MFGT 211": {
+    "text": "Grade of C or better in 340MFGT 210 Automated Fabrication 1.",
+    "courses": []
+  },
+  "340MFGT 251": {
+    "text": "Grade of C or better in 340MFGT 108 AND 340MFGT 109 AND 340MFGT 154 OR Consent of Department Chairperson",
+    "courses": []
+  },
+  "340MFGT 252": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 260": {
+    "text": "Grade of C or better in 340MFGT 110 and 340MFGT 160 or consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 270": {
+    "text": "Grade of C or better in 340MFGT 170.",
+    "courses": []
+  },
+  "340MFGT 274": {
+    "text": "Grade of C or better in 340MFGT 105 or consent of Department Chairperson",
+    "courses": []
+  },
+  "340MFGT 287": {
+    "text": "Eligibility for MATH 98 AND ENGLISH 96, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "340MFGT 288": {
+    "text": "Grade of C or better in 340MFGT 188 AND 340MFGT 189 or consent of Department Chairperson",
+    "courses": []
+  },
+  "340MFGT 289": {
+    "text": "Grade of C or better in 340MFGT 288 Programmatic Logic Controllers (PLC) or consent of department chair.",
+    "courses": []
+  },
+  "340MFGT 290": {
+    "text": "Eligibility for Math 98 Beginning Algebra with Geometry and English 96 Aligned Reading and Composition, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "432CMGT 605": {
+    "text": "Grade of C or better in 432CMGT 604 and CIS 120.",
+    "courses": [
+      "CIS 120"
+    ]
+  },
+  "432CMGT 606": {
+    "text": "Grade of C or better in 432CMGT 604.",
+    "courses": []
+  },
+  "432CMGT 607": {
+    "text": "Grade of C or better in 432CMGT 604 and CIS 120.",
+    "courses": [
+      "CIS 120"
+    ]
+  },
+  "432CMGT 608": {
+    "text": "Grade of C or better in 432CMGT 604, 607, and CIS 120.",
+    "courses": [
+      "CIS 120"
+    ]
+  },
   "ACC 0112": {
     "text": "ACC 0111",
     "courses": [
@@ -231,6 +581,20 @@
       "SOC 101"
     ]
   },
+  "AFRO AM 102": {
+    "text": "Successful completion of AFRO AM 101 with a grade of C or better -AND- Eligibility for ENGLISH 101.",
+    "courses": [
+      "AM 101",
+      "ENGLISH 101"
+    ]
+  },
+  "AFRO AM 214": {
+    "text": "Successful completion of AFRO AM 101 with a grade of C or better -AND- Eligibility for ENGLISH 101",
+    "courses": [
+      "AM 101",
+      "ENGLISH 101"
+    ]
+  },
   "AGR 226": {
     "text": "AGR 107",
     "courses": [
@@ -266,6 +630,25 @@
     "text": "AHR 104 (min C)",
     "courses": [
       "AHR 104"
+    ]
+  },
+  "AIR CON 103": {
+    "text": "Grade of C or better in (AIR CON 101 and AIR CON 102) or Consent of Department Chairperson.",
+    "courses": [
+      "CON 101",
+      "CON 102"
+    ]
+  },
+  "AIR CON 151": {
+    "text": "Grade of C or better in AIR CON 150.",
+    "courses": [
+      "CON 150"
+    ]
+  },
+  "AIR CON 204": {
+    "text": "Grade of C or better in AIR CON 104 or 340MFGT 188.",
+    "courses": [
+      "CON 104"
     ]
   },
   "AMT 110": {
@@ -313,10 +696,50 @@
       "ANAT 1571"
     ]
   },
+  "ANTHRO 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ANTHRO 202": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ANTHRO 206": {
+    "text": "Eligibility for ENGLISH 101, OR Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "ARABI 1102": {
     "text": "RABI 1101",
     "courses": [
       "RABI 1101"
+    ]
+  },
+  "ARABIC 101": {
+    "text": "Eligibility for ENGLISH 96, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "ARABIC 102": {
+    "text": "Grade of C or better in ARABIC 101, ACTFL Arabic Writing Proficiency Test (Score 2.00), Placement Test, or Consent of Department Chairperson.",
+    "courses": [
+      "ARABIC 101"
+    ]
+  },
+  "ARABIC 103": {
+    "text": "Grade of C or better in ARABIC 102, Placement Test or Consent of Department Chairperson.",
+    "courses": [
+      "ARABIC 102"
+    ]
+  },
+  "ARABIC 104": {
+    "text": "Grade of C or better in ARABIC 103, Placement Test or Consent of Department Chairperson",
+    "courses": [
+      "ARABIC 103"
     ]
   },
   "ARB 102": {
@@ -400,6 +823,83 @@
       "ARCH 1301"
     ]
   },
+  "ARCHITC 104": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ARCHITC 105": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ARCHITC 122": {
+    "text": "Grade of C or better in ARCHITC 110 and ARCHITC 121, or consent of Department Chairperson.",
+    "courses": [
+      "ARCHITC 110",
+      "ARCHITC 121"
+    ]
+  },
+  "ARCHITC 123": {
+    "text": "Grade of C or better in ARCHITC 170, or Consent of Department Chairperson.",
+    "courses": [
+      "ARCHITC 170"
+    ]
+  },
+  "ARCHITC 166": {
+    "text": "Eligibility for ENGLISH 96, and grade of C or better or concurrent enrollment in ARCHITC 122, and Grade of C or better or concurrent enrollment in ARCHITC 171, or consent of Department Chairperson.",
+    "courses": [
+      "ARCHITC 122",
+      "ARCHITC 171"
+    ]
+  },
+  "ARCHITC 171": {
+    "text": "Grade of C or better in ARCHITC 170 OR Consent of Department Chairperson.",
+    "courses": [
+      "ARCHITC 170"
+    ]
+  },
+  "ARCHITC 172": {
+    "text": "Grade of C or better in ARCHITC 170 OR Consent of Department Chairperson.",
+    "courses": [
+      "ARCHITC 170"
+    ]
+  },
+  "ARCHITC 202": {
+    "text": "Eligibility for ENGLISH 96, and grade of C or better OR concurrent enrollment in ARCHITC 172, or consent of Department Chairperson.",
+    "courses": [
+      "ARCHITC 172"
+    ]
+  },
+  "ARCHITC 204": {
+    "text": "Eligibility for ENGLISH 96, and grade of C or better OR concurrent enrollment in ARCHITC 172, or consent of Department Chairperson.",
+    "courses": [
+      "ARCHITC 172"
+    ]
+  },
+  "ARCHITC 220": {
+    "text": "Grade of C or better in ARCHITC 123 and ARCHITC 171; and a grade of C or better or concurrent enrollment in ARCHITC 266, or consent of Department Chairperson.",
+    "courses": [
+      "ARCHITC 123",
+      "ARCHITC 171",
+      "ARCHITC 266"
+    ]
+  },
+  "ARCHITC 230": {
+    "text": "Grade of C or better or concurrent enrollment in ARCHITC 204; Grade of C or better in PHYSICS 221; or Consent of Department Chairperson.",
+    "courses": [
+      "ARCHITC 204",
+      "PHYSICS 221"
+    ]
+  },
+  "ARCHITC 266": {
+    "text": "Grade of C or better in ARCHITC 166, or Consent of Department Chairperson.",
+    "courses": [
+      "ARCHITC 166"
+    ]
+  },
   "ARM 150": {
     "text": "ARM 141",
     "courses": [
@@ -423,6 +923,12 @@
     "text": "ART 101",
     "courses": [
       "ART 101"
+    ]
+  },
+  "ART 103": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "ART 104": {
@@ -450,7 +956,13 @@
     ]
   },
   "ART 116": {
-    "text": "ART 115",
+    "text": "Grade of C or better in ART 115, or Consent of Department Chairperson.",
+    "courses": [
+      "ART 115"
+    ]
+  },
+  "ART 117": {
+    "text": "Grade of C or better in ART 115, OR Consent of Coordinator or Department Chairperson.",
     "courses": [
       "ART 115"
     ]
@@ -481,10 +993,73 @@
       "ART 119"
     ]
   },
+  "ART 142-1": {
+    "text": "Grade of C or better in ART 131.",
+    "courses": [
+      "ART 131"
+    ]
+  },
+  "ART 166-1": {
+    "text": "Grade of C or better in ART 131, or Consent of Department Chairperson.",
+    "courses": [
+      "ART 131"
+    ]
+  },
+  "ART 167": {
+    "text": "Grade of C or better in ART 166, or Consent of Department Chairperson.",
+    "courses": [
+      "ART 166"
+    ]
+  },
+  "ART 176": {
+    "text": "Grade of C or better in ART 144, or Consent of Department Chairperson.",
+    "courses": [
+      "ART 144"
+    ]
+  },
   "ART 190": {
     "text": "GRA 100",
     "courses": [
       "GRA 100"
+    ]
+  },
+  "ART 197": {
+    "text": "Grade of C or better in ART 196, or Consent of Department Chairperson",
+    "courses": [
+      "ART 196"
+    ]
+  },
+  "ART 198": {
+    "text": "Grade of C or better or concurrent enrollment in ART 145 with consent of Department Chairperson.",
+    "courses": [
+      "ART 145"
+    ]
+  },
+  "ART 200": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ART 200-D": {
+    "text": "Eligibility for ENGLISH 101 or Grade of C or better in ART 126, or Consent of Department Chairperson",
+    "courses": [
+      "ENGLISH 101",
+      "ART 126"
+    ]
+  },
+  "ART 200-T": {
+    "text": "Eligibility for ENGLISH 101 or Grade of C or better in ART 166, or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "ART 166"
+    ]
+  },
+  "ART 200-Z": {
+    "text": "Eligibility for ENGLISH 101 or Grade of C or better in ART 196, or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "ART 196"
     ]
   },
   "ART 201": {
@@ -518,7 +1093,7 @@
     ]
   },
   "ART 213": {
-    "text": "ART 113",
+    "text": "Grade of C or better in ART 113, OR Consent of Coordinator or Department Chairperson.",
     "courses": [
       "ART 113"
     ]
@@ -646,9 +1221,13 @@
     ]
   },
   "ART 270": {
-    "text": "ART 252",
+    "text": "Completion with a grade of C or better in ENGLISH 101 and ART 113 and ART 115 and completion with a grade of C or better or concurrent enrollment in one of the following (ART 116 or ART 117 or ART 2XX) OR Consent of Coordinator or Department Chairperson.",
     "courses": [
-      "ART 252"
+      "ENGLISH 101",
+      "ART 113",
+      "ART 115",
+      "ART 116",
+      "ART 117"
     ]
   },
   "ART 272": {
@@ -733,6 +1312,18 @@
     "text": "MTH 095",
     "courses": [
       "MTH 095"
+    ]
+  },
+  "ASTROMY 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ASTROMY 203": {
+    "text": "Eligibility for ENGLISH 101 and successful completion of MATH 99 or higher.",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "ATA 110": {
@@ -894,11 +1485,155 @@
       "AUTO 1261"
     ]
   },
+  "AUTOTEC 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "AUTOTEC 103": {
+    "text": "Grade of C or better OR Concurrent enrollment in AUTOTEC 101 OR Consent of Department Chairperson.",
+    "courses": [
+      "AUTOTEC 101"
+    ]
+  },
+  "AUTOTEC 104": {
+    "text": "Grade of C or better OR Concurrent enrollment in AUTOTEC 101 OR Consent of Department Chairperson.",
+    "courses": [
+      "AUTOTEC 101"
+    ]
+  },
+  "AUTOTEC 105": {
+    "text": "Grade of C or better in (AUTOTEC 103 or AUTOTEC 104), or Consent of Department Chairperson.",
+    "courses": [
+      "AUTOTEC 103",
+      "AUTOTEC 104"
+    ]
+  },
+  "AUTOTEC 106": {
+    "text": "Grade of C or better in (AUTOTEC 101 and AUTOTEC 104).",
+    "courses": [
+      "AUTOTEC 101",
+      "AUTOTEC 104"
+    ]
+  },
+  "AUTOTEC 109": {
+    "text": "Grade of C or better OR Concurrent enrollment in AUTOTEC 101 OR Consent of Department Chairperson.",
+    "courses": [
+      "AUTOTEC 101"
+    ]
+  },
+  "AUTOTEC 117": {
+    "text": "Grade of C or better in AUTOTEC 107, or Consent of Department Chairperson.",
+    "courses": [
+      "AUTOTEC 107"
+    ]
+  },
+  "AUTOTEC 121": {
+    "text": "Grade of C or better in AUTOTEC 102, 117, 217 OR Consent of Department Chairperson.",
+    "courses": [
+      "AUTOTEC 102"
+    ]
+  },
+  "AUTOTEC 122": {
+    "text": "Grade of C or better in AUTOTEC 102, 117, 121, 217 OR Consent of Department Chairperson.",
+    "courses": [
+      "AUTOTEC 102"
+    ]
+  },
+  "AUTOTEC 204": {
+    "text": "Grade of C or better in (AUTOTEC 101 or AUTOTEC 104), or Consent of Department Chairperson.",
+    "courses": [
+      "AUTOTEC 101",
+      "AUTOTEC 104"
+    ]
+  },
+  "AUTOTEC 205": {
+    "text": "Grade of C or better in AUTOTEC 105.",
+    "courses": [
+      "AUTOTEC 105"
+    ]
+  },
+  "AUTOTEC 206": {
+    "text": "Grade of C or better in AUTOTEC 205.",
+    "courses": [
+      "AUTOTEC 205"
+    ]
+  },
+  "AUTOTEC 209": {
+    "text": "Grade of C or better OR Concurrent enrollment in AUTOTEC 101 OR Consent of Department Chairperson.",
+    "courses": [
+      "AUTOTEC 101"
+    ]
+  },
+  "AUTOTEC 210": {
+    "text": "Grade of C or better in (AUTOTEC 101, AUTOTEC 104, AUTOTEC 106 AND AUTOTEC 204).",
+    "courses": [
+      "AUTOTEC 101",
+      "AUTOTEC 104",
+      "AUTOTEC 106",
+      "AUTOTEC 204"
+    ]
+  },
+  "AUTOTEC 212": {
+    "text": "Grade of C or better OR Concurrent enrollment in AUTOTEC 101 OR Consent of Department Chairperson.",
+    "courses": [
+      "AUTOTEC 101"
+    ]
+  },
+  "AUTOTEC 214": {
+    "text": "Grade of C or better in (AUTOTEC 101, AUTOTEC 104 AND AUTOTEC 212).",
+    "courses": [
+      "AUTOTEC 101",
+      "AUTOTEC 104",
+      "AUTOTEC 212"
+    ]
+  },
+  "AUTOTEC 215": {
+    "text": "Grade of C or better in (AUTOTEC 101 and AUTOTEC 104)",
+    "courses": [
+      "AUTOTEC 101",
+      "AUTOTEC 104"
+    ]
+  },
+  "AUTOTEC 217": {
+    "text": "Grade of C or better in AUTOTEC 117.",
+    "courses": [
+      "AUTOTEC 117"
+    ]
+  },
+  "AUTOTEC 218": {
+    "text": "Grade of C or better in AUTOTEC 118.",
+    "courses": [
+      "AUTOTEC 118"
+    ]
+  },
+  "AUTOTEC 223": {
+    "text": "Grade of C or better in AUTOTEC 102, 118, 218 OR Consent of Department Chairperson.",
+    "courses": [
+      "AUTOTEC 102"
+    ]
+  },
   "AVD 250": {
     "text": "AVD 150",
     "courses": [
       "AVD 150"
     ]
+  },
+  "AVIATN 103": {
+    "text": "Grade of C or better in AVIATN 101 and AVIATN 102",
+    "courses": [
+      "AVIATN 101",
+      "AVIATN 102"
+    ]
+  },
+  "AVIATN 209": {
+    "text": "Must be 18 years or older with a valid drivers license, US Citizen and clean drug screen.",
+    "courses": []
+  },
+  "AVIATN 215": {
+    "text": "Must be 18 years or older with a valid drivers license, US Citizen and clean drug screen.",
+    "courses": []
   },
   "BAR 112": {
     "text": "BAR 102 (min C)",
@@ -982,6 +1717,50 @@
     "text": "BARB 204",
     "courses": [
       "BARB 204"
+    ]
+  },
+  "BARBER 107": {
+    "text": "Grade of C or better in COSMET 101,102,103, and COSMET 104 or concurrent enrollment in COSMET 104.",
+    "courses": [
+      "COSMET 101",
+      "COSMET 104"
+    ]
+  },
+  "BARBER 108": {
+    "text": "Grade of C or better in COSMET 101,102,103,104, and BARBER 107 (Barber Salon Technology I) OR concurrent enrollment in BARBER 107 (Barber Salon Technology I)",
+    "courses": [
+      "COSMET 101",
+      "BARBER 107"
+    ]
+  },
+  "BARBER 203": {
+    "text": "Grade of C or better in COSMET 101, 102, 103, 104, BARBER 107 (Barber Salon Technology I), and BARBER 108 (Barber Salon Technology II) OR concurrent enrollment in BARBER 108 (Barber Salon Technology II)",
+    "courses": [
+      "COSMET 101",
+      "BARBER 107",
+      "BARBER 108"
+    ]
+  },
+  "BARBER 204": {
+    "text": "Grade of C or better in COSMET 101,102,103,104, BARBER 107,108,203 OR concurrent enrollment in BARBER 108 and BARBER 203.",
+    "courses": [
+      "COSMET 101",
+      "BARBER 107",
+      "BARBER 108",
+      "BARBER 203"
+    ]
+  },
+  "BARBER 223": {
+    "text": "Barber Teacher Training 500-hr: HS diploma/GED, active IL Barber License, 3+ yrs salon experience. 1000-hr: HS diploma/GED, active IL Barber License, and completion or concurrent enrollment in BARBER 213.",
+    "courses": [
+      "BARBER 213"
+    ]
+  },
+  "BARBER 224": {
+    "text": "500-hour: HS diploma/GED, active IL Barber License, 3 yrs salon exp, and C or better OR concurrent in BARBER 223. 1000-hour: HS diploma/GED, active IL Barber License, C or better in BARBER 223, and C or better in BARBER 213 OR concurrent in 214.",
+    "courses": [
+      "BARBER 223",
+      "BARBER 213"
     ]
   },
   "BDM 114": {
@@ -1250,6 +2029,108 @@
       "IOLO 1151"
     ]
   },
+  "BIOLOGY 113": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "BIOLOGY 114": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "BIOLOGY 115": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "BIOLOGY 116": {
+    "text": "Eligibility for ENGLISH 101, or successfully completing BIOLOGY 120 with a grade of C or higher, or consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "BIOLOGY 120"
+    ]
+  },
+  "BIOLOGY 119": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "BIOLOGY 121": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "BIOLOGY 122": {
+    "text": "Grade of C or better in BIOLOGY 121, or Consent of Department Chairperson.",
+    "courses": [
+      "BIOLOGY 121"
+    ]
+  },
+  "BIOLOGY 205": {
+    "text": "Completion of BIOLOGY 115 OR BIOLOGY 116 with a grade of C or higher or BIOLOGY 226 and BIOLOGY 227 completion or BIOLOGY 226 completion and concurrent enrollment in BIOLOGY 227.",
+    "courses": [
+      "BIOLOGY 115",
+      "BIOLOGY 116",
+      "BIOLOGY 226",
+      "BIOLOGY 227"
+    ]
+  },
+  "BIOLOGY 209": {
+    "text": "Grade of C or better in BIOLOGY 121 and CHEM 205. Concurrent enrollment or prior completion of CHEM 207 with a grade of C or better, or Consent of Department Chairperson.",
+    "courses": [
+      "BIOLOGY 121",
+      "CHEM 205",
+      "CHEM 207"
+    ]
+  },
+  "BIOLOGY 226": {
+    "text": "Grade of C or better in BIOLOGY 121.",
+    "courses": [
+      "BIOLOGY 121"
+    ]
+  },
+  "BIOLOGY 227": {
+    "text": "Grade of C or better in BIOLOGY 226, or Consent of Department Chairperson.",
+    "courses": [
+      "BIOLOGY 226"
+    ]
+  },
+  "BIOLOGY 241": {
+    "text": "Grade of C or better in BIOLOGY 121 (Biology I), or Consent of Department Chairperson.",
+    "courses": [
+      "BIOLOGY 121"
+    ]
+  },
+  "BIOLOGY 250": {
+    "text": "Grade of C or better in BIOLOGY 121, or Consent of Department Chairperson.",
+    "courses": [
+      "BIOLOGY 121"
+    ]
+  },
+  "BIOLOGY 251": {
+    "text": "Grade of C or better in BIOLOGY 250, or Consent of Department Chairperson.",
+    "courses": [
+      "BIOLOGY 250"
+    ]
+  },
+  "BIOTECH 201": {
+    "text": "Admittance into the Biotechnology program.",
+    "courses": []
+  },
+  "BIOTECH 211": {
+    "text": "Admittance into the Biotechnology program.",
+    "courses": []
+  },
+  "BIOTECH 212": {
+    "text": "Admittance into the Biotechnology program.",
+    "courses": []
+  },
   "BLD 206": {
     "text": "MTH 093",
     "courses": [
@@ -1294,6 +2175,12 @@
     "text": "BOFF 237",
     "courses": [
       "BOFF 237"
+    ]
+  },
+  "BOTANY 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "BUS 102": {
@@ -1412,6 +2299,147 @@
       "CCOU 2140"
     ]
   },
+  "BUSINES 181": {
+    "text": "BUSINES 111 or BUSINES 141 or MATH 98 or higher; or concurrent enrollment in BUSINES 141; or placement test; or Consent of Department Chairperson.",
+    "courses": [
+      "BUSINES 111",
+      "BUSINES 141"
+    ]
+  },
+  "BUSINES 182": {
+    "text": "Grade of C or better in BUSINES 181, OR Consent of Department Chairperson.",
+    "courses": [
+      "BUSINES 181"
+    ]
+  },
+  "BUSINES 183": {
+    "text": "Grade of C or better in (BUSINES 178 or BUSINES 181), or Consent of Department Chairperson.",
+    "courses": [
+      "BUSINES 178",
+      "BUSINES 181"
+    ]
+  },
+  "BUSINES 203": {
+    "text": "Grade of C or better in BUSINES 181 OR BUSINES 182",
+    "courses": [
+      "BUSINES 181",
+      "BUSINES 182"
+    ]
+  },
+  "BUSINES 204": {
+    "text": "Concurrent enrollment in BUSINES 205.",
+    "courses": [
+      "BUSINES 205"
+    ]
+  },
+  "BUSINES 205": {
+    "text": "Grade of C or better in BUSINES 182 and concurrent enrollment in BUSINES 204.",
+    "courses": [
+      "BUSINES 182",
+      "BUSINES 204"
+    ]
+  },
+  "BUSINES 206": {
+    "text": "Grade of C or better in BUSINES 205 or  Consent of Department Chairperson.",
+    "courses": [
+      "BUSINES 205"
+    ]
+  },
+  "BUSINES 208": {
+    "text": "Grade of C or better in BUSINES 182  or Consent of Department Chairperson.",
+    "courses": [
+      "BUSINES 182"
+    ]
+  },
+  "BUSINES 215": {
+    "text": "Grade of C or better in BUSINES 208.",
+    "courses": [
+      "BUSINES 208"
+    ]
+  },
+  "BUSINES 217": {
+    "text": "Grade of C or better in BUSINES 181, and Grade of C or better OR concurrent enrollment  in BUSINES 203 OR Consent of Department Chairperson.",
+    "courses": [
+      "BUSINES 181",
+      "BUSINES 203"
+    ]
+  },
+  "BUSINES 231": {
+    "text": "Grade of C or better in BUSINES 111.",
+    "courses": [
+      "BUSINES 111"
+    ]
+  },
+  "BUSINES 241": {
+    "text": "Grade of C or better in BUSINES 181, or Consent of Department Chairperson.",
+    "courses": [
+      "BUSINES 181"
+    ]
+  },
+  "BUSINES 250": {
+    "text": "Grade of  C or better in BUSINES 181, or CIS 120 or equivalent, or Consent of Department Chairperson.",
+    "courses": [
+      "BUSINES 181",
+      "CIS 120"
+    ]
+  },
+  "BUSINES 259": {
+    "text": "Eligibility for ENGLISH 101 and Grade of C or better in BUSINES 111",
+    "courses": [
+      "ENGLISH 101",
+      "BUSINES 111"
+    ]
+  },
+  "BUSINES 260": {
+    "text": "Grade of C or better in BUSINES 111 and BUSINES 231.",
+    "courses": [
+      "BUSINES 111",
+      "BUSINES 231"
+    ]
+  },
+  "BUSINES 263": {
+    "text": "Grade of C or better in BUSINES 111",
+    "courses": [
+      "BUSINES 111"
+    ]
+  },
+  "BUSINES 264": {
+    "text": "Grade of C or better in BUSINES 111",
+    "courses": [
+      "BUSINES 111"
+    ]
+  },
+  "BUSINES 265": {
+    "text": "Grade of C or better in BUSINES 111",
+    "courses": [
+      "BUSINES 111"
+    ]
+  },
+  "BUSINES 269": {
+    "text": "Grade of C or better in BUSINES 111, or Consent of Department Chairperson.",
+    "courses": [
+      "BUSINES 111"
+    ]
+  },
+  "BUSINES 273": {
+    "text": "Grade of C or better in BUSINES 269 OR BUSINES 271",
+    "courses": [
+      "BUSINES 269",
+      "BUSINES 271"
+    ]
+  },
+  "BUSINES 278": {
+    "text": "Grade of C or better in BUSINES 271 or consent of Department Chairperson",
+    "courses": [
+      "BUSINES 271"
+    ]
+  },
+  "BUSINES 279": {
+    "text": "Grade of C or better in BUSINES 271 or Consent of Department Chairperson.",
+    "courses": [
+      "BUSINES 271"
+    ]
+  },
   "CAB 165": {
     "text": "CAB 160",
     "courses": [
@@ -1475,6 +2503,63 @@
       "CAD 100",
       "CAD 101",
       "CAD 102"
+    ]
+  },
+  "CAD TEC 130": {
+    "text": "Grade of C or better in ENGR 100 or Consent of Department Chairperson.",
+    "courses": [
+      "ENGR 100"
+    ]
+  },
+  "CAD TEC 170": {
+    "text": "Grade of C or better in ENGR 100, or ENGR 110, OR Consent of Department Chairperson.",
+    "courses": [
+      "ENGR 100",
+      "ENGR 110"
+    ]
+  },
+  "CAD TEC 171": {
+    "text": "Grade of C or better in ARCHITC 170, OR CAD TEC 170, OR Consent of Department Chairperson.",
+    "courses": [
+      "ARCHITC 170",
+      "TEC 170"
+    ]
+  },
+  "CAD TEC 172": {
+    "text": "Grade of C or better in CAD TEC 171, or Consent of Department Chairperson.",
+    "courses": [
+      "TEC 171"
+    ]
+  },
+  "CANBS 115": {
+    "text": "Concurrent registration in CANBS 110 (Introduction to Cannabis) and HORTIC 104 (Plant Propagation), or Consent of Department Chairperson.",
+    "courses": [
+      "CANBS 110",
+      "HORTIC 104"
+    ]
+  },
+  "CANBS 201": {
+    "text": "Grade of C or better in CANBS 110 (Introduction to Cannabis).",
+    "courses": [
+      "CANBS 110"
+    ]
+  },
+  "CANBS 202": {
+    "text": "Grade of C or better in CANBS 110 (Introduction to Cannabis).",
+    "courses": [
+      "CANBS 110"
+    ]
+  },
+  "CANBS 203": {
+    "text": "Grade of C or better in CANBS 110 (Introduction to Cannabis).",
+    "courses": [
+      "CANBS 110"
+    ]
+  },
+  "CANBS 204": {
+    "text": "Grade of C or better in CANBS 110 (Introduction to Cannabis).",
+    "courses": [
+      "CANBS 110"
     ]
   },
   "CDLA 160": {
@@ -1825,9 +2910,10 @@
     ]
   },
   "CHEM 121": {
-    "text": "CHEM 141",
+    "text": "Eligibility for ENGLISH 101 and eligibility for MATH 118 or higher or Consent of Department Chairperson.",
     "courses": [
-      "CHEM 141"
+      "ENGLISH 101",
+      "MATH 118"
     ]
   },
   "CHEM 133": {
@@ -1836,10 +2922,47 @@
       "CHEM 102"
     ]
   },
+  "CHEM 201": {
+    "text": "Eligibility for MATH 140 or higher and one of the following: one year of high school chemistry within 5 years or Grade of C or better in CHEM 121. Consent of Department Chairperson can also fulfill prerequisite requirements.",
+    "courses": [
+      "MATH 140",
+      "CHEM 121"
+    ]
+  },
+  "CHEM 203": {
+    "text": "Grade of C or better in CHEM 201, or Consent of Department Chairperson.",
+    "courses": [
+      "CHEM 201"
+    ]
+  },
+  "CHEM 205-1": {
+    "text": "Grade of C or better in CHEM 203 OR Consent of Department Chairperson.",
+    "courses": [
+      "CHEM 203"
+    ]
+  },
   "CHEM 206": {
     "text": "CHEM 203",
     "courses": [
       "CHEM 203"
+    ]
+  },
+  "CHEM 207-1": {
+    "text": "Grade of C or better in CHEM 205, or Consent of Department Chairperson.",
+    "courses": [
+      "CHEM 205"
+    ]
+  },
+  "CHEM 212": {
+    "text": "Grade of C or better in CHEM 201 OR Consent of Department Chairperson.",
+    "courses": [
+      "CHEM 201"
+    ]
+  },
+  "CHEM 295-1": {
+    "text": "Eligibility for ENGLISH 101, or Consent of Department Chairperson",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "CHEMI 1552": {
@@ -1878,6 +3001,107 @@
     "text": "CHI 102 (min D)",
     "courses": [
       "CHI 102"
+    ]
+  },
+  "CHINESE 101": {
+    "text": "ACTFL Writing Proficiency Test (Score 1.00), or Eligibility for ENGLISH 101, or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "CHINESE 102": {
+    "text": "ACTFL Writing Proficiency Test (Score 2.00), or Grade of C or better in CHINESE 101, or Consent of Department Chairperson.",
+    "courses": [
+      "CHINESE 101"
+    ]
+  },
+  "CHLD DV 101-1": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "CHLD DV 102": {
+    "text": "Grade of C or better in CHLD DV 101, OR Consent of Department Chairperson",
+    "courses": [
+      "DV 101"
+    ]
+  },
+  "CHLD DV 109": {
+    "text": "Completion of CHLD DV 101 & CHLD DV 120 with grade of C or better or consent of Department Chairperson.",
+    "courses": [
+      "DV 101",
+      "DV 120"
+    ]
+  },
+  "CHLD DV 142": {
+    "text": "Grade of C or better in CHLD DV 101 OR Consent of Department Chairperson.",
+    "courses": [
+      "DV 101"
+    ]
+  },
+  "CHLD DV 143": {
+    "text": "Completion of CHLD DV 101 & CHLD DV 120 with grade of C or better or consent of Department Chairperson.",
+    "courses": [
+      "DV 101",
+      "DV 120"
+    ]
+  },
+  "CHLD DV 201": {
+    "text": "Completion of CHLD DV 101, CHLD DV 107, CHLD DV 120, CHLD DV 149, CHLD DV 262 with Grade of C or better, Completion with a grade of C or better or concurrent enrollment in CHLD DV 109, CHLD DV 143, or consent of Department Chairperson",
+    "courses": [
+      "DV 101",
+      "DV 107",
+      "DV 120",
+      "DV 149",
+      "DV 262",
+      "DV 109",
+      "DV 143"
+    ]
+  },
+  "CHLD DV 205": {
+    "text": "Grade of C or better in CHLD DV 101, OR Consent of Department Chairperson.",
+    "courses": [
+      "DV 101"
+    ]
+  },
+  "CHLD DV 248": {
+    "text": "Grade of C or better in CHLD DV 142 OR Consent of Department Chairperson.",
+    "courses": [
+      "DV 142"
+    ]
+  },
+  "CHLD DV 258": {
+    "text": "Completion of CHLD DV 101, CHLD DV 107, CHLD DV 120, CHLD DV 149, CHLD DV 262 with Grade of C or better, Completion with a grade of C or better or concurrent enrollment in CHLD DV 109, CHLD DV 143, CHLD DV 201, or consent of Department Chairperson",
+    "courses": [
+      "DV 101",
+      "DV 107",
+      "DV 120",
+      "DV 149",
+      "DV 262",
+      "DV 109",
+      "DV 143",
+      "DV 201"
+    ]
+  },
+  "CHLD DV 259-1": {
+    "text": "Completion of CHLD DV 101, CHLD DV 107, CHLD DV 109, CHLD DV 120, CHLD DV 143, CHLD DV 149, CHLD DV 201, CHLD DV 258, and CHLD DV 262 with a grade of C or better. To register for this course, all students must have Department Chairperson approval.",
+    "courses": [
+      "DV 101",
+      "DV 107",
+      "DV 109",
+      "DV 120",
+      "DV 143",
+      "DV 149",
+      "DV 201",
+      "DV 258",
+      "DV 262"
+    ]
+  },
+  "CHLD DV 262-1": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "CHM 101": {
@@ -1975,6 +3199,40 @@
       "CHM 225"
     ]
   },
+  "CHW 120": {
+    "text": "Eligibility for ENGLISH 96 or Higher and enrollment in the CHW certificate program",
+    "courses": []
+  },
+  "CHW 121": {
+    "text": "Eligibility for ENGLISH 96 or Higher and enrollment in the CHW certificate program",
+    "courses": []
+  },
+  "CHW 125": {
+    "text": "Eligibility for ENGLISH 96 or Higher and enrollment in the CHW certificate program",
+    "courses": []
+  },
+  "CHW 130": {
+    "text": "Eligibility for ENGLISH 96 or Higher and enrollment in the CHW certificate program",
+    "courses": []
+  },
+  "CHW 132": {
+    "text": "Eligibility for ENGLISH 96 or Higher and enrollment in the CHW certificate program",
+    "courses": []
+  },
+  "CIS 103": {
+    "text": "ENGLISH 101 Eligibility OR Successful Completion of CIS 101 or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "CIS 101"
+    ]
+  },
+  "CIS 114": {
+    "text": "Grade of C or better in CIS 142 or CIS 144, or consent of Department Chairperson.",
+    "courses": [
+      "CIS 142",
+      "CIS 144"
+    ]
+  },
   "CIS 1140": {
     "text": "CIS 1110 or CIS 1120 or CIS 1150 or CIT 1100",
     "courses": [
@@ -2003,6 +3261,14 @@
       "CPS 111"
     ]
   },
+  "CIS 124": {
+    "text": "Grade of C or better in CIS 101, Computer Science 101 and a grade of C or better in either NET TEC 121, Internetworking I, or COMPSFI 101, Networking Essentials, or consent of the Department Chairperson",
+    "courses": [
+      "CIS 101",
+      "TEC 121",
+      "COMPSFI 101"
+    ]
+  },
   "CIS 132": {
     "text": "MIS 101",
     "courses": [
@@ -2028,12 +3294,33 @@
       "CIS 1400"
     ]
   },
+  "CIS 142": {
+    "text": "Grade of C or better in MATH 118 or higher, or consent of Department Chairperson. (CIS 101 is recommended)",
+    "courses": [
+      "MATH 118",
+      "CIS 101"
+    ]
+  },
+  "CIS 144": {
+    "text": "Grade of C or better in MATH 118 or higher, or consent of Department Chairperson. (CIS 101 is recommended)",
+    "courses": [
+      "MATH 118",
+      "CIS 101"
+    ]
+  },
   "CIS 1450": {
     "text": "CIS 1150 or CIS 1160 or CIT 1122",
     "courses": [
       "CIS 1150",
       "CIS 1160",
       "CIT 1122"
+    ]
+  },
+  "CIS 146": {
+    "text": "Grade of C or better in MATH 118 or higher, or consent of Department Chairperson. (CIS 101 is recommended)",
+    "courses": [
+      "MATH 118",
+      "CIS 101"
     ]
   },
   "CIS 150": {
@@ -2062,6 +3349,10 @@
       "CIS 105"
     ]
   },
+  "CIS 175": {
+    "text": "Eligibility for college-level math or consent of Department Chair.",
+    "courses": []
+  },
   "CIS 176": {
     "text": "CIS 105 or CSC 140",
     "courses": [
@@ -2073,6 +3364,19 @@
     "text": "CIS 177",
     "courses": [
       "CIS 177"
+    ]
+  },
+  "CIS 181": {
+    "text": "ENGLISH 101 Eligibility OR Successful Completion of CIS 101 or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "CIS 101"
+    ]
+  },
+  "CIS 182": {
+    "text": "Grade of C or better in CIS 181, or Consent of Department Chairperson.",
+    "courses": [
+      "CIS 181"
     ]
   },
   "CIS 212": {
@@ -2097,6 +3401,12 @@
     "text": "CIS 1211",
     "courses": [
       "CIS 1211"
+    ]
+  },
+  "CIS 224": {
+    "text": "Grade of C or better in CIS 124 Intro to Cloud Computing, or consent of the Department Chairperson.",
+    "courses": [
+      "CIS 124"
     ]
   },
   "CIS 226": {
@@ -2145,6 +3455,25 @@
       "CIS 238"
     ]
   },
+  "CIS 242": {
+    "text": "Grade of C or better in CIS 142, or Consent of Department Chairperson.",
+    "courses": [
+      "CIS 142"
+    ]
+  },
+  "CIS 244": {
+    "text": "Grade of C or better in CIS 144 or Consent of Department Chairperson",
+    "courses": [
+      "CIS 144"
+    ]
+  },
+  "CIS 245": {
+    "text": "Grade of C or better in Computer Information System (CIS 101) and Fundamentals of Programming (CIS 103) or consent of the Department Chairperson",
+    "courses": [
+      "CIS 101",
+      "CIS 103"
+    ]
+  },
   "CIS 250": {
     "text": "CSC 157 (min C) and CIS 212 (min C)",
     "courses": [
@@ -2177,9 +3506,10 @@
     ]
   },
   "CIS 255": {
-    "text": "CIS 121",
+    "text": "Grade of C or better in CIS 116 OR COMPSFI 101 OR Consent of Department Chairperson.",
     "courses": [
-      "CIS 121"
+      "CIS 116",
+      "COMPSFI 101"
     ]
   },
   "CIS 2571": {
@@ -2194,10 +3524,26 @@
       "CIS 2571"
     ]
   },
+  "CIS 260": {
+    "text": "CIS 260 - Prerequisites: Minimum of 18 credit hours completed with a C or better in CIS or NET TEC or CSFI courses, and consent of Department Chair.",
+    "courses": [
+      "CIS 260"
+    ]
+  },
+  "CIS 265": {
+    "text": "Minimum of 18 credit hours completed with Grade of C or better in CIS -OR- NET TEC -OR-COMPSFI courses, and Consent of Department Chairperson.",
+    "courses": []
+  },
   "CIS 270": {
     "text": "CIS 171 (min D)",
     "courses": [
       "CIS 171"
+    ]
+  },
+  "CIS 275": {
+    "text": "Completion of CIS 175 with a grade of C or better or Consent of Department Chair.",
+    "courses": [
+      "CIS 175"
     ]
   },
   "CIS 277": {
@@ -2210,6 +3556,19 @@
     "text": "CIS 121",
     "courses": [
       "CIS 121"
+    ]
+  },
+  "CIS 281": {
+    "text": "Grade of C or better in CIS 182, or Consent of Department Chairperson.",
+    "courses": [
+      "CIS 182"
+    ]
+  },
+  "CIS 282": {
+    "text": "Grade of C or better in both CIS 281 and NET TEC 101, or Consent of Department Chairperson",
+    "courses": [
+      "CIS 281",
+      "TEC 101"
     ]
   },
   "CIS 285": {
@@ -2465,6 +3824,103 @@
       "COM 202"
     ]
   },
+  "COM DSGN 132": {
+    "text": "Grade of C or higher in COM DSGN 101 or consent of Department Chairperson",
+    "courses": [
+      "DSGN 101"
+    ]
+  },
+  "COM DSGN 150": {
+    "text": "Grade of C or better in COM DSGN 101 and ART 144 or consent of the Department Chairperson.",
+    "courses": [
+      "DSGN 101",
+      "ART 144"
+    ]
+  },
+  "COM DSGN 202": {
+    "text": "Grade of C or higher in COM DSGN 102 or consent of Department Chairperson",
+    "courses": [
+      "DSGN 102"
+    ]
+  },
+  "COM DSGN 212": {
+    "text": "Grade of C or higher in COM DSGN 101 or consent of Department Chairperson",
+    "courses": [
+      "DSGN 101"
+    ]
+  },
+  "COM DSGN 213": {
+    "text": "Grade of C or better in COM DSGN 212 or consent of Department Chairperson",
+    "courses": [
+      "DSGN 212"
+    ]
+  },
+  "COM DSGN 224": {
+    "text": "Grade of C or better in COM DSGN 101 and ART 144 or consent of the Department Chairperson.",
+    "courses": [
+      "DSGN 101",
+      "ART 144"
+    ]
+  },
+  "COM DSGN 250": {
+    "text": "Grade of C or better in COM DSGN 150 or consent of Department Chairperson.",
+    "courses": [
+      "DSGN 150"
+    ]
+  },
+  "COMPSFI 102": {
+    "text": "Grade C or better in CIS 116 or COMPSFI 101 or NET TEC 121, or Consent of Department Chairperson",
+    "courses": [
+      "CIS 116",
+      "COMPSFI 101",
+      "TEC 121"
+    ]
+  },
+  "COMPSFI 202": {
+    "text": "Grade C or better in COMPSFI 101 or NET TEC 121, or Consent of Department Chairperson",
+    "courses": [
+      "COMPSFI 101",
+      "TEC 121"
+    ]
+  },
+  "COMPSFI 205-1": {
+    "text": "Grade of C or better in COMPSFI 202 -OR- Consent of Department Chairperson.",
+    "courses": [
+      "COMPSFI 202"
+    ]
+  },
+  "COMPSFI 212": {
+    "text": "Grade of C or better in CIS 103 AND COMPSFI 101 -OR- NET TEC 121 -OR- Consent of Department Chairperson.",
+    "courses": [
+      "CIS 103",
+      "COMPSFI 101",
+      "TEC 121"
+    ]
+  },
+  "COMPSFI 213": {
+    "text": "Grade of C or better in COMPSFI 102 -OR- Consent of Department Chairperson.",
+    "courses": [
+      "COMPSFI 102"
+    ]
+  },
+  "COMPSFI 214": {
+    "text": "Grade of C or better in COMPSFI 202 -OR- Consent of Department Chairperson.",
+    "courses": [
+      "COMPSFI 202"
+    ]
+  },
+  "COMPSFI 215": {
+    "text": "Grade of C or better in COMPSFI 102 -OR- Consent of Department Chairperson.",
+    "courses": [
+      "COMPSFI 102"
+    ]
+  },
+  "COMPSFI 216": {
+    "text": "Grade of C or better in COMPSFI 213 -OR- Consent of Department Chairperson.",
+    "courses": [
+      "COMPSFI 213"
+    ]
+  },
   "CONS 153": {
     "text": "CONS 151",
     "courses": [
@@ -2621,6 +4077,81 @@
       "COS 122"
     ]
   },
+  "COSMET 101": {
+    "text": "Eligibility for ENGLISH 96, OR ESLINTG 99 AND FS MATH 3001.",
+    "courses": [
+      "MATH 3001"
+    ]
+  },
+  "COSMET 102": {
+    "text": "Grade of C or better in COSMET 101 OR concurrent enrollment in COSMET 101",
+    "courses": [
+      "COSMET 101"
+    ]
+  },
+  "COSMET 103": {
+    "text": "Grade of C or better in COSMET 102 OR concurrent enrollment in COSMET 102",
+    "courses": [
+      "COSMET 102"
+    ]
+  },
+  "COSMET 104": {
+    "text": "Grade of C or better in COSMET 101. Grade of C or better OR concurrent enrollment in COSMET 102 and COSMET 103.",
+    "courses": [
+      "COSMET 101",
+      "COSMET 102",
+      "COSMET 103"
+    ]
+  },
+  "COSMET 105": {
+    "text": "Grade of C or better in COSMET 101, 102, 103, and completion of or concurrent enrollment in COSMET 104",
+    "courses": [
+      "COSMET 101",
+      "COSMET 104"
+    ]
+  },
+  "COSMET 106": {
+    "text": "Grade of C or better in COSMET 101, 102, 103, 104, and completion of or concurrent enrollment in COSMET 105.",
+    "courses": [
+      "COSMET 101",
+      "COSMET 105"
+    ]
+  },
+  "COSMET 201": {
+    "text": "Grade of C or better in COSMET 101, 102, 103, 104, 105. Grade of C or better OR concurrent enrollment in COSMET 106.",
+    "courses": [
+      "COSMET 101",
+      "COSMET 106"
+    ]
+  },
+  "COSMET 202": {
+    "text": "Grade of C or better in COSMET 101, 102, 103, 104, 105, 106, 201, or concurrent enrollment in COSMET 106 and COSMET 201.",
+    "courses": [
+      "COSMET 101",
+      "COSMET 106",
+      "COSMET 201"
+    ]
+  },
+  "COSMET 211": {
+    "text": "High School Diploma OR GED Certificate required.  Student must be a graduate of an accredited cosmetology school AND possess an active State of IL Cosmetology License.",
+    "courses": []
+  },
+  "COSMET 212": {
+    "text": "High School Diploma OR GED Certificate required.  Student must be a graduate of an accredited cosmetology school AND possess an active State of IL Cosmetology License.",
+    "courses": []
+  },
+  "COSMET 223": {
+    "text": "High School Diploma OR GED Certificate required.  Student must be a graduate of an accredited cosmetology school AND possess an active State of IL Cosmetology License.  Proof of 2 years of salon experience OR Grade of C or better in COSMET 211 and 212.",
+    "courses": [
+      "COSMET 211"
+    ]
+  },
+  "COSMET 224": {
+    "text": "Grade of C or better OR concurrent enrollment in COSMET 223.",
+    "courses": [
+      "COSMET 223"
+    ]
+  },
   "CPS 200": {
     "text": "MAT 201",
     "courses": [
@@ -2645,6 +4176,42 @@
       "RIMJ 1100",
       "RIMJ 1152"
     ]
+  },
+  "CRM JUS 155": {
+    "text": "Grade of C or better in CRM JUS 102, OR Consent of Department Chairperson.",
+    "courses": [
+      "JUS 102"
+    ]
+  },
+  "CRM JUS 202": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "CRM JUS 221": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "CRM JUS 222": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "CRM JUS 234": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "CRM JUS 250": {
+    "text": "Grade of C or better in CRM JUS 102, OR Consent of Department Chairperson.",
+    "courses": [
+      "JUS 102"
+    ]
+  },
+  "CRM JUS 256": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
   },
   "CRMC 100": {
     "text": "BIOL 136 or BOFF 140 or HITT 115 or HITT 101",
@@ -2931,6 +4498,30 @@
       "ANCE 1107"
     ]
   },
+  "DANCE 210": {
+    "text": "Grade of C or better in DANCE 110 or consent of Department Chairperson.",
+    "courses": [
+      "DANCE 110"
+    ]
+  },
+  "DANCE 215": {
+    "text": "Grade of C or better in DANCE 115 or consent of Department Chairperson.",
+    "courses": [
+      "DANCE 115"
+    ]
+  },
+  "DANCE 217": {
+    "text": "Grade of C or better in DANCE 117 or consent of Department Chairperson.",
+    "courses": [
+      "DANCE 117"
+    ]
+  },
+  "DANCE 219": {
+    "text": "Grade of C or better in DANCE 119 or consent of Department Chairperson.",
+    "courses": [
+      "DANCE 119"
+    ]
+  },
   "DASC 131": {
     "text": "TM 002 or TM 001",
     "courses": [
@@ -2979,10 +4570,220 @@
       "EHYG 2221"
     ]
   },
+  "DENTHYG 112": {
+    "text": "Admission to the Dental Hygiene Program.",
+    "courses": []
+  },
+  "DENTHYG 119": {
+    "text": "Concurrent enrollment in DENTHYG 131 and DENTHYG 133.",
+    "courses": [
+      "DENTHYG 131",
+      "DENTHYG 133"
+    ]
+  },
+  "DENTHYG 121": {
+    "text": "Admissions into the Dental Hygiene Program and Successful completion of DENTHYG 112",
+    "courses": [
+      "DENTHYG 112"
+    ]
+  },
+  "DENTHYG 122": {
+    "text": "Grade of C or better in DENTHYG 121 and DENTHYG 123",
+    "courses": [
+      "DENTHYG 121",
+      "DENTHYG 123"
+    ]
+  },
+  "DENTHYG 123": {
+    "text": "Grade of C or better in DENTHYG 112 and concurrent enrollment in DENTHYG 121",
+    "courses": [
+      "DENTHYG 112",
+      "DENTHYG 121"
+    ]
+  },
+  "DENTHYG 124": {
+    "text": "Grade of C or better in DENTHYG 121 and  DENTHYG 123 and concurrent enrollment in DENTHYG 122",
+    "courses": [
+      "DENTHYG 121",
+      "DENTHYG 123",
+      "DENTHYG 122"
+    ]
+  },
+  "DENTHYG 125": {
+    "text": "Admissions into the Dental Hygiene Program",
+    "courses": []
+  },
+  "DENTHYG 126": {
+    "text": "Grade of C or better in DENTHYG 119 and concurrent enrollment in DENTHYG 124.",
+    "courses": [
+      "DENTHYG 119",
+      "DENTHYG 124"
+    ]
+  },
+  "DENTHYG 130": {
+    "text": "Admissions into the Dental Hygiene Program",
+    "courses": []
+  },
+  "DENTHYG 131": {
+    "text": "Admission to the Dental Hygiene Program.",
+    "courses": []
+  },
+  "DENTHYG 132": {
+    "text": "Grade of C or better in DENTHYG 131 and 133.",
+    "courses": [
+      "DENTHYG 131"
+    ]
+  },
+  "DENTHYG 133": {
+    "text": "Admissions into the Dental Hygiene Program",
+    "courses": []
+  },
+  "DENTHYG 135": {
+    "text": "Admission to the Dental Hygiene Program.",
+    "courses": []
+  },
+  "DENTHYG 200": {
+    "text": "Grade of C or better in DENTHYG 122 and DENTHYG 124.",
+    "courses": [
+      "DENTHYG 122",
+      "DENTHYG 124"
+    ]
+  },
+  "DENTHYG 202": {
+    "text": "Advanced standing in the Dental Hygiene program.",
+    "courses": []
+  },
+  "DENTHYG 233": {
+    "text": "Grade of C or better in DENTHYG 131 AND DENTHYG 133.",
+    "courses": [
+      "DENTHYG 131",
+      "DENTHYG 133"
+    ]
+  },
+  "DENTHYG 235": {
+    "text": "Advanced standing in the Dental Hygiene program.",
+    "courses": []
+  },
+  "DENTHYG 241": {
+    "text": "Advanced standing in the Dental Hygiene program.",
+    "courses": []
+  },
+  "DENTHYG 244": {
+    "text": "Advanced standing in the Dental Hygiene program.",
+    "courses": []
+  },
+  "DENTHYG 253": {
+    "text": "Grade of C or better in DENTHYG 200",
+    "courses": [
+      "DENTHYG 200"
+    ]
+  },
+  "DENTHYG 255": {
+    "text": "Grade of C or better in DENTHYG 200",
+    "courses": [
+      "DENTHYG 200"
+    ]
+  },
+  "DENTHYG 256": {
+    "text": "Grade of C or better in DENTHYG 235.",
+    "courses": [
+      "DENTHYG 235"
+    ]
+  },
+  "DENTHYG 257": {
+    "text": "Successful completion of DENTHYG 253 and DENTHYG 255 with a grade of C or higher.",
+    "courses": [
+      "DENTHYG 253",
+      "DENTHYG 255"
+    ]
+  },
+  "DENTHYG 258": {
+    "text": "Admission to the Dental Hygiene Program/Plan 222 and Consent of Department Chairperson.",
+    "courses": []
+  },
+  "DENTHYG 259": {
+    "text": "Successful completion of DENTHYG 253 and DENTHYG 255 with a grade of C or higher.",
+    "courses": [
+      "DENTHYG 253",
+      "DENTHYG 255"
+    ]
+  },
+  "DENTHYG 260": {
+    "text": "Advanced standing in the Dental Hygiene program.",
+    "courses": []
+  },
   "DISN 200": {
     "text": "DISN 100",
     "courses": [
       "DISN 100"
+    ]
+  },
+  "DMD 105": {
+    "text": "Grade C or better in ENGLISH 101, ART 131 recommended or taken concurrently, or consent of department chair.",
+    "courses": [
+      "ENGLISH 101",
+      "ART 131"
+    ]
+  },
+  "DMD 115": {
+    "text": "Grade of C or better in ENGLISH 101.",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "DMD 121": {
+    "text": "Grade of C or better in ENGLISH 101 and DMD 168-1, or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "DMD 168"
+    ]
+  },
+  "DMD 130": {
+    "text": "Eligibility for ENGLISH 101, CIS 120 OR Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "CIS 120"
+    ]
+  },
+  "DMD 131-1": {
+    "text": "Eligibility for ENGLISH 101, DMD 130, AND DMD 168, or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "DMD 130",
+      "DMD 168"
+    ]
+  },
+  "DMD 168-1": {
+    "text": "Eligibility for ENGLISH 101; or consent of department chairperson.",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "DMD 179": {
+    "text": "Eligibility for ENGLISH 101, CIS 120 or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "CIS 120"
+    ]
+  },
+  "DMD 205": {
+    "text": "Grade of C or better in ENGLISH 101, working knowledge of Macintosh platform, DMD 105 required, or Consent of Department Chairperson",
+    "courses": [
+      "ENGLISH 101",
+      "DMD 105"
+    ]
+  },
+  "DMD 268-1": {
+    "text": "Grade of C or better in DMD 168, or Consent of Department Chairperson.",
+    "courses": [
+      "DMD 168"
+    ]
+  },
+  "DMD 279": {
+    "text": "Grade of C or better in DMD 115 OR DMD 179, OR Consent of Department Chairperson.",
+    "courses": [
+      "DMD 115",
+      "DMD 179"
     ]
   },
   "DMIN 2200": {
@@ -3381,6 +5182,18 @@
       "ECO 101"
     ]
   },
+  "ECON 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ECON 202": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "ED 212": {
     "text": "ENG 099",
     "courses": [
@@ -3394,15 +5207,27 @@
     ]
   },
   "EDUC 101": {
-    "text": "ENGL 121",
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
     "courses": [
-      "ENGL 121"
+      "ENGLISH 101"
+    ]
+  },
+  "EDUC 101-1": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "EDUC 103": {
     "text": "ENGL 121",
     "courses": [
       "ENGL 121"
+    ]
+  },
+  "EDUC 122": {
+    "text": "Enrollment in Program/Plan 0443-Learning Behavior Specialist I -BC  Grade of C or better in EDUC 120 and 121.",
+    "courses": [
+      "EDUC 120"
     ]
   },
   "EDUC 160": {
@@ -3417,16 +5242,108 @@
       "EDUC 230"
     ]
   },
+  "EDUC 171": {
+    "text": "Enrollment in the Early Childhood Special Education Basic Certificate Program.",
+    "courses": []
+  },
+  "EDUC 172": {
+    "text": "Enrollment in the Early Childhood Special Education Basic Certificate Program.",
+    "courses": []
+  },
   "EDUC 201": {
     "text": "ENGL 121",
     "courses": [
       "ENGL 121"
     ]
   },
+  "EDUC 203": {
+    "text": "Grade of C or better in PSYCH 201, or Consent of Department Chairperson.",
+    "courses": [
+      "PSYCH 201"
+    ]
+  },
   "EDUC 207": {
     "text": "ENGL 121",
     "courses": [
       "ENGL 121"
+    ]
+  },
+  "EDUC 220": {
+    "text": "Completion of ENGLISH 101 with a grade of C or better",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "EDUC 220-1": {
+    "text": "Completion of ENGLISH 101 with a grade of C or better",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "EDUC 221": {
+    "text": "Completion of or concurrent enrollment in EDUC 220",
+    "courses": [
+      "EDUC 220"
+    ]
+  },
+  "EDUC 221-1": {
+    "text": "Completion of or concurrent enrollment in EDUC 220",
+    "courses": [
+      "EDUC 220"
+    ]
+  },
+  "EDUC 222": {
+    "text": "Completion of or concurrent enrollment in EDUC 220",
+    "courses": [
+      "EDUC 220"
+    ]
+  },
+  "EDUC 222-1": {
+    "text": "Completion of or concurrent enrollment in EDUC 220",
+    "courses": [
+      "EDUC 220"
+    ]
+  },
+  "EDUC 223": {
+    "text": "Completion of or concurrent enrollment in EDUC 220",
+    "courses": [
+      "EDUC 220"
+    ]
+  },
+  "EDUC 223-1": {
+    "text": "Completion of or concurrent enrollment in EDUC 220",
+    "courses": [
+      "EDUC 220"
+    ]
+  },
+  "EDUC 224": {
+    "text": "Completion of ENGLISH 101 with a grade of C or better",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "EDUC 224-1": {
+    "text": "Completion of ENGLISH 101 with a grade of C or better",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "EDUC 225": {
+    "text": "Completion of EDUC 220, EDUC 221, EDUC 223, EDUC 224 with a grade of C or better",
+    "courses": [
+      "EDUC 220",
+      "EDUC 221",
+      "EDUC 223",
+      "EDUC 224"
+    ]
+  },
+  "EDUC 225-1": {
+    "text": "Completion of EDUC 220, EDUC 221, EDUC 223, EDUC 224 with a grade of C or better",
+    "courses": [
+      "EDUC 220",
+      "EDUC 221",
+      "EDUC 223",
+      "EDUC 224"
     ]
   },
   "EDUC 230": {
@@ -3707,12 +5624,57 @@
       "EMS 223"
     ]
   },
+  "EMT 100": {
+    "text": "Placement examination or successful completion of English 96",
+    "courses": []
+  },
+  "EMT 101": {
+    "text": "Eligibility for ENGLISH 101 or successful completion of EMT 100 with a C or better.",
+    "courses": [
+      "ENGLISH 101",
+      "EMT 100"
+    ]
+  },
+  "EMT 212": {
+    "text": "Admission into the EMT-P Paramedic Program; Concurrent enrollment in EMS 222; Current EMT-B Illinois State License and consent of the Program Director.",
+    "courses": [
+      "EMS 222"
+    ]
+  },
+  "EMT 213": {
+    "text": "Successful completion of EMT 212 and EMT 222. Concurrent enrollment in EMT 224",
+    "courses": [
+      "EMT 212",
+      "EMT 222",
+      "EMT 224"
+    ]
+  },
   "EMT 215": {
     "text": "RDG 082 and ENG 098 or ENG 099",
     "courses": [
       "RDG 082",
       "ENG 098",
       "ENG 099"
+    ]
+  },
+  "EMT 222": {
+    "text": "Concurrent enrollment in EMT 212",
+    "courses": [
+      "EMT 212"
+    ]
+  },
+  "EMT 224": {
+    "text": "Successful completion of EMT 212 and EMT 222. Concurrent enrollment in EMT 213.",
+    "courses": [
+      "EMT 212",
+      "EMT 222",
+      "EMT 213"
+    ]
+  },
+  "EMT 227-1": {
+    "text": "Successful completion of the core curriculum (EMT 212, 222, 213 and 224). Re-entry students are considered on an individual basis consistent with the Region XI re-entry policy.",
+    "courses": [
+      "EMT 212"
     ]
   },
   "ENG 0090": {
@@ -3913,6 +5875,201 @@
       "NGLI 1154"
     ]
   },
+  "ENGLISH 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or RTW, ACT, SAT, GED, or HiSET test scores, or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 102": {
+    "text": "Grade of C or better in ENGLISH 101.",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 105": {
+    "text": "Grade of C or better in ENGLISH 101 or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 111": {
+    "text": "Grade of C or better in ENGLISH 101 or consent of department chairperson.",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 151": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 152": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 197": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 207": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 241": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 243": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 245": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 247": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 276": {
+    "text": "Grade of C or better in ENGLISH 101",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGLISH 96": {
+    "text": "Placement into ARC as determined by the CCC Placement Test, the RTW (Read to Write), successful completion of the course immediately preceding ARC in the course sequence based on departmental, faculty-approved assessment, or Consent of Department.",
+    "courses": []
+  },
+  "ENGLISH 97": {
+    "text": "CCCRTW score of 5+, a grade of C or better in ENGLISH 96/INTCOMM 100/BOTH ENGLISH 100 AND READING 125, or consent of department. All students enrolled in a section of ENGLISH 97 MUST also register for the corresponding section of ENGLISH 101.",
+    "courses": [
+      "INTCOMM 100",
+      "ENGLISH 100",
+      "READING 125",
+      "ENGLISH 101"
+    ]
+  },
+  "ENGR 111": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ENGR 131": {
+    "text": "ENGR 111 or Consent of Department Chairperson.",
+    "courses": [
+      "ENGR 111"
+    ]
+  },
+  "ENGR 132": {
+    "text": "Grade of C or better in ENGR 131, or Consent of Department Chairperson.",
+    "courses": [
+      "ENGR 131"
+    ]
+  },
+  "ENGR 190": {
+    "text": "Eligibility for MATH 208.",
+    "courses": [
+      "MATH 208"
+    ]
+  },
+  "ENGR 202": {
+    "text": "Grade of C or better in ENGR 131, or Consent of Department Chairperson.",
+    "courses": [
+      "ENGR 131"
+    ]
+  },
+  "ENGR 215": {
+    "text": "Grade of C or better in PHYSICS 236, MATH 209 and credit or concurrent enrollment in MATH 210",
+    "courses": [
+      "PHYSICS 236",
+      "MATH 209",
+      "MATH 210"
+    ]
+  },
+  "ENGR 225": {
+    "text": "Grade of C or better in PHYSICS 235 (Engineering Physics I) and MATH 208 (Calculus and Analytical Geometry II), or Consent of Department Chairperson.",
+    "courses": [
+      "PHYSICS 235",
+      "MATH 208"
+    ]
+  },
+  "ENTRE 201": {
+    "text": "Eligibility for ENGLISH 101 and MATH 118, or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "MATH 118"
+    ]
+  },
+  "ESLINTG 100": {
+    "text": "ESL Placement Test or Grade of C or better in ESLINTG 99, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "ESLINTG 98": {
+    "text": "ESL Placement Test or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "ESLINTG 99": {
+    "text": "ESL Placement Test or Grade of C or better in ESLINTG 98, or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "ESLREAD 98": {
+    "text": "ESL Placement test, or consent of Department Chairperson.",
+    "courses": []
+  },
+  "ESLREAD 99": {
+    "text": "ESL Placement test, or grade of C or better in ESLREAD 98, or consent of Department Chairperson.",
+    "courses": []
+  },
+  "ESLSPCH 98": {
+    "text": "ESL Placement test, or consent of Department Chairperson.",
+    "courses": []
+  },
+  "ESLSPCH 99": {
+    "text": "ESL Placement test, or grade of C or better in ESLSPCH 98, or consent of Department Chairperson.",
+    "courses": []
+  },
+  "ESSS 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ESSS 102": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ESSS 103": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "ESSS 112": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "FASHI 1202": {
     "text": "ASHI 1201",
     "courses": [
@@ -3948,6 +6105,54 @@
     "courses": [
       "ASHI 1531",
       "ASHI 1210"
+    ]
+  },
+  "FIN ART 104": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "FIN ART 107": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "FIN ART 108": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "FIN ART 111": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "FIN ART 112": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "FIN ART 113": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "FIN ART 114": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "FIN ART 115": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "FIR 122": {
@@ -4043,6 +6248,101 @@
       "FIRE 2271"
     ]
   },
+  "FIREMGT 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "FIREMGT 102": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "FIREMGT 103": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "FIREMGT 104": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "FIREMGT 106": {
+    "text": "Grade of C or better in FIREMGT 101,  or FIREMGT 102, or FIREMGT 103, or consent of Program Coordinator.",
+    "courses": [
+      "FIREMGT 101",
+      "FIREMGT 102",
+      "FIREMGT 103"
+    ]
+  },
+  "FIREMGT 111": {
+    "text": "Grade of C or better in FIREMGT 101,  or FIREMGT 102, or FIREMGT 103, or consent of Program Coordinator.",
+    "courses": [
+      "FIREMGT 101",
+      "FIREMGT 102",
+      "FIREMGT 103"
+    ]
+  },
+  "FIREMGT 197": {
+    "text": "Grade of C or better in FIREMGT 101, 102, 103 or 104 OR Consent of Program Coordinator.",
+    "courses": [
+      "FIREMGT 101"
+    ]
+  },
+  "FIREMGT 200": {
+    "text": "Grade of C or better in OR concurrent enrollment in FIREMGT 101, 102, or 103 or admission to the Fire Officer Training Program; or Consent of Program Coordinator.",
+    "courses": [
+      "FIREMGT 101"
+    ]
+  },
+  "FIREMGT 201": {
+    "text": "Grade of C or better in FIREMGT 101,  or FIREMGT 102, or FIREMGT 103, or consent of Program Coordinator.",
+    "courses": [
+      "FIREMGT 101",
+      "FIREMGT 102",
+      "FIREMGT 103"
+    ]
+  },
+  "FIREMGT 202": {
+    "text": "Grade of C or better in FIREMGT 101,  or FIREMGT 102, or FIREMGT 103, or consent of Program Coordinator.",
+    "courses": [
+      "FIREMGT 101",
+      "FIREMGT 102",
+      "FIREMGT 103"
+    ]
+  },
+  "FIREMGT 203": {
+    "text": "Grade of C or better in FIREMGT 101,  or FIREMGT 102, or FIREMGT 103, or consent of Program Coordinator.",
+    "courses": [
+      "FIREMGT 101",
+      "FIREMGT 102",
+      "FIREMGT 103"
+    ]
+  },
+  "FIREMGT 207": {
+    "text": "Eligibility for ENG 101 based on prior coursework or CCCRTW, ACT, SAT, GED, or HiSET test scores AND a grade of C or better in any: FIREMGT 101, FIREMGT 102, FIREMGT 103, FIREMGT 104, EMT 101, or higher EMT class, or Consent of Program Director.",
+    "courses": [
+      "ENG 101",
+      "FIREMGT 101",
+      "FIREMGT 102",
+      "FIREMGT 103",
+      "FIREMGT 104",
+      "EMT 101"
+    ]
+  },
+  "FIREMGT 210": {
+    "text": "Grade of C or better in FIREMGT 101,  or FIREMGT 102, or FIREMGT 103, or consent of Program Coordinator.",
+    "courses": [
+      "FIREMGT 101",
+      "FIREMGT 102",
+      "FIREMGT 103"
+    ]
+  },
   "FIS 220": {
     "text": "FIS 221 and FIS 215",
     "courses": [
@@ -4076,6 +6376,54 @@
       "FRE 101"
     ]
   },
+  "FRENCH 102": {
+    "text": "Placement test, or grade of C or better in FRENCH 101",
+    "courses": [
+      "FRENCH 101"
+    ]
+  },
+  "FRENCH 103": {
+    "text": "Placement test, or grade of C or better in FRENCH 102 or Consent of Department Chairperson.",
+    "courses": [
+      "FRENCH 102"
+    ]
+  },
+  "FRENCH 104": {
+    "text": "Placement test or grade of C or better in FRENCH 103 or Consent of Department Chairperson.",
+    "courses": [
+      "FRENCH 103"
+    ]
+  },
+  "FS MATH 3001": {
+    "text": "Must be taken concurrently with FS MATH 3002.",
+    "courses": [
+      "MATH 3002"
+    ]
+  },
+  "FS MATH 3002": {
+    "text": "Must be taken concurrently with FS MATH 3001.",
+    "courses": [
+      "MATH 3001"
+    ]
+  },
+  "FS READ 1004": {
+    "text": "CCCRTW 1+ and COR FS READ 1005",
+    "courses": [
+      "READ 1005"
+    ]
+  },
+  "FS READ 1005": {
+    "text": "Co-Req of FS Read 1004",
+    "courses": []
+  },
+  "FS READ 1006": {
+    "text": "CCCRTW 1+",
+    "courses": []
+  },
+  "FS WRIT 93": {
+    "text": "Placement into FSL is determined by the CCC Placement Test, or consent of Department Chairperson in collaboration with the FSL Coordinator. CCC Reading to Write score of 1 is required.",
+    "courses": []
+  },
   "FST 129": {
     "text": "FST 119",
     "courses": [
@@ -4088,16 +6436,110 @@
       "FST 129"
     ]
   },
+  "GAME 106": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "GAME 109": {
+    "text": "Grade of C or better in COM DSGN 101 or Consent of Department Chairperson.",
+    "courses": [
+      "DSGN 101"
+    ]
+  },
+  "GAME 153": {
+    "text": "Grade of C or better in GAME 105 or Consent of Department Chairperson.",
+    "courses": [
+      "GAME 105"
+    ]
+  },
+  "GAME 160": {
+    "text": "Grade of C or better in ENGLISH 101 AND GAME 105 or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "GAME 105"
+    ]
+  },
+  "GAME 209": {
+    "text": "Grade of C or better in GAME 109 or Consent of Department Chairperson.",
+    "courses": [
+      "GAME 109"
+    ]
+  },
+  "GAME 241": {
+    "text": "Grade of C or better in ENGLISH 101 AND GAME 105 or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "GAME 105"
+    ]
+  },
+  "GAME 253": {
+    "text": "Grade of C or better in GAME 153, or enrollment in the Unity Programming BC, or Consent of Department Chairperson.",
+    "courses": [
+      "GAME 153"
+    ]
+  },
+  "GAME 254": {
+    "text": "Grade of C or better in MATH 118 or higher AND GAME 153; or enrollment in the Unity Programming BC; or Consent of Department Chairperson.",
+    "courses": [
+      "MATH 118",
+      "GAME 153"
+    ]
+  },
+  "GAME 259": {
+    "text": "Grade of C or better in ENGLISH 101 AND GAME 253 or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "GAME 253"
+    ]
+  },
+  "GAME 260": {
+    "text": "Grade of C or better in GAME 160 or Consent of Department Chairperson.",
+    "courses": [
+      "GAME 160"
+    ]
+  },
+  "GAME 299": {
+    "text": "Grade of C or better in GAME 254 or Consent of Department Chairperson.",
+    "courses": [
+      "GAME 254"
+    ]
+  },
+  "GEOG 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "GEOG 102": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "GEOG 134": {
     "text": "ENGL 101",
     "courses": [
       "ENGL 101"
     ]
   },
+  "GEOG 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "GEOGR 1154": {
     "text": "EOGR 1153",
     "courses": [
       "EOGR 1153"
+    ]
+  },
+  "GEOLOGY 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "GER 201": {
@@ -4181,6 +6623,48 @@
       "ART 1101"
     ]
   },
+  "GWSS 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "GWSS 102": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "GWSS 103": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "GWSS 203": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "GWSS 204": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "GWSS 205": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "GWSS 220": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "HAC 0113": {
     "text": "BEL 0161",
     "courses": [
@@ -4236,6 +6720,47 @@
     "courses": [
       "HBW 102"
     ]
+  },
+  "HDFS 202": {
+    "text": "Grade of C or better in CHLD DV 101 and CHLD DV 102.",
+    "courses": [
+      "DV 101",
+      "DV 102"
+    ]
+  },
+  "HDFS 203": {
+    "text": "Grade of C or better in CHLD DV 101.",
+    "courses": [
+      "DV 101"
+    ]
+  },
+  "HDFS 211": {
+    "text": "Grade of C or better in CHLD DV 101 and ENGLISH 101.",
+    "courses": [
+      "DV 101",
+      "ENGLISH 101"
+    ]
+  },
+  "HDFS 214": {
+    "text": "Completed and accepted application, Grade of C or better on CHLD DV 101-1, CHLD DV 102, ENGLISH 101, and HDFS 211",
+    "courses": [
+      "DV 101",
+      "DV 102",
+      "ENGLISH 101",
+      "HDFS 211"
+    ]
+  },
+  "HDFS 215": {
+    "text": "Completed and accepted application, Grade of C or better on CHLD DV 101-1, CHLD DV 102, ENGLISH 101, and all HDFS courses",
+    "courses": [
+      "DV 101",
+      "DV 102",
+      "ENGLISH 101"
+    ]
+  },
+  "HEAPRO 102": {
+    "text": "Eligibility for ENGLISH 96 or consent of Program Director or Department Chairperson.",
+    "courses": []
   },
   "HIA 124": {
     "text": "HIA 115 and HIA 128",
@@ -4324,6 +6849,84 @@
       "ENGL 101"
     ]
   },
+  "HISTORY 111": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 112": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 113": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 114": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 115": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 117": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 141": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 142": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 213": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 215": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 216": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 247": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HISTORY 248": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "HIT 0105": {
     "text": "COM 0111 and HIT 0100 and SPC 0111 (min C) or SPC 0210 (min C)",
     "courses": [
@@ -4333,16 +6936,48 @@
       "SPC 0210"
     ]
   },
-  "HIT 103": {
-    "text": "RDG 082 (min C)",
+  "HIT 101": {
+    "text": "ENGLISH 101 eligibility, Eligibility of MATH 90 or MATH 98 or higher. Concurrent enrollment in or prior Completion of BIOLOGY 116 or BIOLOGY 226 and 227 with a grade of C or higher. Concurrent enrollment or prior Completion of CIS 120.",
     "courses": [
-      "RDG 082"
+      "ENGLISH 101",
+      "BIOLOGY 116",
+      "BIOLOGY 226",
+      "CIS 120"
+    ]
+  },
+  "HIT 102": {
+    "text": "Eligible for ENGLISH 101 and MATH 90, enrollment or completion of HIT 101 and 110 with a grade of C or higher, enrollment or completion of BIOLOGY 116 or BIOLOGY 226 and 227 with grade of C or higher, enrollment or completion of CIS 120.",
+    "courses": [
+      "ENGLISH 101",
+      "HIT 101",
+      "BIOLOGY 116",
+      "BIOLOGY 226",
+      "CIS 120"
+    ]
+  },
+  "HIT 103": {
+    "text": "ENGLISH 101 eligibility. Eligibility for MATH 90 or MATH 98 or higher, Completion of BIOLOGY 116 or BIOLOGY 226 and 227 with a grade of C or higher, Completion of CIS 120 with a grade of C or higher, Enrollment or Completion of HIT 201.",
+    "courses": [
+      "ENGLISH 101",
+      "BIOLOGY 116",
+      "BIOLOGY 226",
+      "CIS 120",
+      "HIT 201"
+    ]
+  },
+  "HIT 104": {
+    "text": "Current enrollment in or prior completion of HIT 103 and HIT 201 with a grade of C or higher",
+    "courses": [
+      "HIT 103",
+      "HIT 201"
     ]
   },
   "HIT 105": {
-    "text": "HIT 104 (min C)",
+    "text": "Grade of C or higher or concurrent enrollment in HIT 101 and HIT 110. Grade of C or higher in Biology 116 or Biology 226/227 or concurrent enrollment. Grade of C or higher in CIS 120 or concurrent enrollment.",
     "courses": [
-      "HIT 104"
+      "HIT 101",
+      "HIT 110",
+      "CIS 120"
     ]
   },
   "HIT 108": {
@@ -4352,6 +6987,21 @@
       "BIO 114",
       "BIO 232",
       "BIO 132"
+    ]
+  },
+  "HIT 109": {
+    "text": "Enrollment in or completion of HIT 203 with a grade of C or higher.",
+    "courses": [
+      "HIT 203"
+    ]
+  },
+  "HIT 110": {
+    "text": "ENGLISH 101 eligibility, Eligibility of MATH 90 or MATH 98 or higher. Concurrent enrollment in or prior Completion of BIOLOGY 116 or BIOLOGY 226 and 227 with a grade of C or higher. Concurrent enrollment or prior Completion of CIS 120.",
+    "courses": [
+      "ENGLISH 101",
+      "BIOLOGY 116",
+      "BIOLOGY 226",
+      "CIS 120"
     ]
   },
   "HIT 115": {
@@ -4423,6 +7073,52 @@
       "BIO 232"
     ]
   },
+  "HIT 201": {
+    "text": "Grade of C or higher or concurrent enrollment in HIT 103",
+    "courses": [
+      "HIT 103"
+    ]
+  },
+  "HIT 203": {
+    "text": "Grade of C or higher or concurrent enrollment in HIT 109",
+    "courses": [
+      "HIT 109"
+    ]
+  },
+  "HIT 204": {
+    "text": "Grade of C or higher or concurrent enrollment in HIT 213 and HIT 214. Grade of C or higher or concurrent enrollment in HIT 222",
+    "courses": [
+      "HIT 213",
+      "HIT 214",
+      "HIT 222"
+    ]
+  },
+  "HIT 213": {
+    "text": "Grade of C or higher or concurrent enrollment in HIT 214",
+    "courses": [
+      "HIT 214"
+    ]
+  },
+  "HIT 214": {
+    "text": "Corequisite HIT 213",
+    "courses": [
+      "HIT 213"
+    ]
+  },
+  "HIT 221": {
+    "text": "Corequisite HIT 108",
+    "courses": [
+      "HIT 108"
+    ]
+  },
+  "HIT 222": {
+    "text": "Current enrollment in HIT 204, HIT 213, and HIT 214 or prior completion with C or higher",
+    "courses": [
+      "HIT 204",
+      "HIT 213",
+      "HIT 214"
+    ]
+  },
   "HIT 223": {
     "text": "HIT 216",
     "courses": [
@@ -4475,6 +7171,74 @@
     "text": "LTHS 1126",
     "courses": [
       "LTHS 1126"
+    ]
+  },
+  "HMGT 222": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98 or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "HMGT 223": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98 or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "HMGT 224": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98 or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "HMGT 724": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98 or consent of Department Chairperson.",
+    "courses": []
+  },
+  "HMGT 806": {
+    "text": "Eligibility for ENGLISH 96 AND MATH 98.",
+    "courses": []
+  },
+  "HMGT 807": {
+    "text": "Eligibility for ENGLISH 96 AND MATH 98.",
+    "courses": []
+  },
+  "HMGT 808": {
+    "text": "Eligibility for ENGLISH 96 AND MATH 98.",
+    "courses": []
+  },
+  "HMGT 810": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98.  Grade of C or better in HMGT 806,807,808, 330CUL 700,701,703,705,708 and 723, OR Consent of Department Chairperson",
+    "courses": [
+      "HMGT 806"
+    ]
+  },
+  "HMGT 812": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98.  Grade of C or better in HMGT 806,807, 808, 330cul 700,701,703,705,708, and 723 OR Consent of Department Chairperson.",
+    "courses": [
+      "HMGT 806"
+    ]
+  },
+  "HMGT 814": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98.  Grade of C or better in HMGT 806,807,808, 330CUL 700,701,703,705,708 AND 723, OR Consent of Department Chairperson.",
+    "courses": [
+      "HMGT 806",
+      "AND 723"
+    ]
+  },
+  "HMGT 816": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98.  Grade of C or better in HMGT 806,807,808, AND 330CUL 700,701,703,705,708, AND 723, OR Consent of Department Chairperson.",
+    "courses": [
+      "HMGT 806",
+      "AND 723"
+    ]
+  },
+  "HMGT 830": {
+    "text": "Eligibility for ENGLISH 96 and MATH 98.  Grade of C or better in HMGT 806,807,808, AND 330CUL 700,701,703,705,708 and 723, OR Consent of Department Chairperson.",
+    "courses": [
+      "HMGT 806"
+    ]
+  },
+  "HMGT 860": {
+    "text": "Grade of C or better in CUL 701,703,705,708,723 or Grade of C or better in BKPS 767,768,769,770,771 or Grade of C or better in HMGT 806,807,808,812.",
+    "courses": [
+      "CUL 701",
+      "BKPS 767",
+      "HMGT 806"
     ]
   },
   "HORT 1110": {
@@ -4544,6 +7308,36 @@
       "HTC 101"
     ]
   },
+  "HUM 123": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 143": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 144": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 145": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 146": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "HUM 150": {
     "text": "ENG 089 or ENG 109 or ENG 099 or ENG 103",
     "courses": [
@@ -4551,6 +7345,60 @@
       "ENG 109",
       "ENG 099",
       "ENG 103"
+    ]
+  },
+  "HUM 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 202": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 205": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 207": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 208": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 209": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 210": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 212": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "HUM 215": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "HUMAN 1152": {
@@ -4815,6 +7663,22 @@
       "COM 101"
     ]
   },
+  "INTDSP 102": {
+    "text": "Eligibility for English 096 or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "INTDSP 102-1": {
+    "text": "Eligibility for English 096 or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "INTDSP 299": {
+    "text": "Eligibility for English 101 AND Consent of Department Chairperson.",
+    "courses": []
+  },
+  "INTDSP 299-1": {
+    "text": "Eligibility for English 101 AND Consent of Department Chairperson.",
+    "courses": []
+  },
   "INTER 1170": {
     "text": "NTER 1110",
     "courses": [
@@ -4972,6 +7836,12 @@
     "text": "ENG 099",
     "courses": [
       "ENG 099"
+    ]
+  },
+  "JAPANES 102": {
+    "text": "Placement test, or JAPANES 101, or Consent of Department Chairperson.",
+    "courses": [
+      "JAPANES 101"
     ]
   },
   "JPN 102": {
@@ -5145,10 +8015,146 @@
       "IBRA 1101"
     ]
   },
+  "LING 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LING 102": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIS 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIS 105": {
+    "text": "Placement into ARC as determined by the CCC Placement Test, the RTW (Read to Write), successful completion of the course immediately preceding ARC in the course sequence based on departmental, faculty-approved assessment, or Consent of Department.",
+    "courses": []
+  },
+  "LIT 110": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 111": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 112": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 113": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 115": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 117": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 118": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 119": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 121": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 122": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 126": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 128": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 129": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 130": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 137": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 150": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 152": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "LIT 155": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "LIT 205": {
     "text": "COM 101",
     "courses": [
       "COM 101"
+    ]
+  },
+  "LIT 211": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "LIT 213": {
@@ -5755,10 +8761,33 @@
       "MATH 114"
     ]
   },
+  "MATH 121": {
+    "text": "A minimum grade  of C in MATH 97 or MATH 99;  or appropriate score on Placement Test;  or  Consent of Department Chair.",
+    "courses": []
+  },
+  "MATH 122": {
+    "text": "Grade of C or better in MATH 121, or Consent of Department Chairperson.",
+    "courses": [
+      "MATH 121"
+    ]
+  },
+  "MATH 124": {
+    "text": "A minimum grade of C in one of the following: MATH 90, MATH 97, MATH 99, or MATH 100; or a minimum grade of 'C' in MATH 98 AND concurrent or successful completion of MATH 24; or appropriate score on Placement Test; or Consent of Department Chair.",
+    "courses": [
+      "MATH 100"
+    ]
+  },
   "MATH 125": {
     "text": "MATH 111",
     "courses": [
       "MATH 111"
+    ]
+  },
+  "MATH 125-1": {
+    "text": "A min grade of C in one of the following courses: MATH 90 or MATH 97 or MATH 99 or MATH 100; or a minimum grade of C in MATH 98 AND concurrent or successful completion of MATH 025; or appropriate score on Placement Test; or Consent of Department Chair.",
+    "courses": [
+      "MATH 100",
+      "MATH 025"
     ]
   },
   "MATH 138": {
@@ -5768,11 +8797,25 @@
       "TM 001"
     ]
   },
+  "MATH 140": {
+    "text": "Completion of MATH 99 with a C or better, or Completion of MATH 97 AND Concurrent Enrollment in MATH 40; or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": []
+  },
+  "MATH 141": {
+    "text": "Completion of MATH 140 with a C or better, or ALEKS math score of 61+, or ACT Math 24+, or SAT Math 580+, or Consent of department.",
+    "courses": [
+      "MATH 140"
+    ]
+  },
   "MATH 1428": {
     "text": "MATH 0482",
     "courses": [
       "MATH 0482"
     ]
+  },
+  "MATH 143": {
+    "text": "Completion of MATH 99 or higher with a C or better, or Completion of  MATH 97 AND Concurrent Enrollment in  MATH 40; or appropriate score on Placement Test; or  Consent of Department Chair.",
+    "courses": []
   },
   "MATH 1432": {
     "text": "MATH 1431",
@@ -5780,11 +8823,23 @@
       "MATH 1431"
     ]
   },
+  "MATH 144": {
+    "text": "Completion of MATH 140 with a C or better, or ALEKS math score of 61+, or ACT Math 24+, or SAT Math 580+, or Consent of department.",
+    "courses": [
+      "MATH 140"
+    ]
+  },
   "MATH 145": {
     "text": "TM 002 or TM 001",
     "courses": [
       "TM 002",
       "TM 001"
+    ]
+  },
+  "MATH 146": {
+    "text": "Completion of MATH 140 with a C or better, or ALEKS math score of 61+, or ACT Math 24+, or SAT Math 580+, or Consent of department.",
+    "courses": [
+      "MATH 140"
     ]
   },
   "MATH 1533": {
@@ -5802,11 +8857,60 @@
       "MATH 1533"
     ]
   },
+  "MATH 18": {
+    "text": "Concurrent enrollment in linked MATH 118, eligibility for MATH 99 or equivalent and eligibility for ENGLISH 96 or equivalent or consent of Department Chairperson.",
+    "courses": [
+      "MATH 118"
+    ]
+  },
+  "MATH 204-1": {
+    "text": "Completion of MATH 140 with a C or better, or ALEKS math score of 61+, or ACT Math 24+, or SAT Math 580+, or Consent of department.",
+    "courses": [
+      "MATH 140"
+    ]
+  },
+  "MATH 204-2": {
+    "text": "Completion of MATH 140 with a C or better, or ALEKS math score of 61+, or ACT Math 24+, or SAT Math 580+, or Consent of department.",
+    "courses": [
+      "MATH 140"
+    ]
+  },
+  "MATH 207": {
+    "text": "Completion of MATH 140, 141 with a C or better, or completion of MATH 143 with a C or better, or ALEKS score of 76+, or ACT Math 24+, or SAT Math 580+",
+    "courses": [
+      "MATH 140",
+      "MATH 143"
+    ]
+  },
+  "MATH 208": {
+    "text": "Grade of C or better in MATH 207, or Consent of Department Chairperson.",
+    "courses": [
+      "MATH 207"
+    ]
+  },
+  "MATH 209": {
+    "text": "Grade of C or better in MATH 208, or Consent of Department Chairperson.",
+    "courses": [
+      "MATH 208"
+    ]
+  },
+  "MATH 210": {
+    "text": "Grade of C or better in MATH 208, or Consent of Department Chairperson.",
+    "courses": [
+      "MATH 208"
+    ]
+  },
   "MATH 2115": {
     "text": "MATH 1428 or MATH 1431",
     "courses": [
       "MATH 1428",
       "MATH 1431"
+    ]
+  },
+  "MATH 212": {
+    "text": "Grade of C or better in MATH 208, or Consent of Department Chairperson.",
+    "courses": [
+      "MATH 208"
     ]
   },
   "MATH 2134": {
@@ -5853,6 +8957,49 @@
       "MATH 2233"
     ]
   },
+  "MATH 24": {
+    "text": "Concurrent enrollment in Math 124, eligibility for Math 99 or equivalent and eligibility for English 96 or equivalent or consent of Department Chairperson.",
+    "courses": []
+  },
+  "MATH 25": {
+    "text": "Concurrent enrollment in linked MATH 125, eligibility for MATH 99 or equivalent and eligibility for ENGLISH 96 or equivalent or consent of Department Chairperson.",
+    "courses": [
+      "MATH 125"
+    ]
+  },
+  "MATH 40": {
+    "text": "Concurrent enrollment in linked Math 140 or Math 143; completion of Math 097 or higher with a C or better; or eligibility for Math 118, 121 and eligibility for ENGLISH 96; or appropriate score on Placement Test; or consent of Department Chairperson.",
+    "courses": []
+  },
+  "MATH 7": {
+    "text": "Completion of Math 97 with a grade of TMP",
+    "courses": []
+  },
+  "MATH 90": {
+    "text": "Completion of FS MATH 3001,3002 with a grade of S, or ALEKS math score of 20+, or GED MATH score of 145+, or HiSET MATH score of 8+ AND Eligibility for ENGLISH 96, or consent of dept.",
+    "courses": [
+      "MATH 3001"
+    ]
+  },
+  "MATH 97": {
+    "text": "Completion of FS MATH 3000 with a grade of S, or ALEKS math score of 20+, GED 150, HiSet 10",
+    "courses": [
+      "MATH 3000",
+      "GED 150"
+    ]
+  },
+  "MATH 98": {
+    "text": "Completion of FS MATH 3001,3002 with a grade of S, or ALEKS math score of 20+ or GED MATH of 145+, or HiSET MATH of 8+, or consent of dept.",
+    "courses": [
+      "MATH 3001"
+    ]
+  },
+  "MATH 99": {
+    "text": "Completion of MATH 98 with a C or better, or completion of FS MATH 3003,3004 with grade of S, or ALEKS score of 30+, or GED MATH of 150+, or HiSET MATH of 10+, or Consent of dept.",
+    "courses": [
+      "MATH 3003"
+    ]
+  },
   "MATT 133": {
     "text": "MATT 132",
     "courses": [
@@ -5871,6 +9018,12 @@
       "MCOM 138"
     ]
   },
+  "MCROBIO 233": {
+    "text": "Grade of C or better in BIOLOGY 121.",
+    "courses": [
+      "BIOLOGY 121"
+    ]
+  },
   "MEDA 130": {
     "text": "MEDA 140",
     "courses": [
@@ -5881,6 +9034,182 @@
     "text": "MEDA 170",
     "courses": [
       "MEDA 170"
+    ]
+  },
+  "MEDASST 102": {
+    "text": "Acceptance into the Medical Assisting program.",
+    "courses": []
+  },
+  "MEDASST 103": {
+    "text": "Acceptance into the Medical Assisting Program.",
+    "courses": []
+  },
+  "MEDASST 104": {
+    "text": "Acceptance into the Medical Assisting Program.",
+    "courses": []
+  },
+  "MEDASST 105": {
+    "text": "Acceptance into the Medical Assisting program.",
+    "courses": []
+  },
+  "MEDASST 106": {
+    "text": "Acceptance into the Medical Assisting program.",
+    "courses": []
+  },
+  "MEDASST 107": {
+    "text": "Acceptance into the Medical Assisting Program.",
+    "courses": []
+  },
+  "MEDASST 108": {
+    "text": "Acceptance into the Medical Assisting Program.",
+    "courses": []
+  },
+  "MEDASST 109": {
+    "text": "Current CPR certification and completion of all coursework in the Medical Assisting Program including , MEDASST 102, 103,104,105, 106,107 and 108.",
+    "courses": [
+      "MEDASST 102"
+    ]
+  },
+  "MEDIACM 102": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "MEDIACM 145": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "MEDIACM 190": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "MEDIACM 203": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "MEDIACM 221": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "MEDIACM 222": {
+    "text": "Grade of C or better in MEDIACM 221, or Consent of Department Chairperson.",
+    "courses": [
+      "MEDIACM 221"
+    ]
+  },
+  "MEDIACM 223": {
+    "text": "Grade of C or better in MEDIACM 203 or Consent of Department Chairperson.",
+    "courses": [
+      "MEDIACM 203"
+    ]
+  },
+  "MEDIACM 231": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "MEDIACM 232": {
+    "text": "Grade of C or better in MEDIACM 231, or Consent of Department Chairperson.",
+    "courses": [
+      "MEDIACM 231"
+    ]
+  },
+  "MEDIACM 240": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "MEDIACM 245": {
+    "text": "Grade of C or better in MEDIACM 222 OR MEDIACM 232 OR Consent of Department Chairperson.",
+    "courses": [
+      "MEDIACM 222",
+      "MEDIACM 232"
+    ]
+  },
+  "MEDIACM 250": {
+    "text": "Grade of C or better in MEDIACM 240 or consent of Department Chairperson.",
+    "courses": [
+      "MEDIACM 240"
+    ]
+  },
+  "MEDIACM 252": {
+    "text": "Grade of C or better in MEDIACM 222 OR MEDIACM 232 OR Consent of Department Chairperson.",
+    "courses": [
+      "MEDIACM 222",
+      "MEDIACM 232"
+    ]
+  },
+  "MEDIACM 265": {
+    "text": "Grade of C or better in MEDIACM 145 or Consent of Department Chairperson.",
+    "courses": [
+      "MEDIACM 145"
+    ]
+  },
+  "MEDIACM 271": {
+    "text": "Eligibility for ENGLISH 101 and Grade of C or better in (MEDIACM 145 and CIS 120), or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "MEDIACM 145",
+      "CIS 120"
+    ]
+  },
+  "MEDIACM 280": {
+    "text": "Grade of C or better in MEDIACM 250 or Consent of Department Chairperson.",
+    "courses": [
+      "MEDIACM 250"
+    ]
+  },
+  "MEDIACM 295": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "MEDIACM 298": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "MENHLTH 224": {
+    "text": "Grade of C or better in MENHLTH 223, or Consent of Department Chairperson.",
+    "courses": [
+      "MENHLTH 223"
+    ]
+  },
+  "MENHLTH 228": {
+    "text": "Grade of C or better in ENGLISH 101, MENHLTH 223, 224, 230,231, OR Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "MENHLTH 223"
+    ]
+  },
+  "MENHLTH 229": {
+    "text": "Grade of C or better in MENHLTH 223, 224, 230, 231, and Consent of Department Chairperson. Must attend a mandatory orientation and prior acceptance of program and secure an approved practicum site before the first day of class.",
+    "courses": [
+      "MENHLTH 223"
+    ]
+  },
+  "MENHLTH 230": {
+    "text": "Grade of C or better in (MENHLTH 223 and MENHLTH 224), or Consent of Department Chairperson.",
+    "courses": [
+      "MENHLTH 223",
+      "MENHLTH 224"
+    ]
+  },
+  "MENHLTH 231": {
+    "text": "Grade of C or better in (MENHLTH 223 and MENHLTH 224 and MENHLTH 230), or Consent of Department Chairperson.",
+    "courses": [
+      "MENHLTH 223",
+      "MENHLTH 224",
+      "MENHLTH 230"
     ]
   },
   "MFG 102": {
@@ -6083,6 +9412,152 @@
       "MOA 147",
       "PHB 110",
       "MOA 155"
+    ]
+  },
+  "MOR SCI 117": {
+    "text": "Grade C or better in ENGLISH 101, SPEECH 101, MATH 118 or higher General Education Math Course, BIOLOGY 116 (or both BIOLOGY 226 & BIOLOGY 227), AND BIOLOGY 120, or consent of the Program Director.",
+    "courses": [
+      "ENGLISH 101",
+      "SPEECH 101",
+      "MATH 118",
+      "BIOLOGY 116",
+      "BIOLOGY 226",
+      "BIOLOGY 227",
+      "BIOLOGY 120"
+    ]
+  },
+  "MOR SCI 118": {
+    "text": "Grade C or better in English 101, Speech 101, Math 118 or higher General Education Math Course, Biology 116 (or both BIOLOGY 226 & BIOLOGY 227), and Biology 120, or consent of the Program Director.",
+    "courses": [
+      "BIOLOGY 226",
+      "BIOLOGY 227"
+    ]
+  },
+  "MOR SCI 119": {
+    "text": "Grade C or better in ENGLISH 101, SPEECH 101, MATH 118 or higher General Education Math Course, BIOLOGY 116 (or both BIOLOGY 226 & BIOLOGY 227), AND BIOLOGY 120, or consent of the Program Director.",
+    "courses": [
+      "ENGLISH 101",
+      "SPEECH 101",
+      "MATH 118",
+      "BIOLOGY 116",
+      "BIOLOGY 226",
+      "BIOLOGY 227",
+      "BIOLOGY 120"
+    ]
+  },
+  "MOR SCI 120": {
+    "text": "Grade C or better in English 101, Speech 101, Math 118 or higher General Education Math Course, Biology 116 (or both BIOLOGY 226 & BIOLOGY 227), and Biology 120, or consent of the Program Director.",
+    "courses": [
+      "BIOLOGY 226",
+      "BIOLOGY 227"
+    ]
+  },
+  "MOR SCI 121": {
+    "text": "Grade of C or better in MOR SCI 117, MOR SCI 118, MOR SCI 119, MOR SCI 120",
+    "courses": [
+      "SCI 117",
+      "SCI 118",
+      "SCI 119",
+      "SCI 120"
+    ]
+  },
+  "MOR SCI 122": {
+    "text": "Grade of C or better in MOR SCI 117, MOR SCI 118, MOR SCI 119, MOR SCI 120",
+    "courses": [
+      "SCI 117",
+      "SCI 118",
+      "SCI 119",
+      "SCI 120"
+    ]
+  },
+  "MOR SCI 123": {
+    "text": "Grade of C or better in MOR SCI 117, MOR SCI 118, MOR SCI 119, MOR SCI 120",
+    "courses": [
+      "SCI 117",
+      "SCI 118",
+      "SCI 119",
+      "SCI 120"
+    ]
+  },
+  "MOR SCI 124": {
+    "text": "Grade of C or better in MOR SCI 117, MOR SCI 118, MOR SCI 119, and MOR SCI 120",
+    "courses": [
+      "SCI 117",
+      "SCI 118",
+      "SCI 119",
+      "SCI 120"
+    ]
+  },
+  "MOR SCI 217": {
+    "text": "Grade C or better in MOR SCI 121, MOR SCI 122, MOR SCI 123, AND MOR SCI 124 or consent of the Program Director.",
+    "courses": [
+      "SCI 121",
+      "SCI 122",
+      "SCI 123",
+      "SCI 124"
+    ]
+  },
+  "MOR SCI 218": {
+    "text": "Grade  C or better in MOR SCI 121, MOR SCI 122, MOR SCI 123, MOR SCI 124 or consent of Program Director",
+    "courses": [
+      "SCI 121",
+      "SCI 122",
+      "SCI 123",
+      "SCI 124"
+    ]
+  },
+  "MOR SCI 219": {
+    "text": "Grade  C or better in MOR SCI 121, MOR SCI 122, MOR SCI 123, MOR SCI 124 or consent of Program Director",
+    "courses": [
+      "SCI 121",
+      "SCI 122",
+      "SCI 123",
+      "SCI 124"
+    ]
+  },
+  "MOR SCI 220": {
+    "text": "Grade  C or better in MOR SCI 121, MOR SCI 122, MOR SCI 123, MOR SCI 124 or consent of Program Director",
+    "courses": [
+      "SCI 121",
+      "SCI 122",
+      "SCI 123",
+      "SCI 124"
+    ]
+  },
+  "MOR SCI 221": {
+    "text": "Grade C or better in MOR SCI 217, MOR SCI 218, MOR SCI 219, MOR SCI 220",
+    "courses": [
+      "SCI 217",
+      "SCI 218",
+      "SCI 219",
+      "SCI 220"
+    ]
+  },
+  "MOR SCI 222": {
+    "text": "Grade C or better in MOR SCI 217, MOR SCI 218, MOR SCI 219, MOR SCI 220 or consent of Program Director",
+    "courses": [
+      "SCI 217",
+      "SCI 218",
+      "SCI 219",
+      "SCI 220"
+    ]
+  },
+  "MOR SCI 223": {
+    "text": "Grade of C or better in MOR SCI 217, MOR SCI 218, MOR SCI 219, AND MOR SCI 220",
+    "courses": [
+      "SCI 217",
+      "SCI 218",
+      "SCI 219",
+      "SCI 220"
+    ]
+  },
+  "MOR SCI 224": {
+    "text": "Grade of C or better in MOR SCI 217, MOR SCI 218, MOR SCI 219 and MOR SCI 220",
+    "courses": [
+      "SCI 217",
+      "SCI 218",
+      "SCI 219",
+      "SCI 220"
     ]
   },
   "MPTV 1022": {
@@ -6789,6 +10264,130 @@
       "MUSI 270"
     ]
   },
+  "MUSIC 101": {
+    "text": "Eligibility for MATH 99 or Higher or Consent of Department Chairperson.",
+    "courses": []
+  },
+  "MUSIC 102": {
+    "text": "Grade of C or better in MUSIC 101, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 101"
+    ]
+  },
+  "MUSIC 103": {
+    "text": "Grade of C or better in MUSIC 102, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 102"
+    ]
+  },
+  "MUSIC 106": {
+    "text": "Grade of C or better in MUSIC 105, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 105"
+    ]
+  },
+  "MUSIC 109": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "MUSIC 111": {
+    "text": "Grade of C or better in MUSIC 101, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 101"
+    ]
+  },
+  "MUSIC 112": {
+    "text": "Grade of C or better in MUSIC 111, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 111"
+    ]
+  },
+  "MUSIC 120": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "MUSIC 121": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "MUSIC 124": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "MUSIC 135": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "MUSIC 136": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "MUSIC 180": {
+    "text": "Students must own (or have access to) the instrument they plan on studying.",
+    "courses": []
+  },
+  "MUSIC 181": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "MUSIC 182": {
+    "text": "Grade of C or better in MUSIC 181, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 181"
+    ]
+  },
+  "MUSIC 183": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "MUSIC 201": {
+    "text": "Grade of C or better in MUSIC 103, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 103"
+    ]
+  },
+  "MUSIC 202": {
+    "text": "Grade of C or better in MUSIC 201, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 201"
+    ]
+  },
+  "MUSIC 204": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "MUSIC 205": {
+    "text": "Grade of C or better in MUSIC 204, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 204"
+    ]
+  },
+  "MUSIC 211": {
+    "text": "Grade of C or better in MUSIC 112, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 112"
+    ]
+  },
+  "MUSIC 212": {
+    "text": "Grade of C or better in MUSIC 211, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 211"
+    ]
+  },
+  "MUSIC 221": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "MUSIC 2271": {
     "text": "USIC 1172 or USIC 2201 or USIC 2207 and USIC 2201 and USIC 2207",
     "courses": [
@@ -6801,6 +10400,18 @@
     "text": "USIC 153",
     "courses": [
       "USIC 153"
+    ]
+  },
+  "MUSIC 281": {
+    "text": "Grade of C or better in MUSIC 182, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 182"
+    ]
+  },
+  "MUSIC 282": {
+    "text": "Grade of C or better in MUSIC 281, or Consent of Department Chairperson.",
+    "courses": [
+      "MUSIC 281"
     ]
   },
   "NAS 100": {
@@ -6837,6 +10448,44 @@
     "text": "NET 183",
     "courses": [
       "NET 183"
+    ]
+  },
+  "NET TEC 121": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "NET TEC 122": {
+    "text": "Grade of C or better in NET TEC 121, or Consent of Department Chairperson.",
+    "courses": [
+      "TEC 121"
+    ]
+  },
+  "NET TEC 221": {
+    "text": "Grade of C or better in NET TEC 122, or Consent of Department Chairperson.",
+    "courses": [
+      "TEC 122"
+    ]
+  },
+  "NET TEC 222": {
+    "text": "Grade of C or better in NET TEC 221, or Consent of Department Chairperson.",
+    "courses": [
+      "TEC 221"
+    ]
+  },
+  "NET TEC 240": {
+    "text": "Grade of C or better in CIS 116 or Consent of Department Chairperson.",
+    "courses": [
+      "CIS 116"
+    ]
+  },
+  "NET TEC 245": {
+    "text": "Grade of C or better in CIS 116, AND NET TEC 121 -OR- COMPSFI 101, or Consent of Department Chairperson.",
+    "courses": [
+      "CIS 116",
+      "TEC 121",
+      "COMPSFI 101"
     ]
   },
   "NLT 0130": {
@@ -7107,6 +10756,137 @@
       "NURS 296"
     ]
   },
+  "NURSING 101": {
+    "text": "Successful completion of ENGLISH 101, BIOLOGY 121, CHEM 121 or higher-level chemistry, MATH 118 or higher General Education Math, and Admission to the City Colleges of Chicago School of Nursing Associate's Degree in Nursing Program.",
+    "courses": [
+      "ENGLISH 101",
+      "BIOLOGY 121",
+      "CHEM 121",
+      "MATH 118"
+    ]
+  },
+  "NURSING 102": {
+    "text": "Admission to the City Colleges of Chicago Nursing Program and successful completion of NURSING 101 with a C or better.",
+    "courses": [
+      "NURSING 101"
+    ]
+  },
+  "NURSING 150": {
+    "text": "Admission into Practical Nursing Program 240.",
+    "courses": []
+  },
+  "NURSING 151": {
+    "text": "Admission to the Practical Nursing Program.",
+    "courses": []
+  },
+  "NURSING 152": {
+    "text": "Admission into Practical Nursing Program 240.",
+    "courses": []
+  },
+  "NURSING 153": {
+    "text": "Grade of C or better in NURSING 151 and NURSING 152 and BIOLOGY 226.",
+    "courses": [
+      "NURSING 151",
+      "NURSING 152",
+      "BIOLOGY 226"
+    ]
+  },
+  "NURSING 158": {
+    "text": "Grade of C or better in NURSING 151, NURSING 152, and BIOLOGY 226.",
+    "courses": [
+      "NURSING 151",
+      "NURSING 152",
+      "BIOLOGY 226"
+    ]
+  },
+  "NURSING 159": {
+    "text": "Grade of C or better in NURSING 151, NURSING 152, NURSING 158, and BIOLOGY 226.",
+    "courses": [
+      "NURSING 151",
+      "NURSING 152",
+      "NURSING 158",
+      "BIOLOGY 226"
+    ]
+  },
+  "NURSING 160": {
+    "text": "Grade of C or better in NURSING 158, NURSING 159,  and BIOLOGY 227.",
+    "courses": [
+      "NURSING 158",
+      "NURSING 159",
+      "BIOLOGY 227"
+    ]
+  },
+  "NURSING 208": {
+    "text": "Grade of C or better in NURSING 102, BIOLOGY 227, MCROBIO 233; for LPN bridge students NURSING 140.",
+    "courses": [
+      "NURSING 102",
+      "BIOLOGY 227",
+      "MCROBIO 233",
+      "NURSING 140"
+    ]
+  },
+  "NURSING 209": {
+    "text": "Grade of C or better in NURSING 102, BIOLOGY 227, MCROBIO 233; for LPN bridge students NURSING 140.",
+    "courses": [
+      "NURSING 102",
+      "BIOLOGY 227",
+      "MCROBIO 233",
+      "NURSING 140"
+    ]
+  },
+  "NURSING 210": {
+    "text": "Grade of C or better in NURSING 102, BIOLOGY 227, MCROBIO 233; for LPN Bridge Students NURSING 140.",
+    "courses": [
+      "NURSING 102",
+      "BIOLOGY 227",
+      "MCROBIO 233",
+      "NURSING 140"
+    ]
+  },
+  "NURSING 213": {
+    "text": "Grade of C or better in NURSING 208, NURSING 209 and NURSING 210.",
+    "courses": [
+      "NURSING 208",
+      "NURSING 209",
+      "NURSING 210"
+    ]
+  },
+  "NURSING 214": {
+    "text": "Grade of C or better in NURSING 208, NURSING 209 and NURSING 210.",
+    "courses": [
+      "NURSING 208",
+      "NURSING 209",
+      "NURSING 210"
+    ]
+  },
+  "NURSING 215": {
+    "text": "Grade of C or better in NURSING 208, NURSING 209, and NURSING 210.",
+    "courses": [
+      "NURSING 208",
+      "NURSING 209",
+      "NURSING 210"
+    ]
+  },
+  "NURSING 216": {
+    "text": "Grade of C or better in NURSING 208, NURSING 209 and NURSING 210.",
+    "courses": [
+      "NURSING 208",
+      "NURSING 209",
+      "NURSING 210"
+    ]
+  },
+  "OCEAN 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "OCEAN 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "OFT 104": {
     "text": "OFT 100",
     "courses": [
@@ -7255,6 +11035,20 @@
       "ENG 099"
     ]
   },
+  "OTA 106": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "OTA 215-1": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "OTA 216-1": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
   "PAR 101": {
     "text": "EGL 101 (min C)",
     "courses": [
@@ -7319,6 +11113,116 @@
       "PAR 101",
       "PAR 110",
       "PAR 113"
+    ]
+  },
+  "PARALEG 147": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PARALEG 148": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PARALEG 149": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PARALEG 219": {
+    "text": "Completion of ENGLISH 101, PARALEG 147 and PARALEG 148 with a grade of C or better or consent of program director.",
+    "courses": [
+      "ENGLISH 101",
+      "PARALEG 147",
+      "PARALEG 148"
+    ]
+  },
+  "PARALEG 220": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PARALEG 222": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PARALEG 223": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PARALEG 224": {
+    "text": "Completion of ENGLISH 101, PARALEG 147 and PARALEG 148 with a grade of C or better or consent of program director.",
+    "courses": [
+      "ENGLISH 101",
+      "PARALEG 147",
+      "PARALEG 148"
+    ]
+  },
+  "PARALEG 225": {
+    "text": "Completion of ENGLISH 102, PARALEG 147, 148, 149, 223 and PARALEG 238 with a grade of C or better or consent of program director.",
+    "courses": [
+      "ENGLISH 102",
+      "PARALEG 147",
+      "PARALEG 238"
+    ]
+  },
+  "PARALEG 226-1": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "PARALEG 227": {
+    "text": "Completion of ENGLISH 101, PARALEG 147 and PARALEG 148 with a grade of C or better or consent of program director.",
+    "courses": [
+      "ENGLISH 101",
+      "PARALEG 147",
+      "PARALEG 148"
+    ]
+  },
+  "PARALEG 228": {
+    "text": "Completion of ENGLISH 101, PARALEG 147 and PARALEG 148 with a grade of C or better or consent of program director.",
+    "courses": [
+      "ENGLISH 101",
+      "PARALEG 147",
+      "PARALEG 148"
+    ]
+  },
+  "PARALEG 229": {
+    "text": "Completion of ENGLISH 101, PARALEG 147 and PARALEG 148 with a grade of C or better or consent of program director.",
+    "courses": [
+      "ENGLISH 101",
+      "PARALEG 147",
+      "PARALEG 148"
+    ]
+  },
+  "PARALEG 238": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PARALEG 239": {
+    "text": "Completion of ENGLISH 101, PARALEG 147 and PARALEG 148 with a grade of C or better or consent of program director.",
+    "courses": [
+      "ENGLISH 101",
+      "PARALEG 147",
+      "PARALEG 148"
+    ]
+  },
+  "PARALEG 240": {
+    "text": "Completion of ENGLISH 101, PARALEG 147 and PARALEG 148 with a grade of C or better or consent of program director.",
+    "courses": [
+      "ENGLISH 101",
+      "PARALEG 147",
+      "PARALEG 148"
     ]
   },
   "PE 0219": {
@@ -7387,6 +11291,64 @@
       "PEMW 136"
     ]
   },
+  "PHAR TC 131": {
+    "text": "Admission into the Pharmacy Technology AC or Outpatient Pharmacy Technology BC.",
+    "courses": []
+  },
+  "PHAR TC 132": {
+    "text": "Admission into the Pharmacy Technology AC or Outpatient Pharmacy Technology BC.",
+    "courses": []
+  },
+  "PHAR TC 133": {
+    "text": "Admission into the Pharmacy Technology AC or Outpatient Pharmacy Technology BC.",
+    "courses": []
+  },
+  "PHAR TC 134": {
+    "text": "Admission into the Pharmacy Technology AC or Outpatient Pharmacy Technology BC.",
+    "courses": []
+  },
+  "PHAR TC 135": {
+    "text": "Admission into the Pharmacy Technology AC or Outpatient Pharmacy Technology BC.",
+    "courses": []
+  },
+  "PHAR TC 136": {
+    "text": "Admission into the Pharmacy Technology AC or Outpatient Pharmacy Technology BC.",
+    "courses": []
+  },
+  "PHAR TC 137": {
+    "text": "Admission into the Pharmacy Technology AC or Outpatient Pharmacy Technology BC.",
+    "courses": []
+  },
+  "PHAR TC 138": {
+    "text": "Admission into the Pharmacy Technology AC or Outpatient Pharmacy Technology BC.",
+    "courses": []
+  },
+  "PHAR TC 141": {
+    "text": "Admission to the Pharmacy Technology program/plan 254.",
+    "courses": []
+  },
+  "PHAR TC 142": {
+    "text": "Admission to the Pharmacy Technology program/plan 254.",
+    "courses": []
+  },
+  "PHAR TC 143": {
+    "text": "Admission to the Pharmacy Technology program/plan 254.",
+    "courses": []
+  },
+  "PHAR TC 204": {
+    "text": "Grade C or better or concurrent enrollment in PHAR TC 131, 134, 135, 136, 137 and 138",
+    "courses": [
+      "TC 131"
+    ]
+  },
+  "PHAR TC 205": {
+    "text": "Grade C or higher or concurrent enrollment in PHAR TC 141, PHAR TC 142, and PHAR TC 143.",
+    "courses": [
+      "TC 141",
+      "TC 142",
+      "TC 143"
+    ]
+  },
   "PHB 102": {
     "text": "PHB 101 (min C)",
     "courses": [
@@ -7424,6 +11386,70 @@
     "courses": [
       "ENGL 101"
     ]
+  },
+  "PHIL 105": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHIL 106": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHIL 107": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHIL 108": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHIL 110": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHIL 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHIL 202": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHIL 215": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHLEB 108": {
+    "text": "Eligibility for English 96 or higher. Admission into the Phlebotomy Program.",
+    "courses": []
+  },
+  "PHLEB 110": {
+    "text": "Eligibility for English 96 or higher. Admission into the Phlebotomy Program.",
+    "courses": []
+  },
+  "PHLEB 208": {
+    "text": "Admission into the Phlebotomy program.",
+    "courses": []
+  },
+  "PHLEB 210": {
+    "text": "Admission into the Phlebotomy program.",
+    "courses": []
   },
   "PHOTO 1202": {
     "text": "HOTO 1102",
@@ -7591,6 +11617,30 @@
       "MAT 165"
     ]
   },
+  "PHY SCI 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHY SCI 107": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHY SCI 111": {
+    "text": "Eligibility for ENGLISH 101 and MATH 99 or Higher OR Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHY SCI 112": {
+    "text": "Eligibility for ENGLISH 101 and MATH 99 or Higher OR Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "PHYS 100": {
     "text": "ENGL 101 and MATH 107",
     "courses": [
@@ -7734,6 +11784,92 @@
       "HYSI 2111"
     ]
   },
+  "PHYSICS 131": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PHYSICS 215": {
+    "text": "Grade of C or better in PHYSICS 235 and MATH 208, or Consent of Department Chairperson.",
+    "courses": [
+      "PHYSICS 235",
+      "MATH 208"
+    ]
+  },
+  "PHYSICS 216": {
+    "text": "Grade of C or better in PHYSICS 215 and MATH 208 or consent of the Department Chairperson.",
+    "courses": [
+      "PHYSICS 215",
+      "MATH 208"
+    ]
+  },
+  "PHYSICS 217": {
+    "text": "Grade of C or better in PHYSICS 215, or Consent of Department Chairperson.",
+    "courses": [
+      "PHYSICS 215"
+    ]
+  },
+  "PHYSICS 221": {
+    "text": "Grade of C or better in MATH 141 or higher or concurrent enrollment in MATH 141 or MATH 143, and Eligibility for ENGLISH 101 or Consent of Department Chairperson.",
+    "courses": [
+      "MATH 141",
+      "MATH 143",
+      "ENGLISH 101"
+    ]
+  },
+  "PHYSICS 222": {
+    "text": "Grade of C or better in PHYSICS 221, and MATH 141 and Eligibility for ENGLISH 101 or Consent of Department Chairperson.",
+    "courses": [
+      "PHYSICS 221",
+      "MATH 141",
+      "ENGLISH 101"
+    ]
+  },
+  "PHYSICS 235": {
+    "text": "Grade of C or better in MATH 207, OR concurrent enrollment in MATH 207 and Eligibility for ENGLISH 101 OR Consent of Department Chairperson.",
+    "courses": [
+      "MATH 207",
+      "ENGLISH 101"
+    ]
+  },
+  "PHYSICS 236": {
+    "text": "Grade of C or better in PHYSICS 235, and MATH 207 and Eligibility for ENGLISH 101 or Consent of Department Chairperson.",
+    "courses": [
+      "PHYSICS 235",
+      "MATH 207",
+      "ENGLISH 101"
+    ]
+  },
+  "PHYSICS 237": {
+    "text": "Grade of C or better in PHYSICS 235, and MATH 207 and Eligibility for ENGLISH 101 or Consent of Department Chairperson.",
+    "courses": [
+      "PHYSICS 235",
+      "MATH 207",
+      "ENGLISH 101"
+    ]
+  },
+  "PHYSICS 238": {
+    "text": "Grade of C or better in PHYSICS 235 (Engineering Physics I) and credit or concurrent registration in MATH 209 (Calculus and Analytical Geometry), or consent of Department Chairperson.",
+    "courses": [
+      "PHYSICS 235",
+      "MATH 209"
+    ]
+  },
+  "PHYSICS 239": {
+    "text": "Grade of C or better in PHYSICS 236 (Engineering Physics II) and credit or concurrent registration in MATH 209 (Calculus and Analytical Geometry III) or Consent of Department Chairperson.",
+    "courses": [
+      "PHYSICS 236",
+      "MATH 209"
+    ]
+  },
+  "PHYSICS 295-5": {
+    "text": "Eligibility for ENGLISH 101 and MATH 140 or higher OR Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "MATH 140"
+    ]
+  },
   "PHYTA 1205": {
     "text": "ANAT 1551 or ANAT 1571",
     "courses": [
@@ -7842,6 +11978,30 @@
       "POL 201"
     ]
   },
+  "POL SCI 200": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "POL SCI 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "POL SCI 204": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "POL SCI 207": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "POLI 130": {
     "text": "ENGL 101",
     "courses": [
@@ -7876,6 +12036,12 @@
     "text": "ENGL 101",
     "courses": [
       "ENGL 101"
+    ]
+  },
+  "POLISH 102": {
+    "text": "Placement test, or POLISH 101.",
+    "courses": [
+      "POLISH 101"
     ]
   },
   "PSG 135": {
@@ -8030,10 +12196,58 @@
       "SYCH 1100"
     ]
   },
+  "PSYCH 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PSYCH 206": {
+    "text": "Grade of C or better in PSYCH 201 or consent of Department Chairperson.",
+    "courses": [
+      "PSYCH 201"
+    ]
+  },
+  "PSYCH 207": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PSYCH 209": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "PSYCH 211": {
+    "text": "Grade of C or better in PSYCH 201 or consent of Department Chairperson.",
+    "courses": [
+      "PSYCH 201"
+    ]
+  },
+  "PSYCH 213": {
+    "text": "Grade of C or better in PSYCH 201 or consent of Department Chairperson.",
+    "courses": [
+      "PSYCH 201"
+    ]
+  },
+  "PSYCH 215": {
+    "text": "Grade of C or better in PSYCH 201 or consent of Department Chairperson.",
+    "courses": [
+      "PSYCH 201"
+    ]
+  },
   "PSYCH 2215": {
     "text": "SYCH 1100",
     "courses": [
       "SYCH 1100"
+    ]
+  },
+  "PSYCH 222": {
+    "text": "Grade of C or better in PSYCH 201 or consent of Department Chairperson.",
+    "courses": [
+      "PSYCH 201"
     ]
   },
   "PSYCH 2230": {
@@ -8046,6 +12260,12 @@
     "text": "SYCH 1100",
     "courses": [
       "SYCH 1100"
+    ]
+  },
+  "PSYCH 224": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "PSYCH 2240": {
@@ -8070,6 +12290,12 @@
     "text": "SYCH 1100",
     "courses": [
       "SYCH 1100"
+    ]
+  },
+  "PSYCH 240": {
+    "text": "Grade of C or better in PSYCH 201 or consent of Department Chairperson.",
+    "courses": [
+      "PSYCH 201"
     ]
   },
   "PTA 100": {
@@ -8109,6 +12335,24 @@
       "HIT 104"
     ]
   },
+  "PTA 110": {
+    "text": "Admittance into the Physical Therapy Assistant Program.",
+    "courses": []
+  },
+  "PTA 140": {
+    "text": "Successful completion of PTA 110, 150 and 160.",
+    "courses": [
+      "PTA 110"
+    ]
+  },
+  "PTA 150": {
+    "text": "Admittance into the Physical Therapy Assistant Program.",
+    "courses": []
+  },
+  "PTA 160": {
+    "text": "Admittance into the Physical Therapy Assistant Program.",
+    "courses": []
+  },
   "PTA 162": {
     "text": "PTA 107 (min C) and PTA 110 (min C) and PTA 161 (min C) and BIO 132 (min C) or BIO 232 (min C)",
     "courses": [
@@ -8117,6 +12361,24 @@
       "PTA 161",
       "BIO 132",
       "BIO 232"
+    ]
+  },
+  "PTA 170": {
+    "text": "Admittance into the Physical Therapy Assistant Program.",
+    "courses": []
+  },
+  "PTA 171": {
+    "text": "Admittance into the Physical Therapy Assistant Program.",
+    "courses": []
+  },
+  "PTA 200": {
+    "text": "Admittance into the Physical Therapy Assistant Program.",
+    "courses": []
+  },
+  "PTA 201": {
+    "text": "Successful completion of PTA 110, 150 and 160.",
+    "courses": [
+      "PTA 110"
     ]
   },
   "PTA 207": {
@@ -8146,6 +12408,14 @@
       "PTA 241"
     ]
   },
+  "PTA 220": {
+    "text": "Admittance into the Physical Therapy Assistant Program.",
+    "courses": []
+  },
+  "PTA 240": {
+    "text": "Admittance into the Physical Therapy Assistant Program.",
+    "courses": []
+  },
   "PTA 241": {
     "text": "PTA 162 (min C) and PTA 207 and PTA 210 and PTA 211",
     "courses": [
@@ -8154,6 +12424,10 @@
       "PTA 210",
       "PTA 211"
     ]
+  },
+  "PTA 260": {
+    "text": "Admittance into the Physical Therapy Assistant Program.",
+    "courses": []
   },
   "PTA 261": {
     "text": "PTA 162 (min C) and PTA 207 (min C) and PTA 210 (min C) and PTA 241 (min C) or PTA 242 (min C)",
@@ -8366,6 +12640,168 @@
       "RAD 263"
     ]
   },
+  "RADIOGR 101": {
+    "text": "Admission into the Radiography program/plan 246.",
+    "courses": []
+  },
+  "RADIOGR 102": {
+    "text": "Admission into the Radiography program/plan 246.",
+    "courses": []
+  },
+  "RADIOGR 105": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 115": {
+    "text": "Admission into the Radiologic Program",
+    "courses": []
+  },
+  "RADIOGR 124": {
+    "text": "Admission into the Radiography program/plan 246.",
+    "courses": []
+  },
+  "RADIOGR 128": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 131": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 140": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 141": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 200": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 202": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 205": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 206": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 208": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 232": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 233": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 234": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 242": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 243": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 244": {
+    "text": "Grade of C or better in RADIOGR 101.",
+    "courses": [
+      "RADIOGR 101"
+    ]
+  },
+  "RADIOGR 252": {
+    "text": "Admittance into the Computed Tomography BC Program",
+    "courses": []
+  },
+  "RADIOGR 253": {
+    "text": "Completion of RADIOGR 252 with a C or higher.",
+    "courses": [
+      "RADIOGR 252"
+    ]
+  },
+  "RADIOGR 254": {
+    "text": "Admittance into the Computed Tomography BC Program",
+    "courses": []
+  },
+  "RADIOGR 255": {
+    "text": "Completion of RADIOGR 254 with a C or higher.",
+    "courses": [
+      "RADIOGR 254"
+    ]
+  },
+  "RADIOGR 256": {
+    "text": "Admittance into the Computed Tomography BC Program",
+    "courses": []
+  },
+  "RADIOGR 257": {
+    "text": "Completion of RADIOGR 256 with a C or higher.",
+    "courses": [
+      "RADIOGR 256"
+    ]
+  },
+  "RADIOGR 258": {
+    "text": "Admittance into the Computed Tomography BC Program",
+    "courses": []
+  },
+  "RADIOGR 261": {
+    "text": "Admittance into the Mammography Advanced Program.",
+    "courses": []
+  },
+  "RADIOGR 262": {
+    "text": "Admittance into the Mammography Advanced Program.",
+    "courses": []
+  },
+  "RADIOGR 263": {
+    "text": "Admittance into the Mammography Advanced Program.",
+    "courses": []
+  },
+  "RADIOGR 265": {
+    "text": "Admittance into the Mammography Advanced Program.",
+    "courses": []
+  },
   "RAS 290": {
     "text": "RAS 232 and RAS 243 and RAS 260 and RAS 280",
     "courses": [
@@ -8446,6 +12882,24 @@
       "RDTC 207"
     ]
   },
+  "RELIGN 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "RELIGN 102": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "RELIGN 104": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
   "RES 107": {
     "text": "RES 104 and RES 157",
     "courses": [
@@ -8519,6 +12973,118 @@
       "RESP 2206"
     ]
   },
+  "RESP TC 114": {
+    "text": "Admission into Respiratory Care Program (0234sp)",
+    "courses": []
+  },
+  "RESP TC 115": {
+    "text": "Admission into Respiratory Care Program (0234sp)",
+    "courses": []
+  },
+  "RESP TC 116": {
+    "text": "Admission into Respiratory Care Program (0234sp)",
+    "courses": []
+  },
+  "RESP TC 117": {
+    "text": "Admission into Respiratory Care Program (0234sp)",
+    "courses": []
+  },
+  "RESP TC 118": {
+    "text": "Admission into Respiratory Care Program (0234sp)",
+    "courses": []
+  },
+  "RESP TC 119": {
+    "text": "Admission into Respiratory Care Program (0234sp)",
+    "courses": []
+  },
+  "RESP TC 137": {
+    "text": "RESP TC 114, 116, 117, 118, 119 or Consent of Department Chairperson.",
+    "courses": [
+      "TC 114"
+    ]
+  },
+  "RESP TC 139": {
+    "text": "RESP TC 114, 116, 117, 118, 119 or Consent of Department Chairperson",
+    "courses": [
+      "TC 114"
+    ]
+  },
+  "RESP TC 141": {
+    "text": "RESP TC 114, 116, 117, 118, 119 or Consent of Department Chairperson.",
+    "courses": [
+      "TC 114"
+    ]
+  },
+  "RESP TC 203": {
+    "text": "Grade of C or better in RESP TC 114, 116, 117, 118, 119 or Consent of Department Chairperson.",
+    "courses": [
+      "TC 114"
+    ]
+  },
+  "RESP TC 204": {
+    "text": "Grade of C or better in RESP TC 115, 137, 139, 141, 203 or Consent of Department Chairperson.",
+    "courses": [
+      "TC 115"
+    ]
+  },
+  "RESP TC 208": {
+    "text": "Grade of C or better in RESP TC 115, 137, 139, 141, 203 or Consent of Department Chairperson.",
+    "courses": [
+      "TC 115"
+    ]
+  },
+  "RESP TC 209": {
+    "text": "Grade of C or better in RESP TC 204 and RESP TC 208, or Consent of Department Chairperson.",
+    "courses": [
+      "TC 204",
+      "TC 208"
+    ]
+  },
+  "RESP TC 222": {
+    "text": "Grade of C or better in RESP TC 204 and RESP TC 208 or Consent of Department Chairperson.",
+    "courses": [
+      "TC 204",
+      "TC 208"
+    ]
+  },
+  "RESP TC 224": {
+    "text": "Grade of C or better in RESP TC 209,222, 225, 227, or Consent of Department Chairperson.",
+    "courses": [
+      "TC 209"
+    ]
+  },
+  "RESP TC 225": {
+    "text": "Grade of C or better in RESP TC 204 and RESP TC 208, or Consent of Department Chairperson.",
+    "courses": [
+      "TC 204",
+      "TC 208"
+    ]
+  },
+  "RESP TC 227": {
+    "text": "Grade of C or better in RESP TC 204 and RESP TC 208, or Consent of Department Chairperson.",
+    "courses": [
+      "TC 204",
+      "TC 208"
+    ]
+  },
+  "RESP TC 230": {
+    "text": "Grade of C or better in RESP TC 209,222, 225, 227, or Consent of Department Chairperson.",
+    "courses": [
+      "TC 209"
+    ]
+  },
+  "RESP TC 250": {
+    "text": "Grade of C or better in RESP TC 209,222, 225, 227, or Consent of Department Chairperson.",
+    "courses": [
+      "TC 209"
+    ]
+  },
+  "RESP TC 260": {
+    "text": "Grade of C or better in RESP TC 209,222, 225, 227, or Consent of Department Chairperson.",
+    "courses": [
+      "TC 209"
+    ]
+  },
   "RHT 097": {
     "text": "RHT 101",
     "courses": [
@@ -8560,6 +13126,36 @@
     "text": "RUS 102 (min D)",
     "courses": [
       "RUS 102"
+    ]
+  },
+  "SCML 159": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SCML 160": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SCML 180": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SCML 181": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SCML 182": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "SIGN 1102": {
@@ -8619,16 +13215,156 @@
       "SOC 101"
     ]
   },
-  "SOC 205": {
-    "text": "SOC 101",
+  "SOC 201": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
     "courses": [
-      "SOC 101"
+      "ENGLISH 101"
+    ]
+  },
+  "SOC 202": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SOC 203": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SOC 205": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SOC 207": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SOC 211": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "SOC 231": {
     "text": "SOC 100",
     "courses": [
       "SOC 100"
+    ]
+  },
+  "SOC 241": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SOC SCI 101": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SOC SCI 102": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SOC SCI 105": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SOC SCI 221": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SOC SCI 260": {
+    "text": "Grade of C or better in SOC SCI 160 or consent of department chairperson.",
+    "courses": [
+      "SCI 160"
+    ]
+  },
+  "SOC SER 101": {
+    "text": "Eligibility for ENGLISH 100, or Grade of C or better in ENGLISH 98, or Consent of Department Chairperson.",
+    "courses": [
+      "ENGLISH 100"
+    ]
+  },
+  "SOC SER 108": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SOC SER 109": {
+    "text": "Grade of C or better in ENGLISH 101, SOC SER 101, SOC SER 201 (or concurrent enrolment in Social Service 201), or consent of the Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "SER 101",
+      "SER 201"
+    ]
+  },
+  "SOC SER 201": {
+    "text": "Grade of C or better in ENGLISH 101 AND SOC SER 101.",
+    "courses": [
+      "ENGLISH 101",
+      "SER 101"
+    ]
+  },
+  "SOC SER 208": {
+    "text": "Completion of or concurrent enrollment SOC SER 101, SOC SER 212, and SOC SER 108, or consent of Chairperson.",
+    "courses": [
+      "SER 101",
+      "SER 212",
+      "SER 108"
+    ]
+  },
+  "SOC SER 212": {
+    "text": "Grade of C or better in English 101, Grade of C or better SOC SERV 101, 201, MENHLTH 223 OR Consent of Department Chairperson.",
+    "courses": [
+      "SERV 101",
+      "MENHLTH 223"
+    ]
+  },
+  "SOC SER 215": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SOC SER 228": {
+    "text": "Grade of C or better in ENGLISH 101, CHLD DV 101, SOC SER 101, Grade of C or better or concurrent enrollment in SOC SER 201 and CHLD DV 102; or Consent of  Department Chairperson.",
+    "courses": [
+      "ENGLISH 101",
+      "DV 101",
+      "SER 101",
+      "SER 201",
+      "DV 102"
+    ]
+  },
+  "SOC SER 229": {
+    "text": "Grade of C or better in Social Service 101,109,201,215,228 AND Child Development 101,102, or Consent of Department Chairperson.  Must attend a mandatory orientation, prior acceptance of program and secure a practicum site before the first day of class.",
+    "courses": []
+  },
+  "SOC SER 230": {
+    "text": "Grade of C or better in English 101, AND Concurrent enrollment in SOC SER 228, OR Consent of Department Chairperson.",
+    "courses": [
+      "SER 228"
+    ]
+  },
+  "SOC SER 248": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   },
   "SOCY 100": {
@@ -8727,6 +13463,40 @@
       "SPAN 101"
     ]
   },
+  "SPANISH 102": {
+    "text": "Placement Test or Grade of C or better in SPANISH 101",
+    "courses": [
+      "SPANISH 101"
+    ]
+  },
+  "SPANISH 103": {
+    "text": "Grade of C or better in SPANISH 102; OR Placement Exam AND Interview with World Language Faculty",
+    "courses": [
+      "SPANISH 102"
+    ]
+  },
+  "SPANISH 104": {
+    "text": "Grade of C or better in SPANISH 103; OR Placement Test AND Interview with World Language Faculty.",
+    "courses": [
+      "SPANISH 103"
+    ]
+  },
+  "SPANISH 113": {
+    "text": "Consent of Department Chairperson.",
+    "courses": []
+  },
+  "SPANISH 213": {
+    "text": "Grade of C or better in SPANISH 104, OR Placement Test, OR Consent of Department Chairperson.",
+    "courses": [
+      "SPANISH 104"
+    ]
+  },
+  "SPANISH 214": {
+    "text": "Grade of C or better in SPANISH 104, OR Placement Test, OR Consent of Department Chairperson.",
+    "courses": [
+      "SPANISH 104"
+    ]
+  },
   "SPCH 101": {
     "text": "ENGL 121",
     "courses": [
@@ -8750,6 +13520,36 @@
     "courses": [
       "EGL 101",
       "SPE 103"
+    ]
+  },
+  "SPEECH 101-1": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SPEECH 102": {
+    "text": "Grade of C or better in Speech 101 or consent of Department chair",
+    "courses": []
+  },
+  "SPEECH 104": {
+    "text": "Grade of C or better in Speech 101 or consent of Department chair",
+    "courses": []
+  },
+  "SPEECH 144-1": {
+    "text": "Grade of C or better in Speech 101 or consent of Department chair",
+    "courses": []
+  },
+  "SPEECH 202": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SPEECH 204": {
+    "text": "Grade of C or better in SPEECH 101-1, or Consent of Department Chairperson.",
+    "courses": [
+      "SPEECH 101"
     ]
   },
   "SPN 102": {
@@ -8797,6 +13597,56 @@
       "SRT 298"
     ]
   },
+  "STHLTH 174": {
+    "text": "Placement into ARC as determined by the CCC Placement Test, the RTW (Read to Write), successful completion of the course immediately preceding ARC in the course sequence based on departmental, faculty-approved assessment, or Consent of Department.",
+    "courses": []
+  },
+  "STHLTH 624": {
+    "text": "Eligibility for ENGLISH 96 or ESLINTG 99 and MATH 98 or consent of Department Chairperson.",
+    "courses": []
+  },
+  "STTRDE 106": {
+    "text": "Grade of C or better in STTRDE 148 and 337, AND earned their Commercial License Permit (CLP).  Must be 18 years of age or older, possess a valid driver's license, a good driving record, and pass both a physical exam and an alcohol/drug test.",
+    "courses": [
+      "STTRDE 148"
+    ]
+  },
+  "STTRDE 137": {
+    "text": "Grade of C or better in STTRDE 136 Basic Horticulture.",
+    "courses": [
+      "STTRDE 136"
+    ]
+  },
+  "STTRDE 139": {
+    "text": "Grade of C or better in STTRDE 136 - Basic Horticulture",
+    "courses": [
+      "STTRDE 136"
+    ]
+  },
+  "STTRDE 143": {
+    "text": "Grade of C or better in STTRDE 136 , 140 and 141.",
+    "courses": [
+      "STTRDE 136"
+    ]
+  },
+  "STTRDE 147": {
+    "text": "Prospective student must be 21 years of age or older, possess a valid drivers license, a good driving record (demonstrated through a court ordered motor vehicle report) and pass a physical examination.  Additionally they must successfully obtain the clas",
+    "courses": []
+  },
+  "STTRDE 148": {
+    "text": "Student must be 21 years of age or older, possess a valid drivers license, a good driving record (demonstrated thru a court ordered motor vehicle report) & pass a physical exam.  Grade of C or better in STTRDE 0337 & obtain a CDL learner's permit.",
+    "courses": [
+      "STTRDE 0337"
+    ]
+  },
+  "STTRDE 337": {
+    "text": "Prospective students must be 21 years of age or older, possess a valid drivers license, a good driving record (demonstrated through a court ordered motor vehicle report) and pass a physical examination and drug/alcohol test.",
+    "courses": []
+  },
+  "STTRDE 338": {
+    "text": "Prospective students must be 21 years of age or older, posses a valid drivers license, a good driving record (demonstrated through a court ordered motor vehicle report) and pass a Department of Transportation (DOT) physical examination.",
+    "courses": []
+  },
   "SUR 101": {
     "text": "BIO 121 (min C) and HIT 104 (min C)",
     "courses": [
@@ -8822,6 +13672,108 @@
     "text": "SUR 201 (min C)",
     "courses": [
       "SUR 201"
+    ]
+  },
+  "SURG TC 105": {
+    "text": "Eligibility for ENGLISH 101, and Admission to Sterile Processing program",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "SURG TC 106": {
+    "text": "Eligibility for ENGLISH 101, Admission into the Sterile Processing Program, & co-enrollment in SURG TC 105",
+    "courses": [
+      "ENGLISH 101",
+      "TC 105"
+    ]
+  },
+  "SURG TC 111": {
+    "text": "Admission to the Surgical Technology Program, BIOLOGY 120, BIOLOGY 121, BIOLOGY 226, Any college level Math course (MATH 118 recommended), and ENGLISH 101: Composition Eligibility",
+    "courses": [
+      "BIOLOGY 120",
+      "BIOLOGY 121",
+      "BIOLOGY 226",
+      "MATH 118",
+      "ENGLISH 101"
+    ]
+  },
+  "SURG TC 112": {
+    "text": "Admission to the Surgical Technology Program, BIOLOGY 120, BIOLOGY 121, BIOLOGY 226 , Any college level Math course (MATH 118 recommended), and ENGLISH 101 Composition Eligibility.",
+    "courses": [
+      "BIOLOGY 120",
+      "BIOLOGY 121",
+      "BIOLOGY 226",
+      "MATH 118",
+      "ENGLISH 101"
+    ]
+  },
+  "SURG TC 113": {
+    "text": "Admission to the Surgical Technology Program, Completion of SURG TC 111, SURG TC 112, and BIOLOGY 227 with a grade of C or better and concurrent enrollment in SURG TC 114",
+    "courses": [
+      "TC 111",
+      "TC 112",
+      "BIOLOGY 227",
+      "TC 114"
+    ]
+  },
+  "SURG TC 114": {
+    "text": "Admission to the Surgical Technology Program, Completion of SURG TC 111, SURG TC 112, and BIOLOGY 227 with a grade of C or better and concurrent enrollment in SURG TC 113",
+    "courses": [
+      "TC 111",
+      "TC 112",
+      "BIOLOGY 227",
+      "TC 113"
+    ]
+  },
+  "SURG TC 116": {
+    "text": "Admission to the Surgical Technology Program, Completion of SURG TC 113, SURG TC 114, and MCROBIO 233 with a grade of C or better and concurrent enrollment in SURG TC 118",
+    "courses": [
+      "TC 113",
+      "TC 114",
+      "MCROBIO 233",
+      "TC 118"
+    ]
+  },
+  "SURG TC 118": {
+    "text": "Admission to the Surgical Technology Program, Completion of SURG TC 113, SURG TC 114, and MCROBIO 233 with a grade of C or better and concurrent enrollment in SURG TC 116",
+    "courses": [
+      "TC 113",
+      "TC 114",
+      "MCROBIO 233",
+      "TC 116"
+    ]
+  },
+  "SURG TC 210": {
+    "text": "Admission to the Surgical Technology Program, Completion of SURG TC 113, SURG TC 114, and MCROBIO 233 with a grade of C or better and concurrent enrollment in SURG TC 116",
+    "courses": [
+      "TC 113",
+      "TC 114",
+      "MCROBIO 233",
+      "TC 116"
+    ]
+  },
+  "SURG TC 212": {
+    "text": "Admission to the Surgical Technology Program, Completion of SURG TC 116 and SURG TC 118 with a grade of C or better and concurrent enrollment in SURG TC 210 and SOC 201",
+    "courses": [
+      "TC 116",
+      "TC 118",
+      "TC 210",
+      "SOC 201"
+    ]
+  },
+  "SURG TC 213": {
+    "text": "Admission to the Surgical Technology Program, Completion of SURG TC 212 and SURG TC 210 with a grade of C or better, concurrent enrollment in SURG TC 210 and satisfactory completion of all required immunizations",
+    "courses": [
+      "TC 212",
+      "TC 210"
+    ]
+  },
+  "SURG TC 215": {
+    "text": "Grade of C or better in SURG TC 212 and SURG TC 218, and concurrent enrollment in SURG TC 213",
+    "courses": [
+      "TC 212",
+      "TC 218",
+      "TC 213"
     ]
   },
   "TDR 0198": {
@@ -8853,6 +13805,24 @@
     "text": "HEAT 1111 or HEAT 1111",
     "courses": [
       "HEAT 1111"
+    ]
+  },
+  "THR ART 131": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "THR ART 134": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
+    ]
+  },
+  "THR ART 235": {
+    "text": "Grade of C or better in THR ART 133 OR Consent of Department Chairperson.",
+    "courses": [
+      "ART 133"
     ]
   },
   "TPM 130": {
@@ -8974,6 +13944,27 @@
       "TRUC 111",
       "TRUC 112",
       "TRUC 113"
+    ]
+  },
+  "URB AG 111": {
+    "text": "Grade of C or better in HORTIC 104",
+    "courses": [
+      "HORTIC 104"
+    ]
+  },
+  "URB AG 112": {
+    "text": "Grade of C or better in HORTIC 104",
+    "courses": [
+      "HORTIC 104"
+    ]
+  },
+  "URB AG 200": {
+    "text": "Successful completion of all the following core courses with a grade of C or better: HORT 104, URBAG 110, URBAG 111, and URBAG 112.",
+    "courses": [
+      "HORT 104",
+      "URBAG 110",
+      "URBAG 111",
+      "URBAG 112"
     ]
   },
   "URD 201": {
@@ -9298,6 +14289,12 @@
     "text": "XRY 201 (min C)",
     "courses": [
       "XRY 201"
+    ]
+  },
+  "ZOOLOGY 211": {
+    "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
+    "courses": [
+      "ENGLISH 101"
     ]
   }
 }

@@ -36,7 +36,12 @@ const ilConfig: StateConfig = {
     ],
   },
   scrapers: {
-    // manual-only: courses — Phase 2 (course scraper) not yet wired up.
+    courses: [
+      // CCC (City Colleges of Chicago) — 7 colleges, shared JSON API.
+      // Single fetch returns all sections; no auth or pagination needed.
+      { scripts: ["scripts/il/scrape-ccc.ts"], runner: "http" },
+      // manual-only: remaining 22 custom-platform colleges need bespoke scrapers.
+    ],
     // manual-only: transfers — Phase 3 (transfer-equiv) not yet wired up.
     // manual-only: prereqs — Phase 4.
     // manual-only: programs — Phase 5+.
