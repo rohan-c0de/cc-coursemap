@@ -7847,5 +7847,107 @@
         "size": 6471
       }
     ]
+  },
+  {
+    "state": "hi",
+    "id": "honolulu-community-college",
+    "name": "Honolulu Community College",
+    "unitid": 141680,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 141680,
+        "name": "Honolulu Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3174,
+        "size": 1897
+      }
+    ]
+  },
+  {
+    "state": "hi",
+    "id": "kapiolani-community-college",
+    "name": "Kapiolani Community College",
+    "unitid": 141796,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 141796,
+        "name": "Kapiolani Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3284,
+        "size": 3910
+      }
+    ]
+  },
+  {
+    "state": "hi",
+    "id": "kauai-community-college",
+    "name": "Kauai Community College",
+    "unitid": 141802,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 141802,
+        "name": "Kauai Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3252,
+        "size": 716
+      }
+    ]
+  },
+  {
+    "state": "hi",
+    "id": "leeward-community-college",
+    "name": "Leeward Community College",
+    "unitid": 141811,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 141811,
+        "name": "Leeward Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3214,
+        "size": 3438
+      }
+    ]
+  },
+  {
+    "state": "hi",
+    "id": "windward-community-college",
+    "name": "Windward Community College",
+    "unitid": 141990,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 141990,
+        "name": "Windward Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3194,
+        "size": 1159
+      }
+    ]
+  },
+  {
+    "state": "hi",
+    "id": "hawaii-community-college",
+    "name": "Hawaii Community College",
+    "unitid": 383190,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 383190,
+        "name": "Hawaii Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3204,
+        "size": 1546
+      }
+    ]
   }
 ]
