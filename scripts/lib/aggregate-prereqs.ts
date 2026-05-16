@@ -35,6 +35,25 @@ interface PrereqEntry {
   courses: string[];
 }
 
+function mergePrereq(
+  prereqs: Record<string, PrereqEntry>,
+  key: string,
+  text: string,
+  courses: string[],
+): void {
+  if (prereqs[key]) {
+    const existing = prereqs[key];
+    if (courses.length > existing.courses.length) {
+      prereqs[key] = {
+        text: text || existing.text,
+        courses,
+      };
+    }
+  } else {
+    prereqs[key] = { text, courses };
+  }
+}
+
 function aggregateState(state: string): number {
   const dataDir = path.join(process.cwd(), "data", state, "courses");
   if (!fs.existsSync(dataDir)) {
@@ -80,22 +99,51 @@ function aggregateState(state: string): number {
         const number = section.course_number?.trim();
         if (!prefix || !number) continue;
 
-        const key = `${prefix} ${number}`;
-        // Keep the entry with the most prerequisite courses (richest data)
-        if (prereqs[key]) {
-          const existing = prereqs[key];
-          if ((courses?.length || 0) > existing.courses.length) {
-            prereqs[key] = {
-              text: text || existing.text,
-              courses: courses || existing.courses,
-            };
-          }
-        } else {
-          prereqs[key] = {
-            text: text || "",
-            courses: courses || [],
-          };
-        }
+        mergePrereq(prereqs, `${prefix} ${number}`, text || "", courses || []);
+      }
+    }
+  }
+
+  // Also walk coursedog-catalog/*.json — auth-gated section systems (Workday,
+  // Ellucian Experience) often have a public Coursedog/Acalog catalog
+  // alongside that exposes course-level prereqs. FL/FSCJ and FL/FSW are the
+  // first such cases. The catalog scrapers write CoursedogCourse objects
+  // (prefix / number / prerequisite_text / prerequisite_courses).
+  const catalogDir = path.join(process.cwd(), "data", state, "coursedog-catalog");
+  let catalogCourses = 0;
+  let catalogWithPrereqs = 0;
+  let catalogColleges = 0;
+  if (fs.existsSync(catalogDir)) {
+    const catalogFiles = fs
+      .readdirSync(catalogDir)
+      .filter((f) => f.endsWith(".json"));
+    catalogColleges = catalogFiles.length;
+    for (const file of catalogFiles) {
+      let courses: Array<{
+        prefix?: string;
+        number?: string;
+        prerequisite_text?: string | null;
+        prerequisite_courses?: string[] | null;
+      }>;
+      try {
+        courses = JSON.parse(fs.readFileSync(path.join(catalogDir, file), "utf-8"));
+      } catch {
+        continue;
+      }
+      if (!Array.isArray(courses)) continue;
+
+      for (const c of courses) {
+        catalogCourses++;
+        const text = (c.prerequisite_text || "").trim();
+        const courseList = c.prerequisite_courses || [];
+        if (!text && courseList.length === 0) continue;
+        catalogWithPrereqs++;
+
+        const prefix = c.prefix?.trim();
+        const number = c.number?.trim();
+        if (!prefix || !number) continue;
+
+        mergePrereq(prereqs, `${prefix} ${number}`, text, courseList);
       }
     }
   }
@@ -113,9 +161,13 @@ function aggregateState(state: string): number {
 
   fs.writeFileSync(outPath, JSON.stringify(sorted, null, 2));
 
+  const catalogNote =
+    catalogColleges > 0
+      ? ` + ${catalogWithPrereqs}/${catalogCourses} catalog courses across ${catalogColleges} Coursedog/Acalog colleges`
+      : "";
   console.log(
     `  ${state}: ${Object.keys(sorted).length} unique courses with prereqs ` +
-      `(from ${withPrereqs}/${totalSections} sections across ${colleges.length} colleges)`,
+      `(from ${withPrereqs}/${totalSections} sections across ${colleges.length} colleges${catalogNote})`,
   );
   console.log(`  → ${outPath}`);
 

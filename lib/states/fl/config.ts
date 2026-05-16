@@ -78,6 +78,10 @@ const flConfig: StateConfig = {
       // Banner 8 (legacy) — fgc + cfk, the only two FCS colleges on
       // classic Banner. Uses the shared template at lib/scrape-banner-8.
       { scripts: ["scripts/fl/scrape-banner8.ts"], runner: "http" },
+      // Coursedog catalog (FSCJ) — Workday-registered colleges that publish
+      // a public Coursedog catalog. Sections are auth-gated but the catalog
+      // gives course-level prereqs feeding into prereqs.json.
+      { scripts: ["scripts/fl/scrape-coursedog.ts"], runner: "playwright" },
     ],
     transfers: [
       // SCNS flat-file dump — single 80 MB download, no auth, covers all
@@ -85,10 +89,10 @@ const flConfig: StateConfig = {
       // per-receiver scraper pattern used in other states.
       { scripts: ["scripts/fl/scrape-scns-flatfile.ts"], runner: "http" },
     ],
-    // manual-only: prereqs — Phase 4. Banner SSB 9 prereqs come along
-    // inline in scrape-banner-ssb.ts; the other platforms (Banner 8,
-    // Jenzabar, custom) need separate catalog scrapers when those Phase 2
-    // follow-ups land.
+    // Banner SSB 9 sections carry prereqs inline; Coursedog catalog data
+    // contributes catalog-level prereqs for FSCJ. Aggregator walks both
+    // data/fl/courses/*/* and data/fl/coursedog-catalog/*.json.
+    prereqs: { source: "aggregate-from-courses" },
     // manual-only: programs — Phase 5+.
   },
 };

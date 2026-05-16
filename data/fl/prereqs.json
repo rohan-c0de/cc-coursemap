@@ -1,4 +1,76 @@
 {
+  "ABX 0125B": {
+    "text": "ABX0125C",
+    "courses": [
+      "ABX0125C"
+    ]
+  },
+  "ABX 0125D": {
+    "text": "ABX0125E",
+    "courses": [
+      "ABX0125E"
+    ]
+  },
+  "ABX 0126B": {
+    "text": "ABX0126C",
+    "courses": [
+      "ABX0126C"
+    ]
+  },
+  "ABX 0126D": {
+    "text": "ABX0126E",
+    "courses": [
+      "ABX0126E"
+    ]
+  },
+  "ABX 0127B": {
+    "text": "ABX0127C",
+    "courses": [
+      "ABX0127C"
+    ]
+  },
+  "ABX 0127D": {
+    "text": "ABX0127E",
+    "courses": [
+      "ABX0127E"
+    ]
+  },
+  "ABX 0420C": {
+    "text": "ABX0420B",
+    "courses": [
+      "ABX0420B"
+    ]
+  },
+  "ABX 0420E": {
+    "text": "ABX0420D",
+    "courses": [
+      "ABX0420D"
+    ]
+  },
+  "ABX 0421C": {
+    "text": "ABX0421B",
+    "courses": [
+      "ABX0421B"
+    ]
+  },
+  "ABX 0421E": {
+    "text": "ABX0421D",
+    "courses": [
+      "ABX0421D"
+    ]
+  },
+  "ABX 0422C": {
+    "text": "ABX0422B",
+    "courses": [
+      "ABX0422B"
+    ]
+  },
+  "ABX 0422E": {
+    "text": "ABX0422D",
+    "courses": [
+      "ABX0422D"
+    ]
+  },
   "ACG 2011": {
     "text": "ACG 2001 (min C) or ACG 2001 (min Z)",
     "courses": [
@@ -6,24 +78,28 @@
     ]
   },
   "ACG 2021": {
-    "text": "MAC 1105 (min C) or MAT 1033 (min C) or MGF 1100 (min C) or MGF 1130 (min C) or MGF 1131 (min C) or MAC 1114 (min C) or MAC 1140 (min C) or MAC 1147 (min C) or MAC 2233 (min C) or MAC 2311 (min C) or MAC 2312 (min C) or MAT 1100 (min C) or MAT 0028 (min C) or MGF 1106 (min C) or MGF 1107 (min C) or STA 2023 (min C)",
+    "text": "ENC 0025 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or ENC 0010 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C) or REA-Reading 0017 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or REA-Reading 0002 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C) and MAC 1105 (min C) or MAC 1105C (min C) or MAC 1140 (min C) or MAC 1114 (min C) or MAC 2311 (min C) or STA 2023 (min C) or MAC 2233 (min C) or MGF 1106 (min C) or MGF 1107 (min C) or MAT 1033 (min C) or QMB 1001 (min C)",
     "courses": [
+      "ENC 0025",
+      "ENC 0027",
+      "ENC 0022",
+      "ENC 0010",
+      "ENC 1101",
+      "ENC 1102",
+      "ENC 2300",
+      "REA-Reading 0017",
+      "REA-Reading 0002",
       "MAC 1105",
-      "MAT 1033",
-      "MGF 1100",
-      "MGF 1130",
-      "MGF 1131",
-      "MAC 1114",
+      "MAC 1105C",
       "MAC 1140",
-      "MAC 1147",
-      "MAC 2233",
+      "MAC 1114",
       "MAC 2311",
-      "MAC 2312",
-      "MAT 1100",
-      "MAT 0028",
+      "STA 2023",
+      "MAC 2233",
       "MGF 1106",
       "MGF 1107",
-      "STA 2023"
+      "MAT 1033",
+      "QMB 1001"
     ]
   },
   "ACG 2021C": {
@@ -39,10 +115,16 @@
       "MGF 1131"
     ]
   },
-  "ACG 2071": {
-    "text": "ACG 2011 (min D) or ACG 2021 (min D)",
+  "ACG 2030": {
+    "text": "ACG2450",
     "courses": [
-      "ACG 2011",
+      "ACG2450"
+    ]
+  },
+  "ACG 2071": {
+    "text": "ACG 2022 (min C) or ACG 2021 (min C)",
+    "courses": [
+      "ACG 2022",
       "ACG 2021"
     ]
   },
@@ -54,9 +136,10 @@
     ]
   },
   "ACG 2450": {
-    "text": "ACG 2021 (min C)",
+    "text": "ACG2021 and CGS1100C",
     "courses": [
-      "ACG 2021"
+      "ACG2021",
+      "CGS1100C"
     ]
   },
   "ACG 2450C": {
@@ -66,14 +149,35 @@
       "ACG 2021"
     ]
   },
-  "ACG 3024": {
-    "text": "MAC 1105 (min C) or MAC 1105 (min S) or STA 2023 (min C) or MGF 1106 (min C) or MGF 1107 (min C) or MAC 2233 (min C)",
+  "ACG 2680": {
+    "text": "ACG2021",
     "courses": [
-      "MAC 1105",
-      "STA 2023",
-      "MGF 1106",
-      "MGF 1107",
-      "MAC 2233"
+      "ACG2021"
+    ]
+  },
+  "ACG 3024": {
+    "text": "MAC1105 and MAC1105C and MAC1114 and MAC1140 and MAC1147 and MAC2233 and MAC2311 and MAC2312 and MAC2313 and MAP2302 and MGF1130 and MGF1131 and STA2023 and GEB3213",
+    "courses": [
+      "MAC1105",
+      "MAC1105C",
+      "MAC1114",
+      "MAC1140",
+      "MAC1147",
+      "MAC2233",
+      "MAC2311",
+      "MAC2312",
+      "MAC2313",
+      "MAP2302",
+      "MGF1130",
+      "MGF1131",
+      "STA2023",
+      "GEB3213"
+    ]
+  },
+  "ACR 0001L": {
+    "text": "ACR0001",
+    "courses": [
+      "ACR0001"
     ]
   },
   "ACR 0060L": {
@@ -238,6 +342,721 @@
       "AER 0560L"
     ]
   },
+  "AER 1198": {
+    "text": "AER1081C",
+    "courses": [
+      "AER1081C"
+    ]
+  },
+  "AER 1291": {
+    "text": "AER1081C and AER1694C and AER1398",
+    "courses": [
+      "AER1081C",
+      "AER1694C",
+      "AER1398"
+    ]
+  },
+  "AER 1398": {
+    "text": "AER1081C",
+    "courses": [
+      "AER1081C"
+    ]
+  },
+  "AER 1498C": {
+    "text": "AER1081C",
+    "courses": [
+      "AER1081C"
+    ]
+  },
+  "AER 1598C": {
+    "text": "AER1081C and AER1694C",
+    "courses": [
+      "AER1081C",
+      "AER1694C"
+    ]
+  },
+  "AER 1694C": {
+    "text": "AER1081C",
+    "courses": [
+      "AER1081C"
+    ]
+  },
+  "AER 1798C": {
+    "text": "AER1081C and AER1694C",
+    "courses": [
+      "AER1081C",
+      "AER1694C"
+    ]
+  },
+  "AER 1933": {
+    "text": "AER1081C",
+    "courses": [
+      "AER1081C"
+    ]
+  },
+  "AER 2695C": {
+    "text": "AER1081C and AER1694C",
+    "courses": [
+      "AER1081C",
+      "AER1694C"
+    ]
+  },
+  "AER 2895C": {
+    "text": "AER2899 and AER2695C",
+    "courses": [
+      "AER2899",
+      "AER2695C"
+    ]
+  },
+  "AER 2896": {
+    "text": "AER1198 and AER1694C",
+    "courses": [
+      "AER1198",
+      "AER1694C"
+    ]
+  },
+  "AER 2899": {
+    "text": "AER2896",
+    "courses": [
+      "AER2896"
+    ]
+  },
+  "AHS 0160B": {
+    "text": "AHS0160C",
+    "courses": [
+      "AHS0160C"
+    ]
+  },
+  "AHS 0160E": {
+    "text": "AHS0160D",
+    "courses": [
+      "AHS0160D"
+    ]
+  },
+  "AHS 0161C": {
+    "text": "AHS0161B",
+    "courses": [
+      "AHS0161B"
+    ]
+  },
+  "AHS 0161E": {
+    "text": "AHS0161D",
+    "courses": [
+      "AHS0161D"
+    ]
+  },
+  "AHS 0162C": {
+    "text": "AHS0162B",
+    "courses": [
+      "AHS0162B"
+    ]
+  },
+  "AHS 0162E": {
+    "text": "AHS0162D",
+    "courses": [
+      "AHS0162D"
+    ]
+  },
+  "AHS 0163C": {
+    "text": "AHS0163B",
+    "courses": [
+      "AHS0163B"
+    ]
+  },
+  "AHS 0163E": {
+    "text": "AHS0163D",
+    "courses": [
+      "AHS0163D"
+    ]
+  },
+  "AHS 0164C": {
+    "text": "AHS0164B",
+    "courses": [
+      "AHS0164B"
+    ]
+  },
+  "AHS 0164E": {
+    "text": "AHS0164D",
+    "courses": [
+      "AHS0164D"
+    ]
+  },
+  "AHS 0165C": {
+    "text": "AHS0165B",
+    "courses": [
+      "AHS0165B"
+    ]
+  },
+  "AHS 0165E": {
+    "text": "AHS0165D",
+    "courses": [
+      "AHS0165D"
+    ]
+  },
+  "AHS 0166C": {
+    "text": "AHS0166B",
+    "courses": [
+      "AHS0166B"
+    ]
+  },
+  "AHS 0166E": {
+    "text": "AHS0166D",
+    "courses": [
+      "AHS0166D"
+    ]
+  },
+  "AHS 0167C": {
+    "text": "AHS0167B",
+    "courses": [
+      "AHS0167B"
+    ]
+  },
+  "AHS 0167D": {
+    "text": "AHS0167E",
+    "courses": [
+      "AHS0167E"
+    ]
+  },
+  "AHS 0260C": {
+    "text": "AHS0260B",
+    "courses": [
+      "AHS0260B"
+    ]
+  },
+  "AHS 0260E": {
+    "text": "AHS0260D",
+    "courses": [
+      "AHS0260D"
+    ]
+  },
+  "AHS 0261C": {
+    "text": "AHS0261B",
+    "courses": [
+      "AHS0261B"
+    ]
+  },
+  "AHS 0261E": {
+    "text": "AHS0261D",
+    "courses": [
+      "AHS0261D"
+    ]
+  },
+  "AHS 0262C": {
+    "text": "AHS0262B",
+    "courses": [
+      "AHS0262B"
+    ]
+  },
+  "AHS 0262E": {
+    "text": "AHS0262D",
+    "courses": [
+      "AHS0262D"
+    ]
+  },
+  "AHS 0263C": {
+    "text": "AHS0263B",
+    "courses": [
+      "AHS0263B"
+    ]
+  },
+  "AHS 0263E": {
+    "text": "AHS0263D",
+    "courses": [
+      "AHS0263D"
+    ]
+  },
+  "AHS 0264C": {
+    "text": "AHS0264B",
+    "courses": [
+      "AHS0264B"
+    ]
+  },
+  "AHS 0265C": {
+    "text": "AHS0265B",
+    "courses": [
+      "AHS0265B"
+    ]
+  },
+  "AHS 0265D": {
+    "text": "AHS0265E",
+    "courses": [
+      "AHS0265E"
+    ]
+  },
+  "AHS 0266C": {
+    "text": "AHS0266B",
+    "courses": [
+      "AHS0266B"
+    ]
+  },
+  "AHS 0266D": {
+    "text": "AHS0266E",
+    "courses": [
+      "AHS0266E"
+    ]
+  },
+  "AHS 0267C": {
+    "text": "AHS0267B",
+    "courses": [
+      "AHS0267B"
+    ]
+  },
+  "AHS 0267D": {
+    "text": "AHS0267E",
+    "courses": [
+      "AHS0267E"
+    ]
+  },
+  "AHS 0268C": {
+    "text": "AHS0268B",
+    "courses": [
+      "AHS0268B"
+    ]
+  },
+  "AHS 0268D": {
+    "text": "AHS0268E",
+    "courses": [
+      "AHS0268E"
+    ]
+  },
+  "AHS 0269C": {
+    "text": "AHS0269B",
+    "courses": [
+      "AHS0269B"
+    ]
+  },
+  "AHS 0269D": {
+    "text": "AHS0269E",
+    "courses": [
+      "AHS0269E"
+    ]
+  },
+  "AHS 0360C": {
+    "text": "AHS0360B",
+    "courses": [
+      "AHS0360B"
+    ]
+  },
+  "AHS 0360D": {
+    "text": "AHS0360E",
+    "courses": [
+      "AHS0360E"
+    ]
+  },
+  "AHS 0361D": {
+    "text": "AHS0361E",
+    "courses": [
+      "AHS0361E"
+    ]
+  },
+  "AHS 0362B": {
+    "text": "AHS0362C",
+    "courses": [
+      "AHS0362C"
+    ]
+  },
+  "AHS 0362D": {
+    "text": "AHS0362E",
+    "courses": [
+      "AHS0362E"
+    ]
+  },
+  "AHS 0363B": {
+    "text": "AHS0363C",
+    "courses": [
+      "AHS0363C"
+    ]
+  },
+  "AHS 0363D": {
+    "text": "AHS0363E",
+    "courses": [
+      "AHS0363E"
+    ]
+  },
+  "AHS 0364B": {
+    "text": "AHS0364C",
+    "courses": [
+      "AHS0364C"
+    ]
+  },
+  "AHS 0364D": {
+    "text": "AHS0364E",
+    "courses": [
+      "AHS0364E"
+    ]
+  },
+  "AHS 0365B": {
+    "text": "AHS0365C",
+    "courses": [
+      "AHS0365C"
+    ]
+  },
+  "AHS 0365D": {
+    "text": "AHS0365E",
+    "courses": [
+      "AHS0365E"
+    ]
+  },
+  "AHS 0366B": {
+    "text": "AHS0366C",
+    "courses": [
+      "AHS0366C"
+    ]
+  },
+  "AHS 0366D": {
+    "text": "AHS0366E",
+    "courses": [
+      "AHS0366E"
+    ]
+  },
+  "AHS 0367B": {
+    "text": "AHS0367C",
+    "courses": [
+      "AHS0367C"
+    ]
+  },
+  "AHS 0367D": {
+    "text": "AHS0367E",
+    "courses": [
+      "AHS0367E"
+    ]
+  },
+  "AHS 0368B": {
+    "text": "AHS0368C",
+    "courses": [
+      "AHS0368C"
+    ]
+  },
+  "AHS 0368D": {
+    "text": "AHS0368E",
+    "courses": [
+      "AHS0368E"
+    ]
+  },
+  "AHS 0369B": {
+    "text": "AHS0369C",
+    "courses": [
+      "AHS0369C"
+    ]
+  },
+  "AHS 0369D": {
+    "text": "AHS0369E",
+    "courses": [
+      "AHS0369E"
+    ]
+  },
+  "AHS 0370B": {
+    "text": "AHS0370C",
+    "courses": [
+      "AHS0370C"
+    ]
+  },
+  "AHS 0370D": {
+    "text": "AHS0370E",
+    "courses": [
+      "AHS0370E"
+    ]
+  },
+  "AHS 0371B": {
+    "text": "AHS0371C",
+    "courses": [
+      "AHS0371C"
+    ]
+  },
+  "AHS 0371D": {
+    "text": "AHS0371E",
+    "courses": [
+      "AHS0371E"
+    ]
+  },
+  "AHS 0372B": {
+    "text": "AHS0372C",
+    "courses": [
+      "AHS0372C"
+    ]
+  },
+  "AHS 0372D": {
+    "text": "AHS0372E",
+    "courses": [
+      "AHS0372E"
+    ]
+  },
+  "AHS 0373B": {
+    "text": "AHS0373C",
+    "courses": [
+      "AHS0373C"
+    ]
+  },
+  "AHS 0373D": {
+    "text": "AHS0373E",
+    "courses": [
+      "AHS0373E"
+    ]
+  },
+  "AHS 0374B": {
+    "text": "AHS0374C",
+    "courses": [
+      "AHS0374C"
+    ]
+  },
+  "AHS 0374D": {
+    "text": "AHS0374E",
+    "courses": [
+      "AHS0374E"
+    ]
+  },
+  "AHS 0375B": {
+    "text": "AHS0375C",
+    "courses": [
+      "AHS0375C"
+    ]
+  },
+  "AHS 0375D": {
+    "text": "AHS0375E",
+    "courses": [
+      "AHS0375E"
+    ]
+  },
+  "AHS 0376B": {
+    "text": "AHS0376C",
+    "courses": [
+      "AHS0376C"
+    ]
+  },
+  "AHS 0376D": {
+    "text": "AHS0376E",
+    "courses": [
+      "AHS0376E"
+    ]
+  },
+  "AHS 0377B": {
+    "text": "AHS0377C",
+    "courses": [
+      "AHS0377C"
+    ]
+  },
+  "AHS 0377D": {
+    "text": "AHS0377E",
+    "courses": [
+      "AHS0377E"
+    ]
+  },
+  "AHS 0378B": {
+    "text": "AHS0378C",
+    "courses": [
+      "AHS0378C"
+    ]
+  },
+  "AHS 0378D": {
+    "text": "AHS0378E",
+    "courses": [
+      "AHS0378E"
+    ]
+  },
+  "AHS 0379C": {
+    "text": "AHS0379B",
+    "courses": [
+      "AHS0379B"
+    ]
+  },
+  "AHS 0379E": {
+    "text": "AHS0379D",
+    "courses": [
+      "AHS0379D"
+    ]
+  },
+  "AHS 0460B": {
+    "text": "AHS0460C",
+    "courses": [
+      "AHS0460C"
+    ]
+  },
+  "AHS 0461B": {
+    "text": "AHS0461C",
+    "courses": [
+      "AHS0461C"
+    ]
+  },
+  "AHS 0462B": {
+    "text": "AHS0462C",
+    "courses": [
+      "AHS0462C"
+    ]
+  },
+  "AHS 0463B": {
+    "text": "AHS0463C",
+    "courses": [
+      "AHS0463C"
+    ]
+  },
+  "AHS 0464B": {
+    "text": "AHS0464C",
+    "courses": [
+      "AHS0464C"
+    ]
+  },
+  "AHS 0465B": {
+    "text": "AHS0465C",
+    "courses": [
+      "AHS0465C"
+    ]
+  },
+  "AHS 0466B": {
+    "text": "AHS0466C",
+    "courses": [
+      "AHS0466C"
+    ]
+  },
+  "AHS 0466D": {
+    "text": "AHS0466E",
+    "courses": [
+      "AHS0466E"
+    ]
+  },
+  "AHS 0467B": {
+    "text": "AHS0467C",
+    "courses": [
+      "AHS0467C"
+    ]
+  },
+  "AHS 0467D": {
+    "text": "AHS0467E",
+    "courses": [
+      "AHS0467E"
+    ]
+  },
+  "AHS 0468B": {
+    "text": "AHS0468C",
+    "courses": [
+      "AHS0468C"
+    ]
+  },
+  "AHS 0468D": {
+    "text": "AHS0468E",
+    "courses": [
+      "AHS0468E"
+    ]
+  },
+  "AHS 0469B": {
+    "text": "AHS0469C",
+    "courses": [
+      "AHS0469C"
+    ]
+  },
+  "AHS 0469D": {
+    "text": "AHS0469E",
+    "courses": [
+      "AHS0469E"
+    ]
+  },
+  "AHS 0560B": {
+    "text": "AHS0560C",
+    "courses": [
+      "AHS0560C"
+    ]
+  },
+  "AHS 0560D": {
+    "text": "AHS0560E",
+    "courses": [
+      "AHS0560E"
+    ]
+  },
+  "AHS 0561B": {
+    "text": "AHS0561C",
+    "courses": [
+      "AHS0561C"
+    ]
+  },
+  "AHS 0561D": {
+    "text": "AHS0561E",
+    "courses": [
+      "AHS0561E"
+    ]
+  },
+  "AHS 0562B": {
+    "text": "AHS0562C",
+    "courses": [
+      "AHS0562C"
+    ]
+  },
+  "AHS 0562D": {
+    "text": "AHS0562E",
+    "courses": [
+      "AHS0562E"
+    ]
+  },
+  "AHS 0563B": {
+    "text": "AHS0563C",
+    "courses": [
+      "AHS0563C"
+    ]
+  },
+  "AHS 0563D": {
+    "text": "AHS0563E",
+    "courses": [
+      "AHS0563E"
+    ]
+  },
+  "AHS 0564B": {
+    "text": "AHS0564C",
+    "courses": [
+      "AHS0564C"
+    ]
+  },
+  "AHS 0564D": {
+    "text": "AHS0564E",
+    "courses": [
+      "AHS0564E"
+    ]
+  },
+  "AHS 0565B": {
+    "text": "AHS0565C",
+    "courses": [
+      "AHS0565C"
+    ]
+  },
+  "AHS 0565E": {
+    "text": "AHS0565D",
+    "courses": [
+      "AHS0565D"
+    ]
+  },
+  "AHS 0566B": {
+    "text": "AHS0566C",
+    "courses": [
+      "AHS0566C"
+    ]
+  },
+  "AHS 0566E": {
+    "text": "AHS0566D",
+    "courses": [
+      "AHS0566D"
+    ]
+  },
+  "AHS 0567B": {
+    "text": "AHS0567C",
+    "courses": [
+      "AHS0567C"
+    ]
+  },
+  "AHS 0567E": {
+    "text": "AHS0567D",
+    "courses": [
+      "AHS0567D"
+    ]
+  },
+  "AHS 0568B": {
+    "text": "AHS0568C",
+    "courses": [
+      "AHS0568C"
+    ]
+  },
+  "AHS 0568E": {
+    "text": "AHS0568D",
+    "courses": [
+      "AHS0568D"
+    ]
+  },
   "AMH 1010": {
     "text": "ENC 0027 (min C) or ENC 1101 (min C)",
     "courses": [
@@ -276,6 +1095,24 @@
       "ENC 0022"
     ]
   },
+  "AMH 2070": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
+  "AMH 2092": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
+  "AMH 2093": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
   "AML 2010": {
     "text": "ENC 1102 (min C) or ENC 1102 (min Z) or ENC 1102H (min C)",
     "courses": [
@@ -290,10 +1127,59 @@
       "ENC 1102H"
     ]
   },
+  "AML 2600": {
+    "text": "ENC1101 and ENC1101C",
+    "courses": [
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
+  "AMT 1231": {
+    "text": "AMT1231L",
+    "courses": [
+      "AMT1231L"
+    ]
+  },
+  "AMT 1231L": {
+    "text": "AMT1231",
+    "courses": [
+      "AMT1231"
+    ]
+  },
+  "AMT 1261": {
+    "text": "AMT1261L",
+    "courses": [
+      "AMT1261L"
+    ]
+  },
+  "AMT 1752C": {
+    "text": "AMT1751C",
+    "courses": [
+      "AMT1751C"
+    ]
+  },
   "ANT 2000": {
     "text": "ENC 1101 (min C)",
     "courses": [
       "ENC 1101"
+    ]
+  },
+  "ANT 2140": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
+  "ANT 2410": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
+  "ANT 2511": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
     ]
   },
   "APA 2141": {
@@ -363,6 +1249,18 @@
       "ENC 1101"
     ]
   },
+  "ARR 0005C": {
+    "text": "ARR0210L",
+    "courses": [
+      "ARR0210L"
+    ]
+  },
+  "ARR 0006C": {
+    "text": "ARR0005C",
+    "courses": [
+      "ARR0005C"
+    ]
+  },
   "ARR 0100L": {
     "text": "ARR 0001L (min D)",
     "courses": [
@@ -375,10 +1273,29 @@
       "ARR 0001L"
     ]
   },
+  "ARR 0210L": {
+    "text": "ARR0005C",
+    "courses": [
+      "ARR0005C"
+    ]
+  },
+  "ARR 0290": {
+    "text": "ARR0005C and ARR0311C",
+    "courses": [
+      "ARR0005C",
+      "ARR0311C"
+    ]
+  },
   "ARR 0292L": {
     "text": "ARR 0001L (min D)",
     "courses": [
       "ARR 0001L"
+    ]
+  },
+  "ARR 0310C": {
+    "text": "ARR0005C",
+    "courses": [
+      "ARR0005C"
     ]
   },
   "ARR 0310L": {
@@ -387,10 +1304,41 @@
       "ARR 0001L"
     ]
   },
+  "ARR 0311C": {
+    "text": "ARR0310C",
+    "courses": [
+      "ARR0310C"
+    ]
+  },
   "ARR 0330L": {
     "text": "ARR 0001L (min D)",
     "courses": [
       "ARR 0001L"
+    ]
+  },
+  "ARR 0374": {
+    "text": "ARR0005C",
+    "courses": [
+      "ARR0005C"
+    ]
+  },
+  "ARR 0411": {
+    "text": "ARR0005C",
+    "courses": [
+      "ARR0005C"
+    ]
+  },
+  "ARR 0414C": {
+    "text": "ARR0411",
+    "courses": [
+      "ARR0411"
+    ]
+  },
+  "ARR 0949": {
+    "text": "ARR0940 and ARR0941",
+    "courses": [
+      "ARR0940",
+      "ARR0941"
     ]
   },
   "ART 1300C": {
@@ -410,6 +1358,12 @@
     "text": "ART 1750C (min D)",
     "courses": [
       "ART 1750C"
+    ]
+  },
+  "ART 2203C": {
+    "text": "ART1201C",
+    "courses": [
+      "ART1201C"
     ]
   },
   "ART 2330C": {
@@ -474,11 +1428,43 @@
       "ART 2750C"
     ]
   },
+  "ART 2753C": {
+    "text": "ART2752C",
+    "courses": [
+      "ART2752C"
+    ]
+  },
+  "ART 2755C": {
+    "text": "ART2750C",
+    "courses": [
+      "ART2750C"
+    ]
+  },
+  "ART 2808C": {
+    "text": "ART1201C and ART1300C and ART1301C",
+    "courses": [
+      "ART1201C",
+      "ART1300C",
+      "ART1301C"
+    ]
+  },
   "ASC 1566": {
     "text": "ASC 1560 (min C) and EOC 1660 (min C)",
     "courses": [
       "ASC 1560",
       "EOC 1660"
+    ]
+  },
+  "ASC 1610": {
+    "text": "ATT1102",
+    "courses": [
+      "ATT1102"
+    ]
+  },
+  "ASC 2560": {
+    "text": "ATT1102",
+    "courses": [
+      "ATT1102"
     ]
   },
   "ASC 2561": {
@@ -491,6 +1477,12 @@
     "text": "ASC 2560C (min C)",
     "courses": [
       "ASC 2560C"
+    ]
+  },
+  "ASC 2563C": {
+    "text": "ASC2560",
+    "courses": [
+      "ASC2560"
     ]
   },
   "ASC 3321": {
@@ -523,12 +1515,104 @@
       "ASC 3474"
     ]
   },
+  "ASE 0075C": {
+    "text": "ASE0075B",
+    "courses": [
+      "ASE0075B"
+    ]
+  },
+  "ASE 0075E": {
+    "text": "ASE0075D",
+    "courses": [
+      "ASE0075D"
+    ]
+  },
+  "ASE 0076C": {
+    "text": "ASE0076B",
+    "courses": [
+      "ASE0076B"
+    ]
+  },
+  "ASE 0076E": {
+    "text": "ASE0076D",
+    "courses": [
+      "ASE0076D"
+    ]
+  },
+  "ASE 0077C": {
+    "text": "ASE0077B",
+    "courses": [
+      "ASE0077B"
+    ]
+  },
+  "ASE 0077E": {
+    "text": "ASE0077D",
+    "courses": [
+      "ASE0077D"
+    ]
+  },
+  "ASE 0078C": {
+    "text": "ASE0078B",
+    "courses": [
+      "ASE0078B"
+    ]
+  },
+  "ASE 0078E": {
+    "text": "ASE0078D",
+    "courses": [
+      "ASE0078D"
+    ]
+  },
+  "ASE 0079C": {
+    "text": "ASE0079B",
+    "courses": [
+      "ASE0079B"
+    ]
+  },
+  "ASE 0079E": {
+    "text": "ASE0079D",
+    "courses": [
+      "ASE0079D"
+    ]
+  },
+  "ASL 1130": {
+    "text": "ASL1150",
+    "courses": [
+      "ASL1150"
+    ]
+  },
   "ASL 1150": {
     "text": "ASL 1140 (min C) and ASL 1140L (min C) or ASL 1140C (min C)",
     "courses": [
       "ASL 1140",
       "ASL 1140L",
       "ASL 1140C"
+    ]
+  },
+  "ASL 1210": {
+    "text": "ASL1130",
+    "courses": [
+      "ASL1130"
+    ]
+  },
+  "ASL 1300": {
+    "text": "ASL1130 and ENC1101 and ENC1101C",
+    "courses": [
+      "ASL1130",
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
+  "ASL 1430": {
+    "text": "ASL1150",
+    "courses": [
+      "ASL1150"
+    ]
+  },
+  "ASL 2150": {
+    "text": "ASL 2140 (min C)",
+    "courses": [
+      "ASL 2140"
     ]
   },
   "ASL 2150C": {
@@ -544,17 +1628,20 @@
     ]
   },
   "AST 1002": {
-    "text": "MAT 0028 (min C) or MAT 0057 (min C) or MAC 1105 (min C) or MAT 1033 (min C) or MAT 1100 (min C) or MGF 1106 (min C) or MGF 1107 (min C) or MGF 1130 (min C) or MGF 1131 (min C) or STA 2023 (min C)",
+    "text": "MAT 0024 (min S.) or MAT 0027 (min S.) or MAT 0028 (min S.) or MAT 0014 (min C.) or MAT 0055 (min S.) or MAT 1033 (min C) or MAC 1105 (min C) or MAC 1105C (min C) or MAC 1114 (min C) or MAC 1140 (min C) or MGF 1106 (min C) or MGF 1107 (min C) or STA 2023 (min C)",
     "courses": [
+      "MAT 0024",
+      "MAT 0027",
       "MAT 0028",
-      "MAT 0057",
-      "MAC 1105",
+      "MAT 0014",
+      "MAT 0055",
       "MAT 1033",
-      "MAT 1100",
+      "MAC 1105",
+      "MAC 1105C",
+      "MAC 1114",
+      "MAC 1140",
       "MGF 1106",
       "MGF 1107",
-      "MGF 1130",
-      "MGF 1131",
       "STA 2023"
     ]
   },
@@ -572,10 +1659,30 @@
       "ATF 1100"
     ]
   },
-  "ATF 2201": {
-    "text": "ATF 2305 (min C)",
+  "ATF 1108L": {
+    "text": "ATT1102",
     "courses": [
-      "ATF 2305"
+      "ATT1102"
+    ]
+  },
+  "ATF 1109L": {
+    "text": "ATF1108L",
+    "courses": [
+      "ATF1108L"
+    ]
+  },
+  "ATF 1601C": {
+    "text": "ATT1120",
+    "courses": [
+      "ATT1120"
+    ]
+  },
+  "ATF 2201": {
+    "text": "ATF2305 and ATT1110 and ATF2620C",
+    "courses": [
+      "ATF2305",
+      "ATT1110",
+      "ATF2620C"
     ]
   },
   "ATF 2202": {
@@ -597,6 +1704,13 @@
       "ATT 2110"
     ]
   },
+  "ATF 2305": {
+    "text": "ATT1120 and ATF1601C",
+    "courses": [
+      "ATT1120",
+      "ATF1601C"
+    ]
+  },
   "ATF 2305L": {
     "text": "ATT 2120 (min D)",
     "courses": [
@@ -615,6 +1729,13 @@
       "ATF 2210L"
     ]
   },
+  "ATF 2500": {
+    "text": "ATF2203 and ATT2131",
+    "courses": [
+      "ATF2203",
+      "ATT2131"
+    ]
+  },
   "ATF 2500L": {
     "text": "ATT 2130 (min D)",
     "courses": [
@@ -627,11 +1748,30 @@
       "ATT 1120"
     ]
   },
+  "ATF 2620C": {
+    "text": "ATF2305 and ATT1110",
+    "courses": [
+      "ATF2305",
+      "ATT1110"
+    ]
+  },
   "ATF 3531L": {
     "text": "ATT 2130 (min D) or ATT 3134 (min D)",
     "courses": [
       "ATT 2130",
       "ATT 3134"
+    ]
+  },
+  "ATT 1101": {
+    "text": "ATT1100",
+    "courses": [
+      "ATT1100"
+    ]
+  },
+  "ATT 1110": {
+    "text": "ATF2305",
+    "courses": [
+      "ATF2305"
     ]
   },
   "ATT 1120": {
@@ -646,10 +1786,54 @@
       "ATT 1120"
     ]
   },
+  "ATT 2131": {
+    "text": "ATF2202",
+    "courses": [
+      "ATF2202"
+    ]
+  },
   "ATT 2640": {
     "text": "ATF 2203",
     "courses": [
       "ATF 2203"
+    ]
+  },
+  "ATT 2820": {
+    "text": "ATT1810",
+    "courses": [
+      "ATT1810"
+    ]
+  },
+  "AVM 1440": {
+    "text": "ASC1010",
+    "courses": [
+      "ASC1010"
+    ]
+  },
+  "AVM 2120": {
+    "text": "ASC1010",
+    "courses": [
+      "ASC1010"
+    ]
+  },
+  "AVM 2132C": {
+    "text": "AVM2134C",
+    "courses": [
+      "AVM2134C"
+    ]
+  },
+  "AVM 2410": {
+    "text": "ASC1010 and ASC1310",
+    "courses": [
+      "ASC1010",
+      "ASC1310"
+    ]
+  },
+  "AVM 2510": {
+    "text": "ASC1010 and ASC1310",
+    "courses": [
+      "ASC1010",
+      "ASC1310"
     ]
   },
   "AVM 3011": {
@@ -783,6 +1967,12 @@
       "BCA 0394"
     ]
   },
+  "BCH 4024": {
+    "text": "CHM2211C",
+    "courses": [
+      "CHM2211C"
+    ]
+  },
   "BCH 4052": {
     "text": "BSC 2011 (min C) and BSC 2011L (min C) and CHM 2211 (min C) and CHM 2211L (min C) and PCB-Process Bio 3063 (min C) and PCB-Process Bio 3063L (min C)",
     "courses": [
@@ -805,6 +1995,104 @@
       "PCB-Process Bio 3063L"
     ]
   },
+  "BCN 1054": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCN 1215": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCN 1226": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCN 1231": {
+    "text": "BCN 1001 (min C) and BCN 1215 (min C)",
+    "courses": [
+      "BCN 1001",
+      "BCN 1215"
+    ]
+  },
+  "BCN 1272": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCN 1757": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCN 1798": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCN 2272": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCN 2280": {
+    "text": "MAC1114",
+    "courses": [
+      "MAC1114"
+    ]
+  },
+  "BCN 2560": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCN 2721": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCN 2760": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCN 2793": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCT 2743": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCT 2770": {
+    "text": "BCN 1001 (min C)",
+    "courses": [
+      "BCN 1001"
+    ]
+  },
+  "BCV 0652C": {
+    "text": "BCV0603C and BCV0640C",
+    "courses": [
+      "BCV0603C",
+      "BCV0640C"
+    ]
+  },
   "BOT 3015": {
     "text": "BSC 2011 (min C) and BSC 2011L (min C) and CHM 1046 (min C) and CHM 1046L (min C)",
     "courses": [
@@ -812,6 +2100,13 @@
       "BSC 2011L",
       "CHM 1046",
       "CHM 1046L"
+    ]
+  },
+  "BRC 3203": {
+    "text": "BUL3130 and GEB3213",
+    "courses": [
+      "BUL3130",
+      "GEB3213"
     ]
   },
   "BSC 1005": {
@@ -844,6 +2139,12 @@
       "STA 2023"
     ]
   },
+  "BSC 1005L": {
+    "text": "BSC1005",
+    "courses": [
+      "BSC1005"
+    ]
+  },
   "BSC 1010C": {
     "text": "MAT 0028 (min C) or MAT 0057 (min C) or MAT 1105 (min C) or MGF 1100 (min C) or MGF 1130 (min C) or MGF 1131 (min C) or MAC 1114 (min C) or MAC 1140 (min C) or MAC 1147 (min C) or MAC 2233 (min C) or MAC 2311 (min C) or MAC 2312 (min C) or MAT 1033 (min C) or MGF 1106 (min C) or MGF 1107 (min C) or STA 2023 (min C)",
     "courses": [
@@ -866,8 +2167,10 @@
     ]
   },
   "BSC 1011C": {
-    "text": "BSC 1010C (min D)",
+    "text": "BSC 1010 (min C) and BSC 1010L (min C) or BSC 1010C (min C)",
     "courses": [
+      "BSC 1010",
+      "BSC 1010L",
       "BSC 1010C"
     ]
   },
@@ -1004,6 +2307,13 @@
       "BSC 1085C"
     ]
   },
+  "BSC 1942": {
+    "text": "CHM2045C and BSC2419C",
+    "courses": [
+      "CHM2045C",
+      "BSC2419C"
+    ]
+  },
   "BSC 2010": {
     "text": "BSC 1005 (min C) or BSC 1020 (min C) or BSC 1050 (min C) or BSC 1085 (min C) or BSC 1086 (min C) or BSC 1311 (min C) or EVR 1001 (min C) or MCB 2010 (min C) or CHM 1020 (min C) or CHM 1025 (min C) or CHM 2045 (min C) or CHM 2046 (min C) or CHM 2210C (min C) or CHM 2211C (min C)",
     "courses": [
@@ -1100,9 +2410,14 @@
     ]
   },
   "BSC 2086C": {
-    "text": "BSC 2085C (min D)",
+    "text": "BSC 2085C (min C) or BSC 2093C (min C) or BSC 2093 (min C) and BSC 2093L (min C) or BSC 2085 (min C) and BSC 2085L (min C)",
     "courses": [
-      "BSC 2085C"
+      "BSC 2085C",
+      "BSC 2093C",
+      "BSC 2093",
+      "BSC 2093L",
+      "BSC 2085",
+      "BSC 2085L"
     ]
   },
   "BSC 2086H": {
@@ -1121,11 +2436,18 @@
       "BSC 2086"
     ]
   },
-  "BSC 2419C": {
-    "text": "BSC 2420C (min C) or BSC 2427C (min C)",
+  "BSC 2094C": {
+    "text": "BSC2093C",
     "courses": [
-      "BSC 2420C",
-      "BSC 2427C"
+      "BSC2093C"
+    ]
+  },
+  "BSC 2419C": {
+    "text": "MCB2010C and CHM1025C and BSC2427C",
+    "courses": [
+      "MCB2010C",
+      "CHM1025C",
+      "BSC2427C"
     ]
   },
   "BSC 2426C": {
@@ -1135,10 +2457,11 @@
     ]
   },
   "BSC 2427C": {
-    "text": "BSC 2420C (min C) or BSC 2426C (min C)",
+    "text": "MAC1105 and MAC1105C and BSC1421C",
     "courses": [
-      "BSC 2420C",
-      "BSC 2426C"
+      "MAC1105",
+      "MAC1105C",
+      "BSC1421C"
     ]
   },
   "BSC 2932": {
@@ -1172,6 +2495,24 @@
       "ENC 1101"
     ]
   },
+  "CAI 1020": {
+    "text": "CAI 1000 (min C)",
+    "courses": [
+      "CAI 1000"
+    ]
+  },
+  "CAI 2800": {
+    "text": "CAI 1000 (min C)",
+    "courses": [
+      "CAI 1000"
+    ]
+  },
+  "CAP 2141C": {
+    "text": "CAP2140C",
+    "courses": [
+      "CAP2140C"
+    ]
+  },
   "CAP 3052": {
     "text": "GRA 3102 (min C)",
     "courses": [
@@ -1191,6 +2532,10 @@
       "CTS 2433"
     ]
   },
+  "CCE 0614": {
+    "text": "Students must be Yellow Belt certified or must have completed the department's Lean Six Sigma Yellow Belt course before registering. Upon successful completion, students will receive a certificate of training as a Lean Six Sigma Green Belt. (59 hours)",
+    "courses": []
+  },
   "CCJ 1001": {
     "text": "ENC 0027 (min C) or ENC 1101 (min C)",
     "courses": [
@@ -1199,10 +2544,17 @@
     ]
   },
   "CCJ 1020": {
-    "text": "ENC 0027 (min C) or ENC 1101 (min C)",
+    "text": "ENC 1101 (min C) or ENC 0025 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or ENC 1102 (min C) or ENC 2300 (min C) or ENC 0010 (min C.) and REA-Reading 0017 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or REA-Reading 0002 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C)",
     "courses": [
+      "ENC 1101",
+      "ENC 0025",
       "ENC 0027",
-      "ENC 1101"
+      "ENC 0022",
+      "ENC 1102",
+      "ENC 2300",
+      "ENC 0010",
+      "REA-Reading 0017",
+      "REA-Reading 0002"
     ]
   },
   "CCJ 1500": {
@@ -1212,10 +2564,17 @@
       "ENC 1101"
     ]
   },
-  "CCJ 2358": {
-    "text": "ENC 1101 (min C)",
+  "CCJ 2030": {
+    "text": "CCJ1020",
     "courses": [
-      "ENC 1101"
+      "CCJ1020"
+    ]
+  },
+  "CCJ 2358": {
+    "text": "ENC 1101 (min C) and CCJ 1020 (min C)",
+    "courses": [
+      "ENC 1101",
+      "CCJ 1020"
     ]
   },
   "CCJ 2452": {
@@ -1223,6 +2582,12 @@
     "courses": [
       "ENC 0027",
       "ENC 1101"
+    ]
+  },
+  "CCJ 2687": {
+    "text": "CCJ1020",
+    "courses": [
+      "CCJ1020"
     ]
   },
   "CCJ 2932": {
@@ -1275,10 +2640,33 @@
       "COP 2822"
     ]
   },
+  "CEN 3083C": {
+    "text": "CNT2001C and CET2600C",
+    "courses": [
+      "CNT2001C",
+      "CET2600C"
+    ]
+  },
+  "CEN 4025C": {
+    "text": "CEN3024C and CEN4802C",
+    "courses": [
+      "CEN3024C",
+      "CEN4802C"
+    ]
+  },
   "CEN 4930C": {
     "text": "CEN 4025C (min C)",
     "courses": [
       "CEN 4025C"
+    ]
+  },
+  "CEN 4940": {
+    "text": "CEN4025C and COP4655C and CEN4802C and COP4847C",
+    "courses": [
+      "CEN4025C",
+      "COP4655C",
+      "CEN4802C",
+      "COP4847C"
     ]
   },
   "CET 1020C": {
@@ -1355,6 +2743,13 @@
     "text": "CNT 1001 (min C)",
     "courses": [
       "CNT 1001"
+    ]
+  },
+  "CET 2600C": {
+    "text": "CTS1131C and CTS1133C",
+    "courses": [
+      "CTS1131C",
+      "CTS1133C"
     ]
   },
   "CET 2610C": {
@@ -1444,6 +2839,13 @@
       "CGS 1100"
     ]
   },
+  "CGS 2470": {
+    "text": "ETD1100C and ETS1520C",
+    "courses": [
+      "ETD1100C",
+      "ETS1520C"
+    ]
+  },
   "CGS 2510C": {
     "text": "CGS 1100C (min D)",
     "courses": [
@@ -1462,10 +2864,23 @@
       "CGS 1100C"
     ]
   },
+  "CGS 2542C": {
+    "text": "CGS1060C and CGS1100C",
+    "courses": [
+      "CGS1060C",
+      "CGS1100C"
+    ]
+  },
   "CGS 2565C": {
     "text": "CGS 1100C (min D)",
     "courses": [
       "CGS 1100C"
+    ]
+  },
+  "CGS 2820C": {
+    "text": "COP2822C",
+    "courses": [
+      "COP2822C"
     ]
   },
   "CGS 3092": {
@@ -1494,6 +2909,12 @@
       "CHD 1380",
       "CHD 2320",
       "CHD 2220"
+    ]
+  },
+  "CHI 1121": {
+    "text": "CHI1120",
+    "courses": [
+      "CHI1120"
     ]
   },
   "CHM 1020": {
@@ -1657,6 +3078,22 @@
       "MAP Mathematics Applied 2302"
     ]
   },
+  "CHM 2045C": {
+    "text": "MAC1105 and MAC1105C and MAC1114 and MAC1140 and MAC1147 and MAC2233 and MAC2311 and MAC2312 and MAC2313 and MAP2302 and CHM1025C",
+    "courses": [
+      "MAC1105",
+      "MAC1105C",
+      "MAC1114",
+      "MAC1140",
+      "MAC1147",
+      "MAC2233",
+      "MAC2311",
+      "MAC2312",
+      "MAC2313",
+      "MAP2302",
+      "CHM1025C"
+    ]
+  },
   "CHM 2045L": {
     "text": "CHM 1025 (min C) and CHM 1025L (min C) and MAT 1033 (min C) or MAC 1105 (min C) or MAC 2233 (min C) or MAC 1140 (min C) or MAC 1114 (min C) or MAC 1147 (min C) or MAC 2311 (min C) or MAC 2312 (min C) or MAC 2313 (min C) or MAP Mathematics Applied 2302 (min C)",
     "courses": [
@@ -1682,6 +3119,20 @@
       "CHM 2045L"
     ]
   },
+  "CHM 2046C": {
+    "text": "CHM 2045C (min C) or MAC 1140 (min C) or MAC 1105 (min C) or MAC 1105C (min C) or MAC 1114 (min C) or MAC 2311 (min C) or MAC 2312 (min C) or MAC 2313 (min C) or MAC 2233 (min C)",
+    "courses": [
+      "CHM 2045C",
+      "MAC 1140",
+      "MAC 1105",
+      "MAC 1105C",
+      "MAC 1114",
+      "MAC 2311",
+      "MAC 2312",
+      "MAC 2313",
+      "MAC 2233"
+    ]
+  },
   "CHM 2046L": {
     "text": "CHM 2045C (min C) or CHM 2045 (min C) and CHM 2045L (min C)",
     "courses": [
@@ -1696,6 +3147,12 @@
       "CHM 1046",
       "CHM 1046L",
       "CHM 2210L"
+    ]
+  },
+  "CHM 2210C": {
+    "text": "CHM 2046C (min C)",
+    "courses": [
+      "CHM 2046C"
     ]
   },
   "CHM 2210L": {
@@ -1726,6 +3183,13 @@
       "CHM 2210C",
       "CHM 2210",
       "CHM 2210L"
+    ]
+  },
+  "CHM 3120C": {
+    "text": "CHM2046C and CHM2210C",
+    "courses": [
+      "CHM2046C",
+      "CHM2210C"
     ]
   },
   "CIS 1355": {
@@ -1766,6 +3230,12 @@
       "COP ANY"
     ]
   },
+  "CIS 2321C": {
+    "text": "CGS1100C",
+    "courses": [
+      "CGS1100C"
+    ]
+  },
   "CIS 2352": {
     "text": "CNT 1401 (min C)",
     "courses": [
@@ -1802,6 +3272,13 @@
     "courses": [
       "CNT 1401",
       "CET 2793"
+    ]
+  },
+  "CIS 2530": {
+    "text": "CGS 1000 (min C) and CTS 2134 (min C)",
+    "courses": [
+      "CGS 1000",
+      "CTS 2134"
     ]
   },
   "CIS 2931": {
@@ -1883,10 +3360,22 @@
       "ENC 1101"
     ]
   },
+  "CJC 2000": {
+    "text": "CCJ1020",
+    "courses": [
+      "CCJ1020"
+    ]
+  },
   "CJC 3011": {
     "text": "CCJ 3024 (min D)",
     "courses": [
       "CCJ 3024"
+    ]
+  },
+  "CJC 3163": {
+    "text": "CCJ1020",
+    "courses": [
+      "CCJ1020"
     ]
   },
   "CJE 1130": {
@@ -1903,6 +3392,18 @@
       "CJE 1641"
     ]
   },
+  "CJE 1651": {
+    "text": "CCJ1020",
+    "courses": [
+      "CCJ1020"
+    ]
+  },
+  "CJE 1686": {
+    "text": "CJE1680",
+    "courses": [
+      "CJE1680"
+    ]
+  },
   "CJE 1772": {
     "text": "CJE 1770 (min C)",
     "courses": [
@@ -1916,11 +3417,18 @@
       "ENC 0027"
     ]
   },
-  "CJE 2331": {
-    "text": "ENC 0027 (min C) or ENC 1101 (min C)",
+  "CJE 2300": {
+    "text": "CCJ1020",
     "courses": [
-      "ENC 0027",
-      "ENC 1101"
+      "CCJ1020"
+    ]
+  },
+  "CJE 2331": {
+    "text": "CCJ 1020 or CJE 1000 or CCJ 1100",
+    "courses": [
+      "CCJ 1020",
+      "CJE 1000",
+      "CCJ 1100"
     ]
   },
   "CJE 2640": {
@@ -1928,6 +3436,12 @@
     "courses": [
       "ENC 0027",
       "ENC 1101"
+    ]
+  },
+  "CJE 3341": {
+    "text": "CCJ1020",
+    "courses": [
+      "CCJ1020"
     ]
   },
   "CJE 4610": {
@@ -1950,6 +3464,12 @@
       "CJL 3133"
     ]
   },
+  "CJJ 2002": {
+    "text": "CCJ1020",
+    "courses": [
+      "CCJ1020"
+    ]
+  },
   "CJK 0020C": {
     "text": "CJK 0005 (min D) or CJK 0006 (min D)",
     "courses": [
@@ -1969,6 +3489,21 @@
     "courses": [
       "ENC 0027",
       "ENC 1101"
+    ]
+  },
+  "CJL 1500": {
+    "text": "CCJ1020",
+    "courses": [
+      "CCJ1020"
+    ]
+  },
+  "CJL 2100": {
+    "text": "CCJ 1020 or CJE 1000 or CCJ 1100 or PLA-Paralegal/Legal Asst/Legal 1003",
+    "courses": [
+      "CCJ 1020",
+      "CJE 1000",
+      "CCJ 1100",
+      "PLA-Paralegal/Legal Asst/Legal 1003"
     ]
   },
   "CJL 2130": {
@@ -1998,6 +3533,12 @@
       "CCJ 3024"
     ]
   },
+  "CLP 1001": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
   "CLP 2140": {
     "text": "PSY 2012 (min D) or PSY 2012H (min D)",
     "courses": [
@@ -2017,10 +3558,23 @@
       "CET 1020C"
     ]
   },
+  "CNT 2001C": {
+    "text": "CGS1060C and CGS1100C",
+    "courses": [
+      "CGS1060C",
+      "CGS1100C"
+    ]
+  },
   "CNT 2211C": {
     "text": "CNT 1700C (min C)",
     "courses": [
       "CNT 1700C"
+    ]
+  },
+  "CNT 2404C": {
+    "text": "CET2662C",
+    "courses": [
+      "CET2662C"
     ]
   },
   "CNT 2510": {
@@ -2029,10 +3583,37 @@
       "CNT 1000"
     ]
   },
+  "CNT 3014C": {
+    "text": "CTS2655C",
+    "courses": [
+      "CTS2655C"
+    ]
+  },
+  "CNT 3403C": {
+    "text": "CNT2102C and CNT4708C and CNT3105C",
+    "courses": [
+      "CNT2102C",
+      "CNT4708C",
+      "CNT3105C"
+    ]
+  },
   "CNT 3408": {
     "text": "CIS 3360 (min C)",
     "courses": [
       "CIS 3360"
+    ]
+  },
+  "CNT 4509C": {
+    "text": "CNT2102C",
+    "courses": [
+      "CNT2102C"
+    ]
+  },
+  "CNT 4931C": {
+    "text": "CNT3014C and CNT4509C",
+    "courses": [
+      "CNT3014C",
+      "CNT4509C"
     ]
   },
   "COP 1000": {
@@ -2100,6 +3681,12 @@
       "COP 1000"
     ]
   },
+  "COP 2334C": {
+    "text": "COP1000C",
+    "courses": [
+      "COP1000C"
+    ]
+  },
   "COP 2360": {
     "text": "COP 1000 (min C)",
     "courses": [
@@ -2118,6 +3705,18 @@
       "COP 1000"
     ]
   },
+  "COP 2551C": {
+    "text": "COP1000C",
+    "courses": [
+      "COP1000C"
+    ]
+  },
+  "COP 2800C": {
+    "text": "COP1000C",
+    "courses": [
+      "COP1000C"
+    ]
+  },
   "COP 2801": {
     "text": "COP 1000 (min C) and CGS 1820 (min C)",
     "courses": [
@@ -2130,6 +3729,19 @@
     "courses": [
       "COP 2250",
       "COP 2250C"
+    ]
+  },
+  "COP 2806C": {
+    "text": "COP2805C",
+    "courses": [
+      "COP2805C"
+    ]
+  },
+  "COP 2823C": {
+    "text": "COP2837C and COP2360C",
+    "courses": [
+      "COP2837C",
+      "COP2360C"
     ]
   },
   "COP 2840": {
@@ -2145,12 +3757,26 @@
       "COP 2510"
     ]
   },
+  "COP 2842C": {
+    "text": "COP2822C",
+    "courses": [
+      "COP2822C"
+    ]
+  },
   "COP 2940": {
     "text": "COP 2250 (min C) and COP 2700 (min C) and DIG 2100 (min C)",
     "courses": [
       "COP 2250",
       "COP 2700",
       "DIG 2100"
+    ]
+  },
+  "COP 3330C": {
+    "text": "COP2551C and COP2800C and COP2360C",
+    "courses": [
+      "COP2551C",
+      "COP2800C",
+      "COP2360C"
     ]
   },
   "COP 3710": {
@@ -2169,9 +3795,12 @@
     ]
   },
   "COP 4655C": {
-    "text": "COP 2551 (min C)",
+    "text": "CTS2437C and COP3330C and CEN2071C and ISM3113C",
     "courses": [
-      "COP 2551"
+      "CTS2437C",
+      "COP3330C",
+      "CEN2071C",
+      "ISM3113C"
     ]
   },
   "COP 4864": {
@@ -2204,6 +3833,18 @@
       "COS 0081L"
     ]
   },
+  "CPO 2002": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
+  "CRW 2000": {
+    "text": "ENC 1101 (min C)",
+    "courses": [
+      "ENC 1101"
+    ]
+  },
   "CRW 2001": {
     "text": "ENC 1101 (min C) or ENC 1101C (min C)",
     "courses": [
@@ -2223,6 +3864,13 @@
       "CRW 2002"
     ]
   },
+  "CRW 2201": {
+    "text": "ENC1101 and ENC1101C",
+    "courses": [
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
   "CTS 1120": {
     "text": "CTS 1650 (min D)",
     "courses": [
@@ -2234,6 +3882,19 @@
     "courses": [
       "CTS 1131C",
       "CTS 2321C"
+    ]
+  },
+  "CTS 1138C": {
+    "text": "CGS 1000 (min C)",
+    "courses": [
+      "CGS 1000"
+    ]
+  },
+  "CTS 1334C": {
+    "text": "CTS1131C and CTS1133C",
+    "courses": [
+      "CTS1131C",
+      "CTS1133C"
     ]
   },
   "CTS 1441": {
@@ -2257,6 +3918,12 @@
       "CNT 1000"
     ]
   },
+  "CTS 2134": {
+    "text": "CGS 1000 (min C)",
+    "courses": [
+      "CGS 1000"
+    ]
+  },
   "CTS 2192C": {
     "text": "CET 1600C (min D) and CTS 1131C (min D) and CTS 1132C (min D)",
     "courses": [
@@ -2269,6 +3936,18 @@
     "text": "CTS 1650 (min C)",
     "courses": [
       "CTS 1650"
+    ]
+  },
+  "CTS 2303C": {
+    "text": "CTS2302C",
+    "courses": [
+      "CTS2302C"
+    ]
+  },
+  "CTS 2305C": {
+    "text": "CTS2304C",
+    "courses": [
+      "CTS2304C"
     ]
   },
   "CTS 2320C": {
@@ -2299,6 +3978,12 @@
       "CNT 1001"
     ]
   },
+  "CTS 2370C": {
+    "text": "CTS1334C",
+    "courses": [
+      "CTS1334C"
+    ]
+  },
   "CTS 2375": {
     "text": "CET 1600 (min C)",
     "courses": [
@@ -2319,10 +4004,35 @@
       "CET 1600"
     ]
   },
+  "CTS 2436C": {
+    "text": "CTS2437C",
+    "courses": [
+      "CTS2437C"
+    ]
+  },
+  "CTS 2437C": {
+    "text": "COP1000C",
+    "courses": [
+      "COP1000C"
+    ]
+  },
+  "CTS 2456C": {
+    "text": "COP1000C",
+    "courses": [
+      "COP1000C"
+    ]
+  },
   "CTS 2652": {
     "text": "CTS 1651 (min C)",
     "courses": [
       "CTS 1651"
+    ]
+  },
+  "CTS 2655": {
+    "text": "CTS 2134 (min C) or CET-Cmptr Engineering Tech 1485 (min C)",
+    "courses": [
+      "CTS 2134",
+      "CET-Cmptr Engineering Tech 1485"
     ]
   },
   "CTS 2830C": {
@@ -2351,6 +4061,12 @@
       "CTS 2653"
     ]
   },
+  "CTS 2960C": {
+    "text": "CTS2305C",
+    "courses": [
+      "CTS2305C"
+    ]
+  },
   "CVT 0507": {
     "text": "HSC 0530 (min C) and HSC 0003 (min C)",
     "courses": [
@@ -2374,6 +4090,18 @@
     "text": "CVT 2510 (min C)",
     "courses": [
       "CVT 2510"
+    ]
+  },
+  "CVT 2621C": {
+    "text": "CVT2620C",
+    "courses": [
+      "CVT2620C"
+    ]
+  },
+  "CVT 2841L": {
+    "text": "CVT2840L",
+    "courses": [
+      "CVT2840L"
     ]
   },
   "CVT 2844L": {
@@ -2514,6 +4242,12 @@
       "DES 0830"
     ]
   },
+  "DEA 0936": {
+    "text": "DEA0851",
+    "courses": [
+      "DEA0851"
+    ]
+  },
   "DEH 1002": {
     "text": "ENC 1101 (min C) and HUN 1201 (min C) and BSC 2085 (min C) and BSC 2085L (min C)",
     "courses": [
@@ -2532,6 +4266,12 @@
       "BSC 2085L"
     ]
   },
+  "DEH 1003C": {
+    "text": "DEH1001C",
+    "courses": [
+      "DEH1001C"
+    ]
+  },
   "DEH 1130": {
     "text": "DES 1200 (min C)",
     "courses": [
@@ -2545,9 +4285,16 @@
     ]
   },
   "DEH 1800": {
-    "text": "DEH 1002 (min C)",
+    "text": "DES1000 and DES1000L and DES1010 and DES1030 and DEH1001C and DEH1003C and DEH1720 and DEH1800L",
     "courses": [
-      "DEH 1002"
+      "DES1000",
+      "DES1000L",
+      "DES1010",
+      "DES1030",
+      "DEH1001C",
+      "DEH1003C",
+      "DEH1720",
+      "DEH1800L"
     ]
   },
   "DEH 1800L": {
@@ -2624,6 +4371,19 @@
       "DEH 1800"
     ]
   },
+  "DEH 2530": {
+    "text": "DES1600 and DES1600L and DEH1800 and DEH1800L and DES1200 and DES1200L and DEH2400 and DEH2530L",
+    "courses": [
+      "DES1600",
+      "DES1600L",
+      "DEH1800",
+      "DEH1800L",
+      "DES1200",
+      "DES1200L",
+      "DEH2400",
+      "DEH2530L"
+    ]
+  },
   "DEH 2602": {
     "text": "DEH 1800 (min C) and DEH 1800L (min C) and DES-Dental Support 1832 (min C) and DES-Dental Support 1832L (min C) and DEH 1130 (min C) and DEH 1400 (min C) and DES-Dental Support 1201 (min C) and DES-Dental Support 1201L (min C) and DEH 2300 (min C)",
     "courses": [
@@ -2642,6 +4402,16 @@
     "text": "DEH 2602 (min C)",
     "courses": [
       "DEH 2602"
+    ]
+  },
+  "DEH 2701L": {
+    "text": "DEH2804 and DEH2804L and DEH2701 and DEH2300 and DEH2821",
+    "courses": [
+      "DEH2804",
+      "DEH2804L",
+      "DEH2701",
+      "DEH2300",
+      "DEH2821"
     ]
   },
   "DEH 2702": {
@@ -2710,6 +4480,27 @@
       "DEH 2804L"
     ]
   },
+  "DEH 2811": {
+    "text": "DEH2804 and DEH2804L and DEH2701 and DEH2300 and DEH2821",
+    "courses": [
+      "DEH2804",
+      "DEH2804L",
+      "DEH2701",
+      "DEH2300",
+      "DEH2821"
+    ]
+  },
+  "DEH 2930": {
+    "text": "DEH2804 and DEH2804L and DEH2701 and DEH2300 and DEH2821 and DEH2806L",
+    "courses": [
+      "DEH2804",
+      "DEH2804L",
+      "DEH2701",
+      "DEH2300",
+      "DEH2821",
+      "DEH2806L"
+    ]
+  },
   "DEP 1004": {
     "text": "PSY 2012 (min D)",
     "courses": [
@@ -2717,9 +4508,9 @@
     ]
   },
   "DEP 2002": {
-    "text": "PSY 1012 (min C)",
+    "text": "PSY 2012 (min C)",
     "courses": [
-      "PSY 1012"
+      "PSY 2012"
     ]
   },
   "DEP 2004": {
@@ -2761,11 +4552,23 @@
       "DES 0804L"
     ]
   },
+  "DES 0205L": {
+    "text": "DES0205",
+    "courses": [
+      "DES0205"
+    ]
+  },
   "DES 0206": {
     "text": "DES 0205 (min C) and DES 0205L (min C)",
     "courses": [
       "DES 0205",
       "DES 0205L"
+    ]
+  },
+  "DES 0206L": {
+    "text": "DES0206",
+    "courses": [
+      "DES0206"
     ]
   },
   "DES 0501": {
@@ -2780,10 +4583,23 @@
       "DES 0830L"
     ]
   },
-  "DES 1100": {
-    "text": "DEH 1002 (min C)",
+  "DES 1000": {
+    "text": "DES1000L",
     "courses": [
-      "DEH 1002"
+      "DES1000L"
+    ]
+  },
+  "DES 1100": {
+    "text": "DES1600 and DES1600L and DEH1800 and DEH1800L and DES1200 and DES1200L and DEH2400 and DES1101L",
+    "courses": [
+      "DES1600",
+      "DES1600L",
+      "DEH1800",
+      "DEH1800L",
+      "DES1200",
+      "DES1200L",
+      "DEH2400",
+      "DES1101L"
     ]
   },
   "DES 1100L": {
@@ -2792,16 +4608,62 @@
       "DEH 1002"
     ]
   },
+  "DES 1200": {
+    "text": "DES1000 and DES1000L and DES1010 and DES1030 and DEH1001C and DEH1003C and DEH1720 and DES1200L",
+    "courses": [
+      "DES1000",
+      "DES1000L",
+      "DES1010",
+      "DES1030",
+      "DEH1001C",
+      "DEH1003C",
+      "DEH1720",
+      "DES1200L"
+    ]
+  },
   "DES 1200L": {
     "text": "DES 1200 (min C)",
     "courses": [
       "DES 1200"
     ]
   },
+  "DES 1600": {
+    "text": "DES1000 and DES1000L and DES1010 and DES1030 and DEH1001C and DEH1003C and DEH1720 and DES1600L",
+    "courses": [
+      "DES1000",
+      "DES1000L",
+      "DES1010",
+      "DES1030",
+      "DEH1001C",
+      "DEH1003C",
+      "DEH1720",
+      "DES1600L"
+    ]
+  },
+  "DES 2710": {
+    "text": "DEH2804 and DEH2804L and DEH2701 and DEH2300 and DEH2821",
+    "courses": [
+      "DEH2804",
+      "DEH2804L",
+      "DEH2701",
+      "DEH2300",
+      "DEH2821"
+    ]
+  },
   "DIG 2093": {
     "text": "MAR 2011 (min D)",
     "courses": [
       "MAR 2011"
+    ]
+  },
+  "DIG 2093C": {
+    "text": "TPA 1380 (min C) and DIG 2000C (min C) and DIG 2030C (min C) and DIG 2109C (min C) and DIG 2430C (min C)",
+    "courses": [
+      "TPA 1380",
+      "DIG 2000C",
+      "DIG 2030C",
+      "DIG 2109C",
+      "DIG 2430C"
     ]
   },
   "DIG 2111C": {
@@ -2843,6 +4705,19 @@
       "DIG 2205"
     ]
   },
+  "DIG 2284C": {
+    "text": "DIG 2030C (min C)",
+    "courses": [
+      "DIG 2030C"
+    ]
+  },
+  "DIG 2292C": {
+    "text": "DIG 2030C (min C) and DIG 2109C (min C)",
+    "courses": [
+      "DIG 2030C",
+      "DIG 2109C"
+    ]
+  },
   "DIG 2330C": {
     "text": "DIG 2030C (min D)",
     "courses": [
@@ -2870,11 +4745,23 @@
       "DIG 2200"
     ]
   },
+  "DIG 3255C": {
+    "text": "DIG2282C",
+    "courses": [
+      "DIG2282C"
+    ]
+  },
   "DIG 3354": {
     "text": "ART 1301C (min C) and GRA 3154 (min C)",
     "courses": [
       "ART 1301C",
       "GRA 3154"
+    ]
+  },
+  "DIG 3433C": {
+    "text": "DIG2282C",
+    "courses": [
+      "DIG2282C"
     ]
   },
   "DIG 3512": {
@@ -2904,6 +4791,12 @@
       "DIG 4570"
     ]
   },
+  "DIG 4144C": {
+    "text": "DIG3433C",
+    "courses": [
+      "DIG3433C"
+    ]
+  },
   "DIG 4433": {
     "text": "GRA-Graphic Arts 2156 (min C) and DIG 2100 (min C)",
     "courses": [
@@ -2911,10 +4804,52 @@
       "DIG 2100"
     ]
   },
+  "DSC 1222": {
+    "text": "DSC1006",
+    "courses": [
+      "DSC1006"
+    ]
+  },
+  "DSC 1562": {
+    "text": "DSC1006",
+    "courses": [
+      "DSC1006"
+    ]
+  },
+  "DSC 1751": {
+    "text": "DSC1006",
+    "courses": [
+      "DSC1006"
+    ]
+  },
+  "DSC 2242": {
+    "text": "DSC1006",
+    "courses": [
+      "DSC1006"
+    ]
+  },
   "DSC 2250": {
     "text": "ASC-Aviation Science: General 2560 (min C)",
     "courses": [
       "ASC-Aviation Science: General 2560"
+    ]
+  },
+  "DSC 2590": {
+    "text": "DSC1006",
+    "courses": [
+      "DSC1006"
+    ]
+  },
+  "DSC 3949": {
+    "text": "DSC3079",
+    "courses": [
+      "DSC3079"
+    ]
+  },
+  "DSC 4214": {
+    "text": "DSC3079",
+    "courses": [
+      "DSC3079"
     ]
   },
   "EAP 0260": {
@@ -2947,10 +4882,18 @@
       "EAP 0360"
     ]
   },
-  "EAP 1540": {
-    "text": "EAP 0440 (min C)",
+  "EAP 1500": {
+    "text": "EAP0400 and EAP0420",
     "courses": [
-      "EAP 0440"
+      "EAP0400",
+      "EAP0420"
+    ]
+  },
+  "EAP 1540": {
+    "text": "EAP0440 and EAP1560",
+    "courses": [
+      "EAP0440",
+      "EAP1560"
     ]
   },
   "EAP 1560": {
@@ -2959,52 +4902,68 @@
       "EAP 0460"
     ]
   },
-  "ECO 2013": {
-    "text": "ENC 0027 (min C) or ENC 1101 (min C) or MAT 0028 (min C) or MAT 0057 (min C) or MAC 1105 (min C) or MGF 1100 (min C) or MGF 1130 (min C) or MGF 1131 (min C) or MAC 1114 (min C) or MAC 1140 (min C) or MAC 1147 (min C) or MAC 2233 (min C) or MAC 2311 (min C) or MAC 2312 (min C) or MAT 1033 (min C) or MGF 1106 (min C) or MGF 1107 (min C) or STA 2023 (min C)",
+  "EAP 1600": {
+    "text": "EAP1500 and EAP0440",
     "courses": [
+      "EAP1500",
+      "EAP0440"
+    ]
+  },
+  "EAP 1640": {
+    "text": "EAP1540 and EAP1660",
+    "courses": [
+      "EAP1540",
+      "EAP1660"
+    ]
+  },
+  "ECO 2013": {
+    "text": "ENC 0025 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or ENC 0010 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C) or REA-Reading 0017 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or REA-Reading 0002 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C) or MAT 0028 (min S.) or MAT 0024 (min S.) or MAT 0027 (min S.) or MAT 0014 (min C.) or MAT 1033 (min C) or MAC 1105 (min C) or MAC 1105C (min C) or STA 2023 (min C) or MAC 2233 (min C) or MGF 1106 (min C) or MGF 1107 (min C)",
+    "courses": [
+      "ENC 0025",
       "ENC 0027",
+      "ENC 0022",
+      "ENC 0010",
       "ENC 1101",
+      "ENC 1102",
+      "ENC 2300",
+      "REA-Reading 0017",
+      "REA-Reading 0002",
       "MAT 0028",
-      "MAT 0057",
-      "MAC 1105",
-      "MGF 1100",
-      "MGF 1130",
-      "MGF 1131",
-      "MAC 1114",
-      "MAC 1140",
-      "MAC 1147",
-      "MAC 2233",
-      "MAC 2311",
-      "MAC 2312",
+      "MAT 0024",
+      "MAT 0027",
+      "MAT 0014",
       "MAT 1033",
+      "MAC 1105",
+      "MAC 1105C",
+      "STA 2023",
+      "MAC 2233",
       "MGF 1106",
-      "MGF 1107",
-      "STA 2023"
+      "MGF 1107"
     ]
   },
   "ECO 2023": {
-    "text": "ENC 1101 (min C)ENC 0021 (min C) or ENC 0021 (min C*) or ENC 0022 (min C) or ENC 0022 (min C*) or ENC 0025 (min C) or ENC 0025 (min C*) and REA 0011 (min C) or REA 0011 (min C*) or REA 0017 (min C) or REA 0017 (min C*) or REA 0019 (min C) or REA 0019 (min C*) and MAT 0022 (min P) or MAT 0022 (min P*) or MAT 0028 (min C) or MAT 0028 (min C*) or MAT 0028 (min P) or MAT 0028 (min P*) or MAT 0055 (min P) or MAT 0055 (min P*) or MAT 1033 (min C) or MAT 1100 (min C) or MAC 1105 (min C) or MAC 1114 (min C) or MAC 1140 (min C) or MAC 2233 (min C) or MAC 2311 (min C) or MGF 1130 (min C) or MGF 1131 (min C) or STA 2023 (min C)",
+    "text": "ENC 0025 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or ENC 0010 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C) or REA-Reading 0017 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or REA-Reading 0002 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C) or MAT 0028 (min S.) or MAT 0024 (min S.) or MAT 0027 (min S.) or MAT 0014 (min C.) or MAT 1033 (min C) or MAC 1105 (min C) or MAC 1105C (min C) or STA 2023 (min C) or MAC 2233 (min C) or MGF 1106 (min C) or MGF 1107 (min C)",
     "courses": [
-      "ENC 1101",
-      "ENC 0021",
-      "ENC 0022",
       "ENC 0025",
-      "REA 0011",
-      "REA 0017",
-      "REA 0019",
-      "MAT 0022",
+      "ENC 0027",
+      "ENC 0022",
+      "ENC 0010",
+      "ENC 1101",
+      "ENC 1102",
+      "ENC 2300",
+      "REA-Reading 0017",
+      "REA-Reading 0002",
       "MAT 0028",
-      "MAT 0055",
+      "MAT 0024",
+      "MAT 0027",
+      "MAT 0014",
       "MAT 1033",
-      "MAT 1100",
       "MAC 1105",
-      "MAC 1114",
-      "MAC 1140",
+      "MAC 1105C",
+      "STA 2023",
       "MAC 2233",
-      "MAC 2311",
-      "MGF 1130",
-      "MGF 1131",
-      "STA 2023"
+      "MGF 1106",
+      "MGF 1107"
     ]
   },
   "ECP 3009": {
@@ -3043,9 +5002,17 @@
     ]
   },
   "EDF 2005": {
-    "text": "ENC 1101 (min C)",
+    "text": "ENC 1101 (min C) or ENC 0025 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or ENC 1102 (min C) or ENC 2300 (min C) or ENC 0010 (min C.) and REA-Reading 0017 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or REA-Reading 0002 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C)",
     "courses": [
-      "ENC 1101"
+      "ENC 1101",
+      "ENC 0025",
+      "ENC 0027",
+      "ENC 0022",
+      "ENC 1102",
+      "ENC 2300",
+      "ENC 0010",
+      "REA-Reading 0017",
+      "REA-Reading 0002"
     ]
   },
   "EDF 3940": {
@@ -3065,10 +5032,28 @@
       "TSL 3080"
     ]
   },
+  "EDF 4945": {
+    "text": "EDF 4467 (min C)",
+    "courses": [
+      "EDF 4467"
+    ]
+  },
+  "EDG 2940": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
   "EDG 4376": {
     "text": "LAE 3414 (min D)",
     "courses": [
       "LAE 3414"
+    ]
+  },
+  "EDG 4410": {
+    "text": "EDG 4942 (min C)",
+    "courses": [
+      "EDG 4942"
     ]
   },
   "EDG 4941": {
@@ -3078,6 +5063,28 @@
       "EDE 3223",
       "EEC 3301",
       "RED 3009"
+    ]
+  },
+  "EDG 4942": {
+    "text": "TSL 4240 (min C) or EEX 4070 (min C) or EDG 4410 (min C)",
+    "courses": [
+      "TSL 4240",
+      "EEX 4070",
+      "EDG 4410"
+    ]
+  },
+  "EDG 4943": {
+    "text": "LAE 4314 (min C) or TSL 4080 (min C) or MAE 3311 (min C)",
+    "courses": [
+      "LAE 4314",
+      "TSL 4080",
+      "MAE 3311"
+    ]
+  },
+  "EEC 1001": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
     ]
   },
   "EEC 1272": {
@@ -3118,12 +5125,24 @@
       "EEC 2271"
     ]
   },
+  "EEC 2520": {
+    "text": "EEC2523",
+    "courses": [
+      "EEC2523"
+    ]
+  },
   "EEC 2523": {
     "text": "EEC 1001 (min D) or EEC 1701 (min D) or CHD-Child Development 2220 (min D)",
     "courses": [
       "EEC 1001",
       "EEC 1701",
       "CHD-Child Development 2220"
+    ]
+  },
+  "EEC 2527": {
+    "text": "EEC2523",
+    "courses": [
+      "EEC2523"
     ]
   },
   "EEC 2602": {
@@ -3178,6 +5197,26 @@
       "EDG 3620"
     ]
   },
+  "EEC 4706": {
+    "text": "LAE4416",
+    "courses": [
+      "LAE4416"
+    ]
+  },
+  "EEC 4940C": {
+    "text": "EEC4219 and TSL3080 and TSL3081 and EDG4410 and LAE4416 and RED4511 and RED4541 and EDG4330 and RED4941C",
+    "courses": [
+      "EEC4219",
+      "TSL3080",
+      "TSL3081",
+      "EDG4410",
+      "LAE4416",
+      "RED4511",
+      "RED4541",
+      "EDG4330",
+      "RED4941C"
+    ]
+  },
   "EET 1015C": {
     "text": "MAC 1105 (min D)",
     "courses": [
@@ -3205,6 +5244,12 @@
       "ENC 1101"
     ]
   },
+  "EET 1144C": {
+    "text": "EET1084C",
+    "courses": [
+      "EET1084C"
+    ]
+  },
   "EET 2525C": {
     "text": "EET 1084C (min C) or EET 1084 (min C)",
     "courses": [
@@ -3227,6 +5272,12 @@
       "EDF 3214"
     ]
   },
+  "EEX 4070": {
+    "text": "EDG 4942 (min C)",
+    "courses": [
+      "EDG 4942"
+    ]
+  },
   "EEX 4221": {
     "text": "EEX 4265 (min C)",
     "courses": [
@@ -3237,6 +5288,202 @@
     "text": "EEX 3012 (min D)",
     "courses": [
       "EEX 3012"
+    ]
+  },
+  "EGN 1001C": {
+    "text": "MAC1147",
+    "courses": [
+      "MAC1147"
+    ]
+  },
+  "EIN 3365": {
+    "text": "ETS1632C",
+    "courses": [
+      "ETS1632C"
+    ]
+  },
+  "EIN 4314": {
+    "text": "EIN3365",
+    "courses": [
+      "EIN3365"
+    ]
+  },
+  "ELL 0111": {
+    "text": "ELL0110",
+    "courses": [
+      "ELL0110"
+    ]
+  },
+  "ELL 0118": {
+    "text": "ELL0117",
+    "courses": [
+      "ELL0117"
+    ]
+  },
+  "ELL 0210": {
+    "text": "ELL0211",
+    "courses": [
+      "ELL0211"
+    ]
+  },
+  "ELL 0215": {
+    "text": "ELL0216",
+    "courses": [
+      "ELL0216"
+    ]
+  },
+  "ELL 0217": {
+    "text": "ELL0218",
+    "courses": [
+      "ELL0218"
+    ]
+  },
+  "ELL 0218": {
+    "text": "ELL0217",
+    "courses": [
+      "ELL0217"
+    ]
+  },
+  "ELL 0311": {
+    "text": "ELL0310",
+    "courses": [
+      "ELL0310"
+    ]
+  },
+  "ELL 0318": {
+    "text": "ELL0317",
+    "courses": [
+      "ELL0317"
+    ]
+  },
+  "ELL 0410": {
+    "text": "ELL0411",
+    "courses": [
+      "ELL0411"
+    ]
+  },
+  "ELL 0415": {
+    "text": "ELL0416",
+    "courses": [
+      "ELL0416"
+    ]
+  },
+  "ELL 0417": {
+    "text": "ELL0418",
+    "courses": [
+      "ELL0418"
+    ]
+  },
+  "ELL 0418": {
+    "text": "ELL0417",
+    "courses": [
+      "ELL0417"
+    ]
+  },
+  "ELL 0511": {
+    "text": "ELL0510",
+    "courses": [
+      "ELL0510"
+    ]
+  },
+  "ELL 0610": {
+    "text": "ELL0611",
+    "courses": [
+      "ELL0611"
+    ]
+  },
+  "ELL 0615": {
+    "text": "ELL0616",
+    "courses": [
+      "ELL0616"
+    ]
+  },
+  "ELL 0616": {
+    "text": "ELL0615",
+    "courses": [
+      "ELL0615"
+    ]
+  },
+  "ELL 0617": {
+    "text": "ELL0618",
+    "courses": [
+      "ELL0618"
+    ]
+  },
+  "ELL 0618": {
+    "text": "ELL0617",
+    "courses": [
+      "ELL0617"
+    ]
+  },
+  "ELL 0675": {
+    "text": "ELL0676",
+    "courses": [
+      "ELL0676"
+    ]
+  },
+  "ELL 0677": {
+    "text": "ELL0678",
+    "courses": [
+      "ELL0678"
+    ]
+  },
+  "ELL 0687": {
+    "text": "ELL0688",
+    "courses": [
+      "ELL0688"
+    ]
+  },
+  "ELL 0710": {
+    "text": "ELL0711",
+    "courses": [
+      "ELL0711"
+    ]
+  },
+  "ELL 0712": {
+    "text": "ELL0713",
+    "courses": [
+      "ELL0713"
+    ]
+  },
+  "ELL 0715": {
+    "text": "ELL0710 and ELL0711 and ELL0712 and ELL0713 and ELL0716",
+    "courses": [
+      "ELL0710",
+      "ELL0711",
+      "ELL0712",
+      "ELL0713",
+      "ELL0716"
+    ]
+  },
+  "ELL 0717": {
+    "text": "ELL0710 and ELL0711 and ELL0712 and ELL0713 and ELL0718",
+    "courses": [
+      "ELL0710",
+      "ELL0711",
+      "ELL0712",
+      "ELL0713",
+      "ELL0718"
+    ]
+  },
+  "ELL 0725": {
+    "text": "ELL0710 and ELL0711 and ELL0712 and ELL0713 and ELL0726",
+    "courses": [
+      "ELL0710",
+      "ELL0711",
+      "ELL0712",
+      "ELL0713",
+      "ELL0726"
+    ]
+  },
+  "ELL 0727": {
+    "text": "ELL0710 and ELL0711 and ELL0712 and ELL0713 and ELL0728",
+    "courses": [
+      "ELL0710",
+      "ELL0711",
+      "ELL0712",
+      "ELL0713",
+      "ELL0728"
     ]
   },
   "EME 2040": {
@@ -3253,6 +5500,12 @@
       "FFP Fire Fighting &amp; Protection 0031"
     ]
   },
+  "EMS 0211C": {
+    "text": "EMS0210C",
+    "courses": [
+      "EMS0210C"
+    ]
+  },
   "EMS 1059C": {
     "text": "EMS 2930 (min C)",
     "courses": [
@@ -3266,9 +5519,10 @@
     ]
   },
   "EMS 1119L": {
-    "text": "HSC 2531 (min B)",
+    "text": "EMS1119 and EMS1421C",
     "courses": [
-      "HSC 2531"
+      "EMS1119",
+      "EMS1421C"
     ]
   },
   "EMS 1401": {
@@ -3400,6 +5654,23 @@
       "EMS 2231"
     ]
   },
+  "EMS 2601L": {
+    "text": "EMS2601 and EMS2666",
+    "courses": [
+      "EMS2601",
+      "EMS2666"
+    ]
+  },
+  "EMS 2602L": {
+    "text": "EMS2601 and EMS2601L and EMS2666 and EMS2602 and EMS2667",
+    "courses": [
+      "EMS2601",
+      "EMS2601L",
+      "EMS2666",
+      "EMS2602",
+      "EMS2667"
+    ]
+  },
   "EMS 2603": {
     "text": "EMS 2010 (min C) and EMS 2603L (min C) and EMS 2666 (min C)",
     "courses": [
@@ -3409,11 +5680,13 @@
     ]
   },
   "EMS 2603L": {
-    "text": "EMS 2010 (min C) and EMS 2603 (min C) and EMS 2666 (min C)",
+    "text": "EMS2602 and EMS2602L and EMS2667 and EMS2603 and EMS2668",
     "courses": [
-      "EMS 2010",
-      "EMS 2603",
-      "EMS 2666"
+      "EMS2602",
+      "EMS2602L",
+      "EMS2667",
+      "EMS2603",
+      "EMS2668"
     ]
   },
   "EMS 2605": {
@@ -3499,6 +5772,26 @@
       "EMS 2603L"
     ]
   },
+  "EMS 2668": {
+    "text": "EMS2602 and EMS2602L and EMS2667 and EMS2603 and EMS2603L",
+    "courses": [
+      "EMS2602",
+      "EMS2602L",
+      "EMS2667",
+      "EMS2603",
+      "EMS2603L"
+    ]
+  },
+  "EMS 2681L": {
+    "text": "EMS2603 and EMS2603L and EMS2668 and EMS2681 and EMS2659",
+    "courses": [
+      "EMS2603",
+      "EMS2603L",
+      "EMS2668",
+      "EMS2681",
+      "EMS2659"
+    ]
+  },
   "EMS 2920": {
     "text": "EMS 2604 (min C) and EMS 2604L (min C) and EMS 2667 (min C) and EMS 2605 (min C) and EMS 2605L (min C) and EMS 2659 (min C)",
     "courses": [
@@ -3561,9 +5854,17 @@
     ]
   },
   "ENC 2210": {
-    "text": "ENC 1101 (min C)",
+    "text": "ENC 1101 (min C) or ENC 1101H (min C)",
     "courses": [
-      "ENC 1101"
+      "ENC 1101",
+      "ENC 1101H"
+    ]
+  },
+  "ENC 2301": {
+    "text": "ENC1102 and ENC2210",
+    "courses": [
+      "ENC1102",
+      "ENC2210"
     ]
   },
   "ENG 2100": {
@@ -3593,22 +5894,43 @@
     ]
   },
   "ENL 2022": {
-    "text": "ENC 1102 (min C) or ENC 1102",
+    "text": "ENC 1102 (min C) or ENC 1102H (min C) or ENC 2210 (min C) or ENC 2300 (min C)",
     "courses": [
-      "ENC 1102"
+      "ENC 1102",
+      "ENC 1102H",
+      "ENC 2210",
+      "ENC 2300"
     ]
   },
   "ENL 2330": {
-    "text": "ENC 1102 (min C)",
+    "text": "ENC1101 and ENC1101C",
     "courses": [
-      "ENC 1102"
+      "ENC1101",
+      "ENC1101C"
     ]
   },
   "ENT 1000": {
-    "text": "ENC 0027 (min C) or ENC 1101 (min C)",
+    "text": "ENC 0025 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or ENC 0010 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C) or REA-Reading 0017 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or REA-Reading 0002 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C) or MAT 0028 (min S.) or MAT 0024 (min S.) or MAT 0014 (min C.) or MAT 1033 (min C) or MAC 1105 (min C) or MAC 1105C (min C) or STA 2023 (min C) or MAC 2233 (min C) or MGF 1106 (min C) or MGF 1107 (min C)",
     "courses": [
+      "ENC 0025",
       "ENC 0027",
-      "ENC 1101"
+      "ENC 0022",
+      "ENC 0010",
+      "ENC 1101",
+      "ENC 1102",
+      "ENC 2300",
+      "REA-Reading 0017",
+      "REA-Reading 0002",
+      "MAT 0028",
+      "MAT 0024",
+      "MAT 0014",
+      "MAT 1033",
+      "MAC 1105",
+      "MAC 1105C",
+      "STA 2023",
+      "MAC 2233",
+      "MGF 1106",
+      "MGF 1107"
     ]
   },
   "ENT 2112": {
@@ -3633,10 +5955,29 @@
       "FIN 3400"
     ]
   },
+  "ENT 4013": {
+    "text": "GEB3213",
+    "courses": [
+      "GEB3213"
+    ]
+  },
+  "ENT 4412": {
+    "text": "FIN3400 and GEB3213",
+    "courses": [
+      "FIN3400",
+      "GEB3213"
+    ]
+  },
   "EPI 0017": {
     "text": "EPI 0009 (min C)",
     "courses": [
       "EPI 0009"
+    ]
+  },
+  "EPI 0940C": {
+    "text": "EPI0951C",
+    "courses": [
+      "EPI0951C"
     ]
   },
   "ESC 1000": {
@@ -3663,6 +6004,12 @@
       "MAC 1114",
       "MAC 1147",
       "MAC 2311"
+    ]
+  },
+  "ESC 1000L": {
+    "text": "ESC1000",
+    "courses": [
+      "ESC1000"
     ]
   },
   "ETD 1320C": {
@@ -3701,10 +6048,28 @@
       "ETD 2320"
     ]
   },
+  "ETD 2350": {
+    "text": "CGS2470",
+    "courses": [
+      "CGS2470"
+    ]
+  },
   "ETD 2364C": {
     "text": "ETD 1320C (min D)",
     "courses": [
       "ETD 1320C"
+    ]
+  },
+  "ETD 2536": {
+    "text": "CGS2470",
+    "courses": [
+      "CGS2470"
+    ]
+  },
+  "ETD 2551": {
+    "text": "CGS2470",
+    "courses": [
+      "CGS2470"
     ]
   },
   "ETD 2949": {
@@ -3733,6 +6098,12 @@
       "ETI 1420"
     ]
   },
+  "ETM 1010C": {
+    "text": "EET1084C",
+    "courses": [
+      "EET1084C"
+    ]
+  },
   "ETM 2401": {
     "text": "ETS 1542 (min C)",
     "courses": [
@@ -3745,6 +6116,30 @@
       "ETP 0179"
     ]
   },
+  "ETP 2122C": {
+    "text": "ETP 1138C (min C)",
+    "courses": [
+      "ETP 1138C"
+    ]
+  },
+  "ETP 2161C": {
+    "text": "ETP 1138C (min C)",
+    "courses": [
+      "ETP 1138C"
+    ]
+  },
+  "ETP 2260C": {
+    "text": "ETP 1138C (min C)",
+    "courses": [
+      "ETP 1138C"
+    ]
+  },
+  "ETS 1531C": {
+    "text": "ETS1540C",
+    "courses": [
+      "ETS1540C"
+    ]
+  },
   "ETS 1535": {
     "text": "ETS 1542 (min C)",
     "courses": [
@@ -3755,6 +6150,19 @@
     "text": "EET 2525 (min C)",
     "courses": [
       "EET 2525"
+    ]
+  },
+  "ETS 1680C": {
+    "text": "ETS1542C",
+    "courses": [
+      "ETS1542C"
+    ]
+  },
+  "ETS 2436C": {
+    "text": "ETS1412 and ETS1680C",
+    "courses": [
+      "ETS1412",
+      "ETS1680C"
     ]
   },
   "ETS 2700C": {
@@ -3805,6 +6213,12 @@
       "STA 2023"
     ]
   },
+  "EVR 1264L": {
+    "text": "EVR1264",
+    "courses": [
+      "EVR1264"
+    ]
+  },
   "EVR 2930": {
     "text": "MAT 0028 (min C) or MAT 0057 (min C) or MAC 1105 (min C) or MGF 1130 (min C) or MAC 1114 (min C) or MAC 1140 (min C) or MAC 1147 (min C) or MAC 2233 (min C) or MAC 2311 (min C) or MAC 2312 (min C) or MGF 1131 (min C) or MGF 1100 (min C) or MAT 1033 (min C) or MGF 1106 (min C) or MAT 1100 (min C) or MGF 1107 (min C) or STA 2023 (min C)",
     "courses": [
@@ -3847,6 +6261,12 @@
       "FFP 1740"
     ]
   },
+  "FFP 2810": {
+    "text": "FFP2120",
+    "courses": [
+      "FFP2120"
+    ]
+  },
   "FIL 1000": {
     "text": "ENC 0027 (min C) or ENC 1101 (min C)",
     "courses": [
@@ -3860,7 +6280,21 @@
       "ENC 1101"
     ]
   },
+  "FIL 2001": {
+    "text": "ENC 1101 (min C) or ENC 1101H (min C) or ENC 1132 (min C)",
+    "courses": [
+      "ENC 1101",
+      "ENC 1101H",
+      "ENC 1132"
+    ]
+  },
   "FIL 2100": {
+    "text": "ENC 1101 (min C)",
+    "courses": [
+      "ENC 1101"
+    ]
+  },
+  "FIL 2112": {
     "text": "ENC 1101 (min C)",
     "courses": [
       "ENC 1101"
@@ -3902,11 +6336,68 @@
       "ACG 3024"
     ]
   },
+  "FIN 4232": {
+    "text": "FIN3400",
+    "courses": [
+      "FIN3400"
+    ]
+  },
+  "FIN 4324": {
+    "text": "FIN3400",
+    "courses": [
+      "FIN3400"
+    ]
+  },
   "FIN 4403": {
     "text": "ACG 2071 (min D) or ACG 3024 (min D)",
     "courses": [
       "ACG 2071",
       "ACG 3024"
+    ]
+  },
+  "FIN 4451": {
+    "text": "FIN3740 and ISM3232C",
+    "courses": [
+      "FIN3740",
+      "ISM3232C"
+    ]
+  },
+  "FRE 1121": {
+    "text": "FRE1120",
+    "courses": [
+      "FRE1120"
+    ]
+  },
+  "FRE 2210": {
+    "text": "FRE1120",
+    "courses": [
+      "FRE1120"
+    ]
+  },
+  "FSE 1020": {
+    "text": "BSC2085C",
+    "courses": [
+      "BSC2085C"
+    ]
+  },
+  "FSE 2120C": {
+    "text": "FSE1000 and FSE1105 and BSC2085C",
+    "courses": [
+      "FSE1000",
+      "FSE1105",
+      "BSC2085C"
+    ]
+  },
+  "FSE 2140": {
+    "text": "FSE2100",
+    "courses": [
+      "FSE2100"
+    ]
+  },
+  "FSE 2946": {
+    "text": "FSE2100",
+    "courses": [
+      "FSE2100"
     ]
   },
   "FSS 0229": {
@@ -3934,11 +6425,35 @@
       "FSS 1202C"
     ]
   },
+  "FSS 1120": {
+    "text": "FSS1221",
+    "courses": [
+      "FSS1221"
+    ]
+  },
   "FSS 1202C": {
     "text": "FOS 2201 (min D) and FSS 1063C (min D)",
     "courses": [
       "FOS 2201",
       "FSS 1063C"
+    ]
+  },
+  "FSS 1221": {
+    "text": "FSS1202C",
+    "courses": [
+      "FSS1202C"
+    ]
+  },
+  "FSS 1242": {
+    "text": "FSS1221",
+    "courses": [
+      "FSS1221"
+    ]
+  },
+  "FSS 1250C": {
+    "text": "FOS1201",
+    "courses": [
+      "FOS1201"
     ]
   },
   "FSS 2065L": {
@@ -3957,11 +6472,33 @@
       "HFT 2264C"
     ]
   },
-  "GEB 1011": {
-    "text": "ENC 0027 (min C) or ENC 1101 (min C)",
+  "FSS 2251": {
+    "text": "FSS1202C",
     "courses": [
-      "ENC 0027",
-      "ENC 1101"
+      "FSS1202C"
+    ]
+  },
+  "FSS 2942": {
+    "text": "FSS1221",
+    "courses": [
+      "FSS1221"
+    ]
+  },
+  "GEA 1000": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
+  "GEB 1011": {
+    "text": "REA-Reading 0002 (min C.) or REA-Reading 0017 (min C.) or REA-Reading 0002 (min C.) or ENC 0022 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C)",
+    "courses": [
+      "REA-Reading 0002",
+      "REA-Reading 0017",
+      "ENC 0022",
+      "ENC 1101",
+      "ENC 1102",
+      "ENC 2300"
     ]
   },
   "GEB 1949": {
@@ -4004,10 +6541,23 @@
       "ENC 1101H"
     ]
   },
+  "GEB 3452": {
+    "text": "LDR 3371 (min C)",
+    "courses": [
+      "LDR 3371"
+    ]
+  },
   "GEB 4356": {
     "text": "MAN 3353 (min C)",
     "courses": [
       "MAN 3353"
+    ]
+  },
+  "GEB 4525": {
+    "text": "LDR 3371 (min C) and GEB 3452 (min C)",
+    "courses": [
+      "LDR 3371",
+      "GEB 3452"
     ]
   },
   "GEB 4891": {
@@ -4028,6 +6578,24 @@
       "FIN 3400"
     ]
   },
+  "GEO 2420": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
+  "GER 1121": {
+    "text": "GER1120",
+    "courses": [
+      "GER1120"
+    ]
+  },
+  "GER 2201": {
+    "text": "GER2200",
+    "courses": [
+      "GER2200"
+    ]
+  },
   "GEY 3045": {
     "text": "NUR 3805 (min C) or NUR 3805 or HSA 3111 (min C) or HSA 3111",
     "courses": [
@@ -4045,6 +6613,12 @@
     "text": "ASC 2561 (min C)",
     "courses": [
       "ASC 2561"
+    ]
+  },
+  "GIS 2045": {
+    "text": "GIS2040",
+    "courses": [
+      "GIS2040"
     ]
   },
   "GLY 2010": {
@@ -4068,6 +6642,15 @@
     "courses": [
       "GRA 1100C",
       "GRA 1800C"
+    ]
+  },
+  "GRA 1952C": {
+    "text": "DIG2109C and GRA1156C and DIG2100C and DIG2282C",
+    "courses": [
+      "DIG2109C",
+      "GRA1156C",
+      "DIG2100C",
+      "DIG2282C"
     ]
   },
   "GRA 2121C": {
@@ -4110,6 +6693,12 @@
       "GRA PERMT"
     ]
   },
+  "GRA 3193C": {
+    "text": "GRA3209C",
+    "courses": [
+      "GRA3209C"
+    ]
+  },
   "GRA 3586": {
     "text": "GRA 3209 (min C)",
     "courses": [
@@ -4120,6 +6709,12 @@
     "text": "DIG 3433 (min C)",
     "courses": [
       "DIG 3433"
+    ]
+  },
+  "GRA 3837C": {
+    "text": "DIG2282C",
+    "courses": [
+      "DIG2282C"
     ]
   },
   "HCP 0621": {
@@ -4134,6 +6729,12 @@
       "NCH 0050"
     ]
   },
+  "HFT 1000": {
+    "text": "FOS1201",
+    "courses": [
+      "FOS1201"
+    ]
+  },
   "HFT 2264C": {
     "text": "FSS 2240L (min D) and HFT 1265C (min D) and FSS 1222C (min D)",
     "courses": [
@@ -4142,10 +6743,29 @@
       "FSS 1222C"
     ]
   },
+  "HFT 2740": {
+    "text": "HFT1000",
+    "courses": [
+      "HFT1000"
+    ]
+  },
   "HFT 2750": {
     "text": "HFT 1000 (min C)",
     "courses": [
       "HFT 1000"
+    ]
+  },
+  "HFT 2941": {
+    "text": "FSS1202C and FSS2300",
+    "courses": [
+      "FSS1202C",
+      "FSS2300"
+    ]
+  },
+  "HFT 2942": {
+    "text": "HFT2941",
+    "courses": [
+      "HFT2941"
     ]
   },
   "HIM 0434": {
@@ -4156,11 +6776,71 @@
       "HIM 0450"
     ]
   },
+  "HIM 1110": {
+    "text": "HSC1531",
+    "courses": [
+      "HSC1531"
+    ]
+  },
+  "HIM 1211": {
+    "text": "CGS 1100 (min C)",
+    "courses": [
+      "CGS 1100"
+    ]
+  },
+  "HIM 1224C": {
+    "text": "HIM1435",
+    "courses": [
+      "HIM1435"
+    ]
+  },
+  "HIM 1253C": {
+    "text": "HIM1224C",
+    "courses": [
+      "HIM1224C"
+    ]
+  },
   "HIM 1272": {
     "text": "HIM 2721 (min C) and HUM 2724 (min C)",
     "courses": [
       "HIM 2721",
       "HUM 2724"
+    ]
+  },
+  "HIM 1273": {
+    "text": "MAT 0028 (min S.) or MAT 0027 (min S.) or MAT 0024 (min S.) or MAT 0024C (min S.) or MAT 0014 (min C.) or MAT 0055 (min S.) or MAT 1033 (min C) or MAC 1105 (min C) or MAC 1105C (min C) or MGF 1106 (min C) or MGF 1107 (min C) or MAT 0027 (min S.) or MAT 0055 (min S.) or MGF 1107 (min C) and HSC 1531 (min C) or ENC 0025 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or REA-Reading 0017 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or REA-Reading 0002 (min C.) or ENC 1101 (min C) or ENC 1102 (min C)",
+    "courses": [
+      "MAT 0028",
+      "MAT 0027",
+      "MAT 0024",
+      "MAT 0024C",
+      "MAT 0014",
+      "MAT 0055",
+      "MAT 1033",
+      "MAC 1105",
+      "MAC 1105C",
+      "MGF 1106",
+      "MGF 1107",
+      "HSC 1531",
+      "ENC 0025",
+      "ENC 0027",
+      "ENC 0022",
+      "ENC 1101",
+      "ENC 1102",
+      "REA-Reading 0017",
+      "REA-Reading 0002"
+    ]
+  },
+  "HIM 1433": {
+    "text": "HSC 1531 (min D)",
+    "courses": [
+      "HSC 1531"
+    ]
+  },
+  "HIM 1435": {
+    "text": "BSC2085C",
+    "courses": [
+      "BSC2085C"
     ]
   },
   "HIM 1442": {
@@ -4171,10 +6851,64 @@
       "BSC 2085L"
     ]
   },
-  "HIM 2012": {
-    "text": "HSA 1100 (min C)",
+  "HIM 1511": {
+    "text": "HIM1000",
     "courses": [
-      "HSA 1100"
+      "HIM1000"
+    ]
+  },
+  "HIM 2012": {
+    "text": "ENC 1101 (min C) or ENC 0025 (min C.) or ENC 0027 (min C.) or ENC 1102 (min C) or ENC 2300 (min C) or ENC 0022 (min C.) or ENC 0010 (min C.) and REA-Reading 0017 (min C.) or ENC 0027 (min C.) or REA-Reading 0002 (min C.) or ENC 0022 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C)",
+    "courses": [
+      "ENC 1101",
+      "ENC 0025",
+      "ENC 0027",
+      "ENC 1102",
+      "ENC 2300",
+      "ENC 0022",
+      "ENC 0010",
+      "REA-Reading 0017",
+      "REA-Reading 0002"
+    ]
+  },
+  "HIM 2111": {
+    "text": "HIM1110 and HIM1000",
+    "courses": [
+      "HIM1110",
+      "HIM1000"
+    ]
+  },
+  "HIM 2214": {
+    "text": "MAT 0028 (min S.) or MAT 0024 (min S.) or MAT 0027 (min S.) or MAT 0014 (min C.) or MAT 0024C (min S.) or MAT 1033 (min C) or MAC 1105 (min C) or MAC 1105C (min C) or MGF 1106 (min C)",
+    "courses": [
+      "MAT 0028",
+      "MAT 0024",
+      "MAT 0027",
+      "MAT 0014",
+      "MAT 0024C",
+      "MAT 1033",
+      "MAC 1105",
+      "MAC 1105C",
+      "MGF 1106"
+    ]
+  },
+  "HIM 2214C": {
+    "text": "HIM1110",
+    "courses": [
+      "HIM1110"
+    ]
+  },
+  "HIM 2253": {
+    "text": "HSC 1531 (min C) and HIM 1273 (min C)",
+    "courses": [
+      "HSC 1531",
+      "HIM 1273"
+    ]
+  },
+  "HIM 2285C": {
+    "text": "HIM1224C",
+    "courses": [
+      "HIM1224C"
     ]
   },
   "HIM 2292": {
@@ -4183,12 +6917,39 @@
       "HIM 2721"
     ]
   },
+  "HIM 2412": {
+    "text": "HIM 2410 (min C) and BSC 2086C (min D) or BSC 2094C (min C)",
+    "courses": [
+      "HIM 2410",
+      "BSC 2086C",
+      "BSC 2094C"
+    ]
+  },
   "HIM 2432": {
     "text": "HSC 1531 (min C) or BSC 2085 (min C) and BSC 2085L (min C)",
     "courses": [
       "HSC 1531",
       "BSC 2085",
       "BSC 2085L"
+    ]
+  },
+  "HIM 2442": {
+    "text": "HSC 1531 (min D)",
+    "courses": [
+      "HSC 1531"
+    ]
+  },
+  "HIM 2500": {
+    "text": "HIM1300 and HIM1110",
+    "courses": [
+      "HIM1300",
+      "HIM1110"
+    ]
+  },
+  "HIM 2512": {
+    "text": "HIM2214C",
+    "courses": [
+      "HIM2214C"
     ]
   },
   "HIM 2721": {
@@ -4211,6 +6972,15 @@
       "HIM 2255C"
     ]
   },
+  "HIM 2810": {
+    "text": "HIM 1273 (min C) and HIM 2253 (min C) and BSC 2086C (min C) and HIM 2410 (min C)",
+    "courses": [
+      "HIM 1273",
+      "HIM 2253",
+      "BSC 2086C",
+      "HIM 2410"
+    ]
+  },
   "HIM 2810L": {
     "text": "HIM 2721 (min C) and HIM 2724 (min C)",
     "courses": [
@@ -4230,6 +7000,12 @@
       "HIM 2292"
     ]
   },
+  "HIS 2930": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
   "HLP 1081": {
     "text": "ENC 0027 (min C) or ENC 1101 (min C)",
     "courses": [
@@ -4238,16 +7014,45 @@
     ]
   },
   "HSA 1100": {
-    "text": "ENC 0027 (min C) or ENC 1101 (min D)",
+    "text": "ENC 0025 (min C) or ENC 0027 (min C) or ENC 0022 (min C.) or ENC 1102 (min C) or ENC 2300 (min C) or ENC 0010 (min C) and REA-Reading 0017 (min C) or ENC 0027 (min C) or ENC 0022 (min C.) or REA-Reading 0002 (min C) or ENC 1102 (min C) or ENC 2300 (min C)",
     "courses": [
+      "ENC 0025",
       "ENC 0027",
-      "ENC 1101"
+      "ENC 0022",
+      "ENC 1102",
+      "ENC 2300",
+      "ENC 0010",
+      "REA-Reading 0017",
+      "REA-Reading 0002"
+    ]
+  },
+  "HSA 1102": {
+    "text": "ENC 0025 (min C) or ENC 0027 (min C) or ENC 0022 (min C.) or ENC 1102 (min C) or ENC 2300 (min C) or ENC 0010 (min C) and REA-Reading 0017 (min C) or ENC 0027 (min C) or ENC 0022 (min C.) or REA-Reading 0002 (min C) or ENC 1102 (min C) or ENC 2300 (min C)",
+    "courses": [
+      "ENC 0025",
+      "ENC 0027",
+      "ENC 0022",
+      "ENC 1102",
+      "ENC 2300",
+      "ENC 0010",
+      "REA-Reading 0017",
+      "REA-Reading 0002"
+    ]
+  },
+  "HSA 2182": {
+    "text": "HSA 1100 (min C) or HIM 1003 (min C) and HIM 1273 (min C)",
+    "courses": [
+      "HSA 1100",
+      "HIM 1003",
+      "HIM 1273"
     ]
   },
   "HSA 3170": {
-    "text": "HSA 3111 (min C) or HSA 3111",
+    "text": "HSA3110 and FIN3400 and GEB3213",
     "courses": [
-      "HSA 3111"
+      "HSA3110",
+      "FIN3400",
+      "GEB3213"
     ]
   },
   "HSA 3383": {
@@ -4297,6 +7102,14 @@
       "HSA 3113"
     ]
   },
+  "HSA 4421": {
+    "text": "BUL3130 and GEB3213 and HSA3110",
+    "courses": [
+      "BUL3130",
+      "GEB3213",
+      "HSA3110"
+    ]
+  },
   "HSA 4430": {
     "text": "HSA 3110 (min C) and ECO 2013 (min C)",
     "courses": [
@@ -4305,9 +7118,10 @@
     ]
   },
   "HSA 4502": {
-    "text": "HSA 3110 (min C)",
+    "text": "HSA3110 and GEB3213",
     "courses": [
-      "HSA 3110"
+      "HSA3110",
+      "GEB3213"
     ]
   },
   "HSA 4553": {
@@ -4366,6 +7180,48 @@
     "text": "BSC 2086C (min C)",
     "courses": [
       "BSC 2086C"
+    ]
+  },
+  "HSC 2561": {
+    "text": "ENC1101 and ENC1101C and HSC1531",
+    "courses": [
+      "ENC1101",
+      "ENC1101C",
+      "HSC1531"
+    ]
+  },
+  "HSC 2669": {
+    "text": "ENC1101 and ENC1101C and HSC1531",
+    "courses": [
+      "ENC1101",
+      "ENC1101C",
+      "HSC1531"
+    ]
+  },
+  "HSC 2739": {
+    "text": "HSC2734",
+    "courses": [
+      "HSC2734"
+    ]
+  },
+  "HSC 2941": {
+    "text": "HSC2739",
+    "courses": [
+      "HSC2739"
+    ]
+  },
+  "HSC 3624": {
+    "text": "HSA3110 and GEB3213",
+    "courses": [
+      "HSA3110",
+      "GEB3213"
+    ]
+  },
+  "HSC 4730": {
+    "text": "STA2023 and MAC2311",
+    "courses": [
+      "STA2023",
+      "MAC2311"
     ]
   },
   "HUM 1020": {
@@ -4433,6 +7289,27 @@
       "ENC 1101"
     ]
   },
+  "HUM 2410": {
+    "text": "ENC1101 and ENC1101C",
+    "courses": [
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
+  "HUM 2450": {
+    "text": "ENC1101 and ENC1101C",
+    "courses": [
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
+  "HUM 2472": {
+    "text": "ENC1101 and ENC1101C",
+    "courses": [
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
   "HUN 1201": {
     "text": "ENC 0027 (min C) or ENC 1101 (min C) or MAT 0028 (min C) or MAT 0057 (min C) or MAC 1105 (min C) or MGF 1100 (min C) or MGF 1130 (min C) or MGF 1131 (min C) or MAC 1114 (min C) or MAC 1140 (min C) or MAC 1147 (min C) or MAC 2233 (min C) or MAC 2311 (min C) or MAC 2312 (min C) or MAT 1033 (min C) or MGF 1106 (min C) or MGF 1107 (min C) or STA 2023 (min C)",
     "courses": [
@@ -4454,6 +7331,12 @@
       "MGF 1106",
       "MGF 1107",
       "STA 2023"
+    ]
+  },
+  "HUN 1203": {
+    "text": "FSS1221",
+    "courses": [
+      "FSS1221"
     ]
   },
   "HUN 3126": {
@@ -4519,6 +7402,27 @@
       "HUS 2940"
     ]
   },
+  "HUS 3020": {
+    "text": "HUS3105",
+    "courses": [
+      "HUS3105"
+    ]
+  },
+  "HUS 3022": {
+    "text": "PSY1012 and SYG2000 and HUS3020 and HUS3105",
+    "courses": [
+      "PSY1012",
+      "SYG2000",
+      "HUS3020",
+      "HUS3105"
+    ]
+  },
+  "HUS 3201": {
+    "text": "HUS3105",
+    "courses": [
+      "HUS3105"
+    ]
+  },
   "HUS 3304": {
     "text": "PSY 2012 (min C)",
     "courses": [
@@ -4531,10 +7435,39 @@
       "PSY 2012"
     ]
   },
-  "HUS 3350": {
-    "text": "HUS 1001 (min C)",
+  "HUS 3323": {
+    "text": "HUS3105",
     "courses": [
-      "HUS 1001"
+      "HUS3105"
+    ]
+  },
+  "HUS 3350": {
+    "text": "HUS3105 and HUS3020",
+    "courses": [
+      "HUS3105",
+      "HUS3020"
+    ]
+  },
+  "HUS 3351": {
+    "text": "PSY1012 and SYG2000 and HUS3020 and HUS3105",
+    "courses": [
+      "PSY1012",
+      "SYG2000",
+      "HUS3020",
+      "HUS3105"
+    ]
+  },
+  "HUS 3505": {
+    "text": "HUS3105",
+    "courses": [
+      "HUS3105"
+    ]
+  },
+  "HUS 3574": {
+    "text": "HUS3105 and HUS3351",
+    "courses": [
+      "HUS3105",
+      "HUS3351"
     ]
   },
   "HUS 3650": {
@@ -4543,24 +7476,171 @@
       "HUS 1001"
     ]
   },
-  "HUS 4526": {
-    "text": "HUS 1001 (min C) and PSY 2012 (min C)",
+  "HUS 4321": {
+    "text": "HUS3105 and HUS3201",
     "courses": [
-      "HUS 1001",
-      "PSY 2012"
+      "HUS3105",
+      "HUS3201"
+    ]
+  },
+  "HUS 4352": {
+    "text": "HUS3105 and HUS3201",
+    "courses": [
+      "HUS3105",
+      "HUS3201"
+    ]
+  },
+  "HUS 4442": {
+    "text": "HUS3105 and HUS4560",
+    "courses": [
+      "HUS3105",
+      "HUS4560"
+    ]
+  },
+  "HUS 4526": {
+    "text": "PSY1012 and HUS3105 and HUS3304",
+    "courses": [
+      "PSY1012",
+      "HUS3105",
+      "HUS3304"
+    ]
+  },
+  "HUS 4560": {
+    "text": "HUS3105 and HUS3505",
+    "courses": [
+      "HUS3105",
+      "HUS3505"
+    ]
+  },
+  "HUS 4601": {
+    "text": "HUS3105 and HUS4560",
+    "courses": [
+      "HUS3105",
+      "HUS4560"
+    ]
+  },
+  "HUS 4660": {
+    "text": "HUS3105 and HUS3304 and HUS3201 and HUS3323",
+    "courses": [
+      "HUS3105",
+      "HUS3304",
+      "HUS3201",
+      "HUS3323"
     ]
   },
   "HUS 4700": {
-    "text": "HUS 1001 (min C) or HUS 1001 and PSY 2012 (min C) or PSY 2012",
+    "text": "HUS3105 and HUS3304 and HUS4526",
     "courses": [
-      "HUS 1001",
-      "PSY 2012"
+      "HUS3105",
+      "HUS3304",
+      "HUS4526"
+    ]
+  },
+  "HUS 4722": {
+    "text": "HUS3105 and HUS4352 and HUS4560 and HUS3304",
+    "courses": [
+      "HUS3105",
+      "HUS4352",
+      "HUS4560",
+      "HUS3304"
+    ]
+  },
+  "HUS 4945": {
+    "text": "HUS3105 and HUS4722 and HUS4355 and HUS4018 and HUS4352 and HUS4560 and HUS3304",
+    "courses": [
+      "HUS3105",
+      "HUS4722",
+      "HUS4355",
+      "HUS4018",
+      "HUS4352",
+      "HUS4560",
+      "HUS3304"
+    ]
+  },
+  "IDC 4252C": {
+    "text": "FIN3450 and IDC3021C",
+    "courses": [
+      "FIN3450",
+      "IDC3021C"
     ]
   },
   "IDH 2006": {
     "text": "ENC 1101 (min C) or ENC 1101 (min S)",
     "courses": [
       "ENC 1101"
+    ]
+  },
+  "IND 1229": {
+    "text": "IND1606C and IND1404C",
+    "courses": [
+      "IND1606C",
+      "IND1404C"
+    ]
+  },
+  "IND 1932": {
+    "text": "IND1606C",
+    "courses": [
+      "IND1606C"
+    ]
+  },
+  "IND 1935": {
+    "text": "IND1020C",
+    "courses": [
+      "IND1020C"
+    ]
+  },
+  "IND 2222C": {
+    "text": "IND1229 and IND1420 and IND2307C and IND2460C and IND2462",
+    "courses": [
+      "IND1229",
+      "IND1420",
+      "IND2307C",
+      "IND2460C",
+      "IND2462"
+    ]
+  },
+  "IND 2307C": {
+    "text": "IND1404C and IND1606C",
+    "courses": [
+      "IND1404C",
+      "IND1606C"
+    ]
+  },
+  "IND 2318C": {
+    "text": "IND1404C and IND1606C and IND2307C and IND2460C and IND2462",
+    "courses": [
+      "IND1404C",
+      "IND1606C",
+      "IND2307C",
+      "IND2460C",
+      "IND2462"
+    ]
+  },
+  "IND 2433": {
+    "text": "IND1606C and IND1404C",
+    "courses": [
+      "IND1606C",
+      "IND1404C"
+    ]
+  },
+  "IND 2463C": {
+    "text": "IND2460C",
+    "courses": [
+      "IND2460C"
+    ]
+  },
+  "IND 2500": {
+    "text": "IND2307C and IND2460C",
+    "courses": [
+      "IND2307C",
+      "IND2460C"
+    ]
+  },
+  "IND 2933C": {
+    "text": "IND2500 and IND2934",
+    "courses": [
+      "IND2500",
+      "IND2934"
     ]
   },
   "INP 1390": {
@@ -4580,6 +7660,63 @@
       "ENC 0025",
       "ENC 0021",
       "ENC 0022"
+    ]
+  },
+  "INT 1000": {
+    "text": "ASL1130 and ASL1150 and ENC1101 and ENC1101C",
+    "courses": [
+      "ASL1130",
+      "ASL1150",
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
+  "INT 1201": {
+    "text": "ASL1210 and ASL1300 and INT1200",
+    "courses": [
+      "ASL1210",
+      "ASL1300",
+      "INT1200"
+    ]
+  },
+  "INT 1203": {
+    "text": "ASL1221 and INT1202 and INT1402",
+    "courses": [
+      "ASL1221",
+      "INT1202",
+      "INT1402"
+    ]
+  },
+  "INT 1402": {
+    "text": "ASL1210 and INT1201 and INT1930",
+    "courses": [
+      "ASL1210",
+      "INT1201",
+      "INT1930"
+    ]
+  },
+  "ISM 3014": {
+    "text": "CTS1154C",
+    "courses": [
+      "CTS1154C"
+    ]
+  },
+  "ISM 3113C": {
+    "text": "CIS2321C and COP2800C and COP2551C and COP2334C and COP2360C and CTS2437C",
+    "courses": [
+      "CIS2321C",
+      "COP2800C",
+      "COP2551C",
+      "COP2334C",
+      "COP2360C",
+      "CTS2437C"
+    ]
+  },
+  "ISM 3232C": {
+    "text": "FIN3450 and IDC3021C",
+    "courses": [
+      "FIN3450",
+      "IDC3021C"
     ]
   },
   "ISM 3321": {
@@ -4608,6 +7745,21 @@
     "courses": [
       "CGS 1000",
       "CIS 1000"
+    ]
+  },
+  "ISM 4212C": {
+    "text": "CTS2437C",
+    "courses": [
+      "CTS2437C"
+    ]
+  },
+  "ISM 4220C": {
+    "text": "CTS1131C and CTS1133C and CNT2001C and CET2600C",
+    "courses": [
+      "CTS1131C",
+      "CTS1133C",
+      "CNT2001C",
+      "CET2600C"
     ]
   },
   "ISM 4302": {
@@ -4639,6 +7791,22 @@
       "CTS 1120"
     ]
   },
+  "ISM 4480": {
+    "text": "COP2800C and COP2551C and COP2842C",
+    "courses": [
+      "COP2800C",
+      "COP2551C",
+      "COP2842C"
+    ]
+  },
+  "ISM 4881": {
+    "text": "ISM4480 and ISM4212C and ISM3113C",
+    "courses": [
+      "ISM4480",
+      "ISM4212C",
+      "ISM3113C"
+    ]
+  },
   "JOU 1440L": {
     "text": "ENC 1101 (min C) or ENC PERMT",
     "courses": [
@@ -4654,16 +7822,53 @@
       "ENC PERMT"
     ]
   },
-  "LAE 4314": {
-    "text": "EEX 4265 (min C)",
+  "JOU 2100": {
+    "text": "ENC1101 and ENC1101C",
     "courses": [
-      "EEX 4265"
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
+  "LAE 3414": {
+    "text": "SCE 3310 (min C)",
+    "courses": [
+      "SCE 3310"
+    ]
+  },
+  "LAE 4314": {
+    "text": "EDG 4943 (min C)",
+    "courses": [
+      "EDG 4943"
+    ]
+  },
+  "LAH 2020": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
+  "LAT 1121": {
+    "text": "LAT1120",
+    "courses": [
+      "LAT1120"
     ]
   },
   "LDE 2402": {
     "text": "Agriculture - HOS 1010 (min D)",
     "courses": [
       "Agriculture - HOS 1010"
+    ]
+  },
+  "LDR 3371": {
+    "text": "GEB 3452 (min C)",
+    "courses": [
+      "GEB 3452"
+    ]
+  },
+  "LDR 4332": {
+    "text": "GEB3213",
+    "courses": [
+      "GEB3213"
     ]
   },
   "LIT 1000": {
@@ -4701,6 +7906,13 @@
       "ENC 1102H"
     ]
   },
+  "LIT 2100": {
+    "text": "ENC1101 and ENC1101C",
+    "courses": [
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
   "LIT 2110": {
     "text": "ENC 1102 (min C) or ENC 1102 (min Z) or ENC 1102H (min C)",
     "courses": [
@@ -4735,9 +7947,18 @@
     ]
   },
   "LIT 2380": {
-    "text": "ENC 1102 (min C)",
+    "text": "ENC1101 and ENC1101C",
     "courses": [
-      "ENC 1102"
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
+  "LIT 2930": {
+    "text": "ENC 1102 (min C) or ENC 2210 (min C) or ENC 2300 (min C)",
+    "courses": [
+      "ENC 1102",
+      "ENC 2210",
+      "ENC 2300"
     ]
   },
   "MAC 1105": {
@@ -4755,30 +7976,42 @@
       "MAC 1114"
     ]
   },
+  "MAC 1105C": {
+    "text": "MAT 1033 (min C)",
+    "courses": [
+      "MAT 1033"
+    ]
+  },
+  "MAC 1106": {
+    "text": "MAT 1033 (min A)",
+    "courses": [
+      "MAT 1033"
+    ]
+  },
   "MAC 1114": {
-    "text": "MAC 1105 (min C) or MAC 1105H (min C) or MAC 1140 (min C) or MAC 2233 (min D) or MAC 2311 (min D) or MAC 2312 (min D) or MAC 2313 (min D) or MAP 2302 (min D)",
+    "text": "MAC 1105 (min C) or MAC 1105C (min C) or MAC 1106 (min C) or MAC 2233 (min C) or MAC 1140 (min C) or MAC 2311 (min C) or MAC 2312 (min C) or MAP-Mathematics Applied 2302 (min C)",
     "courses": [
       "MAC 1105",
-      "MAC 1105H",
-      "MAC 1140",
+      "MAC 1105C",
+      "MAC 1106",
       "MAC 2233",
+      "MAC 1140",
       "MAC 2311",
       "MAC 2312",
-      "MAC 2313",
-      "MAP 2302"
+      "MAP-Mathematics Applied 2302"
     ]
   },
   "MAC 1140": {
-    "text": "MAC 1105 (min C) or MAC 1105H (min C) or MAC 1114 (min C) or MAC 2233 (min D) or MAC 2311 (min D) or MAC 2312 (min D) or MAC 2313 (min D) or MAP 2302 (min D)",
+    "text": "MAC 1105 (min C) or MAC 1105C (min C) or MAC 2233 (min C) or MAC 1114 (min C) or MAC 1104 (min C) or MAC 2311 (min C) or MAC 2312 (min C) or MAP-Mathematics Applied 2302 (min C)",
     "courses": [
       "MAC 1105",
-      "MAC 1105H",
-      "MAC 1114",
+      "MAC 1105C",
       "MAC 2233",
+      "MAC 1114",
+      "MAC 1104",
       "MAC 2311",
       "MAC 2312",
-      "MAC 2313",
-      "MAP 2302"
+      "MAP-Mathematics Applied 2302"
     ]
   },
   "MAC 1147": {
@@ -4808,11 +8041,11 @@
     ]
   },
   "MAC 2311": {
-    "text": "MAC 1147 (min C) or MAC 1114 (min C) and MAC 1140 (min C)",
+    "text": "MAC 1114 (min C) and MAC 1140 (min C) or MAC 1106 (min C) and MAC 1114 (min C)",
     "courses": [
-      "MAC 1147",
       "MAC 1114",
-      "MAC 1140"
+      "MAC 1140",
+      "MAC 1106"
     ]
   },
   "MAC 2312": {
@@ -4827,6 +8060,12 @@
       "MAC 2312"
     ]
   },
+  "MAE 3311": {
+    "text": "EDG 4943 (min C)",
+    "courses": [
+      "EDG 4943"
+    ]
+  },
   "MAE 3312": {
     "text": "MAE 3310 (min C)",
     "courses": [
@@ -4834,16 +8073,21 @@
     ]
   },
   "MAE 4326": {
-    "text": "EEX 4265 (min C)",
+    "text": "MAE 3311 (min C)",
     "courses": [
-      "EEX 4265"
+      "MAE 3311"
     ]
   },
   "MAN 2021": {
-    "text": "ENC 0027 (min C) or ENC 1101 (min D)",
+    "text": "ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C) or REA-Reading 0002 (min C.) or REA-Reading 0017 (min C.) or ENC 0022 (min C.) or REA-Reading 1105 (min C)",
     "courses": [
-      "ENC 0027",
-      "ENC 1101"
+      "ENC 1101",
+      "ENC 1102",
+      "ENC 2300",
+      "REA-Reading 0002",
+      "REA-Reading 0017",
+      "ENC 0022",
+      "REA-Reading 1105"
     ]
   },
   "MAN 2500": {
@@ -4859,10 +8103,16 @@
       "MAN PERMT"
     ]
   },
-  "MAN 3240": {
-    "text": "GEB 3213 (min D)",
+  "MAN 3065": {
+    "text": "GEB3213",
     "courses": [
-      "GEB 3213"
+      "GEB3213"
+    ]
+  },
+  "MAN 3240": {
+    "text": "MAN 4303 (min C)",
+    "courses": [
+      "MAN 4303"
     ]
   },
   "MAN 3301": {
@@ -4877,10 +8127,48 @@
       "GEB 3213"
     ]
   },
+  "MAN 3353": {
+    "text": "GEB3213",
+    "courses": [
+      "GEB3213"
+    ]
+  },
+  "MAN 3505": {
+    "text": "GEB3213",
+    "courses": [
+      "GEB3213"
+    ]
+  },
   "MAN 3583": {
     "text": "GEB 3213 (min D)",
     "courses": [
       "GEB 3213"
+    ]
+  },
+  "MAN 3600": {
+    "text": "GEB3213",
+    "courses": [
+      "GEB3213"
+    ]
+  },
+  "MAN 3781": {
+    "text": "GEB3213",
+    "courses": [
+      "GEB3213"
+    ]
+  },
+  "MAN 4101": {
+    "text": "MAN2021 and GEB3213",
+    "courses": [
+      "MAN2021",
+      "GEB3213"
+    ]
+  },
+  "MAN 4102": {
+    "text": "MAN4301 and GEB3213",
+    "courses": [
+      "MAN4301",
+      "GEB3213"
     ]
   },
   "MAN 4120": {
@@ -4897,16 +8185,39 @@
     ]
   },
   "MAN 4301": {
-    "text": "GEB 3213 (min C) and BUL 3130 (min C)",
+    "text": "MAN2021 and MAN2125 and GEB3213",
     "courses": [
-      "GEB 3213",
-      "BUL 3130"
+      "MAN2021",
+      "MAN2125",
+      "GEB3213"
+    ]
+  },
+  "MAN 4303": {
+    "text": "MAN 3240 (min C)",
+    "courses": [
+      "MAN 3240"
+    ]
+  },
+  "MAN 4320": {
+    "text": "MAN4301 and GEB3213",
+    "courses": [
+      "MAN4301",
+      "GEB3213"
     ]
   },
   "MAN 4350": {
-    "text": "MAN 4301 (min D)",
+    "text": "MAN4301 and GEB3213",
     "courses": [
-      "MAN 4301"
+      "MAN4301",
+      "GEB3213"
+    ]
+  },
+  "MAN 4402": {
+    "text": "BUL3130 and MAN4301 and GEB3213",
+    "courses": [
+      "BUL3130",
+      "MAN4301",
+      "GEB3213"
     ]
   },
   "MAN 4504": {
@@ -4923,15 +8234,15 @@
     ]
   },
   "MAN 4720": {
-    "text": "MAN 3240 (min C) and MAN 3303 (min C) and MAN 3504 (min C) and MAN 4102 (min C) and MAN 3503 (min C) and MNA 4404 (min C) or MNA 4303 (min C)",
+    "text": "MAN 4900 (min C) and MAN 3240 (min C) and MAN 4303 (min C) and LDR 3371 (min C) and GEB 3452 (min C) and MAR 3802 (min C) and FIN 3400 (min C)",
     "courses": [
+      "MAN 4900",
       "MAN 3240",
-      "MAN 3303",
-      "MAN 3504",
-      "MAN 4102",
-      "MAN 3503",
-      "MNA 4404",
-      "MNA 4303"
+      "MAN 4303",
+      "LDR 3371",
+      "GEB 3452",
+      "MAR 3802",
+      "FIN 3400"
     ]
   },
   "MAN 4900": {
@@ -4988,16 +8299,52 @@
     ]
   },
   "MAR 2011": {
-    "text": "ENC 0027 (min C) or ENC 1101 (min C)",
+    "text": "ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C) or ENC 0022 (min C.) or REA-Reading 0002 (min C.) or REA-Reading 0017 (min C.) or REA-Reading 1105 (min C)",
     "courses": [
-      "ENC 0027",
-      "ENC 1101"
+      "ENC 1101",
+      "ENC 1102",
+      "ENC 2300",
+      "ENC 0022",
+      "REA-Reading 0002",
+      "REA-Reading 0017",
+      "REA-Reading 1105"
+    ]
+  },
+  "MAR 3023": {
+    "text": "GEB3213",
+    "courses": [
+      "GEB3213"
+    ]
+  },
+  "MAR 3802": {
+    "text": "FIN 3400 (min C)",
+    "courses": [
+      "FIN 3400"
     ]
   },
   "MAR 3803": {
     "text": "MAR 1011 (min C)",
     "courses": [
       "MAR 1011"
+    ]
+  },
+  "MAR 4233": {
+    "text": "MAR3023 and QMB3250",
+    "courses": [
+      "MAR3023",
+      "QMB3250"
+    ]
+  },
+  "MAR 4424": {
+    "text": "MAR3023",
+    "courses": [
+      "MAR3023"
+    ]
+  },
+  "MAR 4503": {
+    "text": "MAR3023",
+    "courses": [
+      "MAR3023"
     ]
   },
   "MAR 4802": {
@@ -5105,6 +8452,18 @@
       "BSC 1085L"
     ]
   },
+  "MCB 4203": {
+    "text": "MCB3020C",
+    "courses": [
+      "MCB3020C"
+    ]
+  },
+  "MCB 4503": {
+    "text": "MCB3020C",
+    "courses": [
+      "MCB3020C"
+    ]
+  },
   "MEA 0201C": {
     "text": "MEA 0200C (min D)",
     "courses": [
@@ -5136,6 +8495,18 @@
       "MEA 0242"
     ]
   },
+  "MEA 1931": {
+    "text": "MEA1930",
+    "courses": [
+      "MEA1930"
+    ]
+  },
+  "MEA 2020": {
+    "text": "MEA2021",
+    "courses": [
+      "MEA2021"
+    ]
+  },
   "MET 2010": {
     "text": "ENC 1101 (min C) or REA 0019 (min C) or REA 0019 (min C*) or REA 0017 (min C) or REA 0017 (min C*) or REA 0011 (min C) or REA 0011 (min C*)",
     "courses": [
@@ -5146,11 +8517,14 @@
     ]
   },
   "MGF 1100": {
-    "text": "MAT 0018 (min C) or MAT 0028 (min C) or MAT 0057 (min C)",
+    "text": "MAT 0027 (min S) or MAT 0014 (min S) or MAT 0024 (min S) or MAT 0024C (min S) or MAT 0028 (min S) or MAT 0055 (min S)",
     "courses": [
-      "MAT 0018",
+      "MAT 0027",
+      "MAT 0014",
+      "MAT 0024",
+      "MAT 0024C",
       "MAT 0028",
-      "MAT 0057"
+      "MAT 0055"
     ]
   },
   "MGF 1106": {
@@ -5209,6 +8583,188 @@
       "MAT 1033",
       "MAC 1105",
       "MAC 1105H"
+    ]
+  },
+  "MLT 1022C": {
+    "text": "MLT 1040C (min C) and MLT 1300C (min C) and MLT 1610C (min C)",
+    "courses": [
+      "MLT 1040C",
+      "MLT 1300C",
+      "MLT 1610C"
+    ]
+  },
+  "MLT 1040C": {
+    "text": "MLT 1022C (min C) and MLT 1300C (min C) and MLT 1610C (min C)",
+    "courses": [
+      "MLT 1022C",
+      "MLT 1300C",
+      "MLT 1610C"
+    ]
+  },
+  "MLT 1300C": {
+    "text": "MLT 1040C (min C) and MLT 1022C (min C) and MLT 1610C (min C)",
+    "courses": [
+      "MLT 1040C",
+      "MLT 1022C",
+      "MLT 1610C"
+    ]
+  },
+  "MLT 1302C": {
+    "text": "MLT1022C and MLT1301C and MLT2500C",
+    "courses": [
+      "MLT1022C",
+      "MLT1301C",
+      "MLT2500C"
+    ]
+  },
+  "MLT 1440C": {
+    "text": "MLT1022C and MLT1301C and MLT2500C and MLT1302C and MLT2525C and MLT2230C and MLT2610C",
+    "courses": [
+      "MLT1022C",
+      "MLT1301C",
+      "MLT2500C",
+      "MLT1302C",
+      "MLT2525C",
+      "MLT2230C",
+      "MLT2610C"
+    ]
+  },
+  "MLT 1610C": {
+    "text": "MLT 1040C (min C) and MLT 1022C (min C) and MLT 1300C (min C)",
+    "courses": [
+      "MLT 1040C",
+      "MLT 1022C",
+      "MLT 1300C"
+    ]
+  },
+  "MLT 2191L": {
+    "text": "MLT2191",
+    "courses": [
+      "MLT2191"
+    ]
+  },
+  "MLT 2192L": {
+    "text": "MLT2191 and MLT2191L and MLT2192",
+    "courses": [
+      "MLT2191",
+      "MLT2191L",
+      "MLT2192"
+    ]
+  },
+  "MLT 2194": {
+    "text": "MLT2192 and MLT2192L and MLT2194L",
+    "courses": [
+      "MLT2192",
+      "MLT2192L",
+      "MLT2194L"
+    ]
+  },
+  "MLT 2230C": {
+    "text": "MLT1022C and MLT1301C and MLT2500C",
+    "courses": [
+      "MLT1022C",
+      "MLT1301C",
+      "MLT2500C"
+    ]
+  },
+  "MLT 2525C": {
+    "text": "MLT1022C and MLT1301C and MLT2500C",
+    "courses": [
+      "MLT1022C",
+      "MLT1301C",
+      "MLT2500C"
+    ]
+  },
+  "MLT 2800L": {
+    "text": "MLT1022C and MLT1301C and MLT2500C and MLT1302C and MLT2525C and MLT2230C and MLT2610C and MLT1440C and MLT2150C and MLT1401C",
+    "courses": [
+      "MLT1022C",
+      "MLT1301C",
+      "MLT2500C",
+      "MLT1302C",
+      "MLT2525C",
+      "MLT2230C",
+      "MLT2610C",
+      "MLT1440C",
+      "MLT2150C",
+      "MLT1401C"
+    ]
+  },
+  "MLT 2840L": {
+    "text": "MLT2191 and MLT2191L",
+    "courses": [
+      "MLT2191",
+      "MLT2191L"
+    ]
+  },
+  "MLT 2930C": {
+    "text": "MLT2840L",
+    "courses": [
+      "MLT2840L"
+    ]
+  },
+  "MMC 2100": {
+    "text": "ENC1101 and ENC1101C",
+    "courses": [
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
+  "MNA 4521": {
+    "text": "MNA 4037 (min C)",
+    "courses": [
+      "MNA 4037"
+    ]
+  },
+  "MSL 1002": {
+    "text": "MSL1002L",
+    "courses": [
+      "MSL1002L"
+    ]
+  },
+  "MSL 1002L": {
+    "text": "MSL1002",
+    "courses": [
+      "MSL1002"
+    ]
+  },
+  "MSL 2102": {
+    "text": "MSL2102L",
+    "courses": [
+      "MSL2102L"
+    ]
+  },
+  "MSL 2102L": {
+    "text": "MSL2102",
+    "courses": [
+      "MSL2102"
+    ]
+  },
+  "MSL 3201L": {
+    "text": "MSL3201",
+    "courses": [
+      "MSL3201"
+    ]
+  },
+  "MSL 3202L": {
+    "text": "MSL3202",
+    "courses": [
+      "MSL3202"
+    ]
+  },
+  "MSL 4301L": {
+    "text": "MSL3201 and MSL3202 and MSL4301",
+    "courses": [
+      "MSL3201",
+      "MSL3202",
+      "MSL4301"
+    ]
+  },
+  "MSL 4302L": {
+    "text": "MSL4301 and MSL4302",
+    "courses": [
+      "MSL4301",
+      "MSL4302"
     ]
   },
   "MUC 1211": {
@@ -5483,6 +9039,24 @@
       "MVB 1015"
     ]
   },
+  "MVB 1211": {
+    "text": "MVB1011",
+    "courses": [
+      "MVB1011"
+    ]
+  },
+  "MVB 1213": {
+    "text": "MVB1013",
+    "courses": [
+      "MVB1013"
+    ]
+  },
+  "MVB 1215": {
+    "text": "MVB1015",
+    "courses": [
+      "MVB1015"
+    ]
+  },
   "MVB 1311B": {
     "text": "MVB 1311 (min C)",
     "courses": [
@@ -5507,6 +9081,18 @@
       "MVB 1315"
     ]
   },
+  "MVB 2222": {
+    "text": "MVB1212",
+    "courses": [
+      "MVB1212"
+    ]
+  },
+  "MVB 2224": {
+    "text": "MVB1214",
+    "courses": [
+      "MVB1214"
+    ]
+  },
   "MVB 2321": {
     "text": "MVB 1311 (min C) or MVB PERMT",
     "courses": [
@@ -5518,6 +9104,12 @@
     "text": "MVB 2321 (min C)",
     "courses": [
       "MVB 2321"
+    ]
+  },
+  "MVB 2322": {
+    "text": "MVB1312",
+    "courses": [
+      "MVB1312"
     ]
   },
   "MVB 2323": {
@@ -5579,6 +9171,12 @@
       "MVK 1111A"
     ]
   },
+  "MVK 1112": {
+    "text": "MVK1111",
+    "courses": [
+      "MVK1111"
+    ]
+  },
   "MVK 1311B": {
     "text": "MVK 1311 (min C)",
     "courses": [
@@ -5598,6 +9196,12 @@
       "MUT 2116"
     ]
   },
+  "MVK 2221": {
+    "text": "MVK1211",
+    "courses": [
+      "MVK1211"
+    ]
+  },
   "MVK 2321": {
     "text": "MVK 1311 (min C) or MVK PERMT",
     "courses": [
@@ -5609,6 +9213,18 @@
     "text": "MVK 2321 (min C)",
     "courses": [
       "MVK 2321"
+    ]
+  },
+  "MVO 2220": {
+    "text": "MVO1210",
+    "courses": [
+      "MVO1210"
+    ]
+  },
+  "MVO 2320": {
+    "text": "MVO1310",
+    "courses": [
+      "MVO1310"
     ]
   },
   "MVP 1011B": {
@@ -5712,6 +9328,12 @@
     "text": "MVS 2321 (min C)",
     "courses": [
       "MVS 2321"
+    ]
+  },
+  "MVS 2322": {
+    "text": "MVS1312",
+    "courses": [
+      "MVS1312"
     ]
   },
   "MVS 2322B": {
@@ -5854,6 +9476,24 @@
       "MVW 1315"
     ]
   },
+  "MVW 2221": {
+    "text": "MVW1211",
+    "courses": [
+      "MVW1211"
+    ]
+  },
+  "MVW 2223": {
+    "text": "MVW1213",
+    "courses": [
+      "MVW1213"
+    ]
+  },
+  "MVW 2225": {
+    "text": "MVW1215",
+    "courses": [
+      "MVW1215"
+    ]
+  },
   "MVW 2321": {
     "text": "MVW 1311 (min C) or MVW PERMT",
     "courses": [
@@ -5950,6 +9590,43 @@
       "BSC 2086L"
     ]
   },
+  "NUR 1006C": {
+    "text": "NUR 1520C (min B)",
+    "courses": [
+      "NUR 1520C"
+    ]
+  },
+  "NUR 1008C": {
+    "text": "NUR1997 and BSC2085C and BSC2086C and MAC1105 and MAC1105C and MAC1114 and MAC1140 and MAC1147 and MAC2233 and MAC2311 and MAC2312 and MAC2313 and MAP2302 and STA2023 and MCB2010C and ENC1101 and ENC1101C and PSY1012 and DEP2004",
+    "courses": [
+      "NUR1997",
+      "BSC2085C",
+      "BSC2086C",
+      "MAC1105",
+      "MAC1105C",
+      "MAC1114",
+      "MAC1140",
+      "MAC1147",
+      "MAC2233",
+      "MAC2311",
+      "MAC2312",
+      "MAC2313",
+      "MAP2302",
+      "STA2023",
+      "MCB2010C",
+      "ENC1101",
+      "ENC1101C",
+      "PSY1012",
+      "DEP2004"
+    ]
+  },
+  "NUR 1021C": {
+    "text": "BSC 2086C (min C) or BSC 2094C (min C)",
+    "courses": [
+      "BSC 2086C",
+      "BSC 2094C"
+    ]
+  },
   "NUR 1021L": {
     "text": "BSC 1085 and BSC 1085L and CGS 1100 and HUN 2201 and PSY 1012",
     "courses": [
@@ -5975,6 +9652,16 @@
       "MAC 1114",
       "ENC 1101",
       "ENC 1101C"
+    ]
+  },
+  "NUR 1052C": {
+    "text": "NUR 1520C (min B) and DEP 2004 (min C) and BSC 2086C (min C) or BSC 2094C (min C) and NUR 1021C (min B)",
+    "courses": [
+      "NUR 1520C",
+      "DEP 2004",
+      "BSC 2086C",
+      "BSC 2094C",
+      "NUR 1021C"
     ]
   },
   "NUR 1142": {
@@ -6057,6 +9744,26 @@
       "NUR 1022C"
     ]
   },
+  "NUR 1460C": {
+    "text": "NUR1008C and NUR1411C and NUR1020C and NUR1023C",
+    "courses": [
+      "NUR1008C",
+      "NUR1411C",
+      "NUR1020C",
+      "NUR1023C"
+    ]
+  },
+  "NUR 1520C": {
+    "text": "NUR 1021C (min C) and DEP 2004 (min C) and BSC 2086C (min C) or BSC 2094C (min C) and NUR 1006C (min C) or NUR 1052C (min C)",
+    "courses": [
+      "NUR 1021C",
+      "DEP 2004",
+      "BSC 2086C",
+      "BSC 2094C",
+      "NUR 1006C",
+      "NUR 1052C"
+    ]
+  },
   "NUR 1521C": {
     "text": "NUR 1140 (min C) and NUR 1210C (min C)",
     "courses": [
@@ -6082,6 +9789,17 @@
       "NUR 1023C"
     ]
   },
+  "NUR 2213C": {
+    "text": "NUR 2440C (min B) and MCB 2010C (min C) and NUR 1006C (min B) or NUR 1052C (min B) and NUR 1520C (min B) and BSC 2086C (min C)",
+    "courses": [
+      "NUR 2440C",
+      "MCB 2010C",
+      "NUR 1006C",
+      "NUR 1052C",
+      "NUR 1520C",
+      "BSC 2086C"
+    ]
+  },
   "NUR 2214C": {
     "text": "NUR 1213C (min C) and NUR 2420C (min C) and NUR 2520C (min C) and NUR 2310C (min C) and MCB 2004 (min C) and MCB 2004L (min C) and AMH 2020 (min C) or POS 2041 (min C)",
     "courses": [
@@ -6093,6 +9811,20 @@
       "MCB 2004L",
       "AMH 2020",
       "POS 2041"
+    ]
+  },
+  "NUR 2242C": {
+    "text": "NUR1008C and NUR1411C and NUR1460C and NUR1212C and NUR1020C and NUR1023C and NUR1025C and NUR2214C and NUR2960",
+    "courses": [
+      "NUR1008C",
+      "NUR1411C",
+      "NUR1460C",
+      "NUR1212C",
+      "NUR1020C",
+      "NUR1023C",
+      "NUR1025C",
+      "NUR2214C",
+      "NUR2960"
     ]
   },
   "NUR 2244C": {
@@ -6160,6 +9892,16 @@
       "NUR 1213C"
     ]
   },
+  "NUR 2440C": {
+    "text": "NUR 1006C (min B) or NUR 1052C (min B) and NUR 1520C (min B) and DEP 2004 (min C) and MCB 2010C (min C)",
+    "courses": [
+      "NUR 1006C",
+      "NUR 1052C",
+      "NUR 1520C",
+      "DEP 2004",
+      "MCB 2010C"
+    ]
+  },
   "NUR 2460": {
     "text": "NUR 1211 (min B) and NUR 1211L (min B)",
     "courses": [
@@ -6218,11 +9960,35 @@
       "NUR 2403L"
     ]
   },
+  "NUR 2832L": {
+    "text": "NUR 2213C (min B) and NUR 2440C (min B) and MCB 2010C (min C) and NUR 2214C (min C)",
+    "courses": [
+      "NUR 2213C",
+      "NUR 2440C",
+      "MCB 2010C",
+      "NUR 2214C"
+    ]
+  },
   "NUR 2943C": {
     "text": "NUR 2244C (min C) and NUR 2460C (min C)",
     "courses": [
       "NUR 2244C",
       "NUR 2460C"
+    ]
+  },
+  "NUR 2960": {
+    "text": "NUR1008C and NUR1411C and NUR1460C and NUR1212C and NUR1020C and NUR1023C and NUR1025C and NUR2214C and NUR2243C and NUR2242C",
+    "courses": [
+      "NUR1008C",
+      "NUR1411C",
+      "NUR1460C",
+      "NUR1212C",
+      "NUR1020C",
+      "NUR1023C",
+      "NUR1025C",
+      "NUR2214C",
+      "NUR2243C",
+      "NUR2242C"
     ]
   },
   "NUR 3065": {
@@ -6238,21 +10004,45 @@
     ]
   },
   "NUR 3125": {
-    "text": "NUR 3805 (min C)",
+    "text": "NUR 3825 (min C)",
     "courses": [
-      "NUR 3805"
+      "NUR 3825"
     ]
   },
   "NUR 3145": {
-    "text": "NUR 3805 (min C)",
+    "text": "NUR 3825 (min C)",
     "courses": [
-      "NUR 3805"
+      "NUR 3825"
     ]
   },
   "NUR 3164": {
-    "text": "NUR 3805 (min C) or NUR 3805",
+    "text": "NUR3805 and ENC1102 and SPC2017 and SPC2065 and SPC2608 and HUM2210 and HUM2230 and HUM2250 and DAN2100 and AML2010 and AML2020 and ARH2050 and ARH2051 and ENG2100 and ENL2012 and ENL2022 and LIT2100 and PHI2600 and REL2000 and REL2300 and STA2023 and AMH2010 and AMH2020 and POS2041 and HUN1201",
     "courses": [
-      "NUR 3805"
+      "NUR3805",
+      "ENC1102",
+      "SPC2017",
+      "SPC2065",
+      "SPC2608",
+      "HUM2210",
+      "HUM2230",
+      "HUM2250",
+      "DAN2100",
+      "AML2010",
+      "AML2020",
+      "ARH2050",
+      "ARH2051",
+      "ENG2100",
+      "ENL2012",
+      "ENL2022",
+      "LIT2100",
+      "PHI2600",
+      "REL2000",
+      "REL2300",
+      "STA2023",
+      "AMH2010",
+      "AMH2020",
+      "POS2041",
+      "HUN1201"
     ]
   },
   "NUR 3167": {
@@ -6263,16 +10053,28 @@
     ]
   },
   "NUR 3169": {
-    "text": "STA 2023 (min C) and NUR 3164 (min C)",
+    "text": "STA 2023 (min C) and NUR 3825 (min C)",
     "courses": [
       "STA 2023",
-      "NUR 3164"
+      "NUR 3825"
+    ]
+  },
+  "NUR 3634C": {
+    "text": "NUR 3825 (min C)",
+    "courses": [
+      "NUR 3825"
     ]
   },
   "NUR 3655": {
     "text": "NUR 3805 (min C)",
     "courses": [
       "NUR 3805"
+    ]
+  },
+  "NUR 3667": {
+    "text": "NUR 3825 (min C)",
+    "courses": [
+      "NUR 3825"
     ]
   },
   "NUR 3805": {
@@ -6326,6 +10128,12 @@
       "NUR 3805"
     ]
   },
+  "NUR 4257": {
+    "text": "NUR 3825 (min C)",
+    "courses": [
+      "NUR 3825"
+    ]
+  },
   "NUR 4636": {
     "text": "NUR 3805 (min C)",
     "courses": [
@@ -6353,16 +10161,34 @@
     ]
   },
   "NUR 4827": {
-    "text": "NUR 3306C (min C) and NUR 3125 (min C) and NUR 3145 (min C) and NUR 3826 (min C) and NUR 3870 (min C) and NUR 4169 (min C) and NUR 4626 (min C) and NUR 4636L (min C)",
+    "text": "NUR3636C and NUR4169C and ENC1102 and SPC2017 and SPC2065 and SPC2608 and HUM2210 and HUM2230 and HUM2250 and DAN2100 and AML2010 and AML2020 and ARH2050 and ARH2051 and ENG2100 and ENL2012 and ENL2022 and LIT2100 and PHI2600 and REL2000 and REL2300 and STA2023 and AMH2010 and AMH2020 and POS2041 and HUN1201",
     "courses": [
-      "NUR 3306C",
-      "NUR 3125",
-      "NUR 3145",
-      "NUR 3826",
-      "NUR 3870",
-      "NUR 4169",
-      "NUR 4626",
-      "NUR 4636L"
+      "NUR3636C",
+      "NUR4169C",
+      "ENC1102",
+      "SPC2017",
+      "SPC2065",
+      "SPC2608",
+      "HUM2210",
+      "HUM2230",
+      "HUM2250",
+      "DAN2100",
+      "AML2010",
+      "AML2020",
+      "ARH2050",
+      "ARH2051",
+      "ENG2100",
+      "ENL2012",
+      "ENL2022",
+      "LIT2100",
+      "PHI2600",
+      "REL2000",
+      "REL2300",
+      "STA2023",
+      "AMH2010",
+      "AMH2020",
+      "POS2041",
+      "HUN1201"
     ]
   },
   "NUR 4827C": {
@@ -6371,10 +10197,16 @@
       "NUR 3167"
     ]
   },
-  "NUR 4837": {
-    "text": "NUR 3065C (min B)",
+  "NUR 4829": {
+    "text": "NUR 3825 (min C)",
     "courses": [
-      "NUR 3065C"
+      "NUR 3825"
+    ]
+  },
+  "NUR 4837": {
+    "text": "NUR 3825 (min C)",
+    "courses": [
+      "NUR 3825"
     ]
   },
   "NUR 4894": {
@@ -6398,14 +10230,15 @@
     ]
   },
   "NUR 4945C": {
-    "text": "NUR 3080 (min D) and NUR 3065C (min D) and NUR 3169 (min D) and NUR 3125 (min D) and NUR 3145 (min D) and NUR 3289 (min D)",
+    "text": "NUR 3825 (min C) and NUR 3125 (min C) and NUR 4837 (min C) and NUR 3667 (min C) and NUR 3169 (min C) and NUR 3634C (min C) and NUR 4829 (min C)",
     "courses": [
-      "NUR 3080",
-      "NUR 3065C",
-      "NUR 3169",
+      "NUR 3825",
       "NUR 3125",
-      "NUR 3145",
-      "NUR 3289"
+      "NUR 4837",
+      "NUR 3667",
+      "NUR 3169",
+      "NUR 3634C",
+      "NUR 4829"
     ]
   },
   "OCA 0402": {
@@ -6465,6 +10298,19 @@
       "OST 2321C"
     ]
   },
+  "OST 2335": {
+    "text": "ENC1101 and ENC1101C",
+    "courses": [
+      "ENC1101",
+      "ENC1101C"
+    ]
+  },
+  "OST 2771": {
+    "text": "OST1100",
+    "courses": [
+      "OST1100"
+    ]
+  },
   "OST 2852": {
     "text": "OST 1713C (min C)",
     "courses": [
@@ -6509,6 +10355,18 @@
       "OTH 1520C"
     ]
   },
+  "OTH 1019C": {
+    "text": "OTH1014C",
+    "courses": [
+      "OTH1014C"
+    ]
+  },
+  "OTH 1704": {
+    "text": "OTH1003C",
+    "courses": [
+      "OTH1003C"
+    ]
+  },
   "OTH 1800": {
     "text": "BSC 2086C (min C) and OTH 1001C (min C) and OTH 1520C (min C) and OTH 2300C (min C)",
     "courses": [
@@ -6516,6 +10374,25 @@
       "OTH 1001C",
       "OTH 1520C",
       "OTH 2300C"
+    ]
+  },
+  "OTH 2165C": {
+    "text": "OTH1014C",
+    "courses": [
+      "OTH1014C"
+    ]
+  },
+  "OTH 2420C": {
+    "text": "OTH1014C",
+    "courses": [
+      "OTH1014C"
+    ]
+  },
+  "OTH 2602C": {
+    "text": "OTH1001 and DEP2004",
+    "courses": [
+      "OTH1001",
+      "DEP2004"
     ]
   },
   "OTH 2933C": {
@@ -6572,6 +10449,13 @@
       "BCH-Biochemistry 4052L"
     ]
   },
+  "PCB 3513C": {
+    "text": "BSC2011C and CHM2046C",
+    "courses": [
+      "BSC2011C",
+      "CHM2046C"
+    ]
+  },
   "PCB 4024": {
     "text": "BSC 2011 (min C) and BSC 2011L (min C) and PCB 3063 (min C) and PCB 3063L (min C)",
     "courses": [
@@ -6599,16 +10483,34 @@
       "PEM 2145"
     ]
   },
+  "PET 4945": {
+    "text": "MAN 4940 (min D)",
+    "courses": [
+      "MAN 4940"
+    ]
+  },
   "PGY 2000": {
     "text": "ENC 1101 (min C)",
     "courses": [
       "ENC 1101"
     ]
   },
+  "PGY 2151C": {
+    "text": "PGY2801C",
+    "courses": [
+      "PGY2801C"
+    ]
+  },
   "PGY 2220C": {
     "text": "PGY 1201C (min C)",
     "courses": [
       "PGY 1201C"
+    ]
+  },
+  "PGY 2404C": {
+    "text": "PGY2401C",
+    "courses": [
+      "PGY2401C"
     ]
   },
   "PGY 2801C": {
@@ -6630,6 +10532,13 @@
     "courses": [
       "DIG 1000",
       "PGY 1800"
+    ]
+  },
+  "PGY 3440C": {
+    "text": "DIG2142C and PGY2801C",
+    "courses": [
+      "DIG2142C",
+      "PGY2801C"
     ]
   },
   "PHI 1010": {
@@ -6679,6 +10588,12 @@
       "ENC 1101H"
     ]
   },
+  "PHI 2603": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
+    ]
+  },
   "PHI 2635": {
     "text": "ENC 1101 (min C) or ENC 1101 (min Z) or ENC 1101C (min C) or ENC 1101H (min C)",
     "courses": [
@@ -6701,10 +10616,22 @@
       "PHT 1102"
     ]
   },
+  "PHT 1120C": {
+    "text": "BSC2085C",
+    "courses": [
+      "BSC2085C"
+    ]
+  },
   "PHT 1200L": {
     "text": "PHT 1200 (min D)",
     "courses": [
       "PHT 1200"
+    ]
+  },
+  "PHT 1300": {
+    "text": "BSC2085C",
+    "courses": [
+      "BSC2085C"
     ]
   },
   "PHT 1801L": {
@@ -6716,6 +10643,15 @@
       "BSC 2086C",
       "PHT 1213C",
       "PSY 2012"
+    ]
+  },
+  "PHT 2131C": {
+    "text": "PHT1000 and PHT1200C and PHT1300 and PHT1120C",
+    "courses": [
+      "PHT1000",
+      "PHT1200C",
+      "PHT1300",
+      "PHT1120C"
     ]
   },
   "PHT 2211": {
@@ -6751,6 +10687,13 @@
       "PHT 1131L"
     ]
   },
+  "PHT 2224C": {
+    "text": "PHT1120C and PHT1200C",
+    "courses": [
+      "PHT1120C",
+      "PHT1200C"
+    ]
+  },
   "PHT 2225": {
     "text": "PHT 2224 (min D) and PHT 2224L (min D)",
     "courses": [
@@ -6771,11 +10714,33 @@
       "PHT 2224L"
     ]
   },
+  "PHT 2253C": {
+    "text": "PHT2131C and PHT2220C and PHT2252C",
+    "courses": [
+      "PHT2131C",
+      "PHT2220C",
+      "PHT2252C"
+    ]
+  },
   "PHT 2801": {
     "text": "PHT 2211 (min D) and PHT 2211L (min D)",
     "courses": [
       "PHT 2211",
       "PHT 2211L"
+    ]
+  },
+  "PHT 2801L": {
+    "text": "PHT2131C and PHT2220C and PHT2252C",
+    "courses": [
+      "PHT2131C",
+      "PHT2220C",
+      "PHT2252C"
+    ]
+  },
+  "PHT 2820L": {
+    "text": "PHT2810L",
+    "courses": [
+      "PHT2810L"
     ]
   },
   "PHY 1020": {
@@ -6845,6 +10810,13 @@
       "PHY 1053L"
     ]
   },
+  "PHY 1057C": {
+    "text": "PHY 1020C (min C) and EET 1084C (min C)",
+    "courses": [
+      "PHY 1020C",
+      "EET 1084C"
+    ]
+  },
   "PHY 2020C": {
     "text": "MAC 1114 (min C) or MAC 1140 (min C) or MAC 1147 (min C) or MAC 2233 (min C) or MAC 2311 (min C) or MAC 2312 (min C) or MAC 1105 (min C)",
     "courses": [
@@ -6888,9 +10860,10 @@
     ]
   },
   "PHY 2049C": {
-    "text": "MAC 2311 (min D)",
+    "text": "PHY2048C and MAC2313",
     "courses": [
-      "MAC 2311"
+      "PHY2048C",
+      "MAC2313"
     ]
   },
   "PHY 2049L": {
@@ -6945,9 +10918,11 @@
     ]
   },
   "PLA 1104": {
-    "text": "ENC 1101 (min C)",
+    "text": "ENC1101 and ENC1101C and PLA1003",
     "courses": [
-      "ENC 1101"
+      "ENC1101",
+      "ENC1101C",
+      "PLA1003"
     ]
   },
   "PLA 1260": {
@@ -6963,10 +10938,25 @@
       "BUL 1241"
     ]
   },
+  "PLA 1423": {
+    "text": "BUL2131 and PLA1003",
+    "courses": [
+      "BUL2131",
+      "PLA1003"
+    ]
+  },
   "PLA 2104": {
     "text": "ENC 1101 (min C)",
     "courses": [
       "ENC 1101"
+    ]
+  },
+  "PLA 2200": {
+    "text": "PLA1003 and PLA1104 and PLA2273",
+    "courses": [
+      "PLA1003",
+      "PLA1104",
+      "PLA2273"
     ]
   },
   "PLA 2203": {
@@ -6981,10 +10971,39 @@
       "PLA 2203"
     ]
   },
+  "PLA 2273": {
+    "text": "ENC1101 and ENC1101C and PLA1003",
+    "courses": [
+      "ENC1101",
+      "ENC1101C",
+      "PLA1003"
+    ]
+  },
+  "PLA 2600": {
+    "text": "PLA1003 and PLA1104",
+    "courses": [
+      "PLA1003",
+      "PLA1104"
+    ]
+  },
+  "PLA 2732": {
+    "text": "PLA1003 and CGS1100C",
+    "courses": [
+      "PLA1003",
+      "CGS1100C"
+    ]
+  },
   "PLA 2763": {
     "text": "PLA 1003 (min C)",
     "courses": [
       "PLA 1003"
+    ]
+  },
+  "PLA 2800": {
+    "text": "PLA1003 and PLA1104",
+    "courses": [
+      "PLA1003",
+      "PLA1104"
     ]
   },
   "PLA 2940": {
@@ -7051,6 +11070,19 @@
     "text": "PMT 0150",
     "courses": [
       "PMT 0150"
+    ]
+  },
+  "PMT 2213C": {
+    "text": "PMT1203C",
+    "courses": [
+      "PMT1203C"
+    ]
+  },
+  "PMT 2250C": {
+    "text": "PMT2213C and PMT2214C",
+    "courses": [
+      "PMT2213C",
+      "PMT2214C"
     ]
   },
   "POS 1112": {
@@ -7133,6 +11165,14 @@
       "PRN 0098C"
     ]
   },
+  "PRN 0099L": {
+    "text": "PRN0098 and PRN0098L and PRN0099",
+    "courses": [
+      "PRN0098",
+      "PRN0098L",
+      "PRN0099"
+    ]
+  },
   "PRN 0204": {
     "text": "PRN 0002 (min B) and PRN 0002L (min B) and PRN 0030 (min B) and PRN 0080 (min B) or BSC 1085 (min B) or BSC 1085L (min B) or BSC 1086 (min B) or BSC 1086L (min B)",
     "courses": [
@@ -7180,6 +11220,14 @@
       "PRN 0290C"
     ]
   },
+  "PRN 0291L": {
+    "text": "PRN0099L and PRN0290 and PRN0290L",
+    "courses": [
+      "PRN0099L",
+      "PRN0290",
+      "PRN0290L"
+    ]
+  },
   "PRN 0379": {
     "text": "PRN 0098 (min C)",
     "courses": [
@@ -7199,10 +11247,11 @@
     ]
   },
   "PRN 0690": {
-    "text": "PRN 0379 (min C) and PRN 0379L (min P)",
+    "text": "PRN0099L and PRN0290 and PRN0290L",
     "courses": [
-      "PRN 0379",
-      "PRN 0379L"
+      "PRN0099L",
+      "PRN0290",
+      "PRN0290L"
     ]
   },
   "PRN 0690C": {
@@ -7251,10 +11300,65 @@
     ]
   },
   "PSY 2012": {
-    "text": "ENC 0027 (min C) or ENC 1101 (min C)",
+    "text": "ENC 1101 (min C) or ENC 0022 (min C.) or ENC 0025 (min C.) or ENC 0027 (min C.) or ENC 1102 (min C) or ENC 2300 (min C) or ENC 0010 (min C.) and REA-Reading 0017 (min C.) or ENC 0022 (min C.) or ENC 0027 (min C.) or REA-Reading 0002 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C)",
     "courses": [
+      "ENC 1101",
+      "ENC 0022",
+      "ENC 0025",
       "ENC 0027",
-      "ENC 1101"
+      "ENC 1102",
+      "ENC 2300",
+      "ENC 0010",
+      "REA-Reading 0017",
+      "REA-Reading 0002"
+    ]
+  },
+  "PTN 0084L": {
+    "text": "HSC0003 and PTN0084",
+    "courses": [
+      "HSC0003",
+      "PTN0084"
+    ]
+  },
+  "PTN 0085L": {
+    "text": "HSC0003 and PTN0084 and PTN0084L and PTN0085",
+    "courses": [
+      "HSC0003",
+      "PTN0084",
+      "PTN0084L",
+      "PTN0085"
+    ]
+  },
+  "PTN 0086L": {
+    "text": "HSC0003 and PTN0085 and PTN0085L and PTN0086",
+    "courses": [
+      "HSC0003",
+      "PTN0085",
+      "PTN0085L",
+      "PTN0086"
+    ]
+  },
+  "QMB 1001": {
+    "text": "MAT 0028 (min S.) or MAT 0027 (min S.) or MAT 0024 (min S.) or MAT 0014 (min C.) or MAT 0024C (min S.) or MAT 1033 (min C) or MAC 1105 (min C) or MAC 1105C (min C) or MGF 1106 (min C)",
+    "courses": [
+      "MAT 0028",
+      "MAT 0027",
+      "MAT 0024",
+      "MAT 0014",
+      "MAT 0024C",
+      "MAT 1033",
+      "MAC 1105",
+      "MAC 1105C",
+      "MGF 1106"
+    ]
+  },
+  "QMB 2100": {
+    "text": "MAC1105 and MAC1105C and MGF1106 and MGF1130",
+    "courses": [
+      "MAC1105",
+      "MAC1105C",
+      "MGF1106",
+      "MGF1130"
     ]
   },
   "QMB 3600": {
@@ -7262,6 +11366,30 @@
     "courses": [
       "CGS 1100",
       "STA 2023"
+    ]
+  },
+  "RAT 2061": {
+    "text": "RAT2833",
+    "courses": [
+      "RAT2833"
+    ]
+  },
+  "RAT 2243": {
+    "text": "RAT2242",
+    "courses": [
+      "RAT2242"
+    ]
+  },
+  "RAT 2834": {
+    "text": "RAT2833",
+    "courses": [
+      "RAT2833"
+    ]
+  },
+  "REA 0017": {
+    "text": "REA0007",
+    "courses": [
+      "REA0007"
     ]
   },
   "RED 3519": {
@@ -7289,9 +11417,15 @@
     ]
   },
   "RED 4519": {
-    "text": "RED 3309 (min D)",
+    "text": "RED 3012 (min C)",
     "courses": [
-      "RED 3309"
+      "RED 3012"
+    ]
+  },
+  "RED 4541": {
+    "text": "LAE4416",
+    "courses": [
+      "LAE4416"
     ]
   },
   "RED 4844": {
@@ -7307,10 +11441,26 @@
       "RED 3309"
     ]
   },
-  "RED 4942": {
-    "text": "RED 3519 (min C)",
+  "RED 4941C": {
+    "text": "EEC4219 and EEC4706 and TSL3080 and TSL3081 and LAE4416 and RED4511 and RED4541 and EDG4330 and EDG4410 and EEC4940C",
     "courses": [
-      "RED 3519"
+      "EEC4219",
+      "EEC4706",
+      "TSL3080",
+      "TSL3081",
+      "LAE4416",
+      "RED4511",
+      "RED4541",
+      "EDG4330",
+      "EDG4410",
+      "EEC4940C"
+    ]
+  },
+  "RED 4942": {
+    "text": "RED 3012 (min C) and RED 4519 (min C)",
+    "courses": [
+      "RED 3012",
+      "RED 4519"
     ]
   },
   "RED 4943": {
@@ -7352,6 +11502,16 @@
       "ENC 0022"
     ]
   },
+  "RET 1008": {
+    "text": "RET1024 and RET1485 and RET1276 and RET1824 and RET2272L",
+    "courses": [
+      "RET1024",
+      "RET1485",
+      "RET1276",
+      "RET1824",
+      "RET2272L"
+    ]
+  },
   "RET 1024": {
     "text": "RET 1024L (min C) and RET 1830 (min C)",
     "courses": [
@@ -7366,10 +11526,41 @@
       "RET 1830"
     ]
   },
+  "RET 1025C": {
+    "text": "RET 1274C (min C) and RET 1450C (min C)",
+    "courses": [
+      "RET 1274C",
+      "RET 1450C"
+    ]
+  },
   "RET 1027C": {
     "text": "RET 1024C (min C)",
     "courses": [
       "RET 1024C"
+    ]
+  },
+  "RET 1265C": {
+    "text": "RET 1025C (min C) and RET 1485 (min C) and RET 1274C (min C) and RET 1450C (min C)",
+    "courses": [
+      "RET 1025C",
+      "RET 1485",
+      "RET 1274C",
+      "RET 1450C"
+    ]
+  },
+  "RET 1274C": {
+    "text": "RET 1025C (min C) and RET 1450C (min C)",
+    "courses": [
+      "RET 1025C",
+      "RET 1450C"
+    ]
+  },
+  "RET 1295": {
+    "text": "RET 1274C (min C) and RET 1025C (min C) and RET 1485 (min C)",
+    "courses": [
+      "RET 1274C",
+      "RET 1025C",
+      "RET 1485"
     ]
   },
   "RET 1414": {
@@ -7377,6 +11568,22 @@
     "courses": [
       "RET 1026C",
       "RET 1832"
+    ]
+  },
+  "RET 1450C": {
+    "text": "RET 1025C (min C) and RET 1274C (min C)",
+    "courses": [
+      "RET 1025C",
+      "RET 1274C"
+    ]
+  },
+  "RET 1485": {
+    "text": "RET 1025C (min C) and RET 1274C (min C) and RET 1450C (min C) and RET 1265C (min C)",
+    "courses": [
+      "RET 1025C",
+      "RET 1274C",
+      "RET 1450C",
+      "RET 1265C"
     ]
   },
   "RET 1534": {
@@ -7399,11 +11606,19 @@
       "RET 1832"
     ]
   },
-  "RET 1875L": {
-    "text": "RET 1874L (min C) or RET 1874 (min C)",
+  "RET 1874L": {
+    "text": "RET 1025C (min C) and RET 1450C (min C) and RET 1274C (min C)",
     "courses": [
-      "RET 1874L",
-      "RET 1874"
+      "RET 1025C",
+      "RET 1450C",
+      "RET 1274C"
+    ]
+  },
+  "RET 1875L": {
+    "text": "RET 1265C (min C) and RET 1874L (min C)",
+    "courses": [
+      "RET 1265C",
+      "RET 1874L"
     ]
   },
   "RET 2007": {
@@ -7412,16 +11627,54 @@
       "RET 1350"
     ]
   },
+  "RET 2264C": {
+    "text": "RET1024 and RET1485 and RET1276 and RET1824 and RET2272L",
+    "courses": [
+      "RET1024",
+      "RET1485",
+      "RET1276",
+      "RET1824",
+      "RET2272L"
+    ]
+  },
+  "RET 2272": {
+    "text": "RET1024 and RET1485 and RET1276 and RET1824 and RET2272L",
+    "courses": [
+      "RET1024",
+      "RET1485",
+      "RET1276",
+      "RET1824",
+      "RET2272L"
+    ]
+  },
   "RET 2280C": {
     "text": "RET 1264C (min C)",
     "courses": [
       "RET 1264C"
     ]
   },
+  "RET 2484": {
+    "text": "RET1024 and RET1485 and RET1276 and RET1824 and RET2272L",
+    "courses": [
+      "RET1024",
+      "RET1485",
+      "RET1276",
+      "RET1824",
+      "RET2272L"
+    ]
+  },
   "RET 2601C": {
     "text": "RET 1024C (min C)",
     "courses": [
       "RET 1024C"
+    ]
+  },
+  "RET 2714": {
+    "text": "RET1450 and RET2350 and RET2265",
+    "courses": [
+      "RET1450",
+      "RET2350",
+      "RET2265"
     ]
   },
   "RET 2714C": {
@@ -7446,6 +11699,13 @@
       "RET 1875L"
     ]
   },
+  "RET 2877L": {
+    "text": "RET 2714C (min C) and RET 2876L (min C)",
+    "courses": [
+      "RET 2714C",
+      "RET 2876L"
+    ]
+  },
   "RET 2878L": {
     "text": "RET 1264 (min C) and RET 1264L (min C) or RET 1272L (min C) and RET 1833 (min C) and RET 2878 (min C) and RET 2834 (min C)",
     "courses": [
@@ -7457,10 +11717,25 @@
       "RET 2834"
     ]
   },
+  "RET 2930": {
+    "text": "RET 2714C (min C) and RET 2876L (min C)",
+    "courses": [
+      "RET 2714C",
+      "RET 2876L"
+    ]
+  },
   "RET 2930C": {
     "text": "RET 2418C (min C)",
     "courses": [
       "RET 2418C"
+    ]
+  },
+  "RET 2931": {
+    "text": "RET2834 and RET2930 and RET2714",
+    "courses": [
+      "RET2834",
+      "RET2930",
+      "RET2714"
     ]
   },
   "RTE 1385": {
@@ -7538,6 +11813,23 @@
       "RTE 1523"
     ]
   },
+  "RTE 1613": {
+    "text": "MAC1105 and MAC1105C and MAC1114 and MAC1140 and MAC1147 and MAC2233 and MAC2311 and MAC2312 and MAC2313 and MAP2302 and MGF1130 and STA2023",
+    "courses": [
+      "MAC1105",
+      "MAC1105C",
+      "MAC1114",
+      "MAC1140",
+      "MAC1147",
+      "MAC2233",
+      "MAC2311",
+      "MAC2312",
+      "MAC2313",
+      "MAP2302",
+      "MGF1130",
+      "STA2023"
+    ]
+  },
   "RTE 1804": {
     "text": "RTE 1111C (min C)",
     "courses": [
@@ -7573,6 +11865,12 @@
     "text": "RTE 1814L (min B)",
     "courses": [
       "RTE 1814L"
+    ]
+  },
+  "RTE 1844L": {
+    "text": "RTE1834L",
+    "courses": [
+      "RTE1834L"
     ]
   },
   "RTE 2061": {
@@ -7619,6 +11917,13 @@
       "RTE 1523C"
     ]
   },
+  "RTE 2782": {
+    "text": "BSC2085C and BSC2086C",
+    "courses": [
+      "BSC2085C",
+      "BSC2086C"
+    ]
+  },
   "RTE 2782C": {
     "text": "RTE 1513C (min C)",
     "courses": [
@@ -7656,6 +11961,12 @@
       "RTE 2844L"
     ]
   },
+  "RTV 3581C": {
+    "text": "DIG2282C",
+    "courses": [
+      "DIG2282C"
+    ]
+  },
   "SBM 2000": {
     "text": "ENC 0027 (min C) or ENC 1101 (min C)",
     "courses": [
@@ -7664,9 +11975,9 @@
     ]
   },
   "SCE 3310": {
-    "text": "EEX 4265 (min C)",
+    "text": "LAE 3414 (min D)",
     "courses": [
-      "EEX 4265"
+      "LAE 3414"
     ]
   },
   "SCE 4350": {
@@ -7702,6 +12013,25 @@
       "MAC 1105",
       "MGF 1106",
       "MGF 1130"
+    ]
+  },
+  "SLS 0462": {
+    "text": "SLS0460 and SLS0461",
+    "courses": [
+      "SLS0460",
+      "SLS0461"
+    ]
+  },
+  "SLS 2264": {
+    "text": "ENC 1101 (min C) or ENC 0025 (min C.) or ENC 1102 (min C) or ENC 2300 (min C) or ENC 0010 (min C.) and REA-Reading 0017 (min C.) or REA-Reading 0002 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C)",
+    "courses": [
+      "ENC 1101",
+      "ENC 0025",
+      "ENC 1102",
+      "ENC 2300",
+      "ENC 0010",
+      "REA-Reading 0017",
+      "REA-Reading 0002"
     ]
   },
   "SON 1052": {
@@ -7839,11 +12169,24 @@
       "SON 2834"
     ]
   },
+  "SOP 2002": {
+    "text": "PSY 2012 (min C)",
+    "courses": [
+      "PSY 2012"
+    ]
+  },
   "SPC 1608": {
     "text": "ENC 0027 (min C) or ENC 1101 (min C)",
     "courses": [
       "ENC 0027",
       "ENC 1101"
+    ]
+  },
+  "SPC 2065": {
+    "text": "ENC1101 and ENC1101C",
+    "courses": [
+      "ENC1101",
+      "ENC1101C"
     ]
   },
   "SPC 2300": {
@@ -7897,10 +12240,16 @@
       "SPN 1121"
     ]
   },
-  "SSE 3312": {
-    "text": "EEX 4265 (min C)",
+  "SPN 2210": {
+    "text": "SPN1120",
     "courses": [
-      "EEX 4265"
+      "SPN1120"
+    ]
+  },
+  "SSE 3312": {
+    "text": "EDG 4943 (min D)",
+    "courses": [
+      "EDG 4943"
     ]
   },
   "STA 2023": {
@@ -7924,6 +12273,12 @@
       "MAC 1105H"
     ]
   },
+  "STS 1302": {
+    "text": "STS1538",
+    "courses": [
+      "STS1538"
+    ]
+  },
   "STS 1304L": {
     "text": "STS 1302 (min C) and STS 2340 (min C)",
     "courses": [
@@ -7931,11 +12286,26 @@
       "STS 2340"
     ]
   },
+  "STS 1307C": {
+    "text": "BSC2085C",
+    "courses": [
+      "BSC2085C"
+    ]
+  },
   "STS 1308": {
     "text": "STS 1302 (min C) and STS 2340 (min C)",
     "courses": [
       "STS 1302",
       "STS 2340"
+    ]
+  },
+  "STS 1310": {
+    "text": "STS1538 and STS1302 and STS1302L and STS1310L",
+    "courses": [
+      "STS1538",
+      "STS1302",
+      "STS1302L",
+      "STS1310L"
     ]
   },
   "STS 1323": {
@@ -7954,6 +12324,12 @@
       "STS 2944L"
     ]
   },
+  "STS 1340": {
+    "text": "STS1538",
+    "courses": [
+      "STS1538"
+    ]
+  },
   "STS 1931": {
     "text": "STS 1304L (min C)",
     "courses": [
@@ -7964,6 +12340,17 @@
     "text": "STS 1323 (min C)",
     "courses": [
       "STS 1323"
+    ]
+  },
+  "STS 2323": {
+    "text": "STS1340 and STS1302 and STS1302L and STS1310 and STS1310L and STS2323L",
+    "courses": [
+      "STS1340",
+      "STS1302",
+      "STS1302L",
+      "STS1310",
+      "STS1310L",
+      "STS2323L"
     ]
   },
   "STS 2323L": {
@@ -7982,11 +12369,15 @@
     ]
   },
   "STS 2324L": {
-    "text": "STS 2323 (min C) and STS 2323L (min C) and STS 2324 (min C)",
+    "text": "STS1340 and STS2365 and STS1302 and STS1302L and STS1310 and STS1310L and STS2324",
     "courses": [
-      "STS 2323",
-      "STS 2323L",
-      "STS 2324"
+      "STS1340",
+      "STS2365",
+      "STS1302",
+      "STS1302L",
+      "STS1310",
+      "STS1310L",
+      "STS2324"
     ]
   },
   "STS 2330C": {
@@ -8040,9 +12431,12 @@
     ]
   },
   "STS 2945C": {
-    "text": "STS 2944C (min D)",
+    "text": "STS2323 and STS2323L and STS2324 and STS2324L",
     "courses": [
-      "STS 2944C"
+      "STS2323",
+      "STS2323L",
+      "STS2324",
+      "STS2324L"
     ]
   },
   "STS 2945L": {
@@ -8057,16 +12451,29 @@
       "STS 2945L"
     ]
   },
+  "STS 2953": {
+    "text": "STS1340 and STS2365 and STS1302 and STS1302L and STS1310 and STS1310L",
+    "courses": [
+      "STS1340",
+      "STS2365",
+      "STS1302",
+      "STS1302L",
+      "STS1310",
+      "STS1310L"
+    ]
+  },
   "SYG 2000": {
-    "text": "ENC 1101 (min C)REA 0011 (min C) or REA 0011 (min C*) or REA 0017 (min C) or REA 0017 (min C*) or REA 0019 (min C) or REA 0019 (min C*) and ENC 0025 (min C) or ENC 0025 (min C*) or ENC 0021 (min C) or ENC 0021 (min C*) or ENC 0022 (min C) or ENC 0022 (min C*)",
+    "text": "ENC 1101 (min C) or ENC 0025 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or ENC 1102 (min C) or ENC 2300 (min C) or ENC 0010 (min C.) and REA-Reading 0017 (min C.) or ENC 0027 (min C.) or ENC 0022 (min C.) or REA-Reading 0002 (min C.) or ENC 1101 (min C) or ENC 1102 (min C) or ENC 2300 (min C)",
     "courses": [
       "ENC 1101",
-      "REA 0011",
-      "REA 0017",
-      "REA 0019",
       "ENC 0025",
-      "ENC 0021",
-      "ENC 0022"
+      "ENC 0027",
+      "ENC 0022",
+      "ENC 1102",
+      "ENC 2300",
+      "ENC 0010",
+      "REA-Reading 0017",
+      "REA-Reading 0002"
     ]
   },
   "SYG 2010": {
@@ -8218,6 +12625,12 @@
       "TPA 1210"
     ]
   },
+  "TPA 1291": {
+    "text": "TPA1290",
+    "courses": [
+      "TPA1290"
+    ]
+  },
   "TPA 1291L": {
     "text": "TPA 1210 (min C) and TPA 1290L (min C)",
     "courses": [
@@ -8298,10 +12711,62 @@
       "TPP 1811"
     ]
   },
+  "TRA 0082": {
+    "text": "TRA0081",
+    "courses": [
+      "TRA0081"
+    ]
+  },
+  "TRA 0089": {
+    "text": "TRA0082",
+    "courses": [
+      "TRA0082"
+    ]
+  },
+  "TRA 2131": {
+    "text": "CGS2512C",
+    "courses": [
+      "CGS2512C"
+    ]
+  },
+  "TRA 3132": {
+    "text": "GEB3213 and TRA2131 and MNA2216",
+    "courses": [
+      "GEB3213",
+      "TRA2131",
+      "MNA2216"
+    ]
+  },
+  "TRA 3270": {
+    "text": "GEB3213 and TRA2152",
+    "courses": [
+      "GEB3213",
+      "TRA2152"
+    ]
+  },
+  "TRA 4203": {
+    "text": "TRA2098",
+    "courses": [
+      "TRA2098"
+    ]
+  },
+  "TSL 4080": {
+    "text": "EDG 4943 (min C) and TSL 4240 (min C)",
+    "courses": [
+      "EDG 4943",
+      "TSL 4240"
+    ]
+  },
   "TSL 4081": {
     "text": "TSL 3080 (min C)",
     "courses": [
       "TSL 3080"
+    ]
+  },
+  "TSL 4240": {
+    "text": "EDG 4942 (min C)",
+    "courses": [
+      "EDG 4942"
     ]
   },
   "WOH 1012": {
@@ -8309,6 +12774,12 @@
     "courses": [
       "ENC 0027",
       "ENC 1101"
+    ]
+  },
+  "WOH 1022": {
+    "text": "ENC1101",
+    "courses": [
+      "ENC1101"
     ]
   }
 }
