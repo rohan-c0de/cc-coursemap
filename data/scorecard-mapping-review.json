@@ -16,5 +16,122 @@
     "tier": "review",
     "candidates": [],
     "note": "no candidates returned by Scorecard"
+  },
+  {
+    "state": "tx",
+    "id": "south-texas-college",
+    "name": "South Texas College",
+    "unitid": null,
+    "tier": "review",
+    "candidates": [
+      {
+        "unitid": 409315,
+        "name": "South Texas College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4920,
+        "size": 15856
+      },
+      {
+        "unitid": 227377,
+        "name": "Texas Southmost College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3148,
+        "size": 3372
+      },
+      {
+        "unitid": 228185,
+        "name": "South Texas Barber College Inc",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 23
+      },
+      {
+        "unitid": 228194,
+        "name": "South Texas College of Law Houston",
+        "ownership": 2,
+        "predominantDegree": 4,
+        "inStateTuition": null,
+        "size": null
+      },
+      {
+        "unitid": 228219,
+        "name": "Miller-Motte College-STVT-McAllen",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 546
+      },
+      {
+        "unitid": 228316,
+        "name": "Southwest Texas College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2646,
+        "size": 3306
+      },
+      {
+        "unitid": 460172,
+        "name": "Miller-Motte College-STVT-San Antonio",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 762
+      }
+    ],
+    "note": "3 plausible public CCs returned — needs human disambiguation"
+  },
+  {
+    "state": "tx",
+    "id": "central-texas-college",
+    "name": "Central Texas College",
+    "unitid": null,
+    "tier": "review",
+    "candidates": [
+      {
+        "unitid": 224110,
+        "name": "North Central Texas College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3600,
+        "size": 5863
+      },
+      {
+        "unitid": 223816,
+        "name": "Central Texas College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3750,
+        "size": 6247
+      },
+      {
+        "unitid": 246460,
+        "name": "Central Texas Beauty College-Round Rock",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 122
+      },
+      {
+        "unitid": 383464,
+        "name": "Central Texas Beauty College-Temple",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 32
+      }
+    ],
+    "note": "2 plausible public CCs returned — needs human disambiguation"
+  },
+  {
+    "state": "tx",
+    "id": "southwest-texas-junior-college",
+    "name": "Southwest Texas Junior College",
+    "unitid": null,
+    "tier": "review",
+    "candidates": [],
+    "note": "no candidates returned by Scorecard"
   }
 ]

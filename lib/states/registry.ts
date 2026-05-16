@@ -141,6 +141,7 @@ import ohConfig from "./oh/config";
 import miConfig from "./mi/config";
 import iaConfig from "./ia/config";
 import moConfig from "./mo/config";
+import txConfig from "./tx/config";
 
 const ALL_CONFIGS: StateConfig[] = [
   vaConfig,
@@ -169,6 +170,7 @@ const ALL_CONFIGS: StateConfig[] = [
   miConfig,
   iaConfig,
   moConfig,
+  txConfig,
 ];
 
 const configs: Record<string, StateConfig> = Object.fromEntries(

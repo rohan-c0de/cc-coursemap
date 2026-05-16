@@ -6633,5 +6633,1219 @@
         "size": 1868
       }
     ]
+  },
+  {
+    "state": "tx",
+    "id": "austin-community-college-district",
+    "name": "Austin Community College District",
+    "unitid": 222992,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 222992,
+        "name": "Austin Community College District",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2550,
+        "size": 30189
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "brazosport-college",
+    "name": "Brazosport College",
+    "unitid": 223506,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 223506,
+        "name": "Brazosport College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2388,
+        "size": 2622
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "del-mar-college",
+    "name": "Del Mar College",
+    "unitid": 224350,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 224350,
+        "name": "Del Mar College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3440,
+        "size": 9501
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "dallas-college",
+    "name": "Dallas College",
+    "unitid": 224615,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 223463,
+        "name": "Remington College-Dallas Campus",
+        "ownership": 2,
+        "predominantDegree": 1,
+        "inStateTuition": 15025,
+        "size": 250
+      },
+      {
+        "unitid": 224244,
+        "name": "Dallas Christian College",
+        "ownership": 2,
+        "predominantDegree": 3,
+        "inStateTuition": 21730,
+        "size": 224
+      },
+      {
+        "unitid": 224615,
+        "name": "Dallas College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2730,
+        "size": 43869
+      },
+      {
+        "unitid": 443021,
+        "name": "Dallas Barber & Stylist College",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 8
+      },
+      {
+        "unitid": 460181,
+        "name": "Concorde Career College-Dallas",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 194
+      },
+      {
+        "unitid": 480824,
+        "name": "The College of Health Care Professions-Dallas",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 720
+      },
+      {
+        "unitid": 494162,
+        "name": "Arizona College of Nursing-Dallas",
+        "ownership": 3,
+        "predominantDegree": 3,
+        "inStateTuition": 23987,
+        "size": 588
+      },
+      {
+        "unitid": 497000,
+        "name": "Remington College-Online Dallas",
+        "ownership": 2,
+        "predominantDegree": 3,
+        "inStateTuition": 12289,
+        "size": 178
+      },
+      {
+        "unitid": 499273,
+        "name": "Galen Health Institutes-Dallas",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": 17048,
+        "size": 1153
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "galveston-college",
+    "name": "Galveston College",
+    "unitid": 224961,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 224961,
+        "name": "Galveston College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2726,
+        "size": 1528
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "grayson-college",
+    "name": "Grayson College",
+    "unitid": 225070,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 225070,
+        "name": "Grayson College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3052,
+        "size": 3075
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "trinity-valley-community-college",
+    "name": "Trinity Valley Community College",
+    "unitid": 225308,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 225308,
+        "name": "Trinity Valley Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2640,
+        "size": 5655
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "houston-community-college",
+    "name": "Houston Community College",
+    "unitid": 225423,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 225423,
+        "name": "Houston Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2040,
+        "size": 40503
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "laredo-college",
+    "name": "Laredo College",
+    "unitid": 226134,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 226134,
+        "name": "Laredo College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3300,
+        "size": 5818
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "college-of-the-mainland",
+    "name": "College of the Mainland",
+    "unitid": 226408,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 226408,
+        "name": "College of the Mainland",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2310,
+        "size": 3368
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "midland-college",
+    "name": "Midland College",
+    "unitid": 226806,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 226806,
+        "name": "Midland College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3180,
+        "size": 5542
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "navarro-college",
+    "name": "Navarro College",
+    "unitid": 227146,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 227146,
+        "name": "Navarro College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3008,
+        "size": 3781
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "lone-star-college-system",
+    "name": "Lone Star College System",
+    "unitid": 227182,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 227182,
+        "name": "Lone Star College System",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3330,
+        "size": 45188
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "odessa-college",
+    "name": "Odessa College",
+    "unitid": 227304,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 227304,
+        "name": "Odessa College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2688,
+        "size": 4654
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "san-antonio-college",
+    "name": "San Antonio College",
+    "unitid": 227924,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 466930,
+        "name": "Chamberlain University-Texas",
+        "ownership": 3,
+        "predominantDegree": 3,
+        "inStateTuition": 20380,
+        "size": 2270
+      },
+      {
+        "unitid": 227924,
+        "name": "San Antonio College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3412,
+        "size": 16416
+      },
+      {
+        "unitid": 406033,
+        "name": "Galen College of Nursing-San Antonio",
+        "ownership": 3,
+        "predominantDegree": 2,
+        "inStateTuition": 17048,
+        "size": 2953
+      },
+      {
+        "unitid": 449250,
+        "name": "The College of Health Care Professions-San Antonio",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 766
+      },
+      {
+        "unitid": 460172,
+        "name": "Miller-Motte College-STVT-San Antonio",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 762
+      },
+      {
+        "unitid": 460206,
+        "name": "Concorde Career College-San Antonio",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 195
+      },
+      {
+        "unitid": 476540,
+        "name": "Vogue College of Cosmetology-San Antonio Fredericksburg",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 90
+      },
+      {
+        "unitid": 492722,
+        "name": "The College of Health Care Professions-South San Antonio",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 419
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "san-jacinto-community-college",
+    "name": "San Jacinto Community College",
+    "unitid": 227979,
+    "tier": "tier2",
+    "candidates": [
+      {
+        "unitid": 227979,
+        "name": "San Jacinto Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2490,
+        "size": 22969
+      },
+      {
+        "unitid": 22797903,
+        "name": "San Jacinto Community College District - Generation Park Campus",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 2490,
+        "size": null
+      }
+    ],
+    "note": "chose by dominant enrollment over 1 others"
+  },
+  {
+    "state": "tx",
+    "id": "tyler-junior-college",
+    "name": "Tyler Junior College",
+    "unitid": 229355,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 229355,
+        "name": "Tyler Junior College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2400,
+        "size": 9087
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "weatherford-college",
+    "name": "Weatherford College",
+    "unitid": 229799,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 229799,
+        "name": "Weatherford College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5250,
+        "size": 5094
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "collin-county-community-college-district",
+    "name": "Collin County Community College District",
+    "unitid": 247834,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 247834,
+        "name": "Collin County Community College District",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2014,
+        "size": 26449
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "south-texas-college",
+    "name": "South Texas College",
+    "unitid": null,
+    "tier": "review",
+    "candidates": [
+      {
+        "unitid": 409315,
+        "name": "South Texas College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4920,
+        "size": 15856
+      },
+      {
+        "unitid": 227377,
+        "name": "Texas Southmost College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3148,
+        "size": 3372
+      },
+      {
+        "unitid": 228185,
+        "name": "South Texas Barber College Inc",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 23
+      },
+      {
+        "unitid": 228194,
+        "name": "South Texas College of Law Houston",
+        "ownership": 2,
+        "predominantDegree": 4,
+        "inStateTuition": null,
+        "size": null
+      },
+      {
+        "unitid": 228219,
+        "name": "Miller-Motte College-STVT-McAllen",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 546
+      },
+      {
+        "unitid": 228316,
+        "name": "Southwest Texas College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2646,
+        "size": 3306
+      },
+      {
+        "unitid": 460172,
+        "name": "Miller-Motte College-STVT-San Antonio",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 762
+      }
+    ],
+    "note": "3 plausible public CCs returned — needs human disambiguation"
+  },
+  {
+    "state": "tx",
+    "id": "alvin-community-college",
+    "name": "Alvin Community College",
+    "unitid": 222567,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 222567,
+        "name": "Alvin Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 1906,
+        "size": 3342
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "amarillo-college",
+    "name": "Amarillo College",
+    "unitid": 222576,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 222576,
+        "name": "Amarillo College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2136,
+        "size": 7399
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "angelina-college",
+    "name": "Angelina College",
+    "unitid": 222822,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 222822,
+        "name": "Angelina College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3430,
+        "size": 2370
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "coastal-bend-college",
+    "name": "Coastal Bend College",
+    "unitid": 223320,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 223320,
+        "name": "Coastal Bend College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2916,
+        "size": 1958
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "blinn-college-district",
+    "name": "Blinn College District",
+    "unitid": 223427,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 223427,
+        "name": "Blinn College District",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4890,
+        "size": 15535
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "central-texas-college",
+    "name": "Central Texas College",
+    "unitid": null,
+    "tier": "review",
+    "candidates": [
+      {
+        "unitid": 224110,
+        "name": "North Central Texas College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3600,
+        "size": 5863
+      },
+      {
+        "unitid": 223816,
+        "name": "Central Texas College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3750,
+        "size": 6247
+      },
+      {
+        "unitid": 246460,
+        "name": "Central Texas Beauty College-Round Rock",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 122
+      },
+      {
+        "unitid": 383464,
+        "name": "Central Texas Beauty College-Temple",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 32
+      }
+    ],
+    "note": "2 plausible public CCs returned — needs human disambiguation"
+  },
+  {
+    "state": "tx",
+    "id": "cisco-college",
+    "name": "Cisco College",
+    "unitid": 223898,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 223898,
+        "name": "Cisco College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4710,
+        "size": 1620
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "clarendon-college",
+    "name": "Clarendon College",
+    "unitid": 223922,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 223922,
+        "name": "Clarendon College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3720,
+        "size": 1520
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "north-central-texas-college",
+    "name": "North Central Texas College",
+    "unitid": 224110,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 224110,
+        "name": "North Central Texas College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3600,
+        "size": 5863
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "el-paso-community-college",
+    "name": "El Paso Community College",
+    "unitid": 224642,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 224642,
+        "name": "El Paso Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4080,
+        "size": 24214
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "frank-phillips-college",
+    "name": "Frank Phillips College",
+    "unitid": 224891,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 224891,
+        "name": "Frank Phillips College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3712,
+        "size": 623
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "hill-college",
+    "name": "Hill College",
+    "unitid": 225371,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 225371,
+        "name": "Hill College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3570,
+        "size": 2253
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "howard-college",
+    "name": "Howard College",
+    "unitid": 225520,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 225520,
+        "name": "Howard College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2766,
+        "size": 1611
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "kilgore-college",
+    "name": "Kilgore College",
+    "unitid": 226019,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 226019,
+        "name": "Kilgore College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2160,
+        "size": 3215
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "lamar-state-college-orange",
+    "name": "Lamar State College-Orange",
+    "unitid": 226107,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 226107,
+        "name": "Lamar State College-Orange",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3540,
+        "size": 1391
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "lamar-state-college-port-arthur",
+    "name": "Lamar State College-Port Arthur",
+    "unitid": 226116,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 226116,
+        "name": "Lamar State College-Port Arthur",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 1770,
+        "size": 1508
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "lee-college",
+    "name": "Lee College",
+    "unitid": 226204,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 226204,
+        "name": "Lee College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2520,
+        "size": 5116
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "mclennan-community-college",
+    "name": "McLennan Community College",
+    "unitid": 226578,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 226578,
+        "name": "McLennan Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3660,
+        "size": 5668
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "northeast-texas-community-college",
+    "name": "Northeast Texas Community College",
+    "unitid": 227225,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 227225,
+        "name": "Northeast Texas Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2980,
+        "size": 1973
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "texas-southmost-college",
+    "name": "Texas Southmost College",
+    "unitid": 227377,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 227377,
+        "name": "Texas Southmost College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3148,
+        "size": 3372
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "panola-college",
+    "name": "Panola College",
+    "unitid": 227386,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 227386,
+        "name": "Panola College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2352,
+        "size": 1388
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "paris-junior-college",
+    "name": "Paris Junior College",
+    "unitid": 227401,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 227401,
+        "name": "Paris Junior College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2700,
+        "size": 2204
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "ranger-college",
+    "name": "Ranger College",
+    "unitid": 227687,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 227687,
+        "name": "Ranger College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2766,
+        "size": 971
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "st-philips-college",
+    "name": "St Philip's College",
+    "unitid": 227854,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 227854,
+        "name": "St Philip's College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3412,
+        "size": 12914
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "south-plains-college",
+    "name": "South Plains College",
+    "unitid": 228158,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 228158,
+        "name": "South Plains College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2731,
+        "size": 6005
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "southwest-texas-junior-college",
+    "name": "Southwest Texas Junior College",
+    "unitid": null,
+    "tier": "review",
+    "candidates": [],
+    "note": "no candidates returned by Scorecard"
+  },
+  {
+    "state": "tx",
+    "id": "tarrant-county-college-district",
+    "name": "Tarrant County College District",
+    "unitid": 228547,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 228547,
+        "name": "Tarrant County College District",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 1863,
+        "size": 42300
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "temple-college",
+    "name": "Temple College",
+    "unitid": 228608,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 228608,
+        "name": "Temple College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3000,
+        "size": 3178
+      },
+      {
+        "unitid": 383464,
+        "name": "Central Texas Beauty College-Temple",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 32
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "texarkana-college",
+    "name": "Texarkana College",
+    "unitid": 228699,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 228699,
+        "name": "Texarkana College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2476,
+        "size": 1502
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "vernon-college",
+    "name": "Vernon College",
+    "unitid": 229504,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 229504,
+        "name": "Vernon College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3720,
+        "size": 2113
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "victoria-college",
+    "name": "Victoria College",
+    "unitid": 229540,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 229522,
+        "name": "Victoria Beauty & Barber College",
+        "ownership": 3,
+        "predominantDegree": 1,
+        "inStateTuition": null,
+        "size": 73
+      },
+      {
+        "unitid": 229540,
+        "name": "Victoria College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2976,
+        "size": 2351
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "western-texas-college",
+    "name": "Western Texas College",
+    "unitid": 229832,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 229832,
+        "name": "Western Texas College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3300,
+        "size": 599
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "wharton-county-junior-college",
+    "name": "Wharton County Junior College",
+    "unitid": 229841,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 229841,
+        "name": "Wharton County Junior College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3192,
+        "size": 4585
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "palo-alto-college",
+    "name": "Palo Alto College",
+    "unitid": 246354,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 246354,
+        "name": "Palo Alto College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3412,
+        "size": 8801
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "southwest-college-for-the-deaf",
+    "name": "Southwest College for the Deaf",
+    "unitid": 382911,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 382911,
+        "name": "Southwest College for the Deaf",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 2766,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "northwest-vista-college",
+    "name": "Northwest Vista College",
+    "unitid": 420398,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 420398,
+        "name": "Northwest Vista College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3412,
+        "size": 13993
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "lamar-institute-of-technology",
+    "name": "Lamar Institute of Technology",
+    "unitid": 441760,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 441760,
+        "name": "Lamar Institute of Technology",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 2844,
+        "size": 3055
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "texas-state-technical-college",
+    "name": "Texas State Technical College",
+    "unitid": 487320,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 487320,
+        "name": "Texas State Technical College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 7212,
+        "size": 9437
+      }
+    ]
+  },
+  {
+    "state": "tx",
+    "id": "northeast-lakeview-college",
+    "name": "Northeast Lakeview College",
+    "unitid": 488730,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 488730,
+        "name": "Northeast Lakeview College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3412,
+        "size": 6471
+      }
+    ]
   }
 ]
