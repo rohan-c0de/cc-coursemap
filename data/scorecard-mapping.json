@@ -7847,5 +7847,967 @@
         "size": 6471
       }
     ]
+  },
+  {
+    "state": "hi",
+    "id": "honolulu-community-college",
+    "name": "Honolulu Community College",
+    "unitid": 141680,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 141680,
+        "name": "Honolulu Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3174,
+        "size": 1897
+      }
+    ]
+  },
+  {
+    "state": "hi",
+    "id": "kapiolani-community-college",
+    "name": "Kapiolani Community College",
+    "unitid": 141796,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 141796,
+        "name": "Kapiolani Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3284,
+        "size": 3910
+      }
+    ]
+  },
+  {
+    "state": "hi",
+    "id": "kauai-community-college",
+    "name": "Kauai Community College",
+    "unitid": 141802,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 141802,
+        "name": "Kauai Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3252,
+        "size": 716
+      }
+    ]
+  },
+  {
+    "state": "hi",
+    "id": "leeward-community-college",
+    "name": "Leeward Community College",
+    "unitid": 141811,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 141811,
+        "name": "Leeward Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3214,
+        "size": 3438
+      }
+    ]
+  },
+  {
+    "state": "hi",
+    "id": "windward-community-college",
+    "name": "Windward Community College",
+    "unitid": 141990,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 141990,
+        "name": "Windward Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3194,
+        "size": 1159
+      }
+    ]
+  },
+  {
+    "state": "hi",
+    "id": "hawaii-community-college",
+    "name": "Hawaii Community College",
+    "unitid": 383190,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 383190,
+        "name": "Hawaii Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3204,
+        "size": 1546
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "southwestern-illinois-college",
+    "name": "Southwestern Illinois College",
+    "unitid": 143215,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 143215,
+        "name": "Southwestern Illinois College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3960,
+        "size": 5675
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "black-hawk-college",
+    "name": "Black Hawk College",
+    "unitid": 143279,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 143279,
+        "name": "Black Hawk College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4920,
+        "size": 2354
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "carl-sandburg-college",
+    "name": "Carl Sandburg College",
+    "unitid": 143613,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 143613,
+        "name": "Carl Sandburg College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5390,
+        "size": 1051
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "city-colleges-of-chicago-kennedy-king-college",
+    "name": "City Colleges of Chicago-Kennedy-King College",
+    "unitid": 144157,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 144157,
+        "name": "City Colleges of Chicago-Kennedy-King College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4590,
+        "size": 1777
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "city-colleges-of-chicago-malcolm-x-college",
+    "name": "City Colleges of Chicago-Malcolm X College",
+    "unitid": 144166,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 144166,
+        "name": "City Colleges of Chicago-Malcolm X College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4590,
+        "size": 6409
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "city-colleges-of-chicago-olive-harvey-college",
+    "name": "City Colleges of Chicago-Olive-Harvey College",
+    "unitid": 144175,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 144175,
+        "name": "City Colleges of Chicago-Olive-Harvey College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4590,
+        "size": 1661
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "city-colleges-of-chicago-harry-s-truman-college",
+    "name": "City Colleges of Chicago-Harry S Truman College",
+    "unitid": 144184,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 144184,
+        "name": "City Colleges of Chicago-Harry S Truman College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4590,
+        "size": 2505
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "city-colleges-of-chicago-richard-j-daley-college",
+    "name": "City Colleges of Chicago-Richard J Daley College",
+    "unitid": 144193,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 144193,
+        "name": "City Colleges of Chicago-Richard J Daley College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4590,
+        "size": 2789
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "city-colleges-of-chicago-harold-washington-college",
+    "name": "City Colleges of Chicago-Harold Washington College",
+    "unitid": 144209,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 144209,
+        "name": "City Colleges of Chicago-Harold Washington College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4590,
+        "size": 4207
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "city-colleges-of-chicago-wilbur-wright-college",
+    "name": "City Colleges of Chicago-Wilbur Wright College",
+    "unitid": 144218,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 144218,
+        "name": "City Colleges of Chicago-Wilbur Wright College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4590,
+        "size": 4372
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "danville-area-community-college",
+    "name": "Danville Area Community College",
+    "unitid": 144564,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 144564,
+        "name": "Danville Area Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4440,
+        "size": 1508
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "college-of-dupage",
+    "name": "College of DuPage",
+    "unitid": 144865,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 144865,
+        "name": "College of DuPage",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4560,
+        "size": 16114
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "elgin-community-college",
+    "name": "Elgin Community College",
+    "unitid": 144944,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 144944,
+        "name": "Elgin Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3252,
+        "size": 6648
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "highland-community-college",
+    "name": "Highland Community College",
+    "unitid": 145521,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 145521,
+        "name": "Highland Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4936,
+        "size": 931
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "illinois-central-college",
+    "name": "Illinois Central College",
+    "unitid": null,
+    "tier": "review",
+    "candidates": [
+      {
+        "unitid": 145682,
+        "name": "Illinois Central College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4800,
+        "size": 5052
+      },
+      {
+        "unitid": 145707,
+        "name": "Illinois Eastern Community Colleges",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5260,
+        "size": 1634
+      },
+      {
+        "unitid": 14570701,
+        "name": "Illinois Eastern Community Colleges-Olney Central College",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5260,
+        "size": null
+      }
+    ],
+    "note": "3 plausible public CCs returned — needs human disambiguation"
+  },
+  {
+    "state": "il",
+    "id": "olney-central-college",
+    "name": "Olney Central College",
+    "unitid": 145707,
+    "tier": "tier2",
+    "candidates": [
+      {
+        "unitid": 145707,
+        "name": "Illinois Eastern Community Colleges",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5260,
+        "size": 1634
+      },
+      {
+        "unitid": 14570701,
+        "name": "Illinois Eastern Community Colleges-Olney Central College",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5260,
+        "size": null
+      }
+    ],
+    "note": "chose by dominant enrollment over 1 others"
+  },
+  {
+    "state": "il",
+    "id": "illinois-valley-community-college",
+    "name": "Illinois Valley Community College",
+    "unitid": 145831,
+    "tier": "tier2",
+    "candidates": [
+      {
+        "unitid": 145831,
+        "name": "Illinois Valley Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4200,
+        "size": 2040
+      },
+      {
+        "unitid": 14570704,
+        "name": "Illinois Eastern Community Colleges-Wabash Valley College",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5260,
+        "size": null
+      }
+    ],
+    "note": "chose by dominant enrollment over 1 others"
+  },
+  {
+    "state": "il",
+    "id": "john-a-logan-college",
+    "name": "John A Logan College",
+    "unitid": 146205,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 146205,
+        "name": "John A Logan College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4630,
+        "size": 2016
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "john-wood-community-college",
+    "name": "John Wood Community College",
+    "unitid": 146278,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 146278,
+        "name": "John Wood Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5700,
+        "size": 1371
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "joliet-junior-college",
+    "name": "Joliet Junior College",
+    "unitid": 146296,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 146296,
+        "name": "Joliet Junior College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4530,
+        "size": 9306
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "kankakee-community-college",
+    "name": "Kankakee Community College",
+    "unitid": 146348,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 146348,
+        "name": "Kankakee Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5220,
+        "size": 1985
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "kaskaskia-college",
+    "name": "Kaskaskia College",
+    "unitid": 146366,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 146366,
+        "name": "Kaskaskia College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4800,
+        "size": 1920
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "kishwaukee-college",
+    "name": "Kishwaukee College",
+    "unitid": 146418,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 146418,
+        "name": "Kishwaukee College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4560,
+        "size": 1936
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "college-of-lake-county",
+    "name": "College of Lake County",
+    "unitid": 146472,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 146472,
+        "name": "College of Lake County",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4788,
+        "size": 9420
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "lake-land-college",
+    "name": "Lake Land College",
+    "unitid": 146506,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 146506,
+        "name": "Lake Land College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4415,
+        "size": 2448
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "lewis-and-clark-community-college",
+    "name": "Lewis and Clark Community College",
+    "unitid": 146603,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 146603,
+        "name": "Lewis and Clark Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4340,
+        "size": 2487
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "lincoln-land-community-college",
+    "name": "Lincoln Land Community College",
+    "unitid": 146685,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 146685,
+        "name": "Lincoln Land Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3744,
+        "size": 3976
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "mchenry-county-college",
+    "name": "McHenry County College",
+    "unitid": 147004,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 147004,
+        "name": "McHenry County College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4162,
+        "size": 4691
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "moraine-valley-community-college",
+    "name": "Moraine Valley Community College",
+    "unitid": 147378,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 147378,
+        "name": "Moraine Valley Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3822,
+        "size": 7490
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "morton-college",
+    "name": "Morton College",
+    "unitid": 147411,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 147411,
+        "name": "Morton College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5502,
+        "size": 2640
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "oakton-college",
+    "name": "Oakton College",
+    "unitid": 147800,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 147800,
+        "name": "Oakton College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3985,
+        "size": 6072
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "parkland-college",
+    "name": "Parkland College",
+    "unitid": 147916,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 147916,
+        "name": "Parkland College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4284,
+        "size": 3348
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "prairie-state-college",
+    "name": "Prairie State College",
+    "unitid": 148007,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 148007,
+        "name": "Prairie State College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4176,
+        "size": 2443
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "rend-lake-college",
+    "name": "Rend Lake College",
+    "unitid": 148256,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 148256,
+        "name": "Rend Lake College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4500,
+        "size": 1175
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "richland-community-college",
+    "name": "Richland Community College",
+    "unitid": 148292,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 148292,
+        "name": "Richland Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4680,
+        "size": 1346
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "rock-valley-college",
+    "name": "Rock Valley College",
+    "unitid": 148380,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 148380,
+        "name": "Rock Valley College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4334,
+        "size": 4359
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "sauk-valley-community-college",
+    "name": "Sauk Valley Community College",
+    "unitid": 148672,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 148672,
+        "name": "Sauk Valley Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5340,
+        "size": 1158
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "shawnee-community-college",
+    "name": "Shawnee Community College",
+    "unitid": 148821,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 148821,
+        "name": "Shawnee Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4650,
+        "size": 698
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "southeastern-illinois-college",
+    "name": "Southeastern Illinois College",
+    "unitid": 148937,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 148937,
+        "name": "Southeastern Illinois College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4560,
+        "size": 680
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "spoon-river-college",
+    "name": "Spoon River College",
+    "unitid": 148991,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 148991,
+        "name": "Spoon River College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 6090,
+        "size": 774
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "south-suburban-college",
+    "name": "South Suburban College",
+    "unitid": 149365,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 149365,
+        "name": "South Suburban College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5093,
+        "size": 2042
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "triton-college",
+    "name": "Triton College",
+    "unitid": 149532,
+    "tier": "tier2",
+    "candidates": [
+      {
+        "unitid": 149532,
+        "name": "Triton College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5070,
+        "size": 6902
+      },
+      {
+        "unitid": 14953201,
+        "name": "Triton College - Intl Union of Operating Engr Local 399 Trning Fac.",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 2000,
+        "size": null
+      }
+    ],
+    "note": "chose by dominant enrollment over 1 others"
+  },
+  {
+    "state": "il",
+    "id": "waubonsee-community-college",
+    "name": "Waubonsee Community College",
+    "unitid": 149727,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 149727,
+        "name": "Waubonsee Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 3504,
+        "size": 5721
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "william-rainey-harper-college",
+    "name": "William Rainey Harper College",
+    "unitid": 149842,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 149842,
+        "name": "William Rainey Harper College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 3894,
+        "size": 9313
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "heartland-community-college",
+    "name": "Heartland Community College",
+    "unitid": 384342,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 384342,
+        "name": "Heartland Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5550,
+        "size": 2997
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "frontier-community-college",
+    "name": "Frontier Community College",
+    "unitid": 14570702,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 14570702,
+        "name": "Illinois Eastern Community Colleges-Frontier Community College",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5260,
+        "size": null
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "lincoln-trail-college",
+    "name": "Lincoln Trail College",
+    "unitid": 14570703,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 14570703,
+        "name": "Illinois Eastern Community Colleges-Lincoln Trail College",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5260,
+        "size": null
+      }
+    ]
+  },
+  {
+    "state": "il",
+    "id": "wabash-valley-college",
+    "name": "Wabash Valley College",
+    "unitid": 14570704,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 14570704,
+        "name": "Illinois Eastern Community Colleges-Wabash Valley College",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5260,
+        "size": null
+      }
+    ]
   }
 ]

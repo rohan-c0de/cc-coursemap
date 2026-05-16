@@ -133,5 +133,39 @@
     "tier": "review",
     "candidates": [],
     "note": "no candidates returned by Scorecard"
+  },
+  {
+    "state": "il",
+    "id": "illinois-central-college",
+    "name": "Illinois Central College",
+    "unitid": null,
+    "tier": "review",
+    "candidates": [
+      {
+        "unitid": 145682,
+        "name": "Illinois Central College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4800,
+        "size": 5052
+      },
+      {
+        "unitid": 145707,
+        "name": "Illinois Eastern Community Colleges",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 5260,
+        "size": 1634
+      },
+      {
+        "unitid": 14570701,
+        "name": "Illinois Eastern Community Colleges-Olney Central College",
+        "ownership": 1,
+        "predominantDegree": 0,
+        "inStateTuition": 5260,
+        "size": null
+      }
+    ],
+    "note": "3 plausible public CCs returned — needs human disambiguation"
   }
 ]

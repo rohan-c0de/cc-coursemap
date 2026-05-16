@@ -1,0 +1,9303 @@
+{
+  "ACC 0112": {
+    "text": "ACC 0111",
+    "courses": [
+      "ACC 0111"
+    ]
+  },
+  "ACC 120": {
+    "text": "BUS 105 (min C) or MTH 165 (min C)",
+    "courses": [
+      "BUS 105",
+      "MTH 165"
+    ]
+  },
+  "ACC 121": {
+    "text": "ACC 120",
+    "courses": [
+      "ACC 120"
+    ]
+  },
+  "ACC 122": {
+    "text": "ACC 121",
+    "courses": [
+      "ACC 121"
+    ]
+  },
+  "ACC 130": {
+    "text": "MTH 095 (min C) or MTH 095P (min C)",
+    "courses": [
+      "MTH 095",
+      "MTH 095P"
+    ]
+  },
+  "ACC 250": {
+    "text": "ACC 200",
+    "courses": [
+      "ACC 200"
+    ]
+  },
+  "ACC 290": {
+    "text": "ACC 120 or ACC 110 or ACC 111",
+    "courses": [
+      "ACC 120",
+      "ACC 110",
+      "ACC 111"
+    ]
+  },
+  "ACCOU 1160": {
+    "text": "CCOU 1110 or CCOU 2140",
+    "courses": [
+      "CCOU 1110",
+      "CCOU 2140"
+    ]
+  },
+  "ACCOU 1176": {
+    "text": "CCOU 1110 or CCOU 2140",
+    "courses": [
+      "CCOU 1110",
+      "CCOU 2140"
+    ]
+  },
+  "ACCOU 2150": {
+    "text": "CCOU 2140 or CCOU 1140",
+    "courses": [
+      "CCOU 2140",
+      "CCOU 1140"
+    ]
+  },
+  "ACCOU 2160": {
+    "text": "CCOU 1110 or CCOU 2140",
+    "courses": [
+      "CCOU 1110",
+      "CCOU 2140"
+    ]
+  },
+  "ACCOU 2205": {
+    "text": "CCOU 2140",
+    "courses": [
+      "CCOU 2140"
+    ]
+  },
+  "ACCOU 2206": {
+    "text": "CCOU 2205",
+    "courses": [
+      "CCOU 2205"
+    ]
+  },
+  "ACCOU 2241": {
+    "text": "CCOU 2140",
+    "courses": [
+      "CCOU 2140"
+    ]
+  },
+  "ACCOU 2242": {
+    "text": "CCOU 2241",
+    "courses": [
+      "CCOU 2241"
+    ]
+  },
+  "ACCOU 2251": {
+    "text": "CCOU 1150 or CCOU 2150",
+    "courses": [
+      "CCOU 1150",
+      "CCOU 2150"
+    ]
+  },
+  "ACCOU 2272": {
+    "text": "CCOU 2271",
+    "courses": [
+      "CCOU 2271"
+    ]
+  },
+  "ADC 112": {
+    "text": "ADC 101",
+    "courses": [
+      "ADC 101"
+    ]
+  },
+  "ADC 212": {
+    "text": "ADC 101 or ADC 202 and ADC 112",
+    "courses": [
+      "ADC 101",
+      "ADC 202",
+      "ADC 112"
+    ]
+  },
+  "ADC 233": {
+    "text": "ADC 237",
+    "courses": [
+      "ADC 237"
+    ]
+  },
+  "ADC 237": {
+    "text": "ADC 233",
+    "courses": [
+      "ADC 233"
+    ]
+  },
+  "ADN 0222": {
+    "text": "ADN 0223",
+    "courses": [
+      "ADN 0223"
+    ]
+  },
+  "ADN 0224": {
+    "text": "ADN 0225",
+    "courses": [
+      "ADN 0225"
+    ]
+  },
+  "ADN 0225": {
+    "text": "ADN 0224",
+    "courses": [
+      "ADN 0224"
+    ]
+  },
+  "ADN 0245": {
+    "text": "ADN 0241 and ADN 0246",
+    "courses": [
+      "ADN 0241",
+      "ADN 0246"
+    ]
+  },
+  "ADN 0246": {
+    "text": "ADN 0242 and ADN 0245",
+    "courses": [
+      "ADN 0242",
+      "ADN 0245"
+    ]
+  },
+  "ADN 150": {
+    "text": "ENG 101 (min C) and PSY 101 (min C) and BIO 102 (min C) or BIO 105 (min C) and MTH 115 (min C)",
+    "courses": [
+      "ENG 101",
+      "PSY 101",
+      "BIO 102",
+      "BIO 105",
+      "MTH 115"
+    ]
+  },
+  "ADN 152": {
+    "text": "ADN 150 (min C) and PSY 211 (min C) and BIO 185 (min C)",
+    "courses": [
+      "ADN 150",
+      "PSY 211",
+      "BIO 185"
+    ]
+  },
+  "ADN 244": {
+    "text": "BIO 220",
+    "courses": [
+      "BIO 220"
+    ]
+  },
+  "ADN 252": {
+    "text": "ADN 152 (min C) and BIO 186 (min C)",
+    "courses": [
+      "ADN 152",
+      "BIO 186"
+    ]
+  },
+  "ADN 254": {
+    "text": "BIO 186 (min C) and ADN 152 (min C) and ADN 252 (min C) and PSY 211 (min C)",
+    "courses": [
+      "BIO 186",
+      "ADN 152",
+      "ADN 252",
+      "PSY 211"
+    ]
+  },
+  "ADN 256": {
+    "text": "ADN 254 (min C) and BIO 224 (min C) and SOC 101 (min C)",
+    "courses": [
+      "ADN 254",
+      "BIO 224",
+      "SOC 101"
+    ]
+  },
+  "ADN 257": {
+    "text": "ADN 252 (min C) and ADN 254 (min C)",
+    "courses": [
+      "ADN 252",
+      "ADN 254"
+    ]
+  },
+  "ADN 258": {
+    "text": "ADN 252 (min C) and ADN 254 (min C) and SOC 101 (min C)",
+    "courses": [
+      "ADN 252",
+      "ADN 254",
+      "SOC 101"
+    ]
+  },
+  "AGR 226": {
+    "text": "AGR 107",
+    "courses": [
+      "AGR 107"
+    ]
+  },
+  "AGRI 180": {
+    "text": "CHEM 100",
+    "courses": [
+      "CHEM 100"
+    ]
+  },
+  "AHR 105": {
+    "text": "AHR 101 (min C)",
+    "courses": [
+      "AHR 101"
+    ]
+  },
+  "AHR 201": {
+    "text": "AHR 101 (min D)",
+    "courses": [
+      "AHR 101"
+    ]
+  },
+  "AHR 202": {
+    "text": "AHR 101 (min C) and AHR 105 (min C)",
+    "courses": [
+      "AHR 101",
+      "AHR 105"
+    ]
+  },
+  "AHR 208": {
+    "text": "AHR 104 (min C)",
+    "courses": [
+      "AHR 104"
+    ]
+  },
+  "AMT 110": {
+    "text": "AMT 100",
+    "courses": [
+      "AMT 100"
+    ]
+  },
+  "AMT 205": {
+    "text": "AMT 125 and AMT 131",
+    "courses": [
+      "AMT 125",
+      "AMT 131"
+    ]
+  },
+  "AMT 219": {
+    "text": "AMT 127",
+    "courses": [
+      "AMT 127"
+    ]
+  },
+  "AMT 223": {
+    "text": "AMT 116",
+    "courses": [
+      "AMT 116"
+    ]
+  },
+  "AMT 233": {
+    "text": "AMT 116",
+    "courses": [
+      "AMT 116"
+    ]
+  },
+  "ANAT 1552": {
+    "text": "ANAT 1551 or ANAT 1571",
+    "courses": [
+      "ANAT 1551",
+      "ANAT 1571"
+    ]
+  },
+  "ANAT 1572": {
+    "text": "ANAT 1551 or ANAT 1571",
+    "courses": [
+      "ANAT 1551",
+      "ANAT 1571"
+    ]
+  },
+  "ARABI 1102": {
+    "text": "RABI 1101",
+    "courses": [
+      "RABI 1101"
+    ]
+  },
+  "ARB 102": {
+    "text": "ARB 101",
+    "courses": [
+      "ARB 101"
+    ]
+  },
+  "ARB 201": {
+    "text": "ARB 102",
+    "courses": [
+      "ARB 102"
+    ]
+  },
+  "ARB 202": {
+    "text": "ARB 201",
+    "courses": [
+      "ARB 201"
+    ]
+  },
+  "ARC 172": {
+    "text": "ARC 171",
+    "courses": [
+      "ARC 171"
+    ]
+  },
+  "ARC 273": {
+    "text": "ARC 172",
+    "courses": [
+      "ARC 172"
+    ]
+  },
+  "ARCH 2201": {
+    "text": "ARCH 1131",
+    "courses": [
+      "ARCH 1131"
+    ]
+  },
+  "ARCH 2210": {
+    "text": "ARCH 1111",
+    "courses": [
+      "ARCH 1111"
+    ]
+  },
+  "ARCH 2230": {
+    "text": "ARCH 1111",
+    "courses": [
+      "ARCH 1111"
+    ]
+  },
+  "ARCH 2240": {
+    "text": "ARCH 1111",
+    "courses": [
+      "ARCH 1111"
+    ]
+  },
+  "ARCH 2250": {
+    "text": "ARCH 2201 or ARCH 2201 or ARCH 1211",
+    "courses": [
+      "ARCH 2201",
+      "ARCH 1211"
+    ]
+  },
+  "ARCH 2260": {
+    "text": "ARCH 1111",
+    "courses": [
+      "ARCH 1111"
+    ]
+  },
+  "ARCH 2270": {
+    "text": "ARCH 1130 or ARCH 1301 or ARCH 1130 or ARCH 1301",
+    "courses": [
+      "ARCH 1130",
+      "ARCH 1301"
+    ]
+  },
+  "ARCH 2413": {
+    "text": "ARCH 1130 or ARCH 1301",
+    "courses": [
+      "ARCH 1130",
+      "ARCH 1301"
+    ]
+  },
+  "ARM 150": {
+    "text": "ARM 141",
+    "courses": [
+      "ARM 141"
+    ]
+  },
+  "ARM 161": {
+    "text": "ARM 141 and ARM 150",
+    "courses": [
+      "ARM 141",
+      "ARM 150"
+    ]
+  },
+  "ARM 220": {
+    "text": "ARM 161",
+    "courses": [
+      "ARM 161"
+    ]
+  },
+  "ART 102": {
+    "text": "ART 101",
+    "courses": [
+      "ART 101"
+    ]
+  },
+  "ART 104": {
+    "text": "ART 103",
+    "courses": [
+      "ART 103"
+    ]
+  },
+  "ART 108": {
+    "text": "ART 107 (min D)",
+    "courses": [
+      "ART 107"
+    ]
+  },
+  "ART 1102": {
+    "text": "ART 1101",
+    "courses": [
+      "ART 1101"
+    ]
+  },
+  "ART 1152": {
+    "text": "ART 1101 or ART 1101",
+    "courses": [
+      "ART 1101"
+    ]
+  },
+  "ART 116": {
+    "text": "ART 115",
+    "courses": [
+      "ART 115"
+    ]
+  },
+  "ART 118": {
+    "text": "ART 117",
+    "courses": [
+      "ART 117"
+    ]
+  },
+  "ART 132": {
+    "text": "ART 105 or ART 131",
+    "courses": [
+      "ART 105",
+      "ART 131"
+    ]
+  },
+  "ART 138": {
+    "text": "ART 137 (min D)",
+    "courses": [
+      "ART 137"
+    ]
+  },
+  "ART 140": {
+    "text": "ART 117 or ART 119",
+    "courses": [
+      "ART 117",
+      "ART 119"
+    ]
+  },
+  "ART 190": {
+    "text": "GRA 100",
+    "courses": [
+      "GRA 100"
+    ]
+  },
+  "ART 201": {
+    "text": "ART 101",
+    "courses": [
+      "ART 101"
+    ]
+  },
+  "ART 202": {
+    "text": "ART 201",
+    "courses": [
+      "ART 201"
+    ]
+  },
+  "ART 205": {
+    "text": "ART 105",
+    "courses": [
+      "ART 105"
+    ]
+  },
+  "ART 209": {
+    "text": "ART 109",
+    "courses": [
+      "ART 109"
+    ]
+  },
+  "ART 212": {
+    "text": "ART 202",
+    "courses": [
+      "ART 202"
+    ]
+  },
+  "ART 213": {
+    "text": "ART 113",
+    "courses": [
+      "ART 113"
+    ]
+  },
+  "ART 215": {
+    "text": "ART 205",
+    "courses": [
+      "ART 205"
+    ]
+  },
+  "ART 219": {
+    "text": "ART 115 (min D) or ART 117 (min D)",
+    "courses": [
+      "ART 115",
+      "ART 117"
+    ]
+  },
+  "ART 2201": {
+    "text": "ART 1101",
+    "courses": [
+      "ART 1101"
+    ]
+  },
+  "ART 2202": {
+    "text": "ART 2201",
+    "courses": [
+      "ART 2201"
+    ]
+  },
+  "ART 2244": {
+    "text": "ART 1140",
+    "courses": [
+      "ART 1140"
+    ]
+  },
+  "ART 225": {
+    "text": "ART 224 (min D) or ART 216 (min D)",
+    "courses": [
+      "ART 224",
+      "ART 216"
+    ]
+  },
+  "ART 231": {
+    "text": "ART 131 (min D)",
+    "courses": [
+      "ART 131"
+    ]
+  },
+  "ART 232": {
+    "text": "ART 132 (min D)",
+    "courses": [
+      "ART 132"
+    ]
+  },
+  "ART 234": {
+    "text": "ART 134 (min D)",
+    "courses": [
+      "ART 134"
+    ]
+  },
+  "ART 238": {
+    "text": "ART 137 (min D)",
+    "courses": [
+      "ART 137"
+    ]
+  },
+  "ART 241": {
+    "text": "ART 140 and ART 230 and ART 252 and ART 260 and ART 265 and ART 270",
+    "courses": [
+      "ART 140",
+      "ART 230",
+      "ART 252",
+      "ART 260",
+      "ART 265",
+      "ART 270"
+    ]
+  },
+  "ART 242": {
+    "text": "ART 241",
+    "courses": [
+      "ART 241"
+    ]
+  },
+  "ART 243": {
+    "text": "ART 131 (min D)",
+    "courses": [
+      "ART 131"
+    ]
+  },
+  "ART 251": {
+    "text": "ART 146",
+    "courses": [
+      "ART 146"
+    ]
+  },
+  "ART 252": {
+    "text": "ART 251",
+    "courses": [
+      "ART 251"
+    ]
+  },
+  "ART 253": {
+    "text": "ART 243 (min D)",
+    "courses": [
+      "ART 243"
+    ]
+  },
+  "ART 261": {
+    "text": "ART 260",
+    "courses": [
+      "ART 260"
+    ]
+  },
+  "ART 265": {
+    "text": "ART 140 and ART 251",
+    "courses": [
+      "ART 140",
+      "ART 251"
+    ]
+  },
+  "ART 268": {
+    "text": "ART 216 (min D)",
+    "courses": [
+      "ART 216"
+    ]
+  },
+  "ART 270": {
+    "text": "ART 252",
+    "courses": [
+      "ART 252"
+    ]
+  },
+  "ART 272": {
+    "text": "ART 216 (min D) and ART 224 (min D) and ART 225 (min D)",
+    "courses": [
+      "ART 216",
+      "ART 224",
+      "ART 225"
+    ]
+  },
+  "ART 2900": {
+    "text": "ART 1101 or ART 1151 or ART 1152",
+    "courses": [
+      "ART 1101",
+      "ART 1151",
+      "ART 1152"
+    ]
+  },
+  "ARTS 111": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "ARTS 112": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "ARTS 117": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "ARTS 118": {
+    "text": "ARTS 117 and ENGL 121",
+    "courses": [
+      "ARTS 117",
+      "ENGL 121"
+    ]
+  },
+  "ARTS 119": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "ARTS 125": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "ARTS 126": {
+    "text": "ARTS 125",
+    "courses": [
+      "ARTS 125"
+    ]
+  },
+  "ARTS 151": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "ASL 102": {
+    "text": "ASL 101",
+    "courses": [
+      "ASL 101"
+    ]
+  },
+  "AST 101": {
+    "text": "MTH 095 or MTH 097",
+    "courses": [
+      "MTH 095",
+      "MTH 097"
+    ]
+  },
+  "AST 103": {
+    "text": "MTH 095",
+    "courses": [
+      "MTH 095"
+    ]
+  },
+  "ATA 110": {
+    "text": "ATA 111 (min C)",
+    "courses": [
+      "ATA 111"
+    ]
+  },
+  "ATA 111": {
+    "text": "ATA 102 (min C)",
+    "courses": [
+      "ATA 102"
+    ]
+  },
+  "ATA 113": {
+    "text": "ATA 102 (min C)",
+    "courses": [
+      "ATA 102"
+    ]
+  },
+  "ATA 114": {
+    "text": "ATA 102 (min C)",
+    "courses": [
+      "ATA 102"
+    ]
+  },
+  "ATA 117": {
+    "text": "ATA 111 (min C)",
+    "courses": [
+      "ATA 111"
+    ]
+  },
+  "ATA 204": {
+    "text": "ATA 102 (min C)",
+    "courses": [
+      "ATA 102"
+    ]
+  },
+  "ATA 205": {
+    "text": "ATA 204 (min C)",
+    "courses": [
+      "ATA 204"
+    ]
+  },
+  "ATA 206": {
+    "text": "ATA 102 (min C)",
+    "courses": [
+      "ATA 102"
+    ]
+  },
+  "ATA 207": {
+    "text": "ATA 102 (min C)",
+    "courses": [
+      "ATA 102"
+    ]
+  },
+  "ATA 208": {
+    "text": "ATA 111 (min C)",
+    "courses": [
+      "ATA 111"
+    ]
+  },
+  "ATA 210": {
+    "text": "ATA 110 (min C)",
+    "courses": [
+      "ATA 110"
+    ]
+  },
+  "ATA 211": {
+    "text": "ATA 111 (min C)",
+    "courses": [
+      "ATA 111"
+    ]
+  },
+  "ATA 217": {
+    "text": "ATA 117 (min C)",
+    "courses": [
+      "ATA 117"
+    ]
+  },
+  "ATM 202": {
+    "text": "ATM 120",
+    "courses": [
+      "ATM 120"
+    ]
+  },
+  "ATM 206": {
+    "text": "ATM 120",
+    "courses": [
+      "ATM 120"
+    ]
+  },
+  "AUT 114": {
+    "text": "AUT 112",
+    "courses": [
+      "AUT 112"
+    ]
+  },
+  "AUT 232": {
+    "text": "AUT 125",
+    "courses": [
+      "AUT 125"
+    ]
+  },
+  "AUT 233": {
+    "text": "AUT 237",
+    "courses": [
+      "AUT 237"
+    ]
+  },
+  "AUT 237": {
+    "text": "AUT 233",
+    "courses": [
+      "AUT 233"
+    ]
+  },
+  "AUT 246": {
+    "text": "AUT 112",
+    "courses": [
+      "AUT 112"
+    ]
+  },
+  "AUTO 1232": {
+    "text": "AUTO 1131",
+    "courses": [
+      "AUTO 1131"
+    ]
+  },
+  "AUTO 1240": {
+    "text": "AUTO 1131",
+    "courses": [
+      "AUTO 1131"
+    ]
+  },
+  "AUTO 1250": {
+    "text": "AUTO 1131",
+    "courses": [
+      "AUTO 1131"
+    ]
+  },
+  "AUTO 2120": {
+    "text": "AUTO 1120",
+    "courses": [
+      "AUTO 1120"
+    ]
+  },
+  "AUTO 2162": {
+    "text": "AUTO 1131 or AUTO 1232 or AUTO 1261",
+    "courses": [
+      "AUTO 1131",
+      "AUTO 1232",
+      "AUTO 1261"
+    ]
+  },
+  "AUTO 2364": {
+    "text": "AUTO 1232 or AUTO 1261",
+    "courses": [
+      "AUTO 1232",
+      "AUTO 1261"
+    ]
+  },
+  "AVD 250": {
+    "text": "AVD 150",
+    "courses": [
+      "AVD 150"
+    ]
+  },
+  "BAR 112": {
+    "text": "BAR 102 (min C)",
+    "courses": [
+      "BAR 102"
+    ]
+  },
+  "BAR 113": {
+    "text": "BAR 103 (min C)",
+    "courses": [
+      "BAR 103"
+    ]
+  },
+  "BAR 114": {
+    "text": "BAR 102 (min C)",
+    "courses": [
+      "BAR 102"
+    ]
+  },
+  "BAR 202": {
+    "text": "BAR 112 (min C)",
+    "courses": [
+      "BAR 112"
+    ]
+  },
+  "BAR 203": {
+    "text": "BAR 113 (min C)",
+    "courses": [
+      "BAR 113"
+    ]
+  },
+  "BAR 210": {
+    "text": "BAR 114 (min C)",
+    "courses": [
+      "BAR 114"
+    ]
+  },
+  "BAR 212": {
+    "text": "BAR 202 (min C)",
+    "courses": [
+      "BAR 202"
+    ]
+  },
+  "BAR 213": {
+    "text": "BAR 203 (min C)",
+    "courses": [
+      "BAR 203"
+    ]
+  },
+  "BAR 220": {
+    "text": "BAR 210 (min C)",
+    "courses": [
+      "BAR 210"
+    ]
+  },
+  "BAR 223": {
+    "text": "BAR 213 (min C)",
+    "courses": [
+      "BAR 213"
+    ]
+  },
+  "BAR 225": {
+    "text": "BAR 212 (min C)",
+    "courses": [
+      "BAR 212"
+    ]
+  },
+  "BAR 250": {
+    "text": "BAR 220 (min C)",
+    "courses": [
+      "BAR 220"
+    ]
+  },
+  "BARB 204": {
+    "text": "BARB 202",
+    "courses": [
+      "BARB 202"
+    ]
+  },
+  "BARB 205": {
+    "text": "BARB 204",
+    "courses": [
+      "BARB 204"
+    ]
+  },
+  "BDM 114": {
+    "text": "BDM 102",
+    "courses": [
+      "BDM 102"
+    ]
+  },
+  "BEL 0164": {
+    "text": "BEL 0161",
+    "courses": [
+      "BEL 0161"
+    ]
+  },
+  "BIO 0221": {
+    "text": "BIO 0115",
+    "courses": [
+      "BIO 0115"
+    ]
+  },
+  "BIO 0222": {
+    "text": "BIO 0221",
+    "courses": [
+      "BIO 0221"
+    ]
+  },
+  "BIO 101": {
+    "text": "RDG 082 (min C)",
+    "courses": [
+      "RDG 082"
+    ]
+  },
+  "BIO 102": {
+    "text": "MTH 095 (min C) or MTH 097 (min C) and RDG 082 (min C)",
+    "courses": [
+      "MTH 095",
+      "MTH 097",
+      "RDG 082"
+    ]
+  },
+  "BIO 103": {
+    "text": "RDG 082 (min C)",
+    "courses": [
+      "RDG 082"
+    ]
+  },
+  "BIO 105": {
+    "text": "MTH 095 (min C) and RDG 082 (min C)",
+    "courses": [
+      "MTH 095",
+      "RDG 082"
+    ]
+  },
+  "BIO 106": {
+    "text": "BIO 105 (min C)",
+    "courses": [
+      "BIO 105"
+    ]
+  },
+  "BIO 110": {
+    "text": "BIO 109",
+    "courses": [
+      "BIO 109"
+    ]
+  },
+  "BIO 111": {
+    "text": "ENG 089 or ENG 089 or ENG 109 or ENG 099 or ENG 103 and MAT 066 or MAT 068 or MAT 096",
+    "courses": [
+      "ENG 089",
+      "ENG 109",
+      "ENG 099",
+      "ENG 103",
+      "MAT 066",
+      "MAT 068",
+      "MAT 096"
+    ]
+  },
+  "BIO 115": {
+    "text": "RDG 082 or BIO 101 or BIO 102",
+    "courses": [
+      "RDG 082",
+      "BIO 101",
+      "BIO 102"
+    ]
+  },
+  "BIO 122": {
+    "text": "BIO 121 (min D)",
+    "courses": [
+      "BIO 121"
+    ]
+  },
+  "BIO 152": {
+    "text": "RDG 082",
+    "courses": [
+      "RDG 082"
+    ]
+  },
+  "BIO 181": {
+    "text": "BIO 180",
+    "courses": [
+      "BIO 180"
+    ]
+  },
+  "BIO 185": {
+    "text": "RDG 082 (min C) and BIO 102 or BIO 105",
+    "courses": [
+      "RDG 082",
+      "BIO 102",
+      "BIO 105"
+    ]
+  },
+  "BIO 186": {
+    "text": "BIO 185 (min C)",
+    "courses": [
+      "BIO 185"
+    ]
+  },
+  "BIO 201": {
+    "text": "CHE 210",
+    "courses": [
+      "CHE 210"
+    ]
+  },
+  "BIO 203": {
+    "text": "BIO 102 or BIO 110 or CHM 100 or CHM 105",
+    "courses": [
+      "BIO 102",
+      "BIO 110",
+      "CHM 100",
+      "CHM 105"
+    ]
+  },
+  "BIO 204": {
+    "text": "BIO 203 or BIO 102 or BIO 110 or CHM 100 or CHM 105",
+    "courses": [
+      "BIO 203",
+      "BIO 102",
+      "BIO 110",
+      "CHM 100",
+      "CHM 105"
+    ]
+  },
+  "BIO 213": {
+    "text": "BIO 103 or BIO 105 or BIO 111 or BIO 201",
+    "courses": [
+      "BIO 103",
+      "BIO 105",
+      "BIO 111",
+      "BIO 201"
+    ]
+  },
+  "BIO 224": {
+    "text": "BIO 102 (min C) or BIO 105 (min C) or BIO 185 (min C)",
+    "courses": [
+      "BIO 102",
+      "BIO 105",
+      "BIO 185"
+    ]
+  },
+  "BIO 232": {
+    "text": "BIO 231 (min C) or BIO 131 (min C)",
+    "courses": [
+      "BIO 231",
+      "BIO 131"
+    ]
+  },
+  "BIO 242": {
+    "text": "BIO 132 (min C) or BIO 232 (min C) or BIO 234 (min C)",
+    "courses": [
+      "BIO 132",
+      "BIO 232",
+      "BIO 234"
+    ]
+  },
+  "BIO 258": {
+    "text": "BIO 103 or BIO 105 or BIO 111 or BIO 201",
+    "courses": [
+      "BIO 103",
+      "BIO 105",
+      "BIO 111",
+      "BIO 201"
+    ]
+  },
+  "BIOL 006": {
+    "text": "ENGL 101 and BIOL 106",
+    "courses": [
+      "ENGL 101",
+      "BIOL 106"
+    ]
+  },
+  "BIOL 100L": {
+    "text": "BIOL 100",
+    "courses": [
+      "BIOL 100"
+    ]
+  },
+  "BIOL 102": {
+    "text": "MATH 107 and ENGL 101",
+    "courses": [
+      "MATH 107",
+      "ENGL 101"
+    ]
+  },
+  "BIOL 105": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "BIOL 106": {
+    "text": "ENGL 101 and BIOL 006",
+    "courses": [
+      "ENGL 101",
+      "BIOL 006"
+    ]
+  },
+  "BIOL 136": {
+    "text": "MATH 107 and ENGL 101 and BIOL 136L",
+    "courses": [
+      "MATH 107",
+      "ENGL 101",
+      "BIOL 136L"
+    ]
+  },
+  "BIOL 136L": {
+    "text": "BIOL 136",
+    "courses": [
+      "BIOL 136"
+    ]
+  },
+  "BIOL 137": {
+    "text": "BIOL 136 and BIOL 137L",
+    "courses": [
+      "BIOL 136",
+      "BIOL 137L"
+    ]
+  },
+  "BIOL 137L": {
+    "text": "BIOL 137",
+    "courses": [
+      "BIOL 137"
+    ]
+  },
+  "BIOL 140L": {
+    "text": "BIOL 140 and BIOL 140 and BIOL 140",
+    "courses": [
+      "BIOL 140"
+    ]
+  },
+  "BIOL 150": {
+    "text": "MATH 107 and ENGL 101",
+    "courses": [
+      "MATH 107",
+      "ENGL 101"
+    ]
+  },
+  "BIOLO 1120": {
+    "text": "MATH 0481",
+    "courses": [
+      "MATH 0481"
+    ]
+  },
+  "BIOLO 1152": {
+    "text": "IOLO 1151",
+    "courses": [
+      "IOLO 1151"
+    ]
+  },
+  "BLD 206": {
+    "text": "MTH 093",
+    "courses": [
+      "MTH 093"
+    ]
+  },
+  "BLD 221": {
+    "text": "BLD 210 or BLD 220",
+    "courses": [
+      "BLD 210",
+      "BLD 220"
+    ]
+  },
+  "BNA 105": {
+    "text": "BNA 100 (min D)",
+    "courses": [
+      "BNA 100"
+    ]
+  },
+  "BNA 150": {
+    "text": "RDG 088 or RDG 089 or IEL 021",
+    "courses": [
+      "RDG 088",
+      "RDG 089",
+      "IEL 021"
+    ]
+  },
+  "BOFF 125": {
+    "text": "ENGL 121 or ENGL 101",
+    "courses": [
+      "ENGL 121",
+      "ENGL 101"
+    ]
+  },
+  "BOFF 230": {
+    "text": "BOFF 225",
+    "courses": [
+      "BOFF 225"
+    ]
+  },
+  "BOFF 244": {
+    "text": "BOFF 237",
+    "courses": [
+      "BOFF 237"
+    ]
+  },
+  "BUS 102": {
+    "text": "BUS 101",
+    "courses": [
+      "BUS 101"
+    ]
+  },
+  "BUS 105": {
+    "text": "MTH 095 (min C) or MTH 097 (min C)",
+    "courses": [
+      "MTH 095",
+      "MTH 097"
+    ]
+  },
+  "BUS 106": {
+    "text": "BUS 101",
+    "courses": [
+      "BUS 101"
+    ]
+  },
+  "BUS 107": {
+    "text": "BUS 111",
+    "courses": [
+      "BUS 111"
+    ]
+  },
+  "BUS 130": {
+    "text": "BUS 101",
+    "courses": [
+      "BUS 101"
+    ]
+  },
+  "BUS 141": {
+    "text": "ENG 099",
+    "courses": [
+      "ENG 099"
+    ]
+  },
+  "BUS 143": {
+    "text": "BUS 142",
+    "courses": [
+      "BUS 142"
+    ]
+  },
+  "BUS 148": {
+    "text": "BUS 142",
+    "courses": [
+      "BUS 142"
+    ]
+  },
+  "BUS 172": {
+    "text": "ENG 098",
+    "courses": [
+      "ENG 098"
+    ]
+  },
+  "BUS 201": {
+    "text": "BUS 101",
+    "courses": [
+      "BUS 101"
+    ]
+  },
+  "BUS 202": {
+    "text": "BUS 101",
+    "courses": [
+      "BUS 101"
+    ]
+  },
+  "BUS 204": {
+    "text": "BUS 108 and BUS 203",
+    "courses": [
+      "BUS 108",
+      "BUS 203"
+    ]
+  },
+  "BUS 205": {
+    "text": "BUS 102",
+    "courses": [
+      "BUS 102"
+    ]
+  },
+  "BUS 208": {
+    "text": "BUS 111",
+    "courses": [
+      "BUS 111"
+    ]
+  },
+  "BUS 220": {
+    "text": "BUS 108",
+    "courses": [
+      "BUS 108"
+    ]
+  },
+  "BUS 230": {
+    "text": "BUS 111",
+    "courses": [
+      "BUS 111"
+    ]
+  },
+  "BUS 253": {
+    "text": "BUS 220",
+    "courses": [
+      "BUS 220"
+    ]
+  },
+  "BUS 285": {
+    "text": "BUS 108",
+    "courses": [
+      "BUS 108"
+    ]
+  },
+  "BUSIN 2210": {
+    "text": "CCOU 2140",
+    "courses": [
+      "CCOU 2140"
+    ]
+  },
+  "CAB 165": {
+    "text": "CAB 160",
+    "courses": [
+      "CAB 160"
+    ]
+  },
+  "CAB 172": {
+    "text": "CAB 160",
+    "courses": [
+      "CAB 160"
+    ]
+  },
+  "CAB 175": {
+    "text": "CAB 160",
+    "courses": [
+      "CAB 160"
+    ]
+  },
+  "CAB 235": {
+    "text": "CAB 135 (min D)",
+    "courses": [
+      "CAB 135"
+    ]
+  },
+  "CACC 105": {
+    "text": "CACC 101",
+    "courses": [
+      "CACC 101"
+    ]
+  },
+  "CACC 108": {
+    "text": "CACC 105",
+    "courses": [
+      "CACC 105"
+    ]
+  },
+  "CAD 100": {
+    "text": "CAD 101 and CAD 102",
+    "courses": [
+      "CAD 101",
+      "CAD 102"
+    ]
+  },
+  "CAD 101": {
+    "text": "CAD 100 and CAD 102",
+    "courses": [
+      "CAD 100",
+      "CAD 102"
+    ]
+  },
+  "CAD 102": {
+    "text": "CAD 100 and CAD 101",
+    "courses": [
+      "CAD 100",
+      "CAD 101"
+    ]
+  },
+  "CAD 141": {
+    "text": "CAD 100 or CAD 101 or CAD 102",
+    "courses": [
+      "CAD 100",
+      "CAD 101",
+      "CAD 102"
+    ]
+  },
+  "CDLA 160": {
+    "text": "TRUC 101 and TRUC 102 and TRUC 103 and TRUC 104 and TRUC 105 and TRUC 107 and HAZM 101",
+    "courses": [
+      "TRUC 101",
+      "TRUC 102",
+      "TRUC 103",
+      "TRUC 104",
+      "TRUC 105",
+      "TRUC 107",
+      "HAZM 101"
+    ]
+  },
+  "CDLB 160": {
+    "text": "TRUC 111 and TRUC 112 and TRUC 113 and TRUC 114",
+    "courses": [
+      "TRUC 111",
+      "TRUC 112",
+      "TRUC 113",
+      "TRUC 114"
+    ]
+  },
+  "CDS 101": {
+    "text": "BIO 114 (min C) and CDS 100 (min C)",
+    "courses": [
+      "BIO 114",
+      "CDS 100"
+    ]
+  },
+  "CDS 103": {
+    "text": "BIO 114 (min C) and CDS 100 (min C)",
+    "courses": [
+      "BIO 114",
+      "CDS 100"
+    ]
+  },
+  "CDS 104": {
+    "text": "MAT 140 (min C) and PHY 101 (min C)",
+    "courses": [
+      "MAT 140",
+      "PHY 101"
+    ]
+  },
+  "CDS 107": {
+    "text": "BIO 114 (min C) and CDS 100 (min C)",
+    "courses": [
+      "BIO 114",
+      "CDS 100"
+    ]
+  },
+  "CDS 201": {
+    "text": "CDS 105 (min C)",
+    "courses": [
+      "CDS 105"
+    ]
+  },
+  "CDS 202": {
+    "text": "CDS 108 (min C)",
+    "courses": [
+      "CDS 108"
+    ]
+  },
+  "CDS 204": {
+    "text": "CDS 106 (min C)",
+    "courses": [
+      "CDS 106"
+    ]
+  },
+  "CDS 206": {
+    "text": "CDS 201 (min C)",
+    "courses": [
+      "CDS 201"
+    ]
+  },
+  "CDS 208": {
+    "text": "CDS 106 (min C) and CDS 108 (min C) and CDS 201 (min C)",
+    "courses": [
+      "CDS 106",
+      "CDS 108",
+      "CDS 201"
+    ]
+  },
+  "CECE 810": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 810A": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 813": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 813A": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 814": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 814A": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 815": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 815A": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 816": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 817": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 820": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 821": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 821A": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 823": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 823A": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 825": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 830": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 845": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 846": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 855": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 890A": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 894": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 894A": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECE 899": {
+    "text": "LCCC 880",
+    "courses": [
+      "LCCC 880"
+    ]
+  },
+  "CECN 102": {
+    "text": "DEVM 100",
+    "courses": [
+      "DEVM 100"
+    ]
+  },
+  "CECN 103": {
+    "text": "CECN 102",
+    "courses": [
+      "CECN 102"
+    ]
+  },
+  "CGI 125": {
+    "text": "CGI 102",
+    "courses": [
+      "CGI 102"
+    ]
+  },
+  "CHD 210": {
+    "text": "CHD 105 (min C)",
+    "courses": [
+      "CHD 105"
+    ]
+  },
+  "CHD 211": {
+    "text": "CHD 100 (min C) and CHD 104 (min C) and CHD 105 (min C) and CHD 108 (min C) and CHD 207 (min C) and CHD 208 (min C) and CHD 210 (min C)",
+    "courses": [
+      "CHD 100",
+      "CHD 104",
+      "CHD 105",
+      "CHD 108",
+      "CHD 207",
+      "CHD 208",
+      "CHD 210"
+    ]
+  },
+  "CHD 212": {
+    "text": "CHD 100 (min C) and CHD 104 (min C) and CHD 105 (min C) and CHD 108 (min C) and CHD 207 (min C) and CHD 208 (min C) and CHD 210 (min C)",
+    "courses": [
+      "CHD 100",
+      "CHD 104",
+      "CHD 105",
+      "CHD 108",
+      "CHD 207",
+      "CHD 208",
+      "CHD 210"
+    ]
+  },
+  "CHDV 139": {
+    "text": "ENGL 131 or ENGL 137",
+    "courses": [
+      "ENGL 131",
+      "ENGL 137"
+    ]
+  },
+  "CHDV 234": {
+    "text": "CHDV 232",
+    "courses": [
+      "CHDV 232"
+    ]
+  },
+  "CHDV 236": {
+    "text": "CHDV 234",
+    "courses": [
+      "CHDV 234"
+    ]
+  },
+  "CHE 110": {
+    "text": "MAT 086 or MAT 098",
+    "courses": [
+      "MAT 086",
+      "MAT 098"
+    ]
+  },
+  "CHE 111": {
+    "text": "CHE 110",
+    "courses": [
+      "CHE 110"
+    ]
+  },
+  "CHE 210": {
+    "text": "CHE 110 or CHE 111 or CHE 110 or CHE 111 and MAT 150",
+    "courses": [
+      "CHE 110",
+      "CHE 111",
+      "MAT 150"
+    ]
+  },
+  "CHE 270": {
+    "text": "CHE 211",
+    "courses": [
+      "CHE 211"
+    ]
+  },
+  "CHEM 100": {
+    "text": "MATH 107 and CHEM 100L and CHEM 100L and CHEM 100L",
+    "courses": [
+      "MATH 107",
+      "CHEM 100L"
+    ]
+  },
+  "CHEM 101": {
+    "text": "CHEM 100 or MATH 109 or MATH 111 and CHEM 101L and CHEM 101L and CHEM 101L",
+    "courses": [
+      "CHEM 100",
+      "MATH 109",
+      "MATH 111",
+      "CHEM 101L"
+    ]
+  },
+  "CHEM 101L": {
+    "text": "CHEM 101 and CHEM 101 and CHEM 101 and CHEM 101",
+    "courses": [
+      "CHEM 101"
+    ]
+  },
+  "CHEM 102": {
+    "text": "CHEM 101",
+    "courses": [
+      "CHEM 101"
+    ]
+  },
+  "CHEM 121": {
+    "text": "CHEM 141",
+    "courses": [
+      "CHEM 141"
+    ]
+  },
+  "CHEM 133": {
+    "text": "CHEM 102",
+    "courses": [
+      "CHEM 102"
+    ]
+  },
+  "CHEM 206": {
+    "text": "CHEM 203",
+    "courses": [
+      "CHEM 203"
+    ]
+  },
+  "CHEMI 1552": {
+    "text": "HEMI 1551",
+    "courses": [
+      "HEMI 1551"
+    ]
+  },
+  "CHEMI 2203": {
+    "text": "HEMI 1212 or HEMI 2551",
+    "courses": [
+      "HEMI 1212",
+      "HEMI 2551"
+    ]
+  },
+  "CHEMI 2213": {
+    "text": "HEMI 1212 or HEMI 2551",
+    "courses": [
+      "HEMI 1212",
+      "HEMI 2551"
+    ]
+  },
+  "CHEMI 2551": {
+    "text": "HEMI 1552",
+    "courses": [
+      "HEMI 1552"
+    ]
+  },
+  "CHEMI 2552": {
+    "text": "HEMI 2551",
+    "courses": [
+      "HEMI 2551"
+    ]
+  },
+  "CHI 201": {
+    "text": "CHI 102 (min D)",
+    "courses": [
+      "CHI 102"
+    ]
+  },
+  "CHM 101": {
+    "text": "MTH 095 (min C) or MTH 097 (min C)",
+    "courses": [
+      "MTH 095",
+      "MTH 097"
+    ]
+  },
+  "CHM 111": {
+    "text": "MTH 095 (min C) or MTH 097 (min C)",
+    "courses": [
+      "MTH 095",
+      "MTH 097"
+    ]
+  },
+  "CHM 113": {
+    "text": "MTH 100 (min C) and CHM 111",
+    "courses": [
+      "MTH 100",
+      "CHM 111"
+    ]
+  },
+  "CHM 114": {
+    "text": "CHM 113 (min C)",
+    "courses": [
+      "CHM 113"
+    ]
+  },
+  "CHM 131": {
+    "text": "CHM 111",
+    "courses": [
+      "CHM 111"
+    ]
+  },
+  "CHM 132": {
+    "text": "CHM 131",
+    "courses": [
+      "CHM 131"
+    ]
+  },
+  "CHM 200": {
+    "text": "CHM 111 or CHM 131",
+    "courses": [
+      "CHM 111",
+      "CHM 131"
+    ]
+  },
+  "CHM 203": {
+    "text": "CHM 132",
+    "courses": [
+      "CHM 132"
+    ]
+  },
+  "CHM 204": {
+    "text": "CHM 203",
+    "courses": [
+      "CHM 203"
+    ]
+  },
+  "CHM 205": {
+    "text": "CHM 111 or CHM 113",
+    "courses": [
+      "CHM 111",
+      "CHM 113"
+    ]
+  },
+  "CHM 223": {
+    "text": "CHM 122 (min C)",
+    "courses": [
+      "CHM 122"
+    ]
+  },
+  "CHM 226": {
+    "text": "CHM 221 (min C) or CHM 223 (min C) or CHM 225 (min C)",
+    "courses": [
+      "CHM 221",
+      "CHM 223",
+      "CHM 225"
+    ]
+  },
+  "CHM 228": {
+    "text": "CHM 226 (min C)",
+    "courses": [
+      "CHM 226"
+    ]
+  },
+  "CHM 229": {
+    "text": "CHM 122 (min C) and CHM 207 (min C) or CHM 221 (min C) or CHM 223 (min C) or CHM 225 (min C)",
+    "courses": [
+      "CHM 122",
+      "CHM 207",
+      "CHM 221",
+      "CHM 223",
+      "CHM 225"
+    ]
+  },
+  "CIS 1140": {
+    "text": "CIS 1110 or CIS 1120 or CIS 1150 or CIT 1100",
+    "courses": [
+      "CIS 1110",
+      "CIS 1120",
+      "CIS 1150",
+      "CIT 1100"
+    ]
+  },
+  "CIS 1180": {
+    "text": "CIS 1150 or CIS 1160",
+    "courses": [
+      "CIS 1150",
+      "CIS 1160"
+    ]
+  },
+  "CIS 1201": {
+    "text": "CIS 1200",
+    "courses": [
+      "CIS 1200"
+    ]
+  },
+  "CIS 121": {
+    "text": "CPS 111",
+    "courses": [
+      "CPS 111"
+    ]
+  },
+  "CIS 132": {
+    "text": "MIS 101",
+    "courses": [
+      "MIS 101"
+    ]
+  },
+  "CIS 133": {
+    "text": "CIS 132",
+    "courses": [
+      "CIS 132"
+    ]
+  },
+  "CIS 1400": {
+    "text": "MATH 0482 or MATH 1115",
+    "courses": [
+      "MATH 0482",
+      "MATH 1115"
+    ]
+  },
+  "CIS 1410": {
+    "text": "CIS 1400",
+    "courses": [
+      "CIS 1400"
+    ]
+  },
+  "CIS 1450": {
+    "text": "CIS 1150 or CIS 1160 or CIT 1122",
+    "courses": [
+      "CIS 1150",
+      "CIS 1160",
+      "CIT 1122"
+    ]
+  },
+  "CIS 150": {
+    "text": "MAT 086 or MAT 098",
+    "courses": [
+      "MAT 086",
+      "MAT 098"
+    ]
+  },
+  "CIS 154": {
+    "text": "CIS 105 or CSC 140",
+    "courses": [
+      "CIS 105",
+      "CSC 140"
+    ]
+  },
+  "CIS 1610": {
+    "text": "CIS 1180",
+    "courses": [
+      "CIS 1180"
+    ]
+  },
+  "CIS 165": {
+    "text": "CIS 105",
+    "courses": [
+      "CIS 105"
+    ]
+  },
+  "CIS 176": {
+    "text": "CIS 105 or CSC 140",
+    "courses": [
+      "CIS 105",
+      "CSC 140"
+    ]
+  },
+  "CIS 179": {
+    "text": "CIS 177",
+    "courses": [
+      "CIS 177"
+    ]
+  },
+  "CIS 212": {
+    "text": "CIS 210",
+    "courses": [
+      "CIS 210"
+    ]
+  },
+  "CIS 219": {
+    "text": "CIS 119 (min C)",
+    "courses": [
+      "CIS 119"
+    ]
+  },
+  "CIS 220": {
+    "text": "CPS 111",
+    "courses": [
+      "CPS 111"
+    ]
+  },
+  "CIS 2211": {
+    "text": "CIS 1211",
+    "courses": [
+      "CIS 1211"
+    ]
+  },
+  "CIS 226": {
+    "text": "CIS 220",
+    "courses": [
+      "CIS 220"
+    ]
+  },
+  "CIS 227": {
+    "text": "CIS 210 and CIS 277 and CIS 220",
+    "courses": [
+      "CIS 210",
+      "CIS 277",
+      "CIS 220"
+    ]
+  },
+  "CIS 228": {
+    "text": "CIS 218 (min D) or CNS 218 (min D)",
+    "courses": [
+      "CIS 218",
+      "CNS 218"
+    ]
+  },
+  "CIS 229": {
+    "text": "CSC 157 (min C) and CIS 212 (min C)",
+    "courses": [
+      "CSC 157",
+      "CIS 212"
+    ]
+  },
+  "CIS 2321": {
+    "text": "CIS 2320",
+    "courses": [
+      "CIS 2320"
+    ]
+  },
+  "CIS 2330": {
+    "text": "CIS 1310",
+    "courses": [
+      "CIS 1310"
+    ]
+  },
+  "CIS 240": {
+    "text": "CIS 238",
+    "courses": [
+      "CIS 238"
+    ]
+  },
+  "CIS 250": {
+    "text": "CSC 157 (min C) and CIS 212 (min C)",
+    "courses": [
+      "CSC 157",
+      "CIS 212"
+    ]
+  },
+  "CIS 2531": {
+    "text": "CIS 1400",
+    "courses": [
+      "CIS 1400"
+    ]
+  },
+  "CIS 2532": {
+    "text": "CIS 2531",
+    "courses": [
+      "CIS 2531"
+    ]
+  },
+  "CIS 2541": {
+    "text": "CIS 1400",
+    "courses": [
+      "CIS 1400"
+    ]
+  },
+  "CIS 2542": {
+    "text": "CIS 2541",
+    "courses": [
+      "CIS 2541"
+    ]
+  },
+  "CIS 255": {
+    "text": "CIS 121",
+    "courses": [
+      "CIS 121"
+    ]
+  },
+  "CIS 2571": {
+    "text": "CIS 1400",
+    "courses": [
+      "CIS 1400"
+    ]
+  },
+  "CIS 2572": {
+    "text": "CIS 2571",
+    "courses": [
+      "CIS 2571"
+    ]
+  },
+  "CIS 270": {
+    "text": "CIS 171 (min D)",
+    "courses": [
+      "CIS 171"
+    ]
+  },
+  "CIS 277": {
+    "text": "CIS 101",
+    "courses": [
+      "CIS 101"
+    ]
+  },
+  "CIS 278": {
+    "text": "CIS 121",
+    "courses": [
+      "CIS 121"
+    ]
+  },
+  "CIS 285": {
+    "text": "CIS 140 and CIS 170",
+    "courses": [
+      "CIS 140",
+      "CIS 170"
+    ]
+  },
+  "CIS 295": {
+    "text": "CIS 255",
+    "courses": [
+      "CIS 255"
+    ]
+  },
+  "CIT 1114": {
+    "text": "CIT 1111 or CIT 1112",
+    "courses": [
+      "CIT 1111",
+      "CIT 1112"
+    ]
+  },
+  "CIT 1122": {
+    "text": "CIT 1121",
+    "courses": [
+      "CIT 1121"
+    ]
+  },
+  "CIT 1123": {
+    "text": "CIT 1122",
+    "courses": [
+      "CIT 1122"
+    ]
+  },
+  "CIT 1450": {
+    "text": "CIS 1150 or CIS 1160 or CIT 1122",
+    "courses": [
+      "CIS 1150",
+      "CIS 1160",
+      "CIT 1122"
+    ]
+  },
+  "CIT 1640": {
+    "text": "CIT 1122 or CIT 1116",
+    "courses": [
+      "CIT 1122",
+      "CIT 1116"
+    ]
+  },
+  "CIT 2150": {
+    "text": "CIT 1122",
+    "courses": [
+      "CIT 1122"
+    ]
+  },
+  "CIT 2173": {
+    "text": "CIT 1122",
+    "courses": [
+      "CIT 1122"
+    ]
+  },
+  "CIT 2241": {
+    "text": "CIT 1123",
+    "courses": [
+      "CIT 1123"
+    ]
+  },
+  "CIT 2251": {
+    "text": "CIT 1122",
+    "courses": [
+      "CIT 1122"
+    ]
+  },
+  "CIT 2410": {
+    "text": "CIT 1122",
+    "courses": [
+      "CIT 1122"
+    ]
+  },
+  "CIT 2455": {
+    "text": "CIS 1450 or CIT 1450",
+    "courses": [
+      "CIS 1450",
+      "CIT 1450"
+    ]
+  },
+  "CIT 2640": {
+    "text": "CIT 1640",
+    "courses": [
+      "CIT 1640"
+    ]
+  },
+  "CJA 201": {
+    "text": "CJA 111 or SOC 100",
+    "courses": [
+      "CJA 111",
+      "SOC 100"
+    ]
+  },
+  "CJA 236": {
+    "text": "CJA 219",
+    "courses": [
+      "CJA 219"
+    ]
+  },
+  "CJS 205": {
+    "text": "SOC 101",
+    "courses": [
+      "SOC 101"
+    ]
+  },
+  "CMT 201": {
+    "text": "AET 121 or AET 123 or AET 121",
+    "courses": [
+      "AET 121",
+      "AET 123"
+    ]
+  },
+  "CNB 103": {
+    "text": "CNB 101 (min C)",
+    "courses": [
+      "CNB 101"
+    ]
+  },
+  "CNB 104": {
+    "text": "CNB 101 (min C)",
+    "courses": [
+      "CNB 101"
+    ]
+  },
+  "CNB 105": {
+    "text": "CNB 101 (min C)",
+    "courses": [
+      "CNB 101"
+    ]
+  },
+  "CNB 106": {
+    "text": "CNB 101 (min C)",
+    "courses": [
+      "CNB 101"
+    ]
+  },
+  "CNB 107": {
+    "text": "CNB 101 (min C) and CNB 106 (min C)",
+    "courses": [
+      "CNB 101",
+      "CNB 106"
+    ]
+  },
+  "CNS 142": {
+    "text": "CNS 141 (min C)",
+    "courses": [
+      "CNS 141"
+    ]
+  },
+  "CNS 143": {
+    "text": "CNS 142 (min C) or Cisco Network Academy 112 (min C)",
+    "courses": [
+      "CNS 142",
+      "Cisco Network Academy 112"
+    ]
+  },
+  "CNS 170": {
+    "text": "CNS 105",
+    "courses": [
+      "CNS 105"
+    ]
+  },
+  "CNS 173": {
+    "text": "CNS 105 (min C)",
+    "courses": [
+      "CNS 105"
+    ]
+  },
+  "CNS 174": {
+    "text": "CNS 105",
+    "courses": [
+      "CNS 105"
+    ]
+  },
+  "CNS 221": {
+    "text": "CNS 108",
+    "courses": [
+      "CNS 108"
+    ]
+  },
+  "CNS 228": {
+    "text": "CIS 218 (min D) or CNS 218 (min D)",
+    "courses": [
+      "CIS 218",
+      "CNS 218"
+    ]
+  },
+  "COM 0218": {
+    "text": "COM 0189",
+    "courses": [
+      "COM 0189"
+    ]
+  },
+  "COM 0225": {
+    "text": "COM 0111",
+    "courses": [
+      "COM 0111"
+    ]
+  },
+  "COM 0227": {
+    "text": "COM 0111",
+    "courses": [
+      "COM 0111"
+    ]
+  },
+  "COM 098": {
+    "text": "COM 088 and RDG 088 and COM 101",
+    "courses": [
+      "COM 088",
+      "RDG 088",
+      "COM 101"
+    ]
+  },
+  "COM 100": {
+    "text": "ENG 089 or ENG 109 or ENG 099 or ENG 103",
+    "courses": [
+      "ENG 089",
+      "ENG 109",
+      "ENG 099",
+      "ENG 103"
+    ]
+  },
+  "COM 101": {
+    "text": "COM 088 or IEL 022 and RDG 089 or IEL 021",
+    "courses": [
+      "COM 088",
+      "IEL 022",
+      "RDG 089",
+      "IEL 021"
+    ]
+  },
+  "COM 102": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "COM 201": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "COM 206": {
+    "text": "COM 202 (min C)",
+    "courses": [
+      "COM 202"
+    ]
+  },
+  "CONS 153": {
+    "text": "CONS 151",
+    "courses": [
+      "CONS 151"
+    ]
+  },
+  "CONS 155": {
+    "text": "CONS 153",
+    "courses": [
+      "CONS 153"
+    ]
+  },
+  "COS 0152": {
+    "text": "COS 0150 and COS 0151",
+    "courses": [
+      "COS 0150",
+      "COS 0151"
+    ]
+  },
+  "COS 0153": {
+    "text": "COS 0152",
+    "courses": [
+      "COS 0152"
+    ]
+  },
+  "COS 0154": {
+    "text": "COS 0153",
+    "courses": [
+      "COS 0153"
+    ]
+  },
+  "COS 0155": {
+    "text": "COS 0154",
+    "courses": [
+      "COS 0154"
+    ]
+  },
+  "COS 0156": {
+    "text": "COS 0155",
+    "courses": [
+      "COS 0155"
+    ]
+  },
+  "COS 0157": {
+    "text": "COS 0156",
+    "courses": [
+      "COS 0156"
+    ]
+  },
+  "COS 0159": {
+    "text": "COS 0157",
+    "courses": [
+      "COS 0157"
+    ]
+  },
+  "COS 0160": {
+    "text": "COS 0159",
+    "courses": [
+      "COS 0159"
+    ]
+  },
+  "COS 110": {
+    "text": "COS 111 and COS 121",
+    "courses": [
+      "COS 111",
+      "COS 121"
+    ]
+  },
+  "COS 111": {
+    "text": "COS 110 and COS 111 and COS 121",
+    "courses": [
+      "COS 110",
+      "COS 111",
+      "COS 121"
+    ]
+  },
+  "COS 112": {
+    "text": "COS 110 and COS 112 and COS 113 and COS 121",
+    "courses": [
+      "COS 110",
+      "COS 112",
+      "COS 113",
+      "COS 121"
+    ]
+  },
+  "COS 113": {
+    "text": "COS 110 and COS 113 and COS 112 and COS 121",
+    "courses": [
+      "COS 110",
+      "COS 113",
+      "COS 112",
+      "COS 121"
+    ]
+  },
+  "COS 114": {
+    "text": "COS 112 (min C) and COS 114 and COS 116 and COS 121",
+    "courses": [
+      "COS 112",
+      "COS 114",
+      "COS 116",
+      "COS 121"
+    ]
+  },
+  "COS 115": {
+    "text": "COS 114 and COS 115 and COS 117 and COS 122",
+    "courses": [
+      "COS 114",
+      "COS 115",
+      "COS 117",
+      "COS 122"
+    ]
+  },
+  "COS 116": {
+    "text": "COS 112 and COS 114 and COS 116 and COS 122",
+    "courses": [
+      "COS 112",
+      "COS 114",
+      "COS 116",
+      "COS 122"
+    ]
+  },
+  "COS 117": {
+    "text": "COS 113 and COS 115 and COS 117 and COS 122",
+    "courses": [
+      "COS 113",
+      "COS 115",
+      "COS 117",
+      "COS 122"
+    ]
+  },
+  "COS 121": {
+    "text": "COS 110 and COS 111 and COS 112 and COS 113 and COS 121",
+    "courses": [
+      "COS 110",
+      "COS 111",
+      "COS 112",
+      "COS 113",
+      "COS 121"
+    ]
+  },
+  "COS 122": {
+    "text": "COS 114 and COS 115 and COS 116 and COS 117 and COS 122",
+    "courses": [
+      "COS 114",
+      "COS 115",
+      "COS 116",
+      "COS 117",
+      "COS 122"
+    ]
+  },
+  "COS 221": {
+    "text": "COS 122",
+    "courses": [
+      "COS 122"
+    ]
+  },
+  "CPS 200": {
+    "text": "MAT 201",
+    "courses": [
+      "MAT 201"
+    ]
+  },
+  "CRIM 103": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "CRIM 208": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "CRIMJ 1151": {
+    "text": "RIMJ 1100 or RIMJ 1152",
+    "courses": [
+      "RIMJ 1100",
+      "RIMJ 1152"
+    ]
+  },
+  "CRMC 100": {
+    "text": "BIOL 136 or BOFF 140 or HITT 115 or HITT 101",
+    "courses": [
+      "BIOL 136",
+      "BOFF 140",
+      "HITT 115",
+      "HITT 101"
+    ]
+  },
+  "CRMC 110": {
+    "text": "BIOL 136 or BOFF 140 or HITT 115 or HITT 101",
+    "courses": [
+      "BIOL 136",
+      "BOFF 140",
+      "HITT 115",
+      "HITT 101"
+    ]
+  },
+  "CRMC 120": {
+    "text": "BIOL 136 or BOFF 140 or HITT 115 or HITT 101",
+    "courses": [
+      "BIOL 136",
+      "BOFF 140",
+      "HITT 115",
+      "HITT 101"
+    ]
+  },
+  "CRMC 160": {
+    "text": "CRMC 100 or CRMC 110 or CRMC 120 or CRMC 130 or CRMC 140 or CRMC 150",
+    "courses": [
+      "CRMC 100",
+      "CRMC 110",
+      "CRMC 120",
+      "CRMC 130",
+      "CRMC 140",
+      "CRMC 150"
+    ]
+  },
+  "CSC 140": {
+    "text": "MTH 098",
+    "courses": [
+      "MTH 098"
+    ]
+  },
+  "CSC 171": {
+    "text": "CSC 170",
+    "courses": [
+      "CSC 170"
+    ]
+  },
+  "CSC 173": {
+    "text": "CSC 170",
+    "courses": [
+      "CSC 170"
+    ]
+  },
+  "CSC 174": {
+    "text": "CSC 170",
+    "courses": [
+      "CSC 170"
+    ]
+  },
+  "CSC 180": {
+    "text": "CSC 155 (min C) or CSC 156 (min C) or CSC 157 (min C) or CSC 170 (min C)",
+    "courses": [
+      "CSC 155",
+      "CSC 156",
+      "CSC 157",
+      "CSC 170"
+    ]
+  },
+  "CSC 204": {
+    "text": "CSC 155 (min C) or CSC 156 (min C) or CSC 157 (min C) or CSC 170 (min C)",
+    "courses": [
+      "CSC 155",
+      "CSC 156",
+      "CSC 157",
+      "CSC 170"
+    ]
+  },
+  "CSC 206": {
+    "text": "CSC 155 (min C) or CSC 156 (min C) or CSC 157 (min C) or CSC 170 (min C)",
+    "courses": [
+      "CSC 155",
+      "CSC 156",
+      "CSC 157",
+      "CSC 170"
+    ]
+  },
+  "CSC 208": {
+    "text": "CSC 155 (min C) or CSC 156 (min C) or CSC 157 (min C) or CSC 170 (min C)",
+    "courses": [
+      "CSC 155",
+      "CSC 156",
+      "CSC 157",
+      "CSC 170"
+    ]
+  },
+  "CSC 210": {
+    "text": "CSC 240 (min C) or CSC 241 (min C) or CSC 242 (min C)",
+    "courses": [
+      "CSC 240",
+      "CSC 241",
+      "CSC 242"
+    ]
+  },
+  "CSC 240": {
+    "text": "CSC 155 (min C) or CSC 170 (min C) and CSC 171 (min C)",
+    "courses": [
+      "CSC 155",
+      "CSC 170",
+      "CSC 171"
+    ]
+  },
+  "CSC 241": {
+    "text": "CSC 156 (min C) or CSC 170 (min C) and CSC 173 (min C)",
+    "courses": [
+      "CSC 156",
+      "CSC 170",
+      "CSC 173"
+    ]
+  },
+  "CSC 242": {
+    "text": "CSC 157 (min C) or CSC 170 (min C) and CSC 174 (min C)",
+    "courses": [
+      "CSC 157",
+      "CSC 170",
+      "CSC 174"
+    ]
+  },
+  "CSC 255": {
+    "text": "CSC 240 (min C) or CSC 241 (min C) or CSC 242 (min C)",
+    "courses": [
+      "CSC 240",
+      "CSC 241",
+      "CSC 242"
+    ]
+  },
+  "CSCI 106": {
+    "text": "CSCI 105 or CSCI 100 or CSCI 101",
+    "courses": [
+      "CSCI 105",
+      "CSCI 100",
+      "CSCI 101"
+    ]
+  },
+  "CSCI 131": {
+    "text": "CSCI 100 or CSCI 101 or CSCI 103 or CSCI 130",
+    "courses": [
+      "CSCI 100",
+      "CSCI 101",
+      "CSCI 103",
+      "CSCI 130"
+    ]
+  },
+  "CSCI 206": {
+    "text": "CSCI 201",
+    "courses": [
+      "CSCI 201"
+    ]
+  },
+  "CSCI 250": {
+    "text": "CSCI 201 and MATH 115",
+    "courses": [
+      "CSCI 201",
+      "MATH 115"
+    ]
+  },
+  "CSCI 251": {
+    "text": "CSCI 150",
+    "courses": [
+      "CSCI 150"
+    ]
+  },
+  "CULIN 1101": {
+    "text": "ULIN 1120 or ULIN 1120",
+    "courses": [
+      "ULIN 1120"
+    ]
+  },
+  "CULIN 1102": {
+    "text": "ULIN 1101",
+    "courses": [
+      "ULIN 1101"
+    ]
+  },
+  "CULIN 1170": {
+    "text": "ULIN 1120",
+    "courses": [
+      "ULIN 1120"
+    ]
+  },
+  "CULIN 1172": {
+    "text": "ULIN 1171",
+    "courses": [
+      "ULIN 1171"
+    ]
+  },
+  "CULIN 1186": {
+    "text": "ULIN 1101 or ULIN 1120",
+    "courses": [
+      "ULIN 1101",
+      "ULIN 1120"
+    ]
+  },
+  "CULIN 2000": {
+    "text": "ULIN 1101 or ULIN 1120",
+    "courses": [
+      "ULIN 1101",
+      "ULIN 1120"
+    ]
+  },
+  "CULIN 2153": {
+    "text": "ULIN 1101",
+    "courses": [
+      "ULIN 1101"
+    ]
+  },
+  "CULIN 2154": {
+    "text": "ULIN 2153",
+    "courses": [
+      "ULIN 2153"
+    ]
+  },
+  "CULIN 2176": {
+    "text": "ULIN 1172",
+    "courses": [
+      "ULIN 1172"
+    ]
+  },
+  "CULIN 2177": {
+    "text": "ULIN 2176",
+    "courses": [
+      "ULIN 2176"
+    ]
+  },
+  "CULIN 2180": {
+    "text": "ULIN 1174",
+    "courses": [
+      "ULIN 1174"
+    ]
+  },
+  "CULIN 2205": {
+    "text": "ULIN 1102",
+    "courses": [
+      "ULIN 1102"
+    ]
+  },
+  "CULIN 2210": {
+    "text": "ULIN 1102 or ULIN 2153",
+    "courses": [
+      "ULIN 1102",
+      "ULIN 2153"
+    ]
+  },
+  "CVS 213": {
+    "text": "CVS 214",
+    "courses": [
+      "CVS 214"
+    ]
+  },
+  "CVS 214": {
+    "text": "CVS 213",
+    "courses": [
+      "CVS 213"
+    ]
+  },
+  "DANCE 1102": {
+    "text": "ANCE 1101",
+    "courses": [
+      "ANCE 1101"
+    ]
+  },
+  "DANCE 1105": {
+    "text": "ANCE 1104",
+    "courses": [
+      "ANCE 1104"
+    ]
+  },
+  "DANCE 1108": {
+    "text": "ANCE 1107",
+    "courses": [
+      "ANCE 1107"
+    ]
+  },
+  "DASC 131": {
+    "text": "TM 002 or TM 001",
+    "courses": [
+      "TM 002",
+      "TM 001"
+    ]
+  },
+  "DEHYG 2201": {
+    "text": "EHYG 1102",
+    "courses": [
+      "EHYG 1102"
+    ]
+  },
+  "DEHYG 2212": {
+    "text": "EHYG 2211",
+    "courses": [
+      "EHYG 2211"
+    ]
+  },
+  "DEHYG 2213": {
+    "text": "EHYG 1112",
+    "courses": [
+      "EHYG 1112"
+    ]
+  },
+  "DEHYG 2223": {
+    "text": "EHYG 2222",
+    "courses": [
+      "EHYG 2222"
+    ]
+  },
+  "DEHYG 2232": {
+    "text": "EHYG 2225",
+    "courses": [
+      "EHYG 2225"
+    ]
+  },
+  "DEHYG 2235": {
+    "text": "EHYG 1115 or EHYG 1125 or EHYG 1135 or EHYG 1136 or EHYG 2211 or EHYG 2221",
+    "courses": [
+      "EHYG 1115",
+      "EHYG 1125",
+      "EHYG 1135",
+      "EHYG 1136",
+      "EHYG 2211",
+      "EHYG 2221"
+    ]
+  },
+  "DISN 200": {
+    "text": "DISN 100",
+    "courses": [
+      "DISN 100"
+    ]
+  },
+  "DMIN 2200": {
+    "text": "DMIN 1100 or DMIN 1103",
+    "courses": [
+      "DMIN 1100",
+      "DMIN 1103"
+    ]
+  },
+  "DMIN 2502": {
+    "text": "DMIN 2500 or DMIN 2501",
+    "courses": [
+      "DMIN 2500",
+      "DMIN 2501"
+    ]
+  },
+  "DMIN 2503": {
+    "text": "DMIN 2500 or DMIN 2501",
+    "courses": [
+      "DMIN 2500",
+      "DMIN 2501"
+    ]
+  },
+  "DMIN 2512": {
+    "text": "DMIN 2511",
+    "courses": [
+      "DMIN 2511"
+    ]
+  },
+  "DMIR 1112": {
+    "text": "DMIR 1111 or DMIR 1131",
+    "courses": [
+      "DMIR 1111",
+      "DMIR 1131"
+    ]
+  },
+  "DMIR 1121": {
+    "text": "DMIR 1111 or DMIR 1131",
+    "courses": [
+      "DMIR 1111",
+      "DMIR 1131"
+    ]
+  },
+  "DMIR 1132": {
+    "text": "DMIR 1111 or DMIR 1131",
+    "courses": [
+      "DMIR 1111",
+      "DMIR 1131"
+    ]
+  },
+  "DMIR 2201": {
+    "text": "DMIR 1145 or DMIR 2211",
+    "courses": [
+      "DMIR 1145",
+      "DMIR 2211"
+    ]
+  },
+  "DMIR 2212": {
+    "text": "DMIR 1145 or DMIR 2211",
+    "courses": [
+      "DMIR 1145",
+      "DMIR 2211"
+    ]
+  },
+  "DMIR 2225": {
+    "text": "DMIR 1145 or DMIR 2211",
+    "courses": [
+      "DMIR 1145",
+      "DMIR 2211"
+    ]
+  },
+  "DMIS 1105": {
+    "text": "ANAT 1552 or ANAT 1572",
+    "courses": [
+      "ANAT 1552",
+      "ANAT 1572"
+    ]
+  },
+  "DMIS 1110": {
+    "text": "LTHS 1110 or LTHS 1110 or ANAT 1552 or ANAT 1552 or ANAT 1572 or ANAT 1572",
+    "courses": [
+      "LTHS 1110",
+      "ANAT 1552",
+      "ANAT 1572"
+    ]
+  },
+  "DMIS 1114": {
+    "text": "DMIS 1113",
+    "courses": [
+      "DMIS 1113"
+    ]
+  },
+  "DMIS 1140": {
+    "text": "DMIS 1102",
+    "courses": [
+      "DMIS 1102"
+    ]
+  },
+  "DMIS 1142": {
+    "text": "DMIS 1131 or DMIS 1132 or DMIS 1141 and DMIS 1122 and DMIS 1132",
+    "courses": [
+      "DMIS 1131",
+      "DMIS 1132",
+      "DMIS 1141",
+      "DMIS 1122"
+    ]
+  },
+  "DMIS 1152": {
+    "text": "DMIS 1151",
+    "courses": [
+      "DMIS 1151"
+    ]
+  },
+  "DMIS 1160": {
+    "text": "DMIS 1121 or DMIS 1131",
+    "courses": [
+      "DMIS 1121",
+      "DMIS 1131"
+    ]
+  },
+  "DMS 135": {
+    "text": "DMS 136 (min C) and DMS 200 (min C)",
+    "courses": [
+      "DMS 136",
+      "DMS 200"
+    ]
+  },
+  "DPT 279": {
+    "text": "DPT 177 and DPT 154 and DPT 176",
+    "courses": [
+      "DPT 177",
+      "DPT 154",
+      "DPT 176"
+    ]
+  },
+  "DRAF 166": {
+    "text": "DRAF 160 or DRAF 161",
+    "courses": [
+      "DRAF 160",
+      "DRAF 161"
+    ]
+  },
+  "DRAF 266": {
+    "text": "DRAF 166",
+    "courses": [
+      "DRAF 166"
+    ]
+  },
+  "EARTH 1111": {
+    "text": "MATH 0465 or MATH 0481",
+    "courses": [
+      "MATH 0465",
+      "MATH 0481"
+    ]
+  },
+  "EARTH 1117": {
+    "text": "ARTH 1116",
+    "courses": [
+      "ARTH 1116"
+    ]
+  },
+  "ECE 107": {
+    "text": "ECE 102 (min C) or ECE 104 (min C)",
+    "courses": [
+      "ECE 102",
+      "ECE 104"
+    ]
+  },
+  "ECE 142": {
+    "text": "ECE 110 and ECE 111",
+    "courses": [
+      "ECE 110",
+      "ECE 111"
+    ]
+  },
+  "ECE 160": {
+    "text": "ECE 110",
+    "courses": [
+      "ECE 110"
+    ]
+  },
+  "ECE 180": {
+    "text": "ECE 102 (min C)",
+    "courses": [
+      "ECE 102"
+    ]
+  },
+  "ECE 202": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "ECE 205": {
+    "text": "ECE 101",
+    "courses": [
+      "ECE 101"
+    ]
+  },
+  "ECE 215": {
+    "text": "ECE 102 (min C)",
+    "courses": [
+      "ECE 102"
+    ]
+  },
+  "ECE 216": {
+    "text": "ECE 215 (min C)",
+    "courses": [
+      "ECE 215"
+    ]
+  },
+  "ECE 226": {
+    "text": "ECE 255 (min C)",
+    "courses": [
+      "ECE 255"
+    ]
+  },
+  "ECE 228": {
+    "text": "ECE 102 (min C)",
+    "courses": [
+      "ECE 102"
+    ]
+  },
+  "ECE 230": {
+    "text": "ECE 255 (min C)",
+    "courses": [
+      "ECE 255"
+    ]
+  },
+  "ECE 250": {
+    "text": "ECE 110 and ECE 111",
+    "courses": [
+      "ECE 110",
+      "ECE 111"
+    ]
+  },
+  "ECE 255": {
+    "text": "ECE 102 (min C) and ECE 104 (min C)",
+    "courses": [
+      "ECE 102",
+      "ECE 104"
+    ]
+  },
+  "ECE 257": {
+    "text": "ECE 107 (min C) and ECE 226 (min C) or ECE 227 (min C)",
+    "courses": [
+      "ECE 107",
+      "ECE 226",
+      "ECE 227"
+    ]
+  },
+  "ECE 260": {
+    "text": "ECE 120 or ECE 160 or ENG 101",
+    "courses": [
+      "ECE 120",
+      "ECE 160",
+      "ENG 101"
+    ]
+  },
+  "ECE 270": {
+    "text": "ECE 102 (min C) and ECE 104 (min C)",
+    "courses": [
+      "ECE 102",
+      "ECE 104"
+    ]
+  },
+  "ECE 274": {
+    "text": "ECE 273 (min C) and ECE 280 (min C) and ECE 281 (min C) and ECE 282 (min C) and ECE 283 (min C) and ECE 284 (min C) and ECE 285 (min C)",
+    "courses": [
+      "ECE 273",
+      "ECE 280",
+      "ECE 281",
+      "ECE 282",
+      "ECE 283",
+      "ECE 284",
+      "ECE 285"
+    ]
+  },
+  "ECE 280": {
+    "text": "ECE 110 or ECE 221 or ECE 223 or ECE 225",
+    "courses": [
+      "ECE 110",
+      "ECE 221",
+      "ECE 223",
+      "ECE 225"
+    ]
+  },
+  "ECE 281": {
+    "text": "ECE 273 (min D)",
+    "courses": [
+      "ECE 273"
+    ]
+  },
+  "ECE 284": {
+    "text": "ECE 273 (min D)",
+    "courses": [
+      "ECE 273"
+    ]
+  },
+  "ECE 285": {
+    "text": "ECE 273 (min D)",
+    "courses": [
+      "ECE 273"
+    ]
+  },
+  "ECED 218": {
+    "text": "ENG 099",
+    "courses": [
+      "ENG 099"
+    ]
+  },
+  "ECED 251": {
+    "text": "ED 101 or ECED 104",
+    "courses": [
+      "ED 101",
+      "ECED 104"
+    ]
+  },
+  "ECG 126": {
+    "text": "ECG 200 (min C) and ECG 204 (min C) and ECG 210",
+    "courses": [
+      "ECG 200",
+      "ECG 204",
+      "ECG 210"
+    ]
+  },
+  "ECG 127": {
+    "text": "ECG 126 (min C) and ECG 205 (min C)",
+    "courses": [
+      "ECG 126",
+      "ECG 205"
+    ]
+  },
+  "ECG 200": {
+    "text": "ECG 100 (min C) and ECG 101 and ECG 104 (min C)",
+    "courses": [
+      "ECG 100",
+      "ECG 101",
+      "ECG 104"
+    ]
+  },
+  "ECG 204": {
+    "text": "ECG 100 and ECG 101 (min C) and ECG 104 (min C)",
+    "courses": [
+      "ECG 100",
+      "ECG 101",
+      "ECG 104"
+    ]
+  },
+  "ECG 205": {
+    "text": "ECG 200 (min C) and ECG 204 (min C) and ECG 210",
+    "courses": [
+      "ECG 200",
+      "ECG 204",
+      "ECG 210"
+    ]
+  },
+  "ECG 208": {
+    "text": "ECG 126 (min C) and ECG 205 (min C)",
+    "courses": [
+      "ECG 126",
+      "ECG 205"
+    ]
+  },
+  "ECG 226": {
+    "text": "ECG 127 (min C) and ECG 208 (min C) and MAS 115 (min C)",
+    "courses": [
+      "ECG 127",
+      "ECG 208",
+      "MAS 115"
+    ]
+  },
+  "ECG 230": {
+    "text": "ECG 127 (min C) and ECG 208 (min C) and MAS 115 (min C)",
+    "courses": [
+      "ECG 127",
+      "ECG 208",
+      "MAS 115"
+    ]
+  },
+  "ECHO 104": {
+    "text": "ECHO 103",
+    "courses": [
+      "ECHO 103"
+    ]
+  },
+  "ECHO 105": {
+    "text": "ECHO 103",
+    "courses": [
+      "ECHO 103"
+    ]
+  },
+  "ECO 102": {
+    "text": "ECO 101",
+    "courses": [
+      "ECO 101"
+    ]
+  },
+  "ED 212": {
+    "text": "ENG 099",
+    "courses": [
+      "ENG 099"
+    ]
+  },
+  "EDU 205": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "EDUC 101": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "EDUC 103": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "EDUC 160": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "EDUC 170": {
+    "text": "EDUC 230",
+    "courses": [
+      "EDUC 230"
+    ]
+  },
+  "EDUC 201": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "EDUC 207": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "EDUC 230": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "EDUC 236": {
+    "text": "ENGL 131",
+    "courses": [
+      "ENGL 131"
+    ]
+  },
+  "EDUC 260": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "EDUC 270": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "EDUCA 1150": {
+    "text": "DUCA 1100",
+    "courses": [
+      "DUCA 1100"
+    ]
+  },
+  "EGL 072": {
+    "text": "EGL 071 (min P)",
+    "courses": [
+      "EGL 071"
+    ]
+  },
+  "EGL 073": {
+    "text": "EGL 072 (min P)",
+    "courses": [
+      "EGL 072"
+    ]
+  },
+  "EGL 075": {
+    "text": "EGL 074 (min P)",
+    "courses": [
+      "EGL 074"
+    ]
+  },
+  "EGL 089": {
+    "text": "EGL 073 (min P)",
+    "courses": [
+      "EGL 073"
+    ]
+  },
+  "EGL 101": {
+    "text": "EGL 100 and EGL 100",
+    "courses": [
+      "EGL 100"
+    ]
+  },
+  "EGL 102": {
+    "text": "EGL 101 (min C)",
+    "courses": [
+      "EGL 101"
+    ]
+  },
+  "EGL 110": {
+    "text": "EGL 094 (min P) or EGL 098 (min P) or EGL 089 (min P) or EGL 101 (min C)",
+    "courses": [
+      "EGL 094",
+      "EGL 098",
+      "EGL 089",
+      "EGL 101"
+    ]
+  },
+  "EGL 111": {
+    "text": "EGL 101 (min D)",
+    "courses": [
+      "EGL 101"
+    ]
+  },
+  "EGL 201": {
+    "text": "EGL 101 (min D)",
+    "courses": [
+      "EGL 101"
+    ]
+  },
+  "EGL 234": {
+    "text": "EGL 101 (min D)",
+    "courses": [
+      "EGL 101"
+    ]
+  },
+  "EGR 110": {
+    "text": "CAD 100 and CAD 101",
+    "courses": [
+      "CAD 100",
+      "CAD 101"
+    ]
+  },
+  "EGR 207": {
+    "text": "MAT 235",
+    "courses": [
+      "MAT 235"
+    ]
+  },
+  "EGR 250": {
+    "text": "EGR 270 and MAT 231",
+    "courses": [
+      "EGR 270",
+      "MAT 231"
+    ]
+  },
+  "EGR 270": {
+    "text": "PHY 263",
+    "courses": [
+      "PHY 263"
+    ]
+  },
+  "ELC 101": {
+    "text": "MTH 100",
+    "courses": [
+      "MTH 100"
+    ]
+  },
+  "ELC 102": {
+    "text": "MTH 093",
+    "courses": [
+      "MTH 093"
+    ]
+  },
+  "ELEC 141": {
+    "text": "ELEC 102 or ELEC 130",
+    "courses": [
+      "ELEC 102",
+      "ELEC 130"
+    ]
+  },
+  "ELEC 274": {
+    "text": "ELEC 175 or ELEC 273",
+    "courses": [
+      "ELEC 175",
+      "ELEC 273"
+    ]
+  },
+  "ELEC 275": {
+    "text": "ELEC 269",
+    "courses": [
+      "ELEC 269"
+    ]
+  },
+  "ELECT 1101": {
+    "text": "LECT 1100",
+    "courses": [
+      "LECT 1100"
+    ]
+  },
+  "ELECT 1151": {
+    "text": "LECT 1100",
+    "courses": [
+      "LECT 1100"
+    ]
+  },
+  "ELECT 2273": {
+    "text": "LECT 1141",
+    "courses": [
+      "LECT 1141"
+    ]
+  },
+  "ELMEC 1140": {
+    "text": "LMEC 1130 or LMEC 1150",
+    "courses": [
+      "LMEC 1130",
+      "LMEC 1150"
+    ]
+  },
+  "ELMEC 2410": {
+    "text": "LMEC 1190",
+    "courses": [
+      "LMEC 1190"
+    ]
+  },
+  "ELMEC 2510": {
+    "text": "LECT 1100",
+    "courses": [
+      "LECT 1100"
+    ]
+  },
+  "ELMEC 2600": {
+    "text": "LECT 1100 or LECT 1100",
+    "courses": [
+      "LECT 1100"
+    ]
+  },
+  "ELS 0662": {
+    "text": "ELS 0661",
+    "courses": [
+      "ELS 0661"
+    ]
+  },
+  "ELS 0882": {
+    "text": "ELS 0881",
+    "courses": [
+      "ELS 0881"
+    ]
+  },
+  "ELT 201": {
+    "text": "ELT 101",
+    "courses": [
+      "ELT 101"
+    ]
+  },
+  "ELT 202": {
+    "text": "ELT 201",
+    "courses": [
+      "ELT 201"
+    ]
+  },
+  "ELT 211": {
+    "text": "ELT 101",
+    "courses": [
+      "ELT 101"
+    ]
+  },
+  "EMS 101": {
+    "text": "RDG 088 or RDG 089",
+    "courses": [
+      "RDG 088",
+      "RDG 089"
+    ]
+  },
+  "EMS 104": {
+    "text": "EMS 102 and EMS 103",
+    "courses": [
+      "EMS 102",
+      "EMS 103"
+    ]
+  },
+  "EMS 210": {
+    "text": "EMS 220",
+    "courses": [
+      "EMS 220"
+    ]
+  },
+  "EMS 212": {
+    "text": "EMS 211 or EMS 221 and EMS 222",
+    "courses": [
+      "EMS 211",
+      "EMS 221",
+      "EMS 222"
+    ]
+  },
+  "EMS 220": {
+    "text": "EMS 210",
+    "courses": [
+      "EMS 210"
+    ]
+  },
+  "EMS 221": {
+    "text": "EMS 220",
+    "courses": [
+      "EMS 220"
+    ]
+  },
+  "EMS 222": {
+    "text": "EMS 211 or EMS 221 and EMS 212",
+    "courses": [
+      "EMS 211",
+      "EMS 221",
+      "EMS 212"
+    ]
+  },
+  "EMS 224": {
+    "text": "EMS 223",
+    "courses": [
+      "EMS 223"
+    ]
+  },
+  "EMT 215": {
+    "text": "RDG 082 and ENG 098 or ENG 099",
+    "courses": [
+      "RDG 082",
+      "ENG 098",
+      "ENG 099"
+    ]
+  },
+  "ENG 0090": {
+    "text": "ENG 0111",
+    "courses": [
+      "ENG 0111"
+    ]
+  },
+  "ENG 0112": {
+    "text": "ENG 0111",
+    "courses": [
+      "ENG 0111"
+    ]
+  },
+  "ENG 093": {
+    "text": "ENG 103",
+    "courses": [
+      "ENG 103"
+    ]
+  },
+  "ENG 095": {
+    "text": "ENG 151",
+    "courses": [
+      "ENG 151"
+    ]
+  },
+  "ENG 099": {
+    "text": "ENG 103",
+    "courses": [
+      "ENG 103"
+    ]
+  },
+  "ENG 101": {
+    "text": "ENG 088",
+    "courses": [
+      "ENG 088"
+    ]
+  },
+  "ENG 102": {
+    "text": "ENG 101",
+    "courses": [
+      "ENG 101"
+    ]
+  },
+  "ENG 103": {
+    "text": "ENG 089",
+    "courses": [
+      "ENG 089"
+    ]
+  },
+  "ENG 104": {
+    "text": "ENG 103",
+    "courses": [
+      "ENG 103"
+    ]
+  },
+  "ENG 108": {
+    "text": "ENG 101 (min C)",
+    "courses": [
+      "ENG 101"
+    ]
+  },
+  "ENG 111": {
+    "text": "ENG 101 (min C)",
+    "courses": [
+      "ENG 101"
+    ]
+  },
+  "ENG 123": {
+    "text": "ENG 101 (min C)",
+    "courses": [
+      "ENG 101"
+    ]
+  },
+  "ENG 199": {
+    "text": "ENG 103",
+    "courses": [
+      "ENG 103"
+    ]
+  },
+  "ENG 208": {
+    "text": "ENG 101 (min C)",
+    "courses": [
+      "ENG 101"
+    ]
+  },
+  "ENG 211": {
+    "text": "MAT 250 (min D)",
+    "courses": [
+      "MAT 250"
+    ]
+  },
+  "ENG 212": {
+    "text": "ENG 211 (min D) and MAT 251 (min D)",
+    "courses": [
+      "ENG 211",
+      "MAT 251"
+    ]
+  },
+  "ENG 216": {
+    "text": "ENG 103",
+    "courses": [
+      "ENG 103"
+    ]
+  },
+  "ENG 217": {
+    "text": "ENG 103",
+    "courses": [
+      "ENG 103"
+    ]
+  },
+  "ENG 220": {
+    "text": "MAT 252 (min D) and PHY 222 (min D)",
+    "courses": [
+      "MAT 252",
+      "PHY 222"
+    ]
+  },
+  "ENG 250": {
+    "text": "ENG 151",
+    "courses": [
+      "ENG 151"
+    ]
+  },
+  "ENG 299": {
+    "text": "ENG 103",
+    "courses": [
+      "ENG 103"
+    ]
+  },
+  "ENGIN 2201": {
+    "text": "MATH 2231 or HYSI 2111 and HYSI 2111",
+    "courses": [
+      "MATH 2231",
+      "HYSI 2111"
+    ]
+  },
+  "ENGIN 2202": {
+    "text": "NGIN 2201 or HYSI 2111",
+    "courses": [
+      "NGIN 2201",
+      "HYSI 2111"
+    ]
+  },
+  "ENGIN 2203": {
+    "text": "NGIN 2201",
+    "courses": [
+      "NGIN 2201"
+    ]
+  },
+  "ENGIN 2205": {
+    "text": "MATH 2233",
+    "courses": [
+      "MATH 2233"
+    ]
+  },
+  "ENGL 031": {
+    "text": "ENGL 131 and ENGL 131",
+    "courses": [
+      "ENGL 131"
+    ]
+  },
+  "ENGL 102": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "ENGL 105": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "ENGL 106": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "ENGLI 0493": {
+    "text": "NGLI 1101",
+    "courses": [
+      "NGLI 1101"
+    ]
+  },
+  "ENGLI 1102": {
+    "text": "NGLI 1101",
+    "courses": [
+      "NGLI 1101"
+    ]
+  },
+  "ENGLI 2237": {
+    "text": "NGLI 1135 or NGLI 1145 or NGLI 1154",
+    "courses": [
+      "NGLI 1135",
+      "NGLI 1145",
+      "NGLI 1154"
+    ]
+  },
+  "FASHI 1202": {
+    "text": "ASHI 1201",
+    "courses": [
+      "ASHI 1201"
+    ]
+  },
+  "FASHI 1301": {
+    "text": "ASHI 1201",
+    "courses": [
+      "ASHI 1201"
+    ]
+  },
+  "FASHI 1821": {
+    "text": "ASHI 1301",
+    "courses": [
+      "ASHI 1301"
+    ]
+  },
+  "FASHI 2300": {
+    "text": "ASHI 1301",
+    "courses": [
+      "ASHI 1301"
+    ]
+  },
+  "FASHI 2301": {
+    "text": "ASHI 1301",
+    "courses": [
+      "ASHI 1301"
+    ]
+  },
+  "FASHI 2445": {
+    "text": "ASHI 1531 or ASHI 1210",
+    "courses": [
+      "ASHI 1531",
+      "ASHI 1210"
+    ]
+  },
+  "FIR 122": {
+    "text": "FIR 121 (min D)",
+    "courses": [
+      "FIR 121"
+    ]
+  },
+  "FIR 221": {
+    "text": "FIR 220 (min D)",
+    "courses": [
+      "FIR 220"
+    ]
+  },
+  "FIR 222": {
+    "text": "FIR 221 (min D)",
+    "courses": [
+      "FIR 221"
+    ]
+  },
+  "FIR 223": {
+    "text": "FIR 222",
+    "courses": [
+      "FIR 222"
+    ]
+  },
+  "FIR 224": {
+    "text": "FIR 223",
+    "courses": [
+      "FIR 223"
+    ]
+  },
+  "FIRE 1102": {
+    "text": "FIRE 1101",
+    "courses": [
+      "FIRE 1101"
+    ]
+  },
+  "FIRE 1103": {
+    "text": "FIRE 1102",
+    "courses": [
+      "FIRE 1102"
+    ]
+  },
+  "FIRE 2213": {
+    "text": "FIRE 1100",
+    "courses": [
+      "FIRE 1100"
+    ]
+  },
+  "FIRE 2215": {
+    "text": "FIRE 1100 or FIRE 1103",
+    "courses": [
+      "FIRE 1100",
+      "FIRE 1103"
+    ]
+  },
+  "FIRE 2218": {
+    "text": "FIRE 1100",
+    "courses": [
+      "FIRE 1100"
+    ]
+  },
+  "FIRE 2221": {
+    "text": "FIRE 1100",
+    "courses": [
+      "FIRE 1100"
+    ]
+  },
+  "FIRE 2250": {
+    "text": "FIRE 2255 or FIRE 2257 or FIRE 2258",
+    "courses": [
+      "FIRE 2255",
+      "FIRE 2257",
+      "FIRE 2258"
+    ]
+  },
+  "FIRE 2285": {
+    "text": "FIRE 2271",
+    "courses": [
+      "FIRE 2271"
+    ]
+  },
+  "FIRE 2286": {
+    "text": "FIRE 2271",
+    "courses": [
+      "FIRE 2271"
+    ]
+  },
+  "FIRE 2287": {
+    "text": "FIRE 2271",
+    "courses": [
+      "FIRE 2271"
+    ]
+  },
+  "FIS 220": {
+    "text": "FIS 221 and FIS 215",
+    "courses": [
+      "FIS 221",
+      "FIS 215"
+    ]
+  },
+  "FIS 221": {
+    "text": "FIS 220 and FIS 215",
+    "courses": [
+      "FIS 220",
+      "FIS 215"
+    ]
+  },
+  "FIS 232": {
+    "text": "FIS 231",
+    "courses": [
+      "FIS 231"
+    ]
+  },
+  "FME 240": {
+    "text": "AHR 101 (min D) or FME 101 (min D)",
+    "courses": [
+      "AHR 101",
+      "FME 101"
+    ]
+  },
+  "FRE 102": {
+    "text": "FRE 101 (min D)",
+    "courses": [
+      "FRE 101"
+    ]
+  },
+  "FST 129": {
+    "text": "FST 119",
+    "courses": [
+      "FST 119"
+    ]
+  },
+  "FST 222": {
+    "text": "FST 129",
+    "courses": [
+      "FST 129"
+    ]
+  },
+  "GEOG 134": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "GEOGR 1154": {
+    "text": "EOGR 1153",
+    "courses": [
+      "EOGR 1153"
+    ]
+  },
+  "GER 201": {
+    "text": "GER 102 (min D)",
+    "courses": [
+      "GER 102"
+    ]
+  },
+  "GRA 100": {
+    "text": "ART 190",
+    "courses": [
+      "ART 190"
+    ]
+  },
+  "GRA 280": {
+    "text": "GRA 167 or GRA 267",
+    "courses": [
+      "GRA 167",
+      "GRA 267"
+    ]
+  },
+  "GRDSN 1105": {
+    "text": "RDSN 1102",
+    "courses": [
+      "RDSN 1102"
+    ]
+  },
+  "GRDSN 1106": {
+    "text": "RDSN 1102",
+    "courses": [
+      "RDSN 1102"
+    ]
+  },
+  "GRDSN 1107": {
+    "text": "RDSN 1102",
+    "courses": [
+      "RDSN 1102"
+    ]
+  },
+  "GRDSN 1108": {
+    "text": "RDSN 1102",
+    "courses": [
+      "RDSN 1102"
+    ]
+  },
+  "GRDSN 2200": {
+    "text": "RDSN 1102",
+    "courses": [
+      "RDSN 1102"
+    ]
+  },
+  "GRDSN 2201": {
+    "text": "RDSN 1105",
+    "courses": [
+      "RDSN 1105"
+    ]
+  },
+  "GRDSN 2202": {
+    "text": "RDSN 1102 or RDSN 2200",
+    "courses": [
+      "RDSN 1102",
+      "RDSN 2200"
+    ]
+  },
+  "GRDSN 2203": {
+    "text": "RDSN 1102",
+    "courses": [
+      "RDSN 1102"
+    ]
+  },
+  "GRDSN 2204": {
+    "text": "RDSN 1108",
+    "courses": [
+      "RDSN 1108"
+    ]
+  },
+  "GRDSN 2210": {
+    "text": "RDSN 1100 or ART 1101",
+    "courses": [
+      "RDSN 1100",
+      "ART 1101"
+    ]
+  },
+  "HAC 0113": {
+    "text": "BEL 0161",
+    "courses": [
+      "BEL 0161"
+    ]
+  },
+  "HAC 0130": {
+    "text": "HAC 0160 and HAC 0260",
+    "courses": [
+      "HAC 0160",
+      "HAC 0260"
+    ]
+  },
+  "HAC 0220": {
+    "text": "HEA 0260 and HAC 0260",
+    "courses": [
+      "HEA 0260",
+      "HAC 0260"
+    ]
+  },
+  "HAC 115": {
+    "text": "HAC 105",
+    "courses": [
+      "HAC 105"
+    ]
+  },
+  "HAC 150": {
+    "text": "HAC 111",
+    "courses": [
+      "HAC 111"
+    ]
+  },
+  "HAC 154": {
+    "text": "HAC 115",
+    "courses": [
+      "HAC 115"
+    ]
+  },
+  "HAZM 101": {
+    "text": "CDLA 160 and TRUC 101 and TRUC 102 and TRUC 103 and TRUC 104 and TRUC 105 and TRUC 107",
+    "courses": [
+      "CDLA 160",
+      "TRUC 101",
+      "TRUC 102",
+      "TRUC 103",
+      "TRUC 104",
+      "TRUC 105",
+      "TRUC 107"
+    ]
+  },
+  "HBW 201": {
+    "text": "HBW 102 (min D)",
+    "courses": [
+      "HBW 102"
+    ]
+  },
+  "HIA 124": {
+    "text": "HIA 115 and HIA 128",
+    "courses": [
+      "HIA 115",
+      "HIA 128"
+    ]
+  },
+  "HIA 134": {
+    "text": "HIA 115 and HIA 128",
+    "courses": [
+      "HIA 115",
+      "HIA 128"
+    ]
+  },
+  "HIA 225": {
+    "text": "HIA 110",
+    "courses": [
+      "HIA 110"
+    ]
+  },
+  "HIA 228": {
+    "text": "HIA 128",
+    "courses": [
+      "HIA 128"
+    ]
+  },
+  "HIDP 1103": {
+    "text": "HIDP 1102",
+    "courses": [
+      "HIDP 1102"
+    ]
+  },
+  "HIDP 2102": {
+    "text": "HIDP 2101 or HIDP 2101",
+    "courses": [
+      "HIDP 2101"
+    ]
+  },
+  "HIDP 2112": {
+    "text": "HIDP 2101 or HIDP 2102",
+    "courses": [
+      "HIDP 2101",
+      "HIDP 2102"
+    ]
+  },
+  "HIM 137": {
+    "text": "AOT 135",
+    "courses": [
+      "AOT 135"
+    ]
+  },
+  "HIM 237": {
+    "text": "HIM 138",
+    "courses": [
+      "HIM 138"
+    ]
+  },
+  "HIN 201": {
+    "text": "HIN 102 (min D)",
+    "courses": [
+      "HIN 102"
+    ]
+  },
+  "HIST 151": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "HIST 152": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "HIST 160": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "HIST 215": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "HIT 0105": {
+    "text": "COM 0111 and HIT 0100 and SPC 0111 (min C) or SPC 0210 (min C)",
+    "courses": [
+      "COM 0111",
+      "HIT 0100",
+      "SPC 0111",
+      "SPC 0210"
+    ]
+  },
+  "HIT 103": {
+    "text": "RDG 082 (min C)",
+    "courses": [
+      "RDG 082"
+    ]
+  },
+  "HIT 105": {
+    "text": "HIT 104 (min C)",
+    "courses": [
+      "HIT 104"
+    ]
+  },
+  "HIT 108": {
+    "text": "HIT 121 (min C) and BIO 114 (min C) or BIO 232 (min C) or BIO 132 (min C)",
+    "courses": [
+      "HIT 121",
+      "BIO 114",
+      "BIO 232",
+      "BIO 132"
+    ]
+  },
+  "HIT 115": {
+    "text": "HIT 111 (min C) and HIT 170 (min C) and HIT 120 (min C)",
+    "courses": [
+      "HIT 111",
+      "HIT 170",
+      "HIT 120"
+    ]
+  },
+  "HIT 116": {
+    "text": "HIT 111 (min C) and HIT 170 (min C) and HIT 120 (min C)",
+    "courses": [
+      "HIT 111",
+      "HIT 170",
+      "HIT 120"
+    ]
+  },
+  "HIT 120": {
+    "text": "HIT 170 (min C)",
+    "courses": [
+      "HIT 170"
+    ]
+  },
+  "HIT 122": {
+    "text": "HIT 107 (min C) and HIT 109 (min C) and HIT 127 (min C)",
+    "courses": [
+      "HIT 107",
+      "HIT 109",
+      "HIT 127"
+    ]
+  },
+  "HIT 124": {
+    "text": "HIT 121 (min C)",
+    "courses": [
+      "HIT 121"
+    ]
+  },
+  "HIT 125": {
+    "text": "HIT 115 (min C) and HIT 116 (min C) and HIT 120 (min C)",
+    "courses": [
+      "HIT 115",
+      "HIT 116",
+      "HIT 120"
+    ]
+  },
+  "HIT 127": {
+    "text": "HIT 107 (min C) and HIT 107 (min C) and HIT 122 (min C)",
+    "courses": [
+      "HIT 107",
+      "HIT 122"
+    ]
+  },
+  "HIT 131": {
+    "text": "HIT 121 (min C) and MAT 131 (min C)",
+    "courses": [
+      "HIT 121",
+      "MAT 131"
+    ]
+  },
+  "HIT 170": {
+    "text": "HIT 112 (min C) or BIO 114 (min C) or BIO 131 (min C) or BIO 231 (min C) and BIO 132 (min C) or BIO 232 (min C)",
+    "courses": [
+      "HIT 112",
+      "BIO 114",
+      "BIO 131",
+      "BIO 231",
+      "BIO 132",
+      "BIO 232"
+    ]
+  },
+  "HIT 223": {
+    "text": "HIT 216",
+    "courses": [
+      "HIT 216"
+    ]
+  },
+  "HITT 106": {
+    "text": "HITT 101",
+    "courses": [
+      "HITT 101"
+    ]
+  },
+  "HITT 285": {
+    "text": "HITT 101",
+    "courses": [
+      "HITT 101"
+    ]
+  },
+  "HLT 105": {
+    "text": "PHB 101",
+    "courses": [
+      "PHB 101"
+    ]
+  },
+  "HLT 201": {
+    "text": "CHE 110",
+    "courses": [
+      "CHE 110"
+    ]
+  },
+  "HLTH 101": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "HLTHS 1122": {
+    "text": "LTHS 1110 or LTHS 1110",
+    "courses": [
+      "LTHS 1110"
+    ]
+  },
+  "HLTHS 1126": {
+    "text": "LTHS 1110 or LTHS 1110",
+    "courses": [
+      "LTHS 1110"
+    ]
+  },
+  "HLTHS 1128": {
+    "text": "LTHS 1126",
+    "courses": [
+      "LTHS 1126"
+    ]
+  },
+  "HORT 1110": {
+    "text": "HORT 1100 or HORT 1100",
+    "courses": [
+      "HORT 1100"
+    ]
+  },
+  "HORT 1115": {
+    "text": "HORT 1105",
+    "courses": [
+      "HORT 1105"
+    ]
+  },
+  "HORT 2225": {
+    "text": "HORT 1115",
+    "courses": [
+      "HORT 1115"
+    ]
+  },
+  "HORT 2241": {
+    "text": "HORT 1100",
+    "courses": [
+      "HORT 1100"
+    ]
+  },
+  "HOSP 1152": {
+    "text": "HOSP 1151",
+    "courses": [
+      "HOSP 1151"
+    ]
+  },
+  "HOSP 1202": {
+    "text": "HOSP 1201 or HOSP 1201",
+    "courses": [
+      "HOSP 1201"
+    ]
+  },
+  "HSV 210": {
+    "text": "HSV 110 (min D)",
+    "courses": [
+      "HSV 110"
+    ]
+  },
+  "HSV 250": {
+    "text": "HSV 110 (min C) and HSV 121 (min C) and HSV 122 (min C) and PSY 234 (min C) and PSY 235 (min C) and PSY 237 (min C) and PSY 238 (min C)",
+    "courses": [
+      "HSV 110",
+      "HSV 121",
+      "HSV 122",
+      "PSY 234",
+      "PSY 235",
+      "PSY 237",
+      "PSY 238"
+    ]
+  },
+  "HSV 255": {
+    "text": "HSV 155 (min C) or HSV 250 (min C)",
+    "courses": [
+      "HSV 155",
+      "HSV 250"
+    ]
+  },
+  "HTC 110": {
+    "text": "HTC 101",
+    "courses": [
+      "HTC 101"
+    ]
+  },
+  "HUM 150": {
+    "text": "ENG 089 or ENG 109 or ENG 099 or ENG 103",
+    "courses": [
+      "ENG 089",
+      "ENG 109",
+      "ENG 099",
+      "ENG 103"
+    ]
+  },
+  "HUMAN 1152": {
+    "text": "UMAN 1151",
+    "courses": [
+      "UMAN 1151"
+    ]
+  },
+  "HUMAN 2223": {
+    "text": "UMAN 1100 or UMAN 1113 or UMAN 1125 or UMAN 2212",
+    "courses": [
+      "UMAN 1100",
+      "UMAN 1113",
+      "UMAN 1125",
+      "UMAN 2212"
+    ]
+  },
+  "HUMAN 2226": {
+    "text": "UMAN 2225",
+    "courses": [
+      "UMAN 2225"
+    ]
+  },
+  "HUMAN 2252": {
+    "text": "UMAN 2251",
+    "courses": [
+      "UMAN 2251"
+    ]
+  },
+  "HUMN 101": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "HUMN 103": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "HVA 103": {
+    "text": "HVA 101 or HVA 102",
+    "courses": [
+      "HVA 101",
+      "HVA 102"
+    ]
+  },
+  "HVA 104": {
+    "text": "HVA 101 or HVA 102",
+    "courses": [
+      "HVA 101",
+      "HVA 102"
+    ]
+  },
+  "HVA 106": {
+    "text": "HVA 101 or HVA 102",
+    "courses": [
+      "HVA 101",
+      "HVA 102"
+    ]
+  },
+  "HVA 107": {
+    "text": "HVA 101 or HVA 102",
+    "courses": [
+      "HVA 101",
+      "HVA 102"
+    ]
+  },
+  "HVA 108": {
+    "text": "HVA 101",
+    "courses": [
+      "HVA 101"
+    ]
+  },
+  "HVA 109": {
+    "text": "HVA 101 or HVA 102 or HVA 107 or HVA 108 and HVA 102 and HVA 107 and HVA 108",
+    "courses": [
+      "HVA 101",
+      "HVA 102",
+      "HVA 107",
+      "HVA 108"
+    ]
+  },
+  "HVA 110": {
+    "text": "HVA 101 or HVA 102",
+    "courses": [
+      "HVA 101",
+      "HVA 102"
+    ]
+  },
+  "HVA 112": {
+    "text": "HVA 101",
+    "courses": [
+      "HVA 101"
+    ]
+  },
+  "HVA 201": {
+    "text": "HVA 103",
+    "courses": [
+      "HVA 103"
+    ]
+  },
+  "HVA 203": {
+    "text": "HVA 103",
+    "courses": [
+      "HVA 103"
+    ]
+  },
+  "HVAC 260": {
+    "text": "HVAC 147",
+    "courses": [
+      "HVAC 147"
+    ]
+  },
+  "HVAC 298": {
+    "text": "HVAC 299",
+    "courses": [
+      "HVAC 299"
+    ]
+  },
+  "HVAC 299": {
+    "text": "HVAC 299",
+    "courses": [
+      "HVAC 299"
+    ]
+  },
+  "HVACR 2110": {
+    "text": "VACR 1110",
+    "courses": [
+      "VACR 1110"
+    ]
+  },
+  "HVACR 2180": {
+    "text": "VACR 1110 or VACR 1181",
+    "courses": [
+      "VACR 1110",
+      "VACR 1181"
+    ]
+  },
+  "HVACR 2186": {
+    "text": "VACR 1105 or VACR 1110 or VACR 1181",
+    "courses": [
+      "VACR 1105",
+      "VACR 1110",
+      "VACR 1181"
+    ]
+  },
+  "HVACR 2187": {
+    "text": "VACR 1110",
+    "courses": [
+      "VACR 1110"
+    ]
+  },
+  "HVACR 2202": {
+    "text": "VACR 1100 or VACR 1105 or VACR 1110 or VACR 1181",
+    "courses": [
+      "VACR 1100",
+      "VACR 1105",
+      "VACR 1110",
+      "VACR 1181"
+    ]
+  },
+  "HVACR 2220": {
+    "text": "VACR 1100 or VACR 1105 or VACR 1110 or VACR 1181",
+    "courses": [
+      "VACR 1100",
+      "VACR 1105",
+      "VACR 1110",
+      "VACR 1181"
+    ]
+  },
+  "HVACR 2225": {
+    "text": "VACR 1100 or VACR 1105 or VACR 1110 or VACR 1181",
+    "courses": [
+      "VACR 1100",
+      "VACR 1105",
+      "VACR 1110",
+      "VACR 1181"
+    ]
+  },
+  "HVACR 2230": {
+    "text": "VACR 1100 or VACR 1105 or VACR 1110 or VACR 1181",
+    "courses": [
+      "VACR 1100",
+      "VACR 1105",
+      "VACR 1110",
+      "VACR 1181"
+    ]
+  },
+  "HVACR 2242": {
+    "text": "VACR 1105 or ANUF 1151 or WELD 1100",
+    "courses": [
+      "VACR 1105",
+      "ANUF 1151",
+      "WELD 1100"
+    ]
+  },
+  "IEL 021": {
+    "text": "IEL 011",
+    "courses": [
+      "IEL 011"
+    ]
+  },
+  "IEL 022": {
+    "text": "IEL 012",
+    "courses": [
+      "IEL 012"
+    ]
+  },
+  "IEL 023": {
+    "text": "IEL 013",
+    "courses": [
+      "IEL 013"
+    ]
+  },
+  "IMD 220": {
+    "text": "IMD 110",
+    "courses": [
+      "IMD 110"
+    ]
+  },
+  "IMM 107": {
+    "text": "IMM 101",
+    "courses": [
+      "IMM 101"
+    ]
+  },
+  "IMM 220": {
+    "text": "IMM 120",
+    "courses": [
+      "IMM 120"
+    ]
+  },
+  "INFO 183": {
+    "text": "INFO 133",
+    "courses": [
+      "INFO 133"
+    ]
+  },
+  "INFO 203": {
+    "text": "INFO 183",
+    "courses": [
+      "INFO 183"
+    ]
+  },
+  "INFO 266": {
+    "text": "INFO 166",
+    "courses": [
+      "INFO 166"
+    ]
+  },
+  "INST 206": {
+    "text": "INST 107",
+    "courses": [
+      "INST 107"
+    ]
+  },
+  "INT 100": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "INTER 1170": {
+    "text": "NTER 1110",
+    "courses": [
+      "NTER 1110"
+    ]
+  },
+  "INTER 1190": {
+    "text": "NTER 1110",
+    "courses": [
+      "NTER 1110"
+    ]
+  },
+  "INTER 2110": {
+    "text": "NTER 1110",
+    "courses": [
+      "NTER 1110"
+    ]
+  },
+  "INTER 2120": {
+    "text": "NTER 1212 or NTER 2110",
+    "courses": [
+      "NTER 1212",
+      "NTER 2110"
+    ]
+  },
+  "INTER 2212": {
+    "text": "NTER 1212",
+    "courses": [
+      "NTER 1212"
+    ]
+  },
+  "INTER 2215": {
+    "text": "NTER 1212",
+    "courses": [
+      "NTER 1212"
+    ]
+  },
+  "INTER 2220": {
+    "text": "NTER 1170 or NTER 1212",
+    "courses": [
+      "NTER 1170",
+      "NTER 1212"
+    ]
+  },
+  "INTER 2311": {
+    "text": "NTER 1110 or NTER 1125 or NTER 1212",
+    "courses": [
+      "NTER 1110",
+      "NTER 1125",
+      "NTER 1212"
+    ]
+  },
+  "INTER 2420": {
+    "text": "NTER 1135 or NTER 1190 or NTER 2110 or NTER 2220 or NTER 2311",
+    "courses": [
+      "NTER 1135",
+      "NTER 1190",
+      "NTER 2110",
+      "NTER 2220",
+      "NTER 2311"
+    ]
+  },
+  "INTER 2430": {
+    "text": "NTER 1135 or NTER 1190 or NTER 2110 or NTER 2220 or NTER 2311",
+    "courses": [
+      "NTER 1135",
+      "NTER 1190",
+      "NTER 2110",
+      "NTER 2220",
+      "NTER 2311"
+    ]
+  },
+  "INTER 2440": {
+    "text": "NTER 1135 or NTER 1190 or NTER 2110 or NTER 2220 or NTER 2311",
+    "courses": [
+      "NTER 1135",
+      "NTER 1190",
+      "NTER 2110",
+      "NTER 2220",
+      "NTER 2311"
+    ]
+  },
+  "INTER 2511": {
+    "text": "NTER 1135 or NTER 1170 or NTER 1212 or NTER 2220",
+    "courses": [
+      "NTER 1135",
+      "NTER 1170",
+      "NTER 1212",
+      "NTER 2220"
+    ]
+  },
+  "INTP 2104": {
+    "text": "SIGN 2102 or SIGN 2102",
+    "courses": [
+      "SIGN 2102"
+    ]
+  },
+  "INTP 2108": {
+    "text": "INTP 2107 or INTP 2109",
+    "courses": [
+      "INTP 2107",
+      "INTP 2109"
+    ]
+  },
+  "INTP 2109": {
+    "text": "INTP 2107 or INTP 2108",
+    "courses": [
+      "INTP 2107",
+      "INTP 2108"
+    ]
+  },
+  "ITCYB 153": {
+    "text": "IT 140",
+    "courses": [
+      "IT 140"
+    ]
+  },
+  "ITL 201": {
+    "text": "ITL 102 (min D)",
+    "courses": [
+      "ITL 102"
+    ]
+  },
+  "ITNET 120": {
+    "text": "ENG 099",
+    "courses": [
+      "ENG 099"
+    ]
+  },
+  "ITNET 160": {
+    "text": "IT 140",
+    "courses": [
+      "IT 140"
+    ]
+  },
+  "ITNET 263": {
+    "text": "TNET 250",
+    "courses": [
+      "TNET 250"
+    ]
+  },
+  "ITPRG 158": {
+    "text": "ENG 099",
+    "courses": [
+      "ENG 099"
+    ]
+  },
+  "ITPRG 247": {
+    "text": "TPRG 147",
+    "courses": [
+      "TPRG 147"
+    ]
+  },
+  "ITWEB 203": {
+    "text": "ENG 099",
+    "courses": [
+      "ENG 099"
+    ]
+  },
+  "JPN 102": {
+    "text": "JPN 101 (min D)",
+    "courses": [
+      "JPN 101"
+    ]
+  },
+  "JPN 105": {
+    "text": "JPN 102 (min D)",
+    "courses": [
+      "JPN 102"
+    ]
+  },
+  "JPN 201": {
+    "text": "JPN 102 (min D)",
+    "courses": [
+      "JPN 102"
+    ]
+  },
+  "JPN 205": {
+    "text": "JPN 202 (min D)",
+    "courses": [
+      "JPN 202"
+    ]
+  },
+  "JRN 101": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "JRNM 110": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "JRNM 112": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "KHS 221": {
+    "text": "KHS 121",
+    "courses": [
+      "KHS 121"
+    ]
+  },
+  "KIN 0201": {
+    "text": "BIO 0111 or BIO 0115",
+    "courses": [
+      "BIO 0111",
+      "BIO 0115"
+    ]
+  },
+  "KOR 201": {
+    "text": "KOR 102 (min D)",
+    "courses": [
+      "KOR 102"
+    ]
+  },
+  "LAE 239": {
+    "text": "LAE 135 (min C)",
+    "courses": [
+      "LAE 135"
+    ]
+  },
+  "LAE 247": {
+    "text": "LAE 147 (min C)",
+    "courses": [
+      "LAE 147"
+    ]
+  },
+  "LAE 248": {
+    "text": "LAE 147 (min C) or LAE 247 (min C)",
+    "courses": [
+      "LAE 147",
+      "LAE 247"
+    ]
+  },
+  "LAW 203": {
+    "text": "ENG 101 (min C) and LAW 101 (min C) or PLA 101 (min C)",
+    "courses": [
+      "ENG 101",
+      "LAW 101",
+      "PLA 101"
+    ]
+  },
+  "LAW 204": {
+    "text": "SPE 108 and LAW 101 (min C) or PLA 101 (min C) and LAW 201 (min C) or PLA 201 (min C) and LAW 202 (min C) or PLA 202 (min C) and LAW 203 (min C) or PLA 203 (min C) and BLW 201 (min C) and BLW 202 (min C)",
+    "courses": [
+      "SPE 108",
+      "LAW 101",
+      "PLA 101",
+      "LAW 201",
+      "PLA 201",
+      "LAW 202",
+      "PLA 202",
+      "LAW 203",
+      "PLA 203",
+      "BLW 201",
+      "BLW 202"
+    ]
+  },
+  "LAW 205": {
+    "text": "LAW 203 (min C) or PLA 203 (min C) or LAW 204 (min C)",
+    "courses": [
+      "LAW 203",
+      "PLA 203",
+      "LAW 204"
+    ]
+  },
+  "LAW 206": {
+    "text": "LAW 202 or LAW 203 or BLW 202",
+    "courses": [
+      "LAW 202",
+      "LAW 203",
+      "BLW 202"
+    ]
+  },
+  "LBS 8155": {
+    "text": "LBS 8010 (min PV) or LBS 8011 (min PV) or Accounting 100 (min C) or Accounting 101 (min C)",
+    "courses": [
+      "LBS 8010",
+      "LBS 8011",
+      "Accounting 100",
+      "Accounting 101"
+    ]
+  },
+  "LEA 0214": {
+    "text": "LEA 0115",
+    "courses": [
+      "LEA 0115"
+    ]
+  },
+  "LIBRA 1102": {
+    "text": "IBRA 1101",
+    "courses": [
+      "IBRA 1101"
+    ]
+  },
+  "LIBRA 1103": {
+    "text": "IBRA 1101",
+    "courses": [
+      "IBRA 1101"
+    ]
+  },
+  "LIBRA 1105": {
+    "text": "IBRA 1101",
+    "courses": [
+      "IBRA 1101"
+    ]
+  },
+  "LIBRA 2100": {
+    "text": "IBRA 1101",
+    "courses": [
+      "IBRA 1101"
+    ]
+  },
+  "LIBRA 2200": {
+    "text": "IBRA 1101",
+    "courses": [
+      "IBRA 1101"
+    ]
+  },
+  "LIBRA 2400": {
+    "text": "IBRA 1101",
+    "courses": [
+      "IBRA 1101"
+    ]
+  },
+  "LIT 205": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "LIT 213": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "LIT 214": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "LIT 220": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "LIT 221": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "LIT 222": {
+    "text": "COM 101",
+    "courses": [
+      "COM 101"
+    ]
+  },
+  "LITR 103": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "LITR 105": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "LITR 121": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MA 0100": {
+    "text": "HIT 0100",
+    "courses": [
+      "HIT 0100"
+    ]
+  },
+  "MA 0101": {
+    "text": "HIT 0100",
+    "courses": [
+      "HIT 0100"
+    ]
+  },
+  "MA 0102": {
+    "text": "HIT 0100",
+    "courses": [
+      "HIT 0100"
+    ]
+  },
+  "MA 0103": {
+    "text": "HIT 0100",
+    "courses": [
+      "HIT 0100"
+    ]
+  },
+  "MANAG 2242": {
+    "text": "ANAG 2240 and ANAG 2245 and ANAG 2248",
+    "courses": [
+      "ANAG 2240",
+      "ANAG 2245",
+      "ANAG 2248"
+    ]
+  },
+  "MANAG 2245": {
+    "text": "ANAG 2240 and ANAG 2242 and ANAG 2248",
+    "courses": [
+      "ANAG 2240",
+      "ANAG 2242",
+      "ANAG 2248"
+    ]
+  },
+  "MANAG 2248": {
+    "text": "ANAG 2240 and ANAG 2242 and ANAG 2245",
+    "courses": [
+      "ANAG 2240",
+      "ANAG 2242",
+      "ANAG 2245"
+    ]
+  },
+  "MANUF 1153": {
+    "text": "ANUF 1151",
+    "courses": [
+      "ANUF 1151"
+    ]
+  },
+  "MANUF 2201": {
+    "text": "ANUF 1101",
+    "courses": [
+      "ANUF 1101"
+    ]
+  },
+  "MANUF 2202": {
+    "text": "ANUF 1101",
+    "courses": [
+      "ANUF 1101"
+    ]
+  },
+  "MANUF 2203": {
+    "text": "ANUF 2202",
+    "courses": [
+      "ANUF 2202"
+    ]
+  },
+  "MANUF 2206": {
+    "text": "ANUF 2201 or ANUF 2202",
+    "courses": [
+      "ANUF 2201",
+      "ANUF 2202"
+    ]
+  },
+  "MANUF 2208": {
+    "text": "ANUF 2207",
+    "courses": [
+      "ANUF 2207"
+    ]
+  },
+  "MANUF 2251": {
+    "text": "ANUF 1151",
+    "courses": [
+      "ANUF 1151"
+    ]
+  },
+  "MANUF 2252": {
+    "text": "ANUF 1151 or ANUF 2251",
+    "courses": [
+      "ANUF 1151",
+      "ANUF 2251"
+    ]
+  },
+  "MANUF 2253": {
+    "text": "ANUF 2251",
+    "courses": [
+      "ANUF 2251"
+    ]
+  },
+  "MAP 230": {
+    "text": "MAP 120 (min C)",
+    "courses": [
+      "MAP 120"
+    ]
+  },
+  "MAP 260": {
+    "text": "MAP 180 (min C) and MAP 230 (min C) and MLT 107 (min C)",
+    "courses": [
+      "MAP 180",
+      "MAP 230",
+      "MLT 107"
+    ]
+  },
+  "MARKE 2225": {
+    "text": "ARKE 2210",
+    "courses": [
+      "ARKE 2210"
+    ]
+  },
+  "MAS 105": {
+    "text": "MAS 106 or MAS 115 or HIT 103",
+    "courses": [
+      "MAS 106",
+      "MAS 115",
+      "HIT 103"
+    ]
+  },
+  "MAS 106": {
+    "text": "MAS 105 or MAS 115 or HIT 103",
+    "courses": [
+      "MAS 105",
+      "MAS 115",
+      "HIT 103"
+    ]
+  },
+  "MAS 107": {
+    "text": "MAS 105 (min C) and MAS 107 or MAS 108 or MAS 112 or MAS 113 or HLT 105",
+    "courses": [
+      "MAS 105",
+      "MAS 107",
+      "MAS 108",
+      "MAS 112",
+      "MAS 113",
+      "HLT 105"
+    ]
+  },
+  "MAS 108": {
+    "text": "MAS 106 (min C) and MAS 107 or MAS 108 or MAS 112 or MAS 113 or HLT 105",
+    "courses": [
+      "MAS 106",
+      "MAS 107",
+      "MAS 108",
+      "MAS 112",
+      "MAS 113",
+      "HLT 105"
+    ]
+  },
+  "MAS 110": {
+    "text": "MAS 101 and MAS 105",
+    "courses": [
+      "MAS 101",
+      "MAS 105"
+    ]
+  },
+  "MAS 112": {
+    "text": "HIT 103 and MAS 107 or MAS 108 or MAS 113 or HLT 105",
+    "courses": [
+      "HIT 103",
+      "MAS 107",
+      "MAS 108",
+      "MAS 113",
+      "HLT 105"
+    ]
+  },
+  "MAS 113": {
+    "text": "MAS 107 or MAS 108 or MAS 112 or HLT 105",
+    "courses": [
+      "MAS 107",
+      "MAS 108",
+      "MAS 112",
+      "HLT 105"
+    ]
+  },
+  "MAS 115": {
+    "text": "MAS 105 or MAS 106 or MAS 115 or HIT 103",
+    "courses": [
+      "MAS 105",
+      "MAS 106",
+      "MAS 115",
+      "HIT 103"
+    ]
+  },
+  "MAS 116": {
+    "text": "MAS 107 (min C) and MAS 108 (min C)",
+    "courses": [
+      "MAS 107",
+      "MAS 108"
+    ]
+  },
+  "MAS 120": {
+    "text": "MAS 105 or MAS 109 or MAS 110 and BIO 115 or BIO 180 or BIO 181 and MAS 108 or MAS 113 or MAS 119 or PEH 160",
+    "courses": [
+      "MAS 105",
+      "MAS 109",
+      "MAS 110",
+      "BIO 115",
+      "BIO 180",
+      "BIO 181",
+      "MAS 108",
+      "MAS 113",
+      "MAS 119",
+      "PEH 160"
+    ]
+  },
+  "MAT 0118": {
+    "text": "MAT 0116 or MAT 0120",
+    "courses": [
+      "MAT 0116",
+      "MAT 0120"
+    ]
+  },
+  "MAT 020": {
+    "text": "MAT 120",
+    "courses": [
+      "MAT 120"
+    ]
+  },
+  "MAT 0210": {
+    "text": "MAT 0043",
+    "courses": [
+      "MAT 0043"
+    ]
+  },
+  "MAT 0211": {
+    "text": "MAT 0209",
+    "courses": [
+      "MAT 0209"
+    ]
+  },
+  "MAT 0215": {
+    "text": "MAT 0115 or MAT 0116 or MAT 0120",
+    "courses": [
+      "MAT 0115",
+      "MAT 0116",
+      "MAT 0120"
+    ]
+  },
+  "MAT 031": {
+    "text": "MAT 110",
+    "courses": [
+      "MAT 110"
+    ]
+  },
+  "MAT 032": {
+    "text": "MAT 102",
+    "courses": [
+      "MAT 102"
+    ]
+  },
+  "MAT 037": {
+    "text": "MAT 170",
+    "courses": [
+      "MAT 170"
+    ]
+  },
+  "MAT 041": {
+    "text": "MAT 101",
+    "courses": [
+      "MAT 101"
+    ]
+  },
+  "MAT 045": {
+    "text": "MAT 150",
+    "courses": [
+      "MAT 150"
+    ]
+  },
+  "MAT 048": {
+    "text": "MAT 208",
+    "courses": [
+      "MAT 208"
+    ]
+  },
+  "MAT 050": {
+    "text": "MAT 150",
+    "courses": [
+      "MAT 150"
+    ]
+  },
+  "MAT 061": {
+    "text": "MAT 161",
+    "courses": [
+      "MAT 161"
+    ]
+  },
+  "MAT 096": {
+    "text": "MAT 102",
+    "courses": [
+      "MAT 102"
+    ]
+  },
+  "MAT 097": {
+    "text": "MAT 105",
+    "courses": [
+      "MAT 105"
+    ]
+  },
+  "MAT 098": {
+    "text": "MAT 066 or MAT 096",
+    "courses": [
+      "MAT 066",
+      "MAT 096"
+    ]
+  },
+  "MAT 101": {
+    "text": "MAT 066 or MAT 068 or MAT 096 or MAT 041",
+    "courses": [
+      "MAT 066",
+      "MAT 068",
+      "MAT 096",
+      "MAT 041"
+    ]
+  },
+  "MAT 102": {
+    "text": "MAT 096",
+    "courses": [
+      "MAT 096"
+    ]
+  },
+  "MAT 105": {
+    "text": "MAT 097",
+    "courses": [
+      "MAT 097"
+    ]
+  },
+  "MAT 141": {
+    "text": "MAT 041",
+    "courses": [
+      "MAT 041"
+    ]
+  },
+  "MAT 150": {
+    "text": "MAT 086 or MAT 098 or MAT 045 and MAT 075 or MAT 075",
+    "courses": [
+      "MAT 086",
+      "MAT 098",
+      "MAT 045",
+      "MAT 075"
+    ]
+  },
+  "MAT 155": {
+    "text": "MAT 075 or MAT 075 and MAT 150",
+    "courses": [
+      "MAT 075",
+      "MAT 150"
+    ]
+  },
+  "MAT 201": {
+    "text": "MAT 086 or MAT 098 and MAT 075 or MAT 075",
+    "courses": [
+      "MAT 086",
+      "MAT 098",
+      "MAT 075"
+    ]
+  },
+  "MAT 210": {
+    "text": "MAT 150",
+    "courses": [
+      "MAT 150"
+    ]
+  },
+  "MAT 211": {
+    "text": "MAT 150",
+    "courses": [
+      "MAT 150"
+    ]
+  },
+  "MAT 220": {
+    "text": "MAT 210 or MAT 211 or MAT 229",
+    "courses": [
+      "MAT 210",
+      "MAT 211",
+      "MAT 229"
+    ]
+  },
+  "MAT 230": {
+    "text": "MAT 229",
+    "courses": [
+      "MAT 229"
+    ]
+  },
+  "MAT 231": {
+    "text": "MAT 230",
+    "courses": [
+      "MAT 230"
+    ]
+  },
+  "MAT 253": {
+    "text": "MAT 175",
+    "courses": [
+      "MAT 175"
+    ]
+  },
+  "MATH 007": {
+    "text": "MATH 107",
+    "courses": [
+      "MATH 107"
+    ]
+  },
+  "MATH 015": {
+    "text": "MATH 115",
+    "courses": [
+      "MATH 115"
+    ]
+  },
+  "MATH 031": {
+    "text": "MATH 131",
+    "courses": [
+      "MATH 131"
+    ]
+  },
+  "MATH 038": {
+    "text": "MATH 138",
+    "courses": [
+      "MATH 138"
+    ]
+  },
+  "MATH 045": {
+    "text": "MATH 145",
+    "courses": [
+      "MATH 145"
+    ]
+  },
+  "MATH 0461": {
+    "text": "MATH 0459",
+    "courses": [
+      "MATH 0459"
+    ]
+  },
+  "MATH 0465": {
+    "text": "MATH 0461 or MATH 0481",
+    "courses": [
+      "MATH 0461",
+      "MATH 0481"
+    ]
+  },
+  "MATH 0481": {
+    "text": "MATH 0460 or MATH 0461",
+    "courses": [
+      "MATH 0460",
+      "MATH 0461"
+    ]
+  },
+  "MATH 0482": {
+    "text": "MATH 0481",
+    "courses": [
+      "MATH 0481"
+    ]
+  },
+  "MATH 094": {
+    "text": "MATH 151",
+    "courses": [
+      "MATH 151"
+    ]
+  },
+  "MATH 099": {
+    "text": "MATH 112",
+    "courses": [
+      "MATH 112"
+    ]
+  },
+  "MATH 107": {
+    "text": "DEVM 100 and MATH 007",
+    "courses": [
+      "DEVM 100",
+      "MATH 007"
+    ]
+  },
+  "MATH 109": {
+    "text": "MATH 009",
+    "courses": [
+      "MATH 009"
+    ]
+  },
+  "MATH 110": {
+    "text": "MATH 120 or MATH 125",
+    "courses": [
+      "MATH 120",
+      "MATH 125"
+    ]
+  },
+  "MATH 1100": {
+    "text": "MATH 0460 or MATH 0461",
+    "courses": [
+      "MATH 0460",
+      "MATH 0461"
+    ]
+  },
+  "MATH 1102": {
+    "text": "MATH 0465 or MATH 0481",
+    "courses": [
+      "MATH 0465",
+      "MATH 0481"
+    ]
+  },
+  "MATH 111": {
+    "text": "MATH 109",
+    "courses": [
+      "MATH 109"
+    ]
+  },
+  "MATH 1115": {
+    "text": "MATH 0481",
+    "courses": [
+      "MATH 0481"
+    ]
+  },
+  "MATH 114": {
+    "text": "MATH 111",
+    "courses": [
+      "MATH 111"
+    ]
+  },
+  "MATH 115": {
+    "text": "MATH 107",
+    "courses": [
+      "MATH 107"
+    ]
+  },
+  "MATH 116": {
+    "text": "MATH 107 and MATH 016",
+    "courses": [
+      "MATH 107",
+      "MATH 016"
+    ]
+  },
+  "MATH 118": {
+    "text": "MATH 118 or MATH 107 or MATH 109",
+    "courses": [
+      "MATH 118",
+      "MATH 107",
+      "MATH 109"
+    ]
+  },
+  "MATH 120": {
+    "text": "MATH 111 and MATH 114",
+    "courses": [
+      "MATH 111",
+      "MATH 114"
+    ]
+  },
+  "MATH 125": {
+    "text": "MATH 111",
+    "courses": [
+      "MATH 111"
+    ]
+  },
+  "MATH 138": {
+    "text": "TM 002 or TM 001",
+    "courses": [
+      "TM 002",
+      "TM 001"
+    ]
+  },
+  "MATH 1428": {
+    "text": "MATH 0482",
+    "courses": [
+      "MATH 0482"
+    ]
+  },
+  "MATH 1432": {
+    "text": "MATH 1431",
+    "courses": [
+      "MATH 1431"
+    ]
+  },
+  "MATH 145": {
+    "text": "TM 002 or TM 001",
+    "courses": [
+      "TM 002",
+      "TM 001"
+    ]
+  },
+  "MATH 1533": {
+    "text": "MATH 1428 or MATH 1431",
+    "courses": [
+      "MATH 1428",
+      "MATH 1431"
+    ]
+  },
+  "MATH 1635": {
+    "text": "MATH 1428 or MATH 1431 or MATH 1533",
+    "courses": [
+      "MATH 1428",
+      "MATH 1431",
+      "MATH 1533"
+    ]
+  },
+  "MATH 2115": {
+    "text": "MATH 1428 or MATH 1431",
+    "courses": [
+      "MATH 1428",
+      "MATH 1431"
+    ]
+  },
+  "MATH 2134": {
+    "text": "MATH 1428 or MATH 1431",
+    "courses": [
+      "MATH 1428",
+      "MATH 1431"
+    ]
+  },
+  "MATH 2231": {
+    "text": "MATH 1431 or MATH 1432",
+    "courses": [
+      "MATH 1431",
+      "MATH 1432"
+    ]
+  },
+  "MATH 2232": {
+    "text": "MATH 2231",
+    "courses": [
+      "MATH 2231"
+    ]
+  },
+  "MATH 2233": {
+    "text": "MATH 2232",
+    "courses": [
+      "MATH 2232"
+    ]
+  },
+  "MATH 2235": {
+    "text": "MATH 2233",
+    "courses": [
+      "MATH 2233"
+    ]
+  },
+  "MATH 2245": {
+    "text": "MATH 2232",
+    "courses": [
+      "MATH 2232"
+    ]
+  },
+  "MATH 2270": {
+    "text": "MATH 2233",
+    "courses": [
+      "MATH 2233"
+    ]
+  },
+  "MATT 133": {
+    "text": "MATT 132",
+    "courses": [
+      "MATT 132"
+    ]
+  },
+  "MCOM 131": {
+    "text": "MCOM 136",
+    "courses": [
+      "MCOM 136"
+    ]
+  },
+  "MCOM 238": {
+    "text": "MCOM 138",
+    "courses": [
+      "MCOM 138"
+    ]
+  },
+  "MEDA 130": {
+    "text": "MEDA 140",
+    "courses": [
+      "MEDA 140"
+    ]
+  },
+  "MEDA 200": {
+    "text": "MEDA 170",
+    "courses": [
+      "MEDA 170"
+    ]
+  },
+  "MFG 102": {
+    "text": "MTH 095 (min C)",
+    "courses": [
+      "MTH 095"
+    ]
+  },
+  "MFG 145": {
+    "text": "MFG 144 (min D)",
+    "courses": [
+      "MFG 144"
+    ]
+  },
+  "MFG 250": {
+    "text": "MFG 245 (min C)",
+    "courses": [
+      "MFG 245"
+    ]
+  },
+  "MFRG 110": {
+    "text": "MFRG 105",
+    "courses": [
+      "MFRG 105"
+    ]
+  },
+  "MFRG 162": {
+    "text": "MFRG 161",
+    "courses": [
+      "MFRG 161"
+    ]
+  },
+  "MFRG 163": {
+    "text": "MFRG 162",
+    "courses": [
+      "MFRG 162"
+    ]
+  },
+  "MFRG 164": {
+    "text": "MFRG 163",
+    "courses": [
+      "MFRG 163"
+    ]
+  },
+  "MFRG 169": {
+    "text": "MFRG 168",
+    "courses": [
+      "MFRG 168"
+    ]
+  },
+  "MFRG 200": {
+    "text": "MFRG 110 or MFRG 160",
+    "courses": [
+      "MFRG 110",
+      "MFRG 160"
+    ]
+  },
+  "MFRG 220": {
+    "text": "MFRG 105",
+    "courses": [
+      "MFRG 105"
+    ]
+  },
+  "MIS 102": {
+    "text": "MIS 101",
+    "courses": [
+      "MIS 101"
+    ]
+  },
+  "MIS 104": {
+    "text": "MIS 102 (min C)",
+    "courses": [
+      "MIS 102"
+    ]
+  },
+  "MIS 110": {
+    "text": "MIS 101",
+    "courses": [
+      "MIS 101"
+    ]
+  },
+  "MIS 111": {
+    "text": "MIS 110 (min C)",
+    "courses": [
+      "MIS 110"
+    ]
+  },
+  "MIS 132": {
+    "text": "MIS 101 and MIS 110",
+    "courses": [
+      "MIS 101",
+      "MIS 110"
+    ]
+  },
+  "MIS 190": {
+    "text": "MIS 101",
+    "courses": [
+      "MIS 101"
+    ]
+  },
+  "MIS 195": {
+    "text": "MIS 101 and CIS 180 and MIS 110",
+    "courses": [
+      "MIS 101",
+      "CIS 180",
+      "MIS 110"
+    ]
+  },
+  "MIS 205": {
+    "text": "MIS 101",
+    "courses": [
+      "MIS 101"
+    ]
+  },
+  "MIS 216": {
+    "text": "MIS 102",
+    "courses": [
+      "MIS 102"
+    ]
+  },
+  "MIS 221": {
+    "text": "MIS 101",
+    "courses": [
+      "MIS 101"
+    ]
+  },
+  "MLT 204": {
+    "text": "MLT 105 (min C) and MLT 107 (min C)",
+    "courses": [
+      "MLT 105",
+      "MLT 107"
+    ]
+  },
+  "MLT 210": {
+    "text": "MLT 105 (min C) and MLT 106 (min C) and MLT 111 (min C) and MLT 112 (min C) and MLT 113 (min C) and MLT 117 (min C) and BIO 151 (min C) and CHM 122 (min C)",
+    "courses": [
+      "MLT 105",
+      "MLT 106",
+      "MLT 111",
+      "MLT 112",
+      "MLT 113",
+      "MLT 117",
+      "BIO 151",
+      "CHM 122"
+    ]
+  },
+  "MLT 215": {
+    "text": "MLT 113 (min C) and MLT 115 (min C) and MLT 117 (min C) and CHM 121 (min C) and CHM 122 (min C)",
+    "courses": [
+      "MLT 113",
+      "MLT 115",
+      "MLT 117",
+      "CHM 121",
+      "CHM 122"
+    ]
+  },
+  "MLT 220": {
+    "text": "MLT 215 (min C)",
+    "courses": [
+      "MLT 215"
+    ]
+  },
+  "MLT 221": {
+    "text": "MLT 215 (min C)",
+    "courses": [
+      "MLT 215"
+    ]
+  },
+  "MLT 225": {
+    "text": "MLT 215 (min C) and BIO 151 (min C) or BIO 251 (min C)",
+    "courses": [
+      "MLT 215",
+      "BIO 151",
+      "BIO 251"
+    ]
+  },
+  "MOA 155": {
+    "text": "MRT 110 and CIS 115 and MOA 115 and MOA 141 and MOA 142 and MOA 144 and MOA 147 and PHB 110 and MOA 156",
+    "courses": [
+      "MRT 110",
+      "CIS 115",
+      "MOA 115",
+      "MOA 141",
+      "MOA 142",
+      "MOA 144",
+      "MOA 147",
+      "PHB 110",
+      "MOA 156"
+    ]
+  },
+  "MOA 156": {
+    "text": "MRT 110 and CIS 115 and MOA 115 and MOA 141 and MOA 142 and MOA 144 and MOA 147 and PHB 110 and MOA 155",
+    "courses": [
+      "MRT 110",
+      "CIS 115",
+      "MOA 115",
+      "MOA 141",
+      "MOA 142",
+      "MOA 144",
+      "MOA 147",
+      "PHB 110",
+      "MOA 155"
+    ]
+  },
+  "MPTV 1022": {
+    "text": "MPTV 1011",
+    "courses": [
+      "MPTV 1011"
+    ]
+  },
+  "MPTV 2031": {
+    "text": "MPTV 1011",
+    "courses": [
+      "MPTV 1011"
+    ]
+  },
+  "MPTV 2032": {
+    "text": "MPTV 2022",
+    "courses": [
+      "MPTV 2022"
+    ]
+  },
+  "MPTV 2113": {
+    "text": "MPTV 1011",
+    "courses": [
+      "MPTV 1011"
+    ]
+  },
+  "MPTV 2131": {
+    "text": "MPTV 2113",
+    "courses": [
+      "MPTV 2113"
+    ]
+  },
+  "MPTV 2140": {
+    "text": "MPTV 2131",
+    "courses": [
+      "MPTV 2131"
+    ]
+  },
+  "MPTV 2236": {
+    "text": "NGLI 1135 or NGLI 1145 or MPTV 1154",
+    "courses": [
+      "NGLI 1135",
+      "NGLI 1145",
+      "MPTV 1154"
+    ]
+  },
+  "MPTV 2237": {
+    "text": "MPTV 1135 or MPTV 1145 or MPTV 1154",
+    "courses": [
+      "MPTV 1135",
+      "MPTV 1145",
+      "MPTV 1154"
+    ]
+  },
+  "MPTV 2333": {
+    "text": "MPTV 1324",
+    "courses": [
+      "MPTV 1324"
+    ]
+  },
+  "MPTV 2520": {
+    "text": "MPTV 1020",
+    "courses": [
+      "MPTV 1020"
+    ]
+  },
+  "MRI 201": {
+    "text": "MRI 200 (min C) and MRI 202",
+    "courses": [
+      "MRI 200",
+      "MRI 202"
+    ]
+  },
+  "MRI 202": {
+    "text": "MRI 200 (min C) and MRI 201 and MRI 210",
+    "courses": [
+      "MRI 200",
+      "MRI 201",
+      "MRI 210"
+    ]
+  },
+  "MRI 203": {
+    "text": "MRI 201 (min C) and MRI 202 and MRI 210 and MRI 205 and MRI 211",
+    "courses": [
+      "MRI 201",
+      "MRI 202",
+      "MRI 210",
+      "MRI 205",
+      "MRI 211"
+    ]
+  },
+  "MRI 205": {
+    "text": "MRI 201 (min C) and MRI 202 (min C) and MRI 210 and MRI 203",
+    "courses": [
+      "MRI 201",
+      "MRI 202",
+      "MRI 210",
+      "MRI 203"
+    ]
+  },
+  "MRI 206": {
+    "text": "MRI 200 and MRI 201 and MRI 202 and MRI 203 and MRI 205 and MRI 210 and MRI 211",
+    "courses": [
+      "MRI 200",
+      "MRI 201",
+      "MRI 202",
+      "MRI 203",
+      "MRI 205",
+      "MRI 210",
+      "MRI 211"
+    ]
+  },
+  "MRI 210": {
+    "text": "BIO 185 or BIO 186",
+    "courses": [
+      "BIO 185",
+      "BIO 186"
+    ]
+  },
+  "MRI 211": {
+    "text": "MRI 210 (min C)",
+    "courses": [
+      "MRI 210"
+    ]
+  },
+  "MRKT 100": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MRKT 101": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MRKT 102": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MRKT 103": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MRKT 104": {
+    "text": "MRKT 100",
+    "courses": [
+      "MRKT 100"
+    ]
+  },
+  "MRKT 106": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MRKT 107": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MRKT 108": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MRKT 200": {
+    "text": "MRKT 100",
+    "courses": [
+      "MRKT 100"
+    ]
+  },
+  "MRKT 201": {
+    "text": "MRKT 200",
+    "courses": [
+      "MRKT 200"
+    ]
+  },
+  "MRKT 202": {
+    "text": "MRKT 102",
+    "courses": [
+      "MRKT 102"
+    ]
+  },
+  "MRKT 205": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MRT 102": {
+    "text": "RDG 088 or RDG 089 or IEL 021",
+    "courses": [
+      "RDG 088",
+      "RDG 089",
+      "IEL 021"
+    ]
+  },
+  "MRT 110": {
+    "text": "RDG 088 or RDG 089 or IEL 021 or MRT 102",
+    "courses": [
+      "RDG 088",
+      "RDG 089",
+      "IEL 021",
+      "MRT 102"
+    ]
+  },
+  "MRT 113": {
+    "text": "MRT 133 and MRT 212",
+    "courses": [
+      "MRT 133",
+      "MRT 212"
+    ]
+  },
+  "MRT 115": {
+    "text": "MRT 114 and MRT 132 and MRT 133",
+    "courses": [
+      "MRT 114",
+      "MRT 132",
+      "MRT 133"
+    ]
+  },
+  "MTH 095": {
+    "text": "MTH 093 (min C)",
+    "courses": [
+      "MTH 093"
+    ]
+  },
+  "MTH 096": {
+    "text": "MTH 093 (min C)",
+    "courses": [
+      "MTH 093"
+    ]
+  },
+  "MTH 097": {
+    "text": "MTH 093 (min C)",
+    "courses": [
+      "MTH 093"
+    ]
+  },
+  "MTH 098": {
+    "text": "MTH 095 or MTH 096",
+    "courses": [
+      "MTH 095",
+      "MTH 096"
+    ]
+  },
+  "MTH 100": {
+    "text": "MTH 095 (min C)",
+    "courses": [
+      "MTH 095"
+    ]
+  },
+  "MTH 103": {
+    "text": "MTH 095 or MTH 097",
+    "courses": [
+      "MTH 095",
+      "MTH 097"
+    ]
+  },
+  "MTH 109": {
+    "text": "MTH 095 or MTH 096",
+    "courses": [
+      "MTH 095",
+      "MTH 096"
+    ]
+  },
+  "MTH 115": {
+    "text": "MTH 100 (min C)",
+    "courses": [
+      "MTH 100"
+    ]
+  },
+  "MTH 120": {
+    "text": "MTH 096 or MTH 098 or MTH 081",
+    "courses": [
+      "MTH 096",
+      "MTH 098",
+      "MTH 081"
+    ]
+  },
+  "MTH 122": {
+    "text": "MTH 121",
+    "courses": [
+      "MTH 121"
+    ]
+  },
+  "MTH 126": {
+    "text": "MTH 097 or MTH 100",
+    "courses": [
+      "MTH 097",
+      "MTH 100"
+    ]
+  },
+  "MTH 139": {
+    "text": "MTH 096 or MTH 098 or MTH 082",
+    "courses": [
+      "MTH 096",
+      "MTH 098",
+      "MTH 082"
+    ]
+  },
+  "MTH 141": {
+    "text": "MTH 083",
+    "courses": [
+      "MTH 083"
+    ]
+  },
+  "MTH 143": {
+    "text": "MTH 141",
+    "courses": [
+      "MTH 141"
+    ]
+  },
+  "MTH 145": {
+    "text": "MTH 141",
+    "courses": [
+      "MTH 141"
+    ]
+  },
+  "MTH 150": {
+    "text": "MTH 141 or MTH 142",
+    "courses": [
+      "MTH 141",
+      "MTH 142"
+    ]
+  },
+  "MTH 151": {
+    "text": "MTH 150",
+    "courses": [
+      "MTH 150"
+    ]
+  },
+  "MTH 152": {
+    "text": "MTH 151",
+    "courses": [
+      "MTH 151"
+    ]
+  },
+  "MTH 165": {
+    "text": "MTH 100 (min C) or MTH 100 (min C) and MTH 096 (min C)",
+    "courses": [
+      "MTH 100",
+      "MTH 096"
+    ]
+  },
+  "MTH 169": {
+    "text": "MTH 165 (min C) or MTH 165 (min C)",
+    "courses": [
+      "MTH 165"
+    ]
+  },
+  "MTH 180": {
+    "text": "MTH 165 (min C) and MTH 096",
+    "courses": [
+      "MTH 165",
+      "MTH 096"
+    ]
+  },
+  "MTH 201": {
+    "text": "MTH 151",
+    "courses": [
+      "MTH 151"
+    ]
+  },
+  "MTH 210": {
+    "text": "MTH 151",
+    "courses": [
+      "MTH 151"
+    ]
+  },
+  "MTH 211": {
+    "text": "MTH 161 or MTH 165",
+    "courses": [
+      "MTH 161",
+      "MTH 165"
+    ]
+  },
+  "MTH 212": {
+    "text": "MTH 141",
+    "courses": [
+      "MTH 141"
+    ]
+  },
+  "MTH 215": {
+    "text": "MTH 141",
+    "courses": [
+      "MTH 141"
+    ]
+  },
+  "MUS 110": {
+    "text": "MUS 112 and MUS 115",
+    "courses": [
+      "MUS 112",
+      "MUS 115"
+    ]
+  },
+  "MUS 111": {
+    "text": "MUS 110 and MUS 116 and MUS 117",
+    "courses": [
+      "MUS 110",
+      "MUS 116",
+      "MUS 117"
+    ]
+  },
+  "MUS 112": {
+    "text": "MUS 110 and MUS 115",
+    "courses": [
+      "MUS 110",
+      "MUS 115"
+    ]
+  },
+  "MUS 115": {
+    "text": "MUS 110 and MUS 112",
+    "courses": [
+      "MUS 110",
+      "MUS 112"
+    ]
+  },
+  "MUS 116": {
+    "text": "MUS 110 and MUS 115 and MUS 111 and MUS 117",
+    "courses": [
+      "MUS 110",
+      "MUS 115",
+      "MUS 111",
+      "MUS 117"
+    ]
+  },
+  "MUS 117": {
+    "text": "MUS 110 and MUS 115 and MUS 111 and MUS 116",
+    "courses": [
+      "MUS 110",
+      "MUS 115",
+      "MUS 111",
+      "MUS 116"
+    ]
+  },
+  "MUS 122": {
+    "text": "MUS 121 (min D)",
+    "courses": [
+      "MUS 121"
+    ]
+  },
+  "MUS 126": {
+    "text": "MUS 116",
+    "courses": [
+      "MUS 116"
+    ]
+  },
+  "MUS 127": {
+    "text": "MUS 117",
+    "courses": [
+      "MUS 117"
+    ]
+  },
+  "MUS 146": {
+    "text": "MUS 116 and MUS 117",
+    "courses": [
+      "MUS 116",
+      "MUS 117"
+    ]
+  },
+  "MUS 171": {
+    "text": "MUS 169",
+    "courses": [
+      "MUS 169"
+    ]
+  },
+  "MUS 172": {
+    "text": "MUS 171",
+    "courses": [
+      "MUS 171"
+    ]
+  },
+  "MUS 211": {
+    "text": "MUS 210 and MUS 215",
+    "courses": [
+      "MUS 210",
+      "MUS 215"
+    ]
+  },
+  "MUS 216": {
+    "text": "MUS 126",
+    "courses": [
+      "MUS 126"
+    ]
+  },
+  "MUS 217": {
+    "text": "MUS 127",
+    "courses": [
+      "MUS 127"
+    ]
+  },
+  "MUS 221": {
+    "text": "MUS 122",
+    "courses": [
+      "MUS 122"
+    ]
+  },
+  "MUS 222": {
+    "text": "MUS 221 (min D)",
+    "courses": [
+      "MUS 221"
+    ]
+  },
+  "MUS 231": {
+    "text": "MUS 131",
+    "courses": [
+      "MUS 131"
+    ]
+  },
+  "MUS 233": {
+    "text": "MUS 133",
+    "courses": [
+      "MUS 133"
+    ]
+  },
+  "MUS 235": {
+    "text": "MUS 135",
+    "courses": [
+      "MUS 135"
+    ]
+  },
+  "MUS 237": {
+    "text": "MUS 137",
+    "courses": [
+      "MUS 137"
+    ]
+  },
+  "MUS 239": {
+    "text": "MUS 139",
+    "courses": [
+      "MUS 139"
+    ]
+  },
+  "MUS 241": {
+    "text": "MUS 141",
+    "courses": [
+      "MUS 141"
+    ]
+  },
+  "MUS 243": {
+    "text": "MUS 143",
+    "courses": [
+      "MUS 143"
+    ]
+  },
+  "MUS 245": {
+    "text": "MUS 145",
+    "courses": [
+      "MUS 145"
+    ]
+  },
+  "MUS 246": {
+    "text": "MUS 146",
+    "courses": [
+      "MUS 146"
+    ]
+  },
+  "MUS 251": {
+    "text": "MUS 151",
+    "courses": [
+      "MUS 151"
+    ]
+  },
+  "MUS 253": {
+    "text": "MUS 153",
+    "courses": [
+      "MUS 153"
+    ]
+  },
+  "MUS 255": {
+    "text": "MUS 155",
+    "courses": [
+      "MUS 155"
+    ]
+  },
+  "MUS 257": {
+    "text": "MUS 157",
+    "courses": [
+      "MUS 157"
+    ]
+  },
+  "MUS 259": {
+    "text": "MUS 159",
+    "courses": [
+      "MUS 159"
+    ]
+  },
+  "MUS 261": {
+    "text": "MUS 161",
+    "courses": [
+      "MUS 161"
+    ]
+  },
+  "MUS 263": {
+    "text": "MUS 163",
+    "courses": [
+      "MUS 163"
+    ]
+  },
+  "MUS 265": {
+    "text": "MUS 165",
+    "courses": [
+      "MUS 165"
+    ]
+  },
+  "MUS 271": {
+    "text": "MUS 172",
+    "courses": [
+      "MUS 172"
+    ]
+  },
+  "MUSI 100": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "MUSI 101": {
+    "text": "MUSI 100 and ENGL 121 and MUSI 141",
+    "courses": [
+      "MUSI 100",
+      "ENGL 121",
+      "MUSI 141"
+    ]
+  },
+  "MUSI 115": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MUSI 122": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MUSI 124": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MUSI 126": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "MUSI 141": {
+    "text": "MUSI 100 and ENGL 121 and MUSI 101",
+    "courses": [
+      "MUSI 100",
+      "ENGL 121",
+      "MUSI 101"
+    ]
+  },
+  "MUSI 171": {
+    "text": "MUSI 170",
+    "courses": [
+      "MUSI 170"
+    ]
+  },
+  "MUSI 182": {
+    "text": "MUSI 181",
+    "courses": [
+      "MUSI 181"
+    ]
+  },
+  "MUSI 201": {
+    "text": "MUSI 102 and MUSI 142 and MUSI 241",
+    "courses": [
+      "MUSI 102",
+      "MUSI 142",
+      "MUSI 241"
+    ]
+  },
+  "MUSI 241": {
+    "text": "MUSI 102 and MUSI 142 and MUSI 201",
+    "courses": [
+      "MUSI 102",
+      "MUSI 142",
+      "MUSI 201"
+    ]
+  },
+  "MUSI 270": {
+    "text": "MUSI 171",
+    "courses": [
+      "MUSI 171"
+    ]
+  },
+  "MUSI 271": {
+    "text": "MUSI 270",
+    "courses": [
+      "MUSI 270"
+    ]
+  },
+  "MUSIC 2271": {
+    "text": "USIC 1172 or USIC 2201 or USIC 2207 and USIC 2201 and USIC 2207",
+    "courses": [
+      "USIC 1172",
+      "USIC 2201",
+      "USIC 2207"
+    ]
+  },
+  "MUSIC 252": {
+    "text": "USIC 153",
+    "courses": [
+      "USIC 153"
+    ]
+  },
+  "NAS 100": {
+    "text": "RDG 081 (min C)",
+    "courses": [
+      "RDG 081"
+    ]
+  },
+  "NET 110": {
+    "text": "NET 105",
+    "courses": [
+      "NET 105"
+    ]
+  },
+  "NET 125": {
+    "text": "NET 105",
+    "courses": [
+      "NET 105"
+    ]
+  },
+  "NET 175": {
+    "text": "NET 110 (min C)",
+    "courses": [
+      "NET 110"
+    ]
+  },
+  "NET 260": {
+    "text": "NET 110 (min C)",
+    "courses": [
+      "NET 110"
+    ]
+  },
+  "NET 280": {
+    "text": "NET 183",
+    "courses": [
+      "NET 183"
+    ]
+  },
+  "NLT 0130": {
+    "text": "NLT 0131",
+    "courses": [
+      "NLT 0131"
+    ]
+  },
+  "NLT 0131": {
+    "text": "NLT 0130",
+    "courses": [
+      "NLT 0130"
+    ]
+  },
+  "NLT 0132": {
+    "text": "NLT 0130 and NLT 0131 and NLT 0133",
+    "courses": [
+      "NLT 0130",
+      "NLT 0131",
+      "NLT 0133"
+    ]
+  },
+  "NLT 0133": {
+    "text": "NLT 0130 and NLT 0131 and NLT 0132",
+    "courses": [
+      "NLT 0130",
+      "NLT 0131",
+      "NLT 0132"
+    ]
+  },
+  "NUR 104": {
+    "text": "NUR 103 (min C)",
+    "courses": [
+      "NUR 103"
+    ]
+  },
+  "NUR 109": {
+    "text": "NUR 104 (min C) and NUR 112 (min C)",
+    "courses": [
+      "NUR 104",
+      "NUR 112"
+    ]
+  },
+  "NUR 110": {
+    "text": "NUR 104 (min C) and NUR 112 (min C)",
+    "courses": [
+      "NUR 104",
+      "NUR 112"
+    ]
+  },
+  "NUR 111": {
+    "text": "NUR 103 (min C)",
+    "courses": [
+      "NUR 103"
+    ]
+  },
+  "NUR 112": {
+    "text": "NUR 111 (min C)",
+    "courses": [
+      "NUR 111"
+    ]
+  },
+  "NUR 117": {
+    "text": "COM 100 or ENG 103 or PSY 102",
+    "courses": [
+      "COM 100",
+      "ENG 103",
+      "PSY 102"
+    ]
+  },
+  "NUR 141": {
+    "text": "NUR 120 and NUR 151 and NUR 160 and NUR 122 and NUR 152 and NUR 161",
+    "courses": [
+      "NUR 120",
+      "NUR 151",
+      "NUR 160",
+      "NUR 122",
+      "NUR 152",
+      "NUR 161"
+    ]
+  },
+  "NUR 151": {
+    "text": "BIO 131 (min C) or BIO 231 (min C) and BIO 132 (min C) or BIO 232 (min C) and NUR 109 (min C) and NUR 110 (min C)",
+    "courses": [
+      "BIO 131",
+      "BIO 231",
+      "BIO 132",
+      "BIO 232",
+      "NUR 109",
+      "NUR 110"
+    ]
+  },
+  "NUR 152": {
+    "text": "NUR 120 and NUR 151 and NUR 160 and NUR 122 and NUR 141",
+    "courses": [
+      "NUR 120",
+      "NUR 151",
+      "NUR 160",
+      "NUR 122",
+      "NUR 141"
+    ]
+  },
+  "NUR 161": {
+    "text": "NUR 120 and NUR 151 and NUR 160 and NUR 122 and NUR 141 and NUR 152",
+    "courses": [
+      "NUR 120",
+      "NUR 151",
+      "NUR 160",
+      "NUR 122",
+      "NUR 141",
+      "NUR 152"
+    ]
+  },
+  "NUR 165": {
+    "text": "NUR 122 and NUR 142 and NUR 162",
+    "courses": [
+      "NUR 122",
+      "NUR 142",
+      "NUR 162"
+    ]
+  },
+  "NUR 168": {
+    "text": "BIO 258 or NUR 117 or NUR 123",
+    "courses": [
+      "BIO 258",
+      "NUR 117",
+      "NUR 123"
+    ]
+  },
+  "NUR 169": {
+    "text": "BIO 258 or NUR 117 or NUR 123",
+    "courses": [
+      "BIO 258",
+      "NUR 117",
+      "NUR 123"
+    ]
+  },
+  "NUR 214": {
+    "text": "NUR 112 (min C)",
+    "courses": [
+      "NUR 112"
+    ]
+  },
+  "NUR 215": {
+    "text": "NUR 109 (min C) and NUR 110 (min C) and NUR 214 (min C)",
+    "courses": [
+      "NUR 109",
+      "NUR 110",
+      "NUR 214"
+    ]
+  },
+  "NUR 216": {
+    "text": "NUR 214 (min C) and NUR 215 (min C)",
+    "courses": [
+      "NUR 214",
+      "NUR 215"
+    ]
+  },
+  "NUR 217": {
+    "text": "NUR 214 (min C) and NUR 215 (min C)",
+    "courses": [
+      "NUR 214",
+      "NUR 215"
+    ]
+  },
+  "NUR 226": {
+    "text": "BIO 259 or NUR 168 or NUR 169 or PSY 280",
+    "courses": [
+      "BIO 259",
+      "NUR 168",
+      "NUR 169",
+      "PSY 280"
+    ]
+  },
+  "NUR 227": {
+    "text": "BIO 259 or NUR 168 or NUR 169 or PSY 280",
+    "courses": [
+      "BIO 259",
+      "NUR 168",
+      "NUR 169",
+      "PSY 280"
+    ]
+  },
+  "NUR 239": {
+    "text": "BIO 213 or NUR 226 or NUR 227",
+    "courses": [
+      "BIO 213",
+      "NUR 226",
+      "NUR 227"
+    ]
+  },
+  "NUR 249": {
+    "text": "BIO 213 or NUR 226 or NUR 227",
+    "courses": [
+      "BIO 213",
+      "NUR 226",
+      "NUR 227"
+    ]
+  },
+  "NUR 262": {
+    "text": "BIO 213 or NUR 226 or NUR 227",
+    "courses": [
+      "BIO 213",
+      "NUR 226",
+      "NUR 227"
+    ]
+  },
+  "NUR 264": {
+    "text": "BIO 180 or BIO 181 or NUR 122 or NUR 142 or NUR 162 or NUR 199 and NUR 240 and NUR 241 and NUR 250",
+    "courses": [
+      "BIO 180",
+      "BIO 181",
+      "NUR 122",
+      "NUR 142",
+      "NUR 162",
+      "NUR 199",
+      "NUR 240",
+      "NUR 241",
+      "NUR 250"
+    ]
+  },
+  "NURS 100": {
+    "text": "ENG 099",
+    "courses": [
+      "ENG 099"
+    ]
+  },
+  "NURS 110": {
+    "text": "NURS 102",
+    "courses": [
+      "NURS 102"
+    ]
+  },
+  "NURS 111": {
+    "text": "NURS 121",
+    "courses": [
+      "NURS 121"
+    ]
+  },
+  "NURS 171": {
+    "text": "NURS 170 or NURS 150",
+    "courses": [
+      "NURS 170",
+      "NURS 150"
+    ]
+  },
+  "NURS 194": {
+    "text": "NURS 192",
+    "courses": [
+      "NURS 192"
+    ]
+  },
+  "NURS 195": {
+    "text": "NURS 194",
+    "courses": [
+      "NURS 194"
+    ]
+  },
+  "NURS 296": {
+    "text": "NURS 195",
+    "courses": [
+      "NURS 195"
+    ]
+  },
+  "NURS 297": {
+    "text": "NURS 296",
+    "courses": [
+      "NURS 296"
+    ]
+  },
+  "OFT 104": {
+    "text": "OFT 100",
+    "courses": [
+      "OFT 100"
+    ]
+  },
+  "OFT 122": {
+    "text": "CIS 115",
+    "courses": [
+      "CIS 115"
+    ]
+  },
+  "OMT 207": {
+    "text": "OMT 206 or CPS 111",
+    "courses": [
+      "OMT 206",
+      "CPS 111"
+    ]
+  },
+  "OMT 211": {
+    "text": "OMT 210",
+    "courses": [
+      "OMT 210"
+    ]
+  },
+  "OMT 223": {
+    "text": "OMT 216",
+    "courses": [
+      "OMT 216"
+    ]
+  },
+  "OPH 140": {
+    "text": "OPH 112 and OPH 114",
+    "courses": [
+      "OPH 112",
+      "OPH 114"
+    ]
+  },
+  "OPH 141": {
+    "text": "OPH 140",
+    "courses": [
+      "OPH 140"
+    ]
+  },
+  "OPH 225": {
+    "text": "OPH 210",
+    "courses": [
+      "OPH 210"
+    ]
+  },
+  "OPH 232": {
+    "text": "OPH 141",
+    "courses": [
+      "OPH 141"
+    ]
+  },
+  "OS 127": {
+    "text": "OS 125",
+    "courses": [
+      "OS 125"
+    ]
+  },
+  "OTA 0100": {
+    "text": "BIO 0210 or BIO 0221",
+    "courses": [
+      "BIO 0210",
+      "BIO 0221"
+    ]
+  },
+  "OTA 0110": {
+    "text": "BIO 0210 or BIO 0221",
+    "courses": [
+      "BIO 0210",
+      "BIO 0221"
+    ]
+  },
+  "OTA 0131": {
+    "text": "BIO 0210 or BIO 0221",
+    "courses": [
+      "BIO 0210",
+      "BIO 0221"
+    ]
+  },
+  "OTA 0132": {
+    "text": "BIO 0210 or BIO 0221",
+    "courses": [
+      "BIO 0210",
+      "BIO 0221"
+    ]
+  },
+  "OTA 0200": {
+    "text": "OTA 0112 and OTA 0120 and OTA 0122 and OTA 0133 and OTA 0134",
+    "courses": [
+      "OTA 0112",
+      "OTA 0120",
+      "OTA 0122",
+      "OTA 0133",
+      "OTA 0134"
+    ]
+  },
+  "OTA 0205": {
+    "text": "OTA 0120 and OTA 0112 and OTA 0122 and OTA 0133",
+    "courses": [
+      "OTA 0120",
+      "OTA 0112",
+      "OTA 0122",
+      "OTA 0133"
+    ]
+  },
+  "OTA 0210": {
+    "text": "BIO 0210 (min C) or BIO 0221 (min C)",
+    "courses": [
+      "BIO 0210",
+      "BIO 0221"
+    ]
+  },
+  "OTA 0230": {
+    "text": "OTA 0133",
+    "courses": [
+      "OTA 0133"
+    ]
+  },
+  "OTA 0231": {
+    "text": "OTA 0120 and OTA 0112 and OTA 0122 and OTA 0133 and OTA 0134",
+    "courses": [
+      "OTA 0120",
+      "OTA 0112",
+      "OTA 0122",
+      "OTA 0133",
+      "OTA 0134"
+    ]
+  },
+  "OTA 0232": {
+    "text": "OTA 0120 and OTA 0112 and OTA 0122 and OTA 0133 and OTA 0134",
+    "courses": [
+      "OTA 0120",
+      "OTA 0112",
+      "OTA 0122",
+      "OTA 0133",
+      "OTA 0134"
+    ]
+  },
+  "OTA 101": {
+    "text": "ENG 099 (min C)",
+    "courses": [
+      "ENG 099"
+    ]
+  },
+  "PAR 101": {
+    "text": "EGL 101 (min C)",
+    "courses": [
+      "EGL 101"
+    ]
+  },
+  "PAR 110": {
+    "text": "PAR 101 (min C)",
+    "courses": [
+      "PAR 101"
+    ]
+  },
+  "PAR 113": {
+    "text": "PAR 101 (min C)",
+    "courses": [
+      "PAR 101"
+    ]
+  },
+  "PAR 140": {
+    "text": "PAR 120",
+    "courses": [
+      "PAR 120"
+    ]
+  },
+  "PAR 210": {
+    "text": "PAR 110 (min C)",
+    "courses": [
+      "PAR 110"
+    ]
+  },
+  "PAR 212": {
+    "text": "PAR 101 (min C) and PAR 110 (min C)",
+    "courses": [
+      "PAR 101",
+      "PAR 110"
+    ]
+  },
+  "PAR 215": {
+    "text": "PAR 101 (min C) and PAR 110 (min C)",
+    "courses": [
+      "PAR 101",
+      "PAR 110"
+    ]
+  },
+  "PAR 220": {
+    "text": "PAR 101 (min C) and PAR 110 (min C)",
+    "courses": [
+      "PAR 101",
+      "PAR 110"
+    ]
+  },
+  "PAR 227": {
+    "text": "PAR 101 (min C) and PAR 110 (min C)",
+    "courses": [
+      "PAR 101",
+      "PAR 110"
+    ]
+  },
+  "PAR 250": {
+    "text": "PAR 101 (min C) and PAR 110 (min C) and PAR 113 (min C)",
+    "courses": [
+      "PAR 101",
+      "PAR 110",
+      "PAR 113"
+    ]
+  },
+  "PE 0219": {
+    "text": "PE 0218",
+    "courses": [
+      "PE 0218"
+    ]
+  },
+  "PE 0220": {
+    "text": "PE 0219",
+    "courses": [
+      "PE 0219"
+    ]
+  },
+  "PE 0221": {
+    "text": "PE 0220",
+    "courses": [
+      "PE 0220"
+    ]
+  },
+  "PE 0222": {
+    "text": "PE 0221",
+    "courses": [
+      "PE 0221"
+    ]
+  },
+  "PED 129": {
+    "text": "PED 128",
+    "courses": [
+      "PED 128"
+    ]
+  },
+  "PED 160": {
+    "text": "PED 130",
+    "courses": [
+      "PED 130"
+    ]
+  },
+  "PEMW 114": {
+    "text": "PEMW 113 and PEMW 114",
+    "courses": [
+      "PEMW 113",
+      "PEMW 114"
+    ]
+  },
+  "PEMW 115": {
+    "text": "PEMW 113 and PEMW 114 and PEMW 115",
+    "courses": [
+      "PEMW 113",
+      "PEMW 114",
+      "PEMW 115"
+    ]
+  },
+  "PEMW 119": {
+    "text": "PEMW 113 and PEMW 114 and PEMW 115 and PEMW 119",
+    "courses": [
+      "PEMW 113",
+      "PEMW 114",
+      "PEMW 115",
+      "PEMW 119"
+    ]
+  },
+  "PEMW 137": {
+    "text": "PEMW 136",
+    "courses": [
+      "PEMW 136"
+    ]
+  },
+  "PHB 102": {
+    "text": "PHB 101 (min C)",
+    "courses": [
+      "PHB 101"
+    ]
+  },
+  "PHB 110": {
+    "text": "MRT 110",
+    "courses": [
+      "MRT 110"
+    ]
+  },
+  "PHB 111": {
+    "text": "PHB 110 and PHB 112",
+    "courses": [
+      "PHB 110",
+      "PHB 112"
+    ]
+  },
+  "PHB 112": {
+    "text": "PHB 110 and PHB 111",
+    "courses": [
+      "PHB 110",
+      "PHB 111"
+    ]
+  },
+  "PHIL 101": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "PHIL 103": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "PHOTO 1202": {
+    "text": "HOTO 1102",
+    "courses": [
+      "HOTO 1102"
+    ]
+  },
+  "PHOTO 1402": {
+    "text": "HOTO 1300 or HOTO 1201",
+    "courses": [
+      "HOTO 1300",
+      "HOTO 1201"
+    ]
+  },
+  "PHOTO 1450": {
+    "text": "HOTO 1200",
+    "courses": [
+      "HOTO 1200"
+    ]
+  },
+  "PHOTO 1606": {
+    "text": "HOTO 1201",
+    "courses": [
+      "HOTO 1201"
+    ]
+  },
+  "PHOTO 2006": {
+    "text": "HOTO 1201 or HOTO 1300",
+    "courses": [
+      "HOTO 1201",
+      "HOTO 1300"
+    ]
+  },
+  "PHOTO 2010": {
+    "text": "HOTO 1300",
+    "courses": [
+      "HOTO 1300"
+    ]
+  },
+  "PHS 118": {
+    "text": "PHS 119",
+    "courses": [
+      "PHS 119"
+    ]
+  },
+  "PHS 119": {
+    "text": "MAT 066 or MAT 068 or MAT 096",
+    "courses": [
+      "MAT 066",
+      "MAT 068",
+      "MAT 096"
+    ]
+  },
+  "PHS 130": {
+    "text": "MAT 066 or MAT 068 or MAT 096",
+    "courses": [
+      "MAT 066",
+      "MAT 068",
+      "MAT 096"
+    ]
+  },
+  "PHT 251": {
+    "text": "PHT 125 (min C)",
+    "courses": [
+      "PHT 125"
+    ]
+  },
+  "PHY 0216": {
+    "text": "MAT 0209",
+    "courses": [
+      "MAT 0209"
+    ]
+  },
+  "PHY 101": {
+    "text": "MAT 105",
+    "courses": [
+      "MAT 105"
+    ]
+  },
+  "PHY 102": {
+    "text": "PHY 101",
+    "courses": [
+      "PHY 101"
+    ]
+  },
+  "PHY 107": {
+    "text": "PHY 106",
+    "courses": [
+      "PHY 106"
+    ]
+  },
+  "PHY 115": {
+    "text": "MTH 100",
+    "courses": [
+      "MTH 100"
+    ]
+  },
+  "PHY 132": {
+    "text": "PHY 131 (min D)",
+    "courses": [
+      "PHY 131"
+    ]
+  },
+  "PHY 150": {
+    "text": "MAT 066 or MAT 068 or MAT 096",
+    "courses": [
+      "MAT 066",
+      "MAT 068",
+      "MAT 096"
+    ]
+  },
+  "PHY 151": {
+    "text": "PHY 150",
+    "courses": [
+      "PHY 150"
+    ]
+  },
+  "PHY 203": {
+    "text": "MTH 150",
+    "courses": [
+      "MTH 150"
+    ]
+  },
+  "PHY 204": {
+    "text": "PHY 203",
+    "courses": [
+      "PHY 203"
+    ]
+  },
+  "PHY 205": {
+    "text": "PHY 105 and MAT 201",
+    "courses": [
+      "PHY 105",
+      "MAT 201"
+    ]
+  },
+  "PHY 210": {
+    "text": "MTH 190",
+    "courses": [
+      "MTH 190"
+    ]
+  },
+  "PHY 211": {
+    "text": "PHY 210 or MTH 203",
+    "courses": [
+      "PHY 210",
+      "MTH 203"
+    ]
+  },
+  "PHY 263": {
+    "text": "MAT 229",
+    "courses": [
+      "MAT 229"
+    ]
+  },
+  "PHY 273": {
+    "text": "PHY 263",
+    "courses": [
+      "PHY 263"
+    ]
+  },
+  "PHY 280": {
+    "text": "MAT 165",
+    "courses": [
+      "MAT 165"
+    ]
+  },
+  "PHYS 100": {
+    "text": "ENGL 101 and MATH 107",
+    "courses": [
+      "ENGL 101",
+      "MATH 107"
+    ]
+  },
+  "PHYS 101": {
+    "text": "MATH 111 or MATH 114 or MATH 120",
+    "courses": [
+      "MATH 111",
+      "MATH 114",
+      "MATH 120"
+    ]
+  },
+  "PHYS 1102": {
+    "text": "PHYS 1101",
+    "courses": [
+      "PHYS 1101"
+    ]
+  },
+  "PHYS 1162": {
+    "text": "PHYS 1161",
+    "courses": [
+      "PHYS 1161"
+    ]
+  },
+  "PHYS 1185": {
+    "text": "PHYS 1184",
+    "courses": [
+      "PHYS 1184"
+    ]
+  },
+  "PHYS 1191": {
+    "text": "PHYS 1171",
+    "courses": [
+      "PHYS 1171"
+    ]
+  },
+  "PHYS 1192": {
+    "text": "PHYS 1191",
+    "courses": [
+      "PHYS 1191"
+    ]
+  },
+  "PHYS 1302": {
+    "text": "PHYS 1301",
+    "courses": [
+      "PHYS 1301"
+    ]
+  },
+  "PHYS 1362": {
+    "text": "PHYS 1361",
+    "courses": [
+      "PHYS 1361"
+    ]
+  },
+  "PHYS 141": {
+    "text": "ENGL 101 and MATH 108 and PHYS 141L and PHYS 141L",
+    "courses": [
+      "ENGL 101",
+      "MATH 108",
+      "PHYS 141L"
+    ]
+  },
+  "PHYS 141L": {
+    "text": "PHYS 141 and PHYS 141 and PHYS 141",
+    "courses": [
+      "PHYS 141"
+    ]
+  },
+  "PHYS 142": {
+    "text": "MATH 107 or ENGL 101 or MATH 108",
+    "courses": [
+      "MATH 107",
+      "ENGL 101",
+      "MATH 108"
+    ]
+  },
+  "PHYS 143": {
+    "text": "ENGL 101 and MATH 111",
+    "courses": [
+      "ENGL 101",
+      "MATH 111"
+    ]
+  },
+  "PHYS 152": {
+    "text": "PHYS 106 and MATH 120 and MATH 130",
+    "courses": [
+      "PHYS 106",
+      "MATH 120",
+      "MATH 130"
+    ]
+  },
+  "PHYS 1702": {
+    "text": "PHYS 1701",
+    "courses": [
+      "PHYS 1701"
+    ]
+  },
+  "PHYS 1732": {
+    "text": "PHYS 1731",
+    "courses": [
+      "PHYS 1731"
+    ]
+  },
+  "PHYS 1902": {
+    "text": "PHYS 1901",
+    "courses": [
+      "PHYS 1901"
+    ]
+  },
+  "PHYS 1905": {
+    "text": "HYSI 1904",
+    "courses": [
+      "HYSI 1904"
+    ]
+  },
+  "PHYS 1912": {
+    "text": "PHYS 1911",
+    "courses": [
+      "PHYS 1911"
+    ]
+  },
+  "PHYSI 1202": {
+    "text": "HYSI 1201 or HYSI 2111",
+    "courses": [
+      "HYSI 1201",
+      "HYSI 2111"
+    ]
+  },
+  "PHYSI 2111": {
+    "text": "MATH 2231",
+    "courses": [
+      "MATH 2231"
+    ]
+  },
+  "PHYSI 2112": {
+    "text": "HYSI 2111",
+    "courses": [
+      "HYSI 2111"
+    ]
+  },
+  "PHYTA 1205": {
+    "text": "ANAT 1551 or ANAT 1571",
+    "courses": [
+      "ANAT 1551",
+      "ANAT 1571"
+    ]
+  },
+  "PHYTA 2103": {
+    "text": "HYTA 1301",
+    "courses": [
+      "HYTA 1301"
+    ]
+  },
+  "PHYTA 2112": {
+    "text": "HYTA 1301",
+    "courses": [
+      "HYTA 1301"
+    ]
+  },
+  "PHYTA 2122": {
+    "text": "HYTA 1301",
+    "courses": [
+      "HYTA 1301"
+    ]
+  },
+  "PLS 220": {
+    "text": "PLS 140 and PLS 190",
+    "courses": [
+      "PLS 140",
+      "PLS 190"
+    ]
+  },
+  "PMED 143": {
+    "text": "PMED 142",
+    "courses": [
+      "PMED 142"
+    ]
+  },
+  "PN 0115": {
+    "text": "PN 0114 and PN 0121 and PN 0128",
+    "courses": [
+      "PN 0114",
+      "PN 0121",
+      "PN 0128"
+    ]
+  },
+  "PN 0116": {
+    "text": "PN 0115",
+    "courses": [
+      "PN 0115"
+    ]
+  },
+  "PN 0121": {
+    "text": "PN 0128",
+    "courses": [
+      "PN 0128"
+    ]
+  },
+  "PN 0125": {
+    "text": "PN 0114 and PN 0121 and PN 0128",
+    "courses": [
+      "PN 0114",
+      "PN 0121",
+      "PN 0128"
+    ]
+  },
+  "PN 0126": {
+    "text": "PN 0114 and PN 0121 and PN 0128",
+    "courses": [
+      "PN 0114",
+      "PN 0121",
+      "PN 0128"
+    ]
+  },
+  "PN 0128": {
+    "text": "PN 0121",
+    "courses": [
+      "PN 0121"
+    ]
+  },
+  "PN 0129": {
+    "text": "PN 0114 and PN 0121 and PN 0128",
+    "courses": [
+      "PN 0114",
+      "PN 0121",
+      "PN 0128"
+    ]
+  },
+  "PN 0170": {
+    "text": "PN 0114 and PN 0121 and PN 0128",
+    "courses": [
+      "PN 0114",
+      "PN 0121",
+      "PN 0128"
+    ]
+  },
+  "POL 201": {
+    "text": "POL 102 (min D)",
+    "courses": [
+      "POL 102"
+    ]
+  },
+  "POL 202": {
+    "text": "POL 201 (min D)",
+    "courses": [
+      "POL 201"
+    ]
+  },
+  "POLI 130": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "POLI 150": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "POLI 160": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "POLI 170": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "POLI 238": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "POLI 240": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "PSG 135": {
+    "text": "PSG 115 or PSG 120 and PSG 125",
+    "courses": [
+      "PSG 115",
+      "PSG 120",
+      "PSG 125"
+    ]
+  },
+  "PSG 210": {
+    "text": "PSG 125 and PSG 135",
+    "courses": [
+      "PSG 125",
+      "PSG 135"
+    ]
+  },
+  "PSY 0214": {
+    "text": "PSY 0211 (min C)",
+    "courses": [
+      "PSY 0211"
+    ]
+  },
+  "PSY 0216": {
+    "text": "PSY 0211",
+    "courses": [
+      "PSY 0211"
+    ]
+  },
+  "PSY 0219": {
+    "text": "PSY 0211",
+    "courses": [
+      "PSY 0211"
+    ]
+  },
+  "PSY 203": {
+    "text": "PSY 101 (min D)",
+    "courses": [
+      "PSY 101"
+    ]
+  },
+  "PSY 204": {
+    "text": "PSY 101",
+    "courses": [
+      "PSY 101"
+    ]
+  },
+  "PSY 205": {
+    "text": "PSY 101",
+    "courses": [
+      "PSY 101"
+    ]
+  },
+  "PSY 206": {
+    "text": "PSY 101 (min D)",
+    "courses": [
+      "PSY 101"
+    ]
+  },
+  "PSY 211": {
+    "text": "PSY 101 or HSA 101",
+    "courses": [
+      "PSY 101",
+      "HSA 101"
+    ]
+  },
+  "PSY 212": {
+    "text": "PSY 101 or HSA 101",
+    "courses": [
+      "PSY 101",
+      "HSA 101"
+    ]
+  },
+  "PSY 215": {
+    "text": "PSY 101 or PSY 104 or PSY 105",
+    "courses": [
+      "PSY 101",
+      "PSY 104",
+      "PSY 105"
+    ]
+  },
+  "PSY 221": {
+    "text": "PSY 101 (min D)",
+    "courses": [
+      "PSY 101"
+    ]
+  },
+  "PSY 225": {
+    "text": "PSY 102",
+    "courses": [
+      "PSY 102"
+    ]
+  },
+  "PSY 230": {
+    "text": "HSV 110 (min C) and HSV 121 (min C) and PSY 107 (min C) and PSY 130 (min C) and PSY 235 (min C) and PSY 238 (min C)",
+    "courses": [
+      "HSV 110",
+      "HSV 121",
+      "PSY 107",
+      "PSY 130",
+      "PSY 235",
+      "PSY 238"
+    ]
+  },
+  "PSY 231": {
+    "text": "PSY 230 (min D)",
+    "courses": [
+      "PSY 230"
+    ]
+  },
+  "PSY 237": {
+    "text": "HSV 122 (min C) or PSY 101 (min C) or PSY 238 (min C)",
+    "courses": [
+      "HSV 122",
+      "PSY 101",
+      "PSY 238"
+    ]
+  },
+  "PSY 280": {
+    "text": "PSY 102",
+    "courses": [
+      "PSY 102"
+    ]
+  },
+  "PSY 286": {
+    "text": "PSY 102",
+    "courses": [
+      "PSY 102"
+    ]
+  },
+  "PSYC 100": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "PSYC 101": {
+    "text": "PSYC 100",
+    "courses": [
+      "PSYC 100"
+    ]
+  },
+  "PSYCH 102": {
+    "text": "ENG 099",
+    "courses": [
+      "ENG 099"
+    ]
+  },
+  "PSYCH 1140": {
+    "text": "SYCH 1100",
+    "courses": [
+      "SYCH 1100"
+    ]
+  },
+  "PSYCH 2215": {
+    "text": "SYCH 1100",
+    "courses": [
+      "SYCH 1100"
+    ]
+  },
+  "PSYCH 2230": {
+    "text": "SYCH 1100",
+    "courses": [
+      "SYCH 1100"
+    ]
+  },
+  "PSYCH 2237": {
+    "text": "SYCH 1100",
+    "courses": [
+      "SYCH 1100"
+    ]
+  },
+  "PSYCH 2240": {
+    "text": "SYCH 1100",
+    "courses": [
+      "SYCH 1100"
+    ]
+  },
+  "PSYCH 2255": {
+    "text": "SYCH 1100",
+    "courses": [
+      "SYCH 1100"
+    ]
+  },
+  "PSYCH 2260": {
+    "text": "SYCH 1100",
+    "courses": [
+      "SYCH 1100"
+    ]
+  },
+  "PSYCH 2270": {
+    "text": "SYCH 1100",
+    "courses": [
+      "SYCH 1100"
+    ]
+  },
+  "PTA 100": {
+    "text": "BIO 131 or BIO 231 and HIT 104 and PTA 105",
+    "courses": [
+      "BIO 131",
+      "BIO 231",
+      "HIT 104",
+      "PTA 105"
+    ]
+  },
+  "PTA 101": {
+    "text": "ENG 151 or PSY 151 or SPE 151 or AOM 135",
+    "courses": [
+      "ENG 151",
+      "PSY 151",
+      "SPE 151",
+      "AOM 135"
+    ]
+  },
+  "PTA 103": {
+    "text": "BIO 131 or BIO 231 and HIT 104 and PTA 105 and PTA 100",
+    "courses": [
+      "BIO 131",
+      "BIO 231",
+      "HIT 104",
+      "PTA 105",
+      "PTA 100"
+    ]
+  },
+  "PTA 105": {
+    "text": "BIO 131 or BIO 231 and PTA 100 and HIT 104",
+    "courses": [
+      "BIO 131",
+      "BIO 231",
+      "PTA 100",
+      "HIT 104"
+    ]
+  },
+  "PTA 162": {
+    "text": "PTA 107 (min C) and PTA 110 (min C) and PTA 161 (min C) and BIO 132 (min C) or BIO 232 (min C)",
+    "courses": [
+      "PTA 107",
+      "PTA 110",
+      "PTA 161",
+      "BIO 132",
+      "BIO 232"
+    ]
+  },
+  "PTA 207": {
+    "text": "PTA 162 (min C) and PTA 210 and PTA 211 and PTA 241",
+    "courses": [
+      "PTA 162",
+      "PTA 210",
+      "PTA 211",
+      "PTA 241"
+    ]
+  },
+  "PTA 210": {
+    "text": "PTA 162 (min C) and PTA 207 and PTA 211 and PTA 241",
+    "courses": [
+      "PTA 162",
+      "PTA 207",
+      "PTA 211",
+      "PTA 241"
+    ]
+  },
+  "PTA 211": {
+    "text": "PTA 162 (min C) and PTA 207 and PTA 210 and PTA 241",
+    "courses": [
+      "PTA 162",
+      "PTA 207",
+      "PTA 210",
+      "PTA 241"
+    ]
+  },
+  "PTA 241": {
+    "text": "PTA 162 (min C) and PTA 207 and PTA 210 and PTA 211",
+    "courses": [
+      "PTA 162",
+      "PTA 207",
+      "PTA 210",
+      "PTA 211"
+    ]
+  },
+  "PTA 261": {
+    "text": "PTA 162 (min C) and PTA 207 (min C) and PTA 210 (min C) and PTA 241 (min C) or PTA 242 (min C)",
+    "courses": [
+      "PTA 162",
+      "PTA 207",
+      "PTA 210",
+      "PTA 241",
+      "PTA 242"
+    ]
+  },
+  "PTA 262": {
+    "text": "PTA 220 (min C) and PTA 230 (min C) and PTA 242 (min C) and PTA 261 (min C) and PTA 218 (min C)",
+    "courses": [
+      "PTA 220",
+      "PTA 230",
+      "PTA 242",
+      "PTA 261",
+      "PTA 218"
+    ]
+  },
+  "RA 100": {
+    "text": "RA 104",
+    "courses": [
+      "RA 104"
+    ]
+  },
+  "RA 104": {
+    "text": "RA 100",
+    "courses": [
+      "RA 100"
+    ]
+  },
+  "RA 122": {
+    "text": "BIO 258 and BIO 259",
+    "courses": [
+      "BIO 258",
+      "BIO 259"
+    ]
+  },
+  "RA 205": {
+    "text": "RA 111",
+    "courses": [
+      "RA 111"
+    ]
+  },
+  "RAD 101": {
+    "text": "RAD 125 and BIO 186",
+    "courses": [
+      "RAD 125",
+      "BIO 186"
+    ]
+  },
+  "RAD 103": {
+    "text": "RAD 100",
+    "courses": [
+      "RAD 100"
+    ]
+  },
+  "RAD 104": {
+    "text": "RAD 104 and RAD 106 and RAD 125 and BIO 186",
+    "courses": [
+      "RAD 104",
+      "RAD 106",
+      "RAD 125",
+      "BIO 186"
+    ]
+  },
+  "RAD 105": {
+    "text": "RAD 101 (min C) and RAD 104 (min C) and RAD 106 (min C) and RAD 125 (min C) and RAD 126",
+    "courses": [
+      "RAD 101",
+      "RAD 104",
+      "RAD 106",
+      "RAD 125",
+      "RAD 126"
+    ]
+  },
+  "RAD 106": {
+    "text": "RAD 104 and RAD 106 and RAD 125",
+    "courses": [
+      "RAD 104",
+      "RAD 106",
+      "RAD 125"
+    ]
+  },
+  "RAD 107": {
+    "text": "RAD 106 (min C) and RAD 126",
+    "courses": [
+      "RAD 106",
+      "RAD 126"
+    ]
+  },
+  "RAD 125": {
+    "text": "RAD 101 and RAD 104 and RAD 106 and RAD 125",
+    "courses": [
+      "RAD 101",
+      "RAD 104",
+      "RAD 106",
+      "RAD 125"
+    ]
+  },
+  "RAD 126": {
+    "text": "RAD 125 (min C)",
+    "courses": [
+      "RAD 125"
+    ]
+  },
+  "RAD 127": {
+    "text": "RAD 126",
+    "courses": [
+      "RAD 126"
+    ]
+  },
+  "RAD 202": {
+    "text": "RAD 210",
+    "courses": [
+      "RAD 210"
+    ]
+  },
+  "RAD 204": {
+    "text": "RAD 225 and RAD 105 (min C) and RAD 127 (min C)",
+    "courses": [
+      "RAD 225",
+      "RAD 105",
+      "RAD 127"
+    ]
+  },
+  "RAD 205": {
+    "text": "PHY 115 (min C) and RAD 127 (min C) and RAD 225",
+    "courses": [
+      "PHY 115",
+      "RAD 127",
+      "RAD 225"
+    ]
+  },
+  "RAD 207": {
+    "text": "PHY 115 (min C) and RAD 127 (min C) and RAD 225 (min C)",
+    "courses": [
+      "PHY 115",
+      "RAD 127",
+      "RAD 225"
+    ]
+  },
+  "RAD 210": {
+    "text": "RAD 202",
+    "courses": [
+      "RAD 202"
+    ]
+  },
+  "RAD 222": {
+    "text": "RAD 102 or RAD 112 or RAD 150 or RAD 160 or RAD 170 and RAD 253 and RAD 263 and RAD 280",
+    "courses": [
+      "RAD 102",
+      "RAD 112",
+      "RAD 150",
+      "RAD 160",
+      "RAD 170",
+      "RAD 253",
+      "RAD 263",
+      "RAD 280"
+    ]
+  },
+  "RAD 225": {
+    "text": "RAD 127",
+    "courses": [
+      "RAD 127"
+    ]
+  },
+  "RAD 226": {
+    "text": "RAD 225",
+    "courses": [
+      "RAD 225"
+    ]
+  },
+  "RAD 235": {
+    "text": "RAD 204 and RAD 225 (min C) and RAD 226",
+    "courses": [
+      "RAD 204",
+      "RAD 225",
+      "RAD 226"
+    ]
+  },
+  "RAD 253": {
+    "text": "RAD 103 and RAD 113 and RAD 222 and RAD 263 and RAD 280",
+    "courses": [
+      "RAD 103",
+      "RAD 113",
+      "RAD 222",
+      "RAD 263",
+      "RAD 280"
+    ]
+  },
+  "RAD 263": {
+    "text": "RAD 222 and RAD 253 and RAD 280",
+    "courses": [
+      "RAD 222",
+      "RAD 253",
+      "RAD 280"
+    ]
+  },
+  "RAD 280": {
+    "text": "RAD 150 or RAD 160 or RAD 170 and RAD 222 and RAD 253 and RAD 263",
+    "courses": [
+      "RAD 150",
+      "RAD 160",
+      "RAD 170",
+      "RAD 222",
+      "RAD 253",
+      "RAD 263"
+    ]
+  },
+  "RAS 290": {
+    "text": "RAS 232 and RAS 243 and RAS 260 and RAS 280",
+    "courses": [
+      "RAS 232",
+      "RAS 243",
+      "RAS 260",
+      "RAS 280"
+    ]
+  },
+  "RDG 082": {
+    "text": "RDG 081 (min C)",
+    "courses": [
+      "RDG 081"
+    ]
+  },
+  "RDTC 101": {
+    "text": "RDTC 100 and RDTC 108",
+    "courses": [
+      "RDTC 100",
+      "RDTC 108"
+    ]
+  },
+  "RDTC 103": {
+    "text": "RDTC 100 and RDTC 108",
+    "courses": [
+      "RDTC 100",
+      "RDTC 108"
+    ]
+  },
+  "RDTC 104": {
+    "text": "RDTC 100 and RDTC 108",
+    "courses": [
+      "RDTC 100",
+      "RDTC 108"
+    ]
+  },
+  "RDTC 109": {
+    "text": "RDTC 100 and RDTC 108",
+    "courses": [
+      "RDTC 100",
+      "RDTC 108"
+    ]
+  },
+  "RDTC 201": {
+    "text": "RDTC 105 and RDTC 106 and RDTC 107 and RDTC 110",
+    "courses": [
+      "RDTC 105",
+      "RDTC 106",
+      "RDTC 107",
+      "RDTC 110"
+    ]
+  },
+  "RDTC 202": {
+    "text": "RDTC 201 and RDTC 207",
+    "courses": [
+      "RDTC 201",
+      "RDTC 207"
+    ]
+  },
+  "RDTC 203": {
+    "text": "RDTC 201 and RDTC 207",
+    "courses": [
+      "RDTC 201",
+      "RDTC 207"
+    ]
+  },
+  "RDTC 204": {
+    "text": "RDTC 201 and RDTC 207",
+    "courses": [
+      "RDTC 201",
+      "RDTC 207"
+    ]
+  },
+  "RDTC 208": {
+    "text": "RDTC 201 and RDTC 207",
+    "courses": [
+      "RDTC 201",
+      "RDTC 207"
+    ]
+  },
+  "RES 107": {
+    "text": "RES 104 and RES 157",
+    "courses": [
+      "RES 104",
+      "RES 157"
+    ]
+  },
+  "RES 157": {
+    "text": "RES 154 and RES 107",
+    "courses": [
+      "RES 154",
+      "RES 107"
+    ]
+  },
+  "RESP 1101": {
+    "text": "RESP 1105 or RESP 1120 or RESP 1121",
+    "courses": [
+      "RESP 1105",
+      "RESP 1120",
+      "RESP 1121"
+    ]
+  },
+  "RESP 1105": {
+    "text": "RESP 1101 or RESP 1120 or RESP 1121",
+    "courses": [
+      "RESP 1101",
+      "RESP 1120",
+      "RESP 1121"
+    ]
+  },
+  "RESP 1120": {
+    "text": "RESP 1101 or RESP 1105 or RESP 1121",
+    "courses": [
+      "RESP 1101",
+      "RESP 1105",
+      "RESP 1121"
+    ]
+  },
+  "RESP 1121": {
+    "text": "RESP 1101 or RESP 1105 or RESP 1120",
+    "courses": [
+      "RESP 1101",
+      "RESP 1105",
+      "RESP 1120"
+    ]
+  },
+  "RESP 2205": {
+    "text": "RESP 1103 or RESP 1113 or RESP 2280 or RESP 2206",
+    "courses": [
+      "RESP 1103",
+      "RESP 1113",
+      "RESP 2280",
+      "RESP 2206"
+    ]
+  },
+  "RESP 2206": {
+    "text": "RESP 1103 or RESP 1113 or RESP 2205 or RESP 2280",
+    "courses": [
+      "RESP 1103",
+      "RESP 1113",
+      "RESP 2205",
+      "RESP 2280"
+    ]
+  },
+  "RESP 2280": {
+    "text": "RESP 1103 or RESP 1113 or RESP 2205 or RESP 2206",
+    "courses": [
+      "RESP 1103",
+      "RESP 1113",
+      "RESP 2205",
+      "RESP 2206"
+    ]
+  },
+  "RHT 097": {
+    "text": "RHT 101",
+    "courses": [
+      "RHT 101"
+    ]
+  },
+  "RSP 111": {
+    "text": "RSP 101 or RSP 103",
+    "courses": [
+      "RSP 101",
+      "RSP 103"
+    ]
+  },
+  "RTM 203": {
+    "text": "RTM 202",
+    "courses": [
+      "RTM 202"
+    ]
+  },
+  "RTM 213": {
+    "text": "RTM 209",
+    "courses": [
+      "RTM 209"
+    ]
+  },
+  "RTM 231": {
+    "text": "RTM 101",
+    "courses": [
+      "RTM 101"
+    ]
+  },
+  "RTM 240": {
+    "text": "MTH 108",
+    "courses": [
+      "MTH 108"
+    ]
+  },
+  "RUS 201": {
+    "text": "RUS 102 (min D)",
+    "courses": [
+      "RUS 102"
+    ]
+  },
+  "SIGN 1102": {
+    "text": "SIGN 1101",
+    "courses": [
+      "SIGN 1101"
+    ]
+  },
+  "SIGN 1103": {
+    "text": "SIGN 1101",
+    "courses": [
+      "SIGN 1101"
+    ]
+  },
+  "SIGN 2102": {
+    "text": "SIGN 2101",
+    "courses": [
+      "SIGN 2101"
+    ]
+  },
+  "SIGN 2103": {
+    "text": "SIGN 2102 or SIGN 2102",
+    "courses": [
+      "SIGN 2102"
+    ]
+  },
+  "SLPA 1105": {
+    "text": "SLPA 1101 or SLPA 1101",
+    "courses": [
+      "SLPA 1101"
+    ]
+  },
+  "SLPA 1110": {
+    "text": "SLPA 1109",
+    "courses": [
+      "SLPA 1109"
+    ]
+  },
+  "SLPA 205": {
+    "text": "SLPA 101 and SLPA 102",
+    "courses": [
+      "SLPA 101",
+      "SLPA 102"
+    ]
+  },
+  "SLPA 2101": {
+    "text": "SLPA 1106 or SLPA 1107 or SLPA 1110",
+    "courses": [
+      "SLPA 1106",
+      "SLPA 1107",
+      "SLPA 1110"
+    ]
+  },
+  "SOC 102": {
+    "text": "SOC 101",
+    "courses": [
+      "SOC 101"
+    ]
+  },
+  "SOC 205": {
+    "text": "SOC 101",
+    "courses": [
+      "SOC 101"
+    ]
+  },
+  "SOC 231": {
+    "text": "SOC 100",
+    "courses": [
+      "SOC 100"
+    ]
+  },
+  "SOCY 100": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "SON 150": {
+    "text": "SON 100 or SON 120 or AOT 135 or BIO 264",
+    "courses": [
+      "SON 100",
+      "SON 120",
+      "AOT 135",
+      "BIO 264"
+    ]
+  },
+  "SONO 113": {
+    "text": "SONO 110 and SONO 111 and SONO 112",
+    "courses": [
+      "SONO 110",
+      "SONO 111",
+      "SONO 112"
+    ]
+  },
+  "SONO 114": {
+    "text": "SONO 110 and SONO 111 and SONO 112",
+    "courses": [
+      "SONO 110",
+      "SONO 111",
+      "SONO 112"
+    ]
+  },
+  "SONO 116": {
+    "text": "SONO 110 and SONO 111 and SONO 112",
+    "courses": [
+      "SONO 110",
+      "SONO 111",
+      "SONO 112"
+    ]
+  },
+  "SONO 210": {
+    "text": "SONO 120",
+    "courses": [
+      "SONO 120"
+    ]
+  },
+  "SONO 211": {
+    "text": "SONO 210",
+    "courses": [
+      "SONO 210"
+    ]
+  },
+  "SONO 212": {
+    "text": "SONO 120",
+    "courses": [
+      "SONO 120"
+    ]
+  },
+  "SONO 213": {
+    "text": "SONO 212",
+    "courses": [
+      "SONO 212"
+    ]
+  },
+  "SPA 101": {
+    "text": "ENG 089 or ENG 109 or ENG 099 or ENG 103",
+    "courses": [
+      "ENG 089",
+      "ENG 109",
+      "ENG 099",
+      "ENG 103"
+    ]
+  },
+  "SPA 102": {
+    "text": "SPA 101",
+    "courses": [
+      "SPA 101"
+    ]
+  },
+  "SPA 201": {
+    "text": "SPA 102",
+    "courses": [
+      "SPA 102"
+    ]
+  },
+  "SPAN 101": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "SPAN 102": {
+    "text": "SPAN 101",
+    "courses": [
+      "SPAN 101"
+    ]
+  },
+  "SPCH 101": {
+    "text": "ENGL 121",
+    "courses": [
+      "ENGL 121"
+    ]
+  },
+  "SPCH 102": {
+    "text": "ENGL 101",
+    "courses": [
+      "ENGL 101"
+    ]
+  },
+  "SPE 108": {
+    "text": "RDG 082",
+    "courses": [
+      "RDG 082"
+    ]
+  },
+  "SPE 115": {
+    "text": "EGL 101 (min C) or SPE 103 (min C)",
+    "courses": [
+      "EGL 101",
+      "SPE 103"
+    ]
+  },
+  "SPN 102": {
+    "text": "SPN 101 (min D)",
+    "courses": [
+      "SPN 101"
+    ]
+  },
+  "SPN 201": {
+    "text": "SPN 102 (min D)",
+    "courses": [
+      "SPN 102"
+    ]
+  },
+  "SPN 202": {
+    "text": "SPN 201",
+    "courses": [
+      "SPN 201"
+    ]
+  },
+  "SPT 111": {
+    "text": "HIT 104 (min C) and SPT 110 (min C)",
+    "courses": [
+      "HIT 104",
+      "SPT 110"
+    ]
+  },
+  "SPT 120": {
+    "text": "HIT 104 (min C) and SPT 110 (min C) and SPT 111 (min C)",
+    "courses": [
+      "HIT 104",
+      "SPT 110",
+      "SPT 111"
+    ]
+  },
+  "SRT 298": {
+    "text": "SRT 299",
+    "courses": [
+      "SRT 299"
+    ]
+  },
+  "SRT 299": {
+    "text": "SRT 298",
+    "courses": [
+      "SRT 298"
+    ]
+  },
+  "SUR 101": {
+    "text": "BIO 121 (min C) and HIT 104 (min C)",
+    "courses": [
+      "BIO 121",
+      "HIT 104"
+    ]
+  },
+  "SUR 201": {
+    "text": "BIO 232 (min C) and SUR 102 (min C)",
+    "courses": [
+      "BIO 232",
+      "SUR 102"
+    ]
+  },
+  "SUR 202": {
+    "text": "BIO 251 (min C) and SUR 201 (min C)",
+    "courses": [
+      "BIO 251",
+      "SUR 201"
+    ]
+  },
+  "SUR 204": {
+    "text": "SUR 201 (min C)",
+    "courses": [
+      "SUR 201"
+    ]
+  },
+  "TDR 0198": {
+    "text": "TDR 0176",
+    "courses": [
+      "TDR 0176"
+    ]
+  },
+  "THE 202": {
+    "text": "THE 103 (min D)",
+    "courses": [
+      "THE 103"
+    ]
+  },
+  "THEAT 1114": {
+    "text": "HEAT 1111 or HEAT 1111",
+    "courses": [
+      "HEAT 1111"
+    ]
+  },
+  "THEAT 1121": {
+    "text": "HEAT 1120 or HEAT 1121 or HEAT 1120",
+    "courses": [
+      "HEAT 1120",
+      "HEAT 1121"
+    ]
+  },
+  "THEAT 2205": {
+    "text": "HEAT 1111 or HEAT 1111",
+    "courses": [
+      "HEAT 1111"
+    ]
+  },
+  "TPM 130": {
+    "text": "TPM 114 or TPM 120",
+    "courses": [
+      "TPM 114",
+      "TPM 120"
+    ]
+  },
+  "TPM 145": {
+    "text": "TPM 130",
+    "courses": [
+      "TPM 130"
+    ]
+  },
+  "TRUC 101": {
+    "text": "CDLA 160 and TRUC 102 and TRUC 103 and TRUC 104 and TRUC 105 and TRUC 107 and HAZM 101",
+    "courses": [
+      "CDLA 160",
+      "TRUC 102",
+      "TRUC 103",
+      "TRUC 104",
+      "TRUC 105",
+      "TRUC 107",
+      "HAZM 101"
+    ]
+  },
+  "TRUC 102": {
+    "text": "CDLA 160 and TRUC 101 and TRUC 103 and TRUC 104 and TRUC 105 and TRUC 107 and HAZM 101",
+    "courses": [
+      "CDLA 160",
+      "TRUC 101",
+      "TRUC 103",
+      "TRUC 104",
+      "TRUC 105",
+      "TRUC 107",
+      "HAZM 101"
+    ]
+  },
+  "TRUC 103": {
+    "text": "CDLA 160 and TRUC 101 and TRUC 102 and TRUC 104 and TRUC 105 and TRUC 107 and HAZM 101",
+    "courses": [
+      "CDLA 160",
+      "TRUC 101",
+      "TRUC 102",
+      "TRUC 104",
+      "TRUC 105",
+      "TRUC 107",
+      "HAZM 101"
+    ]
+  },
+  "TRUC 104": {
+    "text": "CDLA 160 and TRUC 101 and TRUC 102 and TRUC 103 and TRUC 105 and TRUC 107 and HAZM 101",
+    "courses": [
+      "CDLA 160",
+      "TRUC 101",
+      "TRUC 102",
+      "TRUC 103",
+      "TRUC 105",
+      "TRUC 107",
+      "HAZM 101"
+    ]
+  },
+  "TRUC 105": {
+    "text": "CDLA 160 and TRUC 101 and TRUC 102 and TRUC 103 and TRUC 104 and TRUC 107 and HAZM 101",
+    "courses": [
+      "CDLA 160",
+      "TRUC 101",
+      "TRUC 102",
+      "TRUC 103",
+      "TRUC 104",
+      "TRUC 107",
+      "HAZM 101"
+    ]
+  },
+  "TRUC 107": {
+    "text": "CDLA 160 and TRUC 101 and TRUC 102 and TRUC 103 and TRUC 104 and TRUC 105 and HAZM 101",
+    "courses": [
+      "CDLA 160",
+      "TRUC 101",
+      "TRUC 102",
+      "TRUC 103",
+      "TRUC 104",
+      "TRUC 105",
+      "HAZM 101"
+    ]
+  },
+  "TRUC 111": {
+    "text": "CDLB 160 and TRUC 112 and TRUC 113 and TRUC 114",
+    "courses": [
+      "CDLB 160",
+      "TRUC 112",
+      "TRUC 113",
+      "TRUC 114"
+    ]
+  },
+  "TRUC 112": {
+    "text": "CDLB 160 and TRUC 111 and TRUC 113 and TRUC 114",
+    "courses": [
+      "CDLB 160",
+      "TRUC 111",
+      "TRUC 113",
+      "TRUC 114"
+    ]
+  },
+  "TRUC 113": {
+    "text": "CDLB 160 and TRUC 111 and TRUC 112 and TRUC 114",
+    "courses": [
+      "CDLB 160",
+      "TRUC 111",
+      "TRUC 112",
+      "TRUC 114"
+    ]
+  },
+  "TRUC 114": {
+    "text": "CDLB 160 and TRUC 111 and TRUC 112 and TRUC 113",
+    "courses": [
+      "CDLB 160",
+      "TRUC 111",
+      "TRUC 112",
+      "TRUC 113"
+    ]
+  },
+  "URD 201": {
+    "text": "URD 102 (min D)",
+    "courses": [
+      "URD 102"
+    ]
+  },
+  "WEL 0101": {
+    "text": "OSH 0101 (min C)",
+    "courses": [
+      "OSH 0101"
+    ]
+  },
+  "WEL 103": {
+    "text": "MAT 100",
+    "courses": [
+      "MAT 100"
+    ]
+  },
+  "WEL 111": {
+    "text": "WEL 101",
+    "courses": [
+      "WEL 101"
+    ]
+  },
+  "WEL 112": {
+    "text": "WEL 111",
+    "courses": [
+      "WEL 111"
+    ]
+  },
+  "WEL 121": {
+    "text": "WEL 112",
+    "courses": [
+      "WEL 112"
+    ]
+  },
+  "WEL 122": {
+    "text": "WEL 121",
+    "courses": [
+      "WEL 121"
+    ]
+  },
+  "WEL 131": {
+    "text": "WEL 112",
+    "courses": [
+      "WEL 112"
+    ]
+  },
+  "WEL 132": {
+    "text": "WEL 131",
+    "courses": [
+      "WEL 131"
+    ]
+  },
+  "WEL 211": {
+    "text": "WEL 122",
+    "courses": [
+      "WEL 122"
+    ]
+  },
+  "WEL 212": {
+    "text": "WEL 211",
+    "courses": [
+      "WEL 211"
+    ]
+  },
+  "WEL 215": {
+    "text": "WEL 112",
+    "courses": [
+      "WEL 112"
+    ]
+  },
+  "WEL 221": {
+    "text": "WEL 122",
+    "courses": [
+      "WEL 122"
+    ]
+  },
+  "WELD 1112": {
+    "text": "WELD 1100",
+    "courses": [
+      "WELD 1100"
+    ]
+  },
+  "WELD 1122": {
+    "text": "WELD 1100",
+    "courses": [
+      "WELD 1100"
+    ]
+  },
+  "WELD 1132": {
+    "text": "WELD 1100",
+    "courses": [
+      "WELD 1100"
+    ]
+  },
+  "WELD 1134": {
+    "text": "WELD 1132",
+    "courses": [
+      "WELD 1132"
+    ]
+  },
+  "WELD 1142": {
+    "text": "WELD 1100",
+    "courses": [
+      "WELD 1100"
+    ]
+  },
+  "WELD 1146": {
+    "text": "WELD 1142",
+    "courses": [
+      "WELD 1142"
+    ]
+  },
+  "WELD 1151": {
+    "text": "WELD 1122",
+    "courses": [
+      "WELD 1122"
+    ]
+  },
+  "WELD 1160": {
+    "text": "WELD 1100 or WELD 1112 or WELD 1122 or WELD 1132 or WELD 1142",
+    "courses": [
+      "WELD 1100",
+      "WELD 1112",
+      "WELD 1122",
+      "WELD 1132",
+      "WELD 1142"
+    ]
+  },
+  "WELD 2001": {
+    "text": "WELD 1100 or WELD 2000",
+    "courses": [
+      "WELD 1100",
+      "WELD 2000"
+    ]
+  },
+  "WELD 2002": {
+    "text": "WELD 1100 or WELD 2000",
+    "courses": [
+      "WELD 1100",
+      "WELD 2000"
+    ]
+  },
+  "WELD 2003": {
+    "text": "WELD 1100 or WELD 2000",
+    "courses": [
+      "WELD 1100",
+      "WELD 2000"
+    ]
+  },
+  "WELD 2004": {
+    "text": "WELD 1100 or WELD 2000",
+    "courses": [
+      "WELD 1100",
+      "WELD 2000"
+    ]
+  },
+  "WELD 239": {
+    "text": "WELD 242",
+    "courses": [
+      "WELD 242"
+    ]
+  },
+  "WIND 200": {
+    "text": "WIND 150",
+    "courses": [
+      "WIND 150"
+    ]
+  },
+  "WLD 104": {
+    "text": "WLD 100 (min C)",
+    "courses": [
+      "WLD 100"
+    ]
+  },
+  "WLD 110": {
+    "text": "WLD 100 (min C)",
+    "courses": [
+      "WLD 100"
+    ]
+  },
+  "WLD 112": {
+    "text": "WLD 111",
+    "courses": [
+      "WLD 111"
+    ]
+  },
+  "WLD 114": {
+    "text": "WLD 100 (min C)",
+    "courses": [
+      "WLD 100"
+    ]
+  },
+  "WLD 121": {
+    "text": "WLD 112",
+    "courses": [
+      "WLD 112"
+    ]
+  },
+  "WLD 123": {
+    "text": "WLD 112",
+    "courses": [
+      "WLD 112"
+    ]
+  },
+  "WLD 133": {
+    "text": "WLD 131 or WLD 132 or WLD 131 or WLD 132",
+    "courses": [
+      "WLD 131",
+      "WLD 132"
+    ]
+  },
+  "WLD 138": {
+    "text": "WLD 137",
+    "courses": [
+      "WLD 137"
+    ]
+  },
+  "WLD 140": {
+    "text": "WLD 122 and WLD 141",
+    "courses": [
+      "WLD 122",
+      "WLD 141"
+    ]
+  },
+  "WLD 141": {
+    "text": "WLD 121 or WLD 131",
+    "courses": [
+      "WLD 121",
+      "WLD 131"
+    ]
+  },
+  "WLD 152": {
+    "text": "WLD 151",
+    "courses": [
+      "WLD 151"
+    ]
+  },
+  "WT 124": {
+    "text": "WT 122",
+    "courses": [
+      "WT 122"
+    ]
+  },
+  "WT 133": {
+    "text": "WT 116",
+    "courses": [
+      "WT 116"
+    ]
+  },
+  "WT 233": {
+    "text": "WT 133",
+    "courses": [
+      "WT 133"
+    ]
+  },
+  "WT 244": {
+    "text": "WT 116",
+    "courses": [
+      "WT 116"
+    ]
+  },
+  "WT 246": {
+    "text": "WT 244",
+    "courses": [
+      "WT 244"
+    ]
+  },
+  "WT 258": {
+    "text": "WT 116 or WT 128",
+    "courses": [
+      "WT 116",
+      "WT 128"
+    ]
+  },
+  "WT 268": {
+    "text": "WT 257",
+    "courses": [
+      "WT 257"
+    ]
+  },
+  "XRY 105": {
+    "text": "XRY 100 (min C) and XRY 102 (min C) and XRY 101 (min C) and XRY 103 (min C)",
+    "courses": [
+      "XRY 100",
+      "XRY 102",
+      "XRY 101",
+      "XRY 103"
+    ]
+  },
+  "XRY 201": {
+    "text": "XRY 106 (min C) and XRY 110 (min C)",
+    "courses": [
+      "XRY 106",
+      "XRY 110"
+    ]
+  },
+  "XRY 202": {
+    "text": "XRY 108 (min C)",
+    "courses": [
+      "XRY 108"
+    ]
+  },
+  "XRY 204": {
+    "text": "XRY 106 (min C)",
+    "courses": [
+      "XRY 106"
+    ]
+  },
+  "XRY 206": {
+    "text": "XRY 100 (min C) and XRY 103 (min C) and BIO 231 (min C)",
+    "courses": [
+      "XRY 100",
+      "XRY 103",
+      "BIO 231"
+    ]
+  },
+  "XRY 208": {
+    "text": "XRY 201 (min C)",
+    "courses": [
+      "XRY 201"
+    ]
+  }
+}
