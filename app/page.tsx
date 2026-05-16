@@ -349,25 +349,6 @@ export default async function LandingPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="mt-auto border-t border-slate-200 dark:border-slate-700 py-8 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
-          <p className="font-mono uppercase tracking-[0.15em]">
-            © {new Date().getFullYear()} · A free public tool
-          </p>
-          <div className="flex gap-4">
-            <Link href="/colleges" className="hover:text-teal-600 transition-colors">
-              All colleges
-            </Link>
-            <Link href="/blog" className="hover:text-teal-600 transition-colors">
-              Blog
-            </Link>
-            <Link href="/privacy" className="hover:text-teal-600 transition-colors">
-              Privacy
-            </Link>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
