@@ -70,10 +70,10 @@ const flConfig: StateConfig = {
   ],
   scrapers: {
     courses: [
-      // Banner SSB 9 — 8 colleges (the largest cluster after the platform
-      // survey in #270). The other 20 FCS colleges use Banner 8, Jenzabar,
-      // Workday, custom apps, or are auth-gated; those will land in
-      // separate scrapers as Phase 2 follow-up PRs.
+      // Banner SSB 9 — 10 colleges (the largest cluster after the platform
+      // survey in #270). The other 16 FCS colleges use Banner 8, Workday
+      // (auth-gated), PeopleSoft, Coursedog, or custom apps; those will
+      // land in separate scrapers as Phase 2 follow-up PRs.
       { scripts: ["scripts/fl/scrape-banner-ssb.ts"], runner: "http" },
       // Banner 8 (legacy) — fgc + cfk, the only two FCS colleges on
       // classic Banner. Uses the shared template at lib/scrape-banner-8.
