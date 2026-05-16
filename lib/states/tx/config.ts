@@ -35,7 +35,20 @@ const txConfig: StateConfig = {
     ],
   },
   scrapers: {
-    // manual-only: courses — Phase 2 (course scraper) not yet wired up.
+    courses: [
+      // Houston Community College runs PeopleSoft Fluid with an ICAJAX
+      // class search behind a guest session. Driven by Playwright — sweeps
+      // the keyword search to enumerate courses, then drills each course's
+      // SSR_CS_WRAP_FL detail page to capture section rows (CRN, dates,
+      // days/times, location, instructor, seats). Writes both the
+      // section file (data/tx/courses/houston-community-college/{TERM}.json)
+      // and a catalog dump (data/tx/coursedog-catalog/houston-community-college.json)
+      // for prereq aggregation.
+      {
+        scripts: ["scripts/tx/scrape-hccs.ts"],
+        runner: "playwright",
+      },
+    ],
     // manual-only: transfers — Phase 3 (transfer-equiv) not yet wired up.
     // manual-only: prereqs — Phase 4.
     // manual-only: programs — Phase 5+.
