@@ -1,5 +1,24 @@
 import type { StateConfig } from "../registry";
 
+const BANNER_SSB_URLS: Record<string, string> = {
+  "lansing-community-college": "https://starnetb.lcc.edu",
+  "southwestern-michigan-college": "https://xeprod.swmich.edu",
+  "washtenaw-community-college": "https://banner.wccnet.edu",
+};
+
+const COLLEAGUE_SELF_SERVICE_URLS: Record<string, string> = {
+  "alpena-community-college": "https://acc-ss.colleague.elluciancloud.com",
+  "delta-college": "https://ss.delta.edu",
+  "glen-oaks-community-college": "https://colss-prod.ec.glenoaks.edu",
+  "jackson-college": "https://jetstream.jccmi.edu",
+  "mid-michigan-college": "https://selfservice.midmich.edu",
+  "mott-community-college": "https://colss-prod.mottcsaas.elluciancloud.com",
+  "muskegon-community-college": "https://muskegoncc-ss.colleague.elluciancloud.com",
+  "oakland-community-college": "https://myocc.oaklandcc.edu",
+  "schoolcraft-community-college-district": "https://self-service.schoolcraft.edu",
+  "st-clair-county-community-college": "https://sc4sss03.sc4.edu",
+};
+
 const miConfig: StateConfig = {
   slug: "mi",
   name: "Michigan",
@@ -19,10 +38,19 @@ const miConfig: StateConfig = {
   defaultZip: "48933",
   defaultZipCity: "Lansing",
 
-  courseDiscoveryUrl: (_collegeSlug: string, _prefix: string, _number: string) =>
-    "https://www.mcca.org/",
+  courseDiscoveryUrl: (collegeSlug: string, _prefix: string, _number: string) => {
+    const bannerUrl = BANNER_SSB_URLS[collegeSlug];
+    if (bannerUrl) return `${bannerUrl}/StudentRegistrationSsb/ssb/classSearch/classSearch`;
+    const ssUrl = COLLEAGUE_SELF_SERVICE_URLS[collegeSlug];
+    return ssUrl ? `${ssUrl}/Student/Courses/Search` : "https://www.mcca.org/";
+  },
 
-  collegeCoursesUrl: (_collegeSlug: string) => "https://www.mcca.org/",
+  collegeCoursesUrl: (collegeSlug: string) => {
+    const bannerUrl = BANNER_SSB_URLS[collegeSlug];
+    if (bannerUrl) return `${bannerUrl}/StudentRegistrationSsb/ssb/classSearch/classSearch`;
+    const ssUrl = COLLEAGUE_SELF_SERVICE_URLS[collegeSlug];
+    return ssUrl ? `${ssUrl}/Student/Courses` : "https://www.mcca.org/";
+  },
 
   branding: {
     siteName: "Community College Path Michigan",
@@ -39,9 +67,12 @@ const miConfig: StateConfig = {
     ],
   },
   scrapers: {
-    // manual-only: courses — mixed-platform state, 15 colleges scraped via banner-ssb-9 / colleague templates per-college; per-state cron not yet wired.
+    courses: [
+      { scripts: ["scripts/mi/scrape-colleague.ts"], runner: "playwright" },
+      { scripts: ["scripts/mi/scrape-banner-ssb.ts"], runner: "http" },
+    ],
+    prereqs: { source: "aggregate-from-courses" },
     // manual-only: transfers — no articulation portal registered for MI yet.
-    // manual-only: prereqs — runs as part of course aggregation.
     // manual-only: programs — Phase 5+.
   },
 };
