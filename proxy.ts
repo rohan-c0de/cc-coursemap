@@ -117,7 +117,12 @@ export const config = {
   // excluded so the proxy doesn't run on every chunk request. Everything
   // else falls through quickly via `NextResponse.next()` when no branch
   // matches.
+  // Extended exclusion list: blog, colleges, about, contact, privacy, and
+  // other known static top-level routes never need middleware — they either
+  // hit NextResponse.next() immediately (wasted invocation + observability
+  // event) or are pure CDN/ISR responses. State pages (2-letter prefix) and
+  // auth routes still need the proxy for validation / session refresh.
   matcher: [
-    "/((?!_next/|favicon\\.ico|icon$|apple-icon$|robots\\.txt$|sitemap\\.xml$|sitemap/).*)",
+    "/((?!_next/|favicon\\.ico|icon$|apple-icon$|robots\\.txt$|sitemap\\.xml$|sitemap/|blog|colleges|about|contact|privacy|mockup).*)",
   ],
 };
