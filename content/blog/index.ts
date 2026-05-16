@@ -456,9 +456,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "virginia-community-college-transfer-guaranteed-admission",
     title:
-      "Virginia GAA Transfer: What's Actually Guaranteed (2026)",
+      "Virginia VCCS Transfer: What 'Guaranteed Admission' Actually Means (2026)",
     description:
-      "VCCS guaranteed admission covers university entry — not your major or your credits. What the GAA promises and how to avoid surprises.",
+      "Virginia's GAA guarantees a spot at the university — not your major or your credits. What transfers, what doesn't, and how to avoid the most common VCCS transfer mistakes.",
     date: "2026-04-04",
     category: "state-system-explainers",
     state: "va",
@@ -466,13 +466,27 @@ export const articles: ArticleMeta[] = [
     tags: ["transfer", "virginia", "vccs", "guaranteed-admission", "gaa"],
     cluster: "transfer-credit-guide",
     clusterRole: "spoke",
+    faqs: [
+      {
+        q: "What does Virginia's Guaranteed Admissions Agreement (GAA) actually guarantee?",
+        a: "The GAA guarantees admission to a Virginia public university — not to your preferred major and not that all your credits will transfer. You still need to meet GPA requirements (usually 2.0–3.0 depending on the school and major) and complete specific coursework. Credits transfer only to the extent they match university course equivalencies.",
+      },
+      {
+        q: "Which Virginia universities participate in the GAA?",
+        a: "Most Virginia public four-year institutions participate, including George Mason, James Madison, VCU, Virginia Tech, and Old Dominion. Each sets its own GPA floor and major-specific requirements on top of the base GAA terms. Check the VCCS transfer portal for the specific agreement with your target school.",
+      },
+      {
+        q: "Do all VCCS credits transfer to Virginia universities?",
+        a: "No. The GAA guarantees admission, not credit acceptance. Each university evaluates VCCS courses individually. A course that transfers as a direct match at GMU may land as a generic elective at VT. Use the VCCS transfer equivalency database before choosing courses if specific credit acceptance matters.",
+      },
+    ],
   },
   {
     slug: "north-carolina-community-college-unc-transfer-caa",
     title:
-      "NC Community College to UNC Transfer Guide (2026 CAA Rules)",
+      "NC Community College to UNC Transfer: What the CAA Actually Guarantees (2026)",
     description:
-      "How the Comprehensive Articulation Agreement works: which courses transfer as a block, GPA minimums, and the gaps that catch NC students off guard.",
+      "The Comprehensive Articulation Agreement guarantees junior standing — not major admission. Which courses transfer as a block, the GPA minimums, and the gaps that catch NC students off guard.",
     date: "2026-04-04",
     category: "state-system-explainers",
     state: "nc",
@@ -480,15 +494,29 @@ export const articles: ArticleMeta[] = [
     tags: ["transfer", "north-carolina", "ncccs", "unc", "caa"],
     cluster: "transfer-credit-guide",
     clusterRole: "spoke",
+    faqs: [
+      {
+        q: "What does the NC Comprehensive Articulation Agreement (CAA) guarantee?",
+        a: "The CAA guarantees junior standing at any UNC System school for students who complete the Associate in Arts or Associate in Science with a cumulative GPA of 2.0 or higher. It does not guarantee admission to competitive or impacted majors — nursing, engineering, and business programs set additional requirements on top of the CAA.",
+      },
+      {
+        q: "Which courses transfer under the NC CAA?",
+        a: "The CAA defines a Universal General Education Transfer Component (UGETC) — a set of courses that transfer as direct general education credit at all UNC System schools. Non-UGETC courses may transfer as electives or not at all, depending on the receiving university. Completing the full AA or AS is the safest path to maximizing accepted credits.",
+      },
+      {
+        q: "What GPA do I need to transfer from a NC community college to UNC?",
+        a: "The CAA base requirement is a 2.0 cumulative GPA. However, most UNC System universities require 2.5–3.0 for admission to specific majors, and competitive programs (nursing, engineering, business) often set higher bars. Check your target school's transfer admissions page for major-specific GPA requirements.",
+      },
+    ],
   },
 
   // --- Cluster B: Senior waivers and auditing (hub + spokes) ---
   {
     slug: "free-community-college-classes-for-seniors",
     title:
-      "Free Community College for Seniors: 17 States (2026)",
+      "Free Community College for Seniors (60+): All 17 States Listed (2026)",
     description:
-      "17 states waive tuition for residents 60–65+ at public community colleges. See each state's age threshold, credit vs. audit rules, and hidden fees.",
+      "17 states waive tuition for residents 60–65+ at public community colleges. Compare age thresholds, credit vs. audit rules, income limits, and hidden fees for every state.",
     date: "2026-04-04",
     category: "senior-waivers",
     state: null,
@@ -687,9 +715,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "taking-classes-at-multiple-community-colleges",
     title:
-      "Taking Classes at Two Community Colleges at Once (How-To)",
+      "Can You Enroll at Two Community Colleges at the Same Time? (Yes — Here's How)",
     description:
-      "Yes, you can enroll at multiple community colleges simultaneously. Here's how financial aid, transcripts, and transfer credits work across campuses.",
+      "Most students don't know dual enrollment is allowed. How financial aid, consortium agreements, transcripts, and transfer credits work when you're registered at two colleges at once.",
     date: "2026-04-04",
     category: "cross-college-scheduling",
     state: null,
@@ -757,9 +785,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "georgia-tcsg-transfer-credit-guide",
     title:
-      "Georgia Tech College Transfer Credits: UGA, GT, GSU (2026)",
+      "Georgia Community College Transfer Credits: UGA, Georgia Tech & GSU (2026)",
     description:
-      "The same TCSG course can be a direct match at Georgia Tech and worth nothing at UGA. See acceptance rates at all 5 Georgia public universities.",
+      "The same TCSG course can be a direct match at Georgia Tech and worth nothing at UGA. See how credits transfer across all 5 Georgia public universities — and how to maximize what counts.",
     date: "2026-04-06",
     category: "state-system-explainers",
     state: "ga",
@@ -773,9 +801,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "comparing-transfer-credit-across-universities",
     title:
-      "Why Transfer Credits Differ by University",
+      "Why the Same Community College Course Transfers Differently at Every University",
     description:
-      "Two schools can evaluate the same transcript and reach opposite conclusions. Compare direct matches vs. elective credit before picking a destination.",
+      "Two universities can evaluate the same transcript and reach opposite conclusions. How direct matches vs. elective credit work — and how to compare schools before you commit.",
     date: "2026-04-06",
     category: "transfer-confusion",
     state: null,
@@ -805,9 +833,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "south-carolina-senior-citizens-technical-colleges",
     title:
-      "SC Free College for 60+: Credit Courses, Not Just Audit",
+      "South Carolina Free College for Seniors 60+: Full Credit Courses Included",
     description:
-      "South Carolina waives tuition at all 16 technical colleges for residents 60+. Unlike most states, it covers credit-bearing courses — not just auditing.",
+      "SC waives tuition at all 16 technical colleges for residents 60+. Unlike most states, the waiver covers credit-bearing courses — not just auditing. Eligibility, enrollment steps, and what fees still apply.",
     date: "2026-04-04",
     category: "senior-waivers",
     state: "sc",
@@ -883,9 +911,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "online-vs-in-person-community-college-classes",
     title:
-      "Online vs In-Person vs Hybrid: Which Format to Pick",
+      "Online vs. In-Person Community College: Which Is Actually Easier? (Data)",
     description:
-      "Online isn't easier. Hybrid still has mandatory attendance. Compare completion rates, workload, and schedule flexibility for each community college format.",
+      "Online completion rates run 10–15% lower than in-person. Hybrid still has mandatory attendance days. Compare real completion data, workload, and schedule flexibility before you choose a format.",
     date: "2026-04-04",
     category: "mistake-avoidance",
     state: null,
@@ -897,9 +925,9 @@ export const articles: ArticleMeta[] = [
   {
     slug: "new-jersey-community-college-transfer-credit-guide",
     title:
-      "NJ Transfer Credits: Rutgers, Rowan & 38 More (2026 Data)",
+      "NJ Community College Transfer Credits: Which Universities Accept the Most (2026)",
     description:
-      "We analyzed every NJTransfer.org equivalency across 40 universities. See which schools accept the most NJ CC credits — and which reject them.",
+      "We analyzed every NJTransfer.org equivalency across 40 NJ universities. Rutgers, Rowan, NJIT, and Montclair — see acceptance rates by school and what to do when a course maps to elective credit.",
     date: "2026-04-12",
     category: "state-system-explainers",
     state: "nj",
