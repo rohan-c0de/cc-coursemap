@@ -1,17 +1,17 @@
 /**
  * scrape-banner-ssb.ts (FL)
  *
- * Scrapes course section data from the 8 Florida College System colleges
+ * Scrapes course section data from the 10 Florida College System colleges
  * that publish a publicly-accessible Ellucian Banner 9 Student Registration
  * SSB instance. Hosts were discovered by walking each college's registrar
- * page (April 2026 survey); the public host patterns are nowhere near
+ * page (April–May 2026 surveys); the public host patterns are nowhere near
  * uniform — Banner is hosted on Ellucian Cloud for some, on the college's
  * own subdomain for others, on non-standard ports for several.
  *
  * Cloned from scripts/nj/scrape-banner-ssb.ts (#168) — same fetch shape,
- * different colleges + state path. The other 20 FCS colleges use Banner 8,
- * Jenzabar, Workday, custom apps, or are auth-gated; those will be
- * separate scrapers in later Phase 2 PRs (see #270 follow-ups).
+ * different colleges + state path. The other 18 FCS colleges use Banner 8,
+ * Workday (auth-gated), PeopleSoft, Coursedog, or custom apps; those will
+ * be separate scrapers in later Phase 2 PRs (see #270 follow-ups).
  *
  * Usage:
  *   npx tsx scripts/fl/scrape-banner-ssb.ts --college valencia
@@ -24,12 +24,13 @@ import { pickRecentSsbTerms } from "../lib/resolve-terms";
 
 const PAGE_SIZE = 500;
 
-// FL colleges on publicly-accessible Banner SSB 9 (8 confirmed).
-// Survey notes — the rest of FCS uses Banner 8 / Jenzabar / Workday /
-// custom / auth-gated systems and gets separate scrapers:
-//   gulfcoast, phsc                  → Ellucian Cloud, port 8103
+// FL colleges on publicly-accessible Banner SSB 9 (10 confirmed).
+// Survey notes — the rest of FCS uses Banner 8 / Workday / PeopleSoft /
+// Coursedog / auth-gated systems and gets separate scrapers:
+//   gulfcoast, phsc, irsc            → Ellucian Cloud, port 8103
 //   polk, southflorida               → Ellucian Cloud, port 8090
 //   nwfsc, sjrstate, scf, valencia   → hosted on each college's own domain
+//   lssc                             → banner.lssc.edu (self-hosted)
 const BANNER_COLLEGES: Record<string, string> = {
   "gulfcoast":    "https://reg-prod.gcsc.elluciancloud.com:8103",
   "nwfsc":        "https://selfservice.nwfsc.edu",
@@ -39,6 +40,8 @@ const BANNER_COLLEGES: Record<string, string> = {
   "sjrstate":     "https://web.sjrstate.edu",
   "scf":          "https://banner.banprod.scf.edu",
   "valencia":     "https://banner.aws.valenciacollege.edu",
+  "irsc":         "https://reg-prod.irscsaas.elluciancloud.com:8103",
+  "lssc":         "https://banner.lssc.edu",
 };
 
 interface BannerTerm {
