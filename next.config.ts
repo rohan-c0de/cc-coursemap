@@ -92,7 +92,7 @@ const nextConfig: NextConfig = {
       { source: "/schedule", destination: "/va/schedule", permanent: true },
       { source: "/transfer", destination: "/va/transfer", permanent: true },
       { source: "/results", destination: "/va/results", permanent: true },
-      { source: "/about", destination: "/va/about", permanent: true },
+      // /about is now a sitewide page — no redirect needed
       { source: "/program/:slug", destination: "/va/program/:slug", permanent: true },
     ];
   },

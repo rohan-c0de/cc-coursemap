@@ -7,6 +7,7 @@ import ThemeProvider from "@/components/ThemeProvider";
 import AuthProvider from "@/components/AuthProvider";
 import LoginModal from "@/components/auth/LoginModal";
 import JsonLd from "@/components/JsonLd";
+import Footer from "@/components/Footer";
 import { getAllStates } from "@/lib/states/registry";
 import "./globals.css";
 
@@ -108,6 +109,7 @@ export default function RootLayout({
             <GoogleAnalytics />
             <AdSenseScript />
             {children}
+            <Footer />
             <LoginModal />
           </AuthProvider>
         </ThemeProvider>
