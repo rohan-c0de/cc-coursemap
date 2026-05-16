@@ -9,16 +9,15 @@ export default function PrivacyPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-8">Privacy Policy</h1>
-      <p className="text-sm text-gray-500 dark:text-slate-400 mb-8">Last updated: April 3, 2026</p>
+      <p className="text-sm text-gray-500 dark:text-slate-400 mb-8">Last updated: May 16, 2026</p>
 
       <div className="prose prose-gray dark:prose-invert max-w-none space-y-6 text-gray-700 dark:text-slate-300">
         <section>
           <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mt-8 mb-3">Overview</h2>
           <p>
-            Community College Path is a free tool that helps people find community college
-            courses available for auditing across multiple state community college
-            systems. We are committed to protecting your privacy and being transparent
-            about the data we collect.
+            Community College Path is a free course navigator covering 300+ community
+            colleges across the U.S. We are committed to protecting your privacy and
+            being transparent about the data we collect.
           </p>
         </section>
 
@@ -126,8 +125,14 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-xl font-semibold text-gray-900 dark:text-slate-100 mt-8 mb-3">Contact</h2>
           <p>
-            If you have questions about this privacy policy, please open an issue on
-            our{" "}
+            If you have questions about this privacy policy, email us at{" "}
+            <a
+              href="mailto:hello@communitycollegepath.com"
+              className="text-teal-600 underline hover:text-teal-800 dark:hover:text-teal-300"
+            >
+              hello@communitycollegepath.com
+            </a>
+            {" "}or open an issue on our{" "}
             <a
               href="https://github.com/rohan-c0de/cc-coursemap"
               target="_blank"
