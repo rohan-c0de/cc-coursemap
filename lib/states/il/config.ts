@@ -40,7 +40,10 @@ const ilConfig: StateConfig = {
       // CCC (City Colleges of Chicago) — 7 colleges, shared JSON API.
       // Single fetch returns all sections; no auth or pagination needed.
       { scripts: ["scripts/il/scrape-ccc.ts"], runner: "http" },
-      // manual-only: remaining 22 custom-platform colleges need bespoke scrapers.
+      // IECC (Illinois Eastern) — 4 colleges share one Banner SSB host,
+      // split by campusDescription.
+      { scripts: ["scripts/il/scrape-iecc.ts"], runner: "http" },
+      // manual-only: remaining 18 custom-platform colleges need bespoke scrapers.
     ],
     // manual-only: transfers — Phase 3 (transfer-equiv) not yet wired up.
     // manual-only: prereqs — Phase 4.

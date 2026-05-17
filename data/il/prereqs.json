@@ -381,6 +381,25 @@
       "MTH 095P"
     ]
   },
+  "ACC 2102": {
+    "text": "ACC 2101 (min D)",
+    "courses": [
+      "ACC 2101"
+    ]
+  },
+  "ACC 2121": {
+    "text": "ACC 2101 (min D) and ACC 2102 (min D)",
+    "courses": [
+      "ACC 2101",
+      "ACC 2102"
+    ]
+  },
+  "ACC 2298": {
+    "text": "ACC 2101 (min D)",
+    "courses": [
+      "ACC 2101"
+    ]
+  },
   "ACC 250": {
     "text": "ACC 200",
     "courses": [
@@ -1084,6 +1103,12 @@
     "text": "ART 109",
     "courses": [
       "ART 109"
+    ]
+  },
+  "ART 2105": {
+    "text": "ART 1113 (min D)",
+    "courses": [
+      "ART 1113"
     ]
   },
   "ART 212": {
@@ -3125,6 +3150,19 @@
       "CHM 111"
     ]
   },
+  "CHM 1130": {
+    "text": "CHM 1120 (min D) or MTH 1102 (min D)",
+    "courses": [
+      "CHM 1120",
+      "MTH 1102"
+    ]
+  },
+  "CHM 1131": {
+    "text": "CHM 1130 (min D)",
+    "courses": [
+      "CHM 1130"
+    ]
+  },
   "CHM 114": {
     "text": "CHM 113 (min C)",
     "courses": [
@@ -3167,6 +3205,20 @@
     "courses": [
       "CHM 111",
       "CHM 113"
+    ]
+  },
+  "CHM 2120": {
+    "text": "CHM 1132 (min D)",
+    "courses": [
+      "CHM 1132"
+    ]
+  },
+  "CHM 2121": {
+    "text": "CHM 1132 (min D) and CHM 1133 (min D) and CHM 2120 (min D)",
+    "courses": [
+      "CHM 1132",
+      "CHM 1133",
+      "CHM 2120"
     ]
   },
   "CHM 223": {
@@ -4071,6 +4123,19 @@
       "COS 122"
     ]
   },
+  "COS 1220": {
+    "text": "COS 1200 (min D) and COS 1210 (min D)",
+    "courses": [
+      "COS 1200",
+      "COS 1210"
+    ]
+  },
+  "COS 1252": {
+    "text": "COS 1251 (min D)",
+    "courses": [
+      "COS 1251"
+    ]
+  },
   "COS 221": {
     "text": "COS 122",
     "courses": [
@@ -4712,6 +4777,25 @@
     "text": "Advanced standing in the Dental Hygiene program.",
     "courses": []
   },
+  "DEQ 2232": {
+    "text": "DEQ 1221 (min D)DEQ 1215 (min D)",
+    "courses": [
+      "DEQ 1221",
+      "DEQ 1215"
+    ]
+  },
+  "DEQ 2243": {
+    "text": "DEQ 1212 (min D)",
+    "courses": [
+      "DEQ 1212"
+    ]
+  },
+  "DEQ 2249": {
+    "text": "DEQ 2236 (min D)",
+    "courses": [
+      "DEQ 2236"
+    ]
+  },
   "DISN 200": {
     "text": "DISN 100",
     "courses": [
@@ -5198,6 +5282,30 @@
     "text": "ENG 099",
     "courses": [
       "ENG 099"
+    ]
+  },
+  "EDS 1203": {
+    "text": "EDS 1202 (min D)",
+    "courses": [
+      "EDS 1202"
+    ]
+  },
+  "EDS 1204": {
+    "text": "EDS 1202 (min D)",
+    "courses": [
+      "EDS 1202"
+    ]
+  },
+  "EDS 1205": {
+    "text": "EDS 1202 (min D)",
+    "courses": [
+      "EDS 1202"
+    ]
+  },
+  "EDS 1206": {
+    "text": "EDS 1202 (min D)",
+    "courses": [
+      "EDS 1202"
     ]
   },
   "EDU 205": {
@@ -5737,10 +5845,22 @@
       "ENG 101"
     ]
   },
+  "ENG 1100": {
+    "text": "ENG 1111",
+    "courses": [
+      "ENG 1111"
+    ]
+  },
   "ENG 111": {
     "text": "ENG 101 (min C)",
     "courses": [
       "ENG 101"
+    ]
+  },
+  "ENG 1121": {
+    "text": "ENG 1111 (min C)",
+    "courses": [
+      "ENG 1111"
     ]
   },
   "ENG 123": {
@@ -6016,6 +6136,25 @@
     "courses": [
       "ENGLISH 101",
       "MATH 118"
+    ]
+  },
+  "EPM 2206": {
+    "text": "EPM 2204 (min C) and EPM 2205 (min C)",
+    "courses": [
+      "EPM 2204",
+      "EPM 2205"
+    ]
+  },
+  "EPM 2211": {
+    "text": "EPM 2205 (min C)",
+    "courses": [
+      "EPM 2205"
+    ]
+  },
+  "ESL 0933": {
+    "text": "ESL 0923 (min D)",
+    "courses": [
+      "ESL 0923"
     ]
   },
   "ESLINTG 100": {
@@ -6506,6 +6645,12 @@
       "GAME 254"
     ]
   },
+  "GEG 1104": {
+    "text": "GEG 1103 (min D)",
+    "courses": [
+      "GEG 1103"
+    ]
+  },
   "GEOG 101": {
     "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
     "courses": [
@@ -6756,6 +6901,25 @@
       "DV 101",
       "DV 102",
       "ENGLISH 101"
+    ]
+  },
+  "HEA 2264": {
+    "text": "BOC 1225 (min D) or HEA 1225 (min D)",
+    "courses": [
+      "BOC 1225",
+      "HEA 1225"
+    ]
+  },
+  "HEA 2268": {
+    "text": "HEA 2267 (min C)",
+    "courses": [
+      "HEA 2267"
+    ]
+  },
+  "HEA 2271": {
+    "text": "HEA 2267 (min C)",
+    "courses": [
+      "HEA 2267"
     ]
   },
   "HEAPRO 102": {
@@ -7651,6 +7815,42 @@
       "INFO 166"
     ]
   },
+  "INM 1200": {
+    "text": "INM 1206 (min D)",
+    "courses": [
+      "INM 1206"
+    ]
+  },
+  "INM 2205": {
+    "text": "INM 2200 (min D)",
+    "courses": [
+      "INM 2200"
+    ]
+  },
+  "INM 2206": {
+    "text": "INM 2200 (min D)",
+    "courses": [
+      "INM 2200"
+    ]
+  },
+  "INS 1113": {
+    "text": "INS 1112 (min D)",
+    "courses": [
+      "INS 1112"
+    ]
+  },
+  "INS 2121": {
+    "text": "INS 1122 (min D)",
+    "courses": [
+      "INS 1122"
+    ]
+  },
+  "INS 2141": {
+    "text": "INS 1142 (min D)",
+    "courses": [
+      "INS 1142"
+    ]
+  },
   "INST 206": {
     "text": "INST 107",
     "courses": [
@@ -7884,6 +8084,26 @@
     "text": "ENGL 101",
     "courses": [
       "ENGL 101"
+    ]
+  },
+  "JUS 2200": {
+    "text": "JUS 1211 (min D) and JUS 1200 (min D)",
+    "courses": [
+      "JUS 1211",
+      "JUS 1200"
+    ]
+  },
+  "JUS 2201": {
+    "text": "JUS 1200 (min D) and JUS 1210",
+    "courses": [
+      "JUS 1200",
+      "JUS 1210"
+    ]
+  },
+  "KEY 1113": {
+    "text": "KEY 1112 (min D)",
+    "courses": [
+      "KEY 1112"
     ]
   },
   "KHS 221": {
@@ -8151,6 +8371,12 @@
       "COM 101"
     ]
   },
+  "LIT 2101": {
+    "text": "ENG 1111 (min D)",
+    "courses": [
+      "ENG 1111"
+    ]
+  },
   "LIT 211": {
     "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
     "courses": [
@@ -8163,10 +8389,34 @@
       "COM 101"
     ]
   },
+  "LIT 2135": {
+    "text": "ENG 1111 (min D)",
+    "courses": [
+      "ENG 1111"
+    ]
+  },
   "LIT 214": {
     "text": "COM 101",
     "courses": [
       "COM 101"
+    ]
+  },
+  "LIT 2143": {
+    "text": "ENG 1111 (min C)",
+    "courses": [
+      "ENG 1111"
+    ]
+  },
+  "LIT 2151": {
+    "text": "ENG 1111 (min C)",
+    "courses": [
+      "ENG 1111"
+    ]
+  },
+  "LIT 2181": {
+    "text": "ENG 1111 (min C)",
+    "courses": [
+      "ENG 1111"
     ]
   },
   "LIT 220": {
@@ -8203,6 +8453,37 @@
     "text": "ENGL 101",
     "courses": [
       "ENGL 101"
+    ]
+  },
+  "LSC 1102": {
+    "text": "LSC 1101 (min D)",
+    "courses": [
+      "LSC 1101"
+    ]
+  },
+  "LSC 2110": {
+    "text": "LSC 1101 (min D)",
+    "courses": [
+      "LSC 1101"
+    ]
+  },
+  "LSC 2111": {
+    "text": "LSC 1101 (min D)",
+    "courses": [
+      "LSC 1101"
+    ]
+  },
+  "LSC 2112": {
+    "text": "LSC 2111 (min D)",
+    "courses": [
+      "LSC 2111"
+    ]
+  },
+  "LSC 2113": {
+    "text": "LSC 2111 (min D) and LSC 2112 (min D)",
+    "courses": [
+      "LSC 2111",
+      "LSC 2112"
     ]
   },
   "MA 0100": {
@@ -9372,10 +9653,39 @@
       "MLT 215"
     ]
   },
+  "MLT 2201": {
+    "text": "MLT 1201 (min C) and MLT 1202 (min C)",
+    "courses": [
+      "MLT 1201",
+      "MLT 1202"
+    ]
+  },
+  "MLT 2202": {
+    "text": "MLT 1210 (min C)",
+    "courses": [
+      "MLT 1210"
+    ]
+  },
+  "MLT 2205": {
+    "text": "MLT 1202 (min C) and MLT 1205 (min C) and MLT 1201 (min C) and MLT 1210 (min C)",
+    "courses": [
+      "MLT 1202",
+      "MLT 1205",
+      "MLT 1201",
+      "MLT 1210"
+    ]
+  },
   "MLT 221": {
     "text": "MLT 215 (min C)",
     "courses": [
       "MLT 215"
+    ]
+  },
+  "MLT 2220": {
+    "text": "CHM 1130 (min C) and CHM 1132 (min C)",
+    "courses": [
+      "CHM 1130",
+      "CHM 1132"
     ]
   },
   "MLT 225": {
@@ -9832,10 +10142,53 @@
       "MTH 096"
     ]
   },
+  "MTH 1100": {
+    "text": "MTH 1131",
+    "courses": [
+      "MTH 1131"
+    ]
+  },
+  "MTH 1112": {
+    "text": "MTH 1102",
+    "courses": [
+      "MTH 1102"
+    ]
+  },
+  "MTH 1114": {
+    "text": "MTH 1104",
+    "courses": [
+      "MTH 1104"
+    ]
+  },
   "MTH 115": {
     "text": "MTH 100 (min C)",
     "courses": [
       "MTH 100"
+    ]
+  },
+  "MTH 1151": {
+    "text": "MTH 1105 (min C)",
+    "courses": [
+      "MTH 1105"
+    ]
+  },
+  "MTH 1152": {
+    "text": "MTH 1102 (min C)",
+    "courses": [
+      "MTH 1102"
+    ]
+  },
+  "MTH 1171": {
+    "text": "MTH 1102 (min C) and MTH 1105 (min C)",
+    "courses": [
+      "MTH 1102",
+      "MTH 1105"
+    ]
+  },
+  "MTH 1172": {
+    "text": "MTH 1171 (min D)",
+    "courses": [
+      "MTH 1171"
     ]
   },
   "MTH 120": {
@@ -9955,6 +10308,12 @@
       "MTH 141"
     ]
   },
+  "MTH 2173": {
+    "text": "MTH 1172 (min D)",
+    "courses": [
+      "MTH 1172"
+    ]
+  },
   "MUS 110": {
     "text": "MUS 112 and MUS 115",
     "courses": [
@@ -10044,6 +10403,12 @@
     "courses": [
       "MUS 210",
       "MUS 215"
+    ]
+  },
+  "MUS 2121": {
+    "text": "MUS 1122 (min D)",
+    "courses": [
+      "MUS 1122"
     ]
   },
   "MUS 216": {
@@ -10556,6 +10921,40 @@
       "PSY 102"
     ]
   },
+  "NUR 1203": {
+    "text": "NUR 1201 (min C) and NUR 1202 (min C) and LSC 2111 (min C) and PSY 1101 (min C) and LSC 2112 (min C) and PSY 2109 (min C) and ENG 1111 (min C)",
+    "courses": [
+      "NUR 1201",
+      "NUR 1202",
+      "LSC 2111",
+      "PSY 1101",
+      "LSC 2112",
+      "PSY 2109",
+      "ENG 1111"
+    ]
+  },
+  "NUR 1204": {
+    "text": "LSC 2111 (min C) and PSY 1101 (min C) and LSC 2112 (min C) and PSY 2109 (min C) and ENG 1111 (min C)",
+    "courses": [
+      "LSC 2111",
+      "PSY 1101",
+      "LSC 2112",
+      "PSY 2109",
+      "ENG 1111"
+    ]
+  },
+  "NUR 1206": {
+    "text": "ENG 1111 (min C) and LSC 2111 (min C) and LSC 2112 (min C) and NUR 1201 (min C) and NUR 1202 (min C) and PSY 1101 (min C) and PSY 2109 (min C)",
+    "courses": [
+      "ENG 1111",
+      "LSC 2111",
+      "LSC 2112",
+      "NUR 1201",
+      "NUR 1202",
+      "PSY 1101",
+      "PSY 2109"
+    ]
+  },
   "NUR 141": {
     "text": "NUR 120 and NUR 151 and NUR 160 and NUR 122 and NUR 152 and NUR 161",
     "courses": [
@@ -10651,6 +11050,25 @@
       "NUR 215"
     ]
   },
+  "NUR 2201": {
+    "text": "NUR 1201 (min C) and NUR 1202 (min C) and LSC 2111 (min C) and PSY 1101 (min C) and LSC 2112 (min C) and PSY 2109 (min C) and ENG 1111 (min C)",
+    "courses": [
+      "NUR 1201",
+      "NUR 1202",
+      "LSC 2111",
+      "PSY 1101",
+      "LSC 2112",
+      "PSY 2109",
+      "ENG 1111"
+    ]
+  },
+  "NUR 2208": {
+    "text": "NUR 1201 (min C) and NUR 1202 (min C)",
+    "courses": [
+      "NUR 1201",
+      "NUR 1202"
+    ]
+  },
   "NUR 226": {
     "text": "BIO 259 or NUR 168 or NUR 169 or PSY 280",
     "courses": [
@@ -10667,6 +11085,12 @@
       "NUR 168",
       "NUR 169",
       "PSY 280"
+    ]
+  },
+  "NUR 2298": {
+    "text": "NUR 2201 (min C)",
+    "courses": [
+      "NUR 2201"
     ]
   },
   "NUR 239": {
@@ -11261,6 +11685,13 @@
       "PED 130"
     ]
   },
+  "PEI 2123": {
+    "text": "PEI 1123 (min D) and PEI 1124 (min D)",
+    "courses": [
+      "PEI 1123",
+      "PEI 1124"
+    ]
+  },
   "PEMW 114": {
     "text": "PEMW 113 and PEMW 114",
     "courses": [
@@ -11373,6 +11804,19 @@
     "courses": [
       "PHB 110",
       "PHB 111"
+    ]
+  },
+  "PHB 1220": {
+    "text": "EPM 1600 (min P) and NCPD N123 (min P)",
+    "courses": [
+      "EPM 1600",
+      "NCPD N123"
+    ]
+  },
+  "PHB 1222": {
+    "text": "PHB 1220 (min C)",
+    "courses": [
+      "PHB 1220"
     ]
   },
   "PHIL 101": {
@@ -11541,6 +11985,12 @@
       "PHY 106"
     ]
   },
+  "PHY 1120": {
+    "text": "MTH 1105 (min D)",
+    "courses": [
+      "MTH 1105"
+    ]
+  },
   "PHY 115": {
     "text": "MTH 100",
     "courses": [
@@ -11597,6 +12047,13 @@
     "courses": [
       "PHY 210",
       "MTH 203"
+    ]
+  },
+  "PHY 2112": {
+    "text": "PHY 2110 (min D) and MTH 1172 (min D)",
+    "courses": [
+      "PHY 2110",
+      "MTH 1172"
     ]
   },
   "PHY 263": {
@@ -12044,6 +12501,12 @@
       "POLISH 101"
     ]
   },
+  "PSC 1112": {
+    "text": "PSC 1111 (min D)",
+    "courses": [
+      "PSC 1111"
+    ]
+  },
   "PSG 135": {
     "text": "PSG 115 or PSG 120 and PSG 125",
     "courses": [
@@ -12339,6 +12802,25 @@
     "text": "Admittance into the Physical Therapy Assistant Program.",
     "courses": []
   },
+  "PTA 1203": {
+    "text": "LSC 2111 and HEA 1225",
+    "courses": [
+      "LSC 2111",
+      "HEA 1225"
+    ]
+  },
+  "PTA 1206": {
+    "text": "LSC 2111",
+    "courses": [
+      "LSC 2111"
+    ]
+  },
+  "PTA 1211": {
+    "text": "PTA 1203",
+    "courses": [
+      "PTA 1203"
+    ]
+  },
   "PTA 140": {
     "text": "Successful completion of PTA 110, 150 and 160.",
     "courses": [
@@ -12412,6 +12894,65 @@
     "text": "Admittance into the Physical Therapy Assistant Program.",
     "courses": []
   },
+  "PTA 2202": {
+    "text": "LSC 2111",
+    "courses": [
+      "LSC 2111"
+    ]
+  },
+  "PTA 2210": {
+    "text": "PTA 1221 and PTA 1203 and PTA 1205 and PTA 1206 and PTA 1210 and HEA 1202 and HEA 1225 and PSY 1101 and ENG 1111 and LSC 2111 and LSC 2112",
+    "courses": [
+      "PTA 1221",
+      "PTA 1203",
+      "PTA 1205",
+      "PTA 1206",
+      "PTA 1210",
+      "HEA 1202",
+      "HEA 1225",
+      "PSY 1101",
+      "ENG 1111",
+      "LSC 2111",
+      "LSC 2112"
+    ]
+  },
+  "PTA 2212": {
+    "text": "LSC 2111 (min C) and LSC 2112 (min C)",
+    "courses": [
+      "LSC 2111",
+      "LSC 2112"
+    ]
+  },
+  "PTA 2231": {
+    "text": "PTA 1203 (min C) and PTA 1205 (min C) and PTA 1206 (min C) and PTA 1210 (min C) and PTA 1221 (min C) and PTA 2202 (min C)",
+    "courses": [
+      "PTA 1203",
+      "PTA 1205",
+      "PTA 1206",
+      "PTA 1210",
+      "PTA 1221",
+      "PTA 2202"
+    ]
+  },
+  "PTA 2250": {
+    "text": "PTA 2249 and PTA 2211 and PTA 2210 and PTA 2202 and PTA 1211 and PTA 1210 and PTA 1206 and PTA 1205 and ENG 1111 and HEA 1205 and HEA 1202 and ENG 1111 and PSY 1101 and LSC 2112 and LSC 2111",
+    "courses": [
+      "PTA 2249",
+      "PTA 2211",
+      "PTA 2210",
+      "PTA 2202",
+      "PTA 1211",
+      "PTA 1210",
+      "PTA 1206",
+      "PTA 1205",
+      "ENG 1111",
+      "HEA 1205",
+      "HEA 1202",
+      "PSY 1101",
+      "LSC 2112",
+      "LSC 2111"
+    ]
+  },
   "PTA 240": {
     "text": "Admittance into the Physical Therapy Assistant Program.",
     "courses": []
@@ -12447,6 +12988,58 @@
       "PTA 242",
       "PTA 261",
       "PTA 218"
+    ]
+  },
+  "PTE 1124": {
+    "text": "PTE 1123 (min D)",
+    "courses": [
+      "PTE 1123"
+    ]
+  },
+  "PTE 2103": {
+    "text": "PTE 1112 (min D)",
+    "courses": [
+      "PTE 1112"
+    ]
+  },
+  "PTE 2107": {
+    "text": "PTE 1117 (min D) and PTE 1118 (min D)",
+    "courses": [
+      "PTE 1117",
+      "PTE 1118"
+    ]
+  },
+  "PTE 2113": {
+    "text": "PTE 1113 (min D) and PTE 1114 (min D)",
+    "courses": [
+      "PTE 1113",
+      "PTE 1114"
+    ]
+  },
+  "PTE 2115": {
+    "text": "PTE 1136 (min D) and PTE 1137 (min D)",
+    "courses": [
+      "PTE 1136",
+      "PTE 1137"
+    ]
+  },
+  "PTE 2119": {
+    "text": "PTE 1119 (min D) and PTE 1120 (min D)",
+    "courses": [
+      "PTE 1119",
+      "PTE 1120"
+    ]
+  },
+  "PTT 1201": {
+    "text": "PTT 2201",
+    "courses": [
+      "PTT 2201"
+    ]
+  },
+  "PTT 2205": {
+    "text": "MTH 1201 (min D)",
+    "courses": [
+      "MTH 1201"
     ]
   },
   "RA 100": {
@@ -12521,6 +13114,45 @@
       "RAD 126"
     ]
   },
+  "RAD 1201": {
+    "text": "RAD 1211 (min C) and RAD 1212 (min C)",
+    "courses": [
+      "RAD 1211",
+      "RAD 1212"
+    ]
+  },
+  "RAD 1204": {
+    "text": "RAD 1211 (min C) and RAD 1212 (min C)",
+    "courses": [
+      "RAD 1211",
+      "RAD 1212"
+    ]
+  },
+  "RAD 1206": {
+    "text": "RAD 1211 (min C) and RAD 1212 (min C)",
+    "courses": [
+      "RAD 1211",
+      "RAD 1212"
+    ]
+  },
+  "RAD 1219": {
+    "text": "LSC 2111 (min C) and LSC 2112 (min C) and RAD 1209 (min C) and RAD 1224 (min C) and RAD 1226 (min C)",
+    "courses": [
+      "LSC 2111",
+      "LSC 2112",
+      "RAD 1209",
+      "RAD 1224",
+      "RAD 1226"
+    ]
+  },
+  "RAD 1236": {
+    "text": "RAD 1209 (min C) and RAD 1226 (min C) and RAD 1224 (min C)",
+    "courses": [
+      "RAD 1209",
+      "RAD 1226",
+      "RAD 1224"
+    ]
+  },
   "RAD 125": {
     "text": "RAD 101 and RAD 104 and RAD 106 and RAD 125",
     "courses": [
@@ -12589,6 +13221,34 @@
       "RAD 253",
       "RAD 263",
       "RAD 280"
+    ]
+  },
+  "RAD 2222": {
+    "text": "RAD 1219 (min C) and RAD 1236 (min C)",
+    "courses": [
+      "RAD 1219",
+      "RAD 1236"
+    ]
+  },
+  "RAD 2227": {
+    "text": "RAD 1219 (min C) and RAD 1236 (min C)",
+    "courses": [
+      "RAD 1219",
+      "RAD 1236"
+    ]
+  },
+  "RAD 2228": {
+    "text": "RAD 1219 (min C) and RAD 1236 (min C)",
+    "courses": [
+      "RAD 1219",
+      "RAD 1236"
+    ]
+  },
+  "RAD 2246": {
+    "text": "RAD 1219 (min C) and RAD 1236 (min C)",
+    "courses": [
+      "RAD 1219",
+      "RAD 1236"
     ]
   },
   "RAD 225": {
@@ -13570,6 +14230,19 @@
       "SPN 201"
     ]
   },
+  "SPN 2112": {
+    "text": "SPN 1111 (min D) and SPN 1121 (min D)",
+    "courses": [
+      "SPN 1111",
+      "SPN 1121"
+    ]
+  },
+  "SPN 2121": {
+    "text": "SPN 2112 (min D)",
+    "courses": [
+      "SPN 2112"
+    ]
+  },
   "SPT 111": {
     "text": "HIT 104 (min C) and SPT 110 (min C)",
     "courses": [
@@ -13807,6 +14480,20 @@
       "HEAT 1111"
     ]
   },
+  "THM 1220": {
+    "text": "THM 1215 (min C) and THM 1250 (min C)",
+    "courses": [
+      "THM 1215",
+      "THM 1250"
+    ]
+  },
+  "THM 1255": {
+    "text": "THM 1215 (min C) and THM 1250 (min C)",
+    "courses": [
+      "THM 1215",
+      "THM 1250"
+    ]
+  },
   "THR ART 131": {
     "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
     "courses": [
@@ -13973,6 +14660,24 @@
       "URD 102"
     ]
   },
+  "VOC 1113": {
+    "text": "VOC 1112 (min D)",
+    "courses": [
+      "VOC 1112"
+    ]
+  },
+  "VOC 2121": {
+    "text": "VOC 1122 (min D)",
+    "courses": [
+      "VOC 1122"
+    ]
+  },
+  "VOC 2151": {
+    "text": "VOC 1152 (min D)",
+    "courses": [
+      "VOC 1152"
+    ]
+  },
   "WEL 0101": {
     "text": "OSH 0101 (min C)",
     "courses": [
@@ -14003,10 +14708,35 @@
       "WEL 112"
     ]
   },
+  "WEL 1210": {
+    "text": "WEL 1260 (min D)",
+    "courses": [
+      "WEL 1260"
+    ]
+  },
+  "WEL 1215": {
+    "text": "WEL 1260 (min D)",
+    "courses": [
+      "WEL 1260"
+    ]
+  },
   "WEL 122": {
     "text": "WEL 121",
     "courses": [
       "WEL 121"
+    ]
+  },
+  "WEL 1220": {
+    "text": "WEL 1260 (min D)",
+    "courses": [
+      "WEL 1260"
+    ]
+  },
+  "WEL 1230": {
+    "text": "WEL 1215 (min D) and WEL 1260 (min D)",
+    "courses": [
+      "WEL 1215",
+      "WEL 1260"
     ]
   },
   "WEL 131": {
