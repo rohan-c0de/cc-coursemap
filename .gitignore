@@ -55,3 +55,9 @@ next-env.d.ts
 
 # blog-pipeline regenerable slices (snapshot/cooldown stay; per-state computed slices regenerate)
 .blog-pipeline/slices/
+
+# Claude Code branch-lock — written by .claude/hooks/post-git-checkout.sh
+# whenever `git checkout -b NAME` runs. Used by .claude/git-branch-guard.sh
+# to block commits/pushes that target a different branch than the one
+# Claude deliberately created in this session.
+.claude/branch-lock

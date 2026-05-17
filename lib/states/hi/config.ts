@@ -47,7 +47,17 @@ const hiConfig: StateConfig = {
     ],
   },
   scrapers: {
-    // manual-only: courses — Phase 2 (course scraper) not yet wired up.
+    courses: [
+      // All 6 UHCC community colleges share a single Banner SSB instance at
+      // www.sis.hawaii.edu:9234. scrape-uhcc.ts pulls every section, splits
+      // by campusDescription, and drops UH 4-year campuses (Manoa, Hilo,
+      // West Oahu, Maui) plus online-only "World Wide Web" sections that
+      // can't be attributed to a specific community college.
+      {
+        scripts: ["scripts/hi/scrape-uhcc.ts"],
+        runner: "http",
+      },
+    ],
     // manual-only: transfers — Phase 3 (transfer-equiv) not yet wired up.
     // manual-only: prereqs — Phase 4.
     // manual-only: programs — Phase 5+.
