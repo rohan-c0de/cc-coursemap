@@ -35,9 +35,12 @@ const mtConfig: StateConfig = {
     ],
   },
   scrapers: {
-    // manual-only: courses — Phase 2 (course scraper) not yet wired up.
-    // manual-only: transfers — Phase 3 (transfer-equiv) not yet wired up.
-    // manual-only: prereqs — Phase 4.
+    courses: [
+      { scripts: ["scripts/mt/scrape-banner8.ts"], runner: "http" },
+      { scripts: ["scripts/mt/scrape-skc.ts"], runner: "http" },
+    ],
+    prereqs: { source: "aggregate-from-courses" },
+    // manual-only: transfers — no articulation portal identified.
     // manual-only: programs — Phase 5+.
   },
 };
