@@ -66,6 +66,16 @@ const txConfig: StateConfig = {
         scripts: ["scripts/tx/scrape-hccs.ts"],
         runner: "playwright",
       },
+      // Alamo Colleges District (San Antonio) — 5 colleges share one
+      // public Banner SSB 9 instance at lum010.alamo.edu:8010 (the
+      // aces.alamo.edu Banner is auth-gated; this lum010 host has guest
+      // read-only access). Same pattern as IECC + UHCC: one Banner
+      // session per term, split by campusDescription into 5 buckets.
+      // Closes issue #456 cluster #2.
+      {
+        scripts: ["scripts/tx/scrape-alamo.ts"],
+        runner: "http",
+      },
     ],
     // manual-only: transfers — Phase 3 (transfer-equiv) not yet wired up.
     // manual-only: prereqs — Phase 4.
