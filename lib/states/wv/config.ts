@@ -1,10 +1,5 @@
 import type { StateConfig } from "../registry";
 
-// manual-only: WV Phase 1 bootstrap only — no scrapers yet. Phase 2
-// (course scrapers, per WVCTCS college SIS platform) and Phase 3
-// (transfer data) will populate `scrapers` and flip
-// `transferSupported` to true.
-
 const wvConfig: StateConfig = {
   slug: "wv",
   name: "West Virginia",
@@ -59,6 +54,24 @@ const wvConfig: StateConfig = {
     { slug: "marshall", names: ["Marshall", "Marshall University"] },
     { slug: "shepherd", names: ["Shepherd", "Shepherd University"] },
   ],
+  scrapers: {
+    courses: [
+      // Eastern WV — WordPress + PDF schedule. PoC for issue #456 cluster #3.
+      // Auto-discovers term PDFs from the WP listing page and parses each
+      // via `pdftotext -layout` (poppler).
+      { scripts: ["scripts/wv/scrape-eastern-wv.ts"], runner: "http" },
+      // manual-only: 3 other WV colleges (blue-ridge, bridgevalley,
+      // southern-wv) — each needs its own scraper. Eastern WV is the
+      // cleanest WP+PDF example; replicate the pattern per-college.
+    ],
+    // Prereqs come from whatever inline text the scrapers expose — Eastern WV's
+    // PDFs don't carry prereqs, but the aggregator is harmless for an empty
+    // state and lights up automatically once colleges with prereqs land.
+    prereqs: { source: "aggregate-from-courses" },
+    // manual-only: transfers — no WV statewide articulation portal; future
+    // work is per-receiving-university or CollegeTransfer.Net (WVU, Marshall).
+    // manual-only: programs — Phase 5+.
+  },
 };
 
 export default wvConfig;
