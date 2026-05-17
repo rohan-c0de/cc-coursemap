@@ -1,15 +1,31 @@
 #!/usr/bin/env bash
 # PostToolUse hook: after a `git checkout -b NAME` Bash call completes
-# successfully, write NAME into .claude/branch-lock. This sets up the
-# branch guard so subsequent commits/pushes are validated against this
-# branch — preventing the silent-branch-swap mistakes that produced
-# cherry-pick rescues on PRs #460, #462, and #465.
+# successfully, write NAME into .claude/branch-lock — but only when it's
+# SAFE to overwrite the previous lock. "Safe" means the working tree has
+# no uncommitted changes to tracked files at the moment the hook runs.
 #
-# Only fires on `git checkout -b NAME` (new-branch creation), not on
-# regular `git checkout BRANCH`, because the latter is often used to
-# move between branches the user has already chosen, and locking would
-# fight that workflow. If you want to lock after a plain checkout,
-# write to .claude/branch-lock manually.
+# Why the safety check: parallel skills / sessions can run `git checkout
+# -b OTHER_BRANCH` in this same workspace. Without the check, that
+# parallel checkout would silently overwrite the lock with OTHER_BRANCH,
+# and the subsequent commit (still on the *real* current branch, but
+# guarded against the new lock) would pass the guard and land on the
+# wrong branch. PR #469 (Alamo) hit exactly this and needed a
+# cherry-pick rescue.
+#
+# With the check: if I have uncommitted Alamo work in the tree and some
+# parallel session runs `git checkout -b foo`, this hook sees the dirty
+# tree, refuses to overwrite the lock, and the next `git commit` aborts
+# with the BRANCH GUARD banner — exactly the desired behavior.
+#
+# Notes:
+#   - `git status --porcelain` excludes untracked (?? entries are reported
+#     but we filter them out). We only care about M/A/D/R/C — actual
+#     changes to tracked files. Untracked files (worktrees, scratch dirs)
+#     are normal and shouldn't block.
+#   - Only fires on `git checkout -b NAME` (new-branch creation), not on
+#     regular `git checkout BRANCH`. The latter is often used to move
+#     between branches the user has already chosen; auto-locking those
+#     would fight that workflow.
 
 set -euo pipefail
 
@@ -24,6 +40,18 @@ CMD=$(echo "$PAYLOAD" | /usr/bin/python3 -c "import sys, json; print(json.load(s
 if [[ "$CMD" =~ git[[:space:]]+checkout[[:space:]]+-b[[:space:]]+([A-Za-z0-9._/-]+) ]]; then
   BRANCH="${BASH_REMATCH[1]}"
   cd "$REPO_ROOT" || exit 0
+
+  # Count uncommitted changes to TRACKED files (exclude untracked '??').
+  TRACKED_CHANGES=$(git status --porcelain 2>/dev/null | awk '/^[^?]/' | wc -l | tr -d '[:space:]')
+
+  if [ "$TRACKED_CHANGES" -gt 0 ]; then
+    echo "⚠️  branch-lock NOT updated to '$BRANCH' — working tree has $TRACKED_CHANGES uncommitted change(s)." >&2
+    echo "    Existing lock kept: $(cat .claude/branch-lock 2>/dev/null || echo '(none)')" >&2
+    echo "    This protects against parallel sessions overwriting the lock while I have in-flight work." >&2
+    echo "    If you really mean to lock '$BRANCH', commit / stash first, then: echo $BRANCH > .claude/branch-lock" >&2
+    exit 0
+  fi
+
   echo "$BRANCH" > .claude/branch-lock
   echo "🔒 branch-lock written: $BRANCH" >&2
 fi
