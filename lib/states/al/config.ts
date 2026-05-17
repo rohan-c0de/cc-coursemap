@@ -8,11 +8,22 @@ const alConfig: StateConfig = {
   systemUrl: "https://www.accs.edu/",
   collegeCount: 23,
 
-  // TODO: research senior-waiver statute for AL. Alabama has a senior tuition
-  // waiver under Alabama Code § 16-60-114 (ACCS Senior Adult Scholarship
-  // Program — residents 60+ may attend ACCS courses tuition-free on a
-  // space-available basis). Verify text and program scope before populating.
-  seniorWaiver: null,
+  // Ala. Code § 16-60-114 — ACCS Senior Adult Scholarship Program.
+  // Alabama residents aged 60 and older may enroll in credit courses at
+  // any ACCS institution with tuition waived, on a space-available basis.
+  // Each course tuition is waived only once; repeating the course means
+  // paying full tuition. Fees, books, and other charges still apply.
+  seniorWaiver: {
+    ageThreshold: 60,
+    legalCitation: "Ala. Code § 16-60-114",
+    description:
+      "Alabama residents aged 60 and older may enroll in credit courses at any Alabama Community College System (ACCS) institution with tuition waived, on a space-available basis. Each course's tuition is waived once per student; repeating the course incurs full tuition. Fees, books, and other charges still apply.",
+    bannerTitle: "Alabama Senior Adult Scholarship Program",
+    bannerSummary:
+      "Over 60 in Alabama? ACCS credit courses may be tuition-free on a space-available basis.",
+    bannerDetail:
+      "Under the ACCS Senior Adult Scholarship Program (Ala. Code § 16-60-114), Alabama residents aged 60+ may enroll in credit courses at any of the 23 ACCS community and technical colleges with tuition waived. Seats are allocated after regular registration (space-available), and the waiver applies once per course — repeating the course means paying full tuition. Fees, books, and other charges are not waived. Contact your college's financial aid office for the application form.",
+  },
 
   transferSupported: false,
   popularCourses: [],
