@@ -43,11 +43,28 @@ const ilConfig: StateConfig = {
       // IECC (Illinois Eastern) — 4 colleges share one Banner SSB host,
       // split by campusDescription.
       { scripts: ["scripts/il/scrape-iecc.ts"], runner: "http" },
-      // manual-only: remaining 18 custom-platform colleges need bespoke scrapers.
+      // Colleague Self-Service — 3 colleges (kankakee, parkland, rock-valley).
+      // Rock Valley currently returns no live terms but stays in the map
+      // so cron picks up sections when they post.
+      { scripts: ["scripts/il/scrape-colleague.ts"], runner: "playwright" },
+      // manual-only: ~16 remaining custom-platform colleges. Notes:
+      //   - 4 Jenzabar (john-a-logan, richland, southeastern-illinois, spoon-river)
+      //     have Course Search behind auth ("you do not have permission" without login).
+      //   - "Coursedog" fingerprints were false positives: clcillinois.edu is
+      //     Sitefinity CMS, rendlake is a Coursedog *events* calendar (no courses).
+      //   - Others are bespoke (PDF schedules / custom CMS / SSO-gated).
     ],
-    // manual-only: transfers — Phase 3 (transfer-equiv) not yet wired up.
-    // manual-only: prereqs — Phase 4.
-    // manual-only: programs — Phase 5+.
+    // Prereqs are extracted inline by each course scraper (Banner SSB, CCC,
+    // Colleague), then aggregated into data/il/prereqs.json by the unified
+    // pipeline. Declaring this sentinel lights up the cron prereq job.
+    prereqs: { source: "aggregate-from-courses" },
+    // manual-only: transfers — iTransfer.org's iManage portal (the IL statewide
+    // articulation tool) is behind login at https://imanage.itransfer.org/IAI/;
+    // the public iTransfer pages only describe IAI codes themselves, not the
+    // per-college crosswalk. Realistic path is CollegeTransfer.net (see
+    // scripts/lib/scrape-collegetransfer.ts) with receiver IDs for IL public
+    // universities (UIUC, UIC, ISU, NIU, SIU, etc.). Not yet built.
+    // manual-only: programs — Phase 5+; no state has program scrapers yet.
   },
 };
 
