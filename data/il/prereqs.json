@@ -670,6 +670,12 @@
       "CON 104"
     ]
   },
+  "ALW 195": {
+    "text": "ENG 101",
+    "courses": [
+      "ENG 101"
+    ]
+  },
   "AMT 110": {
     "text": "AMT 100",
     "courses": [
@@ -713,6 +719,12 @@
     "courses": [
       "ANAT 1551",
       "ANAT 1571"
+    ]
+  },
+  "ANTH 1713": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
     ]
   },
   "ANTHRO 201": {
@@ -1320,6 +1332,24 @@
       "ENGL 121"
     ]
   },
+  "ARTS 1553": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "ARTS 1613": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "ARTS 1633": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "ASL 102": {
     "text": "ASL 101",
     "courses": [
@@ -1501,6 +1531,13 @@
       "AUTO 1131",
       "AUTO 1232",
       "AUTO 1261"
+    ]
+  },
+  "AUTO 2343": {
+    "text": "AUTO 1073 and AUTO 2331",
+    "courses": [
+      "AUTO 1073",
+      "AUTO 2331"
     ]
   },
   "AUTO 2364": {
@@ -2042,6 +2079,24 @@
       "ENGL 101"
     ]
   },
+  "BIOL 1504": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "BIOL 1564": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "BIOL 1584": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "BIOLO 1120": {
     "text": "MATH 0481",
     "courses": [
@@ -2206,6 +2261,12 @@
     "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
     "courses": [
       "ENGLISH 101"
+    ]
+  },
+  "BSNS 2514": {
+    "text": "MATH 0984",
+    "courses": [
+      "MATH 0984"
     ]
   },
   "BUS 102": {
@@ -3920,6 +3981,12 @@
       "DSGN 150"
     ]
   },
+  "COMM 1553": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "COMPSFI 102": {
     "text": "Grade C or better in CIS 116 or COMPSFI 101 or NET TEC 121, or Consent of Department Chairperson",
     "courses": [
@@ -5266,6 +5333,24 @@
       "ECO 101"
     ]
   },
+  "ECON 1543": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "ECON 1553": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "ECON 1563": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "ECON 201": {
     "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
     "courses": [
@@ -5357,6 +5442,12 @@
   "EDUC 172": {
     "text": "Enrollment in the Early Childhood Special Education Basic Certificate Program.",
     "courses": []
+  },
+  "EDUC 1833": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
   },
   "EDUC 201": {
     "text": "ENGL 121",
@@ -5678,6 +5769,18 @@
       "ELT 101"
     ]
   },
+  "ELTR 2303": {
+    "text": "ELTR 1302",
+    "courses": [
+      "ELTR 1302"
+    ]
+  },
+  "ELTR 2493": {
+    "text": "ELTR 1004",
+    "courses": [
+      "ELTR 1004"
+    ]
+  },
   "EMS 101": {
     "text": "RDG 088 or RDG 089",
     "courses": [
@@ -5973,6 +6076,36 @@
     "text": "ENGL 101",
     "courses": [
       "ENGL 101"
+    ]
+  },
+  "ENGL 1422": {
+    "text": "ENGL 1613",
+    "courses": [
+      "ENGL 1613"
+    ]
+  },
+  "ENGL 1613": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "ENGL 1723": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "ENGL 1743": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "ENGL 2553": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
     ]
   },
   "ENGLI 0493": {
@@ -6669,6 +6802,12 @@
       "ENGL 101"
     ]
   },
+  "GEOG 1513": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "GEOG 201": {
     "text": "Eligibility for ENGLISH 101 based on prior coursework or appropriate score on Placement Test; or Consent of Department Chair",
     "courses": [
@@ -6995,10 +7134,22 @@
       "ENGL 101"
     ]
   },
+  "HIST 1513": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "HIST 152": {
     "text": "ENGL 101",
     "courses": [
       "ENGL 101"
+    ]
+  },
+  "HIST 1533": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
     ]
   },
   "HIST 160": {
@@ -7007,10 +7158,34 @@
       "ENGL 101"
     ]
   },
+  "HIST 1643": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "HIST 1723": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "HIST 215": {
     "text": "ENGL 101",
     "courses": [
       "ENGL 101"
+    ]
+  },
+  "HIST 2513": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "HIST 2523": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
     ]
   },
   "HISTORY 111": {
@@ -7319,6 +7494,18 @@
       "ENGL 101"
     ]
   },
+  "HLTH 1312": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "HLTH 1513": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "HLTHS 1122": {
     "text": "LTHS 1110 or LTHS 1110",
     "courses": [
@@ -7602,6 +7789,24 @@
     "text": "ENGL 101",
     "courses": [
       "ENGL 101"
+    ]
+  },
+  "HUMS 1513": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "HUMS 1553": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "HUMS 2613": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
     ]
   },
   "HVA 103": {
@@ -8030,6 +8235,12 @@
     "text": "TPRG 147",
     "courses": [
       "TPRG 147"
+    ]
+  },
+  "ITSM 1323": {
+    "text": "ITSM 1303",
+    "courses": [
+      "ITSM 1303"
     ]
   },
   "ITWEB 203": {
@@ -8950,16 +9161,34 @@
       "MATH 0481"
     ]
   },
+  "MATH 0891": {
+    "text": "MATH 1704",
+    "courses": [
+      "MATH 1704"
+    ]
+  },
   "MATH 094": {
     "text": "MATH 151",
     "courses": [
       "MATH 151"
     ]
   },
+  "MATH 0981": {
+    "text": "MATH 0984",
+    "courses": [
+      "MATH 0984"
+    ]
+  },
   "MATH 099": {
     "text": "MATH 112",
     "courses": [
       "MATH 112"
+    ]
+  },
+  "MATH 0991": {
+    "text": "MATH 1774",
+    "courses": [
+      "MATH 1774"
     ]
   },
   "MATH 107": {
@@ -9138,6 +9367,19 @@
       "MATH 1533"
     ]
   },
+  "MATH 1704": {
+    "text": "ENGL 1613 and ORIN 1541",
+    "courses": [
+      "ENGL 1613",
+      "ORIN 1541"
+    ]
+  },
+  "MATH 1713": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "MATH 18": {
     "text": "Concurrent enrollment in linked MATH 118, eligibility for MATH 99 or equivalent and eligibility for ENGLISH 96 or equivalent or consent of Department Chairperson.",
     "courses": [
@@ -9246,6 +9488,18 @@
     "text": "Concurrent enrollment in linked MATH 125, eligibility for MATH 99 or equivalent and eligibility for ENGLISH 96 or equivalent or consent of Department Chairperson.",
     "courses": [
       "MATH 125"
+    ]
+  },
+  "MATH 2515": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "MATH 2524": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
     ]
   },
   "MATH 40": {
@@ -11879,6 +12133,12 @@
       "ENGLISH 101"
     ]
   },
+  "PHIL 2523": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "PHLEB 108": {
     "text": "Eligibility for English 96 or higher. Admission into the Phlebotomy Program.",
     "courses": []
@@ -12359,6 +12619,12 @@
       "PLS 190"
     ]
   },
+  "PLSC 1513": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "PMED 143": {
     "text": "PMED 142",
     "courses": [
@@ -12421,6 +12687,13 @@
       "PN 0114",
       "PN 0121",
       "PN 0128"
+    ]
+  },
+  "PNUR 1241": {
+    "text": "PNUR 1138 and BIOL 1554",
+    "courses": [
+      "PNUR 1138",
+      "BIOL 1554"
     ]
   },
   "POL 201": {
@@ -12645,6 +12918,30 @@
     "text": "PSYC 100",
     "courses": [
       "PSYC 100"
+    ]
+  },
+  "PSYC 1813": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "PSYC 2464": {
+    "text": "PSYC 1813",
+    "courses": [
+      "PSYC 1813"
+    ]
+  },
+  "PSYC 2553": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "PSYC 2623": {
+    "text": "PSYC 1813",
+    "courses": [
+      "PSYC 1813"
     ]
   },
   "PSYCH 102": {
@@ -13606,6 +13903,15 @@
       "RESP 1120"
     ]
   },
+  "RESP 1445": {
+    "text": "RESP 1331 and RESP 1113 and RESP 1324 and MATH 1142",
+    "courses": [
+      "RESP 1331",
+      "RESP 1113",
+      "RESP 1324",
+      "MATH 1142"
+    ]
+  },
   "RESP 2205": {
     "text": "RESP 1103 or RESP 1113 or RESP 2280 or RESP 2206",
     "courses": [
@@ -14033,6 +14339,24 @@
       "ENGL 121"
     ]
   },
+  "SOCY 1613": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "SOCY 2513": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
+  "SOCY 2543": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
+    ]
+  },
   "SON 150": {
     "text": "SON 100 or SON 120 or AOT 135 or BIO 264",
     "courses": [
@@ -14121,6 +14445,12 @@
     "text": "SPAN 101",
     "courses": [
       "SPAN 101"
+    ]
+  },
+  "SPAN 1514": {
+    "text": "ENGL 1422",
+    "courses": [
+      "ENGL 1422"
     ]
   },
   "SPANISH 102": {
@@ -14977,6 +15307,27 @@
     "text": "WT 257",
     "courses": [
       "WT 257"
+    ]
+  },
+  "XRAY 1212": {
+    "text": "XRAY 1014 (min C) and BIOL 2644 (min C) and XRAY 1033 (min C) and XRAY 1316 (min C)",
+    "courses": [
+      "XRAY 1014",
+      "BIOL 2644",
+      "XRAY 1033",
+      "XRAY 1316"
+    ]
+  },
+  "XRAY 2212": {
+    "text": "XRAY 1333 and BIOL 2644 (min C) and BIOL 2654 (min C) and XRAY 1326 (min C) and XRAY 1053 (min C) and XRAY 1042 (min C) and XRAY 1232 (min C)",
+    "courses": [
+      "XRAY 1333",
+      "BIOL 2644",
+      "BIOL 2654",
+      "XRAY 1326",
+      "XRAY 1053",
+      "XRAY 1042",
+      "XRAY 1232"
     ]
   },
   "XRY 105": {
