@@ -37,9 +37,20 @@ const alConfig: StateConfig = {
     ],
   },
   scrapers: {
-    // manual-only: courses — Phase 2 (course scraper) not yet wired up.
-    //   ACCS uses a mix of platforms across its 23 colleges; SIS platform
-    //   detection happens in Phase 2 prep, not here.
+    courses: [
+      // Most ACCS colleges run on a shared Banner 8 host at
+      // ssb-prod.ec.accs.edu/PROD/<CODE>/bwckschd.p_disp_dyn_sched
+      // (one path per college, e.g. /PROD/JSCC for Jefferson State).
+      // scripts/al/scrape-accs-banner8.ts wraps the shared Banner 8
+      // template at scripts/lib/scrape-banner-8.ts with a HOSTS map
+      // for 18 of the 23 ACCS colleges. The remaining 5 (central-
+      // alabama, wallace-selma, drake-state, calhoun-state, shelton-
+      // state) need their per-college codes researched and added.
+      {
+        scripts: ["scripts/al/scrape-accs-banner8.ts"],
+        runner: "http",
+      },
+    ],
     // manual-only: transfers — Phase 3. Alabama runs STARS
     //   (Statewide Transfer and Articulation Reporting System) at
     //   stars.troy.edu — likely the highest-leverage Phase 3 source.
