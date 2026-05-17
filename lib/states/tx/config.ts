@@ -2,36 +2,54 @@ import type { StateConfig } from "../registry";
 
 const txConfig: StateConfig = {
   slug: "tx",
-  name: "Tx",
-  systemName: "Public 2-year",
-  systemFullName: "Tx Public 2-year Colleges",
-  systemUrl: "",
+  name: "Texas",
+  systemName: "Texas Community Colleges",
+  systemFullName: "Texas Public Community Colleges",
+  // Texas has no single statewide CC system — 50 independent districts
+  // overseen by the Texas Higher Education Coordinating Board. The Texas
+  // Association of Community Colleges (TACC) is the closest thing to a
+  // unified portal.
+  systemUrl: "https://www.tacc.org/",
   collegeCount: 59,
 
-  // TODO: research senior-waiver statute for Tx.
-  // Set to null if no waiver exists, or fill in per the SeniorWaiverConfig shape.
-  seniorWaiver: null,
+  // Texas Education Code § 54.365 ("Tuition Exemption for Persons 65
+  // Years of Age or Older") — Texas residents 65+ may take up to 6 credit
+  // hours per semester at any state-funded institution tuition-free, on a
+  // space-available basis. Each college applies the waiver on top of its
+  // own registration timing.
+  seniorWaiver: {
+    ageThreshold: 65,
+    legalCitation: "Tex. Educ. Code § 54.365",
+    description:
+      "Texas residents aged 65 and older may enroll in up to 6 credit hours per semester at any state-funded community college tuition-free, on a space-available basis. Fees may still apply; each college sets registration timing for senior space-available seats.",
+    bannerTitle: "Texas Senior Tuition Exemption",
+    bannerSummary:
+      "Over 65 in Texas? Up to 6 credit hours per semester may be tuition-free at any state-funded college.",
+    bannerDetail:
+      "Texas Education Code § 54.365 lets Texas residents aged 65+ take up to 6 credit hours per semester at any state-funded community college without paying tuition, on a space-available basis. Fees still apply; seats are allocated after regular registration. Contact your college's registrar for the timing.",
+  },
 
   transferSupported: false,
   popularCourses: [],
-  defaultZip: "",
-  defaultZipCity: "",
+  defaultZip: "77002",
+  defaultZipCity: "Houston",
 
   courseDiscoveryUrl: (_collegeSlug: string, _prefix: string, _number: string) =>
-    "https://www.example.edu/",
+    "https://www.tacc.org/",
 
   collegeCoursesUrl: (_collegeSlug: string) =>
-    "https://www.example.edu/",
+    "https://www.tacc.org/",
 
   branding: {
-    siteName: "Community College Path Tx",
-    tagline: "Search Public 2-year courses across all 59 colleges.",
-    footerText: "Community College Path Tx — Find courses across all 59 Public 2-year colleges.",
-    disclaimer: "This is an independent project and is not affiliated with, endorsed by, or sponsored by Tx Public 2-year Colleges.",
+    siteName: "Community College Path Texas",
+    tagline: "Search Texas community college courses across all 59 public colleges.",
+    footerText: "Community College Path Texas — Find courses across all 59 Texas public community colleges.",
+    disclaimer: "This is an independent project and is not affiliated with, endorsed by, or sponsored by the Texas Higher Education Coordinating Board, the Texas Association of Community Colleges, or any Texas community college.",
     metaKeywords: [
-      "Tx community college courses",
-      "Public 2-year course search",
-      "Tx Public 2-year Colleges",
+      "Texas community college courses",
+      "Texas community college schedule",
+      "Texas community colleges",
+      "Texas senior tuition exemption",
     ],
   },
   scrapers: {
