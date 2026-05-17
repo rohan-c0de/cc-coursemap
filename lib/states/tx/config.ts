@@ -76,6 +76,19 @@ const txConfig: StateConfig = {
         scripts: ["scripts/tx/scrape-alamo.ts"],
         runner: "http",
       },
+      // Ellucian Colleague Self-Service — 2 colleges. The auto-add-state
+      // fingerprinter only probed colleges' primary domains and missed
+      // these subdomain SIS hosts:
+      //   amarillo-college  → acselfservice.actx.edu
+      //   odessa-college    → sserv.odessa.edu
+      // Closes 2 of 3 remaining colleges from issue #456 cluster #8.
+      // Kilgore (Jenzabar at accesskc.kilgore.edu) deferred to a
+      // follow-up since its portlet URL isn't the standard
+      // Course_Search.jnz pattern the template expects.
+      {
+        scripts: ["scripts/tx/scrape-colleague.ts"],
+        runner: "playwright",
+      },
     ],
     // manual-only: transfers — Phase 3 (transfer-equiv) not yet wired up.
     // manual-only: prereqs — Phase 4.
