@@ -89,6 +89,18 @@ const txConfig: StateConfig = {
         scripts: ["scripts/tx/scrape-colleague.ts"],
         runner: "playwright",
       },
+      // Kilgore College — Jenzabar ICS Course Search portlet at
+      // accesskc.kilgore.edu. Uses the ASP.NET WebForms variant
+      // (pg0$V$ddlTerm, pg0$V$btnSearch) so the standard Jenzabar
+      // template at scripts/lib/scrape-jenzabar.ts (which expects
+      // #stuRegTermSelect) doesn't apply. Custom Playwright scraper
+      // drives the form, paginates via the letter-chunk "Next page -->"
+      // postback, and parses the results <table> directly.
+      // Closes the final remaining college from issue #456 cluster #8.
+      {
+        scripts: ["scripts/tx/scrape-kilgore.ts"],
+        runner: "playwright",
+      },
     ],
     // manual-only: transfers — Phase 3 (transfer-equiv) not yet wired up.
     // manual-only: prereqs — Phase 4.
