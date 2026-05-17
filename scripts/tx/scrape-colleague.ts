@@ -1,0 +1,48 @@
+/**
+ * Texas — Colleague Self-Service scrape (2 colleges)
+ *
+ * Calls the shared template at scripts/lib/scrape-colleague.ts for the
+ * two TX community colleges discovered to run Ellucian Colleague behind
+ * a separate self-service subdomain (the auto-add-state fingerprint
+ * sweep only probed the colleges' primary domains and missed these):
+ *
+ *   amarillo-college  → acselfservice.actx.edu/Student/Courses
+ *   odessa-college    → sserv.odessa.edu/Student/Courses
+ *
+ * Closes 2 of the 3 remaining colleges from issue #456 cluster #8
+ * (TX shared form: Amarillo, Kilgore, Odessa — HCC already covered by
+ * PR #460). Kilgore runs Jenzabar ICS at accesskc.kilgore.edu via a
+ * non-standard AddDrop_Courses.jnz portlet URL — saved for a follow-up.
+ */
+import { scrapeColleagueState } from "../lib/scrape-colleague";
+
+const HOSTS: Record<string, string> = {
+  "amarillo-college": "https://acselfservice.actx.edu",
+  "odessa-college": "https://sserv.odessa.edu",
+};
+
+async function main() {
+  const args = process.argv.slice(2);
+  const collegeFilter = args
+    .find((a) => a.startsWith("--college="))
+    ?.split("=")[1];
+
+  console.log("🤠 TX Colleague scraper");
+  console.log(`   Hosts: ${Object.keys(HOSTS).length}`);
+
+  const result = await scrapeColleagueState({
+    state: "tx",
+    hosts: HOSTS,
+    collegeFilter,
+    noImport: true,
+  });
+
+  console.log(
+    `\n✅ Done — ${result.grandTotal} sections across ${result.results.length} colleges.`
+  );
+}
+
+main().catch((err) => {
+  console.error("❌ TX Colleague scraper failed:", err);
+  process.exit(1);
+});
