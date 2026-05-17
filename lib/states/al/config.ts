@@ -14,7 +14,7 @@ const alConfig: StateConfig = {
   // space-available basis). Verify text and program scope before populating.
   seniorWaiver: null,
 
-  transferSupported: false,
+  transferSupported: true,
   popularCourses: [],
   defaultZip: "35203",
   defaultZipCity: "Birmingham",
@@ -59,9 +59,16 @@ const alConfig: StateConfig = {
         runner: "http",
       },
     ],
-    // manual-only: transfers — Phase 3. Alabama runs STARS
-    //   (Statewide Transfer and Articulation Reporting System) at
-    //   stars.troy.edu — likely the highest-leverage Phase 3 source.
+    // STARS was rebranded to "Alabama Transfers" at alabamatransfers.com,
+    // backed by a CraftCMS GraphQL API at admin.alabamatransfers.com/api.
+    // scrape-transfer-stars.ts walks the 276 AGSC master courses, each
+    // of which has a courseEquivalencyTable mapping it to ~14 receiving
+    // universities. We cross-product against all 23 AL CCs (AGSC course
+    // codes are statewide — a given prefix+number means the same course
+    // at every AL CC that offers it) to produce ~86K equivalency records.
+    transfers: [
+      { scripts: ["scripts/al/scrape-transfer-stars.ts"], runner: "http" },
+    ],
     // OneACCS Banner SSB 9 sections come with inline prereq text
     // (~12% of AL sections carry it today; the rest come from the older
     // ssb-prod.ec.accs.edu Banner 8 cluster which doesn't expose
