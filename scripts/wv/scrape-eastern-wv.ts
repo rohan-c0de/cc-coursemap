@@ -27,7 +27,9 @@ import * as os from "os";
 import * as path from "path";
 import { execFileSync } from "child_process";
 
-const SLUG = "eastern-west-virginia-community-and-technical-college";
+// Canonical slug from data/wv/institutions.json. WV's institutions index uses
+// short slugs (e.g. "eastern", "blue-ridge") rather than full names.
+const SLUG = "eastern";
 const STATE = "wv";
 const SCHEDULE_URL = "https://easternwv.edu/academics/class-schedules/";
 

@@ -1,6 +1,6 @@
 [
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "ART",
     "course_number": "100",
@@ -21,7 +21,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "BIO",
     "course_number": "215",
@@ -42,7 +42,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "BUS",
     "course_number": "215",
@@ -63,7 +63,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "ENL",
     "course_number": "100",
@@ -84,7 +84,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "ENL",
     "course_number": "101",
@@ -105,7 +105,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "ENL",
     "course_number": "102",
@@ -126,7 +126,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "GSC",
     "course_number": "120",
@@ -147,7 +147,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "MTH",
     "course_number": "121S",
@@ -168,7 +168,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "MTH",
     "course_number": "121",
@@ -189,7 +189,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "MTH",
     "course_number": "135",
@@ -210,7 +210,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "NU",
     "course_number": "146",
@@ -231,7 +231,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "NU",
     "course_number": "156",
@@ -252,7 +252,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "ORT",
     "course_number": "199",
@@ -273,7 +273,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "PSY",
     "course_number": "200",
@@ -294,7 +294,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "PSY",
     "course_number": "214",
@@ -315,7 +315,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "SPH",
     "course_number": "101",
@@ -336,7 +336,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "SOC",
     "course_number": "220",
@@ -357,7 +357,7 @@
     "prerequisite_courses": []
   },
   {
-    "college_code": "eastern-west-virginia-community-and-technical-college",
+    "college_code": "eastern",
     "term": "2026SU",
     "course_prefix": "SSC",
     "course_number": "147",
