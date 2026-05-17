@@ -74,6 +74,11 @@ const HOSTS: Record<string, string> = {
   "northeast-alabama-community-college": `${BASE}/NACC`,
   "snead-state-community-college": `${BASE}/SNEAD`,
   "bevill-state-community-college": `${BASE}/BSCC`,
+  // J. F. Drake State is also on the Banner 8 cluster. The other newly-
+  // mapped ACCS colleges (central-alabama, calhoun-state, wallace-selma,
+  // shelton-state) live on the OneACCS Banner SSB 9 host — see
+  // scripts/al/scrape-accs-banner-ssb9.ts.
+  "j-f-drake-state-community-and-technical-college": `${BASE}/DRAKE`,
 };
 
 async function main() {
