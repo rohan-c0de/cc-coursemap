@@ -42,12 +42,20 @@ const alConfig: StateConfig = {
       // ssb-prod.ec.accs.edu/PROD/<CODE>/bwckschd.p_disp_dyn_sched
       // (one path per college, e.g. /PROD/JSCC for Jefferson State).
       // scripts/al/scrape-accs-banner8.ts wraps the shared Banner 8
-      // template at scripts/lib/scrape-banner-8.ts with a HOSTS map
-      // for 18 of the 23 ACCS colleges. The remaining 5 (central-
-      // alabama, wallace-selma, drake-state, calhoun-state, shelton-
-      // state) need their per-college codes researched and added.
+      // template with a HOSTS map for 19 of the 23 ACCS colleges.
       {
         scripts: ["scripts/al/scrape-accs-banner8.ts"],
+        runner: "http",
+      },
+      // OneACCS Banner SSB 9 — 4 ACCS colleges that migrated to the
+      // newer multi-tenant Banner SSB 9 at reg-prod.ec.accs.edu,
+      // distinguished by mepCode (not by URL path). These colleges'
+      // codes collide with the Banner 8 path codes for OTHER colleges
+      // (e.g. CACC on Banner 8 = Coastal Alabama, but mepCode=CACC on
+      // OneACCS = Central Alabama), so the two scrapers are necessarily
+      // separate.
+      {
+        scripts: ["scripts/al/scrape-accs-banner-ssb9.ts"],
         runner: "http",
       },
     ],
