@@ -2,36 +2,48 @@ import type { StateConfig } from "../registry";
 
 const hiConfig: StateConfig = {
   slug: "hi",
-  name: "Hi",
-  systemName: "Public 2-year",
-  systemFullName: "Hi Public 2-year Colleges",
-  systemUrl: "",
+  name: "Hawaii",
+  systemName: "UHCC",
+  systemFullName: "University of Hawaiʻi Community Colleges",
+  systemUrl: "https://uhcc.hawaii.edu/",
   collegeCount: 6,
 
-  // TODO: research senior-waiver statute for Hi.
-  // Set to null if no waiver exists, or fill in per the SeniorWaiverConfig shape.
-  seniorWaiver: null,
+  // UH Board of Regents Policy 6.205 ("Tuition Reduction for Senior
+  // Citizens") waives tuition for Hawaiʻi residents aged 60 and over in
+  // regular credit courses at UH campuses, on a space-available basis.
+  seniorWaiver: {
+    ageThreshold: 60,
+    legalCitation: "UH Board of Regents Policy 6.205",
+    description:
+      "Hawaiʻi residents aged 60 and older may enroll tuition-free in regular University of Hawaiʻi credit courses on a space-available basis. Some fees still apply; each campus sets registration timing for senior space-available seats.",
+    bannerTitle: "Hawaiʻi Senior Tuition Waiver",
+    bannerSummary:
+      "Over 60 in Hawaiʻi? UH credit courses may be tuition-free on a space-available basis.",
+    bannerDetail:
+      "University of Hawaiʻi Board of Regents Policy 6.205 lets Hawaiʻi residents aged 60+ enroll in regular UH credit courses without paying tuition, on a space-available basis. Some fees still apply, and seats are allocated after regular registration — contact your campus registrar for the timing.",
+  },
 
   transferSupported: false,
   popularCourses: [],
-  defaultZip: "",
-  defaultZipCity: "",
+  defaultZip: "96813",
+  defaultZipCity: "Honolulu",
 
   courseDiscoveryUrl: (_collegeSlug: string, _prefix: string, _number: string) =>
-    "https://www.example.edu/",
+    "https://uhcc.hawaii.edu/",
 
   collegeCoursesUrl: (_collegeSlug: string) =>
-    "https://www.example.edu/",
+    "https://uhcc.hawaii.edu/",
 
   branding: {
-    siteName: "Community College Path Hi",
-    tagline: "Search Public 2-year courses across all 6 colleges.",
-    footerText: "Community College Path Hi — Find courses across all 6 Public 2-year colleges.",
-    disclaimer: "This is an independent project and is not affiliated with, endorsed by, or sponsored by Hi Public 2-year Colleges.",
+    siteName: "Community College Path Hawaiʻi",
+    tagline: "Search University of Hawaiʻi Community Colleges courses across all 6 campuses.",
+    footerText: "Community College Path Hawaiʻi — Find courses across all 6 UH Community Colleges.",
+    disclaimer: "This is an independent project and is not affiliated with, endorsed by, or sponsored by the University of Hawaiʻi Community Colleges.",
     metaKeywords: [
-      "Hi community college courses",
-      "Public 2-year course search",
-      "Hi Public 2-year Colleges",
+      "Hawaii community college courses",
+      "UHCC course search",
+      "University of Hawaiʻi Community Colleges",
+      "Hawaii senior tuition waiver",
     ],
   },
   scrapers: {
