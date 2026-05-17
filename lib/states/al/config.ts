@@ -62,7 +62,13 @@ const alConfig: StateConfig = {
     // manual-only: transfers — Phase 3. Alabama runs STARS
     //   (Statewide Transfer and Articulation Reporting System) at
     //   stars.troy.edu — likely the highest-leverage Phase 3 source.
-    // manual-only: prereqs — Phase 4.
+    // OneACCS Banner SSB 9 sections come with inline prereq text
+    // (~12% of AL sections carry it today; the rest come from the older
+    // ssb-prod.ec.accs.edu Banner 8 cluster which doesn't expose
+    // prereqs). The aggregator scans every section's prerequisite_text
+    // / prerequisite_courses fields and flattens them into a single
+    // data/al/prereqs.json keyed by course code.
+    prereqs: { source: "aggregate-from-courses" },
     // manual-only: programs — Phase 5+.
   },
 };
