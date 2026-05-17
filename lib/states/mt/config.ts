@@ -38,6 +38,7 @@ const mtConfig: StateConfig = {
     courses: [
       { scripts: ["scripts/mt/scrape-banner8.ts"], runner: "http" },
       { scripts: ["scripts/mt/scrape-skc.ts"], runner: "http" },
+      { scripts: ["scripts/mt/scrape-cdkc.ts"], runner: "http" },
     ],
     prereqs: { source: "aggregate-from-courses" },
     // manual-only: transfers — no articulation portal identified.
