@@ -268,6 +268,16 @@
         "bannerDetail": "Ohio Revised Code § 3345.27 (Program 60) lets Ohio residents 60+ audit courses at state-assisted institutions tuition-free on a space-available basis. Confirm with each college's registrar."
       }
     },
+    "or": {
+      "fullName": "Oregon",
+      "fipsCode": "41",
+      "systemName": "Oregon CCs",
+      "systemFullName": "Oregon Community Colleges",
+      "systemUrl": "https://www.occa17.com/",
+      "defaultZip": "97201",
+      "defaultZipCity": "Portland",
+      "seniorWaiver": null
+    },
     "pa": {
       "fullName": "Pennsylvania",
       "fipsCode": "42",
