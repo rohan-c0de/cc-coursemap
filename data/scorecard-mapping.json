@@ -8809,5 +8809,294 @@
         "size": null
       }
     ]
+  },
+  {
+    "state": "or",
+    "id": "chemeketa-community-college",
+    "name": "Chemeketa Community College",
+    "unitid": 208390,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 208390,
+        "name": "Chemeketa Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6345,
+        "size": 6610
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "mt-hood-community-college",
+    "name": "Mt Hood Community College",
+    "unitid": 209250,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 209250,
+        "name": "Mt Hood Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5247,
+        "size": 3856
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "blue-mountain-community-college",
+    "name": "Blue Mountain Community College",
+    "unitid": 208275,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 208275,
+        "name": "Blue Mountain Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 7076,
+        "size": 962
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "central-oregon-community-college",
+    "name": "Central Oregon Community College",
+    "unitid": 208318,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 208318,
+        "name": "Central Oregon Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5049,
+        "size": 3789
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "clackamas-community-college",
+    "name": "Clackamas Community College",
+    "unitid": 208406,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 208406,
+        "name": "Clackamas Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6345,
+        "size": 4963
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "clatsop-community-college",
+    "name": "Clatsop Community College",
+    "unitid": 208415,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 208415,
+        "name": "Clatsop Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5110,
+        "size": 493
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "lane-community-college",
+    "name": "Lane Community College",
+    "unitid": 209038,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 209038,
+        "name": "Lane Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 6202,
+        "size": 6064
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "linn-benton-community-college",
+    "name": "Linn-Benton Community College",
+    "unitid": 209074,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 209074,
+        "name": "Linn-Benton Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 7317,
+        "size": 5174
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "portland-community-college",
+    "name": "Portland Community College",
+    "unitid": 209746,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 209746,
+        "name": "Portland Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5220,
+        "size": 19531
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "rogue-community-college",
+    "name": "Rogue Community College",
+    "unitid": 209940,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 209940,
+        "name": "Rogue Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5256,
+        "size": 3559
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "southwestern-oregon-community-college",
+    "name": "Southwestern Oregon Community College",
+    "unitid": 210155,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 210155,
+        "name": "Southwestern Oregon Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 7192,
+        "size": 1270
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "treasure-valley-community-college",
+    "name": "Treasure Valley Community College",
+    "unitid": 210234,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 210234,
+        "name": "Treasure Valley Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 6345,
+        "size": 1193
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "umpqua-community-college",
+    "name": "Umpqua Community College",
+    "unitid": 210270,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 210270,
+        "name": "Umpqua Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 6104,
+        "size": 2219
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "columbia-gorge-community-college",
+    "name": "Columbia Gorge Community College",
+    "unitid": 420556,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 420556,
+        "name": "Columbia Gorge Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5940,
+        "size": 543
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "tillamook-bay-community-college",
+    "name": "Tillamook Bay Community College",
+    "unitid": 420723,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 420723,
+        "name": "Tillamook Bay Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 4896,
+        "size": 294
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "oregon-coast-community-college",
+    "name": "Oregon Coast Community College",
+    "unitid": 423652,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 423652,
+        "name": "Oregon Coast Community College",
+        "ownership": 1,
+        "predominantDegree": 2,
+        "inStateTuition": 5544,
+        "size": 376
+      }
+    ]
+  },
+  {
+    "state": "or",
+    "id": "klamath-community-college",
+    "name": "Klamath Community College",
+    "unitid": 428392,
+    "tier": "tier1",
+    "candidates": [
+      {
+        "unitid": 428392,
+        "name": "Klamath Community College",
+        "ownership": 1,
+        "predominantDegree": 1,
+        "inStateTuition": 4965,
+        "size": 1130
+      }
+    ]
   }
 ]
