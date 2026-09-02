@@ -15,7 +15,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Clark, A",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -36,7 +36,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Price, R",
-    "seats_open": 14,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -59,7 +59,30 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Price, R",
-    "seats_open": 7,
+    "seats_open": 0,
+    "seats_total": 25,
+    "prerequisite_text": "ENG 092",
+    "prerequisite_courses": [
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "ART",
+    "course_number": "101",
+    "course_title": "Art Appreciation",
+    "credits": 3,
+    "crn": "ART-101-WD2 (53732)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-09-08",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Price, R",
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -82,7 +105,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Price, R",
-    "seats_open": 0,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -128,8 +151,31 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Price, R",
-    "seats_open": 0,
+    "seats_open": 2,
     "seats_total": 25,
+    "prerequisite_text": "ENG 092",
+    "prerequisite_courses": [
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "ART",
+    "course_number": "101",
+    "course_title": "Art Appreciation",
+    "credits": 3,
+    "crn": "ART-101-WF4 (56475)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Price, R",
+    "seats_open": 3,
+    "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
       "ENG 092"
@@ -151,7 +197,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Nichols, D",
-    "seats_open": 15,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -172,7 +218,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Nichols, D",
-    "seats_open": 15,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -218,7 +264,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Price, R",
-    "seats_open": 13,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -241,7 +287,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Price, R",
-    "seats_open": 10,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -263,8 +309,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 17,
+    "instructor": "Bryan, B",
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "AUTO 101L",
     "prerequisite_courses": [
@@ -286,8 +332,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 17,
+    "instructor": "Bryan, B",
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "AUTO 101",
     "prerequisite_courses": [
@@ -310,7 +356,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "McKenzie, M",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "AUTO 103L",
     "prerequisite_courses": [
@@ -333,7 +379,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "McKenzie, M",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "AUTO 103",
     "prerequisite_courses": [
@@ -355,8 +401,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 18,
+    "instructor": "Bryan, B",
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "AUTO 105L",
     "prerequisite_courses": [
@@ -378,8 +424,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 18,
+    "instructor": "Bryan, B",
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "AUTO 105",
     "prerequisite_courses": [
@@ -401,8 +447,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 18,
+    "instructor": "Bryan, B",
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "AUTO 114L",
     "prerequisite_courses": [
@@ -424,8 +470,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 18,
+    "instructor": "Bryan, B",
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "AUTO 114",
     "prerequisite_courses": [
@@ -448,7 +494,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "McKenzie, M",
-    "seats_open": 22,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "AUTO 201L",
     "prerequisite_courses": [
@@ -471,7 +517,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "McKenzie, M",
-    "seats_open": 22,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "AUTO 201",
     "prerequisite_courses": [
@@ -493,8 +539,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 11,
+    "instructor": "Bryan, B",
+    "seats_open": 9,
     "seats_total": 15,
     "prerequisite_text": "AUTO 205L",
     "prerequisite_courses": [
@@ -516,8 +562,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 11,
+    "instructor": "Bryan, B",
+    "seats_open": 9,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -538,7 +584,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "McKenzie, M",
-    "seats_open": 19,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "AUTO 215L",
     "prerequisite_courses": [
@@ -561,11 +607,35 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "McKenzie, M",
-    "seats_open": 19,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "AUTO 215",
     "prerequisite_courses": [
       "AUTO 215"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "BIO",
+    "course_number": "093",
+    "course_title": "Essentials of Biology",
+    "credits": 3,
+    "crn": "BIO-093-WF1 (56664)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Foster, C",
+    "seats_open": 17,
+    "seats_total": 18,
+    "prerequisite_text": "ENG 092 or ENG 095",
+    "prerequisite_courses": [
+      "ENG 092",
+      "ENG 095"
     ]
   },
   {
@@ -584,7 +654,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Barmoy, M",
-    "seats_open": 0,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "BIO 100W",
     "prerequisite_courses": [
@@ -607,7 +677,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Thompson, K",
-    "seats_open": 1,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "BIO 100W",
     "prerequisite_courses": [
@@ -630,7 +700,30 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Thompson, K",
-    "seats_open": 5,
+    "seats_open": 7,
+    "seats_total": 20,
+    "prerequisite_text": "BIO 100W",
+    "prerequisite_courses": [
+      "BIO 100W"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "BIO",
+    "course_number": "100LW",
+    "course_title": "Web Bio Allied Hlth Stud Lab",
+    "credits": 0,
+    "crn": "BIO-100LW-WF4 (56563)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Thompson, K",
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "BIO 100W",
     "prerequisite_courses": [
@@ -653,7 +746,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Barmoy, M",
-    "seats_open": 0,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "BIO 100LW and MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -678,7 +771,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Thompson, K",
-    "seats_open": 1,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "BIO 100LW and MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -703,7 +796,32 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Thompson, K",
-    "seats_open": 5,
+    "seats_open": 7,
+    "seats_total": 20,
+    "prerequisite_text": "BIO 100LW and MATH 090 and ENG 092",
+    "prerequisite_courses": [
+      "BIO 100LW",
+      "MATH 090",
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "BIO",
+    "course_number": "100W",
+    "course_title": "Web Bio for Allied Health Stud",
+    "credits": 4,
+    "crn": "BIO-100W-WF4 (56562)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Thompson, K",
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "BIO 100LW and MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -728,7 +846,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Gilbert, K",
-    "seats_open": 12,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "BIO 101L and ENG 092",
     "prerequisite_courses": [
@@ -752,7 +870,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Foster, C",
-    "seats_open": 6,
+    "seats_open": 1,
     "seats_total": 30,
     "prerequisite_text": "BIO 101L and ENG 092",
     "prerequisite_courses": [
@@ -776,8 +894,8 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Barmoy, M",
-    "seats_open": 11,
-    "seats_total": 30,
+    "seats_open": 3,
+    "seats_total": 29,
     "prerequisite_text": "BIO 101L and ENG 092",
     "prerequisite_courses": [
       "BIO 101L",
@@ -800,7 +918,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Foster, C",
-    "seats_open": 16,
+    "seats_open": 1,
     "seats_total": 30,
     "prerequisite_text": "BIO 101L and ENG 092",
     "prerequisite_courses": [
@@ -824,7 +942,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Heninger, S, Barmoy, M",
-    "seats_open": 8,
+    "seats_open": 0,
     "seats_total": 16,
     "prerequisite_text": "BIO 101",
     "prerequisite_courses": [
@@ -847,7 +965,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Foster, C",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": "BIO 101",
     "prerequisite_courses": [
@@ -893,7 +1011,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Barmoy, M",
-    "seats_open": 9,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": "BIO 101",
     "prerequisite_courses": [
@@ -916,7 +1034,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Ratnayeke, S",
-    "seats_open": 12,
+    "seats_open": 3,
     "seats_total": 24,
     "prerequisite_text": "BIO 101",
     "prerequisite_courses": [
@@ -939,7 +1057,7 @@
     "campus": "BCTCL",
     "mode": "in-person",
     "instructor": "Gilbert, K",
-    "seats_open": 12,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "BIO 101",
     "prerequisite_courses": [
@@ -986,7 +1104,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Ratnayeke, S",
-    "seats_open": 18,
+    "seats_open": 12,
     "seats_total": 24,
     "prerequisite_text": "BIO 103L",
     "prerequisite_courses": [
@@ -1009,7 +1127,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Ratnayeke, S",
-    "seats_open": 18,
+    "seats_open": 12,
     "seats_total": 24,
     "prerequisite_text": "BIO 103",
     "prerequisite_courses": [
@@ -1032,7 +1150,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Barmoy, M",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -1055,7 +1173,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Thompson, K",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 24,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -1078,7 +1196,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Thompson, K",
-    "seats_open": 17,
+    "seats_open": 6,
     "seats_total": 24,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -1101,7 +1219,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Ratnayeke, S",
-    "seats_open": 25,
+    "seats_open": 20,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -1194,7 +1312,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Rafter, S",
-    "seats_open": 7,
+    "seats_open": 8,
     "seats_total": 12,
     "prerequisite_text": "BIO 145L",
     "prerequisite_courses": [
@@ -1217,7 +1335,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Rafter, S",
-    "seats_open": 5,
+    "seats_open": 2,
     "seats_total": 12,
     "prerequisite_text": "BIO 145L",
     "prerequisite_courses": [
@@ -1240,7 +1358,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Rafter, S",
-    "seats_open": 5,
+    "seats_open": 2,
     "seats_total": 12,
     "prerequisite_text": "BIO 145",
     "prerequisite_courses": [
@@ -1263,7 +1381,7 @@
     "campus": "BCTCL",
     "mode": "in-person",
     "instructor": "Rafter, S",
-    "seats_open": 7,
+    "seats_open": 8,
     "seats_total": 12,
     "prerequisite_text": "BIO 145",
     "prerequisite_courses": [
@@ -1332,7 +1450,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "George, C",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": "BIO 204",
     "prerequisite_courses": [
@@ -1355,7 +1473,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kelly, M",
-    "seats_open": 0,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": "BIO 204W",
     "prerequisite_courses": [
@@ -1378,7 +1496,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kelly, M",
-    "seats_open": 0,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "BIO 204W",
     "prerequisite_courses": [
@@ -1401,7 +1519,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kelly, M",
-    "seats_open": 1,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "BIO 204W",
     "prerequisite_courses": [
@@ -1424,7 +1542,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "George, C",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": "BIO 204L",
     "prerequisite_courses": [
@@ -1447,7 +1565,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kelly, M",
-    "seats_open": 0,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": "BIO 204LW",
     "prerequisite_courses": [
@@ -1470,7 +1588,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kelly, M",
-    "seats_open": 0,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "BIO 204LW",
     "prerequisite_courses": [
@@ -1493,7 +1611,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kelly, M",
-    "seats_open": 1,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "BIO 204LW",
     "prerequisite_courses": [
@@ -1516,7 +1634,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Gilbert, K",
-    "seats_open": 10,
+    "seats_open": 3,
     "seats_total": 18,
     "prerequisite_text": "ENG 092 and BIO 207L and MATH 090",
     "prerequisite_courses": [
@@ -1540,8 +1658,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 12,
+    "instructor": "Gibbs, J",
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 and BIO 207L and MATH 090",
     "prerequisite_courses": [
@@ -1565,8 +1683,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 0,
+    "instructor": "Gibbs, J",
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 and BIO 207L and MATH 090",
     "prerequisite_courses": [
@@ -1590,8 +1708,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 9,
+    "instructor": "Gibbs, J",
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "BIO 207",
     "prerequisite_courses": [
@@ -1613,7 +1731,7 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Gibbs, J",
     "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "BIO 207",
@@ -1637,7 +1755,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Gilbert, K",
-    "seats_open": 1,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "BIO 207W",
     "prerequisite_courses": [
@@ -1660,7 +1778,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Grassi, K",
-    "seats_open": 0,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "BIO 207W",
     "prerequisite_courses": [
@@ -1682,8 +1800,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 8,
+    "instructor": "Gibbs, J",
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "BIO 207W",
     "prerequisite_courses": [
@@ -1706,7 +1824,7 @@
     "campus": "BCTCL",
     "mode": "in-person",
     "instructor": "Gilbert, K",
-    "seats_open": 10,
+    "seats_open": 3,
     "seats_total": 18,
     "prerequisite_text": "BIO 207",
     "prerequisite_courses": [
@@ -1729,7 +1847,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Gilbert, K",
-    "seats_open": 1,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "BIO 207LW and ENG 092 or ENG 095 and MATH 090",
     "prerequisite_courses": [
@@ -1755,7 +1873,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Grassi, K",
-    "seats_open": 0,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "BIO 207LW and ENG 092 or ENG 095 and MATH 090",
     "prerequisite_courses": [
@@ -1780,8 +1898,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 8,
+    "instructor": "Gibbs, J",
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "BIO 207LW and ENG 092 or ENG 095 and MATH 090",
     "prerequisite_courses": [
@@ -1878,7 +1996,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kwok, W",
-    "seats_open": 1,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "BIO 208W",
     "prerequisite_courses": [
@@ -1901,7 +2019,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kwok, W",
-    "seats_open": 10,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "BIO 208W",
     "prerequisite_courses": [
@@ -1947,7 +2065,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kwok, W",
-    "seats_open": 1,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "BIO 208LW and BIO 207",
     "prerequisite_courses": [
@@ -1971,7 +2089,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kwok, W",
-    "seats_open": 10,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "BIO 208LW and BIO 207",
     "prerequisite_courses": [
@@ -1995,7 +2113,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Perrin-Miller, M",
-    "seats_open": 20,
+    "seats_open": 15,
     "seats_total": 24,
     "prerequisite_text": "BIO 213L and BIO 103",
     "prerequisite_courses": [
@@ -2019,30 +2137,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Perrin-Miller, M",
-    "seats_open": 10,
-    "seats_total": 12,
-    "prerequisite_text": "BIO 213",
-    "prerequisite_courses": [
-      "BIO 213"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "BIO",
-    "course_number": "213L",
-    "course_title": "Dendrology I Lab",
-    "credits": 0,
-    "crn": "BIO-213L-CF2 (53825)",
-    "days": "Th",
-    "start_time": "12:30 PM",
-    "end_time": "3:15 PM",
-    "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "in-person",
-    "instructor": "Perrin-Miller, M",
-    "seats_open": 11,
+    "seats_open": 3,
     "seats_total": 12,
     "prerequisite_text": "BIO 213",
     "prerequisite_courses": [
@@ -2065,7 +2160,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Barmoy, M, Heninger, S",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2086,7 +2181,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Leibfreid, J",
-    "seats_open": 27,
+    "seats_open": 23,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2109,7 +2204,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Leibfreid, J",
-    "seats_open": 20,
+    "seats_open": 2,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2132,7 +2227,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Leibfreid, J",
-    "seats_open": 19,
+    "seats_open": 14,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2178,7 +2273,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Imgrund, R",
-    "seats_open": 19,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2201,7 +2296,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Imgrund, R",
-    "seats_open": 16,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2224,7 +2319,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Leibfreid, J",
-    "seats_open": 21,
+    "seats_open": 15,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2247,7 +2342,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Leibfreid, J",
-    "seats_open": 13,
+    "seats_open": 8,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2270,7 +2365,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Leibfreid, J",
-    "seats_open": 19,
+    "seats_open": 14,
     "seats_total": 30,
     "prerequisite_text": "BUAD 215",
     "prerequisite_courses": [
@@ -2293,7 +2388,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Leibfreid, J",
-    "seats_open": 12,
+    "seats_open": 8,
     "seats_total": 30,
     "prerequisite_text": "BUAD 215",
     "prerequisite_courses": [
@@ -2315,8 +2410,8 @@
     "location": "Bedford County Campus",
     "campus": "BCCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 9,
+    "instructor": "Westfall, S",
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2338,8 +2433,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 9,
+    "instructor": "Westfall, S",
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2362,7 +2457,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Hoover, B",
-    "seats_open": 20,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "BUAD 101",
     "prerequisite_courses": [
@@ -2384,8 +2479,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 17,
+    "instructor": "Defibaugh, L",
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2408,7 +2503,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Leibfreid, J",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2431,7 +2526,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Leibfreid, J",
-    "seats_open": 19,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2454,7 +2549,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Leibfreid, J",
-    "seats_open": 20,
+    "seats_open": 8,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2477,7 +2572,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Leibfreid, J",
-    "seats_open": 11,
+    "seats_open": 0,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2499,8 +2594,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Imgrund, R",
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2523,7 +2618,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "George, C",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "CHEM 100L",
     "prerequisite_courses": [
@@ -2546,7 +2641,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Grassi, K",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "CHEM 100",
     "prerequisite_courses": [
@@ -2569,8 +2664,8 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Heninger, S",
-    "seats_open": 0,
-    "seats_total": 20,
+    "seats_open": 5,
+    "seats_total": 30,
     "prerequisite_text": "CHEM 101L",
     "prerequisite_courses": [
       "CHEM 101L"
@@ -2592,7 +2687,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Heninger, S",
-    "seats_open": 0,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "CHEM 101",
     "prerequisite_courses": [
@@ -2603,47 +2698,23 @@
     "college_code": "allegany",
     "term": "2026FA",
     "course_prefix": "CHEM",
-    "course_number": "203",
-    "course_title": "Organic Chemistry I",
-    "credits": 4,
-    "crn": "CHEM-203-CF1 (53852)",
-    "days": "T Th",
-    "start_time": "9:30 AM",
-    "end_time": "10:45 AM",
-    "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "in-person",
-    "instructor": "Heninger, S",
-    "seats_open": 19,
-    "seats_total": 20,
-    "prerequisite_text": "CHEM 102 and CHEM 203L",
-    "prerequisite_courses": [
-      "CHEM 102",
-      "CHEM 203L"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "CHEM",
-    "course_number": "203L",
-    "course_title": "Organic Chemistry I Lab",
+    "course_number": "101L",
+    "course_title": "General Chemistry I Lab",
     "credits": 0,
-    "crn": "CHEM-203L-CF1 (53853)",
+    "crn": "CHEM-101L-CF2 (56536)",
     "days": "W",
     "start_time": "2:30 PM",
-    "end_time": "5:15 PM",
+    "end_time": "5:00 PM",
     "start_date": "2026-08-17",
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Heninger, S",
-    "seats_open": 19,
-    "seats_total": 20,
-    "prerequisite_text": "CHEM 203",
+    "seats_open": 3,
+    "seats_total": 10,
+    "prerequisite_text": "CHEM 101",
     "prerequisite_courses": [
-      "CHEM 203"
+      "CHEM 101"
     ]
   },
   {
@@ -2662,7 +2733,7 @@
     "campus": "BCCL",
     "mode": "online",
     "instructor": "Jones, D",
-    "seats_open": 14,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2685,7 +2756,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Merrill, D",
-    "seats_open": 11,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2708,7 +2779,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "House, J",
-    "seats_open": 16,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2731,7 +2802,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "House, J",
-    "seats_open": 10,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2754,7 +2825,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Bone, J",
-    "seats_open": 9,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2777,7 +2848,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Bone, J",
-    "seats_open": 8,
+    "seats_open": 1,
     "seats_total": 22,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2800,7 +2871,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Cook, L",
-    "seats_open": 18,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2823,7 +2894,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Thomas, R",
-    "seats_open": 0,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2846,7 +2917,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Soderman, R",
-    "seats_open": 13,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2869,7 +2940,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Merrill, D",
-    "seats_open": 13,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "COMP 101",
     "prerequisite_courses": [
@@ -2892,7 +2963,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Merrill, D",
-    "seats_open": 15,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": "COMP 101",
     "prerequisite_courses": [
@@ -2915,7 +2986,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Jones, D",
-    "seats_open": 13,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2938,7 +3009,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Jones, D",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -2961,7 +3032,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Jones, D",
-    "seats_open": 6,
+    "seats_open": 1,
     "seats_total": 10,
     "prerequisite_text": "COMP 101",
     "prerequisite_courses": [
@@ -3008,7 +3079,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Soderman, R",
-    "seats_open": 12,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": "COMP 107 or COMP 225",
     "prerequisite_courses": [
@@ -3044,29 +3115,6 @@
     "college_code": "allegany",
     "term": "2026FA",
     "course_prefix": "COMP",
-    "course_number": "219",
-    "course_title": "Operating Systems",
-    "credits": 3,
-    "crn": "COMP-219-WF1 (53881)",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2026-08-17",
-    "location": "Online Instruction",
-    "campus": "WEBL",
-    "mode": "online",
-    "instructor": "Slope, B",
-    "seats_open": 18,
-    "seats_total": 20,
-    "prerequisite_text": "COMP 101",
-    "prerequisite_courses": [
-      "COMP 101"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "COMP",
     "course_number": "220",
     "course_title": "Linux Operating System",
     "credits": 3,
@@ -3079,7 +3127,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Soderman, R",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "COMP 101",
     "prerequisite_courses": [
@@ -3102,7 +3150,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "House, J",
-    "seats_open": 14,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "COMP 101",
     "prerequisite_courses": [
@@ -3171,7 +3219,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Merrill, D",
-    "seats_open": 11,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "COMP 103",
     "prerequisite_courses": [
@@ -3194,7 +3242,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Jones, D",
-    "seats_open": 14,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": "COMP 225",
     "prerequisite_courses": [
@@ -3205,25 +3253,22 @@
     "college_code": "allegany",
     "term": "2026FA",
     "course_prefix": "COMP",
-    "course_number": "241",
-    "course_title": "Python Programming I",
+    "course_number": "240",
+    "course_title": "Field Placement",
     "credits": 3,
-    "crn": "COMP-241-CF1F (53888)",
+    "crn": "COMP-240-CF1F (56680)",
     "days": "T Th",
-    "start_time": "9:30 AM",
-    "end_time": "10:45 AM",
+    "start_time": "2:00 PM",
+    "end_time": "3:15 PM",
     "start_date": "2026-08-17",
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "online",
-    "instructor": "Soderman, R",
-    "seats_open": 20,
-    "seats_total": 20,
-    "prerequisite_text": "COMP 101 and COMP 103",
-    "prerequisite_courses": [
-      "COMP 101",
-      "COMP 103"
-    ]
+    "instructor": "Jones, D, Soderman, R",
+    "seats_open": 2,
+    "seats_total": 5,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
   },
   {
     "college_code": "allegany",
@@ -3241,7 +3286,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Meyer, C",
-    "seats_open": 11,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "COMP 225",
     "prerequisite_courses": [
@@ -3275,29 +3320,6 @@
     "college_code": "allegany",
     "term": "2026FA",
     "course_prefix": "COMP",
-    "course_number": "287",
-    "course_title": "Network+ Cert. Exam Review",
-    "credits": 1,
-    "crn": "COMP-287-WS1 (54650)",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2026-09-28",
-    "location": "Online Instruction",
-    "campus": "WEBL",
-    "mode": "online",
-    "instructor": "Jones, D",
-    "seats_open": 20,
-    "seats_total": 20,
-    "prerequisite_text": "ENG 092",
-    "prerequisite_courses": [
-      "ENG 092"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "COMP",
     "course_number": "288",
     "course_title": "A+ Certification Exam Review",
     "credits": 1,
@@ -3310,7 +3332,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Slope, B",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "COMP 180",
     "prerequisite_courses": [
@@ -3356,7 +3378,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Golub, S",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -3379,7 +3401,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Golub, S",
-    "seats_open": 20,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -3402,7 +3424,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Hoover, B",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -3425,7 +3447,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Golub, S",
-    "seats_open": 23,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -3448,7 +3470,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Golub, S",
-    "seats_open": 12,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -3494,7 +3516,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Golub, S",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 25,
     "prerequisite_text": "CRIM 101",
     "prerequisite_courses": [
@@ -3517,7 +3539,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Golub, S",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -3540,7 +3562,7 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Huber, F",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 7,
     "prerequisite_text": "CULA 150",
     "prerequisite_courses": [
@@ -3563,7 +3585,7 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Huber, F",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 7,
     "prerequisite_text": "CULA 150",
     "prerequisite_courses": [
@@ -3586,7 +3608,7 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Sanford, D",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 14,
     "prerequisite_text": "CULA 150L and HRMG 110 and ENG 092",
     "prerequisite_courses": [
@@ -3626,7 +3648,7 @@
     "course_title": "International Cuisines Lab",
     "credits": 0,
     "crn": "CULA-208L-XF2 (53907)",
-    "days": "Th",
+    "days": "W",
     "start_time": "2:00 PM",
     "end_time": "6:00 PM",
     "start_date": "2026-08-17",
@@ -3704,8 +3726,8 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Kerns, A",
-    "seats_open": 3,
-    "seats_total": 6,
+    "seats_open": 2,
+    "seats_total": 8,
     "prerequisite_text": "CULA 212",
     "prerequisite_courses": [
       "CULA 212"
@@ -3727,7 +3749,7 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Swope, D",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 12,
     "prerequisite_text": "HRMG 110 and CULA 212L",
     "prerequisite_courses": [
@@ -3775,7 +3797,7 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Burkett, J",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 5,
     "prerequisite_text": "CULA 216",
     "prerequisite_courses": [
@@ -3798,7 +3820,7 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Burkett, J",
-    "seats_open": 3,
+    "seats_open": 1,
     "seats_total": 5,
     "prerequisite_text": "CULA 216",
     "prerequisite_courses": [
@@ -3821,7 +3843,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Burkett, J",
-    "seats_open": 15,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "HRMG 101 and HRMG 110 and CULA 216L",
     "prerequisite_courses": [
@@ -3846,7 +3868,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Harrah, S",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -3869,7 +3891,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kiefner, J",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "DATA 101",
     "prerequisite_courses": [
@@ -3892,7 +3914,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Soderman, R",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "COMP 241",
     "prerequisite_courses": [
@@ -3915,7 +3937,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Sagal, S",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "DATA 105",
     "prerequisite_courses": [
@@ -3938,7 +3960,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Mullenax, D",
-    "seats_open": 19,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3959,7 +3981,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Thompson, J",
-    "seats_open": 19,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "DENT 103L",
     "prerequisite_courses": [
@@ -3982,7 +4004,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Thompson, J",
-    "seats_open": 19,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "DENT 103",
     "prerequisite_courses": [
@@ -4005,7 +4027,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Wakefield, C",
-    "seats_open": 19,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "DENT 107L",
     "prerequisite_courses": [
@@ -4028,7 +4050,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Wakefield, C, Thompson, J",
-    "seats_open": 19,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "DENT 107",
     "prerequisite_courses": [
@@ -4182,9 +4204,9 @@
     "course_title": "Princ of Macroeconomics",
     "credits": 3,
     "crn": "ECON-201-BF1 (53929)",
-    "days": "T Th",
-    "start_time": "9:30 AM",
-    "end_time": "10:45 AM",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
     "start_date": "2026-08-17",
     "location": "Bedford County Campus",
     "campus": "BCCL",
@@ -4213,7 +4235,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Imgrund, R",
-    "seats_open": 21,
+    "seats_open": 17,
     "seats_total": 24,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -4236,7 +4258,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Imgrund, R",
-    "seats_open": 15,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -4259,7 +4281,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Seddon, R",
-    "seats_open": 20,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4280,7 +4302,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Seddon, R",
-    "seats_open": 20,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4301,7 +4323,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Tummino, K",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 15,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -4324,7 +4346,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Tummino, K",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "EDUC 100 and EDUC 201 and EDUC 204 and ENG 092",
     "prerequisite_courses": [
@@ -4350,7 +4372,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Tummino, K",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": "EDUC 100 and EDUC 201 and EDUC 204 and ENG 092",
     "prerequisite_courses": [
@@ -4401,7 +4423,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Seddon, R",
-    "seats_open": 15,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": "EDUC 100 and ENG 092",
     "prerequisite_courses": [
@@ -4425,7 +4447,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Merrill, L",
-    "seats_open": 23,
+    "seats_open": 17,
     "seats_total": 30,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -4448,7 +4470,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Merrill, L",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 30,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -4471,7 +4493,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "McKenzie, P",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -4517,6 +4539,29 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Orndoff, J",
+    "seats_open": 3,
+    "seats_total": 25,
+    "prerequisite_text": "PSYC 101",
+    "prerequisite_courses": [
+      "PSYC 101"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "EDUC",
+    "course_number": "203",
+    "course_title": "Human Growth & Development",
+    "credits": 3,
+    "crn": "EDUC-203-WF4 (56454)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Orndoff, J",
     "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "PSYC 101",
@@ -4540,7 +4585,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Seddon, R",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "PSYC 101 and EDUC 201",
     "prerequisite_courses": [
@@ -4588,7 +4633,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Malone, S",
-    "seats_open": 18,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -4612,7 +4657,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Seddon, R",
-    "seats_open": 13,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "EDUC 100 and EDUC 201",
     "prerequisite_courses": [
@@ -4636,7 +4681,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Tummino, K",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 15,
     "prerequisite_text": "EDUC 195 and EDUC 201",
     "prerequisite_courses": [
@@ -4660,7 +4705,7 @@
     "campus": "WMWK",
     "mode": "in-person",
     "instructor": "Poland, W",
-    "seats_open": 9,
+    "seats_open": 7,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4681,7 +4726,7 @@
     "campus": "WMWK",
     "mode": "in-person",
     "instructor": "Poland, W",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 10,
     "prerequisite_text": "ENGT 101",
     "prerequisite_courses": [
@@ -4703,8 +4748,8 @@
     "location": "Western Maryland Works",
     "campus": "WMWK",
     "mode": "in-person",
-    "instructor": "Prosser, R",
-    "seats_open": 9,
+    "instructor": "Poland, W",
+    "seats_open": 8,
     "seats_total": 10,
     "prerequisite_text": "ENGT 101 and ENGT 102 and COMP 103",
     "prerequisite_courses": [
@@ -4722,14 +4767,14 @@
     "credits": 4,
     "crn": "ENGT-201-XF1 (54028)",
     "days": "Th",
-    "start_time": "3:00 PM",
-    "end_time": "6:30 PM",
+    "start_time": "12:00 PM",
+    "end_time": "3:30 PM",
     "start_date": "2026-08-17",
     "location": "Western Maryland Works",
     "campus": "WMWK",
     "mode": "in-person",
     "instructor": "Bone, J, Bender, C",
-    "seats_open": 5,
+    "seats_open": 3,
     "seats_total": 10,
     "prerequisite_text": "ENGT 210 and ENGT 220",
     "prerequisite_courses": [
@@ -4745,15 +4790,15 @@
     "course_title": "Adv Cnc Prog & Mach",
     "credits": 4,
     "crn": "ENGT-220-XF1 (54030)",
-    "days": "T",
+    "days": "Th",
     "start_time": "4:00 PM",
-    "end_time": "7:00 PM",
+    "end_time": "7:30 PM",
     "start_date": "2026-08-17",
     "location": "Western Maryland Works",
     "campus": "WMWK",
     "mode": "in-person",
     "instructor": "Prosser, R",
-    "seats_open": 6,
+    "seats_open": 4,
     "seats_total": 10,
     "prerequisite_text": "ENGT 120",
     "prerequisite_courses": [
@@ -4799,7 +4844,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Greise, H",
-    "seats_open": 6,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "SDEV 106",
     "prerequisite_courses": [
@@ -4836,31 +4881,6 @@
     "course_number": "093",
     "course_title": "English Leap",
     "credits": 2,
-    "crn": "ENG-093-BF1LB (53955)",
-    "days": "T Th",
-    "start_time": "12:30 PM",
-    "end_time": "1:00 PM",
-    "start_date": "2026-08-17",
-    "location": "Bedford County Campus",
-    "campus": "BCCL",
-    "mode": "online",
-    "instructor": "Marafino, M",
-    "seats_open": 8,
-    "seats_total": 8,
-    "prerequisite_text": "SDEV 106 or SDEV 103 and ENG 101",
-    "prerequisite_courses": [
-      "SDEV 106",
-      "SDEV 103",
-      "ENG 101"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "ENG",
-    "course_number": "093",
-    "course_title": "English Leap",
-    "credits": 2,
     "crn": "ENG-093-WF1L (53956)",
     "days": "",
     "start_time": "",
@@ -4870,7 +4890,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Cochrum, G",
-    "seats_open": 6,
+    "seats_open": 1,
     "seats_total": 18,
     "prerequisite_text": "SDEV 106 or SDEV 103 and ENG 101",
     "prerequisite_courses": [
@@ -4895,7 +4915,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Cochrum, G",
-    "seats_open": 18,
+    "seats_open": 2,
     "seats_total": 18,
     "prerequisite_text": "SDEV 106 or SDEV 103 and ENG 101",
     "prerequisite_courses": [
@@ -4920,7 +4940,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Cochrum, G",
-    "seats_open": 15,
+    "seats_open": 7,
     "seats_total": 18,
     "prerequisite_text": "SDEV 106 or SDEV 103 and ENG 101",
     "prerequisite_courses": [
@@ -4945,7 +4965,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Greise, H",
-    "seats_open": 14,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "SDEV 106",
     "prerequisite_courses": [
@@ -4968,7 +4988,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Greise, H",
-    "seats_open": 15,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "SDEV 106",
     "prerequisite_courses": [
@@ -4991,7 +5011,7 @@
     "campus": "WEBL",
     "mode": "zoom",
     "instructor": "Fiscus, L",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": "SDEV 106",
     "prerequisite_courses": [
@@ -5014,7 +5034,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Marafino, M",
-    "seats_open": 10,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5062,7 +5082,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Cochrum, G",
-    "seats_open": 8,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5086,7 +5106,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Cochrum, G",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5110,7 +5130,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Cochrum, G",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5134,7 +5154,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Cochrum, G",
-    "seats_open": 4,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5158,7 +5178,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Cochrum, G",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5182,7 +5202,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Cochrum, G",
-    "seats_open": 6,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5206,7 +5226,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Shepherd, T",
-    "seats_open": 17,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5230,7 +5250,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Cofield, R",
-    "seats_open": 16,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5254,7 +5274,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Cofield, R",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5277,8 +5297,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": "Gallion, J",
-    "seats_open": 8,
+    "instructor": "Shepherd, T",
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5350,7 +5370,55 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Dively, A",
-    "seats_open": 6,
+    "seats_open": 1,
+    "seats_total": 20,
+    "prerequisite_text": "ENG 092 or ENG 095",
+    "prerequisite_courses": [
+      "ENG 092",
+      "ENG 095"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "ENG",
+    "course_number": "101",
+    "course_title": "English Composition I",
+    "credits": 3,
+    "crn": "ENG-101-WF4 (54003)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Cofield, R",
+    "seats_open": 0,
+    "seats_total": 20,
+    "prerequisite_text": "ENG 092 or ENG 095",
+    "prerequisite_courses": [
+      "ENG 092",
+      "ENG 095"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "ENG",
+    "course_number": "101",
+    "course_title": "English Composition I",
+    "credits": 3,
+    "crn": "ENG-101-WF5 (56678)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Dively, A",
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5373,32 +5441,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Cofield, R",
-    "seats_open": 16,
-    "seats_total": 20,
-    "prerequisite_text": "ENG 092 or ENG 095",
-    "prerequisite_courses": [
-      "ENG 092",
-      "ENG 095"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "ENG",
-    "course_number": "101",
-    "course_title": "English Composition I",
-    "credits": 3,
-    "crn": "ENG-101-XF1 (54005)",
-    "days": "M W F",
-    "start_time": "12:00 PM",
-    "end_time": "12:50 PM",
-    "start_date": "2026-08-17",
-    "location": "Somerset County Tech Center",
-    "campus": "SCTCL",
-    "mode": "in-person",
-    "instructor": "Marafino, M",
-    "seats_open": 20,
+    "instructor": "Cochrum, G",
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 or ENG 095",
     "prerequisite_courses": [
@@ -5422,7 +5466,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Wilfong, T",
-    "seats_open": 7,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5445,7 +5489,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Wilfong, T",
-    "seats_open": 16,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5468,7 +5512,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Shepherd, T",
-    "seats_open": 21,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5491,7 +5535,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Marafino, M",
-    "seats_open": 8,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5514,7 +5558,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Wilfong, T",
-    "seats_open": 8,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5537,7 +5581,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Wilfong, T",
-    "seats_open": 14,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5560,7 +5604,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Shepherd, T",
-    "seats_open": 16,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5583,7 +5627,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Wilfong, T",
-    "seats_open": 7,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5606,7 +5650,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Shepherd, T",
-    "seats_open": 9,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": "ENG 092 or ENG 093 or ENG 095",
     "prerequisite_courses": [
@@ -5631,7 +5675,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Marafino, M",
-    "seats_open": 19,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5654,7 +5698,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Marafino, M",
-    "seats_open": 19,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5677,7 +5721,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Shepherd, T",
-    "seats_open": 17,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5700,7 +5744,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Cochrum, G",
-    "seats_open": 15,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "ENG 101",
     "prerequisite_courses": [
@@ -5723,7 +5767,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Perrin-Miller, M",
-    "seats_open": 26,
+    "seats_open": 22,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5744,7 +5788,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Herb, P",
-    "seats_open": 6,
+    "seats_open": 3,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5765,7 +5809,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Sisler, L",
-    "seats_open": 6,
+    "seats_open": 1,
     "seats_total": 12,
     "prerequisite_text": "FOR 221L and FOR 101 and ENG 092",
     "prerequisite_courses": [
@@ -5790,7 +5834,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Sisler, L",
-    "seats_open": 6,
+    "seats_open": 1,
     "seats_total": 12,
     "prerequisite_text": "FOR 221",
     "prerequisite_courses": [
@@ -5813,7 +5857,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Sisler, L",
-    "seats_open": 11,
+    "seats_open": 7,
     "seats_total": 15,
     "prerequisite_text": "FOR 112 and FOR 120 and FOR 122",
     "prerequisite_courses": [
@@ -5838,7 +5882,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Sisler, L",
-    "seats_open": 11,
+    "seats_open": 7,
     "seats_total": 15,
     "prerequisite_text": "FOR 222",
     "prerequisite_courses": [
@@ -5861,7 +5905,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Perrin-Miller, M",
-    "seats_open": 8,
+    "seats_open": 4,
     "seats_total": 12,
     "prerequisite_text": "FOR 223L and FOR 112",
     "prerequisite_courses": [
@@ -5885,7 +5929,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Perrin-Miller, M",
-    "seats_open": 8,
+    "seats_open": 4,
     "seats_total": 12,
     "prerequisite_text": "FOR 223",
     "prerequisite_courses": [
@@ -5908,7 +5952,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Perrin-Miller, M",
-    "seats_open": 6,
+    "seats_open": 2,
     "seats_total": 12,
     "prerequisite_text": "FOR 224L and FOR 101 and ENG 092",
     "prerequisite_courses": [
@@ -5933,7 +5977,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Perrin-Miller, M",
-    "seats_open": 6,
+    "seats_open": 2,
     "seats_total": 12,
     "prerequisite_text": "FOR 224",
     "prerequisite_courses": [
@@ -5956,7 +6000,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Sisler, L",
-    "seats_open": 6,
+    "seats_open": 2,
     "seats_total": 12,
     "prerequisite_text": "FOR 225L and BIO 110 and FOR 101",
     "prerequisite_courses": [
@@ -5981,7 +6025,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Sisler, L",
-    "seats_open": 6,
+    "seats_open": 2,
     "seats_total": 12,
     "prerequisite_text": "FOR 225",
     "prerequisite_courses": [
@@ -6004,7 +6048,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Sisler, L",
-    "seats_open": 8,
+    "seats_open": 4,
     "seats_total": 12,
     "prerequisite_text": "FOR 229L and BIO 214 and FOR 101",
     "prerequisite_courses": [
@@ -6029,7 +6073,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Sisler, L",
-    "seats_open": 8,
+    "seats_open": 4,
     "seats_total": 12,
     "prerequisite_text": "FOR 229",
     "prerequisite_courses": [
@@ -6052,7 +6096,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Edwards, T",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -6075,7 +6119,30 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Wood, M",
-    "seats_open": 6,
+    "seats_open": 2,
+    "seats_total": 25,
+    "prerequisite_text": "ENG 092",
+    "prerequisite_courses": [
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "GEOG",
+    "course_number": "102",
+    "course_title": "Cultural Geography",
+    "credits": 3,
+    "crn": "GEOG-102-WF2 (56681)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Wood, M",
+    "seats_open": 25,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -6098,7 +6165,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Gibson, S",
-    "seats_open": 28,
+    "seats_open": 25,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -6121,31 +6188,8 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Wood, M",
-    "seats_open": 19,
+    "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": "ENG 092",
-    "prerequisite_courses": [
-      "ENG 092"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "HIST",
-    "course_number": "103",
-    "course_title": "U S History I",
-    "credits": 3,
-    "crn": "HIST-103-BF1 (54662)",
-    "days": "M W F",
-    "start_time": "1:00 PM",
-    "end_time": "1:50 PM",
-    "start_date": "2026-08-17",
-    "location": "Bedford County Campus",
-    "campus": "BCCL",
-    "mode": "in-person",
-    "instructor": "Kisner, B",
-    "seats_open": 28,
-    "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
       "ENG 092"
@@ -6167,7 +6211,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Gibson, S",
-    "seats_open": 24,
+    "seats_open": 26,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -6190,7 +6234,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Gibson, S",
-    "seats_open": 13,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -6213,7 +6257,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Gibson, S",
-    "seats_open": 23,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -6236,7 +6280,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Gibson, S",
-    "seats_open": 24,
+    "seats_open": 19,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -6259,7 +6303,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Gibson, S",
-    "seats_open": 10,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -6282,7 +6326,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Swope, D",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6294,16 +6338,16 @@
     "course_number": "101",
     "course_title": "Intro Hospitality/Tourism",
     "credits": 3,
-    "crn": "HRMG-101-XF1F (54058)",
+    "crn": "HRMG-101-XF2 (56682)",
     "days": "T",
     "start_time": "8:00 AM",
     "end_time": "10:50 AM",
     "start_date": "2026-08-17",
     "location": "Gateway Center",
     "campus": "GWCL",
-    "mode": "online",
+    "mode": "in-person",
     "instructor": "Sanford, D",
-    "seats_open": 5,
+    "seats_open": 3,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6345,7 +6389,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Burkett, J",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6366,7 +6410,7 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Burkett, J",
-    "seats_open": 7,
+    "seats_open": 5,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6479,7 +6523,7 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Swope, D",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 10,
     "prerequisite_text": "HRMG 204",
     "prerequisite_courses": [
@@ -6516,16 +6560,16 @@
     "course_number": "204",
     "course_title": "Menu Plan/Food Merchandising",
     "credits": 3,
-    "crn": "HRMG-204-XF1F (54066)",
+    "crn": "HRMG-204-XF2 (56683)",
     "days": "M",
     "start_time": "8:00 AM",
     "end_time": "10:00 AM",
     "start_date": "2026-08-17",
     "location": "Gateway Center",
     "campus": "GWCL",
-    "mode": "online",
+    "mode": "in-person",
     "instructor": "Swope, D",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 12,
     "prerequisite_text": "HRMG 101 and HRMG 165 and HRMG 203 and HRMG 204L",
     "prerequisite_courses": [
@@ -6551,55 +6595,11 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Swope, D",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
       "ENG 092"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "HRMG",
-    "course_number": "207",
-    "course_title": "Principles of Event Management",
-    "credits": 3,
-    "crn": "HRMG-207-XF1 (54069)",
-    "days": "Th",
-    "start_time": "2:15 PM",
-    "end_time": "5:15 PM",
-    "start_date": "2026-08-17",
-    "location": "Gateway Center",
-    "campus": "GWCL",
-    "mode": "in-person",
-    "instructor": "Sanford, D, Swope, D",
-    "seats_open": 15,
-    "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "HRMG",
-    "course_number": "209",
-    "course_title": "Front Office Management",
-    "credits": 3,
-    "crn": "HRMG-209-XF1 (54070)",
-    "days": "T",
-    "start_time": "8:00 AM",
-    "end_time": "9:40 AM",
-    "start_date": "2026-08-17",
-    "location": "Gateway Center",
-    "campus": "GWCL",
-    "mode": "in-person",
-    "instructor": "Swope, D",
-    "seats_open": 28,
-    "seats_total": 30,
-    "prerequisite_text": "HRMG 101",
-    "prerequisite_courses": [
-      "HRMG 101"
     ]
   },
   {
@@ -6618,7 +6618,7 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Swope, D",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 10,
     "prerequisite_text": "HRMG 210",
     "prerequisite_courses": [
@@ -6641,7 +6641,7 @@
     "campus": "GWCL",
     "mode": "in-person",
     "instructor": "Sanford, D",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 10,
     "prerequisite_text": "HRMG 101 and HRMG 203 and HRMG 204 and HRMG 210L",
     "prerequisite_courses": [
@@ -6658,67 +6658,21 @@
     "course_number": "211",
     "course_title": "Hospitality Supervision",
     "credits": 3,
-    "crn": "HRMG-211-XF1F (54073)",
+    "crn": "HRMG-211-XF2 (56684)",
     "days": "Th",
     "start_time": "8:00 AM",
     "end_time": "10:50 AM",
     "start_date": "2026-08-17",
     "location": "Gateway Center",
     "campus": "GWCL",
-    "mode": "online",
+    "mode": "in-person",
     "instructor": "Sanford, D",
-    "seats_open": 3,
+    "seats_open": 0,
     "seats_total": 12,
     "prerequisite_text": "HRMG 210 or CULA 250",
     "prerequisite_courses": [
       "HRMG 210",
       "CULA 250"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "HRMG",
-    "course_number": "219L",
-    "course_title": "Mechanics Event Planning Lab",
-    "credits": 0,
-    "crn": "HRMG-219L-XF1 (54076)",
-    "days": "Th",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2026-08-17",
-    "location": "Gateway Center",
-    "campus": "GWCL",
-    "mode": "in-person",
-    "instructor": "Swope, D",
-    "seats_open": 15,
-    "seats_total": 15,
-    "prerequisite_text": "HRMG 219",
-    "prerequisite_courses": [
-      "HRMG 219"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "HRMG",
-    "course_number": "219",
-    "course_title": "Mechanics of Event Planning",
-    "credits": 4,
-    "crn": "HRMG-219-XF1 (54075)",
-    "days": "T",
-    "start_time": "2:00 PM",
-    "end_time": "6:00 PM",
-    "start_date": "2026-08-17",
-    "location": "Gateway Center",
-    "campus": "GWCL",
-    "mode": "in-person",
-    "instructor": "Sanford, D",
-    "seats_open": 12,
-    "seats_total": 12,
-    "prerequisite_text": "HRMG 219L",
-    "prerequisite_courses": [
-      "HRMG 219L"
     ]
   },
   {
@@ -6731,13 +6685,13 @@
     "crn": "HSRV-102-CF1F (54079)",
     "days": "T",
     "start_time": "12:30 PM",
-    "end_time": "2:20 PM",
+    "end_time": "3:20 PM",
     "start_date": "2026-08-17",
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Gaither, J",
-    "seats_open": 13,
+    "seats_open": 8,
     "seats_total": 18,
     "prerequisite_text": "SOC 104",
     "prerequisite_courses": [
@@ -6760,7 +6714,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Gaither, J",
-    "seats_open": 14,
+    "seats_open": 9,
     "seats_total": 18,
     "prerequisite_text": "SOC 104 and HSRV 103L",
     "prerequisite_courses": [
@@ -6784,7 +6738,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Gaither, J",
-    "seats_open": 14,
+    "seats_open": 9,
     "seats_total": 18,
     "prerequisite_text": "HSRV 103",
     "prerequisite_courses": [
@@ -6807,7 +6761,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Clark, A",
-    "seats_open": 14,
+    "seats_open": 9,
     "seats_total": 18,
     "prerequisite_text": "SOC 104 and HSRV 123L",
     "prerequisite_courses": [
@@ -6831,7 +6785,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Clark, A",
-    "seats_open": 14,
+    "seats_open": 9,
     "seats_total": 18,
     "prerequisite_text": "HSRV 123",
     "prerequisite_courses": [
@@ -6950,7 +6904,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Clark, A",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6971,7 +6925,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Gallion, J, Gaschler, M",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6992,7 +6946,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Snyder, C",
-    "seats_open": 5,
+    "seats_open": 2,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7013,7 +6967,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Collins-Smith, C",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7034,7 +6988,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Collins-Smith, C",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7055,7 +7009,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Hoover, B",
-    "seats_open": 11,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -7078,7 +7032,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "SanGiovanni, A",
-    "seats_open": 15,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -7092,7 +7046,7 @@
     "course_number": "101",
     "course_title": "Intro to Massage Therapy",
     "credits": 1,
-    "crn": "MASG-101-CS1 (54096)",
+    "crn": "MASG-101-CS2 (56530)",
     "days": "Th F",
     "start_time": "5:00 PM",
     "end_time": "7:00 PM",
@@ -7101,7 +7055,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Hansen, K",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 14,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7122,7 +7076,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Richmond, B",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 16,
     "prerequisite_text": "MASG 103",
     "prerequisite_courses": [
@@ -7145,7 +7099,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Richmond, B",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 16,
     "prerequisite_text": "MASG 101 and MASG 103L and ENG 092",
     "prerequisite_courses": [
@@ -7170,7 +7124,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Hansen, K",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 16,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -7193,7 +7147,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Hilliker, B",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 16,
     "prerequisite_text": "MASG 113",
     "prerequisite_courses": [
@@ -7216,7 +7170,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Watkins, A",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 16,
     "prerequisite_text": "MASG 101 and MASG 113L",
     "prerequisite_courses": [
@@ -7240,7 +7194,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Hansen, K",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 16,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -7263,7 +7217,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Hansen, K",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 16,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -7286,7 +7240,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Hansen, K",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 6,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -7309,7 +7263,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Hansen, K",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 16,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -7332,28 +7286,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Thompson, C",
-    "seats_open": 13,
-    "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "MATH",
-    "course_number": "090",
-    "course_title": "Beginning Algebra",
-    "credits": 3,
-    "crn": "MATH-090-BF2D (54107)",
-    "days": "T Th",
-    "start_time": "12:30 PM",
-    "end_time": "1:45 PM",
-    "start_date": "2026-08-17",
-    "location": "Bedford County Campus",
-    "campus": "BCCL",
-    "mode": "in-person",
-    "instructor": "Thompson, C",
-    "seats_open": 20,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7374,28 +7307,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Thompson, C",
-    "seats_open": 13,
-    "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "MATH",
-    "course_number": "090",
-    "course_title": "Beginning Algebra",
-    "credits": 3,
-    "crn": "MATH-090-CF2D (54109)",
-    "days": "T Th",
-    "start_time": "12:30 PM",
-    "end_time": "1:45 PM",
-    "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "in-person",
-    "instructor": "Thompson, C",
-    "seats_open": 20,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7416,7 +7328,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Calhoun, C",
-    "seats_open": 15,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7437,7 +7349,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Fairgrieve, S",
-    "seats_open": 11,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7458,7 +7370,28 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Calhoun, C",
-    "seats_open": 19,
+    "seats_open": 0,
+    "seats_total": 20,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "MATH",
+    "course_number": "090",
+    "course_title": "Beginning Algebra",
+    "credits": 3,
+    "crn": "MATH-090-WD2 (56666)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-09-08",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Thompson, C",
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7479,7 +7412,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Fairgrieve, S",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7500,7 +7433,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Thompson, C",
-    "seats_open": 18,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -7524,7 +7457,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Thompson, C",
-    "seats_open": 18,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -7548,7 +7481,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Thompson, C",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "MATH 093 or MATH 096 and ENG 092",
     "prerequisite_courses": [
@@ -7573,7 +7506,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Calhoun, C",
-    "seats_open": 18,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "MATH 093 or MATH 096 and ENG 092",
     "prerequisite_courses": [
@@ -7598,7 +7531,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Shore, M",
-    "seats_open": 17,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "MATH 093 or MATH 096 and ENG 092",
     "prerequisite_courses": [
@@ -7623,8 +7556,33 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Shore, M",
-    "seats_open": 9,
+    "seats_open": 12,
     "seats_total": 30,
+    "prerequisite_text": "MATH 093 or MATH 096 and ENG 092",
+    "prerequisite_courses": [
+      "MATH 093",
+      "MATH 096",
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "MATH",
+    "course_number": "102",
+    "course_title": "College Algebra",
+    "credits": 3,
+    "crn": "MATH-102-WF2 (56660)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Shore, M",
+    "seats_open": 19,
+    "seats_total": 25,
     "prerequisite_text": "MATH 093 or MATH 096 and ENG 092",
     "prerequisite_courses": [
       "MATH 093",
@@ -7648,7 +7606,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Fairgrieve, S",
-    "seats_open": 21,
+    "seats_open": 18,
     "seats_total": 24,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -7672,7 +7630,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Fairgrieve, S",
-    "seats_open": 17,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -7696,7 +7654,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Calhoun, C",
-    "seats_open": 19,
+    "seats_open": 10,
     "seats_total": 30,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -7720,7 +7678,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Thompson, C",
-    "seats_open": 9,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -7744,7 +7702,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Calhoun, C",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -7768,7 +7726,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Calhoun, C",
-    "seats_open": 11,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -7792,8 +7750,8 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Shore, M",
-    "seats_open": 14,
-    "seats_total": 20,
+    "seats_open": 4,
+    "seats_total": 25,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
       "MATH 090",
@@ -7840,7 +7798,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Shore, M",
-    "seats_open": 0,
+    "seats_open": 4,
     "seats_total": 30,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -7887,8 +7845,56 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Shore, M",
-    "seats_open": 6,
+    "instructor": "Calhoun, C",
+    "seats_open": 0,
+    "seats_total": 30,
+    "prerequisite_text": "MATH 090 and ENG 092",
+    "prerequisite_courses": [
+      "MATH 090",
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "MATH",
+    "course_number": "109",
+    "course_title": "Probability and Statistics",
+    "credits": 3,
+    "crn": "MATH-109-WF4 (54141)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Thompson, C",
+    "seats_open": 2,
+    "seats_total": 30,
+    "prerequisite_text": "MATH 090 and ENG 092",
+    "prerequisite_courses": [
+      "MATH 090",
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "MATH",
+    "course_number": "109",
+    "course_title": "Probability and Statistics",
+    "credits": 3,
+    "crn": "MATH-109-WF5 (56631)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Calhoun, C",
+    "seats_open": 2,
     "seats_total": 30,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -7912,7 +7918,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Fairgrieve, S",
-    "seats_open": 27,
+    "seats_open": 23,
     "seats_total": 30,
     "prerequisite_text": "MATH 093 or MATH 096 and ENG 092",
     "prerequisite_courses": [
@@ -7937,7 +7943,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Fairgrieve, S",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 30,
     "prerequisite_text": "MATH 120",
     "prerequisite_courses": [
@@ -7984,7 +7990,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Malone, S",
-    "seats_open": 18,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "MATH 090 and ENG 092",
     "prerequisite_courses": [
@@ -8008,7 +8014,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Senka, S",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -8031,7 +8037,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Senka, S",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -8053,8 +8059,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Hoover, A",
-    "seats_open": 1,
+    "instructor": "McCoy, S",
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -8076,32 +8082,9 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Hoover, A",
-    "seats_open": 16,
-    "seats_total": 25,
-    "prerequisite_text": "ENG 092",
-    "prerequisite_courses": [
-      "ENG 092"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "MDAA",
-    "course_number": "131",
-    "course_title": "Medical Coding Literacy",
-    "credits": 3,
-    "crn": "MDAA-131-CF1F (54627)",
-    "days": "T Th",
-    "start_time": "12:30 PM",
-    "end_time": "1:45 PM",
-    "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "online",
     "instructor": "McCoy, S",
-    "seats_open": 20,
-    "seats_total": 20,
+    "seats_open": 3,
+    "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
       "ENG 092"
@@ -8122,8 +8105,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "online",
-    "instructor": "McCoy, S",
-    "seats_open": 14,
+    "instructor": "Hoover, A",
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "MDAA 110",
     "prerequisite_courses": [
@@ -8146,7 +8129,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Hoover, A",
-    "seats_open": 14,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "MDAA 110",
     "prerequisite_courses": [
@@ -8160,16 +8143,16 @@
     "course_number": "212",
     "course_title": "Applications in Medical Coding",
     "credits": 6,
-    "crn": "MDAA-212-CF1F (54154)",
-    "days": "M W",
-    "start_time": "9:00 AM",
-    "end_time": "11:45 AM",
+    "crn": "MDAA-212-WF1 (56662)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
     "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
+    "location": "Online Instruction",
+    "campus": "WEBL",
     "mode": "online",
     "instructor": "McCoy, S",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "MDAA 133 and MDAA 132 and MDAA 135",
     "prerequisite_courses": [
@@ -8218,7 +8201,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Hoover, A",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -8241,7 +8224,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Senka, S",
-    "seats_open": 16,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -8264,7 +8247,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Hoover, A",
-    "seats_open": 15,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "ENG 092 and COMP 101",
     "prerequisite_courses": [
@@ -8288,7 +8271,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Hoover, A",
-    "seats_open": 12,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "MDAA 133 and MDAA 135 and ENG 092",
     "prerequisite_courses": [
@@ -8384,7 +8367,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Koontz, T",
-    "seats_open": 14,
+    "seats_open": 10,
     "seats_total": 16,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -8407,7 +8390,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Koontz, T",
-    "seats_open": 8,
+    "seats_open": 9,
     "seats_total": 16,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -8430,7 +8413,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Koontz, T",
-    "seats_open": 13,
+    "seats_open": 7,
     "seats_total": 16,
     "prerequisite_text": "MLT 223L",
     "prerequisite_courses": [
@@ -8453,7 +8436,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Koontz, T",
-    "seats_open": 13,
+    "seats_open": 7,
     "seats_total": 16,
     "prerequisite_text": "MLT 223",
     "prerequisite_courses": [
@@ -8476,7 +8459,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Rohrbaugh, S",
-    "seats_open": 13,
+    "seats_open": 8,
     "seats_total": 16,
     "prerequisite_text": "MLT 224L",
     "prerequisite_courses": [
@@ -8499,7 +8482,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Rohrbaugh, S",
-    "seats_open": 13,
+    "seats_open": 8,
     "seats_total": 16,
     "prerequisite_text": "MLT 224",
     "prerequisite_courses": [
@@ -8522,7 +8505,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Bone, J",
-    "seats_open": 12,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -8545,7 +8528,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Bone, J",
-    "seats_open": 12,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "MMTC 103L and ENG 092",
     "prerequisite_courses": [
@@ -8569,7 +8552,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Bone, J",
-    "seats_open": 12,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "MMTC 103",
     "prerequisite_courses": [
@@ -8592,7 +8575,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Ritchey, J",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "MMTC 102 and MMTC 103 and MMTC 106 and MMTC 201L",
     "prerequisite_courses": [
@@ -8618,7 +8601,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Bone, J",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "MMTC 201",
     "prerequisite_courses": [
@@ -8641,7 +8624,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "House, J",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "MMTC 207L and ENG 092",
     "prerequisite_courses": [
@@ -8688,7 +8671,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "House, J",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "MMTC 207",
     "prerequisite_courses": [
@@ -8711,7 +8694,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "House, J",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "MMTC 207L and ENG 092",
     "prerequisite_courses": [
@@ -8735,7 +8718,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Gaschler, M",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -8758,7 +8741,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Gaschler, M",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -8804,6 +8787,29 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Gaschler, M",
+    "seats_open": 2,
+    "seats_total": 25,
+    "prerequisite_text": "ENG 092",
+    "prerequisite_courses": [
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "MUS",
+    "course_number": "112",
+    "course_title": "Music Appreciation",
+    "credits": 3,
+    "crn": "MUS-112-WF3 (56537)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Gaschler, M",
     "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
@@ -8827,7 +8833,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Gaschler, M",
-    "seats_open": 10,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -8849,8 +8855,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": "Kaisner, K, Simmons, E, Nasser, D",
-    "seats_open": 3,
+    "instructor": "Kaisner, K, Simmons, E, Nasser, D, Martin-Burdock, C",
+    "seats_open": 4,
     "seats_total": 40,
     "prerequisite_text": "BIO 207 and BIO 208",
     "prerequisite_courses": [
@@ -8874,7 +8880,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "White, K, Davis, B",
-    "seats_open": 6,
+    "seats_open": 3,
     "seats_total": 30,
     "prerequisite_text": "BIO 207 and BIO 208",
     "prerequisite_courses": [
@@ -8897,8 +8903,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": "Durst, S, McDowell, D, Murray, R",
-    "seats_open": 15,
+    "instructor": "Durst, S, Murray, R, Nasser, D",
+    "seats_open": 18,
     "seats_total": 40,
     "prerequisite_text": "NURS 120 and BIO 208",
     "prerequisite_courses": [
@@ -8946,7 +8952,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Jacovino, R, Kaisner, K, Daley, T",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "NURS 120 and BIO 208",
     "prerequisite_courses": [
@@ -8970,7 +8976,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Baughman, K, Daley, T",
-    "seats_open": 17,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "NURS 120 and BIO 208",
     "prerequisite_courses": [
@@ -8994,31 +9000,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Smearman, E, Daley, T",
-    "seats_open": 20,
-    "seats_total": 20,
-    "prerequisite_text": "NURS 120 and BIO 208",
-    "prerequisite_courses": [
-      "NURS 120",
-      "BIO 208"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "NURS",
-    "course_number": "150W",
-    "course_title": "Web Nursing II",
-    "credits": 9,
-    "crn": "NURS-150W-WF5 (56271)",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2026-08-17",
-    "location": "Online Instruction",
-    "campus": "WEBL",
-    "mode": "online",
-    "instructor": "Rollins, A",
-    "seats_open": 20,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "NURS 120 and BIO 208",
     "prerequisite_courses": [
@@ -9063,7 +9045,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Younkin, A, Douthitt, R",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9084,7 +9066,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Younkin, A, Douthitt, R",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9105,7 +9087,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Younkin, A, Douthitt, R",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9126,7 +9108,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Younkin, A, Douthitt, R",
-    "seats_open": 15,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9147,7 +9129,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Younkin, A, Douthitt, R",
-    "seats_open": 12,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9168,7 +9150,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Younkin, A, Douthitt, R",
-    "seats_open": 20,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9189,7 +9171,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Corle, D, Obert, S",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204",
     "prerequisite_courses": [
@@ -9213,7 +9195,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Dunn, D, Collard, D",
-    "seats_open": 24,
+    "seats_open": 13,
     "seats_total": 40,
     "prerequisite_text": "NURS 150 and BIO 204",
     "prerequisite_courses": [
@@ -9237,7 +9219,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Baughman, K, Smearman, E",
-    "seats_open": 14,
+    "seats_open": 11,
     "seats_total": 30,
     "prerequisite_text": "NURS 150 and BIO 204",
     "prerequisite_courses": [
@@ -9260,7 +9242,7 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Walch, M",
+    "instructor": "Walch, M, Pierre-Louis, S",
     "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 206W",
@@ -9285,7 +9267,7 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Cosner, M",
+    "instructor": "Cosner, M, Rollins, A, Pierre-Louis, S",
     "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 206W",
@@ -9310,7 +9292,7 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Obert, S",
+    "instructor": "Obert, S, Pierre-Louis, S",
     "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 206W",
@@ -9335,8 +9317,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Seifarth, J",
-    "seats_open": 11,
+    "instructor": "Seifarth, J, Rollins, A",
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 206W",
     "prerequisite_courses": [
@@ -9360,8 +9342,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Shipe, B",
-    "seats_open": 20,
+    "instructor": "Shipe, B, Rollins, A",
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 206W",
     "prerequisite_courses": [
@@ -9385,8 +9367,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Walch, M",
-    "seats_open": 4,
+    "instructor": "Saylor, J, Rollins, A",
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 206W",
     "prerequisite_courses": [
@@ -9410,33 +9392,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Obert, S",
-    "seats_open": 20,
-    "seats_total": 20,
-    "prerequisite_text": "NURS 150 and BIO 204 and NURS 206W",
-    "prerequisite_courses": [
-      "NURS 150",
-      "BIO 204",
-      "NURS 206W"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "NURS",
-    "course_number": "205W",
-    "course_title": "Web Nursing III",
-    "credits": 6,
-    "crn": "NURS-205W-WF8 (56273)",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2026-08-17",
-    "location": "Online Instruction",
-    "campus": "WEBL",
-    "mode": "online",
-    "instructor": "Saylor, J",
-    "seats_open": 20,
+    "instructor": "Obert, S, Pierre-Louis, S",
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 206W",
     "prerequisite_courses": [
@@ -9461,7 +9418,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Corle, D, Obert, S",
-    "seats_open": 14,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "BIO 204",
     "prerequisite_courses": [
@@ -9484,7 +9441,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Dunn, D, Collard, D",
-    "seats_open": 25,
+    "seats_open": 13,
     "seats_total": 40,
     "prerequisite_text": "BIO 204",
     "prerequisite_courses": [
@@ -9507,7 +9464,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Baughman, K, Smearman, E",
-    "seats_open": 27,
+    "seats_open": 21,
     "seats_total": 40,
     "prerequisite_text": "BIO 204",
     "prerequisite_courses": [
@@ -9529,7 +9486,7 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Walch, M",
+    "instructor": "Walch, M, Pierre-Louis, S",
     "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 205W",
@@ -9554,7 +9511,7 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Cosner, M",
+    "instructor": "Cosner, M, Rollins, A, Pierre-Louis, S",
     "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 205W",
@@ -9579,7 +9536,7 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Obert, S",
+    "instructor": "Obert, S, Pierre-Louis, S",
     "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 205W",
@@ -9604,8 +9561,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Seifarth, J",
-    "seats_open": 12,
+    "instructor": "Seifarth, J, Rollins, A",
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 205W",
     "prerequisite_courses": [
@@ -9629,8 +9586,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Shipe, B",
-    "seats_open": 20,
+    "instructor": "Shipe, B, Rollins, A",
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 205W",
     "prerequisite_courses": [
@@ -9654,8 +9611,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Walch, M",
-    "seats_open": 4,
+    "instructor": "Saylor, J, Rollins, A",
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 205W",
     "prerequisite_courses": [
@@ -9679,33 +9636,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Obert, S",
-    "seats_open": 19,
-    "seats_total": 20,
-    "prerequisite_text": "NURS 150 and BIO 204 and NURS 205W",
-    "prerequisite_courses": [
-      "NURS 150",
-      "BIO 204",
-      "NURS 205W"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "NURS",
-    "course_number": "206W",
-    "course_title": "Web Nursing IV",
-    "credits": 3,
-    "crn": "NURS-206W-WF8 (56275)",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2026-08-17",
-    "location": "Online Instruction",
-    "campus": "WEBL",
-    "mode": "online",
-    "instructor": "Saylor, J",
-    "seats_open": 20,
+    "instructor": "Obert, S, Pierre-Louis, S",
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "NURS 150 and BIO 204 and NURS 205W",
     "prerequisite_courses": [
@@ -9730,7 +9662,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Suter, J, McKenzie, K",
-    "seats_open": 24,
+    "seats_open": 26,
     "seats_total": 40,
     "prerequisite_text": "NURS 205 and NURS 206 and BIO 204",
     "prerequisite_courses": [
@@ -9805,7 +9737,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Harvey, M, Morral, K",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "NURS 205 and NURS 206 and BIO 204",
     "prerequisite_courses": [
@@ -9830,7 +9762,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Tasker-Boucot, B, Morral, K",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "NURS 205 and NURS 206 and BIO 204",
     "prerequisite_courses": [
@@ -9855,7 +9787,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Harvey, M, Morral, K",
-    "seats_open": 15,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "NURS 205 and NURS 206 and BIO 204",
     "prerequisite_courses": [
@@ -9880,32 +9812,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Vickory, S, Morral, K",
-    "seats_open": 15,
-    "seats_total": 20,
-    "prerequisite_text": "NURS 205 and NURS 206 and BIO 204",
-    "prerequisite_courses": [
-      "NURS 205",
-      "NURS 206",
-      "BIO 204"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "NURS",
-    "course_number": "215W",
-    "course_title": "Web Nursing V",
-    "credits": 9,
-    "crn": "NURS-215W-WF6 (54226)",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2026-08-17",
-    "location": "Online Instruction",
-    "campus": "WEBL",
-    "mode": "online",
-    "instructor": null,
-    "seats_open": 20,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "NURS 205 and NURS 206 and BIO 204",
     "prerequisite_courses": [
@@ -9929,13 +9836,43 @@
     "location": "Garrett Nursing",
     "campus": "GARL",
     "mode": "in-person",
-    "instructor": "Tasker-Boucot, B",
-    "seats_open": 11,
+    "instructor": "Tasker-Boucot, B, Lung, L",
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "NURS 205 and NURS 206 and BIO 204",
     "prerequisite_courses": [
       "NURS 205",
       "NURS 206",
+      "BIO 204"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "NURS",
+    "course_number": "294",
+    "course_title": "Nursing Bridge Course 6 Cred",
+    "credits": 6,
+    "crn": "NURS-294-CF2B (56504)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Cumberland Main Campus",
+    "campus": "CMCL",
+    "mode": "online",
+    "instructor": "Obert, S",
+    "seats_open": 19,
+    "seats_total": 20,
+    "prerequisite_text": "BIO 207 or BIO 208 and MATH 102 or MATH 109 and ENG 101 and EDUC 203 or PSYC 203 and BIO 204",
+    "prerequisite_courses": [
+      "BIO 207",
+      "BIO 208",
+      "MATH 102",
+      "MATH 109",
+      "ENG 101",
+      "EDUC 203",
+      "PSYC 203",
       "BIO 204"
     ]
   },
@@ -9955,7 +9892,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Romesberg, M",
-    "seats_open": 15,
+    "seats_open": 2,
     "seats_total": 15,
     "prerequisite_text": "BIO 204 and BIO 207 or BIO 208 and MATH 102 or MATH 109 and ENG 101 and EDUC 203 or PSYC 203 and PSYC 101",
     "prerequisite_courses": [
@@ -9986,7 +9923,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Burriss, J",
-    "seats_open": 15,
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "BIO 204 and BIO 207 or BIO 208 and MATH 102 or MATH 109 and ENG 101 and EDUC 203 or PSYC 203 and PSYC 101",
     "prerequisite_courses": [
@@ -10016,8 +9953,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": "Durst, S",
-    "seats_open": 15,
+    "instructor": "White, K",
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "BIO 204 and BIO 207 or BIO 208 and MATH 102 or MATH 109 and ENG 101 and EDUC 203 or PSYC 203 and PSYC 101",
     "prerequisite_courses": [
@@ -10048,7 +9985,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Michaels, T",
-    "seats_open": 15,
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "BIO 204 and BIO 207 or BIO 208 and MATH 102 or MATH 109 and ENG 101 and EDUC 203 or PSYC 203 and PSYC 101",
     "prerequisite_courses": [
@@ -10078,8 +10015,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Corle, D",
+    "seats_open": 2,
     "seats_total": 15,
     "prerequisite_text": "BIO 204 and BIO 207 or BIO 208 and MATH 102 or MATH 109 and ENG 101 and EDUC 203 or PSYC 203 and PSYC 101",
     "prerequisite_courses": [
@@ -10109,8 +10046,8 @@
     "location": "Online Instruction",
     "campus": "WEBL",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Murray, R",
+    "seats_open": 2,
     "seats_total": 15,
     "prerequisite_text": "BIO 204 and BIO 207 or BIO 208 and MATH 102 or MATH 109 and ENG 101 and EDUC 203 or PSYC 203 and PSYC 101",
     "prerequisite_courses": [
@@ -10139,9 +10076,9 @@
     "start_date": "2026-08-17",
     "location": "Online Instruction",
     "campus": "WEBL",
-    "mode": "in-person",
-    "instructor": null,
-    "seats_open": 15,
+    "mode": "online",
+    "instructor": "Durst, S",
+    "seats_open": 1,
     "seats_total": 15,
     "prerequisite_text": "BIO 204 and BIO 207 or BIO 208 and MATH 102 or MATH 109 and ENG 101 and EDUC 203 or PSYC 203 and PSYC 101",
     "prerequisite_courses": [
@@ -10172,7 +10109,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Rhodes, E",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10195,7 +10132,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Grimm, C",
-    "seats_open": 16,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "OTA 102L",
     "prerequisite_courses": [
@@ -10218,7 +10155,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Grimm, C",
-    "seats_open": 16,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "OTA 102",
     "prerequisite_courses": [
@@ -10241,7 +10178,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Grimm, C",
-    "seats_open": 9,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10264,7 +10201,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Rhodes, E",
-    "seats_open": 16,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "OTA 203L",
     "prerequisite_courses": [
@@ -10287,7 +10224,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Grimm, C, Rhodes, E",
-    "seats_open": 16,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "OTA 203",
     "prerequisite_courses": [
@@ -10310,7 +10247,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Rhodes, E",
-    "seats_open": 16,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "OTA 207L",
     "prerequisite_courses": [
@@ -10333,7 +10270,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Rhodes, E",
-    "seats_open": 16,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "OTA 207",
     "prerequisite_courses": [
@@ -10356,7 +10293,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Grimm, C",
-    "seats_open": 17,
+    "seats_open": 7,
     "seats_total": 17,
     "prerequisite_text": "OTA 215L",
     "prerequisite_courses": [
@@ -10379,7 +10316,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Grimm, C",
-    "seats_open": 16,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "OTA 215",
     "prerequisite_courses": [
@@ -10402,7 +10339,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Shrout, W",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10425,7 +10362,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "McKenzie, P",
-    "seats_open": 24,
+    "seats_open": 20,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10448,7 +10385,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Shrout, W",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10494,7 +10431,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Koontz, T",
-    "seats_open": 14,
+    "seats_open": 10,
     "seats_total": 16,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10517,7 +10454,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Koontz, T",
-    "seats_open": 8,
+    "seats_open": 9,
     "seats_total": 16,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10540,7 +10477,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Senka, S",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 12,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10563,7 +10500,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Emerick, H",
-    "seats_open": 9,
+    "seats_open": 6,
     "seats_total": 12,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10586,7 +10523,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Senka, S, Emerick, H",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "PBLA 110 and PBLA 111",
     "prerequisite_courses": [
@@ -10610,7 +10547,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Senka, S, Emerick, H",
-    "seats_open": 7,
+    "seats_open": 5,
     "seats_total": 16,
     "prerequisite_text": "PBLA 110 and PBLA 111",
     "prerequisite_courses": [
@@ -10634,7 +10571,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Reams, T",
-    "seats_open": 21,
+    "seats_open": 10,
     "seats_total": 24,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10656,8 +10593,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": "Stewart, L",
-    "seats_open": 44,
+    "instructor": "Reams, T",
+    "seats_open": 34,
     "seats_total": 50,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10678,7 +10615,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Heyne, M",
-    "seats_open": 19,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10699,7 +10636,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Eagan, C",
-    "seats_open": 15,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10720,7 +10657,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Collins-Smith, C",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10741,56 +10678,10 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Collins-Smith, C",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "PHED",
-    "course_number": "145",
-    "course_title": "Personal Wellness",
-    "credits": 2,
-    "crn": "PHED-145-CF1 (54256)",
-    "days": "M W",
-    "start_time": "9:00 AM",
-    "end_time": "9:50 AM",
-    "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "in-person",
-    "instructor": "Heyne, M",
-    "seats_open": 20,
-    "seats_total": 20,
-    "prerequisite_text": "ENG 092",
-    "prerequisite_courses": [
-      "ENG 092"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "PHED",
-    "course_number": "145",
-    "course_title": "Personal Wellness",
-    "credits": 2,
-    "crn": "PHED-145-CF2 (54592)",
-    "days": "M W F",
-    "start_time": "2:00 PM",
-    "end_time": "2:50 PM",
-    "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "in-person",
-    "instructor": "Heyne, M",
-    "seats_open": 20,
-    "seats_total": 20,
-    "prerequisite_text": "ENG 092",
-    "prerequisite_courses": [
-      "ENG 092"
-    ]
   },
   {
     "college_code": "allegany",
@@ -10808,7 +10699,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Eagan, C",
-    "seats_open": 15,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10831,7 +10722,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Eagan, C",
-    "seats_open": 15,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -10865,92 +10756,6 @@
     "college_code": "allegany",
     "term": "2026FA",
     "course_prefix": "PHED",
-    "course_number": "148",
-    "course_title": "Cardiopulmonary Resuscitation",
-    "credits": 1,
-    "crn": "PHED-148-CS1 (54260)",
-    "days": "T Th",
-    "start_time": "6:00 PM",
-    "end_time": "9:30 PM",
-    "start_date": "2026-08-25",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "in-person",
-    "instructor": "Heyne, M",
-    "seats_open": 20,
-    "seats_total": 20,
-    "prerequisite_text": "ENG 092",
-    "prerequisite_courses": [
-      "ENG 092"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "PHED",
-    "course_number": "153",
-    "course_title": "CPR & First Aid",
-    "credits": 2,
-    "crn": "PHED-153-BF1 (54587)",
-    "days": "Th",
-    "start_time": "10:00 AM",
-    "end_time": "11:40 AM",
-    "start_date": "2026-08-17",
-    "location": "Bedford County Campus",
-    "campus": "BCCL",
-    "mode": "in-person",
-    "instructor": "Reams, T",
-    "seats_open": 20,
-    "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "PHED",
-    "course_number": "153",
-    "course_title": "CPR & First Aid",
-    "credits": 2,
-    "crn": "PHED-153-CF1 (54261)",
-    "days": "M W",
-    "start_time": "1:00 PM",
-    "end_time": "1:50 PM",
-    "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "in-person",
-    "instructor": "Reams, T",
-    "seats_open": 19,
-    "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "PHED",
-    "course_number": "153",
-    "course_title": "CPR & First Aid",
-    "credits": 2,
-    "crn": "PHED-153-CF2 (54262)",
-    "days": "T Th",
-    "start_time": "2:00 PM",
-    "end_time": "2:50 PM",
-    "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "in-person",
-    "instructor": "Heyne, M",
-    "seats_open": 20,
-    "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "PHED",
     "course_number": "153",
     "course_title": "CPR & First Aid",
     "credits": 2,
@@ -10962,8 +10767,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": "Eagan, C",
-    "seats_open": 18,
+    "instructor": "Reams, T",
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10983,8 +10788,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": "Heyne, M",
-    "seats_open": 19,
+    "instructor": "Heyne, M, Eagan, C",
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11005,31 +10810,8 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Eagan, C",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 22,
-    "prerequisite_text": "ENG 092",
-    "prerequisite_courses": [
-      "ENG 092"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "PHED",
-    "course_number": "155",
-    "course_title": "Mind Body Move Stress Reduct",
-    "credits": 1,
-    "crn": "PHED-155-CF1 (54265)",
-    "days": "M W",
-    "start_time": "11:00 AM",
-    "end_time": "11:50 AM",
-    "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "in-person",
-    "instructor": "Eagan, C",
-    "seats_open": 18,
-    "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
       "ENG 092"
@@ -11051,7 +10833,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Heyne, M",
-    "seats_open": 15,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11074,7 +10856,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Heyne, M",
-    "seats_open": 16,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11097,7 +10879,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Heyne, M",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": "BIO 114",
     "prerequisite_courses": [
@@ -11143,7 +10925,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Oldham, J",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 16,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11165,8 +10947,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": "Kentrus, M, Gombita, E",
-    "seats_open": 16,
+    "instructor": "Kentrus, M",
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": "PTA 202L",
     "prerequisite_courses": [
@@ -11188,8 +10970,8 @@
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
-    "instructor": "Gombita, E, Kentrus, M",
-    "seats_open": 16,
+    "instructor": "Kentrus, M",
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11210,7 +10992,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kentrus, M",
-    "seats_open": 16,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": "PTA 203",
     "prerequisite_courses": [
@@ -11233,7 +11015,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Kentrus, M",
-    "seats_open": 16,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": "PTA 203L",
     "prerequisite_courses": [
@@ -11256,7 +11038,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Oldham, J",
-    "seats_open": 16,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": "PTA 205L",
     "prerequisite_courses": [
@@ -11279,7 +11061,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Oldham, J",
-    "seats_open": 16,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": "PTA 205",
     "prerequisite_courses": [
@@ -11302,7 +11084,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Oldham, J",
-    "seats_open": 16,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": "PTA 209L",
     "prerequisite_courses": [
@@ -11325,7 +11107,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Oldham, J",
-    "seats_open": 16,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": "PTA 209",
     "prerequisite_courses": [
@@ -11348,7 +11130,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Oldham, J",
-    "seats_open": 16,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": "PTA 213L",
     "prerequisite_courses": [
@@ -11365,13 +11147,13 @@
     "crn": "PTA-213L-CF1 (54326)",
     "days": "M",
     "start_time": "10:00 AM",
-    "end_time": "11:50 PM",
+    "end_time": "11:50 AM",
     "start_date": "2026-08-17",
     "location": "Cumberland Main Campus",
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Oldham, J",
-    "seats_open": 16,
+    "seats_open": 4,
     "seats_total": 16,
     "prerequisite_text": "PTA 213",
     "prerequisite_courses": [
@@ -11394,8 +11176,8 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Heninger, S",
-    "seats_open": 3,
-    "seats_total": 12,
+    "seats_open": 6,
+    "seats_total": 24,
     "prerequisite_text": "PHYS 101L",
     "prerequisite_courses": [
       "PHYS 101L"
@@ -11417,7 +11199,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Heninger, S",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 24,
     "prerequisite_text": "PHYS 101",
     "prerequisite_courses": [
@@ -11440,7 +11222,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Stickler, J",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11461,7 +11243,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Rafter, S",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11482,8 +11264,8 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Heninger, S",
-    "seats_open": 3,
-    "seats_total": 12,
+    "seats_open": 6,
+    "seats_total": 24,
     "prerequisite_text": "PHYS 201L and ENG 092 or ENG 095",
     "prerequisite_courses": [
       "PHYS 201L",
@@ -11507,7 +11289,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Heninger, S",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 24,
     "prerequisite_text": "PHYS 201",
     "prerequisite_courses": [
@@ -11530,7 +11312,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Hoover, B",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11553,7 +11335,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Hoover, B",
-    "seats_open": 12,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11576,7 +11358,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Golub, S",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11613,15 +11395,15 @@
     "course_number": "101",
     "course_title": "General Psychology",
     "credits": 3,
-    "crn": "PSYC-101-BF1 (54656)",
-    "days": "M W F",
-    "start_time": "10:00 AM",
-    "end_time": "10:50 AM",
+    "crn": "PSYC-101-BF2B (56717)",
+    "days": "M W",
+    "start_time": "1:30 PM",
+    "end_time": "2:30 PM",
     "start_date": "2026-08-17",
     "location": "Bedford County Campus",
     "campus": "BCCL",
     "mode": "in-person",
-    "instructor": "Shroyer, C",
+    "instructor": "Smith, R",
     "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
@@ -11645,7 +11427,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Merrill, L",
-    "seats_open": 15,
+    "seats_open": 10,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11668,7 +11450,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "McKenzie, P",
-    "seats_open": 19,
+    "seats_open": 9,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11691,7 +11473,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Smith, R",
-    "seats_open": 22,
+    "seats_open": 19,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11714,7 +11496,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Hay, C",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11737,7 +11519,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Hay, C",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11783,7 +11565,53 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Harman, B",
-    "seats_open": 5,
+    "seats_open": 0,
+    "seats_total": 25,
+    "prerequisite_text": "ENG 092",
+    "prerequisite_courses": [
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "PSYC",
+    "course_number": "101",
+    "course_title": "General Psychology",
+    "credits": 3,
+    "crn": "PSYC-101-WF5 (54302)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Harman, B",
+    "seats_open": 0,
+    "seats_total": 25,
+    "prerequisite_text": "ENG 092",
+    "prerequisite_courses": [
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "PSYC",
+    "course_number": "101",
+    "course_title": "General Psychology",
+    "credits": 3,
+    "crn": "PSYC-101-WF6 (56675)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Harman, B",
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11806,7 +11634,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Shrout, W",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11829,7 +11657,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "McKenzie, P",
-    "seats_open": 24,
+    "seats_open": 20,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11852,7 +11680,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Shrout, W",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -11875,7 +11703,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Merrill, L",
-    "seats_open": 23,
+    "seats_open": 17,
     "seats_total": 30,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -11898,7 +11726,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Merrill, L",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 30,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -11921,7 +11749,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "McKenzie, P",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -11967,6 +11795,29 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Orndoff, J",
+    "seats_open": 3,
+    "seats_total": 25,
+    "prerequisite_text": "PSYC 101",
+    "prerequisite_courses": [
+      "PSYC 101"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "PSYC",
+    "course_number": "203",
+    "course_title": "Human Growth & Development",
+    "credits": 3,
+    "crn": "PSYC-203-WF4 (56453)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Orndoff, J",
     "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "PSYC 101",
@@ -11990,7 +11841,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Merrill, L",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 30,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -12013,7 +11864,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "McKenzie, P",
-    "seats_open": 10,
+    "seats_open": 4,
     "seats_total": 25,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -12036,7 +11887,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "McKenzie, P",
-    "seats_open": 19,
+    "seats_open": 23,
     "seats_total": 30,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -12059,7 +11910,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "McKenzie, P",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -12082,7 +11933,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Clark, A",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -12105,7 +11956,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Clark, A",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -12128,7 +11979,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Bracken, J",
-    "seats_open": 14,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12149,7 +12000,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Fuller, P",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 10,
     "prerequisite_text": "RESP 101L and ENG 092",
     "prerequisite_courses": [
@@ -12173,7 +12024,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Fuller, P",
-    "seats_open": 5,
+    "seats_open": 3,
     "seats_total": 10,
     "prerequisite_text": "RESP 101L and ENG 092",
     "prerequisite_courses": [
@@ -12197,7 +12048,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Diehl, D",
-    "seats_open": 11,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "RESP 101",
     "prerequisite_courses": [
@@ -12220,7 +12071,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Fuller, P",
-    "seats_open": 8,
+    "seats_open": 3,
     "seats_total": 24,
     "prerequisite_text": "RESP 101 and RESP 102 and RESP 104 and RESP 206 and RESP 210 and RESP 213 and RESP 225 and RESP 231",
     "prerequisite_courses": [
@@ -12250,7 +12101,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Diehl, D",
-    "seats_open": 8,
+    "seats_open": 3,
     "seats_total": 24,
     "prerequisite_text": "RESP 212 and RESP 225 and RESP 231 and BIO 116 and MATH 102 or MATH 109 and RESP 101 and RESP 102 and RESP 104 and RESP 206",
     "prerequisite_courses": [
@@ -12282,7 +12133,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Fuller, P",
-    "seats_open": 10,
+    "seats_open": 5,
     "seats_total": 26,
     "prerequisite_text": "RESP 225L and RESP 101 and RESP 102 and RESP 190 and RESP 206 and RESP 210 and RESP 212 and RESP 213 and RESP 231",
     "prerequisite_courses": [
@@ -12313,7 +12164,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Fuller, P, Diehl, D, Santos, A, Logsdon, B, Upole, S",
-    "seats_open": 10,
+    "seats_open": 5,
     "seats_total": 26,
     "prerequisite_text": "RESP 225",
     "prerequisite_courses": [
@@ -12336,7 +12187,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Diehl, D",
-    "seats_open": 10,
+    "seats_open": 5,
     "seats_total": 26,
     "prerequisite_text": "RESP 101 and RESP 102 and RESP 104 and RESP 190 and RESP 206 and RESP 210 and RESP 212 and RESP 213 and RESP 225",
     "prerequisite_courses": [
@@ -12367,7 +12218,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Fickes, P",
-    "seats_open": 26,
+    "seats_open": 25,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12390,7 +12241,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Dahlem, J",
-    "seats_open": 21,
+    "seats_open": 12,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12413,7 +12264,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Dahlem, J",
-    "seats_open": 21,
+    "seats_open": 17,
     "seats_total": 30,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12459,7 +12310,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "McMahon, D",
-    "seats_open": 0,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12482,7 +12333,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Dahlem, J",
-    "seats_open": 0,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12505,7 +12356,30 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Dahlem, J",
-    "seats_open": 21,
+    "seats_open": 0,
+    "seats_total": 25,
+    "prerequisite_text": "ENG 092",
+    "prerequisite_courses": [
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "SOC",
+    "course_number": "101",
+    "course_title": "Intro to Sociology",
+    "credits": 3,
+    "crn": "SOC-101-WF5 (56661)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Dahlem, J",
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12528,33 +12402,10 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Gaither, J",
-    "seats_open": 16,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "SOC",
-    "course_number": "203",
-    "course_title": "Social Problems",
-    "credits": 3,
-    "crn": "SOC-203-CF1 (54660)",
-    "days": "T Th",
-    "start_time": "2:00 PM",
-    "end_time": "3:15 PM",
-    "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "in-person",
-    "instructor": "Dahlem, J",
-    "seats_open": 23,
-    "seats_total": 25,
-    "prerequisite_text": "SOC 101",
-    "prerequisite_courses": [
-      "SOC 101"
-    ]
   },
   {
     "college_code": "allegany",
@@ -12572,7 +12423,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "McMahon, D",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": "SOC 101",
     "prerequisite_courses": [
@@ -12595,11 +12446,57 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "McMahon, D",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "SOC 101",
     "prerequisite_courses": [
       "SOC 101"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "SPAN",
+    "course_number": "103",
+    "course_title": "Introductory Spanish I",
+    "credits": 3,
+    "crn": "SPAN-103-CF1 (56587)",
+    "days": "T Th",
+    "start_time": "9:30 AM",
+    "end_time": "10:45 AM",
+    "start_date": "2026-08-17",
+    "location": "Cumberland Main Campus",
+    "campus": "CMCL",
+    "mode": "in-person",
+    "instructor": "Hampton, M",
+    "seats_open": 22,
+    "seats_total": 25,
+    "prerequisite_text": "ENG 092",
+    "prerequisite_courses": [
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "SPAN",
+    "course_number": "103",
+    "course_title": "Introductory Spanish I",
+    "credits": 3,
+    "crn": "SPAN-103-WF1 (54372)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Hampton, M",
+    "seats_open": 11,
+    "seats_total": 25,
+    "prerequisite_text": "ENG 092",
+    "prerequisite_courses": [
+      "ENG 092"
     ]
   },
   {
@@ -12618,7 +12515,7 @@
     "campus": "BCCL",
     "mode": "in-person",
     "instructor": "Verba, T",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12641,7 +12538,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Gallion, J",
-    "seats_open": 14,
+    "seats_open": 6,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12664,30 +12561,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Gallion, J",
-    "seats_open": 14,
-    "seats_total": 20,
-    "prerequisite_text": "ENG 092",
-    "prerequisite_courses": [
-      "ENG 092"
-    ]
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "SPCH",
-    "course_number": "101",
-    "course_title": "Speech Communication",
-    "credits": 3,
-    "crn": "SPCH-101-CF3 (54377)",
-    "days": "T Th",
-    "start_time": "11:00 AM",
-    "end_time": "12:15 PM",
-    "start_date": "2026-08-17",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "in-person",
-    "instructor": "Shepherd, T",
-    "seats_open": 17,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12710,7 +12584,7 @@
     "campus": "CMCL",
     "mode": "in-person",
     "instructor": "Cofield, R",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12756,7 +12630,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Gallion, J",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12779,7 +12653,30 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Verba, T",
-    "seats_open": 12,
+    "seats_open": 0,
+    "seats_total": 20,
+    "prerequisite_text": "ENG 092",
+    "prerequisite_courses": [
+      "ENG 092"
+    ]
+  },
+  {
+    "college_code": "allegany",
+    "term": "2026FA",
+    "course_prefix": "SPCH",
+    "course_number": "101",
+    "course_title": "Speech Communication",
+    "credits": 3,
+    "crn": "SPCH-101-WF4 (56653)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online Instruction",
+    "campus": "WEBL",
+    "mode": "online",
+    "instructor": "Marafino, M",
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "ENG 092",
     "prerequisite_courses": [
@@ -12802,7 +12699,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Bracken, J",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12823,7 +12720,7 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": "Bracken, J",
-    "seats_open": 20,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12844,29 +12741,8 @@
     "campus": "WEBL",
     "mode": "online",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "allegany",
-    "term": "2026FA",
-    "course_prefix": "SDEV",
-    "course_number": "106",
-    "course_title": "Connections: on Course Success",
-    "credits": 3,
-    "crn": "SDEV-106-CD1B (54350)",
-    "days": "T Th",
-    "start_time": "11:00 AM",
-    "end_time": "12:15 PM",
-    "start_date": "2026-09-08",
-    "location": "Cumberland Main Campus",
-    "campus": "CMCL",
-    "mode": "online",
-    "instructor": "Clark-Trub, D",
-    "seats_open": 12,
-    "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -12886,7 +12762,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Fiscus, L",
-    "seats_open": 19,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12907,7 +12783,7 @@
     "campus": "CMCL",
     "mode": "online",
     "instructor": "Fiscus, L",
-    "seats_open": 12,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12928,7 +12804,7 @@
     "campus": "WEBL",
     "mode": "zoom",
     "instructor": "Greise, H",
-    "seats_open": 15,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
