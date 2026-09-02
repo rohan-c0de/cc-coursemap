@@ -5089,7 +5089,7 @@
     "campus": "Mission College",
     "mode": "in-person",
     "instructor": "Baker, James",
-    "seats_open": 16,
+    "seats_open": 17,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6336,7 +6336,7 @@
     "campus": "Mission College",
     "mode": "online",
     "instructor": "Garcia, Mary",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7622,7 +7622,7 @@
     "campus": "Mission College",
     "mode": "online",
     "instructor": "Garcia, Mary",
-    "seats_open": 6,
+    "seats_open": 7,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8730,7 +8730,7 @@
     "campus": "Mission College",
     "mode": "online",
     "instructor": "Drown, Neeley",
-    "seats_open": 4,
+    "seats_open": 5,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14766,7 +14766,7 @@
     "campus": "Mission College",
     "mode": "in-person",
     "instructor": "Sheridan, Lana",
-    "seats_open": 1,
+    "seats_open": 2,
     "seats_total": 32,
     "prerequisite_text": "Prerequisite: MAT 003B and PHY 004A",
     "prerequisite_courses": [
