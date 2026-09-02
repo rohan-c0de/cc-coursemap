@@ -15,7 +15,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Stauffer, A",
-    "seats_open": 15,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -36,7 +36,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Stauffer, A",
-    "seats_open": 9,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -57,7 +57,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Stauffer, A",
-    "seats_open": 12,
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "ACC 201",
     "prerequisite_courses": [
@@ -132,7 +132,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Willumson, H",
-    "seats_open": 2,
+    "seats_open": 4,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -153,7 +153,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Corona-Sarabia, O",
-    "seats_open": 20,
+    "seats_open": 0,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -174,7 +174,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Corona-Sarabia, O",
-    "seats_open": 4,
+    "seats_open": 3,
     "seats_total": 60,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -195,7 +195,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Corona-Sarabia, O",
-    "seats_open": 0,
+    "seats_open": 4,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -216,7 +216,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Corona-Sarabia, O",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -603,7 +603,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Dye, S, Larsen, S",
-    "seats_open": 16,
+    "seats_open": 17,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -689,7 +689,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Anderson, A",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 30,
     "prerequisite_text": "ARN 250 or ARN 215 and ARN 285",
     "prerequisite_courses": [
@@ -714,7 +714,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Anderson, A",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 30,
     "prerequisite_text": "ARN 250 or ARN 215 and ARN 285",
     "prerequisite_courses": [
@@ -764,7 +764,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "George, C",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 30,
     "prerequisite_text": "ARN 165 and ARN 280 or ARN 275",
     "prerequisite_courses": [
@@ -788,7 +788,7 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Nedrow, J",
     "seats_open": 11,
     "seats_total": 18,
     "prerequisite_text": "MTD 103",
@@ -805,8 +805,8 @@
     "credits": 6,
     "crn": "ASE-103-02 (30092)",
     "days": "M T W Th",
-    "start_time": "12:30 PM",
-    "end_time": "3:30 PM",
+    "start_time": "7:30 AM",
+    "end_time": "10:50 AM",
     "start_date": "2026-08-17",
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
@@ -834,7 +834,7 @@
     "credits": 6,
     "crn": "ASE-103L-02 (30093)",
     "days": "M T W Th",
-    "start_time": "7:30 AM",
+    "start_time": "11:00 AM",
     "end_time": "11:50 AM",
     "start_date": "2026-08-17",
     "location": "Idaho Falls Main Campus",
@@ -870,7 +870,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Fisher, B, Martin, D",
-    "seats_open": 14,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -891,7 +891,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Fisher, B, Martin, D",
-    "seats_open": 14,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -912,7 +912,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Fisher, B, Martin, D",
-    "seats_open": 13,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -933,7 +933,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Fisher, B, Martin, D",
-    "seats_open": 13,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "ASE 164",
     "prerequisite_courses": [
@@ -956,7 +956,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Fisher, B, Martin, D",
-    "seats_open": 13,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -977,7 +977,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Kelley, B",
-    "seats_open": 3,
+    "seats_open": 5,
     "seats_total": 10,
     "prerequisite_text": "ASE 103 or ASE 103L and ASE 203L",
     "prerequisite_courses": [
@@ -1002,7 +1002,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Kelley, B",
-    "seats_open": 3,
+    "seats_open": 5,
     "seats_total": 10,
     "prerequisite_text": "ASE 103 or ASE 103L and ASE 203",
     "prerequisite_courses": [
@@ -1027,8 +1027,8 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Martin, D",
-    "seats_open": 8,
-    "seats_total": 10,
+    "seats_open": 3,
+    "seats_total": 15,
     "prerequisite_text": "ASE 105 or ASE 105L and ASE 205L",
     "prerequisite_courses": [
       "ASE 105",
@@ -1045,15 +1045,15 @@
     "credits": 6,
     "crn": "ASE-205L-01 (30436)",
     "days": "M T W Th",
-    "start_time": "7:30 AM",
+    "start_time": "11:00 AM",
     "end_time": "12:00 PM",
     "start_date": "2026-08-17",
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Martin, D",
-    "seats_open": 8,
-    "seats_total": 10,
+    "seats_open": 3,
+    "seats_total": 15,
     "prerequisite_text": "ASE 105 or ASE 105L and ASE 205",
     "prerequisite_courses": [
       "ASE 105",
@@ -1077,7 +1077,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Christiansen, S",
-    "seats_open": 5,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "ASE 205 or ASE 205L or ASE 207 or ASE 207L and ASE 206L",
     "prerequisite_courses": [
@@ -1104,7 +1104,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Christiansen, S",
-    "seats_open": 5,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "ASE 205 or ASE 205L or ASE 207 or ASE 207L and ASE 206",
     "prerequisite_courses": [
@@ -1131,7 +1131,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "O'Hearn, P",
-    "seats_open": 16,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": "BIOL 100L",
     "prerequisite_courses": [
@@ -1154,7 +1154,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "O'Hearn, P",
-    "seats_open": 9,
+    "seats_open": 2,
     "seats_total": 30,
     "prerequisite_text": "BIOL 100L",
     "prerequisite_courses": [
@@ -1177,7 +1177,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "O'Hearn, P",
-    "seats_open": 20,
+    "seats_open": 13,
     "seats_total": 24,
     "prerequisite_text": "BIOL 100L",
     "prerequisite_courses": [
@@ -1200,7 +1200,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "O'Hearn, P",
-    "seats_open": 16,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": "BIOL 100",
     "prerequisite_courses": [
@@ -1223,7 +1223,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "O'Hearn, P",
-    "seats_open": 9,
+    "seats_open": 2,
     "seats_total": 30,
     "prerequisite_text": "BIOL 100",
     "prerequisite_courses": [
@@ -1246,7 +1246,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "O'Hearn, P",
-    "seats_open": 20,
+    "seats_open": 13,
     "seats_total": 24,
     "prerequisite_text": "BIOL 100",
     "prerequisite_courses": [
@@ -1269,7 +1269,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burrows, B",
-    "seats_open": 15,
+    "seats_open": 4,
     "seats_total": 24,
     "prerequisite_text": "BIOL 201L",
     "prerequisite_courses": [
@@ -1292,7 +1292,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Burrows, B",
-    "seats_open": 15,
+    "seats_open": 7,
     "seats_total": 24,
     "prerequisite_text": "BIOL 201L",
     "prerequisite_courses": [
@@ -1315,7 +1315,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burrows, B",
-    "seats_open": 15,
+    "seats_open": 4,
     "seats_total": 24,
     "prerequisite_text": "BIOL 201",
     "prerequisite_courses": [
@@ -1338,7 +1338,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burrows, B",
-    "seats_open": 15,
+    "seats_open": 7,
     "seats_total": 24,
     "prerequisite_text": "BIOL 201",
     "prerequisite_courses": [
@@ -1361,7 +1361,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "O'Hearn, P",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 24,
     "prerequisite_text": "BIOL 100 or BIOL 201 and BIOL 202L",
     "prerequisite_courses": [
@@ -1386,7 +1386,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "O'Hearn, P",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 24,
     "prerequisite_text": "BIOL 202",
     "prerequisite_courses": [
@@ -1432,7 +1432,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burger, J",
-    "seats_open": 0,
+    "seats_open": 2,
     "seats_total": 9,
     "prerequisite_text": "BIOL 227L",
     "prerequisite_courses": [
@@ -1456,7 +1456,7 @@
     "mode": "in-person",
     "instructor": "Burger, J",
     "seats_open": 1,
-    "seats_total": 9,
+    "seats_total": 8,
     "prerequisite_text": "BIOL 227L",
     "prerequisite_courses": [
       "BIOL 227L"
@@ -1470,29 +1470,6 @@
     "course_title": "Human Anatomy & Physiology I",
     "credits": 4,
     "crn": "BIOL-227-04 (30122)",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2026-08-17",
-    "location": "Online",
-    "campus": "ONLI",
-    "mode": "online",
-    "instructor": "Miller, K",
-    "seats_open": 2,
-    "seats_total": 24,
-    "prerequisite_text": "BIOL 227L",
-    "prerequisite_courses": [
-      "BIOL 227L"
-    ]
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "BIOL",
-    "course_number": "227",
-    "course_title": "Human Anatomy & Physiology I",
-    "credits": 4,
-    "crn": "BIOL-227-05 (30123)",
     "days": "",
     "start_time": "",
     "end_time": "",
@@ -1515,6 +1492,29 @@
     "course_number": "227",
     "course_title": "Human Anatomy & Physiology I",
     "credits": 4,
+    "crn": "BIOL-227-05 (30123)",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-08-17",
+    "location": "Online",
+    "campus": "ONLI",
+    "mode": "online",
+    "instructor": "Miller, K",
+    "seats_open": 2,
+    "seats_total": 24,
+    "prerequisite_text": "BIOL 227L",
+    "prerequisite_courses": [
+      "BIOL 227L"
+    ]
+  },
+  {
+    "college_code": "college-of-eastern-idaho",
+    "term": "2026FA",
+    "course_prefix": "BIOL",
+    "course_number": "227",
+    "course_title": "Human Anatomy & Physiology I",
+    "credits": 4,
     "crn": "BIOL-227-06 (30124)",
     "days": "M W",
     "start_time": "12:00 PM",
@@ -1524,7 +1524,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burger, J",
-    "seats_open": 12,
+    "seats_open": 2,
     "seats_total": 24,
     "prerequisite_text": "BIOL 227L",
     "prerequisite_courses": [
@@ -1547,7 +1547,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Miller, K",
-    "seats_open": 5,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": "BIOL 227L",
     "prerequisite_courses": [
@@ -1570,7 +1570,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Miller, K",
-    "seats_open": 10,
+    "seats_open": 2,
     "seats_total": 24,
     "prerequisite_text": "BIOL 227L",
     "prerequisite_courses": [
@@ -1593,7 +1593,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burger, J",
-    "seats_open": 9,
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "BIOL 227L",
     "prerequisite_courses": [
@@ -1616,7 +1616,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burger, J",
-    "seats_open": 10,
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "BIOL 227L",
     "prerequisite_courses": [
@@ -1662,7 +1662,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burger, J",
-    "seats_open": 0,
+    "seats_open": 2,
     "seats_total": 9,
     "prerequisite_text": "BIOL 227",
     "prerequisite_courses": [
@@ -1708,7 +1708,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Miller, K",
-    "seats_open": 2,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": "BIOL 227",
     "prerequisite_courses": [
@@ -1731,7 +1731,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Miller, K",
-    "seats_open": 1,
+    "seats_open": 5,
     "seats_total": 24,
     "prerequisite_text": "BIOL 227",
     "prerequisite_courses": [
@@ -1754,7 +1754,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burger, J",
-    "seats_open": 12,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": "BIOL 227",
     "prerequisite_courses": [
@@ -1777,7 +1777,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Miller, K",
-    "seats_open": 5,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": "BIOL 227",
     "prerequisite_courses": [
@@ -1800,7 +1800,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Miller, K",
-    "seats_open": 10,
+    "seats_open": 2,
     "seats_total": 24,
     "prerequisite_text": "BIOL 227",
     "prerequisite_courses": [
@@ -1823,7 +1823,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burger, J",
-    "seats_open": 9,
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "BIOL 227",
     "prerequisite_courses": [
@@ -1846,7 +1846,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burger, J",
-    "seats_open": 10,
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "BIOL 227",
     "prerequisite_courses": [
@@ -1869,7 +1869,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burger, J",
-    "seats_open": 10,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": "BIOL 227 and BIOL 228L",
     "prerequisite_courses": [
@@ -1893,7 +1893,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bowman, K",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 9,
     "prerequisite_text": "BIOL 227 and BIOL 228L",
     "prerequisite_courses": [
@@ -1941,7 +1941,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Braun, J",
-    "seats_open": 9,
+    "seats_open": 4,
     "seats_total": 24,
     "prerequisite_text": "BIOL 227 and BIOL 228L",
     "prerequisite_courses": [
@@ -1965,7 +1965,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Bowman, K",
-    "seats_open": 6,
+    "seats_open": 2,
     "seats_total": 24,
     "prerequisite_text": "BIOL 227 and BIOL 228L",
     "prerequisite_courses": [
@@ -1989,8 +1989,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Collin-Clausen, C",
-    "seats_open": 6,
-    "seats_total": 30,
+    "seats_open": 2,
+    "seats_total": 32,
     "prerequisite_text": "BIOL 227 and BIOL 228L",
     "prerequisite_courses": [
       "BIOL 227",
@@ -2013,7 +2013,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bowman, K",
-    "seats_open": 6,
+    "seats_open": 4,
     "seats_total": 15,
     "prerequisite_text": "BIOL 227 and BIOL 228L",
     "prerequisite_courses": [
@@ -2037,8 +2037,8 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bowman, K",
-    "seats_open": 25,
-    "seats_total": 26,
+    "seats_open": 12,
+    "seats_total": 15,
     "prerequisite_text": "BIOL 227 and BIOL 228L",
     "prerequisite_courses": [
       "BIOL 227",
@@ -2061,7 +2061,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burger, J",
-    "seats_open": 10,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": "BIOL 228 and BIOL 227L",
     "prerequisite_courses": [
@@ -2085,7 +2085,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bowman, K",
-    "seats_open": 0,
+    "seats_open": 2,
     "seats_total": 9,
     "prerequisite_text": "BIOL 228 and BIOL 227L",
     "prerequisite_courses": [
@@ -2109,7 +2109,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bowman, K",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 9,
     "prerequisite_text": "BIOL 228 and BIOL 227L",
     "prerequisite_courses": [
@@ -2133,7 +2133,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Braun, J",
-    "seats_open": 9,
+    "seats_open": 3,
     "seats_total": 24,
     "prerequisite_text": "BIOL 228 and BIOL 227L",
     "prerequisite_courses": [
@@ -2157,7 +2157,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bowman, K",
-    "seats_open": 6,
+    "seats_open": 2,
     "seats_total": 24,
     "prerequisite_text": "BIOL 228 and BIOL 227L",
     "prerequisite_courses": [
@@ -2181,8 +2181,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Collin-Clausen, C",
-    "seats_open": 6,
-    "seats_total": 30,
+    "seats_open": 3,
+    "seats_total": 32,
     "prerequisite_text": "BIOL 228 and BIOL 227L",
     "prerequisite_courses": [
       "BIOL 228",
@@ -2205,7 +2205,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bowman, K",
-    "seats_open": 6,
+    "seats_open": 5,
     "seats_total": 15,
     "prerequisite_text": "BIOL 228 and BIOL 227L",
     "prerequisite_courses": [
@@ -2229,7 +2229,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bowman, K",
-    "seats_open": 14,
+    "seats_open": 12,
     "seats_total": 15,
     "prerequisite_text": "BIOL 228 and BIOL 227L",
     "prerequisite_courses": [
@@ -2253,8 +2253,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Kennedy, J",
-    "seats_open": 12,
-    "seats_total": 35,
+    "seats_open": 3,
+    "seats_total": 40,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -2274,7 +2274,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Kennedy, J",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2295,7 +2295,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Erickson, E",
-    "seats_open": 29,
+    "seats_open": 24,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2316,7 +2316,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Smith, B",
-    "seats_open": 33,
+    "seats_open": 28,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2337,7 +2337,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Aicher-Bedwell, J",
-    "seats_open": 0,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2358,7 +2358,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Jernberg, L",
-    "seats_open": 17,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2379,7 +2379,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Jernberg, L",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2400,7 +2400,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Aicher-Bedwell, J",
-    "seats_open": 17,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2421,36 +2421,13 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Goodwill, H",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "MATH 108 and ENGL 101 and BSN 115 (min C)",
     "prerequisite_courses": [
       "MATH 108",
       "ENGL 101",
       "BSN 115"
-    ]
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "BSN",
-    "course_number": "217",
-    "course_title": "Advanced Business Statistics",
-    "credits": 3,
-    "crn": "BSN-217-01 (30155)",
-    "days": "T Th",
-    "start_time": "1:30 PM",
-    "end_time": "2:50 PM",
-    "start_date": "2026-08-17",
-    "location": "Idaho Falls Main Campus",
-    "campus": "MAIN",
-    "mode": "in-person",
-    "instructor": "Goodwill, H",
-    "seats_open": 19,
-    "seats_total": 20,
-    "prerequisite_text": "BSN 216",
-    "prerequisite_courses": [
-      "BSN 216"
     ]
   },
   {
@@ -2469,7 +2446,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Godfrey, C",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2490,7 +2467,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Kennedy, J",
-    "seats_open": 26,
+    "seats_open": 8,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2511,7 +2488,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Kennedy, J",
-    "seats_open": 31,
+    "seats_open": 27,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2532,29 +2509,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Faulkner, R",
-    "seats_open": 33,
+    "seats_open": 17,
     "seats_total": 35,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "BSN",
-    "course_number": "261",
-    "course_title": "Lgl Environmnts of Orgs",
-    "credits": 3,
-    "crn": "BSN-261-01 (30159)",
-    "days": "T Th",
-    "start_time": "1:30 PM",
-    "end_time": "2:50 PM",
-    "start_date": "2026-08-17",
-    "location": "Idaho Falls Main Campus",
-    "campus": "MAIN",
-    "mode": "in-person",
-    "instructor": "Stauffer, A",
-    "seats_open": 18,
-    "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -2574,37 +2530,10 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Erickson, E",
-    "seats_open": 20,
+    "seats_open": 1,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "BSN",
-    "course_number": "275",
-    "course_title": "Business Internship",
-    "credits": 3,
-    "crn": "BSN-275-01 (30535)",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2026-08-17",
-    "location": "Online",
-    "campus": "ONLI",
-    "mode": "online",
-    "instructor": "Kisner, K",
-    "seats_open": 15,
-    "seats_total": 15,
-    "prerequisite_text": "BSN 101 or BSN 115 or BSN 216 or BSN 250 or BSN 261",
-    "prerequisite_courses": [
-      "BSN 101",
-      "BSN 115",
-      "BSN 216",
-      "BSN 250",
-      "BSN 261"
-    ]
   },
   {
     "college_code": "college-of-eastern-idaho",
@@ -2622,7 +2551,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hemming, C",
-    "seats_open": 9,
+    "seats_open": 3,
     "seats_total": 15,
     "prerequisite_text": "CHEM 100L",
     "prerequisite_courses": [
@@ -2645,7 +2574,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hemming, C",
-    "seats_open": 9,
+    "seats_open": 3,
     "seats_total": 15,
     "prerequisite_text": "CHEM 100",
     "prerequisite_courses": [
@@ -2695,7 +2624,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hemming, C",
-    "seats_open": 8,
+    "seats_open": 1,
     "seats_total": 15,
     "prerequisite_text": "MATH 108 or MATH 123 or MATH 143 or MATH 153 and CHEM 101L",
     "prerequisite_courses": [
@@ -2745,7 +2674,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hemming, C",
-    "seats_open": 8,
+    "seats_open": 1,
     "seats_total": 15,
     "prerequisite_text": "CHEM 101",
     "prerequisite_courses": [
@@ -2768,7 +2697,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Jolley, S",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "MATH 143 and CHEM 111L",
     "prerequisite_courses": [
@@ -2792,7 +2721,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Jolley, S",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "MATH 143 and CHEM 111L",
     "prerequisite_courses": [
@@ -2816,7 +2745,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Jolley, S",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "CHEM 111",
     "prerequisite_courses": [
@@ -2839,60 +2768,11 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Jolley, S",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 15,
     "prerequisite_text": "CHEM 111",
     "prerequisite_courses": [
       "CHEM 111"
-    ]
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "CHEM",
-    "course_number": "112",
-    "course_title": "Gen Chemistry II",
-    "credits": 5,
-    "crn": "CHEM-112-01 (30476)",
-    "days": "M W",
-    "start_time": "1:30 PM",
-    "end_time": "3:10 PM",
-    "start_date": "2026-08-17",
-    "location": "Idaho Falls Main Campus",
-    "campus": "MAIN",
-    "mode": "in-person",
-    "instructor": "Jolley, S",
-    "seats_open": 10,
-    "seats_total": 15,
-    "prerequisite_text": "MATH 143 or MATH 147 and CHEM 111 and CHEM 112L",
-    "prerequisite_courses": [
-      "MATH 143",
-      "MATH 147",
-      "CHEM 111",
-      "CHEM 112L"
-    ]
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "CHEM",
-    "course_number": "112L",
-    "course_title": "General Chemistry II Lab",
-    "credits": 0,
-    "crn": "CHEM-112L-01 (30477)",
-    "days": "W",
-    "start_time": "3:30 PM",
-    "end_time": "6:20 PM",
-    "start_date": "2026-08-17",
-    "location": "Idaho Falls Main Campus",
-    "campus": "MAIN",
-    "mode": "in-person",
-    "instructor": "Jolley, S",
-    "seats_open": 10,
-    "seats_total": 15,
-    "prerequisite_text": "CHEM 112",
-    "prerequisite_courses": [
-      "CHEM 112"
     ]
   },
   {
@@ -2958,7 +2838,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Cuevas, R",
-    "seats_open": 14,
+    "seats_open": 1,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2979,7 +2859,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Parkinson, J",
-    "seats_open": 24,
+    "seats_open": 7,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3000,7 +2880,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Peterson, J",
-    "seats_open": 13,
+    "seats_open": 4,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3021,7 +2901,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Peterson, J",
-    "seats_open": 17,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3042,7 +2922,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burch, M",
-    "seats_open": 14,
+    "seats_open": 2,
     "seats_total": 27,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3063,8 +2943,8 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burch, M",
-    "seats_open": 7,
-    "seats_total": 27,
+    "seats_open": 10,
+    "seats_total": 29,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -3084,7 +2964,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Krause, C",
-    "seats_open": 10,
+    "seats_open": 1,
     "seats_total": 27,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3105,7 +2985,7 @@
     "campus": "IDFL",
     "mode": "hybrid",
     "instructor": "Burch, M",
-    "seats_open": 26,
+    "seats_open": 13,
     "seats_total": 27,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3120,13 +3000,13 @@
     "crn": "COMM-101-05 (30207)",
     "days": "T Th",
     "start_time": "3:00 PM",
-    "end_time": "4:50 PM",
+    "end_time": "4:20 PM",
     "start_date": "2026-08-17",
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Krause, C",
-    "seats_open": 20,
+    "seats_open": 3,
     "seats_total": 27,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3147,7 +3027,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burch, M",
-    "seats_open": 12,
+    "seats_open": 7,
     "seats_total": 27,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3168,7 +3048,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Krause, C",
-    "seats_open": 21,
+    "seats_open": 10,
     "seats_total": 27,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3189,8 +3069,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Plothow, R",
-    "seats_open": 0,
-    "seats_total": 27,
+    "seats_open": 15,
+    "seats_total": 54,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -3210,8 +3090,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Chantry, M",
-    "seats_open": 2,
-    "seats_total": 27,
+    "seats_open": 1,
+    "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -3231,7 +3111,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Plothow, R",
-    "seats_open": 0,
+    "seats_open": 2,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3252,8 +3132,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Chantry, M",
-    "seats_open": 1,
-    "seats_total": 24,
+    "seats_open": 7,
+    "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -3273,7 +3153,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Chantry, M",
-    "seats_open": 16,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3294,7 +3174,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Burch, M",
-    "seats_open": 21,
+    "seats_open": 19,
     "seats_total": 27,
     "prerequisite_text": "COMM 101",
     "prerequisite_courses": [
@@ -3316,8 +3196,8 @@
     "location": "Online",
     "campus": "ONLI",
     "mode": "online",
-    "instructor": "Adams, F",
-    "seats_open": 14,
+    "instructor": "Williams, D",
+    "seats_open": 3,
     "seats_total": 24,
     "prerequisite_text": "CIS 102L",
     "prerequisite_courses": [
@@ -3339,8 +3219,8 @@
     "location": "Online",
     "campus": "ONLI",
     "mode": "online",
-    "instructor": "Adams, F",
-    "seats_open": 14,
+    "instructor": "Williams, D",
+    "seats_open": 3,
     "seats_total": 24,
     "prerequisite_text": "CIS 102",
     "prerequisite_courses": [
@@ -3363,7 +3243,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Miller, S",
-    "seats_open": 10,
+    "seats_open": 1,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3384,7 +3264,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Miller, S",
-    "seats_open": 26,
+    "seats_open": 13,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3405,7 +3285,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hammon, J",
-    "seats_open": 16,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3426,7 +3306,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hammon, J",
-    "seats_open": 20,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3447,7 +3327,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hammon, J",
-    "seats_open": 16,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3468,7 +3348,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hammon, J",
-    "seats_open": 19,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3489,7 +3369,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Williams, D",
-    "seats_open": 21,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3510,7 +3390,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Williams, D",
-    "seats_open": 16,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3531,7 +3411,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Meikle, L",
-    "seats_open": 15,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3552,7 +3432,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Williams, D",
-    "seats_open": 20,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3573,7 +3453,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Williams, D",
-    "seats_open": 18,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "CNT 115 or COMM 101",
     "prerequisite_courses": [
@@ -3597,7 +3477,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Williams, D",
-    "seats_open": 18,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "CNT 140",
     "prerequisite_courses": [
@@ -3620,7 +3500,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Duersch, J",
-    "seats_open": 17,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": "CNT 114",
     "prerequisite_courses": [
@@ -3643,7 +3523,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Duersch, J",
-    "seats_open": 17,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "CNT 170",
     "prerequisite_courses": [
@@ -3666,7 +3546,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Williams, D",
-    "seats_open": 23,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "CNT 129",
     "prerequisite_courses": [
@@ -3689,7 +3569,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Meikle, L",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "CNT 129",
     "prerequisite_courses": [
@@ -3712,7 +3592,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Meikle, L",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "CNT 171",
     "prerequisite_courses": [
@@ -3735,7 +3615,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Meikle, L",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "CNT 171",
     "prerequisite_courses": [
@@ -3758,7 +3638,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Meikle, L",
-    "seats_open": 14,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "CNT 129 or CNT 171",
     "prerequisite_courses": [
@@ -3782,7 +3662,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Duersch, J",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "CNT 171",
     "prerequisite_courses": [
@@ -3829,7 +3709,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Christensen, J, Duersch, J, Williams, D",
-    "seats_open": 18,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "CNT 171",
     "prerequisite_courses": [
@@ -3844,9 +3724,9 @@
     "course_title": "Emerging Trends Cybersecurity",
     "credits": 3,
     "crn": "CNT-293-01 (30202)",
-    "days": "T W",
+    "days": "T",
     "start_time": "6:00 PM",
-    "end_time": "7:20 PM",
+    "end_time": "8:50 PM",
     "start_date": "2026-08-17",
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
@@ -3966,7 +3846,7 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Hope, J",
     "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
@@ -4008,7 +3888,7 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Hope, J",
     "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
@@ -4029,7 +3909,7 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Hope, J",
     "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
@@ -4050,8 +3930,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 13,
+    "instructor": "Todd, L, Duersch, J",
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": "CNT 123",
     "prerequisite_courses": [
@@ -4073,8 +3953,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 13,
+    "instructor": "Meikle, L, Duersch, J",
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "BSN 115",
     "prerequisite_courses": [
@@ -4096,7 +3976,7 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Meikle, L, Duersch, J",
     "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
@@ -4117,8 +3997,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 19,
+    "instructor": "Christensen, J, Duersch, J",
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "DFA 300",
     "prerequisite_courses": [
@@ -4140,8 +4020,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 20,
+    "instructor": "Brown, D, Duersch, J",
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4162,7 +4042,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Plothow, R",
-    "seats_open": 19,
+    "seats_open": 12,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4203,8 +4083,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 27,
+    "instructor": "Mabey, S",
+    "seats_open": 22,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4225,7 +4105,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Godfrey, C",
-    "seats_open": 15,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4246,7 +4126,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Godfrey, C",
-    "seats_open": 17,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4267,7 +4147,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Godfrey, C",
-    "seats_open": 9,
+    "seats_open": 4,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4288,7 +4168,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Hartman-Chadwick, L",
-    "seats_open": 14,
+    "seats_open": 5,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4309,7 +4189,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Godfrey, C",
-    "seats_open": 27,
+    "seats_open": 24,
     "seats_total": 30,
     "prerequisite_text": "EDU 204",
     "prerequisite_courses": [
@@ -4332,7 +4212,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Godfrey, C",
-    "seats_open": 26,
+    "seats_open": 24,
     "seats_total": 30,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -4355,7 +4235,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Cotton, D",
-    "seats_open": 28,
+    "seats_open": 23,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4376,7 +4256,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Tibbets, D",
-    "seats_open": 16,
+    "seats_open": 3,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4397,7 +4277,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Tibbets, D",
-    "seats_open": 16,
+    "seats_open": 3,
     "seats_total": 18,
     "prerequisite_text": "ELT 140 and ELT 145",
     "prerequisite_courses": [
@@ -4421,7 +4301,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Tibbets, D",
-    "seats_open": 16,
+    "seats_open": 3,
     "seats_total": 18,
     "prerequisite_text": "ELT 143",
     "prerequisite_courses": [
@@ -4443,8 +4323,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 14,
+    "instructor": "Lambert, J",
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "MATH 147",
     "prerequisite_courses": [
@@ -4467,7 +4347,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Tibbets, D",
-    "seats_open": 16,
+    "seats_open": 3,
     "seats_total": 18,
     "prerequisite_text": "ESE 100L",
     "prerequisite_courses": [
@@ -4490,7 +4370,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Tibbets, D",
-    "seats_open": 16,
+    "seats_open": 3,
     "seats_total": 18,
     "prerequisite_text": "ESE 100",
     "prerequisite_courses": [
@@ -4513,30 +4393,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Harrison, S",
-    "seats_open": 16,
-    "seats_total": 27,
-    "prerequisite_text": "ENGL 101P",
-    "prerequisite_courses": [
-      "ENGL 101P"
-    ]
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "ENGL",
-    "course_number": "101",
-    "course_title": "Writing and Rhetoric I",
-    "credits": 3,
-    "crn": "ENGL-101-02 (30235)",
-    "days": "T",
-    "start_time": "10:30 AM",
-    "end_time": "11:50 AM",
-    "start_date": "2026-08-17",
-    "location": "Idaho Falls Off-Campus",
-    "campus": "IDFL",
-    "mode": "hybrid",
-    "instructor": "Harrison, S",
-    "seats_open": 21,
+    "seats_open": 4,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101P",
     "prerequisite_courses": [
@@ -4559,7 +4416,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Tighe, H",
-    "seats_open": 11,
+    "seats_open": 4,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101P",
     "prerequisite_courses": [
@@ -4582,7 +4439,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Thompson, S",
-    "seats_open": 16,
+    "seats_open": 0,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101P",
     "prerequisite_courses": [
@@ -4605,7 +4462,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Tighe, H",
-    "seats_open": 21,
+    "seats_open": 0,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101P",
     "prerequisite_courses": [
@@ -4628,7 +4485,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Tighe, H",
-    "seats_open": 0,
+    "seats_open": 2,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101P",
     "prerequisite_courses": [
@@ -4651,8 +4508,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Cotton, D",
-    "seats_open": 18,
-    "seats_total": 27,
+    "seats_open": 1,
+    "seats_total": 28,
     "prerequisite_text": "ENGL 101P",
     "prerequisite_courses": [
       "ENGL 101P"
@@ -4674,8 +4531,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Plothow, R",
-    "seats_open": 19,
-    "seats_total": 27,
+    "seats_open": 0,
+    "seats_total": 28,
     "prerequisite_text": "ENGL 101P",
     "prerequisite_courses": [
       "ENGL 101P"
@@ -4697,31 +4554,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Pistoresi, F",
-    "seats_open": 25,
-    "seats_total": 27,
-    "prerequisite_text": "ENGL 101P",
-    "prerequisite_courses": [
-      "ENGL 101P"
-    ]
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "ENGL",
-    "course_number": "101",
-    "course_title": "Writing and Rhetoric I",
-    "credits": 3,
-    "crn": "ENGL-101-10A (30243)",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2026-08-17",
-    "location": "Online",
-    "campus": "ONLI",
-    "mode": "online",
-    "instructor": "Davis, T",
-    "seats_open": 24,
-    "seats_total": 24,
+    "seats_open": 0,
+    "seats_total": 28,
     "prerequisite_text": "ENGL 101P",
     "prerequisite_courses": [
       "ENGL 101P"
@@ -4743,7 +4577,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Tighe, H",
-    "seats_open": 0,
+    "seats_open": 3,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -4766,7 +4600,7 @@
     "campus": "IDFL",
     "mode": "in-person",
     "instructor": "Harrison, S",
-    "seats_open": 22,
+    "seats_open": 18,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -4789,7 +4623,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Harrison, S",
-    "seats_open": 22,
+    "seats_open": 4,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -4812,7 +4646,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Harrison, S",
-    "seats_open": 12,
+    "seats_open": 1,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -4836,7 +4670,7 @@
     "mode": "online",
     "instructor": "Plothow, R",
     "seats_open": 0,
-    "seats_total": 27,
+    "seats_total": 31,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
       "ENGL 101"
@@ -4858,7 +4692,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Claflin, J",
-    "seats_open": 23,
+    "seats_open": 17,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -4881,7 +4715,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Claflin, J",
-    "seats_open": 20,
+    "seats_open": 1,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -4904,7 +4738,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Tighe, H",
-    "seats_open": 2,
+    "seats_open": 0,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -4927,7 +4761,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Claflin, J",
-    "seats_open": 18,
+    "seats_open": 19,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -4949,8 +4783,8 @@
     "location": "Online",
     "campus": "ONLI",
     "mode": "online",
-    "instructor": "Davis, T",
-    "seats_open": 18,
+    "instructor": "Thompson, S",
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -4973,30 +4807,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Plothow, R",
-    "seats_open": 20,
-    "seats_total": 27,
-    "prerequisite_text": "ENGL 101",
-    "prerequisite_courses": [
-      "ENGL 101"
-    ]
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "ENGL",
-    "course_number": "244",
-    "course_title": "Introduction to Folklore",
-    "credits": 3,
-    "crn": "ENGL-244-01 (30502)",
-    "days": "M W",
-    "start_time": "10:30 AM",
-    "end_time": "11:50 AM",
-    "start_date": "2026-08-17",
-    "location": "Idaho Falls Main Campus",
-    "campus": "MAIN",
-    "mode": "in-person",
-    "instructor": "Harrison, S",
-    "seats_open": 25,
+    "seats_open": 11,
     "seats_total": 27,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -5019,8 +4830,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Collin-Clausen, C",
-    "seats_open": 15,
-    "seats_total": 30,
+    "seats_open": 1,
+    "seats_total": 32,
     "prerequisite_text": "ENVS 101L",
     "prerequisite_courses": [
       "ENVS 101L"
@@ -5042,8 +4853,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Collin-Clausen, C",
-    "seats_open": 15,
-    "seats_total": 30,
+    "seats_open": 1,
+    "seats_total": 32,
     "prerequisite_text": "ENVS 101",
     "prerequisite_courses": [
       "ENVS 101"
@@ -5059,13 +4870,13 @@
     "crn": "FINA-105-01 (30260)",
     "days": "M W",
     "start_time": "9:00 AM",
-    "end_time": "10:30 AM",
+    "end_time": "10:20 AM",
     "start_date": "2026-08-17",
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Stauffer, A",
-    "seats_open": 28,
+    "seats_open": 20,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5086,7 +4897,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Smith, B",
-    "seats_open": 6,
+    "seats_open": 1,
     "seats_total": 35,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5107,7 +4918,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Krumenacker, L",
-    "seats_open": 22,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "GEOL 101L",
     "prerequisite_courses": [
@@ -5130,7 +4941,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Krumenacker, L",
-    "seats_open": 22,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "GEOL 101",
     "prerequisite_courses": [
@@ -5153,7 +4964,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Krumenacker, L",
-    "seats_open": 20,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "GEOL 102L",
     "prerequisite_courses": [
@@ -5176,7 +4987,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Krumenacker, L",
-    "seats_open": 20,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "GEOL 102",
     "prerequisite_courses": [
@@ -5199,7 +5010,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Krumenacker, L",
-    "seats_open": 18,
+    "seats_open": 11,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5220,7 +5031,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Krumenacker, L",
-    "seats_open": 23,
+    "seats_open": 16,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5241,7 +5052,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Roberts, E",
-    "seats_open": 8,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5262,7 +5073,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Roberts, E",
-    "seats_open": 21,
+    "seats_open": 11,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5283,8 +5094,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Roberts, E",
-    "seats_open": 1,
-    "seats_total": 24,
+    "seats_open": 4,
+    "seats_total": 26,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -5304,8 +5115,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Hobbs, C",
-    "seats_open": 15,
-    "seats_total": 24,
+    "seats_open": 5,
+    "seats_total": 26,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -5325,8 +5136,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Hobbs, C",
-    "seats_open": 6,
-    "seats_total": 20,
+    "seats_open": 7,
+    "seats_total": 27,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -5367,7 +5178,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Hobbs, C",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5388,7 +5199,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Hobbs, C",
-    "seats_open": 15,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5409,7 +5220,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bell, S",
-    "seats_open": 11,
+    "seats_open": 4,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5430,7 +5241,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Kisner, K",
-    "seats_open": 6,
+    "seats_open": 2,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5451,7 +5262,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bell, S",
-    "seats_open": 27,
+    "seats_open": 7,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5472,7 +5283,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Bell, S",
-    "seats_open": 14,
+    "seats_open": 4,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5493,7 +5304,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bell, S",
-    "seats_open": 26,
+    "seats_open": 18,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5514,7 +5325,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Bell, S",
-    "seats_open": 22,
+    "seats_open": 6,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5556,7 +5367,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Claflin, J",
-    "seats_open": 20,
+    "seats_open": 0,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5598,7 +5409,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Geiser, S",
-    "seats_open": 20,
+    "seats_open": 2,
     "seats_total": 27,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5618,8 +5429,8 @@
     "location": "Online",
     "campus": "ONLI",
     "mode": "online",
-    "instructor": "Geiser, S",
-    "seats_open": 25,
+    "instructor": "Kisner, K",
+    "seats_open": 0,
     "seats_total": 27,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5640,7 +5451,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Harbert, T",
-    "seats_open": 8,
+    "seats_open": 2,
     "seats_total": 15,
     "prerequisite_text": "LSPT 100L",
     "prerequisite_courses": [
@@ -5663,7 +5474,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Harbert, T",
-    "seats_open": 8,
+    "seats_open": 2,
     "seats_total": 15,
     "prerequisite_text": "LSPT 100",
     "prerequisite_courses": [
@@ -5686,7 +5497,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Harbert, T",
-    "seats_open": 8,
+    "seats_open": 1,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5707,7 +5518,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Harbert, T",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": "LSPT 100 and LSPT 103",
     "prerequisite_courses": [
@@ -5731,7 +5542,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Harbert, T",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": "LSPT 100 and LSPT 103",
     "prerequisite_courses": [
@@ -5755,7 +5566,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Harbert, T",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": "LSPT 100 and LSPT 103",
     "prerequisite_courses": [
@@ -5779,28 +5590,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Beck, B",
-    "seats_open": 11,
-    "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "MGT",
-    "course_number": "122",
-    "course_title": "Business Lab I",
-    "credits": 1,
-    "crn": "MGT-122-02 (30354)",
-    "days": "T",
-    "start_time": "7:30 PM",
-    "end_time": "8:50 PM",
-    "start_date": "2026-08-17",
-    "location": "Idaho Falls Main Campus",
-    "campus": "MAIN",
-    "mode": "hybrid",
-    "instructor": "Adams, F",
-    "seats_open": 16,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5821,7 +5611,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Beck, B",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5842,7 +5632,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Beck, B",
-    "seats_open": 12,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5863,8 +5653,8 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Stauffer, A",
-    "seats_open": 12,
-    "seats_total": 20,
+    "seats_open": 3,
+    "seats_total": 23,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -5884,7 +5674,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Beck, B",
-    "seats_open": 18,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "MGT 220",
     "prerequisite_courses": [
@@ -5907,7 +5697,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Beck, B",
-    "seats_open": 11,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5928,7 +5718,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Beck, B",
-    "seats_open": 21,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5949,7 +5739,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Beck, B",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5970,7 +5760,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Meikle, L",
-    "seats_open": 8,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5990,9 +5780,30 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 12,
+    "instructor": "Goodwill, H",
+    "seats_open": 9,
     "seats_total": 20,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "college-of-eastern-idaho",
+    "term": "2026FA",
+    "course_prefix": "MATH",
+    "course_number": "107",
+    "course_title": "Algebra for Statistics",
+    "credits": 3,
+    "crn": "MATH-107-01 (30689)",
+    "days": "M W",
+    "start_time": "12:00 PM",
+    "end_time": "1:20 PM",
+    "start_date": "2026-08-17",
+    "location": "Idaho Falls Main Campus",
+    "campus": "MAIN",
+    "mode": "in-person",
+    "instructor": "Judy, K",
+    "seats_open": 12,
+    "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -6012,7 +5823,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wood, H",
-    "seats_open": 19,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6033,7 +5844,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wood, H",
-    "seats_open": 21,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6054,8 +5865,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Baxter, J",
-    "seats_open": 4,
-    "seats_total": 25,
+    "seats_open": 0,
+    "seats_total": 37,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -6075,7 +5886,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Goodwill, H",
-    "seats_open": 20,
+    "seats_open": 13,
     "seats_total": 30,
     "prerequisite_text": "MATH 123P",
     "prerequisite_courses": [
@@ -6098,7 +5909,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Goodwill, H",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": "MATH 123P",
     "prerequisite_courses": [
@@ -6121,7 +5932,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bailey, J",
-    "seats_open": 12,
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": "MATH 123P",
     "prerequisite_courses": [
@@ -6144,7 +5955,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bailey, J",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 10,
     "prerequisite_text": "MATH 123P",
     "prerequisite_courses": [
@@ -6167,7 +5978,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hemming, C",
-    "seats_open": 7,
+    "seats_open": 3,
     "seats_total": 15,
     "prerequisite_text": "MATH 123P",
     "prerequisite_courses": [
@@ -6190,7 +6001,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hemming, C",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 10,
     "prerequisite_text": "MATH 123P",
     "prerequisite_courses": [
@@ -6213,7 +6024,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Muir, C",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "MATH 123P",
     "prerequisite_courses": [
@@ -6236,7 +6047,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Goodwill, H",
-    "seats_open": 20,
+    "seats_open": 14,
     "seats_total": 30,
     "prerequisite_text": "MATH 123",
     "prerequisite_courses": [
@@ -6259,7 +6070,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Bailey, J",
-    "seats_open": 12,
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": "MATH 123",
     "prerequisite_courses": [
@@ -6282,7 +6093,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hemming, C",
-    "seats_open": 7,
+    "seats_open": 3,
     "seats_total": 15,
     "prerequisite_text": "MATH 123",
     "prerequisite_courses": [
@@ -6305,8 +6116,8 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Locker, A",
-    "seats_open": 12,
-    "seats_total": 15,
+    "seats_open": 2,
+    "seats_total": 13,
     "prerequisite_text": "MATH 108 or ELT 140 and MATH 143P",
     "prerequisite_courses": [
       "MATH 108",
@@ -6330,8 +6141,8 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Locker, A",
-    "seats_open": 5,
-    "seats_total": 10,
+    "seats_open": 1,
+    "seats_total": 12,
     "prerequisite_text": "MATH 108 or ELT 140 and MATH 143P",
     "prerequisite_courses": [
       "MATH 108",
@@ -6355,8 +6166,8 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Locker, A",
-    "seats_open": 10,
-    "seats_total": 15,
+    "seats_open": 8,
+    "seats_total": 14,
     "prerequisite_text": "MATH 108 or ELT 140 and MATH 143P",
     "prerequisite_courses": [
       "MATH 108",
@@ -6380,8 +6191,8 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Locker, A",
-    "seats_open": 8,
-    "seats_total": 10,
+    "seats_open": 2,
+    "seats_total": 11,
     "prerequisite_text": "MATH 108 or ELT 140 and MATH 143P",
     "prerequisite_courses": [
       "MATH 108",
@@ -6405,7 +6216,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Duerksen, A",
-    "seats_open": 14,
+    "seats_open": 7,
     "seats_total": 15,
     "prerequisite_text": "MATH 108 or ELT 140 and MATH 143P",
     "prerequisite_courses": [
@@ -6430,7 +6241,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Duerksen, A",
-    "seats_open": 33,
+    "seats_open": 31,
     "seats_total": 35,
     "prerequisite_text": "MATH 108 or ELT 140 and MATH 143P",
     "prerequisite_courses": [
@@ -6455,7 +6266,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Baxter, J",
-    "seats_open": 15,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "MATH 108 or ELT 140 and MATH 143P",
     "prerequisite_courses": [
@@ -6480,8 +6291,8 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Locker, A",
-    "seats_open": 12,
-    "seats_total": 15,
+    "seats_open": 2,
+    "seats_total": 13,
     "prerequisite_text": "MATH 143",
     "prerequisite_courses": [
       "MATH 143"
@@ -6503,8 +6314,8 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Locker, A",
-    "seats_open": 10,
-    "seats_total": 15,
+    "seats_open": 9,
+    "seats_total": 14,
     "prerequisite_text": "MATH 143",
     "prerequisite_courses": [
       "MATH 143"
@@ -6526,7 +6337,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Duerksen, A",
-    "seats_open": 14,
+    "seats_open": 7,
     "seats_total": 15,
     "prerequisite_text": "MATH 143",
     "prerequisite_courses": [
@@ -6549,7 +6360,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Baxter, J",
-    "seats_open": 17,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": "MATH 143 or MATH 143",
     "prerequisite_courses": [
@@ -6572,7 +6383,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wood, H",
-    "seats_open": 23,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "MATH 143 or MATH 143",
     "prerequisite_courses": [
@@ -6595,7 +6406,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wood, H",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 12,
     "prerequisite_text": "MATH 108 and MATH 153P",
     "prerequisite_courses": [
@@ -6643,7 +6454,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Judy, K",
-    "seats_open": 9,
+    "seats_open": 1,
     "seats_total": 15,
     "prerequisite_text": "MATH 108 and MATH 153P",
     "prerequisite_courses": [
@@ -6667,7 +6478,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Judy, K",
-    "seats_open": 6,
+    "seats_open": 3,
     "seats_total": 10,
     "prerequisite_text": "MATH 108 and MATH 153P",
     "prerequisite_courses": [
@@ -6691,7 +6502,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Schrempp, H",
-    "seats_open": 13,
+    "seats_open": 6,
     "seats_total": 15,
     "prerequisite_text": "MATH 108 and MATH 153P",
     "prerequisite_courses": [
@@ -6715,7 +6526,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Schrempp, H",
-    "seats_open": 7,
+    "seats_open": 2,
     "seats_total": 10,
     "prerequisite_text": "MATH 108 and MATH 153P",
     "prerequisite_courses": [
@@ -6739,7 +6550,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Judy, K",
-    "seats_open": 9,
+    "seats_open": 6,
     "seats_total": 15,
     "prerequisite_text": "MATH 108 and MATH 153P",
     "prerequisite_courses": [
@@ -6763,7 +6574,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Judy, K",
-    "seats_open": 6,
+    "seats_open": 2,
     "seats_total": 10,
     "prerequisite_text": "MATH 108 and MATH 153P",
     "prerequisite_courses": [
@@ -6787,8 +6598,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Baxter, J",
-    "seats_open": 1,
-    "seats_total": 25,
+    "seats_open": 25,
+    "seats_total": 50,
     "prerequisite_text": "MATH 108 and MATH 153P",
     "prerequisite_courses": [
       "MATH 108",
@@ -6811,8 +6622,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Baxter, J",
-    "seats_open": 6,
-    "seats_total": 25,
+    "seats_open": 7,
+    "seats_total": 50,
     "prerequisite_text": "MATH 108 and MATH 153P",
     "prerequisite_courses": [
       "MATH 108",
@@ -6835,7 +6646,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wood, H",
-    "seats_open": 14,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "MATH 108 and MATH 153P",
     "prerequisite_courses": [
@@ -6859,7 +6670,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wood, H",
-    "seats_open": 8,
+    "seats_open": 4,
     "seats_total": 10,
     "prerequisite_text": "MATH 108 and MATH 153P",
     "prerequisite_courses": [
@@ -6883,7 +6694,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wood, H",
-    "seats_open": 6,
+    "seats_open": 0,
     "seats_total": 12,
     "prerequisite_text": "MATH 108 and MATH 153",
     "prerequisite_courses": [
@@ -6907,7 +6718,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Judy, K",
-    "seats_open": 9,
+    "seats_open": 2,
     "seats_total": 15,
     "prerequisite_text": "MATH 108 and MATH 153",
     "prerequisite_courses": [
@@ -6931,7 +6742,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Schrempp, H",
-    "seats_open": 13,
+    "seats_open": 7,
     "seats_total": 15,
     "prerequisite_text": "MATH 108 and MATH 153",
     "prerequisite_courses": [
@@ -6955,7 +6766,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Judy, K",
-    "seats_open": 9,
+    "seats_open": 6,
     "seats_total": 15,
     "prerequisite_text": "MATH 108 and MATH 153",
     "prerequisite_courses": [
@@ -6979,8 +6790,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Baxter, J",
-    "seats_open": 2,
-    "seats_total": 25,
+    "seats_open": 26,
+    "seats_total": 50,
     "prerequisite_text": "MATH 108 and MATH 153",
     "prerequisite_courses": [
       "MATH 108",
@@ -7003,7 +6814,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wood, H",
-    "seats_open": 14,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": "MATH 108 and MATH 153",
     "prerequisite_courses": [
@@ -7048,7 +6859,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Locker, A",
-    "seats_open": 10,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "MATH 147 or MATH 143 or MATH 144",
     "prerequisite_courses": [
@@ -7073,57 +6884,11 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Judy, K",
-    "seats_open": 22,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "MATH 170",
     "prerequisite_courses": [
       "MATH 170"
-    ]
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "MATH",
-    "course_number": "240",
-    "course_title": "Linear Algebra",
-    "credits": 3,
-    "crn": "MATH-240-01 (30487)",
-    "days": "T Th",
-    "start_time": "10:30 AM",
-    "end_time": "11:50 AM",
-    "start_date": "2026-08-17",
-    "location": "Idaho Falls Main Campus",
-    "campus": "MAIN",
-    "mode": "in-person",
-    "instructor": "Goodwill, H",
-    "seats_open": 15,
-    "seats_total": 15,
-    "prerequisite_text": "MATH 170",
-    "prerequisite_courses": [
-      "MATH 170"
-    ]
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "MATH",
-    "course_number": "275",
-    "course_title": "Calculus III",
-    "credits": 4,
-    "crn": "MATH-275-01 (30347)",
-    "days": "M W F",
-    "start_time": "9:00 AM",
-    "end_time": "10:20 AM",
-    "start_date": "2026-08-17",
-    "location": "Idaho Falls Main Campus",
-    "campus": "MAIN",
-    "mode": "in-person",
-    "instructor": "Judy, K",
-    "seats_open": 25,
-    "seats_total": 25,
-    "prerequisite_text": "MATH 175",
-    "prerequisite_courses": [
-      "MATH 175"
     ]
   },
   {
@@ -7142,7 +6907,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Fisher, B",
-    "seats_open": 14,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7163,7 +6928,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Fisher, B",
-    "seats_open": 14,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7292,8 +7057,8 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Andrus, A, Hunter, J, Schow, S",
-    "seats_open": 9,
-    "seats_total": 20,
+    "seats_open": 8,
+    "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -7334,7 +7099,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Andrus, A, Hunter, J, Schow, S",
-    "seats_open": 3,
+    "seats_open": 4,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7355,7 +7120,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Robison, A, Hunter, J",
-    "seats_open": 9,
+    "seats_open": 5,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7376,7 +7141,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Hunter, J",
-    "seats_open": 15,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7397,7 +7162,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Schow, S, Hunter, J",
-    "seats_open": 14,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7441,7 +7206,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Braun, J",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 22,
     "prerequisite_text": "MICR 111L",
     "prerequisite_courses": [
@@ -7464,7 +7229,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Braun, J",
-    "seats_open": 20,
+    "seats_open": 2,
     "seats_total": 22,
     "prerequisite_text": "MICR 111L",
     "prerequisite_courses": [
@@ -7487,7 +7252,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Burrows, B",
-    "seats_open": 0,
+    "seats_open": 3,
     "seats_total": 22,
     "prerequisite_text": "MICR 111L",
     "prerequisite_courses": [
@@ -7510,7 +7275,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Burrows, B",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 22,
     "prerequisite_text": "MICR 111L",
     "prerequisite_courses": [
@@ -7533,7 +7298,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Burrows, B",
-    "seats_open": 2,
+    "seats_open": 3,
     "seats_total": 22,
     "prerequisite_text": "MICR 111L",
     "prerequisite_courses": [
@@ -7579,7 +7344,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Braun, J",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 22,
     "prerequisite_text": "MICR 111",
     "prerequisite_courses": [
@@ -7602,7 +7367,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Braun, J",
-    "seats_open": 20,
+    "seats_open": 2,
     "seats_total": 22,
     "prerequisite_text": "MICR 111",
     "prerequisite_courses": [
@@ -7625,7 +7390,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burrows, B",
-    "seats_open": 0,
+    "seats_open": 4,
     "seats_total": 22,
     "prerequisite_text": "MICR 111",
     "prerequisite_courses": [
@@ -7648,7 +7413,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burrows, B",
-    "seats_open": 3,
+    "seats_open": 4,
     "seats_total": 22,
     "prerequisite_text": "MICR 111",
     "prerequisite_courses": [
@@ -7671,7 +7436,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burrows, B",
-    "seats_open": 2,
+    "seats_open": 4,
     "seats_total": 22,
     "prerequisite_text": "MICR 111",
     "prerequisite_courses": [
@@ -7694,7 +7459,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Dunmire, R",
-    "seats_open": 15,
+    "seats_open": 2,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7715,7 +7480,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Dunmire, R",
-    "seats_open": 12,
+    "seats_open": 2,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7806,7 +7571,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Fregoso, R",
-    "seats_open": 11,
+    "seats_open": 12,
     "seats_total": 26,
     "prerequisite_text": "NRS 143",
     "prerequisite_courses": [
@@ -7829,7 +7594,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "George, C",
-    "seats_open": 12,
+    "seats_open": 13,
     "seats_total": 26,
     "prerequisite_text": "NRS 143 and NRS 285",
     "prerequisite_courses": [
@@ -7853,7 +7618,7 @@
     "campus": "MAIN",
     "mode": "hybrid",
     "instructor": "Smith, J",
-    "seats_open": 16,
+    "seats_open": 17,
     "seats_total": 30,
     "prerequisite_text": "NRS 243",
     "prerequisite_courses": [
@@ -7876,8 +7641,8 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Smith, J",
-    "seats_open": 4,
-    "seats_total": 25,
+    "seats_open": 2,
+    "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -7898,7 +7663,7 @@
     "mode": "in-person",
     "instructor": "Smith, J",
     "seats_open": 0,
-    "seats_total": 25,
+    "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -7918,7 +7683,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Taggart, C",
-    "seats_open": 3,
+    "seats_open": 4,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7939,8 +7704,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Taggart, C",
-    "seats_open": 2,
-    "seats_total": 30,
+    "seats_open": 5,
+    "seats_total": 39,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -7960,8 +7725,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Collin-Clausen, C",
-    "seats_open": 2,
-    "seats_total": 30,
+    "seats_open": 1,
+    "seats_total": 39,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -7981,7 +7746,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Burch, M",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 17,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8002,7 +7767,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Kirkham, J",
-    "seats_open": 24,
+    "seats_open": 0,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8022,8 +7787,8 @@
     "location": "Online",
     "campus": "ONLI",
     "mode": "online",
-    "instructor": "Kirkham, J",
-    "seats_open": 13,
+    "instructor": "Weight, N",
+    "seats_open": 5,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8044,7 +7809,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Kirkham, J",
-    "seats_open": 20,
+    "seats_open": 3,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8064,8 +7829,8 @@
     "location": "Online",
     "campus": "ONLI",
     "mode": "online",
-    "instructor": "Kirkham, J",
-    "seats_open": 0,
+    "instructor": "Dye, K",
+    "seats_open": 7,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8086,7 +7851,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Pitts, M",
-    "seats_open": 9,
+    "seats_open": 5,
     "seats_total": 13,
     "prerequisite_text": "MATH 143 or MATH 144 and PHYS 111L",
     "prerequisite_courses": [
@@ -8111,7 +7876,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Roth, J",
-    "seats_open": 9,
+    "seats_open": 5,
     "seats_total": 13,
     "prerequisite_text": "PHYS 111",
     "prerequisite_courses": [
@@ -8134,7 +7899,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Pitts, M",
-    "seats_open": 11,
+    "seats_open": 7,
     "seats_total": 13,
     "prerequisite_text": "MATH 170 and PHYS 211L",
     "prerequisite_courses": [
@@ -8158,7 +7923,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Roth, J",
-    "seats_open": 11,
+    "seats_open": 7,
     "seats_total": 13,
     "prerequisite_text": "PHYS 211",
     "prerequisite_courses": [
@@ -8182,7 +7947,7 @@
     "mode": "online",
     "instructor": "Kellam, S",
     "seats_open": 1,
-    "seats_total": 25,
+    "seats_total": 31,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -8202,7 +7967,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Kirkham, J",
-    "seats_open": 19,
+    "seats_open": 10,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8223,56 +7988,10 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Kirkham, J",
-    "seats_open": 21,
+    "seats_open": 12,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "PRMG",
-    "course_number": "110",
-    "course_title": "Intro to Project Management",
-    "credits": 3,
-    "crn": "PRMG-110-01 (30516)",
-    "days": "T Th",
-    "start_time": "9:00 AM",
-    "end_time": "10:20 AM",
-    "start_date": "2026-08-17",
-    "location": "Idaho Falls Main Campus",
-    "campus": "MAIN",
-    "mode": "in-person",
-    "instructor": "Mabey, S",
-    "seats_open": 25,
-    "seats_total": 25,
-    "prerequisite_text": "BSN 115",
-    "prerequisite_courses": [
-      "BSN 115"
-    ]
-  },
-  {
-    "college_code": "college-of-eastern-idaho",
-    "term": "2026FA",
-    "course_prefix": "PRMG",
-    "course_number": "210",
-    "course_title": "Intro to Project Controls",
-    "credits": 3,
-    "crn": "PRMG-210-01 (30533)",
-    "days": "F",
-    "start_time": "9:00 AM",
-    "end_time": "10:20 AM",
-    "start_date": "2026-08-17",
-    "location": "Idaho Falls Main Campus",
-    "campus": "MAIN",
-    "mode": "hybrid",
-    "instructor": "Mabey, S",
-    "seats_open": 18,
-    "seats_total": 20,
-    "prerequisite_text": "PRMG 110",
-    "prerequisite_courses": [
-      "PRMG 110"
-    ]
   },
   {
     "college_code": "college-of-eastern-idaho",
@@ -8290,7 +8009,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wixom, Z",
-    "seats_open": 7,
+    "seats_open": 3,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8311,7 +8030,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wixom, Z",
-    "seats_open": 12,
+    "seats_open": 0,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8332,7 +8051,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Sargis, K",
-    "seats_open": 22,
+    "seats_open": 5,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8353,8 +8072,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Wixom, Z",
-    "seats_open": 4,
-    "seats_total": 30,
+    "seats_open": 5,
+    "seats_total": 37,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -8374,8 +8093,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Sargis, K",
-    "seats_open": 3,
-    "seats_total": 27,
+    "seats_open": 0,
+    "seats_total": 33,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -8395,7 +8114,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Sargis, K",
-    "seats_open": 19,
+    "seats_open": 0,
     "seats_total": 27,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8416,7 +8135,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wixom, Z",
-    "seats_open": 18,
+    "seats_open": 5,
     "seats_total": 30,
     "prerequisite_text": "PSYC 101",
     "prerequisite_courses": [
@@ -8439,7 +8158,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Wixom, Z",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8460,7 +8179,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Miller, S",
-    "seats_open": 24,
+    "seats_open": 8,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8481,7 +8200,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Miller, S",
-    "seats_open": 23,
+    "seats_open": 9,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8502,8 +8221,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Leavitt, W",
-    "seats_open": 7,
-    "seats_total": 30,
+    "seats_open": 2,
+    "seats_total": 36,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -8523,8 +8242,8 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Kellam, S",
-    "seats_open": 12,
-    "seats_total": 30,
+    "seats_open": 4,
+    "seats_total": 38,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -8544,7 +8263,7 @@
     "campus": "ONLI",
     "mode": "online",
     "instructor": "Miller, S",
-    "seats_open": 18,
+    "seats_open": 2,
     "seats_total": 30,
     "prerequisite_text": "ENGL 101",
     "prerequisite_courses": [
@@ -8693,7 +8412,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Claflin, J",
-    "seats_open": 12,
+    "seats_open": 6,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8713,8 +8432,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": "Freeman, S, Carroll, T, Huntsman, B",
-    "seats_open": 1,
+    "instructor": "Freeman, S, Diehl, J, Carroll, T, Huntsman, B",
+    "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8734,8 +8453,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": "Carroll, T, Freeman, S, Huntsman, B",
-    "seats_open": 1,
+    "instructor": "Diehl, J, Carroll, T, Freeman, S, Huntsman, B",
+    "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8755,8 +8474,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": "Carroll, T, Freeman, S, Huntsman, B",
-    "seats_open": 1,
+    "instructor": "Diehl, J, Carroll, T, Freeman, S, Huntsman, B",
+    "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8776,8 +8495,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": "Carroll, T, Freeman, S, Huntsman, B",
-    "seats_open": 1,
+    "instructor": "Diehl, J, Carroll, T, Freeman, S, Huntsman, B",
+    "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8797,8 +8516,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": "Carroll, T, Huntsman, B, Freeman, S",
-    "seats_open": 1,
+    "instructor": "Carroll, T, Diehl, J, Huntsman, B, Freeman, S",
+    "seats_open": 0,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8818,8 +8537,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": "Huntsman, B, Carroll, T, Freeman, S",
-    "seats_open": 0,
+    "instructor": "Huntsman, B, Diehl, J, Carroll, T, Freeman, S",
+    "seats_open": 1,
     "seats_total": 10,
     "prerequisite_text": "WLD 133",
     "prerequisite_courses": [
@@ -8841,8 +8560,8 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": "Huntsman, B, Carroll, T, Freeman, S",
-    "seats_open": 0,
+    "instructor": "Huntsman, B, Diehl, J, Carroll, T, Freeman, S",
+    "seats_open": 1,
     "seats_total": 10,
     "prerequisite_text": "WLD 142",
     "prerequisite_courses": [
@@ -8864,7 +8583,7 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": "Freeman, S",
+    "instructor": "Freeman, S, Huntsman, B, Diehl, J",
     "seats_open": 0,
     "seats_total": 11,
     "prerequisite_text": "WLD 232 and WLD 234",
@@ -8888,7 +8607,7 @@
     "location": "Idaho Falls Main Campus",
     "campus": "MAIN",
     "mode": "in-person",
-    "instructor": "Freeman, S",
+    "instructor": "Freeman, S, Huntsman, B, Diehl, J",
     "seats_open": 0,
     "seats_total": 11,
     "prerequisite_text": "WLD 233",
@@ -8912,7 +8631,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Miller, K",
-    "seats_open": 0,
+    "seats_open": 5,
     "seats_total": 24,
     "prerequisite_text": "ZOOL 127L",
     "prerequisite_courses": [
@@ -8935,7 +8654,7 @@
     "campus": "MAIN",
     "mode": "in-person",
     "instructor": "Miller, K",
-    "seats_open": 0,
+    "seats_open": 5,
     "seats_total": 24,
     "prerequisite_text": "ZOOL 127",
     "prerequisite_courses": [
