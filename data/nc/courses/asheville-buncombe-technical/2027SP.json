@@ -105,7 +105,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -126,7 +126,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Susan J. Toole",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -147,7 +147,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Wesley L. Feight",
-    "seats_open": 21,
+    "seats_open": 16,
     "seats_total": 50,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -168,7 +168,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Jennifer L. Tracy",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -189,7 +189,7 @@
     "campus": "ONMAD",
     "mode": "online",
     "instructor": "Wesley L. Feight",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 50,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -294,7 +294,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Caroline E. Diepenbrock",
-    "seats_open": 22,
+    "seats_open": 15,
     "seats_total": 50,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -315,7 +315,7 @@
     "campus": "ONMAD",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 50,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -335,8 +335,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 17,
+    "instructor": "Sebastian Cothran",
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -356,8 +356,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Brad Scott",
-    "seats_open": 22,
+    "instructor": "Sebastian Cothran",
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -377,8 +377,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Brad Scott",
-    "seats_open": 25,
+    "instructor": "Sebastian Cothran",
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -399,8 +399,8 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 18,
-    "seats_total": 25,
+    "seats_open": 11,
+    "seats_total": 30,
     "prerequisite_text": "ACC 120",
     "prerequisite_courses": [
       "ACC 120"
@@ -422,7 +422,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kevin Warth",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "ACC 120",
     "prerequisite_courses": [
@@ -444,8 +444,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Brad Scott",
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": "ACC 129",
     "prerequisite_courses": [
@@ -467,8 +467,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 24,
+    "instructor": "Brad Scott",
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "ACC 115 or ACC 120",
     "prerequisite_courses": [
@@ -491,8 +491,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 23,
+    "instructor": "Brad Scott",
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "ACC 115 or ACC 120",
     "prerequisite_courses": [
@@ -515,8 +515,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 24,
+    "instructor": "Brad Scott",
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": "ACC 120",
     "prerequisite_courses": [
@@ -539,7 +539,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Timothy P. Anderson",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -560,7 +560,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Timothy P. Anderson",
-    "seats_open": 19,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -581,7 +581,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Timothy P. Anderson",
-    "seats_open": 30,
+    "seats_open": 28,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -602,7 +602,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Jeff Bush",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -623,7 +623,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Jeff Bush",
-    "seats_open": 14,
+    "seats_open": 12,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -644,7 +644,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Jeff Bush",
-    "seats_open": 15,
+    "seats_open": 11,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -686,7 +686,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Jeff Bush",
-    "seats_open": 13,
+    "seats_open": 7,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -728,7 +728,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Michael P. Koob",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -749,7 +749,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Michael P. Koob",
-    "seats_open": 14,
+    "seats_open": 11,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -770,7 +770,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Jeff Bush",
-    "seats_open": 29,
+    "seats_open": 28,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -791,7 +791,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Ned Hart",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -812,7 +812,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Phillip A. Mobley",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": "AHR 110",
     "prerequisite_courses": [
@@ -835,7 +835,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Phillip A. Mobley",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": "AHR 110 or AHR 113",
     "prerequisite_courses": [
@@ -909,7 +909,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ned Hart",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": "AHR 113",
     "prerequisite_courses": [
@@ -956,7 +956,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Rebecca L. Bubp",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 110 or ENG 111",
     "prerequisite_courses": [
@@ -983,7 +983,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Maggie M. Shoup",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1004,7 +1004,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Charles W. Cavender, III",
-    "seats_open": 24,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "ARC 112 or CAR 111",
     "prerequisite_courses": [
@@ -1028,7 +1028,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Katherine E. Inge",
-    "seats_open": 23,
+    "seats_open": 17,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1049,7 +1049,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Chris McKee",
-    "seats_open": 19,
+    "seats_open": 1,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1070,7 +1070,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Lori L. Johnson",
-    "seats_open": 24,
+    "seats_open": 4,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1091,7 +1091,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Chris McKee",
-    "seats_open": 30,
+    "seats_open": 27,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1112,7 +1112,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Melissa R. Garrett",
-    "seats_open": 23,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1133,7 +1133,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Katherine E. Inge",
-    "seats_open": 23,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1175,7 +1175,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Melissa R. Garrett",
-    "seats_open": 22,
+    "seats_open": 8,
     "seats_total": 30,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1196,7 +1196,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Heather J. Lewis",
-    "seats_open": 22,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1217,7 +1217,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Heather J. Lewis",
-    "seats_open": 18,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1238,7 +1238,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Ani K. Volkan",
-    "seats_open": 16,
+    "seats_open": 13,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1280,7 +1280,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Chris McKee",
-    "seats_open": 6,
+    "seats_open": 3,
     "seats_total": 12,
     "prerequisite_text": "ART 121",
     "prerequisite_courses": [
@@ -1303,7 +1303,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Chris McKee",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 12,
     "prerequisite_text": "ART 121",
     "prerequisite_courses": [
@@ -1326,7 +1326,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Heather J. Lewis",
-    "seats_open": 12,
+    "seats_open": 13,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1347,7 +1347,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Ani K. Volkan",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1389,7 +1389,28 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Lori L. Johnson",
-    "seats_open": 8,
+    "seats_open": 0,
+    "seats_total": 15,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "ART",
+    "course_number": "214",
+    "course_title": "Portfolio and Resume",
+    "credits": 1,
+    "crn": "ART-214-BFM2",
+    "days": "F",
+    "start_time": "12:30 PM",
+    "end_time": "2:00 PM",
+    "start_date": "2027-03-10",
+    "location": "A-B Tech Main Campus",
+    "campus": "A",
+    "mode": "in-person",
+    "instructor": "Lori L. Johnson",
+    "seats_open": 15,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1410,7 +1431,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Ani K. Volkan",
-    "seats_open": 12,
+    "seats_open": 9,
     "seats_total": 16,
     "prerequisite_text": "ART 121",
     "prerequisite_courses": [
@@ -1433,7 +1454,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 7,
+    "seats_open": 9,
     "seats_total": 12,
     "prerequisite_text": "ART 121 or ART 131",
     "prerequisite_courses": [
@@ -1478,7 +1499,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "William D. Rhodarmer",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1499,7 +1520,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "William D. Rhodarmer",
-    "seats_open": 12,
+    "seats_open": 6,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1519,8 +1540,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Molly Morningglory",
-    "seats_open": 9,
+    "instructor": null,
+    "seats_open": 8,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1540,8 +1561,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Molly Morningglory",
-    "seats_open": 8,
+    "instructor": null,
+    "seats_open": 4,
     "seats_total": 12,
     "prerequisite_text": "ART 283",
     "prerequisite_courses": [
@@ -1564,7 +1585,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kevin S. Kiser",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 12,
     "prerequisite_text": "ATR 112",
     "prerequisite_courses": [
@@ -1610,7 +1631,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kevin Fletcher",
-    "seats_open": 15,
+    "seats_open": 9,
     "seats_total": 18,
     "prerequisite_text": "AUT 151A",
     "prerequisite_courses": [
@@ -1633,7 +1654,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Charles E. Knies",
-    "seats_open": 17,
+    "seats_open": 14,
     "seats_total": 18,
     "prerequisite_text": "AUT 151A",
     "prerequisite_courses": [
@@ -1656,7 +1677,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kevin Fletcher",
-    "seats_open": 15,
+    "seats_open": 9,
     "seats_total": 18,
     "prerequisite_text": "AUT 151",
     "prerequisite_courses": [
@@ -1679,7 +1700,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Charles E. Knies",
-    "seats_open": 17,
+    "seats_open": 14,
     "seats_total": 18,
     "prerequisite_text": "AUT 151",
     "prerequisite_courses": [
@@ -1702,7 +1723,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Mr. Robert M. Parker",
-    "seats_open": 15,
+    "seats_open": 9,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1723,7 +1744,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Charles E. Knies",
-    "seats_open": 18,
+    "seats_open": 15,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1744,7 +1765,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kevin Fletcher",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 15,
     "prerequisite_text": "AUT 221A",
     "prerequisite_courses": [
@@ -1767,7 +1788,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kevin Fletcher",
-    "seats_open": 7,
+    "seats_open": 1,
     "seats_total": 15,
     "prerequisite_text": "AUT 221",
     "prerequisite_courses": [
@@ -1790,7 +1811,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Mr. Robert M. Parker",
-    "seats_open": 15,
+    "seats_open": 10,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1811,7 +1832,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Charles E. Knies",
-    "seats_open": 18,
+    "seats_open": 14,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1832,7 +1853,7 @@
     "campus": "E",
     "mode": "in-person",
     "instructor": "Jeffrey M. Irvin",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1853,7 +1874,7 @@
     "campus": "E",
     "mode": "in-person",
     "instructor": "Gregory N. Hill, John M. Lyda",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2011,7 +2032,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Amanda Chapman",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 24,
     "prerequisite_text": "DRE 097 or ENG 025",
     "prerequisite_courses": [
@@ -2083,7 +2104,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Michael S. Huffman",
-    "seats_open": 16,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or ENG 025",
     "prerequisite_courses": [
@@ -2107,7 +2128,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Amanda Chapman",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or ENG 025",
     "prerequisite_courses": [
@@ -2131,7 +2152,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Margot Popecki",
-    "seats_open": 21,
+    "seats_open": 13,
     "seats_total": 24,
     "prerequisite_text": "MAT 003 or MAT 025 or MAT 035 and DRE 097 or DRE 098 or ENG 002 or ENG 025 or ENG 110 or ENG 111",
     "prerequisite_courses": [
@@ -2162,7 +2183,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Christina A. Manee",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 24,
     "prerequisite_text": "MAT 003 or MAT 025 or MAT 035 and DRE 097 or DRE 098 or ENG 002 or ENG 025 or ENG 110 or ENG 111",
     "prerequisite_courses": [
@@ -2193,7 +2214,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Christina A. Manee",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "MAT 003 or MAT 025 or MAT 035 and DRE 097 or DRE 098 or ENG 002 or ENG 025 or ENG 110 or ENG 111",
     "prerequisite_courses": [
@@ -2224,7 +2245,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Christina A. Manee",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "BIO 111",
     "prerequisite_courses": [
@@ -2247,7 +2268,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Helen L. Burrell",
-    "seats_open": 23,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "BIO 111",
     "prerequisite_courses": [
@@ -2270,7 +2291,7 @@
     "campus": "M",
     "mode": "in-person",
     "instructor": "Helen L. Burrell",
-    "seats_open": 9,
+    "seats_open": 2,
     "seats_total": 22,
     "prerequisite_text": "BIO 111",
     "prerequisite_courses": [
@@ -2293,7 +2314,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "William E. Sanderson",
-    "seats_open": 9,
+    "seats_open": 8,
     "seats_total": 14,
     "prerequisite_text": "BIO 110 or BIO 111",
     "prerequisite_courses": [
@@ -2317,7 +2338,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Dacia L. Harris",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "BIO 140 and DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -2344,7 +2365,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Dacia L. Harris",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 and BIO 140A",
     "prerequisite_courses": [
@@ -2371,7 +2392,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Scott A. Paxon",
-    "seats_open": 19,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2392,7 +2413,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Jessica Roach",
-    "seats_open": 15,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2413,8 +2434,8 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Shane Kamer",
-    "seats_open": 24,
-    "seats_total": 24,
+    "seats_open": 0,
+    "seats_total": 16,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
       "DRE 097",
@@ -2441,7 +2462,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Cynthia G. Eayre",
-    "seats_open": 23,
+    "seats_open": 24,
     "seats_total": 24,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -2469,7 +2490,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "James Hutcherson",
-    "seats_open": 21,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -2497,7 +2518,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Nga H. Pace",
-    "seats_open": 22,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -2553,7 +2574,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Milton E. Tignor",
-    "seats_open": 24,
+    "seats_open": 17,
     "seats_total": 24,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -2581,7 +2602,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Amanda R. Nix",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 24,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -2609,7 +2630,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Cynthia G. Eayre",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 24,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -2665,7 +2686,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Cynthia G. Eayre",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 24,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -2693,7 +2714,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Lucy Lowe",
-    "seats_open": 25,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -2721,7 +2742,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Curtis Criswell",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -2749,7 +2770,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Steven T. Heulett",
-    "seats_open": 1,
+    "seats_open": 0,
     "seats_total": 16,
     "prerequisite_text": "BIO 168",
     "prerequisite_courses": [
@@ -2772,7 +2793,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Milton E. Tignor",
-    "seats_open": 16,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": "BIO 168",
     "prerequisite_courses": [
@@ -2795,7 +2816,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Scott A. Paxon",
-    "seats_open": 24,
+    "seats_open": 8,
     "seats_total": 24,
     "prerequisite_text": "BIO 168",
     "prerequisite_courses": [
@@ -2818,7 +2839,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Audra Bassett-Touchell",
-    "seats_open": 23,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "BIO 168",
     "prerequisite_courses": [
@@ -2841,7 +2862,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Audra Bassett-Touchell",
-    "seats_open": 22,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "BIO 168",
     "prerequisite_courses": [
@@ -2864,7 +2885,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Amy Bridges",
-    "seats_open": 14,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "BIO 168",
     "prerequisite_courses": [
@@ -2886,8 +2907,31 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "April Cudd",
-    "seats_open": 21,
+    "instructor": "April Hypes",
+    "seats_open": 2,
+    "seats_total": 25,
+    "prerequisite_text": "BIO 168",
+    "prerequisite_courses": [
+      "BIO 168"
+    ]
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "BIO",
+    "course_number": "169",
+    "course_title": "Anatomy and Physiology II",
+    "credits": 4,
+    "crn": "BIO-169-OA3",
+    "days": "M T W Th F Sa Su",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-11",
+    "location": "Online",
+    "campus": "ONLIN",
+    "mode": "online",
+    "instructor": null,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": "BIO 168",
     "prerequisite_courses": [
@@ -2910,7 +2954,7 @@
     "campus": "M",
     "mode": "in-person",
     "instructor": "Milton E. Tignor",
-    "seats_open": 16,
+    "seats_open": 8,
     "seats_total": 24,
     "prerequisite_text": "BIO 168",
     "prerequisite_courses": [
@@ -2933,7 +2977,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Emma Moore",
-    "seats_open": 20,
+    "seats_open": 3,
     "seats_total": 24,
     "prerequisite_text": "BIO 110 or BIO 111 or BIO 163 or BIO 165 or BIO 168",
     "prerequisite_courses": [
@@ -2960,7 +3004,34 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Helen L. Burrell",
-    "seats_open": 14,
+    "seats_open": 0,
+    "seats_total": 24,
+    "prerequisite_text": "BIO 110 or BIO 111 or BIO 163 or BIO 165 or BIO 168",
+    "prerequisite_courses": [
+      "BIO 110",
+      "BIO 111",
+      "BIO 163",
+      "BIO 165",
+      "BIO 168"
+    ]
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "BIO",
+    "course_number": "175",
+    "course_title": "General Microbiology",
+    "credits": 3,
+    "crn": "BIO-175-B2",
+    "days": "M",
+    "start_time": "9:30 AM",
+    "end_time": "11:20 AM",
+    "start_date": "2027-01-11",
+    "location": "A-B Tech Main Campus",
+    "campus": "A",
+    "mode": "in-person",
+    "instructor": "Emma Moore",
+    "seats_open": 24,
     "seats_total": 24,
     "prerequisite_text": "BIO 110 or BIO 111 or BIO 163 or BIO 165 or BIO 168",
     "prerequisite_courses": [
@@ -2987,7 +3058,7 @@
     "campus": "A",
     "mode": "online",
     "instructor": "Helen L. Burrell",
-    "seats_open": 23,
+    "seats_open": 0,
     "seats_total": 24,
     "prerequisite_text": "BIO 110 or BIO 111 or BIO 163 or BIO 165 or BIO 168",
     "prerequisite_courses": [
@@ -3014,7 +3085,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Nga H. Pace",
-    "seats_open": 23,
+    "seats_open": 24,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3035,7 +3106,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Joey Chandler",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3056,7 +3127,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 14,
+    "seats_open": 12,
     "seats_total": 14,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3077,8 +3148,8 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Vincent J. Donatelli",
-    "seats_open": 0,
-    "seats_total": 8,
+    "seats_open": 4,
+    "seats_total": 15,
     "prerequisite_text": "CUL 110 and CUL 160",
     "prerequisite_courses": [
       "CUL 110",
@@ -3100,8 +3171,29 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 8,
+    "instructor": "Cynthia D. Almond-Baird",
+    "seats_open": 0,
+    "seats_total": 25,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "BUS",
+    "course_number": "110",
+    "course_title": "Introduction to Business",
+    "credits": 3,
+    "crn": "BUS-110-OAL2",
+    "days": "M T W Th F Sa Su",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-26",
+    "location": "Online",
+    "campus": "ONLIN",
+    "mode": "online",
+    "instructor": "Tony Miller",
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3143,7 +3235,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Sandy Dantone",
-    "seats_open": 19,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3164,7 +3256,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Sandy Dantone",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3184,8 +3276,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 18,
+    "instructor": "Courtney Chabot",
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3205,7 +3297,7 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Courtney Chabot",
     "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
@@ -3226,7 +3318,7 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Cynthia D. Almond-Baird",
     "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
@@ -3248,7 +3340,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3268,8 +3360,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 13,
+    "instructor": "Wendy L. Seligmann",
+    "seats_open": 4,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3290,7 +3382,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Sandy Dantone",
-    "seats_open": 23,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3310,8 +3402,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Nick Davis",
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3331,8 +3423,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 22,
+    "instructor": "Nick Davis",
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3352,8 +3444,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 18,
+    "instructor": "Nick Davis",
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3374,7 +3466,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 23,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3395,7 +3487,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Sandy Dantone",
-    "seats_open": 19,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": "BUS 137",
     "prerequisite_courses": [
@@ -3417,8 +3509,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 22,
+    "instructor": "Nick Davis",
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3439,7 +3531,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Mr. Mark K. Applegate",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3460,7 +3552,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Porscha R. Orndorf",
-    "seats_open": 23,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3481,7 +3573,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Porscha R. Orndorf",
-    "seats_open": 23,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3502,7 +3594,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Matthew B. Meadows",
-    "seats_open": 19,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3551,7 +3643,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Michael D. Deaver",
-    "seats_open": 16,
+    "seats_open": 11,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3572,7 +3664,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Candice M. Henderson",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 17,
     "prerequisite_text": "MAT 025 or MAT 035 and DRE 097 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -3599,7 +3691,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Candice M. Henderson",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 17,
     "prerequisite_text": "MAT 025 or MAT 035 and DRE 097 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -3653,7 +3745,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Candice M. Henderson",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 17,
     "prerequisite_text": "CHM 130",
     "prerequisite_courses": [
@@ -3676,7 +3768,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Susan J. Schwarz",
-    "seats_open": 15,
+    "seats_open": 12,
     "seats_total": 17,
     "prerequisite_text": "CHM 130",
     "prerequisite_courses": [
@@ -3699,7 +3791,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Susan J. Schwarz",
-    "seats_open": 25,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": "CHM 130",
     "prerequisite_courses": [
@@ -3722,7 +3814,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Candice M. Henderson",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 17,
     "prerequisite_text": "MAT 110 or BIO 110 or MAT 110 or BIO 111 or MAT 110 or BIO 161 or MAT 110 or BIO 163 or MAT 110 or BIO 168 and DRE 097 or DRE 098 or ENG 002 or ENG 025 or ENG 110 or ENG 111 and CHM 130A",
     "prerequisite_courses": [
@@ -3757,7 +3849,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Susan J. Schwarz",
-    "seats_open": 15,
+    "seats_open": 12,
     "seats_total": 17,
     "prerequisite_text": "MAT 110 or BIO 110 or MAT 110 or BIO 111 or MAT 110 or BIO 161 or MAT 110 or BIO 163 or MAT 110 or BIO 168 and DRE 097 or DRE 098 or ENG 002 or ENG 025 or ENG 110 or ENG 111 and CHM 130A",
     "prerequisite_courses": [
@@ -3792,7 +3884,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Susan J. Schwarz",
-    "seats_open": 25,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": "MAT 110 or BIO 110 or MAT 110 or BIO 111 or MAT 110 or BIO 161 or MAT 110 or BIO 163 or MAT 110 or BIO 168 and DRE 097 or DRE 098 or ENG 002 or ENG 025 or ENG 110 or ENG 111 and CHM 130A",
     "prerequisite_courses": [
@@ -3827,7 +3919,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Suzanne C. Willis",
-    "seats_open": 13,
+    "seats_open": 9,
     "seats_total": 17,
     "prerequisite_text": "CHM 092 or CHM 121 and DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -3856,8 +3948,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Suzanne C. Willis",
+    "seats_open": 13,
     "seats_total": 17,
     "prerequisite_text": "CHM 092 or CHM 121 and DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -3887,7 +3979,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Evan T. Lunt",
-    "seats_open": 14,
+    "seats_open": 10,
     "seats_total": 17,
     "prerequisite_text": "CHM 092 or CHM 121 and DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -3917,7 +4009,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Suzanne C. Willis",
-    "seats_open": 23,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "CHM 092 or CHM 121 and DRE 097 or DRE 098 or ENG 002 or ENG 025 and MAT 025 or MAT 035",
     "prerequisite_courses": [
@@ -3977,7 +4069,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Glenn C. Ratcliff",
-    "seats_open": 10,
+    "seats_open": 4,
     "seats_total": 34,
     "prerequisite_text": "CHM 151 and MAT 161 or MAT 171 or MAT 175",
     "prerequisite_courses": [
@@ -4003,7 +4095,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Glenn C. Ratcliff",
-    "seats_open": 12,
+    "seats_open": 9,
     "seats_total": 34,
     "prerequisite_text": "CHM 151 and MAT 161 or MAT 171 or MAT 175",
     "prerequisite_courses": [
@@ -4029,7 +4121,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Nicole Dragan",
-    "seats_open": 14,
+    "seats_open": 10,
     "seats_total": 17,
     "prerequisite_text": "CHM 151 and MAT 161 or MAT 171 or MAT 175",
     "prerequisite_courses": [
@@ -4078,7 +4170,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Evan T. Lunt",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 12,
     "prerequisite_text": "CHM 251",
     "prerequisite_courses": [
@@ -4101,7 +4193,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Matthew B. Meadows",
-    "seats_open": 19,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4121,8 +4213,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "Karen R. Hughes",
-    "seats_open": 19,
+    "instructor": "Karen R. Styles",
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4143,7 +4235,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Nathan R. Pfeiffer",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4185,7 +4277,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Jack B. Stephens",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4206,7 +4298,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Charles K. Wallin",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4227,7 +4319,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Charles K. Wallin",
-    "seats_open": 23,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4248,7 +4340,7 @@
     "campus": "WC",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4269,7 +4361,7 @@
     "campus": "WC",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4290,7 +4382,7 @@
     "campus": "WC",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 18,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4332,7 +4424,7 @@
     "campus": "WC",
     "mode": "in-person",
     "instructor": "Gary T. Gudac",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4378,7 +4470,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4399,7 +4491,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Maggie M. Shoup",
-    "seats_open": 24,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "CMT 210 and BPR 130",
     "prerequisite_courses": [
@@ -4423,7 +4515,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Maggie M. Shoup",
-    "seats_open": 24,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "CMT 210",
     "prerequisite_courses": [
@@ -4446,13 +4538,14 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Rebekah S. Handy",
-    "seats_open": 19,
+    "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": "DRE 098 or ENG 110 or ENG 111",
+    "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
+      "DRE 097",
       "DRE 098",
-      "ENG 110",
-      "ENG 111"
+      "ENG 002",
+      "ENG 025"
     ]
   },
   {
@@ -4471,13 +4564,14 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Rebekah S. Handy",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": "DRE 098 or ENG 110 or ENG 111",
+    "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
+      "DRE 097",
       "DRE 098",
-      "ENG 110",
-      "ENG 111"
+      "ENG 002",
+      "ENG 025"
     ]
   },
   {
@@ -4496,7 +4590,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Curtis L. Philon",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4522,7 +4616,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Curtis L. Philon",
-    "seats_open": 21,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4548,7 +4642,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Curtis L. Philon",
-    "seats_open": 23,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4574,7 +4668,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Martha E. Gates",
-    "seats_open": 7,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4600,7 +4694,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Rebekah S. Handy",
-    "seats_open": 20,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4626,7 +4720,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Rebekah S. Handy",
-    "seats_open": 20,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4652,7 +4746,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Curtis L. Philon",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4678,7 +4772,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Heidi L. Smathers",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4730,7 +4824,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Curtis L. Philon",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4756,7 +4850,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Martha E. Gates",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4834,7 +4928,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Martha E. Gates",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4887,7 +4981,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Curtis L. Philon",
-    "seats_open": 18,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4913,7 +5007,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Ms. Rebekah S. Handy",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4939,7 +5033,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Ms. Rebekah S. Handy",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4965,7 +5059,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Martha E. Gates",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -4991,7 +5085,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Heidi L. Smathers",
-    "seats_open": 8,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -5017,7 +5111,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Heidi L. Smathers",
-    "seats_open": 15,
+    "seats_open": 1,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -5043,7 +5137,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Martha E. Gates",
-    "seats_open": 16,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -5069,7 +5163,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Curtis L. Philon",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -5095,7 +5189,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Rebekah S. Handy",
-    "seats_open": 20,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -5147,8 +5241,8 @@
     "campus": "M",
     "mode": "in-person",
     "instructor": "Martha E. Gates",
-    "seats_open": 25,
-    "seats_total": 25,
+    "seats_open": 18,
+    "seats_total": 20,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
       "DRE 097",
@@ -5325,10 +5419,11 @@
     "instructor": null,
     "seats_open": 16,
     "seats_total": 16,
-    "prerequisite_text": "DRE 097 or ENG 002",
+    "prerequisite_text": "DRE 097 or ENG 002 or ENG 025",
     "prerequisite_courses": [
       "DRE 097",
-      "ENG 002"
+      "ENG 002",
+      "ENG 025"
     ]
   },
   {
@@ -5537,7 +5632,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Dan Rosenthal",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5558,7 +5653,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Dan Rosenthal",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5600,7 +5695,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Charles K. Wallin",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5621,7 +5716,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Dawn Harrison",
-    "seats_open": 23,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5642,7 +5737,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 23,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "CIS 115 or MAT 172 or EGR 150",
     "prerequisite_courses": [
@@ -5667,7 +5762,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Maggie M. Shoup",
-    "seats_open": 18,
+    "seats_open": 12,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5687,8 +5782,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Maggie M. Shoup",
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "BPR 130 or MAT 110 or MAT 121 or MAT 143 or MAT 171",
     "prerequisite_courses": [
@@ -5715,7 +5810,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Steve Weese",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5736,7 +5831,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Michael D. Deaver",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5757,7 +5852,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Mike Peluso",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5778,12 +5873,13 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Veronica P. Dooly",
-    "seats_open": 18,
+    "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": "CIS 110 or CTI 110",
+    "prerequisite_text": "CIS 110 and CTI 110 and OST 137",
     "prerequisite_courses": [
       "CIS 110",
-      "CTI 110"
+      "CTI 110",
+      "OST 137"
     ]
   },
   {
@@ -5802,7 +5898,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Peter U. Kennedy, Dan Rosenthal",
-    "seats_open": 23,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "CTI 110 and CTI 120 and CTS 115",
     "prerequisite_courses": [
@@ -5827,7 +5923,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Bronwen G. McCormick",
-    "seats_open": 32,
+    "seats_open": 31,
     "seats_total": 32,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5848,7 +5944,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Cathryn J. Strohm-Horton",
-    "seats_open": 14,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": "CUL 230 or HRM 124 and CUL 135A",
     "prerequisite_courses": [
@@ -5873,7 +5969,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Cathryn J. Strohm-Horton, Toni L. Williams, Walter A. Rapetski, Jr.",
-    "seats_open": 10,
+    "seats_open": 5,
     "seats_total": 16,
     "prerequisite_text": "CUL 135 and CUL 230 or HRM 124",
     "prerequisite_courses": [
@@ -5898,7 +5994,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Stephen M. Hertz",
-    "seats_open": 15,
+    "seats_open": 5,
     "seats_total": 16,
     "prerequisite_text": "CUL 110",
     "prerequisite_courses": [
@@ -5920,8 +6016,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Vincent J. Donatelli",
-    "seats_open": 13,
+    "instructor": null,
+    "seats_open": 10,
     "seats_total": 16,
     "prerequisite_text": "CUL 110",
     "prerequisite_courses": [
@@ -5992,7 +6088,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Frederick L. Snyder",
-    "seats_open": 14,
+    "seats_open": 7,
     "seats_total": 16,
     "prerequisite_text": "CUL 110 and CUL 140 and CUL 140A",
     "prerequisite_courses": [
@@ -6017,7 +6113,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Stephen M. Hertz",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 16,
     "prerequisite_text": "CUL 110 and CUL 140 and CUL 110 and CUL 142 and CUL 170 and CUL 140A and CUL 240A",
     "prerequisite_courses": [
@@ -6045,7 +6141,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Frederick L. Snyder",
-    "seats_open": 13,
+    "seats_open": 8,
     "seats_total": 16,
     "prerequisite_text": "CUL 110 and CUL 140 and CUL 110 and CUL 142 and CUL 170 and CUL 140A and CUL 240A",
     "prerequisite_courses": [
@@ -6073,7 +6169,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Frederick L. Snyder, Stephen M. Hertz, Frank R. Muller",
-    "seats_open": 29,
+    "seats_open": 22,
     "seats_total": 32,
     "prerequisite_text": "CUL 110 and CUL 140 and CUL 240 and CUL 140A",
     "prerequisite_courses": [
@@ -6099,7 +6195,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Michelle Bailey, Bronwen G. McCormick, Stephen M. Hertz",
-    "seats_open": 11,
+    "seats_open": 6,
     "seats_total": 16,
     "prerequisite_text": "CUL 110 and CUL 140 and CUL 240 and CUL 140A and CUL 160 and CUL 230 and CUL 240A and CUL 270 and WBL 112 and CUL 135 and CUL 135A",
     "prerequisite_courses": [
@@ -6156,7 +6252,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Kelli Harrell",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": "CVS 160",
     "prerequisite_courses": [
@@ -6179,7 +6275,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kelli Harrell",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": "CVS 163",
     "prerequisite_courses": [
@@ -6246,7 +6342,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "John M. Locklear",
-    "seats_open": 19,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "CIS 110 or CIS 115 or CTI 110",
     "prerequisite_courses": [
@@ -6271,7 +6367,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "John M. Locklear",
-    "seats_open": 20,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "CIS 110 or CIS 115 or CTI 110",
     "prerequisite_courses": [
@@ -6618,7 +6714,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Carlos L. Ford, Jr.",
-    "seats_open": 24,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6639,7 +6735,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Carlos L. Ford, Jr.",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6660,7 +6756,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Carlos L. Ford, Jr.",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "DFT 151",
     "prerequisite_courses": [
@@ -6683,7 +6779,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6704,7 +6800,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 15,
+    "seats_open": 12,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6747,8 +6843,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 10,
+    "instructor": "Antowan Batts",
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6768,8 +6864,29 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 21,
+    "instructor": "Regan E. Simmer",
+    "seats_open": 2,
+    "seats_total": 25,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "ECO",
+    "course_number": "251",
+    "course_title": "Prin of Microeconomics",
+    "credits": 3,
+    "crn": "ECO-251-OAL3",
+    "days": "M T W Th F Sa Su",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-26",
+    "location": "Online",
+    "campus": "ONLIN",
+    "mode": "online",
+    "instructor": "Kevin Warth",
+    "seats_open": 25,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6790,7 +6907,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kevin Warth",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6811,7 +6928,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kevin Warth",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6831,8 +6948,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 17,
+    "instructor": "Regan E. Simmer",
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6852,8 +6969,8 @@
     "location": "",
     "campus": "",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Regan E. Simmer",
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6874,7 +6991,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kevin Warth",
-    "seats_open": 22,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7026,7 +7143,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "EDU 144",
     "prerequisite_courses": [
@@ -7049,7 +7166,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7070,7 +7187,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7091,7 +7208,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 15,
     "prerequisite_text": "EDU 119 and EDU 144 and EDU 145 and EDU 146 and EDU 151 and EDU 119 and PSY 244 and PSY 245 and EDU 146 and EDU 151 and EDU 119 and EDU 144 and PSY 245 and EDU 146 and EDU 151 and EDU 119 and PSY 244 and EDU 145 and EDU 146 and EDU 151",
     "prerequisite_courses": [
@@ -7141,7 +7258,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Harrison P. Orr",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7162,10 +7279,34 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Harrison P. Orr",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "EGR",
+    "course_number": "220",
+    "course_title": "Engineering Statics",
+    "credits": 3,
+    "crn": "EGR-220-1",
+    "days": "T Th",
+    "start_time": "11:00 AM",
+    "end_time": "12:15 PM",
+    "start_date": "2027-01-11",
+    "location": "A-B Tech Main Campus",
+    "campus": "A",
+    "mode": "in-person",
+    "instructor": null,
+    "seats_open": 20,
+    "seats_total": 20,
+    "prerequisite_text": "PHY 251 and MAT 272",
+    "prerequisite_courses": [
+      "PHY 251",
+      "MAT 272"
+    ]
   },
   {
     "college_code": "asheville-buncombe-technical",
@@ -7204,7 +7345,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "James B. Houston",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7225,7 +7366,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "James B. Houston",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7246,7 +7387,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "James B. Houston",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7267,7 +7408,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Joey Chandler",
-    "seats_open": 14,
+    "seats_open": 8,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7288,7 +7429,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Russell C. Brockman",
-    "seats_open": 18,
+    "seats_open": 9,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7309,7 +7450,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Russell C. Brockman",
-    "seats_open": 16,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7330,7 +7471,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Caleb M. Rathbone",
-    "seats_open": 10,
+    "seats_open": 6,
     "seats_total": 12,
     "prerequisite_text": "AHR 111 or ELC 111 or ELC 113",
     "prerequisite_courses": [
@@ -7355,7 +7496,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Russell C. Brockman",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": "ELC 113 or ELC 115",
     "prerequisite_courses": [
@@ -7379,7 +7520,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Justin B. Clarke",
-    "seats_open": 15,
+    "seats_open": 9,
     "seats_total": 16,
     "prerequisite_text": "ELC 111",
     "prerequisite_courses": [
@@ -7425,7 +7566,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "James B. Houston",
-    "seats_open": 21,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "ELC 131",
     "prerequisite_courses": [
@@ -7448,7 +7589,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Nick Alwon",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 12,
     "prerequisite_text": "ELC 111",
     "prerequisite_courses": [
@@ -7471,7 +7612,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Nick Alwon",
-    "seats_open": 7,
+    "seats_open": 5,
     "seats_total": 12,
     "prerequisite_text": "ELC 220",
     "prerequisite_courses": [
@@ -7494,7 +7635,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Nick Alwon",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 14,
     "prerequisite_text": "ELC 128 or ELN 260",
     "prerequisite_courses": [
@@ -7518,7 +7659,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Nick Alwon",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 14,
     "prerequisite_text": "ELC 128 or ELN 260",
     "prerequisite_courses": [
@@ -7542,7 +7683,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Joey Chandler",
-    "seats_open": 12,
+    "seats_open": 9,
     "seats_total": 14,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7563,7 +7704,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7584,7 +7725,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "James B. Houston",
-    "seats_open": 13,
+    "seats_open": 11,
     "seats_total": 14,
     "prerequisite_text": "ELN 131",
     "prerequisite_courses": [
@@ -7599,15 +7740,15 @@
     "course_title": "Prog Logic Controllers",
     "credits": 4,
     "crn": "ELN-260-B2",
-    "days": "W",
-    "start_time": "5:30 PM",
-    "end_time": "7:00 PM",
+    "days": "M W",
+    "start_time": "6:00 PM",
+    "end_time": "6:55 PM",
     "start_date": "2027-01-11",
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Justin B. Clarke",
-    "seats_open": 13,
+    "instructor": "Shane Herring",
+    "seats_open": 12,
     "seats_total": 14,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7868,7 +8009,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Erik S. Moellering",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7931,7 +8072,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Lisa S. York",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7952,7 +8093,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Heather K. Vaughn",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7973,7 +8114,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Eleanor L. Macken",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8015,7 +8156,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Margaret F. Poist",
-    "seats_open": 14,
+    "seats_open": 8,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8057,7 +8198,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Erik S. Moellering",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8141,7 +8282,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Chelsey R. Patterson",
-    "seats_open": 16,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8162,7 +8303,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Chelsey R. Patterson",
-    "seats_open": 20,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8209,7 +8350,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Jennifer L. Browning",
-    "seats_open": 19,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8235,7 +8376,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Robyn Luney",
-    "seats_open": 20,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8261,7 +8402,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Roy J. Cole",
-    "seats_open": 20,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8287,7 +8428,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Roy J. Cole",
-    "seats_open": 20,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8313,7 +8454,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Michelle A. Payton",
-    "seats_open": 18,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8339,7 +8480,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Lisa S. York",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 16,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8365,7 +8506,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Heather K. Vaughn",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 16,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8391,7 +8532,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Eleanor L. Macken",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 16,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8443,7 +8584,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Margaret F. Poist",
-    "seats_open": 14,
+    "seats_open": 8,
     "seats_total": 16,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8495,7 +8636,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Erik S. Moellering",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 16,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8599,7 +8740,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Robyn Luney",
-    "seats_open": 20,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8625,7 +8766,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ariel Robinson",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8651,7 +8792,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Erik S. Moellering",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8677,7 +8818,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Erin O. Lesh",
-    "seats_open": 17,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8729,7 +8870,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Stephany L. Newberry-Davis",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8807,7 +8948,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Lisa S. York",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8833,7 +8974,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ami Nicholson",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": "DRE 097 and ENG 002 and BSP 4002 and ENG 011",
     "prerequisite_courses": [
@@ -8885,7 +9026,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Chelsey R. Patterson",
-    "seats_open": 19,
+    "seats_open": 9,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -8908,7 +9049,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Chelsey R. Patterson",
-    "seats_open": 22,
+    "seats_open": 16,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -8931,7 +9072,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Chelsey R. Patterson",
-    "seats_open": 23,
+    "seats_open": 20,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -8954,7 +9095,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Eleanor L. Macken",
-    "seats_open": 21,
+    "seats_open": 7,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -8977,7 +9118,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Heather K. Vaughn",
-    "seats_open": 21,
+    "seats_open": 9,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9000,7 +9141,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Margaret F. Poist",
-    "seats_open": 22,
+    "seats_open": 15,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9023,7 +9164,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Michelle A. Payton",
-    "seats_open": 23,
+    "seats_open": 20,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9046,7 +9187,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Ariel Robinson",
-    "seats_open": 22,
+    "seats_open": 17,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9069,7 +9210,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Emily Adair",
-    "seats_open": 14,
+    "seats_open": 0,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9092,7 +9233,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 21,
+    "seats_open": 4,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9138,7 +9279,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Robyn Luney",
-    "seats_open": 21,
+    "seats_open": 18,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9161,7 +9302,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Erin O. Lesh",
-    "seats_open": 21,
+    "seats_open": 15,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9184,7 +9325,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Jennifer L. Browning",
-    "seats_open": 22,
+    "seats_open": 20,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9207,7 +9348,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Jennifer L. Browning",
-    "seats_open": 23,
+    "seats_open": 21,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9276,7 +9417,7 @@
     "campus": "M",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 9,
+    "seats_open": 7,
     "seats_total": 23,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9299,7 +9440,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Heather K. Vaughn",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9322,7 +9463,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Erik S. Moellering",
-    "seats_open": 15,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -9341,11 +9482,36 @@
     "start_time": "",
     "end_time": "",
     "start_date": "2027-01-19",
-    "location": "",
-    "campus": "",
+    "location": "Online",
+    "campus": "ONLIN",
     "mode": "online",
     "instructor": "Margaret F. Poist",
-    "seats_open": 21,
+    "seats_open": 0,
+    "seats_total": 25,
+    "prerequisite_text": "ENG 112 or ENG 113 or ENG 114",
+    "prerequisite_courses": [
+      "ENG 112",
+      "ENG 113",
+      "ENG 114"
+    ]
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "ENG",
+    "course_number": "232",
+    "course_title": "American Literature II",
+    "credits": 3,
+    "crn": "ENG-232-OAL2",
+    "days": "M T W Th F Sa Su",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-26",
+    "location": "Online",
+    "campus": "ONLIN",
+    "mode": "online",
+    "instructor": "Heather K. Vaughn",
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": "ENG 112 or ENG 113 or ENG 114",
     "prerequisite_courses": [
@@ -9370,7 +9536,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Eleanor L. Macken",
-    "seats_open": 22,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "ENG 112 or ENG 113 or ENG 114",
     "prerequisite_courses": [
@@ -9395,7 +9561,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Jennifer L. Browning",
-    "seats_open": 19,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "ENG 112 or ENG 113 or ENG 114",
     "prerequisite_courses": [
@@ -9419,8 +9585,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 20,
+    "instructor": "Antowan Batts",
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9440,8 +9606,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 20,
+    "instructor": "Antowan Batts",
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9462,7 +9628,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Melanie Parham",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 24,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -9488,7 +9654,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Melanie Parham",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -9514,7 +9680,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Melanie Parham",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 24,
     "prerequisite_text": "FRE 111",
     "prerequisite_courses": [
@@ -9537,7 +9703,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Melanie Parham",
-    "seats_open": 15,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": "FRE 111",
     "prerequisite_courses": [
@@ -9604,11 +9770,12 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Peter U. Kennedy",
-    "seats_open": 24,
+    "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": "GIS 111",
+    "prerequisite_text": "GIS 111 or CEG 111",
     "prerequisite_courses": [
-      "GIS 111"
+      "GIS 111",
+      "CEG 111"
     ]
   },
   {
@@ -9627,7 +9794,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 21,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9648,7 +9815,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9690,7 +9857,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "David W. Walker",
-    "seats_open": 6,
+    "seats_open": 3,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9711,7 +9878,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Mr. Robert M. Parker, David W. Walker",
-    "seats_open": 15,
+    "seats_open": 10,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9732,7 +9899,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "David W. Walker",
-    "seats_open": 16,
+    "seats_open": 11,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9753,7 +9920,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Rhonda L. Davidson",
-    "seats_open": 16,
+    "seats_open": 15,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9774,7 +9941,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -9818,7 +9985,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Marisa Romeo",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": "HFS 110",
     "prerequisite_courses": [
@@ -9888,7 +10055,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "John W. Martin",
-    "seats_open": 16,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -9914,7 +10081,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Holly R. Godfrey",
-    "seats_open": 17,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -9966,7 +10133,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Holly R. Godfrey",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -9992,7 +10159,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "John W. Martin",
-    "seats_open": 22,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10018,7 +10185,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "John W. Martin",
-    "seats_open": 22,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10044,7 +10211,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Stephanie Wampler",
-    "seats_open": 22,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10070,7 +10237,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Stephanie Wampler",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10096,7 +10263,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "John W. Martin",
-    "seats_open": 23,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10148,7 +10315,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "John W. Martin",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10174,7 +10341,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Austin M. Mitchell",
-    "seats_open": 24,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10226,7 +10393,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "April D. Birchfield",
-    "seats_open": 24,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10252,7 +10419,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "April D. Birchfield",
-    "seats_open": 21,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10277,8 +10444,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Sheri Kahn",
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10304,7 +10471,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Austin M. Mitchell",
-    "seats_open": 22,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10369,6 +10536,27 @@
   {
     "college_code": "asheville-buncombe-technical",
     "term": "2027SP",
+    "course_prefix": "HMT",
+    "course_number": "110",
+    "course_title": "Intro to Healthcare Mgt",
+    "credits": 3,
+    "crn": "HMT-110-OAL1",
+    "days": "M T W Th F Sa Su",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-26",
+    "location": "Online",
+    "campus": "ONLIN",
+    "mode": "online",
+    "instructor": null,
+    "seats_open": 23,
+    "seats_total": 25,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
     "course_prefix": "HRM",
     "course_number": "120",
     "course_title": "Front Office Procedures",
@@ -10424,7 +10612,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Walter A. Rapetski, Jr.",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10489,7 +10677,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Walter A. Rapetski, Jr.",
-    "seats_open": 34,
+    "seats_open": 30,
     "seats_total": 40,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10510,7 +10698,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Walter A. Rapetski, Jr.",
-    "seats_open": 23,
+    "seats_open": 11,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10560,8 +10748,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "Shaneka N. Haynes",
-    "seats_open": 23,
+    "instructor": null,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10581,8 +10769,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "Shaneka N. Haynes",
-    "seats_open": 20,
+    "instructor": null,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10603,7 +10791,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Porscha R. Orndorf",
-    "seats_open": 22,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10623,8 +10811,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "Shaneka N. Haynes",
-    "seats_open": 18,
+    "instructor": null,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10645,7 +10833,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Autumn Wallen",
-    "seats_open": 20,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "HSE 110",
     "prerequisite_courses": [
@@ -10667,8 +10855,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "Shaneka N. Haynes",
-    "seats_open": 17,
+    "instructor": null,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10689,7 +10877,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Porscha R. Orndorf",
-    "seats_open": 21,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10710,7 +10898,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Terese G Derballa",
-    "seats_open": 21,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10731,7 +10919,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Terese G Derballa",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -10751,8 +10939,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 18,
+    "instructor": "Audrey Nidiffer",
+    "seats_open": 9,
     "seats_total": 24,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10777,8 +10965,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 21,
+    "instructor": "Audrey Nidiffer",
+    "seats_open": 16,
     "seats_total": 24,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10804,7 +10992,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Sun Kondal",
-    "seats_open": 10,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10830,7 +11018,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Sun Kondal",
-    "seats_open": 22,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10856,7 +11044,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Sun Kondal",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10882,7 +11070,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Sara C. Cook",
-    "seats_open": 19,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10908,7 +11096,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Sara C. Cook",
-    "seats_open": 22,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -10960,7 +11148,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Melanie Parham",
-    "seats_open": 13,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -10983,7 +11171,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Sun Kondal",
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -11006,7 +11194,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Sun Kondal",
-    "seats_open": 13,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -11029,7 +11217,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Sun Kondal",
-    "seats_open": 25,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -11052,7 +11240,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Margaret F. Poist",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -11075,7 +11263,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Kenet Adamson",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -11098,7 +11286,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Kenet Adamson",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -11121,7 +11309,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kevin S. Kiser",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 14,
     "prerequisite_text": "DMA 010 and DMA 020 and DMA 030 and DMA 040 and DMA 050 and DMA 010 and DMA 020 and DMA 030 and DMA 045 and DMA 025 and DMA 040 and DMA 050 and DMA 025 and DMA 045 and MAT 003",
     "prerequisite_courses": [
@@ -11151,7 +11339,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Rachael A. Tipton",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11235,7 +11423,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Rachael A. Tipton",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11256,7 +11444,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11363,8 +11551,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Jennifer L. Tracy",
-    "seats_open": 20,
+    "instructor": null,
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11405,8 +11593,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "David M. Pereda",
-    "seats_open": 20,
+    "instructor": "Kevin Warth",
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11426,7 +11614,7 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "Jennifer L. Tracy",
+    "instructor": null,
     "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
@@ -11448,7 +11636,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Mathew Knowlen",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11481,27 +11669,6 @@
     "course_number": "035",
     "course_title": "Concepts of Algebra",
     "credits": 3,
-    "crn": "MAT-035-2",
-    "days": "T Th",
-    "start_time": "6:00 PM",
-    "end_time": "7:15 PM",
-    "start_date": "2027-01-11",
-    "location": "A-B Tech Main Campus",
-    "campus": "A",
-    "mode": "in-person",
-    "instructor": null,
-    "seats_open": 20,
-    "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "asheville-buncombe-technical",
-    "term": "2027SP",
-    "course_prefix": "MAT",
-    "course_number": "035",
-    "course_title": "Concepts of Algebra",
-    "credits": 3,
     "crn": "MAT-035-OA1",
     "days": "M T W Th F Sa Su",
     "start_time": "",
@@ -11511,7 +11678,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Jillian H. McMeans",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11532,7 +11699,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Jennifer L. Tracy",
-    "seats_open": 17,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11553,7 +11720,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Sumer Robinson",
-    "seats_open": 18,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11574,7 +11741,28 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Jennifer L. Tracy",
-    "seats_open": 17,
+    "seats_open": 0,
+    "seats_total": 25,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "MAT",
+    "course_number": "110",
+    "course_title": "Math Measurement & Literacy",
+    "credits": 3,
+    "crn": "MAT-110-OA2",
+    "days": "M T W Th F Sa Su",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-11",
+    "location": "Online",
+    "campus": "ONLIN",
+    "mode": "online",
+    "instructor": "Will Galliher",
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11594,8 +11782,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "Taylor H. Conn",
-    "seats_open": 24,
+    "instructor": "Joshua D. Cushman",
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -11616,7 +11804,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Malgorzata J. Chockla",
-    "seats_open": 19,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": "MAT 035 or MAT 003 or DMA 010 or DMA 020 or DMA 030 or DMA 040 or DMA 050 or DMA 060 or DMA 070 or DMA 080 or MAT 080",
     "prerequisite_courses": [
@@ -11648,8 +11836,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Jillian H. McMeans",
-    "seats_open": 17,
+    "instructor": "Ashley Robinson",
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -11673,7 +11861,7 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Valerie L. Martin",
+    "instructor": "Jennifer L. Tracy",
     "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
@@ -11698,8 +11886,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 20,
+    "instructor": "Cindy M. Moore",
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -11749,7 +11937,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Joshua D. Cushman",
-    "seats_open": 19,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -11774,7 +11962,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Jillian H. McMeans",
-    "seats_open": 22,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -11798,8 +11986,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "Joshua D. Cushman",
-    "seats_open": 25,
+    "instructor": "Ashley Robinson",
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -11824,7 +12012,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Joshua D. Cushman",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -11873,8 +12061,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Holly Bass",
-    "seats_open": 19,
+    "instructor": "Ashley Robinson",
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -11899,7 +12087,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Tammy C. Sullivan",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -11923,8 +12111,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 16,
+    "instructor": "Holly Bass",
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -11949,7 +12137,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Griffin Dodd",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -11974,8 +12162,8 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Griffin Dodd",
-    "seats_open": 24,
-    "seats_total": 24,
+    "seats_open": 19,
+    "seats_total": 20,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
       "DRE 098",
@@ -11999,7 +12187,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Cindy M. Moore",
-    "seats_open": 22,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -12024,7 +12212,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Griffin Dodd",
-    "seats_open": 22,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -12049,7 +12237,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Malgorzata J. Chockla",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -12073,7 +12261,7 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "Mathew Knowlen",
+    "instructor": null,
     "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
@@ -12099,7 +12287,7 @@
     "campus": "ONSYN",
     "mode": "zoom",
     "instructor": "Will Galliher",
-    "seats_open": 24,
+    "seats_open": 25,
     "seats_total": 25,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -12124,7 +12312,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "James C. Wilson",
-    "seats_open": 18,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": "MAT 035 or MAT 003 or DMA 010 or DMA 020 or DMA 030 or DMA 040 or DMA 050 or DMA 060 or DMA 070 or DMA 080 or MAT 080 or MAT 121",
     "prerequisite_courses": [
@@ -12157,7 +12345,7 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Jennifer L. Tracy",
     "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": "MAT 035 or MAT 003 or DMA 010 or DMA 020 or DMA 030 or DMA 040 or DMA 050 or DMA 060 or DMA 070 or DMA 080 or MAT 080 or MAT 121",
@@ -12226,7 +12414,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Valerie L. Martin",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": "MAT 035 or MAT 003 or DMA 010 or DMA 020 or DMA 030 or DMA 040 or DMA 050 or DMA 060 or DMA 070 or DMA 080 or MAT 080 or MAT 121",
     "prerequisite_courses": [
@@ -12260,7 +12448,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Mathew Knowlen",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": "MAT 035 or MAT 003 or DMA 010 or DMA 020 or DMA 030 or DMA 040 or DMA 050 or DMA 060 or DMA 070 or DMA 080 or MAT 080 or MAT 121",
     "prerequisite_courses": [
@@ -12294,7 +12482,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Mathew Knowlen",
-    "seats_open": 21,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "MAT 035 or MAT 003 or DMA 010 or DMA 020 or DMA 030 or DMA 040 or DMA 050 or DMA 060 or DMA 070 or DMA 080 or MAT 080 or MAT 121",
     "prerequisite_courses": [
@@ -12361,8 +12549,8 @@
     "location": "A-B Tech Madison",
     "campus": "M",
     "mode": "in-person",
-    "instructor": "Jennifer L. Tracy",
-    "seats_open": 8,
+    "instructor": "Ashley Robinson",
+    "seats_open": 7,
     "seats_total": 20,
     "prerequisite_text": "MAT 035 or MAT 003 or DMA 010 or DMA 020 or DMA 030 or DMA 040 or DMA 050 or DMA 060 or DMA 070 or DMA 080 or MAT 080 or MAT 121",
     "prerequisite_courses": [
@@ -12396,7 +12584,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Tammy C. Sullivan",
-    "seats_open": 4,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": "MAT 171",
     "prerequisite_courses": [
@@ -12418,8 +12606,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Holly Bass",
-    "seats_open": 18,
+    "instructor": "Jillian H. McMeans",
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": "MAT 171",
     "prerequisite_courses": [
@@ -12442,7 +12630,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Holly Bass",
-    "seats_open": 8,
+    "seats_open": 3,
     "seats_total": 20,
     "prerequisite_text": "MAT 171",
     "prerequisite_courses": [
@@ -12465,7 +12653,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Malgorzata J. Chockla",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": "MAT 171",
     "prerequisite_courses": [
@@ -12488,7 +12676,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Holly Bass",
-    "seats_open": 24,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": "MAT 171",
     "prerequisite_courses": [
@@ -12511,7 +12699,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Valerie L. Martin",
-    "seats_open": 20,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": "MAT 171",
     "prerequisite_courses": [
@@ -12534,7 +12722,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Cindy M. Moore",
-    "seats_open": 18,
+    "seats_open": 14,
     "seats_total": 24,
     "prerequisite_text": "MAT 172 or MAT 175",
     "prerequisite_courses": [
@@ -12558,7 +12746,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "James C. Wilson",
-    "seats_open": 21,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": "MAT 172 or MAT 175",
     "prerequisite_courses": [
@@ -12582,30 +12770,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "James C. Wilson",
-    "seats_open": 16,
-    "seats_total": 20,
-    "prerequisite_text": "MAT 271",
-    "prerequisite_courses": [
-      "MAT 271"
-    ]
-  },
-  {
-    "college_code": "asheville-buncombe-technical",
-    "term": "2027SP",
-    "course_prefix": "MAT",
-    "course_number": "272",
-    "course_title": "Calculus II",
-    "credits": 4,
-    "crn": "MAT-272-B2",
-    "days": "W",
-    "start_time": "6:00 PM",
-    "end_time": "7:50 PM",
-    "start_date": "2027-01-11",
-    "location": "A-B Tech Main Campus",
-    "campus": "A",
-    "mode": "in-person",
-    "instructor": "Cindy M. Moore",
-    "seats_open": 20,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": "MAT 271",
     "prerequisite_courses": [
@@ -12650,8 +12815,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 16,
+    "instructor": "Mathew Knowlen",
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": "MAT 272",
     "prerequisite_courses": [
@@ -12674,7 +12839,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12695,7 +12860,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12716,7 +12881,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Kevin S. Kiser",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12758,7 +12923,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Misty L. Shuler",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12779,7 +12944,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12800,7 +12965,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Misty L. Shuler",
-    "seats_open": 20,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": "MED 121",
     "prerequisite_courses": [
@@ -12823,7 +12988,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Misty L. Shuler",
-    "seats_open": 24,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "MED 121",
     "prerequisite_courses": [
@@ -12867,7 +13032,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Emily Whitmire",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12887,8 +13052,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 21,
+    "instructor": "Nick Davis",
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12908,8 +13073,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Kevin Warth",
-    "seats_open": 24,
+    "instructor": "Nick Davis",
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12930,7 +13095,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12951,7 +13116,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12971,8 +13136,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 23,
+    "instructor": "Nick Davis",
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -12992,8 +13157,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 21,
+    "instructor": "Nick Davis",
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13014,7 +13179,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Kevin Warth",
-    "seats_open": 22,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "MKT 120",
     "prerequisite_courses": [
@@ -13159,7 +13324,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Molly R. McKeown",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 10,
     "prerequisite_text": "MLT 285",
     "prerequisite_courses": [
@@ -13251,7 +13416,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Jennifer K. Picher",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 8,
     "prerequisite_text": "MLT 126 and MLT 127 and MLT 252",
     "prerequisite_courses": [
@@ -13276,7 +13441,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Jennifer K. Picher",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 8,
     "prerequisite_text": "MLT 126 and MLT 127 and MLT 252",
     "prerequisite_courses": [
@@ -13301,7 +13466,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Jennifer K. Picher",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13322,7 +13487,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Jennifer K. Picher",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13343,7 +13508,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Jennifer K. Picher",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13364,7 +13529,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Jennifer K. Picher",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13385,7 +13550,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Jennifer K. Picher",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13406,7 +13571,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Jennifer K. Picher",
-    "seats_open": 8,
+    "seats_open": 6,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13427,7 +13592,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Jennifer K. Picher",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13448,7 +13613,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Jennifer K. Picher",
-    "seats_open": 8,
+    "seats_open": 7,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13469,7 +13634,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Cary E. Fridley",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13490,7 +13655,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Joanna Agnew",
-    "seats_open": 14,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13511,7 +13676,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Joanna Agnew",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13532,7 +13697,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Robert Teague",
-    "seats_open": 20,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13553,7 +13718,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Robert Teague",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13574,7 +13739,7 @@
     "campus": "M",
     "mode": "in-person",
     "instructor": "Robert Teague",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13595,7 +13760,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Cary E. Fridley",
-    "seats_open": 21,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13616,7 +13781,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Michael D. Deaver",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13637,7 +13802,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Michael D. Deaver",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -13658,7 +13823,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Michael D. Deaver",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": "CTI 110 and CTI 120 and CTS 115",
     "prerequisite_courses": [
@@ -13704,7 +13869,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Michael D. Deaver",
-    "seats_open": 17,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "NOS 110",
     "prerequisite_courses": [
@@ -13727,7 +13892,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Kurt Berger",
-    "seats_open": 17,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "NOS 110",
     "prerequisite_courses": [
@@ -13772,7 +13937,7 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Carol A. Hicks, Andrea M. Jefferis, Deanna W. Littrell, Christy C. Andrews, Tipton G. Dillingham",
+    "instructor": "Carol A. Hicks, Andrea M. Jefferis, Deanna W. Littrell, Christy C. Andrews, Tipton G. Dillingham, Nita M. Kirkpatrick",
     "seats_open": 20,
     "seats_total": 60,
     "prerequisite_text": "ACA 111 and NUR 117 and NUR 117 and ACA 111",
@@ -13796,7 +13961,7 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Carol A. Hicks, Andrea M. Jefferis, Deanna W. Littrell, Christy C. Andrews, Tipton G. Dillingham",
+    "instructor": "Carol A. Hicks, Andrea M. Jefferis, Deanna W. Littrell, Christy C. Andrews, Tipton G. Dillingham, Nita M. Kirkpatrick",
     "seats_open": 20,
     "seats_total": 60,
     "prerequisite_text": "ACA 111 and NUR 117 and NUR 117 and ACA 111",
@@ -13820,7 +13985,7 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Carol A. Hicks, Andrea M. Jefferis, Deanna W. Littrell, Christy C. Andrews, Tipton G. Dillingham",
+    "instructor": "Carol A. Hicks, Andrea M. Jefferis, Deanna W. Littrell, Christy C. Andrews, Tipton G. Dillingham, Nita M. Kirkpatrick",
     "seats_open": 20,
     "seats_total": 60,
     "prerequisite_text": "ACA 111 and NUR 117 and NUR 117 and ACA 111",
@@ -13845,7 +14010,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "William B. Evans, Nita M. Kirkpatrick, Deanna W. Littrell",
-    "seats_open": 30,
+    "seats_open": 28,
     "seats_total": 30,
     "prerequisite_text": "NUR 111 and NUR 117",
     "prerequisite_courses": [
@@ -13975,7 +14140,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Joan C. Vassey, Deanna W. Littrell",
-    "seats_open": 30,
+    "seats_open": 28,
     "seats_total": 30,
     "prerequisite_text": "NUR 111 and NUR 117",
     "prerequisite_courses": [
@@ -13998,7 +14163,7 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Tipton G. Dillingham, Christy C. Andrews",
+    "instructor": "Christy C. Andrews, Patti Jeka, Nita M. Kirkpatrick",
     "seats_open": 20,
     "seats_total": 60,
     "prerequisite_text": "NUR 111",
@@ -14021,7 +14186,7 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Tipton G. Dillingham, Christy C. Andrews",
+    "instructor": "Christy C. Andrews, Nita M. Kirkpatrick, Patti Jeka",
     "seats_open": 20,
     "seats_total": 60,
     "prerequisite_text": "NUR 111",
@@ -14044,7 +14209,7 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": "Tipton G. Dillingham, Christy C. Andrews",
+    "instructor": "Christy C. Andrews, Nita M. Kirkpatrick, Patti Jeka",
     "seats_open": 20,
     "seats_total": 60,
     "prerequisite_text": "NUR 111",
@@ -14124,7 +14289,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Eileen M. Regan, Denice R. Morgan, Deanna W. Littrell, Christy C. Andrews, Tipton G. Dillingham, Nita M. Kirkpatrick",
-    "seats_open": 21,
+    "seats_open": 19,
     "seats_total": 50,
     "prerequisite_text": "NUR 111 and NUR 112 and NUR 113 and NUR 114 and NUR 211 and NUR 212 and PSY 241 or BIO 175 or BIO 275 or ENG 112 or ENG 114 and PHI 240",
     "prerequisite_courses": [
@@ -14213,12 +14378,10 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Maryann S. Aucompaugh",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": "OST 131",
-    "prerequisite_courses": [
-      "OST 131"
-    ]
+    "prerequisite_text": null,
+    "prerequisite_courses": []
   },
   {
     "college_code": "asheville-buncombe-technical",
@@ -14236,12 +14399,10 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Alyssa M. Lewis",
-    "seats_open": 24,
+    "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": "OST 131",
-    "prerequisite_courses": [
-      "OST 131"
-    ]
+    "prerequisite_text": null,
+    "prerequisite_courses": []
   },
   {
     "college_code": "asheville-buncombe-technical",
@@ -14259,7 +14420,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Christine M. Culbreth",
-    "seats_open": 20,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": "CIS 110 or CIS 111 or OST 137",
     "prerequisite_courses": [
@@ -14284,7 +14445,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Gwenn P. Stinnett",
-    "seats_open": 18,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": "MED 121 or OST 141",
     "prerequisite_courses": [
@@ -14308,7 +14469,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Gwenn P. Stinnett",
-    "seats_open": 24,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": "MED 121 or OST 141",
     "prerequisite_courses": [
@@ -14332,7 +14493,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Maryann S. Aucompaugh",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": "MED 121 or OST 141",
     "prerequisite_courses": [
@@ -14356,7 +14517,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Christine M. Culbreth",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "CIS 110 or CIS 111 or OST 137",
     "prerequisite_courses": [
@@ -14381,7 +14542,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14390,10 +14551,10 @@
     "college_code": "asheville-buncombe-technical",
     "term": "2027SP",
     "course_prefix": "OST",
-    "course_number": "164",
-    "course_title": "Office Editing",
+    "course_number": "184",
+    "course_title": "Office Information Management",
     "credits": 3,
-    "crn": "OST-164-OAL2",
+    "crn": "OST-184-OAL1",
     "days": "M T W Th F Sa Su",
     "start_time": "",
     "end_time": "",
@@ -14423,7 +14584,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Christine M. Culbreth",
-    "seats_open": 19,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "OST 164",
     "prerequisite_courses": [
@@ -14679,7 +14840,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Marisa Romeo",
-    "seats_open": 24,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14700,7 +14861,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Rhonda L. Davidson",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14744,7 +14905,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Riley Ford",
-    "seats_open": 7,
+    "seats_open": 6,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -14765,7 +14926,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Maria S. Stephens",
-    "seats_open": 23,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -14788,7 +14949,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Duston E. Mason",
-    "seats_open": 18,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -14811,7 +14972,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Duston E. Mason",
-    "seats_open": 11,
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -14834,7 +14995,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Duston E. Mason",
-    "seats_open": 23,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -14857,7 +15018,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Duston E. Mason",
-    "seats_open": 25,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -14879,7 +15040,7 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Dave Smith",
     "seats_open": 25,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
@@ -14902,8 +15063,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 24,
+    "instructor": "Dave Smith",
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -14926,7 +15087,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Maria S. Stephens",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -14949,7 +15110,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Maria S. Stephens",
-    "seats_open": 14,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -14972,7 +15133,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Maria S. Stephens",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "ENG 111",
     "prerequisite_courses": [
@@ -14995,7 +15156,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Shannon T. Bonomi",
-    "seats_open": 16,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "PHY 110",
     "prerequisite_courses": [
@@ -15018,7 +15179,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Shannon T. Bonomi",
-    "seats_open": 16,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025 or ENG 045 and PHY 110A",
     "prerequisite_courses": [
@@ -15046,7 +15207,37 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Shannon T. Bonomi",
-    "seats_open": 12,
+    "seats_open": 0,
+    "seats_total": 18,
+    "prerequisite_text": "DRE 098 or ENG 002 or ENG 025 or ENG 045 and DMA 030 or MAT 025 or MAT 035 or MAT 003",
+    "prerequisite_courses": [
+      "DRE 098",
+      "ENG 002",
+      "ENG 025",
+      "ENG 045",
+      "DMA 030",
+      "MAT 025",
+      "MAT 035",
+      "MAT 003"
+    ]
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "PHY",
+    "course_number": "125",
+    "course_title": "Health Sciences Physics",
+    "credits": 4,
+    "crn": "PHY-125-B2",
+    "days": "T Th",
+    "start_time": "9:30 AM",
+    "end_time": "10:45 AM",
+    "start_date": "2027-01-11",
+    "location": "A-B Tech Main Campus",
+    "campus": "A",
+    "mode": "in-person",
+    "instructor": "Luis Chavarria Garrido",
+    "seats_open": 18,
     "seats_total": 18,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025 or ENG 045 and DMA 030 or MAT 025 or MAT 035 or MAT 003",
     "prerequisite_courses": [
@@ -15076,7 +15267,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Shannon T. Bonomi",
-    "seats_open": 15,
+    "seats_open": 5,
     "seats_total": 18,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025 or ENG 045 and DMA 030 or MAT 025 or MAT 035 or MAT 003",
     "prerequisite_courses": [
@@ -15105,8 +15296,38 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
+    "instructor": "Gail Ruby",
+    "seats_open": 0,
+    "seats_total": 25,
+    "prerequisite_text": "DRE 098 or ENG 002 or ENG 025 or ENG 045 and DMA 030 or MAT 025 or MAT 035 or MAT 003",
+    "prerequisite_courses": [
+      "DRE 098",
+      "ENG 002",
+      "ENG 025",
+      "ENG 045",
+      "DMA 030",
+      "MAT 025",
+      "MAT 035",
+      "MAT 003"
+    ]
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "PHY",
+    "course_number": "125",
+    "course_title": "Health Sciences Physics",
+    "credits": 4,
+    "crn": "PHY-125-OA2",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-11",
+    "location": "Online",
+    "campus": "ONLIN",
+    "mode": "online",
     "instructor": null,
-    "seats_open": 22,
+    "seats_open": 25,
     "seats_total": 25,
     "prerequisite_text": "DRE 098 or ENG 002 or ENG 025 or ENG 045 and DMA 030 or MAT 025 or MAT 035 or MAT 003",
     "prerequisite_courses": [
@@ -15166,7 +15387,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "John Davis",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "MAT 171 or MAT 271 and DRE 097 or DRE 098 or ENG 002 or ENG 025 or ENG 045 and MAT 171 or MAT 175 or MAT 271",
     "prerequisite_courses": [
@@ -15195,7 +15416,7 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Luis Chavarria Garrido",
     "seats_open": 15,
     "seats_total": 18,
     "prerequisite_text": "PHY 151 (min C)",
@@ -15219,7 +15440,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "John Davis",
-    "seats_open": 23,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "PHY 151 (min C)",
     "prerequisite_courses": [
@@ -15241,14 +15462,16 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Luis Chavarria Garrido",
     "seats_open": 16,
     "seats_total": 18,
-    "prerequisite_text": "MAT 271 (min C) and DRE 098 or ENG 002",
+    "prerequisite_text": "MAT 271 (min C) and DRE 098 or ENG 002 or ENG 025 or ENG 045",
     "prerequisite_courses": [
       "MAT 271",
       "DRE 098",
-      "ENG 002"
+      "ENG 002",
+      "ENG 025",
+      "ENG 045"
     ]
   },
   {
@@ -15266,8 +15489,8 @@
     "location": "A-B Tech Main Campus",
     "campus": "A",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 10,
+    "instructor": "Luis Chavarria Garrido",
+    "seats_open": 9,
     "seats_total": 18,
     "prerequisite_text": "MAT 272 and PHY 251",
     "prerequisite_courses": [
@@ -15291,7 +15514,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "April D. Birchfield",
-    "seats_open": 15,
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -15317,7 +15540,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "April D. Birchfield",
-    "seats_open": 23,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -15343,7 +15566,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Mark Daddona",
-    "seats_open": 24,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15364,7 +15587,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Mark Daddona",
-    "seats_open": 21,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15385,7 +15608,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Marin Clontz",
-    "seats_open": 23,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15406,7 +15629,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Marin Clontz",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15427,7 +15650,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Steven W. Luke",
-    "seats_open": 24,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15448,7 +15671,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Marin Clontz",
-    "seats_open": 21,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15469,7 +15692,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Steven W. Luke",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15490,7 +15713,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Anne C. Doucette",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15511,7 +15734,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Natalie K. Polinko",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15532,7 +15755,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 29,
+    "seats_open": 0,
     "seats_total": 50,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15553,7 +15776,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15574,7 +15797,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Maria B. LeBaron",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15595,7 +15818,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Maria B. LeBaron",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15616,7 +15839,7 @@
     "campus": "ONMAD",
     "mode": "online",
     "instructor": "Samantha F. Johnson",
-    "seats_open": 23,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15637,7 +15860,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Samantha F. Johnson",
-    "seats_open": 16,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": "PSY 150 or SOC 210",
     "prerequisite_courses": [
@@ -15661,7 +15884,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Ms. Robin B. Howse",
-    "seats_open": 10,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": "PSY 150",
     "prerequisite_courses": [
@@ -15684,7 +15907,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Robin B. Howse",
-    "seats_open": 35,
+    "seats_open": 9,
     "seats_total": 50,
     "prerequisite_text": "PSY 150",
     "prerequisite_courses": [
@@ -15707,7 +15930,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Robin B. Howse",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "PSY 150",
     "prerequisite_courses": [
@@ -15730,7 +15953,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Ms. Robin B. Howse",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "PSY 150",
     "prerequisite_courses": [
@@ -15753,7 +15976,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Samantha F. Johnson",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": "PSY 150",
     "prerequisite_courses": [
@@ -15775,8 +15998,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 42,
+    "instructor": "Samantha F. Johnson",
+    "seats_open": 29,
     "seats_total": 50,
     "prerequisite_text": "PSY 150",
     "prerequisite_courses": [
@@ -15799,7 +16022,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kayce Leon",
-    "seats_open": 13,
+    "seats_open": 14,
     "seats_total": 26,
     "prerequisite_text": "RAD 111",
     "prerequisite_courses": [
@@ -15822,7 +16045,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kayce Leon",
-    "seats_open": 13,
+    "seats_open": 14,
     "seats_total": 26,
     "prerequisite_text": "RAD 111",
     "prerequisite_courses": [
@@ -15939,7 +16162,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Autumn Wallen",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15960,7 +16183,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Sarah Evitt",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -15981,7 +16204,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Sarah Evitt",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16002,7 +16225,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Autumn Wallen",
-    "seats_open": 18,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16023,7 +16246,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Autumn Wallen",
-    "seats_open": 21,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16067,7 +16290,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Matthew B. Meadows",
-    "seats_open": 21,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": "SEC 160",
     "prerequisite_courses": [
@@ -16090,7 +16313,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Kurt Berger",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": "CTI 110 and CTI 120 and CTS 115",
     "prerequisite_courses": [
@@ -16115,7 +16338,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Steven W. Luke",
-    "seats_open": 21,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16136,7 +16359,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Steven W. Luke",
-    "seats_open": 22,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16157,7 +16380,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Steven W. Luke",
-    "seats_open": 20,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16177,8 +16400,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "Carra M. Miskovich",
-    "seats_open": 15,
+    "instructor": null,
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16199,7 +16422,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Veronica Van Ry",
-    "seats_open": 24,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16220,7 +16443,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Veronica Van Ry",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16241,7 +16464,7 @@
     "campus": "M",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16262,7 +16485,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Kelly Q. McEnany",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16283,7 +16506,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Steven W. Luke",
-    "seats_open": 18,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16304,7 +16527,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Kenneth N. Rudolph",
-    "seats_open": 40,
+    "seats_open": 24,
     "seats_total": 50,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16325,7 +16548,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Kenneth N. Rudolph",
-    "seats_open": 20,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16346,7 +16569,7 @@
     "campus": "ONMAD",
     "mode": "online",
     "instructor": "Kenneth N. Rudolph",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16366,8 +16589,8 @@
     "location": "Online",
     "campus": "ONLIN",
     "mode": "online",
-    "instructor": "Shaneka N. Haynes",
-    "seats_open": 20,
+    "instructor": null,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16388,7 +16611,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Kedren M. Cooper",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 11,
     "prerequisite_text": "SON 110",
     "prerequisite_courses": [
@@ -16411,7 +16634,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Jonathan D. Harwood",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 11,
     "prerequisite_text": "SON 130",
     "prerequisite_courses": [
@@ -16434,7 +16657,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kedren M. Cooper",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 11,
     "prerequisite_text": "SON 110",
     "prerequisite_courses": [
@@ -16504,7 +16727,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Kedren M. Cooper",
-    "seats_open": 11,
+    "seats_open": 10,
     "seats_total": 11,
     "prerequisite_text": "SON 110",
     "prerequisite_courses": [
@@ -16550,7 +16773,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Casey Boyatt",
-    "seats_open": 24,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -16576,7 +16799,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Patricia Furnish",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -16602,7 +16825,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Casey Boyatt",
-    "seats_open": 18,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -16628,7 +16851,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Casey Boyatt",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": "DRE 097 or DRE 098 or ENG 002 or ENG 025",
     "prerequisite_courses": [
@@ -16729,7 +16952,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Patricia Furnish",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "SPA 111",
     "prerequisite_courses": [
@@ -16752,7 +16975,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Patricia Furnish",
-    "seats_open": 21,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": "SPA 111",
     "prerequisite_courses": [
@@ -16775,7 +16998,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Patricia Furnish",
-    "seats_open": 24,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": "SPA 111",
     "prerequisite_courses": [
@@ -16821,7 +17044,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Casey Boyatt",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": "SPA 112",
     "prerequisite_courses": [
@@ -16844,7 +17067,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Casey Boyatt",
-    "seats_open": 22,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": "SPA 211",
     "prerequisite_courses": [
@@ -16938,7 +17161,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Linda H. Orndorf",
-    "seats_open": 11,
+    "seats_open": 9,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -16959,7 +17182,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Maggie M. Shoup",
-    "seats_open": 16,
+    "seats_open": 7,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17097,7 +17320,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "David W. Walker",
-    "seats_open": 16,
+    "seats_open": 12,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17118,7 +17341,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "David W. Walker",
-    "seats_open": 16,
+    "seats_open": 12,
     "seats_total": 18,
     "prerequisite_text": "TRN 120",
     "prerequisite_courses": [
@@ -17141,7 +17364,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Charles E. Knies",
-    "seats_open": 18,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17162,7 +17385,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Mr. Robert M. Parker",
-    "seats_open": 14,
+    "seats_open": 9,
     "seats_total": 18,
     "prerequisite_text": "TRN 120",
     "prerequisite_courses": [
@@ -17185,7 +17408,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Charles E. Knies",
-    "seats_open": 17,
+    "seats_open": 10,
     "seats_total": 18,
     "prerequisite_text": "TRN 120",
     "prerequisite_courses": [
@@ -17199,7 +17422,7 @@
     "course_number": "120",
     "course_title": "Vet Anatomy & Physiology",
     "credits": 4,
-    "crn": "VET-120-B1",
+    "crn": "VET-120-B3",
     "days": "Th",
     "start_time": "10:00 AM",
     "end_time": "12:50 PM",
@@ -17210,11 +17433,8 @@
     "instructor": "Angelia Feick, Sierra Chapman",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": "VET 121 and VET 137",
-    "prerequisite_courses": [
-      "VET 121",
-      "VET 137"
-    ]
+    "prerequisite_text": null,
+    "prerequisite_courses": []
   },
   {
     "college_code": "asheville-buncombe-technical",
@@ -17223,7 +17443,7 @@
     "course_number": "120",
     "course_title": "Vet Anatomy & Physiology",
     "credits": 4,
-    "crn": "VET-120-B2",
+    "crn": "VET-120-B4",
     "days": "Th",
     "start_time": "10:00 AM",
     "end_time": "12:50 PM",
@@ -17234,11 +17454,50 @@
     "instructor": "Angelia Feick, Sierra Chapman",
     "seats_open": 12,
     "seats_total": 24,
-    "prerequisite_text": "VET 121 and VET 137",
-    "prerequisite_courses": [
-      "VET 121",
-      "VET 137"
-    ]
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "VET",
+    "course_number": "127",
+    "course_title": "Vet Infect & Parasitic Dis.",
+    "credits": 3,
+    "crn": "VET-127-B1",
+    "days": "M",
+    "start_time": "10:00 AM",
+    "end_time": "11:50 AM",
+    "start_date": "2027-01-11",
+    "location": "A-B Tech Main Campus",
+    "campus": "A",
+    "mode": "in-person",
+    "instructor": "Angelia Feick, Sierra Chapman",
+    "seats_open": 12,
+    "seats_total": 24,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "asheville-buncombe-technical",
+    "term": "2027SP",
+    "course_prefix": "VET",
+    "course_number": "127",
+    "course_title": "Vet Infect & Parasitic Dis.",
+    "credits": 3,
+    "crn": "VET-127-B2",
+    "days": "M",
+    "start_time": "10:00 AM",
+    "end_time": "11:50 AM",
+    "start_date": "2027-01-11",
+    "location": "A-B Tech Main Campus",
+    "campus": "A",
+    "mode": "in-person",
+    "instructor": "Angelia Feick, Sierra Chapman",
+    "seats_open": 12,
+    "seats_total": 24,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
   },
   {
     "college_code": "asheville-buncombe-technical",
@@ -17272,110 +17531,24 @@
     "college_code": "asheville-buncombe-technical",
     "term": "2027SP",
     "course_prefix": "VET",
-    "course_number": "214",
-    "course_title": "Vet Clinical Practice III",
-    "credits": 4,
-    "crn": "VET-214-XB1",
-    "days": "M",
-    "start_time": "12:00 PM",
-    "end_time": "12:50 PM",
-    "start_date": "2027-01-11",
-    "location": "Buncombe County Animal Shelter",
-    "campus": "BCAS",
-    "mode": "in-person",
-    "instructor": "Kris Hubbard",
-    "seats_open": 8,
-    "seats_total": 16,
-    "prerequisite_text": "VET 211 and VET 215 and VET 212 and VET 217 and VET 213",
-    "prerequisite_courses": [
-      "VET 211",
-      "VET 215",
-      "VET 212",
-      "VET 217",
-      "VET 213"
-    ]
-  },
-  {
-    "college_code": "asheville-buncombe-technical",
-    "term": "2027SP",
-    "course_prefix": "VET",
-    "course_number": "214",
-    "course_title": "Vet Clinical Practice III",
-    "credits": 4,
-    "crn": "VET-214-XB2",
-    "days": "M",
-    "start_time": "12:00 PM",
-    "end_time": "12:50 PM",
-    "start_date": "2027-01-11",
-    "location": "Buncombe County Animal Shelter",
-    "campus": "BCAS",
-    "mode": "in-person",
-    "instructor": "Kris Hubbard",
-    "seats_open": 8,
-    "seats_total": 16,
-    "prerequisite_text": "VET 211 and VET 215 and VET 212 and VET 217 and VET 213",
-    "prerequisite_courses": [
-      "VET 211",
-      "VET 215",
-      "VET 212",
-      "VET 217",
-      "VET 213"
-    ]
-  },
-  {
-    "college_code": "asheville-buncombe-technical",
-    "term": "2027SP",
-    "course_prefix": "VET",
-    "course_number": "217",
-    "course_title": "Large Animal Clin Pract",
+    "course_number": "221",
+    "course_title": "Vet Diagnostics & Path III",
     "credits": 3,
-    "crn": "VET-217-XB1",
-    "days": "W",
-    "start_time": "12:30 PM",
-    "end_time": "3:20 PM",
+    "crn": "VET-221-B1",
+    "days": "M",
+    "start_time": "1:00 PM",
+    "end_time": "3:50 PM",
     "start_date": "2027-01-11",
-    "location": "Off-Campus",
-    "campus": "O",
+    "location": "A-B Tech Main Campus",
+    "campus": "A",
     "mode": "in-person",
-    "instructor": "Jori N. Miller",
-    "seats_open": 8,
-    "seats_total": 16,
-    "prerequisite_text": "VET 125 and VET 212 and VET 214 and VET 215 and VET 120 and VET 213",
+    "instructor": null,
+    "seats_open": 32,
+    "seats_total": 32,
+    "prerequisite_text": "VET 220 and VET 214",
     "prerequisite_courses": [
-      "VET 125",
-      "VET 212",
-      "VET 214",
-      "VET 215",
-      "VET 120",
-      "VET 213"
-    ]
-  },
-  {
-    "college_code": "asheville-buncombe-technical",
-    "term": "2027SP",
-    "course_prefix": "VET",
-    "course_number": "217",
-    "course_title": "Large Animal Clin Pract",
-    "credits": 3,
-    "crn": "VET-217-XB2",
-    "days": "W",
-    "start_time": "9:00 AM",
-    "end_time": "11:50 AM",
-    "start_date": "2027-01-11",
-    "location": "Off-Campus",
-    "campus": "O",
-    "mode": "in-person",
-    "instructor": "Jori N. Miller",
-    "seats_open": 8,
-    "seats_total": 16,
-    "prerequisite_text": "VET 125 and VET 212 and VET 214 and VET 215 and VET 120 and VET 213",
-    "prerequisite_courses": [
-      "VET 125",
-      "VET 212",
-      "VET 214",
-      "VET 215",
-      "VET 120",
-      "VET 213"
+      "VET 220",
+      "VET 214"
     ]
   },
   {
@@ -17418,7 +17591,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Marisa Romeo",
-    "seats_open": 5,
+    "seats_open": 4,
     "seats_total": 5,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17439,7 +17612,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Porscha R. Orndorf",
-    "seats_open": 3,
+    "seats_open": 2,
     "seats_total": 5,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17481,7 +17654,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Kevin Fletcher",
-    "seats_open": 7,
+    "seats_open": 2,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17502,7 +17675,7 @@
     "campus": "O",
     "mode": "in-person",
     "instructor": "Mr. Robert M. Parker",
-    "seats_open": 6,
+    "seats_open": 4,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17523,7 +17696,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Constance A. Humphries",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17565,7 +17738,7 @@
     "campus": "ONLIN",
     "mode": "online",
     "instructor": "Constance A. Humphries",
-    "seats_open": 23,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17586,7 +17759,7 @@
     "campus": "ONSYN",
     "mode": "in-person",
     "instructor": "Charles K. Wallin",
-    "seats_open": 21,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": "CIS 115 and WEB 115",
     "prerequisite_courses": [
@@ -17610,7 +17783,7 @@
     "campus": "ONSYN",
     "mode": "in-person",
     "instructor": "Mr. Alec A. Fehl",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": "WEB 115",
     "prerequisite_courses": [
@@ -17681,7 +17854,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Mr. Alec A. Fehl, Charles K. Wallin",
-    "seats_open": 19,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": "CTS 115 and WEB 215 and WEB 250",
     "prerequisite_courses": [
@@ -17706,7 +17879,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Aurethia O. Scott",
-    "seats_open": 13,
+    "seats_open": 5,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17727,7 +17900,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Elijah Canup",
-    "seats_open": 16,
+    "seats_open": 10,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17748,7 +17921,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Matthew H. Decker",
-    "seats_open": 12,
+    "seats_open": 9,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17769,7 +17942,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 14,
+    "seats_open": 11,
     "seats_total": 15,
     "prerequisite_text": "WLD 115",
     "prerequisite_courses": [
@@ -17792,7 +17965,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Aurethia O. Scott",
-    "seats_open": 13,
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17813,7 +17986,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Elijah Canup",
-    "seats_open": 14,
+    "seats_open": 10,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17834,7 +18007,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Aurethia O. Scott",
-    "seats_open": 14,
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17855,7 +18028,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Matthew H. Decker",
-    "seats_open": 14,
+    "seats_open": 11,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -17876,7 +18049,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Aurethia O. Scott",
-    "seats_open": 14,
+    "seats_open": 12,
     "seats_total": 15,
     "prerequisite_text": "WLD 131",
     "prerequisite_courses": [
@@ -17920,7 +18093,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 13,
+    "seats_open": 12,
     "seats_total": 15,
     "prerequisite_text": "WLD 110 and WLD 115 and WLD 121 and WLD 131",
     "prerequisite_courses": [
@@ -17946,7 +18119,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": "WLD 115 or WLD 116",
     "prerequisite_courses": [
@@ -17970,7 +18143,7 @@
     "campus": "A",
     "mode": "in-person",
     "instructor": "Matthew H. Decker",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 12,
     "prerequisite_text": "WLD 115 and WLD 121 and WLD 131",
     "prerequisite_courses": [
