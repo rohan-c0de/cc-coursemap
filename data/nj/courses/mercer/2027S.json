@@ -1,0 +1,23 @@
+[
+  {
+    "college_code": "mercer",
+    "term": "2027S",
+    "course_prefix": "HPE",
+    "course_number": "105",
+    "course_title": "First Aid CPR and AED",
+    "credits": 3,
+    "crn": "HPE-105-020",
+    "days": "Th",
+    "start_time": "12:00 PM",
+    "end_time": "12:50 PM",
+    "start_date": "2027-01-19",
+    "location": "West Windsor Campus",
+    "campus": "WWC",
+    "mode": "in-person",
+    "instructor": null,
+    "seats_open": 12,
+    "seats_total": 12,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  }
+]
