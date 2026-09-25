@@ -1,0 +1,23 @@
+[
+  {
+    "college_code": "north-hennepin-community-college",
+    "term": "2028SP",
+    "course_prefix": "HLTH",
+    "course_number": "2090",
+    "course_title": "Life Cycle Nutrition",
+    "credits": 3,
+    "crn": "000670",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2028-01-08",
+    "location": "",
+    "campus": "",
+    "mode": "online",
+    "instructor": null,
+    "seats_open": 1,
+    "seats_total": null,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  }
+]
