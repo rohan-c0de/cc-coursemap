@@ -191,13 +191,6 @@
       "ACC 135"
     ]
   },
-  "ACC 180": {
-    "text": "ACC135,ACC201 or equivalent work experience",
-    "courses": [
-      "ACC 135",
-      "ACC 201"
-    ]
-  },
   "ACC 201": {
     "text": "Mathematics: Pre- or co-requisite of BUS 117 or MATH 120 or higher or qualifying placement scores; And English: pre-requisite of ENG 100 or pre- or co-requisite of ENG 101 or BUS 107, or qualifying placement scores; or permission of the instructor",
     "courses": [
@@ -248,6 +241,12 @@
       "ACC 201"
     ]
   },
+  "ACC 223": {
+    "text": "ACC135 or consent of instructor",
+    "courses": [
+      "ACC 135"
+    ]
+  },
   "ACC 261": {
     "text": "Must have completed ACC 201",
     "courses": [
@@ -265,9 +264,12 @@
     "text": "Core and Major requirement completed. Minimum 2.5 GPA",
     "courses": []
   },
-  "ACC 415": {
-    "text": "Admissions to the Bachelor of Applied Science degree program.; Advanced management accounting topics including planning and budgeting for profit, decentralization and transfer pricing, joint costing, process costing, and performance measurement.",
-    "courses": []
+  "ACC 299": {
+    "text": "ACC 201 or ACC 202 or consent of instructor",
+    "courses": [
+      "ACC 201",
+      "ACC 202"
+    ]
   },
   "AGSC 206": {
     "text": "Prerequisite: AGSC 100 and CHEM 121",
@@ -282,22 +284,10 @@
       "AGSC 100"
     ]
   },
-  "AIT 121": {
+  "AIT 125": {
     "text": "AIT 101",
     "courses": [
       "AIT 101"
-    ]
-  },
-  "AIT 270": {
-    "text": "AIT 253",
-    "courses": [
-      "AIT 253"
-    ]
-  },
-  "AIT 272": {
-    "text": "AIT 253",
-    "courses": [
-      "AIT 253"
     ]
   },
   "AIT 273": {
@@ -305,6 +295,22 @@
     "courses": [
       "AIT 253"
     ]
+  },
+  "AIT 274": {
+    "text": "AIT 253",
+    "courses": [
+      "AIT 253"
+    ]
+  },
+  "AIT 275": {
+    "text": "AIT 253",
+    "courses": [
+      "AIT 253"
+    ]
+  },
+  "AIT 290": {
+    "text": "Consent of Instructor.",
+    "courses": []
   },
   "AM 141": {
     "text": "AM 140 or AM 145 / AM 146",
@@ -332,35 +338,15 @@
       "AM 147"
     ]
   },
-  "AM 149": {
-    "text": "AM148",
-    "courses": [
-      "AM 148"
-    ]
-  },
-  "AM 150": {
-    "text": "AM149",
-    "courses": [
-      "AM 149"
-    ]
-  },
   "AM 201": {
     "text": "AM146",
     "courses": [
       "AM 146"
     ]
   },
-  "AM 202": {
-    "text": "AM201",
-    "courses": [
-      "AM 201"
-    ]
-  },
-  "AM 203": {
-    "text": "AM202",
-    "courses": [
-      "AM 202"
-    ]
+  "AM 208": {
+    "text": "Instructor Approval",
+    "courses": []
   },
   "AM 215": {
     "text": "AM147",
@@ -368,10 +354,10 @@
       "AM 147"
     ]
   },
-  "AM 216": {
-    "text": "AM147",
+  "AM 253": {
+    "text": "AM145",
     "courses": [
-      "AM 147"
+      "AM 145"
     ]
   },
   "AMI 201": {
@@ -477,6 +463,10 @@
       "STAT 152"
     ]
   },
+  "ANTH 333": {
+    "text": "Must have completed 40 credits or more, or instructor approval",
+    "courses": []
+  },
   "ANTH 400A": {
     "text": "Must have completed 40 or more credits including one of the following: ANTH 101 or ANTH 201 or ANTH 202 or instructor approval",
     "courses": [
@@ -576,12 +566,6 @@
       "ART 214"
     ]
   },
-  "ART 225": {
-    "text": "ART124",
-    "courses": [
-      "ART 124"
-    ]
-  },
   "ART 231": {
     "text": "Prerequisite: ART 101",
     "courses": [
@@ -635,6 +619,13 @@
       "MATH 120"
     ]
   },
+  "AST 109": {
+    "text": "MATH120,MATH126 or higher or consent of instructor",
+    "courses": [
+      "MATH 120",
+      "MATH 126"
+    ]
+  },
   "AST 110": {
     "text": "MATH120,MATH126 or higher or consent of instructor",
     "courses": [
@@ -646,12 +637,6 @@
     "text": "AUTB120",
     "courses": [
       "AUTB 120"
-    ]
-  },
-  "AUTB 205": {
-    "text": "AUTB200",
-    "courses": [
-      "AUTB 200"
     ]
   },
   "AUTO 111": {
@@ -668,10 +653,10 @@
       "AUTO 111"
     ]
   },
-  "AUTO 117": {
-    "text": "AUTO115",
+  "AUTO 115": {
+    "text": "AUTO 101",
     "courses": [
-      "AUTO 115"
+      "AUTO 101"
     ]
   },
   "AUTO 136": {
@@ -688,6 +673,12 @@
   },
   "AUTO 150": {
     "text": "Prerequisite: AUTO 101 or instructor permission",
+    "courses": [
+      "AUTO 101"
+    ]
+  },
+  "AUTO 155": {
+    "text": "AUTO 101",
     "courses": [
       "AUTO 101"
     ]
@@ -750,6 +741,12 @@
     "text": "Prerequisite: AV 110",
     "courses": [
       "AV 110"
+    ]
+  },
+  "AV 212": {
+    "text": "AV 111",
+    "courses": [
+      "AV 111"
     ]
   },
   "AV 251": {
@@ -850,6 +847,12 @@
       "MATH 120",
       "MATH 124",
       "MATH 126"
+    ]
+  },
+  "BIOL 208": {
+    "text": "BIOL190 and 190L",
+    "courses": [
+      "BIOL 190"
     ]
   },
   "BIOL 223": {
@@ -1009,7 +1012,15 @@
       "BRL 151"
     ]
   },
+  "BTC 101": {
+    "text": "Must be admitted to an approved apprenticeship program",
+    "courses": []
+  },
   "BTC 102": {
+    "text": "Must be admitted to an approved apprenticeship program",
+    "courses": []
+  },
+  "BTC 103": {
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
@@ -1017,11 +1028,23 @@
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
-  "BTE 102": {
+  "BTC 107": {
+    "text": "Must be admitted to an approved apprenticeship program",
+    "courses": []
+  },
+  "BTE 101": {
     "text": "Admitted to an approved apprenticeship program.",
     "courses": []
   },
   "BTE 103": {
+    "text": "Admitted to an approved apprenticeship program.",
+    "courses": []
+  },
+  "BTE 105": {
+    "text": "Admitted to an approved apprenticeship program.",
+    "courses": []
+  },
+  "BTE 106": {
     "text": "Admitted to an approved apprenticeship program.",
     "courses": []
   },
@@ -1037,19 +1060,7 @@
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
-  "BTL 102": {
-    "text": "Must be admitted to an approved apprenticeship program",
-    "courses": []
-  },
-  "BTL 103": {
-    "text": "Must be admitted to an approved apprenticeship program",
-    "courses": []
-  },
   "BTL 104": {
-    "text": "Must be admitted to an approved apprenticeship program",
-    "courses": []
-  },
-  "BTL 105": {
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
@@ -1057,11 +1068,15 @@
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
-  "BTL 107": {
+  "BTL 109": {
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
-  "BTL 113": {
+  "BTL 110": {
+    "text": "Must be admitted to an approved apprenticeship program",
+    "courses": []
+  },
+  "BTL 112": {
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
@@ -1077,7 +1092,7 @@
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
-  "BTL 118": {
+  "BTL 117": {
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
@@ -1085,19 +1100,7 @@
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
-  "BTO 101": {
-    "text": "Must be admitted to an approved apprenticeship program",
-    "courses": []
-  },
   "BTO 102": {
-    "text": "Must be admitted to an approved apprenticeship program",
-    "courses": []
-  },
-  "BTO 104": {
-    "text": "Must be admitted to an approved apprenticeship program",
-    "courses": []
-  },
-  "BTO 105": {
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
@@ -1109,19 +1112,7 @@
     "text": "Admitted to an approved apprenticeship program.",
     "courses": []
   },
-  "BTP 102": {
-    "text": "Admitted to an approved apprenticeship program.",
-    "courses": []
-  },
-  "BTP 103": {
-    "text": "Admitted to an approved apprenticeship program.",
-    "courses": []
-  },
   "BTP 104": {
-    "text": "Admitted to an approved apprenticeship program.",
-    "courses": []
-  },
-  "BTP 106": {
     "text": "Admitted to an approved apprenticeship program.",
     "courses": []
   },
@@ -1129,11 +1120,23 @@
     "text": "Admitted to an approved apprenticeship program.",
     "courses": []
   },
-  "BTS 103": {
+  "BTS 101": {
+    "text": "Must be admitted to an approved apprenticeship program",
+    "courses": []
+  },
+  "BTS 102": {
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
   "BTS 104": {
+    "text": "Must be admitted to an approved apprenticeship program",
+    "courses": []
+  },
+  "BTS 105": {
+    "text": "Must be admitted to an approved apprenticeship program",
+    "courses": []
+  },
+  "BTS 107": {
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
@@ -1153,7 +1156,7 @@
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
-  "BTT 106": {
+  "BTT 105": {
     "text": "Must be admitted to an approved apprenticeship program",
     "courses": []
   },
@@ -1200,10 +1203,6 @@
     "text": "Available to students who have completed all core and major requirements and have a 2.5 GPA",
     "courses": []
   },
-  "BUS 299": {
-    "text": "Completion of a minimum of 45 units of requirements for an AAS degree in business or consent of instructor.",
-    "courses": []
-  },
   "BUS 325": {
     "text": "Prerequisite: ENG 102 or equivalent; or BAS Applied Business Management Majors; or permission of the instructor",
     "courses": [
@@ -1230,31 +1229,29 @@
       "MATH 110"
     ]
   },
-  "CEM 350": {
-    "text": "CONS 109 and MATH 126",
+  "CADD 120": {
+    "text": "CADD100 or equivalent experience",
+    "courses": [
+      "CADD 100"
+    ]
+  },
+  "CEM 330": {
+    "text": "CONS 114.",
+    "courses": [
+      "CONS 114"
+    ]
+  },
+  "CEM 432": {
+    "text": "CONS 109 and MATH 126.",
     "courses": [
       "CONS 109",
       "MATH 126"
     ]
   },
-  "CEM 451": {
-    "text": "CONS 109 and MATH 126",
+  "CEM 453": {
+    "text": "CONS 109, 281, and MATH 126",
     "courses": [
       "CONS 109",
-      "MATH 126"
-    ]
-  },
-  "CEM 452": {
-    "text": "ACC 201 and MATH 126",
-    "courses": [
-      "ACC 201",
-      "MATH 126"
-    ]
-  },
-  "CEM 454": {
-    "text": "CEM 330 and MATH 126",
-    "courses": [
-      "CEM 330",
       "MATH 126"
     ]
   },
@@ -1360,6 +1357,10 @@
       "CHEM 341"
     ]
   },
+  "CIT 128": {
+    "text": "MATH 95 or appropriate score on the WNC placement exam.",
+    "courses": []
+  },
   "CIT 129": {
     "text": "IS101 or consent of instructor",
     "courses": [
@@ -1413,6 +1414,18 @@
       "CIT 173"
     ]
   },
+  "CIT 180": {
+    "text": "CIT129 or equivalent programming experience or consent of instructor",
+    "courses": [
+      "CIT 129"
+    ]
+  },
+  "CIT 183": {
+    "text": "CIT 180 or consent of instructor",
+    "courses": [
+      "CIT 180"
+    ]
+  },
   "CIT 202": {
     "text": "Must have completed IS 201",
     "courses": [
@@ -1448,6 +1461,12 @@
     "courses": [
       "CIT 112",
       "CSCO 120"
+    ]
+  },
+  "CIT 220": {
+    "text": "CIT 112 or Consent of Instructor",
+    "courses": [
+      "CIT 112"
     ]
   },
   "CIT 222": {
@@ -1535,10 +1554,6 @@
       "CSCO 120"
     ]
   },
-  "CIT 275": {
-    "text": "Instructor Consent",
-    "courses": []
-  },
   "CIT 280": {
     "text": "Prerequisite: MATH 124 or higher",
     "courses": [
@@ -1550,18 +1565,6 @@
     "courses": [
       "CIT 280",
       "MATH 124"
-    ]
-  },
-  "CIT 284": {
-    "text": "CIT 134",
-    "courses": [
-      "CIT 134"
-    ]
-  },
-  "CIT 285": {
-    "text": "CIT 284",
-    "courses": [
-      "CIT 284"
     ]
   },
   "CIT 299": {
@@ -1587,6 +1590,12 @@
       "CIT 112",
       "CIT 303",
       "MATH 116"
+    ]
+  },
+  "CIT 363": {
+    "text": "Admission to BAS Organization and Project Management Program, CIT 263",
+    "courses": [
+      "CIT 263"
     ]
   },
   "CIT 480": {
@@ -1687,6 +1696,13 @@
       "ENG 100"
     ]
   },
+  "CONS 121": {
+    "text": "CONS 120 and CONS 216",
+    "courses": [
+      "CONS 120",
+      "CONS 216"
+    ]
+  },
   "CONS 221": {
     "text": "Prerequisite: CONS 121",
     "courses": [
@@ -1699,10 +1715,10 @@
       "CONS 120"
     ]
   },
-  "CONS 262": {
-    "text": "CONS260",
+  "CONS 261": {
+    "text": "CONS260B",
     "courses": [
-      "CONS 260"
+      "CONS 260B"
     ]
   },
   "CONS 263": {
@@ -1715,22 +1731,6 @@
     "text": "CONS 260 or Consent of Instructor",
     "courses": [
       "CONS 260"
-    ]
-  },
-  "CONS 275": {
-    "text": "CONS 270 and consent of Instructor",
-    "courses": [
-      "CONS 270"
-    ]
-  },
-  "CONS 295": {
-    "text": "consent of instructor",
-    "courses": []
-  },
-  "CONS 451": {
-    "text": "CONS 281 and consent of instructor.",
-    "courses": [
-      "CONS 281"
     ]
   },
   "COT 240": {
@@ -1844,7 +1844,7 @@
       "CRJ 104"
     ]
   },
-  "CRJ 295": {
+  "CRJ 297": {
     "text": "CRJ 104 or consent of instructor",
     "courses": [
       "CRJ 104"
@@ -1962,13 +1962,6 @@
     "text": "Must have completed CSCO 121 with a 'C' or better",
     "courses": [
       "CSCO 121"
-    ]
-  },
-  "CSCO 221": {
-    "text": "CSCO121 & CSCO220",
-    "courses": [
-      "CSCO 121",
-      "CSCO 220"
     ]
   },
   "CSCO 230": {
@@ -2933,6 +2926,25 @@
       "ENG 101"
     ]
   },
+  "EDU 420": {
+    "text": "Must have completed EDU 410",
+    "courses": [
+      "EDU 410"
+    ]
+  },
+  "EDU 430": {
+    "text": "Must have completed EDU 410 and EDU 420",
+    "courses": [
+      "EDU 410",
+      "EDU 420"
+    ]
+  },
+  "EDU 440": {
+    "text": "Must have completed EDU 410, 420 and 430",
+    "courses": [
+      "EDU 410"
+    ]
+  },
   "EDUC 406": {
     "text": "Must be enrolled in EDEL 313 or EDSC 313",
     "courses": [
@@ -3741,6 +3753,10 @@
     "text": "Must be admitted into the B.A. in English program and have senior standing",
     "courses": []
   },
+  "ENG 98": {
+    "text": "appropriate score on WNC placement examination or equivalent examination",
+    "courses": []
+  },
   "ENGR 241": {
     "text": "DR: PHYS 180/MATH 182",
     "courses": [
@@ -3752,27 +3768,6 @@
     "text": "ELM 110; This course provides comprehensive training on the safe disassembly of rechargeable batteries, with a focus on electric vehicle (EV) battery packs. Students will learn to identify hazards, implement safety protocols, and utilize appropriate tools and personal protective equipment (PPE). The course covers key topics, including battery construction, electrical safety, discharge methods,",
     "courses": [
       "ELM 110"
-    ]
-  },
-  "ENRG 161": {
-    "text": "ENRG 160 or BPI Building Science Principles certification (or other national equivalent). Students can take this course concurrently with the prerequisite with instructor approval.",
-    "courses": [
-      "ENRG 160"
-    ]
-  },
-  "ENRG 162": {
-    "text": "ENRG 160 or BPI Building Science Principles certification (or other national equivalent) and ENRG 161 or BPI BA-T certification (or other national equivalent). Students can take this course concurrently with the prerequisites with instructor approval.",
-    "courses": [
-      "ENRG 160",
-      "ENRG 161"
-    ]
-  },
-  "ENRG 164": {
-    "text": "ENRG 160 or BPI Building Science Principles certification (or other national equivalent), ENRG 161 or BPI BA-T certification (or other national equivalent) and ENRG 162 or BPI BA-P certification (or other national equivalent). Students can take this course concurrently with the prerequisites with instructor approval.",
-    "courses": [
-      "ENRG 160",
-      "ENRG 161",
-      "ENRG 162"
     ]
   },
   "ENRG 167": {
@@ -3795,25 +3790,11 @@
       "MATH 126E"
     ]
   },
-  "ENV 101": {
-    "text": "Math 120 or consent of instructor.",
-    "courses": []
-  },
   "EPD 400": {
     "text": "Educator within the Nevada Department of Education System or permission of instructor.",
     "courses": []
   },
-  "EPD 410": {
-    "text": "Instructor Approval",
-    "courses": []
-  },
   "ET 132": {
-    "text": "ET131 or consent of instructor",
-    "courses": [
-      "ET 131"
-    ]
-  },
-  "ET 200": {
     "text": "ET131 or consent of instructor",
     "courses": [
       "ET 131"
@@ -3935,12 +3916,6 @@
   },
   "GEOL 102": {
     "text": "Must have completed GEOL 101",
-    "courses": [
-      "GEOL 101"
-    ]
-  },
-  "GEOL 201": {
-    "text": "GEOL101 or consent of instructor",
     "courses": [
       "GEOL 101"
     ]
@@ -4384,14 +4359,11 @@
     "courses": []
   },
   "INT 301": {
-    "text": "Must have completed 40 or more credits and have completed (MATH 120 or MATH 124 or MATH 126 or MATH 126E or higher or STAT 152) and earned a C- or higher in ENG 102 or ENG 333",
+    "text": "Must have earned at least a C- in ENG 102 or ENG 333. Must have completed Math 116 or higher or STAT 152 or AMS 310",
     "courses": [
+      "AMS 310",
       "ENG 102",
       "ENG 333",
-      "MATH 120",
-      "MATH 124",
-      "MATH 126",
-      "MATH 126E",
       "STAT 152"
     ]
   },
@@ -4606,12 +4578,6 @@
       "ITAL 111"
     ]
   },
-  "ITAL 211": {
-    "text": "ITAL112",
-    "courses": [
-      "ITAL 112"
-    ]
-  },
   "JOUR 108": {
     "text": "Prerequisite: ENG 101 or ENG 100 with a grade of C- or better, or concurrent enrollment in ENG 100 or ENG 101",
     "courses": [
@@ -4625,16 +4591,16 @@
       "JOUR 103"
     ]
   },
+  "JPN 112": {
+    "text": "JPN 111",
+    "courses": [
+      "JPN 111"
+    ]
+  },
   "JPN 211": {
     "text": "JPN 112",
     "courses": [
       "JPN 112"
-    ]
-  },
-  "JPN 212": {
-    "text": "JPN 211",
-    "courses": [
-      "JPN 211"
     ]
   },
   "LAW 198": {
@@ -5272,6 +5238,12 @@
       "MET 101"
     ]
   },
+  "MGT 103": {
+    "text": "BUS 101 or consent of instructor.",
+    "courses": [
+      "BUS 101"
+    ]
+  },
   "MGT 201": {
     "text": "BUS 101 or consent of instructor.",
     "courses": [
@@ -5286,13 +5258,6 @@
     ]
   },
   "MGT 235": {
-    "text": "BUS 101 and MGT 201 or consent of instructor.",
-    "courses": [
-      "BUS 101",
-      "MGT 201"
-    ]
-  },
-  "MGT 283": {
     "text": "BUS 101 and MGT 201 or consent of instructor.",
     "courses": [
       "BUS 101",
@@ -5317,26 +5282,12 @@
     "text": "Must have sophomore standing or higher",
     "courses": []
   },
-  "MGT 371": {
-    "text": "Admission to BAS Organizational and Project Management Program or permission of division director and MGT 310",
-    "courses": [
-      "MGT 310"
-    ]
-  },
-  "MGT 412": {
-    "text": "Admission to BAS Organizational and Project Management Program",
-    "courses": []
-  },
   "MGT 441": {
     "text": "Must have completed MATH 181 or STAT 152",
     "courses": [
       "MATH 181",
       "STAT 152"
     ]
-  },
-  "MGT 462": {
-    "text": "Admission to the Organization & Project Management program OR admission to the Construction Management program OR consent of Division Director.",
-    "courses": []
   },
   "MGT 469": {
     "text": "BAS Applied Business Management Major",
@@ -5370,13 +5321,6 @@
       "MGT 310"
     ]
   },
-  "MGT 496": {
-    "text": "Admission to BAS Organization and Project Management Program, FIN 310, MGT 310",
-    "courses": [
-      "FIN 310",
-      "MGT 310"
-    ]
-  },
   "MINE 102": {
     "text": "Must have completed MINE 101",
     "courses": [
@@ -5399,8 +5343,8 @@
       "ENG 113"
     ]
   },
-  "MKT 250": {
-    "text": "BUS 101 and MKT210 or consent of instructor",
+  "MKT 261": {
+    "text": "BUS 101 and MKT 210 or consent of instructor",
     "courses": [
       "BUS 101",
       "MKT 210"
@@ -5489,6 +5433,12 @@
       "ELM 110"
     ]
   },
+  "MT 115": {
+    "text": "AIT 101",
+    "courses": [
+      "AIT 101"
+    ]
+  },
   "MT 132": {
     "text": "MT 130",
     "courses": [
@@ -5500,6 +5450,12 @@
     "courses": [
       "MT 130",
       "MT 132"
+    ]
+  },
+  "MT 160": {
+    "text": "AIT 101",
+    "courses": [
+      "AIT 101"
     ]
   },
   "MTT 105": {
@@ -5546,14 +5502,6 @@
       "MTT 292"
     ]
   },
-  "MTT 250": {
-    "text": "MTT110 and DFT110 or consent of instructor. Corequisite: MTT 251 or consent of instructor.",
-    "courses": [
-      "MTT 110",
-      "DFT 110",
-      "MTT 251"
-    ]
-  },
   "MTT 260": {
     "text": "Prerequisite: MTT 250. Course may be taken concurrently with MTT 250",
     "courses": [
@@ -5596,12 +5544,6 @@
     "courses": [
       "MTT 234",
       "MTT 293"
-    ]
-  },
-  "MUS 104": {
-    "text": "MUS103",
-    "courses": [
-      "MUS 103"
     ]
   },
   "MUS 107": {
@@ -5758,12 +5700,8 @@
     "text": "Co-requisite: Any student enrolled in Applied Music Lessons must also be enrolled in a music ensemble course (MUSE)",
     "courses": []
   },
-  "MUSE 111": {
-    "text": "Consent of instructor; audition required.",
-    "courses": []
-  },
-  "MUSE 131": {
-    "text": "intermediate proficiency on a band instrument",
+  "MUSE 135": {
+    "text": "instrumentalists should be of intermediate level proficiency. No prerequisites for vocalists",
     "courses": []
   },
   "NRES 210": {
@@ -5841,10 +5779,6 @@
     "text": "admission to the nursing program.",
     "courses": []
   },
-  "NURS 153": {
-    "text": "Successful completion of the first semester of the nursing program.",
-    "courses": []
-  },
   "NURS 154": {
     "text": "Must be accepted to the Nursing Program",
     "courses": []
@@ -5860,6 +5794,20 @@
   "NURS 159": {
     "text": "Must be accepted to the Nursing Program",
     "courses": []
+  },
+  "NURS 165": {
+    "text": "successful completion of the first semester of the nursing program; Corequisites: NURS166 & NURS167",
+    "courses": [
+      "NURS 166",
+      "NURS 167"
+    ]
+  },
+  "NURS 167": {
+    "text": "successful completion of the first semester of the nursing program. Corequisites: NURS165 & NURS166",
+    "courses": [
+      "NURS 165",
+      "NURS 166"
+    ]
   },
   "NURS 170": {
     "text": "Prerequisite: Open to students with declared Nursing major and accepted into the Nursing program",
@@ -5903,10 +5851,10 @@
       "NURS 262"
     ]
   },
-  "NURS 262": {
-    "text": "successful completion of the first year of the nursing program. Corequisite: NURS 261",
+  "NURS 271": {
+    "text": "successful completion of the first year of the nursing program. Corequisites: NURS270",
     "courses": [
-      "NURS 261"
+      "NURS 270"
     ]
   },
   "NURS 273": {
@@ -5922,6 +5870,10 @@
     "courses": [
       "NURS 276"
     ]
+  },
+  "NURS 284": {
+    "text": "successful completion of the third semester of the nursing program.",
+    "courses": []
   },
   "NURS 326": {
     "text": "Must be accepted to the RN-BSN program",
@@ -6019,6 +5971,12 @@
       "NUTR 121"
     ]
   },
+  "NUTR 205": {
+    "text": "NUTR 121",
+    "courses": [
+      "NUTR 121"
+    ]
+  },
   "NUTR 223": {
     "text": "Prerequisite: BIOL 190A and BIOL 190L or permission of instructor",
     "courses": [
@@ -6096,6 +6054,10 @@
   },
   "PEX 126": {
     "text": "Must be a member of the TMCC Intercollegiate Soccer Team or have instructor permission to enroll",
+    "courses": []
+  },
+  "PEX 136": {
+    "text": "intermediate snowboarding ability",
     "courses": []
   },
   "PEX 180": {
@@ -6199,14 +6161,6 @@
     "text": "Must have completed MATH 127 or higher",
     "courses": [
       "MATH 127"
-    ]
-  },
-  "PHYS 151A": {
-    "text": "MATH126 & MATH127,or MATH128 or equivalent.",
-    "courses": [
-      "MATH 126",
-      "MATH 127",
-      "MATH 128"
     ]
   },
   "PHYS 152": {
@@ -6386,6 +6340,12 @@
       "SOC 101"
     ]
   },
+  "PSY 220": {
+    "text": "PSY101 or consent of instructor",
+    "courses": [
+      "PSY 101"
+    ]
+  },
   "PSY 233": {
     "text": "PSY101 or consent of instructor",
     "courses": [
@@ -6444,6 +6404,12 @@
       "MATH 126",
       "MATH 126E",
       "STAT 152"
+    ]
+  },
+  "PSY 342": {
+    "text": "PSY 101 or consent of instructor; Demonstrate reason in criminal law and the difference between psychological syndromes and psychological profiles; identify the effects of unsupported scientific concepts in the US legal system; define the biological and ethological explanations of aggression and understand why antisocial and narcissistic personalities are prone to aggression; explain the various",
+    "courses": [
+      "PSY 101"
     ]
   },
   "PSY 412": {
@@ -6794,6 +6760,12 @@
     "courses": [
       "MATH 126",
       "MATH 126E"
+    ]
+  },
+  "SUR 119": {
+    "text": "CONS108 or consent of instructor",
+    "courses": [
+      "CONS 108"
     ]
   },
   "SUR 280": {
@@ -7214,10 +7186,6 @@
     "courses": [
       "WELD 210"
     ]
-  },
-  "WELD 290": {
-    "text": "consent of instructor",
-    "courses": []
   },
   "WF 205": {
     "text": "S-110, S-130, S-190, L-180 , ICS 100 & 700 (FT 110)",
