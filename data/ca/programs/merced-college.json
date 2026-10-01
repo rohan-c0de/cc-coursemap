@@ -1,0 +1,686 @@
+{
+  "college_slug": "merced-college",
+  "catalog_year": "2025-2026",
+  "catalog_url": "https://catalog.mccd.edu/programs",
+  "scraped_at": "2026-10-01T15:27:21.591Z",
+  "programs": [
+    {
+      "title": "Computer Technology Essentials (NC)",
+      "credential": "other",
+      "program_code": "07020.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/07020.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ICT",
+              "number": "720",
+              "title": "Computer Software Essentials (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ICT",
+              "number": "721",
+              "title": "Computer Hardware Essentials (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ICT",
+              "number": "722",
+              "title": "Information & Communication Technology Essentials (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Technical Office Occupations (NC)",
+      "credential": "other",
+      "program_code": "07744.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/07744.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BUSN",
+              "number": "749",
+              "title": "Microcomputers and Business (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUSN",
+              "number": "756",
+              "title": "Introduction to Technical Office Occupations (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Professional Truck Driving Class A CDL Training (NC)",
+      "credential": "other",
+      "program_code": "09475.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/09475.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "TRK",
+              "number": "769",
+              "title": "Class A CDL Permit Training (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "TRK",
+              "number": "770",
+              "title": "Class A CDL Behind-the-Wheel Training (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "TRK",
+              "number": "771",
+              "title": "Class A CDL Internship (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Medical Assistant (NC)",
+      "credential": "other",
+      "program_code": "10100.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/10100.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "All of the following",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "EDU",
+              "number": "112C",
+              "title": "Skills Acquisition for Student Success - Allied Health (Total Credits 8.0 - 12.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "717",
+              "title": "Medical Assisting (Total Credits 768.0 - 960.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUSN",
+              "number": "756",
+              "title": "Introduction to Office Occupations (Total Credits 384.0 - 480.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Court Interpreter (NC)",
+      "credential": "other",
+      "program_code": "21078.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/21078.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BUSN",
+              "number": "752",
+              "title": "Introduction to Microcomputers (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "LAW",
+              "number": "765",
+              "title": "Spanish Language Interpreter for Court & Administrative Hearings (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Basic Skills for Adults With Disabilities (NC)",
+      "credential": "other",
+      "program_code": "49160.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49160.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "EDU",
+              "number": "110",
+              "title": "Reading and Computers (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "111",
+              "title": "Reading and Computers II (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SOCL",
+              "number": "760",
+              "title": "Career and Life Planning (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SOCL",
+              "number": "761",
+              "title": "Vocational Life Planning (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "College Success (NC)",
+      "credential": "other",
+      "program_code": "49161.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49161.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "All of the following",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "GUI",
+              "number": "101",
+              "title": "Introduction to College (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "GUI",
+              "number": "102",
+              "title": "Probation Solutions - Level 1 (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "College Preparation Skills (NC)",
+      "credential": "other",
+      "program_code": "49162.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49162.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "All of the following",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "GED",
+              "number": "101",
+              "title": "Basic Skills Development & GED Preparation (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "112A",
+              "title": "Skills Acquisition for Student Success - General (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "112B",
+              "title": "Skills Acquisition for Student Success - Math (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "TUT",
+              "number": "106",
+              "title": "Supervised Tutoring (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Mathematics College Preparatory Basic Skills (NC)",
+      "credential": "other",
+      "program_code": "49166.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49166.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "MAT",
+              "number": "101",
+              "title": "College Prep Math I: Operations of Whole Numbers (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAT",
+              "number": "102",
+              "title": "College Prep Math II: Applications of Whole Numbers (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "mathematics"
+    },
+    {
+      "title": "Mathematics College Preparatory Skills II (NC)",
+      "credential": "other",
+      "program_code": "49167.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49167.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "All of the following",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "MAT",
+              "number": "103",
+              "title": "College Prep Math III: Operations on Fractions (Total Credits 0.0 - 0.0)All of the following",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAT",
+              "number": "104",
+              "title": "College Prep Math IV: Operations on Decimals (Total Credits 0.0 - 0.0)All of the following",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "mathematics"
+    },
+    {
+      "title": "Adult Literacy (NC)",
+      "credential": "other",
+      "program_code": "49190.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49190.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "123",
+              "title": "Adult Literacy Level 2 (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "124",
+              "title": "Adult Literacy Level 3 (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "125",
+              "title": "Adult Literacy Level 4 (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "ESL Advanced Skills (NC)",
+      "credential": "other",
+      "program_code": "49195.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49195.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "821",
+              "title": "Foundations in Academic Literacy II for Non-Native Speakers (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "822",
+              "title": "Foundations in Academic Literacy I for Non-Native Speakers (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "ESL Begining Skills Program (NC)",
+      "credential": "other",
+      "program_code": "49196.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49196.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "801",
+              "title": "Beginning ESL Skills (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "802",
+              "title": "Advanced-Beginning ESL Skills (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "ESL Intermediate Skills Program (NC)",
+      "credential": "other",
+      "program_code": "49198.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49198.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "813",
+              "title": "Low-intermediate ESL Skills (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "815",
+              "title": "Intermediate ESL Skills (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Reading and Writing College Preparatory Basic Skills (NC)",
+      "credential": "other",
+      "program_code": "49199.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49199.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "121",
+              "title": "College Prep English 1: Reading (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "122",
+              "title": "College Prep English 2: Writing (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "112D",
+              "title": "SKILLS ACQUISITION FOR STUDENT SUCCESS--ENGLISH (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Essential Skills for Employment and Job Retention (NC)",
+      "credential": "other",
+      "program_code": "49301.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49301.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "WRK",
+              "number": "710",
+              "title": "(Total Credits 0.0 - 0.0)The following number of Credits",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WRL",
+              "number": "712",
+              "title": "(Total Credits 0.0 - 0.0)The following number of Credits",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "ESL Workforce Training (NC)",
+      "credential": "other",
+      "program_code": "49310.NC",
+      "catalog_url": "https://catalog.mccd.edu/programs/49310.NC",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "820",
+              "title": "ESL Workforce Training for Adults (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "820L",
+              "title": "ESL Workforce Training Lab (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Agriculture Systems (NC)",
+      "credential": "other",
+      "program_code": "NC.CBE.AGT.CP",
+      "catalog_url": "https://catalog.mccd.edu/programs/NC.CBE.AGT.CP",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "The following number of Credits",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "AGT",
+              "number": "701",
+              "title": "Agriculture Technical Literacy (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AGT",
+              "number": "702",
+              "title": "Agricultural Systems (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AGT",
+              "number": "703",
+              "title": "Agricultural Safety (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AGT",
+              "number": "704",
+              "title": "Equipment Operation, Configuration and Troubleshooting (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AGT",
+              "number": "705",
+              "title": "Workplace Effectiveness (Total Credits 0.0 - 0.0)",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    }
+  ]
+}

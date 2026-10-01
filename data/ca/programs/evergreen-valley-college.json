@@ -2,7 +2,7 @@
   "college_slug": "evergreen-valley-college",
   "catalog_year": "",
   "catalog_url": "https://catalog.evc.edu/degrees-certificates/",
-  "scraped_at": "2026-06-01T13:44:56.303Z",
+  "scraped_at": "2026-10-01T15:23:52.091Z",
   "programs": [
     {
       "title": "Accounting - Associate in Science — Associate in Arts",
@@ -399,6 +399,53 @@
       "matched_program_slug": null
     },
     {
+      "title": "Community Service Officer - Certificate of Achievement — Associate in Arts",
+      "credential": "AA",
+      "program_code": null,
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/administration-justice/community-service-officer-certificate-achievement/",
+      "total_credits": 12,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 12,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "AJ",
+              "number": "011",
+              "title": "Criminal Law",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "014",
+              "title": "Contemporary Police Issues",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "120",
+              "title": "Ethics and Moral Reasoning in Criminal Justice",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "139",
+              "title": "Introduction to Public Safety Community Service Officer",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Law, Public Policy and Society - Associate in Arts for Transfer — Associate in Arts",
       "credential": "AA",
       "program_code": null,
@@ -614,198 +661,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Community Service Officer - Certificate of Achievement — Associate in Arts",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/administration-justice/community-service-officer-certificate-achievement/",
-      "total_credits": 12,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 12,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "AJ",
-              "number": "011",
-              "title": "Criminal Law",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "014",
-              "title": "Contemporary Police Issues",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "120",
-              "title": "Ethics and Moral Reasoning in Criminal Justice",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "139",
-              "title": "Introduction to Public Safety Community Service Officer",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Studio Arts - Associate in Arts for Transfer — Associate in Arts",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/art/studio-arts-associate-in-arts-for-transfer/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ART",
-              "number": "012",
-              "title": "Two Dimensional Design",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "013",
-              "title": "Three Dimensional Design",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "024",
-              "title": "Beginning Drawing",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "092",
-              "title": "Survey of Art History: Renaissance to the Present",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "091",
-              "title": "Survey of Art History: Prehistoric Through Gothic",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "093",
-              "title": "History of Modern Art",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "096",
-              "title": "History of Asian Art",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "025",
-              "title": "Expressive Drawing",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "055A",
-              "title": "Life Drawing I",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "060A",
-              "title": "Painting I",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "042",
-              "title": "Beginning Sculpture I",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "035",
-              "title": "Graphic Design I",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHOTO",
-              "number": "022",
-              "title": "Beginning Photography",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "014",
-              "title": "Color Theory",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "066",
-              "title": "Introduction to Metalsmithing",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "026A",
-              "title": "Representational Drawing",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "043",
-              "title": "Sculpture II",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "060B",
-              "title": "Painting II",
-              "credits": 0,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Anthropology - Associate in Arts for Transfer — Associate in Arts",
       "credential": "AA",
       "program_code": null,
@@ -991,6 +846,151 @@
               "prefix": "SOC",
               "number": "010",
               "title": "Introduction to Sociology",
+              "credits": 0,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Studio Arts - Associate in Arts for Transfer — Associate in Arts",
+      "credential": "AA",
+      "program_code": null,
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/art/studio-arts-associate-in-arts-for-transfer/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ART",
+              "number": "012",
+              "title": "Two Dimensional Design",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "013",
+              "title": "Three Dimensional Design",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "024",
+              "title": "Beginning Drawing",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "092",
+              "title": "Survey of Art History: Renaissance to the Present",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "091",
+              "title": "Survey of Art History: Prehistoric Through Gothic",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "093",
+              "title": "History of Modern Art",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "096",
+              "title": "History of Asian Art",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "025",
+              "title": "Expressive Drawing",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "055A",
+              "title": "Life Drawing I",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "060A",
+              "title": "Painting I",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "042",
+              "title": "Beginning Sculpture I",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "035",
+              "title": "Graphic Design I",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHOTO",
+              "number": "022",
+              "title": "Beginning Photography",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "014",
+              "title": "Color Theory",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "066",
+              "title": "Introduction to Metalsmithing",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "026A",
+              "title": "Representational Drawing",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "043",
+              "title": "Sculpture II",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "060B",
+              "title": "Painting II",
               "credits": 0,
               "or_alternatives": []
             }
@@ -1388,116 +1388,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Auto - Drivetrain and Chassis - Certificate of Achievement — Associate in Arts",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/automotive-technology/auto-drivetrain-chassis-certificate-achievement/",
-      "total_credits": 33,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 33,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "AUTO",
-              "number": "102",
-              "title": "Automotive Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "103",
-              "title": "Light Line Technician",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "105",
-              "title": "Suspension, Steering, and Alignment",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "106",
-              "title": "Automotive Brake Systems",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "119",
-              "title": "Introduction to Engine Performance",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "120",
-              "title": "Automatic Transmission Systems",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "121",
-              "title": "Manual Transmission and Drivetrain Systems",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "122",
-              "title": "Advanced Electrical Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "125",
-              "title": "Automotive Electronics",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "135",
-              "title": "Air Conditioning Systems",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "170",
-              "title": "Electrical Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "171",
-              "title": "Engine Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "173",
-              "title": "Automotive Service Operations",
-              "credits": 2,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Auto - Drivetrain and Chassis - Associate in Science — Associate in Arts",
       "credential": "AA",
       "program_code": null,
@@ -1615,17 +1505,17 @@
       "matched_program_slug": null
     },
     {
-      "title": "Automotive Foundational Skills – Certificate of Achievement — Associate in Arts",
+      "title": "Auto - Drivetrain and Chassis - Certificate of Achievement — Associate in Arts",
       "credential": "AA",
       "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/automotive-technology/automotive-foundational-skills-certificate-of-achievement/",
-      "total_credits": 13,
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/automotive-technology/auto-drivetrain-chassis-certificate-achievement/",
+      "total_credits": 33,
       "gpa_minimum": 2,
       "description": null,
       "requirement_groups": [
         {
           "name": "Recommended Course Sequence",
-          "credits_required": 13,
+          "credits_required": 33,
           "choose_n": null,
           "courses": [
             {
@@ -1644,6 +1534,20 @@
             },
             {
               "prefix": "AUTO",
+              "number": "105",
+              "title": "Suspension, Steering, and Alignment",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "106",
+              "title": "Automotive Brake Systems",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
               "number": "119",
               "title": "Introduction to Engine Performance",
               "credits": 2,
@@ -1651,62 +1555,15 @@
             },
             {
               "prefix": "AUTO",
-              "number": "170",
-              "title": "Electrical Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "173",
-              "title": "Automotive Service Operations",
-              "credits": 2,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "automotive-technology"
-    },
-    {
-      "title": "Auto - Electrical-Engine Performance - Certificate of Achievement — Associate in Arts",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/automotive-technology/auto-electrical-engine-performance-certificate-achievement/",
-      "total_credits": 32,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 32,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "AUTO",
-              "number": "102",
-              "title": "Automotive Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "103",
-              "title": "Light Line Technician",
+              "number": "120",
+              "title": "Automatic Transmission Systems",
               "credits": 2,
               "or_alternatives": []
             },
             {
               "prefix": "AUTO",
-              "number": "118",
-              "title": "Fuel Systems/Emission Controls",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "119",
-              "title": "Introduction to Engine Performance",
+              "number": "121",
+              "title": "Manual Transmission and Drivetrain Systems",
               "credits": 2,
               "or_alternatives": []
             },
@@ -1721,13 +1578,6 @@
               "prefix": "AUTO",
               "number": "125",
               "title": "Automotive Electronics",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "127",
-              "title": "Ignition Systems",
               "credits": 2,
               "or_alternatives": []
             },
@@ -1757,20 +1607,6 @@
               "number": "173",
               "title": "Automotive Service Operations",
               "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "181A",
-              "title": "Introduction to Alternative Fuel and Hybrid/Electric Vehicles",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "181B",
-              "title": "Hybrid Electric Vehicle Maintenance and Repair",
-              "credits": 3,
               "or_alternatives": []
             }
           ]
@@ -1901,6 +1737,259 @@
         }
       ],
       "matched_program_slug": null
+    },
+    {
+      "title": "Auto - Electrical-Engine Performance - Certificate of Achievement — Associate in Arts",
+      "credential": "AA",
+      "program_code": null,
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/automotive-technology/auto-electrical-engine-performance-certificate-achievement/",
+      "total_credits": 32,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 32,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "AUTO",
+              "number": "102",
+              "title": "Automotive Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "103",
+              "title": "Light Line Technician",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "118",
+              "title": "Fuel Systems/Emission Controls",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "119",
+              "title": "Introduction to Engine Performance",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "122",
+              "title": "Advanced Electrical Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "125",
+              "title": "Automotive Electronics",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "127",
+              "title": "Ignition Systems",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "135",
+              "title": "Air Conditioning Systems",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "170",
+              "title": "Electrical Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "171",
+              "title": "Engine Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "173",
+              "title": "Automotive Service Operations",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "181A",
+              "title": "Introduction to Alternative Fuel and Hybrid/Electric Vehicles",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "181B",
+              "title": "Hybrid Electric Vehicle Maintenance and Repair",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Automotive Foundational Skills – Certificate of Achievement — Associate in Arts",
+      "credential": "AA",
+      "program_code": null,
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/automotive-technology/automotive-foundational-skills-certificate-of-achievement/",
+      "total_credits": 13,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 13,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "AUTO",
+              "number": "102",
+              "title": "Automotive Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "103",
+              "title": "Light Line Technician",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "119",
+              "title": "Introduction to Engine Performance",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "170",
+              "title": "Electrical Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "173",
+              "title": "Automotive Service Operations",
+              "credits": 2,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "automotive-technology"
+    },
+    {
+      "title": "Automotive Hybrid and Electric Vehicle Service - Certificate of Achievement — Associate in Arts",
+      "credential": "AA",
+      "program_code": null,
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/automotive-technology/automotive-hybrid-electric-vehicle-service-certificate-of-achievement/",
+      "total_credits": 26,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 26,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "AUTO",
+              "number": "102",
+              "title": "Automotive Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "103",
+              "title": "Light Line Technician",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "105",
+              "title": "Suspension, Steering, and Alignment",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "106",
+              "title": "Automotive Brake Systems",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "122",
+              "title": "Advanced Electrical Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "125",
+              "title": "Automotive Electronics",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "135",
+              "title": "Air Conditioning Systems",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "170",
+              "title": "Electrical Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "181A",
+              "title": "Introduction to Alternative Fuel and Hybrid/Electric Vehicles",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AUTO",
+              "number": "181B",
+              "title": "Hybrid Electric Vehicle Maintenance and Repair",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "automotive-technology"
     },
     {
       "title": "Electric Vehicle Service (Tesla Start), Certificate of Achievement — Associate in Arts",
@@ -2131,95 +2220,6 @@
         }
       ],
       "matched_program_slug": "liberal-arts"
-    },
-    {
-      "title": "Automotive Hybrid and Electric Vehicle Service - Certificate of Achievement — Associate in Arts",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/automotive-technology/automotive-hybrid-electric-vehicle-service-certificate-of-achievement/",
-      "total_credits": 26,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 26,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "AUTO",
-              "number": "102",
-              "title": "Automotive Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "103",
-              "title": "Light Line Technician",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "105",
-              "title": "Suspension, Steering, and Alignment",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "106",
-              "title": "Automotive Brake Systems",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "122",
-              "title": "Advanced Electrical Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "125",
-              "title": "Automotive Electronics",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "135",
-              "title": "Air Conditioning Systems",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "170",
-              "title": "Electrical Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "181A",
-              "title": "Introduction to Alternative Fuel and Hybrid/Electric Vehicles",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUTO",
-              "number": "181B",
-              "title": "Hybrid Electric Vehicle Maintenance and Repair",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "automotive-technology"
     },
     {
       "title": "General Studies with Emphasis in Natural Science - Associate in Arts — Associate in Arts",
@@ -4802,39 +4802,6 @@
       "matched_program_slug": "engineering"
     },
     {
-      "title": "English As a Second Language - Low-Intermediate Noncredit ESL, Certificate of Competency — Associate in Arts",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/english-as-a-second-language/low-intermediate-noncredit-esl-certificate-competency/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ESL",
-              "number": "511",
-              "title": "Reading and Writing 2",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ESL",
-              "number": "512",
-              "title": "Listening and Speaking 2",
-              "credits": 0,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "English As a Second Language - Intermediate Noncredit ESL, Certificate of Competency — Associate in Arts",
       "credential": "AA",
       "program_code": null,
@@ -4868,10 +4835,10 @@
       "matched_program_slug": null
     },
     {
-      "title": "English - Associate in Arts for Transfer — Associate in Arts",
+      "title": "English As a Second Language - Low-Intermediate Noncredit ESL, Certificate of Competency — Associate in Arts",
       "credential": "AA",
       "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/english/english-associate-arts-transfer/",
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/english-as-a-second-language/low-intermediate-noncredit-esl-certificate-competency/",
       "total_credits": null,
       "gpa_minimum": 2,
       "description": null,
@@ -4882,121 +4849,23 @@
           "choose_n": null,
           "courses": [
             {
-              "prefix": "ENGL",
-              "number": "001B",
-              "title": "English Composition",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "084A",
-              "title": "Survey of American Literature I",
+              "prefix": "ESL",
+              "number": "511",
+              "title": "Reading and Writing 2",
               "credits": 0,
               "or_alternatives": []
             },
             {
-              "prefix": "ENGL",
-              "number": "084B",
-              "title": "Survey of American Literature II",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "086A",
-              "title": "Survey of English Literature I",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "086B",
-              "title": "Survey of English Literature II",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HUMNT",
-              "number": "002",
-              "title": "Introduction to World Literature",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "028",
-              "title": "Introduction to World Mythology",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "062",
-              "title": "Asian/Asian-American Literature",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "072",
-              "title": "Fundamentals of Creative Writing",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "073",
-              "title": "Introduction to Shakespeare",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "080",
-              "title": "Mexican-American Literature",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "082A",
-              "title": "African-American Literature",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "032",
-              "title": "Gender in Literature",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "052",
-              "title": "Children's/Adolescent Literature",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "THEAT",
-              "number": "020",
-              "title": "Introduction to Theatre Arts",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "VIET",
-              "number": "001B",
-              "title": "Elementary Vietnamese",
+              "prefix": "ESL",
+              "number": "512",
+              "title": "Listening and Speaking 2",
               "credits": 0,
               "or_alternatives": []
             }
           ]
         }
       ],
-      "matched_program_slug": "english"
+      "matched_program_slug": null
     },
     {
       "title": "Social Justice Studies-African American Studies – Associate in Arts for Transfer — Associate in Arts",
@@ -5051,123 +4920,6 @@
               "prefix": "ENGL",
               "number": "082A",
               "title": "African-American Literature",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "019",
-              "title": "Law Enforcement in Multicultural Communities",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ANTH",
-              "number": "063",
-              "title": "Introduction to Social and Cultural Anthropology",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "COMS",
-              "number": "035",
-              "title": "Intercultural Communication",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSYCH",
-              "number": "051",
-              "title": "Introduction to Cross-Cultural Psychology",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SOC",
-              "number": "010",
-              "title": "Introduction to Sociology",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "060",
-              "title": "Fundamentals of Business Statistics",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSYCH",
-              "number": "018",
-              "title": "Introduction to Research Methods",
-              "credits": 0,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Social Justice Studies-Asian American Studies – Associate in Arts for Transfer — Associate in Arts",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/ethnic-studies/social-justice-studies-asian-american-studies-associate-in-arts-for-transfer/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ETH",
-              "number": "010",
-              "title": "Introduction to Ethnic Studies",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ETH",
-              "number": "042",
-              "title": "Asian American Experience",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WOMS",
-              "number": "010",
-              "title": "Introduction to Women's and Gender Studies",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HIST",
-              "number": "023",
-              "title": "Asian American History",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ART",
-              "number": "096",
-              "title": "History of Asian Art",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "062",
-              "title": "Asian/Asian-American Literature",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ETH",
-              "number": "040",
-              "title": "Vietnamese American Culture and Experience",
               "credits": 0,
               "or_alternatives": []
             },
@@ -5409,6 +5161,123 @@
               "prefix": "ETH",
               "number": "040",
               "title": "Vietnamese American Culture and Experience",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SOC",
+              "number": "010",
+              "title": "Introduction to Sociology",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "060",
+              "title": "Fundamentals of Business Statistics",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSYCH",
+              "number": "018",
+              "title": "Introduction to Research Methods",
+              "credits": 0,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Social Justice Studies-Asian American Studies – Associate in Arts for Transfer — Associate in Arts",
+      "credential": "AA",
+      "program_code": null,
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/ethnic-studies/social-justice-studies-asian-american-studies-associate-in-arts-for-transfer/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ETH",
+              "number": "010",
+              "title": "Introduction to Ethnic Studies",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ETH",
+              "number": "042",
+              "title": "Asian American Experience",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WOMS",
+              "number": "010",
+              "title": "Introduction to Women's and Gender Studies",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HIST",
+              "number": "023",
+              "title": "Asian American History",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ART",
+              "number": "096",
+              "title": "History of Asian Art",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "062",
+              "title": "Asian/Asian-American Literature",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ETH",
+              "number": "040",
+              "title": "Vietnamese American Culture and Experience",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "019",
+              "title": "Law Enforcement in Multicultural Communities",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ANTH",
+              "number": "063",
+              "title": "Introduction to Social and Cultural Anthropology",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "COMS",
+              "number": "035",
+              "title": "Intercultural Communication",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSYCH",
+              "number": "051",
+              "title": "Introduction to Cross-Cultural Psychology",
               "credits": 0,
               "or_alternatives": []
             },
@@ -6096,6 +5965,137 @@
       "matched_program_slug": null
     },
     {
+      "title": "English - Associate in Arts for Transfer — Associate in Arts",
+      "credential": "AA",
+      "program_code": null,
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/english/english-associate-arts-transfer/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENGL",
+              "number": "001B",
+              "title": "English Composition",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "084A",
+              "title": "Survey of American Literature I",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "084B",
+              "title": "Survey of American Literature II",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "086A",
+              "title": "Survey of English Literature I",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "086B",
+              "title": "Survey of English Literature II",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HUMNT",
+              "number": "002",
+              "title": "Introduction to World Literature",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "028",
+              "title": "Introduction to World Mythology",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "062",
+              "title": "Asian/Asian-American Literature",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "072",
+              "title": "Fundamentals of Creative Writing",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "073",
+              "title": "Introduction to Shakespeare",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "080",
+              "title": "Mexican-American Literature",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "082A",
+              "title": "African-American Literature",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "032",
+              "title": "Gender in Literature",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "052",
+              "title": "Children's/Adolescent Literature",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "THEAT",
+              "number": "020",
+              "title": "Introduction to Theatre Arts",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "VIET",
+              "number": "001B",
+              "title": "Elementary Vietnamese",
+              "credits": 0,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "english"
+    },
+    {
       "title": "Paralegal Studies - Associate in Arts — Associate in Arts",
       "credential": "AA",
       "program_code": null,
@@ -6773,184 +6773,6 @@
       "matched_program_slug": "nursing"
     },
     {
-      "title": "Philosophy – Associate in Arts for Transfer — Associate in Arts",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/philosophy/philosophy-associate-arts-transfer/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "PHIL",
-              "number": "010",
-              "title": "Introduction to Philosophy",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "065",
-              "title": "Introduction to Ethics",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "090",
-              "title": "Introduction to Logic",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "030",
-              "title": "History of Ancient and Medieval Philosophy",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "040",
-              "title": "History of Modern Philosophy",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "060",
-              "title": "Logic and Critical Thinking",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HIST",
-              "number": "010A",
-              "title": "Development of Western Culture I",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HIST",
-              "number": "010B",
-              "title": "Development of Western Culture II",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "070",
-              "title": "Comparative Religions",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "001B",
-              "title": "English Composition",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "028",
-              "title": "Introduction to World Mythology",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ETH",
-              "number": "010",
-              "title": "Introduction to Ethnic Studies",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HUMNT",
-              "number": "002",
-              "title": "Introduction to World Literature",
-              "credits": 0,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "General Studies with Emphasis in Astronomy - Associate in Arts — Associate in Arts",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/physical-science/general-studies-emphasis-astronomy-associate-arts/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "PHYS",
-              "number": "007A",
-              "title": "Calculus-Based General Physics for Scientists and Engineers - I",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHYS",
-              "number": "007B",
-              "title": "Calculus-Based General Physics for Scientists and Engineers - II",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHYS",
-              "number": "007C",
-              "title": "Calculus-Based General Physics for Scientists and Engineers - III",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ASTRO",
-              "number": "010",
-              "title": "Introduction to Astronomy",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ASTRO",
-              "number": "014",
-              "title": "Solar System Astronomy",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ASTRO",
-              "number": "016",
-              "title": "Stars, Galaxies, and the Origin of the Universe",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ASTRO",
-              "number": "098",
-              "title": "Directed Studies in Astronomy",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "liberal-arts"
-    },
-    {
       "title": "Physics - Associate in Science for Transfer — Associate in Arts",
       "credential": "AA",
       "program_code": null,
@@ -7162,10 +6984,10 @@
       "matched_program_slug": null
     },
     {
-      "title": "Psychology - Associate in Arts for Transfer — Associate in Arts",
+      "title": "General Studies with Emphasis in Astronomy - Associate in Arts — Associate in Arts",
       "credential": "AA",
       "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/psychology/psychology-associate-arts-transfer/",
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/physical-science/general-studies-emphasis-astronomy-associate-arts/",
       "total_credits": null,
       "gpa_minimum": 2,
       "description": null,
@@ -7176,100 +6998,58 @@
           "choose_n": null,
           "courses": [
             {
-              "prefix": "BUS",
-              "number": "060",
-              "title": "Fundamentals of Business Statistics",
-              "credits": 0,
+              "prefix": "PHYS",
+              "number": "007A",
+              "title": "Calculus-Based General Physics for Scientists and Engineers - I",
+              "credits": 4,
               "or_alternatives": []
             },
             {
-              "prefix": "PSYCH",
-              "number": "018",
-              "title": "Introduction to Research Methods",
+              "prefix": "PHYS",
+              "number": "007B",
+              "title": "Calculus-Based General Physics for Scientists and Engineers - II",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHYS",
+              "number": "007C",
+              "title": "Calculus-Based General Physics for Scientists and Engineers - III",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ASTRO",
+              "number": "010",
+              "title": "Introduction to Astronomy",
               "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "BIOL",
-              "number": "020",
-              "title": "Human Biology",
-              "credits": 0,
+              "prefix": "ASTRO",
+              "number": "014",
+              "title": "Solar System Astronomy",
+              "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "BIOL",
-              "number": "021",
-              "title": "General Biology",
-              "credits": 0,
+              "prefix": "ASTRO",
+              "number": "016",
+              "title": "Stars, Galaxies, and the Origin of the Universe",
+              "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "PSYCH",
-              "number": "030",
-              "title": "Introduction to Biological Psychology",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "001B",
-              "title": "English Composition",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSYCH",
-              "number": "025",
-              "title": "Psychology of Women: Global Perspective",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSYCH",
-              "number": "026",
-              "title": "Violence Against Women: Cross-Cultural Perspective",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSYCH",
-              "number": "027",
-              "title": "Introduction to LGBTQ Studies",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSYCH",
-              "number": "060",
-              "title": "Personal Growth and Adjustment",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSYCH",
-              "number": "092",
-              "title": "Developmental Psychology",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSYCH",
-              "number": "099",
-              "title": "Abnormal Psychology",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSYCH",
-              "number": "100",
-              "title": "Human Sexuality",
-              "credits": 0,
+              "prefix": "ASTRO",
+              "number": "098",
+              "title": "Directed Studies in Astronomy",
+              "credits": 3,
               "or_alternatives": []
             }
           ]
         }
       ],
-      "matched_program_slug": "psychology"
+      "matched_program_slug": "liberal-arts"
     },
     {
       "title": "Community Advocacy and Engagement - Certificate of Achievement — Associate in Arts",
@@ -7317,6 +7097,205 @@
               "prefix": "SOC",
               "number": "019",
               "title": "Sociology of Sex and Gender",
+              "credits": 0,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Theatre Arts – Associate in Arts for Transfer — Associate in Arts",
+      "credential": "AA",
+      "program_code": null,
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/theatre-arts/theatre-arts-associate-arts-transfer/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "THEAT",
+              "number": "002",
+              "title": "Beginning Acting",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "THEAT",
+              "number": "020",
+              "title": "Introduction to Theatre Arts",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "THEAT",
+              "number": "033A",
+              "title": "Technical Theatre in Production A",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "THEAT",
+              "number": "035A",
+              "title": "Rehearsal and Performance in Production A",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "THEAT",
+              "number": "003",
+              "title": "Intermediate Acting",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "THEAT",
+              "number": "050",
+              "title": "Introduction to Theatre Design",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "THEAT",
+              "number": "051",
+              "title": "Costume Design",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "THEAT",
+              "number": "052",
+              "title": "Stage Makeup",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "THEAT",
+              "number": "053",
+              "title": "Introduction to Stage Lighting",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "THEAT",
+              "number": "060",
+              "title": "Script Analysis",
+              "credits": 0,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Philosophy – Associate in Arts for Transfer — Associate in Arts",
+      "credential": "AA",
+      "program_code": null,
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/philosophy/philosophy-associate-arts-transfer/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "PHIL",
+              "number": "010",
+              "title": "Introduction to Philosophy",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHIL",
+              "number": "065",
+              "title": "Introduction to Ethics",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHIL",
+              "number": "090",
+              "title": "Introduction to Logic",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHIL",
+              "number": "030",
+              "title": "History of Ancient and Medieval Philosophy",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHIL",
+              "number": "040",
+              "title": "History of Modern Philosophy",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHIL",
+              "number": "060",
+              "title": "Logic and Critical Thinking",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HIST",
+              "number": "010A",
+              "title": "Development of Western Culture I",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HIST",
+              "number": "010B",
+              "title": "Development of Western Culture II",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHIL",
+              "number": "070",
+              "title": "Comparative Religions",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "001B",
+              "title": "English Composition",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "028",
+              "title": "Introduction to World Mythology",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ETH",
+              "number": "010",
+              "title": "Introduction to Ethnic Studies",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HUMNT",
+              "number": "002",
+              "title": "Introduction to World Literature",
               "credits": 0,
               "or_alternatives": []
             }
@@ -7455,95 +7434,6 @@
         }
       ],
       "matched_program_slug": "liberal-arts"
-    },
-    {
-      "title": "Theatre Arts – Associate in Arts for Transfer — Associate in Arts",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.evc.edu/degrees-certificates/theatre-arts/theatre-arts-associate-arts-transfer/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "THEAT",
-              "number": "002",
-              "title": "Beginning Acting",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "THEAT",
-              "number": "020",
-              "title": "Introduction to Theatre Arts",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "THEAT",
-              "number": "033A",
-              "title": "Technical Theatre in Production A",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "THEAT",
-              "number": "035A",
-              "title": "Rehearsal and Performance in Production A",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "THEAT",
-              "number": "003",
-              "title": "Intermediate Acting",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "THEAT",
-              "number": "050",
-              "title": "Introduction to Theatre Design",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "THEAT",
-              "number": "051",
-              "title": "Costume Design",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "THEAT",
-              "number": "052",
-              "title": "Stage Makeup",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "THEAT",
-              "number": "053",
-              "title": "Introduction to Stage Lighting",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "THEAT",
-              "number": "060",
-              "title": "Script Analysis",
-              "credits": 0,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
     },
     {
       "title": "Water and Wastewater Technology - Certificate of Achievement — Associate in Arts",
@@ -7877,6 +7767,116 @@
         }
       ],
       "matched_program_slug": null
+    },
+    {
+      "title": "Psychology - Associate in Arts for Transfer — Associate in Arts",
+      "credential": "AA",
+      "program_code": null,
+      "catalog_url": "https://catalog.evc.edu/degrees-certificates/psychology/psychology-associate-arts-transfer/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BUS",
+              "number": "060",
+              "title": "Fundamentals of Business Statistics",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSYCH",
+              "number": "018",
+              "title": "Introduction to Research Methods",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BIOL",
+              "number": "020",
+              "title": "Human Biology",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BIOL",
+              "number": "021",
+              "title": "General Biology",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSYCH",
+              "number": "030",
+              "title": "Introduction to Biological Psychology",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENGL",
+              "number": "001B",
+              "title": "English Composition",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSYCH",
+              "number": "025",
+              "title": "Psychology of Women: Global Perspective",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSYCH",
+              "number": "026",
+              "title": "Violence Against Women: Cross-Cultural Perspective",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSYCH",
+              "number": "027",
+              "title": "Introduction to LGBTQ Studies",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSYCH",
+              "number": "060",
+              "title": "Personal Growth and Adjustment",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSYCH",
+              "number": "092",
+              "title": "Developmental Psychology",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSYCH",
+              "number": "099",
+              "title": "Abnormal Psychology",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSYCH",
+              "number": "100",
+              "title": "Human Sexuality",
+              "credits": 0,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "psychology"
     }
   ]
 }
