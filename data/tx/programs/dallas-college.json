@@ -2,7 +2,7 @@
   "college_slug": "dallas-college",
   "catalog_year": "2025-2026",
   "catalog_url": "https://catalog.dallascollege.edu",
-  "scraped_at": "2026-06-23T10:24:29.566Z",
+  "scraped_at": "2026-10-01T15:42:50.685Z",
   "programs": [
     {
       "title": "911 Dispatcher Program Occupational Skills Award",
@@ -147,21 +147,21 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective1 - Mathematics Elective (3 Credit Hours)",
+              "title": "Elective - Mathematics Elective (3 Credit Hours) 1",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective2 - General Elective (3 Credit Hours)",
+              "title": "Elective - General Elective (3 Credit Hours) 2",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective2 - General Elective (3 Credit Hours)",
+              "title": "Elective - General Elective (3 Credit Hours) 2",
               "credits": null,
               "or_alternatives": []
             }
@@ -195,14 +195,14 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective3 - Speech Elective (3 Credit Hours)",
+              "title": "Elective - Speech Elective (3 Credit Hours) 3",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective4 - Humanities/Fine Arts Elective (3 Credit Hours)",
+              "title": "Elective - Humanities/Fine Arts Elective (3 Credit Hours) 4",
               "credits": null,
               "or_alternatives": []
             }
@@ -243,14 +243,14 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective5 - Accounting Specialty Elective (3 Credit Hours) *",
+              "title": "Elective - Accounting Specialty Elective (3 Credit Hours) 5 *",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective5 - Accounting Specialty Elective (3 Credit Hours) *",
+              "title": "Elective - Accounting Specialty Elective (3 Credit Hours) 5 *",
               "credits": null,
               "or_alternatives": []
             }
@@ -291,14 +291,14 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective5 - Accounting Specialty Elective (3 Credit Hours) *",
+              "title": "Elective - Accounting Specialty Elective (3 Credit Hours) 5 *",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective5 - Accounting Specialty Elective (3 Credit Hours) *",
+              "title": "Elective - Accounting Specialty Elective (3 Credit Hours) 5 *",
               "credits": null,
               "or_alternatives": []
             }
@@ -455,21 +455,21 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective1 - Mathematics Elective (3 Credit Hours)",
+              "title": "Elective - Mathematics Elective (3 Credit Hours) 1",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective2 - General Elective (3 Credit Hours)",
+              "title": "Elective - General Elective (3 Credit Hours) 2",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective2 - General Elective (3 Credit Hours)",
+              "title": "Elective - General Elective (3 Credit Hours) 2",
               "credits": null,
               "or_alternatives": []
             }
@@ -503,14 +503,14 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective3 - Speech Elective (3 Credit Hours)",
+              "title": "Elective - Speech Elective (3 Credit Hours) 3",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective4 - Humanities/Fine Arts Elective (3 Credit Hours)",
+              "title": "Elective - Humanities/Fine Arts Elective (3 Credit Hours) 4",
               "credits": null,
               "or_alternatives": []
             }
@@ -597,21 +597,21 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective1 - Mathematics Elective (3 Credit Hours)",
+              "title": "Elective - Mathematics Elective (3 Credit Hours) 1",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective2 - General Elective (3 Credit Hours)",
+              "title": "Elective - General Elective (3 Credit Hours) 2",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective2 - General Elective (3 Credit Hours)",
+              "title": "Elective - General Elective (3 Credit Hours) 2",
               "credits": null,
               "or_alternatives": []
             }
@@ -1282,7 +1282,7 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "+Elective - Humanities/Fine Arts (3 Credit Hours)",
+              "title": "Elective - Humanities/Fine Arts (3 Credit Hours) +",
               "credits": null,
               "or_alternatives": []
             }
@@ -1647,7 +1647,7 @@
           "courses": []
         },
         {
-          "name": "+Technical Elective",
+          "name": "Technical Elective",
           "credits_required": null,
           "choose_n": null,
           "courses": [
@@ -1849,7 +1849,7 @@
           "courses": []
         },
         {
-          "name": "+Technical Elective",
+          "name": "Technical Elective",
           "credits_required": null,
           "choose_n": null,
           "courses": [
@@ -1885,6 +1885,39 @@
               "prefix": "DFTG",
               "number": "2323",
               "title": "&nbsp;-&nbsp;Pipe Drafting",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Advanced Soldering Techniques",
+      "credential": "other",
+      "program_code": null,
+      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3818",
+      "total_credits": null,
+      "gpa_minimum": null,
+      "description": "Powered by Modern Campus Catalog™.",
+      "requirement_groups": [
+        {
+          "name": "Course(s)",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "EECT",
+              "number": "1004",
+              "title": "&nbsp;-&nbsp;Electronic Soldering",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EECT",
+              "number": "1059",
+              "title": "&nbsp;-&nbsp;Soldering Techniques",
               "credits": null,
               "or_alternatives": []
             }
@@ -2334,14 +2367,14 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "+Elective - HART Elective (one course) (3 Credit Hours)",
+              "title": "Elective - HART Elective (one course) (3 Credit Hours) +",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "++Elective - Mathematics Elective (3 Credit Hours)",
+              "title": "Elective - Mathematics Elective (3 Credit Hours) ++",
               "credits": null,
               "or_alternatives": []
             },
@@ -2396,7 +2429,7 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "+++Elective - Humanities/Fine Arts (3 Credit Hours)",
+              "title": "Elective - Humanities/Fine Arts (3 Credit Hours) +++",
               "credits": null,
               "or_alternatives": []
             }
@@ -2437,28 +2470,28 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "+Elective - HART Elective (one course) (3 Credit Hours)",
+              "title": "Elective - HART Elective (one course) (3 Credit Hours) +",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "+Elective - HART Elective (one course) (3 Credit Hours)",
+              "title": "Elective - HART Elective (one course) (3 Credit Hours) +",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "++++Elective - SPCH Elective (3 Credit Hours)",
+              "title": "Elective - SPCH Elective (3 Credit Hours) ++++",
               "credits": null,
               "or_alternatives": []
             },
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "+++++Elective - Social/Behavioral Science (3 Credif Hours)",
+              "title": "Elective - Social/Behavioral Science (3 Credif Hours) +++++",
               "credits": null,
               "or_alternatives": []
             }
@@ -2477,7 +2510,7 @@
           "courses": []
         },
         {
-          "name": "+HART Electives",
+          "name": "HART Electives",
           "credits_required": null,
           "choose_n": null,
           "courses": [
@@ -2547,7 +2580,7 @@
           ]
         },
         {
-          "name": "++++SPCH Electives",
+          "name": "SPCH Electives",
           "credits_required": null,
           "choose_n": null,
           "courses": [
@@ -4736,7 +4769,7 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Other options exist to meet this requirement.",
+              "title": "Other options exist to meet this requirement .",
               "credits": null,
               "or_alternatives": []
             }
@@ -4763,7 +4796,7 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Other options exist to meet this requirement.",
+              "title": "Other options exist to meet this requirement .",
               "credits": null,
               "or_alternatives": []
             },
@@ -4798,7 +4831,7 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Other options exist to meet this requirement.",
+              "title": "Other options exist to meet this requirement .",
               "credits": null,
               "or_alternatives": []
             }
@@ -22766,6 +22799,74 @@
       "matched_program_slug": null
     },
     {
+      "title": "CE English As A Second Language (ESL) Workforce",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3822",
+      "total_credits": null,
+      "gpa_minimum": null,
+      "description": "Powered by Modern Campus Catalog™.",
+      "requirement_groups": [
+        {
+          "name": "Semester 1",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "COMG",
+              "number": "1000",
+              "title": "&nbsp;-&nbsp;Communications Improvement 1",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "COMG",
+              "number": "1001",
+              "title": "&nbsp;-&nbsp;Communications Improvement 2",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "COMG",
+              "number": "1004",
+              "title": "&nbsp;-&nbsp;Communications Improvement 3",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Semester 2",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "COMG",
+              "number": "1005",
+              "title": "&nbsp;-&nbsp;Communications Improvement 4",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "COMG",
+              "number": "1007",
+              "title": "&nbsp;-&nbsp;Communications Improvement 5",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "COMG",
+              "number": "1008",
+              "title": "&nbsp;-&nbsp;Communications Improvement 6",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "CE Entry-Level Pharmacy Technician",
       "credential": "other",
       "program_code": null,
@@ -23272,7 +23373,7 @@
       "description": "Powered by Modern Campus Catalog™.",
       "requirement_groups": [
         {
-          "name": "Prerequistes",
+          "name": "Course(s)",
           "credits_required": null,
           "choose_n": null,
           "courses": [
@@ -23282,14 +23383,7 @@
               "title": "&nbsp;-&nbsp;Basic Safety Communications",
               "credits": null,
               "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester 1",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
+            },
             {
               "prefix": "CETT",
               "number": "1000",
@@ -23317,14 +23411,7 @@
               "title": "&nbsp;-&nbsp;Introduction to Electrical Controls",
               "credits": null,
               "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester 2",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
+            },
             {
               "prefix": "ELPT",
               "number": "2019",
@@ -24995,46 +25082,6 @@
               "prefix": "CDEC",
               "number": "1041",
               "title": "&nbsp;-&nbsp;CDA Preparation for Assessment",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "early-childhood-education"
-    },
-    {
-      "title": "Child Development Associate Training",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3274",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CDEC",
-              "number": "1017",
-              "title": "&nbsp;-&nbsp;Child Development Associate Training I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CDEC",
-              "number": "2022",
-              "title": "&nbsp;-&nbsp;Child Development Associate Training II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CDEC",
-              "number": "2024",
-              "title": "&nbsp;-&nbsp;Child Development Associate Training III",
               "credits": null,
               "or_alternatives": []
             }
@@ -27595,65 +27642,6 @@
         {
           "name": "Minimum Hours Required: 27 Credit Hours",
           "credits_required": 27,
-          "choose_n": null,
-          "courses": []
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Commercial Electrical Technology Occupational Skills Award",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3200",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Semester 1",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "IEIR",
-              "number": "1312",
-              "title": "&nbsp;-&nbsp;Distribution Systems",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELPT",
-              "number": "1341",
-              "title": "&nbsp;-&nbsp;Motor Control",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELPT",
-              "number": "1345",
-              "title": "&nbsp;-&nbsp;Commercial Wiring",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELPT",
-              "number": "1329",
-              "title": "&nbsp;-&nbsp;Residential Wiring",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 12 Credit Hours",
-          "credits_required": 12,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Minimum Hours Required: 12 Credit Hours",
-          "credits_required": 12,
           "choose_n": null,
           "courses": []
         }
@@ -30296,17 +30284,6 @@
         }
       ],
       "matched_program_slug": null
-    },
-    {
-      "title": "Conflict Management Courses",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3058",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [],
-      "matched_program_slug": "business-administration"
     },
     {
       "title": "Construction Management A.A.S.",
@@ -33886,16 +33863,16 @@
               "or_alternatives": []
             },
             {
-              "prefix": "CHEF",
-              "number": "1302",
-              "title": "&nbsp;-&nbsp;Principles of Healthy Cuisine",
+              "prefix": "HAMG",
+              "number": "1321",
+              "title": "&nbsp;-&nbsp;Introduction to Hospitality Industry",
               "credits": null,
               "or_alternatives": []
             },
             {
-              "prefix": "HAMG",
-              "number": "1321",
-              "title": "&nbsp;-&nbsp;Introduction to Hospitality Industry",
+              "prefix": "CHEF",
+              "number": "1302",
+              "title": "&nbsp;-&nbsp;Principles of Healthy Cuisine",
               "credits": null,
               "or_alternatives": []
             }
@@ -36272,6 +36249,13 @@
               "title": "&nbsp;-&nbsp;Clinical - Dental Assisting/Assistant",
               "credits": null,
               "or_alternatives": []
+            },
+            {
+              "prefix": "DHYG",
+              "number": "1002",
+              "title": "&nbsp;-&nbsp;Nitrous Oxide Sedation Monitoring",
+              "credits": null,
+              "or_alternatives": []
             }
           ]
         }
@@ -38532,46 +38516,6 @@
       "matched_program_slug": "art"
     },
     {
-      "title": "Digital Art and Graphic Design, Basic",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3272",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ARTC",
-              "number": "1002",
-              "title": "&nbsp;-&nbsp;Digital Imaging I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ARTC",
-              "number": "1053",
-              "title": "&nbsp;-&nbsp;Computer Illustration",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ARTC",
-              "number": "1005",
-              "title": "&nbsp;-&nbsp;Basic Graphic Design",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "art"
-    },
-    {
       "title": "Digital Forensics and Private Investigation Certificate",
       "credential": "certificate",
       "program_code": null,
@@ -39290,106 +39234,6 @@
               "prefix": "CDEC",
               "number": "1041",
               "title": "&nbsp;-&nbsp;CDA Preparation for Assessment",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "early-childhood-education"
-    },
-    {
-      "title": "Early Childhood Education and Teaching Certificate",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3029",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Semester 1",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CDEC",
-              "number": "1311",
-              "title": "&nbsp;-&nbsp;Educating Young Children",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CDEC",
-              "number": "1354",
-              "title": "&nbsp;-&nbsp;Child Growth and Development",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CDEC",
-              "number": "1303",
-              "title": "&nbsp;-&nbsp;Families, School and Community",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 9 Credit Hours",
-          "credits_required": 9,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 2",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CDEC",
-              "number": "1413",
-              "title": "&nbsp;-&nbsp;Curriculum Resources for Early Childhood Programs",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Child Development (one course) (3 Credit Hours) +",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 7 Credit Hours",
-          "credits_required": 7,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Minimum Hours Required: 16 Credit Hours",
-          "credits_required": 16,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Elective",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CDEC",
-              "number": "1341",
-              "title": "&nbsp;-&nbsp;CDA Preparation for Assessment",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CDEC",
-              "number": "1318",
-              "title": "&nbsp;-&nbsp;Wellness of the Young Child",
               "credits": null,
               "or_alternatives": []
             }
@@ -41114,7 +40958,7 @@
             {
               "prefix": "ELEC",
               "number": "XXX",
-              "title": "Elective - Mathematics Elective (3 Credit Hours) +",
+              "title": "Elective - Mathematics Elective(3 Credit Hours) +",
               "credits": null,
               "or_alternatives": []
             },
@@ -41577,72 +41421,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Electronics - Digital Fundamentals",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3335",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CETT",
-              "number": "1025",
-              "title": "&nbsp;-&nbsp;Digital Fundamentals",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CETT",
-              "number": "1049",
-              "title": "&nbsp;-&nbsp;Digital Systems",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Electronics - Solid State Devices",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3336",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CETT",
-              "number": "1029",
-              "title": "&nbsp;-&nbsp;Solid State Devices",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CETT",
-              "number": "1041",
-              "title": "&nbsp;-&nbsp;Solid State Circuits",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Electronics and Climate Controls Technician Certificate",
       "credential": "certificate",
       "program_code": null,
@@ -41846,46 +41624,6 @@
           "credits_required": 12,
           "choose_n": null,
           "courses": []
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Electronics and Climate Controls Technician Occupational Skills Award",
-      "credential": "other",
-      "program_code": "CE",
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3403",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Course(s)",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "AUMT",
-              "number": "1005",
-              "title": "&nbsp;-&nbsp;Introduction to Automotive Technology",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUMT",
-              "number": "1007",
-              "title": "&nbsp;-&nbsp;Automotive Electrical Systems",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AUMT",
-              "number": "2021",
-              "title": "&nbsp;-&nbsp;Automotive Electrical Diagnosis and Repair",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
         }
       ],
       "matched_program_slug": null
@@ -43400,13 +43138,21 @@
               "number": "1405",
               "title": "&nbsp;-&nbsp;AC Circuits",
               "credits": null,
-              "or_alternatives": [
-                {
-                  "prefix": "RBTC",
-                  "number": "1401",
-                  "title": "&nbsp;-&nbsp;Programmable Logic Controllers"
-                }
-              ]
+              "or_alternatives": []
+            },
+            {
+              "prefix": "RBTC",
+              "number": "1401",
+              "title": "&nbsp;-&nbsp;Programmable Logic Controllers",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ELEC",
+              "number": "XXX",
+              "title": "OR",
+              "credits": null,
+              "or_alternatives": []
             },
             {
               "prefix": "ELPT",
@@ -43454,18 +43200,33 @@
               "number": "1445",
               "title": "&nbsp;-&nbsp;Hydraulics and Pneumatics",
               "credits": null,
-              "or_alternatives": [
-                {
-                  "prefix": "ENTC",
-                  "number": "2280",
-                  "title": "&nbsp;-&nbsp;Cooperative Education-Engineering Technology, General"
-                }
-              ]
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENTC",
+              "number": "2280",
+              "title": "&nbsp;-&nbsp;Cooperative Education-Engineering Technology, General",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ELEC",
+              "number": "XXX",
+              "title": "OR",
+              "credits": null,
+              "or_alternatives": []
             },
             {
               "prefix": "EECT",
               "number": "1104",
               "title": "&nbsp;-&nbsp;Electronic Soldering",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ELEC",
+              "number": "XXX",
+              "title": "AND",
               "credits": null,
               "or_alternatives": []
             },
@@ -45345,159 +45106,6 @@
               "or_alternatives": []
             }
           ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "FAME Manufacturing Core Exercises Enhanced Skills Certificate",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3206",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Semester 1",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MFGT",
-              "number": "2171",
-              "title": "&nbsp;-&nbsp;FAME-MCE1 Safety Culture",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 1 Credit Hour",
-          "credits_required": 1,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 2",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MFGT",
-              "number": "2172",
-              "title": "&nbsp;-&nbsp;FAME-MCE2 Visual Workspace Organization",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 1 Credit Hour",
-          "credits_required": 1,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 3",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MFGT",
-              "number": "2173",
-              "title": "&nbsp;-&nbsp;FAME-MCE3 Lean Manufacturing",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EECT",
-              "number": "1191",
-              "title": "&nbsp;-&nbsp;Special Topics In Electrical, Electronic And Communications Engineering Technology/Technician",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENTC",
-              "number": "1191",
-              "title": "&nbsp;-&nbsp;Special Topics in Engineering Technology/Technician, General",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CETT",
-              "number": "1191",
-              "title": "&nbsp;-&nbsp;Special Topics in Computer Engineering Technology/Technician",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 2 Credit Hours",
-          "credits_required": 2,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 4",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MFGT",
-              "number": "2174",
-              "title": "&nbsp;-&nbsp;FAME-MCE4 Problem Solving",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 1 Credit Hour",
-          "credits_required": 1,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 5",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MFGT",
-              "number": "2175",
-              "title": "&nbsp;-&nbsp;FAME-MCE5 Machine Reliability",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 1 Credit Hour",
-          "credits_required": 1,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Minimum Hours Required: 6 Credit Hours",
-          "credits_required": 6,
-          "choose_n": null,
-          "courses": []
         }
       ],
       "matched_program_slug": null
@@ -53144,67 +52752,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Humanities Courses",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3095",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "HUMA",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "HUMA",
-              "number": "1302",
-              "title": "&nbsp;-&nbsp;Introduction to Humanities II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HUMA",
-              "number": "1305",
-              "title": "&nbsp;-&nbsp;Introduction to Mexican-American Studies",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HUMA",
-              "number": "1311",
-              "title": "&nbsp;-&nbsp;Mexican-American Fine Arts Appreciation",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HUMA",
-              "number": "1315",
-              "title": "&nbsp;-&nbsp;Fine Arts Appreciation",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HUMA",
-              "number": "2319",
-              "title": "&nbsp;-&nbsp;American Minority Studies",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HUMA",
-              "number": "2323",
-              "title": "&nbsp;-&nbsp;World Cultures",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Industrial Automation - Motor Controls",
       "credential": "other",
       "program_code": null,
@@ -53406,13 +52953,21 @@
               "number": "1403",
               "title": "&nbsp;-&nbsp;DC Circuits",
               "credits": null,
-              "or_alternatives": [
-                {
-                  "prefix": "RBTC",
-                  "number": "1401",
-                  "title": "&nbsp;-&nbsp;Programmable Logic Controllers"
-                }
-              ]
+              "or_alternatives": []
+            },
+            {
+              "prefix": "RBTC",
+              "number": "1401",
+              "title": "&nbsp;-&nbsp;Programmable Logic Controllers",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ELEC",
+              "number": "XXX",
+              "title": "OR",
+              "credits": null,
+              "or_alternatives": []
             },
             {
               "prefix": "ELPT",
@@ -53768,694 +53323,6 @@
       "gpa_minimum": null,
       "description": "Powered by Modern Campus Catalog™.",
       "requirement_groups": [],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Interactive Simulation and Game Technology A.A.S.",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=2897",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Semester 1",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "GAME",
-              "number": "1303",
-              "title": "&nbsp;-&nbsp;Introduction to Game Design and Development",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MATH",
-              "number": "1332",
-              "title": "&nbsp;-&nbsp;Contemporary Mathematics (Quantitative Reasoning)",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSYC",
-              "number": "2301",
-              "title": "&nbsp;-&nbsp;General Psychology",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1304",
-              "title": "&nbsp;-&nbsp;Level Design",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1370",
-              "title": "&nbsp;-&nbsp;Concept Art I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ARTV",
-              "number": "1341",
-              "title": "&nbsp;-&nbsp;3-D Animation I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1336",
-              "title": "&nbsp;-&nbsp;Introduction to 3D Game Modeling",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 2",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "GAME",
-              "number": "2332",
-              "title": "&nbsp;-&nbsp;Project Development I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SPCH",
-              "number": "1311",
-              "title": "&nbsp;-&nbsp;Introduction to Speech Communication",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SPCH",
-              "number": "1315",
-              "title": "&nbsp;-&nbsp;Public Speaking",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Humanities/Fine Arts (3 Credit Hours) ++++",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2370",
-              "title": "&nbsp;-&nbsp;Concept Art II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1314",
-              "title": "&nbsp;-&nbsp;Character Sculpting",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2325",
-              "title": "&nbsp;-&nbsp;3D Animation II - Character Setup",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1372",
-              "title": "&nbsp;-&nbsp;Visual Effects for Video Games I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2304",
-              "title": "&nbsp;-&nbsp;Level Design II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ARTV",
-              "number": "2351",
-              "title": "&nbsp;-&nbsp;3-D Animation II",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 3",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "GAME",
-              "number": "2334",
-              "title": "&nbsp;-&nbsp;Project Development II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "1301",
-              "title": "&nbsp;-&nbsp;Composition I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1306",
-              "title": "&nbsp;-&nbsp;Design and Creation of Games",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Specialty (ART/ANIMATION/DESIGN) (3 Credit Hours) +",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Specialty (ART/ANIMATION/DESIGN) (3 Credit Hours) +",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 4",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "GAME",
-              "number": "2359",
-              "title": "&nbsp;-&nbsp;Game and Simulation Group Project",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2308",
-              "title": "&nbsp;-&nbsp;Portfolio for Game Development",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2387",
-              "title": "&nbsp;-&nbsp;Internship - Animation, Interactive Technology, Video Graphics and Special Effects",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2374",
-              "title": "&nbsp;-&nbsp;Game Production",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Specialty (ART/ANIMATION/DESIGN) (3 Credit Hours) ++",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Specialty (ART/ANIMATION/DESIGN) (3 Credit Hours) ++",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Minimum Hours Required: 60 Credit Hours",
-          "credits_required": 60,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "+Specialty Electives (ART/ANIMATION/DESIGN)",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "GAME",
-              "number": "1370",
-              "title": "&nbsp;-&nbsp;Concept Art I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ARTV",
-              "number": "1345",
-              "title": "&nbsp;-&nbsp;3-D Modeling and Rendering I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1372",
-              "title": "&nbsp;-&nbsp;Visual Effects for Video Games I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ARTV",
-              "number": "1341",
-              "title": "&nbsp;-&nbsp;3-D Animation I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2304",
-              "title": "&nbsp;-&nbsp;Level Design II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ARTS",
-              "number": "1316",
-              "title": "&nbsp;-&nbsp;Drawing I",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "++Specialty Electives (ART/ANIMATION/DESIGN)",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "GAME",
-              "number": "2372",
-              "title": "&nbsp;-&nbsp;Visual Effects for Video Games II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1373",
-              "title": "&nbsp;-&nbsp;Virtual and Augmented Reality Development",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ARTV",
-              "number": "2351",
-              "title": "&nbsp;-&nbsp;3-D Animation II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2325",
-              "title": "&nbsp;-&nbsp;3D Animation II - Character Setup",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1314",
-              "title": "&nbsp;-&nbsp;Character Sculpting",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2370",
-              "title": "&nbsp;-&nbsp;Concept Art II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ARTS",
-              "number": "2323",
-              "title": "&nbsp;-&nbsp;Life Drawing",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester 1",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "GAME",
-              "number": "1303",
-              "title": "&nbsp;-&nbsp;Introduction to Game Design and Development",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MATH",
-              "number": "1314",
-              "title": "&nbsp;-&nbsp;College Algebra",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "1301",
-              "title": "&nbsp;-&nbsp;Composition I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2302",
-              "title": "&nbsp;-&nbsp;Mathematical Applications for Game Development",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ITSE",
-              "number": "1302",
-              "title": "&nbsp;-&nbsp;Computer Programming",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 2",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "SPCH",
-              "number": "1311",
-              "title": "&nbsp;-&nbsp;Introduction to Speech Communication",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SPCH",
-              "number": "1315",
-              "title": "&nbsp;-&nbsp;Public Speaking",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Humanities/Fine Arts (3 Credit Hours) ++++",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1343",
-              "title": "&nbsp;-&nbsp;Game and Simulation Programming I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2332",
-              "title": "&nbsp;-&nbsp;Project Development I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2342",
-              "title": "&nbsp;-&nbsp;Game Development Using C++",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 3",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "PSYC",
-              "number": "2301",
-              "title": "&nbsp;-&nbsp;General Psychology",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1353",
-              "title": "&nbsp;-&nbsp;Multi-User Game Programming I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1359",
-              "title": "&nbsp;-&nbsp;Game and Simulation Programming II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2334",
-              "title": "&nbsp;-&nbsp;Project Development II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2347",
-              "title": "&nbsp;-&nbsp;Advanced Game Programming",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 4",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "GAME",
-              "number": "2387",
-              "title": "&nbsp;-&nbsp;Internship - Animation, Interactive Technology, Video Graphics and Special Effects",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2374",
-              "title": "&nbsp;-&nbsp;Game Production",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2319",
-              "title": "&nbsp;-&nbsp;Game Engine",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2333",
-              "title": "&nbsp;-&nbsp;Game and Simulation Programming III",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "2359",
-              "title": "&nbsp;-&nbsp;Game and Simulation Group Project",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Specialty (PROGRAMMING SPECIALIZATION) (3 Credit Hours) +++",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Minimum Hours Required: 60 Credit Hours",
-          "credits_required": 60,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "+++Specialty Electives (PROGRAMMING SPECIALIZATION)",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "GAME",
-              "number": "1304",
-              "title": "&nbsp;-&nbsp;Level Design",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1306",
-              "title": "&nbsp;-&nbsp;Design and Creation of Games",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1336",
-              "title": "&nbsp;-&nbsp;Introduction to 3D Game Modeling",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GAME",
-              "number": "1373",
-              "title": "&nbsp;-&nbsp;Virtual and Augmented Reality Development",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
       "matched_program_slug": null
     },
     {
@@ -57034,6 +55901,53 @@
       "matched_program_slug": null
     },
     {
+      "title": "KLLM CDL Driver’s License",
+      "credential": "other",
+      "program_code": null,
+      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3821",
+      "total_credits": null,
+      "gpa_minimum": null,
+      "description": "Powered by Modern Campus Catalog™.",
+      "requirement_groups": [
+        {
+          "name": "Course(s)",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CVOP",
+              "number": "2009",
+              "title": "&nbsp;-&nbsp;Semi Tractor-Trailer Operator Driving Skills",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CVOP",
+              "number": "1015",
+              "title": "&nbsp;-&nbsp;Commercial Driver's License Exam Preparation",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CVOP",
+              "number": "1001",
+              "title": "&nbsp;-&nbsp;Commercial Driver's License Driving Skills",
+              "credits": null,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CVOP",
+              "number": "1013",
+              "title": "&nbsp;-&nbsp;Professional Truck Driver I",
+              "credits": null,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Land Surveying and Geospatial Technology A.A.S.",
       "credential": "AA",
       "program_code": null,
@@ -59078,467 +57992,37 @@
       "matched_program_slug": null
     },
     {
-      "title": "Management (Business Administration) Courses",
+      "title": "Mammography Certification",
       "credential": "other",
       "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3103",
+      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3817",
       "total_credits": null,
       "gpa_minimum": null,
       "description": "Powered by Modern Campus Catalog™.",
       "requirement_groups": [
         {
-          "name": "BMGT",
+          "name": "Course(s)",
           "credits_required": null,
           "choose_n": null,
           "courses": [
             {
-              "prefix": "BMGT",
-              "number": "1301",
-              "title": "&nbsp;-&nbsp;Supervision",
+              "prefix": "MAMT",
+              "number": "2033",
+              "title": "&nbsp;-&nbsp;Essentials of Mammography",
               "credits": null,
               "or_alternatives": []
             },
             {
-              "prefix": "BMGT",
-              "number": "1305",
-              "title": "&nbsp;-&nbsp;Communications in Management",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "1309",
-              "title": "&nbsp;-&nbsp;Information and Project Management",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "1327",
-              "title": "&nbsp;-&nbsp;Principles of Management",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "1382",
-              "title": "&nbsp;-&nbsp;Cooperative Education - Business Administration And Management, General",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "1383",
-              "title": "&nbsp;-&nbsp;Cooperative Education - Business Administration And Management, General",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "1391",
-              "title": "&nbsp;-&nbsp;Special Topics in Business Administration and Management, General",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "2303",
-              "title": "&nbsp;-&nbsp;Problem Solving and Decision Making",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "2309",
-              "title": "&nbsp;-&nbsp;Leadership",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "2382",
-              "title": "&nbsp;-&nbsp;Cooperative Education - Business Administration And Management, General",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "2383",
-              "title": "&nbsp;-&nbsp;Cooperative Education - Business Administration And Management, General",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "BUSG",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BUSG",
-              "number": "1166",
-              "title": "&nbsp;-&nbsp;Practicum (or Field Experience) - Business/Commerce",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSG",
-              "number": "1193",
-              "title": "&nbsp;-&nbsp;Special Topics in Finance, General",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSG",
-              "number": "1303",
-              "title": "&nbsp;-&nbsp;Principles of Finance",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSG",
-              "number": "1304",
-              "title": "&nbsp;-&nbsp;Financial Literacy",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSG",
-              "number": "1315",
-              "title": "&nbsp;-&nbsp;Small Business Operations",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSG",
-              "number": "1341",
-              "title": "&nbsp;-&nbsp;Small Business Financing",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSG",
-              "number": "1370",
-              "title": "&nbsp;-&nbsp;Introduction to the Financial Services Industry",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSG",
-              "number": "1380",
-              "title": "&nbsp;-&nbsp;Cooperative Education-Business/Commerce, General",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSG",
-              "number": "1381",
-              "title": "&nbsp;-&nbsp;Cooperative Education-Business/Commerce, General",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSG",
-              "number": "2166",
-              "title": "&nbsp;-&nbsp;Practicum (or Field Experience) - Business/Commerce",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSG",
-              "number": "2309",
-              "title": "&nbsp;-&nbsp;Small Business Management/Entrepreneurship",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "HRPO",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "HRPO",
-              "number": "1302",
-              "title": "&nbsp;-&nbsp;Human Resources Training and Development",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HRPO",
-              "number": "1311",
-              "title": "&nbsp;-&nbsp;Human Relations",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HRPO",
-              "number": "1391",
-              "title": "&nbsp;-&nbsp;Special Topics in Human Resources Management",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HRPO",
-              "number": "2301",
-              "title": "&nbsp;-&nbsp;Human Resources Management",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HRPO",
-              "number": "2303",
-              "title": "&nbsp;-&nbsp;Employment Practices",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HRPO",
-              "number": "2304",
-              "title": "&nbsp;-&nbsp;Employee Relations",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HRPO",
-              "number": "2306",
-              "title": "&nbsp;-&nbsp;Benefits and Compensation",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HRPO",
-              "number": "2307",
-              "title": "&nbsp;-&nbsp;Organizational Behavior",
+              "prefix": "MAMT",
+              "number": "2060",
+              "title": "&nbsp;-&nbsp;Clinical-Mammography Technology/Technician",
               "credits": null,
               "or_alternatives": []
             }
           ]
         }
       ],
-      "matched_program_slug": "business-administration"
-    },
-    {
-      "title": "Management A.A.S.",
-      "credential": "AA",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=2877",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Semester 1",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BUSI",
-              "number": "1301",
-              "title": "&nbsp;-&nbsp;Business Principles",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "1327",
-              "title": "&nbsp;-&nbsp;Principles of Management",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "1301",
-              "title": "&nbsp;-&nbsp;Supervision",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSI",
-              "number": "1307",
-              "title": "&nbsp;-&nbsp;Personal Finance",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENGL",
-              "number": "1301",
-              "title": "&nbsp;-&nbsp;Composition I",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 2",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "HRPO",
-              "number": "2301",
-              "title": "&nbsp;-&nbsp;Human Resources Management",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "1309",
-              "title": "&nbsp;-&nbsp;Information and Project Management",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "2309",
-              "title": "&nbsp;-&nbsp;Leadership",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Elective (3 Credit Hours) +",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 3",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "HRPO",
-              "number": "2307",
-              "title": "&nbsp;-&nbsp;Organizational Behavior",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACCT",
-              "number": "2301",
-              "title": "&nbsp;-&nbsp;Principles of Financial Accounting",
-              "credits": null,
-              "or_alternatives": [
-                {
-                  "prefix": "ECON",
-                  "number": "2301",
-                  "title": "&nbsp;-&nbsp;Principles of Macroeconomics"
-                }
-              ]
-            },
-            {
-              "prefix": "ECON",
-              "number": "2302",
-              "title": "&nbsp;-&nbsp;Principles of Microeconomics",
-              "credits": null,
-              "or_alternatives": [
-                {
-                  "prefix": "SPCH",
-                  "number": "1311",
-                  "title": "&nbsp;-&nbsp;Introduction to Speech Communication"
-                },
-                {
-                  "prefix": "SPCH",
-                  "number": "1315",
-                  "title": "&nbsp;-&nbsp;Public Speaking"
-                }
-              ]
-            },
-            {
-              "prefix": "SPCH",
-              "number": "1321",
-              "title": "&nbsp;-&nbsp;Business and Professional Communication",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "1382",
-              "title": "&nbsp;-&nbsp;Cooperative Education - Business Administration And Management, General",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 4",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BMGT",
-              "number": "2303",
-              "title": "&nbsp;-&nbsp;Problem Solving and Decision Making",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Humanities/Fine Arts (3 Credit Hours) +++",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Elective (3 Credit Hours) +",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "Elective - Elective (3 Credit Hours) +",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BMGT",
-              "number": "2382",
-              "title": "&nbsp;-&nbsp;Cooperative Education - Business Administration And Management, General",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 15 Credit Hours",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Minimum Hours Required: 60 Credit Hours",
-          "credits_required": 60,
-          "choose_n": null,
-          "courses": []
-        }
-      ],
-      "matched_program_slug": "business-administration"
+      "matched_program_slug": null
     },
     {
       "title": "Management Certificate",
@@ -64058,1175 +62542,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Music Business and Entrepreneurship Certificate",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=2858",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Semester 1",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MUSC",
-              "number": "1331",
-              "title": "&nbsp;-&nbsp;Musical Instrument Digital Interface (MIDI) I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUSI",
-              "number": "1301",
-              "title": "&nbsp;-&nbsp;Business Principles",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSC",
-              "number": "1327",
-              "title": "&nbsp;-&nbsp;Audio Engineering I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSC",
-              "number": "1321",
-              "title": "&nbsp;-&nbsp;Songwriting I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSP",
-              "number": "2103",
-              "title": "&nbsp;-&nbsp;Commercial Class Piano",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSP",
-              "number": "1110",
-              "title": "&nbsp;-&nbsp;Applied Commercial Music: Piano",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELEC",
-              "number": "XXX",
-              "title": "OR",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSP",
-              "number": "1123",
-              "title": "&nbsp;-&nbsp;Applied Commercial Music: Synthesizer",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSC",
-              "number": "2141",
-              "title": "&nbsp;-&nbsp;Forum/Recital",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 11 Credit Hours",
-          "credits_required": 11,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Semester 2",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MUSC",
-              "number": "1333",
-              "title": "&nbsp;-&nbsp;Synthesis I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSB",
-              "number": "1305",
-              "title": "&nbsp;-&nbsp;Survey of the Music Business",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSB",
-              "number": "1380",
-              "title": "&nbsp;-&nbsp;Cooperative Education - Music Management",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MRKG",
-              "number": "1311",
-              "title": "&nbsp;-&nbsp;Principles Of Marketing",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSC",
-              "number": "2141",
-              "title": "&nbsp;-&nbsp;Forum/Recital",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 13 Credit Hours",
-          "credits_required": 13,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Minimum Hours Required: 24 Credit Hours",
-          "credits_required": 24,
-          "choose_n": null,
-          "courses": []
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Music Courses",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3110",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "MUAP",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MUAP",
-              "number": "1101",
-              "title": "&nbsp;-&nbsp;Applied Music-Violin",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1105",
-              "title": "&nbsp;-&nbsp;Applied Music-Viola",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1109",
-              "title": "&nbsp;-&nbsp;Applied Music-Cello",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1113",
-              "title": "&nbsp;-&nbsp;Applied Music-Double Bass",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1114",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Bass",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1115",
-              "title": "&nbsp;-&nbsp;Applied Music-Electric Bass",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1117",
-              "title": "&nbsp;-&nbsp;Applied Music-Flute",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1121",
-              "title": "&nbsp;-&nbsp;Applied Music-Oboe",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1125",
-              "title": "&nbsp;-&nbsp;Applied Music-Bassoon",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1129",
-              "title": "&nbsp;-&nbsp;Applied Music-Clarinet",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1133",
-              "title": "&nbsp;-&nbsp;Applied Music-Saxophone",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1135",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Saxophone",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1137",
-              "title": "&nbsp;-&nbsp;Applied Music-Trumpet",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1139",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Trumpet",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1141",
-              "title": "&nbsp;-&nbsp;Applied Music-French Horn",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1145",
-              "title": "&nbsp;-&nbsp;Applied Music-Trombone",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1147",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Trombone",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1149",
-              "title": "&nbsp;-&nbsp;Applied Music-Euphonium",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1153",
-              "title": "&nbsp;-&nbsp;Applied Music-Tuba",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1157",
-              "title": "&nbsp;-&nbsp;Applied Music-Percussion",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1158",
-              "title": "&nbsp;-&nbsp;Applied Music-Drum Set",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1161",
-              "title": "&nbsp;-&nbsp;Applied Music-Guitar",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1163",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Guitar",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1165",
-              "title": "&nbsp;-&nbsp;Applied Music-Organ",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1171",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Piano",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1177",
-              "title": "&nbsp;-&nbsp;Applied Music-Harp",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1181",
-              "title": "&nbsp;-&nbsp;Applied Music-Voice",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "1183",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Voice",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2201",
-              "title": "&nbsp;-&nbsp;Applied Music-Violin",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2205",
-              "title": "&nbsp;-&nbsp;Applied Music-Viola",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2209",
-              "title": "&nbsp;-&nbsp;Applied Music-Cello",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2213",
-              "title": "&nbsp;-&nbsp;Applied Music-Double Bass",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2214",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Bass",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2215",
-              "title": "&nbsp;-&nbsp;Applied Music-Electric Bass",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2217",
-              "title": "&nbsp;-&nbsp;Applied Music-Flute",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2221",
-              "title": "&nbsp;-&nbsp;Applied Music-Oboe",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2225",
-              "title": "&nbsp;-&nbsp;Applied Music-Bassoon",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2229",
-              "title": "&nbsp;-&nbsp;Applied Music-Clarinet",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2233",
-              "title": "&nbsp;-&nbsp;Applied Music-Saxophone",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2235",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Saxophone",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2237",
-              "title": "&nbsp;-&nbsp;Applied Music-Trumpet",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2239",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Trumpet",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2241",
-              "title": "&nbsp;-&nbsp;Applied Music-French Horn",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2245",
-              "title": "&nbsp;-&nbsp;Applied Music-Trombone",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2247",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Trombone",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2249",
-              "title": "&nbsp;-&nbsp;Applied Music-Euphonium",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2253",
-              "title": "&nbsp;-&nbsp;Applied Music-Tuba",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2257",
-              "title": "&nbsp;-&nbsp;Applied Music-Percussion",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2258",
-              "title": "&nbsp;-&nbsp;Applied Music-Drum Set",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2261",
-              "title": "&nbsp;-&nbsp;Applied Music-Guitar",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2263",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Guitar",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2265",
-              "title": "&nbsp;-&nbsp;Applied Music-Organ",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2269",
-              "title": "&nbsp;-&nbsp;Applied Music-Piano",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2270",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Piano",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2271",
-              "title": "&nbsp;-&nbsp;Applied Music-Accordion",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2277",
-              "title": "&nbsp;-&nbsp;Applied Music-Harp",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2281",
-              "title": "&nbsp;-&nbsp;Applied Music-Voice",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2283",
-              "title": "&nbsp;-&nbsp;Applied Music - Jazz Voice",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2291",
-              "title": "&nbsp;-&nbsp;Applied Music-Composition",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2293",
-              "title": "&nbsp;-&nbsp;Applied Music-Instrumental Conducting",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2295",
-              "title": "&nbsp;-&nbsp;Applied Music-Choral Conducting",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2301",
-              "title": "&nbsp;-&nbsp;Applied Music-Violin",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2305",
-              "title": "&nbsp;-&nbsp;Applied Music-Viola",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2309",
-              "title": "&nbsp;-&nbsp;Applied Music-Cello",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2313",
-              "title": "&nbsp;-&nbsp;Applied Music-Double Bass",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2317",
-              "title": "&nbsp;-&nbsp;Applied Music-Flute",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2321",
-              "title": "&nbsp;-&nbsp;Applied Music-Oboe",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2325",
-              "title": "&nbsp;-&nbsp;Applied Music-Bassoon",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2329",
-              "title": "&nbsp;-&nbsp;Applied Music-Clarinet",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2333",
-              "title": "&nbsp;-&nbsp;Applied Music-Saxophone",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2337",
-              "title": "&nbsp;-&nbsp;Applied Music-Trumpet",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2341",
-              "title": "&nbsp;-&nbsp;Applied Music-French Horn",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2345",
-              "title": "&nbsp;-&nbsp;Applied Music-Trombone",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2349",
-              "title": "&nbsp;-&nbsp;Applied Music-Euphonium",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2353",
-              "title": "&nbsp;-&nbsp;Applied Music-Tuba",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2357",
-              "title": "&nbsp;-&nbsp;Applied Music-Percussion",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2361",
-              "title": "&nbsp;-&nbsp;Applied Music-Guitar",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2365",
-              "title": "&nbsp;-&nbsp;Applied Music-Organ",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2369",
-              "title": "&nbsp;-&nbsp;Applied Music-Piano",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2377",
-              "title": "&nbsp;-&nbsp;Applied Music-Harp",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUAP",
-              "number": "2381",
-              "title": "&nbsp;-&nbsp;Applied Music-Voice",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "MUEN",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MUEN",
-              "number": "1121",
-              "title": "&nbsp;-&nbsp;Band",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1122",
-              "title": "&nbsp;-&nbsp;Jazz Band",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1123",
-              "title": "&nbsp;-&nbsp;Band",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1124",
-              "title": "&nbsp;-&nbsp;Symphonic String Orchestra",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1125",
-              "title": "&nbsp;-&nbsp;Symphonic Wind Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1131",
-              "title": "&nbsp;-&nbsp;Keyboard Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1132",
-              "title": "&nbsp;-&nbsp;Woodwind Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1133",
-              "title": "&nbsp;-&nbsp;Brass Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1134",
-              "title": "&nbsp;-&nbsp;Guitar Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1135",
-              "title": "&nbsp;-&nbsp;Percussion Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1136",
-              "title": "&nbsp;-&nbsp;String Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1138",
-              "title": "&nbsp;-&nbsp;Harp Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1139",
-              "title": "&nbsp;-&nbsp;Jazz Combo",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1140",
-              "title": "&nbsp;-&nbsp;Mariachi",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1151",
-              "title": "&nbsp;-&nbsp;Vocal Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1152",
-              "title": "&nbsp;-&nbsp;Chamber Vocal Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1153",
-              "title": "&nbsp;-&nbsp;Madrigal Singers",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1154",
-              "title": "&nbsp;-&nbsp;Jazz Singers",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1155",
-              "title": "&nbsp;-&nbsp;Audiation Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "1156",
-              "title": "&nbsp;-&nbsp;Opera Singers",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2123",
-              "title": "&nbsp;-&nbsp;Lab Band",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2124",
-              "title": "&nbsp;-&nbsp;Philharmonic String Orchestra",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2125",
-              "title": "&nbsp;-&nbsp;Symphony Orchestra",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2131",
-              "title": "&nbsp;-&nbsp;Chamber Instrumental Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2132",
-              "title": "&nbsp;-&nbsp;New Music Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2133",
-              "title": "&nbsp;-&nbsp;Bassoon Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2134",
-              "title": "&nbsp;-&nbsp;Saxophone Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2135",
-              "title": "&nbsp;-&nbsp;Flute Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2136",
-              "title": "&nbsp;-&nbsp;Horn Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2137",
-              "title": "&nbsp;-&nbsp;Handbell Ensemble",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2138",
-              "title": "&nbsp;-&nbsp;Steel Band",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2141",
-              "title": "&nbsp;-&nbsp;Chorus",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2142",
-              "title": "&nbsp;-&nbsp;Treble Chorus",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUEN",
-              "number": "2143",
-              "title": "&nbsp;-&nbsp;Tenor Bass Chorus",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "MUSI",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MUSI",
-              "number": "1116",
-              "title": "&nbsp;-&nbsp;Sight Singing and Ear Training I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1117",
-              "title": "&nbsp;-&nbsp;Sight Singing and Ear Training II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1157",
-              "title": "&nbsp;-&nbsp;Opera Workshop",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1160",
-              "title": "&nbsp;-&nbsp;Italian Diction",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1161",
-              "title": "&nbsp;-&nbsp;International Phonetic Alphabet (IPA for Singers)",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1181",
-              "title": "&nbsp;-&nbsp;Piano Class I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1182",
-              "title": "&nbsp;-&nbsp;Piano Class II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1183",
-              "title": "&nbsp;-&nbsp;Voice Class I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1188",
-              "title": "&nbsp;-&nbsp;Percussion Class",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1192",
-              "title": "&nbsp;-&nbsp;Guitar Class I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1303",
-              "title": "&nbsp;-&nbsp;Fundamentals of Music",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1306",
-              "title": "&nbsp;-&nbsp;Music Appreciation",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1307",
-              "title": "&nbsp;-&nbsp;Music Literature",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1310",
-              "title": "&nbsp;-&nbsp;American Music",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1311",
-              "title": "&nbsp;-&nbsp;Music Theory I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "1312",
-              "title": "&nbsp;-&nbsp;Music Theory II",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "2116",
-              "title": "&nbsp;-&nbsp;Sight Singing and Ear Training III",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "2117",
-              "title": "&nbsp;-&nbsp;Sight Singing and Ear Training IV",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "2160",
-              "title": "&nbsp;-&nbsp;German Diction",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "2161",
-              "title": "&nbsp;-&nbsp;French Diction",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "2181",
-              "title": "&nbsp;-&nbsp;Piano Class III",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "2182",
-              "title": "&nbsp;-&nbsp;Piano Class IV",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "2311",
-              "title": "&nbsp;-&nbsp;Music Theory III",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "2312",
-              "title": "&nbsp;-&nbsp;Music Theory IV",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MUSI",
-              "number": "9176",
-              "title": "&nbsp;-&nbsp;Recital",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "National Phlebotomy Technician",
       "credential": "other",
       "program_code": null,
@@ -66219,72 +63534,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "NTCEF Electrician 2 Occupational Skills Award",
-      "credential": "other",
-      "program_code": "CE",
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3421",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Course(s)",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "HART",
-              "number": "1001",
-              "title": "&nbsp;-&nbsp;Basic Electricity for HVAC",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELPT",
-              "number": "1020",
-              "title": "&nbsp;-&nbsp;Fundamentals of Electricity II",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "NTCEF Electrician 3 Occupational Skills Award",
-      "credential": "other",
-      "program_code": "CE",
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3422",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Course(s)",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ELPT",
-              "number": "1045",
-              "title": "&nbsp;-&nbsp;Commercial Wiring",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELPT",
-              "number": "1057",
-              "title": "&nbsp;-&nbsp;Industrial Wiring",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "NTCEF Electrician 4 Occupational Skills Award",
       "credential": "other",
       "program_code": "CE",
@@ -66596,72 +63845,6 @@
               "prefix": "WLDG",
               "number": "2006",
               "title": "&nbsp;-&nbsp;Intermediate Pipe Welding",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "NTCEF Pipefitting 4 Occupational Skills Award",
-      "credential": "other",
-      "program_code": "CE",
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3431",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Course(s)",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "PFPB",
-              "number": "2034",
-              "title": "&nbsp;-&nbsp;Industrial Drafting Applications for Plumbing/Pipefitting",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PFPB",
-              "number": "1050",
-              "title": "&nbsp;-&nbsp;Plumbing and Pipefitting Equipment and Safety",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "NTCEF Plumber 1 Occupational skills Award",
-      "credential": "other",
-      "program_code": "CE",
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3432",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Course(s)",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "PFPB",
-              "number": "1013",
-              "title": "&nbsp;-&nbsp;Introduction to the Plumbing Trade",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PFPB",
-              "number": "1019",
-              "title": "&nbsp;-&nbsp;Commercial Plumbing I",
               "credits": null,
               "or_alternatives": []
             }
@@ -67063,110 +64246,6 @@
               "prefix": "ELTN",
               "number": "1471",
               "title": "&nbsp;-&nbsp;Electrical Construction II",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 10 Credit Hours",
-          "credits_required": 10,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Minimum Hours Required: 10 Credit Hours",
-          "credits_required": 10,
-          "choose_n": null,
-          "courses": []
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "NTE (North Texas Electrical) Journeyman Electrician 2 Occupational Skills Award",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3798",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Semester 1",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ELPT",
-              "number": "1215",
-              "title": "&nbsp;-&nbsp;Electrical Calculations I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELTN",
-              "number": "1472",
-              "title": "&nbsp;-&nbsp;Electrical Construction III",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELTN",
-              "number": "1473",
-              "title": "&nbsp;-&nbsp;Electrical Construction IV",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Semester Total: 10 Credit Hours",
-          "credits_required": 10,
-          "choose_n": null,
-          "courses": []
-        },
-        {
-          "name": "Minimum Hours Required: 10 Credit Hours",
-          "credits_required": 10,
-          "choose_n": null,
-          "courses": []
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "NTE (North Texas Electrical) Journeyman Electrician 3 Occupational Skills Award",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3799",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Semester 1",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ELPT",
-              "number": "1215",
-              "title": "&nbsp;-&nbsp;Electrical Calculations I",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELTN",
-              "number": "1474",
-              "title": "&nbsp;-&nbsp;Electrical Construction V",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ELTN",
-              "number": "1475",
-              "title": "&nbsp;-&nbsp;Electrical Construction VI",
               "credits": null,
               "or_alternatives": []
             }
@@ -70021,154 +67100,6 @@
               "prefix": "PHRA",
               "number": "1009",
               "title": "&nbsp;-&nbsp;Pharmaceutical Mathematics I",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Philosophy/Religion Courses",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3113",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "PHIL",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "PHIL",
-              "number": "1301",
-              "title": "&nbsp;-&nbsp;Introduction to Philosophy",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "1304",
-              "title": "&nbsp;-&nbsp;Introduction to World Religions",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "2289",
-              "title": "&nbsp;-&nbsp;Academic Cooperative",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "2303",
-              "title": "&nbsp;-&nbsp;Introduction to Formal Logic",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "2306",
-              "title": "&nbsp;-&nbsp;Introduction to Ethics",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "2307",
-              "title": "&nbsp;-&nbsp;Introduction to Social and Political Philosophy",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "2316",
-              "title": "&nbsp;-&nbsp;Classical Philosophy",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "2321",
-              "title": "&nbsp;-&nbsp;Philosophy of Religion",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHIL",
-              "number": "2389",
-              "title": "&nbsp;-&nbsp;Academic Cooperative",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Phlebotomy Technician",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3311",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "PLAB",
-              "number": "1023",
-              "title": "&nbsp;-&nbsp;Phlebotomy",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PLAB",
-              "number": "1060",
-              "title": "&nbsp;-&nbsp;Clinical-Phlebotomy/Phlebotomist",
-              "credits": null,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Photography",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://catalog.dallascollege.edu/preview_program.php?catoid=5&poid=3273",
-      "total_credits": null,
-      "gpa_minimum": null,
-      "description": "Powered by Modern Campus Catalog™.",
-      "requirement_groups": [
-        {
-          "name": "Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "PHTC",
-              "number": "1004",
-              "title": "&nbsp;-&nbsp;Introductory Professional Photography",
-              "credits": null,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHTC",
-              "number": "2004",
-              "title": "&nbsp;-&nbsp;Intermediate Professional Photography",
               "credits": null,
               "or_alternatives": []
             }
