@@ -1,0 +1,99 @@
+[
+  {
+    "college_code": "piedmont",
+    "term": "2027SU",
+    "course_prefix": "NUR",
+    "course_number": "102",
+    "course_title": "Practical Nursing II",
+    "credits": 10,
+    "crn": "NUR-102-91P",
+    "days": "M T",
+    "start_time": "9:00 AM",
+    "end_time": "11:50 AM",
+    "start_date": "2027-05-24",
+    "location": "Person County Campus",
+    "campus": "PERCO",
+    "mode": "in-person",
+    "instructor": "Wilson, H, Lutz, A",
+    "seats_open": 40,
+    "seats_total": 40,
+    "prerequisite_text": "NUR 101",
+    "prerequisite_courses": [
+      "NUR 101"
+    ]
+  },
+  {
+    "college_code": "piedmont",
+    "term": "2027SU",
+    "course_prefix": "NUR",
+    "course_number": "112",
+    "course_title": "Health-Illness Concepts",
+    "credits": 5,
+    "crn": "NUR-112-91C",
+    "days": "M T",
+    "start_time": "5:30 PM",
+    "end_time": "8:20 PM",
+    "start_date": "2027-05-24",
+    "location": "Caswell County Campus",
+    "campus": "CASCO",
+    "mode": "in-person",
+    "instructor": "Wilson, H, Gill, P",
+    "seats_open": 50,
+    "seats_total": 50,
+    "prerequisite_text": "NUR 111",
+    "prerequisite_courses": [
+      "NUR 111"
+    ]
+  },
+  {
+    "college_code": "piedmont",
+    "term": "2027SU",
+    "course_prefix": "NUR",
+    "course_number": "212",
+    "course_title": "Health System Concepts",
+    "credits": 5,
+    "crn": "NUR-212-61C",
+    "days": "M T W Th F Sa Su",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-05-24",
+    "location": "Caswell County Campus",
+    "campus": "CASCO",
+    "mode": "in-person",
+    "instructor": "Wilson, H, Bradford, L",
+    "seats_open": 24,
+    "seats_total": 24,
+    "prerequisite_text": "NUR 111",
+    "prerequisite_courses": [
+      "NUR 111"
+    ]
+  },
+  {
+    "college_code": "piedmont",
+    "term": "2027SU",
+    "course_prefix": "NUR",
+    "course_number": "213AB",
+    "course_title": "Complex Health Concepts",
+    "credits": 4,
+    "crn": "NUR-213AB-91C",
+    "days": "M W",
+    "start_time": "5:30 PM",
+    "end_time": "9:20 PM",
+    "start_date": "2027-05-24",
+    "location": "Caswell County Campus",
+    "campus": "CASCO",
+    "mode": "in-person",
+    "instructor": "Wilson, H, Bradford, L",
+    "seats_open": null,
+    "seats_total": null,
+    "prerequisite_text": "NUR 111 and NUR 112 and NUR 113 and NUR 114 and NUR 211 and NUR 212",
+    "prerequisite_courses": [
+      "NUR 111",
+      "NUR 112",
+      "NUR 113",
+      "NUR 114",
+      "NUR 211",
+      "NUR 212"
+    ]
+  }
+]
