@@ -6,17 +6,17 @@
     "course_number": "130",
     "course_title": "Animal Handling Skills",
     "credits": 3,
-    "crn": "AAI-130-70R1",
+    "crn": "AAI-130-70RF",
     "days": "",
     "start_time": "",
     "end_time": "",
     "start_date": "2027-01-11",
     "location": "Main Campus",
     "campus": "MC",
-    "mode": "in-person",
+    "mode": "online",
     "instructor": "Snyder, K",
-    "seats_open": 20,
-    "seats_total": 20,
+    "seats_open": 23,
+    "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -36,7 +36,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Snyder, K",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 22,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -48,7 +48,7 @@
     "course_number": "122",
     "course_title": "Transfer & Career Success",
     "credits": 1,
-    "crn": "ACA-122-50H1",
+    "crn": "ACA-122-50H1L",
     "days": "T",
     "start_time": "10:15 AM",
     "end_time": "11:30 AM",
@@ -56,8 +56,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Cuthbertson, B",
+    "seats_open": 13,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -78,7 +78,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Conner, C",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -90,7 +90,7 @@
     "course_number": "122",
     "course_title": "Transfer & Career Success",
     "credits": 1,
-    "crn": "ACA-122-50R1",
+    "crn": "ACA-122-50R1L",
     "days": "",
     "start_time": "",
     "end_time": "",
@@ -98,8 +98,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Edwards, K",
+    "seats_open": 1,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -119,8 +119,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Smith, L",
+    "seats_open": 10,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -141,28 +141,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Conner, C",
-    "seats_open": 15,
-    "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "ACA",
-    "course_number": "122",
-    "course_title": "Transfer & Career Success",
-    "credits": 1,
-    "crn": "ACA-122-51R1",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2027-01-11",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -182,8 +161,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Burnett, B",
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -216,7 +195,28 @@
     "course_number": "122",
     "course_title": "Transfer & Career Success",
     "credits": 1,
-    "crn": "ACA-122-52R1",
+    "crn": "ACA-122-52R1B",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "online",
+    "instructor": "Burnett, B",
+    "seats_open": 10,
+    "seats_total": 15,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "ACA",
+    "course_number": "122",
+    "course_title": "Transfer & Career Success",
+    "credits": 1,
+    "crn": "ACA-122-53R1E",
     "days": "",
     "start_time": "",
     "end_time": "",
@@ -225,7 +225,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -237,28 +237,7 @@
     "course_number": "122",
     "course_title": "Transfer & Career Success",
     "credits": 1,
-    "crn": "ACA-122-52R2",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2027-03-15",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
-    "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "ACA",
-    "course_number": "122",
-    "course_title": "Transfer & Career Success",
-    "credits": 1,
-    "crn": "ACA-122-53R1",
+    "crn": "ACA-122-54R1P",
     "days": "",
     "start_time": "",
     "end_time": "",
@@ -266,7 +245,7 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Evitt, N",
     "seats_open": 15,
     "seats_total": 15,
     "prerequisite_text": null,
@@ -279,28 +258,7 @@
     "course_number": "122",
     "course_title": "Transfer & Career Success",
     "credits": 1,
-    "crn": "ACA-122-53R2",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2027-03-15",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
-    "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "ACA",
-    "course_number": "122",
-    "course_title": "Transfer & Career Success",
-    "credits": 1,
-    "crn": "ACA-122-54R1",
+    "crn": "ACA-122-55R1A",
     "days": "",
     "start_time": "",
     "end_time": "",
@@ -308,8 +266,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Byers, M",
+    "seats_open": 13,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -321,7 +279,7 @@
     "course_number": "122",
     "course_title": "Transfer & Career Success",
     "credits": 1,
-    "crn": "ACA-122-55R1",
+    "crn": "ACA-122-56R1I",
     "days": "",
     "start_time": "",
     "end_time": "",
@@ -329,8 +287,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Galla, A",
+    "seats_open": 9,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -342,7 +300,7 @@
     "course_number": "122",
     "course_title": "Transfer & Career Success",
     "credits": 1,
-    "crn": "ACA-122-56R1",
+    "crn": "ACA-122-57R1M",
     "days": "",
     "start_time": "",
     "end_time": "",
@@ -350,29 +308,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
-    "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "ACA",
-    "course_number": "122",
-    "course_title": "Transfer & Career Success",
-    "credits": 1,
-    "crn": "ACA-122-57R1",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2027-01-11",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Laughter, D",
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -393,7 +330,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Bradshaw, A",
-    "seats_open": 25,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -414,7 +351,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Bradshaw, A",
-    "seats_open": 25,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -435,7 +372,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Childress, R",
-    "seats_open": 25,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -456,10 +393,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Childress, R",
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACC 120",
+    "prerequisite_courses": [
+      "ACC 120"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -477,10 +416,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Childress, R",
-    "seats_open": 25,
+    "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACC 120",
+    "prerequisite_courses": [
+      "ACC 120"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -498,10 +439,13 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Childress, R",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACC 115 or ACC 120",
+    "prerequisite_courses": [
+      "ACC 115",
+      "ACC 120"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -519,10 +463,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Childress, R",
-    "seats_open": 25,
+    "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ACC 220",
+    "prerequisite_courses": [
+      "ACC 220"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -540,7 +486,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Higgins, L",
-    "seats_open": 20,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -561,7 +507,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Higgins, L",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -582,7 +528,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Higgins, L",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -603,7 +549,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Higgins, L",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -624,7 +570,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Hollifield, M",
-    "seats_open": 12,
+    "seats_open": 2,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -645,7 +591,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Hollifield, M",
-    "seats_open": 12,
+    "seats_open": 0,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -666,7 +612,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Higgins, L",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -687,29 +633,8 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Hodge, B",
-    "seats_open": 10,
+    "seats_open": 8,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "ARC",
-    "course_number": "131",
-    "course_title": "Building Codes",
-    "credits": 3,
-    "crn": "ARC-131-01T2",
-    "days": "T Th",
-    "start_time": "12:30 PM",
-    "end_time": "2:10 PM",
-    "start_date": "2027-03-15",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "in-person",
-    "instructor": "Hollifield, M",
-    "seats_open": 12,
-    "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -728,8 +653,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Dalton, K",
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -749,8 +674,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Freeman, G",
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -770,7 +695,7 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Freeman, G",
     "seats_open": 25,
     "seats_total": 25,
     "prerequisite_text": null,
@@ -791,8 +716,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Freeman, G",
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -812,8 +737,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Dalton, K",
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -833,8 +758,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Dalton, K",
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -855,7 +780,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -876,7 +801,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Hoyle, N",
-    "seats_open": 24,
+    "seats_open": 4,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -896,8 +821,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Moffitt, D",
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -918,7 +843,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Schulte, J",
-    "seats_open": 25,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -939,7 +864,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Hoyle, N",
-    "seats_open": 25,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -960,10 +885,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Hoyle, N",
-    "seats_open": 25,
+    "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 111",
+    "prerequisite_courses": [
+      "BIO 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -981,10 +908,12 @@
     "campus": "PCEC",
     "mode": "in-person",
     "instructor": "Feldman, B",
-    "seats_open": 25,
+    "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 111",
+    "prerequisite_courses": [
+      "BIO 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -1004,8 +933,10 @@
     "instructor": "Feldman, B",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 140A",
+    "prerequisite_courses": [
+      "BIO 140A"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -1025,8 +956,10 @@
     "instructor": "Feldman, B",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 140",
+    "prerequisite_courses": [
+      "BIO 140"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -1044,7 +977,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Bridges, A",
-    "seats_open": 25,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1065,7 +998,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Schulte, J",
-    "seats_open": 24,
+    "seats_open": 11,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1086,7 +1019,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Watson, S",
-    "seats_open": 25,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1107,7 +1040,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Bridges, A",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1128,10 +1061,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Bridges, A",
-    "seats_open": 24,
+    "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 168",
+    "prerequisite_courses": [
+      "BIO 168"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -1149,10 +1084,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Schulte, J",
-    "seats_open": 24,
+    "seats_open": 13,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 168",
+    "prerequisite_courses": [
+      "BIO 168"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -1169,11 +1106,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Evans, A",
+    "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 168",
+    "prerequisite_courses": [
+      "BIO 168"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -1190,11 +1129,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Schulte, J",
+    "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BIO 168",
+    "prerequisite_courses": [
+      "BIO 168"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -1212,7 +1153,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Watson, S",
-    "seats_open": 24,
+    "seats_open": 5,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1233,7 +1174,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Watson, S",
-    "seats_open": 25,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1254,7 +1195,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Graudszus, M",
-    "seats_open": 10,
+    "seats_open": 2,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1275,7 +1216,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Hollifield, M",
-    "seats_open": 12,
+    "seats_open": 4,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1296,7 +1237,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Young, C",
-    "seats_open": 15,
+    "seats_open": 14,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1309,60 +1250,20 @@
     "course_title": "Audio Production II",
     "credits": 4,
     "crn": "BPT-132-01TF",
-    "days": "W",
-    "start_time": "1:00 PM",
-    "end_time": "2:40 PM",
+    "days": "M",
+    "start_time": "11:30 AM",
+    "end_time": "1:25 PM",
     "start_date": "2027-01-11",
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Young, C",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "BPT",
-    "course_number": "215",
-    "course_title": "Industry Career Preparation",
-    "credits": 3,
-    "crn": "BPT-215-01H2",
-    "days": "M",
-    "start_time": "11:00 AM",
-    "end_time": "1:00 PM",
-    "start_date": "2027-03-15",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "in-person",
-    "instructor": "Young, C",
-    "seats_open": 12,
-    "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "BPT",
-    "course_number": "220",
-    "course_title": "Emerging Technologies",
-    "credits": 4,
-    "crn": "BPT-220-01T2",
-    "days": "M W",
-    "start_time": "8:58 AM",
-    "end_time": "10:45 AM",
-    "start_date": "2027-03-15",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "in-person",
-    "instructor": "Young, C",
-    "seats_open": 12,
-    "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BPT 131",
+    "prerequisite_courses": [
+      "BPT 131"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -1424,8 +1325,10 @@
     "instructor": "Lane, M",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "BPT 235",
+    "prerequisite_courses": [
+      "BPT 235"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -1443,7 +1346,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Haney, R",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1464,7 +1367,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Haney, R",
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1506,29 +1409,8 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Haney, R",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "BUS",
-    "course_number": "115",
-    "course_title": "Business Law I",
-    "credits": 3,
-    "crn": "BUS-115-01H2",
-    "days": "W",
-    "start_time": "10:55 AM",
-    "end_time": "12:55 PM",
-    "start_date": "2027-03-15",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "in-person",
-    "instructor": "Johnson, M",
-    "seats_open": 20,
-    "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -1548,7 +1430,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Johnson, M",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1569,28 +1451,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Johnson, M",
-    "seats_open": 25,
-    "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "BUS",
-    "course_number": "115",
-    "course_title": "Business Law I",
-    "credits": 3,
-    "crn": "BUS-115-71R2",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2027-03-15",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "online",
-    "instructor": "Johnson, M",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1611,7 +1472,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Bland, J",
-    "seats_open": 25,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1632,7 +1493,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Johnson, M",
-    "seats_open": 25,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1653,7 +1514,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Johnson, M",
-    "seats_open": 25,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1674,7 +1535,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Johnson, M",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1695,6 +1556,27 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Johnson, M",
+    "seats_open": 24,
+    "seats_total": 25,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "BUS",
+    "course_number": "153",
+    "course_title": "Human Resource Management",
+    "credits": 3,
+    "crn": "BUS-153-70R1",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "online",
+    "instructor": "Haney, R",
     "seats_open": 25,
     "seats_total": 25,
     "prerequisite_text": null,
@@ -1716,7 +1598,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Haney, R",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1737,7 +1619,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Haney, R",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1758,10 +1640,13 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Johnson, M",
-    "seats_open": 25,
+    "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 110 or ENG 111",
+    "prerequisite_courses": [
+      "ENG 110",
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -1779,10 +1664,13 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Johnson, M",
-    "seats_open": 25,
+    "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 110 or ENG 111",
+    "prerequisite_courses": [
+      "ENG 110",
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -1800,7 +1688,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Haney, R",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1821,7 +1709,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Haney, R",
-    "seats_open": 25,
+    "seats_open": 3,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1842,7 +1730,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Haney, R",
-    "seats_open": 25,
+    "seats_open": 7,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1863,7 +1751,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Haney, R",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1884,7 +1772,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Lyda, M",
-    "seats_open": 12,
+    "seats_open": 7,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1905,7 +1793,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Lyda, M",
-    "seats_open": 12,
+    "seats_open": 0,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1917,7 +1805,7 @@
     "course_number": "210",
     "course_title": "Prof & Sys Resp to Child Malt",
     "credits": 3,
-    "crn": "CAS-210-70R1",
+    "crn": "CAS-210-71R1",
     "days": "",
     "start_time": "",
     "end_time": "",
@@ -1938,7 +1826,7 @@
     "course_number": "220",
     "course_title": "Resp Survivor of Child Abuse",
     "credits": 3,
-    "crn": "CAS-220-70R2",
+    "crn": "CAS-220-71R2",
     "days": "",
     "start_time": "",
     "end_time": "",
@@ -1968,7 +1856,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Harris, K",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -1989,7 +1877,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Hines, R",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2010,10 +1898,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Hines, R",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHM 130",
+    "prerequisite_courses": [
+      "CHM 130"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -2031,7 +1921,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Dragan, N",
-    "seats_open": 24,
+    "seats_open": 3,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2052,10 +1942,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Dragan, N",
-    "seats_open": 24,
+    "seats_open": 14,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHM 151",
+    "prerequisite_courses": [
+      "CHM 151"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -2073,10 +1965,35 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Dragan, N",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CHM 151",
+    "prerequisite_courses": [
+      "CHM 151"
+    ]
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "CHM",
+    "course_number": "152",
+    "course_title": "General Chemistry II",
+    "credits": 4,
+    "crn": "CHM-152-90WF",
+    "days": "M T W Th F",
+    "start_time": "1:30 PM",
+    "end_time": "2:15 PM",
+    "start_date": "2027-01-11",
+    "location": "Polk County Early College",
+    "campus": "PCEC",
+    "mode": "in-person",
+    "instructor": "Rhinehart, L",
+    "seats_open": 23,
+    "seats_total": 25,
+    "prerequisite_text": "CHM 151",
+    "prerequisite_courses": [
+      "CHM 151"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -2094,7 +2011,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Mitchell, K",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2115,7 +2032,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2136,7 +2053,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2157,7 +2074,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2220,7 +2137,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Kilgo, S",
-    "seats_open": 20,
+    "seats_open": 0,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2241,7 +2158,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Kilgo, S",
-    "seats_open": 20,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2262,7 +2179,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Adams, M",
-    "seats_open": 20,
+    "seats_open": 14,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2304,7 +2221,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Adams, M",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2367,7 +2284,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Adams, M",
-    "seats_open": 20,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2387,8 +2304,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Francis, C",
-    "seats_open": 20,
+    "instructor": "Adams, M",
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2408,8 +2325,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": "Francis, C",
-    "seats_open": 20,
+    "instructor": "Adams, M",
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2429,8 +2346,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Francis, C",
-    "seats_open": 20,
+    "instructor": "Adams, M",
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2450,8 +2367,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": "Francis, C",
-    "seats_open": 20,
+    "instructor": "Adams, M",
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2472,7 +2389,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Adams, M",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2492,8 +2409,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": "Francis, C",
-    "seats_open": 20,
+    "instructor": "Adams, M",
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2513,8 +2430,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": "Francis, C",
-    "seats_open": 20,
+    "instructor": "Adams, M",
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2535,7 +2452,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Adams, M",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2556,7 +2473,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Adams, M",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2577,10 +2494,14 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Adams, M",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CJC 111 and CJC 221 and CJC 231",
+    "prerequisite_courses": [
+      "CJC 111",
+      "CJC 221",
+      "CJC 231"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -2597,8 +2518,29 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Poole, K",
-    "seats_open": 25,
+    "instructor": "Johnson, E",
+    "seats_open": 23,
+    "seats_total": 25,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "COM",
+    "course_number": "231",
+    "course_title": "Public Speaking",
+    "credits": 3,
+    "crn": "COM-231-01W1",
+    "days": "T Th",
+    "start_time": "9:30 AM",
+    "end_time": "10:45 AM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Johnson, E",
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2618,8 +2560,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": "Poole, K",
-    "seats_open": 25,
+    "instructor": "Johnson, E",
+    "seats_open": 1,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2639,29 +2581,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": "Poole, K",
-    "seats_open": 25,
-    "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "COM",
-    "course_number": "231",
-    "course_title": "Public Speaking",
-    "credits": 3,
-    "crn": "COM-231-71R1",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
-    "start_date": "2027-01-11",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "online",
-    "instructor": "Poole, K",
-    "seats_open": 25,
+    "instructor": "Johnson, E",
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2681,8 +2602,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": "Poole, K",
-    "seats_open": 25,
+    "instructor": "Johnson, E",
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2702,8 +2623,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Poole, K",
-    "seats_open": 28,
+    "instructor": "Johnson, E",
+    "seats_open": 8,
     "seats_total": 28,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2724,10 +2645,13 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Harris, R",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "COS 111 and COS 112",
+    "prerequisite_courses": [
+      "COS 111",
+      "COS 112"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -2745,10 +2669,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Harris, R",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "COS 111 and COS 112",
+    "prerequisite_courses": [
+      "COS 111",
+      "COS 112"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -2766,7 +2693,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Rhoads, B",
-    "seats_open": 15,
+    "seats_open": 11,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2789,8 +2716,11 @@
     "instructor": "Pittman, J",
     "seats_open": 15,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "COS 119 and COS 120",
+    "prerequisite_courses": [
+      "COS 119",
+      "COS 120"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -2828,11 +2758,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Jones, K",
-    "seats_open": 15,
+    "instructor": "Evans, K",
+    "seats_open": 7,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "COS 121",
+    "prerequisite_courses": [
+      "COS 121"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -2850,10 +2782,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Rhoads, B",
-    "seats_open": 15,
+    "seats_open": 11,
     "seats_total": 15,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "COS 121",
+    "prerequisite_courses": [
+      "COS 121"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -2871,7 +2805,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Greene, T",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2892,7 +2826,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Greene, T",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2913,7 +2847,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Decoursey, M",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2934,7 +2868,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Stephens, J",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -2957,8 +2891,10 @@
     "instructor": "Decoursey, M",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CSC 134",
+    "prerequisite_courses": [
+      "CSC 134"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -2976,10 +2912,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Stephens, J",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CSC 151",
+    "prerequisite_courses": [
+      "CSC 151"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -2997,7 +2935,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Lyda, M",
-    "seats_open": 12,
+    "seats_open": 2,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3018,7 +2956,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3030,7 +2968,7 @@
     "course_number": "141",
     "course_title": "Cloud & Storage Concepts",
     "credits": 3,
-    "crn": "CTI-141-70R1",
+    "crn": "CTI-141-71R1",
     "days": "",
     "start_time": "",
     "end_time": "",
@@ -3039,7 +2977,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Harris, K",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3060,7 +2998,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Mitchell, K",
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3081,7 +3019,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3102,7 +3040,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Mitchell, K",
-    "seats_open": 25,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3123,8 +3061,366 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Snyder, K",
-    "seats_open": 20,
+    "seats_open": 15,
     "seats_total": 20,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "102",
+    "course_title": "Dental Materials",
+    "credits": 4,
+    "crn": "DEN-102-01TF",
+    "days": "Th",
+    "start_time": "11:45 AM",
+    "end_time": "1:45 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Bailey, M, Ingle, T",
+    "seats_open": 12,
+    "seats_total": 12,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "102",
+    "course_title": "Dental Materials",
+    "credits": 4,
+    "crn": "DEN-102-02TF",
+    "days": "Th",
+    "start_time": "11:45 AM",
+    "end_time": "1:45 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Bailey, M, Ingle, T",
+    "seats_open": 12,
+    "seats_total": 12,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "104",
+    "course_title": "Dental Health Education",
+    "credits": 3,
+    "crn": "DEN-104-01TF",
+    "days": "M",
+    "start_time": "10:00 AM",
+    "end_time": "12:18 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Bailey, M",
+    "seats_open": 12,
+    "seats_total": 12,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "104",
+    "course_title": "Dental Health Education",
+    "credits": 3,
+    "crn": "DEN-104-02TF",
+    "days": "M",
+    "start_time": "10:00 AM",
+    "end_time": "12:18 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": null,
+    "seats_open": 12,
+    "seats_total": 12,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "105",
+    "course_title": "Practice Management",
+    "credits": 2,
+    "crn": "DEN-105-70RF",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "online",
+    "instructor": "Bailey, M, Jenkins, S",
+    "seats_open": 24,
+    "seats_total": 24,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "106",
+    "course_title": "Clinical Practice I",
+    "credits": 6,
+    "crn": "DEN-106-01TF",
+    "days": "W",
+    "start_time": "2:00 PM",
+    "end_time": "4:00 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Jenkins, S",
+    "seats_open": 24,
+    "seats_total": 24,
+    "prerequisite_text": "DEN 101",
+    "prerequisite_courses": [
+      "DEN 101"
+    ]
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "123",
+    "course_title": "Nutrition/Dental Health",
+    "credits": 2,
+    "crn": "DEN-123-70RF",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "online",
+    "instructor": "Jenkins, S",
+    "seats_open": 10,
+    "seats_total": 10,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "124",
+    "course_title": "Periodontology",
+    "credits": 2,
+    "crn": "DEN-124-01TF",
+    "days": "T",
+    "start_time": "6:30 PM",
+    "end_time": "8:30 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Jenkins, S",
+    "seats_open": 10,
+    "seats_total": 10,
+    "prerequisite_text": "DEN 110",
+    "prerequisite_courses": [
+      "DEN 110"
+    ]
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "125",
+    "course_title": "Dental Office Emergencies",
+    "credits": 1,
+    "crn": "DEN-125-01TF",
+    "days": "W",
+    "start_time": "8:00 AM",
+    "end_time": "10:00 AM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Jenkins, S",
+    "seats_open": 10,
+    "seats_total": 10,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "130",
+    "course_title": "Dental Hygiene Theory I",
+    "credits": 2,
+    "crn": "DEN-130-01TF",
+    "days": "Th",
+    "start_time": "4:00 PM",
+    "end_time": "6:00 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Jenkins, S",
+    "seats_open": 10,
+    "seats_total": 10,
+    "prerequisite_text": "DEN 120 and DEN 131",
+    "prerequisite_courses": [
+      "DEN 120",
+      "DEN 131"
+    ]
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "131",
+    "course_title": "Dental Hygiene Clinic I",
+    "credits": 3,
+    "crn": "DEN-131-01TF",
+    "days": "T",
+    "start_time": "8:30 AM",
+    "end_time": "11:30 AM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Jenkins, S",
+    "seats_open": 5,
+    "seats_total": 5,
+    "prerequisite_text": "DEN 121 and DEN 130",
+    "prerequisite_courses": [
+      "DEN 121",
+      "DEN 130"
+    ]
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "131",
+    "course_title": "Dental Hygiene Clinic I",
+    "credits": 3,
+    "crn": "DEN-131-02TF",
+    "days": "Th",
+    "start_time": "6:30 PM",
+    "end_time": "9:30 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Jenkins, S",
+    "seats_open": 5,
+    "seats_total": 5,
+    "prerequisite_text": "DEN 121 and DEN 130",
+    "prerequisite_courses": [
+      "DEN 121",
+      "DEN 130"
+    ]
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "230",
+    "course_title": "Dental Hygiene Theory IV",
+    "credits": 1,
+    "crn": "DEN-230-01TF",
+    "days": "Th",
+    "start_time": "7:15 PM",
+    "end_time": "8:15 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Jenkins, S",
+    "seats_open": 10,
+    "seats_total": 10,
+    "prerequisite_text": "DEN 220 and DEN 231",
+    "prerequisite_courses": [
+      "DEN 220",
+      "DEN 231"
+    ]
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "231",
+    "course_title": "Dental Hygiene Clinic IV",
+    "credits": 4,
+    "crn": "DEN-231-01TF",
+    "days": "M",
+    "start_time": "3:00 PM",
+    "end_time": "7:35 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Jenkins, S",
+    "seats_open": 5,
+    "seats_total": 5,
+    "prerequisite_text": "DEN 221 and DEN 230",
+    "prerequisite_courses": [
+      "DEN 221",
+      "DEN 230"
+    ]
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "231",
+    "course_title": "Dental Hygiene Clinic IV",
+    "credits": 4,
+    "crn": "DEN-231-02TF",
+    "days": "W",
+    "start_time": "12:00 PM",
+    "end_time": "4:00 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Jenkins, S",
+    "seats_open": 5,
+    "seats_total": 5,
+    "prerequisite_text": "DEN 221 and DEN 230",
+    "prerequisite_courses": [
+      "DEN 221",
+      "DEN 230"
+    ]
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "DEN",
+    "course_number": "232",
+    "course_title": "Community Dental Health",
+    "credits": 3,
+    "crn": "DEN-232-01TF",
+    "days": "Th",
+    "start_time": "5:00 PM",
+    "end_time": "7:00 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Jenkins, S",
+    "seats_open": 10,
+    "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -3144,10 +3440,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Graudszus, M",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "DFT 111 and DFT 112A",
+    "prerequisite_courses": [
+      "DFT 111",
+      "DFT 112A"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3165,10 +3464,13 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Graudszus, M",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "DFT 111 and DFT 112A",
+    "prerequisite_courses": [
+      "DFT 111",
+      "DFT 112A"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3186,10 +3488,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Graudszus, M",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "DFT 112 and DFT 111A",
+    "prerequisite_courses": [
+      "DFT 112",
+      "DFT 111A"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3207,10 +3512,13 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Graudszus, M",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "DFT 112 and DFT 111A",
+    "prerequisite_courses": [
+      "DFT 112",
+      "DFT 111A"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3249,7 +3557,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Graudszus, M",
-    "seats_open": 10,
+    "seats_open": 7,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3270,7 +3578,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Hodge, B",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3291,7 +3599,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Hodge, B",
-    "seats_open": 10,
+    "seats_open": 8,
     "seats_total": 10,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3312,7 +3620,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Thompson, A",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3333,7 +3641,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Bland, J",
-    "seats_open": 20,
+    "seats_open": 2,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3354,7 +3662,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Bland, J",
-    "seats_open": 25,
+    "seats_open": 13,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3375,7 +3683,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Bland, J",
-    "seats_open": 25,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3417,7 +3725,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Bland, J",
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3438,7 +3746,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Bland, J",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3459,7 +3767,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Bland, J",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3479,8 +3787,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Brantley, A",
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3501,7 +3809,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3522,7 +3830,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Clay, S",
-    "seats_open": 25,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3564,10 +3872,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "McCluney, A",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDU 119",
+    "prerequisite_courses": [
+      "EDU 119"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3585,7 +3895,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "McCluney, A",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3606,7 +3916,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3627,10 +3937,15 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Clay, S",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDU 144 and EDU 145 and PSY 244 and PSY 245",
+    "prerequisite_courses": [
+      "EDU 144",
+      "EDU 145",
+      "PSY 244",
+      "PSY 245"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3639,7 +3954,7 @@
     "course_number": "234",
     "course_title": "Infants, Toddlers, and Twos",
     "credits": 3,
-    "crn": "EDU-234-01H2",
+    "crn": "EDU-234-02H2",
     "days": "T",
     "start_time": "4:00 PM",
     "end_time": "6:00 PM",
@@ -3647,11 +3962,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Brantley, A",
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDU 144",
+    "prerequisite_courses": [
+      "EDU 144"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3669,10 +3986,15 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "McCluney, A",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111 and MAT 143 and ENG 111 and MAT 152 and ENG 111 and MAT 171",
+    "prerequisite_courses": [
+      "ENG 111",
+      "MAT 143",
+      "MAT 152",
+      "MAT 171"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3690,10 +4012,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Clay, S",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDU 119",
+    "prerequisite_courses": [
+      "EDU 119"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3711,10 +4035,13 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Clay, S",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDU 261 and EDU 119",
+    "prerequisite_courses": [
+      "EDU 261",
+      "EDU 119"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3732,29 +4059,8 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "EDU",
-    "course_number": "281",
-    "course_title": "Instruc Strat/Read & Writ",
-    "credits": 3,
-    "crn": "EDU-281-01CF",
-    "days": "Th",
-    "start_time": "3:00 PM",
-    "end_time": "3:50 PM",
-    "start_date": "2027-01-11",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "in-person",
-    "instructor": "McCluney, A",
-    "seats_open": 12,
-    "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -3773,7 +4079,7 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": "McCluney, A",
+    "instructor": "Clay, S",
     "seats_open": 25,
     "seats_total": 25,
     "prerequisite_text": null,
@@ -3795,10 +4101,18 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "McCluney, A",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EDU 119 and EDU 144 and EDU 145 and EDU 146 and EDU 151 and EDU 119 and PSY 244 and PSY 245 and EDU 146 and EDU 151 and EDU 119 and EDU 144 and PSY 245 and EDU 146 and EDU 151 and EDU 119 and PSY 244 and EDU 145 and EDU 146 and EDU 151",
+    "prerequisite_courses": [
+      "EDU 119",
+      "EDU 144",
+      "EDU 145",
+      "EDU 146",
+      "EDU 151",
+      "PSY 244",
+      "PSY 245"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3816,8 +4130,29 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Roach, C",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 20,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "EGR",
+    "course_number": "125",
+    "course_title": "Appl Software for Tech",
+    "credits": 2,
+    "crn": "EGR-125-01H1",
+    "days": "M T W Th F Sa Su",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "online",
+    "instructor": "Allen, J",
+    "seats_open": 11,
+    "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -3837,10 +4172,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Roach, C",
-    "seats_open": 20,
+    "seats_open": 18,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 121 or MAT 171",
+    "prerequisite_courses": [
+      "MAT 121",
+      "MAT 171"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -3878,8 +4216,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 16,
+    "instructor": "Wall, B",
+    "seats_open": 12,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3900,7 +4238,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Gibert, W",
-    "seats_open": 16,
+    "seats_open": 10,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3920,8 +4258,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 16,
+    "instructor": "Wall, B",
+    "seats_open": 12,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3942,7 +4280,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Gibert, W",
-    "seats_open": 16,
+    "seats_open": 14,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3962,8 +4300,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 16,
+    "instructor": "Wall, B",
+    "seats_open": 12,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -3984,7 +4322,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Gibert, W",
-    "seats_open": 16,
+    "seats_open": 12,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4025,8 +4363,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 20,
+    "instructor": "Allen, R",
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4046,8 +4384,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 20,
+    "instructor": "Sharar, S",
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4068,8 +4406,8 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Hodge, B",
-    "seats_open": 10,
-    "seats_total": 10,
+    "seats_open": 14,
+    "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -4088,8 +4426,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Wall, B",
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4109,7 +4447,7 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Wall, B",
     "seats_open": 16,
     "seats_total": 16,
     "prerequisite_text": null,
@@ -4130,8 +4468,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 16,
+    "instructor": "Allen, J",
+    "seats_open": 15,
     "seats_total": 16,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4151,7 +4489,7 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Roach, C",
+    "instructor": "Allen, J",
     "seats_open": 20,
     "seats_total": 20,
     "prerequisite_text": null,
@@ -4172,11 +4510,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 20,
+    "instructor": "Allen, R",
+    "seats_open": 18,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ELC 128",
+    "prerequisite_courses": [
+      "ELC 128"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4193,11 +4533,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 20,
+    "instructor": "Sharar, S",
+    "seats_open": 19,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ELC 128",
+    "prerequisite_courses": [
+      "ELC 128"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4215,10 +4557,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Hollifield, S",
-    "seats_open": 20,
+    "seats_open": 16,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ELC 112 or ELC 139",
+    "prerequisite_courses": [
+      "ELC 112",
+      "ELC 139"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4236,10 +4581,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 20,
+    "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ELC 112 or ELC 138",
+    "prerequisite_courses": [
+      "ELC 112",
+      "ELC 138"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4257,7 +4605,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4298,8 +4646,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Earle, C",
+    "seats_open": 13,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4319,8 +4667,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Earle, C",
+    "seats_open": 12,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4340,8 +4688,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Earle, C",
+    "seats_open": 4,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4361,7 +4709,7 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Earle, C",
     "seats_open": 15,
     "seats_total": 15,
     "prerequisite_text": null,
@@ -4382,7 +4730,7 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Cochran, E",
     "seats_open": 15,
     "seats_total": 15,
     "prerequisite_text": null,
@@ -4403,8 +4751,29 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Morgan, M",
     "seats_open": 15,
+    "seats_total": 15,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "ENG",
+    "course_number": "045",
+    "course_title": "English Skills Support",
+    "credits": 2,
+    "crn": "ENG-045-52R1",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "online",
+    "instructor": "Chapman, L",
+    "seats_open": 13,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4425,10 +4794,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Taylor, K",
-    "seats_open": 25,
+    "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 045",
+    "prerequisite_courses": [
+      "ENG 045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4446,10 +4817,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Taylor, K",
-    "seats_open": 25,
+    "seats_open": 20,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 045",
+    "prerequisite_courses": [
+      "ENG 045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4467,10 +4840,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Whelchel, E",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 045",
+    "prerequisite_courses": [
+      "ENG 045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4488,10 +4863,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Smith, L",
-    "seats_open": 25,
+    "seats_open": 2,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 045",
+    "prerequisite_courses": [
+      "ENG 045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4508,11 +4885,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Knobil, E",
+    "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 045",
+    "prerequisite_courses": [
+      "ENG 045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4530,10 +4909,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Taylor, K",
-    "seats_open": 25,
+    "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 045",
+    "prerequisite_courses": [
+      "ENG 045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4550,11 +4931,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Whelchel, E",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 045",
+    "prerequisite_courses": [
+      "ENG 045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4571,11 +4954,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Finucan, K",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 045",
+    "prerequisite_courses": [
+      "ENG 045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4592,11 +4977,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Smith, L",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 045",
+    "prerequisite_courses": [
+      "ENG 045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4614,10 +5001,12 @@
     "campus": "PCEC",
     "mode": "in-person",
     "instructor": "Chapman, L",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 045",
+    "prerequisite_courses": [
+      "ENG 045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4635,10 +5024,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Humphries, M",
-    "seats_open": 25,
+    "seats_open": 9,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 045",
+    "prerequisite_courses": [
+      "ENG 045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4656,10 +5047,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Smith, L",
-    "seats_open": 24,
+    "seats_open": 18,
     "seats_total": 24,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4677,10 +5070,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Burris, J",
-    "seats_open": 25,
+    "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4698,10 +5093,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Whelchel, E",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4719,10 +5116,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Burris, J",
-    "seats_open": 25,
+    "seats_open": 6,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4740,10 +5139,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Smith, L",
-    "seats_open": 25,
+    "seats_open": 8,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4761,10 +5162,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Taylor, K",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4781,11 +5184,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
+    "instructor": "Whelchel, E",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4803,10 +5208,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Burris, J",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4824,10 +5231,35 @@
     "campus": "PCEC",
     "mode": "in-person",
     "instructor": "Chapman, L",
+    "seats_open": 21,
+    "seats_total": 25,
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "ENG",
+    "course_number": "112",
+    "course_title": "Writing/Research in the Disc",
+    "credits": 3,
+    "crn": "ENG-112-90W1",
+    "days": "T Th",
+    "start_time": "8:00 AM",
+    "end_time": "9:30 AM",
+    "start_date": "2027-01-11",
+    "location": "Lake Lure Classical Acadamy",
+    "campus": "LLCA",
+    "mode": "in-person",
+    "instructor": "Whelchel, E",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4845,10 +5277,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Humphries, M",
-    "seats_open": 25,
+    "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4866,10 +5300,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Burris, J",
-    "seats_open": 25,
+    "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 112",
+    "prerequisite_courses": [
+      "ENG 112"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4887,10 +5323,39 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Smith, L",
-    "seats_open": 25,
+    "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 112 or ENG 113 or ENG 114",
+    "prerequisite_courses": [
+      "ENG 112",
+      "ENG 113",
+      "ENG 114"
+    ]
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "ENG",
+    "course_number": "241",
+    "course_title": "British Literature I",
+    "credits": 3,
+    "crn": "ENG-241-90TF",
+    "days": "M T W Th F",
+    "start_time": "8:00 AM",
+    "end_time": "9:30 AM",
+    "start_date": "2027-01-11",
+    "location": "Polk County Early College",
+    "campus": "PCEC",
+    "mode": "in-person",
+    "instructor": "Chapman, L",
+    "seats_open": 15,
+    "seats_total": 20,
+    "prerequisite_text": "ENG 112 or ENG 113 or ENG 114",
+    "prerequisite_courses": [
+      "ENG 112",
+      "ENG 113",
+      "ENG 114"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4908,10 +5373,14 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Whelchel, E",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 112 or ENG 113 or ENG 114",
+    "prerequisite_courses": [
+      "ENG 112",
+      "ENG 113",
+      "ENG 114"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -4929,7 +5398,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": null,
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -4950,10 +5419,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EQU 111",
+    "prerequisite_courses": [
+      "EQU 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -5013,10 +5484,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Johnson, M",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EQU 111",
+    "prerequisite_courses": [
+      "EQU 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -5034,10 +5507,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Hollifield, S",
-    "seats_open": 20,
+    "seats_open": 13,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "EUS 110",
+    "prerequisite_courses": [
+      "EUS 110"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -5055,7 +5530,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Freeman, Z",
-    "seats_open": 18,
+    "seats_open": 13,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5076,7 +5551,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "White, G",
-    "seats_open": 18,
+    "seats_open": 12,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5099,8 +5574,13 @@
     "instructor": "White, G",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "GRD 121 and ART 131 and GRD 141 and GRD 151",
+    "prerequisite_courses": [
+      "GRD 121",
+      "ART 131",
+      "GRD 141",
+      "GRD 151"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -5120,8 +5600,10 @@
     "instructor": "White, G",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "GRD 131",
+    "prerequisite_courses": [
+      "GRD 131"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -5141,8 +5623,10 @@
     "instructor": "White, G",
     "seats_open": 12,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "GRD 132",
+    "prerequisite_courses": [
+      "GRD 132"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -5160,10 +5644,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Freeman, Z",
-    "seats_open": 22,
+    "seats_open": 21,
     "seats_total": 22,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ART 121 or GRD 141",
+    "prerequisite_courses": [
+      "ART 121",
+      "GRD 141"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -5172,16 +5659,16 @@
     "course_number": "153",
     "course_title": "Computer Design Solutions",
     "credits": 3,
-    "crn": "GRD-153-01H1",
-    "days": "M T W Th",
-    "start_time": "11:30 AM",
-    "end_time": "12:25 PM",
+    "crn": "GRD-153-70R1",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
     "start_date": "2027-01-11",
     "location": "Main Campus",
     "campus": "MC",
-    "mode": "in-person",
+    "mode": "online",
     "instructor": "Freeman, Z",
-    "seats_open": 18,
+    "seats_open": 16,
     "seats_total": 18,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5202,10 +5689,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Mistretta, M",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "GRD 167",
+    "prerequisite_courses": [
+      "GRD 167"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -5223,10 +5712,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Mistretta, M",
-    "seats_open": 10,
+    "seats_open": 9,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "GRD 167",
+    "prerequisite_courses": [
+      "GRD 167"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -5244,7 +5735,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Mistretta, M",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5256,19 +5747,21 @@
     "course_number": "280",
     "course_title": "Portfolio Design",
     "credits": 4,
-    "crn": "GRD-280-01WF",
+    "crn": "GRD-280-02WF",
     "days": "M T W Th",
-    "start_time": "11:25 AM",
-    "end_time": "11:35 AM",
+    "start_time": "11:30 AM",
+    "end_time": "11:40 AM",
     "start_date": "2027-01-11",
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Freeman, Z",
+    "instructor": "Mistretta, M",
     "seats_open": 18,
     "seats_total": 18,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "GRD 142",
+    "prerequisite_courses": [
+      "GRD 142"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -5286,7 +5779,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Byers, M",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5307,7 +5800,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Byers, M",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5370,7 +5863,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Byers, M",
-    "seats_open": 25,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5391,7 +5884,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Parker, B",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5412,7 +5905,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Parker, B",
-    "seats_open": 25,
+    "seats_open": 12,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5433,7 +5926,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Camper, S",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5454,7 +5947,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Parker, B",
-    "seats_open": 25,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5475,7 +5968,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5496,7 +5989,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Parker, B",
-    "seats_open": 25,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5517,7 +6010,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Parker, B",
-    "seats_open": 25,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5538,7 +6031,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Parker, B",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5580,7 +6073,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Marshburn, B",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5601,7 +6094,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Higgins, L",
-    "seats_open": 20,
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5622,7 +6115,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Higgins, L",
-    "seats_open": 20,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5643,7 +6136,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Snyder, K",
-    "seats_open": 20,
+    "seats_open": 8,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5664,7 +6157,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Snyder, K",
-    "seats_open": 20,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5685,7 +6178,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Snyder, K",
-    "seats_open": 20,
+    "seats_open": 11,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5706,7 +6199,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Snyder, K",
-    "seats_open": 20,
+    "seats_open": 16,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5727,7 +6220,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Jones, J",
-    "seats_open": 24,
+    "seats_open": 21,
     "seats_total": 24,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5747,8 +6240,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Wooster, B",
+    "seats_open": 0,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5769,7 +6262,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Burris, J",
-    "seats_open": 25,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5790,10 +6283,33 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Humphries, M",
-    "seats_open": 25,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "HUM",
+    "course_number": "230",
+    "course_title": "Leadership Development",
+    "credits": 3,
+    "crn": "HUM-230-01W2",
+    "days": "T Th",
+    "start_time": "10:55 AM",
+    "end_time": "12:10 PM",
+    "start_date": "2027-03-15",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Burris, J",
+    "seats_open": 21,
+    "seats_total": 24,
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -5811,7 +6327,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Roach, C",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5832,8 +6348,29 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Roach, C",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
+    "prerequisite_text": null,
+    "prerequisite_courses": []
+  },
+  {
+    "college_code": "isothermal",
+    "term": "2027SP",
+    "course_prefix": "MAC",
+    "course_number": "121",
+    "course_title": "Intro to CNC",
+    "credits": 2,
+    "crn": "MAC-121-01W1",
+    "days": "M T",
+    "start_time": "3:25 PM",
+    "end_time": "4:55 PM",
+    "start_date": "2027-01-11",
+    "location": "Main Campus",
+    "campus": "MC",
+    "mode": "in-person",
+    "instructor": "Waters, J",
+    "seats_open": 7,
+    "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
   },
@@ -5852,8 +6389,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 8,
+    "instructor": "Waters, J",
+    "seats_open": 4,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5874,7 +6411,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Scruggs, D",
-    "seats_open": 8,
+    "seats_open": 3,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5895,7 +6432,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Scruggs, D",
-    "seats_open": 8,
+    "seats_open": 2,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5915,7 +6452,7 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Waters, J",
+    "instructor": "Waters, J, Scruggs, D",
     "seats_open": 8,
     "seats_total": 8,
     "prerequisite_text": null,
@@ -5936,7 +6473,7 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
+    "instructor": "Waters, J, Gordon, J",
     "seats_open": 8,
     "seats_total": 8,
     "prerequisite_text": null,
@@ -5957,8 +6494,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Waters, J",
-    "seats_open": 8,
+    "instructor": "Scruggs, D",
+    "seats_open": 7,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -5978,7 +6515,7 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Scruggs, D",
+    "instructor": "Gordon, J",
     "seats_open": 8,
     "seats_total": 8,
     "prerequisite_text": null,
@@ -6008,48 +6545,6 @@
   {
     "college_code": "isothermal",
     "term": "2027SP",
-    "course_prefix": "MAC",
-    "course_number": "234",
-    "course_title": "Adv Multi-Axis Machin",
-    "credits": 3,
-    "crn": "MAC-234-01WF",
-    "days": "W Th",
-    "start_time": "1:00 PM",
-    "end_time": "1:30 PM",
-    "start_date": "2027-01-11",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "in-person",
-    "instructor": "Waters, J",
-    "seats_open": 8,
-    "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "MAC",
-    "course_number": "234A",
-    "course_title": "Adv Multi-Axis Machin Lab",
-    "credits": 1,
-    "crn": "MAC-234A-01TF",
-    "days": "W Th",
-    "start_time": "2:55 PM",
-    "end_time": "4:10 PM",
-    "start_date": "2027-01-11",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "in-person",
-    "instructor": "Waters, J",
-    "seats_open": 8,
-    "seats_total": 8,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
     "course_prefix": "MAT",
     "course_number": "025",
     "course_title": "Concepts of Essential Math/Sta",
@@ -6063,7 +6558,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Spratt, K",
-    "seats_open": 15,
+    "seats_open": 2,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6084,7 +6579,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Spratt, K",
-    "seats_open": 15,
+    "seats_open": 8,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6105,7 +6600,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Morrow, K",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6147,7 +6642,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Morrow, K",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6210,7 +6705,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Morrow, K",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6314,8 +6809,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 15,
+    "instructor": "Laughter, D",
+    "seats_open": 12,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6336,7 +6831,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Laughter, D",
-    "seats_open": 15,
+    "seats_open": 13,
     "seats_total": 15,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6356,11 +6851,15 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Spratt, K",
-    "seats_open": 20,
+    "instructor": "Morrow, K",
+    "seats_open": 14,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 025 or MAT 7025 and MAT 045M",
+    "prerequisite_courses": [
+      "MAT 025",
+      "MAT 7025",
+      "MAT 045M"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6378,10 +6877,14 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Spratt, K",
-    "seats_open": 25,
+    "seats_open": 7,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 025 or MAT 7025 and MAT 045M",
+    "prerequisite_courses": [
+      "MAT 025",
+      "MAT 7025",
+      "MAT 045M"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6399,10 +6902,15 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Roberts, N",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 025 or MAT 7025 and MAT 045 or MAT 7045",
+    "prerequisite_courses": [
+      "MAT 025",
+      "MAT 7025",
+      "MAT 045",
+      "MAT 7045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6420,10 +6928,15 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Roberts, N",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 025 or MAT 7025 and MAT 045 or MAT 7045",
+    "prerequisite_courses": [
+      "MAT 025",
+      "MAT 7025",
+      "MAT 045",
+      "MAT 7045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6441,10 +6954,15 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Laughter, D",
-    "seats_open": 25,
+    "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 025 and MAT 045 or MAT 045S or MAT 7045",
+    "prerequisite_courses": [
+      "MAT 025",
+      "MAT 045",
+      "MAT 045S",
+      "MAT 7045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6462,10 +6980,15 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Laughter, D",
-    "seats_open": 25,
+    "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 025 and MAT 045 or MAT 045S or MAT 7045",
+    "prerequisite_courses": [
+      "MAT 025",
+      "MAT 045",
+      "MAT 045S",
+      "MAT 7045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6483,10 +7006,15 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Ireland, C",
-    "seats_open": 25,
+    "seats_open": 19,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 025 and MAT 045 or MAT 045S or MAT 7045",
+    "prerequisite_courses": [
+      "MAT 025",
+      "MAT 045",
+      "MAT 045S",
+      "MAT 7045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6504,10 +7032,15 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 025 and MAT 045 or MAT 045S or MAT 7045",
+    "prerequisite_courses": [
+      "MAT 025",
+      "MAT 045",
+      "MAT 045S",
+      "MAT 7045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6525,10 +7058,16 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Ireland, C",
-    "seats_open": 25,
+    "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 035 or MAT 7035 and MAT 045 or MAT 045P or MAT 7045",
+    "prerequisite_courses": [
+      "MAT 035",
+      "MAT 7035",
+      "MAT 045",
+      "MAT 045P",
+      "MAT 7045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6546,10 +7085,16 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 035 or MAT 7035 and MAT 045 or MAT 045P or MAT 7045",
+    "prerequisite_courses": [
+      "MAT 035",
+      "MAT 7035",
+      "MAT 045",
+      "MAT 045P",
+      "MAT 7045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6567,10 +7112,16 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 035 or MAT 7035 and MAT 045 or MAT 045P or MAT 7045",
+    "prerequisite_courses": [
+      "MAT 035",
+      "MAT 7035",
+      "MAT 045",
+      "MAT 045P",
+      "MAT 7045"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6588,10 +7139,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Petit, A",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 171",
+    "prerequisite_courses": [
+      "MAT 171"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6609,10 +7162,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Ireland, C",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 171",
+    "prerequisite_courses": [
+      "MAT 171"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6630,10 +7185,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Ireland, C",
-    "seats_open": 25,
+    "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 171",
+    "prerequisite_courses": [
+      "MAT 171"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6651,10 +7208,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Petit, A",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 172 or MAT 175",
+    "prerequisite_courses": [
+      "MAT 172",
+      "MAT 175"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6672,10 +7232,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Roberts, N",
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 172 or MAT 175",
+    "prerequisite_courses": [
+      "MAT 172",
+      "MAT 175"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6693,10 +7256,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Roberts, N",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 272",
+    "prerequisite_courses": [
+      "MAT 272"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6714,10 +7279,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Petit, A",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 272",
+    "prerequisite_courses": [
+      "MAT 272"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6735,7 +7302,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Waters, J",
-    "seats_open": 8,
+    "seats_open": 4,
     "seats_total": 8,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6756,7 +7323,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Roach, C",
-    "seats_open": 20,
+    "seats_open": 17,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6776,8 +7343,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Roach, C",
-    "seats_open": 20,
+    "instructor": "Allen, J",
+    "seats_open": 19,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6797,11 +7364,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Roach, C",
-    "seats_open": 20,
+    "instructor": "Allen, J",
+    "seats_open": 19,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MEC 231",
+    "prerequisite_courses": [
+      "MEC 231"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6819,7 +7388,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Jones, C",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6840,10 +7409,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Jones, C",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MED 121",
+    "prerequisite_courses": [
+      "MED 121"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -6861,7 +7432,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Bland, J",
-    "seats_open": 20,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6882,7 +7453,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Buchanan, A",
-    "seats_open": 25,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6903,7 +7474,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Buchanan, A",
-    "seats_open": 25,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6945,7 +7516,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Johnson, M",
-    "seats_open": 25,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6966,7 +7537,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Johnson, M",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -6987,7 +7558,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Jones, J",
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7008,7 +7579,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Lampson, K",
-    "seats_open": 25,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7029,7 +7600,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Jones, J",
-    "seats_open": 25,
+    "seats_open": 19,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7050,7 +7621,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Jones, J",
-    "seats_open": 25,
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7071,7 +7642,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Jones, J",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7092,7 +7663,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Jones, J",
-    "seats_open": 25,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7113,7 +7684,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Harris, K",
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7134,10 +7705,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Harris, K",
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "NET 125",
+    "prerequisite_courses": [
+      "NET 125"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7155,7 +7728,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Cooper, T",
-    "seats_open": 25,
+    "seats_open": 15,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7176,7 +7749,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Cooper, T",
-    "seats_open": 20,
+    "seats_open": 12,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7197,10 +7770,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Cooper, T",
-    "seats_open": 20,
+    "seats_open": 11,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MED 121 or OST 141",
+    "prerequisite_courses": [
+      "MED 121",
+      "OST 141"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7218,10 +7794,13 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Cooper, T",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "OST 247 and OST 248",
+    "prerequisite_courses": [
+      "OST 247",
+      "OST 248"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7239,10 +7818,13 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Cooper, T",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "OST 247 and OST 248",
+    "prerequisite_courses": [
+      "OST 247",
+      "OST 248"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7280,11 +7862,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Wooster, B",
+    "seats_open": 17,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7301,11 +7885,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Mason, D",
+    "seats_open": 11,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7322,11 +7908,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Mason, D",
+    "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "ENG 111",
+    "prerequisite_courses": [
+      "ENG 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7344,10 +7932,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Lipkin, M",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHY 110A",
+    "prerequisite_courses": [
+      "PHY 110A"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7365,10 +7955,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Lipkin, M",
-    "seats_open": 25,
+    "seats_open": 16,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHY 110",
+    "prerequisite_courses": [
+      "PHY 110"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7386,10 +7978,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Roach, C",
-    "seats_open": 20,
+    "seats_open": 15,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 121 or MAT 171",
+    "prerequisite_courses": [
+      "MAT 121",
+      "MAT 171"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7407,10 +8002,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Lipkin, M",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 171 or MAT 271",
+    "prerequisite_courses": [
+      "MAT 171",
+      "MAT 271"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7428,10 +8026,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Lipkin, M",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PHY 151",
+    "prerequisite_courses": [
+      "PHY 151"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7449,10 +8049,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Lipkin, M",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "MAT 272 and PHY 251",
+    "prerequisite_courses": [
+      "MAT 272",
+      "PHY 251"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7470,7 +8073,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Hollifield, M",
-    "seats_open": 12,
+    "seats_open": 4,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7491,7 +8094,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Hollifield, M",
-    "seats_open": 12,
+    "seats_open": 6,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7512,7 +8115,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "McMasters, C",
-    "seats_open": 25,
+    "seats_open": 17,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7532,8 +8135,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Kingry, K",
+    "seats_open": 8,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7553,8 +8156,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Kingry, K",
+    "seats_open": 6,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7575,7 +8178,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Hamrick, J",
-    "seats_open": 25,
+    "seats_open": 10,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7596,7 +8199,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 9,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7637,11 +8240,14 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Kingry, K",
+    "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 150 or SOC 210",
+    "prerequisite_courses": [
+      "PSY 150",
+      "SOC 210"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7658,11 +8264,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Kingry, K",
+    "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 150",
+    "prerequisite_courses": [
+      "PSY 150"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7680,10 +8288,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Beall, J",
-    "seats_open": 25,
+    "seats_open": 10,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 150",
+    "prerequisite_courses": [
+      "PSY 150"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7701,10 +8311,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": null,
-    "seats_open": 25,
+    "seats_open": 13,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 150",
+    "prerequisite_courses": [
+      "PSY 150"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7721,11 +8333,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Kingry, K",
+    "seats_open": 14,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 150",
+    "prerequisite_courses": [
+      "PSY 150"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7742,11 +8356,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
-    "instructor": null,
-    "seats_open": 25,
+    "instructor": "Kingry, K",
+    "seats_open": 12,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "PSY 150",
+    "prerequisite_courses": [
+      "PSY 150"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7764,7 +8380,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Humphries, M",
-    "seats_open": 25,
+    "seats_open": 14,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7785,7 +8401,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Humphries, M",
-    "seats_open": 25,
+    "seats_open": 20,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7806,7 +8422,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Snyder, K",
-    "seats_open": 20,
+    "seats_open": 15,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7827,7 +8443,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Snyder, K",
-    "seats_open": 20,
+    "seats_open": 13,
     "seats_total": 20,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7848,7 +8464,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Harris, K",
-    "seats_open": 25,
+    "seats_open": 22,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7869,7 +8485,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Harris, K",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7890,10 +8506,14 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Harris, K",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "CTI 110 and CTI 120 and CTS 115",
+    "prerequisite_courses": [
+      "CTI 110",
+      "CTI 120",
+      "CTS 115"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -7911,7 +8531,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Ellis, M",
-    "seats_open": 25,
+    "seats_open": 21,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7932,7 +8552,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Ellis, M",
-    "seats_open": 25,
+    "seats_open": 11,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7953,7 +8573,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Ellis, M",
-    "seats_open": 25,
+    "seats_open": 2,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -7995,7 +8615,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Ellis, M",
-    "seats_open": 25,
+    "seats_open": 5,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8016,7 +8636,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Ellis, M",
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8037,7 +8657,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Ellis, M",
-    "seats_open": 25,
+    "seats_open": 18,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8058,10 +8678,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Bivins, M",
-    "seats_open": 25,
+    "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPA 181",
+    "prerequisite_courses": [
+      "SPA 181"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8079,10 +8701,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Bivins, M",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPA 181",
+    "prerequisite_courses": [
+      "SPA 181"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8100,10 +8724,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Bivins, M",
-    "seats_open": 25,
+    "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPA 182 and SPA 111",
+    "prerequisite_courses": [
+      "SPA 182",
+      "SPA 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8123,8 +8750,11 @@
     "instructor": "Bivins, M",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPA 182 and SPA 111",
+    "prerequisite_courses": [
+      "SPA 182",
+      "SPA 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8142,10 +8772,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Bivins, M",
-    "seats_open": 25,
+    "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPA 111",
+    "prerequisite_courses": [
+      "SPA 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8163,10 +8795,12 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Bivins, M",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPA 111",
+    "prerequisite_courses": [
+      "SPA 111"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8184,10 +8818,13 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Bivins, M",
-    "seats_open": 25,
+    "seats_open": 15,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPA 111 and SPA 112",
+    "prerequisite_courses": [
+      "SPA 111",
+      "SPA 112"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8207,8 +8844,11 @@
     "instructor": "Bivins, M",
     "seats_open": 25,
     "seats_total": 25,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "SPA 111 and SPA 112",
+    "prerequisite_courses": [
+      "SPA 111",
+      "SPA 112"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8217,11 +8857,11 @@
     "course_number": "110",
     "course_title": "World of Work",
     "credits": 1,
-    "crn": "WBL-110-70R2",
+    "crn": "WBL-110-70R1",
     "days": "",
     "start_time": "",
     "end_time": "",
-    "start_date": "2027-03-15",
+    "start_date": "2027-01-11",
     "location": "Main Campus",
     "campus": "MC",
     "mode": "online",
@@ -8238,10 +8878,10 @@
     "course_number": "111",
     "course_title": "Work-Based Learning I",
     "credits": 1,
-    "crn": "WBL-111-01CF",
-    "days": "",
-    "start_time": "",
-    "end_time": "",
+    "crn": "WBL-111-01WF",
+    "days": "M T W Th F Sa",
+    "start_time": "7:00 AM",
+    "end_time": "7:30 AM",
     "start_date": "2027-01-11",
     "location": "Main Campus",
     "campus": "MC",
@@ -8270,8 +8910,13 @@
     "instructor": "Snyder, K",
     "seats_open": 20,
     "seats_total": 20,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "WBL 111 or WBL 112 or WBL 113 or WBL 114",
+    "prerequisite_courses": [
+      "WBL 111",
+      "WBL 112",
+      "WBL 113",
+      "WBL 114"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8289,7 +8934,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Mitchell, K",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8310,7 +8955,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Mitchell, K",
-    "seats_open": 25,
+    "seats_open": 24,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8331,7 +8976,7 @@
     "campus": "MC",
     "mode": "online",
     "instructor": "Greene, T",
-    "seats_open": 25,
+    "seats_open": 23,
     "seats_total": 25,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8351,29 +8996,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Nelson, H",
-    "seats_open": 12,
-    "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
-  },
-  {
-    "college_code": "isothermal",
-    "term": "2027SP",
-    "course_prefix": "WLD",
-    "course_number": "112",
-    "course_title": "Basic Welding Processes",
-    "credits": 2,
-    "crn": "WLD-112-01T2",
-    "days": "T Th",
-    "start_time": "8:00 AM",
-    "end_time": "8:50 AM",
-    "start_date": "2027-03-15",
-    "location": "Main Campus",
-    "campus": "MC",
-    "mode": "in-person",
-    "instructor": "Price, A",
-    "seats_open": 12,
+    "instructor": null,
+    "seats_open": 10,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8385,16 +9009,16 @@
     "course_number": "115",
     "course_title": "SMAW (Stick) Plate",
     "credits": 5,
-    "crn": "WLD-115-90TF",
+    "crn": "WLD-115-91TF",
     "days": "M T W Th",
-    "start_time": "2:00 PM",
-    "end_time": "2:26 PM",
+    "start_time": "2:05 PM",
+    "end_time": "2:31 PM",
     "start_date": "2027-01-11",
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Nelson, H",
-    "seats_open": 12,
+    "instructor": null,
+    "seats_open": 9,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8415,7 +9039,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Price, A",
-    "seats_open": 12,
+    "seats_open": 0,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8436,7 +9060,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Price, A",
-    "seats_open": 12,
+    "seats_open": 7,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8457,10 +9081,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Price, A",
-    "seats_open": 10,
+    "seats_open": 0,
     "seats_total": 10,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "WLD 121",
+    "prerequisite_courses": [
+      "WLD 121"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8477,8 +9103,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Nelson, H",
-    "seats_open": 12,
+    "instructor": null,
+    "seats_open": 3,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8498,8 +9124,8 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Nelson, H",
-    "seats_open": 12,
+    "instructor": null,
+    "seats_open": 10,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
@@ -8520,10 +9146,12 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Thomson, J",
-    "seats_open": 12,
+    "seats_open": 7,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "WLD 131",
+    "prerequisite_courses": [
+      "WLD 131"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8540,11 +9168,13 @@
     "location": "Main Campus",
     "campus": "MC",
     "mode": "in-person",
-    "instructor": "Nelson, H",
-    "seats_open": 12,
+    "instructor": null,
+    "seats_open": 9,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "WLD 131",
+    "prerequisite_courses": [
+      "WLD 131"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8562,10 +9192,14 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Thomson, J",
-    "seats_open": 12,
+    "seats_open": 11,
     "seats_total": 12,
-    "prerequisite_text": null,
-    "prerequisite_courses": []
+    "prerequisite_text": "WLD 115 and WLD 121 and WLD 131",
+    "prerequisite_courses": [
+      "WLD 115",
+      "WLD 121",
+      "WLD 131"
+    ]
   },
   {
     "college_code": "isothermal",
@@ -8583,7 +9217,7 @@
     "campus": "MC",
     "mode": "in-person",
     "instructor": "Price, A",
-    "seats_open": 12,
+    "seats_open": 10,
     "seats_total": 12,
     "prerequisite_text": null,
     "prerequisite_courses": []
