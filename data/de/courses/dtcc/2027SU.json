@@ -1,0 +1,40 @@
+[
+  {
+    "college_code": "dtcc",
+    "term": "2027SU",
+    "course_prefix": "ITN",
+    "course_number": "291",
+    "course_title": "IT Internship",
+    "credits": 4,
+    "crn": "31099",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "",
+    "location": "",
+    "campus": "George",
+    "mode": "online",
+    "instructor": null,
+    "seats_open": 30,
+    "seats_total": 30,
+    "prerequisite_text": "ITN 101 and ITN 103 and ITN 110 and ITN 120 and ITN 150 and ITN 160 and ITN 170 and ITN 180 and ITN 200 and (ITN 251 or ITN 261 or ITN 264 or ITN 271 or ITN 272 or ITN 273 or ITN 274)",
+    "prerequisite_courses": [
+      "ITN 101",
+      "ITN 103",
+      "ITN 110",
+      "ITN 120",
+      "ITN 150",
+      "ITN 160",
+      "ITN 170",
+      "ITN 180",
+      "ITN 200",
+      "ITN 251",
+      "ITN 261",
+      "ITN 264",
+      "ITN 271",
+      "ITN 272",
+      "ITN 273",
+      "ITN 274"
+    ]
+  }
+]
