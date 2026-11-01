@@ -2,7 +2,7 @@
   "college_slug": "mitchell",
   "catalog_year": "2025-2026",
   "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/",
-  "scraped_at": "2026-06-01T13:45:41.108Z",
+  "scraped_at": "2026-11-01T15:00:07.761Z",
   "programs": [
     {
       "title": "Accounting and Finance A.A.S. Degree [A25800]",
@@ -212,6 +212,290 @@
       "matched_program_slug": "accounting"
     },
     {
+      "title": "Personal Finance Certificate [C25800P] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/accounting-and-finance/personal-finance-certificate-c25800p",
+      "total_credits": 17,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ACC",
+              "number": "120",
+              "title": "Principles of Financial Accounting",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "121",
+              "title": "Principles of Managerial Accounting",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "129",
+              "title": "Individual Income Taxes",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "125",
+              "title": "Personal Finance",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECO",
+              "number": "251",
+              "title": "Principles of Microeconomics",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Accounting Certificate [C25800A] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/accounting-and-finance/accounting-certificate-c25800a",
+      "total_credits": 17,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ACC",
+              "number": "120",
+              "title": "Principles of Financial Accounting",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "121",
+              "title": "Principles of Managerial Accounting",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "140",
+              "title": "Payroll Accounting",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "149",
+              "title": "Introduction to Accounting Spreadsheets",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "150",
+              "title": "Accounting Software Applications",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "125",
+              "title": "Personal Finance",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "accounting"
+    },
+    {
+      "title": "Bookkeeping Certificate [C25800B] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/accounting-and-finance/bookkeeping-certificate-c25800b",
+      "total_credits": 16,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ACC",
+              "number": "120",
+              "title": "Principles of Financial Accounting",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "140",
+              "title": "Payroll Accounting",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "149",
+              "title": "Introduction to Accounting Spreadsheets",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "150",
+              "title": "Accounting Software Applications",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "180",
+              "title": "Practices in Bookkeeping",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "110",
+              "title": "Introduction to Business",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Accounting Foundations Certificate [C25800F] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/accounting-and-finance/accounting-foundations-certificate-c25800f",
+      "total_credits": 14,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ACC",
+              "number": "120",
+              "title": "Principles of Financial Accounting",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "121",
+              "title": "Principles of Managerial Accounting",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "110",
+              "title": "Introduction to Business",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "115",
+              "title": "Business Law I",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "accounting"
+    },
+    {
+      "title": "Income Tax Preparer Certificate [C25800I] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/accounting-and-finance/income-tax-preparer-certificate-c25800i",
+      "total_credits": 17,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ACC",
+              "number": "120",
+              "title": "Principles of Financial Accounting",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "129",
+              "title": "Individual Income Taxes",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "130",
+              "title": "Business Income Taxes",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "149",
+              "title": "Introduction to Accounting Spreadsheets",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "150",
+              "title": "Accounting Software Applications",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "125",
+              "title": "Personal Finance",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Accounting and Finance Diploma Program [D25800]",
       "credential": "diploma",
       "program_code": null,
@@ -327,290 +611,6 @@
         }
       ],
       "matched_program_slug": "accounting"
-    },
-    {
-      "title": "Accounting Foundations Certificate [C25800F] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/accounting-and-finance/accounting-foundations-certificate-c25800f",
-      "total_credits": 14,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ACC",
-              "number": "120",
-              "title": "Principles of Financial Accounting",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "121",
-              "title": "Principles of Managerial Accounting",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "110",
-              "title": "Introduction to Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "115",
-              "title": "Business Law I",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "accounting"
-    },
-    {
-      "title": "Accounting Certificate [C25800A] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/accounting-and-finance/accounting-certificate-c25800a",
-      "total_credits": 17,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ACC",
-              "number": "120",
-              "title": "Principles of Financial Accounting",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "121",
-              "title": "Principles of Managerial Accounting",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "140",
-              "title": "Payroll Accounting",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "149",
-              "title": "Introduction to Accounting Spreadsheets",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "150",
-              "title": "Accounting Software Applications",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "125",
-              "title": "Personal Finance",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "accounting"
-    },
-    {
-      "title": "Income Tax Preparer Certificate [C25800I] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/accounting-and-finance/income-tax-preparer-certificate-c25800i",
-      "total_credits": 17,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ACC",
-              "number": "120",
-              "title": "Principles of Financial Accounting",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "129",
-              "title": "Individual Income Taxes",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "130",
-              "title": "Business Income Taxes",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "149",
-              "title": "Introduction to Accounting Spreadsheets",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "150",
-              "title": "Accounting Software Applications",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "125",
-              "title": "Personal Finance",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Bookkeeping Certificate [C25800B] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/accounting-and-finance/bookkeeping-certificate-c25800b",
-      "total_credits": 16,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ACC",
-              "number": "120",
-              "title": "Principles of Financial Accounting",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "140",
-              "title": "Payroll Accounting",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "149",
-              "title": "Introduction to Accounting Spreadsheets",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "150",
-              "title": "Accounting Software Applications",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "180",
-              "title": "Practices in Bookkeeping",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "110",
-              "title": "Introduction to Business",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Personal Finance Certificate [C25800P] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/accounting-and-finance/personal-finance-certificate-c25800p",
-      "total_credits": 17,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ACC",
-              "number": "120",
-              "title": "Principles of Financial Accounting",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "121",
-              "title": "Principles of Managerial Accounting",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "129",
-              "title": "Individual Income Taxes",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "125",
-              "title": "Personal Finance",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECO",
-              "number": "251",
-              "title": "Principles of Microeconomics",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
     },
     {
       "title": "Agribusiness Technology A.A.S. Degree [A15100] - No Longer Accepting Applications Beginning Fall 2025",
@@ -915,60 +915,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Sustainable Farming Methods Certificate [C15100C] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/agribusiness-technology/sustainable-farming-methods-certificate-c15100c",
-      "total_credits": 15,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "AGR",
-              "number": "139",
-              "title": "Introduction to Sustainable Agriculture",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AGR",
-              "number": "160",
-              "title": "Plant Science",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AGR",
-              "number": "212",
-              "title": "Farm Business Management",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AGR",
-              "number": "265",
-              "title": "Organic Crop Production: Spring",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AGR",
-              "number": "266",
-              "title": "Organic Crop Production: Fall",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Turf and Landscape Management Certificate [C15100T] - No Longer Accepting Applications Beginning Fall 2025",
       "credential": "certificate",
       "program_code": null,
@@ -1030,66 +976,52 @@
       "matched_program_slug": "business-administration"
     },
     {
-      "title": "Residential Installation and Maintenance Certificate [C35100I] - No Longer Accepting Applications Beginning Fall 2025",
+      "title": "Sustainable Farming Methods Certificate [C15100C] - No Longer Accepting Applications Beginning Fall 2025",
       "credential": "certificate",
       "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/air-conditioning-heating-and-refrigeration-technology/residential-installation-and-maintenance-certificate-c35100i",
-      "total_credits": 16,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/agribusiness-technology/sustainable-farming-methods-certificate-c15100c",
+      "total_credits": 15,
       "gpa_minimum": 2,
       "description": null,
       "requirement_groups": [
         {
-          "name": "Required Courses",
+          "name": "Required",
           "credits_required": null,
           "choose_n": null,
           "courses": [
             {
-              "prefix": "AHR",
-              "number": "110",
-              "title": "Introduction to Refrigeration",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AHR",
-              "number": "111",
-              "title": "HVACR Electricity",
+              "prefix": "AGR",
+              "number": "139",
+              "title": "Introduction to Sustainable Agriculture",
               "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "AHR",
-              "number": "151",
-              "title": "HVAC Duct Systems I",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AHR",
+              "prefix": "AGR",
               "number": "160",
-              "title": "Refrigerant Certification",
-              "credits": 1,
+              "title": "Plant Science",
+              "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "AHR",
-              "number": "180",
-              "title": "HVACR Customer Relations",
-              "credits": 1,
+              "prefix": "AGR",
+              "number": "212",
+              "title": "Farm Business Management",
+              "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "AHR",
-              "number": "213",
-              "title": "HVACR Building Code",
-              "credits": 2,
+              "prefix": "AGR",
+              "number": "265",
+              "title": "Organic Crop Production: Spring",
+              "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "AHR",
-              "number": "255",
-              "title": "Indoor Air Quality",
-              "credits": 2,
+              "prefix": "AGR",
+              "number": "266",
+              "title": "Organic Crop Production: Fall",
+              "credits": 3,
               "or_alternatives": []
             }
           ]
@@ -1274,719 +1206,6 @@
         }
       ],
       "matched_program_slug": null
-    },
-    {
-      "title": "Associate Degree Nursing A.A.S. Degree [A45110]",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/associate-degree-nursing/associate-degree-nursing-a-a-s-degree-a45110",
-      "total_credits": 72,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Fall Semester",
-          "credits_required": 17,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BIO",
-              "number": "168",
-              "title": "Anatomy and Physiology I",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "111",
-              "title": "Introduction to Health Concepts",
-              "credits": 8,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "117",
-              "title": "Pharmacology",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSY",
-              "number": "150",
-              "title": "General Psychology",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Spring Semester",
-          "credits_required": 17,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BIO",
-              "number": "169",
-              "title": "Anatomy and Physiology II",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "112",
-              "title": "Health-Illness Concepts",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "114",
-              "title": "Holistic Health Concepts",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSY",
-              "number": "241",
-              "title": "Developmental Psychology",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Summer Semester",
-          "credits_required": 10,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BIO",
-              "number": "275",
-              "title": "Microbiology",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "111",
-              "title": "Writing and Inquiry",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Fall Semester",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ENG",
-              "number": "112",
-              "title": "Writing and Research in the Disciplines",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "113",
-              "title": "Family Health Concepts",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "211",
-              "title": "Health Care Concepts",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "212A",
-              "title": "Health System Concepts",
-              "credits": 2,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Spring Semester",
-          "credits_required": 13,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "NUR",
-              "number": "212B",
-              "title": "Health System Concepts",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "213",
-              "title": "Complex Health Concepts",
-              "credits": 10,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "nursing"
-    },
-    {
-      "title": "LPN to ADN Bridge A.A.S. Degree [A45110LP]",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/associate-degree-nursing/lpn-to-adn-bridge-a45110",
-      "total_credits": 46,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Prerequisites",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BIO",
-              "number": "168",
-              "title": "Anatomy and Physiology I",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BIO",
-              "number": "169",
-              "title": "Anatomy and Physiology II",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "111",
-              "title": "Writing and Inquiry",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSY",
-              "number": "150",
-              "title": "General Psychology",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Fall Semester",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ENG",
-              "number": "112",
-              "title": "Writing and Research in the Disciplines",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "214",
-              "title": "Nursing Transition Concepts",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSY",
-              "number": "241",
-              "title": "Developmental Psychology",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Spring Semester",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "NUR",
-              "number": "221",
-              "title": "LPN to ADN Concepts I",
-              "credits": 9,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Summer Semester",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BIO",
-              "number": "275",
-              "title": "Microbiology",
-              "credits": 4,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Fall Semester",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "NUR",
-              "number": "223",
-              "title": "LPN to ADN Concepts II",
-              "credits": 9,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "nursing"
-    },
-    {
-      "title": "Paramedic to Associate Degree Nursing A.A.S. Degree [A45110PB]",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/associate-degree-nursing/paramedic-to-associate-degree-nursing-a-a-s-degree-a45110pb",
-      "total_credits": 41,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Spring Semester",
-          "credits_required": 6,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "NUR",
-              "number": "215",
-              "title": "Paramedic to RN Bridge Concepts",
-              "credits": 6,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Summer Semester",
-          "credits_required": 10,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BIO",
-              "number": "275",
-              "title": "Microbiology",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSY",
-              "number": "241",
-              "title": "Developmental Psychology",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Fall Semester",
-          "credits_required": 12,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "NUR",
-              "number": "113",
-              "title": "Family Health Concepts",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "211",
-              "title": "Health Care Concepts",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "212A",
-              "title": "Health System Concepts",
-              "credits": 2,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Spring Semester",
-          "credits_required": 13,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "NUR",
-              "number": "212B",
-              "title": "Health System Concepts",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NUR",
-              "number": "213",
-              "title": "Complex Health Concepts",
-              "credits": 10,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "nursing"
-    },
-    {
-      "title": "Associate in Engineering-A.E. [A10500]",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/associate-in-engineering-a-e-a10500",
-      "total_credits": 42,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "English Composition",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ENG",
-              "number": "111",
-              "title": "Writing and Inquiry",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "112",
-              "title": "Writing and Research in the Disciplines",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Communication",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "COM",
-              "number": "231",
-              "title": "Public Speaking",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Humanities",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ENG",
-              "number": "231",
-              "title": "American Literature I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "232",
-              "title": "American Literature II",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "241",
-              "title": "British Literature I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "242",
-              "title": "British Literature II",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHI",
-              "number": "215",
-              "title": "Philosophical Issues",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHI",
-              "number": "240",
-              "title": "Introduction to Ethics",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Social/Behavioral Sciences",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ECO",
-              "number": "251",
-              "title": "Principles of Microeconomics",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Select one course",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "HIS",
-              "number": "111",
-              "title": "World Civilizations I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HIS",
-              "number": "112",
-              "title": "World Civilizations II",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HIS",
-              "number": "131",
-              "title": "American History I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HIS",
-              "number": "132",
-              "title": "American History II",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "POL",
-              "number": "120",
-              "title": "American Government",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSY",
-              "number": "150",
-              "title": "General Psychology",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SOC",
-              "number": "210",
-              "title": "Introduction to Sociology",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Math",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MAT",
-              "number": "271",
-              "title": "Calculus I",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MAT",
-              "number": "272",
-              "title": "Calculus II",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MAT",
-              "number": "273",
-              "title": "Calculus III",
-              "credits": 4,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Natural Science",
-          "credits_required": 42,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CHM",
-              "number": "151",
-              "title": "General Chemistry I",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHY",
-              "number": "251",
-              "title": "General Physics I",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PHY",
-              "number": "252",
-              "title": "General Physics II",
-              "credits": 4,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Academic Transition",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ACA",
-              "number": "122",
-              "title": "College Transfer Success",
-              "credits": 1,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Pre-major Elective",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "EGR",
-              "number": "150",
-              "title": "Intro to Engineering",
-              "credits": 2,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Other General Education and Pre-major Elective Hours (15 Credits)",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BIO",
-              "number": "111",
-              "title": "General Biology I",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CHM",
-              "number": "152",
-              "title": "General Chemistry II",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CSC",
-              "number": "134",
-              "title": "C++ Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CSC",
-              "number": "151",
-              "title": "JAVA Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DFT",
-              "number": "170",
-              "title": "Engineering Graphics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECO",
-              "number": "252",
-              "title": "Principles of Macroeconomics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EGR",
-              "number": "210",
-              "title": "Intro to Electrical/Computer Engineering Lab",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EGR",
-              "number": "212",
-              "title": "Logic System Design I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EGR",
-              "number": "214",
-              "title": "Numerical Methods for Engineers",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EGR",
-              "number": "220",
-              "title": "Engineering Statics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MAT",
-              "number": "280",
-              "title": "Linear Algebra",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MAT",
-              "number": "285",
-              "title": "Differential Equations",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "engineering"
     },
     {
       "title": "Associate in Arts-A.A. [A10100]",
@@ -3324,6 +2543,446 @@
       "matched_program_slug": null
     },
     {
+      "title": "Residential Installation and Maintenance Certificate [C35100I] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/air-conditioning-heating-and-refrigeration-technology/residential-installation-and-maintenance-certificate-c35100i",
+      "total_credits": 16,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "AHR",
+              "number": "110",
+              "title": "Introduction to Refrigeration",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AHR",
+              "number": "111",
+              "title": "HVACR Electricity",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AHR",
+              "number": "151",
+              "title": "HVAC Duct Systems I",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AHR",
+              "number": "160",
+              "title": "Refrigerant Certification",
+              "credits": 1,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AHR",
+              "number": "180",
+              "title": "HVACR Customer Relations",
+              "credits": 1,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AHR",
+              "number": "213",
+              "title": "HVACR Building Code",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AHR",
+              "number": "255",
+              "title": "Indoor Air Quality",
+              "credits": 2,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Associate Degree Nursing A.A.S. Degree [A45110]",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/associate-degree-nursing/associate-degree-nursing-a-a-s-degree-a45110",
+      "total_credits": 72,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Fall Semester",
+          "credits_required": 17,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BIO",
+              "number": "168",
+              "title": "Anatomy and Physiology I",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "111",
+              "title": "Introduction to Health Concepts",
+              "credits": 8,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "117",
+              "title": "Pharmacology",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSY",
+              "number": "150",
+              "title": "General Psychology",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Spring Semester",
+          "credits_required": 17,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BIO",
+              "number": "169",
+              "title": "Anatomy and Physiology II",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "112",
+              "title": "Health-Illness Concepts",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "114",
+              "title": "Holistic Health Concepts",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSY",
+              "number": "241",
+              "title": "Developmental Psychology",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Summer Semester",
+          "credits_required": 10,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BIO",
+              "number": "275",
+              "title": "Microbiology",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "111",
+              "title": "Writing and Inquiry",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Fall Semester",
+          "credits_required": 15,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "112",
+              "title": "Writing and Research in the Disciplines",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "113",
+              "title": "Family Health Concepts",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "211",
+              "title": "Health Care Concepts",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "212A",
+              "title": "Health System Concepts",
+              "credits": 2,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Spring Semester",
+          "credits_required": 13,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "NUR",
+              "number": "212B",
+              "title": "Health System Concepts",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "213",
+              "title": "Complex Health Concepts",
+              "credits": 10,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "nursing"
+    },
+    {
+      "title": "LPN to ADN Bridge A.A.S. Degree [A45110LP]",
+      "credential": "other",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/associate-degree-nursing/lpn-to-adn-bridge-a45110",
+      "total_credits": 46,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Fall Semester",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "112",
+              "title": "Writing and Research in the Disciplines",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "214",
+              "title": "Nursing Transition Concepts",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSY",
+              "number": "241",
+              "title": "Developmental Psychology",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Fall Semester",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "NUR",
+              "number": "223",
+              "title": "LPN to ADN Concepts II",
+              "credits": 9,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Prerequisites",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BIO",
+              "number": "168",
+              "title": "Anatomy and Physiology I",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BIO",
+              "number": "169",
+              "title": "Anatomy and Physiology II",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "111",
+              "title": "Writing and Inquiry",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSY",
+              "number": "150",
+              "title": "General Psychology",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Spring Semester",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "NUR",
+              "number": "221",
+              "title": "LPN to ADN Concepts I",
+              "credits": 9,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Summer Semester",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BIO",
+              "number": "275",
+              "title": "Microbiology",
+              "credits": 4,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "nursing"
+    },
+    {
+      "title": "Paramedic to Associate Degree Nursing A.A.S. Degree [A45110PB]",
+      "credential": "other",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/associate-degree-nursing/paramedic-to-associate-degree-nursing-a-a-s-degree-a45110pb",
+      "total_credits": 41,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Spring Semester",
+          "credits_required": 6,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "NUR",
+              "number": "215",
+              "title": "Paramedic to RN Bridge Concepts",
+              "credits": 6,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Summer Semester",
+          "credits_required": 10,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BIO",
+              "number": "275",
+              "title": "Microbiology",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSY",
+              "number": "241",
+              "title": "Developmental Psychology",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Fall Semester",
+          "credits_required": 12,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "NUR",
+              "number": "113",
+              "title": "Family Health Concepts",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "211",
+              "title": "Health Care Concepts",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "212A",
+              "title": "Health System Concepts",
+              "credits": 2,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Spring Semester",
+          "credits_required": 13,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "NUR",
+              "number": "212B",
+              "title": "Health System Concepts",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NUR",
+              "number": "213",
+              "title": "Complex Health Concepts",
+              "credits": 10,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "nursing"
+    },
+    {
       "title": "Associate in Arts-Teacher Preparation [A1010T]",
       "credential": "other",
       "program_code": null,
@@ -4276,6 +3935,347 @@
         }
       ],
       "matched_program_slug": "art"
+    },
+    {
+      "title": "Associate in Engineering-A.E. [A10500]",
+      "credential": "other",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/associate-in-engineering-a-e-a10500",
+      "total_credits": 42,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "English Composition",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "111",
+              "title": "Writing and Inquiry",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "112",
+              "title": "Writing and Research in the Disciplines",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Communication",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "COM",
+              "number": "231",
+              "title": "Public Speaking",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Humanities",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "231",
+              "title": "American Literature I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "232",
+              "title": "American Literature II",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "241",
+              "title": "British Literature I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "242",
+              "title": "British Literature II",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHI",
+              "number": "215",
+              "title": "Philosophical Issues",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHI",
+              "number": "240",
+              "title": "Introduction to Ethics",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Social/Behavioral Sciences",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ECO",
+              "number": "251",
+              "title": "Principles of Microeconomics",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Select one course",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "HIS",
+              "number": "111",
+              "title": "World Civilizations I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HIS",
+              "number": "112",
+              "title": "World Civilizations II",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HIS",
+              "number": "131",
+              "title": "American History I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HIS",
+              "number": "132",
+              "title": "American History II",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "POL",
+              "number": "120",
+              "title": "American Government",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSY",
+              "number": "150",
+              "title": "General Psychology",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SOC",
+              "number": "210",
+              "title": "Introduction to Sociology",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Math",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "MAT",
+              "number": "271",
+              "title": "Calculus I",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAT",
+              "number": "272",
+              "title": "Calculus II",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAT",
+              "number": "273",
+              "title": "Calculus III",
+              "credits": 4,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Natural Science",
+          "credits_required": 42,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CHM",
+              "number": "151",
+              "title": "General Chemistry I",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHY",
+              "number": "251",
+              "title": "General Physics I",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PHY",
+              "number": "252",
+              "title": "General Physics II",
+              "credits": 4,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Academic Transition",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ACA",
+              "number": "122",
+              "title": "College Transfer Success",
+              "credits": 1,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Pre-major Elective",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "EGR",
+              "number": "150",
+              "title": "Intro to Engineering",
+              "credits": 2,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Other General Education and Pre-major Elective Hours (15 Credits)",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BIO",
+              "number": "111",
+              "title": "General Biology I",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CHM",
+              "number": "152",
+              "title": "General Chemistry II",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CSC",
+              "number": "134",
+              "title": "C++ Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CSC",
+              "number": "151",
+              "title": "JAVA Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DFT",
+              "number": "170",
+              "title": "Engineering Graphics",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECO",
+              "number": "252",
+              "title": "Principles of Macroeconomics",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EGR",
+              "number": "210",
+              "title": "Intro to Electrical/Computer Engineering Lab",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EGR",
+              "number": "212",
+              "title": "Logic System Design I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EGR",
+              "number": "214",
+              "title": "Numerical Methods for Engineers",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EGR",
+              "number": "220",
+              "title": "Engineering Statics",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAT",
+              "number": "280",
+              "title": "Linear Algebra",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAT",
+              "number": "285",
+              "title": "Differential Equations",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "engineering"
     },
     {
       "title": "Associate in Fine Arts in Visual Art-A.F.A. [A10600]",
@@ -7980,6 +7980,39 @@
       "matched_program_slug": null
     },
     {
+      "title": "Basic Law Enforcement Training Certificate Program [C55120] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/basic-law-enforcement-training/basic-law-enforcement-training-certificate-c55120",
+      "total_credits": 57,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CJC",
+              "number": "110",
+              "title": "Basic Law Enforcement BLET",
+              "credits": 20,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "LET",
+              "number": "110",
+              "title": "Basic Law Enforcement BLET",
+              "credits": 37,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "criminal-justice"
+    },
+    {
       "title": "Associate in Science-Teacher Preparation [A1040T] - No Longer Accepting Applications Beginning Spring 2026",
       "credential": "other",
       "program_code": null,
@@ -8306,6 +8339,81 @@
       "matched_program_slug": null
     },
     {
+      "title": "Business Fundamentals [C25120T]",
+      "credential": "other",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/business-administration/general-business-transfers-certificate-c25120t",
+      "total_credits": 23,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ACC",
+              "number": "120",
+              "title": "Principles of Financial Accounting",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACC",
+              "number": "121",
+              "title": "Principles of Managerial Accounting",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECO",
+              "number": "251",
+              "title": "Principles of Microeconomics",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECO",
+              "number": "252",
+              "title": "Principles of Macroeconomics",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Choose one of the following",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BUS",
+              "number": "110",
+              "title": "Introduction to Business",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "115",
+              "title": "Business Law I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "137",
+              "title": "Principles of Management",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "business-administration"
+    },
+    {
       "title": "Business Administration A.A.S. Degree [A25120]",
       "credential": "AS",
       "program_code": null,
@@ -8612,39 +8720,6 @@
       "matched_program_slug": "business-administration"
     },
     {
-      "title": "Basic Law Enforcement Training Certificate Program [C55120] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/basic-law-enforcement-training/basic-law-enforcement-training-certificate-c55120",
-      "total_credits": 57,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CJC",
-              "number": "110",
-              "title": "Basic Law Enforcement BLET",
-              "credits": 20,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "LET",
-              "number": "110",
-              "title": "Basic Law Enforcement BLET",
-              "credits": 37,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "criminal-justice"
-    },
-    {
       "title": "Business Administration Diploma Program [D25120] - No Longer Accepting Applications Beginning Fall 2025",
       "credential": "diploma",
       "program_code": null,
@@ -8816,217 +8891,6 @@
       "matched_program_slug": "business-administration"
     },
     {
-      "title": "Business Fundamentals [C25120T]",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/business-administration/general-business-transfers-certificate-c25120t",
-      "total_credits": 23,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ACC",
-              "number": "120",
-              "title": "Principles of Financial Accounting",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACC",
-              "number": "121",
-              "title": "Principles of Managerial Accounting",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECO",
-              "number": "251",
-              "title": "Principles of Microeconomics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECO",
-              "number": "252",
-              "title": "Principles of Macroeconomics",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Choose one of the following",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BUS",
-              "number": "110",
-              "title": "Introduction to Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "115",
-              "title": "Business Law I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "137",
-              "title": "Principles of Management",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "business-administration"
-    },
-    {
-      "title": "Management Certificate [C25120A] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/business-administration/management-certificate-c25120a",
-      "total_credits": 21,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BUS",
-              "number": "110",
-              "title": "Introduction to Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "115",
-              "title": "Business Law I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "121",
-              "title": "Business Math",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "137",
-              "title": "Principles of Management",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "153",
-              "title": "Human Resource Management",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECO",
-              "number": "251",
-              "title": "Principles of Microeconomics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECO",
-              "number": "252",
-              "title": "Principles of Macroeconomics",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "business-administration"
-    },
-    {
-      "title": "Marketing Certificate [C25120M] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/business-administration/marketing-certificate-c25120m",
-      "total_credits": 21,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BUS",
-              "number": "110",
-              "title": "Introduction to Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "137",
-              "title": "Principles of Management",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECO",
-              "number": "251",
-              "title": "Principles of Microeconomics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECO",
-              "number": "252",
-              "title": "Principles of Macroeconomics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MKT",
-              "number": "120",
-              "title": "Principles of Marketing",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MKT",
-              "number": "122",
-              "title": "Visual Merchandising",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MKT",
-              "number": "123",
-              "title": "Fundamentals of Selling",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "business-administration"
-    },
-    {
       "title": "CET Technician Diploma Program [D40160] - No Longer Accepting Applications Beginning Fall 2025",
       "credential": "diploma",
       "program_code": null,
@@ -9128,6 +8992,74 @@
         }
       ],
       "matched_program_slug": null
+    },
+    {
+      "title": "Management Certificate [C25120A] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/business-administration/management-certificate-c25120a",
+      "total_credits": 21,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BUS",
+              "number": "110",
+              "title": "Introduction to Business",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "115",
+              "title": "Business Law I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "121",
+              "title": "Business Math",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "137",
+              "title": "Principles of Management",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "153",
+              "title": "Human Resource Management",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECO",
+              "number": "251",
+              "title": "Principles of Microeconomics",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECO",
+              "number": "252",
+              "title": "Principles of Macroeconomics",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "business-administration"
     },
     {
       "title": "Computer Engineering Technology A.A.S. Degree [A40160]",
@@ -9317,6 +9249,74 @@
       "matched_program_slug": "engineering"
     },
     {
+      "title": "Marketing Certificate [C25120M] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/business-administration/marketing-certificate-c25120m",
+      "total_credits": 21,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BUS",
+              "number": "110",
+              "title": "Introduction to Business",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "137",
+              "title": "Principles of Management",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECO",
+              "number": "251",
+              "title": "Principles of Microeconomics",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECO",
+              "number": "252",
+              "title": "Principles of Macroeconomics",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MKT",
+              "number": "120",
+              "title": "Principles of Marketing",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MKT",
+              "number": "122",
+              "title": "Visual Merchandising",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MKT",
+              "number": "123",
+              "title": "Fundamentals of Selling",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "business-administration"
+    },
+    {
       "title": "IoT Basics Certificate [C40160B] - No Longer Accepting Applications Beginning Fall 2025",
       "credential": "certificate",
       "program_code": null,
@@ -9478,6 +9478,74 @@
               "number": "110",
               "title": "Security Concepts",
               "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Computer Integrated Machining Certificate [C50210]",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/computer-integrated-machining/computer-integrated-machining-certificate-c50210",
+      "total_credits": 16,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ISC",
+              "number": "112",
+              "title": "Industrial Safety",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAC",
+              "number": "122",
+              "title": "CNC Turning",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAC",
+              "number": "124",
+              "title": "CNC Milling",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAC",
+              "number": "131",
+              "title": "Blueprint Reading-Machining I",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAC",
+              "number": "141",
+              "title": "Machining Applications I",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAC",
+              "number": "151",
+              "title": "Machining Calculations",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MEC",
+              "number": "110",
+              "title": "Introduction to CAD/CAM",
+              "credits": 2,
               "or_alternatives": []
             }
           ]
@@ -9708,74 +9776,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Computer Integrated Machining Certificate [C50210]",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/computer-integrated-machining/computer-integrated-machining-certificate-c50210",
-      "total_credits": 16,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ISC",
-              "number": "112",
-              "title": "Industrial Safety",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MAC",
-              "number": "122",
-              "title": "CNC Turning",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MAC",
-              "number": "124",
-              "title": "CNC Milling",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MAC",
-              "number": "131",
-              "title": "Blueprint Reading-Machining I",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MAC",
-              "number": "141",
-              "title": "Machining Applications I",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MAC",
-              "number": "151",
-              "title": "Machining Calculations",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MEC",
-              "number": "110",
-              "title": "Introduction to CAD/CAM",
-              "credits": 2,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Cosmetology Certificate [C55140]",
       "credential": "certificate",
       "program_code": null,
@@ -9912,6 +9912,53 @@
       "matched_program_slug": null
     },
     {
+      "title": "Criminal Justice [C55180]",
+      "credential": "other",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/criminal-justice-technology/criminal-justice-technology-c55180",
+      "total_credits": 12,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CJC",
+              "number": "111",
+              "title": "Introduction to Criminal Justice",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CJC",
+              "number": "113",
+              "title": "Juvenile Justice",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CJC",
+              "number": "121",
+              "title": "Law Enforcement Operations",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CJC",
+              "number": "141",
+              "title": "Corrections",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "criminal-justice"
+    },
+    {
       "title": "Cosmetology Diploma Program [D55140]",
       "credential": "diploma",
       "program_code": null,
@@ -10014,6 +10061,114 @@
               "number": "118",
               "title": "Salon IV",
               "credits": 7,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Essentials of the Criminal Justice System Certificate [C55180E] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/criminal-justice-technology/essentials-of-the-criminal-justice-system-certificate-c55180e",
+      "total_credits": 15,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CJC",
+              "number": "111",
+              "title": "Introduction to Criminal Justice",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CJC",
+              "number": "112",
+              "title": "Criminology",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CJC",
+              "number": "131",
+              "title": "Criminal Law",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CJC",
+              "number": "141",
+              "title": "Corrections",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CJC",
+              "number": "151",
+              "title": "Introduction to Loss Prevention",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "criminal-justice"
+    },
+    {
+      "title": "Investigations Certificate [C55180I] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/criminal-justice-technology/investigations-certificate-c55180i",
+      "total_credits": 15,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "111",
+              "title": "Writing and Inquiry",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CJC",
+              "number": "111",
+              "title": "Introduction to Criminal Justice",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CJC",
+              "number": "121",
+              "title": "Law Enforcement Operations",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CJC",
+              "number": "212",
+              "title": "Ethics & Community Relations",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CJC",
+              "number": "231",
+              "title": "Constitutional Law",
+              "credits": 3,
               "or_alternatives": []
             }
           ]
@@ -10600,161 +10755,6 @@
       "matched_program_slug": "criminal-justice"
     },
     {
-      "title": "Criminal Justice [C55180]",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/criminal-justice-technology/criminal-justice-technology-c55180",
-      "total_credits": 12,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CJC",
-              "number": "111",
-              "title": "Introduction to Criminal Justice",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CJC",
-              "number": "113",
-              "title": "Juvenile Justice",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CJC",
-              "number": "121",
-              "title": "Law Enforcement Operations",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CJC",
-              "number": "141",
-              "title": "Corrections",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "criminal-justice"
-    },
-    {
-      "title": "Essentials of the Criminal Justice System Certificate [C55180E] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/criminal-justice-technology/essentials-of-the-criminal-justice-system-certificate-c55180e",
-      "total_credits": 15,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CJC",
-              "number": "111",
-              "title": "Introduction to Criminal Justice",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CJC",
-              "number": "112",
-              "title": "Criminology",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CJC",
-              "number": "131",
-              "title": "Criminal Law",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CJC",
-              "number": "141",
-              "title": "Corrections",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CJC",
-              "number": "151",
-              "title": "Introduction to Loss Prevention",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "criminal-justice"
-    },
-    {
-      "title": "Investigations Certificate [C55180I] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/criminal-justice-technology/investigations-certificate-c55180i",
-      "total_credits": 15,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ENG",
-              "number": "111",
-              "title": "Writing and Inquiry",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CJC",
-              "number": "111",
-              "title": "Introduction to Criminal Justice",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CJC",
-              "number": "121",
-              "title": "Law Enforcement Operations",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CJC",
-              "number": "212",
-              "title": "Ethics & Community Relations",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CJC",
-              "number": "231",
-              "title": "Constitutional Law",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Loss Prevention Certificate [C55180L] - No Longer Accepting Applications Beginning Fall 2025",
       "credential": "certificate",
       "program_code": null,
@@ -10800,6 +10800,184 @@
         }
       ],
       "matched_program_slug": null
+    },
+    {
+      "title": "Dental Assisting Diploma [D45240] Effective Spring 2026",
+      "credential": "diploma",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/dental-assisting/dental-assisting-diploma-d45240",
+      "total_credits": 47,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Spring Semester",
+          "credits_required": 20,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BIO",
+              "number": "163",
+              "title": "Basic Anatomy & Physiology",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DEN",
+              "number": "100",
+              "title": "Basic Orofacial Anatomy",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DEN",
+              "number": "101",
+              "title": "Preclinical Procedures",
+              "credits": 7,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DEN",
+              "number": "102",
+              "title": "Dental Materials",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DEN",
+              "number": "111",
+              "title": "Infection/Hazard Control",
+              "credits": 2,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Summer Semester",
+          "credits_required": 11,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "COM",
+              "number": "120",
+              "title": "Intro to Interpersonal Communication",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DEN",
+              "number": "103",
+              "title": "Dental Sciences",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DEN",
+              "number": "104",
+              "title": "Dental Health Education",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DEN",
+              "number": "112",
+              "title": "Dental Radiography",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Fall Semester",
+          "credits_required": 16,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "DEN",
+              "number": "105",
+              "title": "Practice Management",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DEN",
+              "number": "106",
+              "title": "Clinical Practice I",
+              "credits": 6,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DEN",
+              "number": "107",
+              "title": "Clinical Practice II",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HUM",
+              "number": "115",
+              "title": "Critical Thinking",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Early Childhood Administration Certificate [C55220C]",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/early-childhood-education/early-childhood-administration-certificate-c55850",
+      "total_credits": 16,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required",
+          "credits_required": 16,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "EDU",
+              "number": "119",
+              "title": "Introduction to Early Childhood Education",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "131",
+              "title": "Child Family and Community",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "153",
+              "title": "Health Safety and Nutrition",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "261",
+              "title": "Early Childhood Administration I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "262",
+              "title": "Early Childhood Administration II",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "early-childhood-education"
     },
     {
       "title": "Culinary Arts A.A.S. Degree [A55150]",
@@ -10989,130 +11167,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Dental Assisting Diploma [D45240] Effective Spring 2026",
-      "credential": "diploma",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/dental-assisting/dental-assisting-diploma-d45240",
-      "total_credits": 47,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Spring Semester",
-          "credits_required": 20,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BIO",
-              "number": "163",
-              "title": "Basic Anatomy & Physiology",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DEN",
-              "number": "100",
-              "title": "Basic Orofacial Anatomy",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DEN",
-              "number": "101",
-              "title": "Preclinical Procedures",
-              "credits": 7,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DEN",
-              "number": "102",
-              "title": "Dental Materials",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DEN",
-              "number": "111",
-              "title": "Infection/Hazard Control",
-              "credits": 2,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Summer Semester",
-          "credits_required": 11,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "COM",
-              "number": "120",
-              "title": "Intro to Interpersonal Communication",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DEN",
-              "number": "103",
-              "title": "Dental Sciences",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DEN",
-              "number": "104",
-              "title": "Dental Health Education",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DEN",
-              "number": "112",
-              "title": "Dental Radiography",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Fall Semester",
-          "credits_required": 16,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "DEN",
-              "number": "105",
-              "title": "Practice Management",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DEN",
-              "number": "106",
-              "title": "Clinical Practice I",
-              "credits": 6,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DEN",
-              "number": "107",
-              "title": "Clinical Practice II",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HUM",
-              "number": "115",
-              "title": "Critical Thinking",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Sanitation and Skills Certificate [C55150SA]",
       "credential": "certificate",
       "program_code": null,
@@ -11158,60 +11212,6 @@
         }
       ],
       "matched_program_slug": null
-    },
-    {
-      "title": "Early Childhood Administration Certificate [C55220C]",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/early-childhood-education/early-childhood-administration-certificate-c55850",
-      "total_credits": 16,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required",
-          "credits_required": 16,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "EDU",
-              "number": "119",
-              "title": "Introduction to Early Childhood Education",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EDU",
-              "number": "131",
-              "title": "Child Family and Community",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EDU",
-              "number": "153",
-              "title": "Health Safety and Nutrition",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EDU",
-              "number": "261",
-              "title": "Early Childhood Administration I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EDU",
-              "number": "262",
-              "title": "Early Childhood Administration II",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "early-childhood-education"
     },
     {
       "title": "Early Childhood Education A.A.S. Degrees [A55220C, A55220L, A55220NL]",
@@ -11847,60 +11847,6 @@
       "matched_program_slug": "early-childhood-education"
     },
     {
-      "title": "Early Childhood Preschool Certificate [C55220D]",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/early-childhood-education/early-childhood-preschool-certificate-c55860",
-      "total_credits": 16,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required",
-          "credits_required": 16,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "EDU",
-              "number": "119",
-              "title": "Introduction to Early Childhood Education",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EDU",
-              "number": "131",
-              "title": "Child Family and Community",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EDU",
-              "number": "145",
-              "title": "Child Development II",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EDU",
-              "number": "146",
-              "title": "Child Guidance",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EDU",
-              "number": "153",
-              "title": "Health Safety and Nutrition",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "early-childhood-education"
-    },
-    {
       "title": "Early Childhood Infant/Toddler Care Certificate [C55290] - No Longer Accepting Applications Beginning Spring 2026",
       "credential": "certificate",
       "program_code": null,
@@ -12014,6 +11960,60 @@
         }
       ],
       "matched_program_slug": null
+    },
+    {
+      "title": "Early Childhood Preschool Certificate [C55220D]",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/early-childhood-education/early-childhood-preschool-certificate-c55860",
+      "total_credits": 16,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required",
+          "credits_required": 16,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "EDU",
+              "number": "119",
+              "title": "Introduction to Early Childhood Education",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "131",
+              "title": "Child Family and Community",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "145",
+              "title": "Child Development II",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "146",
+              "title": "Child Guidance",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDU",
+              "number": "153",
+              "title": "Health Safety and Nutrition",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "early-childhood-education"
     },
     {
       "title": "Analog Electronics Certificate [C40200A] - No Longer Accepting Applications Beginning Fall 2025",
@@ -13312,128 +13312,6 @@
               "prefix": "FIP",
               "number": "220",
               "title": "Fire Fighting Strategies",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Fire Protection Technology Certificate [C55240] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/fire-protection-technology/fire-protectiontechnologycertificate-c55240",
-      "total_credits": 18,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "FIP",
-              "number": "120",
-              "title": "Introduction to Fire Protection",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FIP",
-              "number": "124",
-              "title": "Fire Prevention & Public Education",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FIP",
-              "number": "132",
-              "title": "Building Construction",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FIP",
-              "number": "152",
-              "title": "Fire Protection Law",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FIP",
-              "number": "220",
-              "title": "Fire Fighting Strategies",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FIP",
-              "number": "228",
-              "title": "Local Government Finance",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Fire Service Manager Certificate [C55240FS]",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/fire-protection-technology/fire-service-manager-certificate-c55240fs",
-      "total_credits": 18,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CIS",
-              "number": "110",
-              "title": "Introduction to Computers",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "111",
-              "title": "Writing and Inquiry",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "EPT",
-              "number": "140",
-              "title": "Emergency Management",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FIP",
-              "number": "152",
-              "title": "Fire Protection Law",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FIP",
-              "number": "228",
-              "title": "Local Government Finance",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FIP",
-              "number": "276",
-              "title": "Managing Fire Services",
               "credits": 3,
               "or_alternatives": []
             }
@@ -16549,6 +16427,189 @@
       "matched_program_slug": null
     },
     {
+      "title": "Fire Protection Technology Certificate [C55240] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/fire-protection-technology/fire-protectiontechnologycertificate-c55240",
+      "total_credits": 18,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "FIP",
+              "number": "120",
+              "title": "Introduction to Fire Protection",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FIP",
+              "number": "124",
+              "title": "Fire Prevention & Public Education",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FIP",
+              "number": "132",
+              "title": "Building Construction",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FIP",
+              "number": "152",
+              "title": "Fire Protection Law",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FIP",
+              "number": "220",
+              "title": "Fire Fighting Strategies",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FIP",
+              "number": "228",
+              "title": "Local Government Finance",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Fire Service Manager Certificate [C55240FS]",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/fire-protection-technology/fire-service-manager-certificate-c55240fs",
+      "total_credits": 18,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CIS",
+              "number": "110",
+              "title": "Introduction to Computers",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "111",
+              "title": "Writing and Inquiry",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EPT",
+              "number": "140",
+              "title": "Emergency Management",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FIP",
+              "number": "152",
+              "title": "Fire Protection Law",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FIP",
+              "number": "228",
+              "title": "Local Government Finance",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FIP",
+              "number": "276",
+              "title": "Managing Fire Services",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Graphic Design Certificate [C30100] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/graphic-design/graphic-design-certificate-c30100",
+      "total_credits": 17,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Fall Semester",
+          "credits_required": 10,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "GRD",
+              "number": "110",
+              "title": "Typography I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "GRD",
+              "number": "141",
+              "title": "Graphic Design I",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "GRD",
+              "number": "154",
+              "title": "Vector Imaging Software",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Spring Semester",
+          "credits_required": 7,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "GRD",
+              "number": "142",
+              "title": "Graphic Design II",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "GRD",
+              "number": "155",
+              "title": "Publication Design",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "art"
+    },
+    {
       "title": "Graphic Design A.A.S. Degree [A30100]",
       "credential": "AS",
       "program_code": null,
@@ -16797,67 +16858,6 @@
               "prefix": "SOC",
               "number": "210",
               "title": "Introduction to Sociology",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "art"
-    },
-    {
-      "title": "Graphic Design Certificate [C30100] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/graphic-design/graphic-design-certificate-c30100",
-      "total_credits": 17,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Fall Semester",
-          "credits_required": 10,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "GRD",
-              "number": "110",
-              "title": "Typography I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GRD",
-              "number": "141",
-              "title": "Graphic Design I",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GRD",
-              "number": "154",
-              "title": "Vector Imaging Software",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Spring Semester",
-          "credits_required": 7,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "GRD",
-              "number": "142",
-              "title": "Graphic Design II",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "GRD",
-              "number": "155",
-              "title": "Publication Design",
               "credits": 3,
               "or_alternatives": []
             }
@@ -17412,6 +17412,53 @@
       "matched_program_slug": "business-administration"
     },
     {
+      "title": "Social and Human Services [C45380SH]",
+      "credential": "other",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/human-services-technology/social-and-human-servicesc45380sh",
+      "total_credits": 12,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "HSE",
+              "number": "110",
+              "title": "Introduction to Human Services",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HSE",
+              "number": "123",
+              "title": "Interview Tech Human Service",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HSE",
+              "number": "225",
+              "title": "Crisis and Intervention Prin",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SWK",
+              "number": "110",
+              "title": "Intro to Social Work",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Healthcare Management Certificate [C25200] - No Longer Accepting Applications Beginning Fall 2025",
       "credential": "certificate",
       "program_code": null,
@@ -17680,11 +17727,11 @@
       "matched_program_slug": null
     },
     {
-      "title": "Social and Human Services [C45380SH]",
+      "title": "Artificial Intelligence [C25590AI]",
       "credential": "other",
       "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/human-services-technology/social-and-human-servicesc45380sh",
-      "total_credits": 12,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/artificialintelligence-c25590ai",
+      "total_credits": 15,
       "gpa_minimum": 2,
       "description": null,
       "requirement_groups": [
@@ -17694,30 +17741,37 @@
           "choose_n": null,
           "courses": [
             {
-              "prefix": "HSE",
-              "number": "110",
-              "title": "Introduction to Human Services",
+              "prefix": "CSC",
+              "number": "113",
+              "title": "Artificial Intel. Fundamentals",
               "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "HSE",
-              "number": "123",
-              "title": "Interview Tech Human Service",
+              "prefix": "CSC",
+              "number": "114",
+              "title": "Artificial Intelligence I",
               "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "HSE",
-              "number": "225",
-              "title": "Crisis and Intervention Prin",
+              "prefix": "CSC",
+              "number": "115",
+              "title": "Machine Learning I",
               "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "SWK",
-              "number": "110",
-              "title": "Intro to Social Work",
+              "prefix": "CSC",
+              "number": "121",
+              "title": "Python Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CSC",
+              "number": "128",
+              "title": "Chatbot Programming I",
               "credits": 3,
               "or_alternatives": []
             }
@@ -17788,60 +17842,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Artificial Intelligence [C25590AI]",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/artificialintelligence-c25590ai",
-      "total_credits": 15,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CSC",
-              "number": "113",
-              "title": "Artificial Intel. Fundamentals",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CSC",
-              "number": "114",
-              "title": "Artificial Intelligence I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CSC",
-              "number": "115",
-              "title": "Machine Learning I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CSC",
-              "number": "121",
-              "title": "Python Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CSC",
-              "number": "128",
-              "title": "Chatbot Programming I",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Cisco Certificate [C25590C]",
       "credential": "certificate",
       "program_code": null,
@@ -17901,6 +17901,67 @@
         }
       ],
       "matched_program_slug": null
+    },
+    {
+      "title": "Cybersecurity Certificate [C25590CS]",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/cyber-security-certificate-c25590cs",
+      "total_credits": 18,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CTI",
+              "number": "120",
+              "title": "Network and Security Foundation",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SEC",
+              "number": "151",
+              "title": "Introduction to Protocol Analysis",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SEC",
+              "number": "160",
+              "title": "Security Administration I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SEC",
+              "number": "175",
+              "title": "Perimeter Defense",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SEC",
+              "number": "185",
+              "title": "Ethical Hacking",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SEC",
+              "number": "251",
+              "title": "Advanced Protocol Analysis",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "computer-science"
     },
     {
       "title": "Information Technology A.A.S. - Cyber Security Degree [A25590C]",
@@ -18118,182 +18179,6 @@
       "matched_program_slug": "computer-science"
     },
     {
-      "title": "Cybersecurity Certificate [C25590CS]",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/cyber-security-certificate-c25590cs",
-      "total_credits": 18,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CTI",
-              "number": "120",
-              "title": "Network and Security Foundation",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SEC",
-              "number": "151",
-              "title": "Introduction to Protocol Analysis",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SEC",
-              "number": "160",
-              "title": "Security Administration I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SEC",
-              "number": "175",
-              "title": "Perimeter Defense",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SEC",
-              "number": "185",
-              "title": "Ethical Hacking",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SEC",
-              "number": "251",
-              "title": "Advanced Protocol Analysis",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "computer-science"
-    },
-    {
-      "title": "Data Analytics [C25590DA]- Pending SACSCOC Approval",
-      "credential": "other",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/dataanalytics-c25590da",
-      "total_credits": 18,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BAS",
-              "number": "120",
-              "title": "Intro to Analytics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BAS",
-              "number": "121",
-              "title": "Data Visualization",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BAS",
-              "number": "150",
-              "title": "Intro to Analytical Program",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BAS",
-              "number": "220",
-              "title": "Appl. Analytical Program",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DBA",
-              "number": "118",
-              "title": "Google Data Analytics I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DBA",
-              "number": "218",
-              "title": "Google Data Analytics II",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Database Foundations Certificate [C25590D] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/database-foundations-certificate-c25590d",
-      "total_credits": 15,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CSC",
-              "number": "151",
-              "title": "JAVA Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CSC",
-              "number": "251",
-              "title": "Advanced JAVA Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CTI",
-              "number": "110",
-              "title": "Web Programming and Database Foundation",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DBA",
-              "number": "110",
-              "title": "Database Concepts",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DBA",
-              "number": "120",
-              "title": "Database Programming I",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Information Technology A.A.S. - Networking Degree [A25590N]",
       "credential": "AS",
       "program_code": null,
@@ -18500,6 +18385,182 @@
         }
       ],
       "matched_program_slug": "computer-science"
+    },
+    {
+      "title": "Database Foundations Certificate [C25590D] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/database-foundations-certificate-c25590d",
+      "total_credits": 15,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CSC",
+              "number": "151",
+              "title": "JAVA Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CSC",
+              "number": "251",
+              "title": "Advanced JAVA Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CTI",
+              "number": "110",
+              "title": "Web Programming and Database Foundation",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DBA",
+              "number": "110",
+              "title": "Database Concepts",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DBA",
+              "number": "120",
+              "title": "Database Programming I",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Data Analytics [C25590DA]- Pending SACSCOC Approval",
+      "credential": "other",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/dataanalytics-c25590da",
+      "total_credits": 18,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BAS",
+              "number": "120",
+              "title": "Intro to Analytics",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BAS",
+              "number": "121",
+              "title": "Data Visualization",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BAS",
+              "number": "150",
+              "title": "Intro to Analytical Program",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BAS",
+              "number": "220",
+              "title": "Appl. Analytical Program",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DBA",
+              "number": "118",
+              "title": "Google Data Analytics I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DBA",
+              "number": "218",
+              "title": "Google Data Analytics II",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Digital Forensics Certificate [C25590DF] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/digital-forensics-certificate-c25590df",
+      "total_credits": 18,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CCT",
+              "number": "231",
+              "title": "Technology Crimes & Law",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CCT",
+              "number": "240",
+              "title": "Data Recovery Techniques",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CCT",
+              "number": "241",
+              "title": "Advanced Data Recovery",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SEC",
+              "number": "151",
+              "title": "Introduction to Protocol Analysis",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CCT",
+              "number": "260",
+              "title": "Mobile Phone Examination",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CCT",
+              "number": "289",
+              "title": "Capstone Project",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
     },
     {
       "title": "Information Technology A.A.S. - Artificial Intelligence Degree [A25590AI]",
@@ -18710,198 +18771,6 @@
       "matched_program_slug": "computer-science"
     },
     {
-      "title": "Digital Forensics Certificate [C25590DF] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/digital-forensics-certificate-c25590df",
-      "total_credits": 18,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CCT",
-              "number": "231",
-              "title": "Technology Crimes & Law",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CCT",
-              "number": "240",
-              "title": "Data Recovery Techniques",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CCT",
-              "number": "241",
-              "title": "Advanced Data Recovery",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SEC",
-              "number": "151",
-              "title": "Introduction to Protocol Analysis",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CCT",
-              "number": "260",
-              "title": "Mobile Phone Examination",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CCT",
-              "number": "289",
-              "title": "Capstone Project",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Information Technology Diploma [D25590] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "diploma",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/information-technology-diploma-d25590",
-      "total_credits": 45,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CIS",
-              "number": "115",
-              "title": "Introduction to Programming and Logic",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "COM",
-              "number": "231",
-              "title": "Public Speaking",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CTI",
-              "number": "110",
-              "title": "Web Programming and Database Foundation",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CTI",
-              "number": "120",
-              "title": "Network and Security Foundation",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CTS",
-              "number": "115",
-              "title": "Information Systems Business Concepts",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CTS",
-              "number": "120",
-              "title": "Hardware/Software Support",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "111",
-              "title": "Writing and Inquiry",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NET",
-              "number": "125",
-              "title": "Introduction to Networks",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NOS",
-              "number": "110",
-              "title": "Operating Systems Concepts",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SEC",
-              "number": "110",
-              "title": "Security Concepts",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SEC",
-              "number": "151",
-              "title": "Introduction to Protocol Analysis",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Take one (1) course from:",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CSC",
-              "number": "151",
-              "title": "JAVA Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DBA",
-              "number": "110",
-              "title": "Database Concepts",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NET",
-              "number": "110",
-              "title": "Networking Concepts",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NOS",
-              "number": "230",
-              "title": "Windows Administration I",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "computer-science"
-    },
-    {
       "title": "Information Technology A.A.S. - Data Science Degree [A25590DS]",
       "credential": "AS",
       "program_code": null,
@@ -19100,6 +18969,191 @@
               "prefix": "COM",
               "number": "231",
               "title": "Public Speaking",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "computer-science"
+    },
+    {
+      "title": "Information Technology Diploma [D25590] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "diploma",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/information-technology-diploma-d25590",
+      "total_credits": 45,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CIS",
+              "number": "115",
+              "title": "Introduction to Programming and Logic",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "COM",
+              "number": "231",
+              "title": "Public Speaking",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CTI",
+              "number": "110",
+              "title": "Web Programming and Database Foundation",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CTI",
+              "number": "120",
+              "title": "Network and Security Foundation",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CTS",
+              "number": "115",
+              "title": "Information Systems Business Concepts",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CTS",
+              "number": "120",
+              "title": "Hardware/Software Support",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "111",
+              "title": "Writing and Inquiry",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NET",
+              "number": "125",
+              "title": "Introduction to Networks",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NOS",
+              "number": "110",
+              "title": "Operating Systems Concepts",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SEC",
+              "number": "110",
+              "title": "Security Concepts",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SEC",
+              "number": "151",
+              "title": "Introduction to Protocol Analysis",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Take one (1) course from:",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CSC",
+              "number": "151",
+              "title": "JAVA Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DBA",
+              "number": "110",
+              "title": "Database Concepts",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NET",
+              "number": "110",
+              "title": "Networking Concepts",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NOS",
+              "number": "230",
+              "title": "Windows Administration I",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "computer-science"
+    },
+    {
+      "title": "Information Technology Foundations Certificate [C25590I] - No Longer Accepting Applications Beginning Fall 2025",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/information-technology-foundations-certificate-c25590i",
+      "total_credits": 15,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CTI",
+              "number": "110",
+              "title": "Web Programming and Database Foundation",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CTI",
+              "number": "120",
+              "title": "Network and Security Foundation",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CTS",
+              "number": "115",
+              "title": "Information Systems Business Concepts",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CTS",
+              "number": "120",
+              "title": "Hardware/Software Support",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "NOS",
+              "number": "110",
+              "title": "Operating Systems Concepts",
               "credits": 3,
               "or_alternatives": []
             }
@@ -19491,60 +19545,6 @@
         }
       ],
       "matched_program_slug": null
-    },
-    {
-      "title": "Information Technology Foundations Certificate [C25590I] - No Longer Accepting Applications Beginning Fall 2025",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/information-technology/information-technology-foundations-certificate-c25590i",
-      "total_credits": 15,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CTI",
-              "number": "110",
-              "title": "Web Programming and Database Foundation",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CTI",
-              "number": "120",
-              "title": "Network and Security Foundation",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CTS",
-              "number": "115",
-              "title": "Information Systems Business Concepts",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CTS",
-              "number": "120",
-              "title": "Hardware/Software Support",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "NOS",
-              "number": "110",
-              "title": "Operating Systems Concepts",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "computer-science"
     },
     {
       "title": "Engineering Design and Prototyping [C40320]",
@@ -20251,6 +20251,137 @@
       "matched_program_slug": "engineering"
     },
     {
+      "title": "Medical Assisting Diploma Program [D45400]",
+      "credential": "diploma",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/medical-assisting/medical-assisting-diploma-d45400",
+      "total_credits": 44,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Fall Semester",
+          "credits_required": 18,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BIO",
+              "number": "163",
+              "title": "Basic Anatomy & Physiology",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "110",
+              "title": "Orientation to Medical Assisting",
+              "credits": 1,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "118",
+              "title": "Medical Law and Ethics",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "121",
+              "title": "Medical Terminology I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "130",
+              "title": "Administrative Office Procedures I",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "140",
+              "title": "Exam Room Procedures I",
+              "credits": 5,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Spring Semester",
+          "credits_required": 19,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "MED",
+              "number": "122",
+              "title": "Medical Terminology II",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "131",
+              "title": "Administrative Office Procedures II",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "150",
+              "title": "Laboratory Procedures I",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "270",
+              "title": "Symptomatology",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSY",
+              "number": "150",
+              "title": "General Psychology",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "111",
+              "title": "Writing and Inquiry",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Summer Semester",
+          "credits_required": 7,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "MED",
+              "number": "260",
+              "title": "MED Clinical Practicum",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "264",
+              "title": "Medical Assisting Overview",
+              "credits": 2,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Medical Assisting A.A.S Degree [A45400]",
       "credential": "AS",
       "program_code": null,
@@ -20508,331 +20639,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Medical Assisting Diploma Program [D45400]",
-      "credential": "diploma",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/medical-assisting/medical-assisting-diploma-d45400",
-      "total_credits": 44,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Fall Semester",
-          "credits_required": 18,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BIO",
-              "number": "163",
-              "title": "Basic Anatomy & Physiology",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MED",
-              "number": "110",
-              "title": "Orientation to Medical Assisting",
-              "credits": 1,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MED",
-              "number": "118",
-              "title": "Medical Law and Ethics",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MED",
-              "number": "121",
-              "title": "Medical Terminology I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MED",
-              "number": "130",
-              "title": "Administrative Office Procedures I",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MED",
-              "number": "140",
-              "title": "Exam Room Procedures I",
-              "credits": 5,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Spring Semester",
-          "credits_required": 19,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MED",
-              "number": "122",
-              "title": "Medical Terminology II",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MED",
-              "number": "131",
-              "title": "Administrative Office Procedures II",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MED",
-              "number": "150",
-              "title": "Laboratory Procedures I",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MED",
-              "number": "270",
-              "title": "Symptomatology",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSY",
-              "number": "150",
-              "title": "General Psychology",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "111",
-              "title": "Writing and Inquiry",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Summer Semester",
-          "credits_required": 7,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MED",
-              "number": "260",
-              "title": "MED Clinical Practicum",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MED",
-              "number": "264",
-              "title": "Medical Assisting Overview",
-              "credits": 2,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Polysomnography A.A.S. Degree [A45670]",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/polysomnography/polysomnography-aas-degree-a45670",
-      "total_credits": 67,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Fall Semester",
-          "credits_required": 17,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "BIO",
-              "number": "163",
-              "title": "Basic Anatomy & Physiology",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MED",
-              "number": "121",
-              "title": "Medical Terminology I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSG",
-              "number": "110",
-              "title": "Intro to Polysomnography",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSG",
-              "number": "112",
-              "title": "PSG Fundamentals",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSG",
-              "number": "214",
-              "title": "PSG Clinical Apps I",
-              "credits": 1,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACA",
-              "number": "122",
-              "title": "College Transfer Success",
-              "credits": 1,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Spring Semester",
-          "credits_required": 15,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ENG",
-              "number": "111",
-              "title": "Writing and Inquiry",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MED",
-              "number": "118",
-              "title": "Medical Law and Ethics",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSG",
-              "number": "111",
-              "title": "Neuro/Cardiopulmonary A&P",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSG",
-              "number": "113",
-              "title": "PSG Instrumentation",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSG",
-              "number": "114",
-              "title": "PSG Clinical Education I",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Summer Semester",
-          "credits_required": 9,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MAT",
-              "number": "143",
-              "title": "Quantitative Literacy",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "110",
-              "title": "Introduction to Computers",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "112",
-              "title": "Writing and Research in the Disciplines",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "114",
-              "title": "Professional Research & Reporting",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Fall Semester",
-          "credits_required": 12,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "PSG",
-              "number": "210",
-              "title": "Polysomnography I",
-              "credits": 7,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSG",
-              "number": "212",
-              "title": "Infant/Pediatric PSG",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSG",
-              "number": "215",
-              "title": "PSG Clinical Apps II",
-              "credits": 1,
-              "or_alternatives": []
-            }
-          ]
-        },
-        {
-          "name": "Spring Semester",
-          "credits_required": 14,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "PSG",
-              "number": "211",
-              "title": "Polysomnography II",
-              "credits": 7,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSG",
-              "number": "213",
-              "title": "Case Study/Exam Review",
-              "credits": 1,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "PSY",
-              "number": "150",
-              "title": "General Psychology",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Nurse Aide Certificate Program [C45840] - No Longer Accepting Applications Beginning Spring 2026",
       "credential": "certificate",
       "program_code": null,
@@ -21074,6 +20880,200 @@
       "matched_program_slug": null
     },
     {
+      "title": "Polysomnography A.A.S. Degree [A45670]",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/polysomnography/polysomnography-aas-degree-a45670",
+      "total_credits": 67,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Fall Semester",
+          "credits_required": 17,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "BIO",
+              "number": "163",
+              "title": "Basic Anatomy & Physiology",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "121",
+              "title": "Medical Terminology I",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSG",
+              "number": "110",
+              "title": "Intro to Polysomnography",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSG",
+              "number": "112",
+              "title": "PSG Fundamentals",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSG",
+              "number": "214",
+              "title": "PSG Clinical Apps I",
+              "credits": 1,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACA",
+              "number": "122",
+              "title": "College Transfer Success",
+              "credits": 1,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Spring Semester",
+          "credits_required": 15,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ENG",
+              "number": "111",
+              "title": "Writing and Inquiry",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MED",
+              "number": "118",
+              "title": "Medical Law and Ethics",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSG",
+              "number": "111",
+              "title": "Neuro/Cardiopulmonary A&P",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSG",
+              "number": "113",
+              "title": "PSG Instrumentation",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSG",
+              "number": "114",
+              "title": "PSG Clinical Education I",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Summer Semester",
+          "credits_required": 9,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "MAT",
+              "number": "143",
+              "title": "Quantitative Literacy",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "110",
+              "title": "Introduction to Computers",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "112",
+              "title": "Writing and Research in the Disciplines",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "114",
+              "title": "Professional Research & Reporting",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Fall Semester",
+          "credits_required": 12,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "PSG",
+              "number": "210",
+              "title": "Polysomnography I",
+              "credits": 7,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSG",
+              "number": "212",
+              "title": "Infant/Pediatric PSG",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSG",
+              "number": "215",
+              "title": "PSG Clinical Apps II",
+              "credits": 1,
+              "or_alternatives": []
+            }
+          ]
+        },
+        {
+          "name": "Spring Semester",
+          "credits_required": 14,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "PSG",
+              "number": "211",
+              "title": "Polysomnography II",
+              "credits": 7,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSG",
+              "number": "213",
+              "title": "Case Study/Exam Review",
+              "credits": 1,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "PSY",
+              "number": "150",
+              "title": "General Psychology",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Speech-Language Pathology Assistant A.A.S. Degree [A45730]",
       "credential": "AS",
       "program_code": null,
@@ -21296,163 +21296,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Welding Technology Certificate [C50420W]",
-      "credential": "certificate",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/welding-technology/welding-technology-certificate-c50420w",
-      "total_credits": 18,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "WLD",
-              "number": "110",
-              "title": "Cutting Processes",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "115",
-              "title": "SMAW (Stick) Plate",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "121",
-              "title": "GMAW (MIG) FCAW/Plate",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "131",
-              "title": "GTAW (TIG) Plate",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "141",
-              "title": "Symbols and Specifications",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "welding"
-    },
-    {
-      "title": "Welding Technology Diploma [D50420]",
-      "credential": "diploma",
-      "program_code": null,
-      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/welding-technology/welding-technology-diploma-d50420",
-      "total_credits": 41,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Required Courses",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CIS",
-              "number": "110",
-              "title": "Introduction to Computers",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ENG",
-              "number": "111",
-              "title": "Writing and Inquiry",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MAT",
-              "number": "110",
-              "title": "Mathematical Measurement and Literacy",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "110",
-              "title": "Cutting Processes",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "115",
-              "title": "SMAW (Stick) Plate",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "116",
-              "title": "SMAW (stick) Plate/Pipe",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "121",
-              "title": "GMAW (MIG) FCAW/Plate",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "122",
-              "title": "GMAW (MIG) Plate/Pipe",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "131",
-              "title": "GTAW (TIG) Plate",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "132",
-              "title": "GTAW (TIG) Plate/Pipe",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "141",
-              "title": "Symbols and Specifications",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "WLD",
-              "number": "151",
-              "title": "Fabrication I",
-              "credits": 4,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "welding"
-    },
-    {
       "title": "Welding Technology A.A.S. Degree [A50420]",
       "credential": "AS",
       "program_code": null,
@@ -21660,6 +21503,163 @@
               "number": "132",
               "title": "GTAW (TIG) Plate/Pipe",
               "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "welding"
+    },
+    {
+      "title": "Welding Technology Certificate [C50420W]",
+      "credential": "certificate",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/welding-technology/welding-technology-certificate-c50420w",
+      "total_credits": 18,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "WLD",
+              "number": "110",
+              "title": "Cutting Processes",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "115",
+              "title": "SMAW (Stick) Plate",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "121",
+              "title": "GMAW (MIG) FCAW/Plate",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "131",
+              "title": "GTAW (TIG) Plate",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "141",
+              "title": "Symbols and Specifications",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "welding"
+    },
+    {
+      "title": "Welding Technology Diploma [D50420]",
+      "credential": "diploma",
+      "program_code": null,
+      "catalog_url": "https://mitchellcc.smartcatalogiq.com/en/2025-2026/college-catalog/programs-of-study/welding-technology/welding-technology-diploma-d50420",
+      "total_credits": 41,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Required Courses",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CIS",
+              "number": "110",
+              "title": "Introduction to Computers",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ENG",
+              "number": "111",
+              "title": "Writing and Inquiry",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MAT",
+              "number": "110",
+              "title": "Mathematical Measurement and Literacy",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "110",
+              "title": "Cutting Processes",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "115",
+              "title": "SMAW (Stick) Plate",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "116",
+              "title": "SMAW (stick) Plate/Pipe",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "121",
+              "title": "GMAW (MIG) FCAW/Plate",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "122",
+              "title": "GMAW (MIG) Plate/Pipe",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "131",
+              "title": "GTAW (TIG) Plate",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "132",
+              "title": "GTAW (TIG) Plate/Pipe",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "141",
+              "title": "Symbols and Specifications",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "WLD",
+              "number": "151",
+              "title": "Fabrication I",
+              "credits": 4,
               "or_alternatives": []
             }
           ]
