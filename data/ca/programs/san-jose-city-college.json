@@ -2,69 +2,8 @@
   "college_slug": "san-jose-city-college",
   "catalog_year": "",
   "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/",
-  "scraped_at": "2026-06-01T13:44:36.476Z",
+  "scraped_at": "2026-11-01T14:54:20.111Z",
   "programs": [
-    {
-      "title": "Academic Success - Certificate of Competency — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/Disabled-Student-Programs-and-Services/academic-success-cert-completion/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "DSPS",
-              "number": "519",
-              "title": "Orientation to College for Students With Limitations",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DSPS",
-              "number": "502",
-              "title": "Reading Skills for Everyday Life",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DSPS",
-              "number": "504",
-              "title": "Writing Skills for Everyday Life",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DSPS",
-              "number": "508",
-              "title": "Math Skills for Everyday Life",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DSPS",
-              "number": "515",
-              "title": "Computer Assisted Instruction",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DSPS",
-              "number": "550",
-              "title": "Adaptive Technology and Microsoft Office",
-              "credits": 0,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
     {
       "title": "Career Preparedness - Certificate of Competency — Associate in Science",
       "credential": "AS",
@@ -132,6 +71,128 @@
         }
       ],
       "matched_program_slug": null
+    },
+    {
+      "title": "Academic Success - Certificate of Competency — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/Disabled-Student-Programs-and-Services/academic-success-cert-completion/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "DSPS",
+              "number": "519",
+              "title": "Orientation to College for Students With Limitations",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DSPS",
+              "number": "502",
+              "title": "Reading Skills for Everyday Life",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DSPS",
+              "number": "504",
+              "title": "Writing Skills for Everyday Life",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DSPS",
+              "number": "508",
+              "title": "Math Skills for Everyday Life",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DSPS",
+              "number": "515",
+              "title": "Computer Assisted Instruction",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "DSPS",
+              "number": "550",
+              "title": "Adaptive Technology and Microsoft Office",
+              "credits": 0,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Accounting - Certificate of Achievement Level 2 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/accounting/accounting-certificate-achievement/",
+      "total_credits": 24,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 24,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ACCTG",
+              "number": "020",
+              "title": "Financial Accounting",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACCTG",
+              "number": "021",
+              "title": "Managerial Accounting",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACCTG",
+              "number": "030",
+              "title": "QuickBooks",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACCTG",
+              "number": "097",
+              "title": "Introduction to Income Taxes",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "007A",
+              "title": "Business Language Skills",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "041",
+              "title": "Introduction to Computer Information Systems",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "accounting"
     },
     {
       "title": "Accounting - Associate in Science — Associate in Science",
@@ -216,163 +277,6 @@
       "matched_program_slug": "accounting"
     },
     {
-      "title": "Accounting - Certificate of Achievement Level 2 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/accounting/accounting-certificate-achievement/",
-      "total_credits": 24,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 24,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ACCTG",
-              "number": "020",
-              "title": "Financial Accounting",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACCTG",
-              "number": "021",
-              "title": "Managerial Accounting",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACCTG",
-              "number": "030",
-              "title": "QuickBooks",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACCTG",
-              "number": "097",
-              "title": "Introduction to Income Taxes",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "007A",
-              "title": "Business Language Skills",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "041",
-              "title": "Introduction to Computer Information Systems",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "accounting"
-    },
-    {
-      "title": "Administration of Justice - Associate in Science for Transfer — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/administration-justice/administration-justice-associate-science-transfer/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "AJ",
-              "number": "010",
-              "title": "Introduction to Administration of Justice",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "011",
-              "title": "Criminal Law",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "013",
-              "title": "Criminal Procedures",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "015",
-              "title": "Introduction to Criminal Investigation",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "019",
-              "title": "Law Enforcement in Multicultural Communities",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "111",
-              "title": "Juvenile Law and Procedures",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "112",
-              "title": "Introduction to Evidence",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "115",
-              "title": "Introduction to Forensic Science",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "116",
-              "title": "Introduction to Corrections",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "014",
-              "title": "Contemporary Police Issues",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SOC",
-              "number": "010",
-              "title": "Introduction to Sociology",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Administration of Justice - Traditional Option - Associate in Science — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -418,6 +322,81 @@
               "prefix": "AJ",
               "number": "015",
               "title": "Introduction to Criminal Investigation",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Administration of Justice - Judicial Administration Associate in Science — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/administration-justice/administration-justice-judicial-administration-associate-science/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "AJ",
+              "number": "125",
+              "title": "Fundamentals of Court Operations-Court Case Types",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "127",
+              "title": "Introduction to Government and the Judicial Branch",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "128",
+              "title": "Public Trust and Confidence in the Judicial Branch",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "129",
+              "title": "Fundamentals of Court Operations- Courtroom Support",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "131",
+              "title": "Judicial Branch Workplace: Relationships and Communications",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "132",
+              "title": "Introduction to Judicial Administration",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "133",
+              "title": "Career Readiness in the Judicial/Justice System",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "008",
+              "title": "Business Communication",
               "credits": 3,
               "or_alternatives": []
             }
@@ -591,81 +570,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Administration of Justice - Judicial Administration - Certificate of Achievement Level 2 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/administration-justice/administration-justice-judicial-administration-certificate-achievement-judicial-administration/",
-      "total_credits": 27,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 27,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "AJ",
-              "number": "125",
-              "title": "Fundamentals of Court Operations-Court Case Types",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "127",
-              "title": "Introduction to Government and the Judicial Branch",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "128",
-              "title": "Public Trust and Confidence in the Judicial Branch",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "129",
-              "title": "Fundamentals of Court Operations- Courtroom Support",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "131",
-              "title": "Judicial Branch Workplace: Relationships and Communications",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "132",
-              "title": "Introduction to Judicial Administration",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "133",
-              "title": "Career Readiness in the Judicial/Justice System",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "008",
-              "title": "Business Communication",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Administration of Justice - Judicial Administration: Supervision/Lead - Certificate of Achievement Level 1 — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -755,6 +659,177 @@
       "matched_program_slug": null
     },
     {
+      "title": "Administration of Justice - Judicial Administration - Certificate of Achievement Level 2 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/administration-justice/administration-justice-judicial-administration-certificate-achievement-judicial-administration/",
+      "total_credits": 27,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 27,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "AJ",
+              "number": "125",
+              "title": "Fundamentals of Court Operations-Court Case Types",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "127",
+              "title": "Introduction to Government and the Judicial Branch",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "128",
+              "title": "Public Trust and Confidence in the Judicial Branch",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "129",
+              "title": "Fundamentals of Court Operations- Courtroom Support",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "131",
+              "title": "Judicial Branch Workplace: Relationships and Communications",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "132",
+              "title": "Introduction to Judicial Administration",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "133",
+              "title": "Career Readiness in the Judicial/Justice System",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "008",
+              "title": "Business Communication",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Administration of Justice - Associate in Science for Transfer — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/administration-justice/administration-justice-associate-science-transfer/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "AJ",
+              "number": "010",
+              "title": "Introduction to Administration of Justice",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "011",
+              "title": "Criminal Law",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "013",
+              "title": "Criminal Procedures",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "015",
+              "title": "Introduction to Criminal Investigation",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "019",
+              "title": "Law Enforcement in Multicultural Communities",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "111",
+              "title": "Juvenile Law and Procedures",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "112",
+              "title": "Introduction to Evidence",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "115",
+              "title": "Introduction to Forensic Science",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "116",
+              "title": "Introduction to Corrections",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AJ",
+              "number": "014",
+              "title": "Contemporary Police Issues",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "SOC",
+              "number": "010",
+              "title": "Introduction to Sociology",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Law, Public Policy, and Society - Associate in Arts for Transfer — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -797,20 +872,6 @@
               "or_alternatives": []
             },
             {
-              "prefix": "HIST",
-              "number": "017A",
-              "title": "History of the United States",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HIST",
-              "number": "017B",
-              "title": "History of the United States",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
               "prefix": "AJ",
               "number": "019",
               "title": "Law Enforcement in Multicultural Communities",
@@ -842,20 +903,6 @@
               "prefix": "BUS",
               "number": "071",
               "title": "Legal Environment of Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010A",
-              "title": "Principles of Macroeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
               "credits": 3,
               "or_alternatives": []
             },
@@ -1040,177 +1087,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Air Conditioning and Refrigeration Technology - Associate in Science — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/air-conditioning-refrigeration-technology/air-conditioning-refrigeration-technology-associate-science/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "AIRC",
-              "number": "121",
-              "title": "Air Conditioning Principles",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "122",
-              "title": "Refrigeration Principles",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "131",
-              "title": "Intermediate Air Conditioning",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "132",
-              "title": "Refrigeration Service",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "133",
-              "title": "EPA Section 608 Refrigerant Recovery Certification Program",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "141",
-              "title": "Hydronics and Air Distribution",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "142",
-              "title": "Air Conditioning Control Systems",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FMT",
-              "number": "100",
-              "title": "Introduction to Facilities Maintenance",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "145",
-              "title": "Sheet Metal Principles",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FMT",
-              "number": "105",
-              "title": "Introduction to Industrial Electronics and Controls",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FMT",
-              "number": "130",
-              "title": "Management of People in Technical and Building Services Industries",
-              "credits": 0,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Administration of Justice - Judicial Administration Associate in Science — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/administration-justice/administration-justice-judicial-administration-associate-science/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "AJ",
-              "number": "125",
-              "title": "Fundamentals of Court Operations-Court Case Types",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "127",
-              "title": "Introduction to Government and the Judicial Branch",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "128",
-              "title": "Public Trust and Confidence in the Judicial Branch",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "129",
-              "title": "Fundamentals of Court Operations- Courtroom Support",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "131",
-              "title": "Judicial Branch Workplace: Relationships and Communications",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "132",
-              "title": "Introduction to Judicial Administration",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AJ",
-              "number": "133",
-              "title": "Career Readiness in the Judicial/Justice System",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "008",
-              "title": "Business Communication",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Air Conditioning and Refrigeration Technology - Certificate of Achievement Level 2 — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -1257,158 +1133,6 @@
               "number": "100",
               "title": "Introduction to Facilities Maintenance",
               "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Air Conditioning and Refrigeration Technology - Certificate of Achievement Level 3 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/air-conditioning-refrigeration-technology/air-conditioning-refrigeration-technology-certificate-achievement-level-3/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "AIRC",
-              "number": "121",
-              "title": "Air Conditioning Principles",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "122",
-              "title": "Refrigeration Principles",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "131",
-              "title": "Intermediate Air Conditioning",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "132",
-              "title": "Refrigeration Service",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "133",
-              "title": "EPA Section 608 Refrigerant Recovery Certification Program",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "141",
-              "title": "Hydronics and Air Distribution",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "142",
-              "title": "Air Conditioning Control Systems",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FMT",
-              "number": "100",
-              "title": "Introduction to Facilities Maintenance",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "145",
-              "title": "Sheet Metal Principles",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FMT",
-              "number": "105",
-              "title": "Introduction to Industrial Electronics and Controls",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FMT",
-              "number": "130",
-              "title": "Management of People in Technical and Building Services Industries",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "AIRC",
-              "number": "138",
-              "title": "Work Experience",
-              "credits": 1,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "041",
-              "title": "Introduction to Computer Information Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CNSTR",
-              "number": "102A",
-              "title": "Residential Plumbing Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CNSTR",
-              "number": "102B",
-              "title": "Residential/Commercial Wiring",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FMT",
-              "number": "104",
-              "title": "Electrical Concepts for Facilities Maintenance Technicians",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FMT",
-              "number": "120",
-              "title": "Low and High Pressure Boilers",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FMT",
-              "number": "122",
-              "title": "Introduction to Programmable Logic Controllers",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "FMT",
-              "number": "123",
-              "title": "Intermediate Programmable Logic Controllers",
-              "credits": 4,
               "or_alternatives": []
             }
           ]
@@ -1607,6 +1331,158 @@
       "matched_program_slug": null
     },
     {
+      "title": "Air Conditioning and Refrigeration Technology - Certificate of Achievement Level 3 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/air-conditioning-refrigeration-technology/air-conditioning-refrigeration-technology-certificate-achievement-level-3/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "AIRC",
+              "number": "121",
+              "title": "Air Conditioning Principles",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "122",
+              "title": "Refrigeration Principles",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "131",
+              "title": "Intermediate Air Conditioning",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "132",
+              "title": "Refrigeration Service",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "133",
+              "title": "EPA Section 608 Refrigerant Recovery Certification Program",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "141",
+              "title": "Hydronics and Air Distribution",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "142",
+              "title": "Air Conditioning Control Systems",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FMT",
+              "number": "100",
+              "title": "Introduction to Facilities Maintenance",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "145",
+              "title": "Sheet Metal Principles",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FMT",
+              "number": "105",
+              "title": "Introduction to Industrial Electronics and Controls",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FMT",
+              "number": "130",
+              "title": "Management of People in Technical and Building Services Industries",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "138",
+              "title": "Work Experience",
+              "credits": 1,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "041",
+              "title": "Introduction to Computer Information Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CNSTR",
+              "number": "102A",
+              "title": "Residential Plumbing Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CNSTR",
+              "number": "102B",
+              "title": "Residential/Commercial Wiring",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FMT",
+              "number": "104",
+              "title": "Electrical Concepts for Facilities Maintenance Technicians",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FMT",
+              "number": "120",
+              "title": "Low and High Pressure Boilers",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FMT",
+              "number": "122",
+              "title": "Introduction to Programmable Logic Controllers",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FMT",
+              "number": "123",
+              "title": "Intermediate Programmable Logic Controllers",
+              "credits": 4,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Alcohol and Drug Studies - Certificate of Achievement Level 2 — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -1703,6 +1579,102 @@
       "matched_program_slug": null
     },
     {
+      "title": "Air Conditioning and Refrigeration Technology - Associate in Science — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/air-conditioning-refrigeration-technology/air-conditioning-refrigeration-technology-associate-science/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "AIRC",
+              "number": "121",
+              "title": "Air Conditioning Principles",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "122",
+              "title": "Refrigeration Principles",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "131",
+              "title": "Intermediate Air Conditioning",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "132",
+              "title": "Refrigeration Service",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "133",
+              "title": "EPA Section 608 Refrigerant Recovery Certification Program",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "141",
+              "title": "Hydronics and Air Distribution",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "142",
+              "title": "Air Conditioning Control Systems",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FMT",
+              "number": "100",
+              "title": "Introduction to Facilities Maintenance",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "AIRC",
+              "number": "145",
+              "title": "Sheet Metal Principles",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FMT",
+              "number": "105",
+              "title": "Introduction to Industrial Electronics and Controls",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "FMT",
+              "number": "130",
+              "title": "Management of People in Technical and Building Services Industries",
+              "credits": 0,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Alcohol and Drug Studies Peer Mentor - Certificate of Specialization — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -1781,116 +1753,6 @@
               "prefix": "PSYCH",
               "number": "099",
               "title": "Abnormal Psychology",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Alcohol and Drug Studies Certification - Certificate of Achievement Level 3 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/alcohol-drug-studies/certificate-of-achievement-level-3/",
-      "total_credits": 41,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 41,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ADS",
-              "number": "070",
-              "title": "Introduction to Chemical Dependency",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ADS",
-              "number": "071",
-              "title": "Pharmacology/Physiology of Addiction",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ADS",
-              "number": "072",
-              "title": "Codependency & Family Dynamics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ADS",
-              "number": "073",
-              "title": "Case Management",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ADS",
-              "number": "074",
-              "title": "Ethics, and Personal and Professional Growth",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ADS",
-              "number": "075A",
-              "title": "Counseling Theories and Skills",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ADS",
-              "number": "076",
-              "title": "Law and Prevention: Community Response",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ADS",
-              "number": "078",
-              "title": "Integrated Behavioral Health",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ADS",
-              "number": "079",
-              "title": "Group Dynamics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ADS",
-              "number": "077A",
-              "title": "Supervised Practicum A",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ADS",
-              "number": "077B",
-              "title": "Supervised Practicum B",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ADS",
-              "number": "138",
-              "title": "Work Experience",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "SOC",
-              "number": "010",
-              "title": "Introduction to Sociology",
               "credits": 3,
               "or_alternatives": []
             }
@@ -2135,13 +1997,6 @@
               "prefix": "ART",
               "number": "055A",
               "title": "Life Drawing I",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "DMA",
-              "number": "001",
-              "title": "Introduction to Digital Media Arts",
               "credits": 3,
               "or_alternatives": []
             },
@@ -2826,20 +2681,6 @@
               "or_alternatives": []
             },
             {
-              "prefix": "ECON",
-              "number": "010A",
-              "title": "Principles of Macroeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
               "prefix": "FCS",
               "number": "019",
               "title": "Nutrition",
@@ -2985,20 +2826,6 @@
               "or_alternatives": []
             },
             {
-              "prefix": "ECON",
-              "number": "010A",
-              "title": "Principles of Macroeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
               "prefix": "ENGL",
               "number": "001B",
               "title": "English Composition",
@@ -3016,6 +2843,81 @@
               "prefix": "BUS",
               "number": "060",
               "title": "Fundamentals of Business Statistics",
+              "credits": 0,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "business-administration"
+    },
+    {
+      "title": "Business Administration 2.0 - Associate in Science for Transfer — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/business/business-administration-2.0-associate-science-transfer/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ACCTG",
+              "number": "020",
+              "title": "Financial Accounting",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACCTG",
+              "number": "021",
+              "title": "Managerial Accounting",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "071",
+              "title": "Legal Environment of Business",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "082",
+              "title": "Introduction to Business",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MATH",
+              "number": "061",
+              "title": "Finite Mathematics",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MATH",
+              "number": "062",
+              "title": "Calculus for Business and the Social Sciences",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MATH",
+              "number": "071",
+              "title": "Calculus I With Analytic Geometry",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MATH",
+              "number": "071H",
+              "title": "Honors Calculus I With Analytic Geometry",
               "credits": 0,
               "or_alternatives": []
             }
@@ -3084,6 +2986,116 @@
               "prefix": "CIS",
               "number": "041",
               "title": "Introduction to Computer Information Systems",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "business-administration"
+    },
+    {
+      "title": "Business: Entrepreneurship - Certificate of Achievement Level 3 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/business/entrepreneurship-certificate-achievement-level-3/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ACCTG",
+              "number": "020",
+              "title": "Financial Accounting",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACCTG",
+              "number": "101",
+              "title": "Bookkeeping for Small Business",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "068",
+              "title": "Entrepreneurship and Small Business Management",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "071",
+              "title": "Legal Environment of Business",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "082",
+              "title": "Introduction to Business",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "120",
+              "title": "Marketing Principles",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "041",
+              "title": "Introduction to Computer Information Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACCTG",
+              "number": "021",
+              "title": "Managerial Accounting",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "112",
+              "title": "Advertising, Promotion, and Sales",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "113",
+              "title": "Principles of Management",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "124",
+              "title": "International Marketing",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "126",
+              "title": "Retail Management",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "135",
+              "title": "Human Relations and Leadership",
               "credits": 3,
               "or_alternatives": []
             }
@@ -3194,20 +3206,6 @@
               "prefix": "BUS",
               "number": "126",
               "title": "Retail Management",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010A",
-              "title": "Principles of Macroeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
               "credits": 3,
               "or_alternatives": []
             },
@@ -3416,6 +3414,74 @@
       "matched_program_slug": "business-administration"
     },
     {
+      "title": "Business: Marketing - Certificate of Achievement Level 2 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/business/marketing-certificate-achievement-level-2/",
+      "total_credits": 20,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 20,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "ACCTG",
+              "number": "020",
+              "title": "Financial Accounting",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ACCTG",
+              "number": "101",
+              "title": "Bookkeeping for Small Business",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "071",
+              "title": "Legal Environment of Business",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "082",
+              "title": "Introduction to Business",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "112",
+              "title": "Advertising, Promotion, and Sales",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "120",
+              "title": "Marketing Principles",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "041",
+              "title": "Introduction to Computer Information Systems",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "business-administration"
+    },
+    {
       "title": "Business - Marketing - Associate in Science — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -3521,20 +3587,6 @@
               "or_alternatives": []
             },
             {
-              "prefix": "ECON",
-              "number": "010A",
-              "title": "Principles of Macroeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
               "prefix": "ENGL",
               "number": "001B",
               "title": "English Composition",
@@ -3553,74 +3605,6 @@
               "number": "060",
               "title": "Fundamentals of Business Statistics",
               "credits": 0,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "business-administration"
-    },
-    {
-      "title": "Business: Marketing - Certificate of Achievement Level 2 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/business/marketing-certificate-achievement-level-2/",
-      "total_credits": 20,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 20,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ACCTG",
-              "number": "020",
-              "title": "Financial Accounting",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACCTG",
-              "number": "101",
-              "title": "Bookkeeping for Small Business",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "071",
-              "title": "Legal Environment of Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "082",
-              "title": "Introduction to Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "112",
-              "title": "Advertising, Promotion, and Sales",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "120",
-              "title": "Marketing Principles",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "041",
-              "title": "Introduction to Computer Information Systems",
-              "credits": 3,
               "or_alternatives": []
             }
           ]
@@ -3823,20 +3807,6 @@
               "or_alternatives": []
             },
             {
-              "prefix": "ECON",
-              "number": "010A",
-              "title": "Principles of Macroeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
               "prefix": "CA",
               "number": "040D",
               "title": "Microsoft Word Level 1and Microsoft Excel Level 1and Microsoft Access Level 1",
@@ -3861,116 +3831,6 @@
         }
       ],
       "matched_program_slug": null
-    },
-    {
-      "title": "Business: Entrepreneurship - Certificate of Achievement Level 3 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/business/entrepreneurship-certificate-achievement-level-3/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ACCTG",
-              "number": "020",
-              "title": "Financial Accounting",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACCTG",
-              "number": "101",
-              "title": "Bookkeeping for Small Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "068",
-              "title": "Entrepreneurship and Small Business Management",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "071",
-              "title": "Legal Environment of Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "082",
-              "title": "Introduction to Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "120",
-              "title": "Marketing Principles",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "041",
-              "title": "Introduction to Computer Information Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACCTG",
-              "number": "021",
-              "title": "Managerial Accounting",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "112",
-              "title": "Advertising, Promotion, and Sales",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "113",
-              "title": "Principles of Management",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "124",
-              "title": "International Marketing",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "126",
-              "title": "Retail Management",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "135",
-              "title": "Human Relations and Leadership",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "business-administration"
     },
     {
       "title": "Real Estate - Certificate of Achievement Level 2 — Associate in Science",
@@ -4205,318 +4065,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Business Administration 2.0 - Associate in Science for Transfer — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/business/business-administration-2.0-associate-science-transfer/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "ACCTG",
-              "number": "020",
-              "title": "Financial Accounting",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ACCTG",
-              "number": "021",
-              "title": "Managerial Accounting",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "071",
-              "title": "Legal Environment of Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "082",
-              "title": "Introduction to Business",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010A",
-              "title": "Principles of Macroeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MATH",
-              "number": "061",
-              "title": "Finite Mathematics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MATH",
-              "number": "062",
-              "title": "Calculus for Business and the Social Sciences",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MATH",
-              "number": "071",
-              "title": "Calculus I With Analytic Geometry",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MATH",
-              "number": "071H",
-              "title": "Honors Calculus I With Analytic Geometry",
-              "credits": 0,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "business-administration"
-    },
-    {
-      "title": "Business and Data Analytics - Certificate of Achievement Level 1 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-applications/business-data-analytics-certificate-achievement-level-1/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CIS",
-              "number": "120",
-              "title": "Fundamentals of Business & Data Analytics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "122",
-              "title": "SQL for Data Analytics",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "123",
-              "title": "Data Visualization With Tableau",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "124",
-              "title": "Utilizing Statistics for Data Analytics",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "business-administration"
-    },
-    {
-      "title": "Computer Information Systems: CCNA - Certificate of Achievement Level 2 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-information-systems/cis-cisco-networks-ccna-certificate-achievement-level-2/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CIS",
-              "number": "018A",
-              "title": "CCNAv7: Introduction to Networks",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "018B",
-              "title": "CCNAv7: Switching, Routing, and Wireless Essentials",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "018C",
-              "title": "CCNAv7: Enterprise Networking, Security And Automation (ENSA)",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "018D",
-              "title": "CCNA R&S: Connecting Networks",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Computer Information Systems: Computer Programming - Certificate of Achievement Level 2 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-information-systems/cis-computer-programming-certificate-achievement-level-2/",
-      "total_credits": 18,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 18,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CIS",
-              "number": "041",
-              "title": "Introduction to Computer Information Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "054",
-              "title": "C/C++ Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "055",
-              "title": "Data Structures: Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "059",
-              "title": "Object Oriented Design and Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "073",
-              "title": "Visual Basic Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "084",
-              "title": "Java Programming",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "CIS - Computer Programming - Associate in Science — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-information-systems/cis-computer-programming-associate-science/",
-      "total_credits": 36,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 36,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CIS",
-              "number": "041",
-              "title": "Introduction to Computer Information Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "054",
-              "title": "C/C++ Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "055",
-              "title": "Data Structures: Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "059",
-              "title": "Object Oriented Design and Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "073",
-              "title": "Visual Basic Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "084",
-              "title": "Java Programming",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "157",
-              "title": "Introduction to Unix/Linux",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Communication Studies 2.0 - Associate in Arts for Transfer — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -4613,6 +4161,290 @@
       "matched_program_slug": null
     },
     {
+      "title": "Business and Data Analytics - Certificate of Achievement Level 1 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-applications/business-data-analytics-certificate-achievement-level-1/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CIS",
+              "number": "120",
+              "title": "Fundamentals of Business & Data Analytics",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "122",
+              "title": "SQL for Data Analytics",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "123",
+              "title": "Data Visualization With Tableau",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "124",
+              "title": "Utilizing Statistics for Data Analytics",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "business-administration"
+    },
+    {
+      "title": "Project Management - Certificate of Achievement Level 1 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-applications/project-management-certificate-achievement-level-1/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CA",
+              "number": "150",
+              "title": "Project Management 1: Foundations of Project Management",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CA",
+              "number": "151",
+              "title": "Project Management 2: Agile Project Management",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CA",
+              "number": "152",
+              "title": "Project Management 3: Applying Project Management in the Real World",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CA",
+              "number": "090",
+              "title": "Microsoft Project",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "041",
+              "title": "Introduction to Computer Information Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CA",
+              "number": "100D",
+              "title": "Microsoft Office",
+              "credits": 0,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "business-administration"
+    },
+    {
+      "title": "Computer Information Systems: CCNA - Certificate of Achievement Level 2 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-information-systems/cis-cisco-networks-ccna-certificate-achievement-level-2/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CIS",
+              "number": "018A",
+              "title": "CCNAv7: Introduction to Networks",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "018B",
+              "title": "CCNAv7: Switching, Routing, and Wireless Essentials",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "018C",
+              "title": "CCNAv7: Enterprise Networking, Security And Automation (ENSA)",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "018D",
+              "title": "CCNA R&S: Connecting Networks",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "CIS - Computer Programming - Associate in Science — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-information-systems/cis-computer-programming-associate-science/",
+      "total_credits": 36,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 36,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CIS",
+              "number": "041",
+              "title": "Introduction to Computer Information Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "054",
+              "title": "C/C++ Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "055",
+              "title": "Data Structures: Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "059",
+              "title": "Object Oriented Design and Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "073",
+              "title": "Visual Basic Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "084",
+              "title": "Java Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "157",
+              "title": "Introduction to Unix/Linux",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Computer Information Systems: Computer Programming - Certificate of Achievement Level 2 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-information-systems/cis-computer-programming-certificate-achievement-level-2/",
+      "total_credits": 18,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 18,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CIS",
+              "number": "041",
+              "title": "Introduction to Computer Information Systems",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "054",
+              "title": "C/C++ Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "055",
+              "title": "Data Structures: Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "059",
+              "title": "Object Oriented Design and Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "073",
+              "title": "Visual Basic Programming",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "084",
+              "title": "Java Programming",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Computer Information Systems: Computer Programming - Certificate of Achievement Level 3 — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -4679,67 +4511,6 @@
         }
       ],
       "matched_program_slug": null
-    },
-    {
-      "title": "Project Management - Certificate of Achievement Level 1 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-applications/project-management-certificate-achievement-level-1/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CA",
-              "number": "150",
-              "title": "Project Management 1: Foundations of Project Management",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CA",
-              "number": "151",
-              "title": "Project Management 2: Agile Project Management",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CA",
-              "number": "152",
-              "title": "Project Management 3: Applying Project Management in the Real World",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CA",
-              "number": "090",
-              "title": "Microsoft Project",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "041",
-              "title": "Introduction to Computer Information Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CA",
-              "number": "100D",
-              "title": "Microsoft Office",
-              "credits": 0,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "business-administration"
     },
     {
       "title": "CIS - General Networking - Associate in Science — Associate in Science",
@@ -5135,6 +4906,53 @@
       "credential": "AS",
       "program_code": null,
       "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-information-systems/cis-unix-networks-associate-science/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CIS",
+              "number": "014A",
+              "title": "Internet Principles and Protocols",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "062A",
+              "title": "Introduction to PC Hardware and Diagnostics",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "157",
+              "title": "Introduction to Unix/Linux",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "158",
+              "title": "Linux System Administration",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Computer Information Systems: UNIX Networks - Certificate of Achievement Level 1 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-information-systems/cis-unix-networks-certificate-achievement-level-1/",
       "total_credits": null,
       "gpa_minimum": 2,
       "description": null,
@@ -5719,6 +5537,60 @@
       "matched_program_slug": null
     },
     {
+      "title": "Information Systems Security: Cybersecurity-Certificate of Achievement Level 1 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-information-systems/information-systems-security-cybersecurity-certificate-of-achievement-level-1/",
+      "total_credits": 15,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 15,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CIS",
+              "number": "014A",
+              "title": "Internet Principles and Protocols",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "017A",
+              "title": "Windows",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "157",
+              "title": "Introduction to Unix/Linux",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "160",
+              "title": "Introduction to Information Systems Security",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CIS",
+              "number": "164",
+              "title": "Introduction to Cybersecurity: Ethical Hacking",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "computer-science"
+    },
+    {
       "title": "Computer Science - Associate in Science for Transfer — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -5815,74 +5687,6 @@
       "matched_program_slug": "computer-science"
     },
     {
-      "title": "Construction Technology - Associate in Arts — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/construction-technology/construction-technology-associate-arts/",
-      "total_credits": 18,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 18,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CNSTR",
-              "number": "101A",
-              "title": "Tools, Materials, and Safety",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CNSTR",
-              "number": "101B",
-              "title": "Residential Construction Framing",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CNSTR",
-              "number": "102A",
-              "title": "Residential Plumbing Systems",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CNSTR",
-              "number": "102B",
-              "title": "Residential/Commercial Wiring",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CNSTR",
-              "number": "115",
-              "title": "Blueprint Reading",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CNSTR",
-              "number": "117",
-              "title": "OSHA Construction Safety Standards",
-              "credits": 1,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CNSTR",
-              "number": "125",
-              "title": "Energy Efficiency Construction",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Construction Technology - Associate in Science — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -5963,53 +5767,6 @@
               "prefix": "CNSTR",
               "number": "125",
               "title": "Energy Efficiency Construction",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Computer Information Systems: UNIX Networks - Certificate of Achievement Level 1 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/computer-information-systems/cis-unix-networks-certificate-achievement-level-1/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "CIS",
-              "number": "014A",
-              "title": "Internet Principles and Protocols",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "062A",
-              "title": "Introduction to PC Hardware and Diagnostics",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "157",
-              "title": "Introduction to Unix/Linux",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "CIS",
-              "number": "158",
-              "title": "Linux System Administration",
               "credits": 3,
               "or_alternatives": []
             }
@@ -6216,6 +5973,60 @@
       "matched_program_slug": null
     },
     {
+      "title": "Cosmetology - Certificate of Achievement Level 3 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/cosmetology/cosmetology-certificate-achievement-level-3/",
+      "total_credits": 44,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 44,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "COS",
+              "number": "110A",
+              "title": "Cosmetology Fundamentals 1",
+              "credits": 9,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "COS",
+              "number": "120A",
+              "title": "Cosmetology Advanced 1",
+              "credits": 9,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "COS",
+              "number": "110B",
+              "title": "Cosmetology Fundamentals 2",
+              "credits": 9,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "COS",
+              "number": "120B",
+              "title": "Cosmetology Advanced 2",
+              "credits": 9,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "COS",
+              "number": "125",
+              "title": "Cosmetology Specialties",
+              "credits": 6,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Cosmetology - Associate in Science — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -6270,52 +6081,66 @@
       "matched_program_slug": null
     },
     {
-      "title": "Cosmetology - Certificate of Achievement Level 3 — Associate in Science",
+      "title": "Construction Technology - Associate in Arts — Associate in Science",
       "credential": "AS",
       "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/cosmetology/cosmetology-certificate-achievement-level-3/",
-      "total_credits": 44,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/construction-technology/construction-technology-associate-arts/",
+      "total_credits": 18,
       "gpa_minimum": 2,
       "description": null,
       "requirement_groups": [
         {
           "name": "Recommended Course Sequence",
-          "credits_required": 44,
+          "credits_required": 18,
           "choose_n": null,
           "courses": [
             {
-              "prefix": "COS",
-              "number": "110A",
-              "title": "Cosmetology Fundamentals 1",
-              "credits": 9,
+              "prefix": "CNSTR",
+              "number": "101A",
+              "title": "Tools, Materials, and Safety",
+              "credits": 2,
               "or_alternatives": []
             },
             {
-              "prefix": "COS",
-              "number": "120A",
-              "title": "Cosmetology Advanced 1",
-              "credits": 9,
+              "prefix": "CNSTR",
+              "number": "101B",
+              "title": "Residential Construction Framing",
+              "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "COS",
-              "number": "110B",
-              "title": "Cosmetology Fundamentals 2",
-              "credits": 9,
+              "prefix": "CNSTR",
+              "number": "102A",
+              "title": "Residential Plumbing Systems",
+              "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "COS",
-              "number": "120B",
-              "title": "Cosmetology Advanced 2",
-              "credits": 9,
+              "prefix": "CNSTR",
+              "number": "102B",
+              "title": "Residential/Commercial Wiring",
+              "credits": 3,
               "or_alternatives": []
             },
             {
-              "prefix": "COS",
+              "prefix": "CNSTR",
+              "number": "115",
+              "title": "Blueprint Reading",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CNSTR",
+              "number": "117",
+              "title": "OSHA Construction Safety Standards",
+              "credits": 1,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "CNSTR",
               "number": "125",
-              "title": "Cosmetology Specialties",
-              "credits": 6,
+              "title": "Energy Efficiency Construction",
+              "credits": 3,
               "or_alternatives": []
             }
           ]
@@ -10767,6 +10592,81 @@
       "matched_program_slug": "early-childhood-education"
     },
     {
+      "title": "Early Childhood Education - Associate in Science for Transfer — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/early-childhood-education/early-childhood-education-associate-science-transfer/",
+      "total_credits": 24,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 24,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "FCS",
+              "number": "070",
+              "title": "Child Development",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECE",
+              "number": "020",
+              "title": "Observation and Assessment",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECE",
+              "number": "101",
+              "title": "Introduction to Curriculum",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECE",
+              "number": "101B",
+              "title": "Practicum in Early Childhood Education",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECE",
+              "number": "102",
+              "title": "Principles & Practices of Teaching Young Children",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECE",
+              "number": "107",
+              "title": "Child, Family and Community",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECE",
+              "number": "108",
+              "title": "Health, Safety, and Nutrition in Child Care",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "ECE",
+              "number": "147",
+              "title": "Teaching in a Diverse Society",
+              "credits": 3,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": "early-childhood-education"
+    },
+    {
       "title": "Early Childhood Education - Associate in Science — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -10847,81 +10747,6 @@
               "prefix": "PSYCH",
               "number": "092",
               "title": "Developmental Psychology",
-              "credits": 3,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": "early-childhood-education"
-    },
-    {
-      "title": "Early Childhood Education - Associate in Science for Transfer — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/early-childhood-education/early-childhood-education-associate-science-transfer/",
-      "total_credits": 24,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 24,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "FCS",
-              "number": "070",
-              "title": "Child Development",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECE",
-              "number": "020",
-              "title": "Observation and Assessment",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECE",
-              "number": "101",
-              "title": "Introduction to Curriculum",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECE",
-              "number": "101B",
-              "title": "Practicum in Early Childhood Education",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECE",
-              "number": "102",
-              "title": "Principles & Practices of Teaching Young Children",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECE",
-              "number": "107",
-              "title": "Child, Family and Community",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECE",
-              "number": "108",
-              "title": "Health, Safety, and Nutrition in Child Care",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECE",
-              "number": "147",
-              "title": "Teaching in a Diverse Society",
               "credits": 3,
               "or_alternatives": []
             }
@@ -12183,13 +12008,6 @@
               "or_alternatives": []
             },
             {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
               "prefix": "PHYS",
               "number": "002A",
               "title": "Algebra/Trigonometry-Based Physics I",
@@ -12717,20 +12535,6 @@
               "or_alternatives": []
             },
             {
-              "prefix": "ECON",
-              "number": "010A",
-              "title": "Principles of Macroeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
               "prefix": "POLSC",
               "number": "002",
               "title": "Comparative Politics",
@@ -13026,20 +12830,6 @@
               "or_alternatives": []
             },
             {
-              "prefix": "ECON",
-              "number": "010A",
-              "title": "Principles of Macroeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
               "prefix": "HUMNT",
               "number": "003",
               "title": "Introduction to Women's, Gender, and Sexuality Studies",
@@ -13133,20 +12923,6 @@
               "number": "040",
               "title": "Argumentation and Debate",
               "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010A",
-              "title": "Principles of Macroeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
-              "credits": 0,
               "or_alternatives": []
             },
             {
@@ -13749,53 +13525,6 @@
       "matched_program_slug": null
     },
     {
-      "title": "Machine Technology: CNC Machine Operator - Certificate of Achievement Level 2 — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/machine-technology/cnc-machine-operator-day-accelerated-program-certificate-achievement-level-2/",
-      "total_credits": 18,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": 18,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MACH",
-              "number": "120",
-              "title": "Basic CNC Machining Center/CNC Mill",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MACH",
-              "number": "123",
-              "title": "Basic CNC Lathe",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MACH",
-              "number": "126",
-              "title": "Advanced CNC Machining Center and Turning Center",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MACH",
-              "number": "129",
-              "title": "CNC Programming and Operations",
-              "credits": 4,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
       "title": "Machine Technology: Entry Level Machinist - Certificate of Achievement Level 2 — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -13834,6 +13563,53 @@
               "prefix": "MACH",
               "number": "151B",
               "title": "Advanced Milling Machine Practices",
+              "credits": 4,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Machine Technology: CNC Machine Operator - Certificate of Achievement Level 2 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/machine-technology/cnc-machine-operator-day-accelerated-program-certificate-achievement-level-2/",
+      "total_credits": 18,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": 18,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "MACH",
+              "number": "120",
+              "title": "Basic CNC Machining Center/CNC Mill",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MACH",
+              "number": "123",
+              "title": "Basic CNC Lathe",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MACH",
+              "number": "126",
+              "title": "Advanced CNC Machining Center and Turning Center",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MACH",
+              "number": "129",
+              "title": "CNC Programming and Operations",
               "credits": 4,
               "or_alternatives": []
             }
@@ -13903,67 +13679,6 @@
               "number": "153B",
               "title": "Operator/Programmer II",
               "credits": 5,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Community Health Worker - Certificate of Completion-Noncredit — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/medical-assisting/community-health-worker-certificate-completion-noncredit/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "MA",
-              "number": "500A",
-              "title": "Fundamentals of Medical Terminology I",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "500B",
-              "title": "Fundamentals of Medical Terminology II",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "502",
-              "title": "Fundamentals of Health Navigation",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "503",
-              "title": "Medical Law and Ethics",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "504",
-              "title": "Health and Wellness",
-              "credits": 0,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "505",
-              "title": "Professionalism in Healthcare",
-              "credits": 0,
               "or_alternatives": []
             }
           ]
@@ -14089,10 +13804,10 @@
       "matched_program_slug": null
     },
     {
-      "title": "Medical Assisting: Administrative - Certificate of Achievement Level 3 — Associate in Science",
+      "title": "Community Health Worker - Certificate of Completion-Noncredit — Associate in Science",
       "credential": "AS",
       "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/medical-assisting/medical-assisting-administrative-certificate-achievement-level-3/",
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/medical-assisting/community-health-worker-certificate-completion-noncredit/",
       "total_credits": null,
       "gpa_minimum": 2,
       "description": null,
@@ -14103,211 +13818,45 @@
           "choose_n": null,
           "courses": [
             {
-              "prefix": "CA",
-              "number": "100D",
-              "title": "Microsoft Office",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "HSCI",
-              "number": "008",
-              "title": "Medical Terminology",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
               "prefix": "MA",
-              "number": "005",
-              "title": "Medical Office Emergencies",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "006",
-              "title": "Introduction to Medical Assisting",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "007",
-              "title": "Medical Front Office Procedures",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "008",
-              "title": "Medical Office Financial Procedures",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "009",
-              "title": "Electronic Health Records and Medical Billing",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "011",
-              "title": "Medical Coding",
-              "credits": 2,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "012",
-              "title": "Medical Assisting Administrative Practicum Experience",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "007A",
-              "title": "Business Language Skills",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "008",
-              "title": "Business Communication",
+              "number": "500A",
+              "title": "Fundamentals of Medical Terminology I",
               "credits": 0,
               "or_alternatives": []
             },
             {
-              "prefix": "BIOL",
-              "number": "020",
-              "title": "Human Biology",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BIOL",
-              "number": "071",
-              "title": "Human Anatomy",
-              "credits": 5,
+              "prefix": "MA",
+              "number": "500B",
+              "title": "Fundamentals of Medical Terminology II",
+              "credits": 0,
               "or_alternatives": []
             },
             {
               "prefix": "MA",
-              "number": "004",
-              "title": "Structure and Function of the Human Body",
-              "credits": 4,
-              "or_alternatives": []
-            }
-          ]
-        }
-      ],
-      "matched_program_slug": null
-    },
-    {
-      "title": "Medical Assisting: Clinical - Associate in Science — Associate in Science",
-      "credential": "AS",
-      "program_code": null,
-      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/medical-assisting/medical-assisting-clinical-associate-science/",
-      "total_credits": null,
-      "gpa_minimum": 2,
-      "description": null,
-      "requirement_groups": [
-        {
-          "name": "Recommended Course Sequence",
-          "credits_required": null,
-          "choose_n": null,
-          "courses": [
-            {
-              "prefix": "HSCI",
-              "number": "008",
-              "title": "Medical Terminology",
-              "credits": 3,
+              "number": "502",
+              "title": "Fundamentals of Health Navigation",
+              "credits": 0,
               "or_alternatives": []
             },
             {
               "prefix": "MA",
-              "number": "005",
-              "title": "Medical Office Emergencies",
-              "credits": 2,
+              "number": "503",
+              "title": "Medical Law and Ethics",
+              "credits": 0,
               "or_alternatives": []
             },
             {
               "prefix": "MA",
-              "number": "006",
-              "title": "Introduction to Medical Assisting",
-              "credits": 3,
+              "number": "504",
+              "title": "Health and Wellness",
+              "credits": 0,
               "or_alternatives": []
             },
             {
               "prefix": "MA",
-              "number": "020",
-              "title": "Physical Examination Procedures",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "021",
-              "title": "Medical Office Laboratory Procedures",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "022",
-              "title": "Medical Asepsis and Surgical Procedures",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "023",
-              "title": "Medication Administration for Medical Assistants",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "024",
-              "title": "Medical Assisting Clinical Practicum Experience",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "007A",
-              "title": "Business Language Skills",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BUS",
-              "number": "008",
-              "title": "Business Communication",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BIOL",
-              "number": "020",
-              "title": "Human Biology",
-              "credits": 4,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "BIOL",
-              "number": "071",
-              "title": "Human Anatomy",
-              "credits": 5,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "MA",
-              "number": "004",
-              "title": "Structure and Function of the Human Body",
-              "credits": 4,
+              "number": "505",
+              "title": "Professionalism in Healthcare",
+              "credits": 0,
               "or_alternatives": []
             }
           ]
@@ -14602,6 +14151,116 @@
       "matched_program_slug": null
     },
     {
+      "title": "Medical Assisting: Clinical - Associate in Science — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/medical-assisting/medical-assisting-clinical-associate-science/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "HSCI",
+              "number": "008",
+              "title": "Medical Terminology",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "005",
+              "title": "Medical Office Emergencies",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "006",
+              "title": "Introduction to Medical Assisting",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "020",
+              "title": "Physical Examination Procedures",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "021",
+              "title": "Medical Office Laboratory Procedures",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "022",
+              "title": "Medical Asepsis and Surgical Procedures",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "023",
+              "title": "Medication Administration for Medical Assistants",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "024",
+              "title": "Medical Assisting Clinical Practicum Experience",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "007A",
+              "title": "Business Language Skills",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "008",
+              "title": "Business Communication",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BIOL",
+              "number": "020",
+              "title": "Human Biology",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BIOL",
+              "number": "071",
+              "title": "Human Anatomy",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "004",
+              "title": "Structure and Function of the Human Body",
+              "credits": 4,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
       "title": "Peer Leader Training - Certificate of Specialization — Associate in Science",
       "credential": "AS",
       "program_code": null,
@@ -14627,6 +14286,130 @@
               "number": "291",
               "title": "Pedagogies/Best Practices in Small-Group Peer-Assisted Learning",
               "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "EDUC",
+              "number": "292",
+              "title": "Learning Strategies in Small-Group Peer- Assisted Learning",
+              "credits": 0,
+              "or_alternatives": []
+            }
+          ]
+        }
+      ],
+      "matched_program_slug": null
+    },
+    {
+      "title": "Medical Assisting: Administrative - Certificate of Achievement Level 3 — Associate in Science",
+      "credential": "AS",
+      "program_code": null,
+      "catalog_url": "https://catalog.sjcc.edu/degrees-certificates/medical-assisting/medical-assisting-administrative-certificate-achievement-level-3/",
+      "total_credits": null,
+      "gpa_minimum": 2,
+      "description": null,
+      "requirement_groups": [
+        {
+          "name": "Recommended Course Sequence",
+          "credits_required": null,
+          "choose_n": null,
+          "courses": [
+            {
+              "prefix": "CA",
+              "number": "100D",
+              "title": "Microsoft Office",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "HSCI",
+              "number": "008",
+              "title": "Medical Terminology",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "005",
+              "title": "Medical Office Emergencies",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "006",
+              "title": "Introduction to Medical Assisting",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "007",
+              "title": "Medical Front Office Procedures",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "008",
+              "title": "Medical Office Financial Procedures",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "009",
+              "title": "Electronic Health Records and Medical Billing",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "011",
+              "title": "Medical Coding",
+              "credits": 2,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "012",
+              "title": "Medical Assisting Administrative Practicum Experience",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "007A",
+              "title": "Business Language Skills",
+              "credits": 3,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BUS",
+              "number": "008",
+              "title": "Business Communication",
+              "credits": 0,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BIOL",
+              "number": "020",
+              "title": "Human Biology",
+              "credits": 4,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "BIOL",
+              "number": "071",
+              "title": "Human Anatomy",
+              "credits": 5,
+              "or_alternatives": []
+            },
+            {
+              "prefix": "MA",
+              "number": "004",
+              "title": "Structure and Function of the Human Body",
+              "credits": 4,
               "or_alternatives": []
             }
           ]
@@ -14701,20 +14484,6 @@
               "prefix": "COMS",
               "number": "018",
               "title": "Introduction to Communication Studies",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010A",
-              "title": "Principles of Macroeconomic Theory",
-              "credits": 3,
-              "or_alternatives": []
-            },
-            {
-              "prefix": "ECON",
-              "number": "010B",
-              "title": "Introduction to Microeconomic Theory",
               "credits": 3,
               "or_alternatives": []
             },
