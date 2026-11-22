@@ -461,7 +461,7 @@
     ]
   },
   "AEC 2221": {
-    "text": "AEC 2220 and CAD 1115 , CAD 2220 or CAD 1110 with a grade of C or better or Chair Permission",
+    "text": "AEC 2220 and CAD 1115 , and CAD 2220 or CAD 1110 with a grade of C or better or Chair Permission",
     "courses": [
       "AEC 2220",
       "CAD 1110",
@@ -1087,6 +1087,12 @@
   "CHE 1011": {
     "text": "College Readiness in English and Quantitative Literacy Math",
     "courses": []
+  },
+  "CHE 1012": {
+    "text": "CHE 1011 with a grade of C or better and college readiness in English",
+    "courses": [
+      "CHE 1011"
+    ]
   },
   "CHE 1111": {
     "text": "College Readiness in English and MAT 1340 or higher and CHE 1011 with a grade of C or better, or High School Chemistry",
@@ -2382,12 +2388,6 @@
     "text": "Department Chair permission only.",
     "courses": []
   },
-  "ENG 2094": {
-    "text": "ENG 2031 with a grade of C or better",
-    "courses": [
-      "ENG 2031"
-    ]
-  },
   "ENV 1111": {
     "text": "College Readiness in English and Quantitative Literacy Math",
     "courses": []
@@ -3631,6 +3631,12 @@
     "courses": [
       "NUA 1001",
       "NUA 1070"
+    ]
+  },
+  "NUA 1070": {
+    "text": "Corequisite: NUA 1001",
+    "courses": [
+      "NUA 1001"
     ]
   },
   "NUA 1071": {
